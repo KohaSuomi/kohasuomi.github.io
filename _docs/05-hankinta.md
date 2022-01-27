@@ -47,7 +47,7 @@ Klikkaa _Uusi budjetti_.
 
 Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
-tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja.
+tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja. Lisäksi hankintatieto ei näy enää teoksen perustiedot-näytöllä Hankinta-välilehdellä.
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
