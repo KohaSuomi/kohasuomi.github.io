@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -54,6 +54,11 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 * Kyytiin on tekeillä muutama nidepaketti. Kun nidepakettiasetukset laittaa päälle, tulee Nextillä näkyviin kaikille asiakkaille reklamaatiot-välilehti. Nykyisessä versiossa ei tule. Koska nidepakettien käyttö on hyvin vähäistä, näkyy uusi välilehti turhaan kaikilla asiakkailla. Tehty tiketti, josko saisi välilehden piiloon jollain IntranetUser-rimpsulla.
 * Kyytissä otettu tuotannossa käyttöön anonymisoitujen lainojen palautuskuitti
 * Tietuesiirtäjä otettu tänään käyttöön. Heti tuli kuvailijalta ilmoitus, että pari vanhaa tietuetta on valunut. Lisäksi toivottiin, että tietuesiirtäjän avaa-nappi vaihtaisi väriä painamisen jälkeen, kuten aiemmin.
+
+**Kirkes**
+
+* Järvenpäässä on huomattu, että omatoimikirjastoon pääsee kirjautumaan vanhentuneella kirjastokortilla. Kirjautuminen näkyy omatoimikirjaston hallinnassa onnistuneena, mutta asiakkaan lokilla ei ole Kohassa sip-kyselyä ollenkaan. Elina selvittää asiaa Lyngsoelta. 
+* Tuplamaksuja saaneen asiakkaan tapaus on edelleen selvityksessä (tiketti [#1157](https://github.com/KohaSuomi/Koha/issues/1157)), mutta siihen liittyen päätettiin selkiyttää maksujen kertymistä vaihtamalla ChargeFinesOnClosedDays-järjestelmäasetuksen arvoksi "laskuta". 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
