@@ -19,6 +19,9 @@ Läsnä:
 * Testiversionvaihdon kuulumiset
 * [Tiedonhaussa nimekkeellä järjestämiseen tullut muutos, joka vaatii Elasticsearchin mäppäysten resetoinnin ja uudelleenindeksoinnin #93](https://github.com/KohaSuomi/Koha-23x/issues/93)
   * järjestettäviksi kentiksi määritettiin 245abp-kentät. Olisiko tarvetta määrittää myös 245n eli osan numero järjestettäväksi?
+  * Esim. outi-nextillä Jukola-teokset menevät nyt osan nimen mukaan järjestykseen, ei numeron mukaan.
+	![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/308961c8-eb9c-427b-98ae-94ee7fa4deb7)
+
 
 Etelästä pohjoiseen
 
