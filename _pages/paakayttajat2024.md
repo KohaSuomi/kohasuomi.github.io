@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 18
+
+Aika: 30.4.2024 klo 9.15<br />
+Läsnä:
+
+**Asiat**
+* Testiversionvaihdon kuulumiset
+* [Tiedonhaussa nimekkeellä järjestämiseen tullut muutos, joka vaatii Elasticsearchin mäppäysten resetoinnin ja uudelleenindeksoinnin #93](https://github.com/KohaSuomi/Koha-23x/issues/93)
+  * järjestettäviksi kentiksi määritettiin 245abp-kentät. Olisiko tarvetta määrittää myös 245n eli osan numero järjestettäväksi?
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
