@@ -49,6 +49,12 @@ OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)
 
 ### 5. Muut asiat
 
+#### 5.1 Salasanojen vanhenemistoiminto
+
+[Salasanan vanhenemistoiminto](https://github.com/KohaSuomi/Koha-23x/issues/98) - Miten toimitaan vanhentuneiden käyttäjätunnusten kirjautumisen estämisessä? Mennäänkö uudella salasanan vanhenemistoiminnolla vai pysytäänkö vanhassa tavassa?
+
+Asiasta keskusteltiin pääkäyttäjäpalaverissa ja päätettiin, että asia viedään asiantuntijaryhmän päätettäväksi.
+
 ### 6. Seuraava kokous
 
 Sovitaan seuraavan kokouksen / seuraavien kokousten ajankohta.
