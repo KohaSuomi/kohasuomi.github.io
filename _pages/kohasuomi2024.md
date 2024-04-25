@@ -19,6 +19,7 @@ Aika: Maanantai 29.4.2024 klo 9<br />
 Läsnä:
 
 * Hellessä käyttökatkos 25.4.2024 klo 10.19. Tokeni Plackin sulkemisella ja uudelleenkäynnistyksellä.
+* Kesäprojektit
 
 
 ## Viikko 17
