@@ -30,7 +30,7 @@ Etelästä pohjoiseen
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -75,7 +75,10 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 **Kirkes**
 
 * Järvenpäässä on huomattu, että omatoimikirjastoon pääsee kirjautumaan vanhentuneella kirjastokortilla. Kirjautuminen näkyy omatoimikirjaston hallinnassa onnistuneena, mutta asiakkaan lokilla ei ole Kohassa sip-kyselyä ollenkaan. Elina selvittää asiaa Lyngsoelta. 
-* Tuplamaksuja saaneen asiakkaan tapaus on edelleen selvityksessä (tiketti [#1157](https://github.com/KohaSuomi/Koha/issues/1157)), mutta siihen liittyen päätettiin selkiyttää maksujen kertymistä vaihtamalla ChargeFinesOnClosedDays-järjestelmäasetuksen arvoksi "laskuta". 
+* Tuplamaksuja saaneen asiakkaan tapaus on edelleen selvityksessä (tiketti [#1157](https://github.com/KohaSuomi/Koha/issues/1157)), mutta siihen liittyen päätettiin selkiyttää maksujen kertymistä vaihtamalla ChargeFinesOnClosedDays-järjestelmäasetuksen arvoksi "laskuta".
+
+**Siilinjärvi**
+* Ei mainittavaa. Yritetään ottaa loppukiri versionvaihtotöissä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
