@@ -245,7 +245,7 @@ päivämäärävälin ensimmäistä päivää.
 <img src="/assets/files/docs/Tyokalut/Lisaakiinniolopaiva.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot infoteksteineen. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot infoteksteineen. Tarkempi kuvaus varsinaisessa tekstissä" style="width:90.0%" />
 
 Päivään -kenttään voi lisätä kiinnioloajan päättymispäivän, jos kiinniolopäivät lisätään aikavälille. Kiinniolopäivän ollessa yksittäinen, jätetään Päivään -kenttä tyhjäksi. Punaisesta ruksista Päivään -kentän saa tarvittaessa tyhjennettyä. Nimeke-kenttään voi kirjoittaa haluamansa nimen kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
-Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi kiinniolovaihtoehdoista:
+Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi kiinniolovaihtoehdoista (kysymysmerkistä vaihtoehdon perässä saat tarkemman kuvauksen vaihtoehdosta. Yllä olevassa kuvassa on tarkemmat kuvaukset avattuina.):
 
 - Kiinni vain tänä päivänä
   - yksittäinen kiinniolopäivä
@@ -259,8 +259,6 @@ Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi kiinniol
   - toimii kuten Kiinni joka vuosi samana päivänä -vaihtoehto, mutta määritetäänkin aikaväli, esim. joulunpyhät
 - Kopioi kaikkiin kirjastoihin
   - jos tähän laittaa rastin, kopioidaan määritys kaikkiin kimpan kirjastoihin. Kätevä toiminto silloin, kun pitää saada tehtyä järjestelmänlaajuisia määrityksiä. Esim. kaikki kirjastot on suljettu järjestelmäpäivityksen vuoksi tai kaikkia kirjastoja koskeva juhlapyhä.
-
-Kysymysmerkistä vaihtoehdon perässä saat tarkemman kuvauksen vaihtoehdosta. Kuvassa tarkemmat kuvaukset ovat avattuina alla.
 
 Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat kiinniolon kopioituvan.
 
