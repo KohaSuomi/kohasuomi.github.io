@@ -301,7 +301,7 @@ Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
 Valitse päivä tai aikavälin ensimmäinen päivä.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri8.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä Kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
