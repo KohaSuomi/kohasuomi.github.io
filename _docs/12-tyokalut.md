@@ -229,7 +229,7 @@ Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittama
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät. Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä eikä varausten viimeisiä noutopäiviä. Kalenterit määritetään erikseen jokaiselle kirjastolle.
 
-Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston kalenteri. Sen oikealle puoelelle avautuu Vinkit-ruutu, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
+Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston kalenteri. Sen oikealle puolelle avautuu Vinkit-ruutu, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
 kiinniolopäivistä.
 
 <img src="/assets/files/docs/Tyokalut/Pekurinkirjastonkalenteri.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." alt="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." style="width:90.0%" />
@@ -304,10 +304,12 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 
 <img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä Kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
-Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Voit kopioida tekemäsi poiston kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon Kopioi muutokset kaikkiin kirjastoihin -vaihtoehdon. Tallenna valinnat.
+Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Tallenna valinnat.
 
 Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
+
+Voit kopioida valitsemasi poiston tai muokkauksen kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon _Kopioi muutokset kaikkiin kirjastoihin_ -vaihtoehdon. 
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
