@@ -286,13 +286,15 @@ Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 - sininen on poikkeus määritettyyn kiinnioloon eli käytännössä päivä
   on avoin ja sille voi tulla erä- ja noutopäiviä.
 
-Alla kuvakaappaus, miltä värikoodit näyttävät kalenterissa.  
+Alla kuvakaappaus, miltä värikoodit näyttävät kalenterissa.
+
 <img src="/assets/files/docs/Tyokalut/Kalenteri6.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:90.0%" />
 
 Kalenterissa klikattu päivä näkyy vihreänä. 
 
 Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä on avoinna oleva päivä. Jos päivä on merkitty suljetuksi,
-näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
+näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.
+
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
 ### 12.6.3 Sulkutiedon poistaminen ja muokkaaminen
@@ -303,7 +305,7 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 
 <img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä Kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
-Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Voit kopioida tekemäsi muokkauksen kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon Kopioi muutokset kaikkiin kirjastoihin -vaihtoehdon. Tallenna valinnat.
+Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Voit kopioida tekemäsi poiston kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon Kopioi muutokset kaikkiin kirjastoihin -vaihtoehdon. Tallenna valinnat.
 
 Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
