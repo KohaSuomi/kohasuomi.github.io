@@ -295,21 +295,18 @@ Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä o
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 12.6.3 Sulkutiedon poistaminen
+### 12.6.3 Sulkutiedon poistaminen ja muokkaaminen
 
-Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
+Sulkupäiviä voi poistaa tai muokata, jos ne ovat virheellisiä tai tarpeettomia.
 
 Valitse päivä tai aikavälin ensimmäinen päivä.
 
 <img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä Kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
-Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
-poisto -vaihtoehto ja klikkaa Tallenna.
+Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Voit kopioida tekemäsi muokkauksen kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon Kopioi muutokset kaikkiin kirjastoihin -vaihtoehdon. Tallenna valinnat.
 
-### 12.6.4. Sulkutiedon muokkaaminen
-
-Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
-sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
+Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja kuvausta. Valitse
+sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
