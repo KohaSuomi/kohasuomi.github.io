@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 18
+
+Aika: Maanantai 29.4.2024 klo 9<br />
+Läsnä:
+
+* Hellessä käyttökatkos 25.4.2024 klo 10.19. Tokeni Plackin sulkemisella ja uudelleenkäynnistyksellä.
+
+
 ## Viikko 17
 
 Aika: Maanantai 22.4.2024 klo 9<br />
