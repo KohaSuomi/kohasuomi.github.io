@@ -82,7 +82,7 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Hanna Ikonen ja Katja Valjakka (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren ja Lotta Juvonen (Helle), Hanna Ikonen ja Katja Valjakka (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
