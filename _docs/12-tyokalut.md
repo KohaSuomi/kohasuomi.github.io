@@ -227,15 +227,16 @@ Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittama
 
 ## 12.6 Kalenteri
 
-Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät.
-Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä
-eikä varausten viimeisiä noutopäiviä. Kalenterit määritetään erikseen
-jokaiselle kirjastolle.
+Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät. Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä eikä varausten viimeisiä noutopäiviä. Kalenterit määritetään erikseen jokaiselle kirjastolle.
 
-Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston
-kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
-kiinniolopäivistä.  
-<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
+Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston kalenteri. Sen oikealle puoelelle avautuu Vinkit-ruutu, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
+kiinniolopäivistä.
+
+<img src="/assets/files/docs/Tyokalut/Kalenterivinkit.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." alt="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." style="width:90.0%" />
+
+<img src="/assets/files/docs/Tyokalut/Pekurinkirjastonkalenteri.png" title="Kuvakaappaus kalenteri-työkalun Vinkit-ruudusta, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
+kiinniolopäivistä." alt="Kuvakaappaus kalenteri-työkalun Vinkit-ruudusta, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
+kiinniolopäivistä." style="width:90.0%" />
 
 ### 12.6.1 Kiinniolon lisääminen
 
