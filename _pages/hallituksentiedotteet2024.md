@@ -19,11 +19,12 @@ Kevät tuo mukanaan tilinpäätöksen ja yhtiökokouksen valmistelun. Kävimme h
 
 Toimitusjohtajan raportti on liitteenä ja se käytiin kokouksessa läpi keskustellen. Versiopäivityksen valmistelu etenee suunnitellusti ja tällä kertaa mukana ei ole isoja muutoksia. Toivottavasti kaikki sujuu hyvin! Minusta uusita ominaisuuksista on tiedotettu hyvin kirjastoja. Mukava oli myös kuulla, että miniwebinaarit ovat keränneet hyvin osallistujia.
 
+
 Hyvää viikonloppua!
 
 t. Rebekka, hallituksen pj
 
-Toimitusjohtajan raportti: [Toimitusjohtajanraportti 4_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15127861/Toimitusjohtajanraportti_4_24.pdf)
+Toimitusjohtajan raportti: [Toimitusjohtajanraportti_4_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15128148/Toimitusjohtajanraportti_4_24.pdf)
 
 
 ## Koha-Suomen hallituksen tiedote 3/2024
