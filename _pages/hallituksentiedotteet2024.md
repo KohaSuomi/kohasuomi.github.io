@@ -23,7 +23,7 @@ Hyvää viikonloppua!
 
 t. Rebekka, hallituksen pj
 
-Toimitusjohtajan raportti: [Toimitusjohtajanraportti_ 4_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15127861/Toimitusjohtajanraportti_.4_24.pdf)
+Toimitusjohtajan raportti: [Toimitusjohtajanraportti 4_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15127861/Toimitusjohtajanraportti_4_24.pdf)
 
 
 ## Koha-Suomen hallituksen tiedote 3/2024
