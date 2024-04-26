@@ -11,6 +11,21 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 4/2024
+
+26.4.2024
+
+Kevät tuo mukanaan tilinpäätöksen ja yhtiökokouksen valmistelun. Kävimme hallituksessa tarkkaan läpi tilinpäätöstä. Se näyttää miinusta 33 439,90 euroa. Tappio on ollut tarkoituksellinen ja sillä on pienennetty aiemmin kertyneitä voittoja. Yhtiö ei jaa osinkoja osakkailleen, joten ei ole tarkoituksenmukaista kerryttää voittoja taseeseen.
+
+Toimitusjohtajan raportti on liitteenä ja se käytiin kokouksessa läpi keskustellen. Versiopäivityksen valmistelu etenee suunnitellusti ja tällä kertaa mukana ei ole isoja muutoksia. Toivottavasti kaikki sujuu hyvin! Minusta uusita ominaisuuksista on tiedotettu hyvin kirjastoja. Mukava oli myös kuulla, että miniwebinaarit ovat keränneet hyvin osallistujia.
+
+Hyvää viikonloppua!
+
+t. Rebekka, hallituksen pj
+
+Toimitusjohtajan raportti: [Toimitusjohtajanraportti_ 4_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15127861/Toimitusjohtajanraportti_.4_24.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 3/2024
 
 22.3.2024
