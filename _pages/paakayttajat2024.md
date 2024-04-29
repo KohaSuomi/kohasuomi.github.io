@@ -21,7 +21,7 @@ Läsnä:
   * järjestettäviksi kentiksi määritettiin 245abp-kentät. Olisiko tarvetta määrittää myös 245n eli osan numero järjestettäväksi?
   * Esim. outi-nextillä Jukola-teokset menevät nyt osan nimen mukaan järjestykseen, ei numeron mukaan.
 	![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/308961c8-eb9c-427b-98ae-94ee7fa4deb7)
-
+* Osa onkin jo laittanut tikettiä viestityksen käynnistämisestä versiovaihdon jälkeen. Miten muut haluavat viestityksen käynnistyksen? Käytännössä ei voi valita, mitkä viestit lähtevät, vaan joko kaikki lähtee tai mitään ei lähde.
 
 Etelästä pohjoiseen
 
