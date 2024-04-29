@@ -16,11 +16,25 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 18
 
 Aika: Maanantai 29.4.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Lasse, Emmi, Ari, Johanna, Lari, Anneli
 
 * Hellessä käyttökatkos 25.4.2024 klo 10.19. Tokeni Plackin sulkemisella ja uudelleenkäynnistyksellä.
 * Kesäprojektit
-
+  * JS-rimpsut plugineiksi / Lari
+  * committien tägitys / Emmi ja Johanna
+  * branch-listan läpikäyminen ja siivoaminen / Emmi
+  * branch-listan käsittelyn järkevöittäminen / joku
+  * yhteisöversion pystytys / Emmi, Kodo
+  * RDA-konversiot / Johanna ja Emmi
+  * Tiedonhaun muutoksista video tms. / Anneli
+* Pitää käydä läpi, onko meillä sellaisia alkuvuoden brancheja, joita ei ole viety 23:een
+* Scrum
+  * Anneli: Bugiton, Ellibsin kirjautumisten testailua, kun Lumpeissa ilmeisesti tulee moninkertaisia virhekirjauksia.
+  * Emmi: bugiton, mattermostiin, laskutusnapin disabloinnin yrityksiä, tänään testien päivitys 23.11 versioon
+  * Johanna: nappi sitä varten, että action logseista pytyy palauttamaan vanhemman version tietueesta, pikkuviilauksia Melinda-vientiin
+  * Pasi: Kotkan lainaustilastosysteemi, kaikille javascript-plugin, joka korjaa Z39.50-hakua
+  * Lari: Elasticsearchin tutkimista, miten saisi skandit aakkostumaan oikein hakutulosten järjestämisessä. Hakuviivebranch yhteisöstä omaan branchiin meille. Pari sms-driveria testattava, että skandit toimii.
+  * Lasse: tekemättömien tikettien tutkimista
 
 ## Viikko 17
 
