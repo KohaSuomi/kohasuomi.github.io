@@ -18,14 +18,17 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 6/24
 
 Aika: 29.4.2024 klo 13<br />
-Läsnä:
+Läsnä: Ari, Tuomas, Piia, Päivi, Hanna, Janne, Leena, Susanna, Riikka, Tove, Kodo, Anneli
 
 ### 1. Arin ajankohtaiset
 
 Tilinpäätös valmistumassa.
+
 ### 2. Sähköinen ilmoittautuminen
 
-Lastu-kirjastoista Janne Seppänen kertoo heidän sähköoisen ilmoittautumisen prosessista. 
+Lastu-kirjastoista Janne Seppänen kertoo heidän sähköisen ilmoittautumisen prosessista. 
+
+Kodo on yhteyksissä Heinolan tietohallintoon.
 
 ### 3. Signum-työryhmän perustaminen
 
@@ -35,18 +38,34 @@ Edellisessä kokouksessa päätettiin perustaa työryhmä, joka miettii ja testa
 
 Jäsenet kimpoista:
 
-OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)
+OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)<br />
+Lappi: Pia Kusmin<br />
+Kirkes: Sani Kuosmanen, Tuusula<br />
+Vaara: Päivi Knuutinen<br />
+Helle: Kati Sillgren<br />
+Lumme: ilmoitetaan myöhemmin<br />
+Kyyti: Tuomas Kunttu<br />
+Vaski: Anni Rajala<br />
+Koha-Suomi: Anneli ja joku kehittäjistä (tarkennetaan myöhemmin)
+
+Kokoonkutsujana toimii Anneli.
 
 ### 4. Kehitysehdotusten läpikäynti
 
 * [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
   * Jatketaan käsittelyä.
+  * Päätös: Edistetään kahta ratkaisua rinnakkain:
+1. Viestejä poistetaan jatkossa määrän mukaan. Viestien määrärajaksi 500. Lisäksi viestit-sivulle lisätään JavaScript-liitännäinen, jolla kerrotaan, että vanhemmat viestit löytyvät raportilla ja nappi/linkki, jolla saa ajettua kyseisen raportin (samalla tavalla kuin lainamäärä-raportti perustiedot-näytöllä tiedonhaussa).
+2. @MikkoLiimatainen tekee yhteisöön tiketin, jossa ehdotetaan yhteisöön viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
 * [Hetun tallennukseen painikkeen siirto tai muistutus tallentamattomasta hetusta #1066](https://github.com/KohaSuomi/Koha/issues/1066)
   * Ehdotus: Kommenteissa olevan Larin vaihtoehto
+  * Päätös: Tutkitaan, saisiko asiakkaan muokkaus/lisäyssivun yläreunan Tallenna-napin "epäaktiiviseksi" kunnes on painettu Lisää hetu -osiossa joko Tallenna tai Ohita. Jonkinlainen ohjeistus myös, jos yritetään tallentaa ilman hetun tallennusta tai ohitusta.
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100)
   * Ehdotus: Toteutettavissa. Halutaanko tarjota yhteisöön?
+  * Päätös: Toteutetaan ja tarjotaan yhteisöön. Niteen tila pitää olla ajastetussa ajossa määriteltävissä, jotta ratkaisu kelpaa yhteisölle. Pääkäyttäjät: Listatkaa tähän tikettiin kimpassa käytössä olevat NOT_LOAN-tilat, niin koitetaan löytää jokin, jota voisi käyttää kaikissa kimpoissa. Tarvittaessa luodaan uusi arvo kaikille, jolloin se olisi sama.
 * [Hyllyvarausraportissa värikoodaus seudun mukaan #1138](https://github.com/KohaSuomi/Koha/issues/1138)
-  * Ehdotus: Toteutus kirjastoryhmien kautta. 
+  * Ehdotus: Toteutus kirjastoryhmien kautta.
+  * Päätös: Toteutetaan hyödyntäen kirjastoryhmiä. Kokeillaan riittäisikö yksiköiden tunnusten lihavointi.
 
 ### 5. Muut asiat
 
@@ -56,9 +75,19 @@ OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)
 
 Asiasta keskusteltiin pääkäyttäjäpalaverissa ja päätettiin, että asia viedään asiantuntijaryhmän päätettäväksi.
 
+Päätös: Otetaan käyttöön virkailijatunnuksilla uusi salasanan vanhenemistoiminto niin, että salasanan vanhentumispäivä seuraa tunnuksen vanhentumispäivää. Triggeri hoitaa, että ne ovat samat ja että muutos koskee vain asiakastyyppiä VIRKAILIJA. Kaikissa kimpoissa asiakastyypin tunnus on sama.
+
+##### 5.2. Ehdokkaat seuraavaan asiantuntijaryhmään
+
+Selvitelkää kimpoissa ehdokkaat seuraavaan nimettävään asiantuntijaryhmään.
+
 ### 6. Seuraava kokous
 
 Sovitaan seuraavan kokouksen / seuraavien kokousten ajankohta.
+
+Ma 27.5.2024 klo 13.
+
+Sovitaan seuraavassa kokouksessa kesän ja syksyn kokoukset.
 
 ## Asiantuntijaryhmän muistio 5/2024
 
