@@ -22,6 +22,7 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Tilinpäätös valmistumassa.
 ### 2. Sähköinen ilmoittautuminen
 
 Lastu-kirjastoista Janne Seppänen kertoo heidän sähköoisen ilmoittautumisen prosessista. 
