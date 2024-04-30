@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
@@ -36,6 +36,10 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Mietimme onko kiireetömän varauksen yhteydessä näkynyt teksti "Kiireetön varaus" myös nidevarausten kohdalla? Tällä hetkellä nextillä ja tuotannossa tieto kiireettömästä varauksesta näkyy vain tietueen varausjonossa ns. normaalin varauksen kohdalla. Kiireettömät varaukset eivät erotu normivarauksista asiakkaan varauksissa eivätkä kiireettömät nidevaraukset tietueen varausjonossa.
+
+**Vaara**
+* Hankintatilastot ihmetyttävät, ei saada samoja lukuja eri raporttien kautta. Jatketaan ihmettelyä versionvaihdon jälkeen.
+* Testausta muiden töiden ohessa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
