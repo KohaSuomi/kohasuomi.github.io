@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
@@ -40,6 +40,11 @@ Etelästä pohjoiseen
 **Vaara**
 * Hankintatilastot ihmetyttävät, ei saada samoja lukuja eri raporttien kautta. Jatketaan ihmettelyä versionvaihdon jälkeen.
 * Testausta muiden töiden ohessa.
+
+**Kirkes**
+* Muutamalla asiakkaalla on varaus tarttunut vanhentuvien noutamattomien varausten ajoon, vaikka on todellisuudessa ollut jo pari päivää asiakkaalla lainassa. Tutkitaan asiaa tarkemmin varmaan versionvaihdon jälkeen. Tällä hetkellä versionvaihdon testaukset etusijalla. 
+* Keravalla ollut tapaus, jossa aikakatkaisun jälkeen kirjautuessa virkailijan toimipiste on vaihtunut toiseksi. Seurataan tilannetta ja tehdään tarvittaessa tiketti.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
