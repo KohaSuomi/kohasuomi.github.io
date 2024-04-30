@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Smenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
