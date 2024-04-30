@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
@@ -27,6 +27,9 @@ Läsnä:
   * Käykää lisäämässä kimpan notforloan-arvot tikettiin, niin etsitään jokin sopiva varauksia varten.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Ei raportoitavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
