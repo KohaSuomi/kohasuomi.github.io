@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 6/24
+## Asiantuntijaryhmän muistio 6/24
 
 Aika: 29.4.2024 klo 13<br />
-Läsnä: Ari, Tuomas, Piia, Päivi, Hanna, Janne, Leena, Susanna, Riikka, Tove, Kodo, Anneli
+Läsnä: Ari Mäkiranta, Tuomas Kunttu , Piia Semenoff, Päivi Knuutinen, Hanna Ikonen, Janne Seppänen (kohta 2), Leena Kinnunen, Susanna Sandell, Riikka Mustajärvi, Tove Selkälä, Kodo Korkalo, Anneli Österman
 
 ### 1. Arin ajankohtaiset
 
@@ -26,9 +26,23 @@ Tilinpäätös valmistumassa.
 
 ### 2. Sähköinen ilmoittautuminen
 
-Lastu-kirjastoista Janne Seppänen kertoo heidän sähköisen ilmoittautumisen prosessista. 
+Lastu-kirjastoista Janne Seppänen kertoi heidän sähköisen ilmoittautumisen prosessista.
+  * [epalvelun](https://epalvelu.fi/) kautta voi tehdä vahvan tunnistautumisen vaativan lomakkeen, joka ei pakota hyväksymään suomi.fi-viestien käyttöönottoa.
+  * Lastussa käytetään [Heinolan kunnan lomaketta](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/)
+  * Webprobolilla on vastaava toteutus, mutta se vaatii hyväksymään suomi.fi-viestien käyttöönoton.
+  * Lomakkeen tiedot tallennetaan palvelimelle xml-muodossa (jokaisesta asiakkaasta oma xml-tiedosto), josta ohjelmistorobotti ottaa ne yksi kerrallaan käsittelyyn yöllä. Robotti kirjautuu Auroran käyttöliittymään ja lisää asiakkaat sitä kautta.
+  * Robotti myös poistaa sellaiset asiakstiedot, joita ei ole otettu käyttöön tietyn ajan kuluessa.
+  * Lisätyistä ja poistetuista asiakastiedoista (määrä) sekä virheistä saavat päivittäin tiedon sähköpostiin.
 
-Kodo on yhteyksissä Heinolan tietohallintoon.
+Miten Kohan osalta kannattaisi mahdollisesti edetä?
+* Kannattanee hyödyntää samalla tavalla valmista lomakepalvelua, johon on liitetty jo vahva tunnistautuminen
+* Kohan REST-rajapinnassa on mahdollista viedä asiakastietoja JSON-muodossa tietokantaan.
+* Lomakkeen ja rajapinnan väliin tarvittaneen todennäköisesti jokin "konvertteri", joka muuttaa datan oikeaan muotoon ja vie ne rajapinnan kautta Kohaan.
+* Sotu-siiloon ei ole yhteyttä, joten hetut pitänee lisätä sitten, kun asiakas tulee noutamaan kortin.
+* Sähköisille ilmoittautujille kannattaisi tehdä Kohaan oma asiakastyyppi, joka muutetaan sitten joksikin muuksi, kun asiakas tulee noutamaan kortin.
+* Ajastettulla ajolla voidaan poistaa asiakkaat, joiden asiakastyyppi ei ole muuttunut toiseksi tietyn ajan sisällä rekisteröimispäivästä.
+
+Jatko: Kodo on yhteyksissä Heinolan tietohallintoon henkilöön, joka on ollut mukana Heinolan lomakkeen käyttöönotossa.
 
 ### 3. Signum-työryhmän perustaminen
 
@@ -55,8 +69,8 @@ Kokoonkutsujana toimii Anneli.
 * [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
   * Jatketaan käsittelyä.
   * Päätös: Edistetään kahta ratkaisua rinnakkain:
-1. Viestejä poistetaan jatkossa määrän mukaan. Viestien määrärajaksi 500. Lisäksi viestit-sivulle lisätään JavaScript-liitännäinen, jolla kerrotaan, että vanhemmat viestit löytyvät raportilla ja nappi/linkki, jolla saa ajettua kyseisen raportin (samalla tavalla kuin lainamäärä-raportti perustiedot-näytöllä tiedonhaussa).
-2. @MikkoLiimatainen tekee yhteisöön tiketin, jossa ehdotetaan yhteisöön viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
+    1. Viestejä poistetaan jatkossa määrän mukaan. Viestien määrärajaksi 500. Lisäksi viestit-sivulle lisätään JavaScript-liitännäinen, jolla kerrotaan, että vanhemmat viestit löytyvät raportilla ja nappi/linkki, jolla saa ajettua kyseisen raportin (samalla tavalla kuin lainamäärä-raportti perustiedot-näytöllä tiedonhaussa).
+    2. Tiketin avaajana Mikko Liimatainen tekee yhteisöön tiketin, jossa ehdotetaan yhteisöön viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
 * [Hetun tallennukseen painikkeen siirto tai muistutus tallentamattomasta hetusta #1066](https://github.com/KohaSuomi/Koha/issues/1066)
   * Ehdotus: Kommenteissa olevan Larin vaihtoehto
   * Päätös: Tutkitaan, saisiko asiakkaan muokkaus/lisäyssivun yläreunan Tallenna-napin "epäaktiiviseksi" kunnes on painettu Lisää hetu -osiossa joko Tallenna tai Ohita. Jonkinlainen ohjeistus myös, jos yritetään tallentaa ilman hetun tallennusta tai ohitusta.
@@ -79,7 +93,7 @@ Päätös: Otetaan käyttöön virkailijatunnuksilla uusi salasanan vanhenemisto
 
 ##### 5.2. Ehdokkaat seuraavaan asiantuntijaryhmään
 
-Selvitelkää kimpoissa ehdokkaat seuraavaan nimettävään asiantuntijaryhmään.
+Selvitelkää kimpoissa (myös Lastu) ehdokkaat seuraavaan nimettävään asiantuntijaryhmään.
 
 ### 6. Seuraava kokous
 
