@@ -31,7 +31,7 @@ Lastu-kirjastoista Janne Seppänen kertoi heidän sähköisen ilmoittautumisen p
   * Lastussa käytetään [Heinolan kunnan lomaketta](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/)
   * Webprobolilla on vastaava toteutus, mutta se vaatii hyväksymään suomi.fi-viestien käyttöönoton.
   * Lomakkeen tiedot tallennetaan palvelimelle xml-muodossa (jokaisesta asiakkaasta oma xml-tiedosto), josta ohjelmistorobotti ottaa ne yksi kerrallaan käsittelyyn yöllä. Robotti kirjautuu Auroran käyttöliittymään ja lisää asiakkaat sitä kautta.
-  * Robotti myös poistaa sellaiset asiakstiedot, joita ei ole otettu käyttöön tietyn ajan kuluessa.
+  * Robotti myös poistaa sellaiset asiakastiedot, joita ei ole otettu käyttöön tietyn ajan kuluessa.
   * Lisätyistä ja poistetuista asiakastiedoista (määrä) sekä virheistä saavat päivittäin tiedon sähköpostiin.
 
 Miten Kohan osalta kannattaisi mahdollisesti edetä?
@@ -40,7 +40,7 @@ Miten Kohan osalta kannattaisi mahdollisesti edetä?
 * Lomakkeen ja rajapinnan väliin tarvittaneen todennäköisesti jokin "konvertteri", joka muuttaa datan oikeaan muotoon ja vie ne rajapinnan kautta Kohaan.
 * Sotu-siiloon ei ole yhteyttä, joten hetut pitänee lisätä sitten, kun asiakas tulee noutamaan kortin.
 * Sähköisille ilmoittautujille kannattaisi tehdä Kohaan oma asiakastyyppi, joka muutetaan sitten joksikin muuksi, kun asiakas tulee noutamaan kortin.
-* Ajastettulla ajolla voidaan poistaa asiakkaat, joiden asiakastyyppi ei ole muuttunut toiseksi tietyn ajan sisällä rekisteröimispäivästä.
+* Ajastetulla ajolla voidaan poistaa asiakkaat, joiden asiakastyyppi ei ole muuttunut toiseksi tietyn ajan sisällä rekisteröimispäivästä.
 
 Jatko: Kodo on yhteyksissä Heinolan tietohallintoon henkilöön, joka on ollut mukana Heinolan lomakkeen käyttöönotossa.
 
@@ -79,7 +79,7 @@ Kokoonkutsujana toimii Anneli.
   * Päätös: Toteutetaan ja tarjotaan yhteisöön. Niteen tila pitää olla ajastetussa ajossa määriteltävissä, jotta ratkaisu kelpaa yhteisölle. Pääkäyttäjät: Listatkaa tähän tikettiin kimpassa käytössä olevat NOT_LOAN-tilat, niin koitetaan löytää jokin, jota voisi käyttää kaikissa kimpoissa. Tarvittaessa luodaan uusi arvo kaikille, jolloin se olisi sama.
 * [Hyllyvarausraportissa värikoodaus seudun mukaan #1138](https://github.com/KohaSuomi/Koha/issues/1138)
   * Ehdotus: Toteutus kirjastoryhmien kautta.
-  * Päätös: Toteutetaan hyödyntäen kirjastoryhmiä. Kokeillaan riittäisikö yksiköiden tunnusten lihavointi.
+  * Päätös: Toteutetaan hyödyntäen kirjastoryhmiä. Kokeillaan riittäisikö yksiköiden tunnusten lihavointi sarakkeessa, jotta ei tulisi liikaa hankalasti toisistaan erottuvia värejä.
 
 ### 5. Muut asiat
 
@@ -101,7 +101,7 @@ Sovitaan seuraavan kokouksen / seuraavien kokousten ajankohta.
 
 Ma 27.5.2024 klo 13.
 
-Sovitaan seuraavassa kokouksessa kesän ja syksyn kokoukset.
+Sovitaan toukokuun kokouksessa kesän ja syksyn kokoukset.
 
 ## Asiantuntijaryhmän muistio 5/2024
 
