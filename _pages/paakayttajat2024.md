@@ -31,6 +31,9 @@ Etelästä pohjoiseen
 **Vaski**
 * Ei raportoitavaa
 
+**OUTI**
+* Mietimme onko kiireetömän varauksen yhteydessä näkynyt teksti "Kiireetön varaus" myös nidevarausten kohdalla? Tällä hetkellä nextillä ja tuotannossa tieto kiireettömästä varauksesta näkyy vain tietueen varausjonossa ns. normaalin varauksen kohdalla. Kiireettömät varaukset eivät erotu normivarauksista asiakkaan varauksissa eivätkä kiireettömät nidevaraukset tietueen varausjonossa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 17
