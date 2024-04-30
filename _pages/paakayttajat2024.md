@@ -13,18 +13,21 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
   * Ei ehditty vielä tehdä. Tänään uusi yritys.
 * [Tiedonhaussa nimekkeellä järjestämiseen tullut muutos, joka vaatii Elasticsearchin mäppäysten resetoinnin ja uudelleenindeksoinnin #93](https://github.com/KohaSuomi/Koha-23x/issues/93)
   * järjestettäviksi kentiksi määritettiin 245abp-kentät. Olisiko tarvetta määrittää myös 245n eli osan numero järjestettäväksi?
+  	* Päätös: lisätään myös 245n
   * Esim. outi-nextillä Jukola-teokset menevät nyt osan nimen mukaan järjestykseen, ei numeron mukaan.
 	![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/308961c8-eb9c-427b-98ae-94ee7fa4deb7)
 * Osa onkin jo laittanut tikettiä viestityksen käynnistämisestä versiovaihdon jälkeen. Miten muut haluavat viestityksen käynnistyksen? Käytännössä ei voi valita, mitkä viestit lähtevät, vaan joko kaikki lähtee tai mitään ei lähde.
+  * Tehkää Koha-23-tietovarantoon jokaisesta kimpasta oma tiketti, milloin haluatte viestien lähtevän versionvaihdon jälkeen. 
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä](https://github.com/KohaSuomi/Koha/issues/1100)
   * Käykää lisäämässä kimpan notforloan-arvot tikettiin, niin etsitään jokin sopiva varauksia varten.
+* Onko kiinnostusta laittaa päälle [tiketin 129](https://github.com/KohaSuomi/Koha-23x/issues/129) asetusta?
 
 Etelästä pohjoiseen
 
