@@ -27,7 +27,7 @@ Sihteerinä toimi Marja Soisalo.
 #### 2. Kohan versionvaihto ja kuvailuun liittyvien toimintojen testaus paikalliskannoissa ja TäTissä ####
 <ul>
     <li>Miten toimii? Onko huomattu mitään erikoista? - Kovin moni ei vielä ole testauksia tehnyt. Kaikki toiminnot eivät ole testikannoissa vielä päällä, mutta perus kuvailutoiminnot ovat kunnossa. </li>
-    <li>TäTin toimintojen testaus: https://tati-next.koha-suomi.fi/  </li>
+    <li>TäTin toimintojen testaus: <a href="https://tati-next.koha-suomi.fi/" target="_blank">TäTi-next </a>  </li>
     <li>Mikropalvelun Melindaan vienti- ja tuontitoiminnot vaihtuvat myös uudelle tietuesiirtäjälle. Tätä testataan parhaillaan Testi-TäTissä. <a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/4" target="_blank">Melinda-vientien ja -tuontien siirtäminen liitännäiseen </a> </li>
 </ul>
  
