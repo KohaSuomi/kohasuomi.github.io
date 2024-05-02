@@ -9,6 +9,79 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
 
+
+## Kuvailuryhmän muistio 4/2024 ##
+
+Aika: 7.4.2024 klo 14.00–15.15
+
+Osallistujat: Mauri Aittaniemi (Lappi), Helena Backman-Karvonen (Helle), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski, poistui klo 15)
+
+Poissa: Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerinä toimi Marja Soisalo.
+
+#### 2. Kohan versionvaihto ja kuvailuun liittyvien toimintojen testaus paikalliskannoissa ja TäTissä ####
+<ul>
+    <li>Miten toimii? Onko huomattu mitään erikoista? - Kovin moni ei vielä ole testauksia tehnyt. Kaikki toiminnot eivät ole testikannoissa vielä päällä, mutta perus kuvailutoiminnot ovat kunnossa. </li>
+    <li>TäTin toimintojen testaus: https://tati-next.koha-suomi.fi/  </li>
+    <li>Mikropalvelun Melindaan vienti- ja tuontitoiminnot vaihtuvat myös uudelle tietuesiirtäjälle. Tätä testataan parhaillaan Testi-TäTissä. <a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/4" target="_blank">Melinda-vientien ja -tuontien siirtäminen liitännäiseen </a> </li>
+</ul>
+ 
+#### 3. Kuulumisia Koha-Suomi-Melinda-työryhmän kokouksesta 9.4. ####
+<ul>
+    <li>TäTiputken kehitys: Jatketaan ehkä niin, että viedään Melindaan automaattisesti vain ne Kirjastopalvelun osakohteettomat tietueet, joita ei siellä vielä ole tai Melindassa on vain ennakkotietue. Korjaustietueiden käyttäytymistä pitäisi pohtia laajemmin. Päätettiin, että pohditaan TäTiputken selvitettäviä asioita pienemmällä porukalla. Mukana ainakin Antti Heikkinen, Anna Viitanen ja joku kehittäjistä. </li>
+    <li>MARC-formaatin päivitykset. -> Kohan kuvailupohjat ovat jo muutaman version jäljessä. Olisi hyvä, jos ne voisi päivittää ajan tasalle versionvaihdon yhteydessä. Asia on viety jo aiemmin Annelin kautta Arille, mutta tästä ei ole olemassa tikettiä. </li>
+    <li>Melinda-koulutus syyskuussa: Voisi käydä perustapaukset läpi ja sen lisäksi kyselytunti sekä ennakkokysymysten käsittelyä. </li>
+    <li>Seuraava kokous tiistaina 21.5. –> Käsitellään mm. Melindan käyttäjäkyselyn tuloksia Koha-Suomen osalta ja niiden huomioimista koulutusten suunnittelussa. </li>
+</ul>
+  
+#### 4. Kirjastopalvelun ja Melindan tietueet tuplana TäTissä ####
+<ul>
+    <li>Ks. Annan kysymys ”Kirjastopalvelun kuvailemia tietueita + Melindan tietueita tuplana” Teamsin Kysy kuvailusta -kanavalla 20.3.2024 </li>
+    <li>Mistä johtuu, että TäTiin on jo kuvailtu Melinda-tietue, vaikka Kirjastopalvelultakin on kuvailu tulossa? Muuttuuko tietueiden kuvailustatus sillä välin, kun nimeke saapuu ja se primaarikuvaillaan? Saavatko kirjastot aineistoa eri aikoihin, esim. niin että jollakin on jokin nimeke jo kaksi kuukautta ennen muita? </li>
+</ul>
+
+Käytiin jonkin verran keskustelua Kirjastopalvelun kuvailulupauksista ja aikataulusta. Tehdään Koha-Suomen Teamsiin Kuvailu-kanavalle ohje/julkaisu asiaan liittyen.
+ 
+#### 5. TäTin erikoisuuksia ja niiden käsittelyohjeet ####
+<ul>
+    <li>Jos Merge-ohjelmalla yhdistää tietueita Melindassa, niin yhdistynyt tietue valuu TäTiin asti, mutta ei välttämättä enää paikalliskantoihin, koska 035a-kentän Melinda-tunnus on vaihtunut. Johanna Räisä tutkii, voiko aktivointiarvoksi lisätä myös 035z-kentän arvon. Kannattaa tehdä ensin Merge-yhdistely ja sen jälkeen vasta tuoda tietue TäTiin. </li>
+    <li>Jos tietueella on useampi ISBN-tunnus 020a-kentissä tai eri versioiden EAN-koodeja 024a-kentissä, voi tapahtua väärin valumisia (esim. moniosaiset kirjasarjat tai DVD- ja Blu-ray-elokuvat). OUTIssa korjattiin vanhoja aktivointiarvoja, koska 020-kentistä oli aktivoitunut viimeisen eikä ensimmäisen toistuman ISBN-tunnus. (Yleensä ensimmäinen ISBN on sarjan osan ja toinen kokonaisuuden.). Jos tietueella on osan ja kokonaisuuden ISBN, kannattaa olla erityisen tarkkana ja mahdollisesti tarkistaa Finnan kautta, onko muilla Koha-Suomen kirjastoilla nimekettä. Muutoksista ilmoitettava niille Koha-Suomen kirjastoille, joilla tietuetta on. </li>
+    <li>Ns. vanhemman aineiston käsittely TäTissä: TäTi- ja Melinda-tietueiden muokkaaminen ja tietueiden tuominen Melindasta aiheuttaa sen, että muokkaukset valuvat kaikkiin niihin tietokantoihin, joissa teosta löytyy. Tästä voi seurata aineistotyyppien, pääkirjausten ja pääluokkien muutoksia sekä osakohteiden valumisvirheitä. Vaikka paikalliskantoihin on laitettu päälle valutuksenesto vanhempien tietueiden kohdalle, niin esto ei välttämättä kuitenkaan aina pidä, jos tietueita tallennetaan paikalliskannassa uudestaan jostain syystä. </li>
+    <li>Kokouksessa todettiin, että toisten kirjastojen nimekkeiden tarkistelu Finnan kautta on työlästä, joten suositeltavaa on, että ennemmin jokainen kimppa seuraa hyvin säännöllisesti tietokantansa tietuesiirtäjän siirtoraporttia, jotta mahdolliset väärin valumiset tai pääkirjausten muutokset saadaan nopeasti kiinni. Kuvailijoiden kannattaa kuitenkin aina pitää mielessä, että tietueiden käsittely ja tallentaminen TäTissä vaikuttaa kaikkiin niihin Koha-Suomen paikalliskantoihin, joista kyseistä nimekettä löytyy. Epävarmoissa tapauksissa kannattaa laittaa viestiä Koha Teamsin Kuvailukanavalle. </li>
+</ul>
+ 
+#### 6. Kehitysehdotus MARC-muokkausten pohjista ja Tietueiden muokkaus eräajona -toiminnosta ####
+<ul>
+    <li>Tietueiden muokkaus eräajona -toimintoa pitäisi parantaa, jotta tietueita voisi muokkailla enemmän itse, eikä kehittäjiä tarvitsisi vaivata niin paljon. </li>
+    <li>Pitäisi pystyä muokkaamaan kiinteiden kenttien merkkipaikkoja (samat merkkipaikat, joita voi muokata kuvailupohjien editoreilla) </li>
+    <li>Pitäisi pystyä tyhjentämään tiettyjä kiinteitä kenttiä kokonaan (006- ja 007-kentät) </li>
+    <li>Pitäisi pystyä muokkaamaan indikaattoreita (tiketti yhteisössä: <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=21860" target="_blank">MARC modification templates cannot check or change indicators </a>) </li>
+</ul>
+
+Aurorassa käyttäjät voivat itse muokata kiinteitä kenttiä, joten periaatteessa tällaisen toiminnon kehittäminen pitäisi olla mahdollista. Viedään asia eteenpäin. 
+ 
+#### 7. Kehitysehdotus: Pitäisikö TäTin ylärivillä olla linkkejä käytetyimpiin kuvailuohjeisiin tai -sivustoihin? ####
+<ul>
+    <li>Esim. MARC21, Melindan toimintaohje, RDA-kuvailu MARC 21 -formaatilla -sivusto, Metatietosanasto, YKL, mahdollisesti Mikropalvelun/uuden tietuesiirtäjän ohje yms. </li>
+    <li>Lisätään TäTin yläriville tärkeimmät linkit. Asiasta jatketaan keskustelua Teamsissa, jossa voi ehdottaa tarpeellisia lisättäviä sivustojen linkkejä. Päivi lisää ne sitten TäTiin. </li>
+</ul>
+ 
+#### 8. Muita asioita #### 
+<ul>
+  <li>RDA-konversiot: Pyydetyt RDA-konversiosääntöjen korjaukset on tehty. Tehdään testausajo versionpäivityksen jälkeen. </li>
+  <li>Teamsin Musiikin kuvailu -kanavalle perustaan viestiketju, johon ilmoitellaan osakohteiden käsittelyyn liittyviä ongelmia. Tästä voisi sitten jokainen tarkistaa, onko jotain ongelmaa havaittu jo aiemmin ja miten se on ehkä ratkaistu. </li>
+  <li>Toimijanimien muutokset TäTi-tietueille: Kannattaa tuoda tietue Melindasta sillä silloin saadaan 500-kenttään huomautus nimimuutoksesta sekä 900-kentän tiedot. Samalla kannattaa viedä tietue Melindaan. </li>
+</ul>
+ 
+#### 9. Seuraava kokous torstaina 16.5. klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 3/2024 ##
 
 Aika: 14.3.2024 klo 13.15–14.51
