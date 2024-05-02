@@ -12,7 +12,7 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 
 ## Kuvailuryhmän muistio 4/2024 ##
 
-Aika: 7.4.2024 klo 14.00–15.15
+Aika: 17.4.2024 klo 14.00–15.15
 
 Osallistujat: Mauri Aittaniemi (Lappi), Helena Backman-Karvonen (Helle), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski, poistui klo 15)
 
