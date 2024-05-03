@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu), Lotta Juvonen ja Vilgot Strömsholm (Helle)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
@@ -47,6 +47,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Virkailijaoikeuksien tarkastelu ja käyttäjäryhmien luominen jatkuu
+
+**Helle**
+* Selvittellään ongelmaa joka alkoi viime viikon torstaina että koko Helle-Koha jumittuu silloin tällöin. Ongelma tulee Askolan alueen kirjastoista missä ei onnistu aineston uusiminen ja palautus/lainaus, joka lopuksi vie kaikki Helle-Kohan workerit.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
