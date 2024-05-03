@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Iina Niemi (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu)
 
 **Asiat**
 * Testiversionvaihdon kuulumiset
@@ -45,13 +45,15 @@ Etelästä pohjoiseen
 * Muutamalla asiakkaalla on varaus tarttunut vanhentuvien noutamattomien varausten ajoon, vaikka on todellisuudessa ollut jo pari päivää asiakkaalla lainassa. Tutkitaan asiaa tarkemmin varmaan versionvaihdon jälkeen. Tällä hetkellä versionvaihdon testaukset etusijalla. 
 * Keravalla ollut tapaus, jossa aikakatkaisun jälkeen kirjautuessa virkailijan toimipiste on vaihtunut toiseksi. Seurataan tilannetta ja tehdään tarvittaessa tiketti.
 
+**Lastu**
+* Virkailijaoikeuksien tarkastelu ja käyttäjäryhmien luominen jatkuu
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-18) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -100,6 +102,9 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 
 **Siilinjärvi**
 * Ei mainittavaa. Yritetään ottaa loppukiri versionvaihtotöissä.
+
+**Lastu**
+* Virkailijaoikeuksia ja niiden pohjalta käyttäjäryhmiä pohtiessa heräsi ajatus, voisiko asiakasmääreitä hyödyntää virkailijaoikeuksien asettamisen automatisoinnissa. Tämä sai kannatusta, joten tästä on palaverin jälkeen tehty kehitysehdotus [#1169](https://github.com/KohaSuomi/Koha/issues/1169)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
