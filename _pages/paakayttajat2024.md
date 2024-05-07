@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 19
+
+Aika: 7.5.2024 klo 9.15<br />
+Läsnä:
+
+**Asiat**
+* Versionvaihdon kuulumiset
+
 ## Viikko 18
 
 Aika: 30.4.2024 klo 9.15<br />
