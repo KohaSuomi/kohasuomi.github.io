@@ -16,12 +16,12 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 ### Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto */
-body#pat_member #searchfieldstype option[value='address'] { display:none; }
-body#pat_member #searchfieldstype_filter option[value='address'] { display:none; }
+body#pat_member #searchfieldstype option[value='full_address'] { display:none; }
+body#pat_member #searchfieldstype_filter option[value='full_address'] { display:none; }
 ```
 
 ### Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista
@@ -41,7 +41,7 @@ Sotu-avain-kentän voi "kirjoitussuojata" niin, että siihen pystyy Lisää sotu
 Huomioi, että patron_attr_4-osiossa oleva numero riippuu siitä, kuinka monentena sotu-avain on näytöllä. Esim. OUTI-kirjastoissa numerona on 3 ja Hellessä 4. Voit tarkistaa numeron klikkaamalla asiakkaan muokkausnäytöllä hiiren oikealla sotu-avain-kenttää ja valitsemalla "Inspect Element (Q)" (toimii ainakin Firefoxilla).
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 body#pat_memberentrygen.pat textarea#patron_attr_4 { pointer-events: none; }
@@ -67,23 +67,10 @@ Versio: 17.05
 div#patron-extended-attributes ol li:nth-child(1) { display:none; }
 ```
 
-### Piilota Luo hyvitys -välilehden sisältö
-
-Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
-
-```
-/* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
-li.manualcredit { display: none; }
-body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
-  display: none;
-}
-```
-
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota asiakkaan ikä tiedot-näytöllä */
@@ -93,7 +80,7 @@ body#pat_moremember.pat span.age_years { display: none; }
 ### Piilota Näytä aina lainat reaaliaikaisesti -valinta
 
 Tarpeellisuus: Suositeltava, parantaa suorituskykyä.<br />
-Versio 22.11
+Versio 23.11
 
 ```
 /* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä. Piilottaa sekä lainaus- että tiedot-näytöltä. */
@@ -106,7 +93,7 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 ### Säädä Viesti asiakkaalle -viestin väriä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 22.11
+Versio 23.11
 
 ```
 /* Säädä Viesti asiakkaalle -viestin väriä */
@@ -117,7 +104,7 @@ Versio 22.11
 ### Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio */ 
@@ -128,7 +115,7 @@ Versio: 22.11
 ### Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio */
@@ -140,7 +127,7 @@ Versio: 22.11
 ### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä */ 
@@ -150,7 +137,7 @@ fieldset#memberentry_contact.rows div.hint { display: none; }
 ### Piilota maksujen mitätöintitäppä Asiakkaan tiedot- ja Lainaus-sivuilta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Asiakkaan tiedot -sivulla lainat-taulu */
@@ -167,7 +154,7 @@ Versio: 22.11
 ### Piilota asiakkaan tiedot -näytöltä muokkaa-linkit
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota asiakkaan tiedot -näytöltä muokkaa-linkit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
@@ -177,7 +164,7 @@ body#pat_moremember a[href*="&step="] { display: none; }
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
@@ -187,7 +174,7 @@ body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta */
@@ -198,7 +185,7 @@ body#pat_memberentrygen.pat select#checkprevcheckout { display:none; }
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan tiedot-sivulla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota asiakkaan tiedot -sivulta "Tarkista edelliset lainat" -kohta */
@@ -210,7 +197,7 @@ body#pat_moremember.pat li#patron-checkprev { display:none; }
 Jos ennakkoilmoitukseen valitsee päiväksi 0, viesti ei lähde ollenkaan.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota ennakkoilmoituksen valinnasta 0 päivän keston. Käy lisäksi valitsemassa asiakastyyppien ylläpidossa asiakastyyppien viestiasetuksiin jotain muuta kuin 0 oletukseksi. Valinta tehtävä kaikille asiakastyypeille erikseen. */
@@ -219,7 +206,7 @@ body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[val
 ### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista 0 ja 8-30
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Asiakkaan viestiasetukset, ennakkoilmoituksen viive-vaihtoehdoista arvot 0 ja 8-30 piiloon */
@@ -230,9 +217,10 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value
 
 ### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti)
 
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Tarpeellisuus: Suositeltava<br />
+Versio: 23.11
 
+Suositeltava, koska näiden perusteella ei saa tulla lainakieltoa lain mukaan.
 ```
 /* Piilota Käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti) */ 
 #pat_memberentrygen #memberentry_account_flags { display:none; }
@@ -241,20 +229,20 @@ Versio: 22.11
 ### Piilota noutomuistutus asiakaslomakkeelta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-/* Noutomuistutuksen piilotus asiakaslomakkeelta / / Toimii 9.3.2023 MLI */
+/* Noutomuistutuksen piilotus asiakaslomakkeelta */
 body#pat_memberentrygen #memberentry_messaging_prefs table tbody tr:last-child { display:none; }
 ```
 
 ### Piilota noutomuistutus tiedot-sivulta viestiasetuksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-/* Noutomuistutuksen piilotus tiedot-sivulta / / Toimii 9.3.2023 MLI */
+/* Noutomuistutuksen piilotus tiedot-sivulta */
 body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:none; }
 ```
 
@@ -270,18 +258,6 @@ Versio: 22.11
 body#circ_circulation #set-automatic-renewal { display: none; }
 ```
 
-### Piilota Ei-asiakas-takaaja -osio
-
-Lapsiasiakkaalle voi lisätä uudemmassa versiossa myös takaajan, jonka asiakastietoja ei tallenneta Kohaan. Kohdan saa piiloon seuraavasti:
-
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
-
-```
-/* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
-body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
-```
-
 ### Asiakkaan tietoruudun piilotus asiakastiedoista vasemmasta reunasta
 
 Tarpeellisuus: Ei tarpeen<br />
@@ -293,19 +269,27 @@ Asiantuntijaryhmä on päättänyt, että tietoruutu on näkyvillä, jotta tilin
 div.patroninfo { display: none; }
 ```
 
-### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto ja Tulosta erääntyneet -valinnat
+### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-/* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto ja Tulosta erääntyneet valinnat */ 
-/* Toimii 9.2.2023 */
-#printsummary,
-#print_overdues {display: none}
+/* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto */ 
+body#pat_moremember.pat ul.dropdown-menu li:nth-child(1) a.printslip {display: none}
+body#circ_circulation.circ ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
 ```
 
+### Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet -valinnat
 
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet */ 
+body#pat_moremember.pat ul.dropdown-menu li:nth-child(4) a#print_overdues { display: none; }
+body#circ_circulation.circ ul.dropdown-menu li:nth-child(4) a#print_overdues { display: none; }
+```
 
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
@@ -321,7 +305,7 @@ Versio: 22.11
 ### Säädä Lisää viesti -popparin alasvetovalikon leveyttä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 Säätö tehdään sekä lainaus- että tiedot-sivulle.
 
@@ -334,22 +318,21 @@ body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556
 ### Piilota kirjautumistunnusosio asiakaslomakkeelta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-/* Piilota kirjautumistunnusosio asiakaslomakkeelta */ /* Toimii 16.5.2022 MLI */ /* BorrowerUnwantedFields-asetuksella saa userid:n ja passwordin piiloon, mutta ei salasanan vanhenemispäivä-kenttää. */
-body#pat_memberentrygen.pat #memberentry_userid {display:none}
+/* Piilota kirjautumistunnusosio asiakaslomakkeelta. BorrowerUnwantedFields-asetuksella saa userid:n ja passwordin piiloon, mutta ei salasanan vanhenemispäivä-kenttää. Tosin, salasnan vanhenemispäivä -kenttä näkyy vain superlibrarian-oikeuksisille. */
+body#pat_memberentrygen.pat #memberentry_userid.rows { display:none; }
 ```
 
 ### Piilota käyttäjänimi-kenttä salasananvaihto-sivulta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /*Käyttäjänimi-kentän piilotus salasananvaihto-sivulla*/
 /* /cgi-bin/koha/members/member-password.pl?member=?????? */
-/* Toimii 9.2.2023 */
 form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
   display: none;
 }
@@ -358,7 +341,7 @@ form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
 ### Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta */
@@ -371,7 +354,7 @@ body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none;
 Tällä piilotetaan asiakkaan muokkausnäytöltä Muut määreet ja tunnukset -osio. Tämä voi olla tarpeen, jos osion kaikki määreet on siirretty JS-rimpsuilla toiseen kohtaan lomaketta ja osio jää tyhjäksi.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta. Tämä voi olla tarpeen, jos kaikki määreet on siirretty toiseen kohtaan lomaketta. */
@@ -385,13 +368,13 @@ body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { displa
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi */
-#pcard_members_search .browse a,
-#pat_member .browse a {
-  padding:0 0.25em;
+#pcard_members_search div.browse a,
+body#pat_member.pat div.browse a {
+  padding:0 0.35em;
   font-size:larger;
 }
 ```
@@ -399,7 +382,7 @@ Versio: 22.11
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle */
@@ -413,7 +396,7 @@ Versio: 22.11
 
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
-Versio: 22.11<br />
+Versio: 23.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -425,7 +408,7 @@ Tarpeellisuus: Suositeltava
 
 Rimpsu piilottaa Asiakkaan pikalisäys -painikkeen. Kyseisellä lomakkeella ei ole kaikkia tarvittavia kenttiä näkyvissä, joten se on ainakin osalle kimpoista turha.
 
-Versio 22.11<br />
+Versio 23.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -435,7 +418,7 @@ body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
 
 ### Piilota asiakashausta valikosta Lajittelu-vaihtoehdot
 
-Versio 22.11<br />
+Versio 23.11<br />
 Tarpeellisuus: Vapaaehtoinen
 
 ```
@@ -454,7 +437,7 @@ body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { displ
 
 Piilota Lainaus ja palautus -osion etusivulta Uusinta-nappi. Toiminto ei noudata laina- ja maksusääntöjä, eikä ota huomioon varauksia, joten sitä ei kannata käyttää.
 
-Versio: 22.11<br />
+Versio: 23.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -470,8 +453,8 @@ display: none;
 
 Jos lainattavaan teokseen on varaus, antaa Koha ilmoituksen, jossa ilmoitetaan  varauksesta ja pitää päättää, mitä tehdään. Yksi vaihtoehto on "Älä lainaa ja tulosta", joka tulostaa varauksen infokuitin (hold_slip). Varaus ei kuitenkaan jää kiinni eikä nide mene kuljetustilaan, joten kuitti on turha ja aiheuttaa ennemminkin hämmennystä, kun siihen tulostuu asiakkaan tiedot ja varauksen viimeinen voimassaolopäivä (yleensä parin vuoden päässä). Alla olevalla rimpsulla saa napin piiloon.
 
-Versio 22.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Versio 23.11<br />
+Tarpeellisuus: Suositeltava
 
 ```
 /* Piilota Älä lainaa ja tulosta kuitti -nappula */
@@ -508,7 +491,7 @@ body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none
 Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palautuksessa asiakkaan yhteystiedot varausten popupeista. Rimpsuista on kaksi eri versiota ja niitä käytetään riippuen siitä, onko käytössä varausten automaattinen kiinni jääminen vai ei.
 
 Tarpeellisuus: Pakollinen<br />
-Versio: 22.11
+Versio: 23.11
 
 Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
 
@@ -525,11 +508,10 @@ Varausten automaattinen kiinnijääminen ei ole päällä
 
 ```
 /* Piilota varauksen popparista asiakkaan yhteystiedot */
-body#circ_returns.circ.modal-open ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
-body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
-body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
-body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
-body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
+body#circ_returns.circ i.fa-solid.fa-sliders { display: none; }
+body#circ_returns.circ div#forgive-overdue-fines.circ-setting { display: none; }
+body#circ_returns.circ div#book-drop-mode.circ-setting { display: none; }
+body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none; }
 ```
 
 ### Laskutettu-merkintä palautuksessa isommaksi
@@ -539,7 +521,7 @@ Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevall
 Lisätty: 28.12.2022<br />
 Tekijä: Anni Rajala<br />
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Säädä Laskutettu-merkintä palautuksessa isommaksi */
@@ -557,15 +539,30 @@ Versio: 22.11
 body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: none; }
 ```
 
+Vaihtoehtoinen versio, joka piilottaa myös Peruuta varaus -napin ja Peru kuljetus -napin.
 
+```
+/* Piilota varauksen palauttamisen yhteydessä popparista Älä huomioi -nappi, noudettavana olevan varauksen palautuksen yhteydessä popparista Poista varaus -nappi ja Peru kuljetus -nappi. Käytössä on varausten automaattinen kiinni jääminen. */
+body#circ_returns.circ.modal-open button.btn.btn-default { display: none; } 
+body#circ_returns.circ.modal-open button.btn.btn-default.deny.cancel-hold { display: none; } 
+body#circ_returns.circ.modal-open button.btn.btn-default.approve { display: initial; }
+body#circ_returns.circ.modal-open button.btn.btn-default.print { display: initial; }
+body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: initial; }
+body#circ_returns.circ.modal-open button.btn.btn-default.submit.openWin { display: initial; }
+```
+
+Jos käytössä on nidepaketit, kannattaa edelliseen rimpsuun lisätä vielä loppuun tämä, jotta nidepaketin palautuksessa näkyvät Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napit.
+
+```
+body#circ_returns.circ.modal-open div#[bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in](http://bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in/) button.btn.btn-default { display: initial; } /* Tuo näkyville nidepaketin palautuksessa Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napin. Se piilottuu ensimmäisen rimpsun vuoksi */
 ---
 
 ## Maksut
 
-### Piilota Luo hyvitys -välilehden sisältö asiakkaan maksuista 
+### Piilota Luo hyvitys -välilehti asiakkaan maksuista 
 
 Tarpeellisuus: Hyvin suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
@@ -578,7 +575,7 @@ body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
 ### Piilota oletusmaksuja asiakkaan lisää maksu -toiminnosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota maksutyyppejä asiakkaan lisää maksu -toiminnosta */
