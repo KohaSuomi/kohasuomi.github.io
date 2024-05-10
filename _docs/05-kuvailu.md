@@ -179,12 +179,12 @@ _Tallenna_ -painiketta.
 Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa _EnableAdvancedCatalogingEditor_. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 
-![](/assets/files/docs/Luettelointi/kuvailu15.png)
+![](/assets/files/docs/Luettelointi/kuvailu515k1.png)
 
 Voit avata uuden, tyhjän tietueen tai tuoda toisesta järjestelmästä
 haluamasi tietueen haun kautta.
 
-![](/assets/files/docs/Luettelointi/kohakuvatkausi543.png)
+![](/assets/files/docs/Luettelointi/kuvailu515k2.png)
 
 Z39.50/SRU-haun kautta voit tuoda haluamasi tietueen omaan
 kirjastojärjestelmään.
