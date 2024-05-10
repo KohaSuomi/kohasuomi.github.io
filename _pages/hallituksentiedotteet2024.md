@@ -11,6 +11,25 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 5/2024
+
+8.5.2024
+
+Kokouksessa valmisteltiin yhtiökokouksen aineistot ja nopeasti vilkaistiin taloustilanne sekä toimitusjohtajan raportti. Yhtiökokouksessa on tavanomaiset päätösasiat, kuten tilinpäätös ja vastuuvapaudesta päättämisen, hallituksen ja nimeämistoimikunnan jäsenten sekä puheenjohtajiston valinta. Yhtiökokoukselle viedään tiedoksi hallituksen päätös palvelumaksun korotuksesta 1.7. alkaen, liitteenä jo teille tiedoksi kuntiin lähtevä kirje maksukorotuksesta. Palvelumaksu on ollut samalla tasolla vuodesta 2017 lähtien eli lähes koko yhtiön olemassaoloajan. Sen jälkeen on mukaan tullut useampi kimppa ja henkilökuntaakin aika lailla. Iso muutos oli palvelinten siirto yhteiseen konesaliin ja tämäkin sisällytettiin palvelumaksuun. Yhtiökokoukselle viedään keskusteltavaksi osakassopimuksen muuttaminen ja katsotaan sen jälkeen, mihin suuntaan sopimuksen kanssa edetään.
+
+Omalta osaltani oli viimeinen kokous hallituksen puheenjohtajana. Pestini on kestänyt alusta alkaen eli vuodesta 2016, joten onkin aika saada uusia tuulia. Hiukan tuntuu haikealta, mutta ennen kaikkea onnelliselta. Alun valtavan haparoinnin jälkeen yhtiön toiminta ja hallinto on mennyt selvästi eteenpäin hyvien hallitusjäsenten ja Arin toimesta. Toiveenani on tietty saada jatkaa hallituksessa, koska ei näin mainiota yhteisöä halua mitenkään jättää.
+
+Kauniita kevätpäiviä kaikille!
+
+T. Rebekka, hallituksen pj.
+
+Liitteet:
+
+[Toimitusjohtajanraportti_524.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15271190/Toimitusjohtajanraportti_524.pdf)
+
+[Palvelumaksunkorotus.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15271188/Palvelumaksunkorotus.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 4/2024
 
 26.4.2024
