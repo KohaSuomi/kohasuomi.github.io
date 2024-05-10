@@ -20,6 +20,7 @@ Läsnä:
 
 **Asiat**
 * Miten edetään loppujen [Koha23-version tikettien](https://github.com/KohaSuomi/Koha-23x/issues) kanssa?
+* Vkon 20 päivitys
 
 
 ## Viikko 18
