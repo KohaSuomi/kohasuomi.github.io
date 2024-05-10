@@ -63,7 +63,7 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 ### 5.1.2. Tietueen valuminen TäTistä/Tietuesiirtäjä
 
-Täydellisten kuvailutietueiden valutus paikalliskantaan on selostettu *[erillisessä ohjeessa].
+Täydellisten kuvailutietueiden valutus paikalliskantaan on selostettu *[erillisessä ohjeessa]
 (https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/wiki/K%C3%A4ytt%C3%B6ohjeet)*
 Tämä toiminto on käytössä Koha-Suomen yleisissä kirjastokimpoissa.
 
