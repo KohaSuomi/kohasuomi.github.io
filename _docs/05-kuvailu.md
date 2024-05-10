@@ -832,7 +832,7 @@ ohje tehdään myöhemmin
 
 ### 5.5.1. Niteiden tarrat ja niiden tulostaminen
 
-Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#12164-tarratulostusty%C3%B6kalu)
+Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#1294-tarratulostusty%C3%B6kalu)
 
 ### 5.5.2. Niteiden tallennusohjeet
 
