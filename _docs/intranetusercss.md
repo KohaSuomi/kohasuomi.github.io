@@ -246,6 +246,24 @@ Versio: 23.11
 body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:none; }
 ```
 
+### Piilota Kooste-sarake asiakkaan viestiasetuksista
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 23.11
+
+Liittyy [tikettiin 126](https://github.com/KohaSuomi/Koha-23x/issues/126). Jos on käytössä sitten muita sarakkeita (esim. suomi.fi), niin muuta sulkeissa olevaa lukua sen mukaan. Yo. piilottaa 5. sarakkeen.
+
+```
+/* Piilota kooste-sarake Kohan viestiasetustaulusta */
+fieldset#memberentry_messaging_prefs th:nth-child(5),
+fieldset#memberentry_messaging_prefs td:nth-child(5),
+div#patron-messaging-prefs th:nth-child(5),
+div#patron-messaging-prefs td:nth-child(5) {
+  display:none;
+}
+```
+
+
 ### Piilota Salli automaattinen uusinta -kohta
 
 Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti. Päivitys 8.4.2024: Tätä piilotusta ei enää tarvita, vaan tiedon saa piiloon BorrowerUnwantedField-järjestelmäasetukella valitsemalla autorenew_checkouts-kohdan.
@@ -294,7 +312,7 @@ body#circ_circulation.circ ul.dropdown-menu li:nth-child(4) a#print_overdues { d
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot */
@@ -361,7 +379,124 @@ Versio: 23.11
 body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { display:none; }
 ```
 
+### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tietorivit asiakkaan Tiedot-sivulta
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot asiakkaan Tiedot-sivulta */
+#patron-privacyguarantor + li { display: none; }
+#patron-privacyguarantor { display: none; }
+```
 ---
+
+### Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi -vaihtoehto
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi */ 
+body#pat_moremember.pat a#updatechild { display: none; }
+```
+
+### Piilota Verkkokirjasto-vaihtoehto Viestin lisäys -popupista
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota Verkkokirjasto-vaihtoehto Viestin lisäys-popupista */
+div#add_message_form #message_type option[value='B'] { display:none; }
+```
+
+### Piilota tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota Tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa */
+body#pat_memberentrygen.pat #memberentry_messaging_prefs p { display:none; }
+```
+
+### Varaustunniste- ja Sotuavain-kenttien korkeus yhdeksi riviksi
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Varaustunnisteen ja sotuavaimen kenttien korkeus yhdeksi riviksi. Tarkista, että attribuuttien arvot vastaavat oman kimpan arvoja. */
+#patron_attr_4 { height: 2em; }
+#patron_attr_5 { height: 2em; }
+```
+
+### Piilota Perheen lainat -välilehti
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Tämä oli aiemmin JS-rimpsu, mutta muutettiin CSS:ksi versiossa 23.11.
+
+```
+/* Piilota Perheen lainat -välilehti */
+#relatives-issues-tab { display: none; }
+```
+
+### Piilota Taattavien maksut -välilehti
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota Taattavien maksut -välilehti */
+#guarantees_finesandcharges-tab { display: none; }
+```
+
+### Piilota taattavien maksut Tiedot-sivun taattavat-listasta
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Piilota taattavien maksut asiakassivun taattavat-listasta */
+#pat_moremember li.guarantees-fines { display: none; }
+```
+
+### Piilota Reklamaatiot-välilehti
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Kun nidepakettiasetukset laittaa päälle, tulee Nextillä näkyviin turhaan kaikille asiakkaille reklamaatiot-välilehdehti. Liittyy [tikettiin 142](https://github.com/KohaSuomi/Koha-23x/issues/142).
+
+```
+/* Piilota Reklamaatiot-välilehti asiakkaan Tiedot-sivulta*/
+a#return-claims-tab { display:none; }
+```
+
+### Piilota Palauta valitut niteet -nappula asiakkaan lainat-taulussa
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Jos Palauta-sarake on piilossa, kannattaa myös Palauta valitut niteet -nappula piilottaa.
+```
+/* Piilota Palauta valitut niteet -nappula asiakkaan lainat -taulussa */
+body#circ_circulation.circ button#CheckinChecked.btn.btn-default { display: none; }
+body#pat_moremember.pat button#CheckinChecked.btn.btn-default { display: none; }
+```
+
+### Piilota asiakaslistat-välilehti Lainaus- ja Tiedot -osioista asiakkaan tiedoissa
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Asiakaslistat välilehden piilotus Lainaus- ja Tiedot-välilehdillä. */
+a#pat_lists-tab { display:none; }
+```
 
 ## Asiakkaat-sivu
 
@@ -447,6 +582,52 @@ display: none;
 }
 ```
 
+### Piilota Myöhässä-raportti Lainaus ja palautus -sivulta
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */
+body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] {
+display: none;
+}
+```
+
+### Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta */
+body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/branchoverdues.pl"] {
+display: none;
+}
+```
+
+### Piilota Overdues/Myöhässä-otsikko  Lainaus ja palautus -sivulta
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+Jos ylemmät raportit piilotetaan, kannattaa myös otsikkorivi piilottaa.
+
+```
+/* Piilota Overdues/Myöhässä-otsikko Lainaus ja palautus -sivulta */
+body#circ_circulation-home.circ div.col-sm-5.col-md-4 h3:nth-of-type(2) { display: none; }
+```
+
+### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpteutunut -välilehti
+
+Versio: 23.11<br />
+Tarpeellisuus: Suositeltava
+
+```
+/* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpteutunut -välilehti */
+body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
+```
+
 ### Lainaus
 
 ### Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa
@@ -475,12 +656,12 @@ body#circ_circulation #set-automatic-renewal { display: none; }
 
 ### Piilota palautus-näytön asetukset
 
-Versio: 22.11<br />
+Versio: 23.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
-/* Piilota Palautukset-sivulla palautusasetukset - varmista, ettei piilota muita vastaavia asetussäätöjä*/
-body#circ_returns.circ i.fa.fa-sliders { display: none; }
+/* Piilota Palautukset-sivulla palautusasetukset - varmista, ettei piilota muita vastaavia asetussäätöjä. */
+body#circ_returns.circ i.fa-solid.fa-sliders { display: none; }
 body#circ_returns.circ div#forgive-overdue-fines.circ-setting { display: none; }
 body#circ_returns.circ div#book-drop-mode.circ-setting { display: none; }
 body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none; }
@@ -507,11 +688,12 @@ body#circ_returns.circ a#boremail { display: none; }
 Varausten automaattinen kiinnijääminen ei ole päällä
 
 ```
-/* Piilota varauksen popparista asiakkaan yhteystiedot */
-body#circ_returns.circ i.fa-solid.fa-sliders { display: none; }
-body#circ_returns.circ div#forgive-overdue-fines.circ-setting { display: none; }
-body#circ_returns.circ div#book-drop-mode.circ-setting { display: none; }
-body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none; }
+/* Piilota varauksen popparista asiakkaan yhteystiedot, kun varausten automaattinen kiinni jääminen ei ole päällä. */
+body#circ_returns.circ.modal-open ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
+body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
+body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
+body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
+body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
 ```
 
 ### Laskutettu-merkintä palautuksessa isommaksi
@@ -539,6 +721,8 @@ Versio: 22.11
 body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: none; }
 ```
 
+Versio: 23.11
+
 Vaihtoehtoinen versio, joka piilottaa myös Peruuta varaus -napin ja Peru kuljetus -napin.
 
 ```
@@ -550,6 +734,8 @@ body#circ_returns.circ.modal-open button.btn.btn-default.print { display: initia
 body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: initial; }
 body#circ_returns.circ.modal-open button.btn.btn-default.submit.openWin { display: initial; }
 ```
+
+Versio 23.11
 
 Jos käytössä on nidepaketit, kannattaa edelliseen rimpsuun lisätä vielä loppuun tämä, jotta nidepaketin palautuksessa näkyvät Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napit.
 
@@ -780,6 +966,17 @@ body#catalog_detail.catalog div#biblio-cover-slider.cover-slider.cover-slides { 
 body#catalog_detail.catalog img#custom-img { height: 90%; max-width: 180% }
 ```
 
+### Piilota kansikuva-sarakkeen teksti hakutuloksista
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio 23.11
+
+```
+/* Piilota kansikuva-sarakkeen tekstit hakutuloksista */
+body#catalog_results.catalog div.no-image {display: none;}
+body#catalog_results.catalog td.bookcoverimg div.hint {display:none;}
+```
+
 ### Piilota tarkassa haussa Lisärajaukset-osio
 
 Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)<br />
@@ -801,7 +998,7 @@ body#catalog_itemsearch.catalog td:nth-child(13) { display: none; }
 body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
 ```
 
-#### Lisätty Piilota Nidetyyppi-sarake korissa
+#### Piilota Nidetyyppi-sarake korissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 23.11
@@ -812,6 +1009,22 @@ Versio: 23.11
 #cart_basket td:nth-child(3) { display: none; }
 ```
 
+### Piilota Niteet-sivulta Piilota sija jonossa -kohta tai Ennakkovarattavissa-rivi
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Tämä piilottaa Niteet-sivulta koko Piilota Sija jonossa -kohdan eli piiloon menee Jätä pois paikallistan varausten jonosta ja Ennakkovarattavissa -kohdat. Alla vaihtoehto.
+```
+/* Piilota Sija jonossa -kohta Niteet-sivulla */
+body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-child(3) { display: none; }
+```
+
+Tai jos haluaa piilottaa vain Ennakkovarattavissa-kohdan, niin voi käyttää tätä:
+```
+/* Piilota Ennakkovarattavissa -kohta Niteet-sivulla */
+body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-child(3) li:nth-child(2) { display: none; }
+```
 
 ---
 
@@ -994,6 +1207,53 @@ Versio: 23.11
   height: 45px;
 }
 ```
+
+### Piilota Työkalut-sivulta linkit JS-liitännäisiin Työkaluliitännäiset-osiosta
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 23.11
+
+```
+/* Piilota Työkalut-sivulta linkit JS-liitännäisiin Työkaluliitännäiset-osiosta. Rimpsut piilottavat tietyn rivin, joten kun liitännäisiä tulee lisää, kopioi yksi riveistä ja muuta nth-child(1)-kohtaan sopiva rivinumemero. JS-liitännäiset pitäisi tulla peräkkäin, mutta testaamalla löytyy oikea numero. */
+body#tools_tools-home.tools div.col-sm-6 li:nth-child(1) { display: none; }
+body#tools_tools-home.tools div.col-sm-6 li:nth-child(2) { display: none; }
+```
+
+### Piilota niteiden eräajosta 'Muut määreet - Jätä pois paikallisten varausten jonosta' ja 'Palauta niteet'
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Tästä on kaksi eri versiota, joista toinen toimii uudemmilla Firefox-selaimilla ja toinen vanhemmilla.
+
+Tämä toimii vanhemmilla Firefox-versiolla kuin 121. Käytä tätä, jos et ole varma, että kaikilla käyttäjillä on uudempi versio.
+```
+/* Piilota niteiden eräajosta 'Muut määreet - Jätä pois paikallisten varausten jonosta' ja 'Palauta niteet' */
+body#tools_batchMod-edit div#cataloguing_additem_newitem
+fieldset.rows:nth-child(4),
+body#tools_batchMod-edit div#cataloguing_additem_newitem
+fieldset.rows:nth-child(5) { display:none; }
+```
+
+Tämä toimii vain Firefox-versiosta 121 alkaen.
+```
+/* Piilota niteiden eräajosta 'Muut määreet - Jätä pois paikallisten varausten jonosta' ja 'Valinnat - Palauta niteet' */
+body#tools_batchMod-edit fieldset:has(select#exclude_from_local_holds_priority),
+body#tools_batchMod-edit fieldset:has(select#mark_items_returned) { display: none; }
+```
+
+### Piilota Uusi/Renew-vaihtoehto yläpalkista
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 23.11
+
+Muutettu JS-rimpsusta CSS-rimpsuksi versiossa 23.11.
+
+```
+/* Piilota Uusi/Renew-vaihtoehto yläpalkista */
+a.keep_text[href="#renew_search"] { display: none; }
+```
+
 ---
 
 ### Testiympäristön ulkoasun muutokset
