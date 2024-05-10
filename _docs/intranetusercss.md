@@ -555,6 +555,7 @@ Jos käytössä on nidepaketit, kannattaa edelliseen rimpsuun lisätä vielä lo
 
 ```
 body#circ_returns.circ.modal-open div#[bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in](http://bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in/) button.btn.btn-default { display: initial; } /* Tuo näkyville nidepaketin palautuksessa Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napin. Se piilottuu ensimmäisen rimpsun vuoksi */
+```
 ---
 
 ## Maksut
