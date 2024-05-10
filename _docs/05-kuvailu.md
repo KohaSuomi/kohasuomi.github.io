@@ -64,7 +64,7 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 ### 5.1.2. Tietueen valuminen TäTistä/Tietuesiirtäjä
 
 Täydellisten kuvailutietueiden valutus paikalliskantaan on selostettu 
-<a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/wiki/K%C3%A4ytt%C3%B6ohjeet)>erillisessä ohjeessa</a>
+<a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/wiki/K%C3%A4ytt%C3%B6ohjeet")>erillisessä ohjeessa</a>
 Tämä toiminto on käytössä Koha-Suomen yleisissä kirjastokimpoissa.
 
 ### 5.1.3. Osakohteiden lisääminen
