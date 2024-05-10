@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 20
+
+Aika: Maanantai 13.5.2024 klo 9<br />
+Läsnä:
+
+**Asiat**
+* Miten edetään loppujen [Koha23-version tikettien](https://github.com/KohaSuomi/Koha-23x/issues) kanssa?
+
+
 ## Viikko 18
 
 Aika: Maanantai 29.4.2024 klo 9<br />
