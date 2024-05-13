@@ -16,11 +16,12 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 20
 
 Aika: Maanantai 13.5.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Lasse, Emmi, Pasi, Kassu, Kodo, Lari, Anneli, Johanna
 
 **Asiat**
 * Miten edetään loppujen [Koha23-version tikettien](https://github.com/KohaSuomi/Koha-23x/issues) kanssa?
 * Vkon 20 päivitys
+* Konesalin yhteysongelma maanantai-aamuna ennen klo 7, kysellään Bittigurulta
 
 
 ## Viikko 18
