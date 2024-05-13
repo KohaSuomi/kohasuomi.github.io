@@ -93,7 +93,7 @@ teoksen tietoihin.
 
 ### 5.1.4. Tietueiden muokkaaminen peruseditorissa
 
-Muokataksesi nimeketietuetta ollessasi Kuvailu-osiossa klikkaa
+Muokataksesi nimeketietuetta ollessasi Kuvailu-osiossa klikkaa _Toiminnot_-valikosta
 _Muokkaa tietuetta_ hakutulosnäytöllä
 
 ![](/assets/files/docs/Luettelointi/luettelointi11.png)
