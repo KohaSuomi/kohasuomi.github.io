@@ -22,6 +22,7 @@ Läsnä:
   * Miten muissa kimpoissa asetukset? Tarviiko tehdä muutoksia?
 * [Asiakasmääreen SSN haettavuus-ominaisuuden poistamisyrityksestä Virhe 500 #165 ](https://github.com/KohaSuomi/Koha-23x/issues/165)
   * OUTI, Lappi, Kyyti - tarviiko tehdä korjauksia? Jos ei, tiketin voisi sulkea.
+* Uudet CSS-rimpsut: [Levennä otsikkokenttiä asiakkaan muokkauksessa](https://koha-suomi.fi/dokumentaatio/intranetusercss/#levenn%C3%A4-otsikkokentti%C3%A4-asiakkaan-muokkauksessa) tai [Levennä otsikkokenttiä](https://koha-suomi.fi/dokumentaatio/intranetusercss/#levenn%C3%A4-otsikkokentti%C3%A4)
 
 ## Viikko 19
 
