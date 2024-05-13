@@ -498,6 +498,20 @@ Versio: 23.11
 a#pat_lists-tab { display:none; }
 ```
 
+### Levennä otsikkokenttiä asiakkaan muokkauksessa
+
+Asiakkaan muokkauksessa jotkin pitkät otsikoiden nimet menevät kentän taakse piiloon tai katkeaa oudosti. Tällä pystyy säätämään otsikkokentille lisää tilaa asikkaan muokkaussivulla. Oletusarvo on 10rem, tässä se on levennetty 13rem, voit muuttaa arvoa parhaaksi katsomaksesi arvoksi.
+
+Huom. Tästä on olemassa tässä kirjastossa myös versio, jolla levennetään kaikkialla otsikkokenttien käytettävissä olevaa tilaa.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Levennä otsikkokenttiä asiakkaan muokkauksessa */
+body#pat_memberentrygen fieldset.rows label { width: 13rem; }
+```
+
 ## Asiakkaat-sivu
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
@@ -1253,6 +1267,21 @@ Muutettu JS-rimpsusta CSS-rimpsuksi versiossa 23.11.
 /* Piilota Uusi/Renew-vaihtoehto yläpalkista */
 a.keep_text[href="#renew_search"] { display: none; }
 ```
+
+### Levennä otsikkokenttiä
+
+Monesti otsikkokentille on määritetty liian vähän tilaa, jolloin pitkät suomalaiset sanat joko piilottuvat tekstikentän alle tai katkeavat oudosti. Tällä rimpsulla saa säädettyä otsikkokentille lisää tilaa leveyssuunnassa. Oletusarvo on 10rem, tässä se on säädetty 13rem. Voit myös valita jonkin muun sopivan arvon.
+
+Huom! Tästä rimpsusta on olemassa tässä kirjastossa myös versio, jolla säädetään otsikkokenttien leveyttä vain asiakkaan muokkaussivulla.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+/* Levennä otsikkokenttiä */
+fieldset.rows label { width: 13rem; }
+```
+
 
 ---
 
