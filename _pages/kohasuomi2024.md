@@ -22,7 +22,7 @@ Läsnä: Ari, Lasse, Emmi, Pasi, Kassu, Kodo, Lari, Anneli, Johanna
 * Miten edetään loppujen [Koha23-version tikettien](https://github.com/KohaSuomi/Koha-23x/issues) kanssa?
   * Tiketit käyty lävitse, suljettu/siirretty/vastuutettu 
 * Vkon 20 päivitys
-  * Asiakkaan viivakoodin näyttäminen asiakastietonäytöllä -plugari, käytössä Lapissa
+  * [Asiakkaan viivakoodin näyttäminen asiakastietonäytöllä -plugari](https://github.com/KohaSuomi/Koha/issues/671), käytössä Lapissa
   * [Käännös: Nide kuljetettavanana yksiköstä x lähtien pp.kk.vvvv](https://github.com/KohaSuomi/Koha-translations/issues/41)
   * [Tietuesiirtäjä: Valuneisiin osakohteisiin ei muodostu aineistotyyppiä](https://github.com/KohaSuomi/Koha/issues/1205)
 * Konesalin yhteysongelma maanantai-aamuna ennen klo 7, kysellään Bittigurulta
