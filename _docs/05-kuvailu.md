@@ -138,7 +138,7 @@ tallennuspohja on valittuna.
 #### Finto-liitännäiset
 
 Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
-dokumentaatiosta [Finto-plugin](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Finto)-sivulta.
+dokumentaatiosta [Finto-plugin](https://koha-suomi.fi/dokumentaatio/finto/)-sivulta.
 
 #### Tietueen tallentaminen
 
