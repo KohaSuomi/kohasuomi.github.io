@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 20
+
+Aika: 14.5.2024 klo 9.15<br />
+Läsnä:
+
+**Asiat**
+* [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
+* [Täti: Mitä JavaScript-rimpsuja Tätiin tarvitaan?](https://github.com/KohaSuomi/Koha/issues/1201)
+* [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä #181](https://github.com/KohaSuomi/Koha-23x/issues/181)
+  * Miten muissa kimpoissa asetukset? Tarviiko tehdä muutoksia?
+* [Asiakasmääreen SSN haettavuus-ominaisuuden poistamisyrityksestä Virhe 500 #165 ](https://github.com/KohaSuomi/Koha-23x/issues/165)
+  * OUTI, Lappi, Kyyti - tarviiko tehdä korjauksia? Jos ei, tiketin voisi sulkea.
+
 ## Viikko 19
 
 Aika: 7.5.2024 klo 9.15<br />
