@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -29,7 +29,12 @@ Pohjoisesta etelään
 **Lappi**
 * Tarkistellaan vielä versionvaihdon muutoksia ja viimeisiä asetuksia kohdilleen.
 * 15.5. pidetään Kysy Kohasta -tunti koko Lapin henkilökunnalle.
-* Ranuan SmartBox on asennettu ja käyttöönottokoulutus pidetään 14.5. 
+* Ranuan SmartBox on asennettu ja käyttöönottokoulutus pidetään 14.5.
+
+**Lumme**
+* Koha yskähteli aamulla, saatiin takaisin toimintaan.
+* Käyty läpi henkilökunnan raportoimia bugeja ja viilattu asetuksia.
+* Kohasta hävinnyt yksi vastaanotettu lehti. Näkyi vastaanotetuissa, mutta ei kuitenkaan tietueissa. Syy jäi toistaiseksi arvoitukseksi, tilannetta seurataan.
 
 ## Viikko 19
 
