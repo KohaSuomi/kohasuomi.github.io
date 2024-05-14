@@ -45,7 +45,7 @@ Pohjoisesta etelään
 * OUTI-kirjastojen esihenkilöille on lähetetty koko kimpan henkilökunnan Koha-käyttäjätunnusten oikeuksien tarkistuslistat. Koha-tuki käy kesän aikana läpi tarkistetut listat ja päivittää tunnuksille tarvittavat oikeusmuutokset.
 
 **Helle**
-* Paikallinen kirjailija on pyytänyt pois syntymäaikatiedon teostensa tietueiden tekijätiedosta. Helle-tietueista on nyt poistettu ko.kirjailijan syntymäaikatieto ja estetty tietueiden automaattinen päivitys (kenttä 942b).
+* Paikallinen kirjailija on pyytänyt pois syntymäaikansa teostensa tietueiden tekijätiedosta. Helle-tietueista on nyt poistettu ko. kirjailijan syntymäaika ja estetty tietueiden automaattinen päivitys (kenttä 942b).
 Kirjailijaa on ohjeistettu ilmoittamaan muutostarve Toimijakuvailupalveluun.
 * Tiedonhaun hakutuloksen fasetteihin on lisätty nämä kaksi tietueen YKL-luokka-arvoihin perustuvaa fasettia: 
 YKL Kaunoluokat sekä YKL Tietoluokat
