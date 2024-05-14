@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -39,6 +39,10 @@ Pohjoisesta etelään
 **Vaara**
 * Hankinnan vastaanotosta tuli tieto, että ei pysty vastaanottamaan nidettä, kun Tilaaja: Tili on poistettu -teksti on näkyvissä. En tiedä, eikö käyttäjä oikeasti pystynyt vastaanottamaan, vai hämäsikö teksti vain käyttäjää, sillä Päivi sai niteen vastaanotettua. Tein tästä kaksi tikettiä, toisen käännöksen virheestä ja toisen siitä, että käyttäjän tunnus pitäisi näkyä. Tiketit #42 ja #1217
 * Irina testannut Uusinta-painikkeen piilotusta Lainaus ja palautus-näytön vasemmasta valikosta ja myös varauksen peruutukseen liittyviä toimintoja.
+
+**OUTI**
+* Kohan palautuskehotusautomatiikasta oli tullut asiakaspalautetta. Asiakas oli närkästynyt, kun hän oli saanut arkipyhänä (helatorstaina) palautuskehotuksen. Harmillisesti kirjasto, jota asiakas käyttää, oli kiinni helatorstaina. Koha-tuessa totesimme, että vastaavia tapauksia tulee varmaan jatkossakin. Olisi aivan liian iso homma ottaa arkipyhät huomioon kirjastojen kalentereissa niin, ettei 1. ja 2. palautuskehotusten lähetyspäiviä sattuisi arkipyhille.
+* OUTI-kirjastojen esihenkilöille on lähetetty koko kimpan henkilökunnan Koha-käyttäjätunnusten oikeuksien tarkistuslistat. Koha-tuki käy kesän aikana läpi tarkistetut listat ja päivittää tunnuksille tarvittavat oikeusmuutokset.
 
 ## Viikko 19
 
