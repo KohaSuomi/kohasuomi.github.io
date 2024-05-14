@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -43,6 +43,13 @@ Pohjoisesta etelään
 **OUTI**
 * Kohan palautuskehotusautomatiikasta oli tullut asiakaspalautetta. Asiakas oli närkästynyt, kun hän oli saanut arkipyhänä (helatorstaina) palautuskehotuksen. Harmillisesti kirjasto, jota asiakas käyttää, oli kiinni helatorstaina. Koha-tuessa totesimme, että vastaavia tapauksia tulee varmaan jatkossakin. Olisi aivan liian iso homma ottaa arkipyhät huomioon kirjastojen kalentereissa niin, ettei 1. ja 2. palautuskehotusten lähetyspäiviä sattuisi arkipyhille.
 * OUTI-kirjastojen esihenkilöille on lähetetty koko kimpan henkilökunnan Koha-käyttäjätunnusten oikeuksien tarkistuslistat. Koha-tuki käy kesän aikana läpi tarkistetut listat ja päivittää tunnuksille tarvittavat oikeusmuutokset.
+
+**Helle**
+* Paikallinen kirjailija on pyytänyt pois syntymäaikatiedon teostensa tietueiden tekijätiedosta. Helle-tietueista on nyt poistettu ko.kirjailijan syntymäaikatieto ja estetty tietueiden automaattinen päivitys (kenttä 942b).
+Kirjailijaa on ohjeistettu ilmoittamaan muutostarve Toimijakuvailupalveluun.
+* Tiedonhaun hakutuloksen fasetteihin on lisätty nämä kaksi tietueen YKL-luokka-arvoihin perustuvaa fasettia: 
+YKL Kaunoluokat
+YKL Tietoluokat
 
 ## Viikko 19
 
