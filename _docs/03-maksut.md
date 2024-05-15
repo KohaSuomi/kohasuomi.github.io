@@ -239,8 +239,6 @@ käyttää maksujen maksamiseen tai maksun anteeksiantoon. HUOM! Tarkista
 ensin kirjastosi käytäntö plussasaldon lisäämisestä asiakkaalle. Tämän
 käyttäminen ei ole sallittua mm. OUTI-kirjastoissa.
 
-![](/assets/files/docs/Asiakkaat/hyvitys.png)
-
 \- Valitse ensin hyvityksen tyyppi
 
 \- Jos maksu liittyy johonkin tiettyyn niteeseen, lue niteen viivakoodi
