@@ -54,7 +54,24 @@ Varaussivulle listautuu valitut teokset. Valitse noutopaikka ja klikkaa _Varaa_.
 
 ![](/assets/files/docs/Lainaus/Varaus_8_Tee_varauksia.PNG)
 
-## 4.1.4. Varausten käsittely
+## 4.1.4. Nidevaraus
+
+Varauksessa on mahdollista tehdä myös nidevaraus haluttuun niteeseen.
+
+Hae asiakkaan tiedot ja täytä varauksen tarkemmat tiedot.
+
+![](/assets/files/docs/Lainaus/nidevaraus.PNG)
+
+Valitse tässä vaiheessa tietueen niteistä haluttu nide, johon haluat tehdä varauksen. 
+
+Klikkaa Varaa-näppäintä.
+
+Nidevaraus näkyy Kohassa valitun niteen kohdalla.
+
+![](/assets/files/docs/Lainaus/nidevaraus2.PNG)
+
+
+## 4.1.5. Varausten käsittely
 
 Varauksia voi muuttaa ja peruuttaa _Varaukset_-välilehdellä, jonne pääsee nimeketietueen vasemmalla olevasta valikosta. Myös asiakkaan varauksista käsin pääsee varauksiin klikkaamalla _Varaukset_-välilehdellä teoksen nimeä.
 
@@ -64,7 +81,7 @@ Varauslistalla voit muuttaa varausten järjestystä, noutopaikkaa tai keskeyttä
 
 ![](/assets/files/docs/Lainaus/Varaus_10_varauslista.PNG)
 
-### 4.1.4.1. Varausten järjestyksen muuttaminen
+### 4.1.5.1. Varausten järjestyksen muuttaminen
 
 Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä ilman erityistä syytä), se tapahtuu muuttamalla Järjestys jonossa -sarakkeessa olevia numeroarvoja. Tai klikkailemalla vihreitä nuolia. Huom! Tätä oikeutta ei välttämättä ole kaikilla työntekijöillä.
 
@@ -72,7 +89,7 @@ Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä ilm
 
    - Jos muutat järjestystä jonossa tai poistat varauksen, muista klikata _Päivitä varaukset_ -nappia tallentaaksesi toiminnot.
 
-### 4.1.4.2. Varauksen kiinnittäminen viimeiseksi jonossa
+### 4.1.5.2. Varauksen kiinnittäminen viimeiseksi jonossa
 
 Jos klikkaat varauksen oikealla puolella olevaa vihreää nuolta, varaus menee viimeiseksi listalle ja pysyy viimeisenä, vaikka uusia varauksia tulisi sen jälkeen. Tämä toiminto voi olla tarpeellinen esim. kotipalveluasiakkaiden kohdalla, joilla niteiden laina-aika voi venyä pidemmäksi kuin muilla asiakkailla.
 
@@ -82,7 +99,7 @@ Kun varauksen kohdalla näkyy vihreä nuoli, jonka alla on viiva, se tarkoittaa,
 
 ![](/assets/files/docs/Lainaus/Varaus_13_kiinnitys_viimeiseksi.PNG)
 
-### 4.1.4.3. Yksittäisen varauksen keskeyttäminen
+### 4.1.5.3. Yksittäisen varauksen keskeyttäminen
 
 Jos asiakas haluaa keskeyttää yksittäisen varauksensa tietyksi ajaksi, sen voi tehdä valitsemalla kalenterikuvakkeesta päivämäärän, mihin asti varaus on keskeytettynä ja klikkaamalla _Keskeytä_-nappia.
 
@@ -92,13 +109,13 @@ Kun varaus on keskeytetty, varauksen kohdalle tulee _Jatka_-nappi ja näkyy päi
 
 ![](/assets/files/docs/Lainaus/Varaus_15_keskeytetty_varaus.PNG)
 
-### 4.1.4.4. Asiakkaan kaikkien varauksien keskeyttäminen
+### 4.1.5.4. Asiakkaan kaikkien varauksien keskeyttäminen
 
 Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä asiakkaan tiedoissa _Varaukset_-välilehdellä klikkaamalla _Keskeytä kaikki varaukset_ -nappia. Vastaavasti varaukset saa taas voimaan klikkaamalla _Jatka kaikkia keskeytettyjä varauksia_ -nappia.
 
 ![](/assets/files/docs/Lainaus/Varaus_16_keskeytä_monta.PNG)
 
-### 4.1.4.5. Varauksen poistaminen
+### 4.1.5.5. Varauksen poistaminen
 
 Niteen tiedoissa varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen kohdalla _Peruuta_-nappia.
 
@@ -112,7 +129,7 @@ Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä valit
 
 ![](/assets/files/docs/Lainaus/Varaus_17a_peru_asiakastiedoista_monta.PNG)
 
-### 4.1.5. Peruuta odottava-tila ja kuljetustila
+### 4.1.6. Peruuta odottava-tila ja kuljetustila
 
 Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi _Peruuta odottava_-tila tai _Peruuta kuljetustila_ -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
 
