@@ -64,7 +64,7 @@ Hae asiakkaan tiedot ja täytä varauksen tarkemmat tiedot.
 
 Valitse tässä vaiheessa tietueen niteistä haluttu nide, johon haluat tehdä varauksen. 
 
-Klikkaa Varaa-näppäintä.
+Klikkaa _Varaa_-näppäintä.
 
 Nidevaraus näkyy Kohassa valitun niteen kohdalla.
 
