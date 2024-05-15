@@ -176,7 +176,7 @@ Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
 \- Laita valintamerkki niiden maksujen kohdalle, jotka maksetaan,
 klikkaa Maksa valitut.
 
-![](/assets/files/docs/Asiakkaat/maksa3.png)
+![](/assets/files/docs/Asiakkaat/maksa33.png)
 
 Valittujen maksujen summa näkyy Maksettava summa -laatikossa.
 
