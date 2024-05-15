@@ -15,7 +15,7 @@ Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus nimek
 ![](/assets/files/docs/Lainaus/Varaus_1.PNG)
 
 Varauksen voi tehdä myös hakutuloslistauksessa:
-  - näytön yläreunassa _Varaa_-napista, kun on valinnut näytöltä varattavat nimekkeet
+  - näytön yläreunassa _Varaa_-napista, kun on valinnut näytöltä varattavat nimekkeet.
   - nimeketietojen jäljessä olevasta _Varauksia_-linkistä.
 
 ![](/assets/files/docs/Lainaus/Varaus_2.PNG)
@@ -34,13 +34,13 @@ Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_ -napp
 
 Kun olet valinnut asiakkaan, jolle varaus tehdään, voi varauksen tietoja tarkentaa:
 
-   - _Muuta_-laatikkkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
+   - _Muuta_-laatikkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
    - Valitse _Noutopaikkaan_ kirjasto, mistä asiakas noutaa aineiston.
    - Jos varaus halutaan alkamaan tulevaisuudessa, anna _Varauksen alkamispvm_ -laatikkoon aloituspäivämäärä. Muuten siihen tallentuu kuluva päivä.
    - Jos varaus halutaan olemaan voimassa vain tiettyyn päivämäärään saakka, merkitse päiväys _Varaus vanhenee_ -laatikkoon.
    - Oletuksena on _Varaa seuraava vapaa nide_. Jos haluat tietyn niteen varaukseen, valitse nide listalta _Varaus_-sarakkeesta.
    - Varausten määrän voit valita _Tee varauksia (määrä)_ -sarakkeesta.
-   - _Kiireetön varaus_ antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran
+   - _Kiireetön varaus_ antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran.
 
 ![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.PNG)
 
@@ -66,7 +66,7 @@ Varauslistalla voit muuttaa varausten järjestystä, noutopaikkaa tai keskeyttä
 
 ### 4.1.4.1. Varausten järjestyksen muuttaminen
 
-Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä ilman erityistä syytä), se tapahtuu muuttamalla Järjestys jonossa -sarakkeessa olevia numeroarvoja. Tai klikkailemalla vihreitä nuolia. Huom! Tätä oikeutta ei välttämäti ole kaikilla työntekijöillä.
+Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä ilman erityistä syytä), se tapahtuu muuttamalla Järjestys jonossa -sarakkeessa olevia numeroarvoja. Tai klikkailemalla vihreitä nuolia. Huom! Tätä oikeutta ei välttämättä ole kaikilla työntekijöillä.
 
 ![](/assets/files/docs/Lainaus/Varaus_11_järjestys.PNG)
 
@@ -100,7 +100,7 @@ Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä asiakkaan tie
 
 ### 4.1.4.5. Varauksen poistaminen
 
-Niteen tiedoissa varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen kohdalla _Poista_-nappia.
+Niteen tiedoissa varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen kohdalla _Peruuta_-nappia.
 
 ![](/assets/files/docs/Lainaus/Varaus_17_peruuta.PNG)
 
