@@ -119,15 +119,15 @@ Maksun maksaminen riviltä kokonaan
 
 \- Valitse Maksa sen maksun kohdalla, mikä maksetaan
 
-- Maksun summa tulee Peri asiakkaalta: -laatikkoon
-
-![](/assets/files/docs/Asiakkaat/osamaksu2.png)
+- Maksun summa tulee Maksettava summa -laatikkoon
 
 \- Klikkaa Hyväksy
 
 - Maksu poistuu maksamattomista maksuista ja näkyy kokonaan maksettuna.
 
 Maksun maksaminen riviltä osittain
+
+![](/assets/files/docs/Asiakkaat/osamaksu2.png)
 
 \- Valitse Maksa sen maksun kodalla, mikä maksetaan.
 
