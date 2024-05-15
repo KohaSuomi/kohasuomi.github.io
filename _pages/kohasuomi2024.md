@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 21
+
+Aika: Maanantai 20.5.2024 klo 9<br />
+Läsnä:
+
+**Asiat**
+* kuka kehittäjistä mukaan signum-työryhmään? Muut jäsenet jo tiedossa.
+
 ## Viikko 20
 
 Aika: Maanantai 13.5.2024 klo 9<br />
