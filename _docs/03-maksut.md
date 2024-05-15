@@ -210,7 +210,7 @@ Peruutuksen voi vielä perua klikkaamalla uudelleen “Peruuta”.
 ## 3.3. Luo maksu -välilehti
 
 Sellaisia maksuja, joita järjestelmä ei tee automaattisesti, voi
-virkailija tallentaa Lisää maksu -välilehdellä.
+virkailija tallentaa Luo maksu -välilehdellä.
 
 ![](/assets/files/docs/Asiakkaat/maksunkuvaus.png)
 
