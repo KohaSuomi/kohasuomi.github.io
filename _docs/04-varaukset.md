@@ -60,7 +60,7 @@ Varauksessa on mahdollista tehdä myös nidevaraus haluttuun niteeseen.
 
 Hae asiakkaan tiedot ja täytä varauksen tarkemmat tiedot.
 
-![](/assets/files/docs/Lainaus/nidevaraus.PNG)
+![](/assets/files/docs/Lainaus/nidevaraus01.PNG)
 
 Valitse tässä vaiheessa tietueen niteistä haluttu nide, johon haluat tehdä varauksen. 
 
@@ -68,7 +68,7 @@ Klikkaa Varaa-näppäintä.
 
 Nidevaraus näkyy Kohassa valitun niteen kohdalla.
 
-![](/assets/files/docs/Lainaus/nidevaraus2.PNG)
+![](/assets/files/docs/Lainaus/nidevaraus02.PNG)
 
 
 ## 4.1.5. Varausten käsittely
