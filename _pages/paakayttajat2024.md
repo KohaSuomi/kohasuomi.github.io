@@ -10,6 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 21
+
+Aika: 21.5.2024 klo 9.15<br />
+Läsnä:
+
+* [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
+
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
