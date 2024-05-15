@@ -15,6 +15,24 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 7/2024
+
+Aika: 27.5.2024 klo 13<br />
+Läsnä:
+
+### Arin ajankohtaiset
+
+### Varausten priorisointi
+
+Kohassa on järjestelmäasetus [LocalHoldsPriority](https://koha-community.org/manual/23.11/en/html/circulationpreferences.html#localholdspriority-localholdsprioritypatroncontrol-localholdspriorityitemcontrol), jolla voi priorisoida varauksia niin, että palautuskirjastossa olevat varaukset jäävät kiinni, vaikka niiden edellä olisi varauksia muualla. Yksittäisiä niteitä ja asiakastyyppejä voi määrittää toiminnon ulkopuolelle.
+
+Kannattaisiko toimintoa kokeilla jossain tai voisiko ajatella, että tuo asetus/toiminto otettaisiin pohjaksi, kun varausten priorisointia lähetään joskus kehittämään Kohassa.
+
+Mahdollisia ongelmia:
+* niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
+* pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
+
+
 ## Asiantuntijaryhmän muistio 6/24
 
 Aika: 29.4.2024 klo 13<br />
@@ -57,7 +75,7 @@ Lappi: Pia Kusmin<br />
 Kirkes: Sani Kuosmanen, Tuusula<br />
 Vaara: Päivi Knuutinen<br />
 Helle: Kati Sillgren<br />
-Lumme: ilmoitetaan myöhemmin<br />
+Lumme: Katja Valjakka<br />
 Kyyti: Tuomas Kunttu<br />
 Vaski: Anni Rajala<br />
 Koha-Suomi: Anneli ja joku kehittäjistä (tarkennetaan myöhemmin)
