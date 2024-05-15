@@ -60,7 +60,7 @@ Varauksessa on mahdollista tehdä myös nidevaraus haluttuun niteeseen.
 
 Hae asiakkaan tiedot ja täytä varauksen tarkemmat tiedot.
 
-![](/assets/files/docs/Lainaus/nidevaraus.png)
+![](/assets/files/docs/Lainaus/nidevaraus11.png)
 
 Valitse tässä vaiheessa tietueen niteistä haluttu nide, johon haluat tehdä varauksen. 
 
