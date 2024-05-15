@@ -48,7 +48,8 @@ Pohjoisesta etelään
 * Paikallinen kirjailija on pyytänyt pois syntymäaikansa teostensa tietueiden tekijätiedosta. Helle-tietueista on nyt poistettu ko. kirjailijan syntymäaika ja estetty tietueiden automaattinen päivitys (kenttä 942b).
 Kirjailijaa on ohjeistettu ilmoittamaan muutostarve Toimijakuvailupalveluun.
 * Tiedonhaun hakutuloksen fasetteihin on lisätty nämä kaksi tietueen YKL-luokka-arvoihin perustuvaa fasettia: 
-YKL Kaunoluokat sekä YKL Tietoluokat
+YKL Kaunoluokat, YKL Tietoluokat
+* Kuvailu-osioon on lisätty Tietuesiirtäjä-linkki
 
 ## Viikko 19
 
