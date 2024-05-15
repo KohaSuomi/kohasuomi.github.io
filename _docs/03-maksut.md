@@ -207,26 +207,27 @@ klikkaamalla Toiminnot-sarakkeessa Peruuta.
 
 Peruutuksen voi vielä perua klikkaamalla uudelleen “Peruuta”.
 
-## 3.3. Lisää maksu -välilehti
+## 3.3. Luo maksu -välilehti
 
 Sellaisia maksuja, joita järjestelmä ei tee automaattisesti, voi
 virkailija tallentaa Lisää maksu -välilehdellä.
 
-![](/assets/files/docs/Asiakkaat/lisaamaksu.png)
+![](/assets/files/docs/Asiakkaat/maksunkuvaus.png)
 
 \- Valitse ensin maksun tyypppi
 
 - Jos maksu liittyy johonkin niteeseen, voit lisätä sen viivakoodin
   linkiksi niteeseen
 
-Kuvaus-kenttään voi antaa maksun kuvauksen
+- Kuvaus-kenttään voi antaa maksun kuvauksen
 
-![](/assets/files/docs/Asiakkaat/maksunkuvaus.png)
+- Summa-kenttäään annetaan pelkästään maksun määrä (vain numeroita ja
+desimaaleja).
 
-Summa-kenttäään annetaan pelkästään maksun määrä (vain numeroita ja
-desimaaleja). Määrä-kohtaan voi kirjata esim. kopioiden määrän. 
+- Määrä-kohtaan voi kirjata esim. kopioiden määrän. 
 Ohjelma laskee summan automaattisesti.
-Tallennuksen jälkeen maksu näkyy yhteenvedossa. 
+
+- Tallennuksen jälkeen maksu näkyy yhteenvedossa. 
 Maksun voi maksaa myös samantien klikkaamalla "Tallenna ja maksa".
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
