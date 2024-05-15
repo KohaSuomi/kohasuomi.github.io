@@ -13,7 +13,7 @@ Asiakkaalla voi olla julkisoikeudellisia ja yksityisoikeudellisia maksuja.
 - Myöhästymismaksut, palautuskehotusmaksut ja noutamattoman varauksen maksut.
 - Vain julkisoikeudelliset maksut voivat aiheuttaa asiakkaalle lainauskiellon, jos maksut ylittävät lainauskieltorajan.
 - Maksut vanhenevat 5 vuoden kulutta sitä seuraavan vuoden alussa.
-- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti vuoden alussa. Huom! Ajot otetaan käyttöön vuoden 2024 alusta alkaen.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti vuoden alussa. Ajot otettiin käyttöön vuoden 2024 alusta alkaen.
 
 **Yksityisoikeudelliset maksut:**
 - Kaikki muut asiakkaan maksuissa olevat maksut, esim. kaukopalvelumaksu, aineiston korvausmaksut, uuden kirjastokortin maksu.
@@ -121,7 +121,7 @@ Maksun maksaminen riviltä kokonaan
 
 - Maksun summa tulee Peri asiakkaalta: -laatikkoon
 
-![](/assets/files/docs/Asiakkaat/periasiakkaalta.png)
+![](/assets/files/docs/Asiakkaat/osamaksu2.png)
 
 \- Klikkaa Hyväksy
 
@@ -131,9 +131,12 @@ Maksun maksaminen riviltä osittain
 
 \- Valitse Maksa sen maksun kodalla, mikä maksetaan.
 
-- Muokkaa summaa, joka tulee Peri asiakkaalta-laatikkoon. Hyväksy.
-
-![](/assets/files/docs/Asiakkaat/osamaksu2.png)
+- Muokkaa summaa, joka tulee Maksettava summa -laatikkoon.
+  
+- Jos tarjottu rahamäärä on enemmän kuin maksettava summa, järjestelmä laskee vaihtorahan valmiiksi.
+- Tarjottavan rahamäärän pitää olla vähintään sama, kuin maksettava summa.
+  
+- Hyväksy.
 
 \- Loput maksusta jää Maksettava- sarakkeeseen Maksa
 maksuja-välilehdelle.
@@ -175,7 +178,7 @@ klikkaa Maksa valitut.
 
 ![](/assets/files/docs/Asiakkaat/maksa3.png)
 
-Valittujen maksujen summa näkyy Peri asiakkaalta -laatikossa.
+Valittujen maksujen summa näkyy Maksettava summa -laatikossa.
 
 ![](/assets/files/docs/Asiakkaat/maksa4.png)
 
@@ -221,7 +224,9 @@ Kuvaus-kenttään voi antaa maksun kuvauksen
 ![](/assets/files/docs/Asiakkaat/maksunkuvaus.png)
 
 Summa-kenttäään annetaan pelkästään maksun määrä (vain numeroita ja
-desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa. 
+desimaaleja). Määrä-kohtaan voi kirjata esim. kopioiden määrän. 
+Ohjelma laskee summan automaattisesti.
+Tallennuksen jälkeen maksu näkyy yhteenvedossa. 
 Maksun voi maksaa myös samantien klikkaamalla "Tallenna ja maksa".
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
