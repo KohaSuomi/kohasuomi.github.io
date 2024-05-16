@@ -1051,6 +1051,8 @@ Tällä rimpsulla voi muuttaa Tietueen MARC21-näkymässä ja tietueen muokkauks
 /* Isoiksi kirjaimiksi MARC21-kenttien otsikot */
 body#catalog_MARCdetail.catalog div.tag_title, body#cat_addbiblio.cat a.expandfield  {
         text-transform: uppercase; }
+```
+
 ---
 
 ## Varaukset
