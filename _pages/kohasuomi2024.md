@@ -20,7 +20,7 @@ Läsnä:
 
 **Asiat**
 * kuka kehittäjistä mukaan signum-työryhmään? Muut jäsenet jo tiedossa.
-* Koha-Suomen aiheet seuraavaan uutiskirjeeseen?
+* Koha-Suomen aiheet [seuraavaan uutiskirjeeseen](https://docs.google.com/document/d/1C1kP8jM8k47VGg_WCSmaeE29cL81IK5jimq2Dth9mbk/edit)?
   * Lapista tuli toive, voisiko versionvaihdosta kirjoittaa Koha-Suomen työntekijöiden näkökulmasta, "miten meillä meni" -tyyliin.
 
 ## Viikko 20
