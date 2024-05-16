@@ -1040,6 +1040,17 @@ Tai jos haluaa piilottaa vain Ennakkovarattavissa-kohdan, niin voi käyttää t�
 body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-child(3) li:nth-child(2) { display: none; }
 ```
 
+### Muuta MARC21-kenttien otsikot näkymään isoilla kirjaimilla
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+Tällä rimpsulla voi muuttaa Tietueen MARC21-näkymässä ja tietueen muokkauksessa MARC21-kenttien otsikot näkymään isoilla kirjaimilla (ei siis varsinaisesti muuta, näyttää vain). Voi selkeyttää näkymää jonkin verran.
+
+```
+/* Isoiksi kirjaimiksi MARC21-kenttien otsikot */
+body#catalog_MARCdetail.catalog div.tag_title, body#cat_addbiblio.cat a.expandfield  {
+        text-transform: uppercase; }
 ---
 
 ## Varaukset
