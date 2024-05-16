@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Mikko Liimatainen (Vaski)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -58,6 +58,11 @@ Kirjailijaa on ohjeistettu ilmoittamaan muutostarve Toimijakuvailupalveluun.
 * Tiedonhaun hakutuloksen fasetteihin on lisätty nämä kaksi tietueen YKL-luokka-arvoihin perustuvaa fasettia: 
 YKL Kaunoluokat, YKL Tietoluokat
 * Kuvailu-osioon on lisätty Tietuesiirtäjä-linkki
+
+**Vaski**
+* Sotu-siiloon tallentamisessa ollut epäselvyyttä. Asiakastietuetta ei huoata tallentaa hetun tallentamisen jälkeen, jolloin sotu-avain ei tallennu tietueeseen.
+* Lainausta tehdessä aikakatkaisu voi aiheuttaa kirjautumisluupin, jossa Koha vaatii sisäänkirjautumisen jokaisen lainauksen jälkeen. Niteet menevät kuitenkin lainaan. Joissakin tapauksissa havaittu myös kirjautuneen käyttäjän kotikirjaston vaihtuneen samalla.
+* Vaski-Finnaan on julkaistu kirjastonkäytön säästölaskuri.
 
 ## Viikko 19
 
@@ -113,7 +118,7 @@ Etelästä pohjoiseen
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -166,12 +171,17 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 **Lastu**
 * Virkailijaoikeuksia ja niiden pohjalta käyttäjäryhmiä pohtiessa heräsi ajatus, voisiko asiakasmääreitä hyödyntää virkailijaoikeuksien asettamisen automatisoinnissa. Tämä sai kannatusta, joten tästä on palaverin jälkeen tehty kehitysehdotus [#1169](https://github.com/KohaSuomi/Koha/issues/1169)
 
+**Vaski**
+* Automaattiverkkoon tehdään muutoksia ja toivomme automaattien toimivan vielä aamullakin.
+* Atk-ajot Turussa to-pe ja kaikki pääkäyttäjät osallistuvat.
+* Nextin testaus etenee hyvin.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren ja Lotta Juvonen (Helle), Hanna Ikonen ja Katja Valjakka (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren ja Lotta Juvonen (Helle), Hanna Ikonen ja Katja Valjakka (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -215,6 +225,10 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Ei mainittavaa
 * Palvelinpäivityksestä 10.4. aiheutunut aamulla pitkä Koha-katko. Tilanteesta selvittiin.
+
+**Vaski**
+* Versiopäivityksen aloitusajankohdasta olisi toivottu saatavan tieto hieman aiemmin, kun olimme ehtineet tiedottamaan katkosta ennen kuin tiesimme päivityksen alkavan jo sunnuntaina.
+* Nextin tiketöintiin toivottu paremmin tietoa kenen vastuulle testaaminen kuuluu, jotta tikettiten läpikäynnissä ei tarvitse jatkuvasti käydä läpi samoja tikettejä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
