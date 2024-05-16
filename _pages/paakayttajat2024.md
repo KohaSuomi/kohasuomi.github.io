@@ -16,6 +16,7 @@ Aika: 21.5.2024 klo 9.15<br />
 Läsnä:
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
+* Tieteellisten Koha-pääkäyttäjien kokouksessa esille tullut CSS-toive: [MARC21-kenttien otsikot näkymään isoilla kirjaimilla](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_docs/intranetusercss.md#muuta-marc21-kenttien-otsikot-n%C3%A4kym%C3%A4%C3%A4n-isoilla-kirjaimilla)
 
 ## Viikko 20
 
