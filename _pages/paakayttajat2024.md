@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Mikko Liimatainen (Vaski)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Mikko Liimatainen (Vaski), Annika Helastila (Osan ajasta) ja Elina Uotila (Kirkes)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -63,6 +63,12 @@ YKL Kaunoluokat, YKL Tietoluokat
 * Sotu-siiloon tallentamisessa ollut epäselvyyttä. Asiakastietuetta ei huoata tallentaa hetun tallentamisen jälkeen, jolloin sotu-avain ei tallennu tietueeseen.
 * Lainausta tehdessä aikakatkaisu voi aiheuttaa kirjautumisluupin, jossa Koha vaatii sisäänkirjautumisen jokaisen lainauksen jälkeen. Niteet menevät kuitenkin lainaan. Joissakin tapauksissa havaittu myös kirjautuneen käyttäjän kotikirjaston vaihtuneen samalla.
 * Vaski-Finnaan on julkaistu kirjastonkäytön säästölaskuri.
+
+**Kirkes**
+* Tilauksen muokkausnäkymässä on havaittu arvo -1 "Ei lainattavissa" -sarakkeessa tekstiselitteen sijaan. Korvaushinta-kentästä on puuttunut sadasosan nolla ja desimaalierottimena on piste, vähittäishinnassa ja todellisessa hinnassa desimaalierottimena on pilkku. Sadasosat näkyvät vaihtelevasti. Seurataan tilannetta, esiintyykö omituisuuksia esim. tiettyjen aineistojen kohdalla.
+* Sekä henk.koht että työkortin lainoissa on näkynyt valmiiksi uusi laina -täppä, mutta uusi valitut lainat -painike oli harmaana. Painike aktivoitunut, kun täpän on poistanut ja laittanut uudelleen päälle.
+* Lauantaina lainatun aineiston "Ei uusintaa ennen" -päivä on mennyt seuraavalle tiistaille, joka on aiheuttanut hämmennystä. 
+
 
 ## Viikko 19
 
