@@ -16,14 +16,29 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 21
 
 Aika: Maanantai 20.5.2024 klo 9<br />
-Läsnä:
+Läsnä: Lasse, Emmi, Kassu, Ari, Lari, Johanna, Kodo, Anneli
 
 **Asiat**
 * kuka kehittäjistä mukaan signum-työryhmään? Muut jäsenet jo tiedossa.
+  * Pasi
 * Koha-Suomen aiheet [seuraavaan uutiskirjeeseen](https://docs.google.com/document/d/1C1kP8jM8k47VGg_WCSmaeE29cL81IK5jimq2Dth9mbk/edit)?
   * Lapista tuli toive, voisiko versionvaihdosta kirjoittaa Koha-Suomen työntekijöiden näkökulmasta, "miten meillä meni" -tyyliin.
+    * Lasse ja Emmi kokoaa tekstin
+  * Anneli kirjoittaa varmenteesta 
 * Milloin testit uusitaan?
+  * ti 28.5.2024
+  * sovitaan tiistaina scrummissa tekijät
 * Viikon 21 päivitys
+  * 11 muutosta
+* Scrumm
+  * Emmi: Uudelleenindeksointi?,
+  * Kodo: service-checkiin dokumentaatio ja commit
+  * Johanna: Melinda-replikoinnin korjaus, viestiprosessi
+  * Kassu: Viime vuoden hankintojen kokoamisskripti
+  * Lasse: elasticsearch päivitetty omalle koneelle?
+  * Lari: varausryhmä, vanhimmasta päästä tikettin toteutusta
+  * Anneli: to käännöksiä, tieteellisten pääkäyttäjäpalsu, aikakatkaisutiketin testausta
+  * Ari: OUTIn ohjausryhmälle kuulumisia ja tiekarttaa
 
 ## Viikko 20
 
