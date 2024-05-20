@@ -17,6 +17,9 @@ Läsnä:
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
 * Tieteellisten Koha-pääkäyttäjien kokouksessa esille tullut CSS-toive: [MARC21-kenttien otsikot näkymään isoilla kirjaimilla](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_docs/intranetusercss.md#muuta-marc21-kenttien-otsikot-n%C3%A4kym%C3%A4%C3%A4n-isoilla-kirjaimilla)
+* [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1229)
+* Varausryhmä-termi hyllyvarausraportin ohjeistukseen, onko ok vai keksitäänkö jokin muu?
+* [Tiketti #447](https://github.com/KohaSuomi/Koha/issues/447) - otetaanko käyttöön js-rimpsu väliaikaisesti?
 
 ## Viikko 20
 
