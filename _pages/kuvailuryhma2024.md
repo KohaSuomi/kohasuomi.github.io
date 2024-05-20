@@ -50,7 +50,7 @@ Kokouksen sihteeriksi valittiin Anna Viitanen.
 
 #### 5.	Kirjastopalvelun uudet käytännöt ja niiden vaikutukset ####
 <ul>
-  <li>Uutuutena Extranetissa on ”Oma lista” ja muutos kuvailupyyntöjen teossa. </li>
+  <li>Uutuutena Extranetissä on ”Oma lista” ja muutos kuvailupyyntöjen teossa. </li>
   <li>Jos Extranetissä lukee, että kuvailutietoja ei ole tulossa, olisi mahdollista tilata kuvailu erillisellä hinnalla. Tätä ei ole Koha-Suomen kirjastoissa harrastettu. </li>
   <li>Ongelmana on edelleen se, että kuvailustatus saattaa muuttua. </li>
   <li>Melindan ja Kirjastopalvelun elokuva- ja pelitietueissa on eroja. Osa Melinda-kirjastoista kuvailee nämä Kirjastopalvelua tarkemmin. Elokuvien kuvailussa erona on se, että Kirjastopalvelu tekee kuvailun kansien perusteella katsomatta tietoja tallenteelta. Kirjastopalvelun tietue on kuitenkin hyväksyttävä, vaikka Melindassa olisi tarjolla parempi tietue. Melindan tietueen siirtäminen TäTiin aiheuttaisi riskin tuplatietueista. </li>
