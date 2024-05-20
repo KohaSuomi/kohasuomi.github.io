@@ -9,7 +9,80 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
 
+## Kuvailuryhmän muistio 5/2024 ##
 
+Aika: 16.5.2024 klo 13.15–14.40
+
+Osallistujat: Mauri Aittaniemi (Lappi), Pasi Hynninen (Helle), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Päivi Knuutinen (Vaara), Sani Kuosmanen (Kirkes), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi), Johanna Räisä ja Emmi Takkinen (Koha-Suomi, kohdat 2–4)
+
+Poissa: Marjukka Laapotti (Lastu), Marja Leskinen (Vaara)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokouksen sihteeriksi valittiin Anna Viitanen.
+
+#### 2.	Kohan versionvaihto ####
+<ul>
+  <li>Versionvaihdon jälkeen ei ole ollut isompia ongelmia. Tietueiden vieminen Melindaan ei vielä onnistu kaikissa kimpoissa. Tietuesiirtäjä Melindan ja TäTin välillä on saatu eilen toimimaan, mutta osassa kimppoja pääkäyttäjät eivät ole vielä tehneet kuvailijoiden tunnusten aktivointia. </li>
+  <li>Melindan replikointi ollut pois päältä 6.5. lähtien. Melindassa tehtyjä muutoksia ei siis ole tämän jälkeen valunut TäTiin. [Lisäys 17.5.: Replikointi saatu taas toimimaan 17.5.] </li>
+  <li>Tietuenäytön muutoslokista pystyy nyt pääkäyttäjätunnuksilla palauttamaan tietokantaan muokatun tietueen edellisen version. Tätä kokeillaan vielä testikannassa. </li>
+</ul>
+
+#### 3.	Tietuesiirtäjän toiminta ####
+<ul>
+  <li>Tietuesiirtäjän toiminnassa on pieniä eroja Mikropalveluun verrattuna. Keskusteltiin muutoksista. Kannattaa tarkkailla toimintaa ja raportoida mahdollisista ongelmista. Antti päivittää vielä ohjeita. Jos ohjeille löytyy sopiva tallennuspaikka, lisätään niihin johtava linkki TäTin ”Kuvailijoille” -valikkoon. </li>
+  <li>Aineistotyyppien muodostumisongelma on korjaantunut tiistain päivityksessä. Jos tämän suhteen on vielä ongelmia, kyse voi olla kimpan MARC-kenttien suojausasetuksista. </li>
+  <li>Tietueiden valuminen tapahtuu aikaisempaa hitaammin. Vie/tuo -napin painaminen vie tietueen jonoon, jota käsitellään 5 minuutin välein. Näin pyritään estämään liian nopean valumisen aiheuttamat (osakohde)ongelmat. </li>
+  <li>Kyytissä on edelleen valunut vanhoja tietueita. Ilmeisesti kyse on tietueista, joissa lainaus on muuttanut tietueen aikaleimaa. Valuminen toimii niin, että aikaleimaltaan uudemman paikalliskannan tietueen päälle ei pitäisi valua TäTistä tietuetta. Jos tällaista havaitsee, kannattaa tehdä tiketti. Paikalliskantojen asetuksissa saattaa olla eroja, jotka vaikuttavat valumiseen. </li>
+</ul>
+
+#### 4.	RDA-konversiot ja toimintasuunnitelma ####
+<ul>
+  <li>Konversiot tehdään kesän aikana. </li>
+  <li>Päädyttiin siihen, että ruotsinkielisen tekstiaineiston (008 mp 35-37 /041a = swe + 000/06 = a) tietueet konvertoidaan kaikissa tietokannoissa ruotsiksi. </li>
+  <li>Konversiosääntöihin on tehty Kansalliskirjastossa muutoksia. Antti on testannut korjattuja sääntöjä, korjauksia tarvitaan vielä lisää. </li>
+  <li>RDA-konversiossa on mukana myös kansityyppien korjaus ja 240-kentän välimerkityksen / alkukirjaimen koon muutos. Nämä korjaantuvat konversiossa myös sellaisissa tietueissa, jotka jo ovat RDA:ta. Jo RDA-konvertoitujen tietokantojen kohdalla (Vaskin ja Kirkes) pitää miettiä, kuinka nämä korjaukset saataisiin tehtyä. </li>
+  <li>Keskusteltiin siitä, missä järjestyksessä konversio kannattaa tehdä. Päädyttiin siihen, että konversio tehdään ensin TäTiin. Konversiossa tietueiden aikaleima muuttuu, joten tässä vaiheessa on erikseen estettävä tietueiden valuminen paikalliskantoihin. </li>
+  <li>Konversio pystytään tekemään ilman että siitä on vaikutuksia tietokantojen käytölle. Konvertoidut tietueet tuodaan välivarastoon, josta niitä siirretään pienemmissä erissä tietokantoihin. </li>
+</ul>
+
+#### 5.	Kirjastopalvelun uudet käytännöt ja niiden vaikutukset ####
+<ul>
+  <li>Uutuutena Extranetissa on ”Oma lista” ja muutos kuvailupyyntöjen teossa. </li>
+  <li>Jos Extranetissä lukee, että kuvailutietoja ei ole tulossa, olisi mahdollista tilata kuvailu erillisellä hinnalla. Tätä ei ole Koha-Suomen kirjastoissa harrastettu. </li>
+  <li>Ongelmana on edelleen se, että kuvailustatus saattaa muuttua. </li>
+  <li>Melindan ja Kirjastopalvelun elokuva- ja pelitietueissa on eroja. Osa Melinda-kirjastoista kuvailee nämä Kirjastopalvelua tarkemmin. Elokuvien kuvailussa erona on se, että Kirjastopalvelu tekee kuvailun kansien perusteella katsomatta tietoja tallenteelta. Kirjastopalvelun tietue on kuitenkin hyväksyttävä, vaikka Melindassa olisi tarjolla parempi tietue. Melindan tietueen siirtäminen TäTiin aiheuttaisi riskin tuplatietueista. </li>
+  <li>Katsottiin Antin tekemää kaaviota Kirjastopalvelun tietueiden käsittelystä. Todettiin, että jos kuvailu on tulossa Kirjastopalvelulta, itse ei kannata kuvailla TäTiin, vaikka kuvailun saaminen kestäisi kauan. Aineiston voi käsitellä paikalliskannassa minitiedoilla lainauskuntoon tai siirtää Melindassa mahdollisesti olevan tietueen paikalliskantaan (ei Tätiin). </li>
+  <li>Extranetissa kuvailustatuksen ”-” saaneet tapaukset ovat ongelmallisia. Näistä kannattaa joka tapauksessa tehdä kuvailupyyntö. </li>
+</ul>
+
+#### 6.	Tulevia tapahtumia ####
+<ul>
+  <li>Koha-Suomi-Melinda-tilannepalaveri 21.5. </li>
+  <li>YKN:n metatietoryhmän kokous 22.5. </li>
+  <li>Kansalliskirjaston järjestämä kuvailukoulutusverkoston ensimmäinen kokous 24.5. </li>
+  <ul>
+  	<li>Antti pyydetty mukaan Koha-Suomen edustajana  </li>
+   	<li>Lisätietoja: <a href="https://www.kiwi.fi/display/kuvailuyhteistyo/Kuvailukoulutusverkosto" target="_blank">Kuvailukoulutusverkosto </a>  </li>
+    <li><a href="https://www.kiwi.fi/pages/viewpage.action?pageId=384631114" target="_blank">Asialista </a> </li>
+  </ul>
+  <li>Kuvailun tiedotuspäivä 29.5.2024 </li>
+</ul>
+
+#### 7.	Muita asioita ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1006" target="_blank">Välimerkkiongelma Z39.50/SRU-haussa </a> -> Tiketti on ratkaistu, muttei toimi vielä kaikkialla. Korjaus on tulossa kaikille tiistain (21.5.) päivityksessä. </li>
+  <li>Nalkutin on päällä Tätissä. Antti testaa, onko Nalkuttimen tuplatietueita aiheuttanut ongelma saatu korjattua. [Lisäys 17.5.: Testattu 17.5. ja ongelma on edelleen olemassa] </li>
+</ul>
+
+#### 8.	Seuraava kokous ####
+
+Syyskauden ensimmäinen kokous: 5.9. klo 13.15
+
+
+---
 ## Kuvailuryhmän muistio 4/2024 ##
 
 Aika: 17.4.2024 klo 14.00–15.15
