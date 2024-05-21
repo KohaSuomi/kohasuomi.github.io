@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -28,6 +28,10 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Viime viikolla 0-vuotiaalle lapselle korttia tehdessä ei Sotu-siilo huolinut hänen henkilötunnustaan vaan pyysi tarkistamaan hetun. Ilmeni, että siilon koodi on aluenpitäen kirjoitettu siten, että Sotu-siilo ei huoli 0-vuotiaiden eikä 100-vuotiaiden hetuja. Tämän asiakkaan kohdalla teimme niin, että hänen korttinsa tallennettiin ilman hetua ja kortille lisättiin viesti puuttuvasta henkilötunnuksesta. Kallisen Pasilla on ongelman ratkaisu työn alla.
+
+**Lappi**
+* Normaalia ylläpitoa + paljon pieniä korjauksia
+* Muistutus Koha-Suomen seuraavasta uutiskirjeestä eli saammeko teiltä uutiset ja kuulumiset tähän pohjaan viimeistään 30.5.? https://docs.google.com/document/d/1C1kP8jM8k47VGg_WCSmaeE29cL81IK5jimq2Dth9mbk/edit?usp=sharing
 
 ## Viikko 20
 
