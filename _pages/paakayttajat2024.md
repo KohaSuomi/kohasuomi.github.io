@@ -27,7 +27,7 @@ Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (O
 Etelästä pohjoiseen
 
 **OUTI**
-* Viime viikolla 3 kk ikäiselle lapselle korttia tehdessä ei Sotu-siilo huolinut hänen henkilötunnustaan vaan pyysi tarkistamaan hetun. Ilmeni, että siilon koodi on aluenpitäen kirjoitettu siten, että Sotu-siilo ei huoli alle 1-vuotiaiden eikä 100-vuotiaiden hetuja. Tämän asiakkaan kohdalla teimme niin, että hänen korttinsa tallennettiin ilman hetua ja kortille lisättiin viesti puuttuvasta henkilötunnuksesta. Kallisen Pasilla on ongelman ratkaisu työn alla.
+* Viime viikolla 0-vuotialle lapselle korttia tehdessä ei Sotu-siilo huolinut hänen henkilötunnustaan vaan pyysi tarkistamaan hetun. Ilmeni, että siilon koodi on aluenpitäen kirjoitettu siten, että Sotu-siilo ei huoli 0-vuotiaiden eikä 100-vuotiaiden hetuja. Tämän asiakkaan kohdalla teimme niin, että hänen korttinsa tallennettiin ilman hetua ja kortille lisättiin viesti puuttuvasta henkilötunnuksesta. Kallisen Pasilla on ongelman ratkaisu työn alla.
 
 ## Viikko 20
 
