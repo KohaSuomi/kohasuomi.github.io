@@ -39,9 +39,11 @@ Otetaanko tuen piiriin seuraavat väliaikaiset JS-rimpsut?
 * [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447)
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
 
-
 ### Kehitysehdotusten läpikäntiä
 
+### Seuraavat kokoukset
+
+Kesän ja syksyn kokoukset.
 ## Asiantuntijaryhmän muistio 6/24
 
 Aika: 29.4.2024 klo 13<br />
