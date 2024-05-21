@@ -20,9 +20,9 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 27.5.2024 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Varausten priorisointi
+### 2. Varausten priorisointi
 
 Kohassa on järjestelmäasetus [LocalHoldsPriority](https://koha-community.org/manual/23.11/en/html/circulationpreferences.html#localholdspriority-localholdsprioritypatroncontrol-localholdspriorityitemcontrol), jolla voi priorisoida varauksia niin, että palautuskirjastossa olevat varaukset jäävät kiinni, vaikka niiden edellä olisi varauksia muualla. Yksittäisiä niteitä ja asiakastyyppejä voi määrittää toiminnon ulkopuolelle.
 
@@ -32,18 +32,42 @@ Mahdollisia ongelmia:
 * niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
-### JavaScript-rimpsuja
+### 3. JavaScript-rimpsuja
 
 Otetaanko tuen piiriin seuraavat väliaikaiset JS-rimpsut?
 
 * [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447)
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
 
-### Kehitysehdotusten läpikäntiä
+### 4. Kuulumisia Suomi.fi Viesti -rajapinnan uudistuksista
 
-### Seuraavat kokoukset
+Kodo kertoo Suomi.fi Viestit -rajapinnan uudistuksista.
+
+### 5. Kehitysehdotusten läpikänti
+
+* [Virkailijaoikeuksien muodostuminen automaattisesti asiakasmääreen perusteella #1169](https://github.com/KohaSuomi/Koha/issues/1169)
+  * Versioon 24.05 on tulossa mahdollisuus kopioida käyttäjäoikeudet käyttäjältä toiselle
+* [Jäädytetyjen ja aktiivisten varausten erottaminen lukumäärässä #1170 ](https://github.com/KohaSuomi/Koha/issues/1170)
+  * Pitääkö ottaa huomioon myös tulevaisuudessa voimaan tulevat varaukset?
+  * Korjaus tarkoittaisi syvälle meneviä koodimuutoksia. Mielellään yhteisön kautta.
+  * Finna-kuvio pitää miettiä erikseen, koska huomioitava Finna-rajapinta ja Finnan käyttöliittymä.
+* [Tiettyjen LOST- ja NOT_LOAN arvojen jättäminen laskutuksen ulkopuolelle #1171](https://github.com/KohaSuomi/Koha/issues/1171)
+  * Riittäisikö, että kaikki LOST-tilat jätettäisiin laskutuksen ulkopuolelle?
+* [Takaajan tietoihin muutosehdotus taattavan maksunäkymistä, ehdotus 2. #1173](https://github.com/KohaSuomi/Koha/issues/1173)
+  * Ehdotus: toteutus yhteisössä 
+* [Nalkuta eri kentistä luettelointipohjan mukaan #1](https://github.com/KohaSuomi/koha-plugin-nalkutin/issues/1)
+  * Ehdotus: toteutetaan
+* [Kiireetön varaus: Asiakkaan tiedoissa olevasta varausjonosta ei erotu, jos jokin varauksista on kiireetön varaus #1187](https://github.com/KohaSuomi/Koha/issues/1187)
+  * Ehdotus: toteutus yhteisön kautta
+*  [Myöhemmin voimaan tulevan varauksen erottuminen varausjonossa #1214](https://github.com/KohaSuomi/Koha/issues/1214)
+  * Ehdotus: toteutus yhteisön kautta 
+
+### 6. Muut asiat
+
+### 7. Seuraavat kokoukset
 
 Kesän ja syksyn kokoukset.
+
 ## Asiantuntijaryhmän muistio 6/24
 
 Aika: 29.4.2024 klo 13<br />
