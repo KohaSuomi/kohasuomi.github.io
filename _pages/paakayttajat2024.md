@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -38,10 +38,14 @@ Etelästä pohjoiseen
 * Peruuta varaus-painikkeen tiketti ok, suljettu
 * Varausjonon piilotuksesta tehdään tiketti
 
+**Siilinjärvi**
+* tämänaamuinen rajapintakorjaus palautti Siilinjärvi-kuntasovelluksen toimintaan
+* työn alle tulossa hankintaportaaliin mahdollisuus tilata osa aineistosta muovitettuna, ainakin Lapissa ja Oulussa tämä tuntui toimivan
+
 ## Viikko 20
 
 Aika: 14.5.2024 klo 9.15<br />
-Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Mikko Liimatainen (Vaski), Annika Helastila (Osan ajasta) ja Elina Uotila (Kirkes)
+Läsnä: Anneli, Kodo ja Pasi (Koha-Suomi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen ja Katja Valjakka (Lumme), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Mikko Liimatainen (Vaski), Annika Helastila (Osan ajasta) ja Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Asiat**
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1206)
@@ -87,7 +91,10 @@ YKL Kaunoluokat, YKL Tietoluokat
 **Kirkes**
 * Tilauksen muokkausnäkymässä on havaittu arvo -1 "Ei lainattavissa" -sarakkeessa tekstiselitteen sijaan. Korvaushinta-kentästä on puuttunut sadasosan nolla ja desimaalierottimena on piste, vähittäishinnassa ja todellisessa hinnassa desimaalierottimena on pilkku. Sadasosat näkyvät vaihtelevasti. Seurataan tilannetta, esiintyykö omituisuuksia esim. tiettyjen aineistojen kohdalla.
 * Sekä henk.koht että työkortin lainoissa on näkynyt valmiiksi uusi laina -täppä, mutta uusi valitut lainat -painike oli harmaana. Painike aktivoitunut, kun täpän on poistanut ja laittanut uudelleen päälle.
-* Lauantaina lainatun aineiston "Ei uusintaa ennen" -päivä on mennyt seuraavalle tiistaille, joka on aiheuttanut hämmennystä. 
+* Lauantaina lainatun aineiston "Ei uusintaa ennen" -päivä on mennyt seuraavalle tiistaille, joka on aiheuttanut hämmennystä.
+
+**Siilinjärvi**
+* Ei kai mainittavaa.
 
 
 ## Viikko 19
