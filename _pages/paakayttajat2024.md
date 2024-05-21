@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -44,6 +44,11 @@ Etelästä pohjoiseen
 
 **Lumme**
 * normaalia ylläpitoa.
+
+**Helle**
+* Asiakastieto oli lukittu-tilainen. Lukituksen syy ei ole ainakaan vielä löytynyt. Asiakastiedon lokitiedoissa ei ole merkintää yhdestäkään virheellisestä kirjautumisyrityksestä. Borrowers-taulun login_attempts=0
+* Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo.
+* 20.5.2024 POSTPONED-tilainen EditX-sanoma. Sanoma sisällötön.
 
 ## Viikko 20
 
