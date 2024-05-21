@@ -32,6 +32,15 @@ Mahdollisia ongelmia:
 * niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
+### JavaScript-rimpsuja
+
+Otetaanko tuen piiriin seuraavat väliaikaiset JS-rimpsut?
+
+* [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447)
+* [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
+
+
+### Kehitysehdotusten läpikäntiä
 
 ## Asiantuntijaryhmän muistio 6/24
 
