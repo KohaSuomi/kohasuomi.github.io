@@ -47,7 +47,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Asiakastieto oli lukittu-tilainen. Lukituksen syy ei ole ainakaan vielä löytynyt. Asiakastiedon lokitiedoissa ei ole merkintää yhdestäkään virheellisestä kirjautumisyrityksestä. Borrowers-taulun login_attempts=0
-* Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo.
+* Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä asiakkaalla lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo.
 * 20.5.2024 POSTPONED-tilainen EditX-sanoma. Sanoma sisällötön.
 
 ## Viikko 20
