@@ -78,7 +78,7 @@ Helle: Kati Sillgren<br />
 Lumme: Katja Valjakka<br />
 Kyyti: Tuomas Kunttu<br />
 Vaski: Anni Rajala<br />
-Koha-Suomi: Anneli ja joku kehittäjistä (tarkennetaan myöhemmin)
+Koha-Suomi: Anneli Österman ja Pasi Kallinen
 
 Kokoonkutsujana toimii Anneli.
 
