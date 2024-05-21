@@ -13,13 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli ja Emmi (Koha-Suomi)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
+  * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
 * Tieteellisten Koha-pääkäyttäjien kokouksessa esille tullut CSS-toive: [MARC21-kenttien otsikot näkymään isoilla kirjaimilla](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_docs/intranetusercss.md#muuta-marc21-kenttien-otsikot-n%C3%A4kym%C3%A4%C3%A4n-isoilla-kirjaimilla)
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1229)
 * Varausryhmä-termi hyllyvarausraportin ohjeistukseen, onko ok vai keksitäänkö jokin muu?
+  * Poimintaryhmä - pickup group / pickup location group
 * [Tiketti #447](https://github.com/KohaSuomi/Koha/issues/447) - otetaanko käyttöön js-rimpsu väliaikaisesti?
+  * testataan vielä testeillä erilaisia katkaisuja ja tehdään lopullinen päätös maanantain asiantuntijaryhmässä.
+
+Etelästä pohjoiseen
 
 ## Viikko 20
 
