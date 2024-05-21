@@ -47,7 +47,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Asiakastieto oli lukittu-tilainen. Lukituksen syy ei ole ainakaan vielä löytynyt. Asiakastiedon lokitiedoissa ei ole merkintää yhdestäkään virheellisestä kirjautumisyrityksestä. Borrowers-taulun login_attempts=0
-* Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä asiakkaalla lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo.
+* Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä asiakkaalla lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo. Emmi lisäsi ongelman ratkaisutavan Ongelmatilanteita ja niiden ratkaisuja -dokumenttiin 
 https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja#asiakkaan-lainat-eiv%C3%A4t-avaudu
 * 20.5.2024 POSTPONED-tilainen EditX-sanoma. Sanoma sisällötön.
 
