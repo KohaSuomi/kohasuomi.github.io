@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -41,6 +41,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * tämänaamuinen rajapintakorjaus palautti Siilinjärvi-kuntasovelluksen toimintaan
 * työn alle tulossa hankintaportaaliin mahdollisuus tilata osa aineistosta muovitettuna, ainakin Lapissa ja Oulussa tämä tuntui toimivan
+
+**Lumme**
+* normaalia ylläpitoa.
 
 ## Viikko 20
 
