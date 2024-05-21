@@ -31,7 +31,7 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Normaalia ylläpitoa + paljon pieniä korjauksia
-* Muistutus Koha-Suomen seuraavasta uutiskirjeestä eli saammeko teiltä uutiset ja kuulumiset tähän pohjaan viimeistään 30.5.? https://docs.google.com/document/d/1C1kP8jM8k47VGg_WCSmaeE29cL81IK5jimq2Dth9mbk/edit?usp=sharing
+* Muistutus Koha-Suomen seuraavasta uutiskirjeestä eli saammeko teiltä uutiset ja kuulumiset tähän pohjaan viimeistään 30.5. https://docs.google.com/document/d/1C1kP8jM8k47VGg_WCSmaeE29cL81IK5jimq2Dth9mbk/edit?usp=sharing
 
 ## Viikko 20
 
