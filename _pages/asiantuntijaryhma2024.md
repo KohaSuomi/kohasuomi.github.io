@@ -26,7 +26,8 @@ Läsnä:
 
 Käydään läpi tiekartta ja päivitetään tarpeen mukaan.
 
-Tammikuun tiekartta: [Tiekartta2024tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/13939514/Tiekartta2024tammikuu.xlsx)
+Tiekartta toukokuu: [Tiekartta2024touko.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/15399494/Tiekartta2024touko.xlsx)
+
 
 ### 3. Varausten priorisointi
 
