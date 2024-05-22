@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -50,6 +50,10 @@ Etelästä pohjoiseen
 * Asiakkaan lainatiedot eivät latautuneet Kohassa eivätkä Finnassa. Latautumattomuuden syynä asiakkaalla lainassa olevan tietueen toinen nide, jonka Nidetyyppi-arvona oli ei-käytössä-oleva-arvo. Emmi lisäsi ongelman ratkaisutavan Ongelmatilanteita ja niiden ratkaisuja -dokumenttiin 
 https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja#asiakkaan-lainat-eiv%C3%A4t-avaudu
 * 20.5.2024 POSTPONED-tilainen EditX-sanoma. Sanoma sisällötön.
+
+**Kirkes**
+* Pieniä korjauksia ja henkilökunnan kysymyksiin vastaamista on vielä tehty versionvaihdon jäljiltä.
+* Palautuskuitin kuittipohjaan ollaan lisäämässä tietoa asiakkaan anonymisoidusta lainahistoriasta. 
 
 ## Viikko 20
 
