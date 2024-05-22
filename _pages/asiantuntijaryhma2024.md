@@ -22,7 +22,13 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
-### 2. Varausten priorisointi
+### 2. Tiekartan tarkistus
+
+Käydään läpi tiekartta ja päivitetään tarpeen mukaan.
+
+Tammikuun tiekartta: [Tiekartta2024tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/13939514/Tiekartta2024tammikuu.xlsx)
+
+### 3. Varausten priorisointi
 
 Kohassa on järjestelmäasetus [LocalHoldsPriority](https://koha-community.org/manual/23.11/en/html/circulationpreferences.html#localholdspriority-localholdsprioritypatroncontrol-localholdspriorityitemcontrol), jolla voi priorisoida varauksia niin, että palautuskirjastossa olevat varaukset jäävät kiinni, vaikka niiden edellä olisi varauksia muualla. Yksittäisiä niteitä ja asiakastyyppejä voi määrittää toiminnon ulkopuolelle.
 
@@ -32,18 +38,18 @@ Mahdollisia ongelmia:
 * niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
-### 3. JavaScript-rimpsuja
+### 4. JavaScript-rimpsuja
 
 Otetaanko tuen piiriin seuraavat väliaikaiset JS-rimpsut?
 
 * [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447)
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
 
-### 4. Kuulumisia Suomi.fi Viesti -rajapinnan uudistuksista
+### 5. Kuulumisia Suomi.fi Viesti -rajapinnan uudistuksista
 
 Kodo kertoo Suomi.fi Viestit -rajapinnan uudistuksista.
 
-### 5. Kehitysehdotusten läpikänti
+### 6. Kehitysehdotusten läpikänti
 
 * [Virkailijaoikeuksien muodostuminen automaattisesti asiakasmääreen perusteella #1169](https://github.com/KohaSuomi/Koha/issues/1169)
   * Versioon 24.05 on tulossa mahdollisuus kopioida käyttäjäoikeudet käyttäjältä toiselle
@@ -62,9 +68,9 @@ Kodo kertoo Suomi.fi Viestit -rajapinnan uudistuksista.
 *  [Myöhemmin voimaan tulevan varauksen erottuminen varausjonossa #1214](https://github.com/KohaSuomi/Koha/issues/1214)
   * Ehdotus: toteutus yhteisön kautta 
 
-### 6. Muut asiat
+### 7. Muut asiat
 
-### 7. Seuraavat kokoukset
+### 8. Seuraavat kokoukset
 
 Kesän ja syksyn kokoukset.
 
