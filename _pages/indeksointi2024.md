@@ -11,18 +11,37 @@ title: 'Indeksointi- ja tiedonhakuryhmä 2024'
 
 Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2024. Indeksointi- ja tiedonhakuryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta. Jäsenet: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski), Mauri Aittaniemi (Lappi)
 
-## Esityslista 3/2024
+## Muistio 3/2024
 
 Aika: Ke 22.5.2024 klo 13-14<br />
-Läsnä:
+Läsnä: Heli Auranen, Markku Untinen, Ville Kivioja, Anneli Österman, Mauri Aittaniemi, Timo Väisänen, Anna Viitanen, Antti Heikkinen, Johanna Räisä
 
 ### 1. Käsiteltävät kehitysehdotukset
 
 * [Emotietueesta osakohteeseen siirtyvät tiedot ja RDA #705](https://github.com/KohaSuomi/Koha/issues/705)
+  * Nämä on aiemmin jo korjattu, mutta korjaukset katosivat versiopäivityksen yhteydessä, mutta ovat edelleen tarpeellisia. Tässä uudelleen päivitettynä, miten tiedot pitäisi saada siirtymään emotietueesta osakohteen 773-kenttään:
+
+    Emon kenttä | Osakohteen kenttä | Huomioita
+    --- | --- | ---
+    100ab TAI 110ab TAI 111ab | 773a | Tämän ei tarvitse enää siirtyä
+    245abnpc | 773t |
+    264abc | 773d |
+    240 | 773s | Ei tarvita enää
+    022a | 773x |
+    020a | 773z |
+    001 | 773w |
+    300ae | 773h |
+    028ba | 773o |
+
+    Päätös: Toteutetaan yllä kuvaillusti ja tarjotaan muutosta myös Koha-yhteisöön. 
 * [Osakentän 775t lisääminen title-hakukenttään #718](https://github.com/KohaSuomi/Koha/issues/718)
+  * Päätös: Indeksointi- ja tiedonhakuryhmä 22.5.2024: Lisätään 775t-kenttä title- ja title-other-variant-indekseihin.
 * [Nalkutin käyttöön jo tietojen tuontivaiheessa TäTiin #945](https://github.com/KohaSuomi/Koha/issues/945)
+  * Päätös: Uusissa tietueissa ei ole enää juurikaan formaatin vastaisia tietueita, vanhemmissa tietueissa niitä on ollut enemmän. Todettiin, että ongelma ei ole enää akuutti, eikä teknistä ratkaisua tarvita. EDItX:n kautta tulevat tietueet ovat ennakkotietueita, jotka korvautuvat myöhemmin täysluetteloiduilla, jolloin tarvetta nalkuttamiselle ei ole vielä tietueen luontivaiheessa. Ei siis ole tarvetta tehdä mitään teknisiä ratkaisuja tällä hetkellä.
 
 ### 2. Seuraava kokous
+
+Ei sovita vielä uutta aikaa vaan seurataan syyskuun puoliväliin saakka, tuleeko uusia kehitysehdotuksia. Jos niitä on tullut, Anneli kyselee jäseniltä sopivia aikoja seuraavalle kokoukselle.
 
 ## Muistio 2/2024
 
