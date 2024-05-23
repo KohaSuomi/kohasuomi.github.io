@@ -262,7 +262,7 @@ valitut*.
 *Maksutyyppi*-kohtaan valitaan toimipistekoodi, ellei se ole jo siinä valmiina. Sen jälkeen 
 klikkaa *Ceepos-maksu*.
 
-![](/assets/files/docs/Maksut/maksut2.png)
+![](/assets/files/docs/Maksut/maksavalitutmaksut1.png)
 
 ### 3.5.2. Maksun lähettäminen kassaohjelmaan
 
