@@ -106,3 +106,10 @@ _Uusi käsittelyerä_ -nappulasta saat lisättyä käsittelyerän.
 * _Kuvaus_: Lisätietoja käsittelyerästä
 * _Käsittelyerään lisätyn niteen tila_: Tähän tulee automaattisesti asetuksissa määritetty oletusarvo, mutta sen voi vaihtaa toiseksi valikosta.
 * _Oletuskäsittelypohja_: Valitse sopiva käsittelypohja.
+
+### Niteiden lisääminen käsittelyerään
+
+Voit lisätä niteitä käsittelyerään kahta kautta:
+
+* Odotuslistalta  _Lisää viimeiset x nidettä käsittelyerään_ -napista sen jälkeen, kun olet lisännyt niteet odotuslistalle.
+* Käsittelyerän kohdalta _Lisää niteitä_ -napista.
