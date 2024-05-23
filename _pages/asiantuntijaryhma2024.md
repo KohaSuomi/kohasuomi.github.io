@@ -41,10 +41,11 @@ Mahdollisia ongelmia:
 
 ### 4. JavaScript-rimpsuja
 
-Otetaanko tuen piiriin seuraavat väliaikaiset JS-rimpsut?
+Otetaanko tuen piiriin seuraavat JS-rimpsut?
 
-* [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447)
+* [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447) - Väliaikainen korjaus
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
+* [Asiakastietojen suojattu-valinta näkyviin vain pääkäyttäjille](https://github.com/KohaSuomi/Koha/issues/1232) - Vaskin rimpsu, jonka useampi haluaa käyttöön. Kannattaako plugarisoida ja ottaa Koha-Suomen vastuulle?
 
 ### 5. Kuulumisia Suomi.fi Viesti -rajapinnan uudistuksista
 
