@@ -19,7 +19,7 @@ Läsnä: Heli Auranen, Markku Untinen, Ville Kivioja, Anneli Österman, Mauri Ai
 ### 1. Käsiteltävät kehitysehdotukset
 
 * [Emotietueesta osakohteeseen siirtyvät tiedot ja RDA #705](https://github.com/KohaSuomi/Koha/issues/705)
-  * Nämä on aiemmin jo korjattu, mutta korjaukset katosivat versiopäivityksen yhteydessä, mutta ovat edelleen tarpeellisia. Tässä uudelleen päivitettynä, miten tiedot pitäisi saada siirtymään emotietueesta osakohteen 773-kenttään:
+  * Nämä on aiemmin jo korjattu, mutta korjaukset katosivat aiemman versiopäivityksen yhteydessä, mutta ovat edelleen tarpeellisia. Tässä uudelleen päivitettynä, miten tiedot pitäisi saada siirtymään emotietueesta osakohteen 773-kenttään:
 
     Emon kenttä | Osakohteen kenttä | Huomioita
     --- | --- | ---
