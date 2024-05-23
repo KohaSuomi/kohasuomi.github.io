@@ -253,9 +253,8 @@ Viivakoodi-kenttään.
 
 ### 3.5.1. Valmistelut ennen maksujen vastaanottoa
 
-Avaa Kohassa asiakkaan *Maksa maksuja*-välilehti. Valitse sieltä ne
-maksut, jotka asiakas maksaa ja klikkaa joko *Maksa kaikki* tai *Maksa
-valitut*.
+Asiakkaan lainausnäytöllä valitse *Maksut*, sieltä löytyy *Maksa maksuja*-välilehti. Valitse sieltä ne
+maksut, jotka asiakas maksaa ja klikkaa *Maksa valitut*.
 
 ![](/assets/files/docs/Maksut/maksut1.png)
 
