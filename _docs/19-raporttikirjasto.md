@@ -2841,6 +2841,16 @@ where object = <<borrowernumber>>
 and action='MODIFY' 
 
 union 
+select timestamp,user,module,action,object,info,interface from action_logs_2022
+where object = <<borrowernumber>>
+and action='MODIFY'
+
+union 
+select timestamp,user,module,action,object,info,interface from action_logs_2021
+where object = <<borrowernumber>>
+and action='MODIFY'
+
+union 
 select timestamp,user,module,action,object,info,interface from action_logs_2020
 where object = <<borrowernumber>>
 and action='MODIFY'
