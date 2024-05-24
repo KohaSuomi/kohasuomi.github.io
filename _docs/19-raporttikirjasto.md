@@ -2832,7 +2832,7 @@ UPDATE borrowers SET flags = flags - (1<<12) WHERE flags = flags | (1<<12) AND b
 Raportilla voi tutkia, mitä muutoksia asiakkaan tietoihin on tehty koko Koha-historian aikana. Parametriksi annetaan asiakkaan borrowernumber.
 
 Lisääjä: Anneli Österman<br />
-Lisäyspvm: 25.3.2022, muokattu 29.3.2022, muokattu 8.9.2023
+Lisäyspvm: 25.3.2022, muokattu 29.3.2022, muokattu 8.9.2023, päivitetty 24.5.2024
 Versio: 22.11
 
 ```
