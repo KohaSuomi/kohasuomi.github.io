@@ -366,7 +366,7 @@ hakea ISSN:lla tai lehden nimellä.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul41.png)
 
-![](assets/files/docs/Kausijulkaisut/Hae kausijulkaisutilauksia tarkka haku.png)
+![](assets/files/docs/Kausijulkaisut/kausijulkaisutilaus_tarkka_haku.png)
 
 Voit myös klikata _Tarkka haku_ oikeassa reunassa ja hakea tarkemmilla
 tiedoilla tilausta.
