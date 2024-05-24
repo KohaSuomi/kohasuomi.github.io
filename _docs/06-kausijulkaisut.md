@@ -296,7 +296,7 @@ Tilausten tiedot näkyvät _Kausijulkaisutilaukset_ -välilehdellä.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_valilehti.PNG)
 
-Vasemman valikon _Kausijulkaisutilauksen tiedot_ -painikkeesta pääset siirtymään suoraan lehden kaikkiin tilauksiin. Klikkaamalla Kausijulkaisutilaukset-välilehdeltä linkkiä _Kausijulkaisutilauksen tiedot_ pääset kyseisen tilauksen
+Numerolistauksen alla olevasta _Kausijulkaisutilauksen tiedot_ -painikkeesta pääset siirtymään suoraan lehden kaikkiin tilauksiin. Klikkaamalla Kausijulkaisutilaukset-välilehdeltä linkkiä _Kausijulkaisutilauksen tiedot_ pääset kyseisen tilauksen
 yhteenvetonäytölle virkailijatyökalussa.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilauksen_tiedot.PNG)
