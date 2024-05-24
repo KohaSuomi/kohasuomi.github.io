@@ -374,7 +374,7 @@ tiedoilla tilausta.
 Hakutuloksen voit suodattaa jokaisen sarakkeen alla olevasta
 hakulaatikosta ja määrittää hakutulosten määrän taulukon yläreunassa
 olevissa laatikoissa. Haku-kenttää voi myös käyttää tietojen
-suodattamiseen. Sen hakee kaikista sarakkeista kerralla.
+suodattamiseen. Se hakee kaikista sarakkeista kerralla.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_hakutulos.png)
 
@@ -382,7 +382,7 @@ suodattamiseen. Sen hakee kaikista sarakkeista kerralla.
 
 Lehtitilauksen voi poistaa. Hae haulla esille poistettava tilaus ja
 klikkaa Nimeke-sarakkeesta lehden nimeä, jolloin avautuu tilauksen
-muokkausnäyttö.
+tiedot-sivu.
 
 <img src="/assets/files/docs/Kausijulkaisut/kausipois.png" title="Kausijulkaisuhaun tuloksena kaksi Kodinkuvalehti 2020 -tilausta" alt="Kausijulkaisuhaun tuloksena kaksi Kodinkuvalehti 2020 -tilausta" style="width:40.0%" />
 
