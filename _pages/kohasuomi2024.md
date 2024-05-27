@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 22
+
+Aika: Maanantai 27.5.2024 klo 9<br />
+Läsnä: Lasse, Emmi, Anneli, Pasi, Johanna, Kassu, Kodo, Lari
+
+**Asiat**
+* Viikon 22 päivitys
+  * Uutta käyttäjätunnusta tehdessä Kopioi asiakastiedot-kysymys palauttaa kirjastovalinnan oletukseksi
+  * Kohan itsepalvelutoiminnon Palautus-kentässä käännösvirhe
+
 ## Viikko 21
 
 Aika: Maanantai 20.5.2024 klo 9<br />
