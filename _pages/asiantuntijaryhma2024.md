@@ -80,7 +80,7 @@ Kimpoissa selvitykseen:
   * Finna-kuvio pitää miettiä erikseen, koska huomioitava Finna-rajapinta ja Finnan käyttöliittymä.
   * Päätös: Tutkitaan, olisiko Kassun ehdotus taulukon lisätekstistä mahdollinen ratkaisu. Sinne voisi siis koota tietoja tyyliin
 Aktiivisia 5, Keskeytettyjä 3, Ei vielä voimassa 2
-* Päivi on kysynyt Finna-toimistosta asiasta ja he ovat tehneet varausten näkyvyydestä muutosehdotuksen.
+  * Päivi on kysynyt Finna-toimistosta asiasta ja he ovat tehneet varausten näkyvyydestä muutosehdotuksen.
 * [Tiettyjen LOST- ja NOT_LOAN arvojen jättäminen laskutuksen ulkopuolelle #1171](https://github.com/KohaSuomi/Koha/issues/1171)
   * Riittäisikö, että kaikki LOST-tilat jätettäisiin laskutuksen ulkopuolelle?
   * Päätös: Muutetaan laskutustyökalua niin, että LOST-tilaiset niteet eivät tule mukaan laskutettavien listalle. Ei lisätä mahdollisuutta määritellä, mitkä LOST-tilaiset otetaan huomioon vaan kaikki LOST-tilat jätetään pois listalta.
