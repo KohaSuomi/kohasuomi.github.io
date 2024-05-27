@@ -21,7 +21,8 @@ Aika: 27.5.2024 klo 13<br />
 Läsnä:
 
 ### 1. Arin ajankohtaiset
-
+Versiopäivitys meni melko hyvin.
+Suomi.fi viesteihin on tulossa käyttöön REST-rajapinta
 ### 2. Tiekartan tarkistus
 
 Käydään läpi tiekartta ja päivitetään tarpeen mukaan.
