@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 7/2024
 
 Aika: 27.5.2024 klo 13<br />
-Läsnä: Päivi, Ari, Piia, Roosa, Pia, Riikka, Susanna, Anneli, Katja, Kodo
+Läsnä: Päivi Knuutinen (Vaara), Ari Mäkiranta, Piia Semenoff (OUTI), Roosa Kyllönen (Kyyti), Pia Kusmin (Lapin kirjasto), Riikka Mustajärvi (Kirkes), Susanna Sandell (Vaski), Anneli Österman, Katja Valjakka, Kodo Korkalo
 
 ### 1. Arin ajankohtaiset
 
@@ -29,8 +29,7 @@ Suomi.fi viesteihin on tulossa käyttöön REST-rajapinta.
 
 Käydään läpi tiekartta ja päivitetään tarpeen mukaan.
 
-Tiekartta toukokuu: [Tiekartta2024touko.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/15399494/Tiekartta2024touko.xlsx)
-
+Päivitetty toukokuun tiekartta: [Tiekartta2024touko.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/15456347/Tiekartta2024touko.xlsx)
 
 ### 3. Varausten priorisointi
 
@@ -42,17 +41,18 @@ Mahdollisia ongelmia:
 * niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
-Pohdittavaksi seuraavaan kokoukseen:
-* suhdeluku niteitä/varauksia, saman tyylisesti kuin Varauksia per nide -raportilla, jonka jälkeen esim. aletaan vasta priorisoimaan
-* kuinka usein ohitetaan asiakas max
-* kuinka iso joukko varauksia alusta otetaan huomioon
+**Pohdittavaksi seuraavaan kokoukseen:**
+Minkälaisilla ehtoja toimintoon tarvittaisiin?
+* kannattako höydyntää jotenkin suhdelukua niteitä/varauksia, saman tyylisesti kuin Varauksia per nide -raportilla, jonka jälkeen esim. aletaan vasta priorisoimaan
+* kuinka usein ohitetaan asiakas max?
+* kuinka iso joukko varauksia jonon alusta otetaan huomioon?
 
 ### 4. JavaScript-rimpsuja
 
 Otetaanko tuen piiriin seuraavat JS-rimpsut?
 
 * [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447) - Väliaikainen korjaus
-  * Viedäänkin patchina yhteisöön ja meille
+  * Viedäänkin patchina yhteisöön ja meille 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
   * Patchina yhteisöön ja meille
 * [Asiakastietojen suojattu-valinta näkyviin vain pääkäyttäjille](https://github.com/KohaSuomi/Koha/issues/1232) - Vaskin rimpsu, jonka useampi haluaa käyttöön. Kannattaako plugarisoida ja ottaa Koha-Suomen vastuulle?
