@@ -22,6 +22,9 @@ Läsnä: Lasse, Emmi, Anneli, Pasi, Johanna, Kassu, Kodo, Lari
 * Viikon 22 päivitys
   * Uutta käyttäjätunnusta tehdessä Kopioi asiakastiedot-kysymys palauttaa kirjastovalinnan oletukseksi
   * Kohan itsepalvelutoiminnon Palautus-kentässä käännösvirhe
+  * Kyyti: tarratulostuksen Itse tulostetut -listalla liikaa niteitä
+  * EDItX-hankinta: Käyttäjätilin näkyminen tilausta vastaanotettaessa
+  * Fasetit: Nimi aakkostuu väärin, jos alussa erikoinen merkki
 
 ## Viikko 21
 
