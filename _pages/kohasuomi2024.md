@@ -24,7 +24,6 @@ Läsnä: Lasse, Emmi, Anneli, Pasi, Johanna, Kassu, Kodo, Lari
   * Kohan itsepalvelutoiminnon Palautus-kentässä käännösvirhe
   * Kyyti: tarratulostuksen Itse tulostetut -listalla liikaa niteitä
   * EDItX-hankinta: Käyttäjätilin näkyminen tilausta vastaanotettaessa
-  * Fasetit: Nimi aakkostuu väärin, jos alussa erikoinen merkki
 * Testikantojen uudelleenluonti ja redusointi
 
 ## Viikko 21
