@@ -20,6 +20,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 * [Testikantojen uusiminen 28.5.2024](https://github.com/KohaSuomi/Koha/discussions/1247)
 * [Tietoturvatarkistus](https://github.com/KohaSuomi/Koha/discussions/1245)
 * [Asiantuntijaryhmän muistio 7/2024](https://koha-suomi.fi/asiantuntijaryhma2024#asiantuntijaryhm%C3%A4n-muistio-72024) - vielä tarkistamatta ja julkaisematta
+* Kesälomat ylös myös [Koha-yhteystiedot](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot) -wikiin
 
 
 Pohjoisesta etelään
