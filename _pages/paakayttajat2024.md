@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
@@ -23,6 +23,11 @@ Läsnä:
 
 
 Pohjoisesta etelään
+
+**Vaara**
+* Mikroväylän lainausautomaatit eivät edelleenkään näytä uusinnoissa eräpäivää näytöllä, kuittiin tulee. Asiaa selvitetty Mikroväylän kanssa.
+* Sähköavusteiset kuormapyörät laitettiin varattavaksi Kohan kautta torstaina ja perjantaina otettiin varausmahdollisuus pois päältä, kun tajuttiin, että lakimuutos mahdollisesti tarvittavasta liikennevakuutuksesta tulee voimaan 1.6.2024. Eilen saatiin kuitenkin tieto, että vakuutusta näille kuormapyörille ei tarvita.
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
