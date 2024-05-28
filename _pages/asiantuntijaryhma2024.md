@@ -42,28 +42,31 @@ Mahdollisia ongelmia:
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
 **Pohdittavaksi seuraavaan kokoukseen:**
-Minkälaisilla ehtoja toimintoon tarvittaisiin?
-* kannattako höydyntää jotenkin suhdelukua niteitä/varauksia, saman tyylisesti kuin Varauksia per nide -raportilla, jonka jälkeen esim. aletaan vasta priorisoimaan
+
+Minkälaisia ehtoja toimintoon tarvittaisiin?
+* kannattako höydyntää jotenkin suhdelukua niteitä/varauksia, saman tyylisesti kuin Varauksia per nide -raportilla, jonka jälkeen esim. aletaan vasta priorisoimaan. 
 * kuinka usein ohitetaan asiakas max?
-* kuinka iso joukko varauksia jonon alusta otetaan huomioon?
+* kuinka iso joukko varauksia jonon alusta otetaan huomioon? Numeerinen raja vai prosenttiosuus vai jotain muuta?
 
 ### 4. JavaScript-rimpsuja
 
 Otetaanko tuen piiriin seuraavat JS-rimpsut?
 
 * [Nidehaun julkaisuvuosi-hakuun ennen/jälkeen -toiminnot #447](https://github.com/KohaSuomi/Koha/issues/447) - Väliaikainen korjaus
-  * Viedäänkin patchina yhteisöön ja meille 
+  * Päätös: Ei oteta, viedäänkin korjaus yhteisöön ja asennetaan myös meille.
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014) - siirretään Select-nappi ja poistetaan Osoite-sarakkeesta ylimääräinan kirjastotieto.
-  * Patchina yhteisöön ja meille
+  * Päätös: Ei oteta, viedäänkin korjaus yhteisöön ja asennetaan myös meille.
 * [Asiakastietojen suojattu-valinta näkyviin vain pääkäyttäjille](https://github.com/KohaSuomi/Koha/issues/1232) - Vaskin rimpsu, jonka useampi haluaa käyttöön. Kannattaako plugarisoida ja ottaa Koha-Suomen vastuulle?
-  * Päätös: Plugarisoidaan 
+  * Päätös: Tehdään liitännäiseksi ja asennetaan kaikkiin kimppohin. Pääkäyttäjät voivat tarvittaessa aktivoida liitännäisen käyttöön sen jälkeen. 
 
 ### 5. Kuulumisia Suomi.fi Viesti -rajapinnan uudistuksista
 
-Kodo kertoo Suomi.fi Viestit -rajapinnan uudistuksista.
+Kodo kertoi Suomi.fi Viestit -rajapinnan uudistuksista. Hän ja Strandin Lari osallistuivat Valtion integraatioalustan tiedotustilaisuuteen viikolla 21.
 
-* REST-rajapinta tulossa
-* Viestit voidaan lähettää jo nyt osoitteen perusteella, eli periaatteessa kaikki kirjeviestintä voidaan siirtää sinne.
+* REST-rajapinta tulossa. Se mahdollistaa viestien välittämisen Suomi.fi Viesteihin niin, että varsinaiseen viestiinkin saadaan enemmän sisältöä, eikä asiakkaan tarvitse lukea kirjaston viestiä liitteenä olevasta pdf-tiedostosta. Viestit tulevat olemaan enemmän sähköpostin/pikaviestin kaltaisia jatkossa, mutta päästä päähän salattuja. Jos asiakkaalla on käytössä puhelimessa Suomi.fi-sovellus, voi hän saada ilmoituksia saapuvista viesteistä kuten sähköposteista/pikaviesteistä.
+* Tähän mennessä viestejä on voinut lähettää vain sellaisille henkilöille, joilla on suomalainen henkilötunnus. Tähän on tullut muutos ja viestit voidaan lähettää jo nyt pelkän osoitteen perusteella, eli periaatteessa kaikki kirjeviestintä voitaisiin siirtää Suomi.fi Viesteihin.
+
+Tarkempi tiedote (linkki tulossa)
 
 Kimpoissa selvitykseen:
 * Pystyisikö kimpat siirtyä käyttämään Suomi.fi Viestit -palvelua kirjeiden osalta ja luopua nykyisistä kirjeviestirajapinnoista?
@@ -73,37 +76,37 @@ Kimpoissa selvitykseen:
 
 * [Virkailijaoikeuksien muodostuminen automaattisesti asiakasmääreen perusteella #1169](https://github.com/KohaSuomi/Koha/issues/1169)
   * Versioon 24.05 on tulossa mahdollisuus kopioida käyttäjäoikeudet käyttäjältä toiselle
-  * Päätös: Versioon 24.05 tulee ominaisuus, jossa käyttäjoikeudet voidaan kopioida käyttäjältä toiselle. Seurataan, tuoko yhteisö ominaisuutta aikaisempiin versioihin ja tuodaan se sitten mahdollisesti meidän nykyiseen versioon. Muuten ominaisuus tulee käyttöön vuoden päästä, kun päivitetään versioon 24.xx. Ei tehdä automaatiota, mutta tarvittaessa kimpoissa voi hyödyntää asiakasmääreitä ja auktorisoituja arvoja kertomaan, mitkä käyttäjäoikeudet käyttäjällä on.
+  * **Päätös**: Versioon 24.05 tulee ominaisuus, jossa käyttäjoikeudet voidaan kopioida käyttäjältä toiselle. Seurataan, tuoko yhteisö ominaisuutta aikaisempiin versioihin ja tuodaan se sitten mahdollisesti meidän nykyiseen versioon. Muuten ominaisuus tulee käyttöön vuoden päästä, kun päivitetään versioon 24.xx. Ei tehdä automaatiota, mutta tarvittaessa kimpoissa voi hyödyntää asiakasmääreitä ja auktorisoituja arvoja kertomaan, mitkä käyttäjäoikeudet käyttäjällä on.
 * [Jäädytetyjen ja aktiivisten varausten erottaminen lukumäärässä #1170 ](https://github.com/KohaSuomi/Koha/issues/1170)
   * Pitääkö ottaa huomioon myös tulevaisuudessa voimaan tulevat varaukset?
   * Korjaus tarkoittaisi syvälle meneviä koodimuutoksia. Mielellään yhteisön kautta.
   * Finna-kuvio pitää miettiä erikseen, koska huomioitava Finna-rajapinta ja Finnan käyttöliittymä.
-  * Päätös: Tutkitaan, olisiko Kassun ehdotus taulukon lisätekstistä mahdollinen ratkaisu. Sinne voisi siis koota tietoja tyyliin
+    * Päivi on kysynyt Finna-toimistosta asiasta ja he ovat tehneet varausten näkyvyydestä muutosehdotuksen.
+  * **Päätös**: Tutkitaan, olisiko Kassun ehdotus taulukon yläreunan lisätekstistä mahdollinen ratkaisu. Sinne voisi siis koota tietoja tyyliin
 Aktiivisia 5, Keskeytettyjä 3, Ei vielä voimassa 2
-  * Päivi on kysynyt Finna-toimistosta asiasta ja he ovat tehneet varausten näkyvyydestä muutosehdotuksen.
 * [Tiettyjen LOST- ja NOT_LOAN arvojen jättäminen laskutuksen ulkopuolelle #1171](https://github.com/KohaSuomi/Koha/issues/1171)
   * Riittäisikö, että kaikki LOST-tilat jätettäisiin laskutuksen ulkopuolelle?
-  * Päätös: Muutetaan laskutustyökalua niin, että LOST-tilaiset niteet eivät tule mukaan laskutettavien listalle. Ei lisätä mahdollisuutta määritellä, mitkä LOST-tilaiset otetaan huomioon vaan kaikki LOST-tilat jätetään pois listalta.
+  * **Päätös**: Muutetaan laskutustyökalua niin, että LOST-tilaiset niteet eivät tule mukaan laskutettavien listalle. Ei lisätä mahdollisuutta määritellä, mitkä LOST-tilaiset otetaan huomioon, vaan kaikki LOST-tilat jätetään pois listalta.
 * [Takaajan tietoihin muutosehdotus taattavan maksunäkymistä, ehdotus 2. #1173](https://github.com/KohaSuomi/Koha/issues/1173)
   * Ehdotus: toteutus yhteisössä
-  * Toteutetaan itse ja tarjotaan yhteisölle muutos. Edellinen vastaava on mennyt siellä läpi.
+  * **Päätös**: Toteutetaan itse ja tarjotaan yhteisölle muutos. Edellinen vastaava on mennyt siellä läpi.
 * [Nalkuta eri kentistä luettelointipohjan mukaan #1](https://github.com/KohaSuomi/koha-plugin-nalkutin/issues/1)
   * Ehdotus: toteutetaan
-  * Päätös: Viedään Indeksointi- ja tiedonhakuryhmään päätettäväksi.
-Asiantuntijaryhmän huomioita:
-* Nalkutin muutettaisiin sellaiseksi, että jokaiselle/halutuille kuvailupohjalle voidaan määrittää omat säännöt, joiden mukaan nalkutetaan.
+  * **Päätös**: Viedään Indeksointi- ja tiedonhakuryhmään päätettäväksi.
+  Asiantuntijaryhmän huomioita:
+  * Nalkutin muutettaisiin sellaiseksi, että jokaiselle/halutuille kuvailupohjalle voidaan määrittää omat säännöt, joiden mukaan nalkutetaan.
 * [Kiireetön varaus: Asiakkaan tiedoissa olevasta varausjonosta ei erotu, jos jokin varauksista on kiireetön varaus #1187](https://github.com/KohaSuomi/Koha/issues/1187)
   * Ehdotus: toteutus yhteisön kautta
-  * Päätös: Ei toteuteta, koska kiireettömiä varauksia tehdään lähinnä työkorteille. Piia tekee yhteisöön kehitysehdotuksen.
+  * **Päätös**: Ei toteuteta, koska kiireettömiä varauksia tehdään lähinnä työkorteille. Piia tekee yhteisöön kehitysehdotuksen.
 *  [Myöhemmin voimaan tulevan varauksen erottuminen varausjonossa #1214](https://github.com/KohaSuomi/Koha/issues/1214)
    * Ehdotus: toteutus yhteisön kautta
-   * Päätös: Tiketissä #1170 päätettiin tutkia, saisiko varaustaulukkoon lisättyä jonkinlaisen tiedon, kuinka monta aktiivista, keskeytettyä ja ei-aktiivista varausta tietueella on. Se riittänee tämänkin tiketin osalta. 
+   * **Päätös**: Tiketissä #1170 päätettiin tutkia, saisiko varaustaulukkoon lisättyä jonkinlaisen tiedon, kuinka monta aktiivista, keskeytettyä ja ei-aktiivista varausta tietueella on. Se riittänee tämänkin tiketin osalta. 
 * [Takaajan tiedoissa Taattavan maksut -välilehden maksunäkymään muutosehdotus](https://github.com/KohaSuomi/Koha/issues/1239)
-  * Päätös: Tehdään korjaus ja tarjotaan sitä yhteisöön.
+  * **Päätös**: Tehdään korjaus ja tarjotaan sitä yhteisöön.
 
 ### 7. Muut asiat
 
-Kimpoissa selvitykseen seuraavan asiantuntijaryhmän jäsenet seuraavaan kokoukseen.
+Kimpoissa selvitykseen seuraavaan kokoukseen, ketä ehdotetaan jäseniksi seuraavaan asiantuntijaryhmään. Koha-Suomen hallitus valitsee uuden asiantuntijaryhmän syksyllä.
 
 ### 8. Seuraavat kokoukset
 
