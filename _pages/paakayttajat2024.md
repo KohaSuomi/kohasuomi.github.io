@@ -26,7 +26,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 Pohjoisesta etelään
 
 **OUTI**
-* Oulun kaupungin konsernihallinnon talouspuolelta on pyydetty selvittämään, jos hallituksen esitys arvonlisäveron nostosta 24% -> 25,5% menee läpi, mitä se vaatisi tietojärjestelmiltä. Anneli on testannut Kohan osalta ja Koha tukee veroprosenttina 25,5%. Kirjastoissa pääsääntöisesti budjetit ovat verottomia. Kohan maksutyyppeihin alv-prosentteja ei määritellä. Finnan verkkomaksujen tuotekoodien ylläpito hoidetaan OUTIssa Ceeposin verkkomaksuportaalissa.
+* Oulun kaupungin konsernihallinnon talouspuolelta on pyydetty selvittämään, jos hallituksen esitys arvonlisäveron nostosta 24% -> 25,5% menee läpi, mitä se vaatisi tietojärjestelmiltä. Anneli on testannut Kohan osalta, ja Koha tukee veroprosenttina 25,5%. Kirjastoissa pääsääntöisesti budjetit ovat verottomia. Kohan maksutyyppeihin alv-prosentteja ei määritellä. Finnan verkkomaksujen tuotekoodien ylläpito hoidetaan OUTIssa Ceeposin verkkomaksuportaalissa.
 
 **Vaara**
 * Mikroväylän lainausautomaatit eivät edelleenkään näytä uusinnoissa eräpäivää näytöllä, kuittiin tulee. Asiaa selvitetty Mikroväylän kanssa.
