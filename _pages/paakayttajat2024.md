@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 22
+
+Aika: 28.5.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
+* [Testikantojen uusiminen 28.5.2024](https://github.com/KohaSuomi/Koha/discussions/1247)
+* [Tietoturvatarkistus](https://github.com/KohaSuomi/Koha/discussions/1245)
+
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
@@ -54,6 +69,8 @@ https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja#as
 **Kirkes**
 * Pieniä korjauksia ja henkilökunnan kysymyksiin vastaamista on vielä tehty versionvaihdon jäljiltä.
 * Palautuskuitin kuittipohjaan ollaan lisäämässä tietoa asiakkaan anonymisoidusta lainahistoriasta. 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-21) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 20
 
@@ -109,6 +126,7 @@ YKL Kaunoluokat, YKL Tietoluokat
 **Siilinjärvi**
 * Ei kai mainittavaa.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-20) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 19
 
@@ -117,6 +135,8 @@ Läsnä:
 
 **Asiat**
 * Versionvaihdon kuulumiset
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-19) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 18
 
