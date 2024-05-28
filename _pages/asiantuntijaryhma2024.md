@@ -41,7 +41,11 @@ Mahdollisia ongelmia:
 * niteeseen voi jäädä kiinni varaus, joka on esim. sijalla 350.
 * pienessä kirjastossa noudettavaksi haluttu varaus voidaan ohittaa periaatteessa rajattomasti, jos joku asiakas ei satu palauttamaan nidettä juuri sinne.
 
-**Pohdittavaksi seuraavaan kokoukseen:**
+**Päätös**:
+
+Tutkitaan järjestelmäasetuksen mahdollisuudet. Sellaisenaan se ei ole riittävä, vaan siihen tarvitaan määritettäviä lisäehtoja. Päätettiin, että jatketaan asian tutkimista seuraavassa kokouksessa.
+
+**Pohdittavaksi seuraavaan kokoukseen mennessä:**
 
 Minkälaisia ehtoja toimintoon tarvittaisiin?
 * kannattako höydyntää jotenkin suhdelukua niteitä/varauksia, saman tyylisesti kuin Varauksia per nide -raportilla, jonka jälkeen esim. aletaan vasta priorisoimaan. 
