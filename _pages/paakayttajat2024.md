@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
@@ -24,6 +24,9 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 
 
 Pohjoisesta etelään
+
+**OUTI**
+* Oulun kaupungin konsernihallinnon talouspuolelta on pyydetty selvittämään, jos hallituksen esitys arvonlisäveron nostosta 24% -> 25,5% menee läpi, mitä se vaatisi tietojärjestelmiltä. Anneli on testannut Kohan osalta ja Koha tukee veroprosenttina 25,5%. Kirjastoissa pääsääntöisesti budjetit ovat verottomia. Kohan maksutyyppeihin alv-prosentteja ei määritellä. Finnan verkkomaksujen tuotekoodien ylläpito hoidetaan OUTIssa Ceeposin verkkomaksuportaalissa.
 
 **Vaara**
 * Mikroväylän lainausautomaatit eivät edelleenkään näytä uusinnoissa eräpäivää näytöllä, kuittiin tulee. Asiaa selvitetty Mikroväylän kanssa.
