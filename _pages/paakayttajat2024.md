@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski)
 
 **Yhteiset asiat**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
@@ -32,6 +32,12 @@ Pohjoisesta etelään
 **Lappi**
 * Noutoryhmät/varausryhmät luotu.
 * Normaalia ylläpitoa.
+
+**Vaski**
+* Pyydetty kirjastoja ilmoittamaan kesän kiinnioloajat, viedään tieto kirjastojen nimeen.
+* Otettu viime viikolla käyttöön hankinnan kuvailupohja (järjestelmäasetus UseACQFrameworkForBiblioRecords). Pohjassa oli oletuksena valtava määrä turhia kenttiä, jotka piti testillä poistaa yksitellen, mutta tuotantoon onnistui viedä testiltä talteen otettu .ods-pohja. Sovittiin vielä palaverissa, että Vaski vie muokkaamansa pohjan jakoon TäTin ACQ-pohjan päälle.
+* Hyllyvarausraportille pyydetty niteen viivakoodia, koska lehtivarausten osalta sen tarkistaminen tarvittaessa tietueen kautta on hidasta. Muualta ei ole kuulunut tälle tarvetta, mutta sovittiin että Vaski voi tehdä tästä tiketin. Vaski tarkastelee vielä miten paljon tarvetta on ennen tiketin twkoa. 
+* Vaskin toive osittaisesta RDA-konversiosta virheiden välttämiseksi - keskustelunavaun. Sovittiin, että Vaski tekee tukipyynnön ja keskustelua jatketaan siellä. Tiketti: https://github.com/KohaSuomi/Koha/issues/1251
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
