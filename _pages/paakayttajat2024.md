@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 23
+
+
+Aika: 4.6.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Totalissues-mäppäysten purku](https://github.com/KohaSuomi/Koha/issues/1175)
+
+
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
