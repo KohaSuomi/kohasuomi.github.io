@@ -632,6 +632,43 @@ Jos ylemmät raportit piilotetaan, kannattaa myös otsikkorivi piilottaa.
 body#circ_circulation-home.circ div.col-sm-5.col-md-4 h3:nth-of-type(2) { display: none; }
 ```
 
+### Piilota Overdues/Myöhässä- linkit ja -otsikko  Lainaus ja palautus -sivulta vasemman reunan valikosta
+
+Myöhässä osion -piilotus, ensin otsikko, joka on määritelty järjestysnumerolla, eli jos otsikkojen järjestys muuttuu, niin saattaa joskus mennä sitten väärä otsikko piiloon.
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota Myöhässä-osio Lainaus ja palautus -sivuvalikosta */
+body.circ div#navmenulist h5:nth-of-type(4),
+body.circ div#navmenulist a[href="/cgi-bin/koha/circ/overdue.pl"],
+body.circ div#navmenulist a[href="/cgi-bin/koha/circ/branchoverdues.pl"] { display: none; }
+```
+
+### Piilota Varausjono-linkki Lainaus ja palautus -sivulta ja vasemman reunan valikosta
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota Varausjono-linkki Lainaus ja palautus -sivulla */
+a.circ-button[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] { display: none;}
+
+/* Piilota Varausjono-linkki Lainaus ja palautus -sivupalkista */
+div#navmenulist a[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
+```
+
+### Piilota Uusinta-linkki Lainaus ja palautus -sivun vasemman reunan valikosta
+
+Versio: 23.11<br />
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Uusinta-linkin piilotus Lainaus ja palautus -osion vasemman reunan valikosta */
+div#navmenulist a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
+```
+
 ### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpteutunut -välilehti
 
 Versio: 23.11<br />
