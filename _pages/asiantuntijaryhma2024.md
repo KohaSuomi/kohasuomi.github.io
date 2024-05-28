@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 7/2024
 
 Aika: 27.5.2024 klo 13<br />
-Läsnä: Päivi Knuutinen (Vaara),  Piia Semenoff (OUTI), Roosa Kyllönen (Kyyti), Pia Kusmin (Lapin kirjasto), Riikka Mustajärvi (Kirkes), Susanna Sandell (Vaski), Katja Valjakka (Lumme), Ari Mäkiranta, Anneli Österman, Kodo Korkalo (Koha-Suomi)
+Läsnä: Päivi Knuutinen (Vaara),  Piia Semenoff (OUTI), Roosa Väisänen (Kyyti), Pia Kusmin (Lapin kirjasto), Riikka Mustajärvi (Kirkes), Susanna Sandell (Vaski), Katja Valjakka (Lumme), Ari Mäkiranta, Anneli Österman, Kodo Korkalo (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
 
