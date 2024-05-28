@@ -53,7 +53,7 @@ Pohjoisesta etelään
 * Vaskin toive osittaisesta RDA-konversiosta virheiden välttämiseksi - keskustelunavaun. Sovittiin, että Vaski tekee tukipyynnön ja keskustelua jatketaan siellä. Tiketti: https://github.com/KohaSuomi/Koha/issues/1251
 
 **Helle**
-* Yhdessä kirjastossa Tili on lukittu -tapauksia. Selvisi, että liittyvät automaattilainaukseen. Kodolta ohjeena pyytää automaattitoimittajalta muutos: automaatti kysyy joka kerta Kohasta lainausoikeuden.
+* Yhdessä kirjastossa ollut useampia Tili on lukittu -tapauksia. Kodolta tieto, että liittyvät automaattilainaukseen. Kodolta ohje pyytää automaattitoimittajalta muutos, jonka jälkeen automaatti kysyy joka kerta Kohasta lainausoikeuden.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
