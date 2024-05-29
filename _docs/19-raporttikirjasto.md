@@ -76,36 +76,46 @@ select 'Auktoriteetit',count(*) from auth_header
 Tällä raportilla saadaan selville lainaaja, vaikka hän olisi määritellyt yksityisyysasetuksissa ettei halua lainahistoriaansa näkyviin.
 Raporttiin luetaan niteen viivakoodi ja se näyttää kaikki "yksityiset" asiakkaat palautusajan mukaan laskevasti.
 
+Päivitetty: 29.5.2024<br />
+Päivittäjä: Katariina Pohto
+
 ```
-select DATE_FORMAT(s.datetime, '%d.%m.%Y %T') as 'Palautusaika',  
-CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',bi.biblionumber,'\">',bi.title,'</a>') AS 'Nimeke', 
-CONCAT('<a href=\"/cgi-bin/koha/circ/circulation.pl?borrowernumber=',b.borrowernumber,'\">',b.firstname,' ',b.surname,'</a>') AS 'Lainaaja' 
-from borrowers b
-join statistics s on b.borrowernumber = s.borrowernumber
-join items i on i.itemnumber = s.itemnumber
-join biblio bi on i.biblionumber = bi.biblionumber
-where b.privacy = 2 and s.type = 'return' and barcode=<<barcode>> order by s.datetime desc
+SELECT DATE_FORMAT(s.datetime, '%d.%m.%Y %T') AS 'Palautusaika',
+       bi.title AS 'Nimeke',
+       bi.biblionumber,
+       b.borrowernumber
+  FROM borrowers b
+       INNER JOIN statistics s ON b.borrowernumber = s.borrowernumber
+       INNER JOIN items i ON i.itemnumber = s.itemnumber
+       INNER JOIN biblio bi on i.biblionumber = bi.biblionumber
+ WHERE b.privacy = 2
+   AND s.type = 'return'
+   AND i.barcode = <<barcode>>
+ ORDER BY s.datetime DESC
 ```
 
 ### Ylen lainat
 
 Lainatilasto Ylen aineistojen lainoista kirjaston ja aikavälin mukaan nimekkeittäin.
 
+Päivitetty: 29.5.2024<br />
+Päivittäjä: Katariina Pohto
+
 ```
-SELECT b.author AS 'Tekijä', b.title AS 'Nimeke', ExtractValue(bi.marcxml,'//datafield[@tag="245"]/subfield[@code="n"]') AS 'Osa', 
-bi.ean AS 'EAN', bi.publicationyear AS 'Vuosi', i.itype AS 'Aineistolaji', count(s.itemtype) AS 'Lainat'
-FROM statistics s
-LEFT JOIN items i ON i.itemnumber = s.itemnumber
-LEFT JOIN biblioitems bi ON i.biblionumber=bi.biblionumber
-LEFT JOIN biblio b ON b.biblionumber=i.biblionumber
-WHERE s.datetime >= <<Alkupvm|date>> AND
-      s.datetime <= DATE_ADD(DATE(<<Loppupvm|date>>), INTERVAL 1 DAY) AND
-      s.type IN ('issue', 'renew') AND
-      bi.editionresponsibility like '%yle%' AND
-      s.categorycode NOT IN ('EITILASTO', 'KAUKOLAINA') AND
-      s.branch = <<Kirjasto|branches>>
-GROUP BY b.biblionumber
-ORDER BY 1,2,3
+SELECT s.datetime, b.author AS 'Tekijä',
+       CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS Teos,
+       bi.ean AS 'EAN', b.copyrightdate AS 'Julk.vuosi', bi.itemtype AS 'Aineistolaji',
+       count(*) AS 'Lainat'
+  FROM statistics s
+       LEFT JOIN items i ON i.itemnumber = s.itemnumber
+       LEFT JOIN biblioitems bi ON i.biblionumber = bi.biblionumber
+       LEFT JOIN biblio b ON b.biblionumber = i.biblionumber
+ WHERE DATE(s.datetime) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+   AND s.type IN ('issue', 'renew')
+   AND bi.editionresponsibility REGEXP '^yle| yle'
+   AND s.categorycode NOT IN ('EITILASTO', 'KAUKOLAINA')
+ GROUP BY b.biblionumber
+ ORDER BY 1,2,3
 ```
 
 ### Ensilainat tunneittain viikonpäivittäin
@@ -118,7 +128,7 @@ SELECT HOUR(datetime) AS Tunti,
        count(*) AS Lainat
 FROM statistics
 WHERE datetime BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>
-      AND branch=<<Kirjasto|branches>>
+      AND branch = <<Kirjasto|branches>>
       AND type = 'issue'
 GROUP BY Paiva, Tunti
 ORDER BY WEEKDAY(datetime), Tunti
@@ -132,13 +142,16 @@ Lisääjä: Anneli Österman<br />
 Pvm: 10.12.2021
 
 ```
-select s.branch AS 'Kirjasto', s.type AS 'Lainan tyyppi', count(*)AS 'Määrä'
-from statistics s
-where s.branch like <<Kuntaosio ja %-merkki>>
-and date(s.datetime) between <<Alkupvm|date>> and <<Loppupvm|date>>
-and s.categorycode not in ('EITILASTO', 'KAUKOLAINA')
-and s.type in ('issue', 'renew')
-group by s.branch, s.type WITH ROLLUP LIMIT 100
+SELECT IFNULL(s.branch, 'Kaikki') AS 'Kirjasto',
+       IFNULL(s.type, 'yht.') AS 'Lainan tyyppi',
+       count(*) AS 'Määrä'
+  FROM statistics s
+ WHERE s.branch LIKE <<Kuntaosio ja %-merkki>>
+   AND DATE(s.datetime) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+   AND s.categorycode NOT IN ('EITILASTO', 'KAUKOLAINA')
+   AND s.type IN ('issue', 'renew')
+ GROUP BY s.branch, s.type WITH ROLLUP
+ LIMIT 100
 ```
 
 ### Palautustilasto
@@ -149,17 +162,15 @@ Lisääjä: Anneli Österman<br />
 Pvm: 10.12.2021
 
 ```
-select s.branch AS 'Kirjasto', count(*) AS 'Palautukset'
-from statistics s
-where (s.branch) like <<Kuntaosio ja %-merkki>>
-and (CAST(s.datetime as date) between <<Alkupvm|date>> and <<Loppupvm|date>>)
-and s.type='return'
-and borrowernumber is not null
-group by s.branch WITH ROLLUP LIMIT 50
+SELECT IFNULL(s.branch, 'Yht.') AS 'Kirjasto', count(*) AS 'Palautukset'
+  FROM statistics s
+ WHERE s.branch LIKE <<Kuntaosio ja %-merkki>>
+   AND DATE(s.datetime) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+   AND s.type = 'return'
+   AND s.borrowernumber IS NOT NULL
+ GROUP BY s.branch WITH ROLLUP
+ LIMIT 50
 ```
-
-
-
 
 ### Automaattikohtainen Lainaus/palautustilasto
 
@@ -172,35 +183,52 @@ Pvm: 14.12.2021
 SELECT CONCAT(HOUR(timestamp), ':00-', HOUR(timestamp)+1, ':00') AS 'tunnit',
        sum(IF(action = 'ISSUE', 1, 0)) AS 'lainat',
        sum(IF(action = 'RETURN', 1, 0)) AS 'palautukset'
-
-FROM action_logs
- where module = 'CIRCULATION'
-  AND user =<<Automaatin ID-numero>>
-  AND timestamp BETWEEN <<Alkupäivä|date>> AND <<Loppupäivä|date>>
-  AND action IN ('ISSUE','RETURN')
-GROUP BY HOUR(timestamp)
+  FROM action_logs
+ WHERE module = 'CIRCULATION'
+   AND user = <<Automaatin ID-numero>>
+   AND timestamp BETWEEN <<Alkupäivä|date>> AND <<Loppupäivä|date>>
+   AND action IN ('ISSUE','RETURN')
+ GROUP BY HOUR(timestamp)
 ```
 
 ### Videopelien lainamäärät
 
-Raportti listaa tietueet, joiden aineistotyyppi on videopeli ja näyttää niiden hyllypaikan, konsolityypin (mikäli se on merkitty 753a-kenttään), viimeisimmän lainauspäivän, vastaanottopäivän ja niteen lainamäärän. Raportti on hidas.
+Raportti listaa tietueet, joiden aineistotyyppi on videopeli ja näyttää niiden hyllypaikan, konsolityypin (mikäli se on merkitty 753a-kenttään tai alaotsikkoon), viimeisimmän lainauspäivän, vastaanottopäivän ja niteen lainamäärän. Raportti on hidas.
 
 Lisätty: 13.1.2022<br />
-Päivitetty: 10.1.2024<br />
+Päivitetty: 10.1.2024, 29.5.2024<br />
 Lisääjä: Anneli Österman
 
 ```
-select title as 'Nimeke', items.location as 'Hyllypaikka', ExtractValue(metadata, '//datafield[@tag="753"]/subfield[@code="a"]') as 'Konsoli', datelastborrowed as 'Viimeksi lainattu', items.dateaccessioned as 'Vastaanottopäivä', issues as 'Lainat'
-from statistics
-left join items using (itemnumber)
-Left join biblio on items.biblionumber=biblio.biblionumber
-LEFT JOIN biblioitems on items.biblionumber=biblioitems.biblionumber
-LEFT JOIN biblio_metadata on items.biblionumber=biblio_metadata.biblionumber
-where biblioitems.itemtype='VIDEOPELI'
-and type in ('issue', 'renew')
-group by items.itemnumber
-order by 2,3,1
-LIMIT 2000
+SELECT CONCAT_WS(' ', b.title, b.subtitle, b.part_number) AS Teos, i.location AS Hyllypaikka,
+       CASE WHEN ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') IS ''NULL THEN''
+            CASE WHEN b.subtitle LIKE '%ps4%' THEN 'Sony PlayStation 4'
+                 WHEN b.subtitle LIKE '%ps5%' THEN 'Sony PlayStation 5'
+                 WHEN b.subtitle LIKE '%ps3%' THEN 'Sony Playstation 3'
+                 WHEN b.subtitle LIKE '%Nintendo Switch%' THEN 'Nintendo Switch'
+                 WHEN b.subtitle LIKE 'Xbox 360' THEN 'Xbox 360'
+                 WHEN b.subtitle LIKE '%Xbox One%' THEN 'Xbox One'
+                 WHEN b.subtitle LIKE '%Xbox Series X%' THEN 'Xbox Series X'
+                 WHEN b.subtitle LIKE '%PlayStation 4%' THEN 'Sony PlayStation 4'
+                 WHEN b.subtitle LIKE '%PlayStation4%' THEN 'Sony PlayStation 4'
+                 WHEN b.subtitle LIKE '%PlayStation 3%' THEN 'Sony PlayStation 3'
+                 WHEN b.subtitle LIKE '%PlayStation3%' THEN 'Sony PlayStation 3'
+                 WHEN b.subtitle LIKE '%PlayStation 2%' THEN 'Sony PlayStation 2'
+                 WHEN b.subtitle LIKE '%Wii%' THEN 'Wii'
+                 WHEN b.subtitle LIKE '%PC%' THEN 'PC'
+                 ELSE NULL END
+            ELSE ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') END AS Konsoli,
+       i.datelastborrowed AS 'Viimeksi lainattu', i.dateaccessioned AS 'Vastaanottopäivä', i.issues AS 'Lainat'
+       FROM statistics s
+       LEFT JOIN items i USING (itemnumber)
+       LEFT JOIN biblio b ON i.biblionumber = b.biblionumber
+       LEFT JOIN biblioitems bi ON i.biblionumber = bi.biblionumber
+       LEFT JOIN biblio_metadata bm ON i.biblionumber = bm.biblionumber
+ WHERE bi.itemtype = 'VIDEOPELI'
+   AND s.type IN ('issue', 'renew')
+ GROUP BY i.itemnumber
+ ORDER BY Hyllypaikka, Konsoli, Teos
+ LIMIT 2000
 ```
 
 ### Optimoitu PowerBI-kysely laajemmilla tiedoilla
