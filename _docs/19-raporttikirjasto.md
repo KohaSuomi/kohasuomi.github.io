@@ -201,7 +201,7 @@ Lisääjä: Anneli Österman
 
 ```
 SELECT CONCAT_WS(' ', b.title, b.subtitle, b.part_number) AS Teos, i.location AS Hyllypaikka,
-       CASE WHEN ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') IS ''NULL THEN''
+       CASE WHEN ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') = '' THEN
             CASE WHEN b.subtitle LIKE '%ps4%' THEN 'Sony PlayStation 4'
                  WHEN b.subtitle LIKE '%ps5%' THEN 'Sony PlayStation 5'
                  WHEN b.subtitle LIKE '%ps3%' THEN 'Sony Playstation 3'
@@ -228,7 +228,7 @@ SELECT CONCAT_WS(' ', b.title, b.subtitle, b.part_number) AS Teos, i.location AS
    AND s.type IN ('issue', 'renew')
  GROUP BY i.itemnumber
  ORDER BY Hyllypaikka, Konsoli, Teos
- LIMIT 2000
+ LIMIT 3000
 ```
 
 ### Optimoitu PowerBI-kysely laajemmilla tiedoilla
@@ -386,8 +386,6 @@ AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
 ```
 
-
-
 ### Kirjaston voimassa olevien lainojen määrä eräpäiväaikavälillä
 
 Raportti laskee, kuinka monta voimassa olevaa lainaa on valitussa kirjastossa valitulla eräpäiväaikavälillä. Tällä voidaan tarkistaa esim. kirjaston yllättävissä sulkutilanteissa, onko tarpeen siirtää eräpäiviä eteenpäin.
@@ -397,11 +395,11 @@ Lisääjä: Anneli Österman<br />
 Versio: 21.11
 
 ```
-select date(date_due) as 'Eräpäivä',count(*) as 'Lainojen määrä' 
-from issues
-where branchcode= <<Kirjasto|branches>>
-and date(date_due) between  <<Alkupvm|date>> and  <<Loppupvm|date>>
-group by 1 WITH ROLLUP
+SELECT DATE(date_due) AS 'Eräpäivä', count(*) AS 'Lainojen määrä' 
+  FROM issues
+ WHERE branchcode = <<Kirjasto|branches>>
+   AND DATE(date_due) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+ GROUP BY 1 WITH ROLLUP
 ```
 
 ### Celia-äänikirjojen lainat
@@ -436,13 +434,15 @@ Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
-SELECT month(datetime) AS 'Kuukausi',itemtype AS 'Nidetyyppi', count(*) AS 'Kaukolainojen määrä'
-FROM statistics
-WHERE categorycode='KAUKOLAINA'
-AND type='issue'
-AND year(datetime)=<<Kirjoita vuosiluku>>
-AND branch=<<Lähettävä kirjasto|branches>>
-GROUP BY month(datetime), itemtype
+SELECT MONTH(datetime) AS 'Kuukausi',
+       IFNULL(itemtype, 'yht.') AS 'Nidetyyppi',
+       count(*) AS 'Kaukolainojen määrä'
+  FROM statistics
+ WHERE categorycode LIKE 'KAUKO%'
+   AND type = 'issue'
+   AND YEAR(datetime) = <<Kirjoita vuosiluku>>
+   AND branch = <<Lähettävä kirjasto|branches>>
+ GROUP BY MONTH(datetime), itemtype WITH ROLLUP
 ```
 
 ### Kaukolainojen kuukausitilasto, valitse aikaväli
@@ -453,52 +453,58 @@ Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
-SELECT month(datetime) AS 'Kuukausi',itemtype AS 'Nidetyyppi', count(*) AS 'Kaukolainojen määrä'
-FROM statistics
-WHERE categorycode='KAUKOLAINA'
-AND type='issue'
-AND date(datetime) between <<Alkaen|date>> AND <<Päättyen|date>>
-AND branch=<<Lähettävä kirjasto|branches>>
-GROUP BY month(datetime), itemtype with ROLLUP
+SELECT MONTH(datetime) AS 'Kuukausi',
+       IFNULL(itemtype, 'yht.') AS 'Nidetyyppi',
+       count(*) AS 'Kaukolainojen määrä'
+  FROM statistics
+ WHERE categorycode LIKE 'KAUKO%'
+   AND type = 'issue'
+   AND DATE(datetime) BETWEEN <<Alkaen|date>> AND <<Päättyen|date>>
+   AND branch = <<Lähettävä kirjasto|branches>>
+ GROUP BY MONTH(datetime), itemtype WITH ROLLUP
 ```
 
 ### Kaukolainojen vuositilasto hyllypaikan mukaan
 
-Laskee annetut kaukolainat. Parametreiksi annetaan vuosi, hyllypaikka ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
+Laskee annetut kaukolainat hyllypaikoittain. Parametreiksi annetaan vuosi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
 Pvm: 2.7.2021<br />
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
+Päivitetty: 29.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT count(*) AS 'Kaukolainojen määrä'
-FROM statistics
-LEFT JOIN items using (itemnumber)
-WHERE categorycode='KAUKOLAINA'
-AND type='issue'
-AND year(datetime)=<<Kirjoita vuosiluku>>
-AND branch=<<Lähettävä kirjasto|branches>>
-AND location=<<Hyllypaikka|LOC>>
-GROUP BY year(datetime)
+SELECT i.location, count(*) AS 'Kaukolainojen määrä'
+  FROM statistics s
+       LEFT JOIN items i USING (itemnumber)
+ WHERE categorycode LIKE 'KAUKO%'
+   AND type = 'issue'
+   AND YEAR(datetime) = <<Kirjoita vuosiluku>>
+   AND branch = <<Lähettävä kirjasto|branches>>
+ GROUP BY i.location WITH ROLLUP
 ```
 
 ### Kaukolainojen vuositilasto, kaunokirjallisuus
 
-Laskee annetut kaukolainat, joiden niteen luokka kuuluu kaunokirjallisuuden luokkaan. Parametreiksi annetaan vuosi, aineistotyyppi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
+Laskee annetut kaukolainat, joiden niteen luokka kuuluu kaunokirjallisuuden luokkaan. Erottelee aineistotyypin mukaan. Parametreiksi annetaan vuosi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat. (Tyhjä aineistotyyppi voi tarkoittaa poistettua nidettä.)
 
 Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
+Päivitetty: 29.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT count(*) AS 'Kaukolainojen määrä'
-FROM statistics
-LEFT JOIN items using (itemnumber)
-WHERE categorycode='KAUKOLAINA'
-AND type='issue'
-AND year(datetime)=<<Kirjoita vuosiluku>>
-AND branch=<<Lähettävä kirjasto|branches>>
-AND itemtype=<<Aineistotyyppi|itemtypes>>
-AND (cn_sort like '80%' OR cn_sort like '81%' OR cn_sort like '82%' OR cn_sort like '83%' OR cn_sort like '84%' OR cn_sort like '85%')
-GROUP BY year(datetime)
+SELECT bi.itemtype AS 'Aineistotyyppi', count(*) AS 'Kaukolainojen määrä'
+  FROM statistics s
+       LEFT JOIN items i USING (itemnumber)
+       LEFT JOIN deleteditems di USING (itemnumber)
+       LEFT JOIN biblioitems bi ON i.biblionumber = bi.biblionumber
+ WHERE s.categorycode LIKE 'KAUKO%'
+   AND s.type = 'issue'
+   AND YEAR(s.datetime) = <<Kirjoita vuosiluku>>
+   AND s.branch = <<Lähettävä kirjasto|branches>>
+   AND (i.cn_sort REGEXP '^8[0-5]|^[A-Z]{1}8[0-5]' OR di.cn_sort REGEXP '^8[0-5]|^[A-Z]{1}8[0-5]')
+ GROUP BY bi.itemtype WITH ROLLUP
 ```
 
 ### Kaukolainojen vuositilasto, postinumero ja aineistotyyppi
@@ -509,14 +515,14 @@ Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
-SELECT zipcode AS 'Postinumero', itemtype AS 'Nidetyyppi', count(*) AS 'Kaukolainojen määrä'
-FROM statistics
-LEFT JOIN borrowers USING (borrowernumber)
-WHERE cateogrycode='KAUKOLAINA'
-AND type='issue'
-AND year(datetime)=<<Kirjoita vuosiluku>>
-AND branch=<<Lähettävä kirjasto|branches>>
-GROUP BY zipcode, itemtype
+SELECT b.zipcode AS 'Postinumero', s.itemtype AS 'Nidetyyppi', count(*) AS 'Kaukolainojen määrä'
+  FROM statistics s
+       LEFT JOIN borrowers b USING (borrowernumber)
+ WHERE s.categorycode LIKE 'KAUKO%'
+   AND s.type = 'issue'
+   AND YEAR(datetime) = <<Kirjoita vuosiluku>>
+   AND branch = <<Lähettävä kirjasto|branches>>
+ GROUP BY zipcode, s.itemtype
 ```
 
 ## Asiakkaat ja tunnukset
@@ -547,16 +553,20 @@ and bde.celia=1
 Listaa valitulta aikaväliltä viestijonosta ne viestit, jotka on yritetty lähettää tekstiviestinä ja lähetys on epäonnistunut jostain syystä. Listalle tulee asiakkaan nimi, kirjastokortin numero linkkinä asiakastietoon _(muokkaa linkkiin oman kimppasi osoite)_, tekstiviesti numeroon -tieto, status, epäonnistumisen syy, viestin aihe, viestin sisältö, jonoonlisäämisaika ja asiakkaalla olevat viestit (näkee siis, onko hänellä jo huomautus virheellisestä puhnumerosta).
 
 Lisääjä: Anneli Österman / OUTI-kirjastot
+Päivitetty: 29.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT Concat(borrowers.surname, ', ', borrowers.firstname, '<br/>', '<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowers.borrowernumber,'">',borrowers.cardnumber,'</a>') AS 'Asiakas', borrowers.smsalertnumber AS 'Numero', status AS 'Status', failure_code AS 'Huomatus', subject AS 'Aihe', content AS 'SMS-viesti', time_queued AS 'Jonotusaika', messages.message AS 'Viesti asiakastiedoissa'
-FROM message_queue
-LEFT JOIN borrowers ON borrowers.borrowernumber = message_queue.borrowernumber
-LEFT JOIN messages ON message_queue.borrowernumber = messages.borrowernumber
-WHERE message_transport_type = 'sms' 
-AND (status = 'failed') 
-AND time_queued >= NOW() - INTERVAL <<Monenko päivän ajalta>> DAY 
-ORDER BY time_queued ASC
+SELECT b.borrowernumber, b.cardnumber, b.smsalertnumber AS 'Numero', mq.status,
+       mq.failure_code AS 'Huomatus', mq.subject AS 'Aihe', mq.content AS 'SMS-viesti',
+       mq.time_queued AS 'Jonotusaika', m.message AS 'Viesti asiakastiedoissa'
+  FROM message_queue mq
+       LEFT JOIN borrowers b ON b.borrowernumber = mq.borrowernumber
+       LEFT JOIN messages m ON mq.borrowernumber = m.borrowernumber
+ WHERE message_transport_type = 'sms' 
+   AND mq.status = 'failed'
+   AND mq.time_queued >= NOW() - INTERVAL <<Monenko päivän ajalta>> DAY 
+ ORDER BY mq.time_queued ASC
 ```
 
 ### Lähetettyjen viestien määrä
