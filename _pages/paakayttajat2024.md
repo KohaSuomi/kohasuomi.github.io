@@ -23,7 +23,7 @@ Läsnä:
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Janne Seppänen (Lastu)
 
 **Yhteiset asiat**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
@@ -54,14 +54,18 @@ Pohjoisesta etelään
 
 **Helle**
 * Yhdessä kirjastossa ollut useampia Tili on lukittu -tapauksia. Kodolta tieto, että liittyvät automaattilainaukseen. Kodolta ohje pyytää automaattitoimittajalta muutos, jonka jälkeen automaatti kysyy joka kerta Kohasta lainausoikeuden.
-  
+
+**Lastu**  
+* Suomi.fi-viestit käyttöön käyttöönoton yhteydessä, aloituspalaveri pidetty ja lupahakemus DVV:lle toimitettu. Lahti toimii välitoimijana.
+* Raindance-määrittelypalaveri pidetty, tulee käyttöön Lahdessa vuoden 2025 alusta.
+* Paikallinen varausryhmä-ominaisuutta testattu esinelainojen yhteydessä, joita ei voi kuljettaa pisteiden välillä. Vaikuttaa toistaiseksi lupaavalta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -102,6 +106,11 @@ https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja#as
 **Kirkes**
 * Pieniä korjauksia ja henkilökunnan kysymyksiin vastaamista on vielä tehty versionvaihdon jäljiltä.
 * Palautuskuitin kuittipohjaan ollaan lisäämässä tietoa asiakkaan anonymisoidusta lainahistoriasta. 
+
+**Lastu**
+* Pohdittu miten esinelainojen kuljetuksia voisi rajoittaa, Vaarasta vinkki "Oletusvaraussääntö nidetyypeittäin"-ominaisuudesta, jota aletaan testaamaan.
+* Puppe-työkalu tulossa käyttöön Lahdessa, tarkka ajankohta ei vielä tiedossa mutta todennäköisesti heti käyttöönoton yhteydessä
+* Palaverit Raindance-integraatiosta ja Suomi.fi - viestien käyttöönotosta tulossa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-21) - [Palaa sivun alkuun](/paakayttajat2024)
 
