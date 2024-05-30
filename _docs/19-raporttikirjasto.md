@@ -202,20 +202,15 @@ Lisääjä: Anneli Österman
 ```
 SELECT CONCAT_WS(' ', b.title, b.subtitle, b.part_number) AS Teos, i.location AS Hyllypaikka,
        CASE WHEN ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') = '' THEN
-            CASE WHEN b.subtitle LIKE '%ps4%' THEN 'Sony PlayStation 4'
-                 WHEN b.subtitle LIKE '%ps5%' THEN 'Sony PlayStation 5'
-                 WHEN b.subtitle LIKE '%ps3%' THEN 'Sony Playstation 3'
+            CASE WHEN b.subtitle REGEXP '(^ps| ps|play ?station) ?2' THEN 'Sony PlayStation 2'
+                 WHEN b.subtitle REGEXP '(^ps| ps|play ?station) ?3' THEN 'Sony PlayStation 3'
+                 WHEN b.subtitle REGEXP '(^ps| ps|play ?station) ?4' THEN 'Sony PlayStation 4'
+                 WHEN b.subtitle REGEXP '(^ps| ps|play ?station) ?5' THEN 'Sony PlayStation 5'
                  WHEN b.subtitle LIKE '%Nintendo Switch%' THEN 'Nintendo Switch'
-                 WHEN b.subtitle LIKE 'Xbox 360' THEN 'Xbox 360'
+                 WHEN b.subtitle LIKE '%Xbox 360%' THEN 'Xbox 360'
                  WHEN b.subtitle LIKE '%Xbox One%' THEN 'Xbox One'
                  WHEN b.subtitle LIKE '%Xbox Series X%' THEN 'Xbox Series X'
-                 WHEN b.subtitle LIKE '%PlayStation 4%' THEN 'Sony PlayStation 4'
-                 WHEN b.subtitle LIKE '%PlayStation4%' THEN 'Sony PlayStation 4'
-                 WHEN b.subtitle LIKE '%PlayStation 3%' THEN 'Sony PlayStation 3'
-                 WHEN b.subtitle LIKE '%PlayStation3%' THEN 'Sony PlayStation 3'
-                 WHEN b.subtitle LIKE '%PlayStation 2%' THEN 'Sony PlayStation 2'
                  WHEN b.subtitle LIKE '%Wii%' THEN 'Wii'
-                 WHEN b.subtitle LIKE '%PC%' THEN 'PC'
                  ELSE NULL END
             ELSE ExtractValue(bm.metadata, '//datafield[@tag="753"]/subfield[@code="a"][1]') END AS Konsoli,
        i.datelastborrowed AS 'Viimeksi lainattu', i.dateaccessioned AS 'Vastaanottopäivä', i.issues AS 'Lainat'
@@ -276,7 +271,6 @@ Tässä versiossa on tietokantojen kytkökset (joinit) on ns. optimoitu ja kysel
 Lisätty: 13.2.2024
 Tekijä: Katariina Pohto
 Lisääjä: Anneli Österman
-
 
 ```
 SELECT d.type AS Tapahtumatyyppi, d.itemnumber AS Nidenumero, IFNULL(b.title, db.title) AS Nimeke, d.branch AS Lainauskirjasto,
@@ -663,16 +657,20 @@ where pta.transaction_id=<<Tapahtumanumero>>
 
 ### Takaajattomat lapsiasiakkaat
 
-Raportilla voi hakea lapsiasiakkaat, joilla ei ole takaajaa. Tarkista, että lapsiasiakkaiden asiakastyypit vastaa oman kimpan asiakastyyppejä.
+Raportilla voi hakea lapsiasiakkaat, joilla ei ole takaajaa. Tarkista, että lapsiasiakkaiden asiakastyypit vastaavat oman kimpan asiakastyyppejä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 7.4.2020 / Päivitetty 31.5.2023
+Pvm: 7.4.2020 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-select borrowernumber 
-from borrowers 
-where categorycode in ('LAPSI', 'LAOMATOIMI') 
-and borrowernumber not in (select guarantee_id from borrower_relationships);
+SELECT borrowernumber, cardnumber
+  FROM borrowers
+ WHERE categorycode IN ('LAPSI', 'LAOMATOIMI')
+   AND borrowernumber NOT IN (SELECT guarantee_id
+                                FROM borrower_relationships br
+                                     INNER JOIN borrowers b
+                                     ON br.guarantor_id = b.borrowernumber)
 ```
 
 ### Henkilöasiakkaat, joilla takaaja
@@ -681,25 +679,32 @@ Raportilla voi hakea henkilöasiakkaat, joilla on takaaja.
 
 Lisääjä: Anneli Österman<br />
 Tekijä: Kodo Korkalo<br />
-Pvm: 7.4.2020
+Pvm: 7.4.2020 / päivitetty 30.5.2024
+Päivittäjä: Katariina Pohto
 
 ```
-select concat ('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">', coalesce(cardnumber, concat(borrowernumber, ' (borrowernumber)')), '</a>') as Korttinumero, concat(substring(firstname,1,1), '. ', substring(surname,1,1), '.') as Nimikirjaimet, branchcode as Kotikirjasto, categorycode as Asiakastyyppi, concat('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=',guarantorid,'">',guarantorid,'</a>') as Takaajalinkki, concat(substring(contactfirstname,1,1), '. ', substring(contactname,1,1), '.') as 'Takaajan nimikirjaimet' from borrowers where (contactfirstname is not null or contactname is not null) and categorycode='HENKILO' order by 3
+SELECT b.borrowernumber, b.cardnumber, CONCAT(SUBSTRING(b.firstname,1,1), '. ', SUBSTRING(b.surname,1,1), '.') as Nimikirjaimet,
+       b.branchcode AS Kotikirjasto, b.categorycode AS Asiakastyyppi,
+       CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=',br.guarantor_id,'">',br.guarantor_id,'</a>') as Takaaja
+  FROM borrowers b
+       INNER JOIN borrower_relationships br
+       ON b.borrowernumber = br.guarantee_id
 ```
 
 ### Kirjastokorttinumerottomat henkilöasiakkaat
 
-Raportti listaa henkilöasiakkaat, joilla ei ole kirjastokortin numeroa. Parametriksi valitaan kirjasto.
+Raportti listaa henkilöasiakkaat, joilla ei ole kirjastokortin numeroa. Parametriksi valitaan kirjasto tai kunta. Tarkista, että asiakastyypit vastaavat oman kimpan asiakastyyppejä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 7.4.2020
+Pvm: 7.4.2020 / päivitetty 30.5.2024
+Päivittäjä: Katariina Pohto
 
 ```
-select concat ('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">',borrowernumber,'</a>') as Asiakas, branchcode as Kotikirjasto
-from borrowers
-where cardnumber is null
-and categorycode='HENKILO'
-AND branchcode=<<Valitse kirjasto|branches>>
+SELECT borrowernumber, branchcode as Kotikirjasto, categorycode
+  FROM borrowers
+ WHERE cardnumber IS NULL
+   AND categorycode IN ('HENKILO', 'LAPSI', 'LAOMATOIMI', 'MUUHUOL')
+   AND branchcode LIKE <<Kotikirjasto: Kunta tai kirjastotunnus ja %>>
 ```
 
 ### Asiakkaat, joilla on mahdollisesti virheellinen syntymäaika
