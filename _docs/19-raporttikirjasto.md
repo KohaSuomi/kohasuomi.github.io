@@ -230,8 +230,8 @@ SELECT CONCAT_WS(' ', b.title, b.subtitle, b.part_number) AS Teos, i.location AS
 
 Tässä versiossa kyselyssä on mm. mukana laajemmin nimeketietoja, tapahtumapäivä ja -aika on eritelty omiksi sarakkeiksi, luokka erikseen, kielikoodi lisätty.
 
-Lisätty: 2.4.2024
-Tekijä: Katariina Pohto
+Lisätty: 2.4.2024<br />
+Tekijä: Katariina Pohto<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -268,8 +268,8 @@ SELECT d.type AS 'Tapahtumatyyppi', d.itemnumber AS 'Nidenumero', IFNULL(b.autho
 
 Tässä versiossa on tietokantojen kytkökset (joinit) on ns. optimoitu ja kysely hakee varmemmin myös poistettujen niteiden ja tietueiden tiedot raportille. Muistaa muuttaa tarvittaessa asiakastyyppien tunnukset ja kirjastorajaukset toisenlaiseksi.
 
-Lisätty: 13.2.2024
-Tekijä: Katariina Pohto
+Lisätty: 13.2.2024<br />
+Tekijä: Katariina Pohto<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -483,7 +483,7 @@ SELECT i.location, count(*) AS 'Kaukolainojen määrä'
 Laskee annetut kaukolainat, joiden niteen luokka kuuluu kaunokirjallisuuden luokkaan. Erottelee aineistotyypin mukaan. Parametreiksi annetaan vuosi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat. (Tyhjä aineistotyyppi voi tarkoittaa poistettua nidettä.)
 
 Pvm: 2.7.2021<br />
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Päivitetty: 29.5.2024<br />
 Päivittäjä: Katariina Pohto
 
@@ -546,7 +546,7 @@ and bde.celia=1
 
 Listaa valitulta aikaväliltä viestijonosta ne viestit, jotka on yritetty lähettää tekstiviestinä ja lähetys on epäonnistunut jostain syystä. Listalle tulee asiakkaan nimi, kirjastokortin numero linkkinä asiakastietoon _(muokkaa linkkiin oman kimppasi osoite)_, tekstiviesti numeroon -tieto, status, epäonnistumisen syy, viestin aihe, viestin sisältö, jonoonlisäämisaika ja asiakkaalla olevat viestit (näkee siis, onko hänellä jo huomautus virheellisestä puhnumerosta).
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Päivitetty: 29.5.2024<br />
 Päivittäjä: Katariina Pohto
 
@@ -567,7 +567,7 @@ SELECT b.borrowernumber, b.cardnumber, b.smsalertnumber AS 'Numero', mq.status,
 
 Kyselyllä voi hakea tietyllä aikavälillä lähetettyjen viestien määrä. Tulokset ryhmitellään viestityypin mukaisesti.
 
-Lisätty: 13.10.2023
+Lisätty: 13.10.2023<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -581,7 +581,7 @@ SELECT message_transport_type AS 'Viestityyppi', count(*) AS 'Viestien määrä 
 
 Kyselyllä voi hakea viesti-taulun vuositauluista vanhempia viestejä, jotka eivät näy enää virkailijaliittymän kautta. Kyselylle annetaan parametriksi asiakkaan borrowernumber.
 
-Pvm: 8.9.2023 / päivitetty 30.5.2024
+Pvm: 8.9.2023 / päivitetty 30.5.2024<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -635,20 +635,23 @@ SELECT borrowernumber, cardnumber, phone, mobile, smsalertnumber
     OR smsalertnumber REGEXP '[^-+0-9 ]'
 ```
 
-### Tarkistuslista, ketkä virkailijat ovat vaihtaneet salasanan vuonna 2020
+### Tarkistuslista, ketkä virkailijat ovat vaihtaneet salasanan tietyllä aikavälillä
 
-Raportilla voi tarkistaa, ketkä virkailijat ovat vaihtaneet salasanat vuonna 2020
+Raportilla voi tarkistaa, ketkä virkailijat ovat vaihtaneet salasanat vuonna tietyllä aikavälillä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 4.2.2020
+Pvm: 4.2.2020 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-select cardnumber,firstname,surname,branchcode from action_logs
-JOIN borrowers ON borrowernumber=object
-where module='MEMBERS'
-and action='CHANGE PASS'
-and categorycode='VIRKAILIJA'
-and year(timestamp)=2020;
+SELECT b.cardnumber, b.firstname, b.surname, b.branchcode, a.timestamp
+  FROM action_logs a
+       LEFT JOIN borrowers b ON b.borrowernumber = a.object
+ WHERE module = 'MEMBERS'
+   AND action = 'CHANGE PASS'
+   AND categorycode = 'VIRKAILIJA'
+   AND DATE(a.timestamp) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>> 
+ ORDER BY a.timestamp DESC
 ```
 
 ### Asiakkaan haku maksun tapahtumanumerolla
@@ -656,13 +659,15 @@ and year(timestamp)=2020;
 Raportilla voi hakea asiakkaan Ceepos-kassan tapahtumanumeron perusteella.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 7.4.2020
+Pvm: 7.4.2020 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-select Concat('<a href=\"/cgi-bin/koha/members/boraccount.pl?borrowernumber=',a.borrowernumber,'">',a.borrowernumber,'</a>') AS 'Asiakas' 
-from accountlines a
-JOIN payments_transactions_accountlines pta using (accountlines_id)
-where pta.transaction_id=<<Tapahtumanumero>>
+SELECT DISTINCT a.borrowernumber
+  FROM accountlines a
+       INNER JOIN payments_transactions_accountlines pta
+       USING (accountlines_id)
+ WHERE pta.transaction_id = <<Tapahtumanumero>>
 ```
 
 ### Takaajattomat lapsiasiakkaat
@@ -722,12 +727,15 @@ SELECT borrowernumber, branchcode as Kotikirjasto, categorycode
 Raportti listaa asiakkaat, joiden syntymäaika on ennen 1.1.1920, mukaan ei oteta asiakastyyppiä EITILASTO.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 7.4.2020
+Pvm: 7.4.2020 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-select concat ('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">', coalesce(cardnumber, concat(borrowernumber, ' (borrowernumber)')), '</a>') as Korttinumero,dateofbirth as 'Syntymäaika' 
-from borrowers where dateofbirth< '1920-01-01' 
-and categorycode != 'EITILASTO' order by 2
+SELECT borrowernumber, cardnumber, dateofbirth AS 'Syntymäaika' 
+  FROM borrowers
+ WHERE dateofbirth < '1920-01-01'
+   AND categorycode != 'EITILASTO'
+ ORDER BY 3
 ```
 
 ### Asiakkaat joilla viallinen sotuavain
@@ -735,26 +743,30 @@ and categorycode != 'EITILASTO' order by 2
 ```
 SELECT CONCAT("<a href='/cgi-bin/koha/members/memberentry.pl?op=modify&borrowernumber=", borrowernumber, "'>", cardnumber, "</a>") AS korttinumero,
        CONCAT("'<tt>", attribute, "</tt>'") AS sotuavain
-FROM borrower_attributes
-JOIN borrowers USING(borrowernumber)
-WHERE code = 'SSN'
-  AND attribute NOT REGEXP '^sotu[0-9]+$'
+  FROM borrower_attributes
+  JOIN borrowers USING(borrowernumber)
+ WHERE code = 'SSN'
+   AND attribute NOT REGEXP '^sotu[0-9]+$'
 ```
 
 ### Asiakkaat, joilla ei ole sotu-avainta
 
-Raportilla voi hakea (henkilö)asiakkaat, joilla ei ole sotu-avainta. Haulle annetaan parametrina asiakkaan kotikirjasto. Jos sitä ei halua kyselyyn mukaan, voi jättää kyselyn neljännen rivin pois.
+Raportilla voi hakea (henkilö)asiakkaat, joilla ei ole sotu-avainta. Haulle annetaan parametrina asiakkaan kotikirjasto. Jos sitä ei halua kyselyyn mukaan, voi jättää toiseksi viimeisen rivin pois.
 
-Lisätty: 4.10.2023
 Lisääjä: Anneli Österman
 Versio: 22.11
+Lisätty: 4.10.2023 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT borrowernumber, branchcode as Kotikirjasto, b.categorycode as Asiakastyyppi, b.dateenrolled as 'Tullut asiakkaaksi'
-FROM borrowers b
-WHERE borrowernumber not in (select borrowernumber from borrower_attributes where code='SSN')
-AND branchcode=<<Valitse kotikirjasto|branches>>
-AND categorycode in ('HENKILO', 'LAPSI', 'MUUHUOL')
+SELECT b.borrowernumber, b.branchcode AS Kotikirjasto,
+       b.categorycode AS Asiakastyyppi, b.dateenrolled AS 'Tullut asiakkaaksi'
+  FROM borrowers b
+ WHERE borrowernumber NOT IN (SELECT borrowernumber
+                                FROM borrower_attributes
+                               WHERE code = 'SSN')
+   AND branchcode = <<Valitse kotikirjasto|branches>>
+   AND categorycode IN ('HENKILO', 'LAPSI', 'LAOMATOIMI', 'MUUHUOL')
 ```
 
 ### Asiakkaiden määrä kirjastoittain
@@ -1779,7 +1791,7 @@ INNER JOIN
 
 Raportti hakee tietueet, joilla on sama EAN-tunnus. Jokainen nimeke tulee omalle rivilleen, jolloin on helpompi huomata sarjan eri osat, joilla on sama EAN-koodi.
 
-Lisätty: 21.12.2023 / Päivitetty 21.3.2024<br/>
+Lisätty: 21.12.2023 / päivitetty 21.3.2024<br/>
 Versio 22.11, 23.11
 
 ```
@@ -1798,8 +1810,8 @@ HAVING COUNT(*)>1) as tuplat ON bi.ean = tuplat.ean
 
 Raportilla voi hakea teokset, joissa on varauksia, mutta ei ollenkaan niteitä.
 
-Tekijä: Anneli Österman
-Lisätty: 1.3.2024
+Tekijä: Anneli Österman<br />
+Lisätty: 1.3.2024<br />
 Versio: 22.11
 
 ```
@@ -1814,8 +1826,8 @@ WHERE reserves.biblionumber NOT IN (select biblionumber from items)
 
 Raportilla voi hakea nimekkeet, joissa on paljon varauksia. Raportti laskee varausten määrän ja niteiden määrän (mukana myös hankinnassa olevat). Tulokset järjestetään varausten määrän mukaan. Raporttia ajaessa pitää valita aineistotyyppi ja kuinka monta varausta pitää vähintään olla. Määrärajaus kannattaa tehdä, muuten saa listan kaikista nimekkeistä, joihin on varaus.
 
-Tekijä: Anneli Österman
-Lisätty 1.3.2024
+Tekijä: Anneli Österman<br />
+Lisätty 1.3.2024<br />
 Versio: 22.11
 
 ```
@@ -1833,8 +1845,8 @@ ORDER by 5 DESC
 
 Raportti laskee valitussa kirjastossa olevien niteiden määrän aineistotyypin ja hyllypaikan mukaan.
 
-Lisääjä: Anneli Österman
-Lisätty: 1.3.2024
+Lisääjä: Anneli Österman<br />
+Lisätty: 1.3.2024<br />
 Versio: 22.11
 
 ```
@@ -1849,8 +1861,8 @@ GROUP BY bi.itemtype, i.location
 
 Raportti laskee valitussa kirjastossa olevien, valitun päivämäärän jälkeen hankittujen niteiden määrän aineistotyypin ja hyllypaikan mukaan.
 
-Lisääjä: Anneli Österman
-Lisätty: 19.3.2024
+Lisääjä: Anneli Österman<br />
+Lisätty: 19.3.2024<br />
 Versio: 22.11
 
 ```
@@ -1872,8 +1884,8 @@ Lainamäärät haetaan niteiden lainat ja uusinnat -kentistä sekä aktiivisista
 
 Tulokset on rajattu 500 nimekkeeseen.
 
-Tekijät: Katariina Pohto ja Anneli Österman
-Lisätty: 19.3.2024
+Tekijät: Katariina Pohto ja Anneli Österman<br />
+Lisätty: 19.3.2024<br />
 Toimii versioissa: 22.11 ja 23.11
 
 ```
@@ -2597,8 +2609,7 @@ GROUP BY biblionumber
 Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.dateaccessionded) nide valitulla aikavälillä. Mukana ei ole aikakaus- ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 22.9.2020
-Päivitetty 15.3.2024
+Pvm: 22.9.2020 / päivitetty 15.3.2024
 
 ```
 SELECT CONCAT_WS(' ', b.title, b.subtitle, b.author) AS 'Nimeke ja tekijä', b.copyrightdate AS 'Julkaisuvuosi', i.homebranch AS 'Kotikirjasto', i.itemcallnumber AS 'Luokka', bi.itemtype AS 'Aineistotyyppi'
