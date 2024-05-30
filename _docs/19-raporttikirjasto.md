@@ -570,33 +570,37 @@ Kyselyllä voi hakea tietyllä aikavälillä lähetettyjen viestien määrä. Tu
 Lisätty: 13.10.2023
 Lisääjä: Anneli Österman
 
-<pre>
-select message_transport_type as 'Viestityyppi',count(*) as 'Viestien määrä aikavälillä' 
-from message_queue
-where date(time_queued) between <<Aloituspvm|date>> and <<Loppupvm|date>>
-group by message_transport_type
-</pre>
+```
+SELECT message_transport_type AS 'Viestityyppi', count(*) AS 'Viestien määrä aikavälillä' 
+  FROM message_queue
+ WHERE DATE(time_queued) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+ GROUP BY message_transport_type
+```
 
 ### Arkistoitujen viestien hakeminen message_queuen vuositaulusta
 
 Kyselyllä voi hakea viesti-taulun vuositauluista vanhempia viestejä, jotka eivät näy enää virkailijaliittymän kautta. Kyselylle annetaan parametriksi asiakkaan borrowernumber.
 
-Pvm: 8.9.2023
+Pvm: 8.9.2023 / päivitetty 30.5.2024
 Lisääjä: Anneli Österman
 
 ```
-select * from message_queue_2022
-where borrowernumber = <<borrowernumber>>
+SELECT * FROM message_queue_2023
+WHERE borrowernumber = <<borrowernumber>>
 
-union 
-select * from message_queue_2021
-where borrowernumber = <<borrowernumber>>
+UNION
+SELECT * FROM message_queue_2022
+WHERE borrowernumber = <<borrowernumber>>
 
-union 
-select * from message_queue_2020
-where borrowernumber = <<borrowernumber>>
+UNION
+SELECT * FROM message_queue_2021
+WHERE borrowernumber = <<borrowernumber>>
 
-order by 1 desc
+UNION
+SELECT * FROM message_queue_2020
+WHERE borrowernumber = <<borrowernumber>>
+
+ORDER BY 1 DESC
 ```
 
 ### Ylimääräistä tekstiä sisältävät puhelinnumerot
@@ -604,25 +608,31 @@ order by 1 desc
 Hakee kaikki ylimääräistä tekstiä sisältävät puhelinnumerot Kohan borrowers-taulusta. Tekstejä on päätynyt puhelinnumerokenttiin ainakin Pallas-konversioissa. Mahdollisesti myös Origoista.
 
 Lisääjä: Kodo Korkalo / Koha-Suomi<br />
-Pvm: 8.1.2019
+Pvm: 8.1.2019 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">', cardnumber, '</a>') AS borrower, phone, mobile, smsalertnumber FROM borrowers
- WHERE LOWER(phone) REGEXP '.*[a-z].*'
-    OR LOWER(mobile) REGEXP '.*[a-z].*'
-    OR LOWER(smsalertnumber) REGEXP '.*[a-z].*'
+SELECT borrowernumber, cardnumber, phone, mobile, smsalertnumber
+  FROM borrowers
+ WHERE phone REGEXP '[^+0-9]'
+    OR mobile REGEXP '[^+0-9]'
+    OR smsalertnumber REGEXP '[^+0-9]'
 ```
 
 ### Asiakkaat, joiden puhelinnumerot tarkistettava käsin
 
-Hakee kaikki ylimääräisiä merkkejä sisältävät mobiili- ja lankapuhelinnumerot Kohan borrowers-taulusta.
+Hakee ylimääräisiä merkkejä sisältävät mobiili- ja lanka- ja sms-numerot Kohan borrowers-taulusta. Ei huomioi välilyöntejä tai väliviivoja.
 
 Lisääjä: Lari Strand / Koha-Suomi<br />
-Pvm: 30.8.2021
+Pvm: 30.8.2021 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT CONCAT('<A href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">', borrowernumber, '</A>') AS 'asiakas-ID',
-phone as Lankapuhelin, mobile as Matkapuhelin FROM borrowers where phone REGEXP '[[:alpha:]]|[,]|[.]|[/]' OR mobile REGEXP '[[:alpha:]]|[,]|[.]|[/]'
+SELECT borrowernumber, cardnumber, phone, mobile, smsalertnumber
+  FROM borrowers
+ WHERE phone REGEXP '[^-+0-9 ]'
+    OR mobile REGEXP '[^-+0-9 ]'
+    OR smsalertnumber REGEXP '[^-+0-9 ]'
 ```
 
 ### Tarkistuslista, ketkä virkailijat ovat vaihtaneet salasanan vuonna 2020
@@ -679,7 +689,7 @@ Raportilla voi hakea henkilöasiakkaat, joilla on takaaja.
 
 Lisääjä: Anneli Österman<br />
 Tekijä: Kodo Korkalo<br />
-Pvm: 7.4.2020 / päivitetty 30.5.2024
+Pvm: 7.4.2020 / päivitetty 30.5.2024<br />
 Päivittäjä: Katariina Pohto
 
 ```
@@ -696,7 +706,7 @@ SELECT b.borrowernumber, b.cardnumber, CONCAT(SUBSTRING(b.firstname,1,1), '. ', 
 Raportti listaa henkilöasiakkaat, joilla ei ole kirjastokortin numeroa. Parametriksi valitaan kirjasto tai kunta. Tarkista, että asiakastyypit vastaavat oman kimpan asiakastyyppejä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 7.4.2020 / päivitetty 30.5.2024
+Pvm: 7.4.2020 / päivitetty 30.5.2024<br />
 Päivittäjä: Katariina Pohto
 
 ```
@@ -778,7 +788,6 @@ HAVING COUNT(*)>90
 ORDER BY 2 DESC
 ```
 
-
 ### Asiakkaat, joilla on huomautuksia
 
 Raportti listaa kirjastoittain asiakkaat, joilla on huomautuksia.
@@ -792,7 +801,6 @@ FROM borrowers
 WHERE opacnote !=''
 AND branchcode=<<Valitse kirjasto|branches>>
 ```
-
 
 ### Asiakkaan haku varaustunnuksella
 
