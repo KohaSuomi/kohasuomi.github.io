@@ -785,19 +785,20 @@ GROUP BY branchcode limit 100
 
 ### Asiakkaat, joiden varausmäärä on lähellä sallittua maksimia
 
-Raportti listaa sellaiset asiakkaat, joilla on varauksia lähellä sallittua maksiamia. Raportti laskee myös asiakkaiden voimassa olevien varausten määrän. Muuta raporttiin HAVING COUNT -kohtaan omalle kirjastolle/kimpalle sopiva luku eli esim. jos maksimi on 100 varausta, niin jokin vähän sitä pienempi luku. Raportissa huomioidaan asiakastyypit HENKILO ja LAPSI.
+Raportti listaa sellaiset asiakkaat, joilla on varauksia lähellä sallittua maksiamia. Raportti laskee myös asiakkaiden voimassa olevien varausten määrän. Muuta raporttiin HAVING COUNT -kohtaan omalle kirjastolle/kimpalle sopiva luku eli esim. jos maksimi on 100 varausta, niin jokin vähän sitä pienempi luku. Tarkista myös, että asiakastyypit vastaavat oman kimpan asiakastyyppejä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 9.4.2020
+Pvm: 9.4.2020 / päivitetty 30.5.2024
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', borrowernumber, '">',b.borrowernumber,'</a>') as 'Asiakas', count(*) as 'varausten määrä'
-FROM reserves r
-JOIN borrowers b USING (borrowernumber)
-WHERE categorycode IN ('HENKILO', 'LAPSI')
-GROUP BY borrowernumber
-HAVING COUNT(*)>90
-ORDER BY 2 DESC
+SELECT b.borrowernumber, count(*) AS 'varausten määrä'
+  FROM reserves r
+       INNER JOIN borrowers b USING (borrowernumber)
+ WHERE b.categorycode IN ('HENKILO', 'LAPSI', 'LAOMATOIMI', 'MUUHUOL')
+ GROUP BY b.borrowernumber
+HAVING COUNT(*) > 90
+ ORDER BY 2 DESC
 ```
 
 ### Asiakkaat, joilla on huomautuksia
@@ -816,15 +817,17 @@ AND branchcode=<<Valitse kirjasto|branches>>
 
 ### Asiakkaan haku varaustunnuksella
 
-Raportilla voi hakea asiakkaan varaustunnisteen perusteella. Välillä asiakashaulla varaustunnuksella hakeminen palauttaa liikaa tuloksia, koska tunnus on hyvin yleinen ja osuu haussa myös muihin tietoihin kuten etu- ja sukunimeen.
+Raportilla voi hakea asiakkaan varaustunnisteen perusteella. %-merkkiä voi käyttää katkaisumerkkinä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 25.8.2020
+Pvm: 25.8.2020 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-SELECT CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',b.borrowernumber,'" target="_blank">',b.othernames,'</a>') as Varaustunnus
-FROM borrowers b
-WHERE othernames=<<Kirjoita varaustunnus>>
+SELECT borrowernumber, attribute
+  FROM borrower_attributes
+ WHERE code = 'HOLDID'
+   AND attribute LIKE <<Varaustunnus>>
 ```
 
 ### Asiakkaan epäonnistuneiden kirjautumisyritysten määrän tarkistaminen
@@ -835,7 +838,9 @@ Lisääjä: Anneli Österman<br />
 Pvm: 27.4.2021
 
 ```
-select login_attempts as 'Kirjautumisyrityksiä' from borrowers where cardnumber=<<Kirjastokortin numero>>
+SELECT login_attempts AS 'Kirjautumisyrityksiä'
+  FROM borrowers
+ WHERE cardnumber = <<Kirjastokortin numero>>
 ```
 
 ### Automaatit ja niiden toimittajat
@@ -856,13 +861,20 @@ order by 3
 
 ### Asiakkaat, joilla kirjastokortin numero ja varaustunnus sama
 
-Raportilla voi hakea asiakkaat, joilla on kirjastokortin numero ja varaustunnus sama. Säädä tarvittaessa asiakastyyppien tunnuksia, jotta virkailijatunnukset ja ei-tilastoitavat lainat jää pois tuloksista.
+Raportilla voi hakea asiakkaat, joilla on kirjastokortin numero ja varaustunnus sama. Virkailijatunnuksia ja ei-tilastoitavia ei huomioida.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 3.5.2022
+Pvm: 3.5.2022 / päivitetty 30.5.2024<br />
+Päivittäjä: Katariina Pohto
 
 ```
-select CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowernumber,'" target="_blank">',cardnumber,'</a>') AS 'Asiakas', othernames from borrowers where cardnumber=othernames and categorycode not in ('VIRKAILIJA', 'EITILASTO')
+SELECT b.borrowernumber, b.cardnumber, ba.attribute AS varaustunnus
+  FROM borrowers b
+       INNER JOIN borrower_attributes ba
+       USING (borrowernumber)
+ WHERE ba.code = 'HOLDID'
+   AND b.cardnumber = ba.attribute
+   AND b.categorycode NOT IN ('VIRKAILIJA', 'EITILASTO')
 ```
 
 ### Asiakkaat, joilla on paljon epäonnistuneita kirjautumisyrityksiä
