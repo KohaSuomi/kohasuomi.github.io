@@ -61,7 +61,8 @@ Pohjoisesta etelään
 * Paikallinen varausryhmä-ominaisuutta testattu esinelainojen yhteydessä, joita ei voi kuljettaa pisteiden välillä. Vaikuttaa toistaiseksi lupaavalta.
 
 **Kyyti**
-* Perus ylläpitoa. Tehty yhdet uudet Koha-tunnukset ja käyty läpi vanhoja tunnuksia.
+* Normaalia ylläpitoa.
+* Tehty yhdet uudet Koha-tunnukset ja käyty läpi vanhoja tunnuksia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
