@@ -13,7 +13,7 @@ Koha-Suomen yhtiökokous kokoontuu kerran vuodessa. Alla on vuosittain kokouksen
 
 ## Yhtiökokous 2024
 
-Esityslista
+[Esityslista 2024](/assets/files/Yhti%C3%B6kokousesityslista2024.pdf)
 
 
 ## Yhtiökokous 2023
