@@ -70,7 +70,7 @@ Kodo kertoi Suomi.fi Viestit -rajapinnan uudistuksista. Hän ja Strandin Lari os
 * REST-rajapinta tulossa. Se mahdollistaa viestien välittämisen Suomi.fi Viesteihin niin, että varsinaiseen viestiinkin saadaan enemmän sisältöä, eikä asiakkaan tarvitse lukea kirjaston viestiä liitteenä olevasta pdf-tiedostosta. Viestit tulevat olemaan enemmän sähköpostin/pikaviestin kaltaisia jatkossa, mutta päästä päähän salattuja. Jos asiakkaalla on käytössä puhelimessa Suomi.fi-sovellus, voi hän saada ilmoituksia saapuvista viesteistä kuten sähköposteista/pikaviesteistä.
 * Tähän mennessä viestejä on voinut lähettää vain sellaisille henkilöille, joilla on suomalainen henkilötunnus. Tähän on tullut muutos ja viestit voidaan lähettää jo nyt pelkän osoitteen perusteella, eli periaatteessa kaikki kirjeviestintä voitaisiin siirtää Suomi.fi Viesteihin.
 
-Tarkempi tiedote (linkki tulossa)
+[Tarkempi tiedote](https://github.com/KohaSuomi/Koha/discussions/1258)
 
 Kimpoissa selvitykseen:
 * Pystyisikö kimpat siirtyä käyttämään Suomi.fi Viestit -palvelua kirjeiden osalta ja luopua nykyisistä kirjeviestirajapinnoista?
