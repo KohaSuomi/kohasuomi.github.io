@@ -13,6 +13,11 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 23
+
+**Asiat**
+* Versioon 24.05 ja backportattuna 23.11.04 tulee uusi REST-endpoint, jolla saa yhdisteltyä tietueita http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33036. Kannattaisiko tuoda meillekin KaTia varten?
+
 ## Viikko 22
 
 Aika: Maanantai 27.5.2024 klo 9<br />
