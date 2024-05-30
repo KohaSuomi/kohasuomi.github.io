@@ -11,6 +11,11 @@ title: 'Yhtiökokoukset'
 
 Koha-Suomen yhtiökokous kokoontuu kerran vuodessa. Alla on vuosittain kokouksen asiakirjat.
 
+## Yhtiökokous 2024
+
+Esityslista
+
+
 ## Yhtiökokous 2023
 
 [Koha-Suomi yhtiökokouspöytäkirja2023.PDF](https://github.com/KohaSuomi/kohasuomi.github.io/files/11797065/Koha-Suomi.yhtiokokouspoytakirja2023.PDF)
