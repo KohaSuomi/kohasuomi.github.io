@@ -17,6 +17,8 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 **Asiat**
 * Versioon 24.05 ja backportattuna 23.11.04 tulee uusi REST-endpoint, jolla saa yhdisteltyä tietueita http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33036. Kannattaisiko tuoda meillekin KaTia varten?
+* Päivystysvuorot viikosta 24 eteenpäin
+* Viikon 23 päivitys
 
 ## Viikko 22
 
