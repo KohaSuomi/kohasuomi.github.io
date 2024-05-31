@@ -23,7 +23,7 @@ Läsnä:
 ## Viikko 22
 
 Aika: 28.5.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Janne Seppänen (Lastu), Roosa Väisänen (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Anni Rajala (Vaski), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Janne Seppänen (Lastu), Roosa Väisänen (Kyyti), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1250)
@@ -63,6 +63,10 @@ Pohjoisesta etelään
 **Kyyti**
 * Normaalia ylläpitoa.
 * Tehty yhdet uudet Koha-tunnukset ja käyty läpi vanhoja tunnuksia.
+
+**Kirkes**
+* Lähinnä normaalia ylläpitoa
+* 0-vuotiaan hetun tallentamisessa oli samanlaista ongelmaa kuin OUTIssa edeltävällä viikolla. Tiketti asiasta on olemassa [täällä](https://github.com/KohaSuomi/Koha/issues/1252).
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
