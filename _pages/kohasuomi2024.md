@@ -15,8 +15,13 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 23
 
+Aika: Maanantai 3.6.2024 klo 9<br />
+Läsnä: Emmi, Anneli, Pasi, Johanna, Kodo, Lari, Ari
+
 **Asiat**
 * Versioon 24.05 ja backportattuna 23.11.04 tulee uusi REST-endpoint, jolla saa yhdisteltyä tietueita http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33036. Kannattaisiko tuoda meillekin KaTia varten?
+  * Emmi tuo tämän meidän versioon.
+* Tehdään syksyllä versiopäivitys, siirrytään versioon 24.05. Seuraavassa versiossa tulee paljon bugikorjauksia, jotka me tarvitaan.
 * Päivystysvuorot viikosta 24 eteenpäin
 * Viikon 23 päivitys
 * Vastuuttomien tikettien vastuutus
