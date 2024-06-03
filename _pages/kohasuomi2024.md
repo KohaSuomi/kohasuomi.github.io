@@ -25,6 +25,7 @@ Läsnä: Emmi, Anneli, Pasi, Johanna, Kodo, Lari, Ari
 * Päivystysvuorot viikosta 24 eteenpäin
 * Viikon 23 päivitys
 * Vastuuttomien tikettien vastuutus
+  * Vastuutettiin osa  
 
 ## Viikko 22
 
