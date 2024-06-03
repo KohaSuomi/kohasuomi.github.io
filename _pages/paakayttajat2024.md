@@ -18,7 +18,10 @@ Läsnä:
 
 **Yhteiset asiat**
 * [Totalissues-mäppäysten purku](https://github.com/KohaSuomi/Koha/issues/1175)
+* [Uusi työkalu: Varausten viimeisen noutopäivän siirto eräajona #249 - kommentti patron_expiration_datesta](https://github.com/KohaSuomi/Koha/issues/249#issuecomment-2033568072)
 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 22
 
