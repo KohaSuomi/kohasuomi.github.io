@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 4.6.2024 klo 9.15<br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 * [Uutiskirje 2/24 julkaistu](https://github.com/KohaSuomi/Koha/discussions/1267)
