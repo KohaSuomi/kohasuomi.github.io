@@ -38,6 +38,13 @@ Etelästä pohjoiseen
 **Vaski**
 * Kellutuksen hallinta -työkalun (Kellutin) käyttöönotto lähenee, koulutukset alkavat tänään.
 
+**OUTI**
+* Pyhäjoen kirjastosta kysyttiin kunnan varautumissuunnitelmaan apua kysymykseen: "Onko Koha-Suomi Oy:n kanssa sovittu toimimisesta poikkeusoloissa (pandemia, luonnonkatastrofit, sotilaallinen operaatio Suomen maaperällä)?" Annelin neuvoilla vastasin ja kerroin Koha-Suomen palvelimien varavirtalähteistä, Kohan yhteydettömän tilan lainauksesta sekä pandemia- eli korona-ajan kokemuksesta. Liitin mukaan linkin Koha-Suomi Oy:n tietosuoja- ja turvaperiaatteet-tiedostoon: https://koha-suomi.fi/dokumentaatio/tietosuojaperiaatteet/
+* Suljettuja kirjastoja on poistettu tietokannasta.
+* Varausjonojen siirtäminen tietueesta toiseen tilanteessa, kun tietueita ei voi yhdistää
+  * Olisi hyvä olla työkalu varausjonojen siirtoon, jottei varauksia tarvitse siirtää yksitellen jonosta toiseen.
+  * Piia tutkii löytyykö Bugzillasta tikettiä tähän liittyen ja tekee kehitysehdotuksen Githubiin
+
 **Lappi**
 * Normaalia ylläpitoa
 
