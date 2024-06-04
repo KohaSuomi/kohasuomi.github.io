@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 4.6.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Reetta Pihlaja (Siilinjärvi), 
 
 **Yhteiset asiat**
 * [Uutiskirje 2/24 julkaistu](https://github.com/KohaSuomi/Koha/discussions/1267)
@@ -27,6 +27,10 @@ Läsnä:
   * muutettavien joukkoja voi hakea myös raporteilla, tarvittaessa Koha-Suomen kehittäjät auttavat raporttien luonnissa.
 
 Etelästä pohjoiseen
+
+**Siilinjärvi**
+* Mikroväylän automaatilla uusintapäivämäärä ei edelleenkään päivity ruudulle, Vaarassa sama ongelma.
+* Kirjavälitys on nyt Storia Logistiikka, tarkistettu että toimittajan nimeä voi muokata hankinnassa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
