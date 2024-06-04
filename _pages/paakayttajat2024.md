@@ -12,11 +12,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23
 
-
 Aika: 4.6.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset asiat**
+* [Uutiskirje 2/24 julkaistu](https://github.com/KohaSuomi/Koha/discussions/1267)
+* [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1266)
 * [Totalissues-mäppäysten purku](https://github.com/KohaSuomi/Koha/issues/1175)
 * [Uusi työkalu: Varausten viimeisen noutopäivän siirto eräajona #249 - kommentti patron_expiration_datesta](https://github.com/KohaSuomi/Koha/issues/249#issuecomment-2033568072)
 * Yhteisö tehnyt versioon 24.05 tärkeän tietoturvapäivityksen, jonka tuonti meidän nykyiseen versioon on todella työlästä. Se on kuitenkin hyvin tärkeää saada myös meille, joten Koha-Suomen palaverissa päätettiin, että syksyllä päivitetään Koha versioon 24.05. Tarkempi aikataulu sovitaan asiantuntijaryhmässä.
@@ -25,6 +26,7 @@ Läsnä:
   * erätyökalut tekevät automaattisesti tarvittavat uudelleenindeksoinnit, tietokanta-ajot eivät tee.
   * muutettavien joukkoja voi hakea myös raporteilla, tarvittaessa Koha-Suomen kehittäjät auttavat raporttien luonnissa.
 
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
