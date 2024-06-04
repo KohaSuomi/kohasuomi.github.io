@@ -19,7 +19,7 @@ Läsnä:
 **Yhteiset asiat**
 * [Totalissues-mäppäysten purku](https://github.com/KohaSuomi/Koha/issues/1175)
 * [Uusi työkalu: Varausten viimeisen noutopäivän siirto eräajona #249 - kommentti patron_expiration_datesta](https://github.com/KohaSuomi/Koha/issues/249#issuecomment-2033568072)
-* Yhteisö tehnyt versioon 24.05 tärkeän tietoturvapäivityksen, jonka tuonti meidän nykyiseen versioon on todella työlästä. Se on kuitenkin hyvin tärkeää saada myös meille, joten Koha-Suomen palaverissa päätettiin, että syksyllä päivitetään Koha versioon 24.05.
+* Yhteisö tehnyt versioon 24.05 tärkeän tietoturvapäivityksen, jonka tuonti meidän nykyiseen versioon on todella työlästä. Se on kuitenkin hyvin tärkeää saada myös meille, joten Koha-Suomen palaverissa päätettiin, että syksyllä päivitetään Koha versioon 24.05. Tarkempi aikataulu sovitaan asiantuntijaryhmässä.
 * Muistutus: On sovittu, että jos jonkin nide- tai tietuemuutostarpeen voi tehdä erätyökaluilla, niin pääkäyttäjät (tai muut sovitut henkilöt kimpassa) tekevät sen itse sen sijaan, että niistä pyydetään tietokanta-ajo kehittäjiltä.
   * erätyökaluilla pystyy nykyään käsittelemään hyvinkin 10 000 tietuetta/nidettä kerralla, joten isojenkin joukkojen käsittelyssä ei mene mahdottoman kauaa.
   * erätyökalut tekevät automaattisesti tarvittavat uudelleenindeksoinnit, tietokanta-ajot eivät tee.
