@@ -13,6 +13,11 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 24
+
+**Asiat**
+* Palvelimen OCFS-levyjärjestelmän ongelmat kuntoon, reklamaatio.
+
 ## Viikko 23
 
 Aika: Maanantai 3.6.2024 klo 9<br />
