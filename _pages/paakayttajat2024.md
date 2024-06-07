@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 4.6.2024 klo 9.15<br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff (OUTI)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff (OUTI), Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Uutiskirje 2/24 julkaistu](https://github.com/KohaSuomi/Koha/discussions/1267)
@@ -47,6 +47,10 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**Kirkes**
+* Normaalia ylläpitoa
+* Toistaiseksi on ohjeistettu, että lapselle saa laittaa vain yhden takaajan. Nyt pohditaan, olisiko kahden takaajan mallissa etuja verrattuna nykyiseen. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
 
