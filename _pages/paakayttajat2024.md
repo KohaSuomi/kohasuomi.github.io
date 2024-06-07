@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 24
+
+Aika: 11.6.2024 klo 9.15<br />
+Läsnä: 
+
+**Asiat**
+* Viikon 24 päivitys
+* [Huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1278)
+* Uuteen [Päivystys-wikiin](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4ivystys) kirjattu nyt, miten päivystys toimii. Tiedot päivitettiin Koha-Suomen palaverissa ja keväämmällä, mutta unohtui tehdä niistä erillinen sivu silloin.
+  * muistattehan, että Koha-Suomen päivystysnumero on tarkoitettu vain kimppojen pääkäyttäjille ja sitä ei saa jakaa muille.
+  * yhteydenpito Koha-Suomeen päin tapahtuu pääsääntöisesti pääkäyttäjien kautta. Ei suoria yhteydenottoja kirjastoista Koha-Suomeen.
+
 ## Viikko 23
 
 Aika: 4.6.2024 klo 9.15<br />
