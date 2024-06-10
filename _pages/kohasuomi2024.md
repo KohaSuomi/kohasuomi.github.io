@@ -15,8 +15,20 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 24
 
+Aika: Maanantai 10.6.2024 klo 9<br />
+Läsnä: Ari, Lari, Johanna, Pasi, Lasse, Kodo, Anneli
+
 **Asiat**
 * Palvelimen OCFS-levyjärjestelmän ongelmat kuntoon, reklamaatio.
+  * Kodo ja Johanna kirjoittavat viestin, jonka Ari välittää palvelinsalin ylläpitäjälle. Ei tehdä vielä varsinaista reklamaatiota, mutta pyritään selvittämään ongelmia.
+* Viikon 24 päivitykseen 5 tikettiä
+* Scrumm
+  * Kodo: Tietuemätsäyksiä, sähköinen ilmoittautuminen
+  * Johanna: Tikettejä, suomi.fi viestien palaveri rest-rajapinnasta ma
+  * Anneli:
+  * Lari: omia tikettejä käsitellyt ja jatkaa niistä, JS-plugareiden teon jatkaminen
+  * Pasi: Redusoinnit tehty ja plugarit asennettu testeille, dna:n lähtemättömien viestien uudelleenlähetys Vaskissa, redusointiskriptiin vielä pieniä muutoksia, omien tikettien läpikäyntiä
+  * Lasse: tikettejä vastuutettu loman aikana
 
 ## Viikko 23
 
