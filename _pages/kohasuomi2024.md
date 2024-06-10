@@ -23,7 +23,7 @@ Läsnä: Ari, Lari, Johanna, Pasi, Lasse, Kodo, Anneli
   * Kodo ja Johanna kirjoittavat viestin, jonka Ari välittää palvelinsalin ylläpitäjälle. Ei tehdä vielä varsinaista reklamaatiota, mutta pyritään selvittämään ongelmia.
 * Viikon 24 päivitykseen 5 tikettiä
 * Scrumm
-  * Kodo: Tietuemätsäyksiä, sähköinen ilmoittautuminen
+  * Kodo: Tietuemätsäyksiä, sähköinen ilmoittautuminen, suomi.fi viestien palaveri rest-rajapinnasta ma
   * Johanna: Tikettejä, suomi.fi viestien palaveri rest-rajapinnasta ma
   * Anneli: Release notesien läpikäyntiä ja tietojen vientiä 24.05:n wikiin, julkaisuvuosihaun testausta nidehaussa
   * Lari: omia tikettejä käsitellyt ja jatkaa niistä, JS-plugareiden teon jatkaminen
