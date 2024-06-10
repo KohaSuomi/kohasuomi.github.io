@@ -25,7 +25,7 @@ Läsnä: Ari, Lari, Johanna, Pasi, Lasse, Kodo, Anneli
 * Scrumm
   * Kodo: Tietuemätsäyksiä, sähköinen ilmoittautuminen
   * Johanna: Tikettejä, suomi.fi viestien palaveri rest-rajapinnasta ma
-  * Anneli:
+  * Anneli: Release notesien läpikäyntiä ja tietojen vientiä 24.05:n wikiin, julkaisuvuosihaun testausta nidehaussa
   * Lari: omia tikettejä käsitellyt ja jatkaa niistä, JS-plugareiden teon jatkaminen
   * Pasi: Redusoinnit tehty ja plugarit asennettu testeille, dna:n lähtemättömien viestien uudelleenlähetys Vaskissa, redusointiskriptiin vielä pieniä muutoksia, omien tikettien läpikäyntiä
   * Lasse: tikettejä vastuutettu loman aikana
