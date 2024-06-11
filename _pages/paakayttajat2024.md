@@ -21,7 +21,7 @@ Läsnä:
 * Uuteen [Päivystys-wikiin](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4ivystys) kirjattu nyt, miten päivystys toimii. Tiedot päivitettiin Koha-Suomen palaverissa ja keväämmällä, mutta unohtui tehdä niistä erillinen sivu silloin.
   * muistattehan, että Koha-Suomen päivystysnumero on tarkoitettu vain kimppojen pääkäyttäjille ja sitä ei saa jakaa muille.
   * yhteydenpito Koha-Suomeen päin tapahtuu pääsääntöisesti pääkäyttäjien kautta. Ei suoria yhteydenottoja kirjastoista Koha-Suomeen.
-
+* [Musiikin tiedonhaun koulutuksen ennakkokysely](https://github.com/KohaSuomi/Koha/discussions/1271)
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-24) - [Palaa sivun alkuun](/paakayttajat2024)
