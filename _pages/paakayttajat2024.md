@@ -16,11 +16,15 @@ Aika: 11.6.2024 klo 9.15<br />
 Läsnä: 
 
 **Asiat**
-* Viikon 24 päivitys
+* [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1281)
 * [Huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1278)
 * Uuteen [Päivystys-wikiin](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4ivystys) kirjattu nyt, miten päivystys toimii. Tiedot päivitettiin Koha-Suomen palaverissa ja keväämmällä, mutta unohtui tehdä niistä erillinen sivu silloin.
   * muistattehan, että Koha-Suomen päivystysnumero on tarkoitettu vain kimppojen pääkäyttäjille ja sitä ei saa jakaa muille.
   * yhteydenpito Koha-Suomeen päin tapahtuu pääsääntöisesti pääkäyttäjien kautta. Ei suoria yhteydenottoja kirjastoista Koha-Suomeen.
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-24) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 23
 
@@ -64,7 +68,7 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa
 * Toistaiseksi on ohjeistettu, että lapselle saa laittaa vain yhden takaajan. Nyt pohditaan, olisiko kahden takaajan mallissa etuja verrattuna nykyiseen. 
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-22) - [Palaa sivun alkuun](/paakayttajat2024)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-23) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 22
 
