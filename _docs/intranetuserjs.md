@@ -274,18 +274,35 @@ Versioon 20.05 ja uudempaan. Tarkoitettu korvaamaan järjestelmäasetus Validate
 
 Tässä on kaksi toiminnallisuutta yhdessä, koska ne ovat riippuvaisia toisistaan toiminnallisesti.
 
+Lisäksi mukana on apuskripti puhelinnumeron tarkistus/viestitäppä -skriptille
+
+Tämä apuskripti tarvitaan edellisen kaveriksi, jotta viestitäppien poisto onnistuu ensimmäisellä tallennuskerralla. [Liittyy tikettiin 538](https://github.com/KohaSuomi/Koha/issues/538).
+
 Tarpeellisuus: Suositeltava
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-/* Puhelinnumeron muodon tarkistus ja email/sms-viestitäpät*/
+/* Puhelinnumeron muodon tarkistus (suomalaiset numerot) ja email/sms-viestitäpät*/
 // Add additional validation to member add/edit form
 $(document).ready(function () {
   if (window.location.href.indexOf("members/memberentry.pl") > -1) {
-    // Replace forms "Save" button 
-    // (otherwise form is sent regardless validation checks made here) 
-    $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-primary" id="modified_saverecord"><i class="fa fa-save"></i> Save</button>');
+    $('#SMSnumber').attr('disabled', 'disabled');
+    $('.sms_number_help').text("Arvo kopioituu Matkapuhelin-kentästä tallennettaessa.");
+    
+   // Replace forms "Save" button 
+   // (otherwise form is sent regardless validation checks made here) 
+   var language = $(".currentlanguage").text();
+   var save_text; 
+   if(language == "Suomi"){
+     save_text = "Tallenna";
+   }else if(language == "Svenska"){
+     save_text = "Spara";
+   }else {
+     save_text = "Save";
+   }
+
+  $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-primary" id="modified_saverecord"><i class="fa fa-save"></i> '+save_text+'</button>');
 
     var isvalid = 1;
 
@@ -334,7 +351,7 @@ $(document).ready(function () {
     $('#modified_saverecord').click(function (e) {
       var text = "";
       if (isvalid == 1) {
-        //Vahvista viestitäppien poisto popupissa jos sähköposti/matkapuhelin puuttuu
+        //Vahvista viestitäppien poisto jos sähköposti/matkapuhelin puuttuu popupissa
 
         if (!$('#email').val()) {
           if ($('#email1').attr('checked') || $('#email2').attr('checked') || $('#email3').attr('checked') || $('#email4').attr('checked') || $('#email5').attr('checked') || $('#email6').attr('checked') || $('#email10').attr('checked')) {
@@ -356,12 +373,10 @@ $(document).ready(function () {
           }
         }
         if (!$('#mobile').val()) {
-          if ($('#sms1').attr('checked') || $('#sms2').attr('checked') || $('#sms4').attr('checked') || $('#sms10').attr('checked')) {
+          if ($('#sms1').attr('checked') || $('#sms4').attr('checked') || $('#sms10').attr('checked')) {
             text += "Matkapuhelinnumero puuttuu. Tekstiviesti-viestiasetukset poistetaan.";
             $('#sms1').removeAttr('checked');
             $('#sms1').attr('disabled', 'disabled');
-            $('#sms2').removeAttr('checked');
-            $('#sms2').attr('disabled', 'disabled');
             $('#sms4').removeAttr('checked');
             $('#sms4').attr('disabled', 'disabled');
             $('#sms10').removeAttr('checked');
@@ -379,17 +394,8 @@ $(document).ready(function () {
     );
   }
 });
-/// LOPPU ///
-```
+//LOPPU
 
-### Apuskripti puhelinnumeron tarkistus/viestitäppä -skriptille
-
-Tämä skripti tarvitaan edellisen kaveriksi, jotta viestitäppien poisto onnistuu ensimmäisellä tallennuskerralla. [Liittyy tikettiin 538](https://github.com/KohaSuomi/Koha/issues/538).
-
-Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
-
-```
 ///ALKU///
 /* Tiketti 538 Lisää viestitäppiin checked-arvot jo ne laitettaessa, jolloin viestiasetusten tarkistus onnistuu ensimmäisellä asiakastietojen tallennuskerralla */
 $(document).ready(function () {
@@ -414,12 +420,13 @@ for (var i = 0; i < result.length; i ++) {
 ///LOPPU///
 ```
 
+
 ### Ilmoitusten oletuskielivalinnaksi suomi
 
 Kuitit tulostuvat sekakielisinä, jos käytössä on oletuspohja. Tämä skripti asettaa kielivalinnaksi suomen, jos valittuna on tallennettaessa oletus.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -440,7 +447,7 @@ $(document).ready(function () {
 
 Aakkostaa ja priorisoi kielivalinnat tarkassa haussa
 Tarpeellisuus: Suositeltava
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -497,11 +504,11 @@ $(document).ready(function () {
 Tällä skriptillä saa siirrettyä Varaustunnus-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-// Varaustunnus-asiakasmääreen siirto
+// Varaustunnus-asiakasmääreen siirto asiakkaan muokkausnäytöllä asiakkaan nimen alapuolelle. Muista tarkistaa patron_atrr_-arvot vastaamaan oman kimpan tietoja. Rimpsu pitää laittaa asetukseen ennen henkilötunnuksen lisäys -rimpsua, jotta määre asettuu oikeaan kohtaan näytöllä.
 $(document).ready(function () {
   if (window.location.href.indexOf("members/memberentry.pl") > -1) {
     var holdidlabel = $('label[for="' + "patron_attr_2" + '"]');
@@ -514,6 +521,7 @@ $(document).ready(function () {
     $( "#identity_lgd" ).next().append(li);
   }
 });
+
 /// LOPPU ///
 ```
 
