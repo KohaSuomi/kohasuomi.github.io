@@ -21,21 +21,19 @@ Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelm�
 ### Alt+p tulostaa kuitin
 
 Tarpeellisuus: Suositeltava <br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-/* When returning books, if there is an input with onclick handler that starts with "Dopop",
-   allow pressing alt+p to click on that input. That should be a "print a slip" -type thing. */
-
-$(document).ready(function () {
-  $(document).bind('keypress', function(e) {
-     var code = e.keyCode || e.which;
-     if (code == 112 && e.altKey) { /* alt+p */
-        e.preventDefault();
-        $('body#circ_returns input.print[onclick^=Dopop]').trigger("click");
-     }
-  });
+// Alt+P tulostaa pikakuitin (tämän päivän lainat) lainaussivulla
+$(document).ready(function(){
+  if (window.location.pathname == '/cgi-bin/koha/circ/circulation.pl') {
+    window.addEventListener("keydown", function (event) {
+      if (event.altKey && event.key === "p") {
+        window.open("/cgi-bin/koha/members/printslip.pl?borrowernumber=" + borrowernumber + "&amp;print=issueqslip", "printwindow");
+      }
+    });
+  }
 });
 /// LOPPU ///
 ```
@@ -65,8 +63,9 @@ $(document).ready(function () {
 
 ### Piilota Perheen lainat -välilehti
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Vapaaehtoinen, [muutettu CSS:ksi versiossa 23.11](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-perheen-lainat--v%C3%A4lilehti)<br />
 Versio: 22.11
+
 
 ```
 /// ALKU ///
@@ -79,7 +78,7 @@ $(document).ready(function() { $("#relatives-issues-tab").parent().hide(); });
 
 Lisää asiakkaan muokkausnäytölle Henkilötunnus-kentän ja sen viennin sotusiiloon sekä asettaa automaattisesti syntymäajan henkilötunnuksen perusteella.
 
-Tarpeellisuus: Suositeltava <br />
+Tarpeellisuus: Muutettu osaksi Sotusiilo-liitännäistä versiossa 23.11 <br />
 Versio: 22.11
 
 ```
@@ -128,7 +127,7 @@ function addSSN(event) {
 Näillä kahdella JS:llä voi poistaa asiakkaan muokkausnäytöllä ylimääräiset välilyönnit kentistä. Näytöllä on kahta eriä kenttätyyppiä, minkä vuoksi JS:kin on kaksi. Funktiot poistaa kentistä välilyönnit alusta ja lopusta sekä useammat peräkkäiset välilyönnit välistä.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -217,38 +216,40 @@ $(document).ready(function() {
 Skripti generoi HOLDID-asiakasmääreeseen anonyymin varaustunnisteen, joka on käytännössä UNIX-aikaleima.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-// Varaustunnuksen automaattinen generointi. Kentän jälkeen lisätty kolme pistettä, josta muodostus tapahtuu.
-// Tässä Varustunnus-kentän arvo on patron_attr_4, tarkista oman tietokannan oikea arvo esim. selaimen Tarkista/Inspect element -toiminnolla.
+//ALKU
+// Varaustunnuksen automaattinen generointi. Kentän jälkeen lisätty kolme pistettä, josta muodostus tapahtuu. Uudelle asiakkaalle varaustunnus muodostuu automaattisesti kolmea pistettä painamatta.
+// Tarkista oman tietokannan oikea payhdessätron_attr-arvo esim. selaimen Tarkista/Inspect element -toiminnolla.
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&") || window.location.search.includes("?op=duplicate&")) {
       var unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
       var epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-      $('textarea#patron_attr_4').val(epochdashed);
+      $('textarea#patron_attr_2').val(epochdashed);
       
-	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_4");
-	  $("#generate_holdid").click(function() {
+	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_2");
+	  $("#generate_holdid").click(function(event) {
+        event.preventDefault();
           unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
           epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-          $('textarea#patron_attr_4').val(epochdashed);
-		  $("#patron_attr_4").trigger('blur');
+          $('textarea#patron_attr_2').val(epochdashed);
+		  $("#patron_attr_2").trigger('blur');
       });
     }
 
       if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=modify")) {
-	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_4");
-	  $("#generate_holdid").click(function() {
+	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_2");
+	  $("#generate_holdid").click(function(event) {
+        event.preventDefault();
           unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
           epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-          $('textarea#patron_attr_4').val(epochdashed);
-		  $("#patron_attr_4").trigger('blur');
+          $('textarea#patron_attr_2').val(epochdashed);
+		  $("#patron_attr_2").trigger('blur');
       });
     }
 });
 //LOPPU
-
 ```
 
 
