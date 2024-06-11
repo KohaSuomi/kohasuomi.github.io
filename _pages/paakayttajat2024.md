@@ -22,6 +22,8 @@ Läsnä:
   * muistattehan, että Koha-Suomen päivystysnumero on tarkoitettu vain kimppojen pääkäyttäjille ja sitä ei saa jakaa muille.
   * yhteydenpito Koha-Suomeen päin tapahtuu pääsääntöisesti pääkäyttäjien kautta. Ei suoria yhteydenottoja kirjastoista Koha-Suomeen.
 * [Musiikin tiedonhaun koulutuksen ennakkokysely](https://github.com/KohaSuomi/Koha/discussions/1271)
+* Version 24.05 tietovaranto ja [wiki](https://github.com/KohaSuomi/Koha-24.05/wiki)
+
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-24) - [Palaa sivun alkuun](/paakayttajat2024)
