@@ -529,7 +529,7 @@ $(document).ready(function () {
 
 Tällä skriptillä saa siirrettyä Sotuavain-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Vapaaehtoinen. Siirretty osaksi sotusiilo-liitännäistä versiossa 23.11.<br />
 Versio: 22.11
 
 ```
@@ -568,7 +568,7 @@ $('input:radio[value="approve"]').attr('checked', true);
 ### othername-kentän piilotus määritetyiltä asiakastyypeiltä
 
 Tarpeellisuus: Vapaahetoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 Tämä javascript-rimpsu piilottaa määritetyiltä asiakastyypeiltä othernames-kentän näkyviltä. Rimpsu on tehty OUTI-kirjastoille ja liittyy [tikettiin 956](https://github.com/KohaSuomi/Koha/issues/956).
 
@@ -578,7 +578,7 @@ Tämä javascript-rimpsu piilottaa määritetyiltä asiakastyypeiltä othernames
 // Piilottaa 'Other names' kentän valituille asiakastyypeille (categorycode) muokkauslomakkeilla (add, modify, duplicate)
 $(document).ready(function () {
 if ( window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' ) {
-var categories = ["YHTEISO", "KAUKOLAINA"];
+var categories = ["YHTEISO", "KAUKOLAINA", "AUTOM", "EITILASTO", "VIRKAILIJA", "API"];
 if ( ( window.location.search.includes('?op=add') && categories.some(cat => window.location.search.includes(cat)) ) || ( ( window.location.search.includes('?op=modify') || window.location.search.includes('?op=duplicate') ) && categories.some(cat => $('.patroncategory')[0].innerHTML.includes(cat)) ) ) {
 $('#othernames').attr('disabled', 'disabled');
 // Piilottaa li-elementin, jonka sisällä on label ja input
@@ -596,7 +596,7 @@ $('#othernames').parent().hide();
 ### Piilota viestin tekijän nimi Tiedot-näytöllä
 
 Tarpeellisuus: Vapaaehtoinen <br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -616,7 +616,7 @@ $("#messages .circ-hlt").each(function( index ){
 Tällä muutetaan skriptissä mainituille asiakastyypeille salasanan generointi nelinumeroiseksi. Ilman tätä, asiakkaille tulee aakkosnumeerisia salasanoja.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU  ///
@@ -674,7 +674,7 @@ $(document).ready(function () {
 Skripti siirtää noudettavissa olevat varaukset valikon taakse, jolloin ne eivät pidennä näyttöä. Jos noudettavia varauksia on paljon, voi näyttö venyä hyvinkin pitkäksi ja lainataulukkoa saa etsiä monen rullauksen päästä.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -727,7 +727,7 @@ $( document ).ready(function() {
 Tällä skriptillä saa muutettua Lisää huollettava -napin valikoksi, josta voi valita, mitä asiakastyyppiä lisättävällä huollettavalla käytetään. Tämä on tarpeellinen lähinnä niissä kimpoissa, joissa lapsiasiakastyyppejä on useampi omatoimirajoitteiden vuoksi. Tarkista, että asiakastyyppien tunnukset ja kuvaukset vastaavat kimppasi tietoja.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -765,6 +765,8 @@ $(document).ready(function() {
 
 Tällä IntranetUserJS-rimpsulla saa asiakkaan kirjastokortin numeron näkymään viivakoodina kirjastotiedot-osiossa. [Liittyy tikettiin Asiakkaan viivakoodin esittäminen asiakastietonäytöllä #671](https://github.com/KohaSuomi/Koha/issues/671).
 
+Tämä on muutettu [JS-liitännäiseksi intranetjs-moremember-borrower-barcode](https://github.com/KohaSuomi/koha-plugin-intranetjs-moremember-borrower-barcode).
+
 Versio: 22.11
 
 ```
@@ -783,7 +785,7 @@ $(document).ready(function () {
 
 Tämä skripti lisää maksun maksamissivulle Ceepos-maksu -napin, jolla saa vietyä maksun Ceepos-kassaliittymään.
 
-Tarpeellisuus: Vapaaehtoinen (Ceepos-kassaa käyttäville tarpeellinen)<br />
+Tarpeellisuus: Vapaaehtoinen (Ceepos-kassaa käyttäville tarpeellinen). Muutettu osaksi [Ceepos-liitännäistä](https://github.com/KohaSuomi/koha-plugin-ceepos-integration) versiossa 23.11<br />
 Versio: 22.11
 
 ```
@@ -863,7 +865,7 @@ $(document).ready(function() {
 Tiketti #494. Valikkojen oletus on sanahaku, joten kolmannen arvoa ei tarvitse erikseen asettaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11, 23.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -883,7 +885,7 @@ Vaihtoehtoinen versio, jossa toimii kenttien pakotus myös, kun palataan Tarkkaa
 
 Lisätty 9.4.2024
 Tekijä: Mikko Liimatainen
-Versio 22.11
+Versio 23.11
 
 ```
 // Tarkan haun Sanahaku-oletustermit korvataan Nimeke, Tekijä, Asiasana sivulla /cgi-bin/koha/catalogue/search.pl
@@ -905,23 +907,14 @@ $(document).ready(function() {
 Tämä lisää tietueen perustiedot-näytölle valikkoriville viimeiseksi Avaa Finnassa -nappulan, joka vie oman kimpan Finnaan saman teoksen tietoihin.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
  /// ALKU ///
-/// Lisää tietueen perustiedot-näytölle valikkoriville loppuun Avaa Finnassa -nappula. Muista vaihtaa osoitteisiin oman kimpan tunnisteet Vaaran tunnisteiden sijaan. ///
+/// Lisää tietueen perustiedot-näytölle valikkoriville loppuun Avaa Finnassa -nappula. Muista vaihtaa osoitteisiin oman kimpan tunnisteet OUTIn tunnisteiden sijaan. ///
 
 $( document ).ready(function() {
 if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
-        /*var details_elem = document.getElementById("catalogue_detail_biblio");
-        var span_elem = document.createElement("span");
-        span_elem.className = "results_summary";
-        var link_elem = document.createElement("a");
-        link_elem.href = "https://vaara.finna.fi/Record/vaarakirjastot." + biblionumber;
-        var link_text = document.createTextNode("Open in Finna");
-        link_elem.appendChild(link_text);
-        span_elem.appendChild(link_elem);
-        details_elem.appendChild(span_elem);*/
   		var linktext = 'Avaa Finnassa';
         if( $( '#changelanguage .currentlanguage' ).text() == 'English' ) {
         	linktext = 'Open in Finna';
@@ -930,7 +923,7 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
         }
         var params = new URLSearchParams(window.location.search);
         var biblionumber = parseInt(params.get("biblionumber"));
-  		$( '#catalog_detail #toolbar' ).append( '<div class="btn-group"> <a href="https://vaara.finna.fi/Record/vaarakirjastot.' + biblionumber + '" class="btn btn-default" target="_blank"><i class="fa fa-external-link"></i> ' + linktext + '</a></div>' );
+  		$( '#catalog_detail #toolbar' ).append( '<div class="btn-group"> <a href="https://outi.finna.fi/Record/outi.' + biblionumber + '" class="btn btn-default" target="_blank"><i class="fa fa-external-link"></i> ' + linktext + '</a></div>' );
 }
 });
 
@@ -942,30 +935,42 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 Tämä lisää Koriin jokaiseen teokseen linkin myös Finnaan samaan teokseen. Muista vaihtaa Siilinjärven tietojen tilalle oikea osoite Finnaan sekä tietuetunniste ennen viimeistä pistettä osoitteessa.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-// Finna-verkkokirjastolinkkien lisääminen ostoskoriin. Muista vaihtaa kimppakohtainen URL
+// Finna-verkkokirjastolinkkien lisääminen ostoskoriin
 $(document).ready(function () {
   if ( window.location.pathname == '/cgi-bin/koha/basket/basket.pl' ) {
+    
+    // Syötä tähän oman kimpan Finna-osoite
+    var finnaurl = 'https://outi.finna.fi/Record/outi';
 
-    // Finnan URL -- Vaihda tähän oma kimppa, huomaa piste lopussa
-    var finnaurl = 'https://siilinjarvenkirjasto.finna.fi/Record/siilinjarvi.';
-
+    var linkbase = '<a class="btn btn-default" style="margin:0 5px 5px 0;" target="_blank" href="' + finnaurl + '.';
+    
     // Kielivalinta
     var linktext = 'Avaa Finnassa';
+    var hostlinktext = 'Avaa emokohde Finnassa';
     if ( document.documentElement.lang.toLowerCase() === "en" ) {
-	    linktext = 'Open in Finna';
-	  } else if ( document.documentElement.lang.toLowerCase() === "sv-se" ) {
-    	linktext = 'Öppna i Finna';
-  	}
+      linktext = 'Open in Finna';
+      hostlinktext = 'Open host record in Finna';
+    } else if ( document.documentElement.lang.toLowerCase() === "sv-se" ) {
+      linktext = 'Öppna i Finna';
+      hostlinktext = 'Öppna huvudobjekt i Finna';
+    }
 
     // Linkin muodostaminen
-    $("a.title").parent().each(function(index, v) {
-      var $v = $(v);
-      var $finnalink = '<a class="btn btn-default" target="_blank" href="' + finnaurl + $v.find('a.title').attr('href').replace('/cgi-bin/koha/catalogue/detail.pl?biblionumber=','') + '"><i class="fa fa-external-link"></i> ' + linktext + '</a>';
-      $v.append($finnalink);
+    $("td:has(a.title)").each(function() {
+      if ( $(this).find('a.title').length > 1 ) {    
+        var child_bib = $(this).find('a.title').eq(0).attr('href').replace('/cgi-bin/koha/catalogue/detail.pl?biblionumber=','');
+        var host_bib = $(this).find('a.title').eq(1).attr('href').replace('/cgi-bin/koha/catalogue/detail.pl?biblionumber=',''); 
+        var finnalinks = '<p>' + linkbase + child_bib + '"><i class="fa fa-external-link"></i> ' + linktext + '</a>' + linkbase + host_bib + '"><i class="fa fa-external-link"></i> ' + hostlinktext + '</a></p>';
+        $(this).append(finnalinks);
+      } else {
+        var bib = $(this).find('a.title').eq(0).attr('href').replace('/cgi-bin/koha/catalogue/detail.pl?biblionumber=','');
+        var finnalink = '<p>' + linkbase + bib + '"><i class="fa fa-external-link"></i> ' + linktext + '</a></p>';
+        $(this).append(finnalink); 
+      }
     });
   }
 });
