@@ -15,6 +15,66 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 8/2024
+
+Aika: 27.5.2024 klo 13<br />
+Läsnä:
+
+### Arin ajankohtaiset
+
+### Versiopäivitys syksyllä
+
+Versioon 24.05 on tullut tärkeitä päivityksiä, jotka halutaan mukaan meidän versioon mahdollisimman pian. Helpoimmalla nämä saadaan mukaan tekemällä ylimääräinen versiopäivitys. 
+
+Mikä olisi sopiva ajankohta versiopäivitykselle?
+
+Miten tehdään jatkossa versiopäivitysten kanssa? Tehdäänkö keväällä 2025 seuraava päivitys vai odotetaanko vuosi ja tehdään vasta keväällä 2026? Syksy on versiopäivityksen kannalta hankala aika.
+
+### Palvelinten käyttöjärjestelmän versiopäivitys keväällä 2025
+
+Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 2025, koska nykyisen käyttöjärjestelmän tukiaika päättyy toukokuussa. Todennäköisesti aiheuttaa muutaman tunnin käyttökatkoksen Kohaan.
+
+### Suomi.fi
+
+* Mahdollisuus lähettää viestejä myös henkilötunnuksettomille
+* Pilotoidaan DVV:n REST-rajapintaa syksyllä
+* Kirjeviestintä toimimaan Suomi.fin kautta Kirkeksen ja Lastun tapaan?
+* Jatkossa kaikki viestintä Suomi.fin kautta?
+  * Sähköpostin tietosuojaongelmat
+
+### Euroopan unionin kyberturvallisuusdirektiivi NIS2
+
+Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
+
+### Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
+
+Kodo kertoo tilannekatsauksen.
+
+### Varausten priorisointi
+
+Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälaisia ehtoja priorisointiin pitäisi käyttää:
+
+Vaski:
+* Priorisointi tapahtuu, kun
+  * tietueella on lainattavissa ja varattavissa olevia niteitä vähintään 10 kpl JA tietueella on jonossa vähintään 20 aktiivista varausta
+  * Priorisointiin otetaan mukaan jonon alusta 20 aktiivista (ei-keskeytettyä) varausta
+  * Varausten ohittaminen: 1/4 (ohitukset/nidemäärä) pidentäisi teoriassa odotusaikaa yhdellä viikolla (neljän viikon laina-ajoin). Eli esim ohituskerrat 5, jos nidemäärä 20.
+  * Varausta ei ohiteta ollenkaan, mikäli varaus kohdistuu tiettyyn niteeseen.
+  * Miten varausjononumero tulisi asiakkaalle esittää? Aika arvio? Infopallura? Tieto priorisoinnista varausjonoon? ”Tähän varausjonoon kohdistuu priorisointia”
+  * Suosii isoja toimipaikkoja?
+  * 11.6.2024 Vaskissa oli 573 varausjonoa, jossa yli 20 aktiivista varausta ja vähintään 10 nidettä.
+
+### Kehitysehdotusten läpikäyntiä
+
+* [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
+  * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
+* [Hyllyvarausraportin rajaus sivun latausvaiheessa #1261](https://github.com/KohaSuomi/Koha/issues/1261)
+  * Ehdotus: Pohditaan
+* [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
+  * Ehdotus: Pohditaan
+
+### Muut asiat
+
 ## Asiantuntijaryhmän muistio 7/2024
 
 Aika: 27.5.2024 klo 13<br />
