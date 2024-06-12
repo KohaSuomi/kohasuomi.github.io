@@ -17,12 +17,12 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Asiantuntijaryhmän esityslista 8/2024
 
-Aika: 27.5.2024 klo 13<br />
+Aika: 19.6.2024 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Versiopäivitys syksyllä
+### 2. Versiopäivitys syksyllä
 
 Versioon 24.05 on tullut tärkeitä päivityksiä, jotka halutaan mukaan meidän versioon mahdollisimman pian. Helpoimmalla nämä saadaan mukaan tekemällä ylimääräinen versiopäivitys. 
 
@@ -30,19 +30,19 @@ Mikä olisi sopiva ajankohta versiopäivitykselle?
 
 Miten tehdään jatkossa versiopäivitysten kanssa? Tehdäänkö keväällä 2025 seuraava päivitys vai odotetaanko vuosi ja tehdään vasta keväällä 2026? Syksy on versiopäivityksen kannalta hankala aika.
 
-### Palvelinten käyttöjärjestelmän versiopäivitys keväällä 2025
+### 3. Palvelinten käyttöjärjestelmän versiopäivitys keväällä 2025
 
 Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 2025, koska nykyisen käyttöjärjestelmän tukiaika päättyy toukokuussa. Todennäköisesti aiheuttaa muutaman tunnin käyttökatkoksen Kohaan.
 
-### Suomi.fi
+### 4. Suomi.fi Viestit
 
-* Mahdollisuus lähettää viestejä myös henkilötunnuksettomille
-* Pilotoidaan DVV:n REST-rajapintaa syksyllä
-* Kirjeviestintä toimimaan Suomi.fin kautta Kirkeksen ja Lastun tapaan?
+* Suomi.fi Viestit -palveluun on tullut jo mahdollisuus lähettää viestejä myös henkilötunnuksettomille
+* Koha-Suomi pilotoi DVV:n REST-rajapintaa syksyllä. RESTin kautta saadaan viestien sisältö kulkemaan Suomi.fi:hin paremmin, eikä asiakkaiden tarvitse avata erillistä pdf-tiedostoa lukeakseen kirjaston viestin.
+* Kirjeviestintä toimimaan kaikilla kimpoilla Suomi.fin kautta Kirkeksen ja Lastun tapaan?
 * Jatkossa kaikki viestintä Suomi.fin kautta?
   * Sähköpostin tietosuojaongelmat
 
-### Euroopan unionin kyberturvallisuusdirektiivi NIS2
+### 5. Euroopan unionin kyberturvallisuusdirektiivi NIS2
 
 Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
 
@@ -50,11 +50,11 @@ Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä
 
 Kodo kertoo tilannekatsauksen.
 
-### Varausten priorisointi
+### 6. Varausten priorisointi
 
-Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälaisia ehtoja priorisointiin pitäisi käyttää:
+Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälaisia ehtoja priorisointiin pitäisi käyttää.
 
-Vaski:
+Vaski-kirjastojen ajatukset:
 * Priorisointi tapahtuu, kun
   * tietueella on lainattavissa ja varattavissa olevia niteitä vähintään 10 kpl JA tietueella on jonossa vähintään 20 aktiivista varausta
   * Priorisointiin otetaan mukaan jonon alusta 20 aktiivista (ei-keskeytettyä) varausta
@@ -64,7 +64,7 @@ Vaski:
   * Suosii isoja toimipaikkoja?
   * 11.6.2024 Vaskissa oli 573 varausjonoa, jossa yli 20 aktiivista varausta ja vähintään 10 nidettä.
 
-### Kehitysehdotusten läpikäyntiä
+### 7. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
   * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
@@ -73,7 +73,7 @@ Vaski:
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
 
-### Muut asiat
+### 8. Muut asiat
 
 ## Asiantuntijaryhmän muistio 7/2024
 
