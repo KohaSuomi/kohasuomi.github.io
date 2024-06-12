@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 11.6.2024 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle)
 
 **Asiat**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1281)
