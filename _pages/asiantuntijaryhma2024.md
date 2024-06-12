@@ -46,11 +46,11 @@ Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 
 
 Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
 
-### Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
+### 6. Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
 
 Kodo kertoo tilannekatsauksen.
 
-### 6. Varausten priorisointi
+### 7. Varausten priorisointi
 
 Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälaisia ehtoja priorisointiin pitäisi käyttää.
 
@@ -64,7 +64,7 @@ Vaski-kirjastojen ajatukset:
   * Suosii isoja toimipaikkoja?
   * 11.6.2024 Vaskissa oli 573 varausjonoa, jossa yli 20 aktiivista varausta ja vähintään 10 nidettä.
 
-### 7. Kehitysehdotusten läpikäyntiä
+### 8. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
   * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
@@ -73,7 +73,7 @@ Vaski-kirjastojen ajatukset:
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
 
-### 8. Muut asiat
+### 9. Muut asiat
 
 ## Asiantuntijaryhmän muistio 7/2024
 
