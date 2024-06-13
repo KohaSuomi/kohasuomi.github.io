@@ -22,7 +22,7 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
-### 2. Versiopäivitys syksyllä
+### 2. Koha versiopäivitys syksyllä
 
 Versioon 24.05 on tullut tärkeitä päivityksiä, jotka halutaan mukaan meidän versioon mahdollisimman pian. Helpoimmalla nämä saadaan mukaan tekemällä ylimääräinen versiopäivitys. 
 
@@ -40,7 +40,8 @@ Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 
 * Koha-Suomi pilotoi DVV:n REST-rajapintaa syksyllä. RESTin kautta saadaan viestien sisältö kulkemaan Suomi.fi:hin paremmin, eikä asiakkaiden tarvitse avata erillistä pdf-tiedostoa lukeakseen kirjaston viestin.
 * Kirjeviestintä toimimaan kaikilla kimpoilla Suomi.fin kautta Kirkeksen ja Lastun tapaan?
 * Jatkossa kaikki viestintä Suomi.fin kautta?
-  * Sähköpostin tietosuojaongelmat
+  * Sähköpostin tietosuoja- ja toimitusongelmat
+  * Mobiilisovelluksilla käytännössä samanlainen käyttäjäkokemus kuin nykyisin tekstiviesteillä
 
 ### 5. Euroopan unionin kyberturvallisuusdirektiivi NIS2
 
@@ -48,7 +49,7 @@ Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä
 
 ### 6. Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
 
-Kodo kertoo tilannekatsauksen.
+Kodo kertoo tilannekatsauksen. Takaajatietojen käsittely ja tallentaminen?
 
 ### 7. Varausten priorisointi
 
