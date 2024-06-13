@@ -42,7 +42,7 @@ Pohjoisesta etelään
 * Ruotsinkielisessä Kohassa asiakashaku ei aina löytänyt asiakasta etunimi sukunimi -hakuehdolla. Johanna selvitti ongelman syyn: template cache oli jostain syystä jumissa. Tiketti #1268
 
 **Kirkes**
-* Henkilökunnalta tullut kyselyä, mikä tarkoittaa suojattu-tila uutta asiakasta luodessa.
+* Henkilökunnalta tullut kyselyä, mitä tarkoittaa suojattu-tila uutta asiakasta luotaessa.
 * Virheilmoituksia käsin lisätyissä hankinnoissa. Tiketti #1282.
 
 
