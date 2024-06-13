@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 11.6.2024 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Annika Helastila (Kirkes)
 
 **Asiat**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1281)
@@ -40,6 +40,10 @@ Pohjoisesta etelään
 
 **Helle**
 * Ruotsinkielisessä Kohassa asiakashaku ei aina löytänyt asiakasta etunimi sukunimi -hakuehdolla. Johanna selvitti ongelman syyn: template cache oli jostain syystä jumissa. Tiketti #1268
+
+**Kirkes**
+* Henkilökunnalta tullut kyselyä, mikä tarkoittaa suojattu-tila uutta asiakasta luodessa.
+* Virheilmoituksia käsin lisätyissä hankinnoissa. Tiketti #1282.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-24) - [Palaa sivun alkuun](/paakayttajat2024)
