@@ -45,7 +45,7 @@ Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 
 
 ### 5. Euroopan unionin kyberturvallisuusdirektiivi NIS2
 
-Euroopan unionin kyberturvallisuusdirektiivi NIS2 on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
+[Euroopan unionin kyberturvallisuusdirektiivi NIS2](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/nis2-euroopan-unionin-kyberturvallisuusdirektiivi) on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
 
 ### 6. Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
 
