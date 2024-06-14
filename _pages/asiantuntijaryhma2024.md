@@ -85,7 +85,8 @@ OUTI-kirjastojen ajatukset:
 
 Ehdolle seuraavaan asiantuntijaryhmään:
 
-OUTI: Noora Valkonen ja varalle Piia Semenoff
+OUTI: Oulusta Noora Valkonen ja varalle Piia Semenoff
+Kirkes: Riikka Mustajärvi Tuusulasta ja varalla Anu Järvi Mäntsälästä
 
 ### 10. Muut asiat
 
