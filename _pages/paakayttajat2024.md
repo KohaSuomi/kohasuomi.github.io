@@ -10,10 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 25
+
+Aika: 18.6.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
+* Viikon 25 päivitys
+
 ## Viikko 24
 
 Aika: 11.6.2024 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Annika Helastila (Kirkes)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Annika Helastila (Kirkes), Anneli Österman (Koha-Suomi)
 
 **Asiat**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1281)
