@@ -2362,6 +2362,20 @@ WHERE SUBSTRING(ExtractValue(bm.metadata,'//leader'),18,1) != 8
 GROUP BY t1.object
 order by 2,3,4,5</pre>
 
+### Tietueet, joissa on MARC-kentässä 007 tietty merkkijono
+
+Raportilla voi hakea esim. tietuiden erämuokkausta varten tietueet, joissa on tietty merkkijono MARC-kentässä 007. Raportti kysyy parametrinä, mitä merkkijonoa haetaan. Raportti on luotu [tikettiä 1285](https://github.com/KohaSuomi/Koha/issues/1285) varten, mutta sitä voi hyödyntää muutenkin. Tiketistä löytyy esimerkkejä käyttökohteista. Tulokset on rajattu 7000 riviin, mutta sen voi muuttaa mieleisekseen.
+
+Lisätty 14.6.2024
+Lisääjä: Anneli Österman
+
+```
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+from biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//controlfield[@tag="007"]') = <<Anna merkkijono>>
+LIMIT 7000
+```
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
