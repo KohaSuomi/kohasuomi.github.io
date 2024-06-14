@@ -65,6 +65,13 @@ Vaski-kirjastojen ajatukset:
   * Suosii isoja toimipaikkoja?
   * 11.6.2024 Vaskissa oli 573 varausjonoa, jossa yli 20 aktiivista varausta ja vähintään 10 nidettä.
 
+OUTI-kirjastojen ajatukset:
+*	Aloitetaan yksinkertaisilla käytännöillä. Tuolloin on helppo ratkoa ongelmat, jos niitä ilmenee ja muokata, jos hyötyjä ei tule. Ei vesitetä liian tiukoilla rajauksilla tavoitetta eli kuljettamisen karsimista.
+*	Olisiko ideaa käyttää priorisoinnissa pohjana kirjastoryhmää/poimintaryhmää? Eli esim. jos kirjastoon palautuu nide, johon kohdistuu varaus samassa kirjastoryhmässä/poimintaryhmässä olevaan kirjastoon, tärppäisi varaus sen kirjaston varaukseen. Koska tämä ei ehkä suosisi kuntia, joissa vain yksi kirjasto, niin siitä johtuen ohituksia voisi olla enintään 3 kertaa yhtä varausta kohti.
+*	Varausten ohittaminen: 3 kertaa, enintään 5 kertaa. Viisi ohituskertaa voi pidentää varaajan odotusaikaa jopa puoli vuotta, jos varauksia on paljon ja niteitä on vähän. Kolme ohitusta olisi kohtuullinen määrä, myös ajallisesti.
+*	Priorisointiin otetaan mukaan jonon alusta 5–10 ensimmäistä voimassa olevaa (ei keskeytettyä) varausta. OUTIssa Qfactoryn testailuissa jo muutaman ensimmäisen varauksen priorisoinnissa säästyi paljon kuljetusaikaa.
+*	Ei ole ongelma, jos varaus tärppää järjestyksessä pitkälläkin olevaan varaukseen, jos kimpassa kaikki tai lähes kaikki kunnat ovat ko. nimekettä hankkineet.
+
 ### 8. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
@@ -74,7 +81,13 @@ Vaski-kirjastojen ajatukset:
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
 
-### 9. Muut asiat
+### 9. Seuraavan asiantuntijaryhmän kokoonpano
+
+Ehdolle seuraavaan asiantuntijaryhmään:
+
+OUTI: Noora Valkonen ja varalle Piia Semenoff
+
+### 10. Muut asiat
 
 ## Asiantuntijaryhmän muistio 7/2024
 
