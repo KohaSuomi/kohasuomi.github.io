@@ -18,6 +18,11 @@ Läsnä:
 **Yhteiset asiat**
 * Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
 * Viikon 25 päivitys
+* [MARC-esikatselujen suoristus](https://github.com/KohaSuomi/Koha/issues/1288) tuotantoihin ennen RDA-konversiota
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 24
 
