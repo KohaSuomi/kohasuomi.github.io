@@ -1278,7 +1278,7 @@ Versio: 23.11
 
 Kohan uusinta-toiminnallisuus ei noudata laina- ja maksusääntöjä ja antaa uusia, vaikka teokseen kohdistuu varaus tai uusintakerrat ovat tulleet jo täyteen.
 
-Tarpeellisuus: Ei tarpeen, muutettu CSS:ksi versiossa 23.11<br />
+Tarpeellisuus: Ei tarpeen, [muutettu CSS:ksi versiossa 23.11](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-uusinta-nappi)<br />
 Versio: 22.11
 
 ```
