@@ -23,11 +23,8 @@ Osa aiemmin _Työkalut_-osiossa sijainneista toiminnoista, esim. niteiden ja tie
 
 ## 12.1 Asiakaslistat
 
-**Huom!** _Asiakaslistat_-ohjetta ei ole päivitetty versioon 22.11, koska asiakashaku ei toimi oikein. Korjaus on tulossa versioon 23.05. Lisää siihen asti asiakkaita listalle tavallisen asiakashaun kautta.
-{: .notice--warning}
-
 _Asiakaslistat_-työkalulla voi luoda asiakkaista listoja, joita voi sitten
-hyödyntää mm. asiakastietojen erämuokkauksessa (kts. 12.5).
+hyödyntää esim. asiakastietojen erämuokkauksessa (kts. 12.5).
 
 Etusivulla listataan olemassa olevat asiakaslistat. Uuden asiakaslistan
 voi tehdä _Uusi asiakaslista_ -painikkeesta.
