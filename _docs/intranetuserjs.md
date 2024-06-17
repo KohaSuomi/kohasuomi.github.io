@@ -982,54 +982,44 @@ $(document).ready(function () {
 Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syntyneet muutokset.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-
 /* Näillä rimpsuilla tehdään tiedonhakuun Indeksointi-työryhmän päättämät muutokset. Asetetaan otsikot eri kielillä aineistotyyppi-, hyllytarkenne- ja ikärajavälilehdille tiedonhaussa. Lisätään alasvetovalikoihin YKL, UDK, Päivittyvä julkaisu ja Kausijulkaisu */
 $(document).ready(function() {
 
-    if ( $('html').attr('lang') == 'fi-FI') {
-      $("#advsearch-tab-mtype a").text("Aineistotyyppi"); /* MTYPE auktorisoituarvo tarkassa haussa */
-      $("#advsearch-tab-subloc a").text("Hyllytarkenne"); /* SUBLOC auktorisoituarvo tarkassa haussa */
-      $("#advsearch-tab-agelevel a").text("Ikärajat"); /* AGELEVEL auktorisoituarvo tarkassa haussa */
-      $("#advsearch-tab-bib-level a").text("Emokohde/Osakohde"); /* bib-level auktorisoituarvo tarkassa haussa */
-      $("#searchterms select").append(new Option('YKL-luokitus', 'other-classification')); /* Lisää uuden valinnan YKL-luokitus */
-      $("#searchterms select").append(new Option('UDK-luokitus', 'udc-classification')); /* Lisää uuden valinnan UDK-luokitus */
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Päivittyvä julkaisu', 'bib-level:i')); /*Lisää lisärajoitukset valikkoon uuden arvon */
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Kausijulkaisu', 'bib-level:s')); /*Lisää lisärajoitukset valikkoon uuden arvon */
-    }
-    else if ( $('html').attr('lang') == 'sv-SE') {
-      $("#advsearch-tab-mtype a").text("Materialtyp");
-      $("#advsearch-tab-subloc a").text("Underplats");
-      $("#advsearch-tab-agelevel a").text("Åldersgränser");
-      $("#advsearch-tab-bib-level a").text("Huvudobjekt/Delobjekt");
-      $("#searchterms select").append(new Option('YKL-klassification', 'other-classification'));
-      $("#searchterms select").append(new Option('UDC-klassification', 'udc-classification'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Publikation som uppdateras', 'bib-level:i'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Seriell publikation', 'bib-level:s'));
-    }
-    else if ( $('html').attr('lang') == 'en') {
-      $("#advsearch-tab-mtype a").text("Material type");
-      $("#advsearch-tab-subloc a").text("Sub location"); 
-      $("#advsearch-tab-agelevel a").text("Age levels");
-      $("#advsearch-tab-bib-level a").text("Child/monographic record");
-      $("#searchterms select").append(new Option('Other classification', 'other-classification'));
-      $("#searchterms select").append(new Option('UDC classification', 'udc-classification'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Integrating resource', 'bib-level:i'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Serial', 'bib-level:s'));
-    }
-
-    $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
-});
-
-$(document).ready(function () {
-  if (window.location.href.indexOf("catalogue/search.pl?advsearch=1&edit_search=1") > -1) {
-      $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa, kun hakua mennään muokkaamaan*/     
+  if ( $('html').attr('lang') == 'fi-FI') {
+    $("a#advsearch-tab-mtype-tab").text("Aineistotyyppi"); /* MTYPE auktorisoituarvo tarkassa haussa */
+    $("a#advsearch-tab-subloc-tab").text("Hyllytarkenne"); /* SUBLOC auktorisoituarvo tarkassa haussa */
+    $("a#advsearch-tab-agelevel-tab").text("Ikärajat"); /* AGELEVEL auktorisoituarvo tarkassa haussa */
+    $("a#advsearch-tab-bib-level-tab").text("Emokohde/Osakohde"); /* bib-level auktorisoituarvo tarkassa haussa */
+    $("#searchterms .advsearch").append(new Option('YKL-luokitus', 'other-classification')); /* Lisää uuden valinnan YKL-luokitus */
+    $("#searchterms .advsearch").append(new Option('UDK-luokitus', 'udc-classification')); /* Lisää uuden valinnan UDK-luokitus */
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Päivittyvä julkaisu', 'bib-level:i')); /*Lisää lisärajoitukset valikkoon uuden arvon */
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Kausijulkaisu', 'bib-level:s')); /*Lisää lisärajoitukset valikkoon uuden arvon */
   }
-});
-
+  else if ( $('html').attr('lang') == 'sv-SE') {
+    $("a#advsearch-tab-mtype-tab").text("Materialtyp");
+    $("a#advsearch-tab-subloc-tab").text("Underplats");
+    $("a#advsearch-tab-agelevel-tab").text("Åldersgränser");
+    $("a#advsearch-tab-bib-level-tab").text("Huvudobjekt/Delobjekt");
+    $("#searchterms .advsearch").append(new Option('YKL-klassification', 'other-classification'));
+    $("#searchterms .advsearch").append(new Option('UDC-klassification', 'udc-classification'));
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Publikation som uppdateras', 'bib-level:i'));
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Seriell publikation', 'bib-level:s'));
+  }
+  else if ( $('html').attr('lang') == 'en') {
+    $("a#advsearch-tab-mtype-tab").text("Material type");
+    $("a#advsearch-tab-subloc-tab").text("Sub location"); 
+    $("a#advsearch-tab-agelevel-tab").text("Age levels");
+    $("a#advsearch-tab-bib-level-tab").text("Child/monographic record");
+    $("#searchterms .advsearch").append(new Option('Other classification', 'other-classification'));
+    $("#searchterms .advsearch").append(new Option('UDC classification', 'udc-classification'));
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Integrating resource', 'bib-level:i'));
+    $("#subtype select option[value='mus:i'").parent().append(new Option('Serial', 'bib-level:s'));
+  }
+ });
 /// LOPPU ///
 ```
 
@@ -1043,7 +1033,7 @@ $(document).ready(function () {
 Tällä poistetaan ylimääräiset välilyönnit kentistä niteen muokkausnäytöllä. Välilyönnit poistetaan alusta, lopusta ja useammat peräkkäiset välilyönnit välistä.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -1065,11 +1055,11 @@ $(document).ready(function() {
 Skripti poistaa ylimääräiset välilyönnit sekä tarkistaa, että sarjanumero on muodossa "vuosi : numero". Jos vuoden jälkeen puuttuu välilyönti, käytännössä se lisätään sinne. Tarkistus tehdään kaikkiin nidekenttiin, mutta korjaus ei "tartu", jos kentän alussa ei ole vuosinumeroa.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
-/// ALKU ///
-/* Poista kausijulkaisun vastaanottonäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä. Tarkistetaan samalla, että numerointikaava on muodossa "vuosi : numero". */
+//// ALKU ///
+/* Poista kausijulkaisun vastaanottonäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#ser_serials-edit.ser input').blur(function() {
      var tmp = $(this).val();
@@ -1086,7 +1076,7 @@ $(document).ready(function() {
 ### Poistetaan ylimääräiset välilyönnit hankinnassa
 
 Tarpeellisuus: Suositeltava, jos toimii<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -1101,7 +1091,9 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
+/// LOPPU ///
 
+/// ALKU ///
 /* Poista hankinnassa uuden tilauksen niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä */ 
 /* Tämä ei toimi? */
 $(document).ready(function() {
@@ -1113,7 +1105,6 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-
 /// LOPPU ///
 ```
 
@@ -1122,16 +1113,14 @@ $(document).ready(function() {
 Skripti laittaa niteiden eräpoistossa valmiiksi täpän kohtaan "Poista tietueet, jos kaikki niteet poistettu". Näin todennäköisemmin tietokantaan ei jää roikkumaan niteettömiä tietueita.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-
 /* Laita niteiden eräpoistossa täppä kohtaan "Poista tietueet, jos kaikki niteet poistettu". Tällä varmistetaan, että tietokantaan ei jää niteettömiä tietueita. */
 $(document).ready(function () {
-  $("#del_records").attr('checked', true);
+$("#del_records").attr('checked', true);
 });
-
 /// LOPPU ///
 ```
 
@@ -1140,11 +1129,11 @@ $(document).ready(function () {
 Näillä skripteillä lisätään niteen muokkausnäytölle sekä teoksen perustiedot-näytölle mahdollisuus lisätä nide tarratulostusjonoon.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-/// Niteiden lisäys tarratulostusjonoon niteen muokkausnäytöltä nidetietojen alapuolelta sekä nidetaulun Toiminnot-valikoista. ///
+/// Niteiden lisäys tarratulostusjonoon. Ilman näitä niteitä ei saa vietyä niteiden muokkauksesta ja perustiedot-näytöltä omaan tulostusjonoon. ///
 
 $(document).ready(function() {
     $(".print_label").after('<li><a href="#" onclick="setPrintQueue($(this))">Tulostusjonoon</a></li>');
@@ -1158,6 +1147,7 @@ function setPrintQueue(element) {
   $.ajax({
    url: "/api/v1/contrib/kohasuomi/labels/print/queue", 
    type: "POST",
+   async: false,
    dataType: "json",
    contentType: "application/json; charset=utf-8",
    data: JSON.stringify({ itemnumber: number, printed: 0 }),
@@ -1170,7 +1160,7 @@ function setPrintQueue(element) {
  });
 }
 
-/* Niteiden lisäys tarratulostustyökaluun perustiedot-näytöltä */
+/* Niteiden lisätys tarratulostustyökaluun perustiedot-näytöltä */
 $(document).ready(function() {
     $("#holdings .itemselection_action_modify, #otherholdings .itemselection_action_modify").after(' <a href="#" class="itemselection_action_print" onclick="addItemsToPrintQueue(event, $(this))"><i class="fa fa-print"></i> Lisää valitut niteet tulostusjonoon</a>');
 });
@@ -1182,6 +1172,7 @@ function addItemsToPrintQueue(e, element) {
         requests.push($.ajax({
             url: "/api/v1/contrib/kohasuomi/labels/print/queue",
             type: "POST",
+            async: false,
             datatype: "json",
             contentType: "application/json; charset=utf-8",
             data: JSON.stringify({ itemnumber: itemnumber, printed: 0 }),
@@ -1208,20 +1199,24 @@ function addItemsToPrintQueue(e, element) {
 
 /// LOPPU ///
 ```
+
 ### Nidelistaus sivun loppuun niteen muokkauksessa
 
 Tällä skriptillä saa siirrettyä niteen muokkauksessa nidelistauksen muokattavana olevan niten tietojen alapuolelle, eikä muokkaukseen mennessä tarvitse ensin kelata mahdollisesti kymmenien niteiden ohi.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
-/* Siirretään nidelistaus sivun loppuun niteen muokkaussivulla. */
+/* Niteen muokkauksessa nidelistan siirto niteen muokkauksen alapuolelle */
 $( document ).ready(function() {
+  if (window.location.pathname == '/cgi-bin/koha/cataloguing/additem.pl') {
     $( '#cat_additem #cataloguing_additem_itemlist' ).after( $( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parents( 'div' ).html() );
-	$( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parent( 'div' ).hide();*/
-	$( '#cat_additem #cataloguing_additem_itemlist' ).prepend( $( '#cat_additem #cataloguing_additem_itemlist>.row' ) );
+    $( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parent( 'div' ).hide();
+    $( '#cat_additem #cataloguing_additem_itemlist' ).prepend( $( '#cat_additem #cataloguing_additem_itemlist>.row' ) );
+    $(window).scrollTop(0);
+  }
 });
 /// LOPPU ///
 ```
@@ -1231,7 +1226,7 @@ $( document ).ready(function() {
 Tällä skriptillä saa Z39.50-hakuikkunan suuremmaksi.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -1257,7 +1252,7 @@ Versio: 22.11
 
 Kohan uusinta-toiminnallisuus ei noudata laina- ja maksusääntöjä ja antaa uusia, vaikka teokseen kohdistuu varaus tai uusintakerrat ovat tulleet jo täyteen.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen, muutettu CSS:ksi versiossa 23.11<br />
 Versio: 22.11
 
 ```
@@ -1273,7 +1268,7 @@ $(document).ready(function () {
 Vastaanotettat kuljetukset -raportilla näytetään asiakastietoja, jos kuljetettavaan niteeseen liittyy varaus. Tällä skriptillä asiakastiedot korvataan kuittaus-merkillä.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
