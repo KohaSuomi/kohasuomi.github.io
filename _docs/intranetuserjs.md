@@ -43,7 +43,7 @@ $(document).ready(function(){
 ### "Poista käsin poistettujen varausten maksut" -täppä päälle
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 22.11
+Versio: 23.11
 
 ```
 /// ALKU ///
@@ -556,18 +556,21 @@ $(document).ready(function () {
 ### Asiakkaan osoitteenmuutospyyntö- täppä oletuksena hyväksy
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: ?
+Versio: 23.11
 
 ```
+/// ALKU ///
+// Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan.
 $(document).ready(function () {
 if (window.location.pathname == '/cgi-bin/koha/members/members-update.pl') 
 $('input:radio[value="approve"]').attr('checked', true); 
 });
+/// LOPPU ///
 ```
 
 ### othername-kentän piilotus määritetyiltä asiakastyypeiltä
 
-Tarpeellisuus: Vapaahetoinen<br />
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 23.11
 
 Tämä javascript-rimpsu piilottaa määritetyiltä asiakastyypeiltä othernames-kentän näkyviltä. Rimpsu on tehty OUTI-kirjastoille ja liittyy [tikettiin 956](https://github.com/KohaSuomi/Koha/issues/956).
@@ -585,6 +588,29 @@ $('#othernames').attr('disabled', 'disabled');
 $('#othernames').parent().hide();
 }
 }
+});
+///LOPPU///
+```
+
+### Käyttökieli-asiakasmääreen siirto asiakkaan identitetti -osioon sivun alkuun
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 23.11
+
+```
+///ALKU///
+// Käyttökieli-asiakasmääreen siirto asiakkaan identitetti -osioon sivun alkuun
+$(document).ready(function () {
+  if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+    var holdidlabel = $('label[for="' + "patron_attr_6" + '"]');
+    var clearbutton = holdidlabel.next().next().next();
+    clearbutton.replaceWith( '<button type="button" class="fa fa-fw fa-trash fa-lg" style="color:green; border:none;">' );
+    holdidlabel.next().next().next().on('click', function(e){
+        holdidlabel.next().val('');
+    });
+    var li = holdidlabel.parent();
+    $( "#identity_lgd" ).next().append(li);
+  }
 });
 ///LOPPU///
 ```
