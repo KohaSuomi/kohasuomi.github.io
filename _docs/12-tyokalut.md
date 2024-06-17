@@ -37,7 +37,7 @@ Anna listalle nimi ja tallenna se. Jos lista merkitään jaetuksi, sen näkevät
 style="width:60.0%" />
 
 Tämän jälkeen listalle voi lisätä asiakkaita klikkaamalla
-_Toiminnot_-painiketta ja valitsemalla _Lisää asiakkaita_, kuten kuvassa. Toinen tapa on klikata lista lista auki sen nimestä.
+_Toiminnot_-painiketta ja valitsemalla _Lisää asiakkaita_, kuten kuvassa. Toinen tapa on klikata lista auki sen nimestä.
 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:90.0%" />
 
@@ -62,6 +62,9 @@ ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
 -valikosta haluamasi lista.  
 <img src="/assets/files/docs/Tyokalut/asiakaslistat06.png" alt="Kuvakaappaus asiakkaiden lisäämisestä asiakaslistaan vaihtoehtoisella tavalla, normaalin 
 asiakashaun kautta" style="width:90.0%" />
+
+Jos haluat poistaa koko listan, valitse poistettava lista ja paina _Poista valitut listat_. Toinen tapa on valita _Toiminnot_-valikosta _Poista lista_.
+<img src="/assets/files/docs/Tyokalut/asiakaslistat07.png" alt="Kuvakaappaus asiakaslistan poistamisesta" style="width:90.0%" />
 
 ---
 
