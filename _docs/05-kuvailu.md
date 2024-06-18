@@ -398,6 +398,22 @@ Päivämäärästä voi heti päätellä, että niteen saapumispäivä ei ole to
 
 ![](/assets/files/docs/Luettelointi/kuvailu27.png)
 
+### 5.2.1.2 Nidetyypin automaattinen generointi
+
+Koha-Suomessa on tehty liitännäinen, jolla pystyy generoimaan automaattisesti nidetyypin niteelle sille valittujen tietojen perusteella. Liitännäinen hakee tietokannasta samoilla ehdoilla olevia niteitä ja tutkii, mikä nidetyyppi on suosituin vastaavilla niteillä. Sitten se ehdottaa samaa suosituinta nidetyyppiä uudelle/muokattavalle niteelle.
+
+Generointi onnistuu painamalla Nidetyyppi-kentän vieressä olevaa kolmea pistettä, mikäli liitännäinen on käytössä.
+
+![Kohan nidetyyppi -kentän vierestä ympyröity kolme pistettä](/assets/files/docs/Luettelointi/nidetyyppi-liitannainen.png)
+
+Jos liitännäinen on käytössä, nidetyyppi-kenttään ei voi saada alasvetovalikkoa nidetyypeistä. Jos kolmen pisteen ehdottama nidetyyppi ei ole oikea tai sopiva, pitää nidetyypin tunnus kirjoittaa kenttään käsin.
+
+Jos Nidetyyppi-kenttään kirjoittaa väärän/olemattoman tunnuksen, tulee nidettä tallennettaessa ponnahdusikkuna, jossa listataan kimpan olemassa olevat nidetyyppien tunnukset:
+
+![Ponnahdusikkuna, jossa on listattuna kimpassa käytössä olevat nidetyyppien tunnukset](/assets/files/docs/Luettelointi/nidetyyppi-liitannainen2.png)
+
+Jos liitännäinen on käytössä, nidetyyppi-kenttään ei voi saada alasvetovalikkoa nidetyypeistä. Jos kolmen pisteen ehdottama nidetyyppi ei ole oikea tai sopiva, pitää nidetyypin tunnus kirjoittaa kenttään käsin.
+
 ### 5.2.2. Niteiden muokkaaminen
 
 Niteitä voi muokata monella tavalla.
