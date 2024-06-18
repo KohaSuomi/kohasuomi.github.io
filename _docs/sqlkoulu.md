@@ -443,6 +443,19 @@ JOIN biblio b USING (biblionumber)
 WHERE r.branchcode=<<Valitse noutokirjasto|branches>>
 ```
 
+### Automaattiset ehdotukset
+
+Versiossa 23.11 Kohan raportteihin lisättiin automaattiset ehdotukset. Kun kirjoitat, ehdottelee Koha kirjoittamiasi merkkejä vastaavia ehdotuksia tauluista ja "käskyistä". Esimerkiksi, jos kirjoitat 'i', saat näkyville pienen valikon, jossa on ehdolla i:llä alkavia taulujen nimiä kuten items ja issues ja käskyjä kuten IS ja IN.
+
+![](/assets/files/docs/Ohjeet/sqlkoulu10.png)
+
+Jos määrittelet kyselyssä taululle aliaksen esim. items i, niin voit saada ehdotuksia kyseisen taulun sarakkeista kirjoittamalla aliaksen ja pisteen. Eli esimerkiksi 'i.'.
+
+![](/assets/files/docs/Ohjeet/sqlkoulu11.png)
+
+Ehdotukset voi valita joko hiirellä tai näppäimistöllä nuolinäppäimillä ja ENTER-painikkeella. Huomioi, että jos olet vaihtamassa riviä ENTERillä ja Koha antaa automaattisen ehdotuksen, tulee ensimmäinen ehdotus valituksi kun tarkoitus oli vaihtaa riviä vaihtaessa. Ehdotuksesta pääsee eroon lisäämällä esimerkiksi välilyönnin ennen rivinvaihtoa ja sitten poistamalla sen.
+
+
 ## Pölkyillä vai ei?
 
 Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin, jolloin ne on helpompi erottaa tekstin seasta. Kohan kannalta ei ole merkitystä, kirjoitetaanko pölkyillä vai ei.
