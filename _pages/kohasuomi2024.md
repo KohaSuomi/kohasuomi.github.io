@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 25
 
-Aika: Tistai 18.6.2024 klo 12
+Aika: Tistai 18.6.2024 klo 12<br />
 Läsnä:
 
 **Asiat**
