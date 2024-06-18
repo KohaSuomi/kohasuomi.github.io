@@ -2195,7 +2195,7 @@ select distinct(borrowernumber) from accountlines where credit_type_code='PAYMEN
 
 
 
-## Luettelointi
+## Kuvailu
 
 ### Viimeksi lisätyt osakohteet
 
@@ -2366,7 +2366,7 @@ order by 2,3,4,5</pre>
 
 Raportilla voi hakea esim. tietuiden erämuokkausta varten tietueet, joissa on tietty merkkijono MARC-kentässä 007. Raportti kysyy parametrinä, mitä merkkijonoa haetaan. Raportti on luotu [tikettiä 1285](https://github.com/KohaSuomi/Koha/issues/1285) varten, mutta sitä voi hyödyntää muutenkin. Tiketistä löytyy esimerkkejä käyttökohteista. Tulokset on rajattu 7000 riviin, mutta sen voi muuttaa mieleisekseen.
 
-Lisätty 14.6.2024
+Lisätty 14.6.2024<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -2375,6 +2375,53 @@ from biblio_metadata bm
 WHERE ExtractValue(bm.metadata,'//controlfield[@tag="007"]') = <<Anna merkkijono>>
 LIMIT 7000
 ```
+
+### Tietueet, joissa 007/00 on 'k' ja 007/04 on tyhjä
+
+Tietueet, joissa 007/00 on 'a' ja 007/03 on tyhjä joko ensimmäisessä tai toisessa 007:n toistumassa. Hidas raportti.
+
+Lisätty 18.6.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,1) = 'k'
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),5,1) = ' '
+
+UNION
+
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),1,1) = 'k'
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),5,1) = ' '
+AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
+
+LIMIT 5000
+```
+
+### Tietueet, joissa 007/00 on 'a' ja 007/03 on tyhjä
+
+Lisätty 18.6.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,1) = 'a'
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),4,1) = ' '
+
+UNION
+
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),1,1) = 'a'
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),4,1) = ' '
+AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
+
+LIMIT 5000
+```
+
 
 ## Kuljetukset
 
