@@ -30,6 +30,22 @@ Laskutustyökalu on toteutettu liitännäisenä.
 
 [Laskutustyökalun käyttöönotto-ohje](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki) Koha-Suomen GitHubissa.
 
+## Nidetyypin automaattinen generointi
+
+Koha-Suomessa on tehty liitännäinen _itemtype.pl_, jolla pystyy generoimaan automaattisesti niteelle nidetyypin. Liitännäinen hakee tietokannasta samoilla ehdoilla olevia niteitä ja tutkii, mikä nidetyyppi on suosituin vastaavilla niteillä. Sitten se ehdottaa samaa suosituinta nidetyyppiä uudelle/muokattavalle niteelle. Valinta tehdään aineistotyypin, hyllypaikan, hyllytarkenteen ja kokoelmakoodin perusteella.
+
+Liitännäisen saa käyttöön Ylläpidossa MARC-kuvailupohjien ylläpidossa. Liitännäinen pitää määrittää käyttöön erikseen kaikille halutuille kuvailupohjille.
+
+1. Valitse halutun kuvailupohjan kohdalla Toiminnot -> MARC-rakenne
+2. Hae esille kenttä 952 ja valitse Toiminnot -> Näytä osakentät
+3. Muokkaa osakenttää 952$y eli Kohan nidetyyppi
+4. Ota pois valinta Auktorisoitu arvo -valikosta (siinä on todennäköisesti valittuna itemtypes)
+5. Valitse Liitännäinen-valikosta _itemtype.pl_-vaihtoehto
+6. Tallenna muutokset
+7. Toista kohdat 1-6 kaikille halutuille kuvailupohjille
+
+[Kuvaus liitännäisen toiminnasta](https://koha-suomi.fi/dokumentaatio/kuvailu/#5212-nidetyypin-automaattinen-generointi) Kohan ohje suomeksi -ohjeessa.
+
 ## Palautuskehotukset ensisijaisesti sähköpostina
 
 
