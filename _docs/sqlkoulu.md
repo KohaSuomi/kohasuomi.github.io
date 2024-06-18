@@ -315,6 +315,7 @@ sarakkeen nimi = <<Kuvaus tiedosta|auktorisoitu arvo>>
 ```
 
 Se näkyy raportin ajovaiheessa näin:
+
 ![](/assets/files/docs/Ohjeet/sqlkoulu2.png)
 
 Arvoja saa lisättyä kyselyyn myös _Lisää ajoajan parametri_ -valikosta valitsemalla soveltuvan.
