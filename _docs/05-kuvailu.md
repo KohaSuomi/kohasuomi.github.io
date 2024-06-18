@@ -412,8 +412,6 @@ Jos Nidetyyppi-kenttään kirjoittaa väärän/olemattoman tunnuksen, tulee nide
 
 ![Ponnahdusikkuna, jossa on listattuna kimpassa käytössä olevat nidetyyppien tunnukset](/assets/files/docs/Luettelointi/nidetyyppi-liitannainen2.png)
 
-Jos liitännäinen on käytössä, nidetyyppi-kenttään ei voi saada alasvetovalikkoa nidetyypeistä. Jos kolmen pisteen ehdottama nidetyyppi ei ole oikea tai sopiva, pitää nidetyypin tunnus kirjoittaa kenttään käsin.
-
 [Liitännäisen käyttöönotto-ohje](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/#nidetyypin-automaattinen-generointi).
 
 ### 5.2.2. Niteiden muokkaaminen
