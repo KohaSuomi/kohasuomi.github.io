@@ -23,6 +23,9 @@ Läsnä: Kati Sillgren (Helle)
 
 Etelästä pohjoiseen
 
+**Lastu**
+* Timmin aikataulu mietityttää, ei kuulumisia Tammikuussa annetun aikaikkunan jälkeen. Laitetaan viestiä Timmin suuntaan. 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 24
