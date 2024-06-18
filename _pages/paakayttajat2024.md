@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: 18.6.2024 klo 9.15<br />
-Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI), Irina Halminen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat**
 * Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
@@ -30,6 +30,10 @@ Etelästä pohjoiseen
 * Oulun luetteloinnista Heikkisen Antti on pyytänyt korjausraportteja MARC-tietueiden korjauksia varten. Anneli on niitä tehnyt ja lisännyt raporttikirjastoon raportit: ”Tietueet, joissa MARC-kentässä 007 tietty merkkijono" ja "Tietueet, joissa 007/00 on ‘k’ ja 007/04 on tyhjä".
 * Kirjastojen kesän sulkuajoille on jälleen alettu tekemään sulkutoimenpiteitä, mm. suljetuille kirjastoille tehdään oma noutoilmoitus, jos varaukset ovat noudettavissa sulkuaikana jostain toisesta kirjastosta.
 * Katariina Pohto (Kassu) on valittu Annelin sijaiseksi OUTIn pääkäyttäjähommiin ajalle 24.6.-31.12.2024. Kassu tekee pääkäyttäjähommia 40% työajastaan.
+
+**Vaara**
+* Lainausautomaateilla tehdyt uusinnat eivät päivity heti uudelle eräpäivälle eivätkä tulostu oikein kuitille. Uudelleenkirjautumisen jälkeen uusinnat näkyvät oikealla päiväyksellä (ja tulostuvat myös kuitille ko. päivämäärällä). Lari tehnyt aiheesta tiketin #1291 (yhteisöstä tuodaan tänään ratkaisu bugiin). Vaskissa luvattu testata ratkaisua testiautomaatilla.
+* Asiakaspalautteena on tullut toive, että lainausautomaateilla näkyisi myös varaustunnus. Keskusteltiin, mitä tietoja automaateilla näkyy. Mikro-Väylä ei näytä varaustunnusta eikä asiakkaan henkilötietoja, mutta Lyngsoen automaateissa on ainakin optiona, että asiakas voi tarkistaa omat tiedot (nimi, osoite jne.). Irina mainitsi sivumennen myös, että kun asiakas kirjautuu lainatakseen Mikro-Väylän automaatilla, automaatti antaa tiedon noudettavista varauksista, muttei varausten sijaintikirjastoa. Sitä varten tulee kirjautua erikseen Tarkista varauksesi -toiminnolla. (Mietimme, tarvitseeko tätä kehittää.)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
