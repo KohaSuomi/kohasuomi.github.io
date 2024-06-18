@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: 18.6.2024 klo 9.15<br />
-Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu),
+Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
@@ -24,7 +24,12 @@ Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu),
 Etelästä pohjoiseen
 
 **Lastu**
-* Timmin aikataulu mietityttää, ei kuulumisia Tammikuussa annetun aikaikkunan jälkeen. Laitetaan viestiä Timmin suuntaan. 
+* Timmin aikataulu mietityttää, ei kuulumisia Tammikuussa annetun aikaikkunan jälkeen. Laitetaan viestiä Timmin suuntaan.
+
+**OUTI**
+* Oulun luetteloinnista Heikkisen Antti on pyytänyt korjausraportteja MARC-tietueiden korjauksia varten. Anneli on niitä tehnyt ja lisännyt raporttikirjastoon mm. raportin ”Tietueet, joissa MARC-kentässä 007 tietty merkkijono: https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-marc-kent%C3%A4ss%C3%A4-007-tietty-merkkijono
+* Kirjastojen kesän sulkuajoille on taas alettu tekemään sulkutoimenpiteitä, mm. suljetuille kirjastoille tehdään oma noutoilmoitus, jos varaukset ovat noudettavissa sulkuaikana jostain toissijaisesta noutokirjastosta.
+* Katariina Pohto (Kassu) on valittu Annelin sijaiseksi OUTIn pääkäyttäjähommiin ajalle 24.6.-31.12.2024. Kassu tekee pääkäyttäjähommia 40% työajastaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
