@@ -15,11 +15,19 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 25
 
-Aika: Tistai 18.6.2024 klo 12<br />
-Läsnä:
+Aika: Tiistai 18.6.2024 klo 12<br />
+Läsnä: Pasi, Anneli, Lasse, Ari, Kodo, Lari, Emmi
 
 **Asiat**
-* pääkäyttäjäpalaverit ja päivitystiedotteet Annelin loma-aikana
+* Pääkäyttäjäpalaverit ja päivitystiedotteet Annelin loma-aikana
+  * Päivystäjät hoitaa
+* Scrumm:
+  * Anneli: päivitystiedotteen tekemistä, käännöksiä
+  * Kodo: OCFS:stä keskusteltu operaattorin kanssa, pystyttävät testiympäristön, fix-yarn mukaan buildiin, service-checkin dokumentointi, Lastun tunnareiden tekoa
+  * Lasse: tulevaisuudessa alkavien varausten näkyminen tietueen varaukset -näytöllä
+  * Lari: automaattihommia, nidepakkettien varaus tiketti
+  * Pasi: sotuteekkiin muutos, Siilin tuotannon MARC-kentät järjestetty, muihin tuotantoihin sama ajo
+  * Emmi: versionvaihdon tiketöintiä, päivitys aamulla, tietokantasiivouksen pohdintaa     
 
 
 ## Viikko 24
