@@ -27,8 +27,8 @@ Etelästä pohjoiseen
 * Timmin aikataulu mietityttää, ei kuulumisia Tammikuussa annetun aikaikkunan jälkeen. Laitetaan viestiä Timmin suuntaan.
 
 **OUTI**
-* Oulun luetteloinnista Heikkisen Antti on pyytänyt korjausraportteja MARC-tietueiden korjauksia varten. Anneli on niitä tehnyt ja lisännyt raporttikirjastoon mm. raportin ”Tietueet, joissa MARC-kentässä 007 tietty merkkijono: https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-marc-kent%C3%A4ss%C3%A4-007-tietty-merkkijono
-* Kirjastojen kesän sulkuajoille on taas alettu tekemään sulkutoimenpiteitä, mm. suljetuille kirjastoille tehdään oma noutoilmoitus, jos varaukset ovat noudettavissa sulkuaikana jostain toissijaisesta noutokirjastosta.
+* Oulun luetteloinnista Heikkisen Antti on pyytänyt korjausraportteja MARC-tietueiden korjauksia varten. Anneli on niitä tehnyt ja lisännyt raporttikirjastoon raportit: ”Tietueet, joissa MARC-kentässä 007 tietty merkkijono" ja "Tietueet, joissa 007/00 on ‘k’ ja 007/04 on tyhjä".
+* Kirjastojen kesän sulkuajoille on jälleen alettu tekemään sulkutoimenpiteitä, mm. suljetuille kirjastoille tehdään oma noutoilmoitus, jos varaukset ovat noudettavissa sulkuaikana jostain toisesta kirjastosta.
 * Katariina Pohto (Kassu) on valittu Annelin sijaiseksi OUTIn pääkäyttäjähommiin ajalle 24.6.-31.12.2024. Kassu tekee pääkäyttäjähommia 40% työajastaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
