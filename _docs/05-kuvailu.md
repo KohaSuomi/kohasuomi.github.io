@@ -400,7 +400,7 @@ Päivämäärästä voi heti päätellä, että niteen saapumispäivä ei ole to
 
 ### 5.2.1.2 Nidetyypin automaattinen generointi
 
-Koha-Suomessa on tehty liitännäinen, jolla pystyy generoimaan automaattisesti nidetyypin niteelle sille valittujen tietojen perusteella. Liitännäinen hakee tietokannasta samoilla ehdoilla olevia niteitä ja tutkii, mikä nidetyyppi on suosituin vastaavilla niteillä. Sitten se ehdottaa samaa suosituinta nidetyyppiä uudelle/muokattavalle niteelle.
+Koha-Suomessa on tehty liitännäinen, jolla pystyy generoimaan automaattisesti nidetyypin niteelle sille valittujen tietojen perusteella. Liitännäinen hakee tietokannasta samoilla ehdoilla olevia niteitä ja tutkii, mikä nidetyyppi on suosituin vastaavilla niteillä. Sitten se ehdottaa samaa suosituinta nidetyyppiä uudelle/muokattavalle niteelle. Valinta tehdään aineistotyypin, hyllypaikan, hyllytarkenteen ja kokoelmakoodin perusteella.
 
 Generointi onnistuu painamalla Nidetyyppi-kentän vieressä olevaa kolmea pistettä, mikäli liitännäinen on käytössä.
 
@@ -413,6 +413,8 @@ Jos Nidetyyppi-kenttään kirjoittaa väärän/olemattoman tunnuksen, tulee nide
 ![Ponnahdusikkuna, jossa on listattuna kimpassa käytössä olevat nidetyyppien tunnukset](/assets/files/docs/Luettelointi/nidetyyppi-liitannainen2.png)
 
 Jos liitännäinen on käytössä, nidetyyppi-kenttään ei voi saada alasvetovalikkoa nidetyypeistä. Jos kolmen pisteen ehdottama nidetyyppi ei ole oikea tai sopiva, pitää nidetyypin tunnus kirjoittaa kenttään käsin.
+
+[Liitännäisen käyttöönotto-ohje](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/#nidetyypin-automaattinen-generointi).
 
 ### 5.2.2. Niteiden muokkaaminen
 
