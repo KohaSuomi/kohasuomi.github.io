@@ -15,8 +15,12 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 25
 
-Aika:
+Aika: Tistai 18.6.2024 klo 12
 Läsnä:
+
+**Asiat**
+* pääkäyttäjäpalaverit ja päivitystiedotteet Annelin loma-aikana
+
 
 ## Viikko 24
 
