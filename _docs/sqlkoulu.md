@@ -444,7 +444,7 @@ JOIN biblio b USING (biblionumber)
 WHERE r.branchcode=<<Valitse noutokirjasto|branches>>
 ```
 
-### Automaattiset ehdotukset
+### 8. Automaattiset ehdotukset
 
 Versiossa 23.11 Kohan raportteihin lisättiin automaattiset ehdotukset. Kun kirjoitat, ehdottelee Koha kirjoittamiasi merkkejä vastaavia ehdotuksia tauluista ja "käskyistä". Esimerkiksi, jos kirjoitat 'i', saat näkyville pienen valikon, jossa on ehdolla i:llä alkavia taulujen nimiä kuten items ja issues ja käskyjä kuten IS ja IN.
 
