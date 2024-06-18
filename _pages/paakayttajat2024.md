@@ -32,7 +32,7 @@ Etelästä pohjoiseen
 * Katariina Pohto (Kassu) on valittu Annelin sijaiseksi OUTIn pääkäyttäjähommiin ajalle 24.6.-31.12.2024. Kassu tekee pääkäyttäjähommia 40% työajastaan.
 
 **Vaara**
-* Lainausautomaateilla tehdyt uusinnat eivät päivity heti uudelle eräpäivälle eivätkä tulostu oikein kuitille. Uudelleenkirjautumisen jälkeen uusinnat näkyvät oikealla päiväyksellä (ja tulostuvat myös kuitille ko. päivämäärällä). Lari tehnyt aiheesta [tiketin 1291] (https://github.com/KohaSuomi/Koha/issues/1291) (yhteisöstä tuodaan tänään ratkaisu bugiin). Vaskissa luvattu testata ratkaisua testiautomaatilla.
+* Lainausautomaateilla tehdyt uusinnat eivät päivity heti uudelle eräpäivälle eivätkä tulostu oikein kuitille. Uudelleenkirjautumisen jälkeen uusinnat näkyvät oikealla päiväyksellä (ja tulostuvat myös kuitille ko. päivämäärällä). Lari tehnyt aiheesta tiketin: https://github.com/KohaSuomi/Koha/issues/1291 (yhteisöstä tuodaan tänään ratkaisu bugiin). Vaskissa luvattu testata ratkaisua testiautomaatilla.
 * Asiakaspalautteena on tullut toive, että lainausautomaateilla näkyisi myös varaustunnus. Keskusteltiin, mitä tietoja automaateilla näkyy. Mikro-Väylä ei näytä varaustunnusta eikä asiakkaan henkilötietoja, mutta Lyngsoen automaateissa on ainakin optiona, että asiakas voi tarkistaa omat tiedot (nimi, osoite jne.). Irina mainitsi sivumennen myös, että kun asiakas kirjautuu lainatakseen Mikro-Väylän automaatilla, automaatti antaa tiedon noudettavista varauksista, muttei varausten sijaintikirjastoa. Sitä varten tulee kirjautua erikseen Tarkista varauksesi -toiminnolla. (Mietimme, tarvitseeko tätä kehittää.)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
