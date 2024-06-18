@@ -7,7 +7,7 @@ toc: true
 ---
 
 Ohjeen tekijä: Johanna Räisä<br />
-Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023
+Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024
 
 
 [Kohan tietokantaskeema](https://schema.koha-community.org/)
@@ -243,6 +243,34 @@ Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenp
 ```
 SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,2) IN ('ss')
 ```
+
+Kiinteämittaisista kentistä 007-kenttää voi toistaa ja kummatkin kentät saa haettua näin erikseen:
+
+```
+SELECT biblionumber, ExtractValue(metadata, '//controlfield[@tag="007"][1]'), ExtractValue(metadata, '(//controlfield[@tag="007"][2])')
+FROM biblio_metadata
+WHERE ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
+```
+Toistumat liimataan toisiinsa "välilyönnillä" haettaessa, joten myös kokonaismerkkijonoa voi hakea. Esim. jos ensimmäisessä toistumassa on merkkipaikoilla 00-01 'ou' ja toisessa toistumassa merkkipaikalla 00 'r', eikä muilla merkkipaikoilla ole tietoa, on lopputulos 'ou r'. Sitä voi hakea näin:
+
+```
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//controlfield[@tag="007"]') = ('ou r')
+```
+
+Jos hakuehtona on, että 007-kentän toisessa toistumassa on tietyt tiedot tietyillä merkkipaikoilla, se onnistuu näin:
+
+```
+SELECT biblionumber, ExtractValue(bm.metadata,'//controlfield[@tag="007"]') AS '007'
+FROM biblio_metadata bm
+WHERE SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),1,1) = 'k'
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),5,1) = ' '
+AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
+```
+
+
+
 
 ### NULL ja tyhjä
 
