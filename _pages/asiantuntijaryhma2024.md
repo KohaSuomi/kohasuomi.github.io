@@ -22,6 +22,9 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Yhtiökokous pidettiin 17.6.2024. Kokouksessa valittiin uusi hallitus.
+Uusi hallitus: Pj. Jouni Pääkkölä, Vpj. Nina Sipola, Maarit Tuomisto, Katri Rahkola, Karoliina Kanerva, Pia Kontio, Pekka Penttinen, Rebekka Pilppula ja Tiia Häsä.
+
 ### 2. Koha versiopäivitys syksyllä
 
 Versioon 24.05 on tullut tärkeitä päivityksiä, jotka halutaan mukaan meidän versioon mahdollisimman pian. Helpoimmalla nämä saadaan mukaan tekemällä ylimääräinen versiopäivitys. 
