@@ -54,7 +54,7 @@ Palvelinten Ubuntu-käyttöjärjestelmään pitää tehdä versiopäivitys kevä
   * Sähköpostin tietosuoja- ja toimitusongelmat
   * Mobiilisovelluksilla käytännössä samanlainen käyttäjäkokemus kuin nykyisin tekstiviesteillä
 
-Päätös: Otetaan REST-rajapinta käyttöön Kirkesissä ja Lastussa ja selvitetään, millä aikataululla Suomi.fi Viesteihin siirtyminen onnistuisi muissa kimpoissa.
+**Päätös:** Otetaan REST-rajapinta käyttöön Kirkesissä ja Lastussa ja selvitetään, millä aikataululla Suomi.fi Viesteihin siirtyminen onnistuisi muissa kimpoissa.
 
 ### 5. Euroopan unionin kyberturvallisuusdirektiivi NIS2
 
@@ -104,14 +104,14 @@ Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälais
 * optimointia tehtäisiin vain jonossa 5-20 ensimmäisen aktiivisen varauksen osalta. (Parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
 * Miten näytetään sija?
   * ei näytetä ollenkaan
-  * näytetään sijaksi se sija, kuinka monta jonosta priorisoidaan (5-20) 
+  * näytetään sijaksi se luku, kuinka monta jonosta priorisoidaan (5-20) eli jos priorisoidaan 15 ensimmäistä, on sijana aina vähintään 15 (ja kenelläkään ei näytettäisi sijaksi 1-14).
 * Varaus voidaan ohittaa 2 kertaa (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä).
 
 ### 8. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
   * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
-  * Päätös: Koha-Suomen asiantuntijaryhmä 19.6.2024: Siirtoraportti on korvattu Tietuesiirtäjä-raportilla, jonka ilmoittaa, jos 000/17-merkkipaikkaan on tullut muutos.
+  * **Päätös:** Koha-Suomen asiantuntijaryhmä 19.6.2024: Siirtoraportti on korvattu Tietuesiirtäjä-raportilla, jonka ilmoittaa, jos 000/17-merkkipaikkaan on tullut muutos.
   Ennen kuin tehdään päätös:
     * selvitetään kimpoissa, kuinka paljon 000/17-merkkipaikan muutoksia on esim. viikossa ja kuinka paljon niiden tietueiden kohdalla olevan Avaa-napin klikkaus työllistää.
     * selvitetään Räisän Johannalta, onko muuttuneiden kenttien ilmoitukseen mahdollista saada tarkempaa tietoa kuin että kenttä on muuttunut.
@@ -121,11 +121,11 @@ Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälais
 
 * [Hyllyvarausraportin rajaus sivun latausvaiheessa #1261](https://github.com/KohaSuomi/Koha/issues/1261)
   * Ehdotus: Pohditaan
-  * Päätös: Toteutetaan
+  * **Päätös:** Toteutetaan
 
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
-  * Päätös: Toteutetaan
+  * **Päätös:** Toteutetaan
 
 ### 9. Seuraavan asiantuntijaryhmän kokoonpano
 
@@ -139,7 +139,7 @@ Vaski: Susanna Sandell ja Asko Autio (Turku)<br />
 Vaara: Päivi Knuutinen ja Irina Halminen (Joensuu)<br />
 Helle: Kati Sillgren ja Tove Selkälä (Porvoo)<br />
 Lumme: Selvitettävänä<br />
-Lastu: Janne Seppänen, vara selvitettävänä
+Lastu: Janne Seppänen (Lahti), vara selvitettävänä
 
 ### 10. Muut asiat
 
