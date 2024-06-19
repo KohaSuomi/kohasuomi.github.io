@@ -10,8 +10,8 @@ toc: true
 
 Käsittelyerät-toimintoon pääset kahta reittiä.
 
-* Etusivun Käsittelyerät-napista
-* Muita toimintoja -valikosta Käsittelyerät-linkistä.
+* Etusivun _Käsittelyerät_-napista
+* Muita toimintoja -valikosta _Käsittelyerät_-linkistä.
 
 ![Käsittelyerät-osioon pääsee joko Muita toimintoja -valikosta tai etusivulta Hankinnat-nappulasta](/assets/files/docs/Kasittelyerat/kasittelyerat.png)
 
@@ -23,14 +23,16 @@ Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-j�
 
 Asetuksissa voi määrittää kahdentyyppisiä toimintoja.
 
-1. Yleisiin asetuksiin odotuslistan ja käsittelyerän NOT_LOAN -auktorisoidun arvon määritykset
-2. Käsittelypohjat, joissa määritetään, mitä tietoja käsittelyerässä olevista niteistä näytetään
+1. Yleisiin asetuksiin odotuslistan ja käsittelyerän NOT_LOAN -auktorisoidun arvon määritykset.
+2. Käsittelypohjat, joissa määritetään, mitä tietoja käsittelyerässä olevista niteistä näytetään.
 
 ![Käsittelyerien asetukset](/assets/files/docs/Kasittelyerat/kasittelyerat1.png)
 
 ### Yleiset asetukset
 
 Yleisissä asetuksissa voi määrittää odotuslistan ja käsittelyerän oletusarvot NOT_LOAN -auktorisoidulle arvolle. Samat määritykset voi tehdä myös järjestelmäasetuksista PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -asetuksissa.
+
+Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa. Odotuslista-sivun nidetaulukko muodostetaan notforloan-arvon perusteella, joten ei kannata käyttää siinä arvona mitään yleisesti käytössä olevaa arvoa. Nidetaulukko voi silloin muodostua niin suureksi, että järjestelmä ei osaa käsitellä niteiden määrää. Odotuslistalle ei ole olemassa omaa tietokannan taulua vaan tiedot kerätään ns. lennossa notforloan-arvon perusteella.
 
 ### Käsittelypohjat
 
@@ -60,7 +62,7 @@ Käsittelypohjia voi muokata jälkikäteen, mutta muutokset eivät päivity käs
 
 ## Odotuslista
 
-Käsittelyerien työprosessi alkaa lisäämällä niteet odotuslistalle. Niteiden ei-lainata-tila muuttuu asetusten mukaiseksi ja on näin pois lainattavista. Niin kauan kuin niteen ei lainata -tila ei muutu, pysyy se odotuslistalla.
+Käsittelyerien työprosessi alkaa lisäämällä niteet odotuslistalle. Niteiden ei-lainata-tila muuttuu asetusten mukaiseksi ja ovat näin pois lainattavista. Niin kauan kuin niteen ei lainata -tila ei muutu, pysyy se odotuslistalla.
 
 ![Odotuslista](/assets/files/docs/Kasittelyerat/kasittelyerat3.png)
 
