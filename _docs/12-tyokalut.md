@@ -28,26 +28,22 @@ hyödyntää esim. asiakastietojen erämuokkauksessa (kts. 12.5).
 
 Etusivulla listataan olemassa olevat asiakaslistat. Uuden asiakaslistan
 voi tehdä _Uusi asiakaslista_ -painikkeesta.
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat00.png" alt="Kuvakaappaus uuden asiakaslistan luomisesta" style="width:90.0%" />
 
 Anna listalle nimi ja tallenna se. Jos lista merkitään jaetuksi, sen näkevät kimpassa kaikki, joilla on oikeus muokata asiakaslistoja.
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat01.png" alt="Kuvakaappaus uuden asiakaslistan nimeämisestä ja jaetuksi merkitsemisestä" 
 style="width:60.0%" />
 
 Tämän jälkeen listalle voi lisätä asiakkaita klikkaamalla
 _Toiminnot_-painiketta ja valitsemalla _Lisää asiakkaita_, kuten kuvassa. Toinen tapa on klikata lista auki sen nimestä.
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:90.0%" />
 
 Siitä aukeaa sivu, jolla pystyt hakemaan asiakkaita esim. nimellä.
 Valitse hiirellä tarjottu asiakastieto, jolloin se listautuu hakukentän
 alapuolelle. Voit hakea useamman asiakkaan tiedot ennen kuin lisäät
-heidät listalle.  
+heidät listalle. 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat03.png" alt="Kuvakaappaus asiakkaiden hakemisesta tietokannasta asiakaslistaan lisäämistä varten" 
 style="width:90.0%" />
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat04.png" alt="Kuvakaappaus useammasta haetusta asiakkaasta valmiina lisättäväksi asiakaslistaan" 
 style="width:90.0%" />
 
