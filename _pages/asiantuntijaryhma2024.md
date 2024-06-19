@@ -18,11 +18,12 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 8/2024
 
 Aika: 19.6.2024 klo 13<br />
-Läsnä:
+Läsnä: Pirkko-Liisa, Pia, Kati, Roosa, Ari, Annika, Susanna, Kodo, Irina, Anneli
 
 ### 1. Arin ajankohtaiset
 
 Yhtiökokous pidettiin 17.6.2024. Kokouksessa valittiin uusi hallitus.
+
 Uusi hallitus: Pj. Jouni Pääkkölä, Vpj. Nina Sipola, Maarit Tuomisto, Katri Rahkola, Karoliina Kanerva, Pia Kontio, Pekka Penttinen, Rebekka Pilppula ja Tiia Häsä.
 
 ### 2. Koha versiopäivitys syksyllä
@@ -30,16 +31,23 @@ Uusi hallitus: Pj. Jouni Pääkkölä, Vpj. Nina Sipola, Maarit Tuomisto, Katri 
 Versioon 24.05 on tullut tärkeitä päivityksiä, jotka halutaan mukaan meidän versioon mahdollisimman pian. Helpoimmalla nämä saadaan mukaan tekemällä ylimääräinen versiopäivitys. 
 
 Mikä olisi sopiva ajankohta versiopäivitykselle?
+* Lapissa toiveena viikonlopun yhteyteen eli esim. maanantai
+* Lastussa käyttöönotto vko 38-39
+
+**Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina klo 19.
 
 Miten tehdään jatkossa versiopäivitysten kanssa? Tehdäänkö keväällä 2025 seuraava päivitys vai odotetaanko vuosi ja tehdään vasta keväällä 2026? Syksy on versiopäivityksen kannalta hankala aika.
 
+**Alustava päätös:** Päätetään syksyllä, kun nähdään, kuinka iso seuraava päivitys on.
+
 ### 3. Palvelinten käyttöjärjestelmän versiopäivitys keväällä 2025
 
-Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 2025, koska nykyisen käyttöjärjestelmän tukiaika päättyy toukokuussa. Todennäköisesti aiheuttaa muutaman tunnin käyttökatkoksen Kohaan.
+Palvelinten Ubuntu-käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 2025, koska nykyisen käyttöjärjestelmän tukiaika päättyy toukokuussa. Todennäköisesti aiheuttaa muutaman tunnin käyttökatkoksen Kohaan.
 
 ### 4. Suomi.fi Viestit
 
-* Suomi.fi Viestit -palveluun on tullut jo mahdollisuus lähettää viestejä myös henkilötunnuksettomille
+* Suomi.fi Viestit -palveluun on tullut jo mahdollisuus lähettää viestejä myös henkilötunnuksettomille asiakkaille.
+  * Muutos meidän rajapintaan jo tehty ja pitää vielä testata.
 * Koha-Suomi pilotoi DVV:n REST-rajapintaa syksyllä. RESTin kautta saadaan viestien sisältö kulkemaan Suomi.fi:hin paremmin, eikä asiakkaiden tarvitse avata erillistä pdf-tiedostoa lukeakseen kirjaston viestin.
 * Kirjeviestintä toimimaan kaikilla kimpoilla Suomi.fin kautta Kirkeksen ja Lastun tapaan?
 * Jatkossa kaikki viestintä Suomi.fin kautta?
@@ -50,9 +58,17 @@ Palvelinten käyttöjärjestelmään pitää tehdä versiopäivitys keväällä 
 
 [Euroopan unionin kyberturvallisuusdirektiivi NIS2](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/nis2-euroopan-unionin-kyberturvallisuusdirektiivi) on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
 
-### 6. Sähköisen asiakkaaksi ilmiottautumisen tilannekatsaus
+### 6. Sähköisen asiakkaaksi ilmoittautumisen tilannekatsaus
 
 Kodo kertoo tilannekatsauksen. Takaajatietojen käsittely ja tallentaminen?
+* Joensuussa vahvan tunnistautumisen lomake
+* lomakkeelle tulee esitäytettynä tiedot vtj:stä, johon saa täydentää spostiosoite ja puhelinnumero
+* kotikirjastona asiakkaalle kimpan yksi kirjasto, koska valinta hankala toteuttaa
+* tallennuksen jälkeen asiakas hakee kortin henkilökortin kera mistä tahansa kimpan kirjastosta, jolloin asiakastietoihin lisätään hetu ja täydennetään viestiasetukset.
+* lapsiasiakkaiden ilmoittautuminen
+  * suomi.fi:ssä puolesta-asiointimahdollisuus toiminee
+  * huoltajaa ei saada kiinni lapsiasiakkaaseen sähköisellä ilmoittautumisella, koska huoltajaa ei saada yksiselitteisesti tunnistettua
+
 
 ### 7. Varausten priorisointi
 
@@ -75,23 +91,55 @@ OUTI-kirjastojen ajatukset:
 *	Priorisointiin otetaan mukaan jonon alusta 5–10 ensimmäistä voimassa olevaa (ei keskeytettyä) varausta. OUTIssa Qfactoryn testailuissa jo muutaman ensimmäisen varauksen priorisoinnissa säästyi paljon kuljetusaikaa.
 *	Ei ole ongelma, jos varaus tärppää järjestyksessä pitkälläkin olevaan varaukseen, jos kimpassa kaikki tai lähes kaikki kunnat ovat ko. nimekettä hankkineet.
 
+Kirkes:
+* priorisointia ei tarvita, koska kirjastoja on vähän
+
+
+Koontia:
+* optimointia tehtäisiin vain jonossa 5-20 ensimmäisen aktiivisen varauksen osalta.
+* Miten näytetään sija?
+  * ei näytetä ollenkaan
+  * näytetään sijaksi se sija, kuinka monta jonosta priorisoidaan (5-20) (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
+* varaus voidaan ohittaa 2 kertaa (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
+
 ### 8. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
   * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
+  * Päätös: Koha-Suomen asiantuntijaryhmä 19.6.2024: Siirtoraportti on korvattu Tietuesiirtäjä-raportilla, jonka ilmoittaa, jos 000/17-merkkipaikkaan on tullut muutos.
+
+Ennen kuin tehdään päätös:
+* selvitetään, kuinka paljon 000/17-merkkipaikan muutoksia on esim. viikossa ja kuinka paljon niiden tietueiden kohdalla olevan Avaa-napin klikkaus työllistää.
+* selvitetään Johannalta, onko muuttuneiden kenttien ilmoitukseen mahdollista saada tarkempaa tietoa kuin että kenttä on muuttunut.
+* selvitetään, pystyykö tekemään sql-raportin, jolla saisi kiinni esim. action_logseilta, kun merkkipaikka on muuttunut. Raportti voisi toimia myös KaTin aikana.
+
+![kuva](https://github.com/KohaSuomi/Koha/assets/33121325/49c3f55b-9e86-493d-bcbb-85174ce2c995)
+
+
 * [Hyllyvarausraportin rajaus sivun latausvaiheessa #1261](https://github.com/KohaSuomi/Koha/issues/1261)
   * Ehdotus: Pohditaan
+  * Päätös: Toteutetaan
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
+  * Päätös: Toteutetaan
 
 ### 9. Seuraavan asiantuntijaryhmän kokoonpano
 
 Ehdolle seuraavaan asiantuntijaryhmään:
 
-OUTI: Oulusta Noora Valkonen ja varalle Piia Semenoff
-Kirkes: Riikka Mustajärvi Tuusulasta ja varalla Anu Järvi Mäntsälästä
+OUTI: Oulusta Noora Valkonen ja varalle Piia Semenoff<br />
+Kirkes: Riikka Mustajärvi Tuusulasta ja varalla Anu Järvi Mäntsälästä<br />
+Kyyti: Tuomas ja Roosa<br />
+Lappi: Leena ja Pia<br />
+Vaski: Susanna ja Asko<br />
+Vaara: Päivi ja Irina<br />
+Helle: Kati ja Tove<br />
+Lumme: selvitetään<br />
+Lastu: Janne, vara selvitettävä
 
 ### 10. Muut asiat
+
+Seuraava kokous: ma 26.8.2024 klo 13-15
 
 ## Asiantuntijaryhmän muistio 7/2024
 
