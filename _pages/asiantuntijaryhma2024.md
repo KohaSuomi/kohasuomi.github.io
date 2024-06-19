@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 8/2024
+## Asiantuntijaryhmän muistio 8/2024
 
 Aika: 19.6.2024 klo 13<br />
-Läsnä: Pirkko-Liisa, Pia, Kati, Roosa, Ari, Annika, Susanna, Kodo, Irina, Anneli
+Läsnä: Pirkko-Liisa Lauhikari (OUTI-kirjastot), Pia Kusmin (Lapin kirjasto), Kati Sillgren (Helle-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Annika Helastila (Kirkes-kirjastot), Susanna Sandell (Vaski-kirjastot), Irina Halminen (Vaara-kirjastot), Ari Mäkiranta, Kodo Korkalo, Anneli Österman (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
 
@@ -34,7 +34,7 @@ Mikä olisi sopiva ajankohta versiopäivitykselle?
 * Lapissa toiveena viikonlopun yhteyteen eli esim. maanantai
 * Lastussa käyttöönotto vko 38-39
 
-**Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina klo 19.
+**Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
 
 Miten tehdään jatkossa versiopäivitysten kanssa? Tehdäänkö keväällä 2025 seuraava päivitys vai odotetaanko vuosi ja tehdään vasta keväällä 2026? Syksy on versiopäivityksen kannalta hankala aika.
 
@@ -54,27 +54,32 @@ Palvelinten Ubuntu-käyttöjärjestelmään pitää tehdä versiopäivitys kevä
   * Sähköpostin tietosuoja- ja toimitusongelmat
   * Mobiilisovelluksilla käytännössä samanlainen käyttäjäkokemus kuin nykyisin tekstiviesteillä
 
+Päätös: Otetaan REST-rajapinta käyttöön Kirkesissä ja Lastussa ja selvitetään, millä aikataululla Suomi.fi Viesteihin siirtyminen onnistuisi muissa kimpoissa.
+
 ### 5. Euroopan unionin kyberturvallisuusdirektiivi NIS2
 
 [Euroopan unionin kyberturvallisuusdirektiivi NIS2](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/nis2-euroopan-unionin-kyberturvallisuusdirektiivi) on lausuntokierroksella, eikä vielä ole tietoa, koskeeko se meitä.
 
 ### 6. Sähköisen asiakkaaksi ilmoittautumisen tilannekatsaus
 
-Kodo kertoo tilannekatsauksen. Takaajatietojen käsittely ja tallentaminen?
-* Joensuussa vahvan tunnistautumisen lomake
-* lomakkeelle tulee esitäytettynä tiedot vtj:stä, johon saa täydentää spostiosoite ja puhelinnumero
-* kotikirjastona asiakkaalle kimpan yksi kirjasto, koska valinta hankala toteuttaa
-* tallennuksen jälkeen asiakas hakee kortin henkilökortin kera mistä tahansa kimpan kirjastosta, jolloin asiakastietoihin lisätään hetu ja täydennetään viestiasetukset.
-* lapsiasiakkaiden ilmoittautuminen
-  * suomi.fi:ssä puolesta-asiointimahdollisuus toiminee
-  * huoltajaa ei saada kiinni lapsiasiakkaaseen sähköisellä ilmoittautumisella, koska huoltajaa ei saada yksiselitteisesti tunnistettua
+Kodo kertoi tilannekatsauksen. 
+* Joensuussa käytössä vahvan tunnistautumisen lomake, jota voidaan höydyntää. Se tuottaa JSON-muotoista dataa, joka voidaan viedä REST-rajapinnan kautta Kohaan.
+* Lomakkeelle tulee esitäytettynä tiedot VTJ:stä, lisäksi asiakas saa itse täydentää spostiosoitteen ja puhelinnumeron, koska niitä ei tule.
+* Kotikirjastona asiakkaalle kimpan yksi kirjasto, koska valinta hankala toteuttaa lomakkeelle.
+* Tallennuksen jälkeen asiakas hakee kirjastokortin henkilökortin kera mistä tahansa kimpan kirjastosta, jolloin asiakastietoihin mm. lisätään hetu, muutetaan asiakastyyppi henkilö/lapsiasiakkaaksi ja täydennetään viestiasetukset.
+* Lapsiasiakkaiden ilmoittautuminen
+  * Suomi.fi:ssä on puolesta-asiointimahdollisuus, jota voitaneen hyödyntää.
+  * Huoltajaa ei saada kiinni lapsiasiakkaaseen sähköisellä ilmoittautumisella, koska huoltajaa ei saada yksiselitteisesti tunnistettua.
+    * Teknisesti voitaisiin mahdollisesti käyttää huoltajan kirjastokortin numeroa silloin, kun sellainen on olemassa.
+    * Muissa tapauksissa huoltajan tiedot voitaisiin kirjoittaa lomakkeelle ja ne siirtyisivät Kohaan esim. huollettavan asiakkaan Ei-asiakas-takaaja-kenttiin. Korttia haettaessa tiedot sitten täydennettäisiin.
+    * Tekninen toteutus pitää vielä tutkia tarkemmin.
 
 
 ### 7. Varausten priorisointi
 
 Jatketaan asian käsittelyä. Kaikille annettiin tehtäväksi pohtia, minkälaisia ehtoja priorisointiin pitäisi käyttää.
 
-Vaski-kirjastojen ajatukset:
+**Vaski-kirjastojen ajatukset:**
 * Priorisointi tapahtuu, kun
   * tietueella on lainattavissa ja varattavissa olevia niteitä vähintään 10 kpl JA tietueella on jonossa vähintään 20 aktiivista varausta
   * Priorisointiin otetaan mukaan jonon alusta 20 aktiivista (ei-keskeytettyä) varausta
@@ -84,41 +89,40 @@ Vaski-kirjastojen ajatukset:
   * Suosii isoja toimipaikkoja?
   * 11.6.2024 Vaskissa oli 573 varausjonoa, jossa yli 20 aktiivista varausta ja vähintään 10 nidettä.
 
-OUTI-kirjastojen ajatukset:
+**OUTI-kirjastojen ajatukset:**
 *	Aloitetaan yksinkertaisilla käytännöillä. Tuolloin on helppo ratkoa ongelmat, jos niitä ilmenee ja muokata, jos hyötyjä ei tule. Ei vesitetä liian tiukoilla rajauksilla tavoitetta eli kuljettamisen karsimista.
 *	Olisiko ideaa käyttää priorisoinnissa pohjana kirjastoryhmää/poimintaryhmää? Eli esim. jos kirjastoon palautuu nide, johon kohdistuu varaus samassa kirjastoryhmässä/poimintaryhmässä olevaan kirjastoon, tärppäisi varaus sen kirjaston varaukseen. Koska tämä ei ehkä suosisi kuntia, joissa vain yksi kirjasto, niin siitä johtuen ohituksia voisi olla enintään 3 kertaa yhtä varausta kohti.
 *	Varausten ohittaminen: 3 kertaa, enintään 5 kertaa. Viisi ohituskertaa voi pidentää varaajan odotusaikaa jopa puoli vuotta, jos varauksia on paljon ja niteitä on vähän. Kolme ohitusta olisi kohtuullinen määrä, myös ajallisesti.
 *	Priorisointiin otetaan mukaan jonon alusta 5–10 ensimmäistä voimassa olevaa (ei keskeytettyä) varausta. OUTIssa Qfactoryn testailuissa jo muutaman ensimmäisen varauksen priorisoinnissa säästyi paljon kuljetusaikaa.
 *	Ei ole ongelma, jos varaus tärppää järjestyksessä pitkälläkin olevaan varaukseen, jos kimpassa kaikki tai lähes kaikki kunnat ovat ko. nimekettä hankkineet.
 
-Kirkes:
+**Kirkes-kirjastot:**
 * priorisointia ei tarvita, koska kirjastoja on vähän
 
 
-Koontia:
-* optimointia tehtäisiin vain jonossa 5-20 ensimmäisen aktiivisen varauksen osalta.
+**Keskustelusta koontia:**
+* optimointia tehtäisiin vain jonossa 5-20 ensimmäisen aktiivisen varauksen osalta. (Parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
 * Miten näytetään sija?
   * ei näytetä ollenkaan
-  * näytetään sijaksi se sija, kuinka monta jonosta priorisoidaan (5-20) (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
-* varaus voidaan ohittaa 2 kertaa (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä)
+  * näytetään sijaksi se sija, kuinka monta jonosta priorisoidaan (5-20) 
+* Varaus voidaan ohittaa 2 kertaa (parametroitavaksi, jolloin sitä voi muokata kokemuksen kertyessä).
 
 ### 8. Kehitysehdotusten läpikäyntiä
 
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
   * Ehdotus: Ei toteuteta, koska nykyinen Tietuesiirtäjä ilmoittaa, jos 000/17-merkkipaikkaan tulee muutos.
   * Päätös: Koha-Suomen asiantuntijaryhmä 19.6.2024: Siirtoraportti on korvattu Tietuesiirtäjä-raportilla, jonka ilmoittaa, jos 000/17-merkkipaikkaan on tullut muutos.
-
-Ennen kuin tehdään päätös:
-* selvitetään, kuinka paljon 000/17-merkkipaikan muutoksia on esim. viikossa ja kuinka paljon niiden tietueiden kohdalla olevan Avaa-napin klikkaus työllistää.
-* selvitetään Johannalta, onko muuttuneiden kenttien ilmoitukseen mahdollista saada tarkempaa tietoa kuin että kenttä on muuttunut.
-* selvitetään, pystyykö tekemään sql-raportin, jolla saisi kiinni esim. action_logseilta, kun merkkipaikka on muuttunut. Raportti voisi toimia myös KaTin aikana.
-
-![kuva](https://github.com/KohaSuomi/Koha/assets/33121325/49c3f55b-9e86-493d-bcbb-85174ce2c995)
+  Ennen kuin tehdään päätös:
+    * selvitetään kimpoissa, kuinka paljon 000/17-merkkipaikan muutoksia on esim. viikossa ja kuinka paljon niiden tietueiden kohdalla olevan Avaa-napin klikkaus työllistää.
+    * selvitetään Räisän Johannalta, onko muuttuneiden kenttien ilmoitukseen mahdollista saada tarkempaa tietoa kuin että kenttä on muuttunut.
+    * selvitetään, pystyykö tekemään sql-raportin, jolla saisi kiinni esim. action_logseilta, kun merkkipaikka on muuttunut. Raportti voisi toimia myös KaTin eli tulevan yhteisen kuvailutietueiden tietokannan aikana.
+    ![kuva](https://github.com/KohaSuomi/Koha/assets/33121325/49c3f55b-9e86-493d-bcbb-85174ce2c995)
 
 
 * [Hyllyvarausraportin rajaus sivun latausvaiheessa #1261](https://github.com/KohaSuomi/Koha/issues/1261)
   * Ehdotus: Pohditaan
   * Päätös: Toteutetaan
+
 * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta #1262](https://github.com/KohaSuomi/Koha/issues/1262)
   * Ehdotus: Pohditaan
   * Päätös: Toteutetaan
@@ -129,13 +133,13 @@ Ehdolle seuraavaan asiantuntijaryhmään:
 
 OUTI: Oulusta Noora Valkonen ja varalle Piia Semenoff<br />
 Kirkes: Riikka Mustajärvi Tuusulasta ja varalla Anu Järvi Mäntsälästä<br />
-Kyyti: Tuomas ja Roosa<br />
-Lappi: Leena ja Pia<br />
-Vaski: Susanna ja Asko<br />
-Vaara: Päivi ja Irina<br />
-Helle: Kati ja Tove<br />
-Lumme: selvitetään<br />
-Lastu: Janne, vara selvitettävä
+Kyyti: Tuomas Kunttu (Kouvola) ja Roosa Väisänen (Kotka)<br />
+Lappi: Leena Kinnunen (Rovaniemi) ja Pia Kusmin (Tornio)<br />
+Vaski: Susanna Sandell ja Asko Autio (Turku)<br />
+Vaara: Päivi Knuutinen ja Irina Halminen (Joensuu)<br />
+Helle: Kati Sillgren ja Tove Selkälä (Porvoo)<br />
+Lumme: Selvitettävänä<br />
+Lastu: Janne Seppänen, vara selvitettävänä
 
 ### 10. Muut asiat
 
