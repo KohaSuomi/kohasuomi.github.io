@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika:
-Läsnä
+Läsnä:
 
 **Yhteiset asiat:**
 
