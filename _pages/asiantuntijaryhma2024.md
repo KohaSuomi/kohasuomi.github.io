@@ -143,6 +143,8 @@ Lastu: Janne Seppänen (Lahti), vara selvitettävänä
 
 ### 10. Muut asiat
 
+Sähköisesti asiakkaaksi ilmoittautumisen yhteydessä keskusteltiin myös siitä, onko takaajatieto pakollinen tieto vai lisätäänkö se, koska niin on aina tehty. Järjestelmän kannalta sen pakollisuus luo monimutkaisuutta. Sovittiin, että kimpoissa selvitetään, pystyisikö takaajan merkitsemisestä luopua. Kerätään perusteluita, miksi takaajatieto tarvitaan.
+
 Seuraava kokous: ma 26.8.2024 klo 13-15
 
 ## Asiantuntijaryhmän muistio 7/2024
