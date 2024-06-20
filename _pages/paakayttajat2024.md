@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 Aika:
 Läsnä
 
-**Yhteiset asiat**
+**Yhteiset asiat:**
 
 Pohjoisesta etelään.
 
