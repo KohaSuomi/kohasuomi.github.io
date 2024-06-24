@@ -16,6 +16,8 @@ Aika: 25.6.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset asiat:**
+* [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
+* Vanhojen kuvailutietoja valunut uusien päälle viikolla 25.
 
 Pohjoisesta etelään.
 
