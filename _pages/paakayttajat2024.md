@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
-* Vanhojen kuvailutietoja valunut uusien päälle viikolla 25.
+* Vanhoja kuvailutietoja valunut uusien päälle viikolla 25.
 
 Pohjoisesta etelään.
 
