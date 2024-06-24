@@ -16,10 +16,18 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 26
 
 Aika: Maanantai 24.6.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Emmi, Pasi, Kodo, Lari
 
 **Asiat**
-* [Vanhoja kuvalutietoja valuu uusien päälle #1298](https://github.com/KohaSuomi/Koha/issues/1298) 
+* [Vanhoja kuvalutietoja valuu uusien päälle #1298](https://github.com/KohaSuomi/Koha/issues/1298)
+  * Päivitetään kimppojen metadatojen timestampit, jottei tietueita enää valu tätistä
+  * Laitetaan valutus takaisin päälle
+  * Tehdään ohjelmanpätkä jolla palautetaan actionlogsista muuttuneet tietueet
+* Päivitys:
+  * [Automaateilla ei päivity uusitun lainan eräpäivä](https://github.com/KohaSuomi/Koha/issues/1291)
+  * [Käännös: Hankinnan vastaanoton väärä käännös](https://github.com/KohaSuomi/Koha-translations/issues/42)
+  * [Käännös: Rajoita saatavilla oleviin niteisiin](https://github.com/KohaSuomi/Koha-translations/issues/37)
+
 
 ## Viikko 25
 
