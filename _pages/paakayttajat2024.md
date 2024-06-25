@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 25.6.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
 * Vanhoja kuvailutietoja valunut uusien päälle viikolla 25.
+  * Kun tiketin #1288 ajo muutti TäTissä biblio_metadata-taulun timestampia, ne muuttuivat uudemmiksi kuin paikalliskantojen vastaavien tietueiden biblio_metadata-taulun timestampit, joka aktivoi tietueiden valutuksen paikalliskantoihin. Korjaussuunnitelmana viikolla 26 kehittäjillä on, että päivitetään kimppojen metadatojen timestampit, jottei tietueita enää valu TäTistä. Laitetaan valutus tämän jälkeen päälle. Tehdään ohjelman pätkä, jolla palautetaan actionlogista muuttuneet tietueet.
 
 Pohjoisesta etelään.
 
