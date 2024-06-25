@@ -21,6 +21,10 @@ Läsnä:
 
 Pohjoisesta etelään.
 
+**Vaski**
+* sovittiin, että laitetaan kuluvana vuonna hankituille nitelle puuttuvat hankintahinnat OKM-tilastojen takia. Vaski tekee tiketin
+* Vaskissa tapaus, jossa asiakkalle on syntynyt hyvitystä. Maksutiedoissa on useampi rivi klo 00.05 aikaleimalla "Liikamaksun hyvitys" -rivejä, joista saatavat muodostuvat.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
 
