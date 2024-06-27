@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 25.6.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara)
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
@@ -28,7 +28,10 @@ Pohjoisesta etelään.
 
 **OUTI**
 * Tiketti https://github.com/KohaSuomi/Koha/issues/630 (Nidevaraus ei estä uusimista, kun käytössä AllowRenewalIfOtherItemsAvailable-järjestelmäasetus) avattu uudestaan, koska OUTIsta tuli huomio, että nidevaraus estää muiden lainassa olevien niteiden uusinnan, jos yhtään nidettä ei ole saatavana-tilassa. Uusinta onnistuu, jos tietueessa on muita saatavana olevia niteitä.
-* Yhden vanhan kirjatietueen päälle oli ”siirtynyt” uuden CD-levyn niteet ja varaus. Luetteloinnista säikähtivät, että onko järjestelmä voinut tehdä tämän. Nyt on selvinnyt, että ilmeisesti käyttäjä oli vahingossa yhdistänyt väärät tietueet. 
+* Yhden vanhan kirjatietueen päälle oli ”siirtynyt” uuden CD-levyn niteet ja varaus. Luetteloinnista säikähtivät, että onko järjestelmä voinut tehdä tämän. Nyt on selvinnyt, että ilmeisesti käyttäjä oli vahingossa yhdistänyt väärät tietueet.
+
+**VAARA**
+* ei mainittavaa*
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
