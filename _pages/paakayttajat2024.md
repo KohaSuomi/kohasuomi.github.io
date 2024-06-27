@@ -31,7 +31,7 @@ Pohjoisesta etelään.
 * Yhden vanhan kirjatietueen päälle oli ”siirtynyt” uuden CD-levyn niteet ja varaus. Luetteloinnista säikähtivät, että onko järjestelmä voinut tehdä tämän. Nyt on selvinnyt, että ilmeisesti käyttäjä oli vahingossa yhdistänyt väärät tietueet.
 
 **VAARA**
-* ei mainittavaa*
+* ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
