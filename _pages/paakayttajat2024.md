@@ -34,7 +34,7 @@ Pohjoisesta etelään.
 * ei mainittavaa
 
 **Kirkes**
-* Myöhästymismaksuja muodostunut taas liikaa yksittäisistä niteistä. Epäillään korvaushinnan vaikuttavan joissain tapauksissa. Seurataan lisää.
+* Myöhästymismaksuja muodostunut taas liikaa yksittäisistä niteistä. Epäillään korvaushinnan vaikuttavan joissain tapauksissa. Seurataan tapauksia lisää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
