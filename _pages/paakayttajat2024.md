@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 25.6.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara), Annika Helastila (Kirkes)
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
@@ -33,13 +33,16 @@ Pohjoisesta etelään.
 **VAARA**
 * ei mainittavaa
 
+**Kirkes**
+* Myöhästymismaksuja muodostunut taas liikaa yksittäisistä niteistä. Epäillään korvaushinnan vaikuttavan joissain tapauksissa. Seurataan lisää.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
 
 ## Viikko 25
 
 Aika: 18.6.2024 klo 9.15<br />
-Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI), Irina Halminen ja Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI), Irina Halminen ja Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Annika Helastila (Kirkes)
 
 **Yhteiset asiat**
 * Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
