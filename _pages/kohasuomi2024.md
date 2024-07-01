@@ -16,9 +16,17 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 27
 
 Aika: Maanantai 1.7.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Lasse, Ari, Emmi, Lari
 
 **Asiat**
+* Otetaan "omat" tiketit työn alle [Koha-24.05](https://github.com/KohaSuomi/Koha-24.05/issues)-reposta
+* Viikon 27 päivitys:
+  * [Jäädytetyjen ja aktiivisten varausten erottaminen lukumäärässä #1170](https://github.com/KohaSuomi/Koha/issues/1170) 
+* Scrumm:
+  * Lari: js-plugarien viemistä seuraavaan versioon, loppujen versionvaihtotikettien läpikäymistä
+  * Lasse: tikettejä
+  * Pasi: metadatan timestampien oikaisuskripti, ajettu OUTIin ja Lappiin, loput illalla   
+  * Emmi: tikettejä, Vaskin hankintahinnattomien ihmettelyä
 
 ## Viikko 26
 
