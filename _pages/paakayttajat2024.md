@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset asiat:**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/1305)
+* Valutuksen ja tietueiden korjausajojen tilanne.
 
   
 Etelästä pohjoiseen.
