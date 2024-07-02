@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 2.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/1305)
