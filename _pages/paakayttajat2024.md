@@ -18,9 +18,9 @@ Läsnä:
 **Yhteiset asiat:**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/1305)
 * Valutuksen ja tietueiden korjausajojen tilanne.
-* Hankintahintojen oikominen
+* Hankintahintojen oikominen /Emmi
   * Vaski tehnyt tästä [tiketin](https://github.com/KohaSuomi/Koha/issues/1302), onko muilla tarvetta samallaiselle ajolle?
-* Aineistotyyppi näkyy asiakkaan lainoissa väärin
+* Aineistotyyppi näkyy asiakkaan lainoissa väärin /Emmi
   * Korjataanko nykyiseen versioon vai odotetaanko versionvaihtoa?  
 
   
