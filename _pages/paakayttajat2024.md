@@ -30,10 +30,13 @@ Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
 * Aineistotyyppi näkyy asiakkaan lainoissa väärin /Emmi
   * Korjataanko nykyiseen versioon vai odotetaanko versionvaihtoa?
   * Korjataan seuraavaan versioon.  
-
   
 Etelästä pohjoiseen.
 
+**OUTI**
+* Normaalia ylläpitoa. Käyttäjätunnusten oikeuksien tarkistusta.
+
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-27) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 26
