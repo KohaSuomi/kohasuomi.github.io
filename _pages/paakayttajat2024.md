@@ -13,15 +13,23 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 2.7.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
 
 **Yhteiset asiat:**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/1305)
+  * Finna näyttää aktiivisissa varauksissa vain varaukset, jotka eivät ole tärpänneet vielä kiinni varaukseen. Koha näyttää aktiivisissa varauksissa myös kuljetustilassa olevat ja noutoa odottavat varaukset. Halutaanko yhtenäinen tieto myös Kohaan? Kommentit [tikettiin](https://github.com/KohaSuomi/Koha/issues/1170).
 * Valutuksen ja tietueiden korjausajojen tilanne.
+  * Viikon 26 korjaustoimenpiteiden jälkeen vanhoja tietueita alkoi valumaan edelleen kimppoihin, kun valutus käynnistettiin. Valutukset ovat olleet taas pois päältä Tätistä ja kaikista kimpoista.
+  * Ma 1.7. aamusta OUTIn ja Lapin metadatojen timestampit on taas oikaistu, muille kimpoille ajot tehty illalla, koska ajot raskaita.
+  * Kun timestampien oikaisuajot kaikkiin kimppoihin tehty, laitetaan yhteen kimppaan Tietuesiirtäjä päälle ja tarkistetaan, ettei vanhoja tietueita enää valu.
+  * Tämän jälkeen palautetaan actionlogista muuttuneet tietueet.
 * Hankintahintojen oikominen /Emmi
   * Vaski tehnyt tästä [tiketin](https://github.com/KohaSuomi/Koha/issues/1302), onko muilla tarvetta samallaiselle ajolle?
+  * Päätettiin, että kaikissa kimpoissa hankintahinta-kenttä laitetaan pakolliseksi.
+  * Kimpoista kommentoidaan tikettiin, halutaanko kimpalle tehdä korjausajo ja millä perusteella puuttuva hankintahinta päivitetään niteelle.
 * Aineistotyyppi näkyy asiakkaan lainoissa väärin /Emmi
-  * Korjataanko nykyiseen versioon vai odotetaanko versionvaihtoa?  
+  * Korjataanko nykyiseen versioon vai odotetaanko versionvaihtoa?
+  * Korjataan seuraavaan versioon.  
 
   
 Etelästä pohjoiseen.
