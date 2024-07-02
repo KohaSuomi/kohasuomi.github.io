@@ -86,6 +86,9 @@ Etelästä pohjoiseen
 * Ihmetelty yhden paljon varaavan asiakkaan tekstiviestejä: kaikki tekstiviestit näkyvät Kohassa epäonnistuneina, mutta asiakas kertoo saaneensa kaikki perille.
 * Muuten ei mitään erikoista.
 
+**Kirkes**
+* Hankintapuoli mietiskellyt, vaikuttaako toimittajan nimen vaihtuminen johonkin haitallisesti.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 24
