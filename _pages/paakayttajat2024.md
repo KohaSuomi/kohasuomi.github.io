@@ -10,10 +10,23 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 28
+
+Aika: 9.7.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat:**
+* Viikon 28 päivitys
+* Koha-varmenne vanhenee 31.8.2024
+  
+Pohjoisesta etelään.
+  
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-28) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 27
 
 Aika: 2.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Kati Sillgren (Helle)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Kati Sillgren ja Lotta Juvonen (Helle), Irina Halminen ja Hanna Hyttinen (Vaara), Mikko Liimatainen (Vaski), Noora Suvanto (Lappi), Janne Seppänen (Lastu), Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset asiat:**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/1305)
