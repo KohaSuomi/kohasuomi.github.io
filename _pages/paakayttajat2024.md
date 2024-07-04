@@ -49,6 +49,9 @@ Etelästä pohjoiseen.
 **OUTI**
 * Normaalia ylläpitoa. Käyttäjätunnusten oikeuksien tarkistusta.
 
+**Vaara**
+* Ei mitään erityistä. Pitempi muuttokiinniolo tulossa yhdelle kirjastolle heinäkuun lopulta alkaen.
+
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-27) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -72,8 +75,8 @@ Pohjoisesta etelään.
 * Tiketti https://github.com/KohaSuomi/Koha/issues/630 (Nidevaraus ei estä uusimista, kun käytössä AllowRenewalIfOtherItemsAvailable-järjestelmäasetus) avattu uudestaan, koska OUTIsta tuli huomio, että nidevaraus estää muiden lainassa olevien niteiden uusinnan, jos yhtään nidettä ei ole saatavana-tilassa. Uusinta onnistuu, jos tietueessa on muita saatavana olevia niteitä.
 * Yhden vanhan kirjatietueen päälle oli ”siirtynyt” uuden CD-levyn niteet ja varaus. Luetteloinnista säikähtivät, että onko järjestelmä voinut tehdä tämän. Nyt on selvinnyt, että ilmeisesti käyttäjä oli vahingossa yhdistänyt väärät tietueet.
 
-**VAARA**
-* ei mainittavaa
+**Vaara**
+* Ei mainittavaa.
 
 **Kirkes**
 * Myöhästymismaksuja muodostunut taas liikaa yksittäisistä niteistä. Epäillään korvaushinnan vaikuttavan joissain tapauksissa. Seurataan tapauksia lisää.
@@ -135,7 +138,7 @@ Pohjoisesta etelään
 * OUTIn asiakkailla on yksityisoikeudellisia maksuja, jotka ovat vanhentuneet versiopäivityksen jälkeen. Ilmeisesti yöllinen vanhentuneiden maksujen mitätöintiajo ei ole toiminut versiopäivityksen jälkeen. Anneli tarkisti kehittäjiltä kokouksen aikana asian ja ilmeni, että triggerissä oli ollut jotain ongelmaa, joka on nyt korjattu. Ajot pitäisi toimia jatkossa kaikissa kimpoissa.
 
 **Vaara**
-* ei mainittavaa
+* Ei mainittavaa.
 
 **Lappi**
 * Normaalia ylläpitoa.
@@ -176,7 +179,7 @@ Etelästä pohjoiseen
 * Kirjavälitys on nyt Storia Logistiikka, tarkistettu että toimittajan nimeä voi muokata hankinnassa.
 
 **Vaara**
-* ei mainittavaa
+* Ei mainittavaa.
 
 **Vaski**
 * Kellutuksen hallinta -työkalun (Kellutin) käyttöönotto lähenee, koulutukset alkavat tänään.
