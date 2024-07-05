@@ -59,7 +59,7 @@ Etelästä pohjoiseen.
 ## Viikko 26
 
 Aika: 25.6.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara), Annika Helastila (Kirkes)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
@@ -81,6 +81,9 @@ Pohjoisesta etelään.
 
 **Kirkes**
 * Myöhästymismaksuja muodostunut taas liikaa yksittäisistä niteistä. Epäillään korvaushinnan vaikuttavan joissain tapauksissa. Seurataan tapauksia lisää.
+
+**Siilinjärvi**
+* Ei mainittavaa. Heinäkuussa ei juurikaan Koha-ihmisiä töissä, joten kiiretapauksissa paras ottaa Koha-asioissa yhteyttä kirjasto(at)siilinjarvi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-26) - [Palaa sivun alkuun](/paakayttajat2024)
 
