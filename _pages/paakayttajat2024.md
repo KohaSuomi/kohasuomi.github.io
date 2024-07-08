@@ -53,6 +53,8 @@ Etelästä pohjoiseen.
 **Vaara**
 * Ei mitään erityistä. Pitempi muuttokiinniolo tulossa yhdelle kirjastolle heinäkuun lopulta alkaen.
 
+**Lappi**
+* Normaalia ylläpitoa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-27) - [Palaa sivun alkuun](/paakayttajat2024)
 
