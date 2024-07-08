@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 28
+
+Aika: Maanantai 8.7.2024 klo 9<br />
+Läsnä: Pasi, Emmi, Ari, Lasse, Lari
+
+**Asiat**
+* Viime viikolla meg:llä olleet kohat kaatuivat, plack kaatui, reloadi/rstartti ei auttanut, piti stopata/käynnistellä memcached ja apache2
+
+
 ## Viikko 27
 
 Aika: Maanantai 1.7.2024 klo 9<br />
