@@ -19,7 +19,13 @@ Aika: Maanantai 8.7.2024 klo 9<br />
 Läsnä: Pasi, Emmi, Ari, Lasse, Lari
 
 **Asiat**
-* Viime viikolla meg:llä olleet kohat kaatuivat, plack kaatui, reloadi/rstartti ei auttanut, piti stopata/käynnistellä memcached ja apache2
+* Ei Kohan päivitystä
+* Perjantaiaamuna meg:llä olleet kohat kaatuivat, plack kaatui, reloadi/restartti ei auttanut, piti stopata/käynnistellä memcached ja apache2
+* Scrumm:
+  * Emmi: Yhteisötikettejä
+  * Lasse: Varausssivun ongelmien korjausta
+  * Lari: Toveri-ongelma, koosteviestien kieliongelma Finnan kanssa
+  * Pasi: Tietueitten palautteluskriptin testausta
 
 
 ## Viikko 27
