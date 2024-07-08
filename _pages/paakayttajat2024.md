@@ -16,8 +16,8 @@ Aika: 9.7.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset asiat:**
-* Viikon 28 päivitys
-* Kohan huoltoikkuna ke 10.7. klo 7.00-9.15
+* Viikon 28 päivitystä ei ole.
+* Kohan huoltoikkuna ke 10.7. klo 7.00-9.15, ei huoltotoimenpiteitä.
 * Koha-varmenne vanhenee 31.8.2024
   
 Pohjoisesta etelään.
