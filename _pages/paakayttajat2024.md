@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 9.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
@@ -42,6 +42,10 @@ Pohjoisesta etelään.
 **Vaara**
 * Viime perjantain Kohan kaatuminen aiheutti isomman revohkan Toverin kanssa. Irinan sanoin: "Vaati Toveri-pluginin uudelleenasennuksen, jossa oli ongelmia ja samallahan se hävitti kaikki oikeudet ovikoneilta, aukioloajat ja ne muut asetukset (olin ottanut ne kyllä talteen). Oikeuksia naputellessa meni sit aikansa myös (ja sitä ennen piti tajuta, että ne puuttuu!). Sit aloin soittelemaan Mikkeliin, kun heillä on se yksi Toveri käytössä. Saatiin sitten Katja kiinni ja hän sai Larin kanssa laitella Suomenniemen Toverin tulille (soitin sinnekin ennen sitä, eivät olleet huomanneet käyttökatkoa). Syytä ei ollut ainakaan perjantaina tiedossa eli ei hajua, miksi plugari reagoi palvelinkatkoon."
 * Finnaan tehty korjaus koosteviestien piilotukseen.
+
+**Helle**
+* Lisättty kuvailupohjiin Hankintahinta-kentän 952y pakollisuus.
+* Poistettu Kohasta asiakkaiden Finnassa lisäämät asiakasviestien Kooste-valinnat. Helle-Finnassa piilotettu asiakasviestien valittava Kooste-vaihtoehto.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-28) - [Palaa sivun alkuun](/paakayttajat2024)
 
