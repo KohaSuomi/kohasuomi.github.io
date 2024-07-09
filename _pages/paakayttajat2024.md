@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 9.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski)
 
 **Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
@@ -31,6 +31,9 @@ Pohjoisesta etelään.
 **Siili**
 * Reetta lomalla 12.8. asti. Koha-henkilö puuttuu 22.7. asti, jolloin Kososen Marko tulee töihin. Esimies Nevalaisen Jarkko tulee 29.7. Jos tarvitsee saada yhteys Siiliin niin paras on kirjasto@siilinjarvi.fi tai 044 740 1382.
 
+**Vaski**
+* Perusylläpitoa, kirjastojen avaamisia remonttien päättymisen myötä.
+* Mikko bongannut nextillä js-koodeja testatessa pari koodeihin vaikuttavaa muutosta, näistä tehty tiketit [#91](https://github.com/KohaSuomi/Koha-24.05/issues/91) ja [#92](https://github.com/KohaSuomi/Koha-24.05/issues/92). Jälkimmäinen js muutetaan plugariksi.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-28) - [Palaa sivun alkuun](/paakayttajat2024)
 
