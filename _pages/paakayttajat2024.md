@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 9.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu)
 
 **Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
@@ -30,6 +30,10 @@ Pohjoisesta etelään.
 
 **Siili**
 * Reetta lomalla 12.8. asti. Koha-henkilö puuttuu 22.7. asti, jolloin Kososen Marko tulee töihin. Esimies Nevalaisen Jarkko tulee 29.7. Jos tarvitsee saada yhteys Siiliin niin paras on kirjasto@siilinjarvi.fi tai 044 740 1382.
+
+**Lastu**
+* Timmiltä saatu tieto ettei liittymää Kohan rajapintaan ole vielä toteutettu. Jatketaan keskustelua heidän kanssaan sellaisen toteuttamiseksi.
+* Automaattitestauksia tehty Lyngsoen automaatilla ja toiminta vaikuttaa lupaavalta tuotantoon menoa ajatellen. Testattu myös [Sip2SortBinMapping](https://koha-community.org/manual/23.11/en/html/circulationpreferences.html#sip2sortbinmapping)-asetusta, joka myös vaikuttaa toimivan kuten manuaali lupailee. Konvertoitu asetuksen avulla nykyisiä lajittelusääntöjä Aurorasta Kohaan.
 
 **Vaski**
 * Perusylläpitoa, kirjastojen avaamisia remonttien päättymisen myötä.
