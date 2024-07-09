@@ -19,6 +19,7 @@ Läsnä:
 * Viikon 28 päivitystä ei ole.
 * Kohan huoltoikkuna ke 10.7. klo 7.00-9.15, ei huoltotoimenpiteitä.
 * Koha-varmenne vanhenee 31.8.2024
+* Perjantaiaamuna 5.7. Kohat jumissa. OUTIssa yhteys mennyt heti puolen yön jälkeen 00.00.45.
   
 Pohjoisesta etelään.
   
