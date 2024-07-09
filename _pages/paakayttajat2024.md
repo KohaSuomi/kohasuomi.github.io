@@ -13,15 +13,24 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 9.7.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
 * Kohan huoltoikkuna ke 10.7. klo 7.00-9.15, ei huoltotoimenpiteitä.
-* Koha-varmenne vanhenee 31.8.2024
-* Perjantaiaamuna 5.7. Kohat jumissa. OUTIssa yhteys mennyt heti puolen yön jälkeen 00.00.45.
+* Koha-varmenne vanhenee 31.8.2024.
+* Perjantaiaamuna 5.7. Kohat jumissa. OUTIssa yhteys mennyt heti puolen yön jälkeen 00.00.45. Plack oli alhaalla. Myöhemmin samana päivänä Toveri-plugin kaatui Vaarassa.
+* Versionvaihto tulossa syksyllä, ja paljon testattavaa. Konfiguroitavia JS-plugineita valmistellaan versionvaihtoa varten, jotta päästään eroon vanhoista rimpsuista ja pääkäyttäjät voisivat hoitaa konfiguroinnin jatkossa.
+* Viime yönä päivittyi Element, ja lakkasi toimimasta Firefoxin ESR-versiossa. Elementiltä vastattu, ettei kuulu tuettaviin Firefox-versioihin. Tästä käydään keskustelua, josko asia korjataan vai joudutaanko vaihtamaan työkalua toiseen. Kaikilla ei ole mahdollisuutta käyttää työpöytä-appia. Chromella Element edelleen toimii, joskin kirjautumisessa tai salausavaimissa ym. voi olla ongelmaa, jos Chrome ei ole ollut käytössä jo ennestään.
   
 Pohjoisesta etelään.
+
+**OUTI**
+* Ei mitään erityistä.
+
+**Siili**
+* Reetta lomalla 12.8. asti. Koha-henkilö puuttuu 22.7. asti, jolloin Kososen Marko tulee töihin. Esimies Nevalaisen Jarkko tulee 29.7. Jos tarvitsee saada yhteys Siiliin niin paras on kirjasto@siilinjarvi.fi tai 044 740 1382.
+
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-28) - [Palaa sivun alkuun](/paakayttajat2024)
 
