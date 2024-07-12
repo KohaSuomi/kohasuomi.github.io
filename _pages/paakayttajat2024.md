@@ -86,7 +86,7 @@ Etelästä pohjoiseen.
 ## Viikko 26
 
 Aika: 25.6.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Reetta Pihlaja (Siilinjärvi), Lotta Juvonen (Helle)
 
 **Yhteiset asiat:**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/1300)
