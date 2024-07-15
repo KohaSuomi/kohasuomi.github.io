@@ -16,6 +16,20 @@ Aika: 9.7.2024, klo 9.15<br />
 Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
+* Viikon 29 päivitys
+* Kohan huoltoikkuna ke 17.7. klo 7.00-9.15
+* Mobiilikirjautuminen automaateille on case sensitive, aiheuttanut hämmennystä.
+  
+Etelästä pohjoiseen.
+  
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
+
+## Viikko 28
+
+Aika: 9.7.2024, klo 9.15<br />
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
+
+**Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
 * Kohan huoltoikkuna ke 10.7. klo 7.00-9.15, ei huoltotoimenpiteitä.
 * Koha-varmenne vanhenee 31.8.2024.
