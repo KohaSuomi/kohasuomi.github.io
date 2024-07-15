@@ -16,10 +16,16 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 29
 
 Aika: Maanantai 15.7.2024 klo 9<br />
-Läsnä:
+Läsnä: Lasse, Pasi, Johanna ja Emmi
 
 **Asiat**
+* Ei päivitystä tällä viikolla
 * Muistutus ottaa omat versionvaihdon tiketit työn alle
+* Scrumm:
+  * Lasse: varaussivun kattelua
+  * Pasi: tietokantojen siivousskriptejä
+  * Johanna: suomi.fi-rajapinnan aloitus
+  * Emmi: versionvaihdon tikettejä 
 
 ## Viikko 28
 
