@@ -10,14 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 28
+## Viikko 29
 
-Aika: 9.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
+Aika: 15.7.2024, klo 9.15<br />
+Läsnä:
 
 **Yhteiset asiat:**
-* Viikon 29 päivitys
-* Kohan huoltoikkuna ke 17.7. klo 7.00-9.15
+* Viikon 29 päivitystä ei ole.
 * Mobiilikirjautuminen automaateille on case sensitive, aiheuttanut hämmennystä.
   
 Etelästä pohjoiseen.
