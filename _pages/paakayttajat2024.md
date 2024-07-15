@@ -59,6 +59,9 @@ Pohjoisesta etelään.
 **Helle**
 * Lisättty kuvailupohjiin Hankintahinta-kentän 952y pakollisuus.
 * Poistettu Kohasta asiakkaiden Finnassa lisäämät asiakasviestien Kooste-valinnat. Helle-Finnassa piilotettu asiakasviestien valittava Kooste-vaihtoehto.
+
+**Kirkes**
+* Kirkes-Finnassa piilotettu asiakastiedoista vaihtoehto koosteviesteille. Lisätty raportti Kohaan asiakkaista, joilla asetus on käytössä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-28) - [Palaa sivun alkuun](/paakayttajat2024)
 
