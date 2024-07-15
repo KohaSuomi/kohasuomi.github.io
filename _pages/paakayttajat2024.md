@@ -26,7 +26,7 @@ Etelästä pohjoiseen.
 ## Viikko 28
 
 Aika: 9.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
+Läsnä: Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Lari Strand ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Janne Seppänen (Lastu), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Annika Helastila (Kirkes)
 
 **Yhteiset asiat:**
 * Viikon 28 päivitystä ei ole.
