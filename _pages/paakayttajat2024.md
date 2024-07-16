@@ -35,7 +35,7 @@ Etelästä pohjoiseen.
 
 **Helle**
 * Palautushylly-automaatti ei nappaa Laskutettu-tilaisiin niteisiin.
-* Kun käytössä on IntranetUserJs-rimpsu Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan, päivittää Päivitä asiakastietoja -toiminnon OK-painike kaikki muutospyynnöt. Eikä vain tarkastelussa/avattuna olevan muutospyynnön.
+* Kun käytössä on IntranetUserJs-rimpsu Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan, päivittää Päivitä asiakastietoja -toiminnon OK-painike kaikki muutospyynnöt. Eikä vain esim. tarkastelussa/avattuna olevan muutospyynnön. Emmi poistaa ko. rimpsun Hellestä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
