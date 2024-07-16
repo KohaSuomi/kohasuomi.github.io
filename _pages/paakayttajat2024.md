@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 16.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
@@ -32,6 +32,10 @@ Etelästä pohjoiseen.
 **Vaara**
 * Päivi kyseli, onko missään valmiina hankintaluettelo-raporttia. Vaarassa on jäänyt nämä viralliset dokumentit tekemättä Koha-ajalta. Uutuusluettelosta raportti poikkeaa sen suhteen, että myös aikaisemmilta vuosilta otettavissa hankintaluetteloissa pitää olla myös myöhemmin ehkä poistetut aineistot. Vaskista luvattiin apua tähän asiaan.
 * Lehtitietueen poisto aiheutti pähkäilyä. Niteet oli poistettu, mutta nimekettä ei voinut poistaa, koska sillä oli tilauksia (vaikka ne oli jo suljettuja). Ensin siis piti löytää, mistä lehtitilaus poistetaan ja poiston jälkeen pystyi poistamaan myös lehtinimekkeen.
+
+**Helle**
+* Palautushylly-automaatti ei nappaa Laskutettu-tilaisiin niteisiin.
+* Kun käytössä on IntranetUserJs-rimpsu Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan, päivittää Päivitä asiakastietoja -toiminnon OK-painike kaikki muutospyynnöt. Eikä vain tarkastelussa/avattuna olevan muutospyynnön.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
