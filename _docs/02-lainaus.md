@@ -90,15 +90,14 @@ Kuitin voit tulostaa:
 
 *Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
 - *Asiakastietojen yhteenveto*: A4-tuloste asiakastiedoista,
-  lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
-  suositella tulostettavan.
+  lainoista, varauksista ja maksettavista maksuista.
 - *Tulosta kuitti*: tulostaa kaikki asiakkaan lainat kuitille.
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
 - *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
 -  *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
-- *Tulosta palautuskuitti*: antaa asiakkaan palautuksista kuitin.
+- *Tulosta palautuskuitti*: antaa asiakkaan kuluvana päivänä palautetuista lainoista kuitin.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -107,7 +106,7 @@ Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 Kun lopetat lainaamisen, näytöltä on hyvä tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
 
-- Painamalla *Enter*. (Huom! asetuksista riippuen, Enter voi tulostaa myös
+- Painamalla *Enter*. (Huom! kimpan asetuksista riippuen, Enter voi tulostaa myös
   asiakkaan lainakuitin).
 - Klikkaamalla *X-merkkiä* lainauskentän oikeasta yläkulmasta.
 
