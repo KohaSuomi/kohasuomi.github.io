@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 16.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
@@ -28,6 +28,10 @@ Etelästä pohjoiseen.
 
 **OUTI:**
 * Vastaan tuli 16-vuotias asiakas asiakastyypillä 'Lapsi, omatoimi kielletty'. OUTIn käytäntö on, että 16-vuotiaat muuttuvat automaattisesti asiakastyyppiin 'Lapsi, omatoimi sallittu'. 11.4. alkaen oli kuitenkin ajo asiakastyyppien muuttamiseksi jumittunut, syynä takaajatiedoton lapsiasiakas, joka oli täyttänyt sen 16 vuotta. Takaajattomia lapsiasiakkaita oli yht. 15, joista suurin osa oli konversiosta tulleita, ja joitakin vuonna 2022 tehtyjä uusia tallennuksia. Suurin osa asiakkaista oli sellaisia, ettei kortteja ollut käytetty vuosiin. Yhdellä oli laskutuksessa lainoja. Esihenkilön päätöksellä poistettiin nämä asiakkaat lukuunottamatta laskutusasiakasta. Kohaan asetetut yläikärajat antavat vielä luoda sen ikäisen asiakkaan ko. asiakasryhmälle. 16-vuotiaita asiakkaita on jonkin verran luotu väärällä asiakastyypillä.
+
+**Vaara**
+* Päivi kyseli, onko missään valmiina hankintaluettelo-raporttia. Vaarassa on jäänyt nämä viralliset dokumentit tekemättä Koha-ajalta. Uutuusluettelosta raportti poikkeaa sen suhteen, että myös aikaisemmilta vuosilta otettavissa hankintaluetteloissa pitää olla myös myöhemmin ehkä poistetut aineistot. Vaskista luvattiin apua tähän asiaan.
+* Lehtitietueen poisto aiheutti pähkäilyä. Niteet oli poistettu, mutta nimekettä ei voinut poistaa, koska sillä oli tilauksia (vaikka ne oli jo suljettuja). Ensin siis piti löytää, mistä lehtitilaus poistetaan ja poiston jälkeen pystyi poistamaan myös lehtinimekkeen.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
