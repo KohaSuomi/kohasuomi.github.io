@@ -34,7 +34,7 @@ Etelästä pohjoiseen.
 * Lehtitietueen poisto aiheutti pähkäilyä. Niteet oli poistettu, mutta nimekettä ei voinut poistaa, koska sillä oli tilauksia (vaikka ne oli jo suljettuja). Ensin siis piti löytää, mistä lehtitilaus poistetaan ja poiston jälkeen pystyi poistamaan myös lehtinimekkeen.
 
 **Helle**
-* Palautushylly-automaatti ei nappaa Laskutettu-tilaisiin niteisiin. Mahdollisia palautettuja laskutettuja niteitä seurataan raportin avulla.
+* Palautushylly-automaatti ei ilmoita Laskutettu-tilaisista niteistä. Mahdollisia palautettuja laskutettuja niteitä seurataan raportin avulla.
 * Kun käytössä on IntranetUserJs-rimpsu Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan, päivittää Päivitä asiakastietoja -toiminnon OK-painike kaikki muutospyynnöt. Eikä vain esim. tarkastelussa/avattuna olevan muutospyynnön. Emmi poistaa ko. rimpsun Hellestä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
