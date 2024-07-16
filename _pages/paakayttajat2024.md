@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 29
 
-Aika: 15.7.2024, klo 9.15<br />
+Aika: 16.7.2024, klo 9.15<br />
 Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
 
 **Yhteiset asiat:**
@@ -50,7 +50,7 @@ Pohjoisesta etelään.
 * Ei mitään erityistä.
 
 **Siili**
-* Reetta lomalla 12.8. asti. Koha-henkilö puuttuu 22.7. asti, jolloin Kososen Marko tulee töihin. Esimies Nevalaisen Jarkko tulee 29.7. Jos tarvitsee saada yhteys Siiliin niin paras on kirjasto@siilinjarvi.fi tai 044 740 1382.
+* Reetta lomalla 12.8. asti. Koha-henkilö puuttuu 22.7. asti, jolloin Kososen Marko tulee töihin. Esimies Nevalaisen Jarkko tulee 29.7. Jos tarvitsee saada yhteys Siiliin niin paras on kirjasto(at)siilinjarvi.fi tai 044 740 1382.
 
 **Lastu**
 * Timmiltä saatu tieto ettei liittymää Kohan rajapintaan ole vielä toteutettu. Jatketaan keskustelua heidän kanssaan sellaisen toteuttamiseksi.
