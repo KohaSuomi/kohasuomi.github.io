@@ -18,7 +18,7 @@ Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
 * Mobiilikirjautuminen automaateille on case sensitive, ei siis hyväksy pieniä kirjaimia. Tämä on aiheuttanut hämmennystä asiakkaissa ja virkailijoissa.
-Asiasta on aikoinaan tiedotettu, mutta se ei ole selkeästi missään ohjeissa esillä. Finnassa toimii kirjautuminen myös pienillä kirjaimilla. Tehdään kehitysehdotus,
+Asiasta on aikoinaan tiedotettu, mutta siitä ei ole mainintaa kirjautumisen yhteydessä. Finnassa toimii kirjautuminen myös pienillä kirjaimilla. Tehdään kehitysehdotus,
 että mobiilikirjautumisessa toimisi kirjautumistunnus kirjainten koosta huolimatta.
 * Väärin valuneiden tietueiden korjailu vieläkin työn alla Pasilla.
 * OUTIssa ongelmia aiheuttanut takaajatomat lapsiasiakkaat. Takaajatiedot voivat edelleenkin kadota tapauksissa, joissa asiakastietueita yhdistetään (taattava voi poistua)
