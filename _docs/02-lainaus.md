@@ -25,7 +25,9 @@ Ohjelmassa toimivat pikanäppäimet:
 - Lainaus: *Alt+U*
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
-- Nappulassa kirjainvihje: *Alt+Shift+kirjain* "valitsee" kyseisen nappulan. Esim. jos nappulassa lukee _Kyllä (Y)_, saa Kyllä-nappulan valittua painamalla näppäimistöltä Alt+Shift+y.
+- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* "valitsee" kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+y.
+  
+  ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
 ## 2.1. Lainaus
 
