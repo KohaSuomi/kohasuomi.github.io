@@ -161,16 +161,18 @@ Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
 
 ### 2.2.3 Asiakkaan osoitetiedot ovat väärät
 
-Jos asiakkan tiedoissa on päällä asetus, että osoite on tarkistettava,
-lainaus estyy.  
-![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
+Jos asiakkan tiedoissa on päällä Tarkista osoite -asetus,
+lainaus estyy. (Huom! Toiminto voi olla piilotettuna kimpassasi.) 
 
 Lainaustilanteessa tulee huomautus:  
+
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
-Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa 
-*Käyttäjätilin huomautukset* vaihdat *Tarkista osoite* -kohtaan vaihtoehdon
-“Ei” ja tallennat asiakastiedot.
+Päivitä osoitetiedot asiakkaan muokkausnäytöllä. Aseta muokkausnäytöllä kohdassa *Käyttäjätilin huomautukset* valinta "Ei" kohtaan *Tarkista osoite* ja tallenna asiakastietojen muokkaussivu.
+
+![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
+
+Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. 
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
