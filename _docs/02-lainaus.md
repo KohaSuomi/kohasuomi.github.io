@@ -13,9 +13,9 @@ tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
 asetukset). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
-etusivulla on pikakuvakkeita, joista pääset ohjelman eri toimintoihin,
-mm. lainaus- ja palautussivun toimintoihin. *Lainaus ja palautus* -sivun toimintoihin pääset
-jokaisen sivun vasemmasta yläreunasta olevasta linkistä.
+etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin,
+mm. lainaus- ja palautussivun toimintoihin. Voi olla, että kimpassasi on piilotettu sivulta toimintoja, joita ei ole nähty tarpeellisiksi. *Lainaus ja palautus* -sivun toimintoihin pääset
+jokaisen sivun yläreunassa olevasta linkistä.
 
 ![](/assets/files/docs/Lainaus/lainaus.PNG)
 
