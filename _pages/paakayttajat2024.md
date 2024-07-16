@@ -13,13 +13,21 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 15.7.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
-* Mobiilikirjautuminen automaateille on case sensitive, aiheuttanut hämmennystä.
+* Mobiilikirjautuminen automaateille on case sensitive, ei siis hyväksy pieniä kirjaimia. Tämä on aiheuttanut hämmennystä asiakkaissa ja virkailijoissa.
+Asiasta on aikoinaan tiedotettu, mutta se ei ole selkeästi missään ohjeissa esillä. Finnassa toimii kirjautuminen myös pienillä kirjaimilla. Tehdään kehitysehdotus,
+että mobiilikirjautumisessa toimisi kirjautumistunnus kirjainten koosta huolimatta.
+* Väärin valuneiden tietueiden korjailu vieläkin työn alla Pasilla.
+* OUTIssa ongelmia aiheuttanut takaajatomat lapsiasiakkaat. Takaajatiedot voivat edelleenkin kadota tapauksissa, joissa asiakastietueita yhdistetään (taattava voi poistua)
+tai kopioidaan (takaaja ei tallennu). Näistä on mahdollisesti jo tiketit olemassa.
   
 Etelästä pohjoiseen.
+
+**OUTI:**
+* Vastaan tuli 16-vuotias asiakas asiakastyypillä 'Lapsi, omatoimi kielletty'. OUTIn käytäntö on, että 16-vuotiaat muuttuvat automaattisesti asiakastyyppiin 'Lapsi, omatoimi sallittu'. 11.4. alkaen oli kuitenkin ajo asiakastyyppien muuttamiseksi jumittunut, syynä takaajatiedoton lapsiasiakas, joka oli täyttänyt sen 16 vuotta. Takaajattomia lapsiasiakkaita oli yht. 15, joista suurin osa oli konversiosta tulleita, ja joitakin vuonna 2022 tehtyjä uusia tallennuksia. Suurin osa asiakkaista oli sellaisia, ettei kortteja ollut käytetty vuosiin. Yhdellä oli laskutuksessa lainoja. Esihenkilön päätöksellä poistettiin nämä asiakkaat lukuunottamatta laskutusasiakasta. Kohaan asetetut yläikärajat antavat vielä luoda sen ikäisen asiakkaan ko. asiakasryhmälle. 16-vuotiaita asiakkaita on jonkin verran luotu väärällä asiakastyypillä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
