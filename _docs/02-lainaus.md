@@ -25,15 +25,15 @@ Ohjelmassa toimivat pikanäppäimet:
 - Lainaus: *Alt+U*
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
-- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* "valitsee" kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+y.
+- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* aktivoi kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+y.
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
 ## 2.1. Lainaus
 
 Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
-*Lainaus*-kenttään tai hakemalla asiakas hänen nimelläään.
-Toimi kirjastosi käytäntöjen mukaan.
+*Lainaus*-kenttään tai hakemalla asiakasta hänen nimellä.
+Toimi kirjastossasi sovittujen käytäntöjen mukaan.
 
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
@@ -80,12 +80,12 @@ Kuitin voit tulostaa:
   järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
   asiakastiedot).
 - Painamalla pikanäppäimiä *Alt+P*.
-- Asiakastietojen yläpuolelta olevasta *Tulosta*-valikosta valitsemalla *Tänään lainatut*.
 - Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta.
-![](/assets/files/docs/Lainaus/tulostin.PNG)
-
-*Tulosta* -valikosta voit tulostaa myös lainakuitin toiminnolla *Tänään lainatut*:
-
+  
+  ![](/assets/files/docs/Lainaus/tulostin.PNG)
+  
+- Asiakastietojen yläpuolelta olevasta *Tulosta*-valikosta valitsemalla *Tänään lainatut*.
+  
 ![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
 *Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
@@ -96,8 +96,8 @@ Kuitin voit tulostaa:
 - *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
--  *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
-- *Tulosta palautuskuitti*: antaa asiakkaan kuluvana päivänä palautetuista lainoista kuitin.
+- *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
+- *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -106,7 +106,7 @@ Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 Kun lopetat lainaamisen, näytöltä on hyvä tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
 
-- Painamalla *Enter*. (Huom! kimpan asetuksista riippuen, Enter voi tulostaa myös
+- Painamalla *Enter*. (Huom! Kimpan asetuksista riippuen, Enter voi tulostaa myös
   asiakkaan lainakuitin).
 - Klikkaamalla *X-merkkiä* lainauskentän oikeasta yläkulmasta.
 
@@ -117,13 +117,13 @@ Näytön voit tyhjentää kahdella tavalla:
 ## 2.2 Lainaamisen estot
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
-estot ovat laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa
+estot ovat laitettu päälle kimppasi järjestelmäasetuksissa. Näissä tilanteissa
 näytölle tulee huomautus lainaamisen eston syystä.
 
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
-Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 19,50 €. Maksuja, jotka eivät vaikuta lainauskieltoon on 12,00 €.
+Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 20,20 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 1,01 €.
 
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
@@ -168,7 +168,7 @@ Lainaustilanteessa tulee huomautus:
 
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
-Päivitä osoitetiedot asiakkaan muokkausnäytöllä. Aseta muokkausnäytöllä kohdassa *Käyttäjätilin huomautukset* valinta "Ei" kohtaan *Tarkista osoite* ja tallenna asiakastietojen muokkaussivu.
+Päivitä osoitetiedot asiakkaan muokkaussivulla. Aseta muokkaussivulla osioon *Käyttäjätilin huomautukset* kohtaan *Tarkista osoite* "Ei" ja tallenna asiakastietojen muokkaussivu.
 
 ![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
 
@@ -176,17 +176,17 @@ Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoo
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkausnäytöllä osioon *Käyttäjätilin huomautukset* kohtaan *Kortti kadonnut* "Kyllä".
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkaussivulla osioon *Käyttäjätilin huomautukset* kohtaan *Kortti kadonnut* "Kyllä".
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/korttikadonnut.PNG)
 
-Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassa sovittujen
+Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassasi sovittujen
 käytäntöjen mukaan.  
 
-Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa 
+Huomautus poistuu, kun asiakastietojen muokkaussivulla osiossa 
 *Käyttäjätilin huomautukset* vaihdat *Kortti kadonnut* -kohtaan vaihtoehdon
 “Ei” ja tallennat asiakastiedot.
 
