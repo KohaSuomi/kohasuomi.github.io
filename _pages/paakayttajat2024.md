@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 16.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
@@ -42,6 +42,9 @@ Etelästä pohjoiseen.
 
 **Kirkes**
 * Poistettu Kohasta asiakkaiden Finnassa lisäämät valinnat asiakasviestien koosteille.
+
+**Lumme**
+* Normaalia ylläpitoa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
