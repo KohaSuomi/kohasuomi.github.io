@@ -247,9 +247,9 @@ lainaamisen jatkamista.
 
 - Tarkista niteen viivakoodi, onko se oikein.
 
-### 2.3.9 Lainattava nide on merkitty kadonneeksi.
+### 2.3.9 Lainattavan niteen tila on Kadonnut.
 
-![](/assets/files/docs/Lainaus/lainhuom8.png)
+![](/assets/files/docs/Lainaus/lainhuom8.PNG)
 
 - Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautusta. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
@@ -259,7 +259,7 @@ lainaamisen jatkamista.
 
 - Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
-### 2.3.11 Lainattavalla niteellä on paljon varauksia, jonka takia lyhennetään laina-aikaa.
+### 2.3.11 Lainattavalla teoksella on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom10.PNG)
 
