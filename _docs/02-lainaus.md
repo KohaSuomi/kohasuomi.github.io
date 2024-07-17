@@ -243,7 +243,7 @@ lainaamisen jatkamista.
 
 ### 2.3.8 Viivakoodia ei löytynyt.
 
-![](/assets/files/docs/Lainaus/lainhuom7.png)
+![](/assets/files/docs/Lainaus/lainhuom7.PNG)
 
 - Tarkista niteen viivakoodi, onko se oikein.
 
