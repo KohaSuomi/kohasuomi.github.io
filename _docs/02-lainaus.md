@@ -126,7 +126,7 @@ näytölle tulee huomautus lainaamisen eston syystä.
 Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 20,20 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 1,01 €.
 
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
-raja on ylittynyt.
+raja on ylittynyt.{: .notice--warning}
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
@@ -273,7 +273,7 @@ lainaamisen jatkamista.
 ![](/assets/files/docs/Lainaus/lainassa.PNG)
 
 *Sarakkeet* -valikosta voit valita, mitä sarakkeita
-Lainassa-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohtaisia eroja.
+Lainat-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.PNG)
 
@@ -281,7 +281,7 @@ Lainassa-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohta
 
 ![](/assets/files/docs/Lainaus/vie.PNG)
 
-Valikosta *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
+Linkin takaa *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
 Lainat-välilehdellä ensimmäisenä näkyvät tänään lainatut lainat.
 Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
@@ -293,40 +293,34 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
 ylläpidon laina- ja maksusäännöissä on määritelty.
 
-Lainat voi uusia asiakkaan tiedoissa Lainat-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla.
+Lainat voi uusia asiakkaan tiedoissa Lainat-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla. Huom! Toiminto voi olla kimpassasi piilotettu.
 
-Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
+Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.{: .notice--warning}
 
 #### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainat-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
-- Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu. 
-  Valitse uusittavat lainat ruksittamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
-  valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi
-  kaikki* -painiketta.
+- Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu.
+- Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo valmiiksi valittuna.
+- Muiden uusittavien lainojen kohdalta (jotka voi uusia) ruksaa uusinnan valintaruutu ja klikkaa näytön alareunasta painiketta *Uusi valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi kaikki*.
   
-- Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”
+- Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”,
   voit valita uusittavaksi kaikki lainat, jotka on mahdollista uusia.
   Toiminto “ei valintaa” poistaa valinnat.
   
 - Jos kimpassa on käytössä asetus, joka estää uusimisen samana päivänä
   uudestaan, tulee huomautus “Ei uusintaa ennen…”. Lainan voi uusia
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
-  tulee, kun päivität Lainassa-välilehden tai käyt välillä toisella
+  tulee, kun päivität Lainat-välilehden tai käyt välillä toisella
   sivulla.  
   ![](/assets/files/docs/Lainaus/uusinta6.PNG)
-  
-  - Jos kimpassa on sallittu lainojen palauttaminen Lainassa-välilehdellä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
-  aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
-  niteet Palutus-sarakkeesta ja klikkaamalla näytön alareunasta
-  painiketta *Uusi tai palauta valitut niteet*.
-  
+    
 #### 2.4.1.2 Uusinta-toiminto Lainaus ja palautus -sivulla
 
 - Huomio kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
   uusintatilanteessa, tätä toimintoa ei tule silloin 
-  käyttää.
+  käyttää. Toiminto voi olla myös piilotettuna kimpassasi.
 
 ![](/assets/files/docs/Lainaus/uusinta1.PNG)
 
