@@ -27,7 +27,15 @@ saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hak
 - Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
 hakulaatikoita ja rajaamalla hakuja hakuehdoilla. 
 
+Kirjoita hakutermi kohtaan _Haku_. Huom. Haku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
+
 Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
+- _Hakukenttä_-alasvetovalikosta voit valita millä tiedolla teet hakua.
+- Voit valita jokaisessa haussa hakutyypiksi joko _alkaa_ tai _sisältää_. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
+- Saat tarkennettua hakua rajaamalla hakua asiakastyypin mukaan,  jos valitset sen _Tyyppi_-alasvetovalikossa.
+- Saat tarkennettua hakua valitsemalla asiakkaan kirjaston _Kirjasto_-alasvetovalikosta.
+
+![](/assets/files/docs/Asiakkaat/Perushaku1.png)
 
 \- Perushaku:  
 Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
@@ -70,13 +78,6 @@ Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
 tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200
-
-
-Voit valita jokaisessa haussa hakutyypin _alkaa_ tai _sisältää_.
-Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono
-voi olla missä tahansa kohdassa hakukentässä.
-
-Saat tarkennettua hakua myös valitsemalla asiakkaan _kirjaston_ ja/tai rajaamalla hakua _asiakastyypin_ mukaan.
 
 Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
 
