@@ -34,7 +34,7 @@ Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tav
 - Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_ tai _sisältää_. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
 - Saat tarkennettua hakua rajaamalla hakua asiakastyypin mukaan,  jos valitset sen _Tyyppi_-alasvetovalikossa.
 - Saat tarkennettua hakua valitsemalla asiakkaan kirjaston _Kirjasto_-alasvetovalikosta.
-- _Hakukenttä_-alasvetovalikosta voit valita millä tiedolla teet hakua (alla on kerrottu tarkemmin mitä milläkin hakukentällä voi hakea).
+- _Hakukenttä_-alasvetovalikosta voit valita millä tiedolla teet hakua. Alla on kerrottu tarkemmin mitä milläkin hakukentällä voi hakea. Huom. Alasvetovalikon vaihtoehdoissa voi olla kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/Perushaku1.png)
 
