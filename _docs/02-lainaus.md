@@ -976,15 +976,13 @@ Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item b
 
 #### 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
 
+Lainat pitää ladata Kohaan ensin, ennen palautuksia.
 Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Lähetä palautetut lainat Kohaan toiminnolla *Apply to Koha*. 
 
 Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii.
 {: .notice--warning} 
 
 ![](/assets/files/docs/Lainaus/KOCTpalautus.PNG)
-
-Lainat pitää ladata Kohaan ensin, ennen palautuksia.
-{: .notice--warning}
 
 Kun lopetat ohjelman käytön, mene ensin "Configuration page" -sivulle ja tyhjennä parametreista omat kirjautumistietosi. <br/>
 Sulje lopuksi selain.
