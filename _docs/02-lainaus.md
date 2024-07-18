@@ -967,16 +967,17 @@ Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item b
 
 *Apply to koha* - vie lainat suoraan Kohaan, kun ohjelma taas toimii. Kun lähetys on onnistunut, saat ilmoituksen: "Current status: Transaction completed".
 
-*Export data* - tallentaa koneen lainat koneen oletuskansioon (lainojen tallentaminen Kohaan tehdään tiedonsiirron kautta).
-
 *Clear* - tyhjentää lainatut lainat (ohjelma varoittaa lainoista, joita ei ole viety Kohaan).
 
 *Clear added* - tyhjentää lainatut lainat (ei varoita lainoista, joita ei ole viety Kohaan).
+
+*Export data* - tallentaa koneen lainat koneen oletuskansioon (lainojen tallentaminen Kohaan tehdään tiedonsiirron kautta).
 
 
 #### 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
 
 Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Lähetä palautetut lainat Kohaan toiminnolla *Apply to Koha*. 
+
 Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii.
 {: .notice--warning} 
 
