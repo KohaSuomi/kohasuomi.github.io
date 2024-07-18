@@ -80,11 +80,6 @@ voi olla missä tahansa kohdassa hakukentässä.
 
 Saat tarkennettua hakua myös valitsemalla asiakkaan _kirjaston_ ja/tai rajaamalla hakua _asiakastyypin_ mukaan.
 
-Voit myös selata asiakkaita sukunimen ensimmäisen kirjaimen mukaan
-linkkinä olevien kirjainten mukaan.
-
-![](/assets/files/docs/Asiakkaat/aastaoohon.png)
-
 Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
 {: .notice--warning}
 
