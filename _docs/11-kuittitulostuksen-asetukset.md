@@ -127,14 +127,14 @@ valmiina), lisää tämä ominaisuus:
 
 VAROITUS  
 Näin määritetty print.always_print_silent -asetus estää tulostimen
-vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja,
+vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
 käytä tulostamiseen toista selainohjelmaa.
 
 ## 9.4 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi, tarkista
 kuittitulostuksen asetukset. Vaihda yllä kuvatun
-_print.always_print_silent_-määrityksen asetus true -> false, niin pääset asetuksiin. Kun asetukset on muutettu toimiviksi, vaihda asetus takaisin false -> true.
+_print.always_print_silent_-määrityksen asetus true -> false, niin pääset asetuksiin. Kun asetukset on muutettu toimiviksi, vaihda asetus takaisin asetus false -> true.
 
 ---
 
