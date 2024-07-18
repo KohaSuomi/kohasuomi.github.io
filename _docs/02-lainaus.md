@@ -299,7 +299,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 
 #### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainat-välilehdellä.
 
-![](/assets/files/docs/Lainaus/uusinta.png)
+![](/assets/files/docs/Lainaus/uusinta.PNG)
 
 - Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu.
 - Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo valmiiksi valittuna.
