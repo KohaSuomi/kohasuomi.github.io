@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 30
+
+Aika: <br />
+Läsnä:
+
+**Asiat**
+* Bug [35604](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=35604) - ILL - Allow for automatic backend selection testaus   
+
 ## Viikko 29
 
 Aika: Maanantai 15.7.2024 klo 9<br />
