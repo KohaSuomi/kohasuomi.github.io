@@ -81,7 +81,6 @@ voi olla missä tahansa kohdassa hakukentässä.
 Saat tarkennettua hakua myös valitsemalla asiakkaan _kirjaston_ ja/tai rajaamalla hakua _asiakastyypin_ mukaan.
 
 Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
-{: .notice--warning}
 
 ## 1.2. Lisää uusi asiakas
 
