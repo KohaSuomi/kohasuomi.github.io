@@ -192,98 +192,9 @@ Lisäksi tarvitaan tilaussanomissa oleva VendorAssignedID (toimittajan antama tu
 
 ---
 
-## 3. Käyttöönoton määritykset Koha-palvelimella
+## 3. Tilausten seuranta ja virheraportointi
 
-Järjestelmänkehittäjä tekee nämä määritykset.
-
-### 3.1 Käyttäjätunnus aineistontoimittajalle
-
-Luo editx käyttäjä Koha-palvelimelle: _adduser --shell /usr/sbin/nologin editx_
-
-Tätä tunnusta aineistontoimittajat käyttävät toimittaessaan tilaussanomat Koha-palvelimelle. Yhtä ja samaa tunnusta voidaan käyttää yhteisesti kaikille aineistontoimittajille.
-
-Tipauta liiat oikeudet: _chmod 360 /home/editx_
-
-Käyttäjän tarvitsee ainoastaan pystyä vaihtamaan kotihakemistoonsa ja kirjoittamaan sinne tiedostoja. Tiedostojen lukeminen ei ole tarpeen (toimittajien ei ole tarpeen lukea toistensa tilaussanomia).
-
-Tulevan chrootin takia on hyvä vähän karsia myös /home -haaran oikeuksia. Käyttäjille riittää että he pääsevät /home:n kautta siirtymään kotihakemistoonsa. Ei ole tarpeen nähdä muiden käyttäjätilien kotihakemistojen nimiä saatikka kirjoittaa /home -haaraan mitään: _chmod 711 /home_
-
-Muuta käyttäjän kotihakemiston sijainti osoittamaan tulevan chrootin juureen (huom! älä siirrä varsinaista kotihakemistoa!): _usermod -d /editx editx_
-
-### 3.2 SFTP
-
-Näihin tarvitaan root-oikeudet Koha-palvelimella. Lisää tämä /etc/ssh/sshd_config loppuun:
-
-```
-Match user editx
-ChrootDirectory /home
-X11Forwarding no
-AllowTcpForwarding no
-AllowAgentForwarding no
-PermitTunnel no
-ForceCommand internal-sftp -u 0707
-```
-
-Käyttäjä lukitaan /home -hakemistohaaraan ja ainoastaan ryhmälle jätetään oikeudet luotuihin tiedostoihin. Käynnistä tämän jälkeen sshd-uudelleen, jotta muutokset astuvat voimaan: _service ssh restart_
-
-### 3.3 LXC
-
-Valmistele mount bind containeria varten. Lisää containerin config -tiedostoon (root-oikeuksin hostilla) rivi:
-
-```lxc.mount.entry = /home/editx /var/lib/lxc/[container]/[rootfs]/home/koha/koha-dev/var/spool/editx/tmp none defaults,bind 0 0```
-
-Siirry containerin sisälle _ssh [container]_ tai _sudo lxc-attach -n [container]_, ja luo tarvittavat hakemistot: _cd ~/koha-dev/var/spool && mkdir -p editx/tmp editx/load editx/fail editx/archive editx/failed-archived_. Luo hakemistot Koha-käyttäjänä (eli jos siirryit containeriin lxc-attachilla, niin _su koha_ ensin), jotta hakemistojen omistajat asettuvat oikein.
-
-Lisää editx-ryhmä + liitä siihen koha-käyttäjä: _sudo sh -c "addgroup --gid [GID] editx && usermod -a -G editx koha"_
-
-editx ryhmän GID täytyy olla sama containerin sisällä kuin hostilla. Tarvittaessa GID:tä voi muuttaa _sudo groupmod -g [GID] editx_ -komennolla. Ryhmäoikeuden perusteella koha-käyttäjä saa kaikki oikeudet tilaussanomien käsittelyyn.
-
-Poistu containerista takaisin hostille ja tee vielä containerin uudelleenkäynnistys hostilla: _sudo sh -c "lxc-stop -n [container] && lxc-start -d -n [container]"_ TAI vaihtoehtoisesti editx-hakemiston mount-bind hostilta containerin sisälle: _sudo mount --bind /home/editx /var/lib/lxc/[container]/[rootfs]/home/koha/koha-dev/var/spool/editx/tmp_.
-
-### 3.4 Rajapinnan konfigurointi
-
-Konfiguraatio on tiedostossa ~/koha-dev/etc/procurement_config.xml:
-
-```
-<?xml version="1.0"?>
-<data>
-    <settings>
-        <import_tmp_path>/home/koha/koha-dev/var/spool/editx/tmp</import_tmp_path> <!-- The folder where files should be first put. The Integrations external entrypoint -->
-        <import_load_path>/home/koha/koha-dev/var/spool/editx/load</import_load_path> <!-- The path from where the script reads files to import -->
-        <import_archive_path>/home/koha/koha-dev/var/spool/editx/archive</import_archive_path> <!-- The path where files are archived after succesfull import-->
-        <import_failed_path>/home/koha/koha-dev/var/spool/editx/fail</import_failed_path> <!-- The path where files are archived if something fails during import-->
-        <import_failed_archived_path>/home/koha/koha-dev/var/spool/editx/failed_archived</import_failed_archived_path> <!-- The path where files are archived if something fails during import-->
-        <authoriser>nnnnnn</authoriser> <!-- A borrowers id (borrowernumber) used in import, change this! -->
-        <allowed_locations>LN,AIK,MUS,OU</allowed_locations>
-        <productform_alternative_triggers>LAP</productform_alternative_triggers> <!-- The shelving location that is found in fundnumber, used for assigning productform_alternative from db map_productform-->
-        <automatch_biblios>yes</automatch_biblios> <!-- Set to 'no' if you want to create a new biblio and biblioitem on every order. -->
-    </settings>
-    <notifications>
-        <mailto>osoite1@ouka.fi,osoite2@ouka.fi,osoite3@ouka.fi</mailto> <!-- comma separated list of email-addresses to send error reports to -->
-    </notifications>
-</data>
-```
-
-Polkuihin ei yleensä tarvitse koskea, oletuspolut toimivat jos käyttöönotto tehdään tässä dokumentissa kuvatulla tavalla. Authoriser on Kohassa määritelty EditX-tilausten luoja (Kohaan tarkoitusta varten lisätyn editx-käyttäjän borrowernumber) ja allowed_locations kertoo mille hyllypaikoille aineistoa voi hankkia. Kuvailutietueiden tuplakontrollin voi halutessaan kytkeä pois muuttamalla automatch_biblios asetukseksi no. Silloin tilatuista nimekkeistä muodostuu aina uudet kuvailutietueet omine niteineen.
-
-Notifications-osan mailto-elementissä määritellään sähköpostitse lähetettävien virhesanomien vastaanottajat.
-
-### 3.5 Sanomien käsittelyn ja virhehuomautusten ajastus
-
-Lisää seuraavat rivit containerin koha-käyttäjän crontabiin:
-
-```
-*/1 7-22 * * * $KOHA_CRONJOB_TRIGGER cronjobs/runEditXImport.pl
-01 06 * * *    $KOHA_CRONJOB_TRIGGER cronjobs/notify-failed-editx.sh
-```
-
-Sanomat käsitellään klo 7.00-22.00 välisenä aikana minuutin välein tai niin nopeassa tahdissa kuin mahdollista. KOHA_CRONJOB_TRIGGER pitää huolen sanomankäsittelyskriptin lukituksesta. Sähköpostihuomautukset virheellisistä sanomista lähetetään kello 6.01 aamuisin.
-
----
-
-## 4. Tilausten seuranta ja virheraportointi
-
-### 4.1 EDIFACT-sanomat
+### 3.1 EDIFACT-sanomat
 
 *Huomattavaa:* Jotta sanomat voi nähdä, pitää käyttäjätunnuksella olla edi_manage-käyttäjäoikeus. 
 
@@ -313,7 +224,7 @@ Kenttien selitteet:
   * _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
   * _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia. Tiedosto säilyy myös palvelimella.
 
-### 4.2 Virheraportointi sähköpostitse
+### 3.2 Virheraportointi sähköpostitse
 
 Virheisiin päättyneiden sanomien käsittelystä on mahdollista saada valittuihin sähköpostiosoitteisiin ilmoitus. Järjestelmänkehittäjä lisää osoitteet osoitelistalle pyydettäessä.
 
@@ -321,7 +232,7 @@ Esimerkkiviesti:
 
 ![](/assets/files/docs/Ohjeet/editx4.png)
 
-### 4.3 Erilaisia virhetilanteita
+### 3.3 Erilaisia virhetilanteita
 
 Aina virheviestiin ei saada poimittua järkeviä syitä käsittelyn epäonnistumiselle, mutta alla on muutamia esimerkkejä erilaisista virheviesteistä ja kuinka toimia.
 
