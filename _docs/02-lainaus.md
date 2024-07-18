@@ -965,7 +965,7 @@ Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item b
 
 ![](/assets/files/docs/Lainaus/KOCTlainaus2.PNG)
 
-*Apply to koha* - vie lainat suoraan Kohaan, kun ohjelma taas toimii. Kun lähetys on onnistunut, saat ilmoituksen: *Current status: Transaction completed*.
+*Apply to koha* - vie lainat suoraan Kohaan, kun ohjelma taas toimii. Kun lähetys on onnistunut, saat ilmoituksen: "Current status: Transaction completed".
 
 *Export data* - tallentaa koneen lainat koneen oletuskansioon (lainojen tallentaminen Kohaan tehdään tiedonsiirron kautta).
 
