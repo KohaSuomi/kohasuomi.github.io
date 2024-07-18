@@ -126,7 +126,8 @@ näytölle tulee huomautus lainaamisen eston syystä.
 Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 20,20 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 1,01 €.
 
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
-raja on ylittynyt.{: .notice--warning}
+raja on ylittynyt.
+{: .notice--warning}
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
@@ -295,14 +296,15 @@ ylläpidon laina- ja maksusäännöissä on määritelty.
 
 Lainat voi uusia asiakkaan tiedoissa Lainat-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla. Huom! Toiminto voi olla kimpassasi piilotettu.
 
-Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.{: .notice--warning}
+Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
+{: .notice--warning}
 
 #### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainat-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.PNG)
 
 - Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu.
-- Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo valmiiksi valittuna.
+- Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo oletuksena valittuna.
 - Muiden uusittavien lainojen kohdalta (jotka voi uusia) ruksaa uusinnan valintaruutu ja klikkaa näytön alareunasta painiketta *Uusi valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi kaikki*.
   
 - Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”,
@@ -385,7 +387,7 @@ määritelty), näyttöön tulee ilmoitus:
 
 ![](/assets/files/docs/Lainaus/vanhentunut.png)
 
-Tarkista asiakkaan yhteystiedot (osoite, puhelinnumero,
+Tarkista ja päivitä tarvittaessa asiakkaan yhteystiedot (osoite, puhelinnumero,
 sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
 *Uusinta*. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä *Muokkaa tietoja*.
 
@@ -629,6 +631,8 @@ Vinkkejä:
 - Valitse kirjasto-sarakkeista (On shelf/Varaus) oma kirjasto, jolloin pystyt helposti
   tarkistamaan omassa kirjastossa paikalla olevat varaukset ja joiden
   noutopiste on myös oma kirjastosi.
+- Kirjastolyhenne näkyy oranssin värisenä, jos nide löytyy varauksen noutokirjastosta.
+- Samaan poimintaryhmään kuuluvat kirjastot näkyvät boldattuna, mihin varauksen noutokirjasto myös kuuluu. 
 - Sivulla näytetään oletuksena 20 hyllyssä olevaa varausta. Valitse *Näytä_Kaikki*, jolloin saat samalle sivulle kaikki varaukset.
 - Voit rajata listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
 - Voit järjestää hakutuloksia otsikkorivin kaksisuuntaisista nuolista nousevaan tai laskevaan järjestykseen.
