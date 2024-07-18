@@ -13,7 +13,7 @@ hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
 
 ## 1.1. Asiakkaan hakeminen
 
-Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat asiakastietojen hakusivun, jossa voit selata tai
+Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat asiakastietojen hakusivun, jossa voit
 hakea asiakkaiden tietoja.
 ![](/assets/files/docs/Asiakkaat/Ylapalkinasiakkaat.png)
 
