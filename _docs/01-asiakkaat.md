@@ -47,7 +47,7 @@ viivakoodi, varaustunniste tai varaustunnisteen osa. Antaessasi nimen tai osan n
 Anna asiakkaan sukunimi tai sukunimen osa. Valitse hakutyypiksi
 _sisältää_
 
-\- Kortin numero:
+\- Kortin numero:  
 Anna asiakkaan kortin numero
 
 \- Sähköposti:  
