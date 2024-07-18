@@ -22,7 +22,7 @@ hakea asiakkaiden tietoja.
 Klikkaamalla sivun yläreunan hakulaatikossa olevaa pientä valikko-kuvaketta 
 saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
 
-Samat hakuominaisuudet ovat myös Hae asiakkaita-hakulaatikon alasvetovalikoista.
+Samat hakuominaisuudet ovat myös Hae asiakkaita-hakulaatikon alasvetovalikoissa.
 
 Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
 hakulaatikoita. 
