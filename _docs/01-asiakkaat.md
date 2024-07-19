@@ -52,7 +52,7 @@ Anna asiakkaan kortin numero
 
 \- Kaikki sähköpostiosoitteet:  
 Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
-_sisältää_. Tämä haku hakee kaikista sähköpostiosoite-kentistä.
+_sisältää_. Tämä hakuehto hakee kaikista sähköpostiosoite-kentistä.
 
 \- Asiakkaan ID:  
 Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
@@ -61,8 +61,8 @@ Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 Anna asiakkaan erillinen käyttäjätunnus, kirjastokortin numero tai osa siitä. Käyttäjätunnuksen tallennuksessa voi olla kimppakohtaisia eroja. Antaessasi osan kirjastokortin numerosta valitse hakutyypiksi _sisältää_
 
 \- Kaikki puhelinnumerot:  
-Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä haku hakee kaikista puhelinnumero-kentistä.
+Anna puhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä hakuehto hakee kaikista puhelinnumero-kentistä.
 
 \- Koko osoite:  
 Anna asiakkaan osoite tai osoitteen osa ja valitse hakutyypiksi _sisältää_
@@ -75,7 +75,7 @@ Tee asiakashaku etunimellä tai kaikilla etunimillä. Valitse hakutyypiksi _sis�
 
 \- Sähköposti:  
 Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
-_sisältää_
+_sisältää_ Tämä hakuehto hakee tiedon vain Sähköposti-kentästä.
 
 \- Matkapuhelin:
 Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
