@@ -50,9 +50,9 @@ _sisältää_
 \- Kortin numero:  
 Anna asiakkaan kortin numero
 
-\- Sähköposti:  
+\- Kaikki sähköpostiosoitteet:  
 Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
-_sisältää_
+_sisältää_. Tämä haku hakee kaikista sähköpostiosoite-kentistä.
 
 \- Asiakkaan ID:  
 Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
@@ -60,13 +60,11 @@ Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 \- Käyttäjätunnus:  
 Anna asiakkaan erillinen käyttäjätunnus, kirjastokortin numero tai osa siitä. Käyttäjätunnuksen tallennuksessa voi olla kimppakohtaisia eroja. Antaessasi osan kirjastokortin numerosta valitse hakutyypiksi _sisältää_
 
-\- Lankapuhelin:  
+\- Kaikki puhelinnumerot:  
 Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
-numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
-muodossa 013 267 6200
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä haku hakee kaikista puhelinnumero-kentistä.
 
-\- Osoite:  
+\- Koko osoite:  
 Anna asiakkaan osoite tai osoitteen osa ja valitse hakutyypiksi _sisältää_
 
 \- Syntymäaika:  
@@ -75,11 +73,32 @@ Voit hakea muodoissa PP.KK.VVVV, PPKKVV tai PPKKVVVV
 \- Etunimi:
 Tee asiakashaku etunimellä tai kaikilla etunimillä. Valitse hakutyypiksi _sisältää_
 
+\- Sähköposti:  
+Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
+_sisältää_
+
 \- Matkapuhelin:
 Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
 tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200
+
+\- Automaattityyppi:  
+Anna automaatin tyyppi. Valitse hakutyypiksi _sisältää_
+
+\- Varaustunnus:  
+Anna asiakkaan varaustunnus tai osa siitä ja valitse hakutyypiksi
+_sisältää_
+
+\- Sotu-avain:  
+Anna asiakkaan sotu-avain. Huom. Tämän hakukentän nimi voi vaihdella eri kirjastokimpoissa.
+
+\- Automaatin toimittaja:  
+Anna automaatin toimittajan nimi tai osa siitä ja valitse hakutyypiksi
+_sisältää_
+
+\- Y-tunnus:  
+Anna Y-tunnus
 
 Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
 
