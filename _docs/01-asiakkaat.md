@@ -103,6 +103,8 @@ Anna Y-tunnus ja valitse hakutyypiksi _sisältää_
 
 Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
 
+![](/assets/files/docs/Asiakkaat/Tarkka_asiakashaku.png)
+
 ## 1.2. Lisää uusi asiakas
 
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
