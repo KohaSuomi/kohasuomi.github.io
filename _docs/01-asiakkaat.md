@@ -75,7 +75,7 @@ Tee asiakashaku etunimellä tai kaikilla etunimillä. Valitse hakutyypiksi _sis�
 
 \- Sähköposti:  
 Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
-_sisältää_ Tämä hakuehto hakee tiedon vain Sähköposti-kentästä.
+_sisältää_. Tämä hakuehto hakee tiedon vain Sähköposti-kentästä.
 
 \- Matkapuhelin:
 Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
