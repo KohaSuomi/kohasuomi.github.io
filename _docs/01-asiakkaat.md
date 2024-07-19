@@ -91,7 +91,8 @@ Anna asiakkaan varaustunnus tai osa siitä ja valitse hakutyypiksi
 _sisältää_
 
 \- Sotu-avain:  
-Anna asiakkaan sotu-avain. Huom. Tämän hakukentän nimi voi vaihdella eri kirjastokimpoissa.
+Anna asiakkaan sotu-avain ja valitse hakutyypiksi
+_sisältää_. Huom. Tämän hakukentän nimi voi vaihdella eri kirjastokimpoissa.
 
 \- Automaatin toimittaja:  
 Anna automaatin toimittajan nimi tai osa siitä ja valitse hakutyypiksi
