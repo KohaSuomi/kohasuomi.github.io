@@ -62,7 +62,7 @@ Anna asiakkaan erillinen käyttäjätunnus, kirjastokortin numero tai osa siitä
 
 \- Kaikki puhelinnumerot:  
 Anna puhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä hakuehto hakee kaikista puhelinnumero-kentistä.
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä hakuehto hakee Matkapuhelin- ja Lankapuhelin-kentistä.
 
 \- Koko osoite:  
 Anna asiakkaan osoite tai osoitteen osa ja valitse hakutyypiksi _sisältää_
