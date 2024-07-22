@@ -122,10 +122,9 @@ Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_.
 
 ### 1.2.1. Henkilötunnuksen lisääminen asiakastietoihin
 
-Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Tallenna_.
+Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siiloon_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
-
 
 \- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!". 
