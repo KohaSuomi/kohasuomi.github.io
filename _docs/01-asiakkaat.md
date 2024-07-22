@@ -135,11 +135,9 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 
 Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
-(kentän nimi voi vaihdella kimpan mukaan). 
+(kentän nimi voi vaihdella kimpan mukaan). Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
-
-Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 \- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti kimppasi asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
@@ -149,7 +147,7 @@ tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
-Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
+Jos sekä henkilötunnus sekä asiakastiedot jo ennestään löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
 Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
 
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
