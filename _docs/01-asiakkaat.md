@@ -137,7 +137,7 @@ Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
 (kentän nimi voi vaihdella kimpan mukaan). Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
-![](/assets/files/docs/Asiakkaat/Sotu-avain3.png)
+![](/assets/files/docs/Asiakkaat/Sotuavain3.png)
 
 \- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti kimppasi asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
