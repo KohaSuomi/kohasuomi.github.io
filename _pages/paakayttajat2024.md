@@ -16,7 +16,7 @@ Aika: 23.7.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset asiat:**
-* Viikon 30 päivitys
+* [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1328)
 * Mobiilikirjautuminen automaateille on korjattu
   
 Pohjoisesta etelään.
