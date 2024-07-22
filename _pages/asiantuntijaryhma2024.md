@@ -139,7 +139,7 @@ Vaski: Susanna Sandell ja Asko Autio (Turku)<br />
 Vaara: Päivi Knuutinen ja Irina Halminen (Joensuu)<br />
 Helle: Kati Sillgren ja Tove Selkälä (Porvoo)<br />
 Lumme: Selvitettävänä<br />
-Lastu: Janne Seppänen (Lahti), vara selvitettävänä
+Lastu: Janne Seppänen (Lahti), Lauri Hänninen (Lahti)
 
 ### 10. Muut asiat
 
