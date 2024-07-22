@@ -10,10 +10,23 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 30
+
+Aika: 23.7.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat:**
+* Viikon 30 päivitys
+* Mobiilikirjautuminen automaateille on korjattu
+  
+Pohjoisesta etelään.
+  
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-30) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 29
 
 Aika: 16.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
