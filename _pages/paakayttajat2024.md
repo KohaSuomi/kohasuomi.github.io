@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset asiat:**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1328)
-* Mobiilikirjautuminen automaateille on korjattu
+* Mobiilikirjautuminen automaateille on korjattu. Automaatit nyt hyväksyvät myös pienen a-kirjaimen kirjautuessa. Samalla korjattiin myös OUTI-alkuisten tunnusten hyväksyminen. Kyse oli kuitenkin automaattien omista säännöistä asiakastunnusten muodolle.
   
 Pohjoisesta etelään.
   
