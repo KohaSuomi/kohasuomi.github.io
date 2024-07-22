@@ -122,13 +122,6 @@ Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_.
 
 ### 1.2.1. Henkilötunnuksen lisääminen asiakastietoihin
 
-Oheisissa ruutukaappauksissa käytetty sotu on tehty
-henkilötunnusgeneraattorin avulla, se ei ole kenenkään henkilön oikea
-tunnus, mutta täyttää tunnuksen ominaisuudet tarkistusmerkkiä myöten.
-Sotu-avaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
-mutta henkilötunnus ei näy.
-
-
 Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Tallenna_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
