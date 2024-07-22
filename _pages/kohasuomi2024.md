@@ -15,11 +15,26 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 30
 
-Aika: <br />
-Läsnä:
+Aika: 22.7.2024 klo 9<br />
+Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
 
 **Asiat**
 * Bug [35604](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=35604) - ILL - Allow for automatic backend selection testaus   
+  * laitetaan comm-kanta pystyyn ja testataan siellä
+  * tehdään comm-kontissa päivitys tuoreempaan käyttöjärjestelmäversioon
+  * Emmillä on yhteisöversion kanta, käytetään sitä
+  * moduulit yhteisön pakettivarannosta, vanhat cpanit pois
+* Viikon 30 päivitys
+  * [Sarjajulkaisun hakeminen fasetin kautta #251](https://github.com/KohaSuomi/Koha/issues/251)
+  * [Laskutusliitännäinen: Älä käytä saraketta "accounttype" jos asiakkaalle lisätään maksuja #8](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/8)
+  * [Template-cachen hakemiston vaihto #517](https://github.com/KohaSuomi/Koha/issues/517) (perjantain automaattikatkos liittyi tähän)
+* Scrumm
+  * Johanna: versionvaihtotikettien ihmettelyä (niteitä ei saa auki nidevälilehdellä)
+  * Pasi: yhteisön tikettien katselua
+  * Emmi: niteitä ei saa auki välilehdellä, varaustyökalun tutkiskelua, miten saa toimimaan apin kautta
+  * Kodo: muutoksia build releaseen: pelkkä build release riittää, ei tarvitse enää hakemistoa. korefreshiin remonttia: -u Kodo kirjoittaa tähän... Siivousta
+  * Lasse: versionvaihtotikettejä
+  * Anneli: lomailua ja viestien läpikäyntiä
 
 ## Viikko 29
 
