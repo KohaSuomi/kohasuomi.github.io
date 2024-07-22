@@ -120,6 +120,8 @@ Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
+Asiakastyypin valittuasi pääset asiakkaan muokkaussivulle.
+
 ### 1.2.1. Henkilötunnuksen lisääminen asiakastietoihin
 
 Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siiloon_.
