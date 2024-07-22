@@ -135,15 +135,14 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 
 Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
-(kentän nimi voi vaihdella kimpan mukaan). Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
+(kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain3.png)
 
 \- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti kimppasi asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
 
-Jos tietoja ei löydy kimpan asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
-tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
+Jos tietoja ei löydy kimpan asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!" ja asiakkaalle muodostuu Sotu-avain -kenttään sotu-avain ja Syntymäaika-kenttään hänen syntymäaikansa. Jatka tuolloin uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
@@ -173,9 +172,14 @@ kohdassa
 
 ### 1.2.2. Nimi, syntymäaika, muu nimi ja varaustunnus
 
-Syötä asiakkaan koko nimi ja syntymäaika. Muu nimi- kenttään voidaan tallentaa asiakkaan kutsumanimi, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään. Varaustunniste luodaan klikkaamalla Varaustunnus-kentän vieressä olevaa kolmea pistettä. Huomaathan, että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot tai kentät voivat olla eri nimisiä.
+![](/assets/files/docs/Asiakkaat/SukunimiEtunimi.png)
 
-![](/assets/files/docs/Asiakkaat/Muunimikentta.png)
+- Syötä asiakkaan koko nimi Sukunimi- ja Etunimi-kenttiin.
+- Syntymäaika syötetään siinä tapauksessa, jos asiakkalla ei ole henkilötunnusta, muutoin asiakkaan syntymäaika muodostuu Syntymäaika-kenttään automaattisesti, kun hänen henkilötunnuksensa viedään Sotuteekkiin.
+- Muu nimi- kenttään voi tallentaa asiakkaan kutsumanimen, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään.
+- Jos varaustunnus ei muodostu uudelle asiakkaalle automaattisesti kuten kuvassa, niin sen saa klikkaamalla Varaustunnus-kentän vieressä olevaa kolmea pistettä.
+
+Huomaathan, että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot tai kentät voivat olla eri nimisiä.
 
 Asiakastyyppeille on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
