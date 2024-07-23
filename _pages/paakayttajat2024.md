@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 23.7.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset asiat:**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1328)
