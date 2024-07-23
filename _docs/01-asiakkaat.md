@@ -207,7 +207,7 @@ Huom. kaikissa kimpoissa ei ole Lajittelu-hakukenttiä otettu käyttöön.
 Saat listan hakuun sopivista asiakkaista. Klikkaa _Valitse_ tai _Select_-painiketta
 oikean henkilön kohdalla. 
 
-<img src="/assets/files/docs/Asiakkaat/Haetakaaja.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Asiakkaat/Haehuoltaja.png" alt="" style="width:90.0%" />
 
 Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
 vaihtoehdot voivat vaihdella kimpoissa.
