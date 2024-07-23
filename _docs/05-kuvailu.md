@@ -313,6 +313,21 @@ _Poista tietue_ -teksti näkyy harmaana.
 
 ![](/assets/files/docs/Luettelointi/kuvailu20.png)
 
+### 5.1.9. Tietueen tiedot muutoslokilla ja tietojen palautus
+
+Tietueeseen tehdyt muutokset tallentuvat muutoslokille, johon pääsääntöisesti on pääsy kimpan pääkäyttäjillä. Muutoslokille pääsee tietueen perustiedot-näytöltä kohdasta _Muutosloki_.
+
+![](/assets/files/docs/Luettelointi/muutosloki.png)
+
+* _Pvm_-sarakkeessa näytetään muutoksen tekopäivä.
+* _Virkailija_-sarakkeessa näytetään muutoksen tehneen virkailijan borrowernumber.
+* _Osio_-sarakkeessa näytetään, missä Kohan osiossa muutos on tehty.
+* _Toiminto_-sarakkeessa näytetään, mikä toiminto on tehty.
+* _ID-tunnus_-sarakkeessa näytetään, mitä tietuetta ja/tai nidettä on muokattu.
+* _Tiedot_-sarakkeessa näytetään tietueen tiedot ennen muutosta.
+  * _Palauta_-napilla pystyy palauttamaan kyseisen rivin kuvailutiedot takaisin tietueeseen. Tätä voi käyttää, jos esim. tietueen päälle on vahingossa valunut väärät tiedot tai tietoja on vahingossa muokattu vääränlaisiksi.
+* _Käyttöliittymä_-sarakkeessa näytetään, minkä käyttöliittymän kautta muutos on tehty. Vaihtoehtoja ovat esim. Ajastettu ajo, REST, Virkailijaliittymä. 
+
 ## 5.2. Nidetietueet
 
 Kohassa jokaisella nimeketietueella (bibliografinen tietue) voi olla
