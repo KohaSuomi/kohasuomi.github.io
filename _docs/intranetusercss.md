@@ -797,6 +797,13 @@ body#circ_returns.circ.modal-open div#[bundle-needsconfirmation-modal.modal.fade
 
 ## Maksut
 
+### Piilota Maksa- ja Poista-alavälilehdet asiakkaan maksusivulta
+
+```
+/* Piilota Maksa-Poista välilehdet Maksusivulta */
+body#pat_paycollect ul.nav-pills { display: none; }
+```
+
 ### Piilota Luo hyvitys -välilehti asiakkaan maksuista 
 
 Tarpeellisuus: Hyvin suositeltava<br />
