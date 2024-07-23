@@ -199,13 +199,15 @@ Huom. kaikissa kimpoissa ei ole kuvassa näkyvää _Näytä takaajille lainat_-v
 
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
-Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
-alasvetovalikoista sopivat vaihtoehdot.
+Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse tarvittaessa
+alasvetovalikoista sopivat kirjasto- ja asiakastyyppi-vaihtoehdot.
 
-Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta _Valitse_ tai _Select_-painiketta
+Huom. kaikissa kimpoissa ei ole Lajittelu-hakukenttiä otettu käyttöön. 
+
+Saat listan hakuun sopivista asiakkaista. Klikkaa _Valitse_ tai _Select_-painiketta
 oikean henkilön kohdalla. 
 
-<img src="/assets/files/docs/Asiakkaat/Valitsetakaaja.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Asiakkaat/Haetakaaja.png" alt="" style="width:90.0%" />
 
 Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
 vaihtoehdot voivat vaihdella kimpoissa.
