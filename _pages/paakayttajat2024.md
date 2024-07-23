@@ -21,6 +21,11 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen ja Hann
   
 Pohjoisesta etelään.
 
+**OUTI**
+* Kohan ohjetta varten asiakashakua testatessa huomattiin, että jos hakee automaattia tai automaatin toimittajaa, niin haku kohdistuu auktorisoituun arvoon eikä kuvailuun, joka näkyy käyttäjille. OUTIssa näissä voi kuvailu olla eri kuin auktorisoitu arvo esim. Aukrotisoitu arvo: Supa ja Kuvailu: Lyngsoe Systems. Eli jos hakee Supalla, niin löytyy Lyngsoen automaatit, mutta Lyngsoella ei löydy mitään. Mikä neuvoksi?
+  * Teemme uuden aktorisoidun arvon ja asiakasmuokkauksessa siirrämme toimittajat uudelle arvolle. Poistamme vanhan auktorisoidun arvon, kun se on tyhjä.
+* Webkaken palvelimenvaihto ei onnistunut viime su 21.7., joten Jukka yrittää uudelleen ensi su 28.7. Yksi vaihdossa ilmennyt ongelma oli se, että LinkMobilityn tekstiviestit eivät lähteneet vaikka uuden palvelimen nimi ja ip olivat samat kuin vanhalla palvelimella.
+
 **Vaara**
 * Aineistotyyppivalikko siivottu tarpeettomista aineistotyypeistä Emmin idean mukaan. Se kirjastovalinta oli hyvä keksintö.
 * Vaskiin kiitos Mikolle hankintaluetteloraportista.
