@@ -225,7 +225,7 @@ Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettava
 
 Jos takaajaa ei löydy asiakasrekisteristä, avaa selaimessa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa tallennuksen jälkeen lapsiasiakkaan
-tietoihin toiselle välilehdelle ja tee takaajahaku uudelleen.
+tietoihin, jotka ovat edelleen auki toisella välilehdellä ja tee takaajahaku uudelleen.
 
 Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
