@@ -13,13 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 23.7.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat:**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1328)
 * Mobiilikirjautuminen automaateille on korjattu. Automaatit nyt hyväksyvät myös pienen a-kirjaimen kirjautuessa. Samalla korjattiin myös OUTI-alkuisten tunnusten hyväksyminen. Kyse oli kuitenkin automaattien omista säännöistä asiakastunnusten muodolle.
   
 Pohjoisesta etelään.
+
+**Vaara**
+* Aineistotyyppivalikko siivottu tarpeettomista aineistotyypeistä Emmin idean mukaan. Se kirjastovalinta oli hyvä keksintö.
+* Vaskiin kiitos Mikolle hankintaluetteloraportista.
+* Elements-ongelmaan tuli ehdotukseksi käyttää Firefoxin esr128-versiota. Pitää koettaa saada käyttöön ja testata, toimiiko tulostimien kanssa oikein.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-30) - [Palaa sivun alkuun](/paakayttajat2024)
 
