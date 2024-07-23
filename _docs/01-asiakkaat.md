@@ -229,12 +229,6 @@ tietoihin, jotka ovat edelleen auki toisella välilehdellä ja tee takaajahaku u
 
 Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
-#### 1.2.3.1. Ei-asiakas takaaja-tiedon lisääminen
-
-Kimppakohtainen.
-
-![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
-
 ### 1.2.4. Osoite
 
 Osoite-osiossa _Kunta_ tarkoittaa käytännössä postitoimipaikkaa, ei
