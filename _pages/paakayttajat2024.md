@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 23.7.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat:**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1328)
@@ -34,6 +34,10 @@ Pohjoisesta etelään.
 
 **Vaski**
 * Ei raportoitavaa
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Kummastusta herätti vanhentuneiden varausten raportille varaustunnus, joka kuului anonyymeihin lainoihin. Syy oli raporttikirjastossa ollut raportti, joka ei osaa listata tällaisia varauksia oikein.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-30) - [Palaa sivun alkuun](/paakayttajat2024)
 
