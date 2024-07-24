@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 31
+
+Aika: <br />
+Läsnä:
+
+**Asiat**
+* Päivystysvuorot viikosta 32 alkaen
+
 ## Viikko 30
 
 Aika: 22.7.2024 klo 9<br />
