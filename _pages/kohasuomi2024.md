@@ -40,7 +40,7 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
   * Johanna: versionvaihtotikettien ihmettelyä (niteitä ei saa auki nidevälilehdellä)
   * Pasi: yhteisön tikettien katselua
   * Emmi: niteitä ei saa auki välilehdellä, varaustyökalun tutkiskelua, miten saa toimimaan apin kautta
-  * Kodo: muutoksia build releaseen: pelkkä build release riittää, ei tarvitse enää hakemistoa. korefreshiin remonttia: -u Kodo kirjoittaa tähän... Siivousta
+  * Kodo: muutoksia build releaseen, ei tarvitse enää hakemistoa buildille (käyttää $KOHA_PATH:ia). korefreshiin remonttia, siinä on nyt -u vipu, jolla ajetaan updatedatabase. Ajatuksena oli ratkaista #669. Helpin saa korefresh -h.
   * Lasse: versionvaihtotikettejä
   * Anneli: lomailua ja viestien läpikäyntiä
 
