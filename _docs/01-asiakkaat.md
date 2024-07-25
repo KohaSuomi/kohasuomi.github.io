@@ -301,7 +301,11 @@ näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko.png" alt="" style="width:90.0%" />
 
-#### 1.2.7.3. Kirjautumistunnus
+#### 1.2.7.3. Käyttäjätilin huomautukset
+
+#### 1.2.7.4. Asiakkaan rajoitukset
+
+#### 1.2.7.5. Kirjautumistunnus
 
 _Kirjautumistunnus_-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
@@ -311,7 +315,7 @@ verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 
 Tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
-#### 1.2.7.4. Muut määritteet ja tunnukset
+#### 1.2.7.6. Muut määritteet ja tunnukset
 
 Tässä valitaan mm. automaattien automaattityyppi, automaatin toimittaja sekä yhteisöasiakkaan Y-tunnuskenttä.
 
