@@ -31,7 +31,12 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
 * Viikon 31 päivitys
   * [LOST-arvojen jättäminen laskutuksen ulkopuolelle](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/15) 
 * Scrumm
-  * 
+  * Emmi: Koha-comm -palvelimen ongelmien korjausta ja miten sitä päivitellään
+  * Anneli: käännösehdotuksien tarkistelua. Anonymisoitujen tietojen raporttia. Libris Z3950
+  * Johanna: Suomi.fi -rajapinta. Yhteisöön taustatöiden filtteröintitikettiä
+  * Lasse: Itsepalvelun palautus
+  * Kodo: Libriksen kentät. Koha-commin Plack, fix-yarn, conffit
+  * Pasi: Avointen tikettien loppuunvientiä, tietueiden palautusskriptiä
 
 ## Viikko 30
 
