@@ -28,6 +28,11 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
 
 **Asiat**
 * Päivystysvuorot viikosta 32 alkaen
+* Paljon asioita jää tällä hetkellä muistioista "pimentoon", koska iso osa asioista käsitellään päiväpalavereissa. Ryhdytään lisäämään keskeiset muutokset maanantaipalaverin esityslistalle ja todetaan maanantaisin että nämä tuli tehtyä viikon aikana.
+* Viikon 30 keskeiset
+  * Uusi muutokset kalenteri, merkkaillaan sinne merkittävät tehdyt muutokset, jotta voidaan mahdollisten ongelmien ilmetessä kalenteria apuna käyttäen haarukoita mikä ongelmia olisi mahdollisesti voinut aiheuttaa.
+  * Canonicalin kanssa palaveerattu. Ubunto Pro:n hinta on jyrkähkö, mutta "educational" organisaatiot saavat hinnsata 90% alennuksen. Nyt odotellaan jännityksellä ovatko yleiset kirjastot Canonicalinkin mielestä "educational organization". Canonicalin suunnasta tukea olisi saatavilla Ubuntu main -repositorion paketeille, joihin sisältyy myös OCFS2.
+  * Oraclea kontaktoitu OCFS2 tuen suhteen. Ovat yhteydessä jos kysymyksessä on heidän mielestään "Sales related question" ja kaihan tuen ostoaie on semmoinen.
 * Viikon 31 päivitys
   * [LOST-arvojen jättäminen laskutuksen ulkopuolelle](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/15) 
 * Scrumm
@@ -35,7 +40,7 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
   * Anneli: käännösehdotuksien tarkistelua. Anonymisoitujen tietojen raporttia. Libris Z3950
   * Johanna: Suomi.fi -rajapinta. Yhteisöön taustatöiden filtteröintitikettiä
   * Lasse: Itsepalvelun palautus
-  * Kodo: Libriksen kentät. Koha-commin Plack, fix-yarn, conffit
+  * Kodo: Libriksen pudotettavien kenttien kanssa säätämistä. Koha-commin pystyttelyä ja korjailua.
   * Pasi: Avointen tikettien loppuunvientiä, tietueiden palautusskriptiä
 
 ## Viikko 30
