@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
+  * Z39.50: jos merkistö menee sekaisin, kokeile muuttaa asetuksiin utf-8 -> iso-8859-1 (tai joissain tapauksissa toisinpäin)
 
 Etelästä pohjoiseen.
 
