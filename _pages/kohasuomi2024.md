@@ -34,7 +34,8 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
   * Canonicalin kanssa palaveerattu. Ubunto Pro:n hinta on jyrkähkö, mutta "educational" organisaatiot saavat hinnsata 90% alennuksen. Nyt odotellaan jännityksellä ovatko yleiset kirjastot Canonicalinkin mielestä "educational organization". Canonicalin suunnasta tukea olisi saatavilla Ubuntu main -repositorion paketeille, joihin sisältyy myös OCFS2.
   * Oraclea kontaktoitu OCFS2 tuen suhteen. Ovat yhteydessä jos kysymyksessä on heidän mielestään "Sales related question" ja kaihan tuen ostoaie on semmoinen.
 * Viikon 31 päivitys
-  * [LOST-arvojen jättäminen laskutuksen ulkopuolelle](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/15) 
+  * [LOST-arvojen jättäminen laskutuksen ulkopuolelle](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/15)
+  * [Libriksen Z39.50-säännöt](https://github.com/KohaSuomi/Koha/issues/977)
 * Scrumm
   * Emmi: Koha-comm -palvelimen ongelmien korjausta ja miten sitä päivitellään
   * Anneli: käännösehdotuksien tarkistelua. Anonymisoitujen tietojen raporttia. Libris Z3950
