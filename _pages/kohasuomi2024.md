@@ -15,8 +15,8 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 31
 
-Aika: <br />
-Läsnä:
+Aika: 28.7.2024 klo 9<br />
+Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
 
 **Asiat**
 * Päivystysvuorot viikosta 32 alkaen
