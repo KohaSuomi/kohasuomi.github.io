@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 31 
+
+Aika: 30.7.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat:**
+* Viikon 31 päivitys
+
+Etelästä pohjoiseen.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-31) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 30
 
 Aika: 23.7.2024, klo 9.15<br />
@@ -53,7 +65,7 @@ Asiasta on aikoinaan tiedotettu, mutta siitä ei ole mainintaa kirjautumisen yht
 että mobiilikirjautumisessa toimisi kirjautumistunnus kirjainten koosta huolimatta.
 * Väärin valuneiden tietueiden korjailu vieläkin työn alla Pasilla.
 * OUTIssa ongelmia aiheuttanut takaajatomat lapsiasiakkaat. Takaajatiedot voivat edelleenkin kadota tapauksissa, joissa asiakastietueita yhdistetään (taattava voi poistua)
-tai kopioidaan (takaaja ei tallennu). Näistä on mahdollisesti jo tiketit olemassa.
+tai kopioidaan (takaaja ei tallennu). Näistä on mahdollisesti jo tiketit olemassa. [Ongelma "Kopioi"-painikkeen käytössä: Takaaja-tieto ei tallennu #610](https://github.com/KohaSuomi/Koha/issues/610)
   
 Etelästä pohjoiseen.
 
