@@ -20,6 +20,10 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
 
 **Asiat**
 * Päivystysvuorot viikosta 32 alkaen
+* Viikon 31 päivitys
+  * [LOST-arvojen jättäminen laskutuksen ulkopuolelle](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/15) 
+* Scrumm
+  * 
 
 ## Viikko 30
 
