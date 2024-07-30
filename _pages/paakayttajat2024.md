@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle)
+Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Anni Rajala (Vaski)
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
@@ -27,6 +27,11 @@ Etelästä pohjoiseen.
 
 **OUTI**
 * Oulussa tutkitaan AI Library Butler and friends -tekoälypalvelua, joka on jonkinlainen kirjasuosittelijapalvelu asiakkaille. Selvitettävänä on, tarvitaanko rajapintaa Kohaan vai riittääkö pelkästään Finnaan. Oulun verkkopalvelusuunnitelija on laittanut tiedustelua Kotkan kirjastotoimenjohtajalle, joka on mukana firmassa, joka palvelua tarjoaa.
+
+**Vaski**
+* Turhat aineistyypit rajattu pois Vaskissakin.
+* Ihmeteltiin kadonnutta virkalijatunnusta, selvisi että tunnuksen käyttäjätunnus, nimi ja asiakastyyppi oli menty vaihtamaan.
+* Varaus ei poistunut lainauksessa, syyksi selvisi niteelle varauksen tärppäyttämisen jälkeen lisätty Saapunut-tila.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-31) - [Palaa sivun alkuun](/paakayttajat2024)
 
