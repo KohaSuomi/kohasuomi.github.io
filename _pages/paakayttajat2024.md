@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi)
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
   * Z39.50: jos merkistö menee sekaisin, kokeile muuttaa asetuksiin utf-8 -> iso-8859-1 (tai joissain tapauksissa toisinpäin)
+* Nextejä testailtu mukavasti, Annelilla työn alla IntranetUserCSS-wiki
 
 Etelästä pohjoiseen.
 
