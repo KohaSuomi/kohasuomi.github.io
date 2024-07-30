@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle)
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
