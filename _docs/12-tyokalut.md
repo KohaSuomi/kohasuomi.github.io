@@ -462,6 +462,8 @@ Laskutettava aineisto näkyy kunkin asiakkaan alla, tiedot saa auki asiakkaan ti
 
 Laskutettavasta aineistoista voi vielä tässä vaiheessa muokata korvaushintaa tai jättää jonkun aineiston pois laskulta ottamalla ruksin pois niteen kohdalta. Aineisto, jolle ei ole määritelty korvaushintaa jätetään alustavasti pois laskulta. Jos hinnan lisää, aineisto laskutetaan. Jos hintatietoa muokkaa, tallennetaan uusi hinta myös niteen tietoihin.
 
+Kadonneeksi merkityt (tai mitkä tahansa muut LOST-arvoiset) niteet eivät tule mukaan laskutettavien listalle. (Muutos 30.7.2024)
+
 **Laskun luominen**  
 Kun on tarkistanut laskutettavan aineiston tiedot, voi siitä luoda laskun vihreästä napista. Kimpasta ja kirjastosta riippuen se on PDF-lasku, elasku tai Finvoice-sanoma. 
 
@@ -470,7 +472,7 @@ Laskun luonti lisää niteille asetuksissa määritellyn "Laskutettu"-tilan. Jos
 
 PDF-laskun luomisen jälkeen siirrytään esikatselu-näkymään, jossa näkee sivun asettelun. Painamalla *Tulosta* avautuu PDF-tiedosto.
 
-*Jäljenne*-napilla saa tulostettua myös PDF-laskutusta käytettäessä etu- tai jälkikäteen jäljenteen eli laskukopion. Napin painaminen ei aiheuta laskutusmerkintöjä.
+*Jäljennös*-napilla saa tulostettua myös PDF-laskutusta käytettäessä etu- tai jälkikäteen jäljenteen eli laskukopion. Napin painaminen ei aiheuta laskutusmerkintöjä.
 
 Lasku luodaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
 
