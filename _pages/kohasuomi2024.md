@@ -19,7 +19,8 @@ Aika: 5.8.2024 klo 9<br />
 Läsnä:
 
 **Asiat**
-
+* Viikon 31 keskeiset
+  * Olisiko tarvetta pyytää Mattermostiin Koha-Finland -kanava (tai jopa Koha-Norcic)? Keskustellaan pääkäyttäjien ja Arin kanssa. 
 
 ## Viikko 31
 
