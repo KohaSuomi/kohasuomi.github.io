@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi)
+Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
@@ -24,6 +24,9 @@ Etelästä pohjoiseen.
 
 **Vaara**
 * Raporteilla löytyi aineistotyypittömiä tietueita (osakohteita) yli 2000 kpl. Korjasin niitä erämuokkauksella, mutta ihmettelin, että miksi niitä ylipäätään syntyy. Selvisi, että Vaarassa oli tietueiden yhdistämissäännöissä virhe. Siellä pitää olla 942-kentän kohdalla Suojaa poistamiselta, mutta siellä oli arvona Suojaa (mikä on kaikkien muiden kenttien kohdalla). Tämä esti aineistotyypin valumisen tietueen mukana ja nyt se toimii oikein, kun arvo on korjattu.
+
+**OUTI**
+* Oulussa tutkitaan AI Library Butler and friends -tekoälypalvelua, joka on jonkinlainen kirjasuosittelijapalvelu asiakkaille. Selvitettävänä on, tarvitaanko rajapintaa Kohaan vai riittääkö pelkästään Finnaan. Oulun verkkopalvelusuunnitelija on laittanut tiedustelua Kotkan kirjastotoimenjohtajalle, joka on mukana firmassa, joka palvelua tarjoaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-31) - [Palaa sivun alkuun](/paakayttajat2024)
 
