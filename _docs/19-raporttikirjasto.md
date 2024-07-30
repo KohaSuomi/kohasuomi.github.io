@@ -2247,6 +2247,22 @@ LIKE <<Search Term (USE % AS wildcard)>>
 ORDER BY copyrightdate ASC
 ```
 
+### Tietueiden haku MARC-kentän ja -osakentän mukaan
+
+Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber.
+
+Lisääjä: Anneli Österman
+Pvm: 30.7.2024
+Versio: 24.05
+
+```
+SELECT biblionumber
+FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']')
+like <<Mitä kentästä haetaan? Katkaise %-merkillä>>
+```
+
+
 ### Tietueet, joiden linkissä tietty merkkijono
 
 Kysely hakee tietueet, joiden 856u-kentän linkissä on tietty merkkijono. Tässä haetaan "ecom"-sanan sisältävät linkit. Prosenttimerkkien sisään voi muokata myös muun tiedon. Huomaa, että raportti on hidas, koska tiedot haetaan marcxml:stä like-ehdolla.
