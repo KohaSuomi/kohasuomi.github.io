@@ -13,13 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat:**
 * [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/1337)
   * Z39.50: jos merkistö menee sekaisin, kokeile muuttaa asetuksiin utf-8 -> iso-8859-1 (tai joissain tapauksissa toisinpäin)
 
 Etelästä pohjoiseen.
+
+**Vaara**
+* Raporteilla löytyi aineistotyypittömiä tietueita (osakohteita) yli 2000 kpl. Korjasin niitä erämuokkauksella, mutta ihmettelin, että miksi niitä ylipäätään syntyy. Selvisi, että Vaarassa oli tietueiden yhdistämissäännöissä virhe. Siellä pitää olla 942-kentän kohdalla Suojaa poistamiselta, mutta siellä oli arvona Suojaa (mikä on kaikkien muiden kenttien kohdalla). Tämä esti aineistotyypin valumisen tietueen mukana ja nyt se toimii oikein, kun arvo on korjattu.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-31) - [Palaa sivun alkuun](/paakayttajat2024)
 
