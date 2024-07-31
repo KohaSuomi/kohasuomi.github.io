@@ -389,13 +389,13 @@ Tämän asiakastyypin lainoja ei lasketa mukaan tilastoihin.
 <img src="/assets/files/docs/Asiakkaat/Muokkaanappi1.png" alt="" style="width:90.0%" />
 
 Asiakastietojen yläreunassa olevat painikkeet 
-- _Muokkaa_ muokkaa asiakastietoja
-- _Lisää huollettava_ lisää asiakkaalle huollettava
-- _Vaihda salasana_ tästä pääset vaihtamaan salasanan
-- _Kopioi_ tästä klikkaamalla asiakkaan tiedot kopioituvat ja ohjelma ohjaa automaattisesti tekemään uutta asiakastietoa
-- _Tulosta_ alasvetovalikosta voit valita ja tulostaa asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin
-- _Hae ja varaa_ tätä kautta pääset tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa
-- _Lisää viesti_ tästä pääset lisäämään asiakastietoihin viestin
+- _Muokkaa_: Muokkaa asiakastietoja.
+- _Lisää huollettava_: Lisää asiakkaalle huollettava.
+- _Vaihda salasana_: Tästä pääset vaihtamaan salasanan.
+- _Kopioi_: Tästä klikkaamalla asiakkaan tiedot kopioituvat ja ohjelma ohjaa automaattisesti tekemään uutta asiakastietoa.
+- _Tulosta_: Alasvetovalikosta voit valita ja tulostaa asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin.
+- _Hae ja varaa_: Tätä kautta pääset tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa.
+- _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin.
 
 Harvemmin tarvittavia muokkaustoimintoja löytyy _Muita toimintoja_ -alasvetovalikosta, joista tarkemmin 
 kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#157-muita-toimintoja--alasvetovalikko)
@@ -439,7 +439,7 @@ Tallennuksen jälkeen siirryt automaattisesti uuden asiakkaan tietoihin.
 
 ### 1.5.4. Tulosta
 
-Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huom. kuiteissa voi olla kimppakohtaisia eroja.
+Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huom. kuittivaihtoehdoissa voi olla kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/Tulosta.png)
 
@@ -481,7 +481,8 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
 
-Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloa-sähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.
+Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloa-sähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.  
+Alasvetovalikon vaihtoehtojen näkyvyydessä tai käyttöoikeuksissa voi olla kimppakohtaisia eroja. 
 
 #### 1.5.7.1. Asiakaan käyttöoikeuden jatkaminen
 
