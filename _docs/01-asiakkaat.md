@@ -309,9 +309,9 @@ Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä merkitään asiakk
 
 <img src="/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png" alt="" style="width:90.0%" />
 
-Kadonnut kortti-rajoituksesta tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.1. Kadonnut kortti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15101-k%C3%A4ytt%C3%A4j%C3%A4tilin-huomautukset)
+Kadonnut kortti-rajoituksesta tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.1. Kadonnut kortti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15101-kadonnut-kirjastokortti)
 
-#### 1.2.7.4. Asiakkaan rajoitukset **
+#### 1.2.7.4. Asiakkaan rajoitukset
 
 Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallentaessasi kirjastosi ohjeiden mukaan.  
 
