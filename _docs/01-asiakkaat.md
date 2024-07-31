@@ -371,7 +371,7 @@ laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 \ Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
 {: .notice--warning}
 
-## 1.2.9. Tallennus
+### 1.2.9. Tallennus
 
 Lopuksi tallenna tiedot.
 
@@ -514,11 +514,11 @@ Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä.
 
 Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen mennessä umpeen.
 
-### 1.4.7.2. Lähetä tervetulosähköposti
+#### 1.4.7.2. Lähetä tervetulosähköposti
 
 Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle heti automaattisesti Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Toimi kirjastosi ohejeiden mukaan.
 
-### 1.4.7.3. Poista
+#### 1.4.7.3. Poista
 
 Tällä toiminnolla poistetaan asiakas rekisteristä.
 
@@ -530,7 +530,7 @@ Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 
 ![](/assets/files/docs/Asiakkaat/Poistonesto1.png)
 
-### 1.4.7.4. Päivitä lapsi aikuiseksi
+#### 1.4.7.4. Päivitä lapsi aikuiseksi
 
 Tätä toimintoa ei käytetä sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
 
@@ -550,6 +550,7 @@ Lisääminen tapahtuu _Lisää takaaja_ -painikkeella. Hae lisättävän huoltaj
 Valitse hakutuloksesta huoltaja ja klikkaa _Valitse_ (_Select_).
 
 Valitse takaajan suhde ja tallenna.
+
 
 ### 1.4.9. Asiakkaan kuva
 
@@ -585,7 +586,7 @@ näkyy ilmoitus _Osoite: Tarkista osoite_.
 Ilmoituksen voi poistaa, kun asiakkaan osoitetiedot on tarkastettu ja tarvittaessa korjattu. Huomautus poistuu, kun 
 valitsee Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
-#### 1.5.2. Tili lukittu
+### 1.5.2. Tili lukittu
 
 Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. 
 Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
@@ -596,7 +597,7 @@ vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkko
 
 ![](/assets/files/docs/Asiakkaat/tililukittu.png)
 
-#### 1.5.3. Rajoite liiallisista kirjautumisyrityksistä
+### 1.5.3. Rajoite liiallisista kirjautumisyrityksistä
 
 Kohassa on toiminto, joka lisää automaattisesti asiakkaalle rajoitteen, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
 
@@ -680,25 +681,17 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 
 ### 1.7.1. Lainaus
 Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen 
-kohdassa [2. Lainaus ja palautus](https://koha-suomi.fi/dokumentaatio/lainaus/)
+kohdassa [2.1. Lainaus](https://koha-suomi.fi/dokumentaatio/lainaus/#21-lainaus)
 
 ### 1.7.2. Tiedot
 
-Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä mm. yhteystiedot, viestiasetukset, sotu-avain, kirjastotiedot sekä mahdolliset huomautukset ja tiedot rajoituksista.
+Asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä mm. yhteystiedot, viestiasetukset, sotu-avain, kirjastotiedot sekä mahdolliset huomautukset ja tiedot rajoituksista.
 Huom. Näkymässä voi olla kimppakohtaisia eroja.
-
-Jos asiakas on lapsi, hänen takaajansa nimet ovat linkkinä kohdassa Takaajat.
-
-![](/assets/files/docs/Asiakkaat/Huoltajat.png)
-
-Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Huollettavat.
-
-![](/assets/files/docs/Asiakkaat/Taattavat.png)
 
 ### 1.7.3. Maksut
 
 Maksut -välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen 
-kohdassa [3. Maksut](https://koha-suomi.fi/dokumentaatio/maksut/) 
+kohdassa [3. Maksut](https://koha-suomi.fi/dokumentaatio/maksut/#3-maksut) 
 
 ### 1.7.4. Kiertolistat
 
@@ -718,33 +711,8 @@ muokattu ja jos asiakastieto on tullut asiakashaussa hakutuloslistalle.
 Täällä näkyvät myös lainaus- ja palautustapahtumat, jos niin on
 asetuksissa määritetty.
 
-<img src="/assets/files/docs/Asiakkaat/lokitiedot.png" alt="" style="width:90.0%" />
-
-\- _Pvm-sarake_ kertoo tarkan ajan (päivämäärä ja kellonaika), jolloin
-asiakkaan tiedoissa on tapahtunut jotain
-
-\- _Virkailija-sarake_ näyttää sen työntekijän tunnuksen, joka tietoja
-on katsellut tai tehnyt muutokset/haun (virkailijan nimi ja
-borrowernumber)
-
-\- _Osio-sarake_ näyttää missä Kohan osiossa katselu/muutos on
-tapahtunut
-
-\- _Toiminto-sarakkeesta_ näkee mitä asiakkaan tiedoissa on tehty
-
-\- _ID-tunnus-sarakkeessa_ näkyy, kenen asiakkaan tietoja on muutettu
-(asiakkaan nimi ja borrowernumber)
-
-\- _Tiedot-sarake_ kertoo tarkemmin mitä tapahtuma koskee esim. mikä
-nide on lainattu tai asiakkaan kirjautuminen automaatille
-
-\- _Käyttöliittymä-sarakkeesta_ näkee onko loki kertynyt esim.
-  virkailijaliittymästä, Kohan verkkokirjastosta tai Finnasta
-  tai palautus-/lainausautomaatilta. 
-  
-  Huom. Muutoslokiin pääsee myös Työkalujen kautta. 
-  Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
-  kohdassa [12.7 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-lokien-katselu)
+Huom. Muutoslokiin pääsee myös Työkalujen kautta. Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
+kohdassa [12.7 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-lokien-katselu)
 
 ### 1.7.6. Ilmoitukset
 
@@ -773,9 +741,11 @@ lähettävistä järjestelmistä (esim. tekstiviestioperaattorit) palauttaa
 Kohaan epäonnistumisen syyn, jolloin se näkyy
 Toimitushuomautus-sarakkeessa.
 
-\- _Aika_-sarakkeessa näkyy viestin lähetysaika. Tieto päivittyy aina,
+\- _Päivitetty_-sarakkeessa näkyy milloin viesti on päivitetty. Tieto päivittyy aina,
 kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin
 luontiajankohdasta.
+
+\- _Luontiaika_-sarakkeessa näkyy viestin lähetysaika. 
 
 \- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen
   epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä
@@ -806,7 +776,7 @@ Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
 Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
 
-<img src="/assets/files/docs/Asiakkaat/Asiakkaantilastot.png" alt="" style="width:90.0%" />
+![](assets/files/docs/Asiakkaat/Asiakkaantilastot.png)
 
 ### 1.7.8. Hankintaehdotukset
 
