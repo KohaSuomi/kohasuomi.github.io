@@ -309,11 +309,15 @@ Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä merkitään asiakk
 
 <img src="/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png" alt="" style="width:90.0%" />
 
-#### 1.2.7.4. Asiakkaan rajoitukset
+Kadonnut kortti-rajoituksesta tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.1. Kadonnut kortti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15101-k%C3%A4ytt%C3%A4j%C3%A4tilin-huomautukset)
 
-Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallentaessasi kirjastosi ohjeiden mukaan.
+#### 1.2.7.4. Asiakkaan rajoitukset **
+
+Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallentaessasi kirjastosi ohjeiden mukaan.  
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png" alt="" style="width:90.0%" />
+
+Asiakkaan rajoituksista tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.2. Asiakkaan rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15102-asiakkaan-rajoitukset)
 
 #### 1.2.7.5. Kirjautumistunnus
 
@@ -568,7 +572,7 @@ Tässä Asiakaskuva-laatikossa ei ole sallittu Kohankäyttää kameraa.
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos estot ovat 
 laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa näytölle tulee huomautus lainaamisen eston syystä.
 
-#### 1.5.10.1. Käyttäjätilin huomautukset
+#### 1.5.10.1. Kadonnut kirjastokortti
 
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png)
 
