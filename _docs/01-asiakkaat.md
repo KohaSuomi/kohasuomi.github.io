@@ -508,8 +508,11 @@ Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määrite
 Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä. 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen4.png)
 
-
 Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen mennessä umpeen.
+
+### 1.5.7.2. Lähetä tervetulosähköposti
+
+Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle heti automaattisesti Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Toimi kirjastosi ohejeiden mukaan.
 
 ### 1.5.7.2. Poista
 
@@ -521,15 +524,12 @@ Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat _Kyllä,
 
 Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 
-![](/assets/files/docs/Asiakkaat/Poista2.png)
-
-![](/assets/files/docs/Asiakkaat/Poista3.png)
-
-![](/assets/files/docs/Asiakkaat/Poista4.png)
+![](/assets/files/docs/Asiakkaat/Poistonesto1.png)
 
 ### 1.5.7.3. Päivitä lapsi aikuiseksi
 
 Tätä toimintoa ei käytetä sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
+
 
 ### 1.5.8. Lapsiasiakkaan takaajan vaihtaminen
 
