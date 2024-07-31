@@ -306,11 +306,13 @@ näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
 #### 1.2.7.3. Käyttäjätilin huomautukset
 
 Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä merkitään asiakkaan kortti kadonneeksi.
+
 <img src="/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png" alt="" style="width:90.0%" />
 
 #### 1.2.7.4. Asiakkaan rajoitukset
 
-Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallenntaessasi kirjastosi ohjeiden mukaan.
+Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallentaessasi kirjastosi ohjeiden mukaan.
+
 <img src="/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png" alt="" style="width:90.0%" />
 
 #### 1.2.7.5. Kirjautumistunnus
