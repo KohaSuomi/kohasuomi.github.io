@@ -305,7 +305,13 @@ näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
 
 #### 1.2.7.3. Käyttäjätilin huomautukset
 
+Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä merkitään asiakkaan kortti kadonneeksi.
+<img src="/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png" alt="" style="width:90.0%" />
+
 #### 1.2.7.4. Asiakkaan rajoitukset
+
+Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merkitä asiakkaalle rajoituksen. Toimi rajoitusta tallenntaessasi kirjastosi ohjeiden mukaan.
+<img src="/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png" alt="" style="width:90.0%" />
 
 #### 1.2.7.5. Kirjautumistunnus
 
@@ -332,7 +338,7 @@ Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset4.png)
 
 \- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä eräpäivänä. 
 
@@ -349,18 +355,14 @@ varauksesta.
 \- _Lainauskuitti_: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
   
-\- _Vain koosteilmoitus_-ruksit tallentuvat ennakkoilmoitukseen ja eräpäiväilmoitukseen 
-automaattisesti. Viestit lähetetään asiakkaille koosteina, jotta he saavat 
-yhdessä viestissä kaikkien erääntyvien niteiden tiedot.
-
 \- _“Tekstiviesti numeroon”_ -kenttään kopioituu automaattisesti Matkapuhelin-kenttään
 lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstiviesti-vaihtoehtoon ei 
 laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 
-\- Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
+\ Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
 {: .notice--warning}
-\- Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
+\ Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
 {: .notice--warning}
 
 ## 1.3. Tallennus
