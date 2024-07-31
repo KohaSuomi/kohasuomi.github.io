@@ -238,7 +238,15 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
-### 1.2.5. Yhteystiedot
+
+### 1.2.5. Vaihtoehtoinen osoite
+
+Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite, jos vaihtoehto on otettu kimpassa käyttöön.
+
+![](/assets/files/docs/Asiakkaat/Vaihtoehtoinenosoite.png)
+
+
+### 1.2.6. Yhteystiedot
 
 Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lankapuhelin_-kenttään ja matkapuhelinnumero _Matkapuhelin_-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin. 
 
@@ -251,18 +259,11 @@ Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten, jos toiminto on otettu kimpassa käyttöön.
 
 
-### 1.2.6. Vaihtoehtoinen osoite
-
-Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite, jos vaihtoehto on otettu kimpassa käyttöön.
-
-![](/assets/files/docs/Asiakkaat/Vaihtoehtoinenosoite.png)
-
-
 ### 1.2.7. Kirjastotiedot
 
 #### 1.2.7.1. Kirjastonhallinta
 
-_Kirjastonhallinta_-osio sisältää kirjaston käyttöön liittyviä tietoja.
+_Kirjastonhallinta_-osio sisältää kirjaston käyttöön liittyviä tietoja. Osion näkymässä voi olla kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/kirjastohallinta.png)
 
@@ -290,7 +291,7 @@ automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 
 \- _Huomautus (näkyy verkkokirjastossa)_ -kohtaan voi merkitä
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
-näkyy OPACissa ja Finnassa.
+näkyy OPACissa ja Finnassa. Huom. kaikissa kimpoissa ei ole kuvassa näkyvää kenttää käytössä.
 
 Finnassa huomautus näkyy Omat tiedot-välilehdellä kohdassa _Huomautukset_.
 
@@ -300,6 +301,7 @@ Finnassa huomautus näkyy Omat tiedot-välilehdellä kohdassa _Huomautukset_.
 näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko.png" alt="" style="width:90.0%" />
+
 
 #### 1.2.7.3. Käyttäjätilin huomautukset
 
