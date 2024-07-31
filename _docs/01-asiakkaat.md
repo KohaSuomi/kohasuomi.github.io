@@ -570,11 +570,7 @@ laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa näytölle tule
 
 #### 1.5.10.1. Käyttäjätilin huomautukset
 
-![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
-
-Nämä molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
-
-##### 1.5.10.1.1 Väärä osoite
+![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png)
 
 Jos haluat henkilökunnan tarkistavan asiakkaan osoitteen esim. ennen
 lainaamista, valitse _Kyllä_ Tarkista osoite -kohdassa. Lainaus- ja tiedot-näytöillä 
@@ -582,20 +578,10 @@ näkyy ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
 
-Ilmoituksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Huomautus poistuu, kun 
-asiakastietojen muokkausnäytöllä kohdassa _Käyttäjätilin huomautukset_ vaihdat Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallennat asiakastiedot.
+Ilmoituksen voi poistaa, kun asiakkaan osoitetiedot on tarkastettu ja tarvittaessa korjattu. Huomautus poistuu, kun 
+valitsee Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
-##### 1.5.10.1.2 Kortti kadonnut
-
-Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainaus- ja tiedot-näytöillä näkyy 
-ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
-
-![](/assets/files/docs/Asiakkaat/Kadonnutkortti.png)
-
-Ilmoitus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa _Käyttäjätilin huomautukset_ vaihdat Kortti kadonnut -kohtaan vaihtoehdon “Ei” ja tallennat asiakastiedot.
-
-##### 1.5.10.1.3 Tili lukittu
+##### 1.5.10.2. Tili lukittu
 
 Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. 
 Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
@@ -606,9 +592,9 @@ vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkko
 
 ![](/assets/files/docs/Asiakkaat/tililukittu.png)
 
-##### 1.5.10.1.4 Rajoite liiallisista kirjautumisyrityksistä
+##### 1.5.10.2.1. Rajoite liiallisista kirjautumisyrityksistä
 
-Koha-Suomessa tehtiin toiminto, jossa asiakkaalle lisätään automaattisesti rajoite, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
+Kohassa on toiminto, joka lisää automaattisesti asiakkaalle rajoitteen, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
 
 Rajoite näyttää asiakkaalla tältä:
 
@@ -623,7 +609,7 @@ Rajoitteen voi poistaa manuaalisesti kortinvaihtotilanteessa.
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
 Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. Rajoitus voi olla voimassa toistaiseksi tai määräajan.
 
-Asiakkaalle lisätään vapaamuotoinen rajoite joko asiakkaan tiedoissa _Muokkaa_-painikkeen takaa tai Lainaus- ja tiedot-näytöillä välilehdellä _Rajoitukset_.
+Asiakkaalle lisätään vapaamuotoinen rajoite joko asiakkaan tiedoissa _Muokkaa_-painikkeen takaa tai Lainaus- ja Tiedot-näytöillä välilehdellä _Rajoitukset_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus1.png)
 
@@ -635,10 +621,10 @@ Klikkaa kohdasta _Lisää rajoitus_, kirjoita selityskenttään rajoituksen syy.
 
 Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella. 
 
-![](/assets/files/docs/Asiakkaat/Lisaarajoitus4.png)
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus10.png) 
 
 Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. Vain myöhäisin päättymispäivämäärä näkyy 
-lainausnäytöllä, kun rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärä.  
+lainausnäytöllä, jos rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärät.  
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
 
@@ -651,10 +637,11 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
 
-Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut määreet ja tunnukset_-kohdassa.
+Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut määreet ja tunnukset_-kohdassa.  
+
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus8.png)
 
-##### 1.5.10.2.1 Asiakkaan rajoitusten poistaminen
+##### 1.5.10.2. Asiakkaan rajoitusten poistaminen
 
 Rajoitteen voit poistaa asiakkaalta Poista-toiminnolla.
 
