@@ -567,12 +567,12 @@ Tässä Asiakaskuva-laatikossa ei ole sallittu Kohankäyttää kameraa.
 ![](/assets/files/docs/Asiakkaat/Asiakaskuva3.png)
 
 
-### 1.4.10. Rajoitukset
+## 1.5. Rajoitukset
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos estot ovat 
 laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa näytölle tulee huomautus lainaamisen eston syystä.
 
-#### 1.4.10.1. Kadonnut kirjastokortti
+### 1.5.1. Kadonnut kirjastokortti
 
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png)
 
@@ -585,7 +585,7 @@ näkyy ilmoitus _Osoite: Tarkista osoite_.
 Ilmoituksen voi poistaa, kun asiakkaan osoitetiedot on tarkastettu ja tarvittaessa korjattu. Huomautus poistuu, kun 
 valitsee Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
-##### 1.4.10.2. Tili lukittu
+#### 1.5.2. Tili lukittu
 
 Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. 
 Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
@@ -596,7 +596,7 @@ vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkko
 
 ![](/assets/files/docs/Asiakkaat/tililukittu.png)
 
-##### 1.4.10.2.1. Rajoite liiallisista kirjautumisyrityksistä
+#### 1.5.3. Rajoite liiallisista kirjautumisyrityksistä
 
 Kohassa on toiminto, joka lisää automaattisesti asiakkaalle rajoitteen, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
 
@@ -608,7 +608,7 @@ Rajoitteen voi poistaa manuaalisesti kortinvaihtotilanteessa.
 
 <img src="/assets/files/docs/Asiakkaat/liikaayrityksia2.png" alt="" style="width:90.0%" />
 
-#### 1.4.10.2. Asiakkaan rajoitukset
+### 1.5.4. Asiakkaan rajoitukset
 
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
 Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. Rajoitus voi olla voimassa toistaiseksi tai määräajan.
@@ -645,11 +645,11 @@ Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut mä�
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus8.png)
 
-##### 1.4.10.2. Asiakkaan rajoitusten poistaminen
+### 1.5.5. Asiakkaan rajoitusten poistaminen
 
 Rajoitteen voit poistaa asiakkaalta Poista-toiminnolla.
 
-## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
+## 1.6. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, hyväksytään muutokset virkailijaliittymässä ennen muutosten voimaantuloa. 
@@ -671,18 +671,18 @@ Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy lainaussivulla kohdas
 
 ![](/assets/files/docs/Asiakkaat/Odottavatmuutokset.png)
 
-## 1.6. Asiakkaan tiedot
+## 1.7. Asiakkaan tiedot
 
 Kun katsot asiakkaan tietuetta, on vasemmassa reunassa valittavissa
 useita eri välilehtiä, joilla on erilaisia tietoja.
 
 ![](/assets/files/docs/Asiakkaat/vasen.png)
 
-### 1.6.1. Lainaus
+### 1.7.1. Lainaus
 Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen 
 kohdassa [2. Lainaus ja palautus](https://koha-suomi.fi/dokumentaatio/lainaus/)
 
-### 1.6.2. Tiedot
+### 1.7.2. Tiedot
 
 Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä mm. yhteystiedot, viestiasetukset, sotu-avain, kirjastotiedot sekä mahdolliset huomautukset ja tiedot rajoituksista.
 Huom. Näkymässä voi olla kimppakohtaisia eroja.
@@ -695,12 +695,12 @@ Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Huollettavat.
 
 ![](/assets/files/docs/Asiakkaat/Taattavat.png)
 
-### 1.6.3. Maksut
+### 1.7.3. Maksut
 
 Maksut -välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen 
 kohdassa [3. Maksut](https://koha-suomi.fi/dokumentaatio/maksut/) 
 
-### 1.6.4. Kiertolistat
+### 1.7.4. Kiertolistat
 
 Kiertolistat tarkoittaa lehtikiertolistaa eli jos kirjaston työntekijä
 on jonkun lehden sisäisellä kiertolistalla.
@@ -709,7 +709,7 @@ on jonkun lehden sisäisellä kiertolistalla.
 
 Toiminnon käytössä voi olla kimppakohtaisia eroja.
 
-### 1.6.5. Muutosloki
+### 1.7.5. Muutosloki
 
 _Huom. Tämä välilehti ei näy kaikille käyttäjille._
 
@@ -746,7 +746,7 @@ nide on lainattu tai asiakkaan kirjautuminen automaatille
   Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
   kohdassa [12.7 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-lokien-katselu)
 
-### 1.6.6. Ilmoitukset
+### 1.7.6. Ilmoitukset
 
 Tällä näytöllä näkyy asiakkaalle lähteneet tai lähtemässä olevat
 ilmoitukset. Ilmoittamistapa valitaan asiakastiedoissa asiakkaan
@@ -800,7 +800,7 @@ luontiajankohdasta.
   tarkoittaa, että asiakkaan puhelinnumerossa on jotain vikaa tai se on
   väärässä muodossa (esim. lankapuhelin).
 
-### 1.6.7. Tilastot
+### 1.7.7. Tilastot
 
 Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
@@ -808,11 +808,11 @@ Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaantilastot.png" alt="" style="width:90.0%" />
 
-### 1.6.8. Hankintaehdotukset
+### 1.7.8. Hankintaehdotukset
 
 _Toiminto ei ole käytössä_
 
-### 1.6.9. Lainat
+### 1.7.9. Lainat
 
 Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
 maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
@@ -823,7 +823,7 @@ _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksu
 Lainoista on tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
-### 7.6.9.1 Perheen lainat
+### 7.7.9.1 Perheen lainat
 
 _Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja_
 
