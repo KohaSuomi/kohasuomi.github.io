@@ -465,13 +465,13 @@ kohdassa [4.1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dok
 Tällä toiminnolla lisätään asiakastietoihin viestejä. Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
 Voit lisätä ns. Sisäisen viestin tai Asiakasliittymäviestin.
 
-Sisäinen viesti näkyy vain virkailijaliittymässä.
+Sisäinen viesti näkyy vain virkailijaliittymässä.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti1.png)
 
-Asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.
+Asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti2.png)
 
-Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainaus- ja Tiedot-sivuilla. Ne voi poistaa klikkaamalla roskakorikuvaketta.
+Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainaus- ja Tiedot-sivuilla. Ne voi poistaa klikkaamalla roskakorikuvaketta.  
 
 <img src="/assets/files/docs/Asiakkaat/Jataviesti3.png" alt="" style="width:90.0%" />
 
@@ -514,7 +514,7 @@ Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen m
 
 Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle heti automaattisesti Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Toimi kirjastosi ohejeiden mukaan.
 
-### 1.5.7.2. Poista
+### 1.5.7.3. Poista
 
 Tällä toiminnolla poistetaan asiakas rekisteristä.
 
@@ -526,7 +526,7 @@ Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 
 ![](/assets/files/docs/Asiakkaat/Poistonesto1.png)
 
-### 1.5.7.3. Päivitä lapsi aikuiseksi
+### 1.5.7.4. Päivitä lapsi aikuiseksi
 
 Tätä toimintoa ei käytetä sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
 
