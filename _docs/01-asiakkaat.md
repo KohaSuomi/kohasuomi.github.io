@@ -376,10 +376,9 @@ Järjestelmä ilmoittaa, jos jotain tarvittavaa tietoa puuttuu. Täydennä tiedo
 
 ## 1.4. Ei-tilastoitavat-lainat
 
-Tämä asiakastyyppi on luotu sellaisille lainoille, joita henkilökunta
-tekee työtarkoitusta varten. Huom! Voi olla kimppakohtaisia eroja
-asiakastyypin nimessä sekä käytännöissä. Tämän asiakastyypin lainoja ei
-Lasketa mukaan tilastoihin.
+Tämä asiakastyyppi on luotu henkilökunnalle sellaisille lainoille ja varauksille, joita henkilökunta
+tarvitsee työtehtäviin. Huom! Asiakastyypin nimessä sekä käytännöissä voi olla kimppakohtaisia eroja.  
+Tämän asiakastyypin lainoja ei lasketa mukaan tilastoihin.
 
 ![](/assets/files/docs/Asiakkaat/eitilastoituvat.png)
 
