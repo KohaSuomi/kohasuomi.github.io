@@ -20,7 +20,9 @@ Läsnä:
 
 **Asiat**
 * Viikon 31 keskeiset
-  * Olisiko tarvetta pyytää Mattermostiin Koha-Finland -kanava (tai jopa Koha-Norcic), jonne saataisiin yleiset ja tieteelliset samalle alustalle? Keskustellaan pääkäyttäjien ja Arin kanssa. 
+  * Olisiko tarvetta pyytää Mattermostiin Koha-Finland -kanava (tai jopa Koha-Norcic), jonne saataisiin yleiset ja tieteelliset samalle alustalle? Keskustellaan pääkäyttäjien ja Arin kanssa.
+  * Oraclen kanssa on nyt keskusteltu tuesta OCFS2:lle ja lisäksi muita mahdollisia vaihtoehtoja OCFS2:lle on selvitetty (Gluster tai GFS2).
+  * Bittiguru toimittaa OCFS2 testiympäristön 2.8.
 
 ## Viikko 31
 
