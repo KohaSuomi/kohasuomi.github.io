@@ -23,6 +23,7 @@ Läsnä:
   * Olisiko tarvetta pyytää Mattermostiin Koha-Finland -kanava (tai jopa Koha-Norcic), jonne saataisiin yleiset ja tieteelliset samalle alustalle? Keskustellaan pääkäyttäjien ja Arin kanssa.
   * Oraclen kanssa on nyt keskusteltu tuesta OCFS2:lle ja lisäksi muita mahdollisia vaihtoehtoja OCFS2:lle on selvitetty (Gluster tai GFS2).
   * Bittiguru toimittaa OCFS2 testiympäristön 2.8.
+  * Yhteisöversio on nyt pystyssä meidän omilla palvelimilla, ongelmia normaalitapaan Plackin ja Elasticsearchin kanssa, mutta nyt kaikki vaikuttaisi toimivan. Yhteisöversiossa ei ole mitään Koha-Suomi spesifejä ominaisuuksia ja esimerkiksi indeksit ovat täysin yhteisöversion mukaiset.
 
 ## Viikko 31
 
