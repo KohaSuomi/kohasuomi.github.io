@@ -512,7 +512,7 @@ Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen m
 
 #### 1.3.7.2. Lähetä tervetulosähköposti
 
-Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle heti automaattisesti Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Toimi kirjastosi ohejeiden mukaan.
+Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Joissakin kimpoissa viesti lähtee automaattisesti, kun asiakkaan tiedot tallennetaan. Toimi kirjastosi ohjeiden mukaan.
 
 #### 1.3.7.3. Poista
 
