@@ -95,6 +95,21 @@ IntranetUserJS-järjestelmäasetukseen voi lisätä JavaScript-koodeja, joille v
 
 [IntranetUserJS-kirjasto](/dokumentaatio/intranetuserjs/)
 
+### PrepareHostField
+
+PrepareHostField-järjestelmäasetuksella voi määrittää, mistä emotietueen kentistä siirretään tietoja osakohteen 773-kenttiin, kun emotietueelle luodaan uusi osakohde.
+
+```
+001: 773$w
+020$a: 773$z
+022$a: 773$x
+028$ba: 773$o
+245$abnpc: 773$t
+260$ab: 773$d
+264$abc: 773$d
+300$ae: 773$h
+```
+
 ### SCOUserCSS
 
 SCOUserCSS-järjestelmäasetuksella voi säätää Kohan itsepalvelulainauksen ulkoasua.
