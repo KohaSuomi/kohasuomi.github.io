@@ -644,7 +644,7 @@ Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut mä�
 
 ### 1.4.5. Asiakkaan rajoitusten poistaminen
 
-Rajoitteen voit poistaa asiakkaalta Poista-toiminnolla.
+Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
 
 ## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
