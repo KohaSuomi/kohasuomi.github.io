@@ -16,7 +16,7 @@ Aika: 6.8.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset asiat:**
-* Viikon 32 päivitys
+* [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
 * Varausjononäkymät Kohassa ja Finnassa: https://github.com/KohaSuomi/Koha/issues/1170
   Aktiiviset, ei-aktiiviset, kuljetettavat, noutoa odottavat jne. Mitä eritellään kumpaankiin näkymään, ja saadaanko lukemat yhdenmukaisiksi? Kehittäjät aikoivat tästä tehdä päätöstä kesälomien jälkeen. Onko meillä konsensus siitä, mitä pääkäyttäjät toivovat?
 
