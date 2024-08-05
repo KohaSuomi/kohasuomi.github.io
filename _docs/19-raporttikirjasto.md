@@ -1317,7 +1317,9 @@ join reserves using (itemnumber) where itemnumber in (select itemnumber from res
 
 Valitse kirjastoyksikkö ja päivämääräväliin viimeistä noutopäivää seuraava päivä (esim. tiistain päivämäärä, kun etsitään varauksia, joissa on ollut maanantaina viimeinen noutopäivä), koska varaukset vanhennetaan seuraavana päivänä (yöllä). Jos haluat katsoa vain yhden päivän vanhentuneet, valitse kumpaankin päivämäärään sama päivä.
 
-Raportti hakee ne varaukset, joissa on viimeinen noutopäivä yksi päivä aiemmin kuin vanhentumispäivä, eli mukaan tulee vain ne varaukset, joissa on vanhentumispäivää edeltävä päivä. Lista tyhjenee (kun raportti ajetaan uudelleen) sitä mukaa, kun niteet palautetaan.
+Raportti hakee ne varaukset, joissa on viimeinen noutopäivä yksi päivä aiemmin kuin vanhentumispäivä, eli mukaan tulee vain ne varaukset, joissa on vanhentumispäivää edeltävä päivä. Lista tyhjenee (kun raportti ajetaan uudelleen) sitä mukaa, kun niteet palautetaan. Varaustunnus näytetään myös anonymisoiduille varauksille.
+
+HUOM! Raportista pitää vaihtaa _o.borrowernumber=10_ -kohtaan kimpan AnonymousPatron-järjestelmäasetuksesta löytyvä borrowernumber, jotta raportti osaa noutaa varaustunnuksen myös anonymisoiduille varauksille.
 
 Pvm: 10.6.2022 / muokattu 1.7.2022 / muokattu 22.5.2023 / muokattu 5.8.2024<br />
 Lisääjä: Anneli Österman
