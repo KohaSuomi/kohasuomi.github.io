@@ -366,9 +366,10 @@ lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstivies
 laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 
-\ Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
+Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
 {: .notice--warning}
-\ Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
+
+Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
 {: .notice--warning}
 
 ### 1.2.9. Tallennus
