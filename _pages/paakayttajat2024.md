@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 32
+
+Aika: 6.8.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat:**
+* Viikon 32 päivitys
+* Varausjononäkymät Kohassa ja Finnassa: https://github.com/KohaSuomi/Koha/issues/1170
+  Aktiiviset, ei-aktiiviset, kuljetettavat, noutoa odottavat jne. Mitä eritellään kumpaankiin näkymään, ja saadaanko lukemat yhdenmukaisiksi? Kehittäjät aikoivat tästä tehdä päätöstä kesälomien jälkeen. Onko meillä konsensus siitä, mitä pääkäyttäjät toivovat?
+
+Pohjoisesta etelään.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 31 
 
 Aika: 30.7.2024, klo 9.15<br />
