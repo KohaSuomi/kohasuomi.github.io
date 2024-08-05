@@ -19,6 +19,7 @@ Läsnä:
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
 * Varausjononäkymät Kohassa ja Finnassa: https://github.com/KohaSuomi/Koha/issues/1170
   Aktiiviset, ei-aktiiviset, kuljetettavat, noutoa odottavat jne. Mitä eritellään kumpaankiin näkymään, ja saadaanko lukemat yhdenmukaisiksi? Kehittäjät aikoivat tästä tehdä päätöstä kesälomien jälkeen. Onko meillä konsensus siitä, mitä pääkäyttäjät toivovat?
+* [Vanhentuneet noutamattomat varaukset](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset) -raporttia päivitetty niin, että se hakee varaustunnuksen myös anonymisoiduille varauksille ja lista tyhjenee sitä mukaa, kun niteet palautetaan. Raportissa pitää muistaa vaihtaa anonymouspatronin borrowernumber kimpan omaksi, jotta se osaa hakea oikean tunnuksen anonymisoiduilta asiakkailta.
 
 Pohjoisesta etelään.
 
