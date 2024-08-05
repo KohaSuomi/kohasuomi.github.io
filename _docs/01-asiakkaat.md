@@ -291,7 +291,7 @@ automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 
 \- _Huomautus (näkyy verkkokirjastossa)_ -kohtaan voi merkitä
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
-näkyy OPACissa ja Finnassa. Huom. kaikissa kimpoissa ei ole kuvassa näkyvää kenttää käytössä.
+näkyy OPACissa ja Finnassa. Huom! kaikissa kimpoissa ei ole kuvassa näkyvää kenttää käytössä.
 
 Finnassa huomautus näkyy Omat tiedot-välilehdellä kohdassa _Huomautukset_.
 
@@ -323,7 +323,7 @@ Asiakkaan rajoituksista tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.2
 
 _Kirjautumistunnus_-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
-verkkokirjastoon. Huom! Kimppakohtaisia eroja.
+verkkokirjastoon. Huom! Kaikissa kimpoissa ei ole kuvassa näkyvää osiota käytössä.
 
 ![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
 
