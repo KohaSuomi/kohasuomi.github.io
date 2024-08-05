@@ -474,6 +474,9 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 **Viestiin tallentuu automaattisesti päivämäärä, kirjasto sekä viestin tallentaja, joten niitä ei tarvitse manuaalisesti lisätä viestiin.**
 
+Viestin tallentajan tiedot eivät näy asiakkaalle verkkokirjastossa.
+{: .notice--warning}
+
 ### 1.3.7. Muita toimintoja -alasvetovalikko
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
