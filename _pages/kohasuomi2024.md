@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 32
 
 Aika: 5.8.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Johanna, Emmi, Lasse, Lari, Anneli
 
 **Asiat**
 * Viikon 31 keskeiset
@@ -25,6 +25,10 @@ Läsnä:
   * Bittiguru toimittaa OCFS2 testiympäristön 2.8.
   * Yhteisöversio on nyt pystyssä meidän omilla palvelimilla, ongelmia normaalitapaan Plackin ja Elasticsearchin kanssa, mutta nyt kaikki vaikuttaisi toimivan. Yhteisöversiossa ei ole mitään Koha-Suomi spesifejä ominaisuuksia ja esimerkiksi indeksit ovat täysin yhteisöversion mukaiset.
   * Backuppaus ja dumppaus tuotannoista muutettu siten että tiedostot ovat oikeuksien ja omistajien suhteen paremmassa tallessa.
+* Viikon 32 päivitys
+  * Muutos tietuesiirtäjään [Koha #1249](https://github.com/KohaSuomi/Koha/issues/1249)
+  * 4 tietoturvakorjausta
+* Varmenteet jakoon tällä viikolla
 
 ## Viikko 31
 
