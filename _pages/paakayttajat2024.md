@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen (Lappi)
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
@@ -37,6 +37,12 @@ Pohjoisesta etelään.
 * Aloitettu versiopäivityksen tikettien läpikäynti
 * Lomaltapalaajien salasanojen vaihtoa :)
 * Muuten normaalia päivystystä
+
+**Kyyti**
+* Varmenteet ovat menneet Kyytissä jakoon
+* Kyytin nextillä joiden teosten kohdalla tulee virheilmoitus (Jotain meni pieleen taulua ladattaessa.
+500: Internal Server Error. Does not match date-time format.) eikä niteen tietoja näytetä. Tämä johtuu, että viimeisin havainto -kentän päivämäärä on liian vanha (oliko se vanhempi kuin 1.1.1920?). Kyytissä konversiossa päivämääräksi tuli 1.1.1900, jos nidettä ei ollut koskaan havaittu edellisen järjestelmän Origon aikana. Emmi sanoi hoitavansa nämä kuntoon versionvaihdon yhteydessä ja nextillä erikseen.
+* Miten ennakkoilmoituksista (PREDUEDGST) saa poistettua tekstiviestimahdollisuuden? Sähköpostivaihtoehto saa jäädä. Selvää toimintamallia ei Koha-Suomella taida olla. Vastaava ehdotus saapumisilmoitusten osalta on tehty https://github.com/KohaSuomi/Koha/issues/861, mutta sitä ei ole vielä käsitelty. Jos Koha-Suomelta ei ole tähän ratkaisua tarjolla, on Vaski tehnyt css-piilotuksen, jota voi käyttää.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
 
