@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
@@ -27,6 +27,11 @@ Pohjoisesta etelään.
 **Vaara**
 * Ei erityistä, normaalia ylläpitoa
 * Varmenne laitettu Vaaran henkilökunnan saataville yhteiselle verkkoasemalle
+
+**OUTI**
+* Selvitelty Kansalliskirjaston Finna-tuen kanssa, miksi palautuskehotusmaksut mäppäytyvät edelleen Finnassa myöhästymismaksuihin? Ongelma ollut jo vuodesta 2020, kun Ceeposin verkkomaksupalvelu on otettu käyttöön. Aikanaan testauksissa testillä ongelma saatiin korjattua, mutta tuotantoon siirtymisen jälkeen ongelmaan ei ole saatu korjausta.
+* Selvitelty myös Finna-tuen kanssa, kun OUTIn testillä ei näy teoksen saatavuustiedoissa niteen kohdalla kokoelmatietoa eikä hyllytarkennetta. Tuotannossa ja nextillä näkyvät.
+* Tehdään kehitysehdotustiketti, että varausjonossa vanhenevista varaukista lähtisi sähköposti-ilmoitus/hoksautus varaajalle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
 
