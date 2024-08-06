@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
@@ -23,6 +23,10 @@ Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi)
 * Uudet asiakasvarmenteet toimitettu kaikille kimpoille Elementin kautta.
 
 Pohjoisesta etelään.
+
+**Vaara**
+* Ei erityistä, normaalia ylläpitoa
+* Varmenne laitettu Vaaran henkilökunnan saataville yhteiselle verkkoasemalle
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
 
