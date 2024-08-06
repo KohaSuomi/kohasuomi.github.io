@@ -55,6 +55,7 @@ Etelästä pohjoiseen.
 **Kyyti**
 * Vanhojen tietueiden päälle valunut uusia luettelointitietueita. Tietueet joiden päälle uusia tietueita oli valunut olivat aktivoituneet samoihin aikoihin kun uusi tietuesiirtäjä otettiin Kyytissä käyttöön. Kuvailijoille ohjeistettu, että jos haluaa ehdottomasti estää uusien kuvailutietojen valumisen vanhan tietueen päälle voi valutuksen estää tietuesiirtäjän "Tarkista aktivointi"-osion kautta, tai määrittämällä eston kentän 942b avulla.
 * Täti-.kirja luettelointipohjalla kuvailtuja teoksia ei pystynyt niteen muokkauksen kautta merkitä kadonneeksi, sillä kenttää 952$1 ei oltu merkitty näkyväksi kyseiselle pohjalle. Ongelman sai korjattua muuttamalla kuvailupohjan säätöjä niin, että editori-valinta otettiin käyttöön.
+* Kyytissä voi virkailija uusia lainat, vaikka asiakas olisikin lainauskiellossa maksujen takia. Finnassa tämä ei onnistu. Asetuksella OPACFineNoRenewals tätä voi muuttaa. Asia menee pohdintaan asiakaspalautteen takia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-31) - [Palaa sivun alkuun](/paakayttajat2024)
 
