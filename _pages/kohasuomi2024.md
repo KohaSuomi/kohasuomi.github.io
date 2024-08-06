@@ -21,6 +21,9 @@ Läsnä:
 **Asiat**
 * Viikon 32 keskeiset
   * Lokitiedostojen säilytysaikadokumentaatio. Vanha oli Redminessä, ja se luultavasti vaatii päivittämistä.
+* [Vastuuttomien tikettien vastuuttaminen](https://github.com/KohaSuomi/Koha/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee)
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-33) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 32
 
@@ -38,6 +41,8 @@ Läsnä: Pasi, Johanna, Emmi, Lasse, Lari, Anneli
   * Muutos tietuesiirtäjään [Koha #1249](https://github.com/KohaSuomi/Koha/issues/1249)
   * 4 tietoturvakorjausta
 * Varmenteet jakoon tällä viikolla
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-32) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 31
 
@@ -62,6 +67,8 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
   * Kodo: Libriksen pudotettavien kenttien kanssa säätämistä. Koha-commin pystyttelyä ja korjailua.
   * Pasi: Avointen tikettien loppuunvientiä, tietueiden palautusskriptiä
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-31) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 30
 
 Aika: 22.7.2024 klo 9<br />
@@ -85,6 +92,8 @@ Läsnä: Lasse, Pasi, Emmi, Johanna, Kodo, Anneli
   * Lasse: versionvaihtotikettejä
   * Anneli: lomailua ja viestien läpikäyntiä
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-30) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 29
 
 Aika: Maanantai 15.7.2024 klo 9<br />
@@ -98,6 +107,8 @@ Läsnä: Lasse, Pasi, Johanna ja Emmi
   * Pasi: tietokantojen siivousskriptejä
   * Johanna: suomi.fi-rajapinnan aloitus
   * Emmi: versionvaihdon tikettejä 
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-29) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 28
 
@@ -113,6 +124,7 @@ Läsnä: Pasi, Emmi, Ari, Lasse, Lari
   * Lari: Toveri-ongelma, koosteviestien kieliongelma Finnan kanssa
   * Pasi: Tietueitten palautteluskriptin testausta
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-28) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 27
 
@@ -129,6 +141,8 @@ Läsnä: Pasi, Lasse, Ari, Emmi, Lari
   * Pasi: metadatan timestampien oikaisuskripti, ajettu OUTIin ja Lappiin, loput illalla   
   * Emmi: tikettejä, Vaskin hankintahinnattomien ihmettelyä
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-27) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 26
 
 Aika: Maanantai 24.6.2024 klo 9<br />
@@ -144,6 +158,7 @@ Läsnä: Ari, Emmi, Pasi, Kodo, Lari
   * [Käännös: Hankinnan vastaanoton väärä käännös](https://github.com/KohaSuomi/Koha-translations/issues/42)
   * [Käännös: Rajoita saatavilla oleviin niteisiin](https://github.com/KohaSuomi/Koha-translations/issues/37)
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-26) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 25
 
@@ -161,6 +176,7 @@ Läsnä: Pasi, Anneli, Lasse, Ari, Kodo, Lari, Emmi
   * Pasi: sotuteekkiin muutos, Siilin tuotannon MARC-kentät järjestetty, muihin tuotantoihin sama ajo
   * Emmi: versionvaihdon tiketöintiä, päivitys aamulla, tietokantasiivouksen pohdintaa     
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-25) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 24
 
@@ -179,6 +195,8 @@ Läsnä: Ari, Lari, Johanna, Pasi, Lasse, Kodo, Anneli
   * Pasi: Redusoinnit tehty ja plugarit asennettu testeille, dna:n lähtemättömien viestien uudelleenlähetys Vaskissa, redusointiskriptiin vielä pieniä muutoksia, omien tikettien läpikäyntiä
   * Lasse: tikettejä vastuutettu loman aikana
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-24) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 23
 
 Aika: Maanantai 3.6.2024 klo 9<br />
@@ -193,6 +211,8 @@ Läsnä: Emmi, Anneli, Pasi, Johanna, Kodo, Lari, Ari
 * Vastuuttomien tikettien vastuutus
   * Vastuutettiin osa  
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-23) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 22
 
 Aika: Maanantai 27.5.2024 klo 9<br />
@@ -205,6 +225,8 @@ Läsnä: Lasse, Emmi, Anneli, Pasi, Johanna, Kassu, Kodo, Lari
   * Kyyti: tarratulostuksen Itse tulostetut -listalla liikaa niteitä
   * EDItX-hankinta: Käyttäjätilin näkyminen tilausta vastaanotettaessa
 * Testikantojen uudelleenluonti ja redusointi
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-22) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 21
 
@@ -233,6 +255,9 @@ Läsnä: Lasse, Emmi, Kassu, Ari, Lari, Johanna, Kodo, Anneli
   * Anneli: to käännöksiä, tieteellisten pääkäyttäjäpalsu, aikakatkaisutiketin testausta
   * Ari: OUTIn ohjausryhmälle kuulumisia ja tiekarttaa
 
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-21) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 20
 
 Aika: Maanantai 13.5.2024 klo 9<br />
@@ -247,6 +272,7 @@ Läsnä: Ari, Lasse, Emmi, Pasi, Kassu, Kodo, Lari, Anneli, Johanna
   * [Tietuesiirtäjä: Valuneisiin osakohteisiin ei muodostu aineistotyyppiä](https://github.com/KohaSuomi/Koha/issues/1205)
 * Konesalin yhteysongelma maanantai-aamuna ennen klo 7, kysellään Bittigurulta
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-20) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 18
 
@@ -271,6 +297,8 @@ Läsnä: Pasi, Lasse, Emmi, Ari, Johanna, Lari, Anneli
   * Lari: Elasticsearchin tutkimista, miten saisi skandit aakkostumaan oikein hakutulosten järjestämisessä. Hakuviivebranch yhteisöstä omaan branchiin meille. Pari sms-driveria testattava, että skandit toimii.
   * Lasse: tekemättömien tikettien tutkimista
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-18) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 17
 
 Aika: Maanantai 22.4.2024 klo 9<br />
@@ -292,6 +320,8 @@ Läsnä: Pasi, Johanna, Lasse, Anneli, Kassu, Lari, Kodo, Emmi
   * Johanna: Melinda-siirron korjausta
   * Emmi: käsittelyerä-toiminnon ja backgroundjobs korjaus
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-17) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 16
 
 Aika: Maanantai 15.4.2024 klo 9<br />
@@ -303,12 +333,16 @@ Läsnä: Lasse, Ari, Emmi, Anneli, Johanna, Pasi, Kassu, Lari, Kodo
   * Sunnuntai-iltana 5.5. klo 19
 * JS-rimpsujen läpikäynti Larin listan pohjalta
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-16) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 15
 
 Aika: Maanantai 8.4.2024 klo 9<br />
 Läsnä: Pasi, Emmi, Lasse, Anneli, Lari, Ari, Kodo, Kassu
 
 * Onko kaikki laittaneet kesälomansa kalenteriin?
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-15) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 14
 
@@ -335,6 +369,7 @@ Läsnä: Pasi, Emmi, Lasse, Lari, Kassu, Ari, Anneli
   * Anneli: Vaskin aikakatkaisu -ongelman testausta, RedirectGuaranteeEmail-tiketin testausta, uutiskirje eetteriin, css:ine kanssa värkkäämistä.
   * Emmi: elastic 8:n saanut toimimaan, tietokantatriggereitä outi-nextille, Ceepos-häröilyt Oulussa ja Vaarassa.
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-14) - [Palaa sivun alkuun](/kohasuomi2024)
   
 ## Viikko 13
 
@@ -343,12 +378,16 @@ Läsnä: Ari, Lari, Anneli, Kassu, Lasse, Johanna, Emmi, Pasi
 
 * Vk 14 pääkäyttäjille pääsy nexteille testausta varten
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-13) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 12
 
 Aika: 18.3.2024 klo 9<br />
 Läsnä: Lari, Lasse, Kodo, Anneli, Pasi, Ari, Emmi
 
 * [Yhteisöversion-testikannan pystytys](https://github.com/KohaSuomi/Koha/issues/1116) Joskus kesällä.
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-12) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 11
 
@@ -373,6 +412,8 @@ Läsnä: Pasi, Emmi, Kodo, Lasse, Lari, Johanna, Anneli, Kassu, Ari
 * Keskiviikon huoltokatko
   * testit ja nextit käyvät alhaalla tiistaina.
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-11) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 10
 
 Aika: 4.3.2024 klo 9<br />
@@ -389,6 +430,8 @@ Läsnä: Anneli, Kassu, Johanna, Emmi, Lasse, Pasi, Kodo
   * Anneli: Lastun salasana-ongelma, kokoelmatyön tiedonhaun koulutuksen valmistelua raporttien osalta, muuta pientä sälää
   * Kodo: Lastun konversion siistimistä, vaara ropocapital
   * Pasi: z3950-haku välimerkkiongelma
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-10) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 9
 
@@ -415,6 +458,8 @@ Läsnä: Ari, Anneli, Emmi, Lasse, Pasi, Lari
   * Automaattien lainausviestiparin 11-12 vastauksessa ei tule AH-kentässä eräpäivää, mikäli ”no block” -asetuksessa lähetetään ”Y”
   * Käännösvirhe niteiden erämuokkauksessa jos poistettavia niteitä enemmän kuin mitä sallitaan näytettäväksi
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-9) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 8
 
 Aika: 19.2.2024 klo 9<br />
@@ -438,6 +483,7 @@ Läsnä: Pasi, Lasse, Johanna, Lari, Kodo, Anneli, Emmi
   * Lasse: tikettien tekoa
   * Emmi: 0114 branchin kanssa ongelmia     
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-8) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 7
 
@@ -460,6 +506,8 @@ Läsnä: Johanna, Ari, Lari, Lasse, Kodo, Pasi, Anneli, Kassu
   * Lasse: Varauksen peruutusnapin ihmettelyä
   * Johanna: Valutusta
 
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-7) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 6
 
