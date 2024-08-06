@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen (Lappi)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
@@ -33,6 +33,11 @@ Pohjoisesta etelään.
 * Selvitelty myös Finna-tuen kanssa, kun OUTIn testillä ei näy teoksen saatavuustiedoissa niteen kohdalla kokoelmatietoa eikä hyllytarkennetta. Tuotannossa ja nextillä näkyvät.
 * Tehdään kehitysehdotustiketti, että varausjonossa vanhenevista varaukista lähtisi sähköposti-ilmoitus/hoksautus varaajalle.
 
+**Lappi**
+* Aloitettu versiopäivityksen tikettien läpikäynti
+* Lomaltapalaajien salasanojen vaihtoa :)
+* Muuten normaalia päivystystä
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 31 
