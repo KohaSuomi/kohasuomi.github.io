@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
