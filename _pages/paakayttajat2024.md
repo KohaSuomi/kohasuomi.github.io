@@ -13,11 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä
+Läsnä:
 
 **Yhteiset asiat**
 * Versionvaihto: [Huomauta virkailijaa noudettavista varauksista lainatessa](https://github.com/KohaSuomi/Koha-24.05/wiki/Uutta-versiossa-24.05#huomauta-virkailijaa-noudettavista-varauksista-lainatessa)
-  * Onko tuolle asetukselle tarvetta eli tarviiko tuoda meille siihen liittyvä korjaus. Jos ei ole tarvetta, odotetaan, että se tulee version 24.11 mukana.
+  * Onko tuolle asetukselle tarvetta eli tarviiko tuoda meille siihen liittyvä korjaus? Jos ei ole tarvetta, odotetaan, että se tulee version 24.11 mukana.
 
 Etelästä pohjoiseen
 
