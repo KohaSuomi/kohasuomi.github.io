@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 33
+
+Aika: 13.8.2024, klo 9.15<br />
+Läsnä
+
+**Yhteiset asiat**
+* Versionvaihto: [Huomauta virkailijaa noudettavista varauksista lainatessa](https://github.com/KohaSuomi/Koha-24.05/wiki/Uutta-versiossa-24.05#huomauta-virkailijaa-noudettavista-varauksista-lainatessa)
+  * Onko tuolle asetukselle tarvetta eli tarviiko tuoda meille siihen liittyvä korjaus. Jos ei ole tarvetta, odotetaan, että se tulee version 24.11 mukana.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-33) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
