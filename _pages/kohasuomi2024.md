@@ -24,6 +24,7 @@ Läsnä:
   * Tietoturvapaikan myötä niteiden vastaanotto meni rikki tiistaina. Ongelma korjattiin aluksi väliaikaisella paikalla ja sitten tuomalla keskiviikkona korjaus tuotantoihin. Väliaikaisen paikan käyttöönotto vaati palveluiden uudelleen käynnistykset kaikissa kimpoissa, tämä saattoi näkyä katkoina. 
 * [Vastuuttomien tikettien vastuuttaminen](https://github.com/KohaSuomi/Koha/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee)
 * Borrowers/status endpoint
+* Verkkolaskufoorumin kysely support-lootassa
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-33) - [Palaa sivun alkuun](/kohasuomi2024)
 
