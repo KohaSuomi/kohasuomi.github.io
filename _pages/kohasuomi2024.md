@@ -25,6 +25,8 @@ Läsnä:
 * [Vastuuttomien tikettien vastuuttaminen](https://github.com/KohaSuomi/Koha/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee)
 * Borrowers/status endpoint
 * Verkkolaskufoorumin kysely support-lootassa
+* finnaprefix-asetuksen kohtalo
+  * Tarkoitus on ollut ilmeisesti ottaa käyttöön konfissa oleva finnaprefix-asetus, mutta sama asetus löytyy myös paikallisista asetuksista Kohasta ja koodissa käytetään nimenomaan sitä. Olisi päätettävä lopullisesti kumpi otetaan käyttöön ja kummasta luovutaan ja tehtävä siivoukset sekä mahdollinen koodimuutos sen mukaan.
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-33) - [Palaa sivun alkuun](/kohasuomi2024)
 
