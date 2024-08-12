@@ -119,8 +119,8 @@ Jo tehdyn haun hakutuloksiin voi tehdä uuden haun, jolla tarkennetaan ja rajata
 
 ![](/assets/files/docs/Tiedonhaku/haku_hakutuloksesta_2024.png)
 
-**Huom.** Hakusanat tulee tarvittaessa katkaista \*-merkillä. Kimppakohtainen asetus automaattikatkaisusta ei päde tässä haussa.
-{: .notice--warning}
+Huom. Hakusanat tulee tarvittaessa katkaista \*-merkillä. Kimppakohtainen asetus automaattikatkaisusta ei päde tässä haussa.
+{:.notice--warning}.
 
 ## 10.4. Hakuhistoria
 
