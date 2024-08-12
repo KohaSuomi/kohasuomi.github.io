@@ -16,17 +16,21 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 33
 
 Aika: 12.8.2024 klo 9<br />
-Läsnä:
+Läsnä: Lari, Ari, Lasse, Johanna, Kodo, Anneli
 
 **Asiat**
 * Viikon 32 keskeiset
   * Lokitiedostojen säilytysaikadokumentaatio. Vanha oli Redminessä, ja se luultavasti vaatii päivittämistä.
   * Tietoturvapaikan myötä niteiden vastaanotto meni rikki tiistaina. Ongelma korjattiin aluksi väliaikaisella paikalla ja sitten tuomalla keskiviikkona korjaus tuotantoihin. Väliaikaisen paikan käyttöönotto vaati palveluiden uudelleen käynnistykset kaikissa kimpoissa, tämä saattoi näkyä katkoina. 
 * [Vastuuttomien tikettien vastuuttaminen](https://github.com/KohaSuomi/Koha/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee)
+  * jatketaan ensi viikolla
 * Borrowers/status endpoint
+  * lisätään lokitusta ja kirjoitetaan service-check
 * Verkkolaskufoorumin kysely support-lootassa
+  * Vastattu, ettei ole ongelmia. 
 * finnaprefix-asetuksen kohtalo
   * Tarkoitus on ollut ilmeisesti ottaa käyttöön konfissa oleva finnaprefix-asetus, mutta sama asetus löytyy myös paikallisista asetuksista Kohasta ja koodissa käytetään nimenomaan sitä. Olisi päätettävä lopullisesti kumpi otetaan käyttöön ja kummasta luovutaan ja tehtävä siivoukset sekä mahdollinen koodimuutos sen mukaan.
+  * Päätös: käytetään järjestelmäasetusten finnaprefix-asetusta. Siivotaan koha-config versionvaihdon yhteydessä.
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-33) - [Palaa sivun alkuun](/kohasuomi2024)
 
