@@ -223,6 +223,7 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - sisällön kuvailu eli asiasanat ja kohdehenkilöt ja -yhteisöt yms.
 - luokitus (ykl ja fiktiivinen lisäluokka)
 - linkit kansikuvaan ja kuvaukseen
+- yhteenveto (kenttään 520 lisätty huomautus sisällöstä, tiivistelmästä yms.)
 - linkki MARC-esikatseluun, josta näkee kaikki teokselle tallennetut tiedot MARC-kentittäin
 - MARC-kuvailupohjat, kertoo mitä kuvailupohjaa tietue käyttää
 - kansikuva, jos sellaiseen on linkki
