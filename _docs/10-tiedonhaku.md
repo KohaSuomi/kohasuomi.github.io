@@ -94,7 +94,7 @@ Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
 
-Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tulokset järjestetään osuvuuden mukaan. Muita vaihtoehtoja ovat esimerkiksi julkaisuvuosi, tekijä, nimeke ja suosio (lainamäärä).
+Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Tulosten oletusjärjestys on parametroitavissa asetuksella _defaultSortField_, eli se on kimppakohtaisesti päätettävissä. Tulokset voi järjestää esimerkiksi osuvuuden, julkaisuvuoden, tekijän, nimekkeen ja suosion (lainamäärä) mukaan. Järjestäminen nimekkeen mukaan tapahtuu kentän 245 perusteella.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
@@ -105,19 +105,19 @@ Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tuloks
 Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
 Jos olet hakenut hakusanalla _valokuvaus_,  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku14_fasetit_lahtotilanne.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku14_fasetit_lahtotilanne_2024.png)
 
 voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus_2024.png)
 
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
 
 ### 10.3.2 Haku hakutuloksesta
 
-Jo tehdyn haun hakutuloksiin voi tehdä uuden haun, jolla tarkennetaan ja rajataan hakua. _Hae tuloksista_ -haun voi tehdä sanahakuna tai sen voi kohdistaa alasvetovalikosta esim. tekijään tai asiasanaan. 
+Jo tehdyn haun hakutuloksiin voi tehdä uuden haun, jolla tarkennetaan ja rajataan hakua. _Hae tuloksista_ -haun voi tehdä hakusanahakuna tai sen voi kohdistaa alasvetovalikosta esim. tekijään tai asiasanaan. 
 
-![](/assets/files/docs/Tiedonhaku/haku_hakutuloksesta.png)
+![](/assets/files/docs/Tiedonhaku/haku_hakutuloksesta_2024.png)
 
 Huom. Hakusanat tulee tarvittaessa katkaista \*-merkillä. Kimppakohtainen asetus automaattikatkaisusta ei päde tässä haussa.
 {: .notice--warning}
@@ -139,9 +139,9 @@ Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
 
 Nidehaulla voit esimerkiksi:
 
-- Tutkia luokan niteiden määrää karsintaa varten. Huomaa kuitenkin, että haku palauttaa myös lainassa olevat niteet.
+- Tutkia luokan niteiden määrää karsintaa varten.
 - Hakea nollalainoja.
-- Hakea joukon niteitä ja muokata niiden tietoja eräajona.
+- Hakea joukon niteitä ja muokata, tai poistaa niiden tietoja eräajona.
 - Tarkastaa, ovatko kaikki lehtiniteet siirretty pois lehtiemon alta.
 - Tarkastaa, onko lehtien vanhoja numeroita jäänyt tietokantaan.
 
@@ -150,7 +150,7 @@ Nidehaku on _Haku_-valikossa.
 
 Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
 
-Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä. Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
+Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Nimeketietojen yhteydestä löytyy myös teoksen mahdollinen alanimeke, osan nimi, osan numero ja aineiston yleismääre. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä. Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
 
@@ -164,9 +164,9 @@ Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katk
 
 Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa. Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
 
-Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet.
+Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet, jotka eivät ole lainassa.
 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset_2024.png)
 
 Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku 
 
@@ -181,7 +181,7 @@ Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta.
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
 
 Esimerkeissä valituilla ehdoilla hakutuloslista näyttää tältä. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku23_nidehaku_tulokset.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku23_nidehaku_tulokset_2024.png)
 
 Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä: 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
@@ -203,7 +203,6 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - Perustiedot
 - MARC
 - Otsikoitu MARC
-- ISBD-näkymä
 - Niteet
 - Varaukset, sulkeissa varausten määrä
 - Lainahistoria
@@ -225,9 +224,12 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - luokitus (ykl ja fiktiivinen lisäluokka)
 - linkit kansikuvaan ja kuvaukseen
 - linkki MARC-esikatseluun, josta näkee kaikki teokselle tallennetut tiedot MARC-kentittäin
+- MARC-kuvailupohjat, kertoo mitä kuvailupohjaa tietue käyttää
 - kansikuva, jos sellaiseen on linkki
 - linkki varauksiin
 - musiikkiaineistolla ja erilaisilla artikkelikokoelmilla useimmiten linkit osakohteisiin ja tieto osakohteiden määrästä
+- elasticsearch tietue (Elasticsearchiin lisätty ominaisuus, että käyttäjä voi katsoa perustiedot-näytöllä tietueen indeksiin tallennetut tiedot)
+- lainatilasto raportti
 
 ### 10.6.2. MARC-, Otsikoitu MARC ja ISBD-välilehdet
 
@@ -283,11 +285,11 @@ Voit suodattaa näkyville esim.
 
 Vasemman reunan _Niteet_-välilehdellä näkee tarkempia historiatietoja niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia _Kokoelmat_-taulukosta (saatavuustiedoista).
 
-![](/assets/files/docs/Tiedonhaku/tietue7.png)  
+![](/assets/files/docs/Tiedonhaku/tietue7_2024.png)  
 
 Niteestä näkee mm.
 
-- koti- ja nykyisen kirjaston, nidetyypin, kokoelman ja luokan
+- koti- ja nykyisen kirjaston, nidetyypin, hyllypaikan, kokoelman ja luokan
 - kenellä nide on tällä hetkellä lainassa
 - kuinka monta kertaa nide on uusittu
 - voi asettaa niteen
@@ -295,14 +297,18 @@ Niteestä näkee mm.
   - Vahingoittuneeksi (sama kuin Varattavuus niteen muokkauksessa)
   - Pois kierrosta -tilaiseksi (jos sallittu)
 
-![](/assets/files/docs/Tiedonhaku/tietue8.png)  
+![](/assets/files/docs/Tiedonhaku/tietue8_2024.png)  
 
 Historia-tiedoista näkee
 
+- tilauspäivän
+- toimittajan
 - vastaanottopäivän
+- laskun numeron
 - niteen lainakerrat
 - viimeisin havainto ja lainauspäivä
 - viimeksi palauttaneen asiakkaan kirjastokortin numeron
+- kolmen viimeksi lainanneen asiakkaan kirjastokortin numerot
 - näkee ja voi asettaa yleisen huomautuksen tai viesti virkailijalle -huomautuksen
 
 ### 10.7.2. Hankintatiedot
