@@ -108,10 +108,10 @@ Jos olet hakenut hakusanalla _valokuvaus_,
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku14_fasetit_lahtotilanne_2024.png)
 
 voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus_2024.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus.png)
 
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne_2024.png)
 
 ### 10.3.2 Haku hakutuloksesta
 
