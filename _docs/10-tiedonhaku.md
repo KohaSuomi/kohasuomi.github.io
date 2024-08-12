@@ -166,7 +166,7 @@ Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi val
 
 Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet, jotka eivät ole lainassa.
 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset_2024.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku_21_nidehaun_rajaukset_2024.png)
 
 Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku 
 
