@@ -94,7 +94,7 @@ Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
 
-Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Tulosten oletusjärjestys on parametroitavissa asetuksella _defaultSortField_, eli se on kimppakohtaisesti päätettävissä. Tulokset voi järjestää esimerkiksi osuvuuden, julkaisuvuoden, tekijän, nimekkeen ja suosion (lainamäärä) mukaan. Järjestäminen nimekkeen mukaan tapahtuu kentän 245 perusteella.
+Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Tulosten oletusjärjestys on parametroitavissa asetuksella (_defaultSortField_), eli se on kimppakohtaisesti päätettävissä. Tulokset voi järjestää esimerkiksi osuvuuden, julkaisuvuoden, tekijän, nimekkeen ja suosion (lainamäärä) mukaan. Järjestäminen nimekkeen mukaan tapahtuu kentän 245 perusteella.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
