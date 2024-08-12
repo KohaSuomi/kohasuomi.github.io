@@ -174,7 +174,7 @@ Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedo
 
 palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
-_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 25.05.2023. 
+_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki yli 10 kertaa lainatut niteet, jotka on lainattu 25.05.2023. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
 
 Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. 
