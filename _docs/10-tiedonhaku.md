@@ -210,7 +210,7 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 
 ### 10.6.1. Kuvailutiedot
 
-![](/assets/files/docs/Tiedonhaku/tietue1.png)
+![](/assets/files/docs/Tiedonhaku/tietue1_2024.png)
 
 - nimeke
 - tekijät ja heidän funktiot
