@@ -22,6 +22,7 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
   * Päätös: Ei ole kiirettä käyttöönotolle, joten ei tuoda itse korjausta versioon 24.05.
 * [Lainahistorioiden nidetietojen "palautus" tehty kaikkiin kimppoihin](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/23#issuecomment-2283861917)
 * Ei huoltoikkunaa ke 14.8.2024, mutta muistutuksena, että kaikki ajastetut ajot lähtevät toimimaan vasta klo 9.15 lähtien. Esim. hyllyvarauslistat eivät päivity ennen sitä.
+* Finna-kehitysehdotukset ja niiden läpikäynti ja hallinnointi: kysytty, haluaisiko Vaski ottaa vetovastuun läpikäyntikokouksen järjestämisestä ja yleisesti olisi paremmin tietoinen, missä mennään Finna-kehitysehdotusten osalta.
 
 Etelästä pohjoiseen
 
