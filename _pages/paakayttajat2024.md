@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi),
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme),
 
 **Yhteiset asiat**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1352)
@@ -32,7 +32,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Kesä sujunut Siilissä rauhallisesti pitkistä lomista huolimatta
 * Tarkistettu alv-muutokset 1.9. Kohassa: järjestelmäasetus TaxRates 0.24 -> 0.255, mutta ei aiheuta sen suurempia toimia
-  
+
+**Lumme**
+* Normaalia ylläpitoa.  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-33) - [Palaa sivun alkuun](/paakayttajat2024)
 
