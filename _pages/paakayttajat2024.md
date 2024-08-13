@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (Outi)
 
 **Yhteiset asiat**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1352)
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Outi**
+* Testi-Finnan nidenäkymä saatu kuntoon ja Kassu testaa damaged-arvojen poistamista lyhytlainoilta.
+* Kellutusasioihin liittyen testattavana myös FloatRules-säädöt ja yhteisistä hyllypaikoista poikkeavien hyllypaikkojen lisääminen auktorisina arvoina hyllytarkenteisiin, jotta niitä voi tulostaa tarroihin ja silti käyttää yhteneviä signumeja automaattien lajittelutyössä.
 
 **Lappi**
 * Normaalia ylläpitoa
