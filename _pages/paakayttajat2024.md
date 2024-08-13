@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset asiat**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1352)
@@ -25,6 +25,10 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 * Finna-kehitysehdotukset ja niiden läpikäynti ja hallinnointi: kysytty, haluaisiko Vaski ottaa vetovastuun läpikäyntikokouksen järjestämisestä ja yleisesti olisi paremmin tietoinen, missä mennään Finna-kehitysehdotusten osalta.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* normaalia ylläpitoa ja testausta
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-33) - [Palaa sivun alkuun](/paakayttajat2024)
 
