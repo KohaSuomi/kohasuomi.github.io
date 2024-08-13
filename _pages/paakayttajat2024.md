@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (Outi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Katariina Pohto ja Piia Semenoff (Outi)
 
 **Yhteiset asiat**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1352)
@@ -25,6 +25,9 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen, Aul
 * Finna-kehitysehdotukset ja niiden läpikäynti ja hallinnointi: kysytty, haluaisiko Vaski ottaa vetovastuun läpikäyntikokouksen järjestämisestä ja yleisesti olisi paremmin tietoinen, missä mennään Finna-kehitysehdotusten osalta.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Ehdotimme Kohan aikakatkaisun parantamista. Eli Kohassa näkyisi selvästi että sivu on aikakatkaistu ja/tai tulisi vähän ennen pop-up ikkuna joka varoittaisi tulevasta katkaisusta. Vaski tekee kehitysehdotuksen.
 
 **Vaara**
 * normaalia ylläpitoa ja testausta
