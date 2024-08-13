@@ -13,12 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset asiat**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1352)
 * Versionvaihto: [Huomauta virkailijaa noudettavista varauksista lainatessa](https://github.com/KohaSuomi/Koha-24.05/wiki/Uutta-versiossa-24.05#huomauta-virkailijaa-noudettavista-varauksista-lainatessa)
   * Onko tuolle asetukselle tarvetta eli tarviiko tuoda meille siihen liittyvä korjaus? Jos ei ole tarvetta, odotetaan, että se tulee version 24.11 mukana.
+  * Päätös: Ei ole kiirettä käyttöönotolle, joten ei tuoda itse korjausta versioon 24.05.
 * [Lainahistorioiden nidetietojen "palautus" tehty kaikkiin kimppoihin](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/23#issuecomment-2283861917)
 * Ei huoltoikkunaa ke 14.8.2024, mutta muistutuksena, että kaikki ajastetut ajot lähtevät toimimaan vasta klo 9.15 lähtien. Esim. hyllyvarauslistat eivät päivity ennen sitä.
 
