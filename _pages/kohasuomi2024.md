@@ -25,7 +25,8 @@ Läsnä:
     * ensisijainen tieto katkoksesta edelleen matrixissa pääkäyttäjille
     * kun alkaa näyttämään, että kyseessä on pidempiaikainen ongelma, laitetaan häiriötiedote, jossa kerrotaan että on ongelma ja sitä selvitellään. Täydennetään tiedotetta sitten, kun asioita selviää.
     * alkutiedotuksen voi tehdä kuka tahansa meistä, koska kaikki ei kuitenkaan pysty osallistumaan / tarvitse osallistua ongelmaselvittelyihin.
-      * Anneli luo tiedotepohjan, jonka kaikki voi sitten tallentaa Githubissa omiin saved replies -asetukseen. 
+      * Anneli luo tiedotepohjan, jonka kaikki voi sitten tallentaa Githubissa omiin saved replies -asetukseen.
+* Alustavaa keskustelua tehtäväjaoista ja roolituksista.
 
 ## Viikko 33
 
