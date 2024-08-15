@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 34
+
+Aika: 19.8.2024 klo 9<br />
+Läsnä:
+
+* Viiko 33 keskeiset
+  * käyttökatkot ke-to 14.-15.8.2024
+  * käyttökatkoista tiedottaminen
+
 ## Viikko 33
 
 Aika: 12.8.2024 klo 9<br />
