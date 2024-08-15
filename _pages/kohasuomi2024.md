@@ -26,6 +26,8 @@ Läsnä:
     * kun alkaa näyttämään, että kyseessä on pidempiaikainen ongelma, laitetaan häiriötiedote, jossa kerrotaan että on ongelma ja sitä selvitellään. Täydennetään tiedotetta sitten, kun asioita selviää.
     * alkutiedotuksen voi tehdä kuka tahansa meistä, koska kaikki ei kuitenkaan pysty osallistumaan / tarvitse osallistua ongelmaselvittelyihin.
       * Anneli luo tiedotepohjan, jonka kaikki voi sitten tallentaa Githubissa omiin saved replies -asetukseen.
+      * Koha-kirjastojärjestelmissä on xxx-kimpoissa tällä hetkellä tekninen häiriö, minkä vuoksi ne eivät toimi. Selvitämme ongelmaa ja päivitämme tätä tiedotetta, kun tiedämme ongelman syystä ja sen korjauksesta enemmän.
+Pahoittelemme häiriöstä aiheutuvaa haittaa.
 * Alustavaa keskustelua tehtäväjaoista ja roolituksista.
 
 ## Viikko 33
