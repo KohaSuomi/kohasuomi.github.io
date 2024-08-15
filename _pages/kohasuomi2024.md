@@ -18,9 +18,14 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 19.8.2024 klo 9<br />
 Läsnä:
 
-* Viiko 33 keskeiset
+* Viikon 33 keskeiset
   * käyttökatkot ke-to 14.-15.8.2024
   * käyttökatkoista tiedottaminen
+    * päivystysaikana pääasiallisesti
+    * ensisijainen tieto katkoksesta matrixissa pääkäyttäjille
+    * kun alkaa näyttämään, että kyseessä on pidempiaikainen ongelma, laitetaan häiriötiedote, jossa kerrotaan että on ongelma ja sitä selvitellään. Täydennetään tiedotetta sitten, kun asioita selviää.
+    * alkutiedotuksen voi tehdä kuka tahansa meistä, koska kaikki ei kuitenkaan pysty osallistumaan / tarvitse osallistua ongelmaselvittelyihin.
+      * Anneli luo tiedotepohjan, jonka kaikki voi sitten tallentaa Githubissa omiin saved replies -asetukseen. 
 
 ## Viikko 33
 
