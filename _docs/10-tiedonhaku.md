@@ -688,20 +688,19 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |stock-number|037|Hankintapaikka|
 |su-geo|650z|Maantieteellinen lisämääre|
 |su-geo|651a|Maantieteellinen nimi|
-|subject|651|Maantieteellinen nimi asiasanana|
+
 |subject|348a|Termi nuottiaineiston muodolle|
 |subject|600a|Henkilönnimi|
-|subject|653a|Kontrolloimaton hakutermi|
-|subject|630r|Sävellaji|
 |subject|600b|Numerointi (henkilönnimessä)|
 |subject|600t|Teoksen nimeke|
 |subject|610a|Yhteisönnimi |
 |subject|610b|Alayksikkö (yhteisönnimessä)|
 |subject|610t|Teoksen nimeke|
-|subject|611|Kokouksen nimi asiasanana|
+|subject|611ancdet|Kokouksen nimi asiasanana|
 |subject|630a|Yhtenäistetty nimeke|
 |subject|630n|Numerointitieto (yhtenäistetty nimeke)|
 |subject|630p|Teoksen osan nimeke|
+|subject|630r|Sävellaji|
 |subject|648a|Aikaa ilmaiseva termi|
 |subject|650a|Aihetta ilmaiseva termi tai maantieteellinen nimi|
 |subject|650b|Maantieteellistä nimeä seuraava aihetta ilmaiseva termi|
@@ -712,11 +711,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |subject|650y|Aikaa ilmaiseva lisämääre|
 |subject|650z|Maantieteellinen lisämääre|
 |subject|651a|Maantieteellinen nimi asiasanana|
-|subject|651c|Maantieteellinen nimi asiasanana|
-|subject|651d|Maantieteellinen nimi asiasanana|
-|subject|651e|Maantieteellinen nimi asiasanana|
-|subject|651n|Maantieteellinen nimi asiasanana|
-|subject|651t|Maantieteellinen nimi asiasanana|
+|subject|653a|Kontrolloimaton hakutermi|
 |subject|655a|Lajityyppiä/muotoa kuvaava termi tai fokustermi|
 |subject|655x|Yleinen lisämääre (lajityypille)|
 |subject-name-personal|600a|Henkilönnimi|
@@ -739,17 +734,6 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |thematic-number|730n|Numerointitieto (yhtenäistetty nimeke)|
 |time-period|388a|Luomisaika|
 |time-period|655y|Aikaa ilmaiseva lisämääre|
-|title|247|Aikaisempi nimeke|
-|title|780|Edeltäjä - linkkikenttä|
-|title|785|Seuraaja - linkkikenttä|
-|title|700t|Teoksen nimeke|
-|title|710t|Teoksen nimeke|
-|title|711t|Teoksen nimeke|
-|title|490a|Sarjamerkintö|
-|title|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
-|title|830n|Numerointitieto (sarjalisäkirjaus)|
-|title|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
-|title|830v|Sarjan sisäinen numerointi|
 |title|130|Yhtenäistetty nimeke|
 |title|210|Lyhennetty nimeke|
 |title|211|?|
@@ -757,13 +741,18 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |title|214|?|
 |title|222|Avainnimeke|
 |title|240|Yhtenäistetty nimeke|
-|title|245(ab)|Päänimeke, muut nimeketiedot|
-|title|245p|Teoksen osan nimi|
-|title|245n|Numerointitieto (nimekkeessä)|
+|title|245abnp|Päänimeke, muut nimeketiedot|
 |title|246|Muut nimekkeet|
+|title|247|Aikaisempi nimeke|
+|title|490a|Sarjamerkintö|
 |title|505t|Nimeke (huomautus sisällön rakenteesta)|
+|title|700t|Teoksen nimeke|
+|title|710t|Teoksen nimeke|
+|title|711t|Teoksen nimeke|
 |title|730|Yhtenäistetty nimeke (lisäkirjaus)|
 |title|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
+|title|780|Edeltäjä - linkkikenttä|
+|title|785|Seuraaja - linkkikenttä|
 |title-abbreviated|210|Lyhennetty nimeke|
 |title-abbreviated|211|?|
 |title-abbreviated|246|Muut nimekkeet|
