@@ -34,6 +34,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Kehityksen seuranta
   * Suunnitteluhackaton, kvartaaleittain, pari kertaa vuodessa?
   * Otetaanko käyttöön scrummin sprintit?
+    * No ei varmaan oteta, T. Kodo :D
 * Tallennusjärjestelmäremontti
   * Mitenkäs se lokitus? Nyt ei todennäköisesti enää ole tarvetta shm-lokitukselle, joten puretaanko seuraavassa huoltokatkossa se pois ja annetaan lokien mennä suoraan ocfs:lle?
   * elastictmpfs tarve jatkossa?
