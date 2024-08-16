@@ -760,31 +760,31 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |title-cover|245a|Päänimeke|
 |title-expanded|214|?|
 |title-expanded|246|Muut nimekkeet|
+|title-former|246|Muut nimekkeet|
 |title-former|247|Aikaisempi nimeke|
 |title-former|780|Edeltäjä - linkkikenttä|
-|title-former|246|Muut nimekkeet|
 |title-key|222|Avainnimeke|
 |title-later|785|Seuraaja - linkkikenttä|
-|title-other-variant|247|Aikaisempi nimeke|
 |title-other-variant|212|?|
+|title-other-variant|247|Aikaisempi nimeke|
 |title-other-variant|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
-|title-series|800t|Teoksen nimeke (sarjalisäkirjaus henkilönnimi)|
 |title-series|440a|Sarjamerkintö lisäkirjausmuodossa|
 |title-series|490a|Sarjamerkintö (ei lisäkirjausmuodossa)|
+|title-series|800t|Teoksen nimeke (sarjalisäkirjaus henkilönnimi)|
 |title-series|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
 |title-series|830n|Numerointitieto (sarjalisäkirjaus)|
 |title-series|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
 |title-series|830v|Sarjan sisäinen numerointi|
+|title-uniform|130|Yhtenäistetty nimeke|
+|title-uniform|240|Yhtenäistetty nimeke|
 |title-uniform|700t|Teoksen nimeke|
 |title-uniform|710t|Teoksen nimeke|
 |title-uniform|711t|Teoksen nimeke|
+|title-uniform|730|Yhtenäistetty nimeke|
 |title-uniform|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
 |title-uniform|830n|Numerointitieto (sarjalisäkirjaus)|
 |title-uniform|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
 |title-uniform|830v|Sarjan sisäinen numerointi|
-|title-uniform|130|Yhtenäistetty nimeke|
-|title-uniform|240|Yhtenäistetty nimeke|
-|title-uniform|730|Yhtenäistetty nimeke|
 |totalissues|9420|?|
 |udc-aux-subdivision|080x|UDK lisäluku|
 |udc-classification|080|Yleinen kymmenluokitus (UDK)|
@@ -918,8 +918,6 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |2459|Linkitys nimeke-auktoriteettiin|cross-reference|
 |245a|Päänimeke|title-cover|
 |245c|Vastuullisuusmerkinnöt jne.|author-in-order|
-|245n|Numerointitieto (nimekkeessä)|title|
-|245p|Teoksen osan nimi|title|
 |246|Muut nimekkeet|title|
 |246|Muut nimekkeet|title-abbreviated|
 |246|Muut nimekkeet|title-expanded|
@@ -1051,12 +1049,6 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |650z|Maantieteellinen lisämääre|su-geo|
 |650z|Maantieteellinen lisämääre|subject|
 |651ancdet|Maantieteellinen nimi asiasanana|subject|
-|651c|Maantieteellinen nimi asiasanana|subject|
-|651d|Maantieteellinen nimi asiasanana|subject|
-|651e|Maantieteellinen nimi asiasanana|subject|
-|651n|Maantieteellinen nimi asiasanana|subject|
-|651t|Maantieteellinen nimi asiasanana|subject|
-|651|Maantieteellinen nimi asiasanana|name-geographic|
 |6510|Maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
 |651a|Maantieteellinen nimi|su-geo|
 |6520|?|koha-auth-number|
@@ -1171,16 +1163,12 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |811w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus kokouksen nimi|record-control-number|
 |8300|Sarjalisäkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|koha-auth-number|
 |830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title-series|
-|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title|
 |830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title-uniform|
 |830n|Numerointitieto (sarjalisäkirjaus)|title-series|
-|830n|Numerointitieto (sarjalisäkirjaus)|title|
 |830n|Numerointitieto (sarjalisäkirjaus)|title-uniform|
 |830p|Teoksen osan nimeke (sarjalisäkirjaus)|title-series|
-|830p|Teoksen osan nimeke (sarjalisäkirjaus)|title|
 |830p|Teoksen osan nimeke (sarjalisäkirjaus)|title-uniform|
 |830v|Teoksen osan nimeke (sarjalisäkirjaus)|title-series|
-|830v|Teoksen osan nimeke (sarjalisäkirjaus)|title|
 |830v|Teoksen osan nimeke (sarjalisäkirjaus)|title-uniform|
 |830w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhtenäistetty nimeke|record-control-number|
 |830x|Sarjalisäkirjauksen ISSN|issn|
@@ -1198,7 +1186,6 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |9426|Järjestämistä varten normalisoitu tietueen luokka|cn-bib-sort|
 |942c|Aineistotyyppi|mtype|
 |942c|Aineistotyyppi|itemtype|
-|942c|Aineistotyyppi|itype|
 |942h|Luokka|cn-class|
 |942i|Item part|cn-item|
 |942k|Signumin prefiksi|cn-prefix|
@@ -1236,6 +1223,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |952v|Korvaushinta|replacementprice|
 |952w|Korvaushinta|replacementpricedate|
 |952y|Nidetyyppi|itemtype|
+|952y|Nidetyyppi|itype|
 |952z|Yleinen huomautus|note|
 |960|?|collection-960|
 |999c|Koha biblionumber|local-number|
