@@ -15,9 +15,9 @@ Käsittelyerät-toimintoon pääset kahta reittiä.
 
 ![Käsittelyerät-osioon pääsee joko Muita toimintoja -valikosta tai etusivulta Hankinnat-nappulasta](/assets/files/docs/Kasittelyerat/kasittelyerat.png)
 
-Käsittelyerät-toiminnolla pystyy seuraamaan erilaisi aineiston käsittelyyn liittyviä työkulkuja kuten sitomoon vientejä, ditigointia, muovitusta yms. Niteet lisätään ensin odotuslistalle, jonka jälkeen ne liitetään tarvittavaan käsittelyerään.
+Käsittelyerät-toiminnolla pystyy seuraamaan erilaisia aineiston käsittelyyn liittyviä työkulkuja kuten sitomoon vientejä, ditigointia, muovitusta yms. Niteet lisätään ensin odotuslistalle, jonka jälkeen ne liitetään sopivaan käsittelyerään.
 
-Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin.
+Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. Huom! Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa.
 
 ## Asetukset
 
