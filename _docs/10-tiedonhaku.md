@@ -348,9 +348,9 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |---|---|---|
 |abtract|520|Huomatus sisällöstä, tiivistelmä, tms.|
 |accessibility-content|341abcde|Saavutettavuussisältö|
+|acqsource|952e|Hankintapaikka - nidetieto|
 |agelevel|049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|
 |agelevel|521a|Huomautus kohderyhmästä|
-|acqsource|952e|Hankintapaikka - nidetieto|
 |alt-performance-medium|382p|Vaihtoehtoinen esityskokoonpano|
 |arl|526c|Lukutaidon aste|
 |arp|526d|Nimekkeen pistearvo|
@@ -361,6 +361,11 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |author|111a|Pääkirjaus - kokouksen nimi|
 |author|505r|Huomautus sisällön rakenteesta - tekijä|
 |author|700a|Lisäkirjaus - henkilönnimi|
+|author|710a|Lisäkirjaus - yhteisönimi|
+|author|711a|Lisäkirjaus - kokouksen nimi|
+|author|800a|Sarjalisäkirjaus - henkilönnimi|
+|author|810a|Sarjalisäkirjaus - yhteisönnimi|
+|author|811a|Sarjalisäkirjaus - kokouksen nimi|
 |author|900a|Viittaus - henkilönnimi - suomalainen kenttä|
 |author|910a|Viittaus - yhteisönnimi - suomalainen kenttä|
 |author|911a|Viittaus - kokouksen nimi - suomalainen kenttä|
@@ -368,6 +373,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |author-in-order|505r|Huomautus sisällön rakenteesta - tekijä|
 |author-name-corporate|110|Yhteisönnimi|
 |author-name-corporate|111|Kokouksen nimi|
+|author-name-corporate|710|Lisäkirjaus - Yhteisönnimi|
 |author-name-corporate|711|Lisäkirjaus - Kokouksen nimi|
 |author-name-corporate|810|Sarjalisäkirjaus - Yhteisönnimi|
 |author-name-corporate|811|Sarjalisäkirjaus - Kokouksen nimi|
@@ -375,9 +381,13 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |author-name-personal|400|Katso-viittaus henkilönnimestä?|
 |author-name-personal|700|Lisäkirjaus- henkilönnimi|
 |author-name-personal|800|Sarjalisäkirjaus - henkilönnimi|
+|author-personal-bibliography|100a|Pääkirjaus - henkilönnimi|
 |author-title|100|Pääkirjaus - henkilönnimi|
 |author-title|110|Pääkirjaus - yhteisönnimi|
 |author-title|111|Pääkirjaus - kokouksen nimi|
+|author-title|400t|-|
+|author-title|410t|-|
+|author-title|411t|-|
 |author-title|700t|Lisäkirjaus - henkilönnimi, teoksen nimeke|
 |author-title|710t|Lisäkirjaus - yhteisönnimi, teoksen nimeke|
 |author-title|711t|Lisäkirjaus - kokouksen nimi, teoksen nimeke|
@@ -394,7 +404,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |canceled-isbn|020z|Peruttu tai virheellinen ISBN-tunnus|
 |canceled-issn|022z|Peruttu ISSN-tunnus|
 |carrier-type-term|338a|Tallennetyyppi|
-|collection-code|9528|Kokoelmakoodi|
+|ccode (collection-code)|9528|Kokoelmakoodi|
 |classification-source|9522|Niteen luokituksen lähde|
 |cn-bib-sort|9426|Järjestämistä varten normalisoitu tietueen luokka|
 |cn-bib-source|9422|Tietueen luokituksen lähde|
@@ -408,6 +418,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |code-institution|040|Luetteloiva organisaatio|
 |coded-location-qualifier|952f|Niteen koodattu paikkamääre|
 |coden|030|CODEN-tunnus|
+|collection-960|960|-|
 |conference-name|111|Pääkirjaus - Kokouksen nimi|
 |conference-name|411|Katso-viittaus konferenssin nimestä?|
 |conference-name|611|Kokouksen nimi asiasanana|
@@ -474,6 +485,8 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |index-term-genre|655x|Aineiston lajityyppi/muoto hakuterminä|
 |index-term-uncontrolled|653a|Kontrolloimaton hakutermi|
 |indexed-by|510|Huomautus tietolähteestä|
+|interest-age-level|049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|
+|interest-age-level|521a|Huomautus kohderyhmästä|
 |interest-grade-level|521a|Huomautus kohderyhmästä|
 |isbn|020a|ISBN-tunnus|
 |issn|022a|ISSN-tunnus|
@@ -549,9 +562,9 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |ln-captions|041p|Kielikoodi - Kuulovammaisille tarkoitetun tekstityksen kieli|
 |ln-subtitle|041j|Kielikoodi - tekstityksen kieli|
 |ln-visual|041r|Kielikoodi - Visuaalinen kieli (ei-teksti)|
-|loc|952c|Hyllypaikka|
 |local-classification|952o|Kohan koko signum|
 |local-number|999c|Kohan biblionumber|
+|location|952c|Hyllypaikka|
 |location-item-part|852i|Sijainti|
 |lost|9521|Kadonnut-tila|
 |map-scale|034|Kartta-aineiston matemaattiset tiedot koodeina|
@@ -560,7 +573,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |media-type-term|337a|Mediatyyppi|
 |methodology-controlled-term|567b|Huomautus metodologiasta|
 |microform-generation|007_/11|Mikrotallenteen sukupolvi|
-|mtype|942c|Nidetyyppi|
+|mtype|942c|Aineistotyyppi|
 |music-key|130r|Pääkirjaus - yhtenäistetty nimeke - sävellaji|
 |music-key|240r|Yhtenäistetty nimeke - sävellaji|
 |music-key|243r|Kokoava yhtenäistetty nimeke - sävellaji|
@@ -615,6 +628,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |note|599a|Paikallinen huomautus|
 |note|952z|Yleinen huomautus|
 |notforloan|9527|Ei lainattavissa|
+|number-db|015|NBN-tunnus, National Bibliography Number|
 |number-govt-pub|086|Virallisjulkaisujen luokitus|
 |number-legal-deposit|017|Tekijänoikeus- tai vapaakappaletunnus|
 |number-local-acquisition|952i|Inventaarionumero|
