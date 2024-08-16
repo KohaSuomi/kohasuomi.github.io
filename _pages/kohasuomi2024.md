@@ -33,6 +33,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Tikettien priorisointisysteemi
   * Kehityksen seuranta
   * Suunnitteluhackaton, kvartaaleittain, pari kertaa vuodessa?
+  * Otetaanko käyttöön scrummin sprintit?
 
 ## Viikko 33
 
