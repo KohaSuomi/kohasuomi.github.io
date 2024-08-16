@@ -28,7 +28,11 @@ Läsnä:
       * Anneli luo tiedotepohjan, jonka kaikki voi sitten tallentaa Githubissa omiin saved replies -asetukseen.
       * Koha-kirjastojärjestelmissä on xxx-kimpoissa tällä hetkellä tekninen häiriö, minkä vuoksi ne eivät toimi. Selvitämme ongelmaa ja päivitämme tätä tiedotetta, kun tiedämme ongelman syystä ja sen korjauksesta enemmän.
 Pahoittelemme häiriöstä aiheutuvaa haittaa.
-* Alustavaa keskustelua tehtäväjaoista ja roolituksista.
+* Tehtäväjaon suunnittelua
+  * Roolitukset?
+  * Tikettien priorisointisysteemi
+  * Kehityksen seuranta
+  * Suunnitteluhackaton, kvartaaleittain, pari kertaa vuodessa?
 
 ## Viikko 33
 
