@@ -34,7 +34,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Kehityksen seuranta
   * Suunnitteluhackaton, kvartaaleittain, pari kertaa vuodessa?
   * Otetaanko käyttöön scrummin sprintit?
-    * No ei varmaan oteta, T. Kodo :D
+    * No ei varmaan oteta, T. Kodo :D Varma keino saada työtyytyväisyys tipahtamaan nollaan ja työstressitasot 100% koko revohkalla.
 * Tallennusjärjestelmäremontti
   * Mitenkäs se lokitus? Nyt ei todennäköisesti enää ole tarvetta shm-lokitukselle, joten puretaanko seuraavassa huoltokatkossa se pois ja annetaan lokien mennä suoraan ocfs:lle?
   * elastictmpfs tarve jatkossa?
