@@ -36,6 +36,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Otetaanko käyttöön scrummin sprintit?
 * Tallennusjärjestelmäremontti
   * Mitenkäs se lokitus? Nyt ei todennäköisesti enää ole tarvetta shm-lokitukselle, joten puretaanko seuraavassa huoltokatkossa se pois ja annetaan lokien mennä suoraan ocfs:lle?
+  * elastictmpfs tarve jatkossa?
 
 ## Viikko 33
 
