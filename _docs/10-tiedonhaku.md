@@ -823,6 +823,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |011|?|lc-card-number|
 |015|NBN-tunnus|identifier-standard|
 |015|NBN-tunnus|number-natl-biblio|
+|015|NBN-tunnus|number-db|
 |017|Tekijänoikeus- tai vapaakappaletunnus|identifier-standard|
 |017|Tekijänoikeus- tai vapaakappaletunnus|number-legal-deposit|
 |018|Artikkelin tekijänoikeusmaksun koodi|identifier-standard|
@@ -858,6 +859,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |042a|autentikointikoodi|auth-code|
 |043|Maantieteellisen alueen koodi|code-geographic|
 |049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|agelevel|
+|049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|interest-age-level|
 |050b|Library of Congress -luokitus - kappalenumero|lc-call-number|
 |052|Maantieteellinen luokitus|geographic-class|
 |060|National Library of Medicine -luokitus|nlm-call-number|
@@ -988,6 +990,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |510|Huomautus tietolähteestä|indexed-by|
 |520|Huomatus sisällöstä, tiivistelmä, tms.|abstract|
 |521a|Huomautus kohderyhmästä|agelevel|
+|521a|Huomautus kohderyhmästä|interest-age-level|
 |521a|Huomautus kohderyhmästä|interest-grade-level|
 |521a|Huomautus kohderyhmästä|reading-grade-level|
 |521a|Huomautus kohderyhmästä|lexile-number|
@@ -1203,7 +1206,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |9529|Niteen numero|itemnumber|
 |952a|Omistajakirjasto|homebranch|
 |952b|Sijaintikirjasto|holdingbranch|
-|952c|Hyllypaikka|loc|
+|952c|Hyllypaikka|location|
 |952d|Hankintapvm|date-of-acquisition|
 |952e|Hankintapaikka|acqsource|
 |952f|Koodattu paikkamääre|coded-location-qualifier|
