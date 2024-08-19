@@ -45,6 +45,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Takaajan tiedoissa Taattavan maksut -välilehden maksunäkymään muutosehdotus
   * Takaajan tietoihin tekstimuutosehdotus taattavan maksuista, ehdotus 2
   * Do not allow script-tags in systempreferences
+  * Finna-pluginin ominaisuuden poisto: varausjonossa huomiodaan myös keskeytetyt varaukset
 
 ## Viikko 33
 
