@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 34
+
+Aika: 20.8.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käännyt päivystäjälle.
+
 ## Viikko 33
 
 Aika: 13.8.2024, klo 9.15<br />
