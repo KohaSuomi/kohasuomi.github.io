@@ -30,6 +30,8 @@ Läsnä:
 Pahoittelemme häiriöstä aiheutuvaa haittaa.
 * Tehtäväjaon suunnittelua
   * Roolitukset?
+    * työparit
+    * vanhempien kehittäjien erityisvastuut?
   * Tikettien priorisointisysteemi
     * Huolehditaan siitä, että myös matalan prioriteetin tikettejä tulee tehtyä. Määräajat?
   * Kehityksen seuranta
@@ -38,6 +40,8 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Otetaanko käyttöön scrummin sprintit?
     * No ei varmaan oteta, T. Kodo :D Varma keino saada työtyytyväisyys tipahtamaan nollaan ja työstressitasot 100% koko revohkalla.
 * Tallennusjärjestelmäremontti
+  * ocfs:n ongelmat johtuivat lvm:stä
+  * vielä tehtävä blokkikoon muutos
   * Mitenkäs se lokitus? Nyt ei todennäköisesti enää ole tarvetta shm-lokitukselle, joten puretaanko seuraavassa huoltokatkossa se pois ja annetaan lokien mennä suoraan ocfs:lle?
   * elastictmpfs tarve jatkossa?
 * Lastun tuotanto lähenee, konversiotauluihin vielä hieman muutoksia, joten tehdään kolmas koekonversio.
