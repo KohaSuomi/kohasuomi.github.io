@@ -31,8 +31,10 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
 * Tehtäväjaon suunnittelua
   * Roolitukset?
   * Tikettien priorisointisysteemi
+    * Huolehditaan siitä, että myös matalan prioriteetin tikettejä tulee tehtyä. Määräajat?
   * Kehityksen seuranta
   * Suunnitteluhackaton, kvartaaleittain, pari kertaa vuodessa?
+    * KohaConin yhteydessä vai kokonaan erillinen tapahtuma?
   * Otetaanko käyttöön scrummin sprintit?
     * No ei varmaan oteta, T. Kodo :D Varma keino saada työtyytyväisyys tipahtamaan nollaan ja työstressitasot 100% koko revohkalla.
 * Tallennusjärjestelmäremontti
