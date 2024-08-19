@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käännyt päivystäjälle.
+* [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1362)
 
 ## Viikko 33
 
