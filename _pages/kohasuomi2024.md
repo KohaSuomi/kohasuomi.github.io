@@ -40,6 +40,11 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * elastictmpfs tarve jatkossa?
 * Lastun tuotanto lähenee, konversiotauluihin vielä hieman muutoksia, joten tehdään kolmas koekonversio.
 * Viikon 34 päivitys
+  * Lisätään lokitusta
+  * Muutetaan Melinda viennissä &lt; ja &gt takaisin hakasuluiksi
+  * Takaajan tiedoissa Taattavan maksut -välilehden maksunäkymään muutosehdotus
+  * Takaajan tietoihin tekstimuutosehdotus taattavan maksuista, ehdotus 2
+  * Do not allow script-tags in systempreferences
 
 ## Viikko 33
 
