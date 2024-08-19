@@ -39,6 +39,7 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Mitenkäs se lokitus? Nyt ei todennäköisesti enää ole tarvetta shm-lokitukselle, joten puretaanko seuraavassa huoltokatkossa se pois ja annetaan lokien mennä suoraan ocfs:lle?
   * elastictmpfs tarve jatkossa?
 * Lastun tuotanto lähenee, konversiotauluihin vielä hieman muutoksia, joten tehdään kolmas koekonversio.
+* Viikon 34 päivitys
 
 ## Viikko 33
 
