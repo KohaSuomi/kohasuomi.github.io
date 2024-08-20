@@ -32,11 +32,11 @@ Käyttökatkot vkolla 33.
 
 **Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
 
-Lopullinen päätös:
+**Lopullinen päätös:**
 
 ### 3. Varausten priorisointi
 
-Jatketaan keskustelua.
+Jatketaan viime kokouksen keskustelua.
 
 ### 4. Tikettien priorisointi
 
@@ -61,6 +61,15 @@ Ehdotus keskustelun pohjaksi:
 Luodaan priorisoinnin kriteeristö. Tekemässä ainakin Koha-Suomen väkeä, halutaanko mukaan edustaja/edustajia asiantuntijaryhmästä? Kun ryhmä on saanut luonnoksen valmiiksi, tuodaan se asiantuntijaryhmän hyväksyttäväksi. Sen jälkeen tiketin tekijän tulee priorisoida uudet tiketit käyttäen kriteeristöä. Tämä on uusi asia, johon totuttelu voi viedä kaikilta aikaa.
 
 ### 5. Kehitysehdotusten läpikäyntiä
+
+Käydän läpi ne ehdotukset, mitkä ehditään.
+
+* [Items-tauluun on_shelf-sarake kertomaan onko nide hyllyssä #1297](https://github.com/KohaSuomi/Koha/issues/1297)
+* [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
+* [Hyllyvarausraportille rivien oletusmäärät valittavaksi #1317](https://github.com/KohaSuomi/Koha/issues/1317)
+* [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
+* [Aikakatkaisun selkeyttäminen #1357](https://github.com/KohaSuomi/Koha/issues/1357)
+
 
 ### 6. Syksyn kokoukset
 
