@@ -13,12 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käännyt päivystäjälle.
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1362)
 *  Kodo kertoo tiedostojärjestelmän muutoksesta ja sen syystä
+
+**Vaara**
+* normaalia ylläpitoa
+* kysymys Finnassa lainahistorian järjestämisestä, otsikon mukaan järjestäminen ei toimi. Päivi kysyy Finna-toimistosta.
+* kysymys kausijulkaisutilausten poistamisesta, aiheuttaako ongelmia jäljelle jääneille niteille. Selvitetään vielä. Tilaukset voi ehkä piilottaa Finnasta.
+
 
 ## Viikko 33
 
