@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi)
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käänny päivystäjälle.
@@ -21,6 +21,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 *  Kodo kertoo tiedostojärjestelmän muutoksesta ja sen syystä
 
 Pohjoisesta etelään
+
+**Outi**
+* Perusjuttuja
+* Kassu jatkaa niteiden varausrajoitusten testaamista ilman damaged-arvoja.
 
 **Vaara**
 * normaalia ylläpitoa
