@@ -13,10 +13,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset asiat**
-* Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käännyt päivystäjälle.
+* Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käänny päivystäjälle.
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1362)
 *  Kodo kertoo tiedostojärjestelmän muutoksesta ja sen syystä
 
@@ -32,7 +32,7 @@ Pohjoisesta etelään
 * Tehty Siilille uusi tiketti [#1366](https://github.com/KohaSuomi/Koha/issues/1366) liittyen Hellen tikettiin [#1325](https://github.com/KohaSuomi/Koha/issues/1325). Pyydetään poistamaan JS-rimpsu Laita Muutospyynnöt-sivulla oletuksena valinta Hyväksy-kohtaan
 * Tiketin [#336](https://github.com/KohaSuomi/Koha/issues/336) muutos tehtiin alkukesästä Siilissä, mutta luetteloijien pyynnöstä palataan ehkä vanhaan alasveto-valikkokäytäntöön.
 
-
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-34) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 33
 
