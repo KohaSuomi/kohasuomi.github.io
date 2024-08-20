@@ -15,6 +15,57 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 9/2024
+
+Aika: 26.8.2024 klo 13<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+Lastun käyttöönotto syyskuussa.
+
+Käyttökatkot vkolla 33.
+
+[Tiedostojärjestelmän remontti](https://github.com/KohaSuomi/Koha/issues/1364) seuraavassa huoltoikkunassa.
+
+### 2. Koha versiopäivitys syksyllä
+
+**Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
+
+Lopullinen päätös:
+
+### 3. Varausten priorisointi
+
+Jatketaan keskustelua.
+
+### 4. Tikettien priorisointi
+
+Kehitysehdotusten pitkä häntä on purettu ja seuraavaksi pitäisi priorisoida toteutettavat ehdotukset/tiketit. Pohdittavaksi:
+
+* Tätä varten olisi hyvä luoda priorisointiasteikko.
+* Tavoite olisi, että priorisointiin ei tule kulumaan paljon Koha-Suomen aikaa.
+* Mitkä kaikki tiketit priorisoidaan?
+* Työnjako priorisoinnissa?
+* Millä ehdoilla tiketti kuuluu mihinkin prioriteettiin?
+* Millä aikataululla "luvataan" toteuttaa minkäkin prioriteetin tiketti?
+* Vanhemmat kehittäjät voivat muuttaa prioriteettia, jos se ei selkeästi täytä kriteerejä.
+* Mitkä kehittäjien tekemät prioriteettimuutokset pitää käyttää asiantuntijaryhmässä käsiteltävänä?
+  * Kimpan asiantuntijaryhmän jäsenen kautta?
+
+Ehdotus keskustelun pohjaksi:
+
+1. Korkea
+2. Normaali
+3. Matala
+
+Luodaan priorisoinnin kriteeristö. Tekemässä ainakin Koha-Suomen väkeä, halutaanko mukaan edustaja/edustajia asiantuntijaryhmästä? Kun ryhmä on saanut luonnoksen valmiiksi, tuodaan se asiantuntijaryhmän hyväksyttäväksi. Sen jälkeen tiketin tekijän tulee priorisoida uudet tiketit käyttäen kriteeristöä. Tämä on uusi asia, johon totuttelu voi viedä kaikilta aikaa.
+
+### 5. Kehitysehdotusten läpikäyntiä
+
+### 6. Syksyn kokoukset
+
+### 7. Muut asiat
+
 ## Asiantuntijaryhmän muistio 8/2024
 
 Aika: 19.6.2024 klo 13<br />
