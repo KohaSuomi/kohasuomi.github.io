@@ -96,6 +96,7 @@ Muutokset tallennetaan _Tallenna_-napista.
 Ilmoitukseen tai kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
 lisätään tietokannasta tietoja esim. asiakkaasta, lainoista ja eräpäivistä. 
 Tägejä voi lisätä vasemman reunan valikosta tai kirjoittaa ne itse.
+Asiakkaiden nimi- ja muiden yksilöivien tietojen käyttöä kannattaa harkita huolellisesti tietoturvanäkökulmista.
 
 _Viestin aihe_ -kenttään kirjoitetaan sähköpostiviestin aihe, joka näkyy myös asiakkaalle. Siihen kannattaa siis kiinnittää erityistä huomiota.
 Myös viestin aiheessa voi käyttää tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
