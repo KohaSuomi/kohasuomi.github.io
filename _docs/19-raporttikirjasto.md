@@ -2253,18 +2253,37 @@ ORDER BY copyrightdate ASC
 
 ### Tietueiden haku MARC-kentän ja -osakentän mukaan
 
-Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber.
+Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber. Raportilla ei voi hakea kiinteämittaisista kentistä.
 
 Lisääjä: Anneli Österman<br />
 Pvm: 30.7.2024<br />
 Versio: 24.05
 
 ```
-SELECT biblionumber
+SELECT biblionumber,ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a'
 FROM biblio_metadata bm
 WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä kentästä haetaan? Katkaise %-merkillä>>
 ```
 
+### Tietueiden haku MARC-kentän ja -osakentän mukaan - huomioidaan myös kenttätoistumat
+
+Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber ja nimeke kentästä 245a. Raportti laskee mukaan myös kenttätoistumat eli esim. jos kenttää 336a on toistettu, molemmat huomioidaan. Hidas raportti. Raportilla ei voi hakea kiinteämittaisista kentistä.
+
+Lisääjä: Anneli Österman<br />
+Pvm: 21.8.2024<br />
+Versio: 23.11, 24.05
+
+```
+SELECT biblionumber,ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a'
+FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä kentästä haetaan? Katkaise %-merkillä>>
+
+UNION
+SELECT biblionumber,ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a'
+FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä kentästä haetaan? Katkaise %-merkillä>>
+AND ExtractValue(bm.metadata, 'count(//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>'])') > 1
+```
 
 ### Tietueet, joiden linkissä tietty merkkijono
 
