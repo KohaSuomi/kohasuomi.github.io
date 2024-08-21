@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käänny päivystäjälle.
@@ -39,6 +39,10 @@ Pohjoisesta etelään
 **Kyyti**
 * Viime viikolla huomattu, että DUEDGST-viestejä lähtee tekstiviestinä, vaikka ei pitäisi. Tiketti: https://github.com/KohaSuomi/Koha/issues/1355. Viimeisimpänä toimenpiteenä tyhjennetty oletuspohja. Seurataan tilannetta.
 * Nyt vasta sisäistin, että raporttiliitännäisen OKM-tilastojen hankintatilastot kertyvät, vaikka ei käytetä Kohan hankinta-toimintoa. Riittää, että on items.dateaccessioned-kenttä täytetty. Mietinnässä, tarvitseeko lahjoituksia laittaa hankinnan kautta.
+
+**Lumme**
+* Perusylläpitoa.
+* Puppe-vastaanotto-ohjelma tulee Mikkeliin nyt syksyn aikana.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-34) - [Palaa sivun alkuun](/paakayttajat2024)
 
