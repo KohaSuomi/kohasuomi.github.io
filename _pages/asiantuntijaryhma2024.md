@@ -75,6 +75,8 @@ Käydän läpi ne ehdotukset, mitkä ehditään.
 
 ### 7. Muut asiat
 
+[Tiketin 1347 JavaScript](https://github.com/KohaSuomi/Koha/issues/1347) - tehdäänkö JS-liitännäiseksi?
+
 ## Asiantuntijaryhmän muistio 8/2024
 
 Aika: 19.6.2024 klo 13<br />
