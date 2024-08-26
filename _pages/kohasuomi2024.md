@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 35
+
+Aika: 26.8.2024 klo 9<br />
+Läsnä:
+
+* Viikon 34 keskeiset
+* Viikon 35 päivitys
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-35) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 34
 
 Aika: 19.8.2024 klo 9<br />
@@ -52,6 +62,8 @@ Pahoittelemme häiriöstä aiheutuvaa haittaa.
   * Takaajan tietoihin tekstimuutosehdotus taattavan maksuista, ehdotus 2
   * Do not allow script-tags in systempreferences
   * Finna-pluginin ominaisuuden poisto: varausjonossa huomiodaan myös keskeytetyt varaukset
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-34) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 33
 
