@@ -12,6 +12,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 34
 
+Aika: 27.8.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
+
+## Viikko 34
+
 Aika: 20.8.2024, klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
 
