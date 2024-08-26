@@ -16,10 +16,13 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 35
 
 Aika: 26.8.2024 klo 9<br />
-Läsnä:
+Läsnä: Johanna, Anneli, Ari, Lasse ja Lari
 
 * Viikon 34 keskeiset
+  * RDA-konversiomäppäykset alkavat olla kunnossa, suunnitellaan konversioiden käynnistys. 
 * Viikon 35 päivitys
+  * Kaikki verkkokirjastossa tehdyt toimenpiteet eivät lokitu [#473](https://github.com/KohaSuomi/Koha/issues/473) 
+ 
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-35) - [Palaa sivun alkuun](/kohasuomi2024)
 
