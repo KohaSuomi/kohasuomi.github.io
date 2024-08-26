@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 9/2024
 
 Aika: 26.8.2024 klo 13<br />
-Läsnä: Päivi, Ari, Susanna, Kati, Tuomas, Noora, Leena, Riikka, Kodo, Anneli
+Läsnä: Päivi, Ari, Susanna, Kati, Tuomas, Noora, Leena, Riikka, Hanna, Kodo, Anneli
 
 ### 1. Ajankohtaiset
 
