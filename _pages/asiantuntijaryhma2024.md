@@ -18,25 +18,36 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 9/2024
 
 Aika: 26.8.2024 klo 13<br />
-Läsnä:
+Läsnä: Päivi, Ari, Susanna, Kati, Tuomas, Noora, Leena, Riikka, Kodo, Anneli
 
 ### 1. Ajankohtaiset
 
-Lastun käyttöönotto syyskuussa.
+Lastun käyttöönotto syyskuussa. Kolmas testikonversio menossa, ti-ke pääsevät tarkistamaan konversion onnistumista.
 
-Käyttökatkot vkolla 33.
+Käyttökatkot vkolla 33. Todennäköisesti tiedostojärjestelmä hikkasi.
 
 [Tiedostojärjestelmän remontti](https://github.com/KohaSuomi/Koha/issues/1364) seuraavassa huoltoikkunassa.
+* kannattaa varautua siihen, että koko huoltokatkon ajan 7-9 järjestelmässä voi olla katkoja.
 
 ### 2. Koha versiopäivitys syksyllä
 
 **Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
 
-**Lopullinen päätös:**
+**Lopullinen päätös:** maanantai 18.11.2024, työt alkavat jo sunnuntaina 17.11.2024 klo 19. Suositus: kannattaa varautua tiistaihin puoleen päivään.
 
 ### 3. Varausten priorisointi
 
 Jatketaan viime kokouksen keskustelua.
+
+Tuomas laskenut Kyytissä, kuinka monta prosenttia ajasta nide on kuljetuksessa/varaushyllyssä. Kyytissä 27 %. Tuomas tekee ohjeet muille, niin saadaan vastaava luku myös muilta kimpoilta ja pystytään vertaamaan lukuja priorisoinnin jälkeiseenkin aikaan.
+
+Taustatiedoksi kaikista kimpoista
+* Kuinka usein kuljetus liikkuu
+* Mikä on noutoaika
+
+OUTIssa tehty vastaavia laskuja 2017 ja luvut samansuuntaisia kuin Kyytissä.
+
+Koha-Suomen palaverissa sovitaan, ketkä kehittäjistä alkaisi miettimään tähän teknistä toteutusta.
 
 ### 4. Tikettien priorisointi
 
@@ -60,22 +71,38 @@ Ehdotus keskustelun pohjaksi:
 
 Luodaan priorisoinnin kriteeristö. Tekemässä ainakin Koha-Suomen väkeä, halutaanko mukaan edustaja/edustajia asiantuntijaryhmästä? Kun ryhmä on saanut luonnoksen valmiiksi, tuodaan se asiantuntijaryhmän hyväksyttäväksi. Sen jälkeen tiketin tekijän tulee priorisoida uudet tiketit käyttäen kriteeristöä. Tämä on uusi asia, johon totuttelu voi viedä kaikilta aikaa.
 
+26.8. ajatuksia:
+* prioriteettivaihtoehtoiksi "päivystys"?
+* ketä ja kuinka isoa osaa käyttäjistä asia koskee?
+* seuranta, että tiketit tulee tehdyksi jollakin aikataululla
+
+Jatketaan keskustelua seuraavissa kokouksissa, kun asiaa on ehditty pohtimaan kimpoissa tarkemmin.
+
 ### 5. Kehitysehdotusten läpikäyntiä
 
 Käydän läpi ne ehdotukset, mitkä ehditään.
 
 * [Items-tauluun on_shelf-sarake kertomaan onko nide hyllyssä #1297](https://github.com/KohaSuomi/Koha/issues/1297)
+  * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa. 
 * [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
+  * Tiketissä on kaksi eri asiaa. Mikkoa pyydetty jakamaan ne kahdeksi eri tiketiksi. Jatketaan käsittelyä sen jälkeen.
 * [Hyllyvarausraportille rivien oletusmäärät valittavaksi #1317](https://github.com/KohaSuomi/Koha/issues/1317)
+  * Toteutetaan
 * [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
+  * Selvitetään ensin määriä ja jatketaan sitten käsittelyä
 * [Aikakatkaisun selkeyttäminen #1357](https://github.com/KohaSuomi/Koha/issues/1357)
+  * Tehdään itse ja tarjotaan yhteisölle. Miten onnistuu, jos auki useampi välilehti?
 
 
 ### 6. Syksyn kokoukset
 
+Ke 25.9. klo 13.15.
+
 ### 7. Muut asiat
 
 [Tiketin 1347 JavaScript](https://github.com/KohaSuomi/Koha/issues/1347) - tehdäänkö JS-liitännäiseksi?
+
+Päätös: Tehdään JS-liitännäiseksi siten, että asiakastyypit voi määrittää konfiguroinnissa.
 
 ## Asiantuntijaryhmän muistio 8/2024
 
