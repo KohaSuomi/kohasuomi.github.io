@@ -18,7 +18,10 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 2.9.2024 klo 9<br />
 Läsnä:
 
-* Asiantuntijaryhmästä: ketkä kehittäjistä alkavat tutkimaan, miten varauksia voisi priorisoida
+* Asiantuntijaryhmästä:
+  * ketkä kehittäjistä alkavat tutkimaan, miten varauksia voisi priorisoida
+  * [Items-tauluun on_shelf-sarake kertomaan onko nide hyllyssä #1297](https://github.com/KohaSuomi/Koha/issues/1297)
+    * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa. 
 * Vastuuttomien tikettien vastuutus
 * Viikon 36 päivitys
 
