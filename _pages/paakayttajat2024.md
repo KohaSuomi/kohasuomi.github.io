@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Lotta Juvonen (Helle)
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käänny päivystäjälle.
