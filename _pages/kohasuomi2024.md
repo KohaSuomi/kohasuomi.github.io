@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 36
+
+Aika: 2.9.2024 klo 9<br />
+Läsnä:
+
+* Asiantuntijaryhmästä: ketkä kehittäjistä alkavat tutkimaan, miten varauksia voisi priorisoida
+* Vastuuttomien tikettien vastuutus
+* 
+
 ## Viikko 35
 
 Aika: 26.8.2024 klo 9<br />
