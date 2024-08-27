@@ -15,35 +15,35 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 9/2024
+## Asiantuntijaryhmän muistio 9/2024
 
 Aika: 26.8.2024 klo 13<br />
-Läsnä: Päivi, Ari, Susanna, Kati, Tuomas, Noora, Leena, Riikka, Hanna, Kodo, Anneli
+Läsnä: Päivi Knuutinen (Vaara), Ari Mäkiranta (Koha-Suomi), Susanna Sandell (Vaski), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Noora Valkonen (OUTI), Leena Kinnunen (Lappi), Riikka Mustajärvi (Kirkes), Hanna Ikonen (Lumme), Kodo Korkalo ja Anneli Österman (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
-Lastun käyttöönotto syyskuussa. Kolmas testikonversio menossa, ti-ke pääsevät tarkistamaan konversion onnistumista.
+Lastun käyttöönotto on syyskuussa. Kolmas testikonversio on menossa ja ti-ke he pääsevät tarkistamaan konversion onnistumista.
 
-Käyttökatkot vkolla 33. Todennäköisesti tiedostojärjestelmä hikkasi.
+Käyttökatkot vkolla 33 [tiistaina](https://github.com/KohaSuomi/Koha/discussions/1353) ja [keskiviikkona](https://github.com/KohaSuomi/Koha/discussions/1359).
 
-[Tiedostojärjestelmän remontti](https://github.com/KohaSuomi/Koha/issues/1364) seuraavassa huoltoikkunassa.
-* kannattaa varautua siihen, että koko huoltokatkon ajan 7-9 järjestelmässä voi olla katkoja.
+[Tiedostojärjestelmän remontti](https://github.com/KohaSuomi/Koha/issues/1364) on tulossa seuraavassa huoltoikkunassa.
+* kannattaa varautua siihen, että koko huoltokatkon ajan eli klo 7-9 välillä järjestelmässä voi olla katkoja.
 
 ### 2. Koha versiopäivitys syksyllä
 
-**Alustava päätös:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
+**Alustava päätös oli:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
 
-**Lopullinen päätös:** maanantai 18.11.2024, työt alkavat jo sunnuntaina 17.11.2024 klo 19. Suositus: kannattaa varautua tiistaihin puoleen päivään.
+**Lopullinen päätös:** versionpäivitys tehdään maanantai 18.11.2024, mutta työt alkavat jo sunnuntaina 17.11.2024 klo 19. Suositus: kannattaa varautua siihen, että järjestelmä on pois käytöstä tiistaihin puoleen päivään. Parempi varautua pidempään katkokseen ja avata aiemmin tarvittaessa.
 
 ### 3. Varausten priorisointi
 
 Jatketaan viime kokouksen keskustelua.
 
-Tuomas laskenut Kyytissä, kuinka monta prosenttia ajasta nide on kuljetuksessa/varaushyllyssä. Kyytissä 27 %. Tuomas tekee ohjeet muille, niin saadaan vastaava luku myös muilta kimpoilta ja pystytään vertaamaan lukuja priorisoinnin jälkeiseenkin aikaan.
+Tuomas on laskenut Kyytissä, kuinka monta prosenttia ajasta nide on kuljetuksessa/varaushyllyssä. Kyytissä se on 27 %. Tuomas tekee ohjeet muille, miten saadaan vastaava luku laskettua myös muilta kimpoilta ja pystytään vertaamaan lukuja priorisoinnin jälkeiseenkin aikaan.
 
-Taustatiedoksi kaikista kimpoista
-* Kuinka usein kuljetus liikkuu
-* Mikä on noutoaika
+Taustatiedoksi laskelmien kaveriksi kaikista kimpoista
+* Kuinka usein viikossa kuljetus liikkuu
+* Mikä on varauksen noutoaika
 
 OUTIssa tehty vastaavia laskuja 2017 ja luvut samansuuntaisia kuin Kyytissä.
 
@@ -63,7 +63,7 @@ Kehitysehdotusten pitkä häntä on purettu ja seuraavaksi pitäisi priorisoida 
 * Mitkä kehittäjien tekemät prioriteettimuutokset pitää käyttää asiantuntijaryhmässä käsiteltävänä?
   * Kimpan asiantuntijaryhmän jäsenen kautta?
 
-Ehdotus keskustelun pohjaksi:
+Ehdotus asteikosta keskustelun pohjaksi:
 
 1. Korkea
 2. Normaali
@@ -74,9 +74,9 @@ Luodaan priorisoinnin kriteeristö. Tekemässä ainakin Koha-Suomen väkeä, hal
 26.8. ajatuksia:
 * prioriteettivaihtoehtoiksi "päivystys"?
 * ketä ja kuinka isoa osaa käyttäjistä asia koskee?
-* seuranta, että tiketit tulee tehdyksi jollakin aikataululla
+* tarvitaan seuranta, että tiketit tulee tehdyksi jollakin aikataululla
 
-Jatketaan keskustelua seuraavissa kokouksissa, kun asiaa on ehditty pohtimaan kimpoissa tarkemmin.
+**Päätös:** Jatketaan keskustelua seuraavissa kokouksissa, kun asiaa ja kriteereitä on ehditty pohtimaan kimpoissa tarkemmin.
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
@@ -87,22 +87,22 @@ Käydän läpi ne ehdotukset, mitkä ehditään.
 * [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
   * Tiketissä on kaksi eri asiaa. Mikkoa pyydetty jakamaan ne kahdeksi eri tiketiksi. Jatketaan käsittelyä sen jälkeen.
 * [Hyllyvarausraportille rivien oletusmäärät valittavaksi #1317](https://github.com/KohaSuomi/Koha/issues/1317)
-  * Toteutetaan
+  * Toteutetaan.
 * [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
-  * Selvitetään ensin määriä ja jatketaan sitten käsittelyä
+  * Selvitetään ensin määriä ja jatketaan sitten käsittelyä.
 * [Aikakatkaisun selkeyttäminen #1357](https://github.com/KohaSuomi/Koha/issues/1357)
   * Tehdään itse ja tarjotaan yhteisölle. Miten onnistuu, jos auki useampi välilehti?
 
 
 ### 6. Syksyn kokoukset
 
-Ke 25.9. klo 13.15.
+Seuraava kokous keskiviikkona 25.9. klo 13.15. Sovitaan loput kokoukset seuraavassa kokouksessa.
 
 ### 7. Muut asiat
 
 [Tiketin 1347 JavaScript](https://github.com/KohaSuomi/Koha/issues/1347) - tehdäänkö JS-liitännäiseksi?
 
-Päätös: Tehdään JS-liitännäiseksi siten, että asiakastyypit voi määrittää konfiguroinnissa.
+**Päätös:** Tehdään JS-liitännäiseksi siten, että asiakastyypit voi määrittää konfiguroinnissa.
 
 ## Asiantuntijaryhmän muistio 8/2024
 
