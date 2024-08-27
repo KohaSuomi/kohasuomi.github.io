@@ -17,6 +17,10 @@ Läsnä:
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
+* [Erikoismerkit varaustunnuksessa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/25)
+  * Päätös: sallitaan numerot, suomalaiset aakkoset (sallitaan åäö, mutta ei áâüôó eli aksenttimerkillisiä kirjaimia tai muita ei-suomalaisia merkkejä kuten norjalainen öö.), väliviiva, välilyönti. 
+* Asiantuntijaryhmän päätös: Versionvaihto ma 18.11.2024, työt aloitetaan jo su 17.11. illalla klo 19. Töiden odotetaan ottavan 1 päivän, mutta kannattaa varautua puoleentoista päivään.
+* Käydään ti 3.9. seuraavan version uudet järjestelmäasetukset läpi. Tallennetaan.
 
 Etelästä pohjoiseen
 
