@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: 27.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
@@ -28,7 +28,11 @@ Etelästä pohjoiseen
 * Irina tiedusteli muiden käytäntöjä tilanteessa, jossa lapsiasiakas on sijoitettuna johonkin laitokseen ja hänelle haluttaisiin lainausoikeus. Kuka/mikä on takaaja tällaisen lapsen lainoille. Todettiin, että Kohassa voi olla takaajana kaikki muut asiakastyypit paitsi sellainen, jolla itsellään on takaaja eli esim. yhteisö käy takaajaksi.
 
 **OUTI**
-* Piia tiedusteli missä mennään tiketissä: https://github.com/KohaSuomi/Koha/issues/1252. Tiketti #1252 odottaa tikettiä https://github.com/KohaSuomi/Koha/issues/1066. #1066 tiketti on nyt testattavana. 
+* Piia tiedusteli missä mennään tiketissä: https://github.com/KohaSuomi/Koha/issues/1252. Tiketti #1252 odottaa tikettiä https://github.com/KohaSuomi/Koha/issues/1066. #1066 tiketti on nyt testattavana.
+
+**Lappi**
+* Tehty Roskakirjasto nidetyypeille, joissa ei ole aineistoja. Selvitetään, miten Roskakirjaston saa piilotettua Kohasta
+* SMS-viestit, joista Koha sanoo, etteivät mene perille, mutta jotka menevät : selvityksessä, ollaan yhteydessä Link Mpbilityyn
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
 
