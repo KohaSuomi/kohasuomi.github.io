@@ -29,7 +29,9 @@ Käyttökatkot vkolla 33 [tiistaina](https://github.com/KohaSuomi/Koha/discussio
 [Tiedostojärjestelmän remontti](https://github.com/KohaSuomi/Koha/issues/1364) on tulossa seuraavassa huoltoikkunassa.
 * kannattaa varautua siihen, että koko huoltokatkon ajan eli klo 7-9 välillä järjestelmässä voi olla katkoja.
 
-### 2. Koha versiopäivitys syksyllä
+### 2. Kohan versiopäivitys syksyllä
+
+Vahvistetaan aiemman kokouksen alustava päätös.
 
 **Alustava päätös oli:** maanantai 18.11.2024, eli työt alkavat jo sunnuntaina 17.11.2024 klo 19.
 
@@ -45,7 +47,7 @@ Taustatiedoksi laskelmien kaveriksi kaikista kimpoista
 * Kuinka usein viikossa kuljetus liikkuu
 * Mikä on varauksen noutoaika
 
-OUTIssa tehty vastaavia laskuja 2017 ja luvut samansuuntaisia kuin Kyytissä.
+OUTIssa tehty vastaavia laskuja 2017 ja luvut ovat samansuuntaisia kuin Kyytissä.
 
 Koha-Suomen palaverissa sovitaan, ketkä kehittäjistä alkaisi miettimään tähän teknistä toteutusta.
 
@@ -80,7 +82,7 @@ Luodaan priorisoinnin kriteeristö. Tekemässä ainakin Koha-Suomen väkeä, hal
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
-Käydän läpi ne ehdotukset, mitkä ehditään.
+Käydään läpi ne ehdotukset, mitkä ehditään.
 
 * [Items-tauluun on_shelf-sarake kertomaan onko nide hyllyssä #1297](https://github.com/KohaSuomi/Koha/issues/1297)
   * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa. 
@@ -96,7 +98,7 @@ Käydän läpi ne ehdotukset, mitkä ehditään.
 
 ### 6. Syksyn kokoukset
 
-Seuraava kokous keskiviikkona 25.9. klo 13.15. Sovitaan loput kokoukset seuraavassa kokouksessa.
+Seuraava kokous on keskiviikkona 25.9. klo 13.15. Sovitaan loput syksyn kokoukset seuraavassa kokouksessa.
 
 ### 7. Muut asiat
 
