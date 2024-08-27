@@ -20,7 +20,7 @@ Läsnä:
 
 * Asiantuntijaryhmästä: ketkä kehittäjistä alkavat tutkimaan, miten varauksia voisi priorisoida
 * Vastuuttomien tikettien vastuutus
-* 
+* Viikon 36 päivitys
 
 ## Viikko 35
 
