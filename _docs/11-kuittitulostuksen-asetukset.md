@@ -10,53 +10,13 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1. Firefoxin versio 78+esr
+### 9.1 Firefoxin versio 115+esr
 
-Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
+- Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
+- Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2.
+- Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja.
 
-![](/assets/files/docs/Kuittitulostuksen_asetukset/printer1.png)
-
-Mene sivun asetuksiin.  
-**Muoto ja valinnat** -välilehdeltä valitse **“Sovita sivun leveyteen”**.
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin2.png)
-
-**Marginaalit ja ylä-/alatunnisteet** -välilehdellä muuta kaikki marginaalit
-0:ksi ja kaikkiin ylä- ja alatunnisteisiin valitse --tyhjä--. Tämä asetus
-käyttää kaiken tilan kuitin tulostukseen.
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin3.png)
-
-Klikkaa lopuksi _OK_.
-
----
-
-### 9.1.2 Oletustulostimen määrittely
-
-Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
-tulostinta Tulosta-valikosta.
-
-Mene vasemmasta yläkulmasta **Tulosta**-valikkoon.
-
-Valitse valikosta käytössä oleva kuittitulostimesi ja klikkaa
-_Ominaisuudet_ tai _Määritykset_ -painiketta, riippuen tulostusikkunan
-ulkonäöstä.
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/printer3.png)
-
-Käy tarkistamassa **Asettelu**-välilehdeltä, että Paperikoko- ja
-Tulostuspaperi -asetukset ovat oikein. Kuitin koko voi olla esimerkiksi 80 x 297 mm, 
-72 x kuitti tms. Toiminnot riippuvat kuittitulostimen valinnoista.
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/printer2.png)
-
-Tallenna asetukset valitsemalla _OK_.
-
-Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/printer4.png)
-
----
+  ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostinasetukset.PNG)
 
 ## 9.2 Firefoxin versiot 90+esr ja 100+esr
 
@@ -89,16 +49,56 @@ Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus.
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
 Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.1.3 mukaisesti.
 
-### 9.2.1 Firefoxin versio 115+esr
+## 9.3. Firefoxin versio 78+esr
 
-- Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
-- Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2.
-- Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja.
+Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
-  ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostinasetukset.PNG)
+![](/assets/files/docs/Kuittitulostuksen_asetukset/printer1.png)
+
+Mene sivun asetuksiin.  
+**Muoto ja valinnat** -välilehdeltä valitse **“Sovita sivun leveyteen”**.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin2.png)
+
+**Marginaalit ja ylä-/alatunnisteet** -välilehdellä muuta kaikki marginaalit
+0:ksi ja kaikkiin ylä- ja alatunnisteisiin valitse --tyhjä--. Tämä asetus
+käyttää kaiken tilan kuitin tulostukseen.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin3.png)
+
+Klikkaa lopuksi _OK_.
+
+---
+
+### 9.4 Oletustulostimen määrittely
+
+Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
+tulostinta Tulosta-valikosta.
+
+Mene vasemmasta yläkulmasta **Tulosta**-valikkoon.
+
+Valitse valikosta käytössä oleva kuittitulostimesi ja klikkaa
+_Ominaisuudet_ tai _Määritykset_ -painiketta, riippuen tulostusikkunan
+ulkonäöstä.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/printer3.png)
+
+Käy tarkistamassa **Asettelu**-välilehdeltä, että Paperikoko- ja
+Tulostuspaperi -asetukset ovat oikein. Kuitin koko voi olla esimerkiksi 80 x 297 mm, 
+72 x kuitti tms. Toiminnot riippuvat kuittitulostimen valinnoista.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/printer2.png)
+
+Tallenna asetukset valitsemalla _OK_.
+
+Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/printer4.png)
+
+---
 
 
-## 9.3 Selaimen määrittely tulostamaan kuitit automaattisesti
+## 9.5 Selaimen määrittely tulostamaan kuitit automaattisesti
 
 Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat
 varoituksen vaarallisesta sivusta, klikkaa _“Otan riskin!”_.
@@ -130,7 +130,7 @@ Näin määritetty print.always_print_silent -asetus estää tulostimen
 vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
 käytä tulostamiseen toista selainohjelmaa.
 
-## 9.4 Selaimen päivittyessä
+## 9.6 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi, tarkista
 kuittitulostuksen asetukset. Vaihda yllä kuvatun
@@ -138,7 +138,7 @@ _print.always_print_silent_-määrityksen asetus true -> false, niin pääset as
 
 ---
 
-## 9.5 Ponnahdusikkunat
+## 9.7 Ponnahdusikkunat
 
 Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
