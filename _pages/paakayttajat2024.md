@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
 * Viikon 36 päivitys
+* [Halutaanko Finnaan näkyviin lainahistoriaan, että jokin tietue on poistettu](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/8#issuecomment-2315136148)?
 
 Pohjoisesta etelään
 
