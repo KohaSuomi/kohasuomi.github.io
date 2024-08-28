@@ -10,7 +10,7 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-### 9.1 Firefoxin versio 115+esr
+## 9.1 Firefoxin versio 115+esr
 
 - Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
 - Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2.
@@ -68,9 +68,7 @@ käyttää kaiken tilan kuitin tulostukseen.
 
 Klikkaa lopuksi _OK_.
 
----
-
-### 9.4 Oletustulostimen määrittely
+### 9.3.1 Oletustulostimen määrittely
 
 Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
 tulostinta Tulosta-valikosta.
@@ -98,7 +96,7 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 ---
 
 
-## 9.5 Selaimen määrittely tulostamaan kuitit automaattisesti
+## 9.4 Selaimen määrittely tulostamaan kuitit automaattisesti
 
 Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat
 varoituksen vaarallisesta sivusta, klikkaa _“Otan riskin!”_.
@@ -130,7 +128,7 @@ Näin määritetty print.always_print_silent -asetus estää tulostimen
 vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
 käytä tulostamiseen toista selainohjelmaa.
 
-## 9.6 Selaimen päivittyessä
+## 9.5 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi, tarkista
 kuittitulostuksen asetukset. Vaihda yllä kuvatun
@@ -138,7 +136,7 @@ _print.always_print_silent_-määrityksen asetus true -> false, niin pääset as
 
 ---
 
-## 9.7 Ponnahdusikkunat
+## 9.6 Ponnahdusikkunat
 
 Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
