@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: 27.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
@@ -40,6 +40,9 @@ Etelästä pohjoiseen
 
 **Helle**
 * Kohan itsepalvelulaimaus otettu käyttöön kahdessa Porvoon koulukirjastossa.
+
+**Lumme**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
 
