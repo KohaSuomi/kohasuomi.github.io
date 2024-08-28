@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: 27.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
@@ -37,6 +37,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Turvakieltoasiakasta ei ole rekisteröity vuosiin, joten ohjeistuskin on puuttunut. Saatu Outista ja Kyytistä hyviä vinkkejä ja nyt on ohje olemassa. Koha-Suomella ei ole tähän yhteistä ohjeistusta.
 * Myös Siilissä yksittäinen SMS-ongelma-asiakas kuten Lapissa.
+
+**Helle**
+* Kohan itsepalvelulaimaus otettu käyttöön kahdessa Porvoon koulukirjastossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
 
