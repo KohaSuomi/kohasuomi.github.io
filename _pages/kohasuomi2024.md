@@ -24,6 +24,7 @@ Läsnä:
     * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa. 
 * Vastuuttomien tikettien vastuutus
 * Viikon 36 päivitys
+* Versionvaihdon tikettien tilanne
 
 ## Viikko 35
 
