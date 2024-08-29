@@ -27,8 +27,7 @@ Pohjoisesta etelään
 ## Viikko 35
 
 Aika: 27.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
-
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Hanna Ikonen (Lumme
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
 * [Erikoismerkit varaustunnuksessa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/25)
