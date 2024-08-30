@@ -843,22 +843,23 @@ Järjestelmän sisäiset maksutyypit saa näkyville klikkaamalla _Näytä kaikki
 * _Kuvaus_: Maksun selkokielinen kuvaus, joka näkyy käyttäjälle maksua lisätessä asiakkaan tiedoissa.
 * _Voidaan lisätä maksun käsin?_: Tämä pitää valita, jotta maksu tulee näkyviin asiakkaan tiedoissa maksun lisäykseen.
 * _Voidaan myydä?_: Tämä liittyy Kohan kassa-toimintoon. Jos tähän lisää rastin, tulee maksutyyppi näkyviin kassa-toiminnossa myytävänä tuotteena.
+* _Lasketaan mukaan noissuecharge-asetukseen?_: Tämä tarkoittaa, että maksutyyppi otetaan huomioon, kun lasketaan lainauskieltoon vaikuttavia maksuja. Huom! Vain julkisoikeudelliset maksut saavat aiheuttaa lainakiellon. Julkisoikeudellisia maksuja ovat kirjaston myöhästymismaksut ja noutamattoman varauksen maksut.
 * _Kirjastorajoitus_: Voit rajata maksutyypin halutessasi tiettyjen kirjastojen käyttöön. Valitse _Kaikki kirjastot_, jos et halua rajoittaa.
 
 ### 14.1 Yleisimpiä maksutyyppejä
 
-Tunnus|Kuvaus|Käyttökohde
----|---|---
-NEW_CARD|Uusi kortti|Maksu uudesta kortista
-ODUE|Palautuskehotus|Koha-Suomen oma lisäys, jolla palautuskehotuksesta lisätään asiakkaalle maksu
-OVERDUE|Myöhästymismaksu|Päivittäinen myöhästymismaksu
+Tunnus|Kuvaus|Käyttökohde|Saako estää lainauksen?
+---|---|---|---
+NEW_CARD|Uusi kortti|Maksu uudesta kortista|Ei
+ODUE|Palautuskehotus|Koha-Suomen oma lisäys, jolla palautuskehotuksesta lisätään asiakkaalle maksu|Kyllä
+OVERDUE|Myöhästymismaksu|Päivittäinen myöhästymismaksu|Kyllä
 Pay|Maksusuoritus|Asiakkaan tekemä maksusuoritus
-RESERVE_EXPIRED|Noutamattoman varauksen maksu|Lisätään ajastetulla ajolla asiakkaalle, kun hän ei nouda varaustaan
+RESERVE_EXPIRED|Noutamattoman varauksen maksu|Lisätään ajastetulla ajolla asiakkaalle, kun hän ei nouda varaustaan|Kyllä
 
 
 ## 15. Credit-tyypit
 
-Credit-tyypeillä merkitään Kohassa maksusuoritukset, hyvitykset ja peruutukset. Maksutyypit kirjataan positiivisina arvoina, credit-tyypit negatiivisina arvoina, jolloin tilitapahtumat pysyvät balanssissa. Kun asiakkaalla ei ole maksamattomia maksuja, ovat creditit ja maksutyypit yhtä suuria.
+Credit-tyypeillä merkitään Kohassa maksusuoritukset, hyvitykset ja maksujen peruutukset. Maksutyypit kirjataan positiivisina arvoina, credit-tyypit negatiivisina arvoina, jolloin tilitapahtumat pysyvät balanssissa. Kun asiakkaalla ei ole maksamattomia maksuja, ovat creditit ja maksutyypit yhtä suuria.
 
 ![](/assets/files/docs/Asetukset/credittyypit.png)
 
