@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# Käsittelyerät
+# 13. Käsittelyerät
 
 Käsittelyerät-toimintoon pääset kahta reittiä.
 
@@ -19,7 +19,7 @@ Käsittelyerät-toiminnolla pystyy seuraamaan erilaisia aineiston käsittelyyn l
 
 Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. Huom! Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa.
 
-## Asetukset
+## 13.1 Asetukset
 
 Asetuksissa voi määrittää kahdentyyppisiä toimintoja.
 
@@ -28,13 +28,13 @@ Asetuksissa voi määrittää kahdentyyppisiä toimintoja.
 
 ![Käsittelyerien asetukset](/assets/files/docs/Kasittelyerat/kasittelyerat1.png)
 
-### Yleiset asetukset
+### 13.1.1 Yleiset asetukset
 
 Yleisissä asetuksissa voi määrittää odotuslistan ja käsittelyerän oletusarvot NOT_LOAN -auktorisoidulle arvolle. Samat määritykset voi tehdä myös järjestelmäasetuksista PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -asetuksissa.
 
 Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa. Odotuslista-sivun nidetaulukko muodostetaan notforloan-arvon perusteella, joten ei kannata käyttää siinä arvona mitään yleisesti käytössä olevaa arvoa. Nidetaulukko voi silloin muodostua niin suureksi, että järjestelmä ei osaa käsitellä niteiden määrää. Odotuslistalle ei ole olemassa omaa tietokannan taulua vaan tiedot kerätään ns. lennossa notforloan-arvon perusteella.
 
-### Käsittelypohjat
+### 13.1.2 Käsittelypohjat
 
 Käsittelypohjissa määritetään, mitä tietoja niteistä näytetään käsittelyerässä. Luo uusi pohja _Lisää uusi käsittelypohja_ -napista.
 
@@ -60,13 +60,13 @@ Huom! Tyyppi ja Valinnat -riveillä toimii tietojen täydennys, eli voit alkaa k
 
 Käsittelypohjia voi muokata jälkikäteen, mutta muutokset eivät päivity käsittelyeriin, jotka jo käyttävät kyseistä pohjaa. Käsittelypohja kannattaa tehdä täysin valmiiksi ennen kuin sitä käytetään käsittelyerissä.
 
-## Odotuslista
+## 13.2 Odotuslista
 
 Käsittelyerien työprosessi alkaa lisäämällä niteet odotuslistalle. Niteiden ei-lainata-tila muuttuu asetusten mukaiseksi ja ovat näin pois lainattavista. Niin kauan kuin niteen ei lainata -tila ei muutu, pysyy se odotuslistalla.
 
 ![Odotuslista](/assets/files/docs/Kasittelyerat/kasittelyerat3.png)
 
-### Odotuslistalle lisääminen
+### 13.2.1 Odotuslistalle lisääminen
 
 Lisää niteitä odotuslistalle _Lisää odotuslistalle_ -napista.
 
@@ -80,7 +80,7 @@ Kun olet lisännyt halutut viivakoodit, valitse sitten _Submit_. Näkymä palaa 
 
 Sivulle ilmestyy uusi nappi _Lisää viimeiset x nidettä käsittelyerään_, jota painamalla juuri viedyt niteet saa vietyä suoraan jo olemassa olevaan käsittelyerään.
 
-## Käsittelyerät
+## 13.3 Käsittelyerät
 
 Käsittelyerät-välilehdellä voit lisätä ja seurata käsittelyeriäsi.
 
@@ -98,7 +98,7 @@ Taulukossa listataan kaikki käsittelyerät. Taulukko pitää sisällään seura
   * _Poista_-napista voit poistaa käsittelyerän
   * _Lisää niteitä_ -napista voit lisätä käsittelyerään odotuslistalle olevia niteitä.
  
-### Uusi käsittelyerä
+### 13.3.1 Uusi käsittelyerä
 
 _Uusi käsittelyerä_ -nappulasta saat lisättyä käsittelyerän.
 
@@ -109,7 +109,7 @@ _Uusi käsittelyerä_ -nappulasta saat lisättyä käsittelyerän.
 * _Käsittelyerään lisätyn niteen tila_: Tähän tulee automaattisesti asetuksissa määritetty oletusarvo, mutta sen voi vaihtaa toiseksi valikosta.
 * _Oletuskäsittelypohja_: Valitse sopiva käsittelypohja.
 
-### Niteiden lisääminen käsittelyerään
+### 13.3.2 Niteiden lisääminen käsittelyerään
 
 Voit lisätä niteitä käsittelyerään kahta kautta:
 
@@ -122,7 +122,7 @@ Niteet näkyvät käsittelyerässä taulukossa. Taulukon sarakkeet noudattavat v
 
 ![Nide lisätty käsittelyerään](/assets/files/docs/Kasittelyerat/kasittelyerat9.png)
 
-### Käsittelyerän sulkeminen ja lähettäminen
+### 13.3.3 Käsittelyerän sulkeminen ja lähettäminen
 
 Kun kaikki halutut niteet on lisätty käsittelyerään, valitse ylhäältä _Sulje_.
 
@@ -136,7 +136,7 @@ Kun kaikki on valmista, valitse ylhäältä _Lähetä_, jolloin käsittelyerän 
 
 ![Käsittelyerä lähetetty](/assets/files/docs/Kasittelyerat/kasittelyerat11.png)
 
-### Käsittelyerän vastaanottaminen
+### 13.3.4 Käsittelyerän vastaanottaminen
 
 Kun niteet palautuvat saamastaan käsittelystä, vastaanotetaan käsittelyerä _Vastaanota_-napilla.
 
@@ -144,3 +144,7 @@ Kun niteet palautuvat saamastaan käsittelystä, vastaanotetaan käsittelyerä _
 
 * _Vastaanotettu_-riville kirjautuu erän vastaanottopäivä.
 * Käsittelyerän voi tässä vaiheessa halutessaan poistaa _Poista_-napista.
+
+## 13.4 Niteeltä ei-lainata-arvon poistaminen
+
+Käsittelyerän vastaanottaminen ei poista niteeltä sille asetettua ei-lainata-tilaa. Se pitää poistaa joko niteiden erämuokkauksella tai määrittää UpdateNotforloanOnCheckin-järjestelmäasetukseen, että kyseinen tila poistetaan palautettaessa.
