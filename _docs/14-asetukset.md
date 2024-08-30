@@ -913,6 +913,78 @@ Kohassa menee erilaiset tietokantaa kuormittavat toiminnot taustatyöjonoon, jos
 
 ## 18. MARC-kuvailupohjat
 
+MARC-kuvailupohjissa määritetään mitä MARC-kenttiä on näkyvillä tietuetta ja nidettä muokatessa. Oletuspohjassa on näkyvillä suurin osa MARC-kentistä, mutta voi olla tarpeen tehdä aineistotyyppikohtaisia pohjia, jolloin näkyville jätetään vain juuri sille aineistolle tarpeelliset MARC-kentät. Nidetietojen kenttien näkyvyyttä hallinnoidaan 952-kentällä.
+
+Koha-Suomella on käytössä skripti, joka päivittää kuvailupohjiin uudet ja muuttuneet MARC-kentät Kansalliskirjaston ylläpitämän yhtenäisformaatin pohjalta.
+
+TäTi-tietokannassa on täydellisimmät MARC-kuvailupohjat, koska primäärikuvailu on sovittu tehtävän siellä. Vain esineet kuvaillaan paikalliskantaan.
+
+
+![](/assets/files/docs/Asetukset/kuvailupohjat.png)
+
+Toiminnot-napista pääsee tutkailemaan MARC-rakennetta, muokkaamaan ja poistamaan kuvailupohjan sekä viemään ja tuomaan pohjan.
+
+![](/assets/files/docs/Asetukset/kuvailupohjat1.png)
+
+### 18.1 MARC-rakenne
+
+MARC-rakenne-toiminnon takaa avautuu taulukkona kaikki kyseiseen pohjaan liittyvät MARC-kentät
+
+![](/assets/files/docs/Asetukset/kuvailupohjat2.png)
+
+Toiminnot-napin takaa pääseen muokkaamaan yksittäisen tagin (kentän) tietoja, katsomaan sen osakenttiä, muokkaamaan osakenttiä ja poistamaan tagin (kentän).
+
+#### 18.1.1 Tagin muokkaus
+
+![](/assets/files/docs/Asetukset/kuvailupohjat3.png)
+
+Tagin muokkauksessa voi muokata:
+
+* _Kuvaus virkailijaliittymässä_: Kentän otsikko näytetään kuvailua tehdessä tämän kentän mukaisesti. Jos kentän nimeen tulee muutos, pitää se muokata täällä.
+* _Kuvaus verkkokirjastossa_: Sama kuin yllä, mutta koskee Kohan verkkokirjastoa, joka meillä ei ole käytössä.
+* _Toistettava_: Jos kenttä on toistettavissa, tähän laitetaan rasti.
+* _Pakollinen_: Jos kenttä halutaan määrittää pakolliseksi, tähän laitetaan rasti
+* _Tärkeä_: Tämä on lievempi vaihtoehto pakollisuudelle. Se antaa tietuetta tallennettaessa ilmoituksen, että tärkeitä kenttiä on tyhjänä, mutta ei pakota täyttämään kenttää.
+* _1. indikaattorin oletusarvo_: Tähän voi määrittää 1. indikaattorin oletusarvon tarvittaessa.
+* _Toisen indikaattorin oletusarvo_: Tähän voi määrittää 2. indikaattorin oletusarvon tarvittaessa.
+* _Auktorisoitu arvo_: Tähän voi määrittää kentälle käyttöön auktorisoidun arvon luokan.
+
+#### 18.1.2 Näytä osakentät
+
+MARC-kentän osakenttiä voi tutkailla Näytä osakentät -vaihtoehdolla.
+
+Jos kenttä on kiinteämittainen, on osakentän arvon @-merkki.
+![](/assets/files/docs/Asetukset/kuvailupohjat4.png)
+
+Jos kentällä on varsinaisia osakenttiä, listataan ne taulukkona ensin numerot ja sitten kirjaimet.
+![](/assets/files/docs/Asetukset/kuvailupohjat5.png)
+
+Osakenttiä (myös @-merkillistä kiinteämittaista) voi muokata tai poistaa tämän näkymän kautta.
+
+#### 18.1.3 Muokkaa osakenttiä
+
+Muokkaa osakenttiä -vaihtoehdolla avautuu osakenttien muokkausnäkymä. Kentän osakentät ovat erillisillä välilehdillä. Viimeisenä välilehtenä on _Uusi_, josta saa lisättyä uuden osakentän. Osakenttien järjestystä voi muokata ottamalla hiirellä kiinni osakentän välilehdestä ja raahaamalla sen haluamaansa kohtaan. Järjestys vaikuttaa myös tietueen kuvailuun, missä osakentät järjestyvät tässä näkymässä tehdyn välilehtien järjestyksen mukaisesti.
+
+Kentän perustiedot
+![](/assets/files/docs/Asetukset/kuvailupohjat6.png)
+
+* _Osakentän koodi_: Ei ole muokattavissa
+* _Kuvaus virkailijaliittymässä_: Kentän otsikko näytetään kuvailua tehdessä tämän kentän mukaisesti. Jos kentän nimeen tulee muutos, pitää se muokata täällä.
+* _Kuvaus verkkokirjastossa_: Sama kuin yllä, mutta koskee Kohan verkkokirjastoa, joka meillä ei ole käytössä.
+* _Toistettava_: Jos kenttä on toistettavissa, tähän laitetaan rasti.
+* _Pakollinen_: Jos kenttä halutaan määrittää pakolliseksi, tähän laitetaan rasti
+* _Tärkeä_: Tämä on lievempi vaihtoehto pakollisuudelle. Se antaa tietuetta tallennettaessa ilmoituksen, että tärkeitä kenttiä on tyhjänä, mutta ei pakota täyttämään kenttää.
+* _Näytetään välilehdellä_: Valikosta valitaan, millä välilehdellä osakenttä näytetään kuvailussa. Kaikki saman MARC-kentän osakentät pitää määrittää samalle välilehdelle tai valita _Älä huomioi_, jotta MARC-pohjien tarkistus ei valita niistä.
+
+* _Oletusarvo_: Tähän voi tarvittaessa kirjoittaa kentälle jonkin oletusarvon, jos sellainen on mahdollista määrittää. Onnistunee helpommin kiinteämittaisilla kentillä.
+* _Maksimipituus_: Kentän maksimipituudeksi kannattaa määrittää 9999 merkkiä, mikäli ei ole erityisesti tarpeen rajoittaa, miten pitkästi kenttään saa kirjoittaa/lisätä tietoja.
+* _Näkyvyys_: Tässä kohdassa voi tehdä useammanlaisia määrittelyjä
+  * _Verkkokirjasto_: Tällä valitaan, näkyykö kenttä Kohan verkkokirjastossa vai ei.
+  * _Virkailijaliittymä_: Tällä valitaan, näkyykö kenttä virkailijaliittymässä vai ei.
+  * _Editori_: Tällä valitaan, näkyykö kenttä tietueen kuvailussa peruseditorissa.
+  * _Supistettu_: Tällä valitaan, onko kenttä peruseditorissa heti näkyvissä vai onko se "supistettu" piiloon, jolloin sen saa näkyviin klikkaamalla pääkenttää.
+  * _Merkitty_: Tämä tarkoittaa, että kenttä piilotetaan kaikkialta eli käytännössä sama kuin ottaisi itse rastin pois kaikista muista tämän kohdan bokseista.
+
 ## 19. Kohan MARC-määritykset
 
 _Kohan MARC-määrityksissä_ määritetään, mitkä MARC-kentät yhdistetään Kohan tietokannan biblio, biblioitems ja items-taulujen sarakkeisiin. Kun kytkös on tehty, viedään MARC-kentän sisältö tietokannan tauluun, josta tiedon hakeminen on nopeampaa kuin marcxml:n sisältä.
