@@ -17,7 +17,9 @@ Käsittelyerät-toimintoon pääset kahta reittiä.
 
 Käsittelyerät-toiminnolla pystyy seuraamaan erilaisia aineiston käsittelyyn liittyviä työkulkuja kuten sitomoon vientejä, ditigointia, muovitusta yms. Niteet lisätään ensin odotuslistalle, jonka jälkeen ne liitetään sopivaan käsittelyerään.
 
-Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. Huom! Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa.
+Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. 
+
+Huom! Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa.
 
 ## 13.1 Asetukset
 
@@ -30,13 +32,15 @@ Asetuksissa voi määrittää kahdentyyppisiä toimintoja.
 
 ### 13.1.1 Yleiset asetukset
 
-Yleisissä asetuksissa voi määrittää odotuslistan ja käsittelyerän oletusarvot NOT_LOAN -auktorisoidulle arvolle. Samat määritykset voi tehdä myös järjestelmäasetuksista PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -asetuksissa.
+Yleisissä asetuksissa voi määrittää odotuslistan ja käsittelyerän oletusarvot NOT_LOAN -auktorisoidulle arvolle. Samat määritykset voi tehdä myös järjestelmäasetuksista _PreservationNotForLoanDefaultTrainIn_ ja _PreservationNotForLoanWaitingListIn_.
 
 Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa. Odotuslista-sivun nidetaulukko muodostetaan notforloan-arvon perusteella, joten ei kannata käyttää siinä arvona mitään yleisesti käytössä olevaa arvoa. Nidetaulukko voi silloin muodostua niin suureksi, että järjestelmä ei osaa käsitellä niteiden määrää. Odotuslistalle ei ole olemassa omaa tietokannan taulua vaan tiedot kerätään ns. lennossa notforloan-arvon perusteella.
 
 ### 13.1.2 Käsittelypohjat
 
-Käsittelypohjissa määritetään, mitä tietoja niteistä näytetään käsittelyerässä. Luo uusi pohja _Lisää uusi käsittelypohja_ -napista.
+Käsittelypohjissa määritetään, mitä tietoja niteistä näytetään käsittelyerässä. Ilman pohjaa niteestä näytetään vain viivakoodi. 
+
+Luo uusi pohja _Lisää uusi käsittelypohja_ -napista.
 
 ![Käsittelypohjan luonti](/assets/files/docs/Kasittelyerat/kasittelyerat2.png)
 
@@ -145,6 +149,6 @@ Kun niteet palautuvat saamastaan käsittelystä, vastaanotetaan käsittelyerä _
 * _Vastaanotettu_-riville kirjautuu erän vastaanottopäivä.
 * Käsittelyerän voi tässä vaiheessa halutessaan poistaa _Poista_-napista.
 
-## 13.4 Niteeltä ei-lainata-arvon poistaminen
+## 13.4 Niteeltä ei-lainata-tilan poistaminen
 
-Käsittelyerän vastaanottaminen ei poista niteeltä sille asetettua ei-lainata-tilaa. Se pitää poistaa joko niteiden erämuokkauksella tai määrittää UpdateNotforloanOnCheckin-järjestelmäasetukseen, että kyseinen tila poistetaan palautettaessa.
+Käsittelyerän vastaanottaminen ei poista niteeltä sille asetettua ei-lainata-tilaa. Se pitää poistaa joko niteiden erämuokkauksella tai määrittää  UpdateNotForLoanStatusOnCheckin-järjestelmäasetukseen, että kyseinen tila poistetaan palautettaessa.
