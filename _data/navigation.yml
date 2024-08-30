@@ -37,7 +37,9 @@ docs:
         url: /dokumentaatio/kuittitulostuksen-asetukset/
       - title: '12. Työkalut'
         url: /dokumentaatio/tyokalut/
-      - title: '13. Tietoturvaohje'
+      - title: '13. Käsittelyerät'
+        url: /dokumentaatio/kasittelyerat/
+      - title: '14. Tietoturvaohje'
         url: /dokumentaatio/tietoturvaohje/
   - title: Koulutukset
     children:
