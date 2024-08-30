@@ -115,3 +115,32 @@ Voit lisätä niteitä käsittelyerään kahta kautta:
 
 * Odotuslistalta  _Lisää viimeiset x nidettä käsittelyerään_ -napista sen jälkeen, kun olet lisännyt niteet odotuslistalle.
 * Käsittelyerän kohdalta _Lisää niteitä_ -napista.
+![Lisää nide käsittelyerään Korjattavat](/assets/files/docs/Kasittelyerat/kasittelyerat7.png)
+![Nide lisätty käsittelyerään](/assets/files/docs/Kasittelyerat/kasittelyerat8.png)
+
+Niteet näkyvät käsittelyerässä taulukossa. Taulukon sarakkeet noudattavat valitun käsittelypohjan mukaisia määrittelyjä.
+
+![Nide lisätty käsittelyerään](/assets/files/docs/Kasittelyerat/kasittelyerat9.png)
+
+### Käsittelyerän sulkeminen ja lähettäminen
+
+Kun kaikki halutut niteet on lisätty käsittelyerään, valitse ylhäältä _Sulje_.
+
+_Sulje_-napin tilalle tulee _Lähetä_-nappi ja käsittelyerään ei voi enää lisätä niteitä.
+
+![Käsittelyerä suljettu](/assets/files/docs/Kasittelyerat/kasittelyerat10.png)
+
+* Voit tässä vaiheessa halutessasi tulostaa niteille kuitin valitsemalla niteet ja valitsemalla _Tulosta kuitteja_.
+
+Kun kaikki on valmista, valitse ylhäältä _Lähetä_, jolloin käsittelyerän Lähetetty-arvoon kirjautuu lähetyspäivä. Tästä näkee, milloin niteet on lähetetty tai viety käsiteltäväksi. Yläreunaan tulee _Lähetä_-napin tilalle _Vastaanota_-nappi.
+
+![Käsittelyerä lähetetty](/assets/files/docs/Kasittelyerat/kasittelyerat11.png)
+
+### Käsittelyerän vastaanottaminen
+
+Kun niteet palautuvat saamastaan käsittelystä, vastaanotetaan käsittelyerä _Vastaanota_-napilla.
+
+![Käsittelyerä vastaanotettu](/assets/files/docs/Kasittelyerat/kasittelyerat12.png)
+
+* _Vastaanotettu_-riville kirjautuu erän vastaanottopäivä.
+* Käsittelyerän voi tässä vaiheessa halutessaan poistaa _Poista_-napista.
