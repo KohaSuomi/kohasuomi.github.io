@@ -21,6 +21,8 @@ Läsnä:
 * [Halutaanko Finnaan näkyviin lainahistoriaan, että jokin tietue on poistettu](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/8#issuecomment-2315136148)?
 * Mitä kaikkea halutaan konfiguroitavaksi: [IntranetUserJS: Restrict patron modification by category](https://github.com/KohaSuomi/koha-plugin-intranetjs-restrict-patron-modification/issues/1)
 * Käydään läpi version 24.05 järjestelmäasetukset ja nauhoitetaan se.
+* [Lisätään puuttuvat hankintahinnat kuluvan vuoden osalta](https://github.com/KohaSuomi/Koha/issues/1302)
+  * Muutama kimppa onkin tätä jo kommentoinut, onko muilla lisättävää? Vai sopisiko kaikille Vaskin ehdotus, jossa puuttuva hankintahinta kopioidaan korvaushinta-kentästä, jos siinä on arvo? /Emmi
 
 Pohjoisesta etelään
 
