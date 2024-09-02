@@ -16,14 +16,20 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 36
 
 Aika: 2.9.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo, Anneli
 
 * Asiantuntijaryhmästä:
   * ketkä kehittäjistä alkavat tutkimaan, miten varauksia voisi priorisoida
+    * Johanna ja Lari. Anneli tekee tikettiin yhteenvedon toiveista/tarpeista.
   * [Items-tauluun on_shelf-sarake kertomaan onko nide hyllyssä #1297](https://github.com/KohaSuomi/Koha/issues/1297)
-    * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa. 
+    * Koha-Suomen asiantuntijaryhmä 26.8.2024: Edistetään yhteisön kautta. Koha-Suomen kehittäjä tekee tiketin yhteisöön ja haistellaan, minkälaisen vastaanoton se saa. Koha-Suomi juttelee jatkotoimenpiteistä 27.8.2024 palaverissa.
+    * Kodo kirjaa speksejä ja Emmi tutkii, mihin kaikialle muutos vaikuttaisi.
 * Vastuuttomien tikettien vastuutus
 * Viikon 36 päivitys
+  * [Hetun tallennukseen painikkeen siirto tai muistutus tallentamattomasta hetusta #1066 ](https://github.com/KohaSuomi/Koha/issues/1066)
+  * [Henkilötunnuksen tallennus ei onnistu 0-vuotiaalle #1252](https://github.com/KohaSuomi/Koha/issues/1252)
+  * [000-kentän editorissa on vanhat suomennokset merkkipaikkojen 07 ja 17 arvoille #51](https://github.com/KohaSuomi/Koha-translations/issues/51)
+  * [Tietokannan aikaleiman tarkistus täsmäämään 005-kentän aikaleiman kanssa. #9](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/9)
 * Versionvaihdon tikettien tilanne
 * Päivystysvuorot viikosta 37 eteenpäin
 
