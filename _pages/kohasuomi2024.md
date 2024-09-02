@@ -25,6 +25,7 @@ Läsnä:
 * Vastuuttomien tikettien vastuutus
 * Viikon 36 päivitys
 * Versionvaihdon tikettien tilanne
+* Päivystysvuorot viikosta 37 eteenpäin
 
 ## Viikko 35
 
