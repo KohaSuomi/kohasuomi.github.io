@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
-* Viikon 36 päivitys
+* [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/1392)
 * [Halutaanko Finnaan näkyviin lainahistoriaan, että jokin tietue on poistettu](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/8#issuecomment-2315136148)?
 * Mitä kaikkea halutaan konfiguroitavaksi: [IntranetUserJS: Restrict patron modification by category](https://github.com/KohaSuomi/koha-plugin-intranetjs-restrict-patron-modification/issues/1)
 * Käydään läpi version 24.05 järjestelmäasetukset ja nauhoitetaan se.
@@ -26,7 +26,7 @@ Läsnä:
 
 Pohjoisesta etelään
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-36) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 35
 
