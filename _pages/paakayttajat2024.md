@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
@@ -25,6 +25,7 @@ Läsnä:
   * Tällä hetkellä ei ole tarvetta muille estetyille kentille.
   * Tutkitaan, saako staffaccess-oikeuksilla oleville sallittua muokkaamisen kuten superlibrarian-oikeuksilla oleville. Osalla kimpoista on tarve tähän.
 * Käydään läpi version 24.05 järjestelmäasetukset ja nauhoitetaan se.
+  * [Järjestelmäasetusten läpikäynnin tallenne](https://youtube.com/live/KEd-2Mj1Mv8?feature=share)
 * [Lisätään puuttuvat hankintahinnat kuluvan vuoden osalta](https://github.com/KohaSuomi/Koha/issues/1302)
   * Muutama kimppa onkin tätä jo kommentoinut, onko muilla lisättävää? Vai sopisiko kaikille Vaskin ehdotus, jossa puuttuva hankintahinta kopioidaan korvaushinta-kentästä, jos siinä on arvo? /Emmi
 * Finna-kehitysehdotusten läpikäynti: Vaski laittaa Matrixiin ehdolle päivämääriä läpikäyntikokouksille, joihin voi osallistua kaikki halukkaat. Valitaan suosituin/suosituimmat ajat.
