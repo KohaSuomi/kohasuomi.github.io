@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
@@ -32,6 +32,9 @@ Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suo
 * Asiakasvarmenne-ohjeeseen lisäys, minkälainen ilmoitus tulee, kun varmenne on vanhentunut.
 
 Pohjoisesta etelään
+
+**Vaara**
+* Asiakkaalta tullut tietopyyntö kaupungin kautta. Tietopyyntöön vastattu.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-36) - [Palaa sivun alkuun](/paakayttajat2024)
 
