@@ -518,9 +518,11 @@ Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai s
 
 <img src="/assets/files/docs/Tyokalut/tulostus.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:100.0%" />
 
-*Valitse lista* -valikon *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
-*Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautusmiskirjastossa vastaanotetuista niteistä.
-*Itse tulostetut* -valinta tuo listan kirjautuneen käyttäjän aiemmin tulostamista niteistä. Listalla niteet pysyvät 9 viikon ajan. Sen jälkeen ne poistuvat automaattisesti.
+*Valitse lista* -valikon 
+* *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
+* *Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautusmiskirjastossa vastaanotetuista niteistä.
+* *Tänään vastaanotetut kausijulkaisut* -valinta tuo listan kaikista kyseisenä päivänä kirjautumiskirjastossa vastaanotetuista kausijulkaisuniteistä.
+* *Itse tulostetut* -valinta tuo listan kirjautuneen käyttäjän aiemmin tulostamista niteistä. Listalla niteet pysyvät 9 viikon ajan. Sen jälkeen ne poistuvat automaattisesti.
 
 Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
 
