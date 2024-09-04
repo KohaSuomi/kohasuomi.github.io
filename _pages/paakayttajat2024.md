@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 37
+
+Aika: 10.9.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
+* Ei päivitystä viikolla 37
+* [RDA-konversio Tätissä](https://github.com/KohaSuomi/Koha/discussions/1394)
+
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
