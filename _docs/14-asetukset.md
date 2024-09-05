@@ -1004,8 +1004,8 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 | Biblio.abstrac | 520 ‡a |
 | Biblio.author | 100 ‡a, 110 ‡a, 111 ‡a |
 | biblio.biblionumber | 999 ‡c |
-| biblio.copyrightdate | (automaattisesti) |
-| Biblio.datecreated | (automaattisesti) |
+| biblio.copyrightdate | 260 ‡c, 264 ‡c |
+| Biblio.datecreated | (automaattisesti aikaleima) |
 | Biblio.frameworkcode | 999 ‡b |
 | biblio.medium | 245 ‡h |
 | biblio.notes | 500 ‡a |
@@ -1014,12 +1014,12 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 | biblio.serial | 942 ‡s |
 | biblio.seriestitle | 830 ‡a 
 | biblio.subtititle | 245 ‡b |
-| biblio.timestamp | (automaattisesti) |
+| biblio.timestamp | (automaattisesti aikaleima) |
 | biblio.title | 245 ‡a |
 | biblio.unititle | 130 ‡a, 240 ‡a |
 | biblioitems.agerestriction | 049 ‡c |
 | biblioitems.biblioitemnumber | 999 ‡d |
-| biblioitems.biblionumber | (automaattisesti) |
+| biblioitems.biblionumber | (automaattisesti tietueen biblionumber) |
 | biblioitems.cn_class | 084 ‡a |
 | biblioitems.cn_item | 942 ‡i |
 | biblioitems.cn_sort | 942 ‡6 |
@@ -1035,23 +1035,23 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 | biblioitems.isbn | 020 ‡a |
 | biblioitems.issn | 022 ‡a |
 | biblioitems.itemtype | 942 ‡c |
-| biblioitems.lccn | (automaattisesti) |
-| biblioitems.notes | (automaattisesti) |
+| biblioitems.lccn | ei mäppäystä |
+| biblioitems.notes | ei mäppäystä |
 | biblioitems.number | 830 ‡v |
 | biblioitems.pages | 300 ‡a |
 | biblioitems.place | 260 ‡a, 264 ‡a |
-| biblioitems.publicationyear | 260 ‡c, 264 ‡c |
+| biblioitems.publicationyear | ei mäppäystä |
 | biblioitems.publishercode | 028 ‡a |
 | biblioitems.size | 300 ‡c |
-| biblioitems.timestamp | (automaattisesti) |
-| biblioitems.totalissues | linkitys poistettu, ei laiteta mitään |
+| biblioitems.timestamp | (automaattisesti aikaleima) |
+| biblioitems.totalissues | ei mäppäystä |
 | biblioitems.url | 856 ‡u |
 | biblioitems.volume | 362 ‡a |
-| biblioitems.volumedate | (automaattisesti) |
-| biblioitems.volumedesc | (automaattisesti) |
+| biblioitems.volumedate | ei mäppäystä |
+| biblioitems.volumedesc | ei mäppäystä |
 | items.barcode | 952 ‡p |
-| items.biblioitemnumber | (automaattisesti) |
-| items.biblionumber | (automaattisesti) |
+| items.biblioitemnumber | (automaattisesti tietueen biblioitemnumber) |
+| items.biblionumber | (automaattisesti tietueen biblionumber) |
 | items.booksellerid | 952 ‡e |
 | items.ccode | 952 ‡8 |
 | items.cn_sort | 952 ‡6 |
@@ -1059,43 +1059,43 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 | items.coded_location_qualifier | 952 ‡f |
 | items.copynumber | 952 ‡t |
 | items.damaged | 952 ‡4 |
-| items.damaged_on | (automaattisesti) |
+| items.damaged_on | (automaattisesti aikaleima) |
 | items.dateaccessioned | 952 ‡d |
 | items.datelastborrowed | 952 ‡s |
 | items.datelastseen | 952 ‡r |
-| items.deleted_on | (automaattisesti) |
+| items.deleted_on | (automaattisesti aikaleima) |
 | items.enumchron | 952 ‡h |
-| items.exclude_from_local_holds_priority | (automaattisesti) |
+| items.exclude_from_local_holds_priority | ei mäppäystä |
 | items.holdingbranch | 952 ‡b |
 | items.homebranch | 952 ‡a |
 | items.issues | 952 ‡l |
 | items.itemcallnumber | 952 ‡o |
 | items.itemlost | 952 ‡1 |
-| items.itemlost_on | (automaattisesti) |
+| items.itemlost_on | (automaattisesti aikaleima) |
 | items.itemnotes | 952 ‡z |
 | items.itemnotes_nonpublic | 952 ‡x |
 | items.itemnumber | 952 ‡9 |
 | items.itype | 952 ‡y |
 | items.location | 952 ‡c |
 | items.materials | 952 ‡3 |
-| items.more_subfields_xml | (automaattisesti) |
-| items.new_status | (automaattisesti) |
+| items.more_subfields_xml | ei mäppäystä |
+| items.new_status | ei mäppäystä |
 | items.notforloan | 952 ‡7 |
 | items.onloan | 952 ‡q |
-| items.permanent_location | (automaattisesti) |
+| items.permanent_location | (automaattisesti location-kentän mukaisesti) |
 | items.price | 952 ‡g |
 | items.renewals | 952 ‡m |
 | items.replacementprice | 952 ‡v |
 | items.replacementpricedate | 952 ‡w |
 | items.reserves | 952 ‡n |
 | items.restricted | 952 ‡5 |
-| items.stack | (automaattisesti) |
+| items.stack | ei mäpppäystä |
 | items.stocknumber | 952 ‡i |
 | items.sub_location | 952 ‡j |
-| items.timestamp | (automaattisesti) |
+| items.timestamp | (automaattisesti aikaleima) |
 | items.uri | 952 ‡u |
 | items.withdrawn | 952 ‡0 |
-| items.withdrawn_on | (automaattisesti) |
+| items.withdrawn_on | (automaattisesti aikaleima) |
 
 ## 20. MARC-kuvailupohjan testaus
 
@@ -1112,6 +1112,9 @@ Auktoriteettityypeissä määritetään Kohan sisäisten auktoriteetien kuvailup
 Tällä hetkellä Kohan auktoriteettejä ei käytetä ja ylläpidetä varsinkaan paikalliskannoissa kovin aktiivisesti. TäTiin tuodaan [Auktoriteettitietokanta Asterista](https://www.kiwi.fi/display/melinda/Auktoriteettitietokanta+Asteri) auktoriteettitietueita.
 
 ## 22. Luokitusjärjestelmät
+
+Luokitusjärjestelmillä määritetään, mitä luokitusjärjestelmiä käytetään.
+
 
 ## 23. Tietueiden täsmäytyssäännöt
 
