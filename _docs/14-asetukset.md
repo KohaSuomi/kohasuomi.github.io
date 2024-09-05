@@ -1113,8 +1113,24 @@ Tällä hetkellä Kohan auktoriteettejä ei käytetä ja ylläpidetä varsinkaan
 
 ## 22. Luokitusjärjestelmät
 
-Luokitusjärjestelmillä määritetään, mitä luokitusjärjestelmiä käytetään.
+Luokitusjärjestelmillä määritetään, mitä luokitusjärjestelmiä käytetään ja miten items.itemcallnumber-kentän tiedot normalisoidaan items.cn_sort-kenttään. Jälkimmäisen mukaan tehdään mm. luokan mukaan järjestäminen tiedonhaussa.
 
+![](/assets/files/docs/Asetukset/luokitusjarjestelmat.png)
+
+### 22.1 Luokitusjärjestelmät
+
+Koha-Suomessa on käytössä ykl-luokitusjärjestelmä. Mikäli sellaista ei ole, lisää sellainen _Uusi luokitusjärjestelmä_ -napin kautta.
+
+![](/assets/files/docs/Asetukset/luokitusjarjestelmat2.png)
+
+* _Luokituksen lähdekoodi_: Luokitusjärjestelmän tunniste, esim. ykl
+* _Kuvaus_: Selkokielinen kuvaus luokitusjärjestelmälle
+* _Lähde käytössä?_: Tähän pitää laittaa rasti, jotta luokitusjärjestelmää voisi käyttää.
+* _Luokitusopas_: Tässä on Koha-Suomessa käytössä kahta eri versiota, outi ja lumme. Katso tarkemmin alempaa.
+* _Katkaisusääntö_: Tällä voi määrittää katkaisusäännön. Tällä ei ole merkitystä Koha-Suomen ympäristöissä.
+
+
+![](/assets/files/docs/Asetukset/luokitusjarjestelmat1.png)
 
 ## 23. Tietueiden täsmäytyssäännöt
 
