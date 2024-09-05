@@ -1044,7 +1044,7 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 | biblioitems.publishercode | 028 ‡a |
 | biblioitems.size | 300 ‡c |
 | biblioitems.timestamp | (automaattisesti) |
-| biblioitems.totalissues | 942 ‡0 |
+| biblioitems.totalissues | linkitys poistettu, ei laiteta mitään |
 | biblioitems.url | 856 ‡u |
 | biblioitems.volume | 362 ‡a |
 | biblioitems.volumedate | (automaattisesti) |
