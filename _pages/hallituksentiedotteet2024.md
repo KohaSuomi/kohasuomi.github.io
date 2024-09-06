@@ -11,6 +11,49 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 6/2024
+
+6.9.2024
+
+Hei kaikille!
+
+Koha-Suomen uusi hallitus aloitti syyskauden ja uusi kokoonpano on seuraava:
+
+1. Helle- ja Lastu-kirjastot: kirjasto- ja kulttuuripäällikkö Maarit Tuomisto (Siuntio), varajäsen kirjastopalvelujohtaja Salla Palmi-Felin, (Lahti)
+2. Kirkes-kirjastot: kirjastotoimenjohtaja Katri Rahkola (Tuusula), varajäsen kirjastopalvelujohtaja Maria Bang (Kerava)
+3. Kyyti-kirjastot: kehittämispäällikkö Karoliina Kanerva (Kouvola), varajäsen talousjohtaja Hellevi Kunnas (Kouvola)
+4. Lapin kirjastot: kirjastonjohtaja Nina Sipola (Rovaniemi), varapuheenjohtaja, varajäsen asiakaspalvelupäällikkö Pasi Rantanen (Rovaniemi)
+5. Lumme-kirjastot: kirjastopäällikkö Pia Kontio (Mikkeli), varalla vs. talousjohtaja Janne Skott (Mikkeli)
+6. OUTI-kirjastot: kirjastopalvelujohtaja Jouni Pääkkölä (Oulu), puheenjohtaja, varajäsen palvelupäällikkö Noora Valkonen (Oulu)
+7. Vaara-kirjastot: tietohallintopäällikkö Pekka Penttinen (Joensuu), varajäsen kirjastopalvelujohtaja Suvi Pirnes-Toivanen (Joensuu)
+8. Vaski-kirjastot: kirjastopalvelujohtaja Rebekka Pilppula (Turku), varajäsen kulttuuri- ja kirjastopalvelujohtaja Arja Pesonen (Kaarina)
+9. Siilinjärven kunta: digijohtaja Tiia Häsä, varajäsen kirjastotoimenjohtaja Jarkko Nevalainen
+
+Syksyn ensimmäisessä kokouksessa hyväksyttiin asiantuntijaryhmän jäsenet:
+
+Helle: Kati Sillgren, Tove Selkälä (vara)<br />
+Kirkes: Riikka Mustajärvi, Anu Järvi (vara)<br />
+Kyyti: Tuomas Kunttu, Roosa Väisänen (vara)<br />
+Lappi: Leena Kinnunen, Pia Kusmin (vara)<br />
+Lastu: Janne Seppänen, Lauri Hänninen (vara)<br />
+Lumme: Hanna Ikonen, Katja Valjakka (vara)<br />
+Outi: Noora Valkonen, Piia Semenoff (vara)<br />
+Vaara: Päivi Knuutinen, Irina Halminen (vara)<br />
+Vaski: Susanna Sandell, Asko Autio (vara)     
+
+Kävimme läpi toimitusjohtajan raportin ja taloustilanteen. Liitteenä toimitusjohtajan raportti.
+
+Perinteisesti Koha-Suomen hallitus jakaa tiedotettaan aina kokouksen jälkeen. Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Mukavaa syksyn alkua kaikille – nautitaan vielä lämpimistä päivistä, kun voidaan! 😊
+
+Jouni Pääkkölä, hallituksen pj.
+
+Liite: [Toimitusjohtajanraportti 6 24.pdf](https://github.com/user-attachments/files/16906995/Toimitusjohtajanraportti624.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 5/2024
 
 8.5.2024
