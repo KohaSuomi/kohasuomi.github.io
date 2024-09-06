@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 37
 
-Aika: 10.9.2024 klo 9<br />
+Aika: 9.9.2024 klo 9<br />
 Läsnä: 
 
 **Asiat**
