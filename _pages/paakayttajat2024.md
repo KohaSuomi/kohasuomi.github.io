@@ -23,7 +23,7 @@ Läsnä:
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
