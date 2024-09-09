@@ -20,6 +20,7 @@ Läsnä:
 * Ei päivitystä viikolla 37
 * [RDA-konversio Tätissä](https://github.com/KohaSuomi/Koha/discussions/1394)
 * Kohan ohje suomeksi -ohjeen päivitys versiovaihtojen välillä.
+* [#889](https://github.com/KohaSuomi/Koha/issues/889) missä kaikkialla pilkku-piste ei toimi?
 
 ## Viikko 36
 
