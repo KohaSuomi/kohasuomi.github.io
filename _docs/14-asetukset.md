@@ -1205,6 +1205,43 @@ _Poistettu_ (deleted): Jos alkuperäisessä tietueessa on kenttiä, joita tuleva
 
 ## 27. Haun rajaukset
 
+Haun rajauksilla voi luoda tiedonhaussa linkkejä fasettien yläpuolelle tallennettuihin hakuihin. Tällä on toteutettu esim. Emokohde/osakohde-"fasetit". Vaatii, että SavedSearchFilters-järjestelmäasetus on päällä. Jotta käyttäjä voi lisätä hakurajauksia, pitää hänellä olla käyttäjäoikeus _manage_search_filters_.
+
+![](/assets/files/docs/Asetukset/haunrajaukset.png)
+
+Haun rajaukset voi tehdä tiedonhausta käsin ja niitä voi muokata sen jälkeen Haun rajaukset -sivulla.
+
+![](/assets/files/docs/Asetukset/haunrajaukset1.png)
+
+Haun rajauksen saa tehtyä tekemällä ensin haluamansa haun ja sitten valitsemalla hakutulosten yläpuolelta _Tallenna haku rajauksena_
+
+![](/assets/files/docs/Asetukset/haunrajaukset2.png)
+
+* _Näkyvyys_*: Valitse, näytetään hakurajaus verkkokirjastossa ja/tai virkailijaliittymässä. Verkkokirjastolla tarkoitetaan Kohan omaa verkkokirjastoa, jota meillä ei ole käytössä. Ei vaikuta siis Finnaan.
+* _Tallenna uutena haun rajauksena_: Anna tässä kohtaa hakurajaukselle kuvaava nimi ja valitse _Tallenna_
+* _Korvaa olemassa oleva haun rajaus_: Jos haluat korvata jo olemassa olevan haun rajauksen, valitse tästä korvattava rajaus ja valitse _Korvaa_.
+
+### 27.1 Ohje Emokohde- ja Osakohde -fasettien lisäämiseen
+
+Ohje: 
+* Laita päälle SavedSearchFilters-järjestelmäasetus. 
+* Tee haku bib-level:("a") -> Klikkaa hakutuloslistan saatuasi _Tallenna haku rajauksena_ 
+![kuva](https://user-images.githubusercontent.com/33121325/222130824-f0a74f08-b16f-4ddf-9d0d-50fa3598d88c.png)
+  * Laita rasti kohtaan _Näytä virkailijaliittymässä?_
+  * Anna haulle nimi **Osakohde** tai **Rajaa osakohteisiin** ja tallenna. 
+  * Voit myös korvata jonkin aiemman rajauksen, jos olet harjoitellut tekemistä aiemmin.
+* Tee uusi haku bib-level:("m") -> Klikkaa _Tallenna haku rajauksena_ 
+![kuva](https://user-images.githubusercontent.com/33121325/222131310-15e9b6f7-ec88-4872-ac43-815ac7e6be92.png)
+  * Laita rasti kohtaan _Näytä virkailijaliittymässä?_
+  * Anna haulle nimi **Emokohde** tai **Rajaa emokohteisiin** ja tallenna.
+  * Voit myös korvata jonkin aiemman rajauksen, jos olet harjoitellut tekemistä aiemmin.
+* Rajauksia voi muokata jälkikäteen Ylläpito -> Haun rajaukset
+
+**Huom!** Jos haluat rajauksiin laajemmin mukaan eri tyyppisiä tietueita, niin 
+* emokohderajauksen voi tehdä myös tästä hausta: bib-level:m OR bib-level:c OR bibl-level:i OR bib-level:s
+* osakohderajauksen voi tehdä myös tästä hausta: bib-level:a OR bib-level:b OR bibl-level:d
+
+
 ## 28. Hakukoneen asetukset (Elasticsearch)
 
 ## 29. Rahayksiköt ja vaihtokurssit
