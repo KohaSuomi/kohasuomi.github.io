@@ -16,11 +16,15 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 37
 
 Aika: 9.9.2024 klo 9<br />
-Läsnä: 
+Läsnä: Johanna, Pasi, Emmi, Lari, Kodo, Ari, Anneli
 
 **Asiat**
 * Vastuuttomien tikettien vastuutus
-* Ei päiviystä viikolla 37
+  * Tiketit käytiin läpi ja vastuutettiin jos pystyttiin
+* Versionvaihdon vastuuttomat tiketi
+  * Jokainen käy nimeämässä itselleen edellisessä versionvaihdossa tekemänsä tiketit
+  * Loput katsotaan läpi jossakin tämän viikon scrummissa   
+* Ei päivitystä viikolla 37
 
 
 ## Viikko 36
