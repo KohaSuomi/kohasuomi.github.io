@@ -1217,7 +1217,7 @@ Haun rajauksen saa tehtyä tekemällä ensin haluamansa haun ja sitten valitsema
 
 ![](/assets/files/docs/Asetukset/haunrajaukset2.png)
 
-* _Näkyvyys_*: Valitse, näytetään hakurajaus verkkokirjastossa ja/tai virkailijaliittymässä. Verkkokirjastolla tarkoitetaan Kohan omaa verkkokirjastoa, jota meillä ei ole käytössä. Ei vaikuta siis Finnaan.
+* _Näkyvyys_: Valitse, näytetään hakurajaus verkkokirjastossa ja/tai virkailijaliittymässä. Verkkokirjastolla tarkoitetaan Kohan omaa verkkokirjastoa, jota meillä ei ole käytössä. Ei vaikuta siis Finnaan.
 * _Tallenna uutena haun rajauksena_: Anna tässä kohtaa hakurajaukselle kuvaava nimi ja valitse _Tallenna_
 * _Korvaa olemassa oleva haun rajaus_: Jos haluat korvata jo olemassa olevan haun rajauksen, valitse tästä korvattava rajaus ja valitse _Korvaa_.
 
