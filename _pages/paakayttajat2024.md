@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
