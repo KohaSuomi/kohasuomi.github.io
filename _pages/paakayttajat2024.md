@@ -20,6 +20,9 @@ Läsnä:
 * Ei päivitystä viikolla 37
 * [RDA-konversio Tätissä](https://github.com/KohaSuomi/Koha/discussions/1394)
 * Kohan ohje suomeksi -ohjeen päivitys versiovaihtojen välillä.
+  * Kaikki hoitaa päivityksen oman osa-alueen osalta myös versionvaihtojen välillä
+  * Voi pyytää myös apua, jos ei millään ehdi
+  * käytetään Dokumentoiva-tilaa tiketeissä, jos vain muistetaan.
 * [#889](https://github.com/KohaSuomi/Koha/issues/889) missä kaikkialla pilkku-piste ei toimi?
 * Yhteisötiketeille (ym. odottaville) laitetaan jatkossa assigneeksi tiketin tekijä, jos Koha-Suomi ei tee sille aktiivisesti mitään. Helpottaa Koha-Suomen työtä, kun käydään läpi vastuuttamattomia tikettejä.
 
