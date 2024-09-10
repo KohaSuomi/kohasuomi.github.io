@@ -128,6 +128,10 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 
 ![](/assets/files/docs/Asiakkaat/Sotusiilo_Ohita.png)
 
+Jos henkilöasiakkaalla (aikuinen tai lapsi) ei ole sotuavainta, ei asiakastiedon tallennus onnistu ennen kuin sotuavain on lisätty tai painettu Lisää hetu -kentän vieressä olevaa uutta Ohita-nappia.
+
+Jos asiakastiedot yrittää tallentaa ennen sotuavaimen lisäystä tai Ohita-napin painallusta, on asiakastiedon Tallenna-nappi yläreunassa epäaktiivinen ja napin viereen tulee ohjeteksti Lisää tai ohita henkilötunnus ensin, kun hiiren vie Tallenna-napin päälle.
+
 \- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!". 
 
