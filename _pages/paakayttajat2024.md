@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -41,6 +41,11 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 **Lappi**
 * Normaalia ylläpitoa
 * Tikettiin #1380 kirjattu SMS-ongelman selvitystyön etenemistä.
+
+**Vaski**
+* 7.9. on joillekin asiakkaille mennyt muutaman viikon takaisia noutoilmoitus-tekstiviestejä uudelleen, asiaa selvitellään.
+* Nidepaketteja (item bundles) ollaan ottamassa käyttöön, tulossa ainakin alkuun Paimioon jossa aletaan lainata kirjalaatikoita päiväkodista toiseen.
+* Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.****
  
 ## Viikko 36
 
