@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -50,6 +50,9 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 * 7.9. on joillekin asiakkaille mennyt muutaman viikon takaisia noutoilmoitus-tekstiviestejä uudelleen, asiaa selvitellään.
 * Nidepaketteja (item bundles) ollaan ottamassa käyttöön, tulossa ainakin alkuun Paimioon jossa aletaan lainata kirjalaatikoita päiväkodista toiseen.
 * Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.
+
+**Helle**
+* Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Saatu tieto siitä, että muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990)
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-37) - [Palaa sivun alkuun](/paakayttajat2024)
