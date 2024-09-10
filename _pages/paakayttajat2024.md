@@ -36,7 +36,7 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 * Varausten noutoaika lyhennettiin 5 aukiolovuorokauteen, oli aiemmin 7 vrk.
 
 **OUTI**
-* Koha-Suomen uutiskirje julkaistaan viikolla 41 ja uutiskirjeen kirjaamisen deadline 30.9. Vinkit Koha-Suomen osioon voi vinkata Annelille. Linkki valmiiseen pohjaan: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit
+* Koha-Suomen uutiskirje julkaistaan viikolla 41 ja uutiskirjeen kirjaamisen deadline on ma 30.9. Vinkit Koha-Suomen osioon voi vinkata Annelille. Linkki valmiiseen pohjaan: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit
  
 ## Viikko 36
 
