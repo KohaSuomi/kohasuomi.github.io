@@ -131,6 +131,7 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 Jos asiakkaalla (aikuinen tai lapsi) ei ole sotu-avainta, ei asiakastiedon tallennus onnistu ennen kuin sotu-avain on lisätty tai painettu Lisää hetu -kentän vieressä olevaa uutta _Ohita_-nappia.
 
 Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-napin painallusta, on asiakastiedon _Tallenna_-nappi yläreunassa epäaktiivinen ja napin viereen tulee ohjeteksti _Lisää tai ohita henkilötunnus ensin_, kun hiiren vie Tallenna-napin päälle.
+
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
 - Sotu-avain-tarkistusta ei tehdä organisaatio-tyyppisille asiakkaille eli esim. yhteisösiakkaille. 
