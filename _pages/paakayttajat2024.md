@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -37,6 +37,10 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 
 **OUTI**
 * Koha-Suomen uutiskirje julkaistaan viikolla 41 ja uutiskirjeen kirjaamisen deadline on ma 30.9. Vinkit Koha-Suomen osioon voi vinkata Annelille. Linkki valmiiseen pohjaan: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit
+
+**Lappi**
+* Normaalia ylläpitoa
+* Tikettiin #1380 kirjattu SMS-ongelman selvitystyön etenemistä.
  
 ## Viikko 36
 
