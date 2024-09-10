@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -26,6 +26,16 @@ Läsnä:
 * [#889](https://github.com/KohaSuomi/Koha/issues/889) missä kaikkialla pilkku-piste ei toimi?
 * Yhteisötiketeille (ym. odottaville) laitetaan jatkossa assigneeksi tiketin tekijä, jos Koha-Suomi ei tee sille aktiivisesti mitään. Helpottaa Koha-Suomen työtä, kun käydään läpi vastuuttamattomia tikettejä.
 
+**Kyyti**
+* Siivottu pois sellaisia lainauskieltoja, joita on aikoinaan laitettu maksamattomien takia, koska maksujen mitätöintiajo on poistanut vanhoja maksuja. Lainauskieltoja poistettiin yli 7 000 asiakkaalta.
+* Asiakkaiden viesteihin tehtiin 2.9. muutokset, joissa ennakkoilmoituksen voi saada vain sähköpostina (aiemmin myös tekstiviestinä) ja saapumisilmoitukset muutettiin sähköpostiin, jos osoite oli asiakastietoihin tallennettuna.
+Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmäisen viikon tarkastelun mukaan tekstiviestien määrä väheni 85 %.
+* Tässä tapahtui sellainen ongelma, että kaikille niille asiakkaille, joita tämä muutos koski, on ennakkoilmoituksen Päivää etukäteen -arvoksi vaihtunut 1, vaikka se on aiemmin voinut ollut jotain muuta.
+* Asiakasviesteihin tehtiin muutos, jossa kirjastokortin numero vaihdettiin etunimeksi.
+* Epäillään, että asiakkailta on hävinnyt sotu-avaimia. Vuoden 2022 raportissa tällaisia asiakkaita oli 4 500 ja nyt yli 11 000. Lisäksi on kirjaston henkilökunnan omilta asiakastietuieilta puuttunut sotu-avaimia, vaikka ovat olleet varmoja, että hetu on joskus tallennettua. Ehkä on kyse jostain virhetilanteesta asiakastietoja tallennettaessa.
+* Varausten noutoaika lyhennettiin 5 aukiolovuorokauteen, oli aiemmin 7 vrk.
+
+ 
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
