@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -54,13 +54,16 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 **Helle**
 * Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Tiedoksi saatu: muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990)
 
+**Kirkes**
+* Kirkesin kuvailijat ovat päätyneet siihen, että meillekin halutaan RDA-konversio. Asiasta on kommentoitu tikettiin [#834](https://github.com/KohaSuomi/Koha/issues/834)
+* Kuvailijat ovat myös pyytäneet uutta not for loan -tilaa kuvailtavaksi lähetetyille niteille. Kävimme keskustelua liittyen tikettiin [#1100](https://github.com/KohaSuomi/Koha/issues/1100) ja totesimme, että eri kimppojen tiloja on aika mahdoton yhtenäistää, joten tilalle ei tarvitse valita mitään tiettyä arvoa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-37) - [Palaa sivun alkuun](/paakayttajat2024)
  
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren & Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren & Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
