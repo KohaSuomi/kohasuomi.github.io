@@ -133,6 +133,7 @@ Jos henkilöasiakkaalla (aikuinen tai lapsi) ei ole sotuavainta, ei asiakastiedo
 Jos asiakastiedot yrittää tallentaa ennen sotuavaimen lisäystä tai Ohita-napin painallusta, on asiakastiedon _Tallenna_-nappi yläreunassa epäaktiivinen ja napin viereen tulee ohjeteksti _Lisää tai ohita henkilötunnus ensin_, kun hiiren vie Tallenna-napin päälle.
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
+Huom. Sotu-avain-tarkistusta ei tehdä organisaatio-tyyppisille asiakkaille eli esim. yhteisösiakkaille. Jos muokataan henkilöasiakasta, jolla on jo sotuavain, pystyy tallennuksen tekemään ilman ohitusta. Jos henkilöasiakkaalla ei ole suomalaista henkilötunnusta, pitää Ohita-nappia painaa aina henkilötunnuksettoman asiakkaan tietoja muokatessa.
 
 Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
