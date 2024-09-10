@@ -52,7 +52,7 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 * Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.
 
 **Helle**
-* Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Saatu tieto siitä, että muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990)
+* Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Tiedoksi saatu: muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990)
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-37) - [Palaa sivun alkuun](/paakayttajat2024)
