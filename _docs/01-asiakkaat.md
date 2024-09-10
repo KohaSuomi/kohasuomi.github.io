@@ -126,7 +126,7 @@ Asiakastyypin valittuasi pääset asiakkaan muokkaussivulle.
 
 Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siiloon_.
 
-![](/assets/files/docs/Asiakkaat/Lisaahetu3.png)
+![](/assets/files/docs/Asiakkaat/Sotusiilo_Ohita.png)
 
 \- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!". 
