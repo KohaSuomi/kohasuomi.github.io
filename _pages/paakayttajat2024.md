@@ -45,7 +45,9 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 **Vaski**
 * 7.9. on joillekin asiakkaille mennyt muutaman viikon takaisia noutoilmoitus-tekstiviestejä uudelleen, asiaa selvitellään.
 * Nidepaketteja (item bundles) ollaan ottamassa käyttöön, tulossa ainakin alkuun Paimioon jossa aletaan lainata kirjalaatikoita päiväkodista toiseen.
-* Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.****
+* Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-37) - [Palaa sivun alkuun](/paakayttajat2024)
  
 ## Viikko 36
 
