@@ -35,6 +35,8 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 * Epäillään, että asiakkailta on hävinnyt sotu-avaimia. Vuoden 2022 raportissa tällaisia asiakkaita oli 4 500 ja nyt yli 11 000. Lisäksi on kirjaston henkilökunnan omilta asiakastietuieilta puuttunut sotu-avaimia, vaikka ovat olleet varmoja, että hetu on joskus tallennettua. Ehkä on kyse jostain virhetilanteesta asiakastietoja tallennettaessa.
 * Varausten noutoaika lyhennettiin 5 aukiolovuorokauteen, oli aiemmin 7 vrk.
 
+**OUTI**
+* Koha-Suomen uutiskirje julkaistaan viikolla 41 ja uutiskirjeen kirjaamisen deadline 30.9. Vinkit Koha-Suomen osioon voi vinkata Annelille. Linkki valmiiseen pohjaan: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit
  
 ## Viikko 36
 
