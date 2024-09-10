@@ -134,10 +134,9 @@ Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-na
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
 Sotu-avain-tarkistusta ei tehdä organisaatio-tyyppisille asiakkaille eli esim. yhteisösiakkaille. 
-
 Jos muokataan henkilöasiakasta, jolla jo on sotu-avain, pystyy tallennuksen tekemään ilman ohitusta. 
-
 Jos asiakkaalla ei ole suomalaista henkilötunnusta, pitää Ohita-nappia painaa aina henkilötunnuksettoman asiakkaan tietoja muokatessa.
+{: .notice--warning}
 
 Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
