@@ -133,16 +133,17 @@ Jos henkilöasiakkaalla (aikuinen tai lapsi) ei ole sotuavainta, ei asiakastiedo
 Jos asiakastiedot yrittää tallentaa ennen sotuavaimen lisäystä tai Ohita-napin painallusta, on asiakastiedon _Tallenna_-nappi yläreunassa epäaktiivinen ja napin viereen tulee ohjeteksti _Lisää tai ohita henkilötunnus ensin_, kun hiiren vie Tallenna-napin päälle.
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
-\- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
-"Hetu tallennettu!". 
-
-![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
 Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
 (kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain3.png)
+
+\- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
+"Hetu tallennettu!". 
+
+![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
 \- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti kimppasi asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
