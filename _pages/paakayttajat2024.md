@@ -52,7 +52,7 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 * Toivottu isbn-numeron lisäämistä hyllyvarausraportille, mutta tälle ei koettu tarvetta muissa kimpoissa. Hyllyvarausten haussa käytetään pitkälti muualla tabletteja, jolla mahdollista tarkistaa varatun teokset lisätiedot lennossa.
 
 **Helle**
-* Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Tiedoksi saatu: muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990)
+* Kysytty palaverissa muiden kimppojen kokemuksia Varausmuistutus-toiminnosta. Tiedoksi saatu: muistutuksia lähtee asiakkaille määriteltyjä lähetyskertoja enemmän. Tiketti [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990) Annille tuli kokouksen jälkeen mieleen vielä se, että viestit lähtevät vain oletuskielisinä Tiketti [HOLD_REMINDER käyttää oletuspohjaa suomen-, ruotsin- ja englanninkielisen pohjan sijaan](https://github.com/KohaSuomi/Koha/issues/662)
 
 **Kirkes**
 * Kirkesin kuvailijat ovat päätyneet siihen, että meillekin halutaan RDA-konversio. Asiasta on kommentoitu tikettiin [#834](https://github.com/KohaSuomi/Koha/issues/834)
