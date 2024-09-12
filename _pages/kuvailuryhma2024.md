@@ -9,6 +9,86 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
 
+## Kuvailuryhmän muistio 6/2024 ##
+
+Aika: 5.9.2024 klo 13.15–14.16
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Johanna Räisä (Koha-Suomi, kohta 2, klo 13.46 alkaen)
+
+Poissa: Mauri Aittaniemi (Lappi), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerinä toimi Merja Hakulinen. Vuoro vaihdettiin Mauri Aittaniemen kanssa.
+
+#### 2.	RDA-konversioiden tilanne ####
+<ul>
+  <li>TäTin RDA-konversio on torstaina 12.9.2024. </li>
+  <li>Juhannuksen tienoilla valuneet tietueet koetetaan palauttaa alkuperäisiksi (<a href="https://github.com/KohaSuomi/Koha/issues/1298" target="_blank">Tiketti 1298</a>, Pasi Kallinen korjaa). </li>
+  <li>Ruotsinkielisen aineiston konversio onnistuu, kun 040 b –osakentässä on kielimerkintä swe. Tämän takia ISBD-ajan ruotsin kielellä kuvailtuihin musiikkiaineistoihin ja äänikirjoihin on ennen konversiota lisättävä tietueiden erämuokkauksella 040b-kenttä, jossa on arvo swe. </li>
+  <li>Ruotsinkielisillä konversiosäännöillä ajetaan tietueet, joiden 008/35-37 ja 041a = swe + 000/06 = a tai tietueessa on 040b=swe. </li>
+  <li>Vaski, Kirkes ja Lastu haluavat myös uuden konversion (tehty kerran jo aikaisemmin), koska konversiossa päivitetään myös valmiita RDA-tietueita ajan tasalle. </li>
+</ul>
+
+#### 3.	Kuulumiskierros ####
+<ul>
+  <li><b>Helle:</b> Kysymys kohdeviittauksista Kirjailijapoetiikat-kirjassa (9789518588644). Kirjastopalvelun mukaan kirjailijaviittauksia ei laiteta tietueeseen, silloin kun niitä tulisi enemmän kuin 20. Tämä ohjeistus on Fennicasta. Artikkelit löytyvät vain 505-kentästä, jolloin kirjailijan nimellä (kohdehenkilö) hakeminen on vaikeaa tai jopa mahdotonta. Yksi vaihtoehto olisi viitata valikoiden tärkeimpiin/kysytyimpiin kirjailijoihin. Sisku oli keskustellut asiasta ja uuden RDA:n myötä teos kuvailtaisiin kokonaisuutena eikä artikkelitasolla. Siskun sähköpostiin kannattaa laittaa kysely, jotta saadaan virallinen vastaus (sisa-posti (at) helsinki.fi). </li>
+  <li><b>Kirkes:</b>  Saisiko listan Marc-virheiden tärkeimmistä korjattavista asioista? Korjaustyön helpottamiseksi heillä on jo tehty useita raportteja. Todettiin, että 653-kenttää voi edelleen käyttää, jos termeille ei ole auktorisoitua asiasanaa. </li>
+  <li><b>Kyyti:</b>  Ei erikoisia kuulumisia. </li>
+  <li><b>Lastu:</b>  Liittyy Kohaan 30.9.2024. TäTi-tunnuksia vain Lahteen 4 henkilölle. </li>
+  <li><b>Lumme:</b>  Ei erikoisia kuulumisia. </li>
+  <li><b>OUTI:</b>  Tehty Marc-korjauksia. 006- ja 007-kenttien Marc-virheitä voi korjata tietueiden erämuokkauksella. Raporttikirjastossa on valmiita raportteja, joilla voi hakea tietynlaisia virheellisiä tietueita. Pitää vielä miettiä ohjeistusta näihin. Koha Teamsin Tietueiden massakorjaukset -taulukkoon on lisätty tieto niistä Marc-virheiden korjauksista, jotka voi tehdä erämuokkauksella. </li>
+  <li><b>Vaara:</b>  Virheelliset valumiset harmittavat, samoin KP:n hitaus. Kokoelma-/poistopartio kiertää Vaaran kirjastoissa ohjeistamassa ja keskustelemassa mm. poistotyöstä. Moniviestin-paketteja on purettu osiksi ja tietueiden Marc-virheitä korjattu. </li>
+  <li><b>Vaski:</b>  Musiikkitallenteina näkyneiden tietueiden kiinteät kentät ja aineistotyypit on korjattu kesän aikana. Tiketti 438 on jo suljettu, mutta sieltä löytyy Mikko Liimataisen tekemä ohjeistus erämuokkaukseen (007-kenttä): <a href="https://github.com/KohaSuomi/Koha/issues/438" target="_blank">Korjauksia osakohteiden aineistolajeihin (musiikkitallenne)</a> </li>
+</ul>
+
+#### 4.	Kesän aikana tehdyt poistot, korjaukset ja kuvailupohjien muokkaukset TäTissä ####
+<ul>
+  <li>Poistettu tuplatietueita ja Melindasta poimittuja vanhoja ISBD-tietueita sekä vanhentuneita RDA-tietueita, joita ei ollut linkitetty Melindaan </li>
+  <li>Tehty MARC-virheiden korjausta ja myös poistettu paljon Kirjastopalvelun vanhoja MARC-virheellisiä tietueita (lähinnä e-kirjoja ja -äänikirjoja) </li>
+  <li>TäTissä on aika paljon itse kuvailtua teksti- ja muuta aineistoa, joissa on turhaan täytetty 006- tai 007-kentät. Näitä voisi ehkä korjailla konversioiden jälkeen. </li>
+  <li>Kirja-pohjassa 340-kenttä (fyysinen tallenne) </li>
+  <li>020 q-osakentästä on poistettu turhia termejä (tarkentava tieto) </li>
+</ul>
+
+#### 5.	Eri ohjeiden päivitys ja linkitys Melindan toimintaohjeeseen ####
+<ul>
+  <li>Mikropalvelu-termin vaihto Tietuesiirtäjä-termiin myös Kohan ohjeisiin </li>
+  <li>Johanna Räisä muistutti, että GitHubissa on kaavio tietueen kulusta: <a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/wiki" target="_blank">Tietuesiirtäjän käyttöohje</a>, Tietuesiirtäjän ohje löytyy myös Koha ohje suomeksi -sivujen kautta: <a href="https://koha-suomi.fi/dokumentaatio/kuvailu/#512-tietueen-valuminen-t%C3%A4tist%C3%A4tietuesiirt%C3%A4j%C3%A4" target="_blank">5.1.2. Tietueen valuminen TäTistä/Tietuesiirtäjä</a> </li>
+</ul>
+
+#### 6.	Koha-Suomi-Melinda-tilannepalaveri 27.8. ####
+
+Kuvailukoulutus suunniteltu nyt marraskuun alkuun. Ilmoittautuminen hyvissä ajoin lokakuussa, jotta ehditään käsitellä ennakkokysymykset ja laatia niihin vastaukset.
+
+#### 7.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1241" target="_blank">MARC-formaatin päivittäminen</a> -> Päivitetty kesällä, mutta automaattinen päivitys toimi vasta syyskuun alussa. Versio on nyt viimeisin 37. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha-translations/issues/51" target="_blank">000-kentän editorissa on vanhat suomennokset merkkipaikkojen 07 ja 17 arvoille</a> -> Päivitetty 3.9. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1338" target="_blank">Osakohteet valuneet ilman aineistotyyppiä</a> -> Korjauksia on tehty, muttei toimi täysin aukottomasti </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1298" target="_blank">Vanhoja kuvalutietoja valuu uusien päälle</a> -> Tietueiden palautusskripti tekeillä, korkea prioriteetti, jotta saadaan RDA-konversiot käyntiin </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1316" target="_blank">Vaara: 008-kenttien virheen korjaus</a> -> Kimpat kommentoivat GitHubissa, tarvitseeko heille tehdä tätä korjausta. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1293" target="_blank">Lisää raportteja MARC-tietueiden korjauksia varten</a> -> Ks. <a href="https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#kuvailu" target="_blank">Kohan raporttikirjasto</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/286" target="_blank">Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue</a> -> Kohaan on tehty oma erillinen raportti, joka näyttää ainoastaan tietueet, joiden 084-, 100-, 110-, 111- tai 245-kentissä on tapahtunut muutos. Raportti ei ota huomioon ennakkotietueiden päivittymistä. Käytössä jo ainakin OUTIssa ja Hellessä. Asennettu myös Vaaraan. </li>
+</ul>
+
+#### 8.	Muita asioita ####
+<ul>
+  <li>Muistuttakaa tätejä ja poimijakuvailijoita siitä, että tarkistetaan ensin KP:n kuvailustatus. Jos kuvailu on tulossa KP:sta, Melindasta ei saa tuoda tietuetta tätiin -> tietueet tuplaantuvat. Melindasta voi tuoda tietueen suoraan paikalliskantoihin. </li>
+  <li>BIBFRAME Workshop in Europe 2024 -konferenssi Helsingissä 17.-18.9.2024, myös etänä voi osallistua: https://www.kansalliskirjasto.fi/fi/tapahtumat/bibframe-workshop-europe-syyskuussa-helsingissa </li>
+</ul>
+
+#### 9.	Syksyn kokousajat ####
+<ul>
+  <li>Ke 2.10. klo 13.15 </li>
+  <li>Ke 6.11. klo 13.15 </li>
+  <li>Ke 4.12. klo 13.15 </li>
+</ul>
+
+
+---
 ## Kuvailuryhmän muistio 5/2024 ##
 
 Aika: 16.5.2024 klo 13.15–14.40
