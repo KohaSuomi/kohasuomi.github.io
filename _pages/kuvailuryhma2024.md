@@ -77,7 +77,7 @@ Kuvailukoulutus suunniteltu nyt marraskuun alkuun. Ilmoittautuminen hyvissä ajo
 #### 8.	Muita asioita ####
 <ul>
   <li>Muistuttakaa tätejä ja poimijakuvailijoita siitä, että tarkistetaan ensin KP:n kuvailustatus. Jos kuvailu on tulossa KP:sta, Melindasta ei saa tuoda tietuetta tätiin -> tietueet tuplaantuvat. Melindasta voi tuoda tietueen suoraan paikalliskantoihin. </li>
-  <li>BIBFRAME Workshop in Europe 2024 -konferenssi Helsingissä 17.-18.9.2024, myös etänä voi osallistua: https://www.kansalliskirjasto.fi/fi/tapahtumat/bibframe-workshop-europe-syyskuussa-helsingissa </li>
+  <li>BIBFRAME Workshop in Europe 2024 -konferenssi Helsingissä 17.-18.9.2024, myös etänä voi osallistua: <a href="https://www.kansalliskirjasto.fi/fi/tapahtumat/bibframe-workshop-europe-syyskuussa-helsingissa" target="_blank">BIBFRAME Workshop in Europe syyskuussa Helsingissä</a> </li>
 </ul>
 
 #### 9.	Syksyn kokousajat ####
