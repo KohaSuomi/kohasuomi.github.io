@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: 10.9.2024, klo 9.15<br />
-Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat**
 * [Huoltokatko 11.9.2024](https://github.com/KohaSuomi/Koha/discussions/1393)
@@ -56,7 +56,11 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 
 **Kirkes**
 * Kirkesin kuvailijat ovat päätyneet siihen, että meillekin halutaan RDA-konversio. Asiasta on kommentoitu tikettiin [#834](https://github.com/KohaSuomi/Koha/issues/834)
-* Kuvailijat ovat myös pyytäneet uutta not for loan -tilaa kuvailtavaksi lähetetyille niteille. Kävimme keskustelua liittyen tikettiin [#1100](https://github.com/KohaSuomi/Koha/issues/1100) ja totesimme, että eri kimppojen tiloja on aika mahdoton yhtenäistää, joten tilalle ei tarvitse valita mitään tiettyä arvoa. 
+* Kuvailijat ovat myös pyytäneet uutta not for loan -tilaa kuvailtavaksi lähetetyille niteille. Kävimme keskustelua liittyen tikettiin [#1100](https://github.com/KohaSuomi/Koha/issues/1100) ja totesimme, että eri kimppojen tiloja on aika mahdoton yhtenäistää, joten tilalle ei tarvitse valita mitään tiettyä arvoa.
+
+**Siilinjärvi**
+* Kohassa rauhallista
+* Lähiaikojen projekti on saada Kohaan/hankintaportaaliin aineistotoimittajat myös muovitetulle aineistolle. Tukipyyntö tulossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-37) - [Palaa sivun alkuun](/paakayttajat2024)
  
