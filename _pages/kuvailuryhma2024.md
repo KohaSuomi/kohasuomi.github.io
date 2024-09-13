@@ -30,11 +30,12 @@ Sihteerinä toimi Merja Hakulinen. Vuoro vaihdettiin Mauri Aittaniemen kanssa.
   <li>Ruotsinkielisen aineiston konversio onnistuu, kun 040 b –osakentässä on kielimerkintä swe. Tämän takia ISBD-ajan ruotsin kielellä kuvailtuihin musiikkiaineistoihin ja äänikirjoihin on ennen konversiota lisättävä tietueiden erämuokkauksella 040b-kenttä, jossa on arvo swe. </li>
   <li>Ruotsinkielisillä konversiosäännöillä ajetaan tietueet, joiden 008/35-37 ja 041a = swe + 000/06 = a tai tietueessa on 040b=swe. </li>
   <li>Vaski, Kirkes ja Lastu haluavat myös uuden konversion (tehty kerran jo aikaisemmin), koska konversiossa päivitetään myös valmiita RDA-tietueita ajan tasalle. </li>
+  <li>Konversioiden edistymistä voi seurata tiketissä: <a href="https://github.com/KohaSuomi/Koha/issues/834" target="_blank">RDA-konversio tuotantoympäristöön</a> </li>
 </ul>
 
 #### 3.	Kuulumiskierros ####
 <ul>
-  <li><b>Helle:</b> Kysymys kohdeviittauksista Kirjailijapoetiikat-kirjassa (9789518588644). Kirjastopalvelun mukaan kirjailijaviittauksia ei laiteta tietueeseen, silloin kun niitä tulisi enemmän kuin 20. Tämä ohjeistus on Fennicasta. Artikkelit löytyvät vain 505-kentästä, jolloin kirjailijan nimellä (kohdehenkilö) hakeminen on vaikeaa tai jopa mahdotonta. Yksi vaihtoehto olisi viitata valikoiden tärkeimpiin/kysytyimpiin kirjailijoihin. Sisku oli keskustellut asiasta ja uuden RDA:n myötä teos kuvailtaisiin kokonaisuutena eikä artikkelitasolla. Siskun sähköpostiin kannattaa laittaa kysely, jotta saadaan virallinen vastaus (sisa-posti (at) helsinki.fi). </li>
+  <li><b>Helle:</b> Kysymys kohdeviittauksista Kirjailijapoetiikat-kirjassa (9789518588644). Kirjastopalvelun mukaan kirjailijaviittauksia ei laiteta tietueeseen, silloin kun niitä tulisi enemmän kuin 20. Tämä ohjeistus on Fennicasta. Artikkelit löytyvät vain 505-kentästä, jolloin kohdehenkilön nimellä hakeminen on vaikeaa tai jopa mahdotonta. Yksi vaihtoehto olisi viitata valikoiden tärkeimpiin/kysytyimpiin kirjailijoihin. Sisku oli keskustellut asiasta ja uuden RDA:n myötä teos kuvailtaisiin kokonaisuutena eikä artikkelitasolla. Seurataan tilannetta. Siskun sähköpostiin kannattaa laittaa kysely, jotta saadaan virallinen vastaus (sisa-posti (at) helsinki.fi). </li>
   <li><b>Kirkes:</b>  Saisiko listan Marc-virheiden tärkeimmistä korjattavista asioista? Korjaustyön helpottamiseksi heillä on jo tehty useita raportteja. Todettiin, että 653-kenttää voi edelleen käyttää, jos termeille ei ole auktorisoitua asiasanaa. </li>
   <li><b>Kyyti:</b>  Ei erikoisia kuulumisia. </li>
   <li><b>Lastu:</b>  Liittyy Kohaan 30.9.2024. TäTi-tunnuksia vain Lahteen 4 henkilölle. </li>
