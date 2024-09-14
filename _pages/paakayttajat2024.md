@@ -35,7 +35,7 @@ Pohjoisesta etelään
 * Asiakkaiden viesteihin tehtiin 2.9. muutokset, joissa ennakkoilmoituksen voi saada vain sähköpostina (aiemmin myös tekstiviestinä) ja saapumisilmoitukset muutettiin sähköpostiin, jos osoite oli asiakastietoihin tallennettuna.
 Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmäisen viikon tarkastelun mukaan tekstiviestien määrä väheni 85 %.
 * Tässä tapahtui sellainen ongelma, että kaikille niille asiakkaille, joita tämä muutos koski, on ennakkoilmoituksen Päivää etukäteen -arvoksi vaihtunut 1, vaikka se on aiemmin voinut ollut jotain muuta.
-* Asiakasviesteihin tehtiin muutos, jossa kirjastokortin numero vaihdettiin etunimeksi.
+* Asiakasviesteihin ja kuitteihin tehtiin muutos, jossa kirjastokortin numero vaihdettiin etunimeksi.
 * Epäillään, että asiakkailta on hävinnyt sotu-avaimia. Vuoden 2022 raportissa tällaisia asiakkaita oli 4 500 ja nyt yli 11 000. Lisäksi on kirjaston henkilökunnan omilta asiakastietuieilta puuttunut sotu-avaimia, vaikka ovat olleet varmoja, että hetu on joskus tallennettua. Ehkä on kyse jostain virhetilanteesta asiakastietoja tallennettaessa.
 * Varausten noutoaika lyhennettiin 5 aukiolovuorokauteen, oli aiemmin 7 vrk.
 
@@ -67,7 +67,7 @@ Muutoksen tarkoituksena oli rahansäästö ja se näyttää toteutuvan. Ensimmä
 ## Viikko 36
 
 Aika: 3.9.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren & Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman, Pasi Kallinen, Emmi Takkinen ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren & Lotta Juvonen (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Ohje tietopyynnön tekemiseen](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)
