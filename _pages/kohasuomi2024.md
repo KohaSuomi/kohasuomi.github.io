@@ -13,6 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 38
+
+Aika: 16.9.2024 klo 9<br />
+Läsnä: Johanna, Pasi, Emmi, Lari, Ari, Anneli
+
+**Asiat**
+* Viikon 37 keskeiset
+  * Torstaina 12.9. tuotantojen indeksit olivat rikki ja ne piti palauttaa dumpeista.
+* Päivitys
+  * Viimeinen päivitys ennen tuotantojen jäädytystä.
+* RDA-konversion aikataulut. Voidaan tehdä useampia yhtäaikaa, hyvä ajankohta on viikonloppu, kun ei silloin muokata kuvailutietoja.
+
 ## Viikko 37
 
 Aika: 9.9.2024 klo 9<br />
