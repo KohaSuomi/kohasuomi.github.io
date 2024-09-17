@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
@@ -27,7 +27,11 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 
 **Vaara**
 * Muutettu CurrencyFormat US-vaihtoehtoon, toivottavasti nyt toimii summat oikein.
-* Muuten normaalia ylläpitoa, siivousta ja testausta.  
+* Muuten normaalia ylläpitoa, siivousta ja testausta.
+
+**Lappi**
+* Otettu käyttöön CurrencyFormat muodoista US-vaihtoehto.
+* SMS-viesteihin liittyvä ongelma johtui asiakkaan rinnakkaisliittymästä (tiketti [#1380](https://[github.com/KohaSuomi/Koha/issues/1380]))
 
 Etelästä pohjoiseen
 
