@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
@@ -28,6 +28,10 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 **Vaara**
 * Muutettu CurrencyFormat US-vaihtoehtoon, toivottavasti nyt toimii summat oikein.
 * Muuten normaalia ylläpitoa, siivousta ja testausta.  
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 37
 
