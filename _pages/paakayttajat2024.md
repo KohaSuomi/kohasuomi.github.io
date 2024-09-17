@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
@@ -37,6 +37,10 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 * Siilin indeksissä vielä jotain vialla viime viikkoisen jäljiltä, tehty tiketti [#1415](https://github.com/KohaSuomi/Koha/issues/1415)
 * Allekirjoittanut unohtanut uusia vanhentuvan kirjautumistunnuksensa nextin puolella, pääsi pälkähästä mutta muistaa ensi kerralla
 * Myös Siilissä vaihdettu CurrencyFormat US-muotoon
+
+**Kyyti**
+* 12.9. oli epäonnistuneita taustatöitä niin Kyytissä kuin muissakin kimpoissa. Näistä epäonnistuneista ajoista olisi hyvä saada jokin heräte, nyt niitä pitäisi esim. kerran kuussa käydä katsomassa, että onko niitä. Tyypillisesti ne ovat niteiden poistoajoja ja ne pitää sitten käydä poistamassa uudelleen. Sekin on vähän mutkikasta, kun ensin pitää ajolla selvittää, että mitä niteitä/tietueita eräajo on koskenut. Tämä prosessi hyötyisi selkiyttämisestä.
+* Kyytin piti ottaa nidetyypin automaattinen valinta tällä viikolla, mutta koska tulevassa versiossa tällä tietoa näkyy perustietonäkymässä vain nidetyypin lyhenne, menee käyttöönotto uudelleen mietintään. https://github.com/KohaSuomi/Koha-24.05/issues/34
 
 Etelästä pohjoiseen
 
