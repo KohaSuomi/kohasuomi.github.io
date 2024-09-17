@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
   * tietoturvapäivityksien myötä muutos raporttien ajoon
+  * tämä oli viimeinen päivitys ennen versionvaihtoa.
 
 ## Viikko 37
 
