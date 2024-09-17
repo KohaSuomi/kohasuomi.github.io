@@ -20,8 +20,7 @@ Koha-käyttöön suositeltava selain on Firefox ESR (Extended Support Release). 
 
 Virkailijaliittymiin pääsy on rajattu vuosittain uusittavin asiakasvarmentein. Koha-Suomi toimittaa varmenteet kimpan pääkäyttäjälle Matrix-viestialustalla. Varmenne tulee asentaa sellaisten koneiden selaimiin joilla Kohaa halutaan käyttää. Varmennetta tai sellaisella varustettua selainta ei tule luovuttaa sellaisten henkilöiden käyttöön, joilla ei ole oikeutta käyttää Kohaa. Tästä voidaan huolehtia esimerkiksi erillisillä käyttäjäprofiileilla oikeudellisille ja oikeudettomille käyttäjille. Pääsääntöisesti Kohaa tulisi käyttää ainoastaan työnantajan toimittamilla laitteilla ja laitteiden tietoturvasta tulee huolehtia asianmukaisesti.
 
-Asiakasvarmenteen asennusohje: [Kohan_asiakasvarmenne_asennusohje_2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12464342/Kohan_asiakasvarmenne_asennusohje_2023.pdf)
-
+Asiakasvarmenteen asennusohje: [Kohan_asiakasvarmenne_asennusohje_2024.pdf](https://github.com/user-attachments/files/17023177/Kohan_asiakasvarmenne_asennusohje_2024.pdf)
 
 Kirjastokorttien ja virkailijatunnusten tulee lukittua jos salasana syötetään liian monta kertaa väärin. Tällä tavoin voidaan varsin tehokkaasti estää tunnuksiin tai kirjastokorttinumeroihin kohdistuva väsytyshyökkäys. Kohassa lukkiutumista säätää järjestelmäasetus _FailedLoginAttempts_, joka täytyy asettaa mielekkääseen arvoon (suosittelemme arvoa väliltä 3-5). Tunnuksen lukitus voidaan purkaa antamalla käyttäjälle uusi salasana tai PIN-koodi.   Esimerkiksi asiakastunnusten lukittuessa on mahdollista, että kirjastokortin numero on päätynyt vääriin käsiin ja asiakkaan tietoja yritetään anastaa tai aiheuttaa muuta vahinkoa. Tällaisissa tapauksissa asiakkaalle tulisi mieluummin antaa kokonaan uusi kirjastokortti ja PIN-koodi.
 
