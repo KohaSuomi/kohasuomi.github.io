@@ -31,7 +31,7 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 
 **Lappi**
 * Otettu käyttöön CurrencyFormat muodoista US-vaihtoehto.
-* SMS-viesteihin liittyvä ongelma johtui asiakkaan rinnakkaisliittymästä (tiketti [#1380](https://[github.com/KohaSuomi/Koha/issues/1380]))
+* SMS-viesteihin liittyvä ongelma johtui asiakkaan rinnakkaisliittymästä (tiketti #1380 https://[github.com/KohaSuomi/Koha/issues/1380)
 
 Etelästä pohjoiseen
 
