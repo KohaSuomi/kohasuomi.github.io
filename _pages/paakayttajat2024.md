@@ -13,12 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
   * tietoturvapäivityksien myötä muutos raporttien ajoon
   * tämä oli viimeinen päivitys ennen versionvaihtoa.
+ 
+**OUTI**
+* Tavanomaisia tukitöitä.
+* Käyttäjien uuden version testaukset aikataulutetaan lokakuun loppupuolelle.
+* Oulun it-tiimin automaattigurut ovat aloittaneet SIP2SortBinMapping-asetuksen testauksen, jossa ajatuksena on, että niteen signumissa ei käytettäisi enää hyllypaikkatietoa, vaan hyllypaikkatiedot määritellään järjestelmäasetukseen, josta ne saadaan palautusautomaatin lajittelijalle. https://github.com/KohaSuomi/Koha/issues/923
 
 ## Viikko 37
 
