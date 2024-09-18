@@ -22,15 +22,15 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
-### Koha-seminaari
+### 2. Koha-seminaari
 
-### borrowers/status-rajapinnan välittämät tiedot
+### 3. borrowers/status-rajapinnan välittämät tiedot
 
-### Tikettien priorisointi
+### 4. Tikettien priorisointi
 
 Jatketaan pohdintoja.
 
-### Kehitysehdotusten läpikäyntiä
+### 5. Kehitysehdotusten läpikäyntiä
 
 * [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
   * Jatketaan käsittelyä
@@ -41,9 +41,9 @@ Jatketaan pohdintoja.
 * [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
   * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
 
-### Syksyn kokoukset
+### 6. Syksyn kokoukset
 
-### Muut asiat
+### 7. Muut asiat
 
 ## Asiantuntijaryhmän muistio 9/2024
 
