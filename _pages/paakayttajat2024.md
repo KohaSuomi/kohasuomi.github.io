@@ -43,7 +43,7 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 * Kyytin piti ottaa nidetyypin automaattinen valinta tällä viikolla, mutta koska tulevassa versiossa tällä tietoa näkyy perustietonäkymässä vain nidetyypin lyhenne, menee käyttöönotto uudelleen mietintään. https://github.com/KohaSuomi/Koha-24.05/issues/34
 
 **Helle**
-* Muutettu currencyformat-asetukseen US-vaihtoehto
+* Muutettu Currencyformat-asetukseen US-vaihtoehto
 
 
 Etelästä pohjoiseen
