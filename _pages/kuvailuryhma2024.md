@@ -13,9 +13,9 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 
 Aika: 5.9.2024 klo 13.15–14.16
 
-Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Johanna Räisä (Koha-Suomi, kohta 2, klo 13.46 alkaen)
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Johanna Räisä (Koha-Suomi, kohta 2, klo 13.46 alkaen)
 
-Poissa: Mauri Aittaniemi (Lappi), Anneli Österman (Koha-Suomi)
+Poissa: Mauri Aittaniemi (Lappi), Tarja Mäkinen (Kyyti), Anneli Österman (Koha-Suomi)
 
 ### Asialista ###
 
