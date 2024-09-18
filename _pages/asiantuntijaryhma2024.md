@@ -32,6 +32,14 @@ Jatketaan pohdintoja.
 
 ### Kehitysehdotusten läpikäyntiä
 
+* [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
+  * Jatketaan käsittelyä
+* [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
+  * Jatketaan käsittelyä 
+* [Vaaran vastuuhenkilöille (takaajille) muutettava "kirjastokortin" numero #1376](https://github.com/KohaSuomi/Koha/issues/1376)
+* [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
+  * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
+
 ### Syksyn kokoukset
 
 ### Muut asiat
