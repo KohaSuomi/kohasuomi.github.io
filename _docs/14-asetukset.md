@@ -1238,8 +1238,8 @@ Ohje:
 * Rajauksia voi muokata jälkikäteen Ylläpito -> Haun rajaukset
 
 **Huom!** Jos haluat rajauksiin laajemmin mukaan eri tyyppisiä tietueita, niin 
-* emokohderajauksen voi tehdä myös tästä hausta: bib-level:m OR bib-level:c OR bibl-level:i OR bib-level:s
-* osakohderajauksen voi tehdä myös tästä hausta: bib-level:a OR bib-level:b OR bibl-level:d
+* emokohderajauksen voi tehdä myös tästä hausta: bib-level:m OR bib-level:c OR bib-level:i OR bib-level:s
+* osakohderajauksen voi tehdä myös tästä hausta: bib-level:a OR bib-level:b OR bib-level:d
 
 
 ## 28. Hakukoneen asetukset (Elasticsearch)
