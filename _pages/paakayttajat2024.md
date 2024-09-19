@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
@@ -48,6 +48,10 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 **Kirkes**
 * Kirkes jättäytyy RDA-konversiossa jälkijunaan Lastun kanssa
 * Vanhentuneet maksut -raportti oli mennyt rikki tietoturvapäivityksen myötä. Annika on tehnyt tiketin [#1417](https://github.com/KohaSuomi/Koha/issues/1417)
+
+**Lumme**
+* Perusylläpitoa.
+* Otettiin käyttöön Vaskin tekemä css-rimpsu Reklamaatiot-välilehden piilotuksesta, jos asiakkaalla ei ole reklamoitua aineistoa.
 
 
 Etelästä pohjoiseen
