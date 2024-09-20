@@ -320,7 +320,7 @@ Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä merkitään asiakk
 
 <img src="/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png" alt="" style="width:90.0%" />
 
-Kadonnut kortti-rajoituksesta tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.1. Kadonnut kortti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15101-kadonnut-kirjastokortti)
+Kadonnut kortti-rajoituksesta tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.4.1 Kadonnut kirjastokortti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#141-kadonnut-kirjastokortti).
 
 #### 1.2.7.4. Asiakkaan rajoitukset
 
@@ -582,16 +582,17 @@ laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa näytölle tule
 
 ### 1.4.1. Kadonnut kirjastokortti
 
+Jos asiakas ilmoittaa, että hän kirjastokorttinsa on kadonnut, voi sen merkitä kadonneeksi hänen tiedoissaan muokkaamalla tietoja ja menemällä kohtaan _Käyttäjätilin huomautukset_.
+
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset1.png)
 
-Jos haluat henkilökunnan tarkistavan asiakkaan osoitteen esim. ennen
-lainaamista, valitse _Kyllä_ Tarkista osoite -kohdassa. Lainaus- ja tiedot-näytöillä 
-näkyy ilmoitus _Osoite: Tarkista osoite_.
+Valitse _Kyllä_ Kadonnut kortti -kohdassa. Lainaus- ja tiedot-näytöillä 
+näkyy sen jälkeen ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
 
-![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
+![](/assets/files/docs/Asiakkaat/korttikadonnut.png)
 
-Ilmoituksen voi poistaa, kun asiakkaan osoitetiedot on tarkastettu ja tarvittaessa korjattu. Huomautus poistuu, kun 
-valitsee Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
+Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja tarvittaessa vaihdettu kirjastokortin numero toiseksi. Huomautuksen saa pois, kun 
+valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
 ### 1.4.2. Tili lukittu
 
