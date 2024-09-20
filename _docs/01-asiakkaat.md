@@ -328,7 +328,7 @@ Uutta korttia tehdessä tätä ei tarvitse huomioida. Tässä kohdassa voi merki
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png" alt="" style="width:90.0%" />
 
-Asiakkaan rajoituksista tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.5.10.2. Asiakkaan rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15102-asiakkaan-rajoitukset)
+Asiakkaan rajoituksista tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.4 Rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#14-rajoitukset) 
 
 #### 1.2.7.5. Kirjautumistunnus
 
