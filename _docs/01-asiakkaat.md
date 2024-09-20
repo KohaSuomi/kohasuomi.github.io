@@ -591,8 +591,7 @@ näkyy sen jälkeen ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi
 
 ![](/assets/files/docs/Asiakkaat/korttikadonnut.png)
 
-Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja tarvittaessa vaihdettu kirjastokortin numero toiseksi. Huomautuksen saa pois, kun 
-valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
+Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu kirjastokortti löytyneeksi tai tarvittaessa vaihdettu kirjastokortin numero toiseksi. Huomautuksen saa pois, kun valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
 ### 1.4.2. Tili lukittu
 
