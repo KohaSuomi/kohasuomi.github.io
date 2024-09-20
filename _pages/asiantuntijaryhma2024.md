@@ -40,6 +40,7 @@ Jatketaan pohdintoja.
   * Tästä keskusteltiin Koha-Suomen palaverissa ja haluttiin asiaan myös asiantuntijaryhmän mielipide.
 * [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
   * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
+* Vaski: Finna-rajapinta tukemaan asiakasmääreiden muokkaamista.
 
 ### 6. Syksyn kokoukset
 
