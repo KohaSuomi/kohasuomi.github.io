@@ -1154,7 +1154,7 @@ $("#del_records").attr('checked', true);
 
 Näillä skripteillä lisätään niteen muokkausnäytölle sekä teoksen perustiedot-näytölle mahdollisuus lisätä nide tarratulostusjonoon.
 
-Tarpeellisuus: Siirretty osaksi tarratulostusliitännäistä />
+Tarpeellisuus: Siirretty osaksi tarratulostusliitännäistä versiossa 24.05 />
 Versio: 23.11
 
 ```
