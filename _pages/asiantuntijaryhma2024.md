@@ -41,6 +41,7 @@ Jatketaan pohdintoja.
 * [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
   * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
 * Vaski: Finna-rajapinta tukemaan asiakasmääreiden muokkaamista.
+  * Vaskissa olisi tarve parantaa Kulttuurikorttitoteutusta. Se edellyttäisi, että saisimme näkyviin ja asiakkaan säädettäväksi Kulttuurikortti-valinnan, joka on siis toteutettu asiakasmääreenä. Lisäksi olisi tarkoitus saada Kulttuurikorttiasiakkaiden tiedot siirtymään Raportteri-rajapinnan kautta automaattisesti. Tällä hetkellä Kulttuurikorttiasiakkaat viedään dumppina pääkäyttäjän toimesta ja asiakas näkee Kulttuurikorttiasiakkuutensa vain Emailerin ”rekisterissä”, johon hän pääsee suoraan sähköpostista (tietoturvaongelma). Lisäksi asiakas voi kieltää Emailerissa sähköpostitiedotteet, mutta kun asiakas tulee kysymään kirjastosta miksei saa tiedotteita, niin virkailija ei tätä estoa näe.  
 
 ### 6. Syksyn kokoukset
 
