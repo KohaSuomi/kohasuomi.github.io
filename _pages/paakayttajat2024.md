@@ -41,6 +41,7 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 **Kyyti**
 * 12.9. oli epäonnistuneita taustatöitä niin Kyytissä kuin muissakin kimpoissa. Näistä epäonnistuneista ajoista olisi hyvä saada jokin heräte, nyt niitä pitäisi esim. kerran kuussa käydä katsomassa, että onko niitä. Tyypillisesti ne ovat niteiden poistoajoja ja ne pitää sitten käydä poistamassa uudelleen. Sekin on vähän mutkikasta, kun ensin pitää ajolla selvittää, että mitä niteitä/tietueita eräajo on koskenut. Tämä prosessi hyötyisi selkiyttämisestä.
 * Kyytin piti ottaa nidetyypin automaattinen valinta tällä viikolla, mutta koska tulevassa versiossa tällä tietoa näkyy perustietonäkymässä vain nidetyypin lyhenne, menee käyttöönotto uudelleen mietintään. https://github.com/KohaSuomi/Koha-24.05/issues/34
+* Asiakkaalle tulostettavilta kuiteilta poistettu yksilöivä tieto.
 
 **Helle**
 * Muutettu Currencyformat-asetukseen US-vaihtoehto
