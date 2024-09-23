@@ -16,11 +16,16 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 39
 
 Aika: 23.9.2024 klo 9<br />
-Läsnä:
+Läsnä: Johanna, Kodo, Lari, Emmi, Pasi, Lasse Ari, Anneli
 
 **Asiat**
 * Päivystysvuorot viikosta 40 eteenpäin
+  * Vko 40 Emmi ja Kodo
+  * Vko 41 Lari ja Johanna
+  * Vko 42 Anneli ja Pasi
+  * Vko 43 Emmi ja Johannna
 * Versionvaihdossa enää kaksi vastuutonta tikettiä
+  * vastuutettu loputkin
 
 ## Viikko 38
 
