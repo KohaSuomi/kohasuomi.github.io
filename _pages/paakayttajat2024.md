@@ -39,12 +39,12 @@ Pohjoisesta etelään
 **OUTI**
 * Uutiskirjeen deadline 30.9.2024. Julkaistaan viikolla 41. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
 * Silloin tällöin on tullut vastaan hankinnassa olevia niteitä, joiden hankintapäivämäärä on esim. 30.11.00-1. Tilaukset on tehty manuaalisesti. Selvisi, että hankinnassa ovat tilausvaiheessa laittaneet päivämääräksi normaalipäivämäärän muodossa pp.kk.vvvv, joka on ilmeisesti aiheuttanut niteelle erikoisen hankintapäivän. Anneli neuvoi, että kun hankintapäivämäärän jättää tyhjäksi, pitäisi päivän tallentua oikein myös niteille.
-* Jos kimpassa nostetaan myöhästymismaksuja, maksut nousevat takautuvasti myöhässä oleville lainoille, joista maksut ovat alkaneet kertymään jo ennen myöhästymismaksujen nostoa.
-
+* Jos kimpassa nostetaan myöhästymismaksuja, maksut nousevat takautuvasti myöhässä oleville lainoille, joista maksut ovat alkaneet kertymään jo ennen myöhästymismaksujen nostoa. On myös mahdollista että syntyy jotain korjauksia vaativia muutoksia maksuriveihin, aiemmin näin on käynyt ainakin maksukattoa nostettaessa.
+* Viime vuonna Kohasta lasketut maksetut myöhästymismaksut eivät täysin vastaa verkkomaksuportaalin tietoja. Kuitenkin helmikuusta 2024 alkaen ne taas vastaavat. Emme ole onnistuneet vielä jäljittämään, mistä ero johtuu.
+* Outi toivoo Finnan hakuihin mahdollisuutta painottaa tietueita, joissa on paljon niteitä. Otamme testiin Vaskin saadun koodinpätkän. Finnan indeksissä on kuitenkin ilmennyt puutteita niteiden lukumäärän osalta, joten koodi ei välttämättä toimi niin hyvin kuin sen pitäisi.
+* Varausjonossa on tapahtunut kummallisuuksia kun on varattu useampi kappale samaa tietuetta. Vanhentuneen varauksen lainaaminen onkin täyttänyt toisen varauksen, joka oli jo odottamassa, jolloin odottamassa ollut nide vapautui vaivihkaa 'saatavana' tilaan. Sama tapahtui taas uudestaan kun tämä nide lainattiin, ja vielä pari kertaa lisää. Saatavana olevat kappaleet täyttivät lainoja reserve_id:n mukaisessa järjestyksessä (kun taas alunperin lainat eivät ole tarttuneet varauksiin nousevasti). Testataan johtuuko kuljetusten painomatriisista ja jos ei, niin yritetään kuitenkin toistaa tilanne testillä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
-
-
 
 ## Viikko 38
 
@@ -89,9 +89,6 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 **Lumme**
 * Perusylläpitoa.
 * Otettiin käyttöön Vaskin tekemä css-rimpsu Reklamaatiot-välilehden piilotuksesta, jos asiakkaalla ei ole reklamoitua aineistoa.
-
-
-Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
 
