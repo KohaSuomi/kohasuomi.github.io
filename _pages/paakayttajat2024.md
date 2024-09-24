@@ -37,7 +37,7 @@ Pohjoisesta etelään
 * Taustatöihin liittyvä kehitysehdotus ehdotettu: epäonnistuneisiin ajoihin tulisi joko mahdollisuus tehdä ajo uudelleen omasta napistaan ja/tai ajossa listattaisiin, mitä niteitä ajossa on käsitelty ja minkä niteen kohdalla mahdollinen virhe on tullut. Tällä hetkellä tiedot täytyy kaivaa tietokannasta useammalla raportilla.
 
 **OUTI**
-* Uutiskirjeen deadline 30.9.2024. Julkaistaan viikolla 41.
+* Uutiskirjeen deadline 30.9.2024. Julkaistaan viikolla 41. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
 * Silloin tällöin on tullut vastaan hankinnassa olevia niteitä, joiden hankintapäivämäärä on esim. 30.11.00-1. Tilaukset on tehty manuaalisesti. Selvisi, että hankinnassa ovat tilausvaiheessa laittaneet päivämääräksi normaalipäivämäärän muodossa pp.kk.vvvv, joka on ilmeisesti aiheuttanut niteelle erikoisen hankintapäivän. Anneli neuvoi, että kun hankintapäivämäärän jättää tyhjäksi, pitäisi päivän tallentua oikein myös niteille.
 * Jos kimpassa nostetaan myöhästymismaksuja, maksut nousevat takautuvasti myöhässä oleville lainoille, joista maksut ovat alkaneet kertymään jo ennen myöhästymismaksujen nostoa.
 
