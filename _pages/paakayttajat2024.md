@@ -22,10 +22,12 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 
 Pohjoisesta etelään
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
-
 **Vaara**
 * Varausongelma nidetyypillä AIK, 7 vrk, raj. 1, varattavissa ja uusittavissa. Asiakas ei saanut varattua nidettä, koska hänellä oli samana päivänä tehty varaus toiseen nidetyyppiin. Selvitettävä, miten voi vaikuttaa toisen nidetyypin varauksiin, koska Koha ei osaa laskea eri nidetyyppejä yhteen varausten kokonaismäärässäkään, vaan antaa tehdä varauksia kunkin nidetyypin maksimimäärään saakka vaikka se menisi yli kokonaisrajoituksen.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
+
+
 
 ## Viikko 38
 
