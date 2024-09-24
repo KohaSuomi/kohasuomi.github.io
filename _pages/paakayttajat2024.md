@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto ja Pirkko-Liisa Lauhikari, Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
@@ -35,6 +35,11 @@ Pohjoisesta etelään
 * Lapsiasiakkaille tulossa syksyn aikana kaksi eri asiakastyyppiä samalla tavoin kuin OUTIssa: Lapsi (omatoimi) ja Lapsi (ei omatoimi).
 * Taustatöissä on raportoitu olevan hitautta. Poistetut niteet jäävät useiksi tunneiksi tietokantaan, mutta taustatöissä ei näy epäonnistuneita niteiden poistoajoja viimeisen parin viikon ajalta.
 * Taustatöihin liittyvä kehitysehdotus ehdotettu: epäonnistuneisiin ajoihin tulisi joko mahdollisuus tehdä ajo uudelleen omasta napistaan ja/tai ajossa listattaisiin, mitä niteitä ajossa on käsitelty ja minkä niteen kohdalla mahdollinen virhe on tullut. Tällä hetkellä tiedot täytyy kaivaa tietokannasta useammalla raportilla.
+
+**OUTI**
+* Uutiskirjeen deadline 30.9.2024. Julkaistaan viikolla 41.
+* Silloin tällöin on tullut vastaan hankinnassa olevia niteitä, joiden hankintapäivämäärä on esim. 30.11.00-1. Tilaukset on tehty manuaalisesti. Selvisi, että hankinnassa ovat tilausvaiheessa laittaneet päivämääräksi normaalipäivämäärän muodossa pp.kk.vvvv, joka on ilmeisesti aiheuttanut niteelle erikoisen hankintapäivän. Anneli neuvoi, että kun hankintapäivämäärän jättää tyhjäksi, pitäisi päivän tallentua oikein myös niteille.
+* Jos kimpassa nostetaan myöhästymismaksuja, maksut nousevat takautuvasti myöhässä oleville lainoille, joista maksut ovat alkaneet kertymään jo ennen myöhästymismaksujen nostoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
