@@ -2236,7 +2236,7 @@ AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) NOT IN ('a', 'b', 'd')
 
 ### Monografia merkitty osakohteeksi
 
-Hidas kysely, joka hakee tietueet, jotka on merkitty osakohteeksi, mutta niillä ei ole 773-kenttiä eikä niteitä eli ne ovat todennäköisesti monografioita.
+Hidas kysely, joka hakee tietueet, jotka on merkitty nimiössä osakohteeksi, mutta niillä ei ole 773-kenttiä ja tietueeseen liittyy niteitä eli ne ovat todennäköisesti monografioita.
 
 Lisääjä: Anneli Österman<br />
 Pvm: 24.9.2024
