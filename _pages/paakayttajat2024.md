@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
+* Version 24.05 uudet ominaisuudet -esittely ma 7.10.2024 klo 13-15. Tallennetaan.
 
 
 Pohjoisesta etelään
