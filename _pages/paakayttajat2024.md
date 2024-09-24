@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
@@ -47,6 +47,9 @@ Pohjoisesta etelään
 **Lappi**
 * Ensi vuoden tilejä valmistellaan.
 * Normaalia ylläpitoa.
+
+**Siilinjärvi**
+* Ei mainittavaa meiltä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
 
