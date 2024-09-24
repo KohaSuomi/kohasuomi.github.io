@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI). Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
