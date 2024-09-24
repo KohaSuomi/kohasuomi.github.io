@@ -102,14 +102,13 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 
 VAROITUS
 
-Näin määritetty print.always_print_silent -asetus estää tulostimen vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
-käytä tulostamiseen toista selainohjelmaa.
+Näin määritetty print.always_print_silent -asetus estää tulostimen vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta (tai muilta sivuilta), käytä kaiken muun tulostamiseen toista selainohjelmaa.
 
 Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat varoituksen, että lisäasetusten muuttaminen voi vaikuttaa Firefoxin suorituskykyyn ja tietoturvaan, klikkaa _“Hyväksy riski ja jatka”_.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer5.png)
 
-Kirjoita hakukenttään print.always. Jos ominaisuus _print.always_print_silent_ löytyy, muuta sen arvoksi true (=kyllä) klikkaamalla kaksisuuntaisen nuolen kuvaa rivin oikeassa reunassa, jolloin sen tilaksi muuttuu true.
+Kirjoita hakukenttään print.always. Jos ominaisuus _print.always_print_silent_ löytyy, muuta sen arvoksi true (=kyllä) klikkaamalla kaksisuuntaisen nuolen kuvaa rivin oikeassa reunassa.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer6.png)
 
