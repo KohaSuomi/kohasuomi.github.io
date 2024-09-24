@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
@@ -28,6 +28,13 @@ Pohjoisesta etelään
 **Vaski**
 * Vaskin pääkäyttäjät kehittämispäivällä perjantaina 27.9.
 * Finna-kehitysehdotusten läpikäymiseen torstaina 26.9. klo 13-14.30. Liittymislinkki Matrixissa.
+
+**Lumme**
+* Puppe otettu käyttöön Mikkelissä ja hankintoja vastaanottavat pitävät sitä hyvänä ohjelmana. Pupen kanssa on tarkoitus jatkaa tarrojen tulostuksen työstämistä, tästä tulee varmaankin lisätietoa sitten signum-työryhmään.
+* Kimpassa otetaan käyttöön Tilanahtaus-hyllypaikka Tilanahtaus-hyllytarkenteen tilalle, koska hyllypaikan saa uudessa versiossa muuttumaan toiseksi lainauksen yhteydessä. Muutoksen toivotaan vähentävän vääriin paikkoihin meneviä niteitä.
+* Lapsiasiakkaille tulossa syksyn aikana kaksi eri asiakastyyppiä samalla tavoin kuin OUTIssa: Lapsi (omatoimi) ja Lapsi (ei omatoimi).
+* Taustatöissä on raportoitu olevan hitautta. Poistetut niteet jäävät useiksi tunneiksi tietokantaan, mutta taustatöissä ei näy epäonnistuneita niteiden poistoajoja viimeisen parin viikon ajalta.
+* Taustatöihin liittyvä kehitysehdotus ehdotettu: epäonnistuneisiin ajoihin tulisi joko mahdollisuus tehdä ajo uudelleen omasta napistaan ja/tai ajossa listattaisiin, mitä niteitä ajossa on käsitelty ja minkä niteen kohdalla mahdollinen virhe on tullut. Tällä hetkellä tiedot täytyy kaivaa tietokannasta useammalla raportilla.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
