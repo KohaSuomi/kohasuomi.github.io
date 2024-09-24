@@ -19,7 +19,7 @@ Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/valikko.PNG)
 
 Avautuvan sivun tulostinasetukset:
-- Kohde: valitse alaspudotusvalikosta käyttämäsi kuittitulostin.
+- Kohde: valitse alaspudotusvalikosta käyttämäsi kuittitulostin (Epson, Citizen jne).
 - Kopioita: 1
 - Suunta: Pysty
 - Sivut: Kaikki
@@ -100,35 +100,28 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 
 ## 9.2 Selaimen määrittely tulostamaan kuitit automaattisesti
 
-Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat
-varoituksen vaarallisesta sivusta, klikkaa _“Otan riskin!”_.
+VAROITUS
+
+Näin määritetty print.always_print_silent -asetus estää tulostimen vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
+käytä tulostamiseen toista selainohjelmaa.
+
+Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat varoituksen, että lisäasetusten muuttaminen voi vaikuttaa Firefoxin suorituskykyyn ja tietoturvaan, klikkaa _“Hyväksy riski ja jatka”_.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer5.png)
 
-Kirjoita hakukenttään print.always. Jos ominaisuus
-_print.always_print_silent_ löytyy, muuta sen arvoksi true (=kyllä)
-klikkaamalla hiiren oikealla painikkeella arvoa false. Valitse valikosta
-Vaihda tila.
+Kirjoita hakukenttään print.always. Jos ominaisuus _print.always_print_silent_ löytyy, muuta sen arvoksi true (=kyllä) klikkaamalla kaksisuuntaisen nuolen kuvaa rivin oikeassa reunassa, jolloin sen tilaksi muuttuu true.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer6.png)
 
-Jos _print.always_print_silent_ -ominaisuutta ei löydy (useimmissa selaimissa sitä ei ole
-valmiina), lisää tämä ominaisuus:
+Jos _print.always_print_silent_ -ominaisuutta ei löydy, lisää tämä ominaisuus:
 
-- klikkaa hiiren oikeaa painiketta ominaisuusalueella ja valitse Uusi
-  -&gt; Totuusarvo.
+- kirjoita ominaisuuden nimi kokonaisuudessaan hakukenttään (esimerkkikuvassa se ei ole kokonaan, koska arvo oli jo olemassa)
+- laita valinta kohtaan _Totuusarvo_ ja klikkaa hiirellä plussa-painiketta
+- muuta arvo tarvittaessa true-tilaan.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin8.png)
 
-- kirjoita avautuvaan kenttään _print.always_print_silent_ ja
-  klikkaa OK. Valitse totuusarvoksi _true_. Tämä muuttaa Firefoxin
-  asetuksia siten, että se käyttää aina samoja asetuksia tulostuksessa
-  eikä näytä kyselyä tulostamisesta.
 
-VAROITUS  
-Näin määritetty print.always_print_silent -asetus estää tulostimen
-vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja Kohasta,
-käytä tulostamiseen toista selainohjelmaa.
 
 ## 9.3 Selaimen päivittyessä
 
