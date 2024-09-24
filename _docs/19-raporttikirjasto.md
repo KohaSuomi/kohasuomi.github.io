@@ -2234,6 +2234,24 @@ AND i.itemnumber IS NULL
 AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) NOT IN ('a', 'b', 'd')
 ```
 
+### Monografia merkitty osakohteeksi
+
+Hidas kysely, joka hakee tietueet, jotka on merkitty osakohteeksi, mutta niillä ei ole 773-kenttiä eikä niteitä eli ne ovat todennäköisesti monografioita.
+
+Lisääjä: Anneli Österman<br />
+Pvm: 24.9.2024
+
+```
+SELECT CONCAT_WS(' ', b.title, b.subtitle, b.author ) AS 'Teos',
+b.biblionumber
+from biblio b
+LEFT JOIN items i ON b.biblionumber = i.biblionumber
+LEFT JOIN biblio_metadata bm ON bm.biblionumber = b.biblionumber
+WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
+AND i.itemnumber IS NOT NULL
+AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) IN ('a', 'b', 'd')
+```
+
 ### Bibit, joiden tietyssä kentässä tietty merkkijono
 
 Kysely, johon voi syöttää kenttien arvoja. Hakee tietueet, joiden annetussa kentässä annettu merkkijono. Linkki tietueeseen. Toimii ainakin yhteisöversiossa. Tuloksen voi toki järjestää tarpeen mukaan, tässä on haettu aineistoa, jonka linkki on tod.näk. vanhentunut.
