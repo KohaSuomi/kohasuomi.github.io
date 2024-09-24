@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Henkilötunnuksen ohitus-toiminto pois käytöstä virkailijatunnuksilta](https://github.com/KohaSuomi/Koha/discussions/1422)
@@ -43,6 +43,10 @@ Pohjoisesta etelään
 * Viime vuonna Kohasta lasketut maksetut myöhästymismaksut eivät täysin vastaa verkkomaksuportaalin tietoja. Kuitenkin helmikuusta 2024 alkaen ne taas vastaavat. Emme ole onnistuneet vielä jäljittämään, mistä ero johtuu.
 * Outi toivoo Finnan hakuihin mahdollisuutta painottaa tietueita, joissa on paljon niteitä. Otamme testiin Vaskilta saadun koodinpätkän. Finnan indeksissä on kuitenkin ilmennyt puutteita niteiden lukumäärän osalta, joten koodi ei välttämättä toimi niin hyvin kuin sen pitäisi.
 * Varausjonossa on tapahtunut kummallisuuksia, kun on varattu useampi kappale samaa tietuetta. Vanhentuneen varauksen lainaaminen onkin täyttänyt toisen varauksen, joka oli jo odottamassa, jolloin odottamassa ollut nide vapautui vaivihkaa 'saatavana' tilaan. Sama tapahtui taas uudestaan kun tämä nide lainattiin, ja vielä pari kertaa lisää. Saatavana olevat kappaleet täyttivät lainoja reserve_id:n mukaisessa järjestyksessä (kun taas alunperin lainat eivät ole tarttuneet varauksiin nousevasti). Testataan johtuuko kuljetusten painomatriisista ja jos ei, niin yritetään kuitenkin toistaa tilanne testillä.
+
+**Lappi**
+* Ensi vuoden tilejä valmistellaan.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
 
