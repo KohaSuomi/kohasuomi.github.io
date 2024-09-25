@@ -15,69 +15,78 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 10/2024
+## Asiantuntijaryhmän muistio 10/2024
 
 Aika: 25.9.2024 klo 13.15<br />
-Läsnä: Päivi, Kati, Susanna, Ari, Tuomas, Pia, Kodo, Piia, Janne, Hanna, Riikka, Anneli
+Läsnä: Päivi Knuutinen (Vaara), Kati Sillgren (Helle), Susanna Sandell (Vaski), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi), Piia Semenoff (OUTI), Janne Seppänen (Lastu), Hanna Ikonen (Lumme), Riikka Mustajärvi (Kirkes), Ari Mäkiranta, Kodo Korkalo ja Anneli Österman (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
-* LASTUn käyttöönotto menossa
-* Version vaihto lähenee ja tuotantoihin viedään tässä välissä vain kriittiset korjaukset
-* Tiedostojärjestelmän muutokset tehty
+* LASTUn käyttöönotto menossa, kaikki mennyt pääsääntöisesti hyvin.
+* Version vaihto lähenee ja tuotantoihin viedään tässä välissä vain kriittiset korjaukset.
+* Tiedostojärjestelmän muutokset tehty.
 
 ### 2. Koha-seminaari
 
-Pidetään helmi-maaliskuussa 2025 alustavasti Turussa kaksipäiväisenä. Susanna selvittelee, onko tiloja vapaana ja milloin. Kimpoissa myös pohdintaan ja ehdotuksia sopivista ajankohdista. Striimataan.
+Pidetään Koha-seminaari helmi-maaliskuussa 2025 alustavasti Turussa kaksipäiväisenä. Susanna selvittelee, onko tiloja heillä on  vapaana ja milloin. Kimpoissa myös pohdintaan ja ehdotuksia sopivista ajankohdista. Striimataan tilaisuus sopivilta osin.
 
-Aiheita ohjelmaan kaivataan myös.
+Aiheita ohjelmaan kaivataan myös. Niitä voi lähettää Arille tai Annelille.
 
 ### 3. borrowers/status-rajapinnan välittämät tiedot
 
-https://github.com/KohaSuomi/Koha/wiki/Integraatiot - ajantasalle
+Elementissä nousi keskustelu borrowers/status-rajapinnan välittämistä tiedoista ja onko se kaikki tarpeellista. Esimerkiksi sähköpostia ei kaikki palvelut tarvitse. Ei myöskään ole selkeää tietoa olemassa, mitä kaikkia tietoja eri integroidut järjestelmät hyödyntävät. Pohdittiin, onko tarvetta selvittää tarkemmin, mitä tietoja mikäkin järjestelmä käyttää ja onko rajapinnassa ylimääräisiä tietoja.
+
+Päätös: Päivitetään ensin [Integraatiot-listaus](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) ajantasalle, koska niihin on tullut paljon muutoksia kuntien yhteisen e-kirjaston myötä. Pohditaan sen jälkeen, onko tarkemmille selvityksille tarvetta.
 
 ### 4. Tikettien priorisointi
 
 Kommentteja:
 
-Vaski: ehdotus kuulostaa ok
+Vaski: 
 *	Kuinka isoa osaa käyttäjistä/asiakkaista tiketti koskee
 *	Kiireellisyys = päivystys?
 *	Onko käytön estävä vai voidaanko kiertää jollakin tavalla
 *	Aiheuttaako merkittävää haittaa: esim virheellisiä asiakastietueita, asiakkaalle asti näkyvä haitta
 *	Onko kyseessä tietoturvaa parantava ominaisuus
 *	Mikä on kehittämiseen/ylläpitoon tarvittava työmäärä suhteessa ominaisuuden tuomaan hyötyyn 
+
 Vaara: ok
+
 Kirkes: ei ole tullut kommentteja
-Kyyti: prioriteettiä nostavia: tietoturva, suoraan asiakkaaseen liittyvät, -, helppokäyttöisyys, ylläpidon helppous, Eisenhowerin priorisointi: https://ideapakka.fi/blogi/priorisoi-eisenhowerin-matriisilla/
+
+Kyyti: prioriteettiä nostavia: tietoturva, suoraan asiakkaaseen liittyvät,helppokäyttöisyys, ylläpidon helppous, tutkittu mm. [Eisenhowerin priorisointia](https://ideapakka.fi/blogi/priorisoi-eisenhowerin-matriisilla/)
+
 OUTI: suoraan asiakkaisiin liittyvät olisi korkeimmalla tärkeysjärjestyksessä. Lisäksi mietimme, että olisi tärkeä saada vanhat roikkuvat tiketit tehtyä. 
+
 Lappi:
 - vaikuttavuus : skaalalla Koha-Suomen kirjastot - yksi asiakas/yksi työntekijä
 - kiireellisyys: ei estä Kohan / Finnan käyttämistä  vs. jumittaa Kohan
 - Oulun esittämät syyt: lain- ja sääntöjenmukaisuuden ristiriidat
-kuinka moneen eri toimintoon / asiaan vaikuttaa
+- kuinka moneen eri toimintoon / asiaan vaikuttaa
 - nopea ja helppo <-> aikaavievä : kuten oli Redminessa 
 
-Tehdään pienemmällä ryhmällä tiiviimpi kooste. Anneli, Ari, Susanna, Tuomas, Kodo
+Päätös: Tehdään pienemmällä ryhmällä tiiviimpi kooste. Ryhmään tulee mukaan Anneli, Ari, Susanna, Tuomas ja Kodo. Käydään sitten ryhmän kooste/esitys läpi asiantuntijaryhmässä.
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
 * [Asiakashakuun täsmällisemmät hakuvaihtoehdot #1299](https://github.com/KohaSuomi/Koha/issues/1299)
-  * Kehittäjät tutkii, kuinka haastaavaa olisi lisätä täsmällinen haku. Jos se ei ole suuritöinen, niin ehdotetaan muutosta yhteisöön. Toiveena on, että tarkka haku olisi mahdollista valita oletukseksi tavalla tai toisella (esim. JavaScriptillä).
+  * Päätös: Kehittäjät tutkivat, kuinka haastaavaa olisi lisätä täsmällinen haku. Jos se ei ole suuritöinen, niin ehdotetaan muutosta yhteisöön. Toiveena tuli, että tarkka haku olisi mahdollista valita oletukseksi tavalla tai toisella (esim. JavaScriptillä).
 * [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
-  * Muutetaan oletusvoimassaoloaika Kohassa ja Finnassa viiteen vuoteen. Muutetaan ajolla jo olemassa olevat varausten voimassaoloajaksi viisi vuotta tekopäivästä.
-Pääkäyttäjät: oletusvoimassaoloajan muutos järjestelmäasetukseen
-Piia: on yhteydessä Finna-toimistoon ja pyytää kaikille voimassaoloajan muutoksen viiteen vuoteen. Tekee uuden tiketin olemassa olevien varausten voimassaoloajan muutoksesta. Jokainen kimppa kommentoi tikettiin, kun järjestelmäasetus on muutettu ja ajo voidaan tehdä.
+  * Päätös: Muutetaan oletusvoimassaoloaika Kohassa ja Finnassa viiteen vuoteen. Muutetaan ajolla jo olemassa olevat varausten voimassaoloajaksi viisi vuotta tekopäivästä.
+  * Pääkäyttäjät: oletusvoimassaoloajan muutos järjestelmäasetukseen
+  * Tiketin tekijä Piia:
+    * on yhteydessä Finna-toimistoon ja pyytää kaikille voimassaoloajan muutoksen viiteen vuoteen.
+    * Tekee uuden tiketin olemassa olevien varausten voimassaoloajan muutoksesta. Jokainen kimppa kommentoi tikettiin, kun järjestelmäasetus on muutettu ja ajo voidaan tehdä.
 * [Vaaran vastuuhenkilöille (takaajille) muutettava "kirjastokortin" numero #1376](https://github.com/KohaSuomi/Koha/issues/1376)
   * Tästä keskusteltiin Koha-Suomen palaverissa ja haluttiin asiaan myös asiantuntijaryhmän mielipide.
-  * Koha-Suomen asiantuntijaryhmä 25.9.2024: Suurimmassa osassa kimppoja kirjastokorttikenttä ei ole pakollinen. Lumpeissa ja Vaarassa on. Suositellaan pakollisuuden ottamista pois, koska toimintatapa on toiminut muissa kimpoissa.
-Kun Vaara ja Lumme on poistanut pakollisuuden, voidaan TAKAAJA-asiakastyypin asiakkailta tyhjentää kirjastokorttikenttä tietokanta-ajolla. Tehkää Vaara ja Lumme niistä erilliset tukipyynnöt.
+  * Päätös: Suurimmassa osassa kimppoja kirjastokorttikenttä ei ole pakollinen. Lumpeissa ja Vaarassa on. Suositellaan pakollisuuden ottamista pois, koska toimintatapa on toiminut muissa kimpoissa.
+    * Kun Vaara ja Lumme on poistanut pakollisuuden, voidaan TAKAAJA-asiakastyypin asiakkailta tyhjentää kirjastokorttikenttä tietokanta-ajolla. Tehkää Vaara ja Lumme niistä erilliset tukipyynnöt.
 * [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
   * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
-  * Koha-Suomen asiantuntijaryhmä 25.9.2024: Käyttäjätunnus vanhenee sinä päivänä, mitä kenttään on valittu, joten saman päivän valitseminen tekee tunnuksen vanhentuneeksi. Saman päivän valitseminen onnistuu myös silloin, jos on käynyt avaamassa Tullut asiakkaaksi -päivämäärävalinnan. Kyseessä on siis lähinnä kosmeettinen haitta, joten ei koettu tarvetta korjata toimintoa.
+  * Päätös: Käyttäjätunnus vanhenee sinä päivänä, mitä kenttään on valittu, joten saman päivän valitseminen tekee tunnuksen vanhentuneeksi. Saman päivän valitseminen onnistuu myös silloin, jos on käynyt avaamassa Tullut asiakkaaksi -päivämäärävalinnan. Kyseessä on siis lähinnä kosmeettinen haitta, joten ei koettu tarvetta korjata toimintoa.
 * Vaski: Finna-rajapinta tukemaan asiakasmääreiden muokkaamista.
   * Vaskissa olisi tarve parantaa Kulttuurikorttitoteutusta. Se edellyttäisi, että saisimme näkyviin ja asiakkaan säädettäväksi Kulttuurikortti-valinnan, joka on siis toteutettu asiakasmääreenä. Lisäksi olisi tarkoitus saada Kulttuurikorttiasiakkaiden tiedot siirtymään Raportteri-rajapinnan kautta automaattisesti. Tällä hetkellä Kulttuurikorttiasiakkaat viedään dumppina pääkäyttäjän toimesta ja asiakas näkee Kulttuurikorttiasiakkuutensa vain Emailerin ”rekisterissä”, johon hän pääsee suoraan sähköpostista (tietoturvaongelma). Lisäksi asiakas voi kieltää Emailerissa sähköpostitiedotteet, mutta kun asiakas tulee kysymään kirjastosta miksei saa tiedotteita, niin virkailija ei tätä estoa näe.  
-  * Koha-Suomen asiantuntijaryhmä 25.9.2024: Muilla kimpoilla ei ole tarvetta saada muita asiakasmääreitä näkyviin Finnassa. Susanna selvittelee onko rahaa mahdollisesti maksaa muutoksen tekemiseen ja ylläpitämiseen Finna-rajapintaan. Koha-Suomessa mietitään, mitä kehitys ja ylläpito voisi maksaa ja onko siihen laittaa työaikaa.
+  * Päätös: Muilla kimpoilla ei ole tarvetta saada muita asiakasmääreitä kuin varaustunnus näkyviin Finnassa. Susanna selvittelee onko Vaskilla rahaa mahdollisesti maksaa muutoksen tekeminen ja ylläpitäminen Finna-rajapintaan. Koha-Suomessa mietitään, mitä kehitys ja ylläpito voisi maksaa ja onko siihen laittaa työaikaa.
 
 ### 6. Syksyn kokoukset
 
@@ -87,7 +96,7 @@ Ke 8.1.2025 klo 13-15
 
 ### 7. Muut asiat
 
-Siivotaan pois (pääkäyttäjät) erilliset Finnamaksu-tunnukset, koska Finna-rajapinta ei enää tarvitse niitä. Kannattaa toki sen jälkeen testata, että maksuja voi edelleen tehdä.
+Kokouksen aikana kävi ilmi, että Finna-rajapinta ei tarvitse enää erikseen käyttäjätunnusta verkkomaksuja varten. Päätettiin, että pääkäyttäjät siivovat pois erilliset Finnamaksu-tunnukset. Huolellinen testaus sen jälkeen, että maksuja voi edelleen tehdä.
 
 ## Asiantuntijaryhmän muistio 9/2024
 
