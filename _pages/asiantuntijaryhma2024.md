@@ -28,7 +28,7 @@ Läsnä: Päivi Knuutinen (Vaara), Kati Sillgren (Helle), Susanna Sandell (Vaski
 
 ### 2. Koha-seminaari
 
-Pidetään Koha-seminaari helmi-maaliskuussa 2025 alustavasti Turussa kaksipäiväisenä. Susanna selvittelee, onko tiloja heillä on  vapaana ja milloin. Kimpoissa myös pohdintaan ja ehdotuksia sopivista ajankohdista. Striimataan tilaisuus sopivilta osin.
+Pidetään Koha-seminaari helmi-maaliskuussa 2025 alustavasti Turussa kaksipäiväisenä. Toisena päivänä ryhmätyöskentelyä. Susanna selvittelee, onko heillä tiloja  vapaana ja milloin. Kimpoissa myös pohdintaan ja ehdotuksia sopivista ajankohdista. Striimataan tilaisuus soveltuvilta osin.
 
 Aiheita ohjelmaan kaivataan myös. Niitä voi lähettää Arille tai Annelille.
 
@@ -49,8 +49,6 @@ Vaski:
 *	Aiheuttaako merkittävää haittaa: esim virheellisiä asiakastietueita, asiakkaalle asti näkyvä haitta
 *	Onko kyseessä tietoturvaa parantava ominaisuus
 *	Mikä on kehittämiseen/ylläpitoon tarvittava työmäärä suhteessa ominaisuuden tuomaan hyötyyn 
-
-Vaara: ok
 
 Kirkes: ei ole tullut kommentteja
 
@@ -73,14 +71,14 @@ Päätös: Tehdään pienemmällä ryhmällä tiiviimpi kooste. Ryhmään tulee 
   * Päätös: Kehittäjät tutkivat, kuinka haastaavaa olisi lisätä täsmällinen haku. Jos se ei ole suuritöinen, niin ehdotetaan muutosta yhteisöön. Toiveena tuli, että tarkka haku olisi mahdollista valita oletukseksi tavalla tai toisella (esim. JavaScriptillä).
 * [Sähköpostiviesti voimassaolevan varauksen lähestyvästä vanhenemispäivästä #1350](https://github.com/KohaSuomi/Koha/issues/1350)
   * Päätös: Muutetaan oletusvoimassaoloaika Kohassa ja Finnassa viiteen vuoteen. Muutetaan ajolla jo olemassa olevat varausten voimassaoloajaksi viisi vuotta tekopäivästä.
-  * Pääkäyttäjät: oletusvoimassaoloajan muutos järjestelmäasetukseen
+  * Pääkäyttäjät: oletusvoimassaoloajan muutos DefaultHoldExpirationdate-järjestelmäasetukseen
   * Tiketin tekijä Piia:
     * on yhteydessä Finna-toimistoon ja pyytää kaikille voimassaoloajan muutoksen viiteen vuoteen.
     * Tekee uuden tiketin olemassa olevien varausten voimassaoloajan muutoksesta. Jokainen kimppa kommentoi tikettiin, kun järjestelmäasetus on muutettu ja ajo voidaan tehdä.
 * [Vaaran vastuuhenkilöille (takaajille) muutettava "kirjastokortin" numero #1376](https://github.com/KohaSuomi/Koha/issues/1376)
   * Tästä keskusteltiin Koha-Suomen palaverissa ja haluttiin asiaan myös asiantuntijaryhmän mielipide.
   * Päätös: Suurimmassa osassa kimppoja kirjastokorttikenttä ei ole pakollinen. Lumpeissa ja Vaarassa on. Suositellaan pakollisuuden ottamista pois, koska toimintatapa on toiminut muissa kimpoissa.
-    * Kun Vaara ja Lumme on poistanut pakollisuuden, voidaan TAKAAJA-asiakastyypin asiakkailta tyhjentää kirjastokorttikenttä tietokanta-ajolla. Tehkää Vaara ja Lumme niistä erilliset tukipyynnöt.
+    * Kun Vaara ja Lumme ovat poistaneet pakollisuuden, voidaan TAKAAJA-asiakastyypin asiakkailta tyhjentää kirjastokorttikenttä tietokanta-ajolla. Tehkää Vaara ja Lumme niistä erilliset tukipyynnöt.
 * [Asiakkaan vanhenemispäivämäärän valinnassa kummallisuus #1390](https://github.com/KohaSuomi/Koha/issues/1390)
   * Halutaanko estää se, että vanhenemispäivää ei voisi enää laittaa menneisyyteen? Toimintoa on hyödynnetty esim. siinä tapauksessa että tunnusta ei ole haluttu astumaan heti voimaan.
   * Päätös: Käyttäjätunnus vanhenee sinä päivänä, mitä kenttään on valittu, joten saman päivän valitseminen tekee tunnuksen vanhentuneeksi. Saman päivän valitseminen onnistuu myös silloin, jos on käynyt avaamassa Tullut asiakkaaksi -päivämäärävalinnan. Kyseessä on siis lähinnä kosmeettinen haitta, joten ei koettu tarvetta korjata toimintoa.
