@@ -21,8 +21,10 @@ Aika: 25.9.2024 klo 13.15<br />
 Läsnä:
 
 ### 1. Ajankohtaiset
-*LASTUn käyttöönotto menossa
-*Version vaihto lähenee ja tuotantoihin viedään tässä välissä vain kriittiset korjaukset
+
+* LASTUn käyttöönotto menossa
+* Version vaihto lähenee ja tuotantoihin viedään tässä välissä vain kriittiset korjaukset
+
 ### 2. Koha-seminaari
 
 ### 3. borrowers/status-rajapinnan välittämät tiedot
