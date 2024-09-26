@@ -2478,6 +2478,36 @@ AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
 LIMIT 5000
 ```
 
+### Aineistotyypin tarkistus 000/06-merkistä
+
+Versio, jossa valitaan mitä aineistotyyppejä EI haluta mukaan. Listaa kaikki tietueet, jotka sisältävät annetun 000/06-merkin. Voit valita aineistotyypin, jotka suodatetaan pois tuloksista. Valinnaisesti voit kirjoittaa vielä toisen aineistotyypin itse syötettävään kenttään, mutta sen voi jättää myös tyhjäksi. 
+
+Lisätty 26.9.2024<br />
+Lisääjä: Katariina Pohto
+
+```
+SELECT bm.biblionumber, SUBSTR(ExtractValue(bm.metadata,'//leader'),7,1) AS '000/06', bi.itemtype
+  FROM biblio_metadata bm
+       INNER JOIN biblioitems bi USING(biblionumber)
+ WHERE SUBSTR(ExtractValue(bm.metadata,'//leader'),7,1) = <<000/06>>
+   AND bi.itemtype != <<Aineistotyyppi ei ole|MTYPE>>
+   AND bi.itemtype NOT LIKE <<Aineistotyyppi ei ole>>
+```
+
+### Aineistotyyppi ja 000/06-merkki
+
+Versio, jossa valitaan mitä aineistotyppejä halutaan mukaan. Listaa kaikki tietueet, jotka sisältävät annetun 000/06-merkin ja ovat valittua aineistotyyppiä. Valinnaisesti voit kirjoittaa vielä toisen aineistotyypin itse syötettävään kenttään, mutta sen voi jättää tyhjäksi.
+
+Lisätty 26.9.2024<br />
+Lisääjä: Katariina Pohto
+
+```
+SELECT bm.biblionumber, SUBSTR(ExtractValue(bm.metadata,'//leader'),7,1) AS '000/06', bi.itemtype
+  FROM biblio_metadata bm
+       INNER JOIN biblioitems bi USING(biblionumber)
+ WHERE SUBSTR(ExtractValue(bm.metadata,'//leader'),7,1) = <<000/06>>
+   AND (bi.itemtype = <<Aineistotyyppi on|MTYPE>> OR bi.itemtype LIKE <<tai Aineistotyyppi on>>)
+```
 
 ## Kuljetukset
 
