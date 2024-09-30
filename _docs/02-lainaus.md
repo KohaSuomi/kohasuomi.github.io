@@ -751,7 +751,7 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 
 Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.  
 
-Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+Lainojen palautukset kannattaa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 {: .notice--warning}
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
