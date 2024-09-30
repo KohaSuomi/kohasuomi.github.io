@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 40
+
+Aika: 1.10.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Asiantuntijaryhmästä:
+  * Finna-maksuja varten ei tarvitse enää erillistä käyttäjätunnusta kuten aikanaan on tarvinnut. Kyseiset tunnukset voisi varovaisesti poistaa Kohasta yhteistyössä Finna-toimiston kanssa.
+  * [Varausten voimassaoloaika muutetaan viiteen vuoteen](https://github.com/KohaSuomi/Koha/issues/1430). Aikataulutus.
+* [Tuotantojen RDA-konversiot aloitettu](https://github.com/KohaSuomi/Koha/discussions/1426)
+* [d-tyyppiset osakohteet](https://github.com/KohaSuomi/Koha/issues/1419) otetaan nyt myös huomioon, kun haetaan tietueita Osakohteet-välilehdelle
+
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
