@@ -19,8 +19,13 @@ Läsnä:
 * [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
   * Finna-maksuja varten ei tarvitse enää erillistä käyttäjätunnusta kuten aikanaan on tarvinnut. Kyseiset tunnukset voisi varovaisesti poistaa Kohasta yhteistyössä Finna-toimiston kanssa.
   * [Varausten voimassaoloaika muutetaan viiteen vuoteen](https://github.com/KohaSuomi/Koha/issues/1430). Aikataulutus.
+  * [Integraatiot-listaus](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) ajantasalle
 * [Tuotantojen RDA-konversiot aloitettu](https://github.com/KohaSuomi/Koha/discussions/1426)
 * [d-tyyppiset osakohteet](https://github.com/KohaSuomi/Koha/issues/1419) otetaan nyt myös huomioon, kun haetaan tietueita Osakohteet-välilehdelle
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-40) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 39
 
@@ -33,6 +38,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
 
 
 Pohjoisesta etelään
+
 
 **Vaara**
 * Varausongelma nidetyypillä AIK, 7 vrk, raj. 1, varattavissa ja uusittavissa. Asiakas ei saanut varattua nidettä, koska hänellä oli samana päivänä tehty varaus toiseen nidetyyppiin. Selvitettävä, miten voi vaikuttaa toisen nidetyypin varauksiin, koska Koha ei osaa laskea eri nidetyyppejä yhteen varausten kokonaismäärässäkään, vaan antaa tehdä varauksia kunkin nidetyypin maksimimäärään saakka vaikka se menisi yli kokonaisrajoituksen.
