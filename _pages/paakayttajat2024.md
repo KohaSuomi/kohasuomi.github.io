@@ -72,6 +72,8 @@ Pohjoisesta etelään
 **Kyyti**
 * Tehty uudet tarrapohjat, joissa kokoelmakoodi on avattuna
 * Käyty läpi uuden version intranetusercss ja järjestelmäasetukset
+* Asiakas oli poistanut lainahistoriansa, jonka seurauksena vanhentuneiden varausten raportilla ei enää näkynyt asiakkaan varaustunnus vaan se oli korvautunut anonymous patron asiakkaan varaustunnuksella. Vanhetuneiden varausten raporttia on nyt muutettu Annelin tekemän (raporttikirjastosta löytyvän) raportin mukaan niin, että vanhentuneiden varausten listalle tulee oikean asiakkaan varaustunnus, eikä anonymous patron asiakkaan varaustunnus.
+* Hyllyvarausraporttia muutettu niin, että oletuksena näkyy kaikki rivit ja suodatus tehdään oletuksena signumin mukaan.
 
 **Kirkes**
 * Tarkistettu ja korjattu kirjastokorttien puhelinnumeroita, joissa ylimääräisiä merkkejä
