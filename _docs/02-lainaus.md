@@ -436,8 +436,9 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti1.PNG)
 
-- Palautuksen jälkeen niteen tilaksi muuttuu _Kuljetettavana_. Palautustaulukkoon tulee näkyville niteen kotikirjasto ja kuljetuksen syy.   
-  ![](/assets/files/docs/Lainaus/palautusviesti2024_1.PNG)
+- Palautuksen jälkeen niteen tilaksi muuttuu _Kuljetettavana_. Palautustaulukkoon tulee näkyville niteen kotikirjasto ja kuljetuksen syy.
+   
+  ![](/assets/files/docs/Lainaus/palautusviesti2024_1.png) 
 
 - Nide pitää palauttaa vielä kotikirjastossa, jotta sen tilaksi muuttuu
   Saatavana-tila.
