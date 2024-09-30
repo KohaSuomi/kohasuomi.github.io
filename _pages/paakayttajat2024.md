@@ -16,7 +16,7 @@ Aika: 1.10.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Asiantuntijaryhmästä:
+* [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
   * Finna-maksuja varten ei tarvitse enää erillistä käyttäjätunnusta kuten aikanaan on tarvinnut. Kyseiset tunnukset voisi varovaisesti poistaa Kohasta yhteistyössä Finna-toimiston kanssa.
   * [Varausten voimassaoloaika muutetaan viiteen vuoteen](https://github.com/KohaSuomi/Koha/issues/1430). Aikataulutus.
 * [Tuotantojen RDA-konversiot aloitettu](https://github.com/KohaSuomi/Koha/discussions/1426)
