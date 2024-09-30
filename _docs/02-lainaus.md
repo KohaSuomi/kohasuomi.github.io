@@ -424,7 +424,7 @@ Jos teoksesta on varaus ja saat näytölle ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/maksuilmoitus.PNG)
 
-Voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
+Voit poistaa varauksen tällä sivulla ilman, että asiakkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
 
 ### 2.7.2 Palautuksen viestit
