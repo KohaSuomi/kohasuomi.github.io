@@ -19,7 +19,7 @@ Aika: 7.10.2024 klo 9<br />
 Läsnä:
 
 **Asiat**
-* Asiantuntijaryhmän palaverin aisoiden läpikäynti
+* Asiantuntijaryhmän palaverin asioiden läpikäynti
 
 ## Viikko 40
 
