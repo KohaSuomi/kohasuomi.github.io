@@ -13,10 +13,19 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 40
+
+Aika: 30.9.2024 klo 9<br />
+Läsnä: Johanna, Pasi, Lari, Ari, Anneli
+
+**Asiat**
+* Plugarisioitavien JS-rimpsujen läpikäynti
+  * Päätettiin mitkä rimpsut olisi vielä plugarisoitava, mitä ei plugarisoida ja mitkä rimpsut ovat ylipäänsä enää tarpeellisia 
+
 ## Viikko 39
 
 Aika: 23.9.2024 klo 9<br />
-Läsnä: Johanna, Kodo, Lari, Emmi, Pasi, Lasse Ari, Anneli
+Läsnä: Johanna, Kodo, Lari, Emmi, Pasi, Lasse, Ari, Anneli
 
 **Asiat**
 * Päivystysvuorot viikosta 40 eteenpäin
