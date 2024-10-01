@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: 1.10.2024, klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 * Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk
 * Versiovaihdon testaajia alettu keräämään viime viikolla.
 * Koha-uutiskirjeen uusi deadline on 2.10.2025. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
+
+**Vaara**
+* Edellisessä palaverissa mainittu lainausongelma ei ole selvinnyt testauksissa. Tehdään asiasta tiketti, niin kehittäjät voi tutkia mikä voi olla ongelmana.
+* Päivi on siivonnut Integraatiot-listauksesta pois Vaaran tarpeettomat e-aineistoihin liittyneet tiedot.
 
 ## Viikko 39
 
