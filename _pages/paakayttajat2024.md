@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: 1.10.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **Yhteiset**
 * [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
@@ -26,6 +26,10 @@ Läsnä:
 Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-40) - [Palaa sivun alkuun](/paakayttajat2024)
+
+**Vaski**
+* Hiukan virheellisiä EDItX-sanomia tipahdellut, kun tilailtu 2025 vuodelle tekemättä vastaavia tilejä Kohaan.
+* Vuoden vaihteessa nostetaan joitakin hintoja (ei myöhästymismaksuja), lisäksi varausten noutoajan lyhentäminen työn alla.
 
 ## Viikko 39
 
