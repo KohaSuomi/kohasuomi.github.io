@@ -34,7 +34,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk
 * Versiovaihdon testaajia alettu keräämään viime viikolla.
-* Koha-uutiskirjeen uusi deadline on 2.10.2025.
+* Koha-uutiskirjeen uusi deadline on 2.10.2025. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
 
 ## Viikko 39
 
