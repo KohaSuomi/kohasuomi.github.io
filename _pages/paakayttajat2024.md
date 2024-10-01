@@ -31,6 +31,11 @@ Etelästä pohjoiseen
 * Hiukan virheellisiä EDItX-sanomia tipahdellut, kun tilailtu 2025 vuodelle tekemättä vastaavia tilejä Kohaan.
 * Vuoden vaihteessa nostetaan joitakin hintoja (ei myöhästymismaksuja), lisäksi varausten noutoajan lyhentäminen työn alla.
 
+**OUTI**
+* Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk
+* Versiovaihdon testaajia alettu keräämään.
+* 
+
 ## Viikko 39
 
 Aika: 24.9.2024, klo 9.15<br />
