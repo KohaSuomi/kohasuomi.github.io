@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: 1.10.2024, klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
@@ -42,6 +42,10 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Kyyti**
+* [Kotipalvelun lainojen tarkistus koskemaan myös nyt lainassa olevia](https://github.com/KohaSuomi/Koha/issues/1437)
+* [Nidepakettia ei voi palauttaa tarkistamatta sisältöä, jos nidepaketti ei ole lainassa](https://github.com/KohaSuomi/Koha/issues/1436)
 
 ## Viikko 39
 
