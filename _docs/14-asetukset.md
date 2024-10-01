@@ -319,7 +319,9 @@ Muilla asiakastyypeillä voi olla tarvittaessa lyhyempi voimassaoloaika.
 
 **Vaadittu ikä ja Ikäraja**
 
-Näillä asetuksilla määritetään asiakkaan minimi ja maksimi ikä. Lapsiasiakkaat muutetaan aikuiseksi tämän asetuksen perusteella, eli kun asiakas saavuttaa maksimi-iän, vaihdetaan hänen asiakastyyppi aikuisasiakkaaksi (henkilöasiakas).
+Näillä asetuksilla määritetään asiakkaan minimi ja maksimi-ikä. Lapsiasiakkaat muutetaan aikuiseksi tämän asetuksen perusteella, eli kun asiakas saavuttaa maksimi-iän, vaihdetaan hänen asiakastyyppi aikuisasiakkaaksi (henkilöasiakas).
+
+HUOM! Tähän joutuu laittamaan maksimi-iäksi yhden vuoden enemmän kuin olisi tarpeen, koska ajastettu ajo, joka muuttaa lapsiasiakkaat aikuisasiakkaiksi tulkitsee luvun eri tavalla kuin Kohan käyttöliittymä. Eli jos asiakas pitää muuttaa aikuisasiakkaaksi hänen täytettyä 15 vuotta, pitää Ikärajaksi laittaa 15. Tästä seuraa se, että alla oleva väite siitä, että lomake tarkistaa, että asiakkaan ikä on asiakastyypille sallitussa ikähaarukassa ei toimi oikein.
 
 Kun asiakasta lisätään, tarkistaa lomake, että asiakkaan ikä on asiakastyypille sallitussa ikähaarukassa.
 
