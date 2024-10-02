@@ -1676,6 +1676,27 @@ WHERE dateaccessioned = "0000-00-00"
 OR replacementpricedate = "0000-00-00"
 ```
 
+### Niteen päivämääräkentissä arvo 0000-00-00
+
+Raportti hakee niteet, joissa on niteen päivämääräkentissä arvo 0000-00-00. Laajennettu versio yllä olevasta raportista.
+
+Lisääjä: Anneli Österman
+Pvm: 2.10.2024
+
+```
+select itemnumber,biblionumber,dateaccessioned, replacementpricedate, datelastborrowed, datelastseen, damaged_on, itemlost_on, withdrawn_on, deleted_on, onloan 
+FROM items
+WHERE 
+dateaccessioned LIKE '0000-00-00%' OR 
+replacementpricedate LIKE '0000-00-00%' OR 
+datelastborrowed LIKE '0000-00-00%' OR 
+datelastseen LIKE '0000-00-00%' OR 
+damaged_on LIKE '0000-00-00%' OR 
+itemlost_on LIKE '0000-00-00%' OR 
+withdrawn_on LIKE '0000-00-00%' OR 
+deleted_on LIKE '0000-00-00%' OR 
+onloan LIKE '0000-00-00%'
+```
 ### Niteet, joissa viivakoodin perässä on ylimääräinen välilyönti
 
 Raportti hakee niteet, joiden viivakoodissa on perässä ylimääräinen välilyönti.
