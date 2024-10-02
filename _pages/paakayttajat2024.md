@@ -32,7 +32,7 @@ Etelästä pohjoiseen
 * Vuoden vaihteessa nostetaan joitakin hintoja (ei myöhästymismaksuja), lisäksi varausten noutoajan lyhentäminen työn alla.
 
 **OUTI**
-* Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk
+* Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk, koska pysäkkikäyntien välit ovat harventuneet 2 viikosta 4 viikkoon.
 * Versiovaihdon testaajia alettu keräämään viime viikolla.
 * Koha-uutiskirjeen uusi deadline on 2.10.2025. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
 
