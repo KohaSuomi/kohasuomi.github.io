@@ -23,7 +23,6 @@ Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@koha-suomi.fi
 | Kodo Korkalo | Vanhempi järjestelmäkehittäjä | Oulu / Raasepori | 050 316 6577 |  |
 | Johanna Räisä | Vanhempi järjestelmäkehittäjä | Mikkeli | 040 129 4285 |  |
 | Pasi Kallinen | Järjestelmäkehittäjä | Kouvola | 0400 174 235 |  |
-| Lasse Pouru | Järjestelmäkehittäjä | Turku | 040 484 9053 | |
 | Lari Strand | Järjestelmäkehittäjä | Joensuu | 040 017 4010 | |
 | Emmi Takkinen | Järjestelmäkehittäjä | Mikkeli | 040 021 3514 | |
 
