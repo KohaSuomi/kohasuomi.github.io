@@ -1680,7 +1680,7 @@ OR replacementpricedate = "0000-00-00"
 
 Raportti hakee niteet, joissa on niteen päivämääräkentissä arvo 0000-00-00. Laajennettu versio yllä olevasta raportista.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 2.10.2024
 
 ```
