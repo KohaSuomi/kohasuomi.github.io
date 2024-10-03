@@ -13,25 +13,18 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
-### Koha 23.11 -version esittely
+### Hankinta
 
-Kohan version 23.11 esittely pidettiin 17.4.2024. Esittelijänä Anneli Österman
+#### Budjettien ja tilien luonti
 
-[Esittelyn tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/XO8YtD_o6Ns)
+28.9.2020 OUTI-kirjastolaisille pidetty koulutus budjettien ja tilien lisäämisestä niin, että ne toimivat EDItX-hankinnassa.
 
-Esittelyn diasarja: [Uutta versiossa 23.11.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15011001/Uutta.versiossa.23.11.pdf)
-
-
-### Kokoelmatyön tiedonhaku -koulutus
-
-Kokoelmatyön tiedonhaku -koulutus pidettiin 4.4.2024. Kouluttajana Anneli Österman.
-
-[Koulutuksen tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/6BpwbWdr914)
-
-Koulutuksen diasarja: [Kokoelmatyön tiedonhaku.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14864216/Kokoelmatyon.tiedonhaku.pdf)
+[Budjetit ja tilit EDItX-muotoon](https://youtu.be/nQv6E_sHZJQ) (Videossa tekstitys)
 
 
-### Koha-seminaari 28.11.2023
+### Seminaarit ja klinikat
+
+#### Koha-seminaari 28.11.2023
 
 Koha-seminaari pidettiin 28.11.2023 Keravan kirjastolla.
 
@@ -45,7 +38,7 @@ Työpajojen kooste: [Koha-seminaari28112023tyopajat.pdf](https://github.com/Koha
 
 Lisätty 4.12.2023
 
-### Koha-klinikka 29.3.2023
+#### Koha-klinikka 29.3.2023
 
 Koha-klinikassa 29.3.2023 esiteltiin uuden 22.11 version uusia ominaisuuksia.
 [Koha-klinikan tallenne](https://youtu.be/o_Mp_3IQ4Rc)
@@ -54,46 +47,7 @@ Koha-klinikassa 29.3.2023 esiteltiin uuden 22.11 version uusia ominaisuuksia.
 
 Lisätty: 5.4.2023
 
-### PowerBI-tilastoesittely
-
-[PowerBI-tilastoesittely](https://www.youtube.com/watch?v=fQHNaQ7dCOA)
-
-Tuomas Kunttu esittelee Kouvolan kirjaston PowerBI-tilastoja ja kertoo miten ne on tehty. Tilaisuus on pidetty 25.1.2023.
-
-Tilastojen teossa käytettyjä Kohan [sql-raportteja sekä joitain hyödyllisiä DAX-lausekkeita on listattu Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/PowerBI).
-
-Lisätty: 25.1.2023
-
-### GitHubin esittely
-
-Ohessa on video, jossa esitellään, mistä Koha-Suomen tiketit, ohjeet, tiedotteet ja muistiot löytyvät nyt kun Redminestä on luovuttu aktiivikäytössä.
-
-[Koha-Suomen GitHubin esittely](https://youtu.be/cPVSi2xFBIQ)
-
-Lisätty: 10.1.2023
-
-### Elasticsearch-koulutus
-
-#### Tiedonhakukoulutus 1.11.2023
-
-[Tiedohakukoulutuksen tallenne Youtubessa](https://youtu.be/cp-DmGd_Rhs)
-
-[Tiedonhaku_Elasticsearchilla -diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215328/Tiedonhaku_Elasticsearchilla.pdf), päivitetty 26.10.2023
-
-[Kohan indeksit.pdf eli tiedonhaun cheat sheet](https://github.com/KohaSuomi/kohasuomi.github.io/files/13227862/Kohan.indeksit.pdf)
-
-#### Elasticsearch-koulutus 10.11.2021
-
-[Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
-
-
-### Budjettien ja tilien luonti
-
-28.9.2020 OUTI-kirjastolaisille pidetty koulutus budjettien ja tilien lisäämisestä niin, että ne toimivat EDItX-hankinnassa.
-
-[Budjetit ja tilit EDItX-muotoon](https://youtu.be/nQv6E_sHZJQ) (Videossa tekstitys)
-
-### Koha-johtajien webinaari
+#### Koha-johtajien webinaari
 
 Koha-johtajien 12.2.2021 webinaarin aineisto:
 
@@ -104,9 +58,6 @@ Koha-johtajien 12.2.2021 webinaarin aineisto:
 [Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pdf) / Anneli Österman
 
 [Yhteenveto pienryhmätyöskentelystä](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-webinaarinyhteenveto.pdf) 
-
-### Koha-klinikat
-
 
 #### Koha-klinikka 16.2.2021
 
@@ -127,6 +78,71 @@ Esitysten diat:
 [Koha-klinikka 14.10.2021 -tallenne](https://youtu.be/3b_4IIH5uiw) (Ei tekstitystä)
 
 [Hitauskyselyn diat](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Kohan-hitaus-klinikassa.pdf)
+
+### Tiedonhaku
+
+#### Musiikin tiedonhaun koulutus
+
+Musiikin tiedonhaun koulutus pidettiin 3.10.2024. Kouluttajana infromaatikko Timo Torvinen Vaara-kirjastoista.
+
+[Koulutuksen tallenne on Koha-Suomen Youtube-kanavalla](https://www.youtube.com/watch?v=V5_Rm5Mb1_U)
+
+Koulutuksen diasarja tulossa.
+
+#### Kokoelmatyön tiedonhaku -koulutus
+
+Kokoelmatyön tiedonhaku -koulutus pidettiin 4.4.2024. Kouluttajana Anneli Österman.
+
+[Koulutuksen tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/6BpwbWdr914)
+
+Koulutuksen diasarja: [Kokoelmatyön tiedonhaku.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14864216/Kokoelmatyon.tiedonhaku.pdf)
+
+#### Tiedonhakukoulutus 1.11.2023
+
+[Tiedohakukoulutuksen tallenne Youtubessa](https://youtu.be/cp-DmGd_Rhs)
+
+[Tiedonhaku_Elasticsearchilla -diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215328/Tiedonhaku_Elasticsearchilla.pdf), päivitetty 26.10.2023
+
+[Kohan indeksit.pdf eli tiedonhaun cheat sheet](https://github.com/KohaSuomi/kohasuomi.github.io/files/13227862/Kohan.indeksit.pdf)
+
+#### Elasticsearch-koulutus 10.11.2021
+
+[Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
+
+
+
+### Tilastot
+
+### PowerBI-tilastoesittely
+
+[PowerBI-tilastoesittely](https://www.youtube.com/watch?v=fQHNaQ7dCOA)
+
+Tuomas Kunttu esittelee Kouvolan kirjaston PowerBI-tilastoja ja kertoo miten ne on tehty. Tilaisuus on pidetty 25.1.2023.
+
+Tilastojen teossa käytettyjä Kohan [sql-raportteja sekä joitain hyödyllisiä DAX-lausekkeita on listattu Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/PowerBI).
+
+Lisätty: 25.1.2023
+
+### Versionvaihdot
+
+#### Koha 23.11 -version esittely
+
+Kohan version 23.11 esittely pidettiin 17.4.2024. Esittelijänä Anneli Österman
+
+[Esittelyn tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/XO8YtD_o6Ns)
+
+Esittelyn diasarja: [Uutta versiossa 23.11.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15011001/Uutta.versiossa.23.11.pdf)
+
+
+### Yleiset
+
+#### GitHubin esittely
+
+Ohessa on video, jossa esitellään, mistä Koha-Suomen tiketit, ohjeet, tiedotteet ja muistiot löytyvät nyt kun Redminestä on luovuttu aktiivikäytössä.
+
+[Koha-Suomen GitHubin esittely](https://youtu.be/cPVSi2xFBIQ)
+
+Lisätty: 10.1.2023
 
 
 ## Pääkäyttäjille kohdistetut koulutukset
