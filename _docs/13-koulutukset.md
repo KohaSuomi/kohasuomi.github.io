@@ -113,7 +113,7 @@ Koulutuksen diasarja: [Kokoelmatyön tiedonhaku.pdf](https://github.com/KohaSuom
 
 ### Tilastot
 
-### PowerBI-tilastoesittely
+#### PowerBI-tilastoesittely
 
 [PowerBI-tilastoesittely](https://www.youtube.com/watch?v=fQHNaQ7dCOA)
 
