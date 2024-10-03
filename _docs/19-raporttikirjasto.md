@@ -2530,6 +2530,26 @@ SELECT bm.biblionumber, SUBSTR(ExtractValue(bm.metadata,'//leader'),7,1) AS '000
    AND (bi.itemtype = <<Aineistotyyppi on|MTYPE>> OR bi.itemtype LIKE <<tai Aineistotyyppi on>>)
 ```
 
+### Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella
+
+Raportilla voi hakea tietueita niin, että raportin ajaja voi itse määrittää yhden kiinteämittaisen kentän ja yhden MARC-osakentän sekä mitä niistä haetaan. Tuloksissa näytetään tietueen id (biblionumber), 245a-kentän tieto sekä haettujen kiinteämittaisen kentän ja MARC-osakentän tiedot. Kiinteämittaisista kentistä otetaan huomioon yksi toistuma. Raportin tulokset on rajattu 7000 riviin.
+
+Kummankin kentän haettavat merkkijonon voi katkaista, tarvittaessa sekä alusta että lopusta. Jos kiinteämittaisesta kentästä hakee vain jotain tiettyjä merkkipaikkoja, pitää katkaisu tehdä kummastakin päästä.
+
+Esimerkki, jossa on haettu 008-kentästä '%fin%' ja 040b-kentästä 'swe'.
+![](/assets/files/docs/Raportit/kiinteajaosakentta.png)
+
+Lisääjä: Anneli Österman<br />
+Pvm: 3.10.2024
+
+```
+SELECT biblionumber, ExtractValue(metadata, '//datafield[@tag=245]/subfield[@code="a"]') as '245a', ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>']') AS 'Kiinteämittainen kenttä', ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') AS 'MARC-kenttä'
+from biblio_metadata bm
+WHERE (ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>']') LIKE <<Mitä kiinteämittaisesta kentästä haetaan? Katkaise tarvittaessa alusta ja lopusta %-merkillä>>
+  OR (ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>'][2]')) LIKE <<Mitä kiinteämittaisesta kentästä haetaan? Katkaise tarvittaessa alusta ja lopusta %-merkillä>>)
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä MARC-kentästä haetaan? Katkaise tarvittaessa %-merkillä>>
+LIMIT 7000
+```
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
