@@ -10,10 +10,27 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 41
+
+Aika: 8.10.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
+* [Uutiskirje 3/2024](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella) julkaistu
+* [Musiikin tiedonhaun koulutuksen tallenne](https://www.youtube.com/watch?v=V5_Rm5Mb1_U)
+
+Pohjoisesta etelään
+
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 40
 
 Aika: 1.10.2024, klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle)
+Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Asiantuntijaryhmästä](https://koha-suomi.fi/asiantuntijaryhma2024):
@@ -25,7 +42,6 @@ Läsnä: Anni Rajala (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lau
 
 Etelästä pohjoiseen
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-40) - [Palaa sivun alkuun](/paakayttajat2024)
 
 **Vaski**
 * Hiukan virheellisiä EDItX-sanomia tipahdellut, kun tilailtu 2025 vuodelle tekemättä vastaavia tilejä Kohaan.
@@ -46,6 +62,8 @@ Etelästä pohjoiseen
 **Kyyti**
 * [Kotipalvelun lainojen tarkistus koskemaan myös nyt lainassa olevia](https://github.com/KohaSuomi/Koha/issues/1437)
 * [Nidepakettia ei voi palauttaa tarkistamatta sisältöä, jos nidepaketti ei ole lainassa](https://github.com/KohaSuomi/Koha/issues/1436)
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-40) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 39
 
