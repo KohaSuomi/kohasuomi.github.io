@@ -87,7 +87,7 @@ Musiikin tiedonhaun koulutus pidettiin 3.10.2024. Kouluttajana infromaatikko Tim
 
 [Koulutuksen tallenne on Koha-Suomen Youtube-kanavalla](https://www.youtube.com/watch?v=V5_Rm5Mb1_U)
 
-Koulutuksen diasarja: [MusiikintiedonhakuKohassa.pdf](https://github.com/user-attachments/files/17254703/MusiikintiedonhakuKohassa.pdf)
+Koulutuksen diasarja: [Musiikin tiedonhaku Kohassa.pdf](https://github.com/user-attachments/files/17254703/MusiikintiedonhakuKohassa.pdf)
  
 
 #### Kokoelmatyön tiedonhaku -koulutus
