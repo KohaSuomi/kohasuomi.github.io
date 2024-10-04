@@ -20,6 +20,8 @@ Läsnä:
 
 **Asiat**
 * Asiantuntijaryhmän palaverin asioiden läpikäynti
+* onko huoltokatkoa?
+* versionvaihdon tilanne
 
 ## Viikko 40
 
