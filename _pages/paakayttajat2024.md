@@ -21,6 +21,7 @@ Läsnä:
 * [Musiikin tiedonhaun koulutuksen tallenne](https://www.youtube.com/watch?v=V5_Rm5Mb1_U)
 * Versionvaihdon [IntranetUserJS-wikiin](https://github.com/KohaSuomi/Koha-24.05/wiki/IntranetUserJS) lisätty ne JS-rimpsut, joita ei muuteta liitännäiseksi. Kaikki muut rimpsut pitäisi poistaa IntranetUserJS-järjestelmäasetuksesta, jotta ne eivät ole sekä liitännäisessä että asetuksessa. Rimpsujen muutosta liitännäiseksi voi seurata [tiketissä #1121](https://github.com/KohaSuomi/Koha/issues/1121). Sieltä löytyy myös kommentista ods-tiedosto (taulukkotiedosto) liitännäisistä.
 * Versionvaihdossa nextiltä tuotantoon kopioitavat tiedot. Mitä tarvitsee kopioida?
+* Koha-seminaari: Turussa olisi alustavasti varattuna tilat To-pe 27-28.3.2025 klo 9:00 – 16:30 ja To-pe 13-14.3.2025 klo 9:00 – 16:30. Olisiko jompi kumpi noista päivämääristä hyvä semiinaarin ajankohdaksi?
 
 
 Pohjoisesta etelään
