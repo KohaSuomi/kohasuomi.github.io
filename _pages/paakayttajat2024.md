@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
-* [Uutiskirje 3/2024](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella) julkaistu
+* [Uutiskirje 3/2024](https://github.com/KohaSuomi/Koha/discussions/1439) julkaistu
 * [Musiikin tiedonhaun koulutuksen tallenne](https://www.youtube.com/watch?v=V5_Rm5Mb1_U)
 * Versionvaihdon [IntranetUserJS-wikiin](https://github.com/KohaSuomi/Koha-24.05/wiki/IntranetUserJS) lisätty ne JS-rimpsut, joita ei muuteta liitännäiseksi. Kaikki muut rimpsut pitäisi poistaa IntranetUserJS-järjestelmäasetuksesta, jotta ne eivät ole sekä liitännäisessä että asetuksessa. Rimpsujen muutosta liitännäiseksi voi seurata [tiketissä #1121](https://github.com/KohaSuomi/Koha/issues/1121). Sieltä löytyy myös kommentista ods-tiedosto (taulukkotiedosto) liitännäisistä.
 * Versionvaihdossa nextiltä tuotantoon kopioitavat tiedot. Mitä tarvitsee kopioida?
