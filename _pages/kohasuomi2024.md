@@ -21,7 +21,9 @@ Läsnä: Johanna, Anneli, Ari, Emmi, Pasi ja Lari
 **Asiat**
 * Asiantuntijaryhmän palaverin asioiden läpikäynti
 * onko huoltokatkoa?
+  * Ei ole
 * versionvaihdon tilanne
+  * Ei ole vähään aikaan tullut uusia.
 
 ## Viikko 40
 
