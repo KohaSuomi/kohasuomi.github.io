@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 41
 
 Aika: 7.10.2024 klo 9<br />
-Läsnä:
+Läsnä: Johanna, Anneli, Ari, Emmi, Pasi ja Lari
 
 **Asiat**
 * Asiantuntijaryhmän palaverin asioiden läpikäynti
