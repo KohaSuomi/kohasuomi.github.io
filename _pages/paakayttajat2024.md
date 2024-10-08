@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: 8.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
@@ -30,11 +30,12 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina 
 Pohjoisesta etelään
 
 **Lappi**
-
 * Normaalia ylläpitoa.
 
-**Vaski**
+**OUTI**
+* [Vanhentunut JS-rimpsu](https://github.com/KohaSuomi/Koha/issues/1207#issuecomment-2106945546) tuli vastaan. Poistetaan nextiltä, niin poistuu myös uuden version myötä tuotannosta.
 
+**Vaski**
 * Normaalia ylläpitoa
 
 **Vaara**
@@ -67,7 +68,9 @@ Etelästä pohjoiseen
 **OUTI**
 * Kuusamon kirjastoauton varausten noutoaikaa on pidennetty 14vrk -> 28vrk, koska pysäkkikäyntien välit ovat harventuneet 2 viikosta 4 viikkoon.
 * Versiovaihdon testaajia alettu keräämään viime viikolla.
-* Koha-uutiskirjeen uusi deadline on 2.10.2025. Uutiskirjeen pohja: https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit 
+* Koha-uutiskirjeen uusi deadline on 2.10.2025. [Uutiskirjeen pohja](https://docs.google.com/document/d/1uW3VWuJ_iwXXDwQhbkeB-XfG10EjHBr_YuWsmy-KM1Q/edit)
+* Otettu käyttöön Vaskilta saatu painotuskoodi Finnaan tietueille, joissa yli 15 nidettä.
+* Kuvailijoille tehty raporttikirjastoon pari raporttia, joilla voi [vertailla 000/06-arvoa ja Ainestotyyppejä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#aineistotyypin-tarkistus-00006-merkist%C3%A4)
 
 **Vaara**
 * Edellisessä palaverissa mainittu lainausongelma ei ole selvinnyt testauksissa. Tehdään asiasta tiketti, niin kehittäjät voi tutkia mikä voi olla ongelmana.
