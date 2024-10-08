@@ -25,7 +25,7 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina 
   * js-liitännäisten asetukset/määritykset
 * Koha-seminaari: Turussa olisi alustavasti varattuna tilat To-pe 27-28.3.2025 klo 9:00 – 16:30 ja To-pe 13-14.3.2025 klo 9:00 – 16:30. Olisiko jompi kumpi noista päivämääristä hyvä semiinaarin ajankohdaksi?
   * Pääkäyttäjät ehdottavat 27.-28.3.2025
-
+* [Maanantaisen version 24.05 uusien ominaisuuksien esittelyn tallenne](https://youtube.com/live/uXerQmZJhHY?feature=share)
 
 Pohjoisesta etelään
 
