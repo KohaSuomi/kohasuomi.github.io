@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: 8.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
@@ -54,6 +54,10 @@ Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja n�
 
 **Siilinjärvi**
 * Ei erikoista, yritetty saada js-asetuksia kohdilleen nextille.
+
+**Kirkes**
+
+* Yhden laskuttajan eläköitymisen vuoksi alettiin pohtia sotuteekin tunnuksia, joita ei voi itse poistaa, ainoastaan muuttaa epäaktiiviseksi. Muissa kimpoissa epäaktiivisia tunnuksia on kertynyt jo paljonkin, joten sovittiin että Kirkes tekee tiketin näiden poistoajosta. Tiketti: [1448](https://github.com/KohaSuomi/Koha/issues/1448) Mietittiin myös, että jatkossa ajo voisi tapahtua ajastetusti säännöllisin väliajoin. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
