@@ -39,10 +39,10 @@ Pohjoisesta etelään
 * Muhoksen Hyrkin koululle ovat ottamassa käyttöön Kohan itsepalvelulainaus ja -palautustoiminnon.
 * Kehitysehdotus: Turvakieltoasiakkaan yhteystietojen näkymisen rajaaminen vain tietyille käyttäjätunnuksille tai tietyille käyttäjäoikeuksille eli esim. tallentamisen jälkeen yhteystiedot näkyisivät vain käyttäjätunnuksille, joilla on laskutusoikeudet. 
 Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja päätökselle:
-** Todettiin, että asiakkaiden yhteystiedot näkyvät Kohassa niin monessa pakassa, että tietojen piilotukset joka paikasta olisi tosi iso työ toteuttaa.
-** Vaikka näkymisen rajaaminen toteutettaisiin tietyille käyttäjätunnuksille/käyttäjäoikeuksille, raporteilla asiakkaiden osoitetiedot pystyy aina kuitenkin hakemaan.
-** Muissa kimpoissa turvakieltoasiakkaille ei tallenneta asiakkaan omia osoitetietoja asiakasrekisteriin, eikä niitä tallenneta/säilötä muuallekaan. Asiakkaalle tallennetaan asiakkaan luvalla ainoastaan s-postiosoite noutoilmoitusten ja palautuskehotusten lähettämistä varten. Tämä käytäntö on toiminut ongelmitta. Vaatii kaikille kimpan kirjastoille yhteiset käytännöt.
-** Esim. Kyytissä turvakieltoasiakkaan laskutettavan aineiston tiedot lähetetään kaupungin laskutuksen hoidettavaksi ja lähetettäväksi. Siellä selvittävät myös asiakkaan voimassa olevan osoitteen väestörekisterikeskuksesta. Kirjaston laskuttajille näissäkään tapauksissa osoitetiedot eivät tule tiedoksi.
+  * Todettiin, että asiakkaiden yhteystiedot näkyvät Kohassa niin monessa pakassa, että tietojen piilotukset joka paikasta olisi tosi iso työ toteuttaa.
+  * Vaikka näkymisen rajaaminen toteutettaisiin tietyille käyttäjätunnuksille/käyttäjäoikeuksille, raporteilla asiakkaiden osoitetiedot pystyy aina kuitenkin hakemaan.
+  * Muissa kimpoissa turvakieltoasiakkaille ei tallenneta asiakkaan omia osoitetietoja asiakasrekisteriin, eikä niitä tallenneta/säilötä muuallekaan. Asiakkaalle tallennetaan asiakkaan luvalla ainoastaan s-postiosoite noutoilmoitusten ja palautuskehotusten lähettämistä varten. Tämä käytäntö on toiminut ongelmitta. Vaatii kaikille kimpan kirjastoille yhteiset käytännöt.
+  * Esim. Kyytissä turvakieltoasiakkaan laskutettavan aineiston tiedot lähetetään kaupungin laskutuksen hoidettavaksi ja lähetettäväksi. Siellä selvittävät myös asiakkaan voimassa olevan osoitteen väestörekisterikeskuksesta. Kirjaston laskuttajille näissäkään tapauksissa osoitetiedot eivät tule tiedoksi.
 
 **Vaski**
 * Normaalia ylläpitoa
