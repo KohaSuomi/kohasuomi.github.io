@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: 8.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
@@ -51,6 +51,9 @@ Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja n�
 **Vaara**
 * kysymys "käsiteltävänä asiakkaalla" -ilmoitauksesta nidettä lainattaessa. Tilanne liittyy siihen, että automaattiin palautettua varattua nidettä ei ole palautettu virkailijatyökalussa, vaan se on joutunut muuten eteenpäin. Automaattipalautus ei lähetä asiakkaalle noutoilmoitusta, vaan se lähtee vasta virkailijaliittymässä palauttamisen jälkeen.
 * Kori-toiminto ihmetytti käyttäjää, ei aina toimi. Ilmeisesti kyse tilapäisestä ongelmasta, ei tunnu olevan ongelma muualla.
+
+**Siilinjärvi**
+* Ei erikoista, yritetty saada js-asetuksia kohdilleen nextille.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
