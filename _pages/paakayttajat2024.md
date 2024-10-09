@@ -37,7 +37,8 @@ Pohjoisesta etelään
 * Oulun Finna-tuelta tuli tieto, että lauantaina 5.10. on ehkä OUTIn verkkokirjaston hankintaehdotuslomakkeelle kohdistunut SQL injektiohyökkäys. Asiasta ei ole tullut vielä vahvistusta.
 * Maanantaina 7.10. verkkokirjaston verkkomaksuongelman syyksi selvisi, että Oulun kaupungin verkkomaksuosoite oli muuttunut kyseisenä aamuna, mutta siitä ei oltu muistettu ilmoittaa kirjastolle. Samaan aikaan sattui myös ongelma Ouka-palvelimella, jossa verkkomaksuportaali sijaitsee eli toimimattomuudelle sattui kaksi syytä samaan aikaan.
 * Muhoksen Hyrkin koululle ovat ottamassa käyttöön Kohan itsepalvelulainaus ja -palautustoiminnon.
-* Kehitysehdotus: Turvakieltoasiakkaan yhteystietojen näkymisen rajaaminen vain tietyille käyttäjätunnuksille tai tietyille käyttäjäoikeuksille eli esim. tallentamisen jälkeen yhteystiedot näkyisivät vain käyttäjätunnuksille, joilla on laskutusoikeudet. 
+* Kehitysehdotus: Turvakieltoasiakkaan yhteystietojen näkymisen rajaaminen vain tietyille käyttäjätunnuksille tai tietyille käyttäjäoikeuksille eli esim. asiakastietojen tallentamisen jälkeen yhteystiedot näkyisivät vain käyttäjätunnuksille, joilla on laskutusoikeudet.
+  
 Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja näkemykselle:
   * Todettiin, että asiakkaiden yhteystiedot näkyvät Kohassa niin monessa pakassa, että tietojen piilotukset joka paikasta olisi tosi iso työ toteuttaa.
   * Vaikka näkymisen rajaaminen toteutettaisiin tietyille käyttäjätunnuksille/käyttäjäoikeuksille, raporteilla asiakkaiden osoitetiedot pystyy aina kuitenkin hakemaan.
