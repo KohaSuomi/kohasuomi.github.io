@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 42
+
+Aika: 15.10.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Käyttekö lisäämässä GitHub-tunnuksiinne jonkin sellaisen nimen, josta teidät tunnistaa. Osa [Koha-Suomi-ryhmässä](https://github.com/orgs/KohaSuomi/people?page=1) olevista tunnuksista on tunnistamattomia ja pohdimme, kuuluvatko ne edelleen sinne.
+
+Etelästä pohjoiseen
+
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 41
 
 Aika: 8.10.2024, klo 9.15<br />
