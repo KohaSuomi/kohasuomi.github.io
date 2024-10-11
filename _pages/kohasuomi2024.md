@@ -13,6 +13,19 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 42
+
+Aika: 14.10.2024 klo 9<br />
+Läsnä:
+
+**Asiat**
+* olisiko tarvetta laittaa päälle RecordStaffUserOnCheckout-järjestelmäasetus kaikissa kimpoissa?
+  * This system preference determines whether the staff account who checks out an item to a patron is recorded along with the checkout. When set to ‘record’ the staff account will be displayed in the staff interface in the patron’s circulation history as well as the record’s checkout history.
+  * Käytännössä asetuksen ollessa päällä issues-tauluun kirjautuun issuer_id-kenttään lainan tehneen virkailijan borrowernumber
+  * Lainaaja näkyy asiakkaan lainahistoriassa (ei näkyvillä) ja tietueen lainahistoria-sivulla, josta sarakkeen voisi piilottaa niin, ettei käyttäjät saa sitä näkyville.
+  * Esimerkki, jolloin tieto olisi ollut tarpeellinen: Virkailija unohti vaihtaa kirjautumiskirjaston ja lainat tallentuivat väärälle kirjastolle. Jos asetus olisi ollut päällä, olisi issues-tauluun kirjautunut issuer_id-kenttään virkailijan borrowernumber ja lainat olisi voinut muuttaa helposti toisen kirjaston lainoiksi. (Mites statistics?)
+  * Mahdolliset ongelmat?
+
 ## Viikko 41
 
 Aika: 7.10.2024 klo 9<br />
