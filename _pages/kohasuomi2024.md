@@ -25,6 +25,7 @@ Läsnä:
   * Lainaaja näkyy asiakkaan lainahistoriassa (ei näkyvillä) ja tietueen lainahistoria-sivulla, josta sarakkeen voisi piilottaa niin, ettei käyttäjät saa sitä näkyville.
   * Esimerkki, jolloin tieto olisi ollut tarpeellinen: Virkailija unohti vaihtaa kirjautumiskirjaston ja lainat tallentuivat väärälle kirjastolle. Jos asetus olisi ollut päällä, olisi issues-tauluun kirjautunut issuer_id-kenttään virkailijan borrowernumber ja lainat olisi voinut muuttaa helposti toisen kirjaston lainoiksi. (Mites statistics?)
   * Mahdolliset ongelmat?
+* Kolmansien osapuolten pääsyt testeille? Ja tuotantoihin(!?) Miten linjataan, mitä suositellaan?
 
 ## Viikko 41
 
