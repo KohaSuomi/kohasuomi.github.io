@@ -36,7 +36,7 @@ Etelästä pohjoiseen
 ## Viikko 41
 
 Aika: 8.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Pia Kusmin (Lappi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Uusi raportti: [Tietueiden haku kiinteämittaisen kentän ja MARC-osakentän perusteella](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueiden-haku-kiinte%C3%A4mittaisen-kent%C3%A4n-ja-marc-osakent%C3%A4n-perusteella)
@@ -84,6 +84,10 @@ Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja n�
 
 **Kyyti**
 * Nextin IntranetUserJS:ien kanssa tehty töitä.
+
+**Helle**
+* Asiakas uusinut Helle--finnassa lainat keskiyön jälkeen samaan aikaan, kun Kohan maksuajot ovat olleet käynnissä. Tästä on aiheutunut asiakkaalle ylimääräisiä maksuja Kohaan. Palaverissa sovimme, että Finna-toimistoon ehdotetaan ominaisuutta, joka estää lainojen uusinnan Kohan maksuajojen aikana. Tiketti  [Saisiko Finnaan ominaisuuden, joka estää lainojen uusinnan Kohan maksuajojen aikaan](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/31)
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
 
