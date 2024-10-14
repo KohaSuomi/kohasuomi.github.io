@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 42
 
 Aika: 14.10.2024 klo 9<br />
-Läsnä:
+Läsnä: Johanna, Emmi, Pasi, Lari, Kodo, Anneli
 
 **Asiat**
 * Viikonlopun käyttöhäiriöt
@@ -26,8 +26,11 @@ Läsnä:
   * Lainaaja näkyy asiakkaan lainahistoriassa (ei näkyvillä) ja tietueen lainahistoria-sivulla, josta sarakkeen voisi piilottaa niin, ettei käyttäjät saa sitä näkyville.
   * Esimerkki, jolloin tieto olisi ollut tarpeellinen: Virkailija unohti vaihtaa kirjautumiskirjaston ja lainat tallentuivat väärälle kirjastolle. Jos asetus olisi ollut päällä, olisi issues-tauluun kirjautunut issuer_id-kenttään virkailijan borrowernumber ja lainat olisi voinut muuttaa helposti toisen kirjaston lainoiksi. (Mites statistics?)
   * Mahdolliset ongelmat?
+  * Päätös: Suositellaan käyttöön. Keskustellaan pääkäyttäjien kanssa tiistaina.
 * Kolmansien osapuolten pääsyt testeille? Ja tuotantoihin(!?) Miten linjataan, mitä suositellaan?
+  * Siirretään käsittely viikolle 42
 * Lassen tikettien läpikäyminen ja uudelleenvastuutus
+  * Käyty läpi.
 
 ## Viikko 41
 
