@@ -17,6 +17,14 @@ Läsnä:
 
 **Yhteiset**
 * Käyttekö lisäämässä GitHub-tunnuksiinne jonkin sellaisen nimen, josta teidät tunnistaa. Osa [Koha-Suomi-ryhmässä](https://github.com/orgs/KohaSuomi/people?page=1) olevista tunnuksista on tunnistamattomia ja pohdimme, kuuluvatko ne edelleen sinne.
+* olisiko tarvetta laittaa päälle RecordStaffUserOnCheckout-järjestelmäasetus kaikissa kimpoissa?
+  * This system preference determines whether the staff account who checks out an item to a patron is recorded along with the checkout. When set to ‘record’ the staff account will be displayed in the staff interface in the patron’s circulation history as well as the record’s checkout history.
+   * Käytännössä asetuksen ollessa päällä issues-tauluun kirjautuun issuer_id-kenttään lainan tehneen virkailijan borrowernumber
+    Lainaaja näkyy asiakkaan lainahistoriassa (ei näkyvillä) ja tietueen lainahistoria-sivulla, josta sarakkeen voisi piilottaa niin, ettei käyttäjät saa sitä näkyville.
+   * Esimerkki, jolloin tieto olisi ollut tarpeellinen: Virkailija unohti vaihtaa kirjautumiskirjaston ja lainat tallentuivat väärälle kirjastolle. Jos asetus olisi ollut päällä, olisi issues-tauluun kirjautunut issuer_id-kenttään virkailijan borrowernumber ja lainat olisi voinut muuttaa helposti toisen kirjaston lainoiksi. (Mites statistics?)
+    * Mahdolliset ongelmat?
+      * muutos issues-tauluu ei suoraan korjaa tilastoja, koska ne haetaan statistics ja pseudonymized_transactions-tauluista. Vaatii erillisen korjausajon niihin.
+    * Koha-Suomen palaverin suositus: Suositellaan käyttöön. Keskustellaan pääkäyttäjien kanssa tiistaina.
 
 Etelästä pohjoiseen
 
