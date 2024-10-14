@@ -86,7 +86,7 @@ Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja n�
 * Nextin IntranetUserJS:ien kanssa tehty töitä.
 
 **Helle**
-* Asiakas uusinut Helle--finnassa lainat keskiyön jälkeen samaan aikaan, kun Kohan maksuajot ovat olleet käynnissä. Tästä on aiheutunut asiakkaalle ylimääräisiä maksuja Kohaan. Palaverissa sovimme, että Finna-toimistoon ehdotetaan ominaisuutta, joka estää lainojen uusinnan Kohan maksuajojen aikana. Tiketti  [Saisiko Finnaan ominaisuuden, joka estää lainojen uusinnan Kohan maksuajojen aikaan](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/31)
+* Asiakas uusinut Helle-Finnassa lainat keskiyön jälkeen samaan aikaan, kun Kohan maksuajot ovat olleet käynnissä. Tästä on aiheutunut asiakkaalle ylimääräisiä maksuja Kohaan. Palaverissa sovimme, että Finna-toimistoon ehdotetaan ominaisuutta, joka estää lainojen uusinnan Kohan maksuajojen aikana. Tiketti  [Saisiko Finnaan ominaisuuden, joka estää lainojen uusinnan Kohan maksuajojen aikaan](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/31)
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
