@@ -19,6 +19,7 @@ Aika: 14.10.2024 klo 9<br />
 Läsnä:
 
 **Asiat**
+* Viikonlopun käyttöhäiriöt
 * olisiko tarvetta laittaa päälle RecordStaffUserOnCheckout-järjestelmäasetus kaikissa kimpoissa?
   * This system preference determines whether the staff account who checks out an item to a patron is recorded along with the checkout. When set to ‘record’ the staff account will be displayed in the staff interface in the patron’s circulation history as well as the record’s checkout history.
   * Käytännössä asetuksen ollessa päällä issues-tauluun kirjautuun issuer_id-kenttään lainan tehneen virkailijan borrowernumber
