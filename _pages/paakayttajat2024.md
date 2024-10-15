@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: 15.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Susanna Sandell (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Susanna Sandell (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Raporttien hakua rajapinnan kautta korjattiin tänään](https://github.com/KohaSuomi/Koha/discussions/1459)
@@ -51,6 +51,11 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Normaalia ylläpitoa ja versionvaihtoon valmistautumista.
+
+**Kyyti**
+* Eräpäivämuistutuksen loppuminen tekstiviestillä on herättänyt asiakkaissa paljon kiukkua.
+* Kyselin tiketin [404](https://github.com/KohaSuomi/Koha/issues/404) perään. Lari olikin kommentoinut.
+* Varmistin, että versiopäivityksessä Nextiltä siirretään vain JS-liitännäiset, ei kaikkia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
 
