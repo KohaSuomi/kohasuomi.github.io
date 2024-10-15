@@ -11,6 +11,20 @@ title: 'Indeksointi- ja tiedonhakuryhmä 2024'
 
 Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2024. Indeksointi- ja tiedonhakuryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta. Jäsenet: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski), Mauri Aittaniemi (Lappi)
 
+## Esityslista 4/2024
+
+Aika: Ke 23.10.2024 klo 13-14<br />
+Läsnä:
+
+### 1. Käsiteltävät kehitysehdotukset
+
+* [Nalkuta eri kentistä luettelointipohjan mukaan #1](https://github.com/KohaSuomi/koha-plugin-nalkutin/issues/1)
+* [Kentän 490 haettavuus #1435](https://github.com/KohaSuomi/Koha/issues/1435)
+
+### 2. Seuraava kokous
+
+
+
 ## Muistio 3/2024
 
 Aika: Ke 22.5.2024 klo 13-14<br />
