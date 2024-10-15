@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: 15.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Raporttien hakua rajapinnan kautta korjattiin tänään](https://github.com/KohaSuomi/Koha/discussions/1459)
@@ -35,6 +35,9 @@ Etelästä pohjoiseen
 * Mikroväylän lainaus- ja palautusautomaatit on päivitetty uudella softalla, joka hidastaa automaattien toimintaa. Myös tilastot näyttävät väärin. Selvitetään asiaa.
 * Finnaan on viety lainatuimmista ja varatuimmista kirjoista kuukausittain json-muodossa raportti, joka näyttää tietyllä aikavälillä lainatuimmat ja varatuimmat "suurimmasta pienempään" järjestyksessä. Tänään raportti kääntyikin Finnan puolella päinvastaiseen järjestykseen eli viimeisenä näytettiin varatuin/lainatuin. Finna-toimistoon laitettu kysymys, miksi tämä aikaisemmin toiminut käytäntö ei nyt toimikaan oikein. 
 
+**Lappi**
+* Tietoturva-asioiden käsittelyä, mm. turvapostit ja pääkäyttäjien sähköpostit/kansiot. Tietosuoja-asioita tullaan käsittelemään myös päiväkahveilla (etä) koko Lapin kirjaston henkilökunnan kesken.  
+* Ilmaantui muutama asiakas, jotka eivät voineet liittää lapsen korttia omaan korttiinsa Finnassa. Muutettiin FailedLoginAttempts asetusta 6 -> 10. Katsotaan riittäisikö se korjaukseksi vai onko vielä jotain muuta, mikä virheen aiheuttaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
 
