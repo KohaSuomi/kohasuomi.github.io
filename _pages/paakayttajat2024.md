@@ -16,6 +16,7 @@ Aika: 15.10.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Raporttien hakua rajapinnan kautta korjattiin tänään](https://github.com/KohaSuomi/Koha/discussions/1459)
 * Käyttekö lisäämässä GitHub-tunnuksiinne jonkin sellaisen nimen, josta teidät tunnistaa. Osa [Koha-Suomi-ryhmässä](https://github.com/orgs/KohaSuomi/people?page=1) olevista tunnuksista on tunnistamattomia ja pohdimme, kuuluvatko ne edelleen sinne.
 * Myös Matrixin tunnukset voisi vilkuilla läpi (selkeästi nimi ja kimppa) ja lisäksi tarkistaa, onko pääkäyttäjien huoneessa sellaisia, jotka eivät enää ole pääkäyttäjiä.
 * olisiko tarvetta laittaa päälle RecordStaffUserOnCheckout-järjestelmäasetus kaikissa kimpoissa?
