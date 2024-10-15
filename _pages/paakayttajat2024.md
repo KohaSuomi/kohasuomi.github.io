@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: 15.10.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Raporttien hakua rajapinnan kautta korjattiin tänään](https://github.com/KohaSuomi/Koha/discussions/1459)
@@ -30,7 +30,10 @@ Läsnä:
 
 Etelästä pohjoiseen
 
-
+**Vaara**
+* lauantaina tuli Kohaan häiriö, mutta omatoimikirjastot (Toverit) toimivat. Sunnuntaina ei enää omatoimi toiminut eikä maanantainakaan. Hellessä ongelma oli myös viikonloppuna, Kohassa Plack oli alhaalla. Maanantaina ongelma oli myös Lapissa. Yhteydettömän tilan lainaus on ainoa mahdollinen tapa toimia, mutta tästä pitää muistutella henkilökuntaa eli laatia toimintaohjeet viikonloppuihin ja iltoihin, kun Kohassa ei ole päivystystä.
+* Mikroväylän lainaus- ja palautusautomaatit on päivitetty uudella softalla, joka hidastaa automaattien toimintaa. Myös tilastot näyttävät väärin. Selvitetään asiaa.
+* Finnaan on viety lainatuimmista ja varatuimmista kirjoista kuukausittain json-muodossa raportti, joka näyttää tietyllä aikavälillä lainatuimmat ja varatuimmat "suurimmasta pienempään" järjestyksessä. Tänään raportti kääntyikin Finnan puolella päinvastaiseen järjestykseen eli viimeisenä näytettiin varatuin/lainatuin. Finna-toimistoon laitettu kysymys, miksi tämä aikaisemmin toiminut käytäntö ei nyt toimikaan oikein. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
