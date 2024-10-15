@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: 15.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Susanna Sandell (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Raporttien hakua rajapinnan kautta korjattiin tänään](https://github.com/KohaSuomi/Koha/discussions/1459)
@@ -31,6 +31,11 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara
     * Pääkäyttäjäpalaverin päätös: Otetaan käyttöön. Anneli tekee seurantatiketin, johon kirjataan, missä kimpoissa muutos on jo tehty.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Koha-Suomen Finna-tiketit on nyt käyty yhdessä läpi ja tärkeiksi valikoitui kuusi kehitysehdotusta. Uusia kehitysehdotuksia lisättäessä olisi hyvä käyttää "käsittelemätön"-labelia. (https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues)
+* Huoltajan lisäyslomake ja siinä olevat ylimääräiset kentät haluttaisiin pois (onnistuu CSS:llä).
+* Koha-Seminaarin aloitusajankohta torstaina 27.3.2025 on vasta klo 10
 
 **Vaara**
 * lauantaina tuli Kohaan häiriö, mutta omatoimikirjastot (Toverit) toimivat. Sunnuntaina ei enää omatoimi toiminut eikä maanantainakaan. Hellessä ongelma oli myös viikonloppuna, Kohassa Plack oli alhaalla. Maanantaina ongelma oli myös Lapissa. Yhteydettömän tilan lainaus on ainoa mahdollinen tapa toimia, mutta tästä pitää muistutella henkilökuntaa eli laatia toimintaohjeet viikonloppuihin ja iltoihin, kun Kohassa ei ole päivystystä.
