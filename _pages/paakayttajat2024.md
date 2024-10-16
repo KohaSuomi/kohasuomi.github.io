@@ -58,6 +58,13 @@ Etelästä pohjoiseen
 * Varmistin, että versiopäivityksessä Nextiltä siirretään vain JS-liitännäiset, ei kaikkia.
 * Kotkaan on tulossa ensi vuoden alussa uusi kirjastoauto, jonne tulee uusi Bibliothecan cloudCheck tablettiautomaatti. Kyseistä automaattia ei taida olle käytössä vielä muissa Koha-kirjastoissa, joten automaatin integroiminen Kohaan vaatii työtä. Integraation kehittäminen on aloitettu toimittamalla automaatin toimittajalle testiautomaatin tunnukset testille.
 
+**Lastu**
+* Kaksi viikkoa nyt Kohassa takana, paljon pienten asioiden selvittelyä mutta isossa kuvassa sujunut erittäin hyvin.
+* Hankintaa aloiteltu onnistuneesti, Puppe-aloituspalaveri pidetty 14.10. Puppe alustavasti käyttöön Lahdessa 28.10.
+* Kyseltiin miten muissa kimpoissa hoidettu kuukauden toisen keskiviikon huoltokatkon tiedottaminen asiakkaille.
+* Käyty läpi automaattien ja omatoimien asetuksia.
+* Törmätty ongelmaan, jossa saapuneeksi käsitellyn varauksen palauttaminen takaisin varausjonoon ei toiminut odotetunlaisesti. Varaus yritti tämän jälkeen kiinnittyä jonossa toisena olevaan. Ei saatu kuitenkaan luotettavasti toistettua, joten jatketaan selvittelyä.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 41
@@ -115,6 +122,8 @@ Pääkäyttäjät eivät nähneet kehitysehdotusta tarpeellisena. Perusteluja n�
 **Helle**
 * Asiakas uusinut Helle-Finnassa lainat keskiyön jälkeen samaan aikaan, kun Kohan maksuajot ovat olleet käynnissä. Tästä on aiheutunut asiakkaalle ylimääräisiä maksuja Kohaan. Palaverissa sovimme, että Finna-toimistoon ehdotetaan ominaisuutta, joka estää lainojen uusinnan Kohan maksuajojen aikana. Tiketti  [Saisiko Finnaan ominaisuuden, joka estää lainojen uusinnan Kohan maksuajojen aikaan](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/31)
 
+**Lastu**
+* Ei mitään ihmeellistä, reilusti pieniä asioita selvitelty ja viilattu asetuksia. Hyvin on arki lähtenyt Kohassa rullaamaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-41) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -155,6 +164,9 @@ Etelästä pohjoiseen
 **Kyyti**
 * [Kotipalvelun lainojen tarkistus koskemaan myös nyt lainassa olevia](https://github.com/KohaSuomi/Koha/issues/1437)
 * [Nidepakettia ei voi palauttaa tarkistamatta sisältöä, jos nidepaketti ei ole lainassa](https://github.com/KohaSuomi/Koha/issues/1436)
+
+**Lastu**
+* Koha otettu onnistuneesti käyttöön 30.9. Maanantaina paljon selvittelyä, mutta mukavasti lähti liikkeelle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-40) - [Palaa sivun alkuun](/paakayttajat2024)
 
