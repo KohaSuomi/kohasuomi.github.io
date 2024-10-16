@@ -15,6 +15,42 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 11/2024
+
+Aika: 24.10.2024 klo 13.00<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
+
+Viestien lähetys asiakkaalle useampaan sähköpostiosoitteeseen
+
+[bug 31652](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=31652)
+
+Kohassa asiakkaalle voi tallentaa useamman sähköpostiosoitteen, mutta tähän mennessä vain yhteen niistä on voinut lähettää asiakkaan viestit. Myöskään ei ole voinut valita, mihin osoitteeseen viestit lähetetään. Nyt on mahdollista lähettää viestit useampaan osoitteeseen ja valita, mihin osoitteeseen/osoitteisiin viestit lähetetään.
+
+Järjestelmäasetuksessa EmailFieldPrimary voidaan valita, mihin sähköpostikenttään tallennettuun osoitteeseen viestit lähetetään. Esim. sähköpostia tai toissijaista sähköpostia.
+
+Jos asetukseen asetetaan Valittuja sähköpostiosoitteita, tarkistaa Koha toisen järjestelmäasetuksen EmailFieldSelection sisällön. Asetuksessa voidaan valita, mihin osoitteisiin viestit lähetetään. Esim. sähköpostia ja/tai toissijaista sähköpostia.
+
+Tätä ominaisuutta voi hyödyntää esim. lisäämällä toissijaiseen sähköpostiosoitteeseen huoltajan osoitteen, jolloin viestit varauksista ja palautuskehotuksista menevät myös hänelle.
+
+Pohdittavaksi:
+* pitäisikö lapsiasiakkaalta poistaa huoltajien sähköpostiosoitteet lisäkentistä, kun he täyttävät x vuotta?
+* vaikeuttaako ylläpitoa, jos sähköpostiosoitteita tallennetaan eri kimpoissa vähän eri tietokannan kenttiin/sarakkeisiin
+
+### 3. Integraatiot
+
+### 4. Kehitysehdotusten läpikäynti
+
+* [Epäonnistuneisiin taustatoihin mahdollisuus tehdä ajo uudelleen #1428](https://github.com/KohaSuomi/Koha/issues/1428)
+* [Kyyti: Kotipalvelun lainojen tarkistus koskemaan myös nyt lainassa olevia #1437](https://github.com/KohaSuomi/Koha/issues/1437)
+
+### 5. Muut asiat
+
+### 6. Seuraavat kokoukset
+
 ## Asiantuntijaryhmän muistio 10/2024
 
 Aika: 25.9.2024 klo 13.15<br />
