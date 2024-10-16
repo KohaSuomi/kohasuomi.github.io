@@ -56,6 +56,7 @@ Etelästä pohjoiseen
 * Eräpäivämuistutuksen loppuminen tekstiviestillä on herättänyt asiakkaissa paljon kiukkua.
 * Kyselin tiketin [404](https://github.com/KohaSuomi/Koha/issues/404) perään. Lari olikin kommentoinut.
 * Varmistin, että versiopäivityksessä Nextiltä siirretään vain JS-liitännäiset, ei kaikkia.
+* Kotkaan on tulossa ensi vuoden alussa uusi kirjastoauto, jonne tulee uusi Bibliothecan cloudCheck tablettiautomaatti. Kyseistä automaattia ei taida olle käytössä vielä muissa Koha-kirjastoissa, joten automaatin integroiminen Kohaan vaatii työtä. Integraation kehittäminen on aloitettu toimittamalla automaatin toimittajalle testiautomaatin tunnukset testille.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
 
