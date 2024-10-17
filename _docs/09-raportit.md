@@ -418,6 +418,8 @@ mukaan tilastoihin.
   “EITILASTO”-asiakastyyppi, jonka lainoja ei lasketa mukaan, niin
   sitä ei merkitä tähän mukaan.
 
+- _excludedItemtypes_ -kohtaan merkitään aineistotyypit, joita ei lasketa mukaan kokoelmiin. Tähän lisätään esim. lehtiaineistojen aineistotyypit, koska niitä OKM:n ohjeistuksen mukaan ei lasketa nidetasolla mukaan kokoelmiin vaan ne ilmoitetaan vuosikertoina. Sitä tietoa taas ei tällä liitännäisellä lasketa.
+
 - _notForLoanStatuses_-kohtaan merkitään ne ei-lainattavana-tilat eli notforloan-tilat, joita ei
   oteta mukaan kokoelmatilastoihin. Esim. tilattu-tilassa olevat niteet.
 
