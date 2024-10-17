@@ -66,7 +66,7 @@ Etelästä pohjoiseen
 * Törmätty ongelmaan, jossa saapuneeksi käsitellyn varauksen palauttaminen takaisin varausjonoon ei toiminut odotetunlaisesti. Varaus yritti tämän jälkeen kiinnittyä jonossa toisena olevaan. Ei saatu kuitenkaan luotettavasti toistettua, joten jatketaan selvittelyä.
 
 **Kirkes**
-* Finnassa saapunut-tilassa olevia uutuusleffoja ei ole voinut varata, mutta Kohassa se onnistuu. Selvisi, että tietueen hankintavaiheessa tarvitsee tehdä muutos tietueeseen, jotta aineisto tulee varattavaksi. Ohjeistus tähän löytyi Kohan ohjeista.
+* Finnassa saapunut-tilassa olevia uutuusleffoja ei ole voinut varata, mutta Kohassa se onnistuu. Selvisi, että tietueen lisäämisvaiheessa Kohaan tarvitsee tehdä tietynlainen muutos tietueeseen, jotta aineisto tulee varattavaksi. Ohjeistus Kohan ohjeissa (https://koha-suomi.fi/dokumentaatio/hankinta/#7416-uudesta-tyhj%C3%A4st%C3%A4-tietueesta)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
 
