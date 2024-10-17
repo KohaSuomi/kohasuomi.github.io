@@ -8,7 +8,86 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
+## Kuvailuryhmän muistio 7/2024 ##
 
+Aika: 2.10.2024 klo 13.15–14.30
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi), Johanna Räisä (Koha-Suomi, kohdat 2-4)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Antti Heikkinen avasi kokouksen. Sihteerivuorossa oli Mauri Aittaniemi.
+
+#### 2.	RDA-konversiot ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/834" target="_blank">RDA-konversio tuotantoympäristöön</a> </li>
+  <li>28.–29.9.: Vaara, OUTI, Siili, Helle</li>
+  <li>5.–6.10.: Lumme, Kyyti, Vaski, Lappi</li>
+  <li>Myöhemmin Kirkes ja Lastu</li>
+  <li>TäTin konversio oli tehty. Konversiossa osakohteilta oli kadonnut 773 h-kenttä. Tämä oli johtunut siitä, että ISBD-konversiossa kenttä poistetaan, koska siinä on väärät tiedot. Nykyään kenttään merkitään kuitenkin emon 300a ja e-kenttien tiedot. Nämä oli kuitenkin jo korjattu.</li>
+  <li>Helle: Tehdystä konversiosta ei oltu vielä huomattu virheitä.</li>
+  <li>Vaara: Joitain pieniä virheitä oli syntynyt. Kirjastopalvelulta tulleissa tietueissa on ollut virheitä 336-, 337- ja 338-kentissä, koska 040 b -kenttä on puuttunut ja konversio on tullut 008-kentän perusteella. Konversion jälkeen oli korjattava n. 60–70 tietuetta, jotka olivat oikeasti suomenkielisiä (008/35-37=fin), mutta joiden kuvailukielenä oli 040b-kentässä ruotsi. Tällaisia tietueita, joiden 336-, 337- ja 338-kentissä (ja mahdollisesti muissakin) on nyt konversion jälkeen ruotsinkieliset termit, on muissakin kimpoissa.</li>
+  <li>Joissakin 336-, 337- ja 338-kentissä voi olla vielä ISBD-ajan arvoja, joita voi korjailla virheitä huomatessaan. Nämä johtuivat lähinnä vaillinaisista kiinteiden kenttien arvoista tai 336- ja 337-kentissä olleista kirjoitusvirheistä.</li>
+</ul>
+
+#### 3.	YSO-konversio ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1040" target="_blank">YSA/YSO-konversion testausta</a> </li>
+  <li>648-kenttä ja YSO-aikaan kuulumattomat termit -> Ei saada korjausta, vaan se on tehtävä itse. Konversio-ohjelmaa ei enää päivitetä Kansalliskirjaston toimesta. Antti oli ottanut yhteyttä Kansalliskirjastoon, ja konversio-ohjelman tekijät olivat jo nykyään muissa töissä. </li>
+  <li>Päätettiin alustavasti, että YSO-konversiot tehdään versionvaihdon jälkeen ensi tammikuussa ja tarvittavat korjaukset tehdään itse konversion jälkeen.</li>
+</ul>
+
+#### 4.	Melindan replikoinnit ja TäTin tietuemuokkaukset eivät välttämättä aina valu paikalliskantoihin asti, jos tietuetta päivitetään lyhyessä ajassa monta kertaa peräkkäin. ####
+
+Antti kysyi, kuinka paljon valutuksia "menee ohi", ja miten pitäisi toimia, jotta tältä vältyttäisiin? Määrä tuntui olevan tuntematon. Johanna Räisä kertoi, että päivityksiä ei voi oikeastaan laittaa tapahtumaan tiheämmin eli alle minuutissa. Esim. osakohteellisissa tietueissa voi tulla ongelmia, jos päivitystiheys on hyvin nopea. Kun tietuetta muokataan uudelleen, pitäisi aina odottaa, että korjaus näkyy tietokannassa. Jos jonoon tallennetaan useita kertoja, vain ensimmäinen korjaus pääsee valumaan paikalliskantoihin. Ohjelma katsoo, että tietue on jo jonossa, eikä huoli viimeistä tallennusta mukaan. Johanna mietti, voisiko ohjelma toimia eri tavalla ja valuttaisi vasta viimeisen tallennuksen samasta tietueesta. Virheellisiä valumisia voi tulla enempikin, jos on ollut meneillään massakorjausajoja. Antti ottaa asian puheeksi seuraavassa Koha-Suomi-Melindan kokouksessa, voiko replikointia Melindasta TäTiin hidastaa sen verran, ettei syntyisi tällaisia tallennusjonoja.
+
+#### 5.	TäTin RDA-konversion jälkeiset korjaukset ####
+<ul>
+  <li>Ruotsinkielisessä aineistossa suhdetermi konstnär -> framförande person, jos on kyse esittäjästä. </li>
+  <li>336-, 337- ja 338-kentät, joihin on jäänyt ISBD-ajan arvot </li>
+  <li>Konversiossa paljastui myös muita alun perin virheellisesti tehtyjä tietueita</li>
+</ul>
+
+#### 6.	Lisäpainoshuomautusten katoaminen paikalliskannan tietueista valumisten yhteydessä ####
+
+Tästä keskusteltiin lyhyesti. Lisäpainoshuomautusten katoamista ei pidetty kovin vakavana asiana.
+
+#### 7.	MARC-formaatin automaattinen päivittäminen ####
+<ul>
+  <li>Tiketissä: <a href="https://github.com/KohaSuomi/Koha/issues/1241" target="_blank">MARC-formaatin päivittäminen</a> </li>
+  <li>Päivitys ei poista formaatista poistettuja kenttiä, koska silloin niissä mahdollisesti olevia tietoja ei pääse käsittelemään Kohassa kuvailueditoreilla ja tiedot myös katoavat, jos tietueen tallentaa. </li>
+  <li>MARC-virheraportti ilmoittaa poistetuista kentistä, vaikka ne kuvailupohjissa vielä olisivatkin </li>
+  <li>Esimerkiksi kentät 022 l ja m (ISSN-L ja peruttu ISSN-L) ovat poistuneet käytöstä kesäkuussa 2024. Tiedot laitetaan jatkossa kenttään 023. Melindassa poistuneiden kenttien tiedot on jo siirretty oikeisiin kenttiin. Keskusteltiin siitä, miten nämä korjaukset olisi järkevintä tehdä Kohassa. Korjataanko tietueet ensin ja poistetaan formaatista poistetut osakentät vasta sitten kuvailupohjista vai poistetaanko osakentät heti ja tehdään korjaukset myöhemmin esim. erillisillä korjausajoilla. Formaatista poistetut kentät säilyvät tietueissa niin kauan kuin niitä ei mennä avaamaan sellaiselle kuvailupohjalle, josta kyseiset kentät on poistettu. </li>
+  <li>Todettiin, että olisi hyvä, jos kuvailupohjat ovat koko ajan tasalla eikä niissä ole formaatista poistettuja kenttiä </li>
+  <li>Antti kysyy Pasi Kalliselta, voisiko automaattista päivitystoimintoa säätää siten, että formaatista poistetut kentät poistuvat kuvailupohjista päivityksen yhteydessä. Tässä on otettava kuitenkin huomioon, että pohjissa on tälläkin hetkellä formaattiin kuulumattomia kenttiä, kuten 090 tai jotkut 5- ja 9-osakentät, joita ei saisi poistaa pohjista. Selvitetään myös, onko mahdollista korjata 022 l ja m-kentät sisältävät tietueet koneellisesti vai pitääkö ne korjata käsin. Todennäköisesti tällaisia tietueita ei ole Koha-Suomen tietokannoissa kovin paljon.</li>
+</ul>
+
+#### 8.	Metatietosanaston päivitykset ####
+
+246i-kentän ”julkaistu aiemmin jne.” fraasit 775-kenttään -> korjaukset tehtävä käsin
+
+#### 9.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1406" target="_blank">Vaari-tunnukset</a>  </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1419" target="_blank">Osakohteiden näkymisessä emokohteessa ongelmia, jos osakohteen taso on d</a> -> Ongelma oli vain Lastu-kirjastoissa. Kyseessä olivat 1970–1980-lukujen vanhat osakohdetietueet. Johanna Räisä oli korjannut näitä niin, että osakohteet näkyvät emon yhteydessä. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/454" target="_blank">Tilaustietueet eivät yhdisty aina oikein, kun 024a-kentästä tarkistetaan vain ensimmäinen osakenttä</a> -> Korjaus tulossa marraskuun versionvaihdon jälkeen</li>
+</ul>
+
+#### 10.	Muita asioita ####
+<ul>
+  <li>Vaarassa kaikki Kirjastopalvelun lähettämät korjaukset eivät ole siirtyneet paikalliskantaan asti. Yritetään selvittää, mistä tämä johtuu ja onko muillakin kimpoilla samanlaisia tapauksia. </li>
+  <li>Seuraava Koha-Suomi-Melinda-tilannepalaveri 8.10. </li>
+  <li>Melinda/Koha-koulutus torstaina 7.11. klo 13.00–15.30 </li>
+  <li>Versionvaihto 18.11. -> Ei merkittäviä muutoksia kuvailuun </li>
+  <li>Kirjastopalvelun asiakasohjausryhmän kokous 19.11. </li>
+</ul>
+
+#### 11.	Seuraava kokous keskiviikkona 6.11. Klo 13.15–14.45 ####
+
+
+---
 ## Kuvailuryhmän muistio 6/2024 ##
 
 Aika: 5.9.2024 klo 13.15–14.16
