@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.2025 Turussa.
+
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
 
 Viestien lähetys asiakkaalle useampaan sähköpostiosoitteeseen
@@ -39,8 +41,11 @@ Tätä ominaisuutta voi hyödyntää esim. lisäämällä toissijaiseen sähköp
 Pohdittavaksi:
 * pitäisikö lapsiasiakkaalta poistaa huoltajien sähköpostiosoitteet lisäkentistä, kun he täyttävät x vuotta?
 * vaikeuttaako ylläpitoa, jos sähköpostiosoitteita tallennetaan eri kimpoissa vähän eri tietokannan kenttiin/sarakkeisiin
+  * olisiko tarpeen sopia yhdessä, mitä sähköpostikenttiä käytetään?
 
 ### 3. Integraatiot
+
+Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) omalta osaltaan ajantasalle. Katsotaan tilanne ja pohditaan, onko tarvetta jatkoselvittelyihin borrowers/status-rajapinnan välittämien tietojen osalta.
 
 ### 4. Kehitysehdotusten läpikäynti
 
@@ -50,6 +55,9 @@ Pohdittavaksi:
 ### 5. Muut asiat
 
 ### 6. Seuraavat kokoukset
+
+Ke 27.11.2024 klo 13-15<br />
+Ke 8.1.2025 klo 13-15
 
 ## Asiantuntijaryhmän muistio 10/2024
 
