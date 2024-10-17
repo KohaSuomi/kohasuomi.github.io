@@ -22,7 +22,7 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
-Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.2025 Turussa.
+Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.2025 Turussa. Torstaina Studio-tilan varaus alkaa klo 10. Lisäksi varattuna on kolme muuta pienepää tilaa iltapäivälle ryhmätyöskentelyä varten.
 
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
 
