@@ -66,6 +66,8 @@ Etelästä pohjoiseen
 * Törmätty ongelmaan, jossa saapuneeksi käsitellyn varauksen palauttaminen takaisin varausjonoon ei toiminut odotetunlaisesti. Varaus yritti tämän jälkeen kiinnittyä jonossa toisena olevaan. Ei saatu kuitenkaan luotettavasti toistettua, joten jatketaan selvittelyä.
 
 **Kirkes**
+* Laskuttajat ovat toivoneet laskutuslisää, joka tulisi laskun sijasta asiakkaan saldoon Kohassa, eli juuri toisin päin kuin laskutustyökalu toimii. Kiinnostusta kehitysehdotuksen tekemiseen ei ollut laajemmin, mutta Lapista kerrottiin, että siellä laskuttaja tai palautuksen vastaanottaja lisää asiakkaalle käsin maksun, kun laskutettua aineistoa palautuu. Esitellään vaihtoehtoa Kirkesin laskuttajille.
+* Ulkomaisten puhelinnumerojen salliminen on aiheuttanut keskustelua tietoturvasta ja -suojasta, mutta todettiin että ulkomainen numero ei ole sen suurempi riski kuin kotimainenkaan. Numeroiden sallimista harkitaan, koska tekstiviestien hinta on sama kuin kotimaisiinkin numeroihin, ja alueella on paljon esim. vaihto-opiskelijoita. 
 * Finnassa saapunut-tilassa olevia uutuusleffoja ei ole voinut varata, mutta Kohassa se onnistuu. Selvisi, että tietueen lisäämisvaiheessa Kohaan tarvitsee tehdä tietynlainen muutos tietueeseen, jotta aineisto tulee varattavaksi. Ohjeistus Kohan ohjeissa (https://koha-suomi.fi/dokumentaatio/hankinta/#7416-uudesta-tyhj%C3%A4st%C3%A4-tietueesta)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-42) - [Palaa sivun alkuun](/paakayttajat2024)
