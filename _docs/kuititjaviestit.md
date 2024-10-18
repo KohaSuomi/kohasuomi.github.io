@@ -366,7 +366,7 @@ Email-pohjaan. HTML-täppä paikoilleen.
 
 <h3>Kaikki lainassa olevat</h3>
 <checkedout>
-<p><<biblio.title>> <<items.enumchron>> / <<biblio.author>> <br />
+<p><<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> <br />
 Nidetunnus: <<items.barcode>><br />
 Eräpäivä: <<issues.date_due | dateonly >><br />
 Uusittu: <<issues.renewals_count>> / 7 kertaa
@@ -424,7 +424,7 @@ Uusintakerrat: <<issues.renewals_count>> / 7
 
 <h2>All check outs</h2>
 <checkedout>
-<p><<biblio.title>> <<items.enumchron>> / <<biblio.author>> <br />
+<p><<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> <br />
 Barcode: <<items.barcode>><br />
 Due date: <<issues.date_due | dateonly >><br />
 Renewals: <<issues.renewals_count>>
