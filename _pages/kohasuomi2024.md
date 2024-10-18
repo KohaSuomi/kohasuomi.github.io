@@ -18,6 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 21.10.2024 klo 9<br />
 Läsnä:
 
+* Päivystysvuorot viikosta 44 alkaen
 * Kolmansien osapuolten pääsyt testeille? Ja tuotantoihin(!?) Miten linjataan, mitä suositellaan?
 * Käyttäjävirheiden korjaamisen linjaus. Milloin kehittäjät korjaavat, milloin jätetään korjaamatta?
   * Esimerkiksi tiketti [#1455](https://github.com/KohaSuomi/Koha/issues/1455) 
