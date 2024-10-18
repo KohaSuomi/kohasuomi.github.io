@@ -132,31 +132,53 @@ Tieto lisätään email-pohjaan.
 #### Suomeksi
 
 ```
-Asiakas: <<borrower-attribute:HOLDID>>
+[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
 
-Kirjastokorttisi voimassoloaika on päättymässä <<borrowers.dateexpiry>>.
+Hei,
 
-Ota yhteys kirjastoosi jatkaaksesi voimassaoloaikaa. Samalla tarkistamme yhteystietosi. Tarkistamme yhteystiedot kaikilta asiakkailtamme viiden vuoden välein. 
+Koha-käyttäjätunnuksesi voimassaolo päättyy 30 päivän kuluttua. Mikäli työsuhteesi jatkuu, pyydäthän esihenkilöä huolehtimaan tunnuksen voimassaolon jatkamisesta ennen <<borrowers.dateexpiry>>.
+
+Ystävällisin terveisin
+Koha-tuki
+
+
+[% ELSE %]
+
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Kirjastokorttisi voimassaoloaika on päättymässä <<borrowers.dateexpiry>>.
+
+Ota yhteys kirjastoosi jatkaaksesi voimassaoloaikaa. Tarkistamme samalla yhteystiedot kaikilta asiakkailtamme, kun jatkamme kirjastokortin voimassaoloaikaa.
 
 Ystävällisin terveisin
 
 OUTI-kirjastot
+outi.finna.fi
+
+[% END %]
 www.outikirjastot.fi
 ```
 
 #### Englanniksi
 
 ```
-Customer: <<borrower-attribute:HOLDID>>>
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
 
-The validity period of your library card is ending <<borrowers.dateexpiry>>. 
+Your library card will expire on <<borrowers.dateexpiry>>. 
 
-Please contact your library to continue the validity period. At the same time we check your contact information. We will check the contact information from all our customers every five years. 
+Please contact your library to extend the validity period of your library card. The staff will check your contact information to make sure everything is up to date. We check the contact information of all our customers when the validity of their library card is extended.
 
-Sincerely
+
+Best regards
 
 OUTI Libraries
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 #### Asiakaslajin mukaan valikoituva viestipohja
