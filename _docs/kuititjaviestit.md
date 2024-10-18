@@ -372,8 +372,11 @@ Eräpäivä: <<issues.date_due | dateonly >><br />
 Uusittu: <<issues.renewals_count>> / 7 kertaa
 </p>
 </checkedout>
-<p>Yhteensä lainoja: [% checkouts.count %] 
-
+<p>Yhteensä lainoja: [% checkouts.count %][% IF checkouts.count > 1 %]
+      lainaa
+[% ELSE %]
+      laina
+    [% END %] </p>
 <br/>
 <h4>Myöhässä olevat</h4>
 <overdue>
@@ -381,14 +384,19 @@ Uusittu: <<issues.renewals_count>> / 7 kertaa
 <<biblio.title>> / <<biblio.author>>  <br />
 Nidetunnus: <<items.barcode>><br />
 Eräpäivä: <<issues.date_due | dateonly >> <br />
-Uusintakerrat: <<issues.renewals_count>>
+Uusintakerrat: <<issues.renewals_count>> / 7
 </p>
 </overdue>
-<p>Yhteensä myöhässä: [% overdues.count %]
+<p>Yhteensä myöhässä: [% overdues.count %][% IF overdues.count > 1 %]
+      lainaa
+[% ELSE %]
+      laina
+    [% END %] </p>
 <br />
 <p>Maksut:
 [% SET balance = borrower.account.balance %]
 [% balance | $Price %] €
+[% END %]
 <br>
 <br>
 <br>
