@@ -1810,7 +1810,7 @@ Tähän voisi ainakin alustavasti laittaa nämä tiedot:
 
 Viestityyppi: Tulosta
 ```
-[% item.biblio.title %] [% checkout.date_due | $KohaDates %] [% item.barcode %]
+[% item.biblio.title %] [% item.biblio.subtitle %] [% item.biblio.part_name %] [% item.biblio.part_number %] [% item.biblio.author %] [% checkout.date_due | $KohaDates %] [% item.barcode %]
 ```
 
 ## STAFF_PASSWORD_RESET
