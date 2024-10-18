@@ -210,29 +210,39 @@ Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alus
 #### Suomeksi
 
 ```
-Asiakastunnus: <<borrowers.cardnumber>>
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Asiakastunnus: *****[% borrower.cardnumber.substr(-3) %]
 
 Seuraavilla lainoilla on eräpäivä tänään: 
 
 <<items.content>>
 
-
 Lainat voi uusia osoitteessa https://outi.finna.fi/MyResearch/CheckedOut
 
-Lainat voi uusia, jos niistä ei ole varauksia. Lainan voi uusia poikkeuksellisesti enintään kymmenen kertaa peräkkäin. Uusimiseen tarvitaan kirjastokortin numero ja pin-koodi.
+Lainat voi uusia, jos niistä ei ole varauksia. Lainan voi uusia enintään 7 kertaa peräkkäin. Uusimiseen tarvitaan kirjastokortin numero ja PIN-koodi.
 
 Terveisin 
 OUTI-kirjastot
 <<branches.branchfax>>
-http://www.outikirjastot.fi
 
-ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastokortteja, esimerkiksi lapsen tai muun perheenjäsenen kortin. Tämän toiminnon avulla liitetyn kortin tietoja pääsee tarkastelemaan ja muokkaamaan, uusimaan lainoja ja tekemään varauksia. Kortin liittämiseen tarvitsee tietää liitettävän kirjastokortin numero ja sen pin-koodi.
+outi.finna.fi
+
+ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastokortteja, esimerkiksi lapsen tai muun perheenjäsenen kortin. Tämän toiminnon avulla liitetyn kortin tietoja pääsee tarkastelemaan ja muokkaamaan, uusimaan lainoja ja tekemään varauksia. Tarvitset liitettävän kirjastokortin numeron ja sen PIN-koodin, jotta voit liittää kortin.
 ```
 
 #### Englanniksi
 
 ```
-Library card number: <<borrowers.cardnumber>>
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Customer number: *****[% borrower.cardnumber.substr(-3) %]
 
 The following items are due today:
 
@@ -240,12 +250,16 @@ The following items are due today:
 
 You can renew your loans at https://outi.finna.fi/MyResearch/CheckedOut
 
-You need your library card number and PIN for renewing.
+You can renew your loans if there are no reservations. A loan can be renewed up to 7 times in a row. You need your library card number and PIN for renewing.
+
 
 Best regards
 OUTI Libraries
 <<branches.branchfax>>
-http://www.outikirjastot.fi
+
+outi.finna.fi
+
+P.S. You can connect other library cards under your library card in the OUTI Web Library, such as the card of a child or another family member. By connecting the library card, you can see and edit the information of the card, renew loans, and make reservations. You need the number and PIN of the library card you want to add.
 ```
 
 #### Pohja, jossa kirjastokorttitunnuksesta printataan vain kolme viimeistä merkkiä
