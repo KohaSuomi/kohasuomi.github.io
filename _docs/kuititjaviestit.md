@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testattu toimivaksi Kohan versiossa 22.11.
+Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testattu toimivaksi Kohan versiossa 23.11.
 
 
 ## HOLD_SLIP eli varauksen info- ja kuljetuskuitti
