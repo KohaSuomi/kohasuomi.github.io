@@ -1900,19 +1900,55 @@ HTML-viesti: kyllä
 Viestin aihe: Tervetuloa Vaara-kirjastojen asiakkaaksi
 ```
 [% USE Koha %]
-Hei [% borrower.firstname %].
 
-Tervetuloa Vaara-kirjastojen asiakkaaksi.
+[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
 
-<a href='https://vaara.finna.fi'>Verkkokirjastossamme</a> voit uusia lainojasi, etsiä tietoa kirjaston kokoelmista ja tehdä varauksia.
+Hei [% borrower.firstname %]! 
 
-Tutustuthan myös <a href='https://vaara.finna.fi/Content/asiakkaana#userrights'>käyttösääntöihimme</a>.
+Tervetuloa OUTI-kirjastojen Koha-kirjastojärjestelmän käyttäjäksi.
 
-Jos sinulla on mitä tahansa kysyttävää kirjaston toiminnasta tai aineistostamme, ole meihin yhteydessä. <a href='https://vaara.finna.fi/Content/kirjastot'>Yhteystietomme löytyvät verkkokirjastosta</a>.
+Saat Koha-käyttäjätunnuksen ja siihen liittyvän salasanan omalta esihenkilöltäsi tai Koha-tuki toimittaa ne sinulle salattuna.
 
-Ystävällisin terveisin
+Tarvittavat ohjeet ja ohjeistukset saat esihenkilöltäsi. Tutustu ohjeisiin huolellisesti ja toimi niiden mukaisesti. 
 
-Vaara-kirjastot
+
+Ystävällisin terveisin 
+Koha-tuki 
+OUTI-kirjastot 
+
+
+[% ELSE %]
+
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Tervetuloa OUTI-kirjastojen asiakkaaksi! 
+ 
+Uutta kirjastokorttiasi voit käyttää oman kirjastosi lisäksi kaikissa muissakin OUTI-kirjastoissa. 
+ 
+OUTI-kirjastoihin kuuluvat Hailuodon, Iin, Kempeleen, Kuusamon, Limingan, Lumijoen, Muhoksen, Oulun, Pudasjärven, Pyhäjoen, Raahen, Siikajoen, Taivalkosken, Tyrnävän, Utajärven ja Vaalan kirjastot. 
+ 
+Kirjastokorttisi numerolla ja siihen liitetyllä PIN-koodilla voit kirjautua OUTI-verkkokirjastoon osoitteessa outi.finna.fi. Myös omatoimikirjastoihin kirjaudutaan kirjastokortilla ja PIN-koodilla. Jos sinulla ei ole PIN-koodia tai olet unohtanut sen, voit tilata uuden OUTI-verkkokirjastosta. 
+ 
+Voit etsiä lainattavia kirjoja ja muuta aineistoa OUTI-verkkokirjastosta. Jos haluamasi kirja tai muu aineisto ei ole paikalla, voit tehdä siihen varauksen. OUTI-verkkokirjastossa voit pitää omat tietosi ja viestiasetuksesi ajan tasalla. Löydät sieltä myös mobiilikirjastokortin. 
+ 
+Äänikirjat, e-kirjat, elokuvat ja muu e-aineisto löytyy Pohjoisen eKirjastosta, johon pääset OUTI-verkkokirjaston kautta. 
+ 
+Kirjastokortti ja PIN-koodi ovat henkilökohtaisia ja olet vastuussa niiden käytöstä. Älä siis luovuta korttia tai tunnuksia muille. 
+ 
+OUTI-kirjastojen käyttösäännöt ja lisätietoa kirjaston palveluista sekä käytöstä löydät OUTI-verkkokirjastosta outi.finna.fi ja oman kirjastosi verkkosivuilta. 
+
+
+Terveisin 
+<<branches.branchname>>
+<<branches.branchaddress1>>
+<<branches.branchzip>>  <<branches.branchcity>>
+<<branches.branchphone>>
+<<branches.branchreplyto>>
+
+[% END %]
 ```
 
 #### Englanniksi
