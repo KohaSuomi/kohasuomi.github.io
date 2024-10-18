@@ -882,10 +882,15 @@ Barcode: [% item.barcode %] <br />
 <<branches.branchname>>
 <<today>>
 
-Palautitte tänään seuraavat lainat:
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
+
+Palautit tänään seuraavat lainat:
 
 ----
-<<biblio.title>> <<items.enumchron>> / <<biblio.author>> <<items.barcode>>
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> <<items.barcode>>
 ----
 
 Terveisin OUTI-kirjastot
@@ -898,10 +903,15 @@ www.outikirjastot.fi
 <<branches.branchname>>
 <<today>>
 
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
+
 You checked in today:
 
 ----
-<<biblio.title>> <<items.enumchron>> / <<biblio.author>> <<items.barcode>>
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> <<items.barcode>>
 ----
 
 Best regards
