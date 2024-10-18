@@ -1144,32 +1144,33 @@ http://www.outikirjastot.fi
 #### Suomeksi
 
 ```
-Hyvä kirjaston asiakas  
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>!
+[% END %]
 
 Seuraavat lainasi ovat edelleen palauttamatta. Tämä on toinen palautuskehotus.  
 
-Asiakastunnus: <<borrowers.cardnumber>> 
+Asiakastunnus: *****[% borrower.cardnumber.substr(-3) %]
 
-Erääntyneet lainat: 
+Lainat, joiden eräpäivä on mennyt:
 
 ---- 
-
-<item>Nide: <<items.barcode>>, Aineistolaji: <<items.itype>> 
-Teos: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>   
+<item>Nide: <<items.barcode>>, Aineistolaji: <<biblioitems.itemtype>> 
+Teos: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>   
 Eräpäivä: <<issues.date_due>>, Lainattu: <<issues.issuedate>> 
 </item> 
-
 ---- 
 
-Palautathan lainasi mahdollisimman pian. Voit uusia lainasi OUTI-verkkokirjastossa, jos niistä ei ole varauksia. Lainan voi uusia enintään 10 kertaa peräkkäin. OUTI-verkkokirjaston osoite: www.outikirjastot.fi 
+Palautathan lainasi mahdollisimman pian. Voit uusia lainasi OUTI-verkkokirjastossa, jos niistä ei ole varauksia. Lainan voi uusia enintään 7 kertaa peräkkäin. OUTI-verkkokirjaston osoite: outi.finna.fi
 
 Myöhästymismaksut alkavat kertyä heti eräpäivän jälkeen. Lasten aineistosta ja lapsiasiakkaan lainoista ei mene myöhästymismaksua.
 
-Perimme tämän muistutuksen lähettämisestä 3 euron huomautusmaksun. 
+Perimme tämän muistutuksen lähettämisestä 3,00 € huomautusmaksun. 
 
 Palauttamattomista lainoista lähetämme laskun. Laskun lähettäminen aiheuttaa lainauskiellon. Hoitamatta jäävä lasku voi johtaa perintään. 
 
-Epäselvissä tapauksissa pyydämme ottamaan yhteyttä kirjastoon. 
+Pyydämme ottamaan epäselvissä tapauksissa yhteyttä kirjastoon.
 
 
 Ystävällisin terveisin 
@@ -1180,36 +1181,38 @@ OUTI-kirjastot
 <<branches.branchfax>> 
 <<branches.branchphone>> 
 <<branches.branchreplyto>> 
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 #### Englanniksi
 
 ```
-Dear library user
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>!
+[% END %] 
 
-Your loans are still overdue. This is a second overdue notice. 
+Your loans are still overdue. This is the second overdue notice. 
 
-Customer number:  <<borrowers.cardnumber>> 
+Customer number: *****[% borrower.cardnumber.substr(-3) %] 
 
 Overdue items: 
 ---- 
 <item>Itemnumber: <<items.barcode>> 
-Title: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>   
-Due date: <<issues.date_due>>, Checked out on: <<issues.issuedate>>, Item type: <<items.itype>> 
+Title: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>   
+Due date: <<issues.date_due>>, checked out on: <<issues.issuedate>>, item type: <<biblioitems.itemtype>> 
 </item> 
 ----  
 
-Please return your overdue items as soon as possible. You can also renew them at the OUTI Web Library if there are no reservations. Loans can be renewed up to ten times. 
+Please return your overdue items as soon as possible. You can also renew them at the OUTI Web Library if there are no reservations. Loans can be renewed up to 7 times. 
 
-The overdue fine starts to accrue immediately after the due date. Materials for children and material borrowed by customers under the age of 18 years are not subject to overdue fines.
+The overdue fine starts to accrue immediately after the due date. Materials for children and items borrowed by customers under the age of 18 years are not subject to overdue fines.
 
-We also charge 3 euro for sending this notification. 
+We also charge 3,00 € for sending this notification. 
 
-Unless you return the items, you will receive an invoice of the overdue loans. Your library card will be blocked when the invoice is sent. Not taking care of the invoice can lead to collection of your debt. 
+You will receive an invoice for the overdue loans if you do not return the items. Your library card will be blocked when the invoice is sent. Not taking care of the invoice can lead to collection of your debt. 
 
 If you have any questions about these loans, please contact the library where you checked them out. 
-  
 
 Best regards 
 
@@ -1219,7 +1222,7 @@ OUTI Libraries
 <<branches.branchfax>> 
 <<branches.branchphone>> 
 <<branches.branchreplyto>> 
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 ### Tuloste/Print-pohjaan
@@ -1236,7 +1239,7 @@ Seuraavat lainasi ovat edelleen palauttamatta. Tämä on toinen palautuskehotus.
 Erääntyneet lainat: 
 ---- 
 <item>Nide: <<items.barcode>>, Aineistolaji: <<biblioitems.itemtype>> 
-Teos: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>
+Teos: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>
 Eräpäivä: <<issues.date_due>>, Lainattu: <<issues.issuedate>> 
 </item> 
 ----  
@@ -1272,7 +1275,7 @@ Your loans are overdue.
 Overdue items: 
 ---- 
 <item>Itemnumber: <<items.barcode>>,  Item type: <<biblioitems.itemtype>> 
-Title: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>   
+Title: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>   
 Due date: <<issues.date_due>>, Checked out on: <<issues.issuedate>> 
 </item> 
 ----  
