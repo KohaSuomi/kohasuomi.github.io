@@ -203,59 +203,6 @@ Tähän viestiin ei voi vastata. Otathan tarvittaessa yhteyttä omaan kirjastoos
 
 Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alussa ajaa saman asian kuin ```[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]```
 
-## FINESLIP eli asiakkaan maksut
-
-### Tuloste/Print-pohjaan
-
-Tieto lisätään Tuloste/Print-pohjaan. HTML-täppä pitää laittaa paikoilleen.
-
-#### Suomeksi
-
-```
-<style type="text/css">
-  h1 { font-family: arial; font-size: 20pt; }
-  h2 { font-family: arial; font-size: 18pt; }
-  h3 { font-family: arial; font-size: 16pt; }
-  h4 { font-family: arial; font-size: 14pt; }
-  p { font-family: arial; font-size: 10pt; }
-</style>
-<h3><<branches.branchname>><br />
-<<today>></h3>
-<br /><br />
-<h3>Kirjastomaksut:</h3>
-<fines>
-<p><<fines.date_due>> <<fines.description>>: <<fines.amount>> € </p>
-</fines>
-<p><b>Yhteensä:</b> <<total.amount>> €</p><br />
-<p><<branches.branchfax>><br />
-<<branches.branchphone>><br />
-www.outikirjastot.fi</p>
-```
-
-
-#### Englanniksi
-
-```
-<style type="text/css">
-  h1 { font-family: arial; font-size: 20pt; }
-  h2 { font-family: arial; font-size: 18pt; }
-  h3 { font-family: arial; font-size: 16pt; }
-  h4 { font-family: arial; font-size: 14pt; }
-  p { font-family: arial; font-size: 10pt; }
-</style>
-<h3><<branches.branchname>><br />
-<<today>></h3>
-<br /><br />
-<h3>Fines:</h3>
-<fines>
-<p><<fines.date_due>> <<fines.description>>: <<fines.amount>> € </p>
-</fines>
-<p><b>Total:</b> <<total.amount>> €</p><br />
-<p><<branches.branchfax>><br />
-<<branches.branchphone>><br />
-www.outikirjastot.fi</p>
-```
-
 ## DUEDGST eli Eräpäivämuistutus eräpäivänä
 
 ### Email-pohjaan
