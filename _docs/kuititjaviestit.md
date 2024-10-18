@@ -1696,11 +1696,34 @@ HTML-viesti: ei<br />
 Viestin aihe: Kirjastokorttisi salasana vaihdettiin<br />
 Viestin sisältö:
 ```
-Kirjastokorttisi salasana vaihdettiin. Jos et tehnyt sitä itse tai et pyytänyt vaihtoa, ole yhteydessä kirjastoosi.
+[% USE Koha %]
+[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
+
+Hei [% borrower.firstname %]! 
+
+Koha-käyttäjätunnuksellesi tallennettiin tai vaihdettiin salasana. Jos et tehnyt sitä itse tai et pyytänyt vaihtoa, ole yhteydessä Koha-tukeen.
+
+Ystävällisin terveisin 
+Koha-tuki 
+OUTI-kirjastot 
+
+[% ELSE %]
+
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>!
+[% END %]
+
+OUTI-kirjastojen kirjastokortillesi tallennettiin tai vaihdettiin PIN-koodi. Jos et tehnyt sitä itse tai et pyytänyt vaihtoa, ole yhteydessä kirjastoosi.
 
 Ystävällisin terveisin
 
-Vaara-kirjastot
+<<branches.branchname>>
+<<branches.branchphone>>
+<<branches.branchreplyto>>
+outi.finna.fi
+
+[% END %]
 ```
 
 #### Englanniksi
@@ -1710,11 +1733,17 @@ HTML-viesti: ei<br />
 Viestin aihe: Notification of password change<br />
 Viestin sisältö:
 ```
-The password of your librarycard has been changed. If you did not change it yourself (or requested that change), please contact your library.
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>! 
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>! 
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
 
-Best regards
+The PIN of your OUTI library card has been changed or added for the first time. If you did not change the PIN yourself or request a change, please contact your library.  
 
-Vaara-kirjastot
+
+Best regards 
+
+OUTI Libraries 
 ```
 
 ## HOLD_CHANGED 
