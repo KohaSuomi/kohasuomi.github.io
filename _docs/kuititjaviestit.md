@@ -127,6 +127,8 @@ at the OUTI Web Library:
 
 ## MEMBERSHIP_EXPIRY eli sähköpostiviesti tilin voimassaoloajan loppumisesta
 
+Päivitetty 18.10.2024
+
 ### Email-pohjaan
 
 Tieto lisätään email-pohjaan.
@@ -206,6 +208,8 @@ Tähän viestiin ei voi vastata. Otathan tarvittaessa yhteyttä omaan kirjastoos
 Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alussa ajaa saman asian kuin ```[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]```
 
 ## DUEDGST eli Eräpäivämuistutus eräpäivänä
+
+Päivitetty 18.10.2024
 
 ### Email-pohjaan
 
@@ -345,6 +349,8 @@ P.S. You can connect other library cards under your library card in the OUTI Web
 
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
+
+Päivitetty 18.10.2024
 
 ### Email-pohjaan
 
@@ -564,6 +570,8 @@ Credits [% balance | $Price %] €.
 
 ## CHECKOUT eli Lainauskuitti sähköpostiin
 
+Päivitetty 18.10.2024
+
 ### Email-pohjaan
 
 #### Suomeksi
@@ -604,6 +612,8 @@ outi.finna.fi
 ```
 
 ## HOLD eli Noutoilmoitus
+
+Päivitetty 18.10.2024
 
 ### Email-pohjaan
 
@@ -876,6 +886,8 @@ Barcode: [% item.barcode %] <br />
 
 ## CHECKIN eli palautuskuitti sähköpostiin
 
+Päivitetty 18.10.2024
+
 ### Email-pohjaan
 
 #### Suomeksi
@@ -922,6 +934,8 @@ www.outikirjastot.fi
 ```
 
 ## OVERDUES_SLIP eli myöhässä olevat lainat kuitille
+
+Päivitetty 18.10.2024
 
 ### Tuloste/Print-pohjaan
 
@@ -982,6 +996,8 @@ Renewals: <<issues.renewals>><br /><br /></item>
 ```
 
 ## ODUE1 eli ensimmäinen palautuskehotus
+
+Päivitetty 18.10.2024
 
 ### Email/sähköposti-pohjaan
 
@@ -1140,6 +1156,8 @@ http://www.outikirjastot.fi
 ```
 
 ## ODUE2 eli toinen palautuskehotus
+
+Päivitetty 18.10.2024
 
 ### Email/sähköposti-pohjaan
 
@@ -1725,6 +1743,8 @@ Two factor authentication was disabled for your Koha account. If you did not do 
 
 ## PASSWORD_CHANGE
 
+Päivitetty 18.10.2024
+
 ### Email-pohjaan
 
 Tämän viestin lähettäminen vaatii, että se sallitaan järjestelmäasetuksessa NotifyPasswordChange.
@@ -1799,6 +1819,8 @@ Viestillä ilmoitetaan asiakkaalle, että hänellä on noutopalvelussa valmiina 
 Liittyy järjestelmäasetukseen  PatronSelfRegistration, jossa asiakkaat voivat itse rekisteröityä asiakkaaksi Kohan opacissa. Toimintoa ei voi käyttää, koska meillä ei ole käytössä Kohan omaa opacia.
 
 ## OVERDUE_FINE_DESC
+
+Päivitetty 18.10.2024
 
 Tämä ei ole varsinaisesti viestipohja, vaan sillä säädellään, mitä tietoja säilytetään myöhästymismaksun _Kuvauksessa_, kun nide poistetaan.
 
@@ -1890,6 +1912,8 @@ Thank you!
 ```
 
 ## WELCOME
+
+Päivitetty 18.10.2024
 
 Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin asiakkaalle tervetuloviestin, jossa käytetään tätä viestipohjaa. Viestiin voi lisätä esim. linkin kirjaston käyttösääntöihin, verkkokirjastoon, e-kirjastoon yms.
 
