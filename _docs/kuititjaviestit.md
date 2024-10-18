@@ -11,6 +11,8 @@ Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testat
 
 ## HOLD_SLIP eli varauksen info- ja kuljetuskuitti
 
+Päivitetty 18.10.2024
+
 ### Email-pohjaan
 
 Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
@@ -37,7 +39,7 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 <br /><br />
 <p>VARATTU NIDE</p>
 <p><<biblio.author>><br />
-<<biblio.title>> <<items.enumchron>><br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>><br />
 <<items.barcode>><br />
 Noutokirjasto: <<reserves.branchcode>></p>
 
@@ -57,7 +59,7 @@ Noutokirjasto: <<reserves.branchcode>></p>
 <br />
 <p>Teos:<br />
 <<biblio.author>><br />
-<<biblio.title>> <<items.enumchron>><br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>><br />
 <<items.barcode>></p>
 
 [% END %]
@@ -87,7 +89,7 @@ Noutokirjasto: <<reserves.branchcode>></p>
 <br /><br />
 <p>Reserved item</p>
 <p><<biblio.author>><br />
-<<biblio.title>> <<items.enumchron>><br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>><br />
 <<items.barcode>><br />
 Pick up library:  <<reserves.branchcode>></p>
 
@@ -114,7 +116,7 @@ at the OUTI Web Library:
 <br />
 <p>Item<br />
 <<biblio.author>><br />
-<<biblio.title>> <<items.enumchron>><br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>><br />
 <<items.barcode>></p>
 
 [% END %]
