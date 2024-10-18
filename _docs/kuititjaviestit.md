@@ -567,30 +567,38 @@ Credits [% balance | $Price %] €.
 #### Suomeksi
 
 ```
-Lainasitte tänään <<branches.branchname>>sta  seuraavat teokset:
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Lainasit tänään <<branches.branchname>>sta seuraavat teokset:
 
 ----
-<<biblio.title>> <<items.enumchron>> / <<biblio.author>>,  eräpäivä: <<issues.date_due | dateonly >>
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>,  eräpäivä: <<issues.date_due | dateonly >>
 ----
-
 
 Terveisin OUTI-kirjastot
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 #### Englanniksi
 
 ```
-You checked out from <<branches.branchname>> following items:
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>! 
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>! 
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
+
+You checked out the following items from the <<branches.branchname>> following items:
 
 ----
-<<biblio.title>> <<items.enumchron>> / <<biblio.author>>,  due date: <<issues.date_due | dateonly >>
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>,  due date: <<issues.date_due | dateonly >>
 ----
-
 
 Best regards
 OUTI Libraries
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 ## HOLD eli Noutoilmoitus
