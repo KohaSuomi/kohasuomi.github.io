@@ -940,7 +940,7 @@ Tuloste/Print-pohjalle. HMTL-täppä paikoilleen.
 
 <overdue>
 <p><item>
-<<biblio.title>> / <<biblio.author>>  <br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  <br />
 Nidetunnus: <<items.barcode>><br />
 Eräpäivä: <<issues.date_due>><br />
 Uusintakerrat: <<issues.renewals>><br /><br /></item>
@@ -967,7 +967,7 @@ Uusintakerrat: <<issues.renewals>><br /><br /></item>
 
 <overdue>
 <p><item>
-<<biblio.title>> / <<biblio.author>>  <br />
+<<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  <br />
 Barcode: <<items.barcode>><br />
 Due date: <<issues.date_due>><br />
 Renewals: <<issues.renewals>><br /><br /></item>
