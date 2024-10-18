@@ -611,9 +611,14 @@ outi.finna.fi
 NOUTOILMOITUS                                        
 <<today>>
 
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
+
 Varaustunnuksesi on <<borrower-attribute:HOLDID>>.
 
-Varaamasi teos <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
+Varaamasi teos <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
 
 Varauksen viimeinen noutopäivä on <<reserves.expirationdate>>. 
 
@@ -635,9 +640,14 @@ www.outikirjastot.fi
 Library pick-up notice 
 <<today>>
 
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %]
+
 Your library hold identifier is <<borrower-attribute:HOLDID>>.
 
-The item <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (nide <<items.barcode>>) is waiting for pickup at <<branches.branchname>>.
+The item <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> (nide <<items.barcode>>) is waiting for pickup at <<branches.branchname>>.
 
 The last pick-up day is <<reserves.expirationdate>>. 
 
@@ -665,12 +675,15 @@ NOUTOILMOITUS
 
 Varaustunnuksesi on <<borrower-attribute:HOLDID>>.
 
-Varaamasi teos <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
+Varaamasi teos <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
 
 Varauksen viimeinen noutopäivä on <<reserves.expirationdate>>. 
 
 Muistathan ottaa kirjastokortin mukaan varausta noutaessasi. Noutamattomasta varauksesta perimme yhden euron.
 
+Voit saada varausten noutoilmoitukset sähköpostina tai
+tekstiviestinä. Ilmoitustavan voit valita OUTI-verkkokirjastossa tai
+kirjaston asiakaspalvelussa.
 
 Terveisin 
 <<branches.branchname>>
@@ -687,12 +700,18 @@ www.outikirjastot.fi
 Your reservation is waiting for pickup. Your hold identifier is
 <<borrower-attribute:HOLDID>>.
 
-Title: <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) is waiting at <<branches.branchname>>.
+Title: <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) is waiting at <<branches.branchname>>.
+
 The last pick-up date is <<reserves.expirationdate>>.
 
 Please remember to take your library card with you 
 when picking up your hold. If you do not pick up your 
 hold a fee of one euro will be charged.
+
+
+You can receive these reservation pick-up notices via e-mail 
+or text message. You can make the choice in the OUTI Web Library 
+or at the library customer service.
 
 Best regards 
 OUTI Libraries
@@ -705,13 +724,13 @@ www.outikirjastot.fi
 #### Suomeksi
 
 ```
-Varaustunnuksellasi <<borrower-attribute:HOLDID>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
+Varaustunnuksellasi <<borrower-attribute:HOLDID>> on noudettavissa varaus <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> (<<items.barcode>>) <<branches.branchname>>sta <<reserves.expirationdate>> asti.
 ```
 
 #### Englanniksi
 
 ```
-Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
+Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
 
 ## HOLD_REMINDER eli varauksen noutomuistutus
