@@ -986,64 +986,71 @@ Renewals: <<issues.renewals>><br /><br /></item>
 #### Suomeksi
 
 ```
-Hyvä kirjaston asiakas 
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>!
+[% END %] 
 
 Lainasi ovat myöhässä. 
 
-Asiakastunnus: <<borrowers.cardnumber>>
+Asiakastunnus: *****[% borrower.cardnumber.substr(-3) %]
 
-Erääntyneet lainat:
+Lainat, joiden eräpäivä on mennyt:
 ----
-<item>Nide: <<items.barcode>>, Aineistolaji: <<items.itype>>
-Teos: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>  
+<item>Nide: <<items.barcode>>, Aineistolaji: <<biblioitems.itemtype>>
+Teos: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  
 Eräpäivä: <<issues.date_due>>, Lainattu: <<issues.issuedate>>
 </item>
 ----
 
-Palautathan lainasi mahdollisimman pian. Voit uusia lainasi OUTI-verkkokirjastossa, jos niistä ei ole varauksia. Lainan voi uusia enintään 10 kertaa peräkkäin. OUTI-verkkokirjaston osoite: www.outikirjastot.fi
+Palautathan lainasi mahdollisimman pian. Voit uusia lainasi OUTI-verkkokirjastossa, jos niistä ei ole varauksia. Lainan voi uusia enintään 7 kertaa peräkkäin. OUTI-verkkokirjaston osoite: outi.finna.fi
 
 Myöhästymismaksut alkavat kertyä heti eräpäivän jälkeen. Lasten aineistosta ja lapsiasiakkaan lainoista ei mene myöhästymismaksua.
 
-Perimme tämän muistutuksen lähettämisestä 1,50 euron huomautusmaksun.
+Perimme tämän muistutuksen lähettämisestä 1,50 € huomautusmaksun.
 
 Palauttamattomista lainoista lähetämme laskun.
 
-Epäselvissä tapauksissa pyydämme ottamaan yhteyttä kirjastoon.
+Pyydämme ottamaan epäselvissä tapauksissa yhteyttä kirjastoon. 
 
 
 Ystävällisin terveisin
-
 OUTI-kirjastot
 
 <<branches.branchname>>
 <<branches.branchfax>>
 <<branches.branchphone>>
 <<branches.branchreplyto>>
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 #### Englanniksi
 
 ```
-Dear library user
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>!
+[% END %] 
 
 Your loans are overdue.
 
-Customer number:  <<borrowers.cardnumber>>
+Customer number: *****[% borrower.cardnumber.substr(-3) %]
 
 Overdue items:
 ----
 <item>Itemnumber: <<items.barcode>>
-Title: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>  
-Due date: <<issues.date_due>>, Checked out on: <<issues.issuedate>>, Item type: <<items.itype>>
+Title: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  
+Due date: <<issues.date_due>>, Checked out on: <<issues.issuedate>>, Item type: <<biblioitems.itemtype>>
 </item>
 ---- 
 
-Please return your overdue items as soon as possible. You can also renew them at the OUTI Web Library if there are no reservations. Loans can be renewed up to ten times.
+Please return your overdue items as soon as possible. You can also renew them at the OUTI Web Library at outi.finna.fi, if there are no reservations. Loans can be renewed up to 7 times. 
 
-The overdue fine starts to accrue immediately after the due date. Materials for children and material borrowed by customers under the age of 18 years are not subject to overdue fines.
+The overdue fine starts to accrue immediately after the due date. Materials for children and items borrowed by customers under the age of 18 years are not subject to overdue fines.
 
-We also charge 1,50 euro for sending this notification.
+We also charge 1,50 € for sending this notification.
+
+You will receive an invoice for the overdue loans if you do not return the items. 
 
 If you have any questions about these loans, please contact the library where you checked them out.
 
@@ -1053,7 +1060,7 @@ OUTI Libraries
 <<branches.branchfax>>
 <<branches.branchphone>>
 <<branches.branchreplyto>>
-www.outikirjastot.fi
+outi.finna.fi
 ```
 
 ### Tuloste/Print-pohjaan
@@ -1068,7 +1075,7 @@ Hyvä kirjaston asiakas. Lainasi ovat myöhässä.
 Erääntyneet lainat:
 ----
 <item>Nide: <<items.barcode>>, Aineistolaji: <<biblioitems.itemtype>>
-Teos: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>  
+Teos: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  
 Eräpäivä: <<issues.date_due>>, Lainattu: <<issues.issuedate>>
 </item>
 ---- 
@@ -1105,7 +1112,7 @@ Your loans are overdue.
 Overdue items:
 ----
 <item>Itemnumber: <<items.barcode>>,  Item type: <<biblioitems.itemtype>>
-Title: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>  
+Title: <<biblio.title>> <<biblio.subtitle>> <<biblio.part_name>> <<biblio.part_number>> <<items.enumchron>> / <<biblio.author>>  
 Due date: <<issues.date_due>>, Checked out on: <<issues.issuedate>>
 </item>
 ---- 
