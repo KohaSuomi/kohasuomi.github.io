@@ -54,6 +54,8 @@ Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan
 
 ### 5. Muut asiat
 
+Kolmansien osapuolien pääsy testeille ja tuotantoon.
+
 ### 6. Seuraavat kokoukset
 
 Ke 27.11.2024 klo 13-15<br />
