@@ -21,7 +21,8 @@ Läsnä:
 * Päivystysvuorot viikosta 44 alkaen
 * Kolmansien osapuolten pääsyt testeille? Ja tuotantoihin(!?) Miten linjataan, mitä suositellaan?
 * Käyttäjävirheiden korjaamisen linjaus. Milloin kehittäjät korjaavat, milloin jätetään korjaamatta?
-  * Esimerkiksi tiketti [#1455](https://github.com/KohaSuomi/Koha/issues/1455) 
+  * Esimerkiksi tiketti [#1455](https://github.com/KohaSuomi/Koha/issues/1455)
+* Suomi.fi REST-pilotointi. Kuka aloittaa ja milloin?
 
 ## Viikko 42
 
