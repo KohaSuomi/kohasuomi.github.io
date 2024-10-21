@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 43
+
+Aika: 22.10.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 42
 
 Aika: 15.10.2024, klo 9.15<br />
