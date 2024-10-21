@@ -16,13 +16,22 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 43
 
 Aika: 21.10.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Pasi, Johanna, Lari, Anneli, Kodo ja Emmi
 
 * Päivystysvuorot viikosta 44 alkaen
+  * Lari ja Kodo
+  * Anneli ja Johanna
+  * Emmi ja Kodo
+  * Pasi ja Lari
 * Kolmansien osapuolten pääsyt testeille? Ja tuotantoihin(!?) Miten linjataan, mitä suositellaan?
+  * Viedään tämä asiantuntijaryhmään keskusteltavaksi 
 * Käyttäjävirheiden korjaamisen linjaus. Milloin kehittäjät korjaavat, milloin jätetään korjaamatta?
   * Esimerkiksi tiketti [#1455](https://github.com/KohaSuomi/Koha/issues/1455)
+  * Ari miettii asiaa ja keskustellaan lisää jossain myöhemmässä palaverissa
 * Suomi.fi REST-pilotointi. Kuka aloittaa ja milloin?
+  * Johanna hoitaa
+* VTJ kehitys
+  * Kodo
 
 ## Viikko 42
 
