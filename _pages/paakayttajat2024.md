@@ -17,6 +17,12 @@ Läsnä:
 
 **Yhteiset**
 * Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
+  * säilyykö testiasiakkaat
+  * säilyykö käyttäjätunnusten cardnumber
+  * säilyykö lainat kytkettynä oikeaan asiakkaaseen (issues-tauluun kirjoitettava uusi borrowernumber)
+  * kirjastokortin numero ja holdid siivous ok, muilta paitsi testiasiakkailta ja käyttäjätunnuksilta, sipit ja apit.
+  * voisko borrowernumberin jättää anonymisoimatta?
+* Suomi.fi Viestien uusi rajapinta testikäyttöön Vaarassa.
 
 Pohjoisesta etelään
 
