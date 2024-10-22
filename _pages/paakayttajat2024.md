@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: 22.10.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
@@ -29,6 +29,9 @@ Pohjoisesta etelään
 **Lastu**
 * Suuret aikakauslehtitietueet aiheuttaneet lainojen ja varausten näkyvyydessä Finnassa ongelmia, tietueiden pilkkominen osiin aloitettu suurimpien osalta
 * Tulevan version testaaminen ja asetusten läpikäynti aloitettu.
+
+**Vaara**
+* ei mitään erityistä, nextin asetuksia tarkasteltu ja testattu
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
