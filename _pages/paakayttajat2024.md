@@ -26,6 +26,11 @@ Läsnä:
 
 Pohjoisesta etelään
 
+**Lastu**
+* Suuret aikakauslehtitietueet aiheuttaneet lainojen ja varausten näkyvyydessä Finnassa ongelmia, tietueiden pilkkominen osiin aloitettu suurimpien osalta
+* Tulevan version testaaminen ja asetusten läpikäynti aloitettu.
+
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 42
