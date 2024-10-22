@@ -54,7 +54,11 @@ Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan
 
 ### 5. Muut asiat
 
-Kolmansien osapuolien pääsy testeille ja tuotantoon.
+#### 5.1 Kolmansien osapuolien pääsy testeille ja tuotantoon.
+
+#### 5.2 Ohjeistus uusille SQL-kyselyiden tekijöille / harjoitteluun
+
+Luodaan yhteinen ohjeistus, missä SQL-kyselyiden tekemistä voi harjoitella ja mitä harjoittelussa kannattaa ottaa huomioon.
 
 ### 6. Seuraavat kokoukset
 
