@@ -6,6 +6,14 @@ redirect_from:
 toc: true
 ---
 
+## 0. Yleistä
+
+### 0.1 Ääkköset ja erikoismerkit erilaisissa tunnuksissa/tunnisteissa
+
+Erilaisissa tunnuksissa ei saa käyttää erikoismerkkejä, sisältäen ääkköset ja esim. alaviivat. Käytä siis tunnuksissa vain kirjaimia A-Z ja numeroita 0-9. Myöskään välilyöntejä ei saa laittaa tunnuksiin.
+
+Tunnuksilla tarkoitetaan esim. auktorisoitujen arvojen tunnisteita, käyttäjätunnuksia, kirjastolyhenteitä, nidetyyppejä, asiakasmääreitä, maksutyyppejä jne.
+
 ## 1. Kirjastot
 
 Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi kirjasto
@@ -269,7 +277,7 @@ NOT_LOAN-luokassa on niteen Ei lainata -arvot. Arvot voivat olla miinus- tai plu
 
 **REPORT_GROUP ja REPORT_SUBGROUP**
 
-REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta.
+REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta. Jos luot ryhmän raportti-osiossa, muista ettei tunnuksessa saa olla ääkkösiä tai muita erikoismerkkejä. Ne rikkovat välilehtien toiminnan.
 
 **SIP_MEDIA_TYPE**
 
