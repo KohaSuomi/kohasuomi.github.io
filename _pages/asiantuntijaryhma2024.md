@@ -46,7 +46,7 @@ Pohdittavaksi:
 ### 3. Integraatiot
 
 Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) omalta osaltaan ajantasalle. Katsotaan tilanne ja pohditaan, onko tarvetta jatkoselvittelyihin borrowers/status-rajapinnan välittämien tietojen osalta.
-
+  
 ### 4. Kehitysehdotusten läpikäynti
 
 * [Epäonnistuneisiin taustatoihin mahdollisuus tehdä ajo uudelleen #1428](https://github.com/KohaSuomi/Koha/issues/1428)
@@ -59,6 +59,11 @@ Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan
 #### 5.2 Ohjeistus uusille SQL-kyselyiden tekijöille / harjoitteluun
 
 Luodaan yhteinen ohjeistus, missä SQL-kyselyiden tekemistä voi harjoitella ja mitä harjoittelussa kannattaa ottaa huomioon.
+
+#### 5.3 Tilastoaineistojen toimittaminen Kirjastot.fi palveluun
+
+* Onko vielä ajankohtainen nyt kun käyttöön on otettu esimerkiksi PowerBI monessa paikkaa?
+* Tietojen formaatti, nimet ja sukupuolet
 
 ### 6. Seuraavat kokoukset
 
