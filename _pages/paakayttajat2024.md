@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: 22.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
@@ -41,6 +41,9 @@ Pohjoisesta etelään
 * Otetaan uudelleen käsittelyyn CircControl, HomeOrHoldingBranch, OpacRenewalBranch - säännöt ja kirjastojen toimintatavat, koska kirjasto(autoi)ssa saadaan nyt erikoisia laina-aikoja
 * Käyttäjäryhmä kokoontuu käymään läpi uuden version käyttöön otettavat ominaisuudet
 * Uuden version asetukset tarkoitus käydä läpi loppuviikolla
+
+**OUTI**
+* Henkilökunta on alkanut testaamaan uutta versiota.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
