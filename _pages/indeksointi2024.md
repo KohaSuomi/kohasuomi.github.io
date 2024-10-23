@@ -11,19 +11,25 @@ title: 'Indeksointi- ja tiedonhakuryhmä 2024'
 
 Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2024. Indeksointi- ja tiedonhakuryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta. Jäsenet: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski), Mauri Aittaniemi (Lappi)
 
-## Esityslista 4/2024
+## Muistio 4/2024
 
 Aika: Ke 23.10.2024 klo 13-14<br />
-Läsnä:
+Läsnä: Kai, Antti, Ville, Johanna, Anna, Anneli
 
 ### 1. Käsiteltävät kehitysehdotukset
 
 * [Nalkuta eri kentistä luettelointipohjan mukaan #1](https://github.com/KohaSuomi/koha-plugin-nalkutin/issues/1)
+  * Indeksointi- ja tiedonhakuryhmä 23.10.2024: Tälle toiminnolle ei ole tarvetta. Ei toteuteta.
 * [Kentän 490 haettavuus #1435](https://github.com/KohaSuomi/Koha/issues/1435)
+  * Lisätään Koha-Suomen omaan mappings.yaml-tiedostoon seuraavat mäppäykset samoilla säädöillä kuin aiemmilla issn-indeksien mäppäyksillä on:
+    * canceled-issn: 490z
+    * incorrect-issn: 490y
+    * issn: 490x
+  * Lisäksi yhteisöstä on tulossa versioon 24.11 issn-all-indeksi, josta todettiin, että sen kanssa ei ole kiire.
 
 ### 2. Seuraava kokous
 
-
+Katsotaan taas tikettien tilanne helmikuussa 2025 ja päätetään sen mukaan, koska seuraava kokous pidetään. Varsinkin YSO-konversion jälkeen on mietittäviä asioita. YSO-konversio on suunnitelmissa näillä näkymin tammikuulle 2025.
 
 ## Muistio 3/2024
 
