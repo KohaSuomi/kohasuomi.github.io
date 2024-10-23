@@ -56,7 +56,7 @@ Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan
 
 #### 5.1 Kolmansien osapuolien pääsy testeille ja tuotantoon.
 
-* Tarvitaan yhtenäinen linjaus siitä miten kolmasia osapuolia päästetään Koha-Suomen ylläpitämiin järjestelmiin.
+* Tarvitaan yhtenäinen linjaus siitä miten kolmansia osapuolia päästetään Koha-Suomen ylläpitämiin järjestelmiin.
   * Tuotantojen virkailijaliittymiin pääsy ei ole suositeltavaa, vaan testaukset tulisi tehdä ensisijassa testiympäristöissä ja lopullinen tuotantotestaus tehdä kirjaston henkilökunnan toimesta (mahdollisesti yhteistyössä integroitavan järjestelmän toimittajan kanssa, esimerkiksi Jitsi-yhteydellä).
 * Miten toimitaan tunnusten, asiakasvarmenteiden ym kanssa?
   * Pääkäyttäjät tekevät tunnukset ja toimittavat kimpan varmenteen kolmannelle osapuolelle turvallisesti?
