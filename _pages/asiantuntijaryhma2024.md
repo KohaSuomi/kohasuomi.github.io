@@ -28,7 +28,7 @@ Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.202
 
 Viestien lähetys asiakkaalle useampaan sähköpostiosoitteeseen
 
-[bug 31652](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=31652)
+[Yhteisön tiketti 12802](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=12802)
 
 Kohassa asiakkaalle voi tallentaa useamman sähköpostiosoitteen, mutta tähän mennessä vain yhteen niistä on voinut lähettää asiakkaan viestit. Myöskään ei ole voinut valita, mihin osoitteeseen viestit lähetetään. Nyt on mahdollista lähettää viestit useampaan osoitteeseen ja valita, mihin osoitteeseen/osoitteisiin viestit lähetetään.
 
