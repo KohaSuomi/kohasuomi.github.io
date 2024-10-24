@@ -18,11 +18,17 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 11/2024
 
 Aika: 24.10.2024 klo 13.00<br />
-Läsnä:
+Läsnä: Ari, Kati, Kodo, Leena, Päivi, Riikka, Susanna, Hanna, Janne, Noora, Roosa
 
 ### 1. Ajankohtaiset
 
-Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.2025 Turussa. Torstaina Studio-tilan varaus alkaa klo 10. Lisäksi varattuna on kolme muuta pienepää tilaa iltapäivälle ryhmätyöskentelyä varten.
+Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.2025 Turussa. Torstaina Studio-tilan varaus alkaa klo 10. Lisäksi varattuna on kolme muuta pienempää tilaa iltapäivälle ryhmätyöskentelyä varten.
+
+Ideoita seminaarin aiheiksi voi miettiä seuraavaan kokoukseen.
+
+Kodo on tutkinut VTJ-integraatiota alustavasti.
+
+Finna-toimiston kanssa tullaan keskustelemaan mahdollisuudesta asiakkaan rekisteröitymisestä vahvalla tunnistautumisella Finnan kautta.
 
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
 
@@ -43,14 +49,35 @@ Pohdittavaksi:
 * vaikeuttaako ylläpitoa, jos sähköpostiosoitteita tallennetaan eri kimpoissa vähän eri tietokannan kenttiin/sarakkeisiin
   * olisiko tarpeen sopia yhdessä, mitä sähköpostikenttiä käytetään?
 
+Tarvetta useammalle sähköpostikentällä
+* lapsiasiakkaat (huoltaja), yhteisöasiakkaat (vastuuhenkilöt)
+* (perintään ei voi mennä alle 18-vuotias)
+* jos asiakkaalla on vaikeuksia saada viestejä perille, jolloin asiakas voisi ilmoittaa kaksi osoitetta.
+ 
+Voisiko toissijaisen sähköpostiosoitteen nimetä "Takaajan sähköpostiosoite" ja käyttää sitä vain siihen tarkoitukseen?
+* tällöin voisi luoda automatiikan, joka tyhjentää kentän, kun lapsiasiakas muuttuu henkilöasiakkaaksi
+* yhteisöasiakkailla tieto ei tippuisi automaattisesti
+* selvitettävä kimpoissa, saako lain mukaan tietoja toimittaa huoltajalle yli tietyn ikäisten lasten lainoista/varauksista
+  * "lainmukaista" tietoa voi olla hankala saada, koska sellainen ehkä saadaan vasta sitten, kun siitä tehdään ennakkotapaus
+
+* Miten vaikuttaa Suomi.fi Viestit? Kuinka pitkäikäinen ratkaisu tämä olisi?
+  * puolesta-asiointi lasten osalta
+
+Jatketaan keskustelua seuraavassa kokouksessa. 
+
 ### 3. Integraatiot
 
 Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) omalta osaltaan ajantasalle. Katsotaan tilanne ja pohditaan, onko tarvetta jatkoselvittelyihin borrowers/status-rajapinnan välittämien tietojen osalta.
+
+Päätös: Tiputetaan borrowers/status-rajapinnasta fines-kenttä versionvaihdon yhteydessä. Jos jokin integraatio menee rikki, niin ollaan sitten siihen yhteydessä kyseiseen palveluun ja selvitetään, onko heillä mahdollista korjata integraationsa. Jos kokeilu ei toimi, palautetaan käyttöön vanha versio. Kodo tekee tiketin.
   
 ### 4. Kehitysehdotusten läpikäynti
 
 * [Epäonnistuneisiin taustatoihin mahdollisuus tehdä ajo uudelleen #1428](https://github.com/KohaSuomi/Koha/issues/1428)
+  * Koha-Suomen asiantuntijaryhmä 24.10.2024: Hanna tekee yhteisöön kehitysehdotustiketin, että niteiden poistotaustatöihin pitäisi saada aina lista käsitellyistä niteistä, onnistui poisto tai ei. Alkuperäisestä ongelmasta on jo yhteisössä tiketit.
+Suljetaan tämä tiketti, koska sisältö on päätöksen osalta täysin eri ja Hanna tekee uuden tiketin uudella sisällöllä myös meidän GitHubiin.Lisäksi tiedoksi, että jos joskus tulee tarpeen ajaa taustatyö uudelleen, niin päivystäjää voi pyytää tekemään sen. 
 * [Kyyti: Kotipalvelun lainojen tarkistus koskemaan myös nyt lainassa olevia #1437](https://github.com/KohaSuomi/Koha/issues/1437)
+  * Koha-Suomen asiantuntijaryhmä 24.10.2024: Tuomas tekee tiketin yhteisölle. Tutkitaan itse, onko helppo toteuttaa ja toteutetaan ja tarjotaan yhteisölle, jos se on helppo. Jos muutos on työläs, odotetaan ratkaisua yhteisöltä.
 
 ### 5. Muut asiat
 
@@ -61,14 +88,27 @@ Viime kokouksessa päätettiin, että kaikki päivittävät [Integraatiot-listan
 * Miten toimitaan tunnusten, asiakasvarmenteiden ym kanssa?
   * Pääkäyttäjät tekevät tunnukset ja toimittavat kimpan varmenteen kolmannelle osapuolelle turvallisesti?
 
+Päätös: Jatkossa kolmansilla osapuolille sallitaan pääsy vain testi-kantaan ja tehdään heitä varten yksi varmenne, jolla on pääsy vain testi-kantoihin. Edelleen on kuitenkin tärkeä pitää Koha-Suomen henkilökunta ajan tasalla, ketkä kaikilla kolmansilla osapuolilla on pääsy testeille.
+
 #### 5.2 Ohjeistus uusille SQL-kyselyiden tekijöille / harjoitteluun
 
 Luodaan yhteinen ohjeistus, missä SQL-kyselyiden tekemistä voi harjoitella ja mitä harjoittelussa kannattaa ottaa huomioon.
 
-#### 5.3 Tilastoaineistojen toimittaminen Kirjastot.fi palveluun
+* kyselyt tehdään replicalla, joten tuotantoa ei saa pelkällä kyselyllä saa kaatumaan
+* mutta jos replican saa alas ja juuri samaan aikaan tuontannossa tulee ongelma voi seurauksena olla tilanne, jossa tietojen kahdennus ei toimikaan ja tietoja voidaan joutua palauttamaan dumpeista.
+* raportit varaavat wörkereitä ja jos ajetaan kerralla paljon raskaita ajoja, voi wörkereiden määrä loppua.
+* Koha-Suomi keskustelee Bittigurun kanssa ja omissa palavereissa, voitaisiinko luoda vielä tilastoja ja harjoittelua varten vielä oma tietokanta.
+
+Suosituksia (Ari, Anneli ja Kodo täydentää listaa)
+* raporttien luontioikeutta ei kannata antaa kovin yleisesti
+* raportteja tehtäisiin vain ns. virka-aikana, jolloin on päivystäjä selvittämässä mahdollisia ongelmia
+
+#### 5.3 Tilastoaineistojen toimittaminen Kirjastot.fi Raportointipalveluun
 
 * Onko vielä ajankohtainen nyt kun käyttöön on otettu esimerkiksi PowerBI monessa paikkaa?
 * Tietojen formaatti, nimet ja sukupuolet
+
+Päätös: Kimpoissa selvitetään seuraavaan kokoukseen, onko tarvetta Kirjastot.fi Raportointipalvelulle, jotta voidaan päättää, kannattaako kehitystyötä viedä loppuun.
 
 ### 6. Seuraavat kokoukset
 
