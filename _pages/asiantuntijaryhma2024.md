@@ -26,7 +26,7 @@ Koha-seminaarin ajankohdaksi valikoitui pääkäyttäjäpalaverissa 27.-28.3.202
 
 Ideoita seminaarin aiheiksi voi miettiä seuraavaan kokoukseen.
 
-Kodo on tutkinut VTJ-integraatiota ja hän esitteli alustavan suunnitelman, miten päivitysprosessi tulisi toimimaan.
+Kodo on tutkinut VTJ-integraatiota (osoitetietojärjestelmä) ja hän esitteli alustavan suunnitelman, miten osoitetietojen päivitysprosessi tulisi toimimaan.
 
 Finna-toimiston kanssa tullaan keskustelemaan mahdollisuudesta asiakkaan rekisteröitymisestä vahvalla tunnistautumisella Finnan kautta Finna-kehitysehdotusten läpikäyntikokouksessa.
 
