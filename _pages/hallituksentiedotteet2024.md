@@ -11,6 +11,26 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 7/2024
+
+25.10.2024
+
+Hei kaikille!
+
+Koha-Suomen hallituksen syksyn toisessa kokouksessa keskityttiin tarkemmin yhtiön taloustilanteeseen, vuoden 2025 talousarvion suunnitteluun ja hallituksen joulukuun seminaarin ohjelmaan.
+
+Kävimme läpi toimitusjohtajan raportin ja se löytyy viestin liitteenä.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Hyvää viikonloppua kaikille!
+
+Jouni Pääkkölä, hallituksen pj.
+
+Liitteet: [Toimitusjohtajanraportti724.pdf](https://github.com/user-attachments/files/17520991/Toimitusjohtajanraportti724.pdf)
+
 ## Koha-Suomen hallituksen tiedote 6/2024
 
 6.9.2024
