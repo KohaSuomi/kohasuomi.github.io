@@ -308,6 +308,8 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 
 Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Tallenna valinnat.
 
+* Huom! Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä vaihtoehtoa _Poista tämä päivä_ (päättymispäivää ei tarvita). Vaihtoehtoa _Poista toistuvat kiinniolot aikavälillä_ käytetään silloin, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, toistuva kiinniolo.
+
 Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
 
