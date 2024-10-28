@@ -10,6 +10,24 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 44
+
+Aika: 29.10.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
+  * se tulee automaattisesti, jos käyttäjällä on ennestää ylätason borrowers-oikeus
+    * select count(*) from borrowers where flags = flags | (1<<4); -kyselyllä voi tarkistaa, kuinka monelle se tulee
+
+
+Etelästä pohjoiseen
+
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-44) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 43
 
 Aika: 22.10.2024, klo 9.15<br />
