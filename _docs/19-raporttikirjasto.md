@@ -1824,6 +1824,42 @@ INNER JOIN
  LEFT JOIN biblio_metadata bm ON b.biblionumber = bm.biblionumber
 ```
 
+#### Tuplatietueet, joilla sama ISBN - aikarajaus
+
+Raportti hakee tietueet, joiden ISBN löytyy kannasta useammin kuin kerran. Parametrinä annetaan päivämäärä, jota uudempia päivittymisiä haetaan. 
+
+Tuloksissa näkyy ISBN (kentässä linkki, jolla voi hakea kyseisellä tunnuksella isbn-indeksistä), 001, 003, nimeke ja tekijä. Jokainen teos on omalla rivillään ja samalla ISBN-tunnuksella olevat ovat peräkkäin listassa. Huomioi, että jos toinen (tai jokin) täsmäävä tietue on päivittynyt aiemmin kuin parametrina annettu päivämäärä, se ei näy tuloksissa, mutta pystyt hakemaan ISBN-sarakkeen linkillä kummankin (kaikkien) teoksen tiedot. Raportti siis tunnistaa teoksen tuplaksi, vaikka kaikki tietueet eivät listaudukaan päivämäärärajauksen vuoksi.
+
+Tuloksista rajataan pois sellaiset tietueet, joiden ISBN on esim. nid., sid., kierre%, jne.
+
+Lisätty: 28.10.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT
+b.biblionumber, CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?q=isbn%253A',bi.isbn,'" target="_blank">',bi.isbn,'</a>') as 'Hae ISBN:llä', ExtractValue(bm.metadata, '//controlfield[@tag="001"]') AS '001', ExtractValue(bm.metadata, '//controlfield[@tag="003"]') AS '003', bm.timestamp,  CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', author AS 'Tekijä' 
+FROM biblio b
+LEFT JOIN biblioitems bi ON (b.biblionumber = bi.biblionumber)
+LEFT JOIN biblio_metadata bm ON (b.biblionumber = bm.biblionumber)
+INNER JOIN
+(SELECT isbn
+   FROM biblioitems bi
+   WHERE isbn is not null
+   AND isbn not like '%nid%'
+   AND isbn not like '%(kansio)%'
+   AND isbn not like '%(hft.)%'
+   AND isbn not like '%(inb.)%'
+   AND isbn not like '%(rengaskirja)%'
+   AND isbn not like '%sid%'
+   AND isbn not like '%moniste%'
+   AND isbn not like '%kierre%'
+   AND isbn not like '%koko%'
+   AND isbn not like '%rengas%'
+GROUP BY isbn
+HAVING COUNT(*)>1) as tuplat ON bi.isbn = tuplat.isbn
+WHERE date(bm.timestamp) > <<Päivittymispäivämäärä uudempi kuin|date>>
+```
+
 #### Tuplatietueet, joilla sama EAN-tunnus
 
 Raportti hakee tietueet, joilla on sama EAN-tunnus. Jokainen nimeke tulee omalle rivilleen, jolloin on helpompi huomata sarjan eri osat, joilla on sama EAN-koodi.
