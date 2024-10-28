@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 44
 
 Aika: 28.10.2024 klo 9<br />
-Läsnä:
+Läsnä: Anneli, Kodo, Lari, Ari, Emmi
 
 * Versionvaihto
   * Tikettien läpikäyminen
