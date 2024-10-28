@@ -19,7 +19,7 @@ Läsnä:
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
   * se tulee automaattisesti, jos käyttäjällä on ennestää ylätason borrowers-oikeus
     * select count(*) from borrowers where flags = flags | (1<<4); -kyselyllä voi tarkistaa, kuinka monelle se tulee
-
+  * liittyy [versionvaihdon tikettiin #140](https://github.com/KohaSuomi/Koha-24.05/issues/140)
 
 Etelästä pohjoiseen
 
