@@ -1878,6 +1878,31 @@ INNER JOIN
    GROUP BY ean
 HAVING COUNT(*)>1) as tuplat ON bi.ean = tuplat.ean
 ```
+#### Tuplatietueet, joilla sama EAN-tunnus - aikarajaus
+
+Lista nimekkeistä joilla on sama EAN-tunnus. Parametrinä annetaan päivämäärä, jota uudempia päivittymisiä haetaan. 
+
+Jokainen teos on omalla rivillä ja samalla EAN-tunnuksella olevat ovat peräkkäin listassa.  Huomioi, että jos täsmäävä(t) tietue(et) on päivittynyt aiemmin kuin parametrina annettu päivämäärä, se ei näy tuloksissa, mutta pystyt hakemaan EAN-sarakkeen linkillä kummankin/kaikkien teoksen tiedot other-identifier-indeksiä käyttäen.
+
+Hakutuloksista rajataan pois osakohteet.
+
+Lisätty: 28.10.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT
+b.biblionumber,CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?q=identifier-other%3A',bi.ean,'" target="_blank">',bi.ean,'</a>') as 'Hae EAN:llä', ExtractValue(bm.metadata, '//controlfield[@tag="001"]') AS '001', ExtractValue(bm.metadata, '//controlfield[@tag="003"]') AS '003', bm.timestamp, CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', author AS 'Tekijä' 
+FROM biblio b
+LEFT JOIN biblioitems bi ON b.biblionumber = bi.biblioitemnumber
+LEFT JOIN biblio_metadata bm ON (b.biblionumber = bm.biblionumber)
+INNER JOIN
+(SELECT ean
+   FROM biblioitems bi
+   GROUP BY ean
+HAVING COUNT(*)>1) as tuplat ON bi.ean = tuplat.ean
+WHERE date(bm.timestamp) > <<Päivittymispäivämäärä uudempi kuin|date>>
+AND ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = ''
+```
 
 ### Nimekkeet, joissa on varauksia muttei niteitä
 
