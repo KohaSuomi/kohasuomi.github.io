@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Kassu Pohto, Piia Semenoff (OUTI), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anni Rajala (Vaski)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Kassu Pohto, Piia Semenoff (OUTI), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Kati Sillgren (Helle)
 
 **Yhteiset**
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
