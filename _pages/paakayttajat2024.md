@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Kassu Pohto, Piia Semenoff (OUTI), Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Kassu Pohto, Piia Semenoff (OUTI), Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
@@ -42,6 +42,10 @@ Etelästä pohjoiseen
 **Lappi**
 * Versionvaihtoon liittyviä töitä
 * Normaalia ylläpitoa
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Pertunmaan kuntaliitos Mäntyharjun kanssa aiheuttaa muutoksia Kohassa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-44) - [Palaa sivun alkuun](/paakayttajat2024)
 
