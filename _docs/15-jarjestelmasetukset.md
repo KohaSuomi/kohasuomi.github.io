@@ -295,10 +295,11 @@ $(document).ready(function(){
 Asetus|Suositus|Lisätietoja
 ---|---|---
 AgeRestrictionOverride | Älä salli | Esim. elokuvien ja pelien ikärajat ovat sitovia
+CalculateFinesOnReturn | Älä laske | Myöhästymismaksut lasketaan yöllä ajastetulla ajolla. Jos tämäkin on päällä, maksut voivat kirjautua asiakkaalle tietyissä tilanteissa uudelleen [maksut maksetaan ja sitten sen jälkeen palautetaan myöhässä olevia niteitä].
 CancelOrdersInClosedBaskets | Salli | Asetuksella määritetään, voiko suljettujen tilauskorien tilauksia perua. Jos tähän laittaa, että voi perua, ei tarvitse ensin avata tilauskoria ensin.
+ChargeFinesOnClosedDays | Laskuta | Asetuksella määritetään, lasketaanko myöhästymismaksut kalenteriin merkittyinä sulkupäivinä. Käytännössä tähän kannattaa laittaa Laskuta, jotta myöhästymismaksut olisivat aina ajan tasalla. Myöhästymismaksut lasketaan seuraavana aukiolopäivänä siten, että myös sulkupäivät laskutetaan, joten asiakkaalle voi näyttää siltä kuin maksua olisi kertynyt kerralla liikaa.
 DefaultPatronSearchMethod | Sisältää | Asetuksella määritetään, käytetäänkö asiakashaussa Alkaa- vai Sisältää-hakua.
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
-CalculateFinesOnReturn | Älä laske | Myöhästymismaksut lasketaan yöllä ajastetulla ajolla. Jos tämäkin on päällä, maksut voivat kirjautua asiakkaalle tietyissä tilanteissa uudelleen [maksut maksetaan ja sitten sen jälkeen palautetaan myöhässä olevia niteitä].
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
