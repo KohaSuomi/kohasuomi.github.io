@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
   * se tulee automaattisesti, jos käyttäjällä on ennestää ylätason borrowers-oikeus
     * SELECT COUNT(*) FROM borrowers WHERE MOD(flags DIV 16, 2); -kyselyllä voi tarkistaa, kuinka monelle se tulee
   * liittyy [versionvaihdon tikettiin #140](https://github.com/KohaSuomi/Koha-24.05/issues/140)
+  * tehdään uusi tiketti tähän liittyen, johon voitte kommentoida, onko ajo tarpeen omassa kimpassa.
+* Testit päivitetään versioon 24.05 maanantaina 11.11.2024 ja varmistetaan, että prosessit toimivat.
+  * testien päivityksen jälkeen on hyvä tarkastella päivityksen onnistumista (järjestelmäasetukset ja js-liitännäisten määritykset siirtyneet, muut tiedot säilyneet yms.)
+  * Emmi tekee vielä tiedotteen testien päivittämisestä 
 
 Etelästä pohjoiseen
 
