@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
@@ -27,7 +27,9 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 Etelästä pohjoiseen
 
-
+**Vaara**
+* testattu uuden version ominaisuuksia ja normaalia ylläpitoa
+  
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-44) - [Palaa sivun alkuun](/paakayttajat2024)
