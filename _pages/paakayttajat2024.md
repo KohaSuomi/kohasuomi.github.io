@@ -79,7 +79,7 @@ Pohjoisesta etelään
 
 **Kirkes**
 
-* Kirkesissä oli vielä Auroran aikaisia varauksia, joissa oli voimassaoloaika kaksi vuotta. Avattiin tiketti #1430](https://github.com/KohaSuomi/Koha/issues/1430) uudestaan, ja Johanna teki näille erillisen ajon.
+* Kirkesissä oli vielä Auroran aikaisia varauksia, joissa oli voimassaoloaika kaksi vuotta. Avattiin tiketti [#1430](https://github.com/KohaSuomi/Koha/issues/1430) uudestaan, ja Johanna teki näille erillisen ajon.
 * Asiakastietojen lainataulussa näkyy vain yksi syy, miksi lainaa ei voi uusia. Eli jos uusintakerrat ovat täynnä, lainataulussa ei näy, onko nimekkeeseen varauksia. Tultiin tulokseen, että tästä voisi tehdä kehitysehdotuksen: [#1469](https://github.com/KohaSuomi/Koha/issues/1469)
 
 
