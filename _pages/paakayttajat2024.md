@@ -35,7 +35,7 @@ Etelästä pohjoiseen
 ## Viikko 43
 
 Aika: 22.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
@@ -66,6 +66,11 @@ Pohjoisesta etelään
 
 **OUTI**
 * Henkilökunta on alkanut testaamaan uutta versiota.
+
+**Kirkes**
+
+* Kirkesissä oli vielä Auroran aikaisia varauksia, joissa oli voimassaoloaika kaksi vuotta. Avattiin tiketti #1430](https://github.com/KohaSuomi/Koha/issues/1430) uudestaan, ja Johanna teki näille erillisen ajon.
+* Asiakastietojen lainataulussa näkyy vain yksi syy, miksi lainaa ei voi uusia. Eli jos uusintakerrat ovat täynnä, lainataulussa ei näy, onko nimekkeeseen varauksia. Tultiin tulokseen, että tästä voisi tehdä kehitysehdotuksen: [#1469](https://github.com/KohaSuomi/Koha/issues/1469)
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
