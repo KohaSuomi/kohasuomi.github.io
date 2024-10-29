@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Kassu Pohto, Piia Semenoff (OUTI)
 
 **Yhteiset**
 * send_messages_to_borrowers - tarvitaanko kimpoissa ajoja, joilla poistetaan tuo oikeus käyttäjiltä?
@@ -33,7 +33,11 @@ Etelästä pohjoiseen
 **Kirkes**
 * Nextin testailua.
 * Asiakkaiden tervetuloviestiä ollaan ottamassa käyttöön. 
-  
+
+**OUTI**
+* Kuusamon kirjastosta tuli ihmettelyä, kun yhden varauksen viimeinen noutopäivä oli ollut 21.10.2024, mutta varaus näkyi vielä 22.10.2024 asiakkaalla noudettavana. Varaus vanhentui vasta 23.10.2024 ajossa, jolloin varaukselle syntyi myös noutamattoman varauksen maksu. Varausten vanhentamisajo oli jättänyt tämän yksittäisen varauksen vanhentamatta, sillä muita vastaavia tapauksia ei löytynyt kimpasta. Emmi tutki tapausta, mutta syytä tälle hikalle ei löytynyt.
+* Yhdeltä asiakkaalta oli tullut palautetta, ettei tekstiviestit mene perille. Ilmoituksen tilana olikin ”epäonnistunut” ja toimitushuomautuksissa tietona ”Ei huomautuksia SMS-ohjaimelta”. Kun puhelinnumeroa oli yritetty tallentaa uudestaan, Koha oli antanut herjan: ”Enter valid phonenumber”, eikä numeroa pystytty tallentamaan. Kun Kassu kopio numeron tekstiohjelmaan, selvisi, että numeron alussa ja lopussa oli näkymättömiä erikoismerkkejä, alussa U+202D merkit ja lopussa U+202C merkit. Asiakas oli itse vaihtanut numeronsa verkkokirjastossa ja ilmeisesti copypastettanut sen jostain, jolloin ylimääräisiä merkkejä oli tullut huomaamatta mukaan. Kassu tyhjensi koko numerokentän (vaati ihan backspacea) ja laittoi numeron uusiksi, niin numeron tallennus onnistui. Ongelmasta kommentoitu Finnan kehitysehdotustiketiin: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/20
+* Kempeleen kirjastosta ovat ilmoittaneet, että heillä hankinnan vastaanotto on tosi hidasta. Yhden kirjan vastaanottoon voi mennä 3-4 minuuttia. Muista kimpan kirjastoista ei vastaavaa ilmoitusta ole tullut. Vastaanottovaiheessa heille tuli ilmoitus ”Tilausnro xxxxx: Virhe tallennettaessa”. Selvisi, että Kempeleessä ovat ottaneet vastaan lukuisia tilauksia samalle laskunumerolle. Kohan ohjeen mukaan jokaiselle toimitukselle kannattaa tehdä oma laskunumeronsa juurikin sen takia, että saman laskunumeron käyttäminen alkaa hidastamaan vastaanottoa. Hidastusongelma ratkesi heillä tällä ohjeella.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-44) - [Palaa sivun alkuun](/paakayttajat2024)
