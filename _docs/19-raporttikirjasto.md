@@ -1903,6 +1903,28 @@ HAVING COUNT(*)>1) as tuplat ON bi.ean = tuplat.ean
 WHERE date(bm.timestamp) > <<Päivittymispäivämäärä uudempi kuin|date>>
 AND ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = ''
 ```
+#### Tuplatietueet, joilla sama ISSN
+
+Raportti listaa tietueet, joiden ISSN-numero löytyy tietokannasta useamman kerran. Koska ISSN-numero on myös ns. vuosinimekkeissä, tuloksia voi olla useampi per ISSN-numero. Listasta voi silmäillä, näkyykö seassa outouksia, kuten muista poikkeavia nimekkeitä (eli nimekkeellä väärä ISSN).
+
+Hae ISSN-sarakkeen linkistä voi hakea tiedonhaussa issn-indeksistä kaikki kyseisen ISSN:n sisältävät tietueet.
+
+Lisätty: 29.10.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT
+b.biblionumber, CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?q=issn%253A',bi.issn,'" target="_blank">',bi.issn,'</a>') as 'Hae ISSN:llä', ExtractValue(bm.metadata, '//controlfield[@tag="001"]') AS '001', ExtractValue(bm.metadata, '//controlfield[@tag="003"]') AS '003', bm.timestamp,  CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', author AS 'Tekijä' 
+FROM biblio b
+LEFT JOIN biblioitems bi ON (b.biblionumber = bi.biblionumber)
+LEFT JOIN biblio_metadata bm ON (b.biblionumber = bm.biblionumber)
+INNER JOIN
+(SELECT issn
+   FROM biblioitems bi
+   WHERE issn is not null
+   GROUP BY issn
+HAVING COUNT(*)>1) as tuplat ON bi.issn = tuplat.issn
+```
 
 ### Nimekkeet, joissa on varauksia muttei niteitä
 
