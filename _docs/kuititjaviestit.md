@@ -475,6 +475,45 @@ Credit  [% balance | $Price %] €.
 www.outikirjastot.fi</p>
 <br />
 ```
+#### ISSUESLIP järjestettynä eräpäivän mukaan myöhäisin viimeisenä
+
+```
+[% sortedcheckouts = [] %]
+[% FOREACH checkout IN checkouts %]
+[% sortedcheckouts.push(checkout)  %]
+[% END %]
+
+
+Lainatut:
+<br>
+[% FOREACH checkout IN sortedcheckouts.sort('date_due') %]
+[% checkout.item.biblio.title %] - [% checkout.item.biblio.author %]
+-- Eräpäivä: [% checkout.date_due | $KohaDates with_hours => 1 %]
+Uusittu
+[% checkout.renewals_count %]
+kertaa
+<br>
+[% END %]
+
+
+[% sortedoverdues = [] %]
+[% FOREACH overdue IN overdues %]
+[% sortedoverdues.push(overdue)  %]
+[% END %]
+
+<br>
+Myöhssä olevat:
+<br>
+[% FOREACH overdue IN sortedoverdues.sort('date_due') %]
+[% overdue.item.biblio.title %]- [% overdue.item.biblio.author %]
+-- Eräpäivä: [% overdue.date_due | $KohaDates with_hours => 1 %]
+Uusittu
+[% overdue.renewals_count %]
+kertaa
+<br>
+[% END %]
+```
+
 
 ## ISSUEQLSLIP eli lainakuitti päivän lainoista
 
