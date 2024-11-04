@@ -10,6 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 45
+
+
+**Yhteiset**
+* Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa.
+* 
+
 ## Viikko 44
 
 Aika: 29.10.2024, klo 9.15<br />
