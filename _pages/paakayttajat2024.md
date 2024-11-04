@@ -12,10 +12,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 45
 
+Aika: 5.11.2024, klo 9.15<br />
+Läsnä:
 
 **Yhteiset**
-* Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa.
-* 
+* Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
+* [Versionvaihdon esittely henkilökunnalle 7.11.2024 klo 13](https://github.com/KohaSuomi/Koha/discussions/1458), tapahtumasta kannattaa muistutella henkilökuntaa.
+* [Testiympäristöjen päivitys 11.11.2024](https://github.com/KohaSuomi/Koha/discussions/1480) -tiedote
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 44
 
