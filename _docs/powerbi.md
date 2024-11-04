@@ -183,7 +183,7 @@ WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IF
 ```
 
 ### Poistodata
-päivitetty 13.11.2023
+päivitetty 4.11.2024
 ```
 SELECT di.biblionumber, di.itemnumber, di.homebranch AS 'kotikirjasto', di.permanent_location AS 'hyllypaikka', di.ccode AS 'kokoelma', di.cn_sort AS 'signum', di.dateaccessioned AS 'saapumispäivä', LEFT(di.dateaccessioned, 4) AS 'saapumispäivän vuosi', di.datelastborrowed AS 'viimeksi lainattu', LEFT(di.datelastseen, 10) AS 'viimeksi havaittu', di.notforloan AS 'ei lainattavissa -tila', di.damaged AS 'ei varattavissa', di.itemlost AS 'kadonnut', di.issues AS 'lainoja', di.renewals AS 'uusintoja', (IFNULL(di.issues, 0)+IFNULL(di.renewals, 0)) AS 'Lainoja_yht.', 
 di.timestamp AS 'poistoaika', 
