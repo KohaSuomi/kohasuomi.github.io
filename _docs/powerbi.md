@@ -77,7 +77,7 @@ FROM aqbooksellers
 ```
 
 ### Lainausdata
-päivitetty 13.11.2023
+päivitetty 4.11.2024
 ```
 SELECT s.type AS 'Tapahtumatyyppi', IFNULL(bi.biblionumber, IFNULL(bi2.biblionumber, dbi.biblionumber)) AS 'Tietuenumero', s.itemnumber AS 'Nidenumero', 
 IFNULL(bi.author, IFNULL(bi2.author, dbi.author)) as 'Tekijä', 
@@ -92,7 +92,7 @@ COALESCE(bibi1.itemtype, bibi2.itemtype, dbibi.itemtype, dbibi2.itemtype) AS 'Ai
 IFNULL(i.permanent_location, d.permanent_location) AS 'Hyllypaikka', 
 s.ccode AS 'Kokoelma',
 IFNULL(i.cn_sort, d.cn_sort) AS 'Luokka ja pääsana', 
-2023-IFNULL(LEFT(b.dateofbirth, 4), (LEFT(db.dateofbirth, 4))) AS 'Ikä',
+2024-IFNULL(LEFT(b.dateofbirth, 4), (LEFT(db.dateofbirth, 4))) AS 'Ikä',
 IFNULL (bde1.primary_language, bde2.primary_language) AS 'Kieli',
 SUBSTR(
     IFNULL(i.cn_sort, d.cn_sort), 
@@ -122,9 +122,9 @@ AND b.categorycode != 'EITILASTO'
 ```
 
 ### Nidedata
-päivitetty 13.11.2023
+päivitetty 4.11.2024
 ```
-SELECT i.biblionumber AS 'Tietuenumero', i.itemnumber AS 'Nidenumero', i.homebranch AS 'Kotikirjasto', i.permanent_location AS 'Hyllypaikka', i.ccode AS 'Kokoelma', i.cn_sort AS 'Luokka ja pääsana', i.dateaccessioned AS 'Saapumispäivä', LEFT(i.dateaccessioned, 4) AS 'Saapumispäivän vuosi', i.datelastborrowed AS 'Viimeksi lainattu', i.datelastseen AS 'Viimeksi havaittu', i.notforloan AS 'Ei lainattavissa -tila', i.damaged AS 'Ei varattavissa', i.itemlost AS 'Kadonnut', i.issues AS 'Lainoja', i.renewals AS 'Uusintoja', (IFNULL(i.issues, 0)+IFNULL(i.renewals, 0)) AS 'Lainoja_yht.', 
+SELECT i.biblionumber AS 'Tietuenumero', i.itemnumber AS 'Nidenumero', i.homebranch AS 'Kotikirjasto', i.permanent_location AS 'Hyllypaikka', i.ccode AS 'Kokoelma', i.cn_sort AS 'Luokka ja pääsana', i.dateaccessioned AS 'Saapumispäivä', LEFT(i.dateaccessioned, 4) AS 'Saapumispäivän vuosi', i.datelastborrowed AS 'Viimeksi lainattu', LEFT(i.datelastseen, 10) AS 'Viimeksi havaittu', i.notforloan AS 'Ei lainattavissa -tila', i.damaged AS 'Ei varattavissa', i.itemlost AS 'Kadonnut', i.issues AS 'Lainoja', i.renewals AS 'Uusintoja', (IFNULL(i.issues, 0)+IFNULL(i.renewals, 0)) AS 'Lainoja_yht.', 
 bi.itemtype AS 'Aineistotyyppi', b.author AS 'Tekijä', 
 CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name, i.enumchron) as 'Nimeke',
 bde.publication_year AS 'julk. vuosi',
@@ -185,7 +185,7 @@ WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IF
 ### Poistodata
 päivitetty 13.11.2023
 ```
-SELECT di.biblionumber, di.itemnumber, di.homebranch AS 'kotikirjasto', di.permanent_location AS 'hyllypaikka', di.ccode AS 'kokoelma', di.cn_sort AS 'signum', di.dateaccessioned AS 'saapumispäivä', LEFT(di.dateaccessioned, 4) AS 'saapumispäivän vuosi', di.datelastborrowed AS 'viimeksi lainattu', di.datelastseen AS 'viimeksi havaittu', di.notforloan AS 'ei lainattavissa -tila', di.damaged AS 'ei varattavissa', di.itemlost AS 'kadonnut', di.issues AS 'lainoja', di.renewals AS 'uusintoja', (IFNULL(di.issues, 0)+IFNULL(di.renewals, 0)) AS 'Lainoja_yht.', 
+SELECT di.biblionumber, di.itemnumber, di.homebranch AS 'kotikirjasto', di.permanent_location AS 'hyllypaikka', di.ccode AS 'kokoelma', di.cn_sort AS 'signum', di.dateaccessioned AS 'saapumispäivä', LEFT(di.dateaccessioned, 4) AS 'saapumispäivän vuosi', di.datelastborrowed AS 'viimeksi lainattu', LEFT(di.datelastseen, 10) AS 'viimeksi havaittu', di.notforloan AS 'ei lainattavissa -tila', di.damaged AS 'ei varattavissa', di.itemlost AS 'kadonnut', di.issues AS 'lainoja', di.renewals AS 'uusintoja', (IFNULL(di.issues, 0)+IFNULL(di.renewals, 0)) AS 'Lainoja_yht.', 
 di.timestamp AS 'poistoaika', 
 LEFT(di.timestamp, 4) AS 'poistoajan vuosi',
 IFNULL(bi.itemtype, dbi.itemtype) AS 'aineistotyyppi', 
@@ -193,8 +193,8 @@ IFNULL(b.author, db.author) AS 'tekijä',
 CONCAT_WS(' ', IFNULL(b.title,db.title), IFNULL(b.subtitle,db.subtitle), IFNULL(b.part_number, db.part_number), IFNULL(b.part_name, db.part_name)) as 'Nimeke',
 bde.publication_year AS 'julkaisuvuosi',
 bde.primary_language AS 'Kielikoodi',
-2023-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS 'aineiston ikä',
-2023-LEFT(di.dateaccessioned, 4) AS 'aineiston ikä (saapumisesta)',
+2024-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS 'aineiston ikä',
+2024-LEFT(di.dateaccessioned, 4) AS 'aineiston ikä (saapumisesta)',
 bde.celia AS 'Daisy',
 SUBSTR(di.cn_sort, 
     1,
@@ -206,7 +206,7 @@ LEFT JOIN biblio b ON di.biblionumber=b.biblionumber
 LEFT JOIN biblio_metadata bm ON b.biblionumber=bm.biblionumber
 LEFT JOIN deletedbiblioitems dbi ON di.biblioitemnumber = dbi.biblioitemnumber
 LEFT JOIN deletedbiblio db ON di.biblionumber=db.biblionumber
-LEFT JOIN biblio_data_elements bde ON di.biblioitemnumber=bde.biblioitemnumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON di.biblionumber=bde.biblionumber
 WHERE convert(di.homebranch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>> AND di.timestamp BETWEEN <<AloitusPvm |date>> AND LopetusPvm:= <<LopetusPvm |date>>
 ```
 
