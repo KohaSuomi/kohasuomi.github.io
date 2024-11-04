@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 45
+
+Aika: 4.11.2024 klo 9<br />
+Läsnä: Emmi, Kodo, Johanna, Ari, Anneli
+
+Ei erityistä.
+
 ## Viikko 44
 
 Aika: 28.10.2024 klo 9<br />
