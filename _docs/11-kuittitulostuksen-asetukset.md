@@ -43,7 +43,8 @@ Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 
 ## 9.1.1 Firefoxin versio 115+esr
 
 - Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
-- Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2.
+  - Jos arvot annetaan tuumina: Reunukset laitetaan muuten nollaksi, mutta vasemman reunan arvoksi laitetaan 0,05.
+  - Jos arvot annetaan millimetreinä: Reunukset laitetaan muuten nollaksi, mutta vasemman reunan arvoksi laitetaan 1,2.
 - Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja.
 
   ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostinasetukset.PNG)
