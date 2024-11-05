@@ -31,7 +31,11 @@ Pohjoisesta etelään
 **Lappi**
 * Versionvaihtoon liittyviä töitä
 * Normaalia ylläpitoa
-
+* 
+**Lastu**
+* Kotipalveluasiakkaiden käytäntöjä mietitty esim. varausten noutoajan ja Kohan automatiikan yhteensovittamiseksi
+* Varausten noutopäiviä säädetty mutta ei saatu vielä kohdalleen 7 päivään. Noutopäivät eivät muodostu oikein jos käytössä ExcludeHolidaysFromMaxPickUpDelay-asetus ja varaus kiinnitetään sulkupäivänä. Jäädään pohtimaan mikä on paras mahdollinen käytäntö tähän, että asiakkaiden noutopäivät muodostuisivat oikein.
+* Huomattiin, että ei HTML-viesteinä lähtevissä sähköposti-ilmoituksissa items.content tagi tekee palautuneeseen tietoon välit sarakkeilla (DUEDGST, PREDUEDGST). HTML-viestissä välit tulevat yksittäisinä välilyönteinä. Muutettiin ilmoitukset HTML-muotoiseksi koska sarakkeilla luettavuus ja rivitys oli kamalan näköinen ja vaikea lukea, etenkin kapeammilla laitteilla kuten älypuhelin. Tagi palauttaa myös turhaa tietoa kuten erääntymisen kellonajan (23.59) jonka esim. Outlookin mobiilisovellus tulkitsee päivämäärään kanssa linkiksi. Vaikuttaa että items.content tagin palauttama tieto on tehty aikanaan valmiiksi aseteltuja kirjepohjia varten, ja pitäisi tutkia ja testata tagin korvaamista template.toolkitin avulla jotta viestiä ei tarvitse lähettää HTML-viestinä. Lastu ei vielä ehdi tätä enempää tutkia ja testata, mutta yhteisöstä löytyy mahdollinen pohja toteuttamista varten: [36107 – Port default DUEDGST and PREDUEDGST notices to Template Toolkit](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=36107)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
