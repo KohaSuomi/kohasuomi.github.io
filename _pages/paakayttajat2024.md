@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kassu Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
@@ -36,6 +36,9 @@ Pohjoisesta etelään
 * Kotipalveluasiakkaiden käytäntöjä mietitty esim. varausten noutoajan ja Kohan automatiikan yhteensovittamiseksi
 * Varausten noutopäiviä säädetty mutta ei saatu vielä kohdalleen 7 päivään. Noutopäivät eivät muodostu oikein jos käytössä ExcludeHolidaysFromMaxPickUpDelay-asetus ja varaus kiinnitetään sulkupäivänä. Jäädään pohtimaan mikä on paras mahdollinen käytäntö tähän, että asiakkaiden noutopäivät muodostuisivat oikein.
 * Huomattiin, että ei HTML-viesteinä lähtevissä sähköposti-ilmoituksissa items.content tagi tekee palautuneeseen tietoon välit sarakkeilla (DUEDGST, PREDUEDGST). HTML-viestissä välit tulevat yksittäisinä välilyönteinä. Muutettiin ilmoitukset HTML-muotoiseksi koska sarakkeilla luettavuus ja rivitys oli kamalan näköinen ja vaikea lukea, etenkin kapeammilla laitteilla kuten älypuhelin. Tagi palauttaa myös turhaa tietoa kuten erääntymisen kellonajan (23.59) jonka esim. Outlookin Android-mobiilisovellus tulkitsee päivämäärään kanssa linkiksi. Vaikuttaa että items.content tagin palauttama tieto on tehty aikanaan valmiiksi aseteltuja kirjepohjia varten, ja pitäisi tutkia ja testata tagin korvaamista template.toolkitin avulla jotta viestiä ei tarvitse lähettää HTML-viestinä. Lastu ei vielä ehdi tätä enempää tutkia ja testata, mutta yhteisöstä löytyy mahdollinen pohja toteuttamista varten: [36107 – Port default DUEDGST and PREDUEDGST notices to Template Toolkit](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=36107)
+
+**OUTI**
+* Kun on päällä järjestelmäasetus ”Allow Renewal If Other Items Availabl: Salli asiakkaan uusia laina niteestä, josta on varauksia, jos vapaana on muita niteitä, jotka voivat täyttää varauksen” ja teokseen kohdistuu varaus, ”Saatavana, ei varattavissa”-tilassa olevia niteitä ei pysty uusimaan Koha-versiossa 23.11. Tulevassa versiossa 24.05 varaukset eivät vaikuta ”ei varattavissa” olevien niteiden uusimiseen. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
