@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
@@ -31,7 +31,7 @@ Pohjoisesta etelään
 **Lappi**
 * Versionvaihtoon liittyviä töitä
 * Normaalia ylläpitoa
-* 
+  
 **Lastu**
 * Kotipalveluasiakkaiden käytäntöjä mietitty esim. varausten noutoajan ja Kohan automatiikan yhteensovittamiseksi
 * Varausten noutopäiviä säädetty mutta ei saatu vielä kohdalleen 7 päivään. Noutopäivät eivät muodostu oikein jos käytössä ExcludeHolidaysFromMaxPickUpDelay-asetus ja varaus kiinnitetään sulkupäivänä. Jäädään pohtimaan mikä on paras mahdollinen käytäntö tähän, että asiakkaiden noutopäivät muodostuisivat oikein.
