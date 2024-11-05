@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
@@ -27,6 +27,10 @@ Pohjoisesta etelään
 
 **Vaara**
 * ei mainittavaa, testausta ja normaalia ylläpitoa
+
+**Lappi**
+* Versionvaihtoon liittyviä töitä
+* Normaalia ylläpitoa
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
