@@ -42,7 +42,7 @@ Pohjoisesta etelään
 * OUTIn ja Tätin nexteillä välillä tietueet katoaa, kun niitä avaa muokattavaksi, mutta hetken päästä taas näkyy. Mietimme onko plackeissa epävakautta?
   * ei voi tietää, joten ilmoitamme Matrixissa, jos semmoista tapahtuu
 * Olemme miettineet tohdimmeko antaa laskutukselle luvan versionvaihtoviikolle ja kyselimme muiden kimppojen suunnitelmia sekä Koha-Suomen mielipidettä.
-  * kimpoissa aloitetaan laskutus versionvaihtoviikolla, varovaisella otannalla aluksi. 
+  * joissain kimpoissa aiotaan aloittaa laskutus versionvaihtoviikolla, varovaisella otannalla aluksi. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
