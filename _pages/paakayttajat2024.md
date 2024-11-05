@@ -38,7 +38,11 @@ Pohjoisesta etelään
 * Huomattiin, että ei HTML-viesteinä lähtevissä sähköposti-ilmoituksissa items.content tagi tekee palautuneeseen tietoon välit sarakkeilla (DUEDGST, PREDUEDGST). HTML-viestissä välit tulevat yksittäisinä välilyönteinä. Muutettiin ilmoitukset HTML-muotoiseksi koska sarakkeilla luettavuus ja rivitys oli kamalan näköinen ja vaikea lukea, etenkin kapeammilla laitteilla kuten älypuhelin. Tagi palauttaa myös turhaa tietoa kuten erääntymisen kellonajan (23.59) jonka esim. Outlookin Android-mobiilisovellus tulkitsee päivämäärään kanssa linkiksi. Vaikuttaa että items.content tagin palauttama tieto on tehty aikanaan valmiiksi aseteltuja kirjepohjia varten, ja pitäisi tutkia ja testata tagin korvaamista template.toolkitin avulla jotta viestiä ei tarvitse lähettää HTML-viestinä. Lastu ei vielä ehdi tätä enempää tutkia ja testata, mutta yhteisöstä löytyy mahdollinen pohja toteuttamista varten: [36107 – Port default DUEDGST and PREDUEDGST notices to Template Toolkit](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=36107)
 
 **OUTI**
-* Kun on päällä järjestelmäasetus ”Allow Renewal If Other Items Availabl: Salli asiakkaan uusia laina niteestä, josta on varauksia, jos vapaana on muita niteitä, jotka voivat täyttää varauksen” ja teokseen kohdistuu varaus, ”Saatavana, ei varattavissa”-tilassa olevia niteitä ei pysty uusimaan Koha-versiossa 23.11. Tulevassa versiossa 24.05 varaukset eivät vaikuta ”ei varattavissa” olevien niteiden uusimiseen. 
+* Kun on päällä järjestelmäasetus ”Allow Renewal If Other Items Availabl: Salli asiakkaan uusia laina niteestä, josta on varauksia, jos vapaana on muita niteitä, jotka voivat täyttää varauksen” ja teokseen kohdistuu varaus, ”Saatavana, ei varattavissa”-tilassa olevia niteitä ei pysty uusimaan Koha-versiossa 23.11. Tulevassa versiossa 24.05 varaukset eivät vaikuta ”ei varattavissa” olevien niteiden uusimiseen.
+* OUTIn ja Tätin nexteillä välillä tietueet katoaa, kun niitä avaa muokattavaksi, mutta hetken päästä taas näkyy. Mietimme onko plackeissa epävakautta?
+  * ei voi tietää, joten ilmoitamme Matrixissa, jos semmoista tapahtuu
+* Olemme miettineet tohdimmeko antaa laskutukselle luvan versionvaihtoviikolle ja kyselimme muiden kimppojen suunnitelmia sekä Koha-Suomen mielipidettä.
+  * kimpoissa aloitetaan laskutus versionvaihtoviikolla, varovaisella otannalla aluksi. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
