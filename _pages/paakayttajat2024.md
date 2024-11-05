@@ -13,13 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
 * [Versionvaihdon esittely henkilökunnalle 7.11.2024 klo 13](https://github.com/KohaSuomi/Koha/discussions/1458), tapahtumasta kannattaa muistutella henkilökuntaa.
 * [Testiympäristöjen päivitys 11.11.2024](https://github.com/KohaSuomi/Koha/discussions/1480) -tiedote
 * Finna-tapaaminen ke 13.11.2024 klo 13 pääkäyttäjien huoneessa. Kuka haluais olla vetäjä?
+  * Mikko kysyy Kyllösen Roosalta Vaskista.
 
 
 Pohjoisesta etelään
