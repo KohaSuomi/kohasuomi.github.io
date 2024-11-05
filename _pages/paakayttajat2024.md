@@ -67,6 +67,12 @@ Etelästä pohjoiseen
 **Vaski**
 * Lehtitietueen poisto herjasi olemassa olevasta, vastaanotetusta hankinnasta. OUTIsta saatiin tieto, että on ok silti poistaa tietue.
 
+**Lastu**
+* Versionvaihtoa ehditty valmistelemaan.
+* Puppe otettu käyttöön Lahdessa 28.11.
+* Sip2SortBinMapping-asetus ei toimi 24.05-versiossa, testattu asetusten konvertointia palvelimen päähän ja niiden toimivuutta onnistuneesti.
+* Myöhästymismaksuja ei muodostunut viikonloppuna, johtui ChargeFinesOnClosedDays-asetuksesta jossa oli väärä määritys "älä laskuta".
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-44) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 43
