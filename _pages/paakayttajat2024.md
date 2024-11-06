@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 46
+
+Aika: 11.11.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Uusi raportti [Ensilainat postinumeron mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#ensilainat-postinumeron-mukaan-aikav%C3%A4lill%C3%A4). Liittyy [tikettiin #1482](https://github.com/KohaSuomi/Koha/issues/1482).
+* Onko tarvetta pitää palaveria ma 18.11.2024 versionvaihdon etenimisen tsekkaamiseksi?
+
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
