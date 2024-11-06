@@ -50,7 +50,7 @@ Pohjoisesta etelään
 * Asiakkaan tietoihin tulee "Tili lukittu" -viesti, kun asiakkaan kirjautumisyritykset ylittävät sallitun, mutta ovat kuitenkin alle 50. Ehdotettiin, että viestiä muokattaisiin "Tili on lukittu - vaihda PIN", koska arkityössä ei aina muista miten lukituksen saa pois päältä. Tehdään asiasta ehdotus, josko tekstin saisi muokattua CSS:llä, koska käännösmuutos olisi Koha-Suomen oma.
 
 **Helle**
-* Kehittäjä Johanna Räisä palauttanut tietokantaan yhden kirjaston tiettynä päivänä poistetetut niteet, joita ei ollut tarpeen poistaa. 
+* Kehittäjä Johanna Räisä palauttanut tietokantaan yhden kirjaston tiettynä päivänä poistetetut niteet, joita ei ollutkaan tarpeen poistaa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
