@@ -417,6 +417,22 @@ and ExtractValue(metadata, '//datafield[@tag="599"]/subfield[@code="a"]') = 'Dai
 group by items.itemnumber
 order by lainat DESC
 ```
+### Ensilainat postinumeron mukaan aikavälillä
+
+Raportti hakee pseudonymized_transactions-taulusta ensilainat valitulla aikavälillä ja lainauskirjastolla. Tulokset ryhmitetään postinumeron mukaan. Muokkaa tarvittaessa p.categorycode-kohtaan ne asiakastyypit, joiden lainoja ei haluta laskea mukaan. Nyt siinä on Lumme-kirjastojen mukaiset asiakastyypit.
+
+Lisätty: 6.11.2024<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT p.zipcode AS 'Postinumero', count(*) AS 'Ensilainojen määrä'
+FROM pseudonymized_transactions p
+WHERE p.categorycode not in ('TILASTO', 'OMA')
+   AND transaction_type = 'issue'
+   AND transaction_branchcode LIKE <<Lainaava kirjasto|branches:all>>
+   AND date(datetime) BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>>
+GROUP BY p.zipcode
+```
 
 ## Kaukolainat
 
