@@ -63,7 +63,7 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Tervetuloa-viesti uusille asiakkaille otettu käyttöön.
-* Työntekijältä tullut toive kytkeä ominaisuus päälle, jolla lainausvaiheessa tulisi ilmoitus, jos teos on lainattu aiemmin. Ominaisuus on käytössä asiakasryhmäkohtaisesti, ei yksittäiselle asiakkaalle.
+* Työntekijältä tullut kyselyä mahdollisuudesta kytkeä ominaisuus päälle, jolla tulisi ilmoitus lainausvaiheessa, jos teos on lainattu aiemmin. Ominaisuus on käytössä asiakasryhmäkohtaisesti, ei yksittäiselle asiakkaalle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
