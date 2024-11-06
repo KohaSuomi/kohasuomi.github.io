@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kassu Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kassu Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
@@ -48,6 +48,9 @@ Pohjoisesta etelään
 * Perusylläpitoa.
 * Nextin IntranetUser-asetusten läpikäyntiä.
 * Asiakkaan tietoihin tulee "Tili lukittu" -viesti, kun asiakkaan kirjautumisyritykset ylittävät sallitun, mutta ovat kuitenkin alle 50. Ehdotettiin, että viestiä muokattaisiin "Tili on lukittu - vaihda PIN", koska arkityössä ei aina muista miten lukituksen saa pois päältä. Tehdään asiasta ehdotus, josko tekstin saisi muokattua CSS:llä, koska käännösmuutos olisi Koha-Suomen oma.
+
+**Helle**
+* Kehittäjä Johanna Räisä palauttanut tietokantaan yhden kirjaston tiettynä päivänä poistetetut niteet, joita ei ollutkaan tarpeen poistaa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
