@@ -183,7 +183,7 @@ WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IF
 ```
 
 ### Poistodata
-päivitetty 4.11.2024
+päivitetty 7.11.2024
 ```
 SELECT di.biblionumber, di.itemnumber, di.homebranch AS 'kotikirjasto', di.permanent_location AS 'hyllypaikka', di.ccode AS 'kokoelma', di.cn_sort AS 'signum', di.dateaccessioned AS 'saapumispäivä', LEFT(di.dateaccessioned, 4) AS 'saapumispäivän vuosi', di.datelastborrowed AS 'viimeksi lainattu', LEFT(di.datelastseen, 10) AS 'viimeksi havaittu', di.notforloan AS 'ei lainattavissa -tila', di.damaged AS 'ei varattavissa', di.itemlost AS 'kadonnut', di.issues AS 'lainoja', di.renewals AS 'uusintoja', (IFNULL(di.issues, 0)+IFNULL(di.renewals, 0)) AS 'Lainoja_yht.', 
 di.timestamp AS 'poistoaika', 
@@ -207,7 +207,7 @@ LEFT JOIN biblio_metadata bm ON b.biblionumber=bm.biblionumber
 LEFT JOIN deletedbiblioitems dbi ON di.biblioitemnumber = dbi.biblioitemnumber
 LEFT JOIN deletedbiblio db ON di.biblionumber=db.biblionumber
 LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON di.biblionumber=bde.biblionumber
-WHERE convert(di.homebranch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>> AND di.timestamp BETWEEN <<AloitusPvm |date>> AND LopetusPvm:= <<LopetusPvm |date>>
+WHERE convert(di.homebranch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>> AND di.timestamp BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>
 ```
 
 ## Taustatietoja muista lähteistä
