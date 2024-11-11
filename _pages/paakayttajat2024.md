@@ -753,7 +753,7 @@ Pohjoisesta etelään.
 ## Viikko 29
 
 Aika: 16.7.2024, klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Emmi Takkinen (Koha-Suomi)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Maria Joona (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Emmi Takkinen (Koha-Suomi), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat:**
 * Viikon 29 päivitystä ei ole.
@@ -785,6 +785,9 @@ Etelästä pohjoiseen.
 
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Vaski**
+* "Älä lainaa, vahvista varaus ja tulosta infokuitti" -painike ei toimi oikein. Painike tulee näkyviin, jos lainaa aineistoa, johon on tärppäämätön varaus, eikä painiketta ole piilottanut css:llä. Kuiteille tulostuu väärä päivämäärä ja päivityksen 4.6. jälkeen varaukset menneet myös kuljetustilaan noudettavana-tilan sijaan.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-29) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -861,6 +864,9 @@ Etelästä pohjoiseen.
 
 **Lappi**
 * Normaalia ylläpitoa.
+
+**Vaski**
+* Verkkokirjasto näyttää nyt tietueen varausmäärän ilman kuljetuksessa olevia ja keskeytettyjä. Asiakas saa tästä kuvan, että varauksia on vähemmän, kuin niitä todellisuudessa on ja asiakkaan varauksiin tulee näkyviin kokonaismäärä. Tämä on herättänyt hämmästystä, kun asiakkaan sija varausjonossa on paljon suurempi kuin tietueen näennäinen varausmäärä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-27) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -899,7 +905,7 @@ Pohjoisesta etelään.
 ## Viikko 25
 
 Aika: 18.6.2024 klo 9.15<br />
-Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI), Irina Halminen ja Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Annika Helastila (Kirkes)
+Läsnä: Kati Sillgren (Helle), Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari (OUTI), Irina Halminen ja Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Annika Helastila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 * Vaskilaiset lisäsivät Koha-tietovarannon [Poikkeustilanteisiin ja erikoistilanteisiin ohjeita](https://github.com/KohaSuomi/Koha/wiki/Poikkeustilanteisiin-ja-erikoistilanteisiin-ohjeita#kirjaston-lopullinen-sulkeminen-ja-poistaminen-kohasta) -wikiin heidän muistilistan, mitä kannattaa huomioida, kun kirjasto sulkeutuu lopullisesti.
@@ -928,12 +934,16 @@ Etelästä pohjoiseen
 **Kirkes**
 * Hankintapuoli mietiskellyt, vaikuttaako toimittajan nimen vaihtuminen johonkin haitallisesti.
 
+**Vaski**
+* Asiakashakuun kaivataan parannusta. Tarve olisi ainakin fraasihaulle, jossa välilyöntejä ei tulkittaisi OR-operaattoreiksi. Ainoastaan kirjastokorttinumeron täsmällinen haku saisi viedä käyttäjän suoraan hakutulokseen. Nimihaun tulisi aina jäädä tuloslistaan, jotta esim. haku Hanna Virja ei ohjaa suoraan Johanna Virtasen tietoihin, jos se on ainoa täsmäävä tulos. Nextissä tiedonhakuun tehty järjestelmäasetus, jolla määritellään ohjataanko suoraan ainoaan tulokseen. Sama haluttaisiin asiakashakuunkin.
+* Saatavilla oleviin niteisiin rajaaminen pitäisi saada toimimaan oikein. Elasticsearch ei saa tietoa varaus- ja kuljetustauluista, joten niiden tiloja ei voida hyödyntää. Ratkaisuna voisi olla items-tauluun lisättävä on_shelf-sarake, johon tieto niteen hyllyssä tilasta tallennettaisiin.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-25) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 24
 
 Aika: 11.6.2024 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Annika Helastila (Kirkes), Anneli Österman (Koha-Suomi)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Annika Helastila (Kirkes), Anneli Österman (Koha-Suomi), Mikko Liimatainen (Vaski)
 
 **Asiat**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1281)
@@ -965,6 +975,10 @@ Pohjoisesta etelään
 * Henkilökunnalta tullut kyselyä, mitä tarkoittaa suojattu-tila uutta asiakasta luotaessa.
 * Virheilmoituksia käsin lisätyissä hankinnoissa. Tiketti #1282.
 
+**Vaski**
+* Huollettavan kortin vanheneminen, kun lapsi täyttää 15. Tarkoituksena saada lapsen tiedot päivitettyä, kun hän on itse vastuussa lainoistaan ja ettei tieto lapsen lainoista menisi huoltajalle. Vanhenemispäivä voitaisiin asettaa korttia luodessa JS-rimpsulla. Olisiko tällainen lainakielto lainmukainen?
+* Tyhjien tietueiden poistaminen ajoina vai erämuokkauksella? Tuoreita minitietueita ei voida poistaa, koska niihin ei välttämättä ole vielä tullut hankintoja.
+* Pikanäppäimiä toivottu muutettavan toimimaan ilman Firefoxin alt-shift-näppäinyhdistelmää. Alustavaa testausta tehty Vaskissa näppäinkomentojen muuttamiseksi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-24) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -1065,7 +1079,7 @@ Pohjoisesta etelään
 ## Viikko 21
 
 Aika: 21.5.2024 klo 9.15<br />
-Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu)
+Läsnä: Anneli ja Emmi (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen (Lastu), Mikko Liimatainen (Vaski)
 
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi #1014 ](https://github.com/KohaSuomi/Koha/issues/1014)
   * Päätös: otetaan käyttöön väliaikaisesti JS-rimpsu
@@ -1111,6 +1125,12 @@ https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja#as
 * Pohdittu miten esinelainojen kuljetuksia voisi rajoittaa, Vaarasta vinkki "Oletusvaraussääntö nidetyypeittäin"-ominaisuudesta, jota aletaan testaamaan.
 * Puppe-työkalu tulossa käyttöön Lahdessa, tarkka ajankohta ei vielä tiedossa mutta todennäköisesti heti käyttöönoton yhteydessä
 * Palaverit Raindance-integraatiosta ja Suomi.fi - viestien käyttöönotosta tulossa
+
+**Vaski**
+* Tarve automaattiselle sähköposti-ilmoitukselle kun lapsiasiakas päivittyy aikuiseksi. Kerrottaisiin vastuun vaihtumisesta ja pyydettäisiin päivittämään yhteystiedot, koska monella lapsella tiedoissa ovat huoltajan puhelinnumero ja sähköposti.
+* Hetun tallennuksen painike ei saa olla epäaktiivinen kun kentän tietoa ei ole muutettu.
+* Viivakoodin generointiin liittyneet ongelmat näyttäisivät palanneen.
+* Ajateltu ottaa uusinta mahdollisuus MikroVäylän automaateille. Uusinnan eräpäivä ei näy laitteella, ainoastaan kuitilla. Käytännössä laite tekee palautuksen ja lainaa niteen uudelleen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-21) - [Palaa sivun alkuun](/paakayttajat2024)
 
