@@ -26,7 +26,7 @@ Läsnä:
 ## Viikko 45
 
 Aika: 5.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kassu Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kassu Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Muistattehan käydä nexteillä läpi kaikki IntranetUserJS-liitännäiset ja tehdä niihin tarvittavat määrittelyt ennen versionvaihtoa. Niiden määritykset kopioidaan tuotantoon.
@@ -68,6 +68,9 @@ Pohjoisesta etelään
 **Kirkes**
 * Tervetuloa-viesti uusille asiakkaille otettu käyttöön.
 * Työntekijältä tullut kyselyä mahdollisuudesta kytkeä ominaisuus päälle, jolla tulisi ilmoitus lainausvaiheessa, jos teos on lainattu aiemmin. Ominaisuus on käytössä asiakasryhmäkohtaisesti, ei yksittäiselle asiakkaalle.
+
+**Vaski**
+* Perusylläpitoa ja versionvaihdon testausta
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-45) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -122,7 +125,7 @@ Etelästä pohjoiseen
 ## Viikko 43
 
 Aika: 22.10.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Annika Helastila ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Voisiko testeiltä ja nexteiltä anonymisoida myös kirjastokortin numeron ja borrowernumberin?
@@ -159,6 +162,8 @@ Pohjoisesta etelään
 * Kirkesissä oli vielä Auroran aikaisia varauksia, joissa oli voimassaoloaika kaksi vuotta. Avattiin tiketti [#1430](https://github.com/KohaSuomi/Koha/issues/1430) uudestaan, ja Johanna teki näille erillisen ajon.
 * Asiakastietojen lainataulussa näkyy vain yksi syy, miksi lainaa ei voi uusia. Eli jos uusintakerrat ovat täynnä, lainataulussa ei näy, onko nimekkeeseen varauksia. Tultiin tulokseen, että tästä voisi tehdä kehitysehdotuksen: [#1469](https://github.com/KohaSuomi/Koha/issues/1469)
 
+**Vaski**
+* Firefoxin scrollausongelma, jossa kaikkien sivujen loppuun ei pääse, ei näyttäisi korjaantuvan 128 esr -versiossakaan kokonaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-43) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -384,7 +389,7 @@ Pohjoisesta etelään
 ## Viikko 38
 
 Aika: 17.9.2024, klo 9.15<br />
-Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1412)
@@ -424,6 +429,9 @@ Läsnä: Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Aul
 **Lumme**
 * Perusylläpitoa.
 * Otettiin käyttöön Vaskin tekemä css-rimpsu Reklamaatiot-välilehden piilotuksesta, jos asiakkaalla ei ole reklamoitua aineistoa.
+
+**Vaski**
+* Jos lainaus tehdään väärälle henkilölle, tulisiko tällaiset lainat poistaa asiakkaan lainahistoriasta? Mennään tietosuojavaltuutetun linjauksen mukaisesti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-38) - [Palaa sivun alkuun](/paakayttajat2024)
 
