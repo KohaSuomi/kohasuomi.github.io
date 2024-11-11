@@ -16,7 +16,9 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 46
 
 Aika: 11.11.2024 klo 9<br />
-Läsnä:
+Läsnä: Emmi, Kodo, Lari, Ari, Anneli
+
+* Testien päivitys tänään
 
 ## Viikko 45
 
