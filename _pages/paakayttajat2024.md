@@ -520,7 +520,7 @@ Ei varsinaista kuulumiskierrosta
 ## Viikko 35
 
 Aika: 27.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman ja Johanna Räisä (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren & Lotta Juvonen (Helle), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/1377)
@@ -552,14 +552,18 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa.
 
 **Kirkes**
-* Enimmäkseen on ollut normaalia ylläpitoa ja Kohaan liittymättömiä omatoimiongelmia. 
+* Enimmäkseen on ollut normaalia ylläpitoa ja Kohaan liittymättömiä omatoimiongelmia.
+
+**Vaski**
+* Harjoittelija Robert 22.11. asti Vaskissa. Apuna versiopäivityksen testauksessa ja kehittää haravaohjelmistoa.
+* Virkailijatietojen suojauksessa kentän disablointi tyhjentää kentän tallennettaessa. Vaihtoehtoinen toteutus tarvitaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-35) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 34
 
 Aika: 20.8.2024, klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Lotta Juvonen (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Katariina Pohto ja Piia Semenoff (Outi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Lotta Juvonen (Helle), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 * Päivystysnumeroon ei kannata laittaa tekstiviestejä. Ne eivät käänny päivystäjälle.
@@ -592,6 +596,9 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Enimmäkseen normaalia ylläpitoa
+
+**Vaski**
+* Vaski kiinnostunut vetämään Finna-kehitysryhmää. Kansalliskirjaston suuntaan avoimet tiketit olisi hyvä lisätä Koha-Suomen Finna-kehitysehdotuksiin.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-34) - [Palaa sivun alkuun](/paakayttajat2024)
@@ -638,7 +645,7 @@ Etelästä pohjoiseen
 ## Viikko 32
 
 Aika: 6.8.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Elina Uotila (Kirkes)
+Läsnä: Anneli Österman, Lari Strand, Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat:**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1340)
@@ -672,7 +679,10 @@ Pohjoisesta etelään.
 **Kirkes**
 * Normaalia ylläpitoa
 * Varmenteet laitettu jakoon
-  
+
+**Vaski**
+* Laitetaanko kaikki tärkeät päivitykset myös testeille? Havaittu, että jokin päivitys saattoi puuttua, koska tuotanto ja testi toimivat eri tavoilla.
+* Luotu JS-rimpsu, joka estää virkailijan, apin ja automaattien tiettyjen tietojen muuttamisen muilta kuin pääkäyttäjiltä. Näiden käyttäjätyyppien lisääminenkin estetty, koska kaikkia tietoja ei voi täyttää ilman pääkäyttäjäoikeuksia, joten tallennuskaan ei onnistu.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-32) - [Palaa sivun alkuun](/paakayttajat2024)
 
