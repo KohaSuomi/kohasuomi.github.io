@@ -12,17 +12,24 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 46
 
-Aika: 11.11.2024, klo 9.15<br />
+Aika: 12.11.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
 * Uusi raportti [Ensilainat postinumeron mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#ensilainat-postinumeron-mukaan-aikav%C3%A4lill%C3%A4). Liittyy [tikettiin #1482](https://github.com/KohaSuomi/Koha/issues/1482).
 * Onko tarvetta pitää palaveria ma 18.11.2024 versionvaihdon etenimisen tsekkaamiseksi?
+  * Pidetään tilannepalaveri klo 12 pääkäyttäjien jitsi-huoneessa. Jos tulee tarvetta, niin muutetaan aikaa Matrixissa.
 * [Kohan ohje suomeksi -ohjeen päivitysvastuut ja aikataulu](https://github.com/KohaSuomi/Koha/issues/1488)
 * [Näytä aina varaukset](https://github.com/KohaSuomi/Koha/issues/588) - mennäänkö yhteisön tavan mukaan oletuksena näkyvillä vai niin, että rasti pitää lisätä aina itse? Valinta säilyy, kunnes selaimen välimuisti tyhjennetään.
   * uuden version esittelyssä nousi kysymys, auttaisiko varauksenteon hitauteen se, että varaukset ovat oletuksena piilossa.
     * Testailtu OUTIssa ja Vaskissa reilulla 2000 varauksella ja ero on 2-3 sekuntia ja sivun aukeamiseen menee maksimissaan n. 9-10 sekuntia. Itse varaukset aukeaa nopeasti, hitautta tulee asiakashaun hitaudesta. Asiakashaku varausta tehdessä on ihan himpun verran nopeampi varausten ollessa piilossa.
+  * Päätös: mennään yhteisön tavan mukaan 
 * [Firefoxin vieritys JS-rimpsu](https://github.com/KohaSuomi/Koha-24.05/issues/106) puuttuu vielä osalta.
+* testien versionvaidon kuulumiset
+  * liitännäisistä tulossa ohjeistusta
+  * osassa testeistä on CSRF-tokenin kanssa ongelmia, tutkinnan alla
+  * Material types ja Locations -faseteista puuttuu käännökset, tutkitaan vielä
+  * finnaprefix-järjestelmäasetukseen (Paikalliset tiedot -osiossa) tieto tuotantomuotoon (siili, lastu, kirkes -> asetus puuttuu kokonaan, Emmi lisää tietokannan kautta sen ja ilmoittelee Elementissä, kun se on tehty)
 
 ## Viikko 45
 
