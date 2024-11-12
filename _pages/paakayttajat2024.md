@@ -22,6 +22,7 @@ Läsnä:
 * [Näytä aina varaukset](https://github.com/KohaSuomi/Koha/issues/588) - mennäänkö yhteisön tavan mukaan oletuksena näkyvillä vai niin, että rasti pitää lisätä aina itse? Valinta säilyy, kunnes selaimen välimuisti tyhjennetään.
   * uuden version esittelyssä nousi kysymys, auttaisiko varauksenteon hitauteen se, että varaukset ovat oletuksena piilossa.
     * Testailtu OUTIssa ja Vaskissa reilulla 2000 varauksella ja ero on 2-3 sekuntia ja sivun aukeamiseen menee maksimissaan n. 9-10 sekuntia. Itse varaukset aukeaa nopeasti, hitautta tulee asiakashaun hitaudesta. Asiakashaku varausta tehdessä on ihan himpun verran nopeampi varausten ollessa piilossa.
+* [Firefoxin vieritys JS-rimpsu](https://github.com/KohaSuomi/Koha-24.05/issues/106) puuttuu vielä osalta.
 
 ## Viikko 45
 
