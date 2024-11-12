@@ -299,6 +299,7 @@ CalculateFinesOnReturn | Älä laske | Myöhästymismaksut lasketaan yöllä aja
 CancelOrdersInClosedBaskets | Salli | Asetuksella määritetään, voiko suljettujen tilauskorien tilauksia perua. Jos tähän laittaa, että voi perua, ei tarvitse ensin avata tilauskoria ensin.
 ChargeFinesOnClosedDays | Laskuta | Asetuksella määritetään, lasketaanko myöhästymismaksut kalenteriin merkittyinä sulkupäivinä. Käytännössä tähän kannattaa laittaa Laskuta, jotta myöhästymismaksut olisivat aina ajan tasalla. Myöhästymismaksut lasketaan seuraavana aukiolopäivänä siten, että myös sulkupäivät laskutetaan, joten asiakkaalle voi näyttää siltä kuin maksua olisi kertynyt kerralla liikaa.
 DefaultPatronSearchMethod | Sisältää | Asetuksella määritetään, käytetäänkö asiakashaussa Alkaa- vai Sisältää-hakua.
+finnaprefix |esim. outi. | Asetukseen laitetaan kimpan Finna-tietueiden tunniste, joka on osoitteessa ennen tietuenumeroa. Esim. OUTIssa https://outi.finna.fi/Record/**outi.**2255834 ja Siilinjärvellä https://siilinjarvenkirjasto.finna.fi/Record/**siilinjarvi.**130457. Tietoa käytetään, kun viedään raportin tulokset JSON-muotoon.
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
