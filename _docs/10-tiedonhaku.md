@@ -403,6 +403,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |bnb-card-number|015|NBN-tunnus|
 |canceled-isbn|020z|Peruttu tai virheellinen ISBN-tunnus|
 |canceled-issn|022z|Peruttu ISSN-tunnus|
+|canceled-issn|490z|Peruttu ISSN-tunnus|
 |carrier-type-term|338a|Tallennetyyppi|
 |ccode (collection-code)|9528|Kokoelmakoodi|
 |classification-source|9522|Niteen luokituksen lähde|
@@ -481,6 +482,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |identifier-standard|022a|ISSN-tunnus| 
 |identifier-standard|024a|Muut standarditunnukset|
 |incorrect-issn|022y|ISSN-tunnus (virheellinen)|
+|incorrect-issn|490y|ISSN-tunnus (virheellinen)|
 |index-term-genre|655a|Aineiston lajityyppi/muoto hakuterminä|
 |index-term-genre|655x|Aineiston lajityyppi/muoto hakuterminä|
 |index-term-uncontrolled|653a|Kontrolloimaton hakutermi|
@@ -490,7 +492,15 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |interest-grade-level|521a|Huomautus kohderyhmästä|
 |isbn|020a|ISBN-tunnus|
 |issn|022a|ISSN-tunnus|
+|issn|490x|ISSN-tunnus, International Standard Serial Number|
 |issn|830x|Sarjalisäkirjauksen ISSN|
+|issn-all|022a|ISSN-tunnus|
+|issn-all|022y|ISSN-tunnus (virheellinen)|
+|issn-all|022z|Peruttu ISSN-tunnus|
+|issn-all|490x|ISSN-tunnus, International Standard Serial Number|
+|issn-all|490y|ISSN-tunnus (virheellinen)|
+|issn-all|490z|Peruttu ISSN-tunnus|
+|issn-all|830x|Sarjalisäkirjauksen ISSN|
 |issues|952l|Lainauksia|
 |itemnumber|9529|Niteen numero|
 |itemtype|942c|Aineistotyyppi|
@@ -832,8 +842,11 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |020z|Peruttu tai virheellinen ISBN-tunnus|canceled-isbn|
 |022a|ISSN-tunnus|identifier-standard|
 |022a|ISSN-tunnus|issn|
+|022a|ISSN-tunnus|issn-all|
 |022y|ISSN-tunnus (virheellinen)|incorrect-issn|
+|022y|ISSN-tunnus (virheellinen)|issn-all|
 |022z|Peruttu ISSN-tunnus|canceled-issn|
+|022z|Peruttu ISSN-tunnus|issn-all|
 |024a|Muut standarditunnukset|identifier-standard|
 |024aa|Muut standarditunnukset|identifier-other|
 |027|ISRN-tunnus tai muu standardoitu raporttinumero|report-number|
@@ -978,6 +991,12 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |4900||koha-auth-number|
 |490a|Sarjamerkintö (ei lisäkirjausmuodossa)|title-series|
 |490a|Sarjamerkintö|title|
+|490x|ISSN-tunnus, International Standard Serial Number|issn|
+|490x|ISSN-tunnus, International Standard Serial Number|issn-all|
+|490y|ISSN-tunnus (virheellinen)|incorrect-issn|
+|490y|ISSN-tunnus (virheellinen)|issn-all|
+|490z|Peruttu ISSN-tunnus|canceled-issn|
+|490z|Peruttu ISSN-tunnus|issn-all|
 |500|Yleinen huomautus|note|
 |502|Huomautus väitöskirjasta|dissertation-information|
 |505|Huomautus sisällön rakenteesta|note|
@@ -1175,6 +1194,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |830v|Teoksen osan nimeke (sarjalisäkirjaus)|title-uniform|
 |830w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhtenäistetty nimeke|record-control-number|
 |830x|Sarjalisäkirjauksen ISSN|issn|
+|830x|Sarjalisäkirjauksen ISSN|issn-all|
 |852h|Paikkamerkin hyllyluokka|placement|
 |852i|Sijainti|location-item-part|
 |8960|?|koha-auth-number|
