@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: 12.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Uusi raportti [Ensilainat postinumeron mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#ensilainat-postinumeron-mukaan-aikav%C3%A4lill%C3%A4). Liittyy [tikettiin #1482](https://github.com/KohaSuomi/Koha/issues/1482).
@@ -38,6 +38,9 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina
 
 **OUTI**
 * normaalia ylläpitoa ja versionvaihtotestailua
+
+**Lappi**
+* Normaalia ylläpitoa ja versionvaihtoon liittyviä töitä
 
 ## Viikko 45
 
