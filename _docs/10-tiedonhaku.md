@@ -491,6 +491,8 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |interest-age-level|521a|Huomautus kohderyhmästä|
 |interest-grade-level|521a|Huomautus kohderyhmästä|
 |isbn|020a|ISBN-tunnus|
+|isbn-all|020a|ISBN-tunnus|
+|isbn-all|020z|Peruttu tai virheellinen ISBN-tunnus|
 |issn|022a|ISSN-tunnus|
 |issn|490x|ISSN-tunnus, International Standard Serial Number|
 |issn|830x|Sarjalisäkirjauksen ISSN|
@@ -839,7 +841,9 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |018|Artikkelin tekijänoikeusmaksun koodi|identifier-standard|
 |020a|ISBN-tunnus|identifier-standard|
 |020a|ISBN-tunnus|isbn|
+|020a|ISBN-tunnus|isbn-all|
 |020z|Peruttu tai virheellinen ISBN-tunnus|canceled-isbn|
+|020z|Peruttu tai virheellinen ISBN-tunnus|isbn-all|
 |022a|ISSN-tunnus|identifier-standard|
 |022a|ISSN-tunnus|issn|
 |022a|ISSN-tunnus|issn-all|
