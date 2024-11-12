@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: 12.11.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * Uusi raportti [Ensilainat postinumeron mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#ensilainat-postinumeron-mukaan-aikav%C3%A4lill%C3%A4). Liittyy [tikettiin #1482](https://github.com/KohaSuomi/Koha/issues/1482).
