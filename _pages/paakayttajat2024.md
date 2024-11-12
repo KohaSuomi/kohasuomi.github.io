@@ -34,7 +34,10 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina
   * finnaprefix-järjestelmäasetukseen (Paikalliset tiedot -osiossa) tieto tuotantomuotoon (siili, lastu, kirkes -> asetus puuttuu kokonaan, Emmi lisää tietokannan kautta sen ja ilmoittelee Elementissä, kun se on tehty)
 
 **Vaara**
-* ei erityistä mainittavaa, tehty testausta ja korjauksia tietokantaan    
+* ei erityistä mainittavaa, tehty testausta ja korjauksia tietokantaan
+
+**OUTI**
+* normaalia ylläpitoa ja versionvaihtotestailua
 
 ## Viikko 45
 
