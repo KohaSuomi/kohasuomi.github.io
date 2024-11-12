@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: 12.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Uusi raportti [Ensilainat postinumeron mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#ensilainat-postinumeron-mukaan-aikav%C3%A4lill%C3%A4). Liittyy [tikettiin #1482](https://github.com/KohaSuomi/Koha/issues/1482).
@@ -32,6 +32,9 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
   * osassa testeistä on CSRF-tokenin kanssa ongelmia, tutkinnan alla
   * Material types ja Locations -faseteista puuttuu käännökset, tutkitaan vielä
   * finnaprefix-järjestelmäasetukseen (Paikalliset tiedot -osiossa) tieto tuotantomuotoon (siili, lastu, kirkes -> asetus puuttuu kokonaan, Emmi lisää tietokannan kautta sen ja ilmoittelee Elementissä, kun se on tehty)
+
+**Vaara**
+* ei erityistä mainittavaa, tehty testausta ja korjauksia tietokantaan    
 
 ## Viikko 45
 
