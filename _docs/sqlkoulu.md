@@ -16,6 +16,32 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024
 
 ## SQL-lauseiden rakentaminen
 
+### Kielletyt sanat ja muodot
+
+Kohan Tallennetut raportit eivät salli käytettäväksi seuraavia SQL-käskyjä:
+
+* UPDATE
+* DELETE
+* DROP
+* INSERT
+* SHOW
+* CREATE
+
+Myöskään SET ei toimi, mutta se antaa erilaisen virheilmoituksen. 
+
+Yllä olevia sanoja ei voi käyttää myöskään sarakkeen nimissä esim. _SELECT biblionumber AS 'Delete these' FROM biblio;_
+
+Versiossa 24.05 tuli muutos, jonka myötä tallennetuilla raporteilla ei voi hakea tietoturvasyistä seuraavien nimisten kenttien sisältöä:
+
+* password
+* token
+* UUID
+* secret
+
+Tämä käytännössä estää tekemästä esimerkiksi borrowers-tauluun kyselyn _SELECT * FROM borrowers;_, koska tulos pitäisi sisällään myös password-kentän. Kysely pitää tällöin rakentaa niin, että mukaan ei tule yllä mainittuja kenttiä.
+
+**Taulujen nimet** pitää kirjoittaa **pienillä kirjaimilla**, jotta kysely toimii. Esimerkiksi _SELECT cardnumber FROM BORROWERS;_ aiheuttaa virheilmoituksen, että BORROWERS-nimistä taulua ei ole olemassa.
+
 ### Lauseen rakentaminen
 
 Lausetta rakentaessa kannattaa ensin miettiä mikä on päätaulu, eli mitä tietoa halutaan ja tarvitseeko siihen yhdistellä muita tauluja.
@@ -40,7 +66,7 @@ Yksinkertaisimmillaan lause on:
 SELECT * FROM borrowers;
 ```
 
-Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää raportteja luodessa, niissä pitäisi määritellä tarvittavat kentät.
+Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää raportteja luodessa, niissä pitäisi määritellä tarvittavat kentät. Versiossa 24.05 lähtien yllä oleva esimerkki ei myöskään toimi, koska se sisältää tietoturvasyistä kielletyn password-kentän tuloksissa.
 
 Taulusta voidaan myös kysellä pelkästään tiettyjä kenttiä kirjoittamalla tähden tilalle halutut kentät.
 
