@@ -27,7 +27,11 @@ Kohan Tallennetut raportit eivät salli käytettäväksi seuraavia SQL-käskyjä
 * SHOW
 * CREATE
 
+![Virheilmoitus, kun käytetään kiellettyjä termejä](/assets/files/docs/Ohjeet/kielletytsanat.png)
+
 Myöskään SET ei toimi, mutta se antaa erilaisen virheilmoituksen. 
+
+![Virheilmoitus, kun kyselyssä on käytetty sanaa SET](/assets/files/docs/Ohjeet/kielletytsanat1.png)
 
 Yllä olevia sanoja ei voi käyttää myöskään sarakkeen nimissä esim. _SELECT biblionumber AS 'Delete these' FROM biblio;_
 
@@ -40,7 +44,11 @@ Versiossa 24.05 tuli muutos, jonka myötä tallennetuilla raporteilla ei voi hak
 
 Tämä käytännössä estää tekemästä esimerkiksi borrowers-tauluun kyselyn _SELECT * FROM borrowers;_, koska tulos pitäisi sisällään myös password-kentän. Kysely pitää tällöin rakentaa niin, että mukaan ei tule yllä mainittuja kenttiä.
 
+![Virheilmoitus, kun on käytetty tietoturvan vuoksi estettyjä sarakenimiä](/assets/files/docs/Ohjeet/kielletytsanat2.png)
+
 **Taulujen nimet** pitää kirjoittaa **pienillä kirjaimilla**, jotta kysely toimii. Esimerkiksi _SELECT cardnumber FROM BORROWERS;_ aiheuttaa virheilmoituksen, että BORROWERS-nimistä taulua ei ole olemassa.
+
+![Virheilmoitus, kun taulun nimen kirjoittaa isoilla kirjaimilla](/assets/files/docs/Ohjeet/kielletytsanat3.png)
 
 ### Lauseen rakentaminen
 
