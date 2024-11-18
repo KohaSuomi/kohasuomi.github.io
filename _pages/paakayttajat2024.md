@@ -17,6 +17,9 @@ Läsnä:
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
+* Muistilistalle seuraavaa versionvaihtoa ja sen selvittelyjä varten:
+  * Finna.fi-kirjautumisen sulkeminen pitää muistaa pyytää erikseen Finna-toimistosta. Sitä ei saa tehtyä oman näkymän ylläpidosta.
+  * Jos asiakas on valinnut, että kirjautuminen pysyy voimassa 180 päivää, pääsee hän tietoihinsa/tekemään varauksia/yms. vaikka Finnan hallintaliittymästä otetaan kirjautuminen pois käytöstä.
 
 Pohjoisesta etelään
 
