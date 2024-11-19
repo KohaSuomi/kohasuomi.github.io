@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi),
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
@@ -37,6 +37,12 @@ Pohjoisesta etelään
 * Tuotannon katselmointi saatiin valmiiksi maanantaina iltapäivästä, ja kirjastoille annettiin lupa jatkaa Kohan tuotantokäyttöä tiistaiaamuna.
 * Viestiajoja aikaistettiin normaaliin aikatauluun
 * Kuittiin tulostui tiistaiaamuna "Kuittipohjia ei löytynyt"-virheilmoitus, joka johtui todennäköisesti välimuistista. Ohjeistettu henkilökuntaa poistamaan tarvittaessa välimuisti selaimesta.
+
+**Siilinjärvi**
+* Perustoimet näyttäisivät sujuvan, joten kirjastot ja Finna-kirjautuminen avattiin aamulla
+* Ajamatta jääneet maksut ajettiin nopsaan aamulla, joten nekin ovat nyt ajan tasalla
+
+
 
 ## Viikko 46
 
