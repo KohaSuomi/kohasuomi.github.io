@@ -29,7 +29,7 @@ Pohjoisesta etelään
 
 **OUTI**
 * kirjastoille annettiin lupa avata ovet klo 8.50
-* Kolmena päivänä (ke 6.11., ke 13.11., pe 15.11.) noin klo 10.30-11 OUTIssa itsepalvelulainauspäätteet (VDI) lähettivät isoja määriä sivunlatauspyyntöjä, mikä aiheutti sen että Koha-palvelimella loppuivat pyyntöihin vastaavat worker-prosessit hetkeksi aikaa kesken. Istekki, joka vastaa Oulun koulukirjastojen itsepalvelulainauksen asennuksista ja ylläpidosta, on kertonut, että autofresh on itsepalvelulainauksesta otettu pois päältä vuonna 2020 (jonka aluksi oletettiin olevan syynä latauspyyntöihin). Oulun koulukirjastoissa käytetään itsepalvelulainauksessa Chromea eikä niissä ole asiakasvarmennetta käytössä.
+* Kolmena päivänä (ke 6.11., ke 13.11., pe 15.11.) noin klo 10.30-11 OUTIssa itsepalvelulainauspäätteet (VDI) lähettivät isoja määriä sivunlatauspyyntöjä, mikä aiheutti sen että Koha-palvelimella loppuivat pyyntöihin vastaavat worker-prosessit hetkeksi aikaa kesken. Istekki, joka vastaa Oulun koulukirjastojen itsepalvelulainauksen asennuksista ja ylläpidosta, on kertonut, että autofresh on itsepalvelulainauksesta otettu pois päältä jo aiemmin (jonka aluksi oletettiin olevan syynä latauspyyntöihin). Oulun koulukirjastoissa käytetään itsepalvelulainauksessa Chromea eikä niissä ole asiakasvarmennetta käytössä.
   * Voisiko Kodo selvittää tätä Istekin yhteyshenkilön kanssa?
 
 ## Viikko 46
