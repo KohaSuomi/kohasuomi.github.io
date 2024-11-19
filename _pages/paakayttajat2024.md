@@ -27,6 +27,8 @@ Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari 
 
 Pohjoisesta etelään
 
+**OUTI**
+* kirjastoille annettiin lupa avata ovet klo 8.50
 
 ## Viikko 46
 
