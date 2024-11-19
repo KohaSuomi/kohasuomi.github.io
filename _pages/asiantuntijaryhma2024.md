@@ -15,6 +15,32 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 12/2024
+
+Aika: 27.11.2024 klo 13.00<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
+
+Jatketaan edellisen kokouksen pohdintoja.
+
+### 3. Tilastoaineistojen toimittaminen Kirjastot.fi Raportointipalveluun
+
+### 4. Vaarassa käyttöön uusi HEOMATOIMI-asiakastyyppi
+
+Otetaanko mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)?
+
+### 5. Kehitysehdotusten läpikäynti
+
+* [Teokseen kohdistuvat varaukset näkyviin asiakkaan lainoihin #1469](https://github.com/KohaSuomi/Koha/issues/1469)
+* [Lainauksen Uusinta-sarakkeen järjestäminen #1472](https://github.com/KohaSuomi/Koha/issues/1472)
+
+### 6. Muut asiat
+
+### 7. Seuraavat kokoukset
+
 ## Asiantuntijaryhmän muistio 11/2024
 
 Aika: 24.10.2024 klo 13.00<br />
