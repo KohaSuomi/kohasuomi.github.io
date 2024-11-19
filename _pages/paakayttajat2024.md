@@ -20,6 +20,7 @@ Läsnä:
 * Muistilistalle seuraavaa versionvaihtoa ja sen selvittelyjä varten:
   * Finna.fi-kirjautumisen sulkeminen pitää muistaa pyytää erikseen Finna-toimistosta. Sitä ei saa tehtyä oman näkymän ylläpidosta.
   * Jos asiakas on valinnut, että kirjautuminen pysyy voimassa 180 päivää, pääsee hän tietoihinsa/tekemään varauksia/yms. vaikka Finnan hallintaliittymästä otetaan kirjautuminen pois käytöstä.
+* [list_borrowers-oikeuden lisääminen](https://github.com/KohaSuomi/Koha-24.05/issues/140) ja [Send_messages_to_borrowers -oikeuden tarpeellisuus kimpassa](https://github.com/KohaSuomi/Koha-24.05/issues/145) - näille ei näyttäisi tulleen tähän mennessä tarvetta ajaa. Suljetaanko tiketit vai odotellaanko hetki ja katsellaan?
 
 Pohjoisesta etelään
 
