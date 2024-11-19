@@ -13,14 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
+*  [Jos asiakkaan lainahistoria anonymisoidaan, ei voi enää tulostaa palautuskuittia #1503](https://github.com/KohaSuomi/Koha/issues/1503) 
 * Muistilistalle seuraavaa versionvaihtoa ja sen selvittelyjä varten:
   * Finna.fi-kirjautumisen sulkeminen pitää muistaa pyytää erikseen Finna-toimistosta. Sitä ei saa tehtyä oman näkymän ylläpidosta.
   * Jos asiakas on valinnut, että kirjautuminen pysyy voimassa 180 päivää, pääsee hän tietoihinsa/tekemään varauksia/yms. vaikka Finnan hallintaliittymästä otetaan kirjautuminen pois käytöstä.
+  * Kuntasovellukset - miten estetään käyttö?
 * [list_borrowers-oikeuden lisääminen](https://github.com/KohaSuomi/Koha-24.05/issues/140) ja [Send_messages_to_borrowers -oikeuden tarpeellisuus kimpassa](https://github.com/KohaSuomi/Koha-24.05/issues/145) - näille ei näyttäisi tulleen tähän mennessä tarvetta ajaa. Suljetaanko tiketit vai odotellaanko hetki ja katsellaan?
+  *  suljetaan tältä erää ja avataan tarvittaessa uudelleen
 
 Pohjoisesta etelään
 
