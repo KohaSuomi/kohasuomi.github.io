@@ -40,13 +40,17 @@ Otetaanko mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/
 
 Itsepalvelulainauksissa pitäisi ottaa käyttöön myös asiakasvarmenteet.
 
-### 6. Kehitysehdotusten läpikäynti
+### 6. AuthSuccessLog
+
+Kaikkia kimppoja pyydettiin ottamaan pois päältä [AuthSuccessLog](https://github.com/KohaSuomi/Koha/issues/1509).
+
+### 7. Kehitysehdotusten läpikäynti
 
 * [Teokseen kohdistuvat varaukset näkyviin asiakkaan lainoihin #1469](https://github.com/KohaSuomi/Koha/issues/1469)
 * [Lainauksen Uusinta-sarakkeen järjestäminen #1472](https://github.com/KohaSuomi/Koha/issues/1472)
 
 
-### 7. Muut asiat
+### 8. Muut asiat
 
 ### 8. Seuraavat kokoukset
 
