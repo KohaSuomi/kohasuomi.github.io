@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
@@ -44,6 +44,10 @@ Pohjoisesta etelään
 
 **Helle**
 * Liittyen Kohan uuteen ominaisuuteen, joka mahdollistaa asiakastiedosta sähköpostiviestin lähetyksen asiakkaalle... Ominaisuuteen olisi tarpeellista saada viestin Aihe-kenttä pakolliseksi, jotta viestin sisällön näkee asiakkaan Ilmoitukset-välilehdellä. Ominaisuudesta puuttuu reagointi asiakastiedosta puuttuvaan sähköpostiosoitteeseen.
+
+**Vaara**
+* Finna laitettu päälle ma klo 18. Muuten kirjastot aukesivat omien aikataulujensa mukaan ti (omatoimikirjastot klo 7).
+* Versionvaihtoon liittymätön asia oli se, että Joensuun seutukirjastoon on hankittu uusia ovikoneita Mikroväylältä (korvaavat Tovereita) ja niiden vaatimat asiakastyypit ja muut asetukset oli tekemättä inhimillisen toiminnan takia. Jouduttiin tekemään uusia asiakastyyppejä LAOMATOIMI, HEOMATOIMI ja YHOMATOIMI, koska Vaarassa kaikki asiakkaat joutuvat tekemään sopimuksen omatoimikirjaston käytöstä ja vasta se jälkeen omatoimikäyttö on mahdollista. Onneksi laina- ja maksusääntöihin ei tarvinnut tehdä kohtuuttoman isoja muutoksia.
 
 
 ## Viikko 46
