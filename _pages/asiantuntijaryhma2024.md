@@ -22,24 +22,33 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Koha-seminaariin aiheita kaivataan.
+
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
 
 Jatketaan edellisen kokouksen pohdintoja.
 
 ### 3. Tilastoaineistojen toimittaminen Kirjastot.fi Raportointipalveluun
 
+Jatketaan edellisen kokouksen pohdintoja.
+
 ### 4. Vaarassa käyttöön uusi HEOMATOIMI-asiakastyyppi
 
 Otetaanko mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)?
 
-### 5. Kehitysehdotusten läpikäynti
+### 5. Itsepalvelulainaukset asiakasvarmenteen taakse
+
+Itsepalvelulainauksissa pitäisi ottaa käyttöön myös asiakasvarmenteet.
+
+### 6. Kehitysehdotusten läpikäynti
 
 * [Teokseen kohdistuvat varaukset näkyviin asiakkaan lainoihin #1469](https://github.com/KohaSuomi/Koha/issues/1469)
 * [Lainauksen Uusinta-sarakkeen järjestäminen #1472](https://github.com/KohaSuomi/Koha/issues/1472)
 
-### 6. Muut asiat
 
-### 7. Seuraavat kokoukset
+### 7. Muut asiat
+
+### 8. Seuraavat kokoukset
 
 ## Asiantuntijaryhmän muistio 11/2024
 
