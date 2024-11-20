@@ -52,7 +52,7 @@ Kaikkia kimppoja pyydettiin ottamaan pois päältä [AuthSuccessLog](https://git
 
 ### 8. Muut asiat
 
-### 8. Seuraavat kokoukset
+### 9. Seuraavat kokoukset
 
 ## Asiantuntijaryhmän muistio 11/2024
 
