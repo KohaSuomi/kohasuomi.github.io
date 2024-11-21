@@ -34,7 +34,7 @@ Jatketaan edellisen kokouksen pohdintoja.
 
 Jatketaan edellisen kokouksen pohdintoja.
 
-### 4. Vaarassa käyttöön uusi HEOMATOIMI-asiakastyyppi
+### 4. Vaarassa käyttöön uudet HEOMATOIMI ja YHOMATOIMI -asiakastyypit
 
 Otetaanko mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)?
 
