@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
@@ -49,6 +49,10 @@ Pohjoisesta etelään
 * Finna laitettu päälle ma klo 18. Muuten kirjastot aukesivat omien aikataulujensa mukaan ti (omatoimikirjastot klo 7).
 * Versionvaihtoon liittymätön asia oli se, että Joensuun seutukirjastoon on hankittu uusia ovikoneita Mikroväylältä (korvaavat Tovereita) ja niiden vaatimat asiakastyypit ja muut asetukset oli tekemättä inhimillisen toiminnan takia. Jouduttiin tekemään uusia asiakastyyppejä LAOMATOIMI, HEOMATOIMI ja YHOMATOIMI, koska Vaarassa kaikki asiakkaat joutuvat tekemään sopimuksen omatoimikirjaston käytöstä ja vasta se jälkeen omatoimikäyttö on mahdollista. Onneksi laina- ja maksusääntöihin ei tarvinnut tehdä kohtuuttoman isoja muutoksia.
 
+**Lappi**
+* Kohaan avattu pääsy henkilökunnalle 19.11. klo 8. Samalla avattu Finnan kirjautuminen.
+* Joitain ongelmia tullut esille (esim. plugin IntranetUserJS: Restrict patron modification by category rajoitti liikaa pääsyä asiakastietoihin). Korjattu myös IntranetUserCSS-asetuksia havaittujen virheiden vuoksi.
+* Vuoden 2023 versionvaihdosta on vielä auki tikettejä, käydään sulkemassa ne, jos toiminto on korjautunut uudemmissa päivityksissä. 
 
 ## Viikko 46
 
