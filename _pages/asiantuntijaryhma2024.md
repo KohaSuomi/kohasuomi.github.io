@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Versionvaihdon kuulumiset.
+
 Koha-seminaariin aiheita kaivataan.
 
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
