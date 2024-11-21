@@ -50,6 +50,7 @@ Kaikkia kimppoja pyydettiin ottamaan pois päältä [AuthSuccessLog](https://git
 
 * [Teokseen kohdistuvat varaukset näkyviin asiakkaan lainoihin #1469](https://github.com/KohaSuomi/Koha/issues/1469)
 * [Lainauksen Uusinta-sarakkeen järjestäminen #1472](https://github.com/KohaSuomi/Koha/issues/1472)
+* [Tätiin Tietuesiirtäjän käyttäjätunnuksiin järjestystä #1494](https://github.com/KohaSuomi/Koha/issues/1494) 
 
 
 ### 8. Muut asiat
