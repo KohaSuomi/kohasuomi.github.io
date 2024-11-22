@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
+* [Erikoistila vanhentuneiden noutamattomien varausten niteille](https://github.com/KohaSuomi/Koha/issues/1100#issuecomment-2493186966)
+* Viikon 48 päivitys
 
 
 ## Viikko 47
