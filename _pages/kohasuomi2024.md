@@ -13,6 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 48
+
+Aika: 25.11.2024 klo 9<br />
+Läsnä:
+
+* [Versionvaihdon keskeneräiset tiketit](https://github.com/KohaSuomi/Koha-24.05/issues)
+* Viikon 48 päivitys
+* Mitä uutiskirjeeseen?
+* Päivystysvuorot vko 48 eteenpäin
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-48) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 46
 
 Aika: 11.11.2024 klo 9<br />
