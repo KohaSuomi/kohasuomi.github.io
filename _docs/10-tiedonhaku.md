@@ -763,6 +763,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |title|711t|Teoksen nimeke|
 |title|730|Yhtenäistetty nimeke (lisäkirjaus)|
 |title|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
+|title|775t| Muun painoksen nimeke|
 |title|780|Edeltäjä - linkkikenttä|
 |title|785|Seuraaja - linkkikenttä|
 |title-abbreviated|210|Lyhennetty nimeke|
@@ -780,6 +781,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |title-other-variant|212|?|
 |title-other-variant|247|Aikaisempi nimeke|
 |title-other-variant|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
+|title-other-variant|775t| Muun painoksen nimeke|
 |title-series|440a|Sarjamerkintö lisäkirjausmuodossa|
 |title-series|490a|Sarjamerkintö (ei lisäkirjausmuodossa)|
 |title-series|800t|Teoksen nimeke (sarjalisäkirjaus henkilönnimi)|
@@ -1146,6 +1148,8 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |773w|Tietueen kontrollinumero - linkkikenttä emokohde|record-control-number|
 |773w|Tietueen kontrollinumero - linkkikenttä emokohde|record-control-number-773w|
 |774w|Tietueen kontrollinumero - linkkikenttä osakohde|record-control-number|
+|775t| Muun painoksen nimeke|title|
+|775t| Muun painoksen nimeke|title-other-variant|
 |775w|Tietueen kontrollinumero - linkkikenttä muu painos|record-control-number|
 |776w|Tietueen kontrollinumero - linkkikenttä toinen ilmiasu|record-control-number|
 |777w|Tietueen kontrollinumero - linkkikenttä kanssajulkaisu|record-control-number|
