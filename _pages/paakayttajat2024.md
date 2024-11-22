@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 48
+
+Aika: 26.11.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
+
+
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
