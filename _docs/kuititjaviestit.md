@@ -844,7 +844,7 @@ Item: [% hold.item.barcode %]<br />
 
 Palautuskuittiin tulostuu asiakkaan palautukset. Jos asiakkaan lainahistoria anonymisoidaan palautettaessa, tulostuu asiakkaalle kuitti, jossa kerrotaan, ettei palautuksia voida tulostaa anonymisoinnin vuoksi. Liittyy tikettiin [Koha #1153](https://github.com/KohaSuomi/Koha/issues/1153).
 
-Päivitetty 18.4.2024
+Päivitetty 25.11.2024
 
 ### Tuloste/Print-pohjaan
 
@@ -1765,7 +1765,7 @@ Two factor authentication was disabled for your Koha account. If you did not do 
 
 ## PASSWORD_CHANGE
 
-Päivitetty 18.10.2024
+Päivitetty 25.11.2024
 
 ### Email-pohjaan
 
@@ -1779,7 +1779,7 @@ Viestin aihe: Kirjastokorttisi salasana vaihdettiin<br />
 Viestin sisältö:
 ```
 [% USE Koha %]
-[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
+[% IF borrower.categorycode == "VIRKAILIJA" %]
 
 Hei [% borrower.firstname %]! 
 
