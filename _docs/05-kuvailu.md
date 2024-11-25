@@ -1032,9 +1032,9 @@ järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset s
 </tr>
 <tr>
 <td>952$y</td>
-<td>Kohan aineistolaji</td>
-<td>Esim. Kirja, CD-levy</td>
-<td>Pakollinen tieto. Koodattu arvo, määritellään perusasetuksisssa <em>Aineistolajit</em>.</td>
+<td>Kohan nidetyyppi</td>
+<td>Esim. AIK28, EILAINATA ym. </td>
+<td>Pakollinen tieto. Koodattu arvo, määritellään perusasetuksisssa <em>Nidetyypit</em>.</td>
 </tr>
 <tr>
 <td>952$z</td>
