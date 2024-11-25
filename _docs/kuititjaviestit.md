@@ -861,13 +861,6 @@ Tuloste/Print-pohjaan. HMTL-täppä pakoilleen.
   p { font-family: arial; font-size: 10pt; }
 </style>
 
-[% IF "<<borrowers.privacy>>" == 2 %]
-<h2>Asiakkaan lainahistoria on anonymisoitu</h2>
-
-<p>Asiakkaan lainahistoria anonymisoidaan, joten palautuskuittia ei voida tulostaa.</p>
-
-[% ELSE %]
-
 <h3>[% branch.branchname %]<br />
 [% today | $KohaDates %]<br /></h3><br /><br />
 
@@ -883,7 +876,6 @@ Nide: [% item.barcode %] <br />
 <br /><<branches.branchphone>>
 <br />www.outikirjastot.fi</p>
 <br />
-[% END %]
 ```
 
 #### Englanniksi
@@ -897,12 +889,6 @@ Nide: [% item.barcode %] <br />
   p { font-family: arial; font-size: 10pt; }
 </style>
 
-[% IF "<<borrowers.privacy>>" == 2 %]
-<h2>Patron's checkout history is anonymized</h2>
-
-<p>Unable to print checkin slip due to anonymization.</p>
-
-[% ELSE %]
 <h3>[% branch.branchname %]<br />
 [% today | $KohaDates %]<br /></h3><br /><br />
 
@@ -918,7 +904,6 @@ Barcode: [% item.barcode %] <br />
 <br /><<branches.branchphone>>
 <br />www.outikirjastot.fi</p>
 <br />
-[% END %]
 ```
 
 ## CHECKIN eli palautuskuitti sähköpostiin
