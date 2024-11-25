@@ -859,7 +859,7 @@ ohje tehdään myöhemmin
 
 ## 5.5. Kuvailuohjeet
 
-[Yhteisön kuvailuohjeet](https://koha-community.org/manual/21.11/en/html/cataloging.html)
+[Yhteisön kuvailuohjeet](https://koha-community.org/manual/latest/en/html/cataloging.html)
 
 ### 5.5.1. Niteiden tarrat ja niiden tulostaminen
 
