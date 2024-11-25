@@ -16,12 +16,18 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 48
 
 Aika: 25.11.2024 klo 9<br />
-Läsnä:
+Läsnä: Johanna, Anneli, Ari, Pasi ja Lari
 
 * [Versionvaihdon keskeneräiset tiketit](https://github.com/KohaSuomi/Koha-24.05/issues)
+ * Tilat tarkistettu ja lisätty tekijät. 
 * Viikon 48 päivitys
+ * [Aikakauslehtien julkaisutiheyden poistaminen ei onnistu](https://github.com/KohaSuomi/Koha-24.05/issues/159)
+ * [Taustatyöt: background_jobs_worker.pl jättää jälkeensä kuolleita prosesseja](https://github.com/KohaSuomi/Koha/issues/1161)
+ * [Finna-liitännäinen: Lisätään liitännäiselle puuttuva versionumero](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/9)
 * Mitä uutiskirjeeseen?
+ * Miksi päivitettiin nyt ja testauksen tärkeys.
 * Päivystysvuorot vko 48 eteenpäin
+ * Lisätty
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-48) - [Palaa sivun alkuun](/kohasuomi2024)
 
