@@ -8,9 +8,6 @@ toc: true
 
 # 1. Asiakkaat
 
-Aina ennen asiakastiedon lisäämistä on hyvä tarkistaa löytyykö asiakkaan tiedot jo Kohasta. Voit 
-hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
-
 ## 1.1. Asiakkaan hakeminen
 
 Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat asiakastietojen hakusivun, jossa voit
