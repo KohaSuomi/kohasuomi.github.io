@@ -402,7 +402,7 @@ Asiakastietojen yläreunassa olevat painikkeet
 - _Lisää huollettava_: Lisää asiakkaalle huollettava.
 - _Vaihda salasana_: Tästä pääset vaihtamaan salasanan.
 - _Kopioi_: Tästä klikkaamalla asiakkaan tiedot kopioituvat ja ohjelma ohjaa automaattisesti tekemään uutta asiakastietoa.
-- _Tulosta_: Alasvetovalikosta voit valita ja tulostaa asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin.
+- _Tulosta_: Alasvetovalikosta voit valita ja tulostaa asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin. Huom.  jos asiakkaan lainahistoria on anonymisoitu, ei asiakkaalle  pysty tulostamaan palautuskuittia, sillä ko. vaihtoehto ei tuolloin tule näkyville.
 - _Hae ja varaa_: Tätä kautta pääset tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa.
 - _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin.
 
