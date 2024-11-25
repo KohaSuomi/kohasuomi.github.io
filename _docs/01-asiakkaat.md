@@ -13,7 +13,7 @@ toc: true
 Klikkaamalla yläpalkin linkkiä _Asiakkaat_ tai etusivun pikakuvaketta _Asiakkaat_ pääset asiakastietojen hakusivulle, jossa voit
 hakea asiakkaiden tietoja.
 
-![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Ylapalkinasiakkaat.png)
+![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Asiakkaat2.png)
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaanhakuvaihtoehdot1.png" alt="" style="width:90.0%" />
 
