@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
 * [Erikoistila vanhentuneiden noutamattomien varausten niteille](https://github.com/KohaSuomi/Koha/issues/1100#issuecomment-2493186966)
+* [Tätin CSS- ja SQL -rimpsut ja liitännäiset](https://github.com/KohaSuomi/Koha/issues/1201) - onko vielä tarvetta säätää?
 * [Viikon 48 päivitys](https://github.com/KohaSuomi/Koha/discussions/1515)
 * [Koha-Suomen hallituksen tiedote](https://github.com/KohaSuomi/Koha/discussions/1516) julkaistu
 
