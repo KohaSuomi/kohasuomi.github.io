@@ -10,7 +10,7 @@ toc: true
 
 ## 1.1. Asiakkaan hakeminen
 
-Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat asiakastietojen hakusivun, jossa voit
+Klikkaamalla yläpalkin linkkiä _Asiakkaat_ tai etusivun pikakuvaketta _Asiakkaat_ pääset asiakastietojen hakusivulle, jossa voit
 hakea asiakkaiden tietoja.
 
 ![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Ylapalkinasiakkaat.png)
