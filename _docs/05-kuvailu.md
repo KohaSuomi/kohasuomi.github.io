@@ -557,14 +557,14 @@ pääsee niteen hankintatietoihin.
 Nide voidaan siirtää nimeketietueelta toiselle käyttämällä _Liitä nide_
 -toimintoa.
 
-![](/assets/files/docs/Luettelointi/kohakuvat574.png)
+![](/assets/files/docs/Luettelointi/kohakuvat5741.png)
 
 Liittämiseen tarvitaan siirrettävän niteen viivakoodi, joka luetaan sen
 nimekkeen tietoihin, mihin nide halutaan siirtää.
 Jos nide on hankittu hankintaosion kautta, siirtyy siirron yhteydessä 
 myös niteen hankintatieto.
 
-![](/assets/files/docs/Luettelointi/luettelointi52.png)
+![](/assets/files/docs/Luettelointi/luettelointi521.png)
 
 Yksinkertaisesti lisäät siirrettävän niteen viivakoodin ja klikkaat OK.
 
@@ -577,12 +577,12 @@ Niteiden poisto voidaan tehdä eri tavoilla. Jos haluat poistaa vain
 yhden niteen, on yksinkertaisinta avata nimeketietueen tarkat tiedot ja
 sieltä _Muokkaa -&gt; Muokkaa niteitä_.
 
-![](/assets/files/docs/Luettelointi/luettelointi53.png)
+![](/assets/files/docs/Luettelointi/luettelointi531.png)
 
 Jokaisen niteen vasemmalla puolella on _Toiminnot_-valikko, jossa on 
 yhtenä vaihtoehtona _Poista_.
 
-![](/assets/files/docs/Luettelointi/kuvailu39.png)
+![](/assets/files/docs/Luettelointi/kuvailu391.png)
 
 Kun klikkaat _Poista_, saat vielä varmistuskysymyksen:
 
@@ -591,19 +591,19 @@ Kun klikkaat _Poista_, saat vielä varmistuskysymyksen:
 Nidettä ei voi poistaa, jos se on lainassa. Jos haluat poistaa kaikki
 niteet nimekkeeltä, voit käyttää _Muokkaa -&gt; Poista kaikki niteet_.
 
-![](/assets/files/docs/Luettelointi/luettelointi56.png)
+![](/assets/files/docs/Luettelointi/luettelointi561.png)
 
 Jos järjestelmäasetuksissa on määritelty mahdollistamaan niteiden
 valinta, voit klikata nidetietojen näytöllä kunkin niteen vasemmalla
 puolella valintalaatikosta ne niteet, joita haluat käsitellä. Voit
 poistaa niteitä tai muokata niitä.
 
-![](/assets/files/docs/Luettelointi/kuvailu41.png)
+![](/assets/files/docs/Luettelointi/kuvailu411.png)
 
 Voit käyttää myös _Muokkaa -&gt; Poista niteitä eräajossa_, jos poistat
 enemmän niteitä kerralla.
 
-![](/assets/files/docs/Luettelointi/luettelointi58.png)
+![](/assets/files/docs/Luettelointi/luettelointi581.png)
 
 Täällä voit valita niteet, jotka poistetaan.
 
@@ -616,12 +616,12 @@ tai ilman niitä, riippuu järjestelmän asetuksista), mutta jokaisella
 niteellä on myös oma lainahistoriansa. Tämä löytyy
 _Niteet_-välilehdeltä.
 
-![](/assets/files/docs/Luettelointi/luettelointi60.png)
+![](/assets/files/docs/Luettelointi/luettelointi601.png)
 
 Historia-otsikon alla näkyy linkki _Näytä niteen lainahistoria_, jota
 klikkaamalla näkyy tämän niteen lainaushistoria.
 
-![](/assets/files/docs/Luettelointi/luettelointi016.png)
+![](/assets/files/docs/Luettelointi/luettelointi0161.png)
 
 ## 5.3. Erämuokkaukset
 
