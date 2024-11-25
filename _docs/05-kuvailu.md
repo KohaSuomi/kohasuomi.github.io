@@ -704,7 +704,7 @@ Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa MARC-kentti�
 Erämuokkauksessa on rajoituksia
 
 - jos tietueessa on jo olemassa muokattavaksi valittu MARC-kenttä, päivittää työkalu sen. Se ei lisää uuttaa toistumaa kentästä.
-- kiinteämittaisia kenttiä ei pysty muokkaamaan/poistamaan
+- kiinteämittaista kenttää 000 (leader) ei pysty muokkaamaan/poistamaan eräajona
 
 Ennen kuin tietueita voi muokata, pitää määrittää käytettävä MARC-muokkauksen pohja.
 
