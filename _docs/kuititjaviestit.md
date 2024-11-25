@@ -127,7 +127,7 @@ at the OUTI Web Library:
 
 ## MEMBERSHIP_EXPIRY eli sähköpostiviesti tilin voimassaoloajan loppumisesta
 
-Päivitetty 18.10.2024
+Päivitetty 25.11.2024
 
 ### Email-pohjaan
 
@@ -136,7 +136,7 @@ Tieto lisätään email-pohjaan.
 #### Suomeksi
 
 ```
-[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
+[% IF borrower.categorycode == "VIRKAILIJA" %]
 
 Hei,
 
