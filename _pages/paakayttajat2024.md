@@ -21,6 +21,7 @@ Läsnä:
 * [Tätin CSS- ja SQL -rimpsut ja liitännäiset](https://github.com/KohaSuomi/Koha/issues/1201) - onko vielä tarvetta säätää?
 * [Viikon 48 päivitys](https://github.com/KohaSuomi/Koha/discussions/1515)
 * [Koha-Suomen hallituksen tiedote](https://github.com/KohaSuomi/Koha/discussions/1516) julkaistu
+* [Testikantojen uudelleenluonti joulukuussa](https://github.com/KohaSuomi/Koha/issues/1519) - toiveita aikataululle?
 
 
 ## Viikko 47
