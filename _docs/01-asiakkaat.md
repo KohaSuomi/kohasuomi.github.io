@@ -107,6 +107,9 @@ Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaa
 
 ## 1.2. Lisää uusi asiakas
 
+Aina ennen asiakastiedon lisäämistä on hyvä tarkistaa löytyykö asiakkaan tiedot jo Kohasta. Voit 
+hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla. Hakuohje löytyy kohdasta [1.1. Asiakkaan hakeminen](https://koha-suomi.fi/dokumentaatio/asiakkaat/#11-asiakkaan-hakeminen)
+
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
 <img src="/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png" alt="" style="width:90.0%" />
