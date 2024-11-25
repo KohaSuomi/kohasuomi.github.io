@@ -542,10 +542,10 @@ Eräpäivä: <<issues.date_due | dateonly >>
 </checkedout>
 <br /><br />
 
-<p>Yhteensä: [% checkouts.count %][% IF checkouts.count > 1 %]
-      lainaa
-[% ELSE %]
+<p>Yhteensä: [% checkouts.count %][% IF checkouts.count == 1 %]
       laina
+[% ELSE %]
+      lainaa
     [% END %] </p>
 <p>Maksut:
 [% SET balance = borrower.account.balance %]
@@ -585,10 +585,10 @@ Du edate: <<issues.date_due | dateonly >>
 </checkedout>
 <br /><br />
 
-<p>Checked out: [% checkouts.count %][% IF checkouts.count > 1 %]
-      check outs
-[% ELSE %]
+<p>Checked out: [% checkouts.count %][% IF checkouts.count = 1 %]
       check out
+[% ELSE %]
+      check outs
     [% END %] </p>
 <p>Fines:
 [% SET balance = borrower.account.balance %]
