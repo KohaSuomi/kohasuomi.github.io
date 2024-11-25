@@ -546,7 +546,7 @@ niteiltä.
 Jokaisen nimeketietueen vasemmalla puolella on valikko, josta pääset
 tarkastelemaan niteitä.
 
-![](/assets/files/docs/Luettelointi/luettelointi50.png)
+![](/assets/files/docs/Luettelointi/luettelointi501.png)
 
 Jos nide on hankittu Kohan hankintamoduulin kautta, näkyy _Historiassa_
 myös hankintatiedot. Jos tilaus- tai saapumispäivä näkyy linkkinä, siitä
