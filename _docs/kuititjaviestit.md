@@ -513,7 +513,7 @@ kertaa
 ```
 
 
-## ISSUEQLSLIP eli lainakuitti päivän lainoista
+## ISSUEQSLIP eli lainakuitti päivän lainoista
 
 ### Email-pohjaan
 
@@ -791,7 +791,7 @@ Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>
 HOLD_REMINDER-pohja ei osaa tällä hetkellä käyttää kielipohjia (ks. tiketti 662), mutta Oletus-pohjaan on mahdollista tehdä Template Toolkitillä asiakkaan kielivalintoja hyödyntävät eri viestivaihtoehdot. HMTL-täppä pakoilleen.
 
 ```
-[% IF "<<borrowers.lang>>" == "fi-FI" %]
+[% IF borrower.lang == "fi-FI" %]
 
 <p>Muistathan noutaa varaamasi aineiston noutopaikasta <<branches.branchname>> varaustunnisteella <<borrower-attribute:HOLDID>>.</p>
 
@@ -807,7 +807,7 @@ Nide: [% hold.item.barcode %]<br />
 
 <p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
 
-[% ELSIF "<<borrowers.lang>>" == "sv-SE" %]
+[% ELSIF borrower.lang == "sv-SE" %]
 
 <p>Du kommer väl ihåg att hämta din reservering från <<branches.branchname>> med reserveringskod <<borrower-attribute:HOLDID>>.</p>
 
