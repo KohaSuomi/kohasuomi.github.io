@@ -189,7 +189,7 @@ outi.finna.fi
 Tällä mallilla esim. virkailijalle voi lähettää erilaisen viestin.
 
 ```
-[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
+[% IF borrower.categorycode == "VIRKAILIJA" %]
 Hei,
 
 Koha-tunnuksen <<borrowers.cardnumber>> voimassaolo päättyy 30 päivän kuluttua. Mikäli työsuhde jatkuu, on pyydäthän esihenkilöä huolehtimaan tunnuksen voimassaolon jatkamisesta ennen <<borrowers.dateexpiry>>.
@@ -204,8 +204,6 @@ Tähän viestiin ei voi vastata. Otathan tarvittaessa yhteyttä omaan kirjastoos
 
 [% END %]
 ```
-
-Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alussa ajaa saman asian kuin ```[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]```
 
 ## DUEDGST eli Eräpäivämuistutus eräpäivänä
 
@@ -380,10 +378,10 @@ Eräpäivä: <<issues.date_due | dateonly >><br />
 Uusittu: <<issues.renewals_count>> / 7 kertaa
 </p>
 </checkedout>
-<p>Yhteensä lainoja: [% checkouts.count %][% IF checkouts.count > 1 %]
-      lainaa
-[% ELSE %]
+<p>Yhteensä lainoja: [% checkouts.count %][% IF checkouts.count == 1 %]
       laina
+[% ELSE %]
+      lainaa
     [% END %] </p>
 <br/>
 <h4>Myöhässä olevat</h4>
@@ -395,10 +393,10 @@ Eräpäivä: <<issues.date_due | dateonly >> <br />
 Uusintakerrat: <<issues.renewals_count>> / 7
 </p>
 </overdue>
-<p>Yhteensä myöhässä: [% overdues.count %][% IF overdues.count > 1 %]
-      lainaa
-[% ELSE %]
+<p>Yhteensä myöhässä: [% overdues.count %][% IF overdues.count == 1 %]
       laina
+[% ELSE %]
+      lainaa
     [% END %] </p>
 <br />
 <p>Maksut:
@@ -439,10 +437,10 @@ Renewals: <<issues.renewals_count>>
 </p>
 </checkedout>
 
-<p>Check outs: [% checkouts.count %][% IF checkouts.count > 1 %]
-      check outs
-[% ELSE %]
+<p>Check outs: [% checkouts.count %][% IF checkouts.count == 1 %]
       check out
+[% ELSE %]
+      check outs
     [% END %] </p>
 <br/>
 <h4>Overdue</h4>
@@ -454,10 +452,10 @@ Due date: <<issues.date_due | dateonly >> <br />
 Renewals: <<issues.renewals_count>>
 </overdue>
 </p>
-<p>Check outs: [% overdues.count %][% IF overdues.count > 1 %]
-      check outs
-[% ELSE %]
+<p>Check outs: [% overdues.count %][% IF overdues.count == 1 %]
       check out
+[% ELSE %]
+      check outs
     [% END %] </p>
 
 <br />
