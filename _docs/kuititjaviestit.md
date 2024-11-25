@@ -347,8 +347,7 @@ P.S. You can connect other library cards under your library card in the OUTI Web
 
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
-
-Päivitetty 18.10.2024
+25.11.2024
 
 ### Email-pohjaan
 
@@ -514,6 +513,8 @@ kertaa
 
 
 ## ISSUEQSLIP eli lainakuitti päivän lainoista
+
+Päivitetty 25.11.2024
 
 ### Email-pohjaan
 
@@ -783,6 +784,8 @@ Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>
 ```
 
 ## HOLD_REMINDER eli varauksen noutomuistutus
+
+Päivitetty 25.11.2024
 
 ### Email-pohjaan
 
