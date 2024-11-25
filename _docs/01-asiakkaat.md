@@ -15,12 +15,13 @@ hakea asiakkaiden tietoja.
 
 ![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Asiakkaat2.png)
 
-Voit tehdä haun suoraan kirjoittamalla yläreunan hakukenttään hakutermi, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" klikkaamalla nuolinäppäintä. Pienen vaikkokuvakkeen takaa löytyy hakuvaihtoehtoja. Alempana hakuvaihtoehdot on selitetty tarkemmin. Laajalla haulla tai haulla, jolla ei löydy tuloksia, pääset asiakastietojen hakusivulle.
+Voit tehdä haun suoraan kirjoittamalla yläreunan hakukenttään hakutermi, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" klikkaamalla nuolinäppäintä. Pienen vaikkokuvakkeen takaa löytyy hakuvaihtoehtoja. Alempana hakuvaihtoehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, pääset asiakastietojen hakusivulle.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat3.png" alt="" style="width:90.0%" />
 
+Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikoissa. Hae asiakkaita-hakulaatikko löytyy sivun vasemmasta laidasta.
 
-- Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikoissa. Hae asiakkaita-hakulaatikko löytyy sivun vasemmasta laidasta.
+<img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
 - Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
 hakulaatikoita ja rajaamalla hakuja hakuehdoilla. 
