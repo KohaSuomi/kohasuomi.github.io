@@ -1935,7 +1935,7 @@ Thank you!
 
 ## WELCOME
 
-Päivitetty 18.10.2024
+Päivitetty 25.11.2024
 
 Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin asiakkaalle tervetuloviestin, jossa käytetään tätä viestipohjaa. Viestiin voi lisätä esim. linkin kirjaston käyttösääntöihin, verkkokirjastoon, e-kirjastoon yms.
 
@@ -1945,11 +1945,11 @@ Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin as
 
 Viestityyppi: Sähköposti
 HTML-viesti: kyllä
-Viestin aihe: Tervetuloa Vaara-kirjastojen asiakkaaksi
+Viestin aihe: Tervetuloa OUTI-kirjastojen asiakkaaksi
 ```
 [% USE Koha %]
 
-[% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
+[% IF borrower.categorycode == "VIRKAILIJA" %]
 
 Hei [% borrower.firstname %]! 
 
