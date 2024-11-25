@@ -11,6 +11,27 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 8/2024
+
+25.11.2024
+
+Hei kaikille!
+
+Koha-Suomen hallituksen marraskuun kokouksessa keskityttiin keskusteluun vuoden 2025 toiminnallisista tavoitteista ja taloudesta. Asiakokonaisuudesta päätetään hallituksen joulukuun kokouksessa.
+
+Hallitus päätti osakassopimuksen muutoksen sisällöstä ja se lähetetään omistajakuntiin kommenteille. Yhtiökokouksessa 2023 päätettiin, että hallituksen tulee valmistella osakassopimuksen päivittäminen siten, että osakas voi halutessaan yksipuolisesti luopua osakkuudestaan. Yhtiökokouksessa 17.6.2024 yhtiökokous ohjeisti hallitusta osakassopimuksen päivityksen valmistelun jatkamiseen. Tavoitteena on, että osakassopimuksen muutos hyväksytään vuoden 2025 yhtiökokouksessa.
+
+Kävimme läpi perinteisesti toimitusjohtajan raportin ja se löytyy viestin liitteenä.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä, hallituksen pj.
+
+Toimitusjohtajan raportti: [Toimitusjohtajan raportti 8 24.pdf](https://github.com/user-attachments/files/17899814/Toimitusjohtajanraportti824.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 7/2024
 
 25.10.2024
