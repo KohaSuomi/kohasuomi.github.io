@@ -153,7 +153,7 @@ Vaihtoehtoisesti voit etsiä Z39.50/SRU-haun kautta toisesta kirjastosta
 täydellisemmän kuvailutietueen, jolla korvaat nykyisen
 tietueen.
 
-![](/assets/files/docs/Luettelointi/kuvailu12.png)
+![](/assets/files/docs/Luettelointi/kuvailu121.png)
 
 Jos käytät tätä korvaamista, pääset Z39.50/SRU-hakusivulle valitsemaan
 valikosta kirjaston, jonka tietueella nimeketietue korvataan.
