@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
@@ -42,10 +42,14 @@ Etelästä pohjoiseen
 **Kyyti**
 * Kohan käyttöoikeuksien tarkistus on kunnissa menossa. Sama tarkistetaan Tätin, sotusiilon, laskutuksen ja hankintaportaalin tunnukset.
 
+**Kirkes**
+* Tietueen perusnäytöllä on huomattu toimimaton "tyhjennä suodatin" -painike. Tiketti [#1522](https://github.com/KohaSuomi/Koha/issues/1522)
+* Lisäksi niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä "poista kaikki niteet". Englanniksi selite on "remove all items", eli pitäisi selvittää onko yhteisössä tästä jo tikettiä. 
+
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila ja Annika Helastila (Kirkes)
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
