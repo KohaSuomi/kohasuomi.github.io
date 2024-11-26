@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
@@ -31,6 +31,10 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Versionvaihdon yhteydessä tuli muutoksia viivakoodin generointiin. Mutta nyt ongelmana on, että muodostunut viivakoodi on liian pitkä mahtuakseen tarralle. Maksimimerkkimäärä on 15 ja nyt muodostuu 17. Asiasta tehty tiketti #1523
+
+**Vaara**
+* Päivi päivittänyt kuvailun ohjeita Koha-Suomen ohjeet -sivulle. Kuvien poistaminen ei onnistu, selvitettävä miten se toimii.
+* Eilen illalla klo 16 ja 18 maissa Vaaran Kohissa ollut hitautta. Koska muiden kimppojen kohdalla ei ole samaa ilmennyt, liekö ollut joku maakunnallinen verkko-ongelma.
 
 ## Viikko 47
 
