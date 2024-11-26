@@ -172,7 +172,7 @@ kohdalla Toiminnot-sarakkeesta _Tuo_.
 Teitpä muutokset tietueeseen kummalla tavalla tahansa, muista klikata
 _Tallenna_ -painiketta.
 
-![](/assets/files/docs/Luettelointi/kohakuvat7224.png)
+![](/assets/files/docs/Luettelointi/kohakuvat72241.png)
 
 ### 5.1.5. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
@@ -272,17 +272,17 @@ kuvailuformaatissa, kentän toistaminen antaa virheilmoituksen.
 
 ![](/assets/files/docs/Luettelointi/luettelointi553.png)
 
-![](/assets/files/docs/Luettelointi/luettelointi014.png)
+![](/assets/files/docs/Luettelointi/luettelointi0141.png)
 
 Kun kuvailu näyttää valmiilta, klikkaa ruudun alareunassa _Yhdistä_.
 Asetuksissa voidaan määritellä, mitkä kentät näkyvät
 yhdistämisraportissa. Tässä tapauksessa kentät ovat 001, 245ab, 650.
 
-![](/assets/files/docs/Luettelointi/luettelointi012.png)
+![](/assets/files/docs/Luettelointi/luettelointi0121.png)
 
 Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
-![](/assets/files/docs/Luettelointi/luettelointi013.png)
+![](/assets/files/docs/Luettelointi/luettelointi0131.png)
 
 #### 5.1.7.2 Tietueiden yhdistäminen tiedonhaun kautta
 
