@@ -158,7 +158,7 @@ tietueen.
 Jos käytät tätä korvaamista, pääset Z39.50/SRU-hakusivulle valitsemaan
 valikosta kirjaston, jonka tietueella nimeketietue korvataan.
 
-![](/assets/files/docs/Luettelointi/kuvailu14.png)
+![](/assets/files/docs/Luettelointi/kuvailu141.png)
 
 Oletusarvona on tässä haku TäTistä ja Melindasta, mutta voit
 valita mitä tahansa valikon kirjastoista hakukirjastoksesi.
@@ -167,7 +167,7 @@ _Haku_-painike alareunassa aloittaa haun.
 Tässä hakutuloksena on kaksi tietuetta. Valitse haluamasi tietueen
 kohdalla Toiminnot-sarakkeesta _Tuo_.
 
-![](/assets/files/docs/Luettelointi/kohakuvat722.png)
+![](/assets/files/docs/Luettelointi/kohakuvat7221.png)
 
 Teitpä muutokset tietueeseen kummalla tavalla tahansa, muista klikata
 _Tallenna_ -painiketta.
