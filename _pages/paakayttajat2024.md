@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle)
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
