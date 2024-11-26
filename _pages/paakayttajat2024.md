@@ -22,6 +22,9 @@ Läsnä:
 * [Viikon 48 päivitys](https://github.com/KohaSuomi/Koha/discussions/1515)
 * [Koha-Suomen hallituksen tiedote](https://github.com/KohaSuomi/Koha/discussions/1516) julkaistu
 * [Testikantojen uudelleenluonti joulukuussa](https://github.com/KohaSuomi/Koha/issues/1519) - toiveita aikataululle?
+* Erikseen laskutettavat työt
+  * Joistakin töistä tullaan jatkossa laskuttamaan erikseen, mutta tarkempia päätöksiä siitä mitkä työt näihin kuuluvat ei ole tehty
+  * esim. [lainojen siirtäminen kirjastopisteeltä toiselle](https://github.com/KohaSuomi/Koha/issues/1506) on tällainen työ  
 
 
 ## Viikko 47
