@@ -234,7 +234,7 @@ tapauksissa voit tehdä kopion samantyyppisestä tietueesta ja muokata
 kopiota vastaamaan luetteloitavaa nimekettä. Tehdäksesi kopion klikkaa
 _Muokkaa uutena kopiona_.
 
-![](/assets/files/docs/Luettelointi/kohakuvatkausi547.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi5471.png)
 
 Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty kopioidun
 tietueen tiedoilla ja voit muokata tietoja haluamiksesi.  
