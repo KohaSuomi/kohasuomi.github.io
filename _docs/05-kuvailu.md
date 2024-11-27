@@ -270,8 +270,6 @@ Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 kuvailuformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Luettelointi/luettelointi553.png)
-
 ![](/assets/files/docs/Luettelointi/luettelointi0141.png)
 
 Kun kuvailu näyttää valmiilta, klikkaa ruudun alareunassa _Yhdistä_.
