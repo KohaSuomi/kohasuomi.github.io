@@ -605,7 +605,7 @@ enemmän niteitä kerralla.
 
 Täällä voit valita niteet, jotka poistetaan.
 
-![](/assets/files/docs/Luettelointi/luettelointi59.png)
+![](/assets/files/docs/Luettelointi/luettelointi591.png)
 
 ### 5.2.6. Niteen lainahistoria
 
