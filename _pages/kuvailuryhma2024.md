@@ -91,20 +91,20 @@ Kirjastopalvelun korjaustietueiden valumisessa oli ongelmia. Mikä on tällä he
 #### 5.	Melindan tietueiden poistaminen TäTissä ####
 <ul>
   <li>Melindassa on tietueita, joilla on TATI-Low-tag, mutta tietue on poistettu TäTistä. Tästä ei periaatteessa ole muuta haittaa kuin, jos jokin toinen kirjasto muokkaa tietuetta Melindassa, niin siitä tulee turha ilmoitus sähköpostiin. </li>
-  
+  <br/>
 -> Oikeaoppinen tapa: Jos TäTistä poistaa Melinda-tietueen, tietueelta pitää poistaa myös TATI-Low-tag Melindasta. Melindalla on tähän oma poistot-työkalunsa (joka on tosin korjauksessa tällä hetkellä): <a href="https://www.kiwi.fi/pages/viewpage.action?pageId=334659878" target="_blank">Melinda-kuvailijan aputyökalut</a>
-  
+  <br/>
   <li>TäTissä on Melindan tuplatietueita, joista toinen on syntynyt, koska Melindan replikointi ei ole löytänyt vastinkappaletta TäTistä. Monessa tapauksessa TäTistä Melindaan viedyssä tietueessa on ollut virheellisiä tietoja 001-, 003- tai 035-kentissä. </li>
-  
+  <br/>
 -> Näistä voi poistaa sen tietueen, jota ei ole viety Melindaan.
-  
+  <br/>
   <li>TäTin Melinda-tietueet, joilla ei ole Melindassa TATI-Low-tagia eikä näin ollen minkäänlaista replikointiyhteyttä</li>
   Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.
-  
+  <br/>
 -> Ehdotus ei saanut kannatusta. Jos TäTissä muokkaa Melinda-tietueita, pitää muistaa tarkistaa, onko tietue linkitetty jo Melindaan.
-  
+  <br/>
   <li>Pohdittavaksi: Melindasta TäTiin poimitut tietueet on linkitettävä Melindaan tai poistettava TäTistä kokonaan, jos niille ei ole käyttöä, tai muokattava niin, ettei niistä näy Melinda-menneisyys (001, 003, ja 035-kentät ei saa sisältää Melindan tietoja) </li>
-  
+  <br/>
 -> Päätettiin toimia yllä olevan ehdotuksen mukaisesti.
 </ul>
 
@@ -123,10 +123,10 @@ Seuraavat asiat tulivat esille:
 #### 7.	Tikettejä ####
 <ul>
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1433" target="_blank">000-kentän muokkaaminen</a> </li>
--> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.
+-> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.<br/>
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1434" target="_blank">Korjausajot tietueille MARC21-formaatin päivittymisen takia, kenttä 007, merkkipaikka 02</a> </li>
--> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.
+-> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.<br/>
   
 **Päätös:** Muokataan Nalkutinta niin, että se jättää kyseisen merkkipaikan huomioimatta.
   
@@ -136,7 +136,7 @@ Seuraavat asiat tulivat esille:
       <li>Kysytty Melindasta, menee ilmeisesti Kumean käsiteltäväksi </li>
     </ul>
 
-Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:
+Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:<br/>
 <div>
 240 10 $a Ma vie pour les miens. $l Suomi<br/>
 245 10 $a [Elämäni omieni puolesta] /<br/>
