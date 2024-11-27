@@ -100,11 +100,11 @@ Kirjastopalvelun korjaustietueiden valumisessa oli ongelmia. Mikä on tällä he
   
   <li>TäTin Melinda-tietueet, joilla ei ole Melindassa TATI-Low-tagia eikä näin ollen minkäänlaista replikointiyhteyttä</li>
   Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.
-
+  
 -> Ehdotus ei saanut kannatusta. Jos TäTissä muokkaa Melinda-tietueita, pitää muistaa tarkistaa, onko tietue linkitetty jo Melindaan.
-
+  
   <li>Pohdittavaksi: Melindasta TäTiin poimitut tietueet on linkitettävä Melindaan tai poistettava TäTistä kokonaan, jos niille ei ole käyttöä, tai muokattava niin, ettei niistä näy Melinda-menneisyys (001, 003, ja 035-kentät ei saa sisältää Melindan tietoja) </li>
-
+  
 -> Päätettiin toimia yllä olevan ehdotuksen mukaisesti.
 </ul>
 
@@ -127,7 +127,7 @@ Seuraavat asiat tulivat esille:
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1434" target="_blank">Korjausajot tietueille MARC21-formaatin päivittymisen takia, kenttä 007, merkkipaikka 02</a> </li>
 -> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.
-
+	
 **Päätös:** Muokataan Nalkutinta niin, että se jättää kyseisen merkkipaikan huomioimatta.
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1475" target="_blank">Jokin nidetieto estää nidehaun tulosten lataamisen</a> </li> 
@@ -137,9 +137,11 @@ Seuraavat asiat tulivat esille:
     </ul>
 
 Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:
-- 240 10 $a Ma vie pour les miens. $l Suomi
-- 245 10 $a [Elämäni omieni puolesta] /
-- 500 ## $a Tunnettu myös keksityllä merkkijärjestelmällä ilmaistulla nimekkeellä 'J.V.J,..’, joka voidaan kääntää nimekkeeksi Elämäni omieni puolesta.
+	
+<br>240 10 $a Ma vie pour les miens. $l Suomi</br>
+<br>245 10 $a [Elämäni omieni puolesta] /</br>
+<br>500 ## $a Tunnettu myös keksityllä merkkijärjestelmällä ilmaistulla nimekkeellä 'J.V.J,..’, joka voidaan kääntää nimekkeeksi Elämäni omieni puolesta.</br>
+
 </ul>
 
 #### 8.	Muita asioita ####
@@ -150,7 +152,7 @@ Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean Dav
 </ul>
 
 #### 9.	Seuraava kokous ####
-Alun perin sovittu keskiviikko 4.12. on hivenen ongelmallinen ajankohta, koska samana päivänä on Kansalliskirjaston kuvailuryhmien työpaja klo 13.00–15.45: https://www.kiwi.fi/pages/viewpage.action?pageId=387350761 
+Alun perin sovittu keskiviikko 4.12. on hivenen ongelmallinen ajankohta, koska samana päivänä on Kansalliskirjaston kuvailuryhmien työpaja klo 13.00–15.45: <a href="https://www.kiwi.fi/pages/viewpage.action?pageId=387350761" target="_blank">2024 syksyn työpaja</a>
 
 - Päätettiin muuttaa seuraavan kokouksen ajankohdaksi tiistai 3.12. klo 13.15–14.45. 
 
