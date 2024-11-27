@@ -71,7 +71,7 @@ Sihteeriksi valittiin Pasi Hynninen.
 	<li>Yksi tapa paikallistaa näitä: Jos jokin kirjasto sattuu muokkaamaan Melindassa tällaista tietuetta ja lähettää sähköpostilla siitä tiedon, niin on mahdollista huomata, että tietueesta on erilainen versio TäTissä.</li>
 </ul>
 
-**Päätös:** Korjataan tietueita aina silloin kun niitä tulee vastaan TäTissä, mutta on muistettava katsoa tarkkaan, mitä eroja tietueissa mahdollisesti on. Antti korjaa Melindaan 25.9.-10.10. aikana syntyneet virheelliset tietueet mahdollisimman pian.
+**Päätös:** Korjataan tietueita aina silloin kun niitä tulee vastaan TäTissä, mutta on muistettava katsoa tarkkaan, mitä eroja tietueissa mahdollisesti on. Antti korjaa Melindaan 25.9.-10.10. syntyneet virheelliset tietueet mahdollisimman pian.
 
 #### 3.	RDA-konversiot ####
 <ul>
@@ -126,8 +126,8 @@ Seuraavat asiat tulivat esille:
 -> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1434" target="_blank">Korjausajot tietueille MARC21-formaatin päivittymisen takia, kenttä 007, merkkipaikka 02</a> </li>
--> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.
-	
+-> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.<br/>
+
 **Päätös:** Muokataan Nalkutinta niin, että se jättää kyseisen merkkipaikan huomioimatta.
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1475" target="_blank">Jokin nidetieto estää nidehaun tulosten lataamisen</a> </li> 
@@ -136,11 +136,11 @@ Seuraavat asiat tulivat esille:
       <li>Kysytty Melindasta, menee ilmeisesti Kumean käsiteltäväksi </li>
     </ul>
 
-Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:
+Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:<br/>
 	
-<br>240 10 $a Ma vie pour les miens. $l Suomi</br>
-<br>245 10 $a [Elämäni omieni puolesta] /</br>
-<br>500 ## $a Tunnettu myös keksityllä merkkijärjestelmällä ilmaistulla nimekkeellä 'J.V.J,..’, joka voidaan kääntää nimekkeeksi Elämäni omieni puolesta.</br>
+240 10 $a Ma vie pour les miens. $l Suomi<br/>
+245 10 $a [Elämäni omieni puolesta] /<br/>
+500 ## $a Tunnettu myös keksityllä merkkijärjestelmällä ilmaistulla nimekkeellä 'J.V.J,..’, joka voidaan kääntää nimekkeeksi Elämäni omieni puolesta.<br/>
 
 </ul>
 
