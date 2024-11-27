@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
@@ -44,7 +44,11 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Tietueen perusnäytöllä on huomattu toimimaton "tyhjennä suodatin" -painike. Tiketti [#1522](https://github.com/KohaSuomi/Koha/issues/1522)
-* Lisäksi niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä "poista kaikki niteet". Englanniksi selite on "remove all items", eli pitäisi selvittää onko yhteisössä tästä jo tikettiä. 
+* Lisäksi niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä "poista kaikki niteet". Englanniksi selite on "remove all items", eli pitäisi selvittää onko yhteisössä tästä jo tikettiä.
+
+**Helle**
+* Tiedonhaku hakmmaan oletuksena vain emotietueet? Osakohteiden haku valitaan erikseen?
+* Palaverissa kerrottiin, että jatkossa Koha-Suomi laskuttaa kehittäjän tekemästä kimppakohtaisesta työstä. Palaverissa saadun tiedon mukaan tiedote asiasta on tulossa. Helle-kimpasta esimerkkitapaus [#1506](https://github.com/KohaSuomi/Koha/issues/1506)
 
 ## Viikko 47
 
