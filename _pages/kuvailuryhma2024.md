@@ -99,7 +99,7 @@ Kirjastopalvelun korjaustietueiden valumisessa oli ongelmia. Mikä on tällä he
 <p>-> Näistä voi poistaa sen tietueen, jota ei ole viety Melindaan.</p>
 
   <li>TäTin Melinda-tietueet, joilla ei ole Melindassa TATI-Low-tagia eikä näin ollen minkäänlaista replikointiyhteyttä</li>
-  Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.
+  <p>Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.</p>
 
 <p>-> Ehdotus ei saanut kannatusta. Jos TäTissä muokkaa Melinda-tietueita, pitää muistaa tarkistaa, onko tietue linkitetty jo Melindaan.</p>
 
@@ -136,7 +136,10 @@ Seuraavat asiat tulivat esille:
       <li>Kysytty Melindasta, menee ilmeisesti Kumean käsiteltäväksi </li>
     </ul>
 
-Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:<br/>
+Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): 
+<p>Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. </p>
+<p>Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:</p>
+
 <div>
 240 10 $a Ma vie pour les miens. $l Suomi<br/>
 245 10 $a [Elämäni omieni puolesta] /<br/>
