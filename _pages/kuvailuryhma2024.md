@@ -101,7 +101,7 @@ Kirjastopalvelun korjaustietueiden valumisessa oli ongelmia. Mikä on tällä he
   <li>TäTin Melinda-tietueet, joilla ei ole Melindassa TATI-Low-tagia eikä näin ollen minkäänlaista replikointiyhteyttä</li>
   Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.
 
--> Ehdotus ei saanut kannatusta. Jos TäTissä muokkaa Melinda-tietueita, pitää muistaa tarkistaa, onko tietue linkitetty jo Melindaan.
+<p>-> Ehdotus ei saanut kannatusta. Jos TäTissä muokkaa Melinda-tietueita, pitää muistaa tarkistaa, onko tietue linkitetty jo Melindaan.</p>
 
   <li>Pohdittavaksi: Melindasta TäTiin poimitut tietueet on linkitettävä Melindaan tai poistettava TäTistä kokonaan, jos niille ei ole käyttöä, tai muokattava niin, ettei niistä näy Melinda-menneisyys (001, 003, ja 035-kentät ei saa sisältää Melindan tietoja) </li>
 
@@ -113,7 +113,7 @@ Onko jotain kysyttävää/kommentoitavaa Kirjastopalvelulle?
 
 Seuraavat asiat tulivat esille:
 <ul>
-  <li>Kuvailulupausten viivästyminen aiheuttaa ongelmia </li>
+  	<li>Kuvailulupausten viivästyminen aiheuttaa ongelmia </li>
 	<li>Kuvailun yleinen hitaus </li>
 	<li>Pohdittiin, voisiko Kirjastopalvelu selittää vähän ongelmiaan auki (kuvailun viivästyminen) </li>
 	<li>Monet kimpat kokivat primääriluetteloinnin määrän kasvaneen. </li>
