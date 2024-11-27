@@ -15,32 +15,62 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 12/2024
+## Asiantuntijaryhmän muistio 12/2024
 
 Aika: 27.11.2024 klo 13.00<br />
-Läsnä:
+Läsnä: Pia, Ari, Johanna, Päivi, Janne, Hanna, Tuomas, Anneli, Riikka, Kati, Susanna, Noora
 
 ### 1. Ajankohtaiset
 
-Versionvaihdon kuulumiset.
+Versionvaihdon kuulumiset: Versionvaihto meni pääsääntöisesti hyvin. Indeksit jouduttiin luomaan maanantaina uusiksi väärän mäppäystiedoston vuoksi. Käyttöönoton jälkeen tullut esille virheitä, jotka eivät tulleet testeissä esille.
 
-Koha-seminaariin aiheita kaivataan.
+Seuraavan versionvaihdon aikataulu päätetään varsinaisesti tammikuussa, mutta erilaisten kevään aikataulujen vuoksi, pitäisi jo nyt päättää mahdollinen ajankohta kalentereihin varalta. Ehdolle asetettiin viikot 20-21 maanantait. Ilmoitelkaa Annelille, kumpi viikko olisi parempi.
+
+Koha-seminaariin 27.-28.3.2025 aiheita kaivataan. Aiheita voi laittaa Annelille kokouksen jälkeen.
+* Vuoden 2025 tiekartan konkreettinen eteneminen
+* To ryhmien kokoontuminen, pe varsinainen seminaaripäivä.
+
+Sanasto pyytänyt taas raporttia lainojen määristä lainauskorvauksia varten. Koha-Suomi toimittaa tilastot vuoden vaihteen tienoilla. Lastun osalta selvityksessä, miten saadaan Auroran aikaiset tilastot.
+
+Suomi.fi Viesteihin siirtymiset: 
+* Vaarassa käyttöönotto menossa, PostiMessaging-sopimus tehtävä ennen konkreettista käyttöönottoa.
+* Vaski on kiinnostunut käyttöönotosta, Susanna varmistaa ja on Johannaan sitten yhteydessä.
+* Janne laittaa asiantuntijaryhmälle uusimmat postitus-kuoritus-hinnastot
 
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
 
 Jatketaan edellisen kokouksen pohdintoja.
 
+Hellestä saatu seuraava tieto: Thomas Sundellia (AVI:n juristi) Laissa ei suoraan sanota tästä asiasta mitään. Tätä pitää katsoa tietosuoja-asetuksen kautta, ja tietosuojalaissa sanotaan, että tietoja saa säilyttää mm. lakisääteisten tehtävien suorittamiseksi. Ikäraja kirjastorekisterissä on tarveharkintainen, ts. jos jotain tietoa tarvitaan, se voi ja tulee olla siellä.
+Esim. jos tietoa tarvitaan vaikka perintää varten tai kirjastonkäyttökiellon antamisen yhteydessä kuulemistilaisuuden yhteydessä, jossa kuullaan lasta vanhempien kanssa. Silloin pitää olla mahdollisuus olla yhteydessä huoltajiin, ja näin ollen huoltajatietoja tarvitaan.
+
+Hän ei näe ongelmaa siinä, että huoltajatiedot ovat rekisterissä siihen asti kunnes lapsi täyttää 18 v., ja hän kysyi, mistä tuo 15 v:n ikäraja on tullut.
+
+Vielä hän toi esiin sen seikan, että jos vaikkapa 15 vuotias (tai muu alaikäinen) aiheuttaa vahinkoa, josta tulisi korvausvastuulliseksi, niin se on huoltaja tai huoltajat, jotka voivat tehdä taloudelliset sopimukset korvausten maksamiseksi. 
+
+**Päätös:** Otetaan käyttöön emailpro eli Toissijainen sähköpostiosoite kaikissa kimpoissa, mikäli kimpassa halutaan käyttää kahta sähköpostiosoitetta. Jos kimppa ei halua käyttää toista osoitetta, voi sen edelleen piilottaa. Kentän kuvaus säilytetään ennallaan. Ei luoda mitään automaattisia siivousajoja, jolla kentästä poistetaan tietoja tietynikäisiltä asiakkailta.
+
+Pyydettävä Finna-toimistosta, että emailpro-kenttä saadaan näkyviin myös Finnaan ja tarvittaessa niiden kimppojen, jotka ei tietoa kerää, pitänee piilottaa se sitten Finnassa Omista tiedoista. Kati kysyy Tovelta, voisiko hän olla yhteydessä kaikkien kimppojen puolesta Finna-toimistoon. Kati tekee Finna-kehitysehdotuksen tietovarantoon
+
 ### 3. Tilastoaineistojen toimittaminen Kirjastot.fi Raportointipalveluun
 
 Jatketaan edellisen kokouksen pohdintoja.
+
+**Päätös:** Kimpoissa on tarvetta Kirjastot.fi Raportointipalveluun, joten jatketaan palvelun kehittämistä ja käyttöönottoa.
 
 ### 4. Vaarassa käyttöön uudet HEOMATOIMI ja YHOMATOIMI -asiakastyypit
 
 Otetaanko mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)?
 
+**Päätös:** Otetaan HEOMATOIMI ja YHOMATOIMI mukaan yhteisiin asiakastyyppeihin.
+
 ### 5. Itsepalvelulainaukset asiakasvarmenteen taakse
 
 Itsepalvelulainauksissa pitäisi ottaa käyttöön myös asiakasvarmenteet.
+
+Tekninen haaste: saavatko paikalliset it:t toteutettua päätteille asiakasvarmenteen automaattisen hyväksynnän.
+
+**Päätös:** Kimpat, joissa Kohan itsepalvelu on käytössä, selvittää paikallisen IT-osaston, saavatko he pääteet toimimaan asiakasvarmeenteen kanssa. Pohditaan sen jälkeen, miten edetään.
 
 ### 6. AuthSuccessLog
 
@@ -49,13 +79,19 @@ Kaikkia kimppoja pyydettiin ottamaan pois päältä [AuthSuccessLog](https://git
 ### 7. Kehitysehdotusten läpikäynti
 
 * [Teokseen kohdistuvat varaukset näkyviin asiakkaan lainoihin #1469](https://github.com/KohaSuomi/Koha/issues/1469)
+  * Päätös: Kehitys yhteisön kautta. 
 * [Lainauksen Uusinta-sarakkeen järjestäminen #1472](https://github.com/KohaSuomi/Koha/issues/1472)
-* [Tätiin Tietuesiirtäjän käyttäjätunnuksiin järjestystä #1494](https://github.com/KohaSuomi/Koha/issues/1494) 
+  * Päätös: Kehitys yhteisössä.
 
+Uusinta-sarake vaikuttaa samanlaiselta kuin Tietueen perustiedot-näytön kokoelmataulukon Tila-sarake, eli sen sisältämät tiedot eivät ole tietokannan taulun tietoja, jolloin ne ei suoraan välity taulukolle. Järjestämisen lisääminen voi olla yhtä iso työ, kuin mitä yhteisössä on tehty Tila-sarakkeen osalta. 
+* [Tätiin Tietuesiirtäjän käyttäjätunnuksiin järjestystä #1494](https://github.com/KohaSuomi/Koha/issues/1494) 
+  * Päätös: Muutetaan käyttäjä-valikko järjestymään aakkosjärjestykseen, jolloin ne menevät samalla kimpoittain, koska tunnuksissa on kimpan nimi ja numero.
 
 ### 8. Muut asiat
 
 ### 9. Seuraavat kokoukset
+
+Ke 8.1.2025 klo 13-15
 
 ## Asiantuntijaryhmän muistio 11/2024
 
