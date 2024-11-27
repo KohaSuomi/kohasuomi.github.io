@@ -44,7 +44,7 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Tietueen perusnäytöllä on huomattu toimimaton "tyhjennä suodatin" -painike. Tiketti [#1522](https://github.com/KohaSuomi/Koha/issues/1522)
-* Lisäksi niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä "poista kaikki niteet". Englanniksi selite on "remove all items", eli pitäisi selvittää onko yhteisössä tästä jo tikettiä.
+* Niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä “poista kaikki niteet”. Englanniksi selite on “remove all items”, mutta item tarkoittanee tässä tilanteessa jotain muuta kuin nidettä, koska sama selite tulee kaikkien sellaisten kenttien kohdalle, joissa on poistettavia arvoja. Tiketti [#1526](https://github.com/KohaSuomi/Koha/issues/1526)
 
 **Helle**
 * Tiedonhaku hakemaan oletuksena vain emotietueet? Osakohteiden haku valitaan erikseen?
