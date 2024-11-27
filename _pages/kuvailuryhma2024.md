@@ -92,11 +92,11 @@ Kirjastopalvelun korjaustietueiden valumisessa oli ongelmia. Mikä on tällä he
 <ul>
   <li>Melindassa on tietueita, joilla on TATI-Low-tag, mutta tietue on poistettu TäTistä. Tästä ei periaatteessa ole muuta haittaa kuin, jos jokin toinen kirjasto muokkaa tietuetta Melindassa, niin siitä tulee turha ilmoitus sähköpostiin. </li>
 	
--> Oikeaoppinen tapa: Jos TäTistä poistaa Melinda-tietueen, tietueelta pitää poistaa myös TATI-Low-tag Melindasta. Melindalla on tähän oma poistot-työkalunsa (joka on tosin korjauksessa tällä hetkellä): <a href="https://www.kiwi.fi/pages/viewpage.action?pageId=334659878" target="_blank">Melinda-kuvailijan aputyökalut</a>
+<p>-> Oikeaoppinen tapa: Jos TäTistä poistaa Melinda-tietueen, tietueelta pitää poistaa myös TATI-Low-tag Melindasta. Melindalla on tähän oma poistot-työkalunsa (joka on tosin korjauksessa tällä hetkellä): <a href="https://www.kiwi.fi/pages/viewpage.action?pageId=334659878" target="_blank">Melinda-kuvailijan aputyökalut</a> </p>
 
   <li>TäTissä on Melindan tuplatietueita, joista toinen on syntynyt, koska Melindan replikointi ei ole löytänyt vastinkappaletta TäTistä. Monessa tapauksessa TäTistä Melindaan viedyssä tietueessa on ollut virheellisiä tietoja 001-, 003- tai 035-kentissä. </li>
   
--> Näistä voi poistaa sen tietueen, jota ei ole viety Melindaan.
+<p>-> Näistä voi poistaa sen tietueen, jota ei ole viety Melindaan.</p>
 
   <li>TäTin Melinda-tietueet, joilla ei ole Melindassa TATI-Low-tagia eikä näin ollen minkäänlaista replikointiyhteyttä</li>
   Ehdotus: selvitetään, onko mahdollista hakea nämä tietueet jotenkin ja poistetaan TäTistä. Tarvittaessa tietueet voi tuoda sitten uudestaan.
@@ -123,10 +123,10 @@ Seuraavat asiat tulivat esille:
 #### 7.	Tikettejä ####
 <ul>
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1433" target="_blank">000-kentän muokkaaminen</a> </li>
--> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.<br/>
+<p>-> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.</p>
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1434" target="_blank">Korjausajot tietueille MARC21-formaatin päivittymisen takia, kenttä 007, merkkipaikka 02</a> </li>
--> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.<br/>
+<p>-> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.</p>
   
 <p>-> Muokataan Nalkutinta niin, että se jättää kyseisen merkkipaikan huomioimatta.</p>
   
