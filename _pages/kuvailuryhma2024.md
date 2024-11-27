@@ -25,9 +25,9 @@ Sihteeriksi valittiin Pasi Hynninen.
 #### 2.	Melindan ja Kirjastopalvelun tietueet TäTissä ja paikalliskannoissa ####
 <ul>
   <li>Liittyvät tiketit: </li>
-  	<ul>
+    <ul>
       <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/11" target="_blank">Kaikki Melindan pakolliset kentät eivät siirry tietueen yhdistymisessä</a> </li>
-   	  <li><a href="https://github.com/KohaSuomi/koha-plugin-import-remote-biblios/issues/1" target="_blank">Yhdistele tuotavat tietueet jo olemassa oleviin</a> </li>
+      <li><a href="https://github.com/KohaSuomi/koha-plugin-import-remote-biblios/issues/1" target="_blank">Yhdistele tuotavat tietueet jo olemassa oleviin</a> </li>
     </ul>
   <li>TäTin ja Melindan replikointi/valumisyhteys perustuu siihen, että tietueella on TäTissä 035a-kentässä FI-MELINDA-tunnus. Jos sitä ei ole, Melinda-päivitykset eivät valu TäTiin, vaikka tietueella olisi Melindassa TATI-Low-tag.</li>
   <li>Kirjastopalvelun TäTiin lähettämien tietueiden täsmäytys on tapahtunut jonkin aikaa 035a-kentässä olevan FI-BTJ-tunnuksen perusteella. Lisäksi yhdistelyssä tarkistettiin myös ISBN- tai ISSN-tunnus. Tästä syystä nämä Kirjastopalvelun tietueet kirjoittivat kokonaan TäTissä mahdollisesti jo olleen Melinda-tietueen päälle, jolloin tietueen Melindan replikointiyhteys katosi eikä Melindassa mahdollisesti tehtävät päivitykset valu enää näihin tietueisiin TäTissä eikä paikalliskannoissa. </li>
@@ -37,15 +37,15 @@ Sihteeriksi valittiin Pasi Hynninen.
 <ul>
   <li>Nro 308: Tuplatietueet ISBN - erilliset rivit ja aikarajaus</li>
   <li>Nro 309: Tuplatietueet/EAN - erilliset rivit ja aikarajaus</li>
-	<li>Nro 310: Tuplatietueet ISSN - erilliset rivit (ja aikarajaus)</li>
+  <li>Nro 310: Tuplatietueet ISSN - erilliset rivit (ja aikarajaus)</li>
 </ul>
 </ul>
 
 ##### 2.1. Miten vältytään Kirjastopalvelun ja Melindan tuplatietueilta TäTissä, jos TäTissä on jo Melinda-tietue jostakin nimekkeestä? #####
 <ul>
   <li>Jotta tuplatietueita ei syntyisi, aiemmin on ohjeistettu, ettei Kirjastopalvelun uusia tietueita vietäisi Melindaan eikä tuotaisi sieltä, koska tarvittavat päivitykset tulevat Kirjastopalvelun kautta. Tämä käytäntö ei tule kuitenkaan koskaan täysin toimimaan, joten pitäisi keksiä jokin toinen tapa. Lisäksi tuplia syntyy myös siitä, että Kirjastopalvelu voi joskus kuvailla aineistoa, joka on jo aikoja sitten kuvailtu Melindaan ja löytyy jo TäTistäkin.</li>
-	<li>Kirjastopalvelun ja Melinda-tietueiden yhdistäminen koneellisesti on hyvin hankalaa, koska tietueet ovat erilaisia ja joitakin korjauksia on hyvin vaikea tunnistaa.</li>
-	<li>Kaksi vaihtoehtoa:</li>
+  <li>Kirjastopalvelun ja Melinda-tietueiden yhdistäminen koneellisesti on hyvin hankalaa, koska tietueet ovat erilaisia ja joitakin korjauksia on hyvin vaikea tunnistaa.</li>
+  <li>Kaksi vaihtoehtoa:</li>
 <ul>
   <li>Lukitaanko Melinda-tietueet siten, että estetään Kirjastopalvelun uusi tietue tai korjaustietueet kokonaan? Jos korjaustietueet estetään kokonaan, niin miten hoidetaan tietueiden mahdolliset Kirjastopalvelun tekemät korjaukset? Kirjastopalvelu korjaa Melindaan vain alun perin sinne kuvailemansa Kansalliskirjaston tietueet.</li>
   <li>Muodostetaanko tuplatietueet ja kuvailija yhdistää nämä? Jos kuvailija yhdistää tietueet, niin muodostuneita tuplatietueita voisi seurata raportilla.</li>
@@ -56,7 +56,7 @@ Sihteeriksi valittiin Pasi Hynninen.
 
 ##### 2.2. Pitäisikö paikalliskannoissa estää tietueen 035-kentän aktivoituminen muilla kuin Melinda-tunnuksilla? #####
 <ul>
-  <li>Paikalliskannoissa 035a-kentän FI-Melinda-tunnus on tietueiden valutuksen pääasiallinen aktivointiarvo aina, jos sitä ei ole käsin vaihdettu tai valutusta muuten estetty.</li>
+  	<li>Paikalliskannoissa 035a-kentän FI-Melinda-tunnus on tietueiden valutuksen pääasiallinen aktivointiarvo aina, jos sitä ei ole käsin vaihdettu tai valutusta muuten estetty.</li>
 	<li>Jos paikalliskannan tietueesta on aktivoitunut 035a-kentässä oleva FI-BTJ-tunnus, niin valutus tapahtuu sen perusteella, eli jos TäTissä olevassa Melinda-tietueessa ei tuota kenttää ja tunnusta ole, ei valuminenkaan onnistu. Ainakin OUTIssa suurimmassa osassa hankintatietueista aktivoituu nykyään 035a-kentän FI-BTJ-tunnus, jos se hankintatietueessa on, mutta ei ihan aina jostakin syystä.</li>
 	<li>Paikalliskannoissa voi olla joko Melindan tietue tai Kirjastopalvelun tietue. Koska paikalliskannoissa voi olla eri versiot samasta nimekkeestä/tietueesta, kaikki eivät välttämättä saa Melindassa tai TäTissä tehtäviä päivityksiä tietokantaansa, koska tietueiden aktivointiarvot eivät kohtaa.</li>
 	<li>TäTissä ja paikalliskannoissa olisi järkevää olla vain yksi ja sama versio yhdestä tietueesta, jolloin kaikkien tietueet olisivat ajan tasalla, eikä jokaisen tarvitsisi muokata niitä tarvittaessa erikseen. Lisäksi vältyttäisiin turhilta tietueen tarkistuksilta, kun yksi tietue ei vaihtele olomuotoaan jatkuvasti. Todennäköisesti tämä olisi hyvä asia myös tulevan paikalliskantojen yhdistämisen kannalta.</li>
@@ -126,8 +126,8 @@ Seuraavat asiat tulivat esille:
 -> Ei onnistu tällä hetkellä. Jos haluaa, että kiinteitä kenttiä voisi muokata eräajoilla, niin jokaiselle kentälle pitäisi tehdä oma tikettinsä. Vaarassa on testattu erillistä MarcEdit-ohjelmaa, jolla voisi myös tehdä tietuemuokkauksia.
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1434" target="_blank">Korjausajot tietueille MARC21-formaatin päivittymisen takia, kenttä 007, merkkipaikka 02</a> </li>
--> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.<br/>
-
+-> Vaikka nämä korjattaisiin paikalliskannoissa ja TäTissä, niin virheellisiä tietueita tulee jatkuvasti Melindasta, koska vanhempia tietueita ei tulla korjaamaan siellä takautuvasti niiden todella suuren määrän takia.
+  
 **Päätös:** Muokataan Nalkutinta niin, että se jättää kyseisen merkkipaikan huomioimatta.
   
   <li><a href="https://github.com/KohaSuomi/Koha/issues/1475" target="_blank">Jokin nidetieto estää nidehaun tulosten lataamisen</a> </li> 
@@ -136,12 +136,12 @@ Seuraavat asiat tulivat esille:
       <li>Kysytty Melindasta, menee ilmeisesti Kumean käsiteltäväksi </li>
     </ul>
 
-Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:<br/>
-	
+Tähän on tullut Kumeasta päätös 13.11. (Melinda-tietue 006023609): Jean David Morvanin ja Philippe Bouchet’n Sillage-sarjakuvasarjan viidennen osan nimi on ilmaistu sarjassa keksityllä merkkijärjestelmällä, jonka on tulkittu aiemmin olevan UCS-merkeillä ilmaistuna hieman vaihdellen muodossa ’J.V.J,..’. Nimekkeessä ollut takakenoviiva tai merkkien yhdistelmä on kuitenkin osoittautunut yhteensopimattomaksi Koha-järjestelmän kanssa kaataen aina näille riveille kohdistuvan haun. Kumea tutustui kansainvälisiin kirjastotietokantojen ratkaisuihin ja mahdollisuuksiin, ja päätyi korjaamaan nimekettä seuraavasti:
+<div>
 240 10 $a Ma vie pour les miens. $l Suomi<br/>
 245 10 $a [Elämäni omieni puolesta] /<br/>
 500 ## $a Tunnettu myös keksityllä merkkijärjestelmällä ilmaistulla nimekkeellä 'J.V.J,..’, joka voidaan kääntää nimekkeeksi Elämäni omieni puolesta.<br/>
-
+</div>
 </ul>
 
 #### 8.	Muita asioita ####
