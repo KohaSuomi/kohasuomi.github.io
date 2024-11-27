@@ -47,7 +47,7 @@ Etelästä pohjoiseen
 * Lisäksi niteen muokkauksessa ruksissa, josta poistetaan aikaisemmin annettu arvo (esim. ei lainata -tila), lukee nyt selitteenä "poista kaikki niteet". Englanniksi selite on "remove all items", eli pitäisi selvittää onko yhteisössä tästä jo tikettiä.
 
 **Helle**
-* Tiedonhaku hakmmaan oletuksena vain emotietueet? Osakohteiden haku valitaan erikseen?
+* Tiedonhaku hakemaan oletuksena vain emotietueet? Osakohteiden haku valitaan erikseen?
 * Palaverissa kerrottiin, että jatkossa Koha-Suomi laskuttaa kehittäjän tekemästä kimppakohtaisesta työstä. Palaverissa saadun tiedon mukaan tiedote asiasta on tulossa. Helle-kimpasta esimerkkitapaus [#1506](https://github.com/KohaSuomi/Koha/issues/1506)
 
 ## Viikko 47
