@@ -392,10 +392,9 @@ Lisäämäsi tietue tulee taulukkoon.
 
 ![](/assets/files/docs/Luettelointi/luettelointi26.png)
 
-Voit suodattaa kokoelmatietoja, kun klikkaat _Suodata_.  
-![](/assets/files/docs/Luettelointi/kohakuvat570.png)
-
-![](/assets/files/docs/Luettelointi/kohakuvat571.png)
+Voit suodattaa kokoelmatietoja, kun kirjoitat haku-laatikkoon.
+ 
+![](/assets/files/docs/Luettelointi/kohakuvat5701.png)
 
 Riittää, kun aloitat kirjoittamaan suodatinta, kaikki siihen sopivat
 tulokset listataan.
