@@ -2657,6 +2657,8 @@ LIMIT 7000
 
 Näyttää kuljetukset jotka eivät ole saapuneet perille, halutusta kirjastosta, järjestäen vanhemmat kuin 7 päivää ensimmäiseksi.
 
+Päivitetty 28.11.2024
+
 ```
 SELECT
    IF(bt.datesent < DATE_SUB(NOW(), INTERVAL 7 DAY), '*', '') AS 'late',
@@ -2666,15 +2668,19 @@ SELECT
    i.itype,
    i.location,
    bt.tobranch,
-   bt.datesent
+   bt.datesent,
+   bt.datearrived,
+   bt.datecancelled,
+   bt.reason
 FROM branchtransfers bt
 LEFT JOIN items i ON i.itemnumber = bt.itemnumber
 LEFT JOIN biblio b ON b.biblionumber = i.biblionumber
 WHERE bt.frombranch = <<Lähtökirjasto|branches>>
   AND bt.datearrived IS NULL
+  AND datecancelled IS NOT NULL
+  AND datesent IS NOT NULL
+
 ORDER BY
-    late DESC,
-    bt.tobranch,
     bt.datesent ASC
 ```
 
