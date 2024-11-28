@@ -33,7 +33,7 @@ Etelästä pohjoiseen
 * Versionvaihdon yhteydessä tuli muutoksia viivakoodin generointiin. Mutta nyt ongelmana on, että muodostunut viivakoodi on liian pitkä mahtuakseen tarralle. Maksimimerkkimäärä on 15 ja nyt muodostuu 17. Asiasta tehty tiketti #1523
 
 **OUTI**
-* Normaalia ylläpitoa
+* Normaalia ylläpitoa ja versionvaihdon jälkeistä selvittelyä
 
 **Vaara**
 * Päivi päivittänyt kuvailun ohjeita Koha-Suomen ohjeet -sivulle. Kuvien poistaminen ei onnistu, selvitettävä miten se toimii.
