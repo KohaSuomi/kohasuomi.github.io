@@ -26,11 +26,11 @@ Läsnä: Pia Kusmin (Lapin kirjasto), Ari Mäkiranta, Johanna Räisä, Anneli Ö
 
 Seuraavan versionvaihdon aikataulu päätetään varsinaisesti tammikuussa, mutta erilaisten kevään aikataulujen vuoksi, pitäisi jo nyt päättää mahdollinen ajankohta kalentereihin varalta. Ehdolle asetettiin viikkojen 20-21 maanantait. Ilmoitelkaa Annelille, kumpi viikko olisi parempi.
 
-**Koha-seminaariin** 27.-28.3.2025 aiheita kaivataan. Aiheita voi laittaa Annelille kokouksen jälkeen.
+**Koha-seminaariin** 27.-28.3.2025 kaivataan aiheita. Niitä voi laittaa Annelille kokouksen jälkeen.
 * Vuoden 2025 tiekartan konkreettinen eteneminen
 * To ryhmien kokoontuminen, pe varsinainen seminaaripäivä.
 
-**Sanasto** on taas pyytänyt taas raporttia lainojen määristä lainauskorvauksia varten. Koha-Suomi toimittaa tilastot vuoden vaihteen tienoilla. Lastun osalta on selvityksessä, miten saadaan Auroran aikaiset tilastot.
+**Sanasto** on taas pyytänyt taas raporttia lainojen määristä lainauskorvauksia varten. Koha-Suomi toimittaa tilastot vuodenvaihteen tienoilla. Lastun osalta on selvityksessä, miten saadaan Auroran aikaiset tilastot.
 
 **Suomi.fi Viesteihin siirtymiset**: 
 * Vaarassa on käyttöönotto menossa, PostiMessaging-sopimus tehtävä ennen konkreettista käyttöönottoa.
@@ -50,7 +50,7 @@ Esim. jos tietoa tarvitaan vaikka perintää varten tai kirjastonkäyttökiellon
 
 *Vielä hän toi esiin sen seikan, että jos vaikkapa 15 vuotias (tai muu alaikäinen) aiheuttaa vahinkoa, josta tulisi korvausvastuulliseksi, niin se on huoltaja tai huoltajat, jotka voivat tehdä taloudelliset sopimukset korvausten maksamiseksi.* 
 
-**Päätös:** Otetaan käyttöön emailpro eli Toissijainen sähköpostiosoite kaikissa kimpoissa, mikäli kimpassa halutaan käyttää kahta sähköpostiosoitetta. Jos kimppa ei halua käyttää toista osoitetta, voi sen edelleen piilottaa. Kentän kuvaus säilytetään ennallaan. Ei luoda automaattisia siivousajoja, jolla kentästä poistetaan tietoja tietynikäisiltä asiakkailta.
+**Päätös:** Otetaan käyttöön emailpro eli Toissijainen sähköpostiosoite kaikissa kimpoissa, mikäli kimpassa halutaan käyttää kahta sähköpostiosoitetta. Jos kimppa ei halua käyttää toista osoitetta, voi sen edelleen piilottaa. Kentän kuvaus säilytetään ennallaan. Ei luoda automaattisia siivousajoja, joilla kentästä poistetaan tietoja tietynikäisiltä asiakkailta.
 
 Pyydettävä myös Finna-toimistosta, että emailpro-kenttä saadaan näkyviin myös Finnaan ja tarvittaessa niiden kimppojen, jotka eivät tietoa kerää, pitänee piilottaa se sitten Finnassa Omista tiedoista. Kati kysyy Selkälän Tovelta, voisiko hän olla yhteydessä kaikkien kimppojen puolesta Finna-toimistoon. Kati tekee asiasta Finna-kehitysehdotuksen tietovarantoon.
 
@@ -70,7 +70,7 @@ Otetaanko nämä kaksi asiakastyyppiä mukaan [yhdessä sovittuihin asiakastyypp
 
 ### 5. Itsepalvelulainaukset asiakasvarmenteen taakse
 
-Itsepalvelulainauksissa pitäisi ottaa käyttöön myös asiakasvarmenteet, jotta pääsy niihin voidaan sallia vain tietyille käyttäjille/päätteille kuten virkailijaliittymässä.
+Kohan itsepalvelulainauksissa (SCO) pitäisi ottaa käyttöön myös asiakasvarmenteet, jotta pääsy niihin voidaan sallia vain tietyille käyttäjille/päätteille kuten virkailijaliittymässä.
 
 Tekninen haaste: saavatko paikalliset IT:t toteutettua päätteille asiakasvarmenteen automaattisen hyväksynnän.
 
