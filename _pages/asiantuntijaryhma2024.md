@@ -11,7 +11,7 @@ title: 'Koha-Suomen asiantuntijaryhmä 2024'
 
 Tältä sivulta löydät Koha-Suomen asiantuntijaryhmän vuoden 2024 muistiot. Uusin muistio on aina ylimmäisenä.
 
-Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot) sekä Riikka Mustajärvi (Kirkes). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo.
+Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot) sekä Riikka Mustajärvi (Kirkes-kirjastot). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo.
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
@@ -22,7 +22,7 @@ Läsnä: Pia Kusmin (Lapin kirjasto), Ari Mäkiranta, Johanna Räisä, Anneli Ö
 
 ### 1. Ajankohtaiset
 
-**Versionvaihdon kuulumiset**: Versionvaihto meni pääsääntöisesti hyvin. Indeksit jouduttiin luomaan maanantaina uusiksi väärän mäppäystiedoston vuoksi. Käyttöönoton jälkeen tullut esille virheitä, jotka eivät tulleet testeissä esille, mutta niitä on selvitelty sitä mukaa, kun niitä on raportoitu.
+**Versionvaihdon kuulumiset**: Versionvaihto meni pääsääntöisesti hyvin. Indeksit jouduttiin luomaan maanantaina uusiksi väärän mäppäystiedoston vuoksi. Käyttöönoton jälkeen on tullut esille virheitä, jotka eivät tulleet testeissä esille, mutta niitä on selvitelty sitä mukaa, kun niitä on raportoitu.
 
 Seuraavan versionvaihdon aikataulu päätetään varsinaisesti tammikuussa, mutta erilaisten kevään aikataulujen vuoksi, pitäisi jo nyt päättää mahdollinen ajankohta kalentereihin varalta. Ehdolle asetettiin viikkojen 20-21 maanantait. Ilmoitelkaa Annelille, kumpi viikko olisi parempi.
 
@@ -34,7 +34,7 @@ Seuraavan versionvaihdon aikataulu päätetään varsinaisesti tammikuussa, mutt
 
 **Suomi.fi Viesteihin siirtymiset**: 
 * Vaarassa on käyttöönotto menossa, PostiMessaging-sopimus tehtävä ennen konkreettista käyttöönottoa.
-* Vaski on kiinnostunut käyttöönotosta, Susanna varmistaa, onko esteitä ja on Johannaan sitten yhteydessä.
+* Vaski on kiinnostunut käyttöönotosta, Susanna varmistaa, onko sille esteitä ja on Johannaan sitten yhteydessä.
 * Janne laittaa asiantuntijaryhmälle uusimmat Suomi.fi Viestien postitus-kuoritus-hinnastot
 
 ### 2. Uuden version ominaisuus, jolla voi valita, minkä sähköpostikenttien perusteella viestit lähetetään
@@ -50,7 +50,7 @@ Esim. jos tietoa tarvitaan vaikka perintää varten tai kirjastonkäyttökiellon
 
 *Vielä hän toi esiin sen seikan, että jos vaikkapa 15 vuotias (tai muu alaikäinen) aiheuttaa vahinkoa, josta tulisi korvausvastuulliseksi, niin se on huoltaja tai huoltajat, jotka voivat tehdä taloudelliset sopimukset korvausten maksamiseksi.* 
 
-**Päätös:** Otetaan käyttöön emailpro eli Toissijainen sähköpostiosoite kaikissa kimpoissa, mikäli kimpassa halutaan käyttää kahta sähköpostiosoitetta. Jos kimppa ei halua käyttää toista osoitetta, voi sen edelleen piilottaa. Kentän kuvaus säilytetään ennallaan. Ei luoda mitään automaattisia siivousajoja, jolla kentästä poistetaan tietoja tietynikäisiltä asiakkailta.
+**Päätös:** Otetaan käyttöön emailpro eli Toissijainen sähköpostiosoite kaikissa kimpoissa, mikäli kimpassa halutaan käyttää kahta sähköpostiosoitetta. Jos kimppa ei halua käyttää toista osoitetta, voi sen edelleen piilottaa. Kentän kuvaus säilytetään ennallaan. Ei luoda automaattisia siivousajoja, jolla kentästä poistetaan tietoja tietynikäisiltä asiakkailta.
 
 Pyydettävä myös Finna-toimistosta, että emailpro-kenttä saadaan näkyviin myös Finnaan ja tarvittaessa niiden kimppojen, jotka eivät tietoa kerää, pitänee piilottaa se sitten Finnassa Omista tiedoista. Kati kysyy Selkälän Tovelta, voisiko hän olla yhteydessä kaikkien kimppojen puolesta Finna-toimistoon. Kati tekee asiasta Finna-kehitysehdotuksen tietovarantoon.
 
@@ -62,7 +62,7 @@ Jatketaan edellisen kokouksen pohdintoja.
 
 ### 4. Vaarassa käyttöön uudet HEOMATOIMI ja YHOMATOIMI -asiakastyypit
 
-Vaarassa vaihtuu Toveri-omatoimiovikoneita SIP2-ovitoimiovikoneiksi. Vaarassa pitää kaikkien omatoimea käyttävien hyväksyä omatoimen käyttöehdot, jotta pääsee kirjautumaan omatoimeen. Tätä varten heillä tarvitaan Kohaan kaksi uuttaa asiakastyyppi HEOMATOIMI ja YHOMATOIMI eli Henkilöasiakas, omatoimi sallittu ja Yhteisöasiakas, omatoimi sallittu. Ovikoneiden asetuksiin määritetään, mitkä asiakastyypit pääsevät kirjautumaan.
+Vaarassa vaihtuu Toveri-omatoimiovikoneita SIP2-omatoimiovikoneiksi. Vaarassa pitää kaikkien omatoimea käyttävien hyväksyä omatoimen käyttöehdot, jotta he pääsevät kirjautumaan omatoimeen. Tätä varten heillä tarvitaan Kohaan kaksi uutta asiakastyyppiä HEOMATOIMI ja YHOMATOIMI eli _Henkilöasiakas, omatoimi sallittu_ ja _Yhteisöasiakas, omatoimi sallittu_. Ovikoneiden asetuksiin määritetään, mitkä asiakastyypit pääsevät kirjautumaan.
 
 Otetaanko nämä kaksi asiakastyyppiä mukaan [yhdessä sovittuihin asiakastyyppeihin](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)?
 
