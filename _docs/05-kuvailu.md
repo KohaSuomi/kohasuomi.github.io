@@ -47,7 +47,7 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
-![](/assets/files/docs/Luettelointi/kuvailu4.png)
+![](/assets/files/docs/Luettelointi/kohakuvat7221.png)
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
 
@@ -170,7 +170,7 @@ kohdalla Toiminnot-sarakkeesta _Tuo_.
 ![](/assets/files/docs/Luettelointi/kohakuvat7221.png)
 
 Teitpä muutokset tietueeseen kummalla tavalla tahansa, muista klikata
-_Tallenna_ -painiketta.
+_Tallenna_ -painiketta. Valikosta voit valita sopivan tallennustavan.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat72241.png)
 
