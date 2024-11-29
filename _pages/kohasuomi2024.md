@@ -20,6 +20,7 @@ Läsnä:
 
 * Vastuuttomien tikettien vastuutus
 * Viikon 49 päivitys
+* Pitäisikö kaikki keskeneräiset version 24.05-tietovarannon tiketit siirtää Koha-tietovarantoon? Helpottaisi seurantaa, kun ei tarvitse seikkailla kahden välillä.
   
 ## Viikko 48
 
