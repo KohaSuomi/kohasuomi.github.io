@@ -53,6 +53,10 @@ Etelästä pohjoiseen
 * Tiedonhaku hakemaan oletuksena vain emotietueet? Osakohteiden haku valitaan erikseen?
 * Palaverissa kerrottiin, että jatkossa Koha-Suomi laskuttaa kehittäjän tekemästä kimppakohtaisesta työstä. Palaverissa saadun tiedon mukaan tiedote asiasta on tulossa. Helle-kimpasta esimerkkitapaus [#1506](https://github.com/KohaSuomi/Koha/issues/1506)
 
+**Lastu**
+* Rakelin pikalaina aiheuttanut automaateilla viiveitä, palaverin jälkeen selvisi että kyse on oletusvaraussäännöstä, ja kannattaa hoitaa ennemmin damaged-tilalla
+* Maksutyypeissä turhia tyyppejä, joita aletaan siivota pois (arkistointi)
+
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
