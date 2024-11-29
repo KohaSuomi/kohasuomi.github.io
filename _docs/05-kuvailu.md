@@ -856,7 +856,7 @@ ohje tehdään myöhemmin
 
 ## 5.5. Kuvailuohjeet
 
-[Yhteisön kuvailuohjeet](https://koha-community.org/manual/latest/en/html/cataloging.html)
+<a href="https://koha-community.org/manual/latest/en/html/cataloging.html" target="_blank">Yhteisön kuvailuohjeet</a>
 
 ### 5.5.1. Niteiden tarrat ja niiden tulostaminen
 
