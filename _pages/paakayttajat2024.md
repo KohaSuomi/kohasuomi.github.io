@@ -21,6 +21,7 @@ Läsnä:
 * [Tili lukittu](https://github.com/KohaSuomi/Koha/issues/1483) -tiedon perään ohjeistusta CSS:llä. Riittääkö tuo vai tarviiko vielä jotain lisää?
 * [Käännösmuutos hyllyvarausraporttiin](https://github.com/KohaSuomi/Koha-translations/issues/47) muuttaisi termiä myös varauspopparissa. Oisiko se ok?
 * [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
+* Muistattehan päivittää Raportointityökalun (OKM-tilastot) asetukset, kun lisäätte asiakstyyppejä, jotta uudet asiakastyypit otetaan huomioon OKM-tilastojen luonnissa.
 
 Pohjoisesta etelään
 
