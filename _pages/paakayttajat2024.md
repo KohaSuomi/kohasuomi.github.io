@@ -16,7 +16,17 @@ Aika: 3.12.2024, klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Ovatko kaikki tehneet halutessaan CurrencyFormat muutoksen: https://github.com/KohaSuomi/Koha/issues/889
+* [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
+* [Ovatko kaikki tehneet halutessaan [CurrencyFormat muutoksen](https://github.com/KohaSuomi/Koha/issues/889)? Voiko tiketin sulkea?
+* Tili lukittu](https://github.com/KohaSuomi/Koha/issues/1483) -tiedon perään ohjeistusta CSS:llä. Riittääkö tuo vai tarviiko vielä jotain lisää?
+* [Käännösmuutos hyllyvarausraporttiin](https://github.com/KohaSuomi/Koha-translations/issues/47) muuttaisi termiä myös varauspopparissa. Oisiko se ok?
+* [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
+
+Pohjoisesta etelään
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 48
 
@@ -69,6 +79,8 @@ Etelästä pohjoiseen
 * Kyseltiin onko jo kokemuksia s-postin suoralähetyksestä asiakkaalle Kohasta, s-postin kahteen osoitteeseen lähetyksestä onkin tulossa asiantuntijaryhmän kannanotto.
 * Maksukorotuksia tulossa 1.1.2025, ensimmäistä kertaa Kohan aikana!
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-48) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
@@ -113,6 +125,8 @@ Pohjoisesta etelään
 * Joitain ongelmia tullut esille (esim. plugin IntranetUserJS: Restrict patron modification by category rajoitti liikaa pääsyä asiakastietoihin). Korjattu myös IntranetUserCSS-asetuksia havaittujen virheiden vuoksi.
 * Vuoden 2023 versionvaihdosta on vielä auki tikettejä, käydään sulkemassa ne, jos toiminto on korjautunut uudemmissa päivityksissä. 
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-47) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 46
 
 Aika: 12.11.2024, klo 9.15<br />
@@ -150,6 +164,8 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Irina
 
 **Siilinjärvi**
 * ei mainittavaa
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-46) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 45
 
