@@ -13,14 +13,30 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 50
+
+Aika: 9.12.2024 klo 9<br />
+Läsnä:
+
+* Loppujen vastuuttomien tikettien vastuutus
+
 ## Viikko 49
 
 Aika: 2.12.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Lari, Anneli, Pasi, Kodo ja Emmi
 
 * Vastuuttomien tikettien vastuutus
+  * Osa tiketeistä vastuutettu, jatketaan vastuutusta ensi viikolla 
 * Viikon 49 päivitys
+  * [[Kehitysehdotus] Saisiko muutoksen Koha-popuptekstiin? Kun olemassa olevan asiakastiedon asiakastyypin vaihtaa, kysyy Koha-popup: Vaihda viestiasetukset oletukseksi tälle ryhmälle? ](https://github.com/KohaSuomi/Koha-translations/issues/3)
+  * [Tätiin Tietuesiirtäjän käyttäjätunnuksiin järjestystä](https://github.com/KohaSuomi/Koha/issues/1494)
+  * [Kohan itsepalvelutoiminnon Palautus-toiminnossa aloitussivu ei tyhjene](https://github.com/KohaSuomi/Koha/issues/1518)
+  * ["Tyhjennä suodatin" -painike ei toimi tietueen perusnäytöllä](https://github.com/KohaSuomi/Koha/issues/1522)
+  * [Varausta tehdessä kohdistin menee väärään kenttään](https://github.com/KohaSuomi/Koha-24.05/issues/187)
+  * [Hankinnan muokkaa-napin toimimattomuus](https://github.com/KohaSuomi/Koha-24.05/issues/181)
+  * [Lainauksen Määrittele eräpäivä -toiminnon ominaisuus Muista istunnolle](https://github.com/KohaSuomi/Koha-24.05/issues/186)
 * Pitäisikö kaikki keskeneräiset version 24.05-tietovarannon tiketit siirtää Koha-tietovarantoon? Helpottaisi seurantaa, kun ei tarvitse seikkailla kahden välillä.
+  * Kehittäjät käyvät tikettinsä läpi ja tarkistavat, mitkä niistä voi jo sulkea. Loput siirretään Koha-tietovarantoon. 
   
 ## Viikko 48
 
