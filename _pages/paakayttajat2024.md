@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
-* [Ovatko kaikki tehneet halutessaan [CurrencyFormat muutoksen](https://github.com/KohaSuomi/Koha/issues/889)? Voiko tiketin sulkea?
+* Ovatko kaikki tehneet halutessaan [CurrencyFormat muutoksen](https://github.com/KohaSuomi/Koha/issues/889)? Voiko tiketin sulkea?
 * Tili lukittu](https://github.com/KohaSuomi/Koha/issues/1483) -tiedon perään ohjeistusta CSS:llä. Riittääkö tuo vai tarviiko vielä jotain lisää?
 * [Käännösmuutos hyllyvarausraporttiin](https://github.com/KohaSuomi/Koha-translations/issues/47) muuttaisi termiä myös varauspopparissa. Oisiko se ok?
 * [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
