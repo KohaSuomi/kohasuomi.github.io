@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 49
+
+Aika: 3.12.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Ovatko kaikki tehneet halutessaan CurrencyFormat muutoksen: https://github.com/KohaSuomi/Koha/issues/889
+
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
