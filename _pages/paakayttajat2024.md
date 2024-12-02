@@ -22,6 +22,8 @@ Läsnä:
 * [Käännösmuutos hyllyvarausraporttiin](https://github.com/KohaSuomi/Koha-translations/issues/47) muuttaisi termiä myös varauspopparissa. Oisiko se ok?
 * [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
 * Muistattehan päivittää Raportointityökalun (OKM-tilastot) asetukset, kun lisäätte asiakstyyppejä, jotta uudet asiakastyypit otetaan huomioon OKM-tilastojen luonnissa.
+* Parilla kimpalla taisi olla vielä niteitä, joiden nidetyyppiä ei ole olemassa, tarkistattehan omanne ja korjatkaa tarvittaessa niteiden erämuokkauksella: ```select itemnumber,barcode,biblionumber,itype,homebranch from items where itype not in (select itemtype from itemtypes)```
+
 
 Pohjoisesta etelään
 
