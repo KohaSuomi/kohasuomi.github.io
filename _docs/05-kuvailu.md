@@ -120,15 +120,6 @@ klikkaamalla avautuu valikko, jonka avulla kenttää muokataan.
 
 ![](/assets/files/docs/Luettelointi/kuvailu9.png)
 
-Kentän 008 editorissa pystyy valitsemaan maa- ja kielikoodin valikosta.
-Kentät alkavat ehdottamaan koodeja, kun niihin kirjoitetaan joko koodin
-tai sen kuvauksen alkua. Esim. _fi_ tai _suo_. Sen jälkeen voi joko
-valita koodin listalta tai kirjoittaa jotain muuta.  
-
-![](/assets/files/docs/Luettelointi/luettelointi0041.png) 
-
-![](/assets/files/docs/Luettelointi/luettelointi0042.png)
-
 Huomaa! Joidenkin kiinteämittaisten kenttien arvo muuttuu sen
 perusteella, minkä tyyppistä aineistoa olet kuvailemassa ja mikä
 tallennuspohja on valittuna.
