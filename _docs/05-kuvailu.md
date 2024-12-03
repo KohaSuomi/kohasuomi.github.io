@@ -351,7 +351,7 @@ tiedot olisi hyvä täyttää, jotta niteitä voisi lainata:
 - v - Korvaushinta  
   *Tämä summa peritään asiakkaalta, kun nide merkitään
   kadonneeksi asiakkaalta
-- y - Kohan aineistotyyppi
+- y - Kohan nidetyyppi
 
 _Huom! Näkyvissä olevat kentät voivat vaihdella kirjastokimpan ja
 käytetyn kuvailupohjan mukaan._
