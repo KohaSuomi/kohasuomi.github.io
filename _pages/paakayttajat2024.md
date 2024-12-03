@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -45,6 +45,10 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Hyllyvarauslistalla havaittu pientä hämminkiä, kun käytössä on ollut Android-tabletti ja Chrome-selain. Kun järjestää listan signumin mukaan, lista on alkanut alusta sivun alaosassa. Tietuenäkymässä on Nykyinen kirjasto -sarake näkynyt pudotusvalikkona, jossa on kirjastoyksikön sijaan nidetyyppi. Johtuu mahdollisesti CSS-piilotuksesta. Tietokoneella ja Firefoxilla testattuna ei löydetty vastaavia poikkeamia.
+
+**Lumme**
+* IntranetUserJS:ään oli jäänyt kummittelemaan vanha "Lisää huollettavan monivalintanappi" -rimpsu, joka aiheutti ongelmia taattavien lisäyksessä takaajan tietojen kautta.
+* Haussa on ilmennyt virhe 500 erroria, kun on hakenut Koha-haulla erästä bändiä. Ongelman syy liittynee indeksiin, sitä selvitellään.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
