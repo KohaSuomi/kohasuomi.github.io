@@ -23,6 +23,7 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 * [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
 * Muistattehan päivittää Raportointityökalun (OKM-tilastot) asetukset, kun lisäätte asiakstyyppejä, jotta uudet asiakastyypit otetaan huomioon OKM-tilastojen luonnissa.
 * Parilla kimpalla taisi olla vielä niteitä, joiden nidetyyppiä ei ole olemassa, tarkistattehan omanne ja korjatkaa tarvittaessa niteiden erämuokkauksella: ```select itemnumber,barcode,biblionumber,itype,homebranch from items where itype not in (select itemtype from itemtypes)```
+* [Testit tehdään uusiksi ja redusoidaan](https://github.com/KohaSuomi/Koha/issues/1519) tämän viikon aikana.
 
 
 Pohjoisesta etelään
