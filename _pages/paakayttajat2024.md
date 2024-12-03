@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -37,6 +37,11 @@ Pohjoisesta etelään
 * OKM-raportit piti pyytää uudelleen ajettavaksi marraskuulta, koska olin unohtanut lisätä uudet asiakastyypit raportin määrityksiin. Tarkkasilmäiset huomasivat, että tilastot näyttävät oudon pieniltä :)
 * Asiakaspalaute Finnassa uusittavien lainojen ilmoituksista: kaksi alekkaista huomautusta eri värisillä pohjilla samasta asiasta (alempi pohja vielä huonoa suomea). Koska muissakin kimpoissa on samaa ongelmaa, laitoin Finna-postiin asiasta viestin.
 * Koha-Suomen uutiskirjeeseen kaivataan vielä lisäyksiä, ensi viikolla uutiskirjeen ilmestymispäivä
+
+**Lappi**
+* Lapissa löytyi muutamia niteitä, joiden nidetyyppiä ei ollut olemassa. Korjattiin Annelin tekemän raportin avulla. 
+* Viivakoodien generointiin tullut muutos aiheuttaa Lapissa muutoksia prefix tietoon muutaman kirjaston kohdalla. Uusi viivakoodi ei mahdu tarralle. 
+* Pääkäyttäjillä on maanantaina oma virkistyspäivä. \o/
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
