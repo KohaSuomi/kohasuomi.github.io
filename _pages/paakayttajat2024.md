@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -49,6 +49,10 @@ Pohjoisesta etelään
 **Lumme**
 * IntranetUserJS:ään oli jäänyt kummittelemaan vanha "Lisää huollettavan monivalintanappi" -rimpsu, joka aiheutti ongelmia taattavien lisäyksessä takaajan tietojen kautta.
 * Haussa on ilmennyt virhe 500 erroria, kun on hakenut Koha-haulla erästä bändiä. Ongelman syy liittynee indeksiin, sitä selvitellään.
+
+**Lastu**
+* Tulevan vuoden aikakauslehtiä alkanut saapumaan, mutta vastaanotossa ollut jotain outoa. Vastaanotetut niteet näkyivät Finnassa "Käsittelyssä", joka ei vastannut mitään Kohan tilaa. Palaverin jälkeen selvisi, että niteiltä puuttunut viivakoodi oli todennäköinen syypää, sen lisäämällä ongelmat vaikuttivat poistuvan.
+* Pohdittu miten käsikirjastoniteet ym. vain kirjastossa käytettävä aineisto olisi hyvä Kohassa määritellä, jotta asiakkaat eivät Finnan saatavuuden perusteella tulisi niitä kirjastosta tiedustelemaan. Toistaiseksi palautetta on tullut vain vähän.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
