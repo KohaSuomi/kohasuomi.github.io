@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -42,7 +42,9 @@ Pohjoisesta etelään
 * Lapissa löytyi muutamia niteitä, joiden nidetyyppiä ei ollut olemassa. Korjattiin Annelin tekemän raportin avulla. 
 * Viivakoodien generointiin tullut muutos aiheuttaa Lapissa muutoksia prefix tietoon muutaman kirjaston kohdalla. Uusi viivakoodi ei mahdu tarralle. 
 * Pääkäyttäjillä on maanantaina oma virkistyspäivä. \o/
-  
+
+**Kirkes**
+* Hyllyvarauslistalla havaittu pientä hämminkiä, kun käytössä on ollut Android-tabletti ja Chrome-selain. Kun järjestää listan signumin mukaan, lista on alkanut alusta sivun alaosassa. Tietuenäkymässä on Nykyinen kirjasto -sarake näkynyt pudotusvalikkona, jossa on kirjastoyksikön sijaan nidetyyppi. Johtuu mahdollisesti CSS-piilotuksesta. Tietokoneella ja Firefoxilla testattuna ei löydetty vastaavia ongelmia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
