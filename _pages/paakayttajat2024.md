@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -32,6 +32,12 @@ Pohjoisesta etelään
 * Viime viikolla useampi kirjasto pyysi siirtämään jouluaatolle tulleita eräpäiviä, mistä heräsi epäilys siitä onko kalentereista tipahdellut kiinniolopäiviä pois, mutta ilmeisesti kyse kuitenkin vain unohduksista.
 * Muutettu tietueen perustiedot-näytölle latautumaan oletuksena kaikki niteet (aiemmin määrän 20), koska havaittiin ongelma liittyen sarakkeiden piiloutumiseen pois näkyvistä (yhteisössö tiketti https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=38485).
 * Mietitty olisiko hyvä saada auktorisoiduista arvoista aina näkymään Kohan Kuvaus (verkkokirjastossa)" -teksti Finnassa. Ei vastutusta, joten Vaski tekee tiketin. Ensin selvitettävä vaatiiko muutoksia rajapintaan vai kulkeeko tieto jo valmiiksi ja kyse olisi sitten pelkästä Finnan päässä tehtävästä muutoksesta.
+
+**Vaara**
+* OKM-raportit piti pyytää uudelleen ajettavaksi marraskuulta, koska olin unohtanut lisätä uudet asiakastyypit raportin määrityksiin. Tarkkasilmäiset huomasivat, että tilastot näyttävät oudon pieniltä :)
+* Asiakaspalaute Finnassa uusittavien lainojen ilmoituksista: kaksi alekkaista huomautusta eri värisillä pohjilla samasta asiasta (alempi pohja vielä huonoa suomea). Koska muissakin kimpoissa on samaa ongelmaa, laitoin Finna-postiin asiasta viestin.
+* Koha-Suomen uutiskirjeeseen kaivataan vielä lisäyksiä, ensi viikolla uutiskirjeen ilmestymispäivä
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
