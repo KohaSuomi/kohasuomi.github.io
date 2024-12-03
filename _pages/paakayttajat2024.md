@@ -44,7 +44,7 @@ Pohjoisesta etelään
 * Pääkäyttäjillä on maanantaina oma virkistyspäivä. \o/
 
 **Kirkes**
-* Hyllyvarauslistalla havaittu pientä hämminkiä, kun käytössä on ollut Android-tabletti ja Chrome-selain. Kun järjestää listan signumin mukaan, lista on alkanut alusta sivun alaosassa. Tietuenäkymässä on Nykyinen kirjasto -sarake näkynyt pudotusvalikkona, jossa on kirjastoyksikön sijaan nidetyyppi. Johtuu mahdollisesti CSS-piilotuksesta. Tietokoneella ja Firefoxilla testattuna ei löydetty vastaavia ongelmia.
+* Hyllyvarauslistalla havaittu pientä hämminkiä, kun käytössä on ollut Android-tabletti ja Chrome-selain. Kun järjestää listan signumin mukaan, lista on alkanut alusta sivun alaosassa. Tietuenäkymässä on Nykyinen kirjasto -sarake näkynyt pudotusvalikkona, jossa on kirjastoyksikön sijaan nidetyyppi. Johtuu mahdollisesti CSS-piilotuksesta. Tietokoneella ja Firefoxilla testattuna ei löydetty vastaavia poikkeamia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
