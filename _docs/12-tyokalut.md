@@ -353,7 +353,7 @@ action_logs-taulussa:
 - **Tiedot** (info): Tämän kentän tieto riippuu haettavasta osiosta,
   koska siihen kirjataan tehty muutos. Kirjaustapa vaihtelee eri
   toiminnoissa. Hakuehtona voi käyttää esim. biblionumberia,
-  borrowernumberia tai itemnumberia. Kenttää voi kirjoittaa myös ihan
+  borrowernumberia tai itemnumberia. Kenttään voi kirjoittaa myös ihan
   sanoja, joita arvelee kirjatun muutoksiin, kuten phone.
 - **Käyttöliittymä** (interface): mitä kautta muutos on tehty.
 - **Alkupvm ja Loppupvm** (timestamp): tähän voi ja kannattaa
@@ -400,7 +400,7 @@ Linkit _HTML muokkaukset_, *OPACUserJS* ja *OPACUserCSS* liittyvät Kohan omaan 
   voi määrittää, piilotetaanko tai näytetäänkö uutisen kirjoittajan
   nimi.
 - **Uutiset**: Uutisten esikatselu
-- **Toiminnot**: Muokkaa-napista voi muokata uutista ja Poista-napista
+- **Toiminnot**: _Muokkaa_-napista voi muokata uutista ja _Poista_-napista
   voi poistaa uutisen
 
 Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
