@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -28,7 +28,10 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 Pohjoisesta etelään
 
-
+**Vaski**
+* Viime viikolla useampi kirjasto pyysi siirtämään jouluaatolle tulleita eräpäiviä, mistä heräsi epäilys siitä onko kalentereista tipahdellut kiinniolopäiviä pois, mutta ilmeisesti kyse kuitenkin vain unohduksista.
+* Muutettu tietueen perustiedot-näytölle latautumaan oletuksena kaikki niteet (aiemmin määrän 20), koska havaittiin ongelma liittyen sarakkeiden piiloutumiseen pois näkyvistä (yhteisössö tiketti https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=38485).
+* Mietitty olisiko hyvä saada auktorisoiduista arvoista aina näkymään Kohan Kuvaus (verkkokirjastossa)" -teksti Finnassa. Ei vastutusta, joten Vaski tekee tiketin. Ensin selvitettävä vaatiiko muutoksia rajapintaan vai kulkeeko tieto jo valmiiksi ja kyse olisi sitten pelkästä Finnan päässä tehtävästä muutoksesta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
