@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -33,7 +33,7 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), P�
 * [Tili lukittu](https://github.com/KohaSuomi/Koha/issues/1483) -tiedon perään ohjeistusta CSS:llä. Riittääkö tuo vai tarviiko vielä jotain lisää?
 * [Käännösmuutos hyllyvarausraporttiin](https://github.com/KohaSuomi/Koha-translations/issues/47) muuttaisi termiä myös varauspopparissa. Oisiko se ok?
 * [Kohan itsepalvelulainaukseen käännösmuutos](https://github.com/KohaSuomi/Koha-translations/issues/60)?
-* Muistattehan päivittää Raportointityökalun (OKM-tilastot) asetukset, kun lisäätte asiakstyyppejä, jotta uudet asiakastyypit otetaan huomioon OKM-tilastojen luonnissa.
+* Muistattehan päivittää Raportointityökalun (OKM-tilastot) asetukset, kun lisäätte asiakastyyppejä, jotta uudet asiakastyypit otetaan huomioon OKM-tilastojen luonnissa.
 * Parilla kimpalla taisi olla vielä niteitä, joiden nidetyyppiä ei ole olemassa, tarkistattehan omanne ja korjatkaa tarvittaessa niteiden erämuokkauksella: ```select itemnumber,barcode,biblionumber,itype,homebranch from items where itype not in (select itemtype from itemtypes)```
 * [Testit tehdään uusiksi ja redusoidaan](https://github.com/KohaSuomi/Koha/issues/1519) tämän viikon aikana.
 
@@ -55,6 +55,9 @@ Pohjoisesta etelään
 * Viivakoodien generointiin tullut muutos aiheuttaa Lapissa muutoksia prefix tietoon muutaman kirjaston kohdalla. Uusi viivakoodi ei mahdu tarralle. 
 * Pääkäyttäjillä on maanantaina oma virkistyspäivä. \o/
 
+**OUTI**
+* Itsepalvelulainauksen virheilmoituksen lisäksi hämmennystä on aiheuttaneet CRSF-tokenin virheilmoitukset ja Finnasta saapuneet 'Virheellinen kirjautumisyritys havaittu' -viestit.
+
 **Kirkes**
 * Hyllyvarauslistalla havaittu pientä hämminkiä, kun käytössä on ollut Android-tabletti ja Chrome-selain. Kun järjestää listan signumin mukaan, lista on alkanut alusta sivun alaosassa. Tietuenäkymässä on Nykyinen kirjasto -sarake näkynyt pudotusvalikkona, jossa on kirjastoyksikön sijaan nidetyyppi. Johtuu mahdollisesti CSS-piilotuksesta. Tietokoneella ja Firefoxilla testattuna ei löydetty vastaavia poikkeamia.
 
@@ -65,6 +68,7 @@ Pohjoisesta etelään
 **Lastu**
 * Tulevan vuoden aikakauslehtiä alkanut saapumaan, mutta vastaanotossa ollut jotain outoa. Vastaanotetut niteet näkyivät Finnassa "Käsittelyssä", joka ei vastannut mitään Kohan tilaa. Palaverin jälkeen selvisi, että niteiltä puuttunut viivakoodi oli todennäköinen syypää, sen lisäämällä ongelmat vaikuttivat poistuvan.
 * Pohdittu miten käsikirjastoniteet ym. vain kirjastossa käytettävä aineisto olisi hyvä Kohassa määritellä, jotta asiakkaat eivät Finnan saatavuuden perusteella tulisi niitä kirjastosta tiedustelemaan. Toistaiseksi palautetta on tullut vain vähän.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
