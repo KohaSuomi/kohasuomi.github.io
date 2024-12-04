@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 50
+
+Aika: 10.12.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
