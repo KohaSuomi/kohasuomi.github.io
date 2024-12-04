@@ -18,6 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 9.12.2024 klo 9<br />
 Läsnä:
 
+* Päivystysvuorot viikosta 51 alkaen
 * Loppujen vastuuttomien tikettien vastuutus
 
 ## Viikko 49
