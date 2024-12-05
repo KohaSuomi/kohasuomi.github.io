@@ -436,6 +436,21 @@ WHERE p.categorycode not in ('TILASTO', 'OMA')
 GROUP BY p.zipcode
 ```
 
+### Hyvin vanhat lainat
+
+Raportilla voi hakea lainat, jotka on tehty ennen tiettyä päivämäärää. Raportin avulla voi esim. tarkastella, onko lainoihin jäänyt roikkumaan sellaisia, jotka pitäisi jo siivota pois. Raportin ajaja voi määrittää, mitä vanhempia lainoja haetaan.
+
+Lisätty: 5.12.2024
+Lisääjä: Anneli Österman
+
+
+```
+SELECT borrowernumber, issuedate AS 'Lainauspäivä', lastreneweddate AS 'Viimeksi uusittu'
+FROM issues 
+WHERE borrowernumber IN (SELECT borrowernumber FROM borrowers WHERE lastseen IS NULL AND issuedate< <<Lainattu aiemmin kuin|date>>) 
+ORDER BY 2 ASC
+```
+
 ## Kaukolainat
 
 ### Kaukolainojen kuukausitilasto, valitse vuosi
