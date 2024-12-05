@@ -445,7 +445,7 @@ Lisääjä: Anneli Österman
 
 
 ```
-SELECT borrowernumber, issuedate AS 'Lainauspäivä', lastreneweddate AS 'Viimeksi uusittu'
+SELECT borrowernumber, issuedate AS 'Lainauspäivä', lastreneweddate AS 'Viimeksi uusittu', branchcode AS 'Lainauskirjasto'
 FROM issues 
 WHERE borrowernumber IN (SELECT borrowernumber FROM borrowers WHERE lastseen IS NULL AND issuedate< <<Lainattu aiemmin kuin|date>>) 
 ORDER BY 2 ASC
