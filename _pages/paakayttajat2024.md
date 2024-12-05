@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -69,6 +69,10 @@ Pohjoisesta etelään
 * Tulevan vuoden aikakauslehtiä alkanut saapumaan, mutta vastaanotossa ollut jotain outoa. Vastaanotetut niteet näkyivät Finnassa "Käsittelyssä", joka ei vastannut mitään Kohan tilaa. Palaverin jälkeen selvisi, että niteiltä puuttunut viivakoodi oli todennäköinen syypää, sen lisäämällä ongelmat vaikuttivat poistuvan.
 * Pohdittu miten käsikirjastoniteet ym. vain kirjastossa käytettävä aineisto olisi hyvä Kohassa määritellä, jotta asiakkaat eivät Finnan saatavuuden perusteella tulisi niitä kirjastosta tiedustelemaan. Toistaiseksi palautetta on tullut vain vähän.
 
+**Kyyti**
+* Kyselin Kyytin Kohan raportointityökalusta puutteista. Kokouksen jälkeen Emmi vastasi, ettei niitä helposti saa täydennettyä takautuvasti. Haetaan niitä siis tarvittaessa raporteilla.
+* Kysyin vielä uusista pitkistä viivakoodeista, että jos kaikki automaatit ja lukijat toimivat niiden kanssa ja ne mahtuvat tarralle, niin onko jotain muuta ongelmaa odotettavissa. Ei ollut kellään tiedossa, joten jatkamme nykyisten kuntakoodiprefixien kanssa jatkossakin.
+* Kyytissä oli jäänyt varaukset vanhentumatta ti 3.12., tiketti [1536](https://github.com/KohaSuomi/Koha/issues/1536)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
