@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Lotta Juvonen (Helle)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
