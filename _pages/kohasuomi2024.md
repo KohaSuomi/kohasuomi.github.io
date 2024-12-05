@@ -20,6 +20,7 @@ Läsnä:
 
 * Päivystysvuorot viikosta 51 alkaen
 * Loppujen vastuuttomien tikettien vastuutus
+* Onko ke huoltokatkoa?
 
 ## Viikko 49
 
