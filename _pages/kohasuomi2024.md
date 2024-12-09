@@ -16,11 +16,15 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 50
 
 Aika: 9.12.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Anneli, Kodo, Ari, Lari
 
 * Päivystysvuorot viikosta 51 alkaen
+* Päivitys vko 50
 * Loppujen vastuuttomien tikettien vastuutus
+  * kaikki vastuutettu
 * Onko ke huoltokatkoa?
+  * On, Kodo tekee tiedotteen
+* Viikolla 51 Anneli lomalla, joten päivystäjä edustaa Koha-Suomea pääkäyttäjien viikkopalaverissa
 
 ## Viikko 49
 
