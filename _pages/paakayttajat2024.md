@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 49
 
 Aika: 3.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Lotta Juvonen (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Pia Kusmin (Lappi), Annika Helastila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Lotta Juvonen ja Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/1535)
@@ -73,6 +73,9 @@ Pohjoisesta etelään
 * Kyselin Kyytin Kohan raportointityökalusta puutteista. Kokouksen jälkeen Emmi vastasi, ettei niitä helposti saa täydennettyä takautuvasti. Haetaan niitä siis tarvittaessa raporteilla.
 * Kysyin vielä uusista pitkistä viivakoodeista, että jos kaikki automaatit ja lukijat toimivat niiden kanssa ja ne mahtuvat tarralle, niin onko jotain muuta ongelmaa odotettavissa. Ei ollut kellään tiedossa, joten jatkamme nykyisten kuntakoodiprefixien kanssa jatkossakin.
 * Kyytissä oli jäänyt varaukset vanhentumatta ti 3.12., tiketti [1536](https://github.com/KohaSuomi/Koha/issues/1536)
+
+**Helle**
+* Kohan Inventaario-toiminnon hakutulokseen on toivottu tietueen Aineistotyyppi-arvoa. Liekö Koha-yhteisössä olisi kiinnostusta tehdä toteutus? Toivojalle on vinkattu Nidehaku-toiminnon hyödyntämisestä inventointiin. Hakutuloksen saa vietyä mm. Exceliin muokattavaksi ja tulostettavaksi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
