@@ -578,7 +578,7 @@ div#header_search div#patron_search_panel div.form-extra-content select#searchfi
 
 Piilota Lainaus ja palautus -osion etusivulta Uusinta-nappi. Toiminto ei noudata laina- ja maksusääntöjä, eikä ota huomioon varauksia, joten sitä ei kannata käyttää.
 
-Versio: 23.11<br />
+Versio: 24.05<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -590,8 +590,8 @@ display: none;
 
 ### Piilota Myöhässä-raportti Lainaus ja palautus -sivulta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 ```
 /* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */
@@ -602,8 +602,8 @@ display: none;
 
 ### Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 ```
 /* Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta */
@@ -614,8 +614,8 @@ display: none;
 
 ### Piilota Overdues/Myöhässä-otsikko  Lainaus ja palautus -sivulta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 Jos ylemmät raportit piilotetaan, kannattaa myös otsikkorivi piilottaa.
 
@@ -628,8 +628,8 @@ body#circ_circulation-home.circ div.col-sm-5.col-md-4 h3:nth-of-type(2) { displa
 
 Myöhässä osion -piilotus, ensin otsikko, joka on määritelty järjestysnumerolla, eli jos otsikkojen järjestys muuttuu, niin saattaa joskus mennä sitten väärä otsikko piiloon.
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 ```
 /* Piilota Myöhässä-osio Lainaus ja palautus -sivuvalikosta */
@@ -640,21 +640,21 @@ body.circ div#navmenulist a[href="/cgi-bin/koha/circ/branchoverdues.pl"] { displ
 
 ### Piilota Varausjono-linkki Lainaus ja palautus -sivulta ja vasemman reunan valikosta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 ```
 /* Piilota Varausjono-linkki Lainaus ja palautus -sivulla */
 a.circ-button[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] { display: none;}
 
-/* Piilota Varausjono-linkki Lainaus ja palautus -sivupalkista */
+/* Piilota Varausjono-linkki Lainaus ja palautus -sivupalkista, jos valikko on käytössä */
 div#navmenulist a[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
 ```
 
 ### Piilota Uusinta-linkki Lainaus ja palautus -sivun vasemman reunan valikosta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
 
 ```
 /* Uusinta-linkin piilotus Lainaus ja palautus -osion vasemman reunan valikosta */
