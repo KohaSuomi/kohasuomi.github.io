@@ -661,13 +661,13 @@ Versio: 24.05
 div#navmenulist a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
 ```
 
-### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpteutunut -välilehti
+### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpeutunut -välilehti
 
-Versio: 23.11<br />
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
+Versio: 24.05
 
 ```
-/* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpteutunut -välilehti */
+/* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpeutunut -välilehti */
 body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
 ```
 
@@ -675,13 +675,11 @@ body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
 
 ### Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa
 
-Jos lainattavaan teokseen on varaus, antaa Koha ilmoituksen, jossa ilmoitetaan  varauksesta ja pitää päättää, mitä tehdään. Yksi vaihtoehto on "Älä lainaa ja tulosta", joka tulostaa varauksen infokuitin (hold_slip). Varaus ei kuitenkaan jää kiinni eikä nide mene kuljetustilaan, joten kuitti on turha ja aiheuttaa ennemminkin hämmennystä, kun siihen tulostuu asiakkaan tiedot ja varauksen viimeinen voimassaolopäivä (yleensä parin vuoden päässä). Alla olevalla rimpsulla saa napin piiloon.
-
-Versio 23.11<br />
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio 24.05
 
 ```
-/* Piilota Älä lainaa ja tulosta kuitti -nappula */
+/* Piilota Älä lainaa ja tulosta kuitti -nappula, jos yritetään lainata noudettava varaus toiselle asiakkaalle kuin varaajalle */
 body#circ_circulation.circ button.print { display: none; }
 ```
 
@@ -699,8 +697,8 @@ body#circ_circulation #set-automatic-renewal { display: none; }
 
 ### Piilota palautus-näytön asetukset
 
-Versio: 23.11<br />
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
+Versio: 24.05
 
 ```
 /* Piilota Palautukset-sivulla palautusasetukset - varmista, ettei piilota muita vastaavia asetussäätöjä. */
@@ -715,7 +713,7 @@ body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none
 Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palautuksessa asiakkaan yhteystiedot varausten popupeista. Rimpsuista on kaksi eri versiota ja niitä käytetään riippuen siitä, onko käytössä varausten automaattinen kiinni jääminen vai ei.
 
 Tarpeellisuus: Pakollinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
 
@@ -737,6 +735,7 @@ body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kulj
 body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
+body#circ_returns.circ div.modal-content li.notification_method { display: inline-block !important; } /* Palautetaan näkyville Ilmoitus asiakkaalle, jos kaksi ensimmäistä piilotusta piilottavat sen puhelinnumeron ja/tai sähköpostin puuttumisen takia */
 ```
 
 ### Laskutettu-merkintä palautuksessa isommaksi
@@ -746,10 +745,10 @@ Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevall
 Lisätty: 28.12.2022<br />
 Tekijä: Anni Rajala<br />
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Säädä Laskutettu-merkintä palautuksessa isommaksi */
+/* Säädä Laskutettu-merkintä palautuksessa huomautuksessa isommaksi */
 p.problem.ret_nflupdate { font-weight: 500; font-size: 22px; }
 ```
 
@@ -764,7 +763,7 @@ Versio: 22.11
 body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: none; }
 ```
 
-Versio: 23.11
+Versio: 24.05
 
 Vaihtoehtoinen versio, joka piilottaa myös Peruuta varaus -napin ja Peru kuljetus -napin.
 
@@ -778,18 +777,28 @@ body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: initial
 body#circ_returns.circ.modal-open button.btn.btn-default.submit.openWin { display: initial; }
 ```
 
-Versio 23.11
+Versio 24.05
 
 Jos käytössä on nidepaketit, kannattaa edelliseen rimpsuun lisätä vielä loppuun tämä, jotta nidepaketin palautuksessa näkyvät Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napit.
 
 ```
-body#circ_returns.circ.modal-open div#[bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in](http://bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in/) button.btn.btn-default { display: initial; } /* Tuo näkyville nidepaketin palautuksessa Vahvista palautus ja Merkkaa puuttuvat niteet kadonneiksi -napin. Se piilottuu ensimmäisen rimpsun vuoksi */
+body#circ_returns.circ.modal-open div#bundle-needsconfirmation-modal.modal.fade.audio-alert-action.block.in button.btn.btn-default { display: initial; } /* Tuo näkyville nidepaketin palautuksessa Vahvista palautus ja merkkaa puuttuvat niteet kadonneiksi -nappi. Se piilottuu ensimmäisen rimpsun vuoksi */
 ```
+
+Versio 24.05
+
+Jos niteen kuljetuksen vahvistuspopparista puuttuu yllä olevien rimpsujen vuoksi OK- ja Tulosta kuitti -napit, saa ne näkyville tällä:
+```
+body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert-action.noblock.in button.btn.btn-default { display: initial; } /* Tuo näkyville Ok- ja Tulosta kuitti -napit kun nide pitää kuljettaa palautuksessa. Se piilottuu ensimmäisen rimpsun vuoksi */
+```
+
 ---
 
 ## Maksut
 
 ### Piilota Maksa- ja Poista-alavälilehdet asiakkaan maksusivulta
+
+Tarpeellisuus: Ei tarpeellinen
 
 ```
 /* Piilota Maksa-Poista välilehdet Maksusivulta */
@@ -799,7 +808,7 @@ body#pat_paycollect ul.nav-pills { display: none; }
 ### Piilota Luo hyvitys -välilehti asiakkaan maksuista 
 
 Tarpeellisuus: Hyvin suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
