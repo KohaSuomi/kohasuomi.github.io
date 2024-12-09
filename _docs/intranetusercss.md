@@ -244,9 +244,9 @@ body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:
 ### Piilota Kooste-sarake asiakkaan viestiasetuksista
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
-Liittyy [tikettiin 126](https://github.com/KohaSuomi/Koha-23x/issues/126). Jos on käytössä sitten muita sarakkeita (esim. suomi.fi), niin muuta sulkeissa olevaa lukua sen mukaan. Yo. piilottaa 5. sarakkeen.
+Liittyy [tikettiin 126](https://github.com/KohaSuomi/Koha-23x/issues/126). Jos on käytössä muita sarakkeita (esim. suomi.fi), niin muuta sulkeissa olevaa lukua sen mukaan. Tämä piilottaa 5. sarakkeen.
 
 ```
 /* Piilota kooste-sarake Kohan viestiasetustaulusta */
@@ -285,18 +285,21 @@ div.patroninfo { display: none; }
 ### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto */ 
 body#pat_moremember.pat ul.dropdown-menu li:nth-child(1) a.printslip {display: none}
 body#circ_circulation.circ ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
+body#pat_pay.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
+body#pat_notices.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
+body#pat_statistics.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
 ```
 
 ### Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet -valinnat
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet */ 
@@ -307,17 +310,17 @@ body#circ_circulation.circ ul.dropdown-menu li:nth-child(4) a#print_overdues { d
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot */
+/* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot asiakkaan Tiedot-sivulta */
 #patron-privacyguarantor + li { display: none; }
 #patron-privacyguarantor { display: none; }
 ```
 
 ### Säädä Lisää viesti -popparin alasvetovalikon leveyttä
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei enää tarpeellinen versiosta 24.05 lähtien<br />
 Versio: 23.11
 
 Säätö tehdään sekä lainaus- että tiedot-sivulle.
@@ -330,7 +333,7 @@ body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556
 
 ### Piilota kirjautumistunnusosio asiakaslomakkeelta
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen versiosta 24.05, jos userid ja password -kentät on piilotettu BorrowerUnwantedFields-asetuksella<br />
 Versio: 23.11
 
 ```
@@ -341,7 +344,7 @@ body#pat_memberentrygen.pat #memberentry_userid.rows { display:none; }
 ### Piilota käyttäjänimi-kenttä salasananvaihto-sivulta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /*Käyttäjänimi-kentän piilotus salasananvaihto-sivulla*/
@@ -354,7 +357,7 @@ form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
 ### Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta */
@@ -364,26 +367,16 @@ body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none;
 
 ### Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta
 
-Tällä piilotetaan asiakkaan muokkausnäytöltä Muut määreet ja tunnukset -osio. Tämä voi olla tarpeen, jos osion kaikki määreet on siirretty JS-rimpsuilla toiseen kohtaan lomaketta ja osio jää tyhjäksi.
+Tällä piilotetaan asiakkaan muokkausnäytöltä Muut määreet ja tunnukset -osio. Tämä voi olla tarpeen, jos osion kaikki määreet on siirretty JS-rimpsuilla toiseen kohtaan lomaketta ja osio jää tyhjäksi. Huomioi, että kimpassa voi olla asiakasmääreitä, jotka näkyvät vain tietyille asiakastyypeille, jolloin osiota ei voi piilottaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta. Tämä voi olla tarpeen, jos kaikki määreet on siirretty toiseen kohtaan lomaketta. */
+/* Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta. Tämä voi olla tarpeen, jos kaikki määreet on siirretty toiseen kohtaan lomaketta. Huomioi, että jotkin määreet saatetaan näyttää vain tietyillä asiakastyypeillä, jolloin piilotusta ei voi tehdä. */
 body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { display:none; }
 ```
 
-### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tietorivit asiakkaan Tiedot-sivulta
-
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
-
-```
-/* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot asiakkaan Tiedot-sivulta */
-#patron-privacyguarantor + li { display: none; }
-#patron-privacyguarantor { display: none; }
-```
 ---
 
 ### Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi -vaihtoehto
