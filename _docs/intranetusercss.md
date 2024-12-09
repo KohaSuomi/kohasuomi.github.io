@@ -382,7 +382,7 @@ body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { displa
 ### Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi -vaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi */ 
@@ -392,7 +392,7 @@ body#pat_moremember.pat a#updatechild { display: none; }
 ### Piilota Verkkokirjasto-vaihtoehto Viestin lisäys -popupista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Verkkokirjasto-vaihtoehto Viestin lisäys-popupista */
@@ -402,7 +402,7 @@ div#add_message_form #message_type option[value='B'] { display:none; }
 ### Piilota tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa */
@@ -412,7 +412,7 @@ body#pat_memberentrygen.pat #memberentry_messaging_prefs p { display:none; }
 ### Varaustunniste- ja Sotuavain-kenttien korkeus yhdeksi riviksi
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Varaustunnisteen ja sotuavaimen kenttien korkeus yhdeksi riviksi. Tarkista, että attribuuttien arvot vastaavat oman kimpan arvoja. */
@@ -423,7 +423,7 @@ Versio: 23.11
 ### Piilota Perheen lainat -välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Tämä oli aiemmin JS-rimpsu, mutta muutettiin CSS:ksi versiossa 23.11.
 
@@ -432,30 +432,30 @@ Tämä oli aiemmin JS-rimpsu, mutta muutettiin CSS:ksi versiossa 23.11.
 #relatives-issues-tab { display: none; }
 ```
 
-### Piilota Taattavien maksut -välilehti
+### Piilota Taattavien maksut -välilehti Tiedot-osiosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota Taattavien maksut -välilehti */
+/* Piilota Taattavien maksut -välilehti Tiedot-osiosta */
 #guarantees_finesandcharges-tab { display: none; }
 ```
 
-### Piilota taattavien maksut Tiedot-sivun taattavat-listasta
+### Piilota taattavien maksut Tiedot-sivun Taattavat-listasta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota taattavien maksut asiakassivun taattavat-listasta */
+/* Piilota taattavien maksut Tiedot-sivun Taattavat-listasta */
 #pat_moremember li.guarantees-fines { display: none; }
 ```
 
 ### Piilota Reklamaatiot-välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Kun nidepakettiasetukset laittaa päälle, tulee Nextillä näkyviin turhaan kaikille asiakkaille reklamaatiot-välilehdehti. Liittyy [tikettiin 142](https://github.com/KohaSuomi/Koha-23x/issues/142).
 
@@ -467,7 +467,7 @@ a#return-claims-tab { display:none; }
 ### Piilota Palauta valitut niteet -nappula asiakkaan lainat-taulussa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Jos Palauta-sarake on piilossa, kannattaa myös Palauta valitut niteet -nappula piilottaa.
 ```
@@ -479,7 +479,7 @@ body#pat_moremember.pat button#CheckinChecked.btn.btn-default { display: none; }
 ### Piilota asiakaslistat-välilehti Lainaus- ja Tiedot -osioista asiakkaan tiedoissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Asiakaslistat välilehden piilotus Lainaus- ja Tiedot-välilehdillä. */
@@ -493,7 +493,7 @@ Asiakkaan muokkauksessa jotkin pitkät otsikoiden nimet menevät kentän taakse 
 Huom. Tästä on olemassa tässä kirjastossa myös versio, jolla levennetään kaikkialla otsikkokenttien käytettävissä olevaa tilaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Levennä otsikkokenttiä asiakkaan muokkauksessa */
@@ -505,7 +505,7 @@ body#pat_memberentrygen fieldset.rows label { width: 13rem; }
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi */
@@ -519,7 +519,7 @@ body#pat_member.pat div.browse a {
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle */
@@ -533,8 +533,8 @@ Versio: 23.11
 
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
-Versio: 23.11<br />
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
+Versio: 24.05
 
 ```
 /* Piilota asiakashaun "Kaikki"-vaihtoehto*/
@@ -545,8 +545,8 @@ Tarpeellisuus: Suositeltava
 
 Rimpsu piilottaa Asiakkaan pikalisäys -painikkeen. Kyseisellä lomakkeella ei ole kaikkia tarvittavia kenttiä näkyvissä, joten se on ainakin osalle kimpoista turha.
 
-Versio 23.11<br />
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
+Versio 24.05
 
 ```
 /* Piilota Asiakkaan pikalisäys -nappi */
@@ -555,13 +555,17 @@ body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
 
 ### Piilota asiakashausta valikosta Lajittelu-vaihtoehdot
 
-Versio 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio 24.05
 
 ```
 /* Piilota asiakashausta valikosta Lajittelu-vaihtoehdot */
-body#pat_member.pat select#searchfieldstype_filter option[value='sort1'] { display:none; }
-body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { display:none; }
+body#pat_member.pat select.searchfieldstype_filter option[value='sort1'] { display:none; }
+body#pat_member.pat select.searchfieldstype_filter option[value='sort2'] { display:none; }
+
+/* Piilota yläpalkin asiakashausta valikosta Lajittelu-vaihtoehdot */
+div#header_search div#patron_search_panel div.form-extra-content select#searchfieldstype option[value='sort1'] { display:none; }
+div#header_search div#patron_search_panel div.form-extra-content select#searchfieldstype option[value='sort2'] { display:none; }
 ```
 
 ---
