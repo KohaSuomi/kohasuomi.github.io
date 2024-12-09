@@ -75,7 +75,7 @@ Pohjoisesta etelään
 * Kyytissä oli jäänyt varaukset vanhentumatta ti 3.12., tiketti [1536](https://github.com/KohaSuomi/Koha/issues/1536)
 
 **Helle**
-* Kohan Inventaario-toiminnon hakutulokseen on toivottu tietueen Aineistotyyppi-arvoa. Liekö Koha-yhteisössä olisi kiinnostusta tehdä toteutus? Toivojalle on vinkattu Nidehaku-toiminnon hyödyntämisestä inventointiin. Hakutuloksen saa vietyä mm. Exceliin muokattavaksi ja tulostettavaksi.
+* Kohan Inventaario-toiminnon hakutulokseen on toivottu tietueen Aineistotyyppi-arvoa. Liekö Koha-yhteisössä olisi kiinnostusta tehdä toteutus? Toivojalle on vinkattu Nidehaku-toiminnon hyödyntämisestä inventointiin. Hakutuloksen saa vietyä mm. Exceliin muokattavaksi ja tulostettavaksi. Hellen Nidehaku-toimintoon on lisätty hakuehdoksi mm. tietueen aineistotyyppi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-49) - [Palaa sivun alkuun](/paakayttajat2024)
 
