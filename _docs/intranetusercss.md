@@ -16,12 +16,12 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 ### Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto */
-body#pat_member #searchfieldstype option[value='full_address'] { display:none; }
-body#pat_member #searchfieldstype_filter option[value='full_address'] { display:none; }
+body#pat_member.pat .searchfieldstype option[value='full_address'] { display:none; }
+body#pat_member.pat .searchfieldstype_filter option[value='full_address'] { display:none; }
 ```
 
 ### Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista
@@ -40,7 +40,7 @@ Sotu-avain-kentän voi "kirjoitussuojata" niin, että siihen pystyy Lisää sotu
 
 Huomioi, että patron_attr_4-osiossa oleva numero riippuu siitä, kuinka monentena sotu-avain on näytöllä. Esim. OUTI-kirjastoissa numerona on 3 ja Hellessä 4. Voit tarkistaa numeron klikkaamalla asiakkaan muokkausnäytöllä hiiren oikealla sotu-avain-kenttää ja valitsemalla "Inspect Element (Q)" (toimii ainakin Firefoxilla).
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen versiosta 24.05 lähtien<br />
 Versio: 23.11
 
 ```
@@ -70,7 +70,7 @@ div#patron-extended-attributes ol li:nth-child(1) { display:none; }
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota asiakkaan ikä tiedot-näytöllä */
@@ -80,7 +80,7 @@ body#pat_moremember.pat span.age_years { display: none; }
 ### Piilota Näytä aina lainat reaaliaikaisesti -valinta
 
 Tarpeellisuus: Suositeltava, parantaa suorituskykyä.<br />
-Versio 23.11
+Versio 24.05
 
 ```
 /* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä. Piilottaa sekä lainaus- että tiedot-näytöltä. */
@@ -93,7 +93,7 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 ### Säädä Viesti asiakkaalle -viestin väriä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 23.11
+Versio 24.05
 
 ```
 /* Säädä Viesti asiakkaalle -viestin väriä */
@@ -104,7 +104,7 @@ Versio 23.11
 ### Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio */ 
@@ -115,7 +115,7 @@ Versio: 23.11
 ### Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio */
@@ -124,20 +124,20 @@ Versio: 23.11
 ```
 
 
-### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä
+### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista Näkyy kuljetuskuitissa -vihjeet näkyvistä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä */ 
+/* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista Näkyy kuljetuskuitissa -vihjeet näkyvistä */ 
 fieldset#memberentry_contact.rows div.hint { display: none; }
 ```
 
 ### Piilota maksujen mitätöintitäppä Asiakkaan tiedot- ja Lainaus-sivuilta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Asiakkaan tiedot -sivulla lainat-taulu */
@@ -151,44 +151,44 @@ Versio: 23.11
 #circ_circulation #issues-table input#exemptfine { display:none; }
 ```
 
-### Piilota asiakkaan tiedot -näytöltä muokkaa-linkit
+### Piilota asiakkaan tiedot -näytöltä muokkaa-napit
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota asiakkaan tiedot -näytöltä muokkaa-linkit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
+/* Piilota asiakkaan tiedot -näytöltä muokkaa-napit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
 body#pat_moremember a[href*="&step="] { display: none; }
 ```
 
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
 ```
 
-### Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta
+### Piilota Tarkasta edelliset lainat -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta */
+/* Piilota Tarkasta edelliset lainat -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat label[for="checkprevcheckout"] { display:none; }
 body#pat_memberentrygen.pat select#checkprevcheckout { display:none; }
 ```
 
-### Piilota Tarkista edelliset lainat -kohta asiakkaan tiedot-sivulla
+### Piilota Tarkasta edelliset lainat -kohta asiakkaan tiedot-sivulla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-/* Piilota asiakkaan tiedot -sivulta "Tarkista edelliset lainat" -kohta */
+/* Piilota asiakkaan tiedot -sivulta "Tarkasta edelliset lainat" -kohta */
 body#pat_moremember.pat li#patron-checkprev { display:none; }
 ```
 
@@ -197,7 +197,7 @@ body#pat_moremember.pat li#patron-checkprev { display:none; }
 Jos ennakkoilmoitukseen valitsee päiväksi 0, viesti ei lähde ollenkaan.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota ennakkoilmoituksen valinnasta 0 päivän keston. Käy lisäksi valitsemassa asiakastyyppien ylläpidossa asiakastyyppien viestiasetuksiin jotain muuta kuin 0 oletukseksi. Valinta tehtävä kaikille asiakastyypeille erikseen. */
@@ -205,8 +205,8 @@ body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[val
 ```
 ### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista 0 ja 8-30
 
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Tarpeellisuus: Vapaaehtoinen tai vaihtoehtoinen tätä edeltävälle<br />
+Versio: 24.05
 
 ```
 /* Asiakkaan viestiasetukset, ennakkoilmoituksen viive-vaihtoehdoista arvot 0 ja 8-30 piiloon */
@@ -215,33 +215,28 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value
  [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
 ```
 
-### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti)
+### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite)
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen versiosta 24.05 lähtien, korvattu piilottamalla tieto BorrowerUnwanted-järjestelmäasetuksen avulla<br />
 Versio: 23.11
+
+Osoitteen tarkistustarve ei saa aiheuttaa lainakieltoa.
 
 Suositeltava, koska näiden perusteella ei saa tulla lainakieltoa lain mukaan.
 ```
-/* Piilota Käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti) */ 
+/* Piilota Käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite) */ 
 #pat_memberentrygen #memberentry_account_flags { display:none; }
 ```
 
-### Piilota noutomuistutus asiakaslomakkeelta
+### Piilota noutomuistutus asiakaslomakkeelta ja viestiasetuksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Noutomuistutuksen piilotus asiakaslomakkeelta */
 body#pat_memberentrygen #memberentry_messaging_prefs table tbody tr:last-child { display:none; }
-```
 
-### Piilota noutomuistutus tiedot-sivulta viestiasetuksista
-
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
-
-```
 /* Noutomuistutuksen piilotus tiedot-sivulta */
 body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:none; }
 ```
