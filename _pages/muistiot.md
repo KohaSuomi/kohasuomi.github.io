@@ -12,6 +12,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen hallituksen tiedotteet
 
+[Koha-Suomen hallituksen vuoden 2025 tiedotteet](/hallituksentiedotteet2025)
+
 [Koha-Suomen hallituksen vuoden 2024 tiedotteet](/hallituksentiedotteet2024)
 
 [Koha-Suomen hallituksen vuoden 2023 tiedotteet](/hallituksentiedotteet2023)
@@ -21,6 +23,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 [Koha-Suomen hallituksen vuoden 2021 tiedotteet](/hallituksentiedotteet2021)
 
 ## Koha-Suomen asiantuntijaryhmä
+
+[Asiantuntijaryhmän vuoden 2025 muistiot](/asiantuntijaryhma2025)
 
 [Asiantuntijaryhmän vuoden 2024 muistiot](/asiantuntijaryhma2024)
 
@@ -35,6 +39,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen indeksointi- ja tiedonhakuryhmä
 
+[Indeksointi- ja tiedonhakuryhmän vuoden 2025 muistiot](/indeksointiryhma2025)
+
 [Indeksointi- ja tiedonhakuryhmän vuoden 2024 muistiot](/indeksointiryhma2024)
 
 [Indeksointi- ja tiedonhakuryhmän vuoden 2023 muistiot](/indeksointiryhma2023)
@@ -42,6 +48,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 ## Koha-Suomen viikkopalaverit
 
 Koha-Suomen henkilökunta kokoontuu päivittäin. Maanantaisin on pidempi palaveri ja muina päivinä n. 15 minuutin tilannekatsaus.
+
+[Koha-Suomen vuoden 2025 muistiot](/kohasuomi2025)
 
 [Koha-Suomen vuoden 2024 muistiot](/kohasuomi2024)
 
@@ -53,6 +61,8 @@ Koha-Suomen henkilökunta kokoontuu päivittäin. Maanantaisin on pidempi palave
 
 Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen pääkäyttäjät, jotka mukaan pääsevät. Palavereissa Koha-Suomi tiedottaa muutoksista, keskustellaan erilaisista ongelmista ja ajatuksista sekä kerrotaan jokaisen kimpan kuulumiset.
 
+[Pääkäyttäjien vuoden 2025 muistiot](/paakayttajat2025)
+
 [Pääkäyttäjien vuoden 2024 muistiot](/paakayttajat2024)
 
 [Pääkäyttäjien vuoden 2023 muistiot](/paakayttajat2023)
@@ -62,6 +72,8 @@ Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen
 ## Koha-Suomen kuvailuryhmän muistiot
 
 Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päättämään ajankohtaisista kuvailuun liittyvistä asioista.
+
+[Koha-Suomen kuvailuryhmän 2025 muistiot](/kuvailuryhma2025)
 
 [Koha-Suomen kuvailuryhmän 2024 muistiot](/kuvailuryhma2024)
 
