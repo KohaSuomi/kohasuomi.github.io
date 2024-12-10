@@ -35,7 +35,8 @@ Etelästä pohjoiseen
 * Nalkutin on pois käytöstä myös Lapissa. Tarkastallaan kenttiä ja otetaan käyttöön myöhemmin.
 
 **OUTI**
-* OUTIn Koha on hidastellut ja jumitellut marraskuun aikana muutamia kertoja. Syyksi epäiltiin, että jossain Kohan itsepalvelulainauksen käyttöpisteestä tulee ”pommitusta” OUTIn palvelimelle. Marraskuun lopussa yhdestä Oulun koulukirjastosta tulikin tieto, että heillä oli näppäimistö jumittanut syksyn aikana muutamia kertoja. Viallinen näppäimistö oli vaihdettu edellispäivänä, eikä sen jälkeen vastaavaa ”pommitusta” OUTIssa ole nyt havaittu. Eli oletettavasti OUTIn Koha-jumien aiheuttaja oli yhden koulun viallinen näppäimistö, joka oli kiinni itsepalvelulainauskoneessa. 
+* OUTIn Koha on hidastellut ja jumitellut marraskuun aikana muutamia kertoja. Syyksi epäiltiin, että jossain Kohan itsepalvelulainauksen käyttöpisteestä tulee ”pommitusta” OUTIn palvelimelle. Marraskuun lopussa yhdestä Oulun koulukirjastosta tulikin tieto, että heillä oli näppäimistö jumittanut syksyn aikana muutamia kertoja. Viallinen näppäimistö oli vaihdettu edellispäivänä, eikä sen jälkeen vastaavaa ”pommitusta” OUTIssa ole nyt havaittu. Eli oletettavasti OUTIn Koha-jumien aiheuttaja oli yhden koulun viallinen näppäimistö, joka oli kiinni itsepalvelulainauskoneessa.
+* Kuvailija OUTIssa on huomannut, että kun muokkaa tietueen erämuokkauksella tietueita ja 942-kentässä on ennestään tietoa, niin ko. kenttä näkyy MARC-esikatselussa viimeisenä eikä oikealla paikallaan. Tämä on korjattu jo aiemmin, mutta ilmenee OUTIssa ainakin kentän 942 kohdalla. Tiketti: https://github.com/KohaSuomi/Koha/issues/1557
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
