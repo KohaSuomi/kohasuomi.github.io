@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
