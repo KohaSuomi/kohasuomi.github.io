@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -28,6 +28,11 @@ Etelästä pohjoiseen
 **Vaara**
 * Suomi.fi-viestien lähetys saatu käyntiin uusilla asetuksilla eli viesti näkyy nyt suoraan suomi.fi-apissa eikä tarvitse avata pdf-tiedostoa nähdäkseen viestin sisällön. Seurataan toimintaa tammikuulle, jolloin päätetään jatkosta.
 ** CPU-kassoja tulee seutukirjaston kirjastoihin lisää, koska Joensuu on päättänyt luopua paikallisista palvelupisteistä, joissa on voinut hoitaa mm. kaupungille tulevia maksuja. Nyt niiden hoito siirtyy muutamaan kirjastoon eri puolilla haja-asutusaluetta.
+
+**Lappi**
+* Maanantaina vietettiin pääkäyttäjien virkistyspäivää.
+* Ylipitkät viivakoodit aiheuttivat ongelmia onneksi vain yhden tarrapohjan kohdalla. Viivakoodit saatiin korjattua ja uusi malli sovittua.
+* Nalkutin on pois käytöstä myös Lapissa. Tarkastallaan kenttiä ja otetaan käyttöön myöhemmin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
