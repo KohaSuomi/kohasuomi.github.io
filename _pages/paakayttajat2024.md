@@ -18,8 +18,9 @@ Läsnä:
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
 * [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/1551)
-* Keskiviikkona huoltoikkuna ja huolto, mutta ei aiheuta katkoa
+* [Keskiviikkona huoltoikkuna ja huolto](https://github.com/KohaSuomi/Koha/discussions/1554), mutta se ei aiheuta katkoa
 * Aiheita Koha-seminaariin kaivataan
+* Anneli lomalla pari viikkoa
 
 Etelästä pohjoiseen
 
