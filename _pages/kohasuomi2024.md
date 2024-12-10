@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 51
+
+Aika: 16.12.2024 klo 9<br />
+Läsnä:
+
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+)
+
 ## Viikko 50
 
 Aika: 9.12.2024 klo 9<br />
@@ -21,7 +28,7 @@ Läsnä: Pasi, Anneli, Kodo, Ari, Lari
 * Päivystysvuorot viikosta 51 alkaen
 * Päivitys vko 50
 * Loppujen vastuuttomien tikettien vastuutus
-  * kaikki vastuutettu
+  * kaikki vastuutettu Koha-tietovarannosta
 * Onko ke huoltokatkoa?
   * On, Kodo tekee tiedotteen
 * Viikolla 51 Anneli lomalla, joten päivystäjä edustaa Koha-Suomea pääkäyttäjien viikkopalaverissa
