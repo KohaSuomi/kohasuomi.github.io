@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -24,6 +24,10 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 * Käykää kaikki kommentoimassa loppuvuoden aikana [tikettiin #510](https://github.com/KohaSuomi/Koha/issues/510), mitä vanhemmat epäaktiiviset asiakkaat poistetaan.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Suomi.fi-viestien lähetys saatu käyntiin uusilla asetuksilla eli viesti näkyy nyt suoraan suomi.fi-apissa eikä tarvitse avata pdf-tiedostoa nähdäkseen viestin sisällön. Seurataan toimintaa tammikuulle, jolloin päätetään jatkosta.
+** CPU-kassoja tulee seutukirjaston kirjastoihin lisää, koska Joensuu on päättänyt luopua paikallisista palvelupisteistä, joissa on voinut hoitaa mm. kaupungille tulevia maksuja. Nyt niiden hoito siirtyy muutamaan kirjastoon eri puolilla haja-asutusaluetta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
