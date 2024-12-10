@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
 * Maanantaina vietettiin pääkäyttäjien virkistyspäivää.
 * Ylipitkät viivakoodit aiheuttivat ongelmia onneksi vain yhden tarrapohjan kohdalla. Viivakoodit saatiin korjattua ja uusi malli sovittua.
 * Nalkutin on pois käytöstä myös Lapissa. Tarkastallaan kenttiä ja otetaan käyttöön myöhemmin.
+
+**OUTI**
+* OUTIn Koha on hidastellut ja jumitellut marraskuun aikana muutamia kertoja. Syyksi epäiltiin, että jossain Kohan itsepalvelulainauksen käyttöpisteestä tulee ”pommitusta” OUTIn palvelimelle. Marraskuun lopussa yhdestä Oulun koulukirjastosta tulikin tieto, että heillä oli näppäimistö jumittanut syksyn aikana muutamia kertoja. Viallinen näppäimistö oli vaihdettu edellispäivänä, eikä sen jälkeen vastaavaa ”pommitusta” OUTIssa ole nyt havaittu. Eli oletettavasti OUTIn Koha-jumien aiheuttaja oli yhden koulun viallinen näppäimistö, joka oli kiinni itsepalvelulainauskoneessa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
