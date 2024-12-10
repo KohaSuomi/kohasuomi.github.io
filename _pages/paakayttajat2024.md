@@ -21,6 +21,7 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 * [Keskiviikkona huoltoikkuna ja huolto](https://github.com/KohaSuomi/Koha/discussions/1554), mutta se ei aiheuta katkoa
 * Aiheita Koha-seminaariin kaivataan, niitä voi laittaa Annelille
 * Anneli lomalla pari viikkoa
+* Käykää kaikki kommentoimassa loppuvuoden aikana [tikettiin #510](https://github.com/KohaSuomi/Koha/issues/510), mitä vanhemmat epäaktiiviset asiakkaat poistetaan.
 
 Etelästä pohjoiseen
 
