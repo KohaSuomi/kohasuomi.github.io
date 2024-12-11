@@ -32,17 +32,17 @@ Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_ -napp
 
 ![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.PNG)
 
-Kun olet valinnut asiakkaan, jolle varaus tehdään, voi varauksen tietoja tarkentaa:
+Kun olet valinnut asiakkaan, jolle varaus tehdään, voit valita teetkö normaalin varauksen vai nidevarauksen. Tässä vaiheessa varauksen tietoja voidaan tarkentaa:
 
-   - _Muuta_-laatikkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
+   - _Huomautukset_-laatikkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
    - Valitse _Noutopaikkaan_ kirjasto, mistä asiakas noutaa aineiston.
    - Jos varaus halutaan alkamaan tulevaisuudessa, anna _Varauksen alkamispvm_ -laatikkoon aloituspäivämäärä. Muuten siihen tallentuu kuluva päivä.
    - Jos varaus halutaan olemaan voimassa vain tiettyyn päivämäärään saakka, merkitse päiväys _Varaus vanhenee_ -laatikkoon.
-   - Oletuksena on _Varaa seuraava vapaa nide_. Jos haluat tietyn niteen varaukseen, valitse nide listalta _Varaus_-sarakkeesta.
+   - Oletuksena on _Varaa seuraava vapaa nide_. Jos haluat tietyn niteen varaukseen, valitse _Varaa tietty nide_-sarake.
    - Varausten määrän voit valita _Tee varauksia (määrä)_ -sarakkeesta.
    - _Kiireetön varaus_ antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran.
 
-![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.PNG)
+![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.png)
 
 ## 4.1.3. Monta varausta kerralla
 
@@ -50,9 +50,19 @@ Jos haluat tehdä varauksen useammasta nimekkeestä kerralla, valitse nimekkeide
 
 ![](/assets/files/docs/Lainaus/Varaus_7_useampi_kerralla.PNG)
 
-Varaussivulle listautuu valitut teokset. Valitse noutopaikka ja klikkaa _Varaa_.
+Varaussivulle listautuu valitut teokset. Syötä asiakkaan kirjastokortinnumero ja klikkaa _Haku_-painiketta.
 
-![](/assets/files/docs/Lainaus/Varaus_8_Tee_varauksia.PNG)
+![](/assets/files/docs/Lainaus/Varaus_8_Tee_varauksia.png)
+
+Syötä varaajan tiedot.
+
+   - _Huomautukset_-laatikkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
+   - Valitse _Noutopaikkaan_ kirjasto, mistä asiakas noutaa aineiston. Tämä antaa saman noutopaikan oletuksena kaikkiin tehtäviin varauksiin.
+   - Jos varaus halutaan alkamaan tulevaisuudessa, anna _Varauksen alkamispvm_ -laatikkoon aloituspäivämäärä. Muuten siihen tallentuu kuluva päivä.
+   - Jos varaus halutaan olemaan voimassa vain tiettyyn päivämäärään saakka, merkitse päiväys _Varaus vanhenee_ -laatikkoon.
+   - _Noutopisteestä_ voi antaa jokaiselle niteelle oman noutopisteen tarvittaessa.
+
+![](/assets/files/docs/Lainaus/Varaus_0_Varaajan_tiedot2.png)
 
 ## 4.1.4. Nidevaraus
 
@@ -62,13 +72,23 @@ Hae asiakkaan tiedot ja täytä varauksen tarkemmat tiedot.
 
 ![](/assets/files/docs/Lainaus/nidevaraus11.png)
 
-Valitse tässä vaiheessa tietueen niteistä haluttu nide, johon haluat tehdä varauksen. 
+Valitse tässä vaiheessa _Varaa tietty nide_ -kohta ja valitse haluamasi nide/niteet. Joissakin kimpoissa voi olla mahdollista tehdä useampi nidevaraus kerralla, jos oikea järjestelmäasetus on laitettuna päälle. 
 
 Klikkaa _Varaa_-näppäintä.
 
 Nidevaraus näkyy Kohassa valitun niteen kohdalla.
 
 ![](/assets/files/docs/Lainaus/nidevaraus02.png)
+
+### 4.1.4.1. Varausten lukumäärän näkyminen
+
+Varausta tehdessä Koha näyttää tietueessa olevan varaustilanteen.
+
+   - _Aktiiviset_ kertoo minkälainen varausjonon tilanne on.
+   - _Kiinni jääneet_ listaa ne varaukset, jotka ovat joko odottamassa noutoa tai menossa asiakkaalle. 
+   - _Ei aktiiviset_ listaa keskeytetyt varaukset.
+
+![](/assets/files/docs/Lainaus/Varaus_olemassa_olevat_varaukset.png)
 
 
 ## 4.1.5. Varausten käsittely
@@ -129,9 +149,17 @@ Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä valit
 
 ![](/assets/files/docs/Lainaus/Varaus_17a_peru_asiakastiedoista_monta.PNG)
 
+### 4.1.5.6. Varauksen noutopaikan vaihtaminen
+
+Varauksen noutopaikan pystyy vaihtamaan tietueen varauslistauksessa ks. kohta 4.1.5. tai asiakkaan tiedoissa. Helpoiten sen saa vaihdettua asiakkaan tiedoissa, _Varaukset_-välilehdellä. Noutopaikan voi vaihtaa niin pitkään, kun varaus ei ole _Kuljetettavana_-tilassa.
+
+Voit vaihtaa noutopaikan valitsemalla uuden kirjaston klikkaamalla kirjastovalikon auki halutun niteen kohdalla _Noutokirjasto_-sarakkeessa. 
+
+![](/assets/files/docs/Lainaus/Varaus_noutokirjaston_vaihto.png)
+
 ### 4.1.6. Peruuta odottava-tila ja kuljetustila
 
-Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi _Peruuta odottava_-tila tai _Peruuta kuljetustila_ -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
+Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi _Peruuta odottava_ -tila tai _Peruuta kuljetustila_ -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
 
 ![](/assets/files/docs/Lainaus/Varaus_18_peruuta_odottava_ja_kuljetustila.PNG)
 
