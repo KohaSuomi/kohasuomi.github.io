@@ -8,6 +8,164 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
+## Kuvailuryhmän muistio 9/2024 ##
+
+Aika: 3.12.2024 klo 13.15–14.24
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi), Johanna Räisä (Koha-Suomi, kohdat 2-4)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokouksen sihteeriksi valittiin Suvi Kauranen.
+
+#### 2. YSA-YSO-konversiot ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/390" target="_blank">YSA-YSO-konversio kaikille kimpoille </a> </li>
+ <li>Testitietueiden poimiminen ja testit joulukuun aikana? Ne, jotka haluavat testata </li>
+ <li>Testitietueet tikettiin: <a href="https://github.com/KohaSuomi/Koha/issues/1040" target="_blank">YSA/YSO-konversion testausta </a> </li>
+</ul>
+
+<ul>
+ <li>Johannalle sopii aikataulu. Vaski testannut, testauksen tulokset löytyvät tiketistä. </li>
+ <li>Testitietueiden joukkoon kannattaa valita myös tietueita, joissa on saatettu käyttää omia asiasanoja tai muunlaisia omia paikallisviritelmiä. Lähinnä sen takia, että näkee, mitä niille tapahtuu konversiossa. </li>
+ <li>Konversiosääntöihin ei voi paljoa vaikuttaa, esim. 648 korjattava jälkikäteen omissa paikalliskannoissa ja TäTissä. </li>
+</ul>
+
+#### 3.	YSO-konversioiden jälkeen ajankohtaisia kehitysasioita ####
+<ul>
+ <li>YSO-konversiosta puuttuvat lisämuokkaukset (ainakin YSO-aika ja 648-kenttä) </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> </li>
+-> Automaattinen päivitys siihen, että asiasanat pysyvät jatkossa ajan tasalla
+ <li>Asterista poimittujen auktoriteettitietueiden automaattinen päivitys? </li>
+ <li>Asterin teosauktoriteetit </li>
+ <li>Metatietosanaston muutokset ja muut massakorjaukset</li>
+</ul>
+
+<ul>
+ <li>Tiedoksi. </li>
+ <li>Metatietosanasto edelleen muokkauksen alla. Metatietosanastoliitännäistä ei kannata vielä laittaa työn alle, koska sanastoon tulee koko ajan muutoksia. </li>
+</ul>
+
+#### 4.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 26.11. ####
+<ul>
+ <li>Käyttöönottovaihe saatettu päätökseen </li>
+ <li>TäTi-putken kehitys jatkuu </li>
+ <li>Saamelaisbibliografian haravointi Melindaan YSO-konversion jälkeen </li>
+ <li>Palaute Melinda-Koha-Suomi-kuvailukoulutuksesta 7.11. </li>
+ <li>Seuraava kokous 11.3.2025</li>
+</ul>
+
+<ul>
+ <li>Melindassa odotetaan, että saadaan YSO-konversio tehtyä. </li>
+ <li>TäTi-putken kehitys jatkuu kolmatta vuotta, ei ole tapahtunut juurikaan edistystä. </li>
+ <li>Melindaa kiinnostaa Lapin kirjastojen ylläpitämä saamelaisbibliografia. Johanna Räisä hoitaa tietueiden haravoinnin Lapin kirjastojen tietokannasta YSO-konversioiden jälkeen, mutta ensin pitää selvittää, mitkä tietueet kuuluvat bibliografiaan. Lisäksi Melindaa kiinnostaa tietueiden kuvailunlaatu ja kuvailussa käytetyt mahdolliset omat ratkaisut. </li>
+ <li>Palautetta Melinda-koulutuksesta: Turhaan esiteltiin Melindan työkaluja, joita meillä ei ole käytössä. Koulutus koettiin melko korkealentoiseksi. Toivotaan käytännöllisempää kuvailukoulutusta ja TäTi-Melinda-toimintojen esittelyä. Melinda ei tarjoa tällaista koulutusta, joten Koha-Suomen on järjestettävä se itse. Ks. kohta 5. </li>
+ <li>Melinda keskittyy enemmän omien kuvailutyökalujensa koulutukseen eikä heillä ole muutenkaan resursseja peruskuvailukoulutukseen. Oletuksena on, että Melinda-kuvailijoilla on perusteet jo hallussa aloittaessaan Melinda-kuvailun. </li>
+</ul>
+
+#### 5.	Koha-Suomen sisäisen peruskuvailukoulutuksen järjestäminen ####
+<ul>
+  <li>Selvitellään, löytyykö kimpoista sopivia kouluttajia </li>
+  <li>Koulutuksissa tarve TäTin ja Melindan sääntöjen ja toimintatapojen kertaamiseen. Kuvailijat esim. pelkäävät koskea tietueisiin, koska eivät tiedä, mitä tietoja saa muuttaa ja mitä ei. Toivotaan myös kertausta siihen, mitä kaikkea tietueesta pitää tarkistaa, milloin tarkistetaan Extranet ja milloin sieltä pyydetään kuvailua. </li>
+  <li>Päätettiin, että käytetään koulutuksen pohjana kaaviota, joka esittelee, kuinka eri tilanteissa toimitaan, kun poiminta- tai primaarikuvailu aloitetaan. Kirjastopalvelun tietueiden käsittelykaavio löytyy Oulun Koha Teamsin kuvailu-kanavan tiedostoista ja yläpalkista. </li>
+  <li>Päätettiin järjestää useamman lyhyen koulutuksen sarja. Eri koulutuskerroilla keskitytään eri asioihin ja/tai aineistotyyppeihin. Jokaisella kerralla voi olla eri kouluttaja. </li>
+  <li>Anneli hoitaa koulutusten tiedotuksen. </li>
+  <li>Palataan koulutuksiin tammikuun kokouksessa. Silloin voi myös ilmoittautua kouluttajaksi.</li>
+</ul>
+
+#### 6.	Kuulumisia Kirjastopalvelun asiakasohjausryhmän kokouksesta Helsingissä 19.11. ####
+<ul>
+  <li>Kirjastopalvelulta toivottiin aikarajaa siihen, kuinka pitkään KP pitkittää tietoa, onko kuvailua tulossa vai ei. Nykyisin voi kestää hyvin kauan ennen kuin kuvailupäätös tulee. Olisi parempi, että KP reilusti ilmoittaisi, että kuvailua ei tule. Kirjastopalvelu pohtii, onko käytäntöä mahdollistaa muuttaa tai tehostaa. </li>
+  <li>Kirjastopalvelu ei järjestelmällisesti seuraa aineistoa, jolla on viiva (-) kuvailustatuksessa. Tämän takia näihin ei myöskään päivitetä tietoa, tuleeko kuvailu vai ei. Tämä on ongelma varsinkin musiikkiaineistossa. Musiikkiaineistossa kuvailu riippuu siitä, tarjoaako KP aineistoa valintalistoillaan. Kirja-aineistossa seurataan hankintojen määrää Finnasta, joten jos kolmen kimpan/kirjaston vaatimus täytyy ja kuvailukappale on saatavissa, viivastatus voi vaihtua. Kuvailukappaleen saatavuuteen vaikuttaa jonkin verran myös se, onko yksikään kirjasto tilannut nimekettä juuri Kirjastopalvelusta. </li>
+  <li>Edelleen kuvailustatukset epävarmoja. Esim. ”ei kuvailua” voi vaihtua, jos useampi kirjasto tekee lisätilauksia. </li>
+  <li>Kirjastopalvelulle kannattaa antaa palautetta ja kiirehtiä kuvailua. Ensi vuonna on tulossa myös uusi palautekysely Ekstranetistä. </li>
+  <li>Kirjastopalvelu lisännyt virtuaalikuvailua, esim. venäjänkielisissä. </li>
+  <li>Pohdittiin, miksi Kirjastopalvelun kuvailut viivästyvät. Tuntumana on, että syynä ovat sekä puuttuvat kuvailukappaleet että liian vähäinen henkilökunta.</li>
+</ul>
+
+#### 7.	Kohan versionvaihto ####
+<ul>
+  <li>Uusi ominaisuus: Kun tekee uuden tietueen Muokkaa uutena kopiona -toiminnon kautta, 008-kentän päiväys merkkipaikoilla 00–05 vaihtuu automaattisesti kuluvaksi päivämääräksi</li>
+  <li>Kohan ohje suomeksi ohjeiden päivitys</li>
+	<ul>
+	 <li>Kuvailuosion ohjeiden tarkistaminen: <a href="https://koha-suomi.fi/dokumentaatio/kuvailu/" target="_blank">Kohan ohje suomeksi </a> </li>
+ 	 <li>Lisäksi kohta 5.4. Auktoriteetit ja niiden ohjeistus</li>
+	</ul>
+  <li>Nalkutin muodostaa edelleen tuplatietueita joissakin tapauksissa: <a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta </a> </li>
+</ul>
+
+<ul>
+ <li>Versionvaihto meni kokonaisuutena hyvin. </li>
+ <li>Nalkutin on käytössä TäTissä, mutta tuplatietueongelma on pysynyt. </li>
+ <li>Vaara-kirjastot päivittävät Koha-Suomen kuvailuohjeita. </li>
+ <li>Sovittiin, että kaikki käyvät ohjeet läpi ja laittavat tarvittaessa korjausehdotuksia Päivi Knuutiselle. </li>
+ <li>Jos jollakin on hyviä ehdotuksia, mitä kohtaan 5.4. Auktoriteetit pitäisi kirjoittaa, niin niitä voi lähettää Päiville. </li>
+</ul>
+
+#### 8.	TäTin kuvailupohjat ####
+<ul>
+  <li>Oletuspohja: Olisiko parempi, jos 000-kenttä olisi tyhjä eikä siinä olisi ollenkaan oletusarvoja? Tällä hetkellä siinä on tekstiaineiston arvot ja 5-taso, jotka pysyvät kuvailupohjaa vaihdettaessa.
+Onko tarvetta muokata kuvailupohjien oletusarvoja?</li>
+  <li>260-kenttä: Ei käytetä enää muuta kuin vanhoissa RDA-hybriditietueissa. Piilotetaanko vai onko parempi, että on näkyvissä edelleen?</li>
+</ul>
+
+<ul>
+ <li>Oletuspohjaa käytetään hyvin harvoin kuvailun pohjana. Olisi loogisinta, että 000 olisi tyhjä. </li>
+ <li>Päätettiin, että otetaan kaikki oletukset pois oletuspohjasta. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin. </li>
+ <li>Ruotsinkielistä kirja-pohjaa ei saa käyttää TäTissä, mutta sitä ei voi poistaa, koska siinä on tietueita kiinni. Päivi selvittää, voiko tietueille vaihtaa toisen pohjan. Jos ei voi, pohjan nimen perään laitetaan: ”ei saa käyttää”. </li>
+ <li>Piilotetaan 260-kenttä kaikista TäTin kuvailupohjista. Saa jäädä näkyviin oletuspohjaan. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin. </li>
+</ul>
+
+#### 9.	Tietueet, joissa kirjoitusvirhe 245a-kentässä ja korjattu nimeke 246a-kentässä ####
+
+Nidetarrojen teksti näissä tapauksissa eri kimpoissa?
+
+<ul>
+ <li>Suurimmassa osassa kimpoista asiaa ei juurikaan ole mietitty.  </li>
+ <li>Kimpat saavat itse ratkaista ongelman halutessaan. </li>
+ <li>942-kentän signum-pluginia voisi mahdollisesti kehittää niin, että tarroihin voisi muuttaa 245-kentän tietoa, kuten nyt on mahdollista muuttaa luokkaa ja tekijää. </li>
+</ul>
+
+#### 10. 594-kentän huomautus ####
+
+Muuttunut näkyväksi Finnassa, koska tarpeellinen Kansalliskirjastossa
+
+<ul>
+ <li>Asiakkaalle turhaa tietoa </li>
+ <li>Kumealle ei ole vielä tullut palautetta 594-kentän näkyvyydestä. </li>
+ <li>Finna ja Kansalliskirjasto palaavat asiaan, jos kirjastoilta alkaa tulla palautetta, että näkyvyys on ongelma. </li>
+ <li>Kimpoille tulee vaihtelevasti palautetta Finnan sisällöistä, eniten palautetta tulee kansikuvista. </li>
+</ul>
+
+#### 11. Melindasta pyydetty korjauksia tietueisiin, joissa vääriä tietoja 035-kentissä ####
+<ul>
+  <li>Tapauksia, joissa TäTi-tietueeseen on unohtunut väärä arvo 035-kenttään </li>
+  <li>Korjattu tietueita, joilla on useampi 035-kenttä, joissa arvo FI-TATI </li>
+</ul>
+
+<ul>
+ <li>Tiedoksi. </li>
+ <li>Ennen tietueen viemistä Melindaan, kannattaa aina vielä tarkistaa, että 001-, 003- ja 035-kenttien tiedot ovat oikein eikä niissä ole virheellisiä arvoja. </li>
+</ul>
+
+#### 12. Muita asioita ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/286" target="_blank">Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue </a> </li>
+  -> Huom. Siirtoraportin sijaan Kohaan on kehitetty oma valutusraportti, jolla voi seurata muutostietueita. (Muutokset kentissä 084a, 100/110/111 ja 245abnp) Valutusraporttiin on tehty muutoksia, ei vielä raporttikirjastossa.
+  <li>Pohdittavaksi ensi kokoukseen:</li>
+	<ul>
+ 	 <li><a href="https://github.com/KohaSuomi/Koha/issues/1442" target="_blank">TäTiin käyttöön 942c-kenttään MTYPE-arvot ja ne asettumaan automaattisesti </a> </li>
+ 	 <li>Kuvailupohjien automaattinen vaihtuminen myös TäTiin?</li>
+	</ul>
+ <li>Lastu-kirjastoissa kuvailutyö käynnistynyt. Paljon on tehty poimintakuvailua. TäTi-Melinda-toiminta tuottaa vielä epävarmuutta osalle kuvailijoista. </li>
+</ul>
+
+#### 13. Seuraava kokous ke 15.1.2025 klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 8/2024 ##
 
 Aika: 6.11.2024 klo 13.15–14.45
