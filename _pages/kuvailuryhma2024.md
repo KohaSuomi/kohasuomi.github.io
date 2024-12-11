@@ -36,7 +36,7 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
 <ul>
  <li>YSO-konversiosta puuttuvat lisämuokkaukset (ainakin YSO-aika ja 648-kenttä) </li>
  <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> </li>
--> Automaattinen päivitys siihen, että asiasanat pysyvät jatkossa ajan tasalla
+<p>-> Automaattinen päivitys siihen, että asiasanat pysyvät jatkossa ajan tasalla </p>
  <li>Asterista poimittujen auktoriteettitietueiden automaattinen päivitys? </li>
  <li>Asterin teosauktoriteetit </li>
  <li>Metatietosanaston muutokset ja muut massakorjaukset</li>
@@ -134,7 +134,7 @@ Muuttunut näkyväksi Finnassa, koska tarpeellinen Kansalliskirjastossa
 #### 12. Muita asioita ####
 <ul>
   <li><a href="https://github.com/KohaSuomi/Koha/issues/286" target="_blank">Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue </a> </li>
-  -> Huom. Siirtoraportin sijaan Kohaan on kehitetty oma valutusraportti, jolla voi seurata muutostietueita. (Muutokset kentissä 084a, 100/110/111 ja 245abnp) Valutusraporttiin on tehty muutoksia, ei vielä raporttikirjastossa.
+ <p> -> Huom. Siirtoraportin sijaan Kohaan on kehitetty oma valutusraportti, jolla voi seurata muutostietueita. (Muutokset kentissä 084a, 100/110/111 ja 245abnp) Valutusraporttiin on tehty muutoksia, ei vielä raporttikirjastossa. </p>
   <li>Pohdittavaksi ensi kokoukseen:</li>
 	<ul>
  	 <li><a href="https://github.com/KohaSuomi/Koha/issues/1442" target="_blank">TäTiin käyttöön 942c-kenttään MTYPE-arvot ja ne asettumaan automaattisesti </a> </li>
