@@ -96,9 +96,9 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
 <ul>
   <li>Oletuspohja: Olisiko parempi, jos 000-kenttä olisi tyhjä eikä siinä olisi ollenkaan oletusarvoja? Tällä hetkellä siinä on tekstiaineiston arvot ja 5-taso, jotka pysyvät kuvailupohjaa vaihdettaessa.
 Onko tarvetta muokata kuvailupohjien oletusarvoja?</li>
-	-> Oletuspohjaa käytetään hyvin harvoin kuvailun pohjana. Olisi loogisinta, että 000 olisi tyhjä. Päätettiin, että otetaan kaikki oletukset pois oletuspohjasta. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.
+	<p>-> Oletuspohjaa käytetään hyvin harvoin kuvailun pohjana. Olisi loogisinta, että 000 olisi tyhjä. Päätettiin, että otetaan kaikki oletukset pois oletuspohjasta. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.</p>
   <li>260-kenttä: Ei käytetä enää muuta kuin vanhoissa RDA-hybriditietueissa. Piilotetaanko vai onko parempi, että on näkyvissä edelleen?</li>
-	-> Piilotetaan 260-kenttä kaikista TäTin kuvailupohjista. Saa jäädä näkyviin oletuspohjaan. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.
+	<p>-> Piilotetaan 260-kenttä kaikista TäTin kuvailupohjista. Saa jäädä näkyviin oletuspohjaan. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.</p>
  <li>Ruotsinkielistä kirja-pohjaa ei saa käyttää TäTissä, mutta sitä ei voi poistaa, koska siinä on tietueita kiinni. Päivi selvittää, voiko tietueille vaihtaa toisen pohjan. Jos ei voi, pohjan nimen perään laitetaan: ”ei saa käyttää”. </li>
 </ul>
 
@@ -130,7 +130,6 @@ Muuttunut näkyväksi Finnassa, koska tarpeellinen Kansalliskirjastossa
 </ul>
 
 <p>Ennen tietueen viemistä Melindaan, kannattaa aina vielä tarkistaa, että 001-, 003- ja 035-kenttien tiedot ovat oikein eikä niissä ole virheellisiä arvoja. </p>
-</ul>
 
 #### 12. Muita asioita ####
 <ul>
