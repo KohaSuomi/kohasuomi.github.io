@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -40,6 +40,11 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Eräs asiakas vaihtoi saapumisilmoitukset sähköpostista tekstiviestiksi. Numero oli valmiina mobile-kentässä eikä siihen siten koskettu. Saapumisilmoitus tuli aikanaan sitten paperikirjeenä. Syyksi paljastui tyhjä smsalertnumber-kenttä. Kyseinen kenttähän ei näy virkailijalle, jos se on tyhjä. Teemme tiketin, jossa pyydämme ajoa, jossa kopioidaan mobile-kenttä smsalertnumber-kentään, jos se on tyhjä. Vastaava ajo on toteutettu aiemmin ainakin Outissa [835](https://github.com/KohaSuomi/Koha/issues/835).
+
+**Lumme**
+* Pertunmaan kuntaliitos työllistänyt jonkin verran.
+* Tullut joitakin epäselvyyksiä varausten ja niiden tilojen kanssa. Syitä selvitellään.
+* Virkailijalta tuli kyselyä miten heidän kirjaston lainoihin oli tullut eräpäiviä heidän kiinniolopäivälleen, vaikka kalenteri oli laitettu kiinni hyvissä ajoin. Selvisi, että lainat on mahdollisesti uusittu toisessa kirjassa ja nämä uusinnat ovat noudattaneet uusintaa tehneen kirjaston kalenteria - tästä syystä eräpäivät ovat osuneet asiakkaan ns. kotikirjaston kiinniolopäivälle.
 
  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
