@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -45,6 +45,10 @@ Etelästä pohjoiseen
 * Pertunmaan kuntaliitos työllistänyt jonkin verran.
 * Tullut joitakin epäselvyyksiä varausten ja niiden tilojen kanssa. Syitä selvitellään.
 * Virkailijalta tuli kyselyä miten heidän kirjaston lainoihin oli tullut eräpäiviä heidän kiinniolopäivälleen, vaikka kalenteri oli laitettu kiinni hyvissä ajoin. Selvisi, että lainat on mahdollisesti uusittu toisessa kirjassa ja nämä uusinnat ovat noudattaneet uusintaa tehneen kirjaston kalenteria - tästä syystä eräpäivät ovat osuneet asiakkaan ns. kotikirjaston kiinniolopäivälle.
+
+**Siilinjärvi**
+* Ei huolia, tänään vietetään pääkirjaston 40 v juhlia
+* Tarkistettu, miten toimitaan jos käyttösäännöissä lapsiasiakkaan ikäraja muuttuu 18 -> 15. Samalla tuli tieto, että toisaalla pohditaan päinvastaista muutosta.
 
  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
