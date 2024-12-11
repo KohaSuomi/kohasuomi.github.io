@@ -40,32 +40,23 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
  <li>Asterista poimittujen auktoriteettitietueiden automaattinen päivitys? </li>
  <li>Asterin teosauktoriteetit </li>
  <li>Metatietosanaston muutokset ja muut massakorjaukset</li>
+	-> Metatietosanasto edelleen muokkauksen alla. Metatietosanastoliitännäistä ei kannata vielä laittaa työn alle, koska sanastoon tulee koko ajan muutoksia.
 </ul>
-
-
-<p>- Tiedoksi. </p>
-<p>- Metatietosanasto edelleen muokkauksen alla. Metatietosanastoliitännäistä ei kannata vielä laittaa työn alle, koska sanastoon tulee koko ajan muutoksia. </p>
 
 #### 4.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 26.11. ####
 <ul>
  <li>Käyttöönottovaihe saatettu päätökseen </li>
- <li>TäTi-putken kehitys jatkuu </li>
- <li>Saamelaisbibliografian haravointi Melindaan YSO-konversion jälkeen </li>
- <li>Palaute Melinda-Koha-Suomi-kuvailukoulutuksesta 7.11. </li>
- <li>Seuraava kokous 11.3.2025</li>
-</ul>
-
-<ul>
- <li>Melindassa odotetaan, että saadaan YSO-konversio tehtyä. </li>
  <li>TäTi-putken kehitys jatkuu kolmatta vuotta, ei ole tapahtunut juurikaan edistystä. </li>
+ <li>Melindassa odotetaan, että saadaan YSO-konversio tehtyä. </li>
  <li>Melindaa kiinnostaa Lapin kirjastojen ylläpitämä saamelaisbibliografia. Johanna Räisä hoitaa tietueiden haravoinnin Lapin kirjastojen tietokannasta YSO-konversioiden jälkeen, mutta ensin pitää selvittää, mitkä tietueet kuuluvat bibliografiaan. Lisäksi Melindaa kiinnostaa tietueiden kuvailunlaatu ja kuvailussa käytetyt mahdolliset omat ratkaisut. </li>
- <li>Palautetta Melinda-koulutuksesta: Turhaan esiteltiin Melindan työkaluja, joita meillä ei ole käytössä. Koulutus koettiin melko korkealentoiseksi. Toivotaan käytännöllisempää kuvailukoulutusta ja TäTi-Melinda-toimintojen esittelyä. Melinda ei tarjoa tällaista koulutusta, joten Koha-Suomen on järjestettävä se itse. Ks. kohta 5. </li>
+ <li>Palaute Melinda-Koha-Suomi-kuvailukoulutuksesta 7.11.: Turhaan esiteltiin Melindan työkaluja, joita meillä ei ole käytössä. Koulutus koettiin melko korkealentoiseksi. Toivotaan käytännöllisempää kuvailukoulutusta ja TäTi-Melinda-toimintojen esittelyä. Melinda ei tarjoa tällaista koulutusta, joten Koha-Suomen on järjestettävä se itse. Ks. kohta 5. </li>
  <li>Melinda keskittyy enemmän omien kuvailutyökalujensa koulutukseen eikä heillä ole muutenkaan resursseja peruskuvailukoulutukseen. Oletuksena on, että Melinda-kuvailijoilla on perusteet jo hallussa aloittaessaan Melinda-kuvailun. </li>
+  <li>Seuraava kokous 11.3.2025</li>
 </ul>
 
 #### 5.	Koha-Suomen sisäisen peruskuvailukoulutuksen järjestäminen ####
 <ul>
-  <li>Selvitellään, löytyykö kimpoista sopivia kouluttajia </li>
+  <li>Selvitellään, löytyykö kimpoista sopivia kouluttajia. </li>
   <li>Koulutuksissa tarve TäTin ja Melindan sääntöjen ja toimintatapojen kertaamiseen. Kuvailijat esim. pelkäävät koskea tietueisiin, koska eivät tiedä, mitä tietoja saa muuttaa ja mitä ei. Toivotaan myös kertausta siihen, mitä kaikkea tietueesta pitää tarkistaa, milloin tarkistetaan Extranet ja milloin sieltä pyydetään kuvailua. </li>
   <li>Päätettiin, että käytetään koulutuksen pohjana kaaviota, joka esittelee, kuinka eri tilanteissa toimitaan, kun poiminta- tai primaarikuvailu aloitetaan. Kirjastopalvelun tietueiden käsittelykaavio löytyy Oulun Koha Teamsin kuvailu-kanavan tiedostoista ja yläpalkista. </li>
   <li>Päätettiin järjestää useamman lyhyen koulutuksen sarja. Eri koulutuskerroilla keskitytään eri asioihin ja/tai aineistotyyppeihin. Jokaisella kerralla voi olla eri kouluttaja. </li>
@@ -94,26 +85,21 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
   <li>Nalkutin muodostaa edelleen tuplatietueita joissakin tapauksissa: <a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta </a> </li>
 </ul>
 
-<ul>
- <li>Versionvaihto meni kokonaisuutena hyvin. </li>
- <li>Nalkutin on käytössä TäTissä, mutta tuplatietueongelma on pysynyt. </li>
- <li>Vaara-kirjastot päivittävät Koha-Suomen kuvailuohjeita. </li>
- <li>Sovittiin, että kaikki käyvät ohjeet läpi ja laittavat tarvittaessa korjausehdotuksia Päivi Knuutiselle. </li>
- <li>Jos jollakin on hyviä ehdotuksia, mitä kohtaan 5.4. Auktoriteetit pitäisi kirjoittaa, niin niitä voi lähettää Päiville. </li>
-</ul>
+<p>- Versionvaihto meni kokonaisuutena hyvin. </p>
+<p>- Nalkutin on käytössä TäTissä, mutta tuplatietueongelma on pysynyt. </p>
+<p>- Vaara-kirjastot päivittävät Koha-Suomen kuvailuohjeita. </p>
+<p>- Sovittiin, että kaikki käyvät ohjeet läpi ja laittavat tarvittaessa korjausehdotuksia Päivi Knuutiselle. </p>
+<p>- Jos jollakin on hyviä ehdotuksia, mitä kohtaan 5.4. Auktoriteetit pitäisi kirjoittaa, niin niitä voi lähettää Päiville. </p>
+
 
 #### 8.	TäTin kuvailupohjat ####
 <ul>
   <li>Oletuspohja: Olisiko parempi, jos 000-kenttä olisi tyhjä eikä siinä olisi ollenkaan oletusarvoja? Tällä hetkellä siinä on tekstiaineiston arvot ja 5-taso, jotka pysyvät kuvailupohjaa vaihdettaessa.
 Onko tarvetta muokata kuvailupohjien oletusarvoja?</li>
+	-> Oletuspohjaa käytetään hyvin harvoin kuvailun pohjana. Olisi loogisinta, että 000 olisi tyhjä. Päätettiin, että otetaan kaikki oletukset pois oletuspohjasta. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.
   <li>260-kenttä: Ei käytetä enää muuta kuin vanhoissa RDA-hybriditietueissa. Piilotetaanko vai onko parempi, että on näkyvissä edelleen?</li>
-</ul>
-
-<ul>
- <li>Oletuspohjaa käytetään hyvin harvoin kuvailun pohjana. Olisi loogisinta, että 000 olisi tyhjä. </li>
- <li>Päätettiin, että otetaan kaikki oletukset pois oletuspohjasta. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin. </li>
+	-> Piilotetaan 260-kenttä kaikista TäTin kuvailupohjista. Saa jäädä näkyviin oletuspohjaan. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin.
  <li>Ruotsinkielistä kirja-pohjaa ei saa käyttää TäTissä, mutta sitä ei voi poistaa, koska siinä on tietueita kiinni. Päivi selvittää, voiko tietueille vaihtaa toisen pohjan. Jos ei voi, pohjan nimen perään laitetaan: ”ei saa käyttää”. </li>
- <li>Piilotetaan 260-kenttä kaikista TäTin kuvailupohjista. Saa jäädä näkyviin oletuspohjaan. Päivi korjaa TäTiin. Kaikki korjaavat tarvittaessa omien paikalliskantojen pohjiin. </li>
 </ul>
 
 #### 9.	Tietueet, joissa kirjoitusvirhe 245a-kentässä ja korjattu nimeke 246a-kentässä ####
@@ -143,9 +129,7 @@ Muuttunut näkyväksi Finnassa, koska tarpeellinen Kansalliskirjastossa
   <li>Korjattu tietueita, joilla on useampi 035-kenttä, joissa arvo FI-TATI </li>
 </ul>
 
-<ul>
- <li>Tiedoksi. </li>
- <li>Ennen tietueen viemistä Melindaan, kannattaa aina vielä tarkistaa, että 001-, 003- ja 035-kenttien tiedot ovat oikein eikä niissä ole virheellisiä arvoja. </li>
+<p>Ennen tietueen viemistä Melindaan, kannattaa aina vielä tarkistaa, että 001-, 003- ja 035-kenttien tiedot ovat oikein eikä niissä ole virheellisiä arvoja. </p>
 </ul>
 
 #### 12. Muita asioita ####
