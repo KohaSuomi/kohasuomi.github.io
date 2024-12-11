@@ -27,11 +27,10 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
  <li>Testitietueet tikettiin: <a href="https://github.com/KohaSuomi/Koha/issues/1040" target="_blank">YSA/YSO-konversion testausta </a> </li>
 </ul>
 
-<ul>
- <li>Johannalle sopii aikataulu. Vaski testannut, testauksen tulokset löytyvät tiketistä. </li>
- <li>Testitietueiden joukkoon kannattaa valita myös tietueita, joissa on saatettu käyttää omia asiasanoja tai muunlaisia omia paikallisviritelmiä. Lähinnä sen takia, että näkee, mitä niille tapahtuu konversiossa. </li>
- <li>Konversiosääntöihin ei voi paljoa vaikuttaa, esim. 648 korjattava jälkikäteen omissa paikalliskannoissa ja TäTissä. </li>
-</ul>
+
+ <p>- Johannalle sopii aikataulu. Vaski testannut, testauksen tulokset löytyvät tiketistä. </p>
+ <p>- Testitietueiden joukkoon kannattaa valita myös tietueita, joissa on saatettu käyttää omia asiasanoja tai muunlaisia omia paikallisviritelmiä. Lähinnä sen takia, että näkee, mitä niille tapahtuu konversiossa. </p>
+ <p>- Konversiosääntöihin ei voi paljoa vaikuttaa, esim. 648 korjattava jälkikäteen omissa paikalliskannoissa ja TäTissä. </p>
 
 #### 3.	YSO-konversioiden jälkeen ajankohtaisia kehitysasioita ####
 <ul>
@@ -43,10 +42,9 @@ Kokouksen sihteeriksi valittiin Suvi Kauranen.
  <li>Metatietosanaston muutokset ja muut massakorjaukset</li>
 </ul>
 
-<ul>
- <li>Tiedoksi. </li>
- <li>Metatietosanasto edelleen muokkauksen alla. Metatietosanastoliitännäistä ei kannata vielä laittaa työn alle, koska sanastoon tulee koko ajan muutoksia. </li>
-</ul>
+
+<p>- Tiedoksi. </p>
+<p>- Metatietosanasto edelleen muokkauksen alla. Metatietosanastoliitännäistä ei kannata vielä laittaa työn alle, koska sanastoon tulee koko ajan muutoksia. </p>
 
 #### 4.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 26.11. ####
 <ul>
