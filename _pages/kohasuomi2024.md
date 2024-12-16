@@ -16,12 +16,18 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 51
 
 Aika: 16.12.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Lari, Kodo, Pasi, Johanna ja Emmi
 
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+)
   * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
+  * Tiketit käytiin läpi Koha-tietovarannon osalta, jotka on nyt kaikki vastuutettu.
 * Viikon 51 päivitys
-* Käyttökatkot  
+  * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100)
+  * [Tietokantatriggereiden käyttäjien läpikäyminen #1321](https://github.com/KohaSuomi/Koha/issues/1321)   
+  * [Muokkaa 035a-kentän aktivoitumista valutuksessa. #13](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/13) 
+  * [Melinda tietueessa 19002432 FENNI-kenttä monistuu #15](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/15) 
+* Käyttökatkot
+  * Lauantaina osa kimpoista oli taas kaatuneena, osa saatiin nostettua samalle nodelle ja osa piti siirtää eri nodelle, jolloin nekin alkoivat toimia. Sunnuntaina kaatumista ei enää tapahtunut. Porrastetaan palveluiden uudelleenkäynnistäminen ja seurataan, onko tästä apua kaatuiluun.   
 
 ## Viikko 50
 
