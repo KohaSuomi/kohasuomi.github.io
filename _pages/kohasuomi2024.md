@@ -20,6 +20,8 @@ Läsnä:
 
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+)
   * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
+* Viikon 51 päivitys
+* Käyttökatkot  
 
 ## Viikko 50
 
