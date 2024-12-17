@@ -17,6 +17,8 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (K
 
 **Yhteiset asiat**
 
+* Sovittiin, että vanhentuneiden asiakkaiden automaattinen poistoajo otetaan käyttöön vasta, kun kaikki kimpat ovat tarkastaneet omat asiakastietueensa. Liittyy tikettiin https://github.com/KohaSuomi/Koha/issues/510. Tikettiin luodaan raportti/raportteja, joilla poistoon ei-halutusti mukaan tulevat asiakkaat saadaan kiinni, jotta heille voidaan asettaa rajoitus, joka estää ei-toivotun poiston.
+  
 Pohjoisesta etelään.
 
 **Lappi**
