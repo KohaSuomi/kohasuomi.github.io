@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset asiat**
 
@@ -26,6 +26,10 @@ Pohjoisesta etelään.
 
 **Kirkes**
 * Käsikirjastokappaleeksi muutettuun niteeseen tarttui varaus. Voi johtua siitä, että nimekkeellä on useita niteitä. Tutkitaan lisää.
+
+**Vaara**
+* Laina- ja maksusääntöjen muokkausta, tehty tiketti siirrosta
+* CPU-kassojen määrityksiä hoidettu, niteiden infotarra-asioita ihmetelty ja tehty tikettejä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
