@@ -13,11 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 
 Pohjoisesta etelään.
+
+**Lappi**
+* Rovaniemi siirtyi 12.12. Googlelta Microsoftille, ja nyt vain Leena pääsee tukipostiin ja tiedostoihin. Asiaa selvitetään
+* Uusi käyttäjä ei pääse Hankintaportaaliin, testattu salasanan vaihto ja evästeiden poistot, odotetaan Woimalta reagointia tukipyyntöön.
+* Muuten rauhallista. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
