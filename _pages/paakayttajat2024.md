@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset asiat**
 
@@ -32,6 +32,10 @@ Pohjoisesta etelään.
 **Vaara**
 * Laina- ja maksusääntöjen muokkausta, tehty tiketti siirrosta
 * CPU-kassojen määrityksiä hoidettu, niteiden infotarra-asioita ihmetelty ja tehty tikettejä.
+
+**Lastu**
+* Kyseltiin kausijulkaisumoduulin käytöstä vs. niteiden lisäämisestä käsin. Kausijulkaisumoduulia kannattaa käyttää ongelmien välttämiseksi.
+* Asiakkaiden automaattinen tervetulosähköposti otetaan käyttöön 18.12.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
