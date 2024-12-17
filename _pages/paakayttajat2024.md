@@ -38,7 +38,7 @@ Pohjoisesta etelään.
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -74,6 +74,10 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Ei huolia, tänään vietetään pääkirjaston 40 v juhlia
 * Tarkistettu, miten toimitaan jos käyttösäännöissä lapsiasiakkaan ikäraja muuttuu 18 -> 15. Samalla tuli tieto, että toisaalla pohditaan päinvastaista muutosta.
+
+**Lastu**
+* Kyseltiin Bugzillan tiketeistä, onko pääkäyttäjien toivottavaa käydä siellä kommentoimassa niitä tikettejä jotka koetaan merkityksellisiksi. Kannattaa käydä, mutta ei toistuvasti samaa tikettiä.
+* Muuten normaalia ylläpitoa
 
  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
