@@ -38,7 +38,7 @@ Etelästä pohjoiseen
 
 **Vaara**
 * Suomi.fi-viestien lähetys saatu käyntiin uusilla asetuksilla eli viesti näkyy nyt suoraan suomi.fi-apissa eikä tarvitse avata pdf-tiedostoa nähdäkseen viestin sisällön. Seurataan toimintaa tammikuulle, jolloin päätetään jatkosta.
-** CPU-kassoja tulee seutukirjaston kirjastoihin lisää, koska Joensuu on päättänyt luopua paikallisista palvelupisteistä, joissa on voinut hoitaa mm. kaupungille tulevia maksuja. Nyt niiden hoito siirtyy muutamaan kirjastoon eri puolilla haja-asutusaluetta.
+* CPU-kassoja tulee seutukirjaston kirjastoihin lisää, koska Joensuu on päättänyt luopua paikallisista palvelupisteistä, joissa on voinut hoitaa mm. kaupungille tulevia maksuja. Nyt niiden hoito siirtyy muutamaan kirjastoon eri puolilla haja-asutusaluetta.
 
 **Lappi**
 * Maanantaina vietettiin pääkäyttäjien virkistyspäivää.
