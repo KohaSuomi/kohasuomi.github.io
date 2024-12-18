@@ -39,7 +39,7 @@ Pohjoisesta etelään.
 
 **Helle**
 * Käyttäjätunnuksen configure-oikeus mahdollistaa kaikkien liitännäisten määrittelyn. Saisikohan tähän muutoksen?
-* Asiakastiedon Tili on lukittu -tekstiä on toivottu näkyvämmäksi. Käyttöön fontin suurennos? Lihavointi? Palaverin jälkeen Katariinalta (Oulu) rimpsu tekstin lihavointiin.
+* Asiakastiedon Tili on lukittu -tekstiä on toivottu näkyvämmäksi. Käyttöön fontin suurennos? Lihavointi? Palaverin jälkeen saatu Katariinalta (Oulu) IntranetUserCSS-rimpsu tekstin lihavointiin.
 * Loviisan kirjastoissa otettu käyttöön tietokirjojen kellutus, tosin ei aivan kaikkien tietokirjojen. Kellutussääntö (floatrules) perustuu niteen Huomautus virkailijalle -kenttään lisättyyn sanaan kellutus.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
