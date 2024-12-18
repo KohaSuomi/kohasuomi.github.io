@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 
@@ -36,6 +36,11 @@ Pohjoisesta etelään.
 **Lastu**
 * Kyseltiin kausijulkaisumoduulin käytöstä vs. niteiden lisäämisestä käsin. Kausijulkaisumoduulia kannattaa käyttää ongelmien välttämiseksi.
 * Asiakkaiden automaattinen tervetulosähköposti otetaan käyttöön 18.12.
+
+**Helle**
+* Käyttäjätunnuksen configure-oikeus mahdollistaa kaikkien liitännäisten määrittelyn. Saisikohan tähän muutoksen?
+* Asiakastiedon Tili on lukittu -tekstiä on toivottu näkyvämmäksi. Käyttöön fontin suurennos? Lihavointi? Palaverin jälkeen Katariinalta (Oulu) rimpsu tekstin lihavointiin.
+* Loviisan kirjastoissa otettu käyttöön tietokirjojen kellutus, tosin ei aivan kaikkien tietokirjojen. Kellutussääntö (floatrules) perustuu niteen Huomautus virkailijalle -kenttään lisättyyn sanaan kellutus.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
