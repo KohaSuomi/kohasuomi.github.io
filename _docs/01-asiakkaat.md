@@ -342,7 +342,7 @@ Tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
 #### 1.2.7.6. Muut määritteet ja tunnukset
 
-Tässä valitaan mm. automaattien automaattityyppi, automaatin toimittaja sekä yhteisöasiakkaan Y-tunnuskenttä.
+Tässä valitaan mm. automaattien automaattityyppi, automaatin toimittaja sekä yhteisöasiakkaan Y-tunnuskenttä. Kuvan vaihtoehdot näkyvät vain silloin, kun tallennetaan asiakastyyppiä Automaatti.
 
 ![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
 
@@ -357,7 +357,7 @@ olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset4.png)
 
-\- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä eräpäivänä. 
+\- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä kuluvana päivänä. 
 
 \- _Ennakkoilmoitus_: Etukäteisilmoitus lähestyvästä eräpäivästä. Asiakas
 voi valita, montako päivää etukäteen ilmoitus tulee. 
@@ -377,11 +377,9 @@ lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstivies
 laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 
-Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
+Asiakkaalle tallennetut viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
 {: .notice--warning}
 
-Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
-{: .notice--warning}
 
 ### 1.2.9. Tallennus
 
