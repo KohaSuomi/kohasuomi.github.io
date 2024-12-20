@@ -108,7 +108,7 @@ Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaa
 Aina ennen asiakastiedon lisäämistä on hyvä tarkistaa löytyykö asiakkaan tiedot jo Kohasta. Voit 
 hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla. Hakuohje löytyy kohdasta [1.1. Asiakkaan hakeminen](https://koha-suomi.fi/dokumentaatio/asiakkaat/#11-asiakkaan-hakeminen)
 
-Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
+Asiakkaan lisäykseen pääset Asiakkaat-välilehdellä.
 
 <img src="/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png" alt="" style="width:90.0%" />
 
@@ -117,7 +117,7 @@ Huom. Kaikissa kimpoissa ei ole _Asiakkaan pikalisäys_-vaihtoehtoa käytössä,
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
-Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_.
+Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_. Huom. Asiakastyyppi-vaihtoehdot voivat vaihdella eri kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
@@ -129,9 +129,7 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 
 ![](/assets/files/docs/Asiakkaat/Sotusiilo_Ohita.png)
 
-Jos asiakkaalla (aikuinen tai lapsi) ei ole sotu-avainta, ei asiakastiedon tallennus onnistu ennen kuin sotu-avain on lisätty tai painettu Lisää hetu -kentän vieressä olevaa uutta _Ohita_-nappia.
-
-Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-napin painallusta, on asiakastiedon _Tallenna_-nappi yläreunassa epäaktiivinen ja napin viereen tulee ohjeteksti _Lisää tai ohita henkilötunnus ensin_, kun hiiren vie Tallenna-napin päälle.
+Jos asiakkaalla ei ole sotu-avainta, ei asiakkaan tallennus onnistu ennen kuin on painettu Lisää hetu -kentän vieressä olevaa _Ohita_-nappia. Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-napin painallusta, on sivun yläreunassa oleva _Tallenna_-nappi epäaktiivinen ja napin viereen ilmestyy ohjeteksti _Lisää tai ohita henkilötunnus ensin_. Ohjeteksti ilmestyy, kun hiiren vie Tallenna-napin päälle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
@@ -140,11 +138,12 @@ Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-na
 - Jos asiakkaalla ei ole suomalaista henkilötunnusta, pitää Ohita-nappia painaa aina henkilötunnuksettoman asiakkaan tietoja muokatessa.
 {: .notice--warning}
 
-Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
-Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
-(kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
+Kun henkilötunnus on viety Sotu-siiloon onnistuneesti, siirtyy Sotu-avain automaattisesti kirjoitussuojattuun kenttään nimeltä
+Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain (kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. 
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain3.png)
+
+Viedessäsi henkilötunnuksen Sotu-siiloon saat tilanteesta riippuen erilaisia ilmoituksia:
 
 \- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!". 
@@ -170,17 +169,17 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 #### 1.2.1.1. Sotuteekki
 
 Kohaan on tehty Suomessa ominaisuus, **Sotuteekki**, jonne tallennetaan
-tietoturvallisesti asiakkaiden henkilötunnukset erilleen muista asiakastiedoista. Tiedot yhdistyvät kahden tietokannan välillä SOTU-avaimella. Kun asiakastiedot poistetaan Kohasta, henkilötunnus ja SOTU-avain eivät poistu Sotuteekistä.  
+tietoturvallisesti asiakkaiden henkilötunnukset erilleen muista asiakastiedoista. Tiedot yhdistyvät kahden tietokannan välillä SOTU-avaimella. Kun asiakastiedot poistetaan Kohasta, henkilötunnus ja Sotu-avain säilyvät Sotuteekissä.  
 
-Sotuteekki on yhteinen kaikille Koha-Suomen Koha-kimpoille/kirjastoille. Käyttäjälle se näkyy siten, että uuden asiakkaan henkilötunnus löytyy sotuteekistä, kun se on jo aiemmin toisessa kimpassa sinne lisätty. 
+Sotuteekki on yhteinen kaikille Koha-Suomen Koha-kimpoille/kirjastoille. Käyttäjälle se näkyy siten, että uuden asiakkaan henkilötunnus löytyy sotuteekistä, jos se on jo aiemmin toisessa kimpassa sinne lisätty. 
 
 ![Havainnollistaminen siitä, miten SOTU-siilo ja Kohan tietokanta yhdistyvät toisiinsa](/assets/files/docs/Asiakkaat/sotusiilo.png)
 
 Sotuteekissa on myös erillinen käyttöliittymä liitännäiset-osiossa, jossa esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella, jos se on tarpeen. Heillä on erilliset tunnukset tarkistusta varten.
+
 Sotuteekistä tarkemmin Kohan ohje suomeksi -ohjeen
-kohdassa
-[12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-sotuteekki)
+kohdassa [12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-sotuteekki)
 
 ### 1.2.2. Nimi, syntymäaika, muu nimi ja varaustunnus
 
