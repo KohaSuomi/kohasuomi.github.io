@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat**
 
@@ -45,6 +45,9 @@ Pohjoisesta etelään.
 **OUTI**
 * Normi asiakastukihommia.
 * Windows 11 -käyttöjärjestelmässä pdf-tiedostot avautuivat oletuksena Edge-selaimeen, eikä tarrojen tulostus toiminut tarratulostustyökalulla. Ongelma ratkesi sillä, että pdf:ien oletusohjelmaksi valittiin työasemalla Acrobat Reader.
+
+**Siilinjärvi**
+* Tarkistetut käyttösäännöt voimaan 1.1.2025 ja maksut 1.2.2025. Lapsi-ikäraja ei laskekaan 15 vuoteen vaan säilyy 18 vuodessa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
