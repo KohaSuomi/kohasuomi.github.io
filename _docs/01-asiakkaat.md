@@ -597,9 +597,9 @@ Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu 
 
 ### 1.4.2. Tili lukittu
 
-Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. 
+Asiakkaan tili lukitaan, jos hän yrittää kirjautua verkkopalveluun liian monta kertaa väärällä PIN-koodilla. 
 Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
-Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
+Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu: Vaihda PIN-koodi_.
 
 Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua 
 vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
@@ -637,8 +637,7 @@ Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus10.png) 
 
-Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. Vain myöhäisin päättymispäivämäärä näkyy 
-lainausnäytöllä, jos rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärät.  
+Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. Vaikka kaikki asiakkaan rajoitukset näkyvät lainausnäytöllä, niin rajoituksista myöhäisimmin päättyvän päättymispäivämäärä näkyy näkyvimmin lainausnäytöllä, jos rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärät. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
 
@@ -783,7 +782,7 @@ luontiajankohdasta.
 
 Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
-Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
+Taulukossa näkyvät myös kuluvan päivän palautukset.
 
 ![](assets/files/docs/Asiakkaat/Asiakkaantilastot.png)
 
@@ -794,7 +793,7 @@ _Toiminto ei ole käytössä_
 ### 1.6.9. Lainat
 
 Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
-maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
+maksut, mahdolliset taattavien maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
 _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
