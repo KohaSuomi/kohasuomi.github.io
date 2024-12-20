@@ -15,7 +15,9 @@ hakea asiakkaiden tietoja.
 
 ![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Asiakkaat2.png)
 
-Voit tehdä haun kirjoittamalla yläreunan hakukenttään hakutermin, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" ja klikkaamalla nuolinäppäintä. Pienen valikkokuvakkeen takaa löytyvät hakuehdot. Hieman alempana hakuehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, päädyt asiakastietojen hakusivulle.
+Voit tehdä haun kirjoittamalla yläreunan hakukenttään hakutermin, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" ja klikkaamalla nuolinäppäintä. 
+
+Pienen valikkokuvakkeen takaa löytyvät hakuehdot. Hieman alempana hakuehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, päädyt asiakastietojen hakusivulle.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat3.png" alt="" style="width:90.0%" />
 
