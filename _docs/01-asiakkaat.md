@@ -15,21 +15,21 @@ hakea asiakkaiden tietoja.
 
 ![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Asiakkaat2.png)
 
-Voit tehdä haun suoraan kirjoittamalla yläreunan hakukenttään hakutermi, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" klikkaamalla nuolinäppäintä. Pienen vaikkokuvakkeen takaa löytyy hakuvaihtoehtoja. Alempana hakuvaihtoehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, pääset asiakastietojen hakusivulle.
+Voit tehdä haun kirjoittamalla yläreunan hakukenttään hakutermin, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" ja klikkaamalla nuolinäppäintä. Pienen valikkokuvakkeen takaa löytyvät hakuehdot. Hieman alempana hakuehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, päädyt asiakastietojen hakusivulle.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat3.png" alt="" style="width:90.0%" />
 
-Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikoissa. Hae asiakkaita-hakulaatikko löytyy sivun vasemmasta laidasta.
+Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. Hae asiakkaita-hakulaatikko löytyy sivun vasemmasta laidasta.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
-- Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
+- Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
 hakulaatikoita ja rajaamalla hakuja hakuehdoilla. 
 
-Kirjoita hakutermi kohtaan _Haku_. Huom. Haku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
+Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
 
 Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
-- Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_ tai _sisältää_. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
+- Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_- tai _sisältää_-vaihtoehdon. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
 - Saat tarkennettua hakua rajaamalla hakua asiakastyypin mukaan,  jos valitset sen _Tyyppi_-alasvetovalikossa.
 - Saat tarkennettua hakua valitsemalla asiakkaan kirjaston _Kirjasto_-alasvetovalikosta.
 - _Hakukenttä_-alasvetovalikosta voit valita millä tiedolla teet hakua. Alla on kerrottu tarkemmin mitä milläkin hakukentällä voi hakea.
