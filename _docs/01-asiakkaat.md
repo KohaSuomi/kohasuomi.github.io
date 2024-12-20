@@ -469,15 +469,15 @@ kohdassa [4.1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dok
 ### 1.3.6. Lisää viesti
 
 Tällä toiminnolla lisätään asiakastietoihin viestejä. Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
-Voit lisätä ns. Sisäisen viestin tai Asiakasliittymäviestin.
+Voit lisätä ns. Sisäinen huomautus-viestin, Verkkokirjasto-viestin tai sähköpostiviestin.
 
-Sisäinen viesti näkyy vain virkailijaliittymässä.  
+Sisäinen huomautus näkyy vain virkailijaliittymässä.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti1.png)
 
-Asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.  
+Verkkokirjasto-viesti näkyy asiakkaalle verkkokirjastossa.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti2.png)
 
-Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainaus- ja Tiedot-sivuilla. Ne voi poistaa klikkaamalla roskakorikuvaketta.  
+Sekä sisäiset huomautukset että verkkokirjasto-viestit näkyvät Kohassa asiakkaan Lainaus- ja Tiedot-sivuilla. Viestit voi poistaa klikkaamalla roskakorikuvaketta.  
 
 <img src="/assets/files/docs/Asiakkaat/Jataviesti3.png" alt="" style="width:90.0%" />
 
@@ -485,6 +485,9 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 Viestin tallentajan tiedot eivät näy asiakkaalle verkkokirjastossa.
 {: .notice--warning}
+
+Sähköpostiviestille voi valita esimääritellyn pohjan tai viestin voi kirjoitettaa tyhjään kenttään. Viesti kirjoitetaan kirjaston antaman ohjeistuksen mukaan. 
+Asiakkan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on tiedoissaan sähköpostiosoite, sillä "Lisää viesti"- toiminto ei tarkista asiakkaan yhteystietoja ja ilmoita erikseen, jos asiakkaalta puuttuu sähköpostiosoite.
 
 ### 1.3.7. Muita toimintoja -alasvetovalikko
 
