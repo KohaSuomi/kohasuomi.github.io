@@ -15,7 +15,7 @@ hakea asiakkaiden tietoja.
 
 ![Asiakkaat-linkki yläpalkissa](/assets/files/docs/Asiakkaat/Asiakkaat2.png)
 
-Voit tehdä haun kirjoittamalla yläreunan hakukenttään hakutermin, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" ja klikkaamalla nuolinäppäintä. 
+Voit tehdä haun myös kirjoittamalla yläreunan hakukenttään hakutermin, valitsemalla hakuvaihtoehdoksi "Hae asiakkaita" ja klikkaamalla nuolinäppäintä. 
 
 Pienen valikkokuvakkeen takaa löytyvät hakuehdot. Hieman alempana hakuehdot on selitetty tarkemmin. Liian laajalla haulla tai haulla, jolla ei löydy tuloksia, päädyt asiakastietojen hakusivulle.
 
@@ -189,13 +189,12 @@ kohdassa [12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-
 
 - Syötä asiakkaan koko nimi Sukunimi- ja Etunimi-kenttiin.
 - Syntymäaika syötetään siinä tapauksessa, jos asiakkalla ei ole henkilötunnusta, muutoin asiakkaan syntymäaika muodostuu Syntymäaika-kenttään automaattisesti, kun hänen henkilötunnuksensa viedään Sotuteekkiin.
-- Muu nimi- kenttään voi tallentaa asiakkaan kutsumanimen, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään.
+- Muu nimi- kenttään voi tallentaa asiakkaan kutsumanimen, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään. 
 - Jos varaustunnus ei muodostu uudelle asiakkaalle automaattisesti kuten kuvassa, niin sen saa klikkaamalla Varaustunnus-kentän vieressä olevaa kolmea pistettä.
 
 Huomaathan, että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot tai kentät voivat olla eri nimisiä.
 
-Asiakastyyppeille on määritetty ikärajoituksia. Ohjelma tarkistaa
-syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
+Asiakastyyppeille on määritetty ikärajoituksia. Ohjelma tarkistaa syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
 ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
 ![](/assets/files/docs/Asiakkaat/ikaraja.png)
 
@@ -204,8 +203,7 @@ Virheilmoituksen saatuasi kaikista helpointa on aloittaa asiakkaan tietojen tall
 
 ### 1.2.3. Takaaja-tiedon tallentaminen ja poistaminen
 
-Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
-_Lisää takaaja_ -nappia, niin pääset hakemaan rekisteristä lapselle
+Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa _Lisää takaaja_ -nappia, niin pääset hakemaan rekisteristä lapselle
 takaajan.
 
 Huom. kaikissa kimpoissa ei ole kuvassa näkyvää _Näytä takaajille lainat_-vaihtoehtoa valittavissa.
