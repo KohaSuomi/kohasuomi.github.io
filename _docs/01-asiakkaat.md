@@ -493,7 +493,7 @@ Asiakkan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
 
-Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloa-sähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.  
+Muita toimintoja -napin takaa löytyvät toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloa-sähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.  
 Alasvetovalikon vaihtoehtojen näkyvyydessä tai käyttöoikeuksissa voi olla kimppakohtaisia eroja. 
 
 #### 1.3.7.1. Asiakaan käyttöoikeuden jatkaminen
@@ -515,7 +515,7 @@ Asiakkaan tiedot -sivulla tilin voi uusia Huomio- ja Kirjastotiedot -kohdissa _U
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen3.png)
 
 
-Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
+Uusinnassa asiakkaalle tallentuu vanhentumispäivämäärä asiakkaan asiakastyypille määritellyn voimassaoloajan mukaan.
 
 Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä. 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen4.png)
@@ -524,7 +524,7 @@ Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen m
 
 #### 1.3.7.2. Lähetä tervetulosähköposti
 
-Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Joissakin kimpoissa viesti lähtee automaattisesti, kun asiakkaan tiedot tallennetaan. Toimi kirjastosi ohjeiden mukaan.
+Klikkaamalla tätä vaihtoehtoa lähtee asiakkaalle Tervetuloa kirjaston asiakkaaksi -viesti sähköpostiosoitteeseen, joka hänelle on tallennettuna. Joissakin kimpoissa viesti lähtee automaattisesti, kun asiakkaan tiedot tallennetaan, joten toimi kirjastosi ohjeiden mukaan.
 
 #### 1.3.7.3. Poista
 
@@ -534,13 +534,14 @@ Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat _Kyllä,
 
 ![](/assets/files/docs/Asiakkaat/Poista1.png)
 
-Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
+Jos asiakkaan positaminen ei onnistu, niin Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä. 
+Poistaessasi asiakasta toimi kirjastosi ohjeiden mukaan.
 
 ![](/assets/files/docs/Asiakkaat/Poistonesto1.png)
 
 #### 1.3.7.4. Päivitä lapsi aikuiseksi
 
-Tätä toimintoa ei käytetä sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
+Tätä toimintoa ei käytetä manuaalisesti sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
 
 
 ### 1.3.8. Lapsiasiakkaan takaajan vaihtaminen
