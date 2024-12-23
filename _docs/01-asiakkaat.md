@@ -21,7 +21,7 @@ Pienen valikkokuvakkeen takaa löytyvät hakuehdot. Hieman alempana hakuehdot on
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat3.png" alt="" style="width:90.0%" />
 
-Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. Hae asiakkaita-hakulaatikko löytyy sivun vasemmasta laidasta.
+Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. Hae asiakkaita-hakulaatikko löytyy Asiakkaat-sivun vasemmasta laidasta.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
