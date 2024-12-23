@@ -240,21 +240,13 @@ tietoihin, jotka ovat edelleen auki toisella välilehdellä ja tee takaajahaku u
 
 Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
-### 1.2.4. Lapsiasiakkaan takaajan vaihtaminen
+### 1.2.4. Lapsiasiakkaan takaajan poistaminen
 
 Takaajatiedot pääsee muokkaamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
 Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna_. 
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
-
-Lisääminen tapahtuu _Lisää takaaja_ -painikkeella. Hae lisättävän huoltajan tiedot avautuvassa ikkunassa.
-
-![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
-
-Valitse hakutuloksesta huoltaja ja klikkaa _Valitse_ (_Select_).
-
-Valitse takaajan suhde ja tallenna.
 
 
 ### 1.2.5. Osoite
