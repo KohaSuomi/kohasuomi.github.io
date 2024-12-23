@@ -413,7 +413,7 @@ Asiakastietojen yläreunassa olevat painikkeet
 - _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin.
 
 Harvemmin tarvittavia muokkaustoimintoja löytyy _Muita toimintoja_ -alasvetovalikosta, joista tarkemmin 
-kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#157-muita-toimintoja--alasvetovalikko)
+kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#137-muita-toimintoja--alasvetovalikko)
 
 ### 1.3.1. Lisää huollettava
 
