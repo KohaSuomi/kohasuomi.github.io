@@ -220,14 +220,14 @@ oikean henkilön kohdalla.
 
 <img src="/assets/files/docs/Asiakkaat/Haetakaaja.png" alt="" style="width:90.0%" />
 
+Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi sekä kirjastokorttinumero. 
+
 Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
 vaihtoehdot voivat vaihdella kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
-Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi sekä kirjastokorttinumero. 
-
-Voit tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. 
+Voit tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. Lisää huoltajatiedot kimppasi/kirjastosi ohjeiden mukaan.
 
 Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
 {: .notice--warning}
