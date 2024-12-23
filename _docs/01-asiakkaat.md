@@ -498,6 +498,8 @@ Viestin tallentajan tiedot eivät näy asiakkaalle verkkokirjastossa.
 Sähköpostiviestille voi valita esimääritellyn pohjan tai viestin voi kirjoitettaa tyhjään kenttään. Viesti kirjoitetaan kirjaston antaman ohjeistuksen mukaan. 
 Asiakkan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on tiedoissaan sähköpostiosoite, sillä "Lisää viesti"- toiminto ei tarkista asiakkaan yhteystietoja ja ilmoita erikseen, jos asiakkaalta puuttuu sähköpostiosoite.
 
+![](/assets/files/docs/Asiakkaat/Jataviesti4.png)
+
 ### 1.3.7. Muita toimintoja -alasvetovalikko
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
