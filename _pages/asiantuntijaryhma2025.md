@@ -37,9 +37,16 @@ Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavi
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
 
+### PowerBI kyselyjen yhtenäistämismahdollisuudet
+
+Olisiko mahdollista tahdä PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa eriksken
+
+### KaTi työryhmän perustaminen
+
+Yhteiseen kuvailutietovarantoon siirtymistä varten tarvitaan työryhmä, jossa voidaan hahmotella esimerkiksi kuvailun työnjako ja tietueiden yhdistelysäännöt.
 
 ### Seuraavat kokoukset
 
 ### Muut asiat
 
-Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti mahdollista.
+Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
