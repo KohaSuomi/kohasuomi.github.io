@@ -16,11 +16,13 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 1
 
 Aika: 30.12.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Kodo, Emmi, Ari, Anneli
 
 * Vuosittainen GitHub-projekti
   * Nykyiseen "Tikettien seuranta"-projektiin ei voinut enää lisätä tikettejä, koska niissä tuli raja vastaan (1200 tikettiä). Jo suljetut tiketit arkistoitiin.
-  * Ehdotus: luodaan vuosittain uusi projekti, johon tiketit lisätään.  
+  * Ehdotus: luodaan vuosittain uusi projekti, johon tiketit lisätään.
+    * Pohditaan vielä.
+* Ei päivitystä tällä viikolla
 
 ## Viikko 52
 
