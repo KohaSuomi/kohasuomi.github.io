@@ -405,8 +405,6 @@ mukaan tilastoihin.
     - Jaotellaan automaattisesti MARC-kuvailutietojen mukaan
       Musiikkiäänitteisiin ja Muihin äänitteisiin.
   - Videoita: Videos
-  - CD-ROMeja: _CDROMs_
-  - DVD:tä ja Blu-rayta: _DVDsAndBluRays_
   - Muita: _Other_
   - Aikakauslehtiä: _Serials_
   - Celia-aineistoa: _Celia_
