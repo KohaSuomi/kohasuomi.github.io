@@ -39,7 +39,7 @@ Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavi
 
 ### PowerBI kyselyjen yhtenäistämismahdollisuudet
 
-Olisiko mahdollista tahdä PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa eriksken
+Olisiko mahdollista tahdä PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
 ### KaTi työryhmän perustaminen
 
