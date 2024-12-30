@@ -10,23 +10,3 @@ title: 'Hallituksen tiedotteet 2025'
 ---
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
-
-
-## Asiantuntijaryhmän esityslista 1/25
-
-Aika: 8.1.2025 klo 13<br />
-Läsnä:
-
-### Ajankohtaiset
-
-### Koha-seminaarin ohjelma
-
-### Vaski: noudettavien varausten käsittelyn nopeuttaminen
-
-Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavien varausten käsittelyn nopeuttamiseksi.
-
-### Käsiteltävät kehitysehdotukset
-
-### Muut asiat
-
-Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti mahdollista.
