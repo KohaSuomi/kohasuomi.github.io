@@ -10,3 +10,16 @@ title: 'Hallituksen tiedotteet 2025'
 ---
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
+
+
+## Asiantuntijaryhmän esityslista 1/25
+
+### Ajankohtaiset
+
+### Koha-seminaarin ohjelma
+
+### Vaski: noudettavien varausten käsittelyn nopeuttaminen
+
+Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavien varausten käsittelyn nopeuttamiseksi.
+
+### Käsiteltävät kehitysehdotukset
