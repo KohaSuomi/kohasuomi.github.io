@@ -13,6 +13,22 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 1
+
+Aika: 30.12.2024 klo 9<br />
+Läsnä:
+
+* Vuosittainen GitHub-projekti
+  * Nykyiseen "Tikettien seuranta"-projektiin ei voinut enää lisätä tikettejä, koska niissä tuli raja vastaan (1200 tikettiä). Jo suljetut tiketit arkistoitiin.
+  * Ehdotus: luodaan vuosittain uusi projekti, johon tiketit lisätään.  
+
+## Viikko 52
+
+Aika: 23.12.2024 klo 9<br />
+Läsnä: Kodo, Pasi ja Emmi
+
+* Ei erityistä.
+
 ## Viikko 51
 
 Aika: 16.12.2024 klo 9<br />
