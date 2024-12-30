@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 1
+
+Aika: 31.12.2024, klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* ei päivitystä tällä viikolla
+* 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
