@@ -17,6 +17,9 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Esityslista 1/2025
 
+Aika: 8.1.2025 klo 13<br />
+Läsnä:
+
 ### Ajankohtaiset
 
 ### Seuraavan versionvaihdon ajankohta
@@ -25,6 +28,18 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ### Tiekartta
 
+### Vaski: noudettavien varausten käsittelyn nopeuttaminen
+
+Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavien varausten käsittelyn nopeuttamiseksi.
+
 ### Kehitysehdotusten läpikäynti
 
+* [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
+* [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
+
+
 ### Seuraavat kokoukset
+
+### Muut asiat
+
+Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti mahdollista.
