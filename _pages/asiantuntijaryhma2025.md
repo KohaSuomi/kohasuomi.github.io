@@ -24,9 +24,17 @@ Läsnä:
 
 ### 2. Seuraavan versionvaihdon ajankohta
 
+Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen tapaan toukokuussa, niin ehdolla on ollut aiemmissa kokouksissa viikkojen 20-21 maanantait. Lappi ja Siilinjärvi ilmoittanut ennakkoon, että kumpi tahansa viikko sopii.
+
+Seuraavassa versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
+
 ### 3. Koha-seminaarin ohjelma
 
 ### 4. Tiekartta
+
+Käydään läpi tiekartta vuodelle 2025.
+
+Liite: [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18281009/Tiekartta2025.xlsx)
 
 ### 5. Vaski: noudettavien varausten käsittelyn nopeuttaminen
 
