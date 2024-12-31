@@ -65,4 +65,5 @@ Yhteiseen kuvailutietovarantoon siirtymistä varten tarvitaan työryhmä, jossa 
 
 ### 10. Muut asiat
 
-Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
+* Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
+* Koha-workerien määrän dynaaminen säätäminen järjestelmään kohdistuvan kuorman mukaan tarvitsisi urhean pilottikimpan.
