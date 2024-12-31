@@ -28,6 +28,8 @@ Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen 
 
 Seuraavassa versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
 
+Palvelimien ja Koha-asennusten käyttöjärjestelmät pitää päivittää täysin uuteen versioon, koska nykyisten tukiaika päättyy keväällä 2025. Tämä on iso työ.
+
 ### 3. Koha-seminaarin ohjelma
 
 ### 4. Tiekartta
