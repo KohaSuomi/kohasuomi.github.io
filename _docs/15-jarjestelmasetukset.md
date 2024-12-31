@@ -303,7 +303,7 @@ finnaprefix |esim. outi. | Asetukseen laitetaan kimpan Finna-tietueiden tunniste
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
-LockExpiredDelay | Jätä tyhjäksi | Jos tässä asetuksessa on arvo, cleanup_database-cron ajo asettaa vanhentuneille asiakkaille borrowers-tauluun login_attempts-sarakkeeseen arvon -1 eli "Tili on lukittu hallinnollisesti". Cronajo ei ole normaalisti käytössä, mutta sitä saatetaan joutua käyttämään välillä, joten asetuksen arvo kannattaa jättää tyhjäksi, jolloin toiminto ei ole käytössä.
+LockExpiredDelay | Jätä tyhjäksi | Jos tässä asetuksessa on arvo, cleanup_database-cronajo asettaa vanhentuneille asiakkaille borrowers-tauluun login_attempts-sarakkeeseen arvon -1 eli "Tili on lukittu hallinnollisesti". Cronajo ei ole normaalisti käytössä, mutta sitä saatetaan joutua käyttämään välillä, joten asetuksen arvo kannattaa jättää tyhjäksi, jolloin toiminto ei ole käytössä.
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
 SearchEngine| ElasticSearch |
 StoreLastBorrower | Säilytä | Säilytetään erillisessä taulussa niteen viimeisin lainaaja, vaikka lainat anonymisoidaan. Auttaa löytämään oikean asiakkaan ongelmatilanteissa.
