@@ -37,9 +37,9 @@ Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavi
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
 
-### 7. PowerBI-kyselyjen yhtenäistämismahdollisuudet
+### 7. PowerBI-vertaisryhmän tilannekatsaus
 
-Olisiko mahdollista tahdä PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
+Ryhmään tarvittanee täydennyt jälkeenpäin mukaan liittyneistä kimpoista (Kirkes ja Lastu), Koha-Suomen edustus "kuunteluoppilaana" voisi ehkä olla myös hyvä, jotta Koha-Suomessakin tiedettäisiin ryhmän toiminnasta. Olisiko mahdollista tahdä ja julkaista PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
 ### 8. KaTi-työryhmän perustaminen
 
