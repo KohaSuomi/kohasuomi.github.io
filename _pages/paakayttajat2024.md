@@ -23,15 +23,17 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari 
 
 Etelästä pohjoiseen
 
+**VASKI**
+* https://github.com/KohaSuomi/Koha/issues/1582. Sovittiin, että Vaskissa testataan noudattaako sijaintikirjaston kalenteria.
+* Asiakkaat, joiden tili on vanhentunut, tilit lukittuivat Vaskissa kun cleanup_database-cron ajettiin. Näillä asiakkailla on nyt login_attempts -1 ja viesti: "tili on lukittu hallinnollisesti”. Lukitus johtuu siitä, että asiakkaiden tili oli vanhentunut kun 28.11.2024 ajettiin cleanup_database-cron. Sovittiin, että Vaski tekee tästä tiketin, jotta ilmiö tulee kirjatuksi. LockExpiredDelay-asetus tulee jättää tyhjäksi.
+* Asiakkaalle on Finnaan ilmestynyt-suosikkilista tai suosikkeja, joita hän ei ole lisännyt. Vastaava tapaus myös Lastussa. Jos asiasta tulee lisätietoa, Susanna tekee Finna-tukipyynnön.
+  
 **OUTI**
 * OUTIn verkkokirjaston verkkomaksu on pois käytöstä 31.12.24 klo 20 – 1.1.25 klo 20 ALV-verokannan muutoksen vuoksi.
 * Oulun hankinnasta on tullut viestiä, että versiopäivityksen jälkeen olisi Kohan vastaanottoon tullut bugi. Eli kun yksi nimeke vastaanotetaan ja aukeavasta vastaanottoikkunasta valitaan vastaanotettavat niteet ja tallennetaan, niin jostain syystä välillä vastaanottoikkuna avautuu/pomppaa esiin uudelleen tallennuksen jälkeen. Tästä syystä osa niteistä voi ehkä jäädä tilattu-tilaan, jos ei jää odottelemaan, että Koha käsittelee niteiden vastaanoton loppuun. Kun odottelee, että Koha käsittelee niteet, vastaanottoikkuna katoaa itsestään pois, mutta jos klikkaa jostain uudestaan, tulee virheilmoitus. Pyydetty virheilmoitus, kun ongelma seuraavan kerran tulee eteen. Tätä bugia ei tapahdu koko ajan. 
 Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, josko auttaisi ongelmaan.
 
-**VASKI**
-* https://github.com/KohaSuomi/Koha/issues/1582. Sovittiin, että Vaskissa testataan noudattaako sijaintikirjaston kalenteria.
-* Asiakkaat, joiden tili on vanhentunut, tilit lukittuivat Vaskissa kun cleanup_database-cron ajettiin. Näillä asiakkailla on nyt login_attempts -1 ja viesti: "tili on lukittu hallinnollisesti”. Lukitus johtuu siitä, että asiakkaiden tili oli vanhentunut kun 28.11.2024 ajettiin cleanup_database-cron. Sovittiin, että Vaski tekee tästä tiketin, jotta ilmiö tulee kirjatuksi. LockExpiredDelay-asetus tulee jättää tyhjäksi.
-* Asiakkaalle on Finnaan ilmestynyt-suosikkilista tai suosikkeja, joita hän ei ole lisännyt. Vastaava tapaus myös Lastussa. Jos asiasta tulee lisätietoa, Susanna tekee Finna-tukipyynnön.
+
 
 
 
