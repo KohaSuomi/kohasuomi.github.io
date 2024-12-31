@@ -22,15 +22,21 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Vuodenvaihteessa tehdään monenlaisia vuosittaisia ajoja kuten vuoden 2024 OKM-tilastot, julkisoikeudellisten maksujen vanhentamisajot sekä Teostolle lainatilastot. Myös epäaktiivisten asiakkaiden poistoajot ovat työn alla.
+
 ### 2. Seuraavan versionvaihdon ajankohta
 
 Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen tapaan toukokuussa, niin ehdolla on ollut aiemmissa kokouksissa viikkojen 20-21 maanantait. Lappi ja Siilinjärvi ilmoittanut ennakkoon, että kumpi tahansa viikko sopii.
 
-Seuraavassa versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
+Seuraavassa Kohan versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
 
 Palvelimien ja Koha-asennusten käyttöjärjestelmät pitää päivittää täysin uuteen versioon, koska nykyisten tukiaika päättyy keväällä 2025. Tämä on iso työ.
 
 ### 3. Koha-seminaarin ohjelma
+
+Ennen kokousta tulleita ehdotuksia:
+* OUTI: voisiko Turku esitellä kellutustyökalua
+* taukojumppaa Koha-Suomen henkilökunnan toimesta
 
 ### 4. Tiekartta
 
