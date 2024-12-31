@@ -20,33 +20,33 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 8.1.2025 klo 13<br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
-### Seuraavan versionvaihdon ajankohta
+### 2. Seuraavan versionvaihdon ajankohta
 
-### Koha-seminaarin ohjelma
+### 3. Koha-seminaarin ohjelma
 
-### Tiekartta
+### 4. Tiekartta
 
-### Vaski: noudettavien varausten käsittelyn nopeuttaminen
+### 5. Vaski: noudettavien varausten käsittelyn nopeuttaminen
 
 Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavien varausten käsittelyn nopeuttamiseksi.
 
-### Kehitysehdotusten läpikäynti
+### 6. Kehitysehdotusten läpikäynti
 
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
 
-### PowerBI kyselyjen yhtenäistämismahdollisuudet
+### 7. PowerBI-kyselyjen yhtenäistämismahdollisuudet
 
 Olisiko mahdollista tahdä PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
-### KaTi työryhmän perustaminen
+### 8. KaTi-työryhmän perustaminen
 
 Yhteiseen kuvailutietovarantoon siirtymistä varten tarvitaan työryhmä, jossa voidaan hahmotella esimerkiksi kuvailun työnjako ja tietueiden yhdistelysäännöt.
 
-### Seuraavat kokoukset
+### 9. Seuraavat kokoukset
 
-### Muut asiat
+### 10. Muut asiat
 
 Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
