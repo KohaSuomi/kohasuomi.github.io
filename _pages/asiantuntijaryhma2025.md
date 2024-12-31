@@ -61,9 +61,10 @@ Ryhmään tarvittanee täydennystä jälkeenpäin mukaan liittyneistä kimpoista
 
 Yhteiseen kuvailutietovarantoon siirtymistä varten tarvitaan työryhmä, jossa voidaan hahmotella esimerkiksi kuvailun työnjako ja tietueiden yhdistelysäännöt.
 
-### 9. Seuraavat kokoukset
-
-### 10. Muut asiat
+### 9. Muut asiat
 
 * Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
 * Koha-workerien määrän dynaaminen säätäminen järjestelmään kohdistuvan kuorman mukaan tarvitsisi urhean pilottikimpan.
+
+### 10. Seuraavat kokoukset
+
