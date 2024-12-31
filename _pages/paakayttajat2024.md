@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: 31.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * ei päivitystä tällä viikolla
@@ -22,6 +22,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 * muistattehan ilmoitella säilytettävien asiakkaiden aikarajan [vanhentuneiden asiakkaiden poistoajoa varten](https://github.com/KohaSuomi/Koha/issues/510#issuecomment-2531207554)
 
 Etelästä pohjoiseen
+
+**OUTI**
+* OUTIn verkkokirjaston verkkomaksu on pois käytöstä 31.12.24 klo 20 – 1.1.25 klo 20 ALV-verokannan muutoksen vuoksi.
+* Oulun hankinnasta on tullut viestiä, että versiopäivityksen jälkeen olisi Kohan vastaanottoon tullut bugi. Eli kun yksi nimeke vastaanotetaan ja aukeavasta vastaanottoikkunasta valitaan vastaanotettavat niteet ja tallennetaan, niin jostain syystä välillä vastaanottoikkuna avautuu/pomppaa esiin uudelleen tallennuksen jälkeen. Tästä syystä osa niteistä voi ehkä jäädä tilattu-tilaan, jos ei jää odottelemaan, että Koha käsittelee niteiden vastaanoton loppuun. Kun odottelee, että Koha käsittelee niteet, vastaanottoikkuna katoaa itsestään pois, mutta jos klikkaa jostain uudestaan, tulee virheilmoitus. Pyydetty virheilmoitus, kun ongelma seuraavan kerran tulee eteen. Tätä bugia ei tapahdu koko ajan. 
+Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, josko auttaisi ongelmaan. 
+
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
