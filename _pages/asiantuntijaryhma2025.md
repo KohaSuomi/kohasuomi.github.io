@@ -30,8 +30,6 @@ Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen 
 
 Seuraavassa Kohan versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
 
-OpenApiin on myös tullut iso päivitys, joka myöskin on yhteisössä vielä alkutekijöissä. Ongelma sama kuin edellisessä kohdassa.
-
 Palvelimien ja Koha-asennusten käyttöjärjestelmät pitää päivittää täysin uuteen versioon, koska nykyisten tukiaika päättyy 31.5.2025. Tämä on iso työ ja vie paljon työaikaresursseja.
 
 ### 3. Koha-seminaarin ohjelma
