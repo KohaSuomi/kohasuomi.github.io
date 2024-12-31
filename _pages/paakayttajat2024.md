@@ -13,13 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: 31.12.2024, klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset asiat**
 * ei päivitystä tällä viikolla
 * [Niteiden hankintaan nidetyypin automaattinen valinta #2](https://github.com/KohaSuomi/koha-plugin-editx/issues/2) 
   * Toteutus ei onnistu samalla tavalla kuin Kohan niteiden lisäyksessä, tiketissä vaihtoehtoja toteutukselle.
 * muistattehan ilmoitella säilytettävien asiakkaiden aikarajan [vanhentuneiden asiakkaiden poistoajoa varten](https://github.com/KohaSuomi/Koha/issues/510#issuecomment-2531207554)
+
+Etelästä pohjoiseen
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
