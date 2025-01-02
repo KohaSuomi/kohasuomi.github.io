@@ -820,8 +820,10 @@ body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
 
 ### Piilota oletusmaksuja asiakkaan lisää maksu -toiminnosta
 
+Maksutyyppien näkyvyyttä voi muokata myös Ylläpidossa Maksutyypit-osiossa. Jos maksutyypiltä ottaa pois rastin Voidaan lisätä maksu käsin? -kohdasta, niin se katoaa Lisää maksu -välilehdeltä.
+
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota maksutyyppejä asiakkaan lisää maksu -toiminnosta */
@@ -832,14 +834,14 @@ body#pat_maninvoice.pat option[value='LOST'] { display:none; }
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys, alennus, peruuta veloitus ja mitätöi maksutapahtuma -painikkeet
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota alennus, peruuta veloitus, luo hyvitys ja mitätöi maksutapahtuma -napit asiakkaan tilitapahtumat sivulta */
 body#pat_borraccount button.discount-action { display: none; }
 body#pat_borraccount button.cancel-action { display: none; }
 body#pat_borraccount button.refund-action { display: none; }
-body#pat_borraccount a.void-action { display: none; }
+body#pat_borraccount button.void-action { display: none; }
 ```
 
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Tulostus- ja Maksu-nappi
@@ -847,13 +849,24 @@ body#pat_borraccount a.void-action { display: none; }
 Piilota Maksut/Tapahtumat-välilehdeltä maksun tietojen tulostus-napit sekä Maksu-nappi. Liittyy tikettiin [Koha #476](https://github.com/KohaSuomi/Koha/issues/476).
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
-body#pat_borraccount a.btn.btn-default.btn-xs.invoice-print-action { display: none; } /* Maksun tietojen tulostus-napin piilotus */
-body#pat_borraccount a.btn.btn-default.btn-xs.pay-action { display: none; } /* Maksu-napin piilotus */
-body#pat_borraccount a.btn.btn-default.btn-xs.receipt-print-action { display: none; } /* Maksutapahtuman tai maksun poiston kuitti */
+body#pat_borraccount a.btn.btn-default.btn-xs.invoice-print-action { display: none; } /* Maksun tietojen tulostus-napin piilotus Tapahtumat-välilehdeltä */
+body#pat_borraccount button.btn.btn-default.btn-xs.pay-action { display: none; } { display: none; } /* Maksa-napin piilotus Tapahtumat-välilehdeltä */
+body#pat_borraccount a.btn.btn-default.btn-xs.receipt-print-action { display: none; } /* Maksutapahtuman tai maksun poiston kuitin tulostuksen piilotus Tapahtumat-välilehdeltä */
 ```
+
+### Piilota Poista-välilehden linkki Maksu-sivulta kun maksetaan valittuja maksuja
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota Poista-välilehden linkki Maksu-sivulta kun maksetaan valittuja maksuja. */
+body#pat_paycollect ul.nav-pills { display: none;}
+```
+
 
 ## Tiedonhaku
 
@@ -904,7 +917,7 @@ body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color
 ### Piilota kentät 336-338
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota perustiedot-näytöltä kentät 336-338 */
@@ -913,6 +926,7 @@ body#catalog_detail #content_type.results_summary { display: none; }
 
 ### Esityskokoonpanon järjestys näytöllä
 
+Tarpeellisuus: Ei tarpeellinen version 17.05 jälkeen<br />
 Versio: 17.05
 
 ```
@@ -925,7 +939,7 @@ Versio: 17.05
 ### Otsikot boldattuna mustalla
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Rivien otsikot boldilla perustiedot-näytöllä. selkeyttää näkymää. */
@@ -933,8 +947,23 @@ Versio: 23.11
 body#catalog_detail.catalog h5.author { font-weight: bold }
 ```
 
+### Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet/otsikot
+
+Liittyy tikettiin [#1395](https://github.com/KohaSuomi/Koha/issues/1395)
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 24.05
+
+```
+/* Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet/otsikot */
+#catalog_results #searchresults a.nimeke { font-weight: bold }
+#bibliodetails #components a.nimeke { font-weight:bold; }
+```
+
+
 ### Auktoriteettien MARC-näkymän säätöä
 
+Tarpeellisuus: Ei tarpeellinen<br />
 Versio: 17.05
 
 ```
@@ -947,8 +976,9 @@ Versio: 17.05
 #authoritiestabs div.tag p:hover .labelsubfield span {  display: inline; float:right; border: 1px solid black; background-color:#f0f0f0; position:relative; top: -1em; right: 0; padding:1em; }
 ```
 
-### Muokka hakutulos-näytön värejä
+### Muokkaa hakutulos-näytön värejä
 
+Tarpeellisuus: Ei tarpeellinen<br />
 Versio: 17.05
 
 ```
@@ -960,6 +990,7 @@ Versio: 17.05
 
 ### Piilota Näytä kausijulkaisun tiedot -linkki
 
+Tarpeellisuus: Ei tarpeellinen<br />
 Versio: 17.05
 
 ```
@@ -968,8 +999,9 @@ span.results_summary.analytics { display: none; }
 
 ### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
 
-Versio: 23.11<br />
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
 
 ```
 /* Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta. */
@@ -982,7 +1014,7 @@ body#catalog_detail span.results_summary.analytics.analytic_undefined { display:
 Piilota perustiedot-näytöltä huomautus toimenpiteestä eli MARC-kentän 583-tieto.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Toimenpide-huomautus 583-kenttä perustiedot-näytöltä */
@@ -993,6 +1025,7 @@ span.results_summary.actionnote { display: none; }
 
 Joskus luettelointitiedoissa on syystä tai toisesta useampi kansikuvalinkki. Jos haluaa, että näkyvillä on vain yksi kansikuva, saa muut piiloon seuraavalla rimpsulla.
 
+Tarpeellisuus: Ei tarpeellinen <br />
 Versio: 17.05
 
 ```
@@ -1008,7 +1041,7 @@ Versio: 17.05
 Alla on kolme versiota, joilla voi säätää kansikuvien kokoa. Ensimmäinen versio vaikuttaa sekä hakutuloslista-sivulle että perustiedot-sivulle. Toinen vaikuttaa vain hakutulostilsta-sivulle ja kolmas perustiedot-näytölle. 
 
 Tarpeellisuus: Suositeltava<br />
-Versio 23.11
+Versio 24.05
 
 
 Hakutuloslistalle:
@@ -1028,7 +1061,7 @@ body#catalog_detail.catalog img#custom-img { height: 90%; max-width: 180% }
 ### Piilota kansikuva-sarakkeen teksti hakutuloksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 23.11
+Versio 24.05
 
 ```
 /* Piilota kansikuva-sarakkeen tekstit hakutuloksista */
@@ -1039,7 +1072,7 @@ body#catalog_results.catalog td.bookcoverimg div.hint {display:none;}
 ### Piilota tarkassa haussa Lisärajaukset-osio
 
 Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Tarkan haun Lisärajuslaatikon piilotus. Jos tämän laittaa päälle, menettää valikoihin lisätyt hakuehdot */
@@ -1049,18 +1082,18 @@ Versio: 23.11
 #### Piilota nidehaussa Inventaarionumero-sarake
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 23.11
+Versio 24.05
 
 ```
 /* Piilota inventaarionumero-sarake nidehaun tuloksissa */
-body#catalog_itemsearch.catalog td:nth-child(13) { display: none; }
+body#catalog_itemsearch.catalog td:nth-child(14) { display: none; }
 body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
 ```
 
 #### Piilota Nidetyyppi-sarake korissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota Nidetyyppi-sarake korissa */
@@ -1071,7 +1104,7 @@ Versio: 23.11
 ### Piilota Niteet-sivulta Piilota sija jonossa -kohta tai Ennakkovarattavissa-rivi
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Tämä piilottaa Niteet-sivulta koko Piilota Sija jonossa -kohdan eli piiloon menee Jätä pois paikallistan varausten jonosta ja Ennakkovarattavissa -kohdat. Alla vaihtoehto.
 ```
@@ -1088,7 +1121,7 @@ body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-chi
 ### Muuta MARC21-kenttien otsikot näkymään isoilla kirjaimilla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Tällä rimpsulla voi muuttaa Tietueen MARC21-näkymässä ja tietueen muokkauksessa MARC21-kenttien otsikot näkymään isoilla kirjaimilla (ei siis varsinaisesti muuta, näyttää vain). Voi selkeyttää näkymää jonkin verran.
 
