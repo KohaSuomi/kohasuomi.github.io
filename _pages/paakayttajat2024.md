@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: 31.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat**
 * ei päivitystä tällä viikolla
@@ -37,6 +37,9 @@ Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, j
 * Aikakauslehtiä oli vahingossa poistettu massana, pohditaan ylävalikossa olevan niteiden massapoistovaihtoehdon piilottamista tai JavaScriptilla toiminnon luomista, jolla valikosta avautuvassa listassa ei olisi kaikki niteet automaattisesti valittuna.
 * Asiakkaan tiedoissa oleviin viesteihin kaipailtiin viestin tekijää mukaan, selvisi että tämä olikin JS:llä piilotettu.
 * Kysyttiin sotuteekin käyttäytymisestä, mikäli asiakkaan tallennus jää sotun siiloon viemisen jälkeen kesken. Asiakkaan tietojen tallennus käyttäytyy seuraavalla kerralla samalla tavalla, eli eroa ei käyttäjälle ole.
+
+**Siilinjärvi**
+* Ei mainittavaa, tavallisia lähestyvän vuodenvaihteen töitä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
 
