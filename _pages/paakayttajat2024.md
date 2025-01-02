@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: 31.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset asiat**
 * ei päivitystä tällä viikolla
@@ -33,9 +33,10 @@ Etelästä pohjoiseen
 * Oulun hankinnasta on tullut viestiä, että versiopäivityksen jälkeen olisi Kohan vastaanottoon tullut bugi. Eli kun yksi nimeke vastaanotetaan ja aukeavasta vastaanottoikkunasta valitaan vastaanotettavat niteet ja tallennetaan, niin jostain syystä välillä vastaanottoikkuna avautuu/pomppaa esiin uudelleen tallennuksen jälkeen. Tästä syystä osa niteistä voi ehkä jäädä tilattu-tilaan, jos ei jää odottelemaan, että Koha käsittelee niteiden vastaanoton loppuun. Kun odottelee, että Koha käsittelee niteet, vastaanottoikkuna katoaa itsestään pois, mutta jos klikkaa jostain uudestaan, tulee virheilmoitus. Pyydetty virheilmoitus, kun ongelma seuraavan kerran tulee eteen. Tätä bugia ei tapahdu koko ajan. 
 Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, josko auttaisi ongelmaan.
 
-
-
-
+**Lastu**
+* Aikakauslehtiä oli vahingossa poistettu massana, pohditaan ylävalikossa olevan niteiden massapoistovaihtoehdon piilottamista tai JavaScriptilla toiminnon luomista, jolla valikosta avautuvassa listassa ei olisi kaikki niteet automaattisesti valittuna.
+* Asiakkaan tiedoissa oleviin viesteihin kaipailtiin viestin tekijää mukaan, selvisi että tämä olikin JS:llä piilotettu.
+* Kysyttiin sotuteekin käyttäytymisestä, mikäli asiakkaan tallennus jää sotun siiloon viemisen jälkeen kesken. Asiakkaan tietojen tallennus käyttäytyy seuraavalla kerralla samalla tavalla, eli eroa ei käyttäjälle ole.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
 
