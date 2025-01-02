@@ -267,6 +267,33 @@ Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla. Sopimuksen
 Sopimuksen voi valita alasvetovalikosta, kun luot tilauskoria.  
 ![Tilauskorin luontilomakkeella kolmanneksi alimmaisena kenttänä on Sopimus. Alasvetovalikossa on valittavana Testisopimus-niminen sopimus.](/assets/files/docs/Hankinta/hankinta20.png)
 
+### 7.2.4 Toimittajan ongelmat
+
+Toimittajan ongelmat -osiossa pystyy kirjaamaan ylös erilaisia toimittajan toimintaan liittyviä ongelmia. Tietoja voidaan hyödyntää esim. sopimusneuvotteluissa.
+
+Toimittajan ongelmat -osio löytyy toimittajan tiedoista vasemman reunan valikosta.
+
+![Toimittajan ongelmat](/assets/files/docs/Hankinta/hankinta201.png)
+
+Sivulla näytetään kaikki toimittajaan liittyvät ongelmat.
+
+![Toimittajan ongelmat](/assets/files/docs/Hankinta/hankinta202.png)
+* Voit muokata ongelmaa Toiminnot-sarakkeen _Muokkaa_-napilla.
+* Voit poistaa ongelman _Poista_-napilla.
+
+#### Uusi toimittajan ongelma
+
+Voit lisätä uuden toimittajan ongelman valitsemalla _Uusi ongelma_ napista. Täydennä lomakkeen tiedot tarvittavilta osin.
+
+![Uusi toimittajan ongelma](/assets/files/docs/Hankinta/hankinta203.png)
+* _Tyyppi_: Valitse ongelman tyyppi. Valikon vaihtoehtoja hallinnoidaan auktorisoiduissa arvoissa VENDOR_ISSUE_TYPE -arvolla.
+* _Alkoi_: Ongelman alkamispäivä
+* _Päättyi_: Ongelman loppumispäivä
+* _Huomautukset_: Lisätietoja ongelmasta
+
+Tallenna valitsemalla _OK_.
+
+
 ## 7.3 Hankintaehdotukset
 
 Kohassa on toiminto, jolla pystyy tekemään ja käsittelemään
