@@ -161,6 +161,18 @@ Versio: 24.05
 body#pat_moremember a[href*="&step="] { display: none; }
 ```
 
+### Piilota Lainaus-sivulla Muokkaa-nappi Kortti kadonnut -ilmoituksen perästä
+
+Liittyy [tikettiin #128](https://github.com/KohaSuomi/Koha-24.05/issues/128).
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 24.05
+
+```
+/* Piilota asiakkaan Lainaus-sivulla Muokkaa-nappi Kortti kadonnut -ilmoituksen perästä, koska tietoja ei voi sitä kautta tallentaa sotu-avaimen tarkistuksen vuoksi */
+body#circ_circulation.circ a[href*="&step="] { display: none; }
+```
+
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -169,6 +181,16 @@ Versio: 24.05
 ```
 /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
+```
+
+### Piilota Bookings/Ennakkovaraukset -välilehti lainauksessa/tiedot-sivulla
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota Bookings/Ennakkovaraukset -välilehti lainauksessa/tiedot-sivulla */
+ a#bookings-tab { display: none; }
 ```
 
 ### Piilota Tarkasta edelliset lainat -kohta asiakkaan muokkauksesta
@@ -399,6 +421,16 @@ Versio: 24.05
 div#add_message_form #message_type option[value='B'] { display:none; }
 ```
 
+### Piilota Sähköposti-vaihtoehto Viestin lisäys -popupista
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota Sähköposti-vaihtoehto Viestin lisäys-popupista */
+div#add_message_form #message_type option[value='E'] { display:none; }
+```
+
 ### Piilota tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -498,6 +530,32 @@ Versio: 24.05
 ```
 /* Levennä otsikkokenttiä asiakkaan muokkauksessa */
 body#pat_memberentrygen fieldset.rows label { width: 13rem; }
+```
+
+### Piilota Lajittelu 1/2 -laatikot Takaajan haku -modaalissa
+
+Liittyy [tikettiin #1330](https://github.com/KohaSuomi/Koha/issues/1330).
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota Lajittelu 1/2 -laatikot Takaajan haku -modaalissa. */
+body#pat_memberentrygen.modal-open form fieldset.brief ol li:nth-child(4),
+body#pat_memberentrygen.modal-open form fieldset.brief ol li:nth-child(5) { display: none; }
+```
+
+### Piilota Väärä osoite ja Kortti kadonnut -rivit asiakkaan Tiedot-sivulta oikealta Kirjastotiedot-laatikosta
+
+Liittyy [tikettiin #138](https://github.com/KohaSuomi/Koha-24.05/issues/138).
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota Väärä osoite ja Kortti kadonnut -rivit asiakkaan Tiedot-sivulta oikealta Kirjastotiedot-laatikosta */
+body#pat_moremember.pat li#patron-flags-gonenoaddress { display:none; }
+body#pat_moremember.pat li#patron-flags-lostcard { display:none; }
 ```
 
 ## Asiakkaat-sivu
@@ -1079,7 +1137,7 @@ Versio: 24.05
 #catalog_advsearch #subtype { display:none; }
 ```
 
-#### Piilota nidehaussa Inventaarionumero-sarake
+### Piilota nidehaussa Inventaarionumero-sarake
 
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio 24.05
@@ -1090,7 +1148,7 @@ body#catalog_itemsearch.catalog td:nth-child(14) { display: none; }
 body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
 ```
 
-#### Piilota Nidetyyppi-sarake korissa
+### Piilota Nidetyyppi-sarake korissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 24.05
@@ -1129,6 +1187,31 @@ Tällä rimpsulla voi muuttaa Tietueen MARC21-näkymässä ja tietueen muokkauks
 /* Isoiksi kirjaimiksi MARC21-kenttien otsikot */
 body#catalog_MARCdetail.catalog div.tag_title, body#cat_addbiblio.cat a.expandfield  {
         text-transform: uppercase; }
+```
+
+### Säädä Kokoelmat-taulukossa alasvetovalikoiden leveys kapeammaksi
+
+Liittyy [tikettiin #139](https://github.com/KohaSuomi/Koha-24.05/issues/139).
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Säädä Kokoelmat-taulukossa alasvetovalikoiden leveys kapeammaksi. Valikot tulevat näkyville, kun klikkaa Näytä rajaukset -linkkiä */
+body#catalog_detail.catalog select.dt-select-filter { max-width: 200px; }
+```
+
+### Säädä Nidetyyppi-sarakkeen maksimileveys lisäksi kapeammaksi kuin muilla sarakkeilla "Säädä Kokoelmat-taulukossa alasvetovalikoiden leveys kapeammaksi
+
+Liittyy [tikettiin #139](https://github.com/KohaSuomi/Koha-24.05/issues/139) ja voi laittaa yllä olevan alasvetovalikoiden säädön lisäksi, jos haluaa säätää Kokoelmat-taulukon nidetyyppi-saraketta kapeammaksi kuin muita sarakkeita.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Säädä Nidetyyppi-sarakkeen maksimileveys lisäksi kapeammaksi kuin muilla sarakkeilla "Säädä Kokoelmat-taulukossa alasvetovalikoiden leveys kapeammaksi" -rimpsussa. */
+body#catalog_detail.catalog th#holdings_itype { max-width: 100px; }
+body#catalog_detail.catalog th#holdings_itype select.dt-select-filter { max-width: 100px; }
 ```
 
 ---
