@@ -11,6 +11,7 @@ toc: true
 **Huomioitavaa:** Hankinnan tilejä ei saa poistaa, jotta tilastointi
 toimisi oikein. Tilit voi sulkea halutessaan, eikä se vaikuta
 tilastoihin.
+{: .notice--warning}
 
 Kohan Hankinta mahdollistaa tilausten teon ja budjetin seuraamisen.
 Kirjastolle pitää olla määritettynä budjetti ja vähintään yksi tili,
