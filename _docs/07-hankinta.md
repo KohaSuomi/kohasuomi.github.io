@@ -535,7 +535,7 @@ Klikkaamalla Tilaus-nappia saat kausijulkaisutilauksen tiedot tilauslomakkeelle 
 Lisää nide -osiota, koska kausijulkaisutilauksessa sitä ei tarvita.  
 ![Tilausnäkymä ilman nidetietoja](/assets/files/docs/Hankinta/hankinta50.png)
 
-#### 7.4.1.6. Uudesta (tyhjästä) tietueesta
+#### 7.4.1.4. Uudesta (tyhjästä) tietueesta
 
 Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
 valitse _Uudesta (tyhjästä) tietueesta_.  
@@ -557,7 +557,13 @@ Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikätee
   - Tekijätieto menee kolmeen kohtaan 100a/110a/111a -> poista ylimääräiset.
   - Toimittajatieto menee 028a-kenttään -> siirrä oikeaan
 
-#### 7.4.1.4 Olemassa olevista tilauksista (kopio)
+##### 7.4.1.4.1. ACQ-kuvailupohjan käyttäminen
+
+Uudesta (tyhjästä) tietueesta -toiminnossa voi käyttää kuvailutietojen lisäämiseen myös hankinnan oletuspohjaa eli ACQ-kuvailupohjaa. Toiminnon voi aktivoida järjestelmäasetuksella _UseACQFrameworkForBiblioRecords_. Tällöin ACQ-kuvailupohjasta kannattaa poista kaikki sellaiset MARC-kentät, joita ei tarvita, muuten tilausta lisätessä näkyville tulee kaikki mahdolliset kentät.
+
+![Luettelon tiedot -kohdassa näkyvillä ACQ-kuvailupohjaan määritetyt MARC-kentät](/assets/files/docs/Hankinta/hankinta511.png)
+
+#### 7.4.1.5. Olemassa olevista tilauksista (kopio)
 
 Tilauksen voi tehdä jo olemassa olevan tilauksen pohjalta kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla. HUOM! Tämä on hidas, jos tietokannassa on paljon tilauksia eli käytännössä kaikilla.
 
@@ -575,7 +581,7 @@ Tilaukset luodaan ja saat yhteenvedon kopioiduista tilauksista. Palaa takaisin t
 
 ![Yhteenveto kopioiduista tilauksista](/assets/files/docs/Hankinta/hankinta505.png)
 
-#### 7.4.1.5 Ulkoisesta lähteestä
+#### 7.4.1.6. Ulkoisesta lähteestä
 
 Tilattavan teoksen kuvailutiedot voi noutaa myös ulkoisesta lähteestä, jolloin avautuu Z39.50-haku.
 
@@ -600,7 +606,7 @@ Tilauslomakkeella ei voi muuttaa kuvailutietoja. Jos haluat
 tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.  
 ![Teoksen tiedot tilauslomakkeella ja ympäröitynä Muokkaa tietuetta -linkki](/assets/files/docs/Hankinta/hankinta54.png)
 
-#### 7.4.1.6 Uudesta tiedostosta
+#### 7.4.1.7 Uudesta tiedostosta
 
 HUOM! Koha-Suomi ei tue tätä toimintatapaa.
 {: .notice--warning}
@@ -636,7 +642,7 @@ Täydennä tarvittavat tiedot välilehdille ja valitse sitten _Tallenna_
 
 ![Tilitietojen valinta eli mm. rahayksikkö ja käytettävä tili](/assets/files/docs/Hankinta/hankinta515.png)
 
-#### 7.4.1.7. Tilaus väliaikaistiedostosta
+#### 7.4.1.8 Tilaus väliaikaistiedostosta
 
 HUOM! Koha-Suomi ei tue tätä toimintatapaa.
 {: .notice--warning}
@@ -680,7 +686,7 @@ Siellä valitaan alasvetovalikosta oikea tili tilaukselle.
 
 Klikkaa _Tallenna_, kun tilauksesi sisältää kaikki haluamasi nimekkeet.
 
-#### 7.4.1.8. Varatuimpien nimekkeiden listalta
+#### 7.4.1.9. Varatuimpien nimekkeiden listalta
 
 Listalle tulee teokset, joilla on eniten varauksia per nide.
 
@@ -694,7 +700,7 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
   pääsee lisäämään teoksen tilauskoriin. Raportti ehdottaa tilattavaa nidemäärää.
 
-#### 7.4.1.9. Tilattavien niteiden tiedot
+#### 7.4.1.10. Tilattavien niteiden tiedot
 
 Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
 merkitty punaisella. 
