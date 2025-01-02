@@ -558,6 +558,16 @@ body#pat_moremember.pat li#patron-flags-gonenoaddress { display:none; }
 body#pat_moremember.pat li#patron-flags-lostcard { display:none; }
 ```
 
+### Lihavoi 'Tili on lukittu' huomautus asiakkaan Tiedot-sivulla
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Lihavoi 'Tili on lukittu' huomautus asiakkaan tiedoissa */
+li.blocker.account_locked { font-weight: 700; }
+```
+
 ## Asiakkaat-sivu
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
