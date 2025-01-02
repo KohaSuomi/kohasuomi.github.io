@@ -924,6 +924,34 @@ FROM borrowers
 WHERE login_attempts>=<<Etsi asiakkaat, joilla on yli tämä määrä kirjautumisyrityksiä>>
 ```
 
+### Tunnukset, joilla on yksittäinen käyttöoikeus
+
+Raportilla haetaan kaikki käyttäjätunnukset, joilta löytyy syötetty käyttöoikeus
+
+Lisääjä: Katariina Pohto<br />
+Pvm: 2.1.2025
+
+```
+SELECT up.borrowernumber, b.categorycode, b.branchcode, b.surname, b.borrowernotes, b.dateenrolled, b.dateexpiry
+  FROM user_permissions up
+       INNER JOIN borrowers b USING(borrowernumber)
+  WHERE up.code = <<Käyttöoikeuskoodi>>
+```
+
+### Tunnukset, joilla on tietty flag
+
+Raportilla haetaan kaikki käyttäjätunnukset, joilta löytyy syötetty flag (numero)
+
+Lisääjä: Katariina Pohto<br />
+Pvm: 2.1.2025
+
+```
+SELECT borrowernumber, categorycode, branchcode, surname, borrowernotes, dateenrolled, dateexpiry
+  FROM borrowers b
+ WHERE MOD(flags DIV POWER(2, <<Flagin nro>>),2)
+```
+
+
 ## Varaukset
 
 ### Tietueen varaushistoria
