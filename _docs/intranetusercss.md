@@ -1137,6 +1137,8 @@ body#catalog_MARCdetail.catalog div.tag_title, body#cat_addbiblio.cat a.expandfi
 
 ### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
 
+Tämä ei ole enää kovin tarpeellinen versiossa 24.05, koska varaussivulla ei ole enää yläreunassa noutokirjaston valintaa. Se tehdään aina joko seuraava vapaa nide -kohdassa tai nidevarauksen kohdalla.
+
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 23.11
 
@@ -1151,7 +1153,7 @@ body#circ_request.catalog div#requestspecific_filter:after {
 ### Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan */
@@ -1161,7 +1163,7 @@ body#circ_request.catalog div.browse { display: none; }
 ### Piilota Näytä aina varaukset -täppä varauksen teko -sivulla
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota "Näytä aina varaukset" -täppä varauksenteko-sivulla, koska se ei toimi Koha-Suomi-muutosten vuoksi. */
@@ -1173,7 +1175,7 @@ body#circ_request.catalog a#show_holds_now.btn.btn-default { display:none; }
 ### Säädä, kuinka leveä näytön pitää olla, jotta taulukoista piilotetaan sivulta toiselle siirtyminen
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Säädetään sitä, kuinka leveä näytön pitää olla, että taulukoista piilotetaan siirtyminen sivulta toiselle sivunumeroiden perusteella esim. varaustenteko-sivulla. Eli piilotetaan numerolinkit. */
@@ -1196,7 +1198,7 @@ Versio: 23.11
 Kun varaus on keskeytetty, muuttuu tällä säädöllä teksti keskeytetty-teksti punaiseksi ja keskeytys on helpompi havaita.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Varausten keskeytyksen korostus punaikseksi tietueen varaukset-sivulla */ 
@@ -1208,7 +1210,7 @@ Versio: 23.11
 Monivarauksen teossa valintaruudut eivät vaikuta siihen, tehdäänkö varaus teokseen vai ei, joten ne päätettiin piilottaa. Liittyy [tikettiin #780](https://github.com/KohaSuomi/Koha/issues/780).
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Piilota valintaruudut (1. sarake) monivarauksessa (request.pl) */
@@ -1238,7 +1240,7 @@ body#ser_serials-edit.ser fieldset.rows ol li label {float: left; font-weight: 7
 ### Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle. */
@@ -1257,7 +1259,7 @@ Versio: 22.11
 
 ### Koha-logon piilotus virkailijaliittymän vasemmasta reunasta
 
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Yläkulman Koha-logon piilotus */
@@ -1269,7 +1271,7 @@ Versio: 23.11
 ### OpenDocument-vaihtoehdon piilotus raporteista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* OpenDocumentin piilotus raporteista */
@@ -1279,7 +1281,7 @@ body#rep_guided_reports_start.rep button#format + ul li:nth-child(3){display: no
 ### Kimpan logo näkyviin yläpalkkiin
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Kimpan logo näkyviin yläreunaan */
@@ -1304,7 +1306,7 @@ Versio: 23.11
 Tällä saa säädettyä mustan yläpalkin leveämmäksi, mutta huomioi, että se vaikuttaa myös alareunan palkin leveyteen samalla.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Musta yläpalkki leveämmäksi - tarvittaessa vain */
@@ -1315,7 +1317,7 @@ Versio: 23.11
 
 ### Piilota Työkalut-sivulta linkit JS-liitännäisiin Työkaluliitännäiset-osiosta
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen, muutettu JS-rimpsuksi<br />
 Versio: 23.11
 
 ```
@@ -1327,7 +1329,7 @@ body#tools_tools-home.tools div.col-sm-6 li:nth-child(2) { display: none; }
 ### Piilota niteiden eräajosta 'Muut määreet - Jätä pois paikallisten varausten jonosta' ja 'Palauta niteet'
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 Tästä on kaksi eri versiota, joista toinen toimii uudemmilla Firefox-selaimilla ja toinen vanhemmilla.
 
@@ -1350,13 +1352,13 @@ body#tools_batchMod-edit fieldset:has(select#mark_items_returned) { display: non
 ### Piilota Uusi/Renew-vaihtoehto yläpalkista
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 23.11
+Versio: 24.05
 
 Muutettu JS-rimpsusta CSS-rimpsuksi versiossa 23.11.
 
 ```
 /* Piilota Uusi/Renew-vaihtoehto yläpalkista */
-a.keep_text[href="#renew_search"] { display: none; }
+a#renew_search-tab { display: none; }
 ```
 
 ### Levennä otsikkokenttiä
@@ -1366,11 +1368,11 @@ Monesti otsikkokentille on määritetty liian vähän tilaa, jolloin pitkät suo
 Huom! Tästä rimpsusta on olemassa tässä kirjastossa myös versio, jolla säädetään otsikkokenttien leveyttä vain asiakkaan muokkaussivulla.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /* Levennä otsikkokenttiä */
-fieldset.rows label { width: 13rem; }
+fieldset.rows label { width: 15rem; }
 ```
 
 
