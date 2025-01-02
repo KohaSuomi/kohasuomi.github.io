@@ -20,7 +20,7 @@ Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelm�
 
 ### Alt+p tulostaa kuitin
 
-Tarpeellisuus: Suositeltava <br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Qslip keyboard shortcut_ -liitännäisellä <br />
 Versio: 23.11
 
 ```
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 ### "Poista käsin poistettujen varausten maksut" -täppä päälle
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Set defaults for Koha fields and checkboxes_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -145,7 +145,7 @@ function addSSN(event) {
 
 Näillä kahdella JS:llä voi poistaa asiakkaan muokkausnäytöllä ylimääräiset välilyönnit kentistä. Näytöllä on kahta eriä kenttätyyppiä, minkä vuoksi JS:kin on kaksi. Funktiot poistaa kentistä välilyönnit alusta ja lopusta sekä useammat peräkkäiset välilyönnit välistä.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Remove excess spaces_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -234,7 +234,7 @@ $(document).ready(function() {
 
 Skripti generoi HOLDID-asiakasmääreeseen anonyymin varaustunnisteen, joka on käytännössä UNIX-aikaleima.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: HoldID_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -297,7 +297,7 @@ Lisäksi mukana on apuskripti puhelinnumeron tarkistus/viestitäppä -skriptille
 
 Tämä apuskripti tarvitaan edellisen kaveriksi, jotta viestitäppien poisto onnistuu ensimmäisellä tallennuskerralla. [Liittyy tikettiin 538](https://github.com/KohaSuomi/Koha/issues/538).
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Korvattu _IntranetUserJS: Validate mobile numbers and uncheck messaging preferences_ -liitännäisellä
 Versio: 23.11
 
 ```
@@ -444,7 +444,7 @@ for (var i = 0; i < result.length; i ++) {
 
 Kuitit tulostuvat sekakielisinä, jos käytössä on oletuspohja. Tämä skripti asettaa kielivalinnaksi suomen, jos valittuna on tallennettaessa oletus.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Set defaults for Koha fields and checkboxes_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -465,7 +465,8 @@ $(document).ready(function () {
 ###  Kielikoodien järjestys tarkan haun valikossa
 
 Aakkostaa ja priorisoi kielivalinnat tarkassa haussa
-Tarpeellisuus: Suositeltava
+
+Tarpeellisuus: Korvattu _IntranetUserJS: Alphabetize/prioritize advanced search languages_ -liitännäisellä
 Versio: 23.11
 
 ```
@@ -522,7 +523,7 @@ $(document).ready(function () {
 
 Tällä skriptillä saa siirrettyä Varaustunnus-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: HoldID_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -658,7 +659,7 @@ $("#messages .circ-hlt").each(function( index ){
 
 Tällä muutetaan skriptissä mainituille asiakastyypeille salasanan generointi nelinumeroiseksi. Ilman tätä, asiakkaille tulee aakkosnumeerisia salasanoja.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Generate PIN codes_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1000,7 +1001,7 @@ $(document).ready(function() {
 
 Tämä lisää tietueen perustiedot-näytölle valikkoriville viimeiseksi Avaa Finnassa -nappulan, joka vie oman kimpan Finnaan saman teoksen tietoihin.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Add links to record in Finna_ -liitännäisellä <br />
 Versio: 23.11
 
 ```
@@ -1075,7 +1076,7 @@ $(document).ready(function () {
 
 Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syntyneet muutokset.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Changes to search page_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1126,7 +1127,7 @@ $(document).ready(function() {
 
 Tällä poistetaan ylimääräiset välilyönnit kentistä niteen muokkausnäytöllä. Välilyönnit poistetaan alusta, lopusta ja useammat peräkkäiset välilyönnit välistä.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Remove excess spaces_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1148,7 +1149,7 @@ $(document).ready(function() {
 
 Skripti poistaa ylimääräiset välilyönnit sekä tarkistaa, että sarjanumero on muodossa "vuosi : numero". Jos vuoden jälkeen puuttuu välilyönti, käytännössä se lisätään sinne. Tarkistus tehdään kaikkiin nidekenttiin, mutta korjaus ei "tartu", jos kentän alussa ei ole vuosinumeroa.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Remove excess spaces_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1169,7 +1170,7 @@ $(document).ready(function() {
 
 ### Poistetaan ylimääräiset välilyönnit hankinnassa
 
-Tarpeellisuus: Suositeltava, jos toimii<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Remove excess spaces_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1206,7 +1207,7 @@ $(document).ready(function() {
 
 Skripti laittaa niteiden eräpoistossa valmiiksi täpän kohtaan "Poista tietueet, jos kaikki niteet poistettu". Näin todennäköisemmin tietokantaan ei jää roikkumaan niteettömiä tietueita.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Set defaults for Koha fields and checkboxes_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
@@ -1414,7 +1415,7 @@ $(document).ready(function () {
 
 Vastaanotettat kuljetukset -raportilla näytetään asiakastietoja, jos kuljetettavaan niteeseen liittyy varaus. Tällä skriptillä asiakastiedot korvataan kuittaus-merkillä.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Korvattu _IntranetUserJS: Transfers to receive patron info to checkmark_ -liitännäisellä<br />
 Versio: 23.11
 
 ```
