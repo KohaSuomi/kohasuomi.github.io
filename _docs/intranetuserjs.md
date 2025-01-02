@@ -61,9 +61,28 @@ $(document).ready(function () {
 ## Asiakkaan muokkausnäyttö
 
 
+### Muu nimi (other name) -kentän piilottaminen määritellyiltä asiakastyypeiltä
+
+Versio: 24.05
+
+```
+// Muu nimi (other name) -kentän piilottaminen määritellyiltä asiakastyypeiltä:
+$(document).ready(function () {
+    if ( window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' ) {
+        var categories = ["YHTEISO", "KAUKOLAINA", "AUTOM", "EITILASTO", "VIRKAILIJA", "API"];
+        if ( ( window.location.search.includes('?op=add') && categories.some(cat => window.location.search.includes(cat)) ) || ( ( window.location.search.includes('?op=edit_form') || window.location.search.includes('?op=duplicate') ) && categories.some(cat => $('.patroncategory')[0].innerHTML.includes(cat)) ) ) {
+            // Piilottaa li-elementin, jonka sisällä on label ja input
+            $('#othernames').parent().hide();
+        }
+    }
+});
+/// LOPPU ///
+```
+
+
 ### Piilota Perheen lainat -välilehti
 
-Tarpeellisuus: Vapaaehtoinen, [muutettu CSS:ksi versiossa 23.11](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-perheen-lainat--v%C3%A4lilehti)<br />
+Tarpeellisuus: Ei tarpeellinen, [muutettu CSS:ksi versiossa 23.11](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-perheen-lainat--v%C3%A4lilehti)<br />
 Versio: 22.11
 
 
@@ -595,7 +614,7 @@ $('#othernames').parent().hide();
 ### Käyttökieli-asiakasmääreen siirto asiakkaan identitetti -osioon sivun alkuun
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 ///ALKU///
@@ -622,18 +641,16 @@ $(document).ready(function () {
 ### Piilota viestin tekijän nimi Tiedot-näytöllä
 
 Tarpeellisuus: Vapaaehtoinen <br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /// ALKU ///
-
-/* Piilota viestin tekijän nimi asiakkaan Tiedot-näytöllä */
+/* Piilota viestin tekijän nimi asiakkaan Tiedot-näytöllä. Huom! Piilottaa vain virkailijaliittymässä näytettävän viestin tekijätiedon. */
 $("#messages .circ-hlt a").remove();
 $("#messages .circ-hlt").each(function( index ){
   var str = $(this).text().replace("(  )", "");
   $(this).text(str);
 });
-
 /// LOPPU ///
 ```
 
@@ -700,7 +717,7 @@ $(document).ready(function () {
 Skripti siirtää noudettavissa olevat varaukset valikon taakse, jolloin ne eivät pidennä näyttöä. Jos noudettavia varauksia on paljon, voi näyttö venyä hyvinkin pitkäksi ja lainataulukkoa saa etsiä monen rullauksen päästä.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
+Versio: 24.05
 
 ```
 /// ALKU ///
@@ -804,6 +821,19 @@ $(document).ready(function () {
   }
 });
 ```
+
+### Palautusilmoitus-välilehden piilotus asiakkaan tiedoissa ja lainoissa
+
+Versio: 24.05
+
+```
+// Palautusilmoitus-välilehden piilotus asiakkaan tiedoissa ja lainoissa
+$(document).ready(function(){ 
+  $("a#return-claims-tab").parent().hide();
+});
+/// LOPPU ///
+```
+
 
 ## Maksut
 
@@ -923,6 +953,44 @@ $(document).ready(function() {
     elems.eq(0).val('ti');
     elems.eq(1).val('au');
     elems.eq(2).val('su');
+  }
+});
+//LOPPU
+```
+
+### Tarkan haun aineistotyyppivalintojen tyhjennys sivulla /cgi-bin/koha/catalogue/search.pl 
+
+Versio: 24.05
+
+```
+// Tarkan haun aineistotyyppivalintojen tyhjennys sivulla /cgi-bin/koha/catalogue/search.pl 
+if ($('body#catalog_advsearch').length){ 
+  function poista_mtype_valinnat() {
+    $('body#catalog_advsearch #advsearch-tab-mtype_panel input[id^="mtype"]').each(function() { $(this).prop('checked', false);});
+  }
+  $(document).ready(function() {
+    $('<a id="aineistotyyppi_tyhjennys" onclick="poista_mtype_valinnat(); return false;" href="#">Tyhjennä</a>').insertAfter('body#catalog_advsearch #advsearch-tab-mtype_panel h4:first-of-type');
+  });
+}
+//LOPPU
+```
+
+### Tietueen niteet välilehdellä tehtävien muokkausten esto. /cgi-bin/koha/catalogue/moredetail.pl
+
+Versio: 24.05
+
+```
+// Tietueen niteet välilehdellä tehtävien muokkausten esto. /cgi-bin/koha/catalogue/moredetail.pl
+$(document).ready(function() {
+  if ( $("body#catalog_moredetail.catalog").length ){
+	$("select[name='itemlost']").parent().parent().hide();
+	$("select[name='damaged']").parent().parent().hide();
+    $("select#exclude_from_local_holds_priority").parent().parent().parent().parent().parent().hide();
+	$("textarea[name='itemnotes']").prop("disabled", true);
+	$("textarea[name='itemnotes_nonpublic']").prop("disabled", true);
+	$("input[type='submit'][value='Päivitä']").hide();
+    $("input[type='submit'][value='Update']").hide();
+    $("input[type='submit'][value='Uppdatering']").hide();
   }
 });
 //LOPPU
@@ -1251,7 +1319,7 @@ $( document ).ready(function() {
 
 Tällä skriptillä saa Z39.50-hakuikkunan suuremmaksi.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Vapaaehtoinen, ei enää välttämätön versiossa 24.05<br />
 Versio: 23.11
 
 ```
@@ -1274,6 +1342,59 @@ Versio: 23.11
 
 ## Yleiset
 
+### Piilota IntranetJS-pluginit Työkalut-sivulta työkaluliitännäisten listasta
+
+Rimpsulla voi piilottaa Työkalut-sivulta sellaiset liitännäiset, joiden nimessä mainitaan IntranetUserJS-termi.
+
+Tarpeellisuus: Suositeltava<br />
+Versio 24.05
+
+```
+/// Piilota IntranetJS-pluginit työkalut-näkymästä työkaluliitännäisten listasta 
+$(document).ready(function () {
+  if (window.location.href.indexOf("tools/tools-home.pl") > -1) {
+    $('span:contains("IntranetUserJS")').closest('.plugin_link').hide();
+}});
+```
+
+### Estä näytön viertystä jumimasta
+
+Kaikkien kannattaa lisätä tämä, jotta vieritys toimii oikein kaikilla näytöillä (eri kokoisilla), eikä jumitu kesken näytön vierityksen. Liittyy [tikettiin #106](https://github.com/KohaSuomi/Koha-24.05/issues/106).
+
+Tarpeellisuus: Suositeltava<br />
+Versio 24.05
+
+```
+/// ALKU  ///
+/* Lisää huollettava monivalintanappi */
+$(document).ready(function() {
+  if ( !!document.getElementById("addchild") ){
+    var editpatron_url = new URLSearchParams(document.getElementById("editpatron").href);
+    var asiakasnumero = editpatron_url.get('borrowernumber');
+    var kayttokieli = 'Suomi';
+
+    var lapsiLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add_form&categorycode=LAPSI&guarantor_id=" + asiakasnumero;
+    var omatoimilapsiLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add_form&categorycode=LAOMATOIMI&guarantor_id=" + asiakasnumero;
+    var muuHuollettavaLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add_form&categorycode=HUOLLETTAV&guarantor_id=" + asiakasnumero;
+    var lisaaHuollettavaNappi = "<div class='btn-group'><button class='btn btn-default dropdown-toggle' data-toggle='dropdown'><i class='fa fa-plus'></i><span id='huollettavaKaannos'> Lisää huollettava.</span> <span class='caret'></span></button><ul class='dropdown-menu'><li><a href=" + lapsiLinkki + ">Lapsi</a></li><li><a href=" + omatoimilapsiLinkki + ">Lapsi, omatoimi sallittu</a></li><li><a href=" + muuHuollettavaLinkki + ">Huollettava, muu kuin lapsi</a></li></ul></div>";
+
+
+    $( "#editpatron" ).after( lisaaHuollettavaNappi );
+    $('#addchild').css('display','none');
+
+    kayttokieli = document.getElementsByClassName('currentlanguage')[0].innerHTML;
+    if (kayttokieli == 'Suomi') {
+      $("#huollettavaKaannos").text(" Lisää huollettava");
+    }
+    else if (kayttokieli == 'Svenska') {
+      $("#huollettavaKaannos").text(" Lägg till barn");
+    }
+    else if (kayttokieli == 'English') {
+      $("#huollettavaKaannos").text(" Add child");
+    }
+  }    
+});
+```
 ### Piilota Uusinta-välilehti yläosan hakukentästä
 
 Kohan uusinta-toiminnallisuus ei noudata laina- ja maksusääntöjä ja antaa uusia, vaikka teokseen kohdistuu varaus tai uusintakerrat ovat tulleet jo täyteen.
@@ -1323,6 +1444,21 @@ Tarpeellisuus: Ei tarpeellinen versiossa 22.11.
 $(document).ready(function() {
       localStorage.removeItem("searchbox_value");
 });
+```
+
+### Nidehaun tyhjennys-linkki
+
+Versio: 24.05
+
+```
+// Nidehaun tyhjennys linkki.
+function tyhjenna_valinnat() {
+ window.location.reload(true);
+}
+$(document).ready(function() {
+  $('body#catalog_itemsearch div#toolbar').append('<div class="btn-group"><a onclick="tyhjenna_valinnat(); return false;" href="#" class="btn btn-sm btn-link" id="nidehakuTyhjenna"><i class="fa fa-trash"></i><span> Tyhjennä kentät</span></a></div>');
+});
+//LOPPU
 ```
 
 ### Haku-kenttien aktivoitumisviive
@@ -1461,15 +1597,15 @@ $(document).ready(function() {
 ### Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle
 
 Vaskin tekemä js, ei käytössä kaikissa kimpoissa.<br />
-Versio: 22.11
+Versio: 24.05
 
 ```
 // Lisää käyttäjäoikeudet monivalintanappi sivulla /cgi-bin/koha/members/member-flags.pl? Pudotusvalikkonappi lisätään lomakkeen yläreunaan ennen Tallenna-nappia.
 $(document).ready(function() {
   if ( "body#pat_member-flags.pat" ){
-	var asiakaspalvelu = [ "flag-4", "flag-2", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_manage_restrictions", "circulate_override_renewals", "editcatalogue_edit_items", "plugins_tool", "plugins_report", "reports_execute_reports", "reserveforothers_place_holds", "serials_receive_serials", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator", "updatecharges_manual_invoice", "updatecharges_remaining_permissions", "updatecharges_writeoff" ];
-    var kevyttunnus1 = [ "flag-2", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_override_renewals", "editcatalogue_edit_items", "plugins_tool", "reserveforothers_place_holds", "tools_label_creator", "borrowers_view_borrower_infos_from_any_libraries" ];
-    var kevyttunnus2 = [ "flag-2", "editcatalogue_edit_items", "plugins_tool", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator" ];
+	var asiakaspalvelu = [ "flag-4", "flag-2", "flag-29", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_manage_restrictions", "circulate_override_renewals", "editcatalogue_edit_items", "editcatalogue_edit_any_item", "plugins_tool", "plugins_report", "reports_execute_reports", "reserveforothers_place_holds", "serials_receive_serials", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator", "tools_inventory", "updatecharges_manual_invoice", "updatecharges_remaining_permissions", "updatecharges_writeoff" ];
+    var kevyttunnus1 = [ "flag-2", "flag-29", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_override_renewals", "editcatalogue_edit_items", "editcatalogue_edit_any_item", "plugins_tool", "reserveforothers_place_holds", "tools_label_creator", "borrowers_view_borrower_infos_from_any_libraries" ];
+    var kevyttunnus2 = [ "flag-2", "flag-29", "editcatalogue_edit_items", "editcatalogue_edit_any_item", "plugins_tool", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator" ];
     var kuvailu = [ "flag-14", "editcatalogue_advanced_editor", "editcatalogue_edit_catalogue", "tools_records_batchdel", "tools_records_batchmod" ];
     var hankintaJaKausijulkaisut = [ "editcatalogue_advanced_editor", "acquisition_budget_add_del", "acquisition_budget_manage", "acquisition_budget_modify", "acquisition_contracts_manage", "acquisition_group_manage", "acquisition_order_manage", "acquisition_order_receive", "acquisition_period_manage", "acquisition_planning_manage", "acquisition_vendors_manage", "acquisition_delete_baskets", "acquisition_delete_invoices", "acquisition_edit_invoices", "acquisition_merge_invoices", "acquisition_reopen_closed_invoices", "editcatalogue_edit_catalogue", "serials_check_expiration", "serials_claim_serials", "serials_create_subscription", "serials_delete_subscription", "serials_edit_subscription", "serials_receive_serials", "serials_renew_subscription" ];
     var erapaivakalenteri = [ "tools_edit_calendar" ];
@@ -1556,5 +1692,6 @@ $(document).ready(function() {
 	
   }
 });
+//LOPPU
 //LOPPU
 ```
