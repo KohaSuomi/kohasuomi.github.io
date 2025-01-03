@@ -415,7 +415,7 @@ SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
 
 Raporttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
 
-Versiosta 22.11 lähtien Koha lisää automaattisesti linkin asiakkaaseen, niteeseen ja tietueeseen, jos raportin tuloksissa on sarakkeessa borrowernumber, itemnuber tai biblionumber.
+**Huom!** Versiosta 22.11 lähtien Koha lisää automaattisesti linkin asiakkaaseen, niteeseen ja tietueeseen, jos raportin tuloksissa on sarakkeessa borrowernumber, itemnuber tai biblionumber.
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu8.png)
 
@@ -490,6 +490,28 @@ Jos määrittelet kyselyssä taululle aliaksen esim. items i, niin voit saada eh
 
 Ehdotukset voi valita joko hiirellä tai näppäimistöllä nuolinäppäimillä ja ENTER-painikkeella. Huomioi, että jos olet vaihtamassa riviä ENTERillä ja Koha antaa automaattisen ehdotuksen, tulee ensimmäinen ehdotus valituksi kun tarkoitus oli vaihtaa riviä vaihtaessa. Ehdotuksesta pääsee eroon lisäämällä esimerkiksi välilyönnin ennen rivinvaihtoa ja sitten poistamalla sen.
 
+### 9. Ajonaikaiset parametrit
+
+Tallennetulle raportille pystyy lisäämään ajoaikaisia parametrejä myös SQL-laatikon yläpuolella olevasta valikosta _Lisää ajoajan parametri_.
+![](/assets/files/docs/Ohjeet/sqlkoulu12.png)
+
+Kun valitaan jokin vaihtoehto, avautuu ponnahdusikkuna, jossa voi täyttää tarkempia tietoja
+![](/assets/files/docs/Ohjeet/sqlkoulu13.png)
+- _Parametrit_: Parametrin otsikko kyselyssä. Esim. Kirjasto, Hyllypaikka, Päivämäärä jne. Voit jättää kenttään ehdotetun tekstin tai muokata sen halutunlaiseksi.
+- _Auktorisoidun arvon luokka_: Valitse, minkä auktorisoidun arvon luokan tiedot näytetään raportin ajajalle. HUOM! Tämä tulee tarjolle vain, kun valittuna on Auktorisoidun arvon lisääminen raportille.
+- _Parametrivaihtoehdot_:
+  - _Vain yksi parametri_: Kyselyn pitää käyttää =-merkkiä. Esim. SELECT barcode FROM items WHERE notforloan = <<Ei lainata -tila|NOT_LOAN>>
+  - _Sisällytä vaihtoehto kaikille_: Kyselyn pitää käyttää LIKE-käskyä. Tällä vaihtoehdolla pystyy hakemaan myös kaikki vaihtoehdot, kun siihen lisää :all-lisämääreen auktorisoidun arvon perään. Esim. SELECT barcode FROM items WHERE notforloan LIKE <<Ei lainata -tila|NOT_LOAN:all>>
+  - _Salli useita valintoja_: Kyselyn pitää käyttää IN-käskyä ja auktorisoidun arvon perään lisätään :in-lisämääre. Esim. SELECT barcode FROM items WHERE notforloan IN <<Ei lainata -tila|NOT_LOAN:in>>
+- _Lisää parametri_ -napilla saa lisättyä valinnat raportille, _Peruuta_-napilla valinnat saa peruttua.
+
+Toiminto lisää valinnat SQL-laatikkoon valittuna olleeseen kohtaan.
+
+![](/assets/files/docs/Ohjeet/sqlkoulu14.png)
+
+Eri parametrit tarjoajavat erilaisia vaihtoehtoja
+
+![](/assets/files/docs/Ohjeet/sqlkoulu15.png)
 
 ## Pölkyillä vai ei?
 
