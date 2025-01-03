@@ -15,7 +15,8 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 2
 
-Aika: 6.1.2025<br />
+Aika: Ke 8.1.2025 klo 13<br />
 Läsnä:
 
 * Suomi.fi Yhteinen integraatioalusta VIA varmenne vaihtuu 16.1.2025 - viestit notifications-spostissa
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee)
