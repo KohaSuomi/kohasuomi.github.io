@@ -17,6 +17,13 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 Tutustu ohjeistuksiin ennen kuin alat itse tekemään tai muokkaamaan SQL-raportteja.
 
+Koha-Suomen suosituksia, jotta raporttien tekeminen ja testaus eivät aiheuttaisi ongelmia tuotantokantoihin:
+
+* raporttien luontioikeutta ei kannata antaa kuin harvoille ja valituille, jotka sitoutuvat opettelemaan perusteet huolellisesti.
+* uusi raportin tekijä tutustuu Koha-Suomen tekemään SQL-koulutukseen: [Täältä löydät lyhkäsen oppimäärän](/dokumentaatio/sqlkoulu/)
+* raportteja tehtäisiin vain ns. virka-aikana, jolloin Koha-Suomella on päivystäjä selvittämässä mahdollisia ongelmia.
+
+
 ## Miten saa raportille salasanan kyselyn
 
 Raportille voi laittaa myös salasanakyselyn esim. näin:
