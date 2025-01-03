@@ -553,5 +553,7 @@ Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin
 
 ## Ei toimi?
 
-* tarkista, että hipsuilla " tai ' on vastakappaleet, monesti ne esiintyvät pareittain.
+* tarkista, että hipsuilla " tai ' ja sulkeilla on vastakappaleet, monesti ne esiintyvät pareittain.
 * tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..).
+* onhan lauseessa sana SELECT?
+* onhan haettava taulu määritetty?
