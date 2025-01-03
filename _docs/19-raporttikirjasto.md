@@ -1464,6 +1464,43 @@ GROUP BY reserves.branchcode WITH ROLLUP
 ```
 
 
+### Kuljetettavat varaukset, joita ei ole käsitelty Kohassa
+
+Raportilla voi hakea kuljetuksessa olevat varaukset, jotka ovat kiinnittyneet automaatilla, mutta joita ei ole vielä käsitelty Kohassa.
+
+Tehty: 3.1.2025<br />
+Tekijä: Janne Seppänen
+
+```
+SELECT DISTINCT
+   b.author AS "Tekijä",
+   CONCAT_WS(" ", b.title, b.subtitle, b.part_name, b.part_number) AS 'Nimeke',
+   i.enumchron AS 'Lehtinumero',
+   CONCAT('<a href="/cgi-bin/koha/catalogue/moredetail.pl?biblionumber=', b.biblionumber, '#item', bt.itemnumber, '">', i.barcode, '</a>') AS 'Viivakoodi',
+   i.itype AS 'Nidetyyppi',
+   i.location AS 'Hyllypaikka',
+   i.ccode AS 'Kokoelmakoodi',
+   i.itemcallnumber AS 'Kohan koko signum',
+   bt.tobranch AS 'Kuljetetaan pisteeseen',
+   i.homebranch AS 'Kotikirjasto',
+   bt.datesent AS 'Havainto automaatilla'
+FROM branchtransfers bt
+INNER JOIN items i ON i.itemnumber = bt.itemnumber
+INNER JOIN biblio b ON b.biblionumber = i.biblionumber
+INNER JOIN (
+	SELECT	 statistics.itemnumber, MAX(statistics.datetime) AS havainto
+	FROM	 statistics
+	GROUP BY statistics.itemnumber
+) AS smax ON (smax.itemnumber = i.itemnumber)
+INNER JOIN statistics s ON i.itemnumber = s.itemnumber AND bt.datesent = smax.havainto
+WHERE bt.frombranch = <<Lähtökirjasto|branches>>
+  AND bt.datearrived IS NULL
+  AND bt.datecancelled IS NULL
+  AND bt.datesent IS NOT NULL
+  AND bt.reason = 'Reserve'
+  AND s.interface = 'sip'
+```
+
 
 ## Kokoelma
 
