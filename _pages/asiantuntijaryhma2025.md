@@ -26,7 +26,7 @@ Vuodenvaihteessa tehdään monenlaisia vuosittaisia ajoja kuten vuoden 2024 OKM-
 
 ### 2. Seuraavan versionvaihdon ajankohta
 
-Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen tapaan toukokuussa, niin ehdolla on ollut aiemmissa kokouksissa viikkojen 20-21 maanantait. Lappi ja Siilinjärvi ilmoittanut ennakkoon, että kumpi tahansa viikko sopii.
+Päätetään seuraavan versionvaihdon ajankohta. Jos vaihto tehdään entiseen tapaan toukokuussa, niin ehdolla on ollut aiemmissa kokouksissa viikkojen 20-21 maanantait. Lappi ja Siilinjärvi ilmoittanut ennakkoon, että kumpi tahansa viikko sopii. Vaski toivoo viikkoa 20.
 
 Seuraavassa Kohan versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, kun Bootstrap päivittyy versioon 5. Se muutos on edelleen yhteisössä osittain kesken, joten vaarana on, että otamme käyttöön huonosti toimivan järjestelmän.
 
