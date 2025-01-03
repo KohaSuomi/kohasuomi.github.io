@@ -142,6 +142,40 @@ LIKE-komennossakin on mahdollisuus negatiiviseen rakenteeseen. Tällöin käytet
 SELECT * FROM items WHERE homebranch NOT LIKE 'MLI%';
 ```
 
+LIKE-komennon yhteydessä voi käyttää :all-lisämäärettä parametrissä, jolloin kyselyä ajaessa käyttäjä voi valita Kaikki-vaihtoehdon. Esim.
+
+```
+SELECT * FROM items WHERE homebranch LIKE <<Valitse kirjasto|branches:all>>;
+```
+
+näyttää ajettaessa tältä:
+
+![](/assets/files/docs/Ohjeet/sqlkoulu17.png)
+
+### IN
+
+IN-komennolla voidaan määrittää, että haetaan esimerkiksi tiettyjä biblionumbereita:
+
+```
+SELECT * FROM items WHERE biblionumber IN (12, 13, 14, 15);
+```
+
+Sen avulla voi luoda esimerkiksi parametrin, joka antaa käyttäjän valita, mitä kirjastoja haetaan. Tällöin käytetään myös auktorisoidun arvon perässä :in-lisämäärettä:
+
+```
+SELECT * FROM items WHERE homebranch IN <<Valitse kirjasto|branches:in>>;
+```
+
+![](/assets/files/docs/Ohjeet/sqlkoulu16.png)
+
+Voit myös luoda lista-ajonaikaisella parametrilla kyselyn, jossa käyttäjä voi syöttää useamman hakuehdon, yhden per rivi. Esim.
+
+```
+SELECT * FROM items WHERE homebranch IN <<Syötä kirjastojen tunnukset yksi per rivi|list>>;
+```
+
+![](/assets/files/docs/Ohjeet/sqlkoulu18.png)
+
 ### JOIN
 
 Haussa tulosjoukkoon saadaan tietoa muista tauluista relaatioiden avulla. JOIN-komento on keskeisessä roolissa tässä yhdistelyssä.
