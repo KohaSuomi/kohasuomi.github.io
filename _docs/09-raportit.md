@@ -117,20 +117,25 @@ näkyviin.
   - OpenDocument-taulukkolaskenta
   - FinnaJSON (jotta tämä toimii, pitää tulosten ensimmäinen sarake sisältää tietueen biblionumberin)
   - Kaavio (.svg), jos kaavion on ensin luonut.
+  - Raportin tuloksista poistetaan HTML-koodit, kun ne ladataan tiedostoksi eli esimerkiksi linkit poistetaan.
 - Tuloksista voi luoda kaavioita, jos ne ovat numeerisia. Esimerkiksi nimekelistauksista ei voi tehdä järkeviä kaavioita.
 
 #### 9.1.2.2 Erämuokkaustoiminnot raporttien kautta
 
-Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai tietueen biblionumber, voi tulokset viedä eräkäsittelyyn. Jos tuloksia on paljon, voit valita Rivejä sivulla -valikosta, kuinka monta riviä viedään eräajoon. Huomioi, että eräajossa voi käsitellä n. 1000 riviä kerralla.
+Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber, tietueen biblionumber, asiakkaan borrowernumber tai cardnumber voi tulokset viedä eräkäsittelyyn. Jos tuloksia on paljon, voit valita Rivejä sivulla -valikosta, kuinka monta riviä viedään eräajoon. Valikon kautta voi saada näkyville maksimissaan 1000 riviä. Jotkin raportit on jo kyselyssä määritetty näyttämään tietty määrä rivejä, jolloin niitä voi olla esillä enemmän kuin 1000.
 
-![](/assets/files/docs/Raportit/raportit181.png)
+![Kuvailutietueet](/assets/files/docs/Raportit/raportit181.png)
 - Tietueiden muokkaus eräajona
 - Tietueiden poisto eräajona
 - Lisää listalle
 
-![](/assets/files/docs/Raportit/raportit182.png)
+![Niteet](/assets/files/docs/Raportit/raportit182.png)
 - Niteiden muokkaus eräajona
 - Niteiden poisto eräajona
+
+![Asiakkaat](/assets/files/docs/Raportit/raportit1821.png)
+- Asiakkaiden muokkaus eräajona (jos cardnumber-sarake)
+- Kirjastokorttien luonti (jos borrowernumber-sarake)
 
 #### 9.1.2.3 Linkit nide-, kuvailu- ja asiakastietueisiin
 
