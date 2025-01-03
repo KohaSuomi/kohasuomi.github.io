@@ -500,9 +500,9 @@ Kun valitaan jokin vaihtoehto, avautuu ponnahdusikkuna, jossa voi täyttää tar
 - _Parametrit_: Parametrin otsikko kyselyssä. Esim. Kirjasto, Hyllypaikka, Päivämäärä jne. Voit jättää kenttään ehdotetun tekstin tai muokata sen halutunlaiseksi.
 - _Auktorisoidun arvon luokka_: Valitse, minkä auktorisoidun arvon luokan tiedot näytetään raportin ajajalle. HUOM! Tämä tulee tarjolle vain, kun valittuna on Auktorisoidun arvon lisääminen raportille.
 - _Parametrivaihtoehdot_:
-  - _Vain yksi parametri_: Kyselyn pitää käyttää =-merkkiä. Esim. SELECT barcode FROM items WHERE notforloan = <<Ei lainata -tila|NOT_LOAN>>
-  - _Sisällytä vaihtoehto kaikille_: Kyselyn pitää käyttää LIKE-käskyä. Tällä vaihtoehdolla pystyy hakemaan myös kaikki vaihtoehdot, kun siihen lisää :all-lisämääreen auktorisoidun arvon perään. Esim. SELECT barcode FROM items WHERE notforloan LIKE <<Ei lainata -tila|NOT_LOAN:all>>
-  - _Salli useita valintoja_: Kyselyn pitää käyttää IN-käskyä ja auktorisoidun arvon perään lisätään :in-lisämääre. Esim. SELECT barcode FROM items WHERE notforloan IN <<Ei lainata -tila|NOT_LOAN:in>>
+  - _Vain yksi parametri_: Kyselyn pitää käyttää =-merkkiä. Esim. ```SELECT barcode FROM items WHERE notforloan = <<Ei lainata -tila|NOT_LOAN>>```
+  - _Sisällytä vaihtoehto kaikille_: Kyselyn pitää käyttää LIKE-käskyä. Tällä vaihtoehdolla pystyy hakemaan myös kaikki vaihtoehdot, kun siihen lisää :all-lisämääreen auktorisoidun arvon perään. Esim. ```SELECT barcode FROM items WHERE notforloan LIKE <<Ei lainata -tila|NOT_LOAN:all>>```
+  - _Salli useita valintoja_: Kyselyn pitää käyttää IN-käskyä ja auktorisoidun arvon perään lisätään :in-lisämääre. Esim. ```SELECT barcode FROM items WHERE notforloan IN <<Ei lainata -tila|NOT_LOAN:in>>```
 - _Lisää parametri_ -napilla saa lisättyä valinnat raportille, _Peruuta_-napilla valinnat saa peruttua.
 
 Toiminto lisää valinnat SQL-laatikkoon valittuna olleeseen kohtaan.
