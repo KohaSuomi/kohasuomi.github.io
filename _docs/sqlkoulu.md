@@ -7,7 +7,7 @@ toc: true
 ---
 
 Ohjeen tekijä: Johanna Räisä<br />
-Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024
+Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025
 
 
 [Kohan tietokantaskeema](https://schema.koha-community.org/)
