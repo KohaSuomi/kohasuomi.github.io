@@ -747,7 +747,10 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 1.  **Koha Offline Circulation -lainausohjelma** (KOC). Erillinen työpöytäsovellus
     yksittäiselle Windows-koneelle.
 
-2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen lisäosa.
+2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen lisäosa. 
+
+KOCT-lisäosa ei toistaiseksi toimi version 24.05 kanssa.
+{: .notice--warning}
 
 Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.  
 
@@ -905,6 +908,9 @@ Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun kä
 
 
 ### 2.19.2 Koha Offline Circulation Tool (KOCT)
+
+KOCT-lisäosa ei toistaiseksi toimi version 24.05 kanssa.
+{: .notice--warning}
 
 Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen.
 
