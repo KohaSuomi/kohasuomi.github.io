@@ -213,9 +213,9 @@ Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle jouko
 Muokattavat asiakkaat voi valita kolmella tavalla
 - tiedostosta
 - asiakaslistalta
-- lisäämällä heidän kirjastokortin numeron tekstikenttään, yksi per rivi
+- lisäämällä heidän kirjastokortin numeron tai asiakas-ID -numeron tekstikenttään, yksi per rivi
 
-Sen jälkeen valitaan _Seuraava_
+Sen jälkeen valitaan _Jatka_
 
 <img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
 
