@@ -21,3 +21,4 @@ Läsnä:
 * Suomi.fi Yhteinen integraatioalusta VIA varmenne vaihtuu 16.1.2025 - viestit notifications-spostissa
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Bugittomien jatko?
+* Päivystysvuorot vkosta 3 eteenpäin
