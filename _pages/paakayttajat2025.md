@@ -13,12 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: 7.1.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/1595)
 * [Tammikuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1594)
 
+**Lappi**
+* Normaalia ylläpitoa. 
 
 Pohjoisesta etelään
 
