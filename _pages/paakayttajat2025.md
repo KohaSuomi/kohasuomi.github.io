@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: 7.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/1595)
@@ -29,6 +29,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lau
   * Lainauskiellon maksuraja nousi 12 e -> 15 e.
   * Kaukolainamaksu nousi 1 e -> 2 e + mahdolliset lähettäjäkirjaston maksut. Maksua ei ole määritelty Kohaan.
 * 7.1. aamulla hyllyvarauksia oli reilut 4500, joka on OUTIn ennätys. :)
+
+**Lumme**
+* Normaalia ylläpitoa.
 
 Pohjoisesta etelään
 
