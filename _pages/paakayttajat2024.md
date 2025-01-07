@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: 31.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari (OUTI), Susanna Sandell (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen (Lappi)
 
 **Yhteiset asiat**
 * ei päivitystä tällä viikolla
@@ -40,6 +40,10 @@ Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, j
 
 **Siilinjärvi**
 * Ei mainittavaa, tavallisia lähestyvän vuodenvaihteen töitä.
+
+**Lappi**
+* Normaalia ylläpitoa
+* Rovaniemellä nousee 1.1.2025 päivä- ja nidekohtaisen myöhästymismaksun maksimimäärä kolmesta viiteen euroon. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
 
