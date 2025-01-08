@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 1/2025
 
 Aika: 8.1.2025 klo 13<br />
-Läsnä: Ari, Kati, Anni, Susanna, Janne, Noora, Riikka, Hanna, Leena, Päivi, Anneli
+Läsnä: Ari, Kati, Anni, Susanna, Janne, Noora, Riikka, Hanna, Leena, Päivi, Anneli, Kodo
 
 ### 1. Ajankohtaiset
 
@@ -62,6 +62,9 @@ Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja ke
 
 Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavien varausten käsittelyn nopeuttamiseksi.
 
+Päätös: Perustetaan ryhmä, joka miettii, miten varausten noudon prosesseja voisi virtaviivaistaa. Mukaan alustavasti Vaski, Lastu, Oulu. Kokoonkutsujana Susanna Sandell, eli ilmoittakaa hänelle, ketkä kaikki haluavat mukaan.
+
+
 ### 6. Kehitysehdotusten läpikäynti
 
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
@@ -71,16 +74,31 @@ Susanna ja Anni esittelevät, mitä Vaski-kirjastoissa on suunniteltu noudettavi
 
 Ryhmään tarvittanee täydennystä jälkeenpäin mukaan liittyneistä kimpoista (Kirkes ja Lastu), Koha-Suomen edustus "kuunteluoppilaana" voisi ehkä olla myös hyvä, jotta Koha-Suomessakin tiedettäisiin ryhmän toiminnasta. Olisiko mahdollista tahdä ja julkaista PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
+Päätös:
+Kirkes: Uotilan Elina (Järvenpää) ja Riikka Mustajärvi (Tuusula)
+Lastusta kolme osallistumassa Lahdesta
+Koha-Suomesta Emmi, mutta seuraavaan palaveriin (ma) osallistuu joku muu kehittäjä
+
 ### 8. KaTi-työryhmän perustaminen
 
 Yhteiseen kuvailutietovarantoon siirtymistä varten tarvitaan työryhmä, jossa voidaan hahmotella esimerkiksi kuvailun työnjako ja tietueiden yhdistelysäännöt.
 
+Päätös: Perustetaan ryhmä ja pyydetään kuvailuryhmää nimeämään ryhmän jäsenet. Koha-Suomen puolelta koollekutsujana ja koordinoijana Kodo. 
+
 ### 9. Muut asiat
 
 * Hypernova on kysellyt, olisiko heidän asiakkaiden mahdollista poimia osakohteita TäTistä. Keskustellaan, onko tämä sopimusteknisesti ja teknisesti mahdollista.
+  * Tekninen ongelma: meillä ei ole ulospäin aukiolevaa poimintayhteyttä ja sen toteuttaminen on työlästä ja laskutettavaa työtä.
+  * Kimpat/kunnat ostavat kuvailutyötä Kirjastopalvelulta, onko sopimusteknisesti oikein jakaa dataa eteenpäin.
 * Koha-workerien määrän dynaaminen säätäminen järjestelmään kohdistuvan kuorman mukaan tarvitsisi urhean pilottikimpan.
+  * Lappi selvittää, voisiko he olla urhea pilottikimppa.
 * Uutiskirjeen aikataulu ja vastuutus
+  * neljä tuntui liian monelta , oli hankala keksiä sisältöä
+  * kaksi uutiskirjettä
+    * maaliskuun loppu: Lastu
+    * lokakuun loppu: Lumme
 * Tikettien priorisointi -ryhmän järjestäytyminen
+  * to 16.1. klo 13 tai ke 22.1. klo 14 
 
 ### 10. Seuraavat kokoukset
 
