@@ -20,6 +20,7 @@ Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi
 
 <img src="/assets/files/docs/Asetukset/kirjasto.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta" style="width:90.0%" />
 <img src="/assets/files/docs/Asetukset/kirjasto2.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
+
 **Kirjaston tunnus**
 
 Yksilöivä tunnus, jossa ei kannata käyttää erikoismerkkejä tai ääkkösiä. Tunnusta ei pysty muuttamaan jälkikäteen.
@@ -136,11 +137,15 @@ Ryhmää voi kuvailla halutessaan, esim. mihin tarkoitukseen se on.
 
 **Ominaisuudet**
 
-- Rajoita muihin ryhmiin kuuluvien pääsyä tämä ryhmän asiakkaisiin -> Ei tarpeellinen.
+- Rajoita muihin ryhmiin kuuluvien pääsyä tämä ryhmän asiakkaisiin
+  - Ei tarpeellinen.
+- Rajoita niteen muokkausta ryhmän mukaan
+  - Asetuksella voi rajoittaa muihin kirjastoryhmiin kuuluvien niteiden muokkaamista käyttäjiltä. Tämän rajoituksen voi ohittaa, jos käyttäjällä on edit_any_item permission-käyttäjäoikeus.
+  - Toiminnossa on ongelmana, että nimekkeen perustiedot-näkymässä katoaa kokoelmat-taulukossa niteiden valinta-mahdollisuus, jolloin ei pysty viemään niteitä esim. erämuokkaukseen tai tarratulostukseen. Ei siis suositella käyttöön vielä.
 - Käytä verkkokirjaston hakuryhmille -> koskee Kohan omaa verkkokirjastoa, ei tarpeellinen
-- Käytä virkailijaliittymän hakuryhmille -> tällä ryhmän saa näkymään tiedonhaussa kirjasto-rajausten osiossa.
+- Käytä virkailijaliittymän hakuryhmille -> tällä ryhmän saa näkymään tiedonhaussa kirjasto-rajausten osiossa ja hakua voi tällöin rajata ryhmän kirjastoihin.
 - Paikallinen varausryhmä -> tätä toimintoa ei ole vielä testattu.
-- Paikallinen kellutusryhmä -> tällä voi määrittää ryhmään kuuluvien kirjastojen aineiston kellumaan ryhmään kuuluvissa kirjastoissa.
+- Paikallinen kellutusryhmä -> tällä voi määrittää ryhmään kuuluvien kirjastojen kaiken aineiston kellumaan ryhmään kuuluvissa kirjastoissa.
 
 ## 3. Nidetyypit
 
