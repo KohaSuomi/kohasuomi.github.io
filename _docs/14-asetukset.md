@@ -20,7 +20,6 @@ Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi
 
 <img src="/assets/files/docs/Asetukset/kirjasto.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta" style="width:90.0%" />
 <img src="/assets/files/docs/Asetukset/kirjasto2.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
-
 **Kirjaston tunnus**
 
 Yksilöivä tunnus, jossa ei kannata käyttää erikoismerkkejä tai ääkkösiä. Tunnusta ei pysty muuttamaan jälkikäteen.
@@ -39,7 +38,7 @@ Kirjaston lähiosoite.
 
 **Kunta**
 
-Tähän kirjataan postitoimipaikka. Englanniksi sana on City, jota käytetään muussakin yhteydessä kuntaan viittaavana, joten sanaa ei ole voitu suomentamaan postitoimipaikaksi.
+Tähän kirjataan postitoimipaikka. Englanniksi sana on City, jota käytetään muussakin yhteydessä kuntaan viittaavana, joten sanaa ei ole voitu suomentaa postitoimipaikaksi.
 
 **Osavaltio**
 
@@ -63,7 +62,7 @@ Tähän voi kirjata faksin numeron tai käyttää luovasti ja kirjata esim. kesk
 
 **Sähköposti**
 
-Tähän laitetaan noreply@koha-suomi.fi, koska sähköpostiviestit lähetetään Koha-Suomen/Bittigurun sähköpostipalvelimelta Koha-Suomen nimissä.
+Tähän laitetaan noreply@koha-suomi.fi, koska sähköpostiviestit lähetetään Koha-Suomen/Bittigurun sähköpostipalvelimelta Koha-Suomen nimissä. Erilaiset sähköpostipalvelut ovat tiukentaneet roskaposti- ja turvakäytäntöjään, joten tässä on tärkeää käyttää koha-suomi.fi-päätteistä osoitetta.
 
 **Vastausosoite**
 
@@ -93,7 +92,7 @@ Tällä voisi rajata pääsyn tähän kirjastoon tiettyyn ip-osoitteeseen tai al
 
 ISIL-tunnus. Ei tarvitse täyttää, koska kuvailu tehdään erilliseen TäTi-tietokantaan.
 
-**Muuta**
+**Huomautukset**
 
 Lisätietokenttä, ei tarpeellinen.
 
@@ -105,6 +104,17 @@ Tällä asetuksella valitaan, onko kirjastoyksikkö varausten noutopaikka vai ei
 
 Liittyy Kohan omaan verkkokirjastoon, joka ei ole käytössä. Ei tarpeellinen.
 
+**Aukioloajat**
+
+Asetuksella voi määrittää kirjaston aukioloajat, joita hyödynnetään tuntilainojen eräpäiviä määritettäessä. Ei tarpeellinen.
+
+**OPAC JS**
+
+Asetuksella voi tehdä kirjastokohtaisia määrityksiä Kohan verkkokirjastossa, kun asiakas on kirjautuneena sisään. Ei tarpeellinen, koska ei vaikuta Finnaan.
+
+**OPAC CSS**
+
+Asetuksella voi tehdä kirjastokohtaisia määrityksiä Kohan verkkokirjastossa, kun asiakas on kirjautuneena sisään. Ei tarpeellinen, koska ei vaikuta Finnaan.
 
 ## 2. Kirjastoryhmät
 
