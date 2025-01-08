@@ -217,7 +217,7 @@ Muokattavat asiakkaat voi valita kolmella tavalla
 
 Sen jälkeen valitaan _Jatka_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.png" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
 
