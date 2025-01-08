@@ -16,9 +16,9 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 2
 
 Aika: Ke 8.1.2025 klo 13<br />
-Läsnä:
+Läsnä: Lari, Anneli, Kodo, Pasi, Ari, Johanna
 
-* Suomi.fi Yhteinen integraatioalusta VIA varmenne vaihtuu 16.1.2025 - viestit notifications-spostissa
+* Suomi.fi Yhteinen integraatioalusta VIA varmenne vaihtuu 16.1.2025 - viestit notifications-spostissa - Ei vaadi meiltä toimia
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Bugittomien jatko?
 * Päivystysvuorot vkosta 3 eteenpäin
