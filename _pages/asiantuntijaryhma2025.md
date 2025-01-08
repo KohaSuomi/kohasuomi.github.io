@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 1/2025
 
 Aika: 8.1.2025 klo 13<br />
-Läsnä:
+Läsnä: Ari, Kati, Anni, Susanna, Janne, Noora, Riikka, Hanna, Leena, Päivi, Anneli
 
 ### 1. Ajankohtaiset
 
@@ -32,17 +32,31 @@ Seuraavassa Kohan versiossa 24.11 on isoja muutoksia sivupohjien ylläpitoon, ku
 
 Palvelimien ja Koha-asennusten käyttöjärjestelmät pitää päivittää täysin uuteen versioon, koska nykyisen käyttöjärjestelmän tukiaika päättyy 31.5.2025. Tämä on iso työ ja vie paljon työaikaresursseja.
 
+**Päätös**: Vuonna 2025 ei tehdä versionpäivitystä. Varataan alustavasti aika versionvaihdolle maaliskuulle 2026. Kimpoissa selvitellään sopivat päivät.
+
 ### 3. Koha-seminaarin ohjelma
 
 Ennen kokousta tulleita ehdotuksia:
 * OUTI: voisiko Turku esitellä kellutustyökalua
 * taukojumppaa Koha-Suomen henkilökunnan toimesta
+* Ari:
+  * yhtiön toiminta
+  * kyselee vielä tieteellisiltä aiheita
+  * Esa-Pekka puhuu jotain
+* Tiekartan painopistealueet: ryhmätyö?
+* Karoliina Kanerva Kyytistä pitää lyhyen etäesityksen hallitustyöskentelystä
+* Turku: RFID-haravatoteutus
+* Kaukolainamoduulin standardointi - missä mennään
+* Bibframe - missä mennään
+* Kellutuksen tilanne
 
 ### 4. Tiekartta
 
 Käydään läpi tiekartta vuodelle 2025.
 
 Liite: [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18281009/Tiekartta2025.xlsx)
+
+Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta.
 
 ### 5. Vaski: noudettavien varausten käsittelyn nopeuttaminen
 
