@@ -183,6 +183,36 @@ Ei lainata	: EILAINATA (Ei lainattavan materiaalin nidetyyppi, joille määritet
 
 Oppimateriaalipalvelut : OPPIMATER (Oulun koulukirjaston Oppimateriaalipalvelujen tarvitsema nidetyyppi. Muuten koulukirjaston niteet ovat lasten aineiston nidetyypeillä)
 
+### 3.1 Uusi nidetyyppi
+
+<img src="/assets/files/docs/Asetukset/nidetyyppi1.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/nidetyyppi2.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/nidetyyppi3.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
+
+* **Nidetyyppi**: Nidetyypin tunniste, esim. 28VRK.
+* **Emonidetyyppi**: Emonidetyypin määrittäminen ottaa käyttöön myös tälle nidetyypille emonidetyypille määritetyt laina- ja maksusäännöt.
+* **Kuvaus**: Selkokielinen selite nidetyypille.
+* **Hakutyyppi**: Asetuksella voi ryhmitellä nidetyyppejä. Vaihtoehdot on määritelty auktorisoidun arvon mukaan ITEMTYPECAT.
+* **Valitse ikoni**: Nidetyypille voi halutessaan valita ikonin/kuvakkeen.
+* **Piilota verkkokirjastossa**: Jos valittuna, tämän tyypin niteet suodatetaan pois Kohan verkkokirjaston tarkasta hausta. Ei koske Finnaa.
+* **Ei lainattavissa**: Valinta estää tämän nidetyypin lainaamisen. Jos jätät tämän valinnan tyhjäksi, tätä nidetyyppiä voi lainata, ellei niteelle ole valittuna "ei lainata"-tila.
+* **Automaattinen palautus**: Jos valittuna, niteet palautetaan automaattisesti eräpäivänä. Ominaisuus vaatii misc/cronjobs/automatic_checkin.pl cronjobin. Ei ole testattu.
+* **Lainausmaksu**: Tähän voisi määrittää lainalle/uusinnalle maksu. Suomessa yleisten kirjastojen lainat ovat maksuttomia.
+* **Päivävuokra**: Tämä maksu veloitetaan lainattaessa/uusittaessa jokaiselta päivältä lainauksen/uusinnan päivän ja eräpäivän välillä, jos laina-aika määritellään päivissä. Suomessa yleisten kirjastojen lainat ovat maksuttomia.
+* **Käytä kalenteria päiväkohtaisille vuokrille**: Jos valitset tämän, päivittäinen veloitus lasketaan kalenterista kiinniolopäivät poislukien. Jos ei valintaa, maksu lasketaan suoraan päivien määrän mukaan eräpäivästä lähtien.
+* **Tuntikohtainen lainausmaksu**: Tämä maksu veloitetaan lainattaessa/uusittaessa jokaiselta tunnilta lainauksen/uusinnan päivän ja eräpäivän välillä, jos laina-aika määritellään tunneissa.
+* **Käytä kalenteria tuntikohtaisille lainoille**: Jos valitset tämän, tuntiveloitus lasketaan kalenterista kiinniolopäivät poislukien. Jos ei valintaa, maksu lasketaan suoraan tuntien määrän mukaan erääntymisestä lähtien.
+* **Oletuskorvaushinta**: Nidetyypille voi määrittää oletuskorvaushinnan, jota käytetään, jos nide on kadonnut, eikä sillä ole nidekohtaista korvaushintaa määritettynä.
+* **Käsittelykulut (kun kadonnut)**: Tämä maksu lisätään niteen korvaushintaan, jos asiakkaan laina merkitään kadonneeksi.
+* **Palautusviesti**: Näkyy, kun tätä nidetyyppiä oleva nide palautetaan.
+* **Palautusviestin tyyppi**: Tällä määritetään, onko yllä mainittu palautusviesti tyypiltään viesti vai huomautus. Ne ovat muuten samanlaisia, mutta viesti näytetään palautuksessa sinisellä pohjalla ja huomautus keltaisella pohjalla.
+* **SIP-mediatyyppi**: Asetuksella määritetään, mikä "aineistotyyppi" välitetään SIP2-sanomissa. Kohan omat nidetyypit eivät välity sanomissa. SIP-mediatyypeillä voi tehdä esim. lajittelusääntöjä palautusautomaateilla tai määrittää aktivoidaanko tai deaktivoidaanko hälytyksiä.
+  * Samoihin lajittelulaareihin haluttavat nidetyypit kannattaa määrittää samalle SIP-mediatyypille.
+* **Kirjastorajoitus**: Nidetyypin voi määrittää kaikkien, yhden tai useamman kirjaston käyttöön. Jos nidetyyppi on rajoitettu esim. yhdelle kirjastolle, näkyy se vain kyseiseen kirjastoon kirjautuneille käyttäjille.
+* **Yhteenveto**: Syötä kuvaus, jota käytetään oletuskuvauksen sijaan hakutuloksissa. Tätä käytetään vain ei-xslt-näytöillä.
+
+*Tallenna muutokset* -napista saat tallennettua tekemäsi muutokset.
+
 ## 4. Auktorisoidut arvot
 
 Auktorisoituja arvoja voi käyttää Kohan eri osioissa esim. alasvetovalikoissa. Ne ovat siis valmiita "listoja", joita halutaan käytettävän vapaan tekstin sijaan. Kaikki arvot ovat pääsääntöisesti kaikille kirjastoille/asiakastyypeille käytettävissä, mutta ne voidaan rajoittaa myös käytettäväksi tietyillä kirjastoilla tai asiakastyyypeillä. Alla listattuna tärkeimmät:
