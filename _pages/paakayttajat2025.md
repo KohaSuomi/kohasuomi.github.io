@@ -16,7 +16,9 @@ Aika: 14.1.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä
+* LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
+* Viikon 3 päivitys
+* Asiantuntijaryhmän kuulumiset
 
 Etelästä pohjoiseen
 
