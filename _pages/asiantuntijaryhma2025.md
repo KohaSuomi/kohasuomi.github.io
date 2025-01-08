@@ -70,6 +70,8 @@ Päätös: Perustetaan ryhmä, joka miettii, miten varausten noudon prosesseja v
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
 
+Siirretään käsittely seuraavaan kokoukseen.
+
 ### 7. PowerBI-vertaisryhmän tilannekatsaus
 
 Ryhmään tarvittanee täydennystä jälkeenpäin mukaan liittyneistä kimpoista (Kirkes ja Lastu), Koha-Suomen edustus "kuunteluoppilaana" voisi ehkä olla myös hyvä, jotta Koha-Suomessakin tiedettäisiin ryhmän toiminnasta. Olisiko mahdollista tahdä ja julkaista PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
@@ -101,4 +103,6 @@ Päätös: Perustetaan ryhmä ja pyydetään kuvailuryhmää nimeämään ryhmä
   * to 16.1. klo 13 tai ke 22.1. klo 14 
 
 ### 10. Seuraavat kokoukset
+
+Keskiviikkona 12.2.2025 klo 13-15
 
