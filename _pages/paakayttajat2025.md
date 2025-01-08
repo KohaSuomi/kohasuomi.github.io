@@ -10,10 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 3
+
+Aika: 14.1.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-3) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 2
 
 Aika: 7.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/1595)
