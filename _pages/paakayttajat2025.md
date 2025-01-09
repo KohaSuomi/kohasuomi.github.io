@@ -18,7 +18,8 @@ Läsnä:
 **Yhteiset**
 * LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
 * Viikon 3 päivitys
-* Asiantuntijaryhmän kuulumiset
+* [Asiantuntijaryhmän kuulumiset](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-12025)
+* Muistutus deadlinesta: [Kohan ohje suomeksi -ohjeen päivitys](https://github.com/KohaSuomi/Koha/issues/1488) tammikuun loppuun mennessä.
 
 Etelästä pohjoiseen
 
