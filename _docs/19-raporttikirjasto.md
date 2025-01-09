@@ -2738,6 +2738,42 @@ WHERE (ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kentt�
 AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä MARC-kentästä haetaan? Katkaise tarvittaessa %-merkillä>>
 LIMIT 7000
 ```
+
+### Tietueet, joissa 008:n pituus ei ole 40 merkkiä
+
+Raportilla voi hakea tietueet, joissa 008-kentän pituus ei ole 40 merkkiä.
+
+Tekijä: Anneli Österman<br />
+Pvm: 9.1.2025
+
+```
+SELECT biblionumber,CHAR_LENGTH(ExtractValue(metadata, '//controlfield[@tag="008"]')) AS 'Merkkien määrä', ExtractValue(metadata, '//controlfield[@tag="003"]') AS '003'
+FROM biblio_metadata
+WHERE CHAR_LENGTH(ExtractValue(metadata, '//controlfield[@tag="008"]')) != 40
+```
+
+
+### Tietueiden haku kiinteämittaisen kentän pituuden mukaan
+
+Raportilla voi hakea tietueita, joiden parametrina määritetyn kiinteämittaisen kentän pituus ei ole parametrinä määritetyn pituinen. Esimerkiksi 006-kentän pituus pitäisi olla 18 merkkiä. Tällöin parametreiksi annetaan 006 ja 18, jolloin listataan tietueet, joissa merkkejä on enemmän tai vähemmän kuin 18 jossain 006-kentän toistumassa. 
+
+Tuloksissa näkyvä merkkimäärä voi hämätä, koska kun tietueessa on kenttätoistumia, lasketaan merkkimäärä niin, että kenttien sisällöt liitetään toisiinsa _välilyönnillä_ ja lasketaan sitten kokonaismerkkimäärä. Eli jokainen toistuma lisää yhden ylimääräisen merkin kokonaissummaan. Näytettävä merkkimäärä voi tällöin olla kenttätoistumien yhteissumma, esim. kahdella toistumalla 36, mutta siltikin toinen kentistä on liian lyhyt. Jos näin käy, niin tietue kuuluu kuitenkin raportin tuloksiin mukaan, koska raportti katsoo yksittäisten kenttätoistumien pituutta, ei niiden _näytettävää_ yhteissummaa. Jos merkkien yhteissumma on hämäävä, voi sarakkeen jättää raportilta myös pois.
+
+Raportti on hidas.
+
+Tekijä: Anneli Österman<br />
+Pvm: 9.1.2025
+
+```
+SELECT biblionumber, CHAR_LENGTH(ExtractValue(metadata, '//controlfield[@tag='<<Kiinteämittainen kenttä>>']')) AS 'Merkkien määrä', ExtractValue(metadata, '//controlfield[@tag="003"]') AS '003'
+  FROM biblio_metadata bm
+ WHERE CHAR_LENGTH(ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>'][1]')) NOT IN (<<Kentän oikea pituus>>, '0')
+    OR CHAR_LENGTH(ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>'][2]')) NOT IN (<<Kentän oikea pituus>>, '0')
+    OR CHAR_LENGTH(ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>'][3]')) NOT IN (<<Kentän oikea pituus>>, '0')
+    OR CHAR_LENGTH(ExtractValue(bm.metadata,'//controlfield[@tag='<<Kiinteämittainen kenttä>>'][4]')) NOT IN (<<Kentän oikea pituus>>, '0')
+ LIMIT 100
+```
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
