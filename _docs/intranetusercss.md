@@ -884,9 +884,15 @@ body#circ_returns.circ.modal-open div#bundle-needsconfirmation-modal.modal.fade.
 
 Versio 24.05
 
-Jos niteen kuljetuksen vahvistuspopparista puuttuu yllä olevien rimpsujen vuoksi OK- ja Tulosta kuitti -napit, saa ne näkyville tällä:
+Jos niteen kuljetuksen vahvistuspopparista puuttuu yllä olevien rimpsujen vuoksi OK- ja Tulosta kuitti -napit, saa ne näkyville tällä, jos TransfersBlockCirc-järjestelmäasetuksessa **estetään** ilmoituksen ohittaminen:
 ```
-body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert-action.noblock.in button.btn.btn-default { display: initial; } /* Tuo näkyville Ok- ja Tulosta kuitti -napit kun nide pitää kuljettaa palautuksessa. Se piilottuu ensimmäisen rimpsun vuoksi */
+body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert-action.noblock.in button.btn.btn-default { display: initial; } /* Tuo näkyville Ok- ja Tulosta kuitti -napit kun nide pitää kuljettaa palautuksessa. Se piilottuu ensimmäisen rimpsun vuoksi. TransfersBlockCirc-järjestelmäasetuksessa estetään ohitus. */
+```
+
+Jos niteen kuljetuksen vahvistuspopparista puuttuu yllä olevien rimpsujen vuoksi OK- ja Tulosta kuitti -napit, saa ne näkyville tällä, jos TransfersBlockCirc-järjestelmäasetuksessa **ei estetä** ilmoituksen ohittaminen:
+
+```
+body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert-action.noblock.in button.btn.btn-default { display: initial; } /* Tuo näkyville Ok- ja Tulosta kuitti -napit kun nide pitää kuljettaa palautuksessa. Se piilottuu ensimmäisen rimpsun vuoksi. TransfersBlockCirc-järjestelmäasetuksessa ei estetä ohitus. */
 ```
 
 ---
