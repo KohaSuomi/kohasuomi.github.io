@@ -786,20 +786,23 @@ _Toiminto ei ole käytössä_
 
 ### 1.6.9. Lainat
 
-Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
-maksut, mahdolliset taattavien maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
-_Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
+Asiakkaan tietojen alapuolella olevasta taulukosta löytyvät eri välilehdiltä asiakkaan lainat,
+maksut, varaukset ja rajoitukset. Taulukossa voivat näkyä myös mahdolliset taattavien maksut sekä perheen lainat.
+
+Lainoihin pääsee klikkaamalla _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
 Lainoista on tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
-### 7.6.9.1 Perheen lainat
+#### 1.6.9.1 Perheen lainat ja taattavien maksut -välilhdet
 
-_Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja_
+_Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
  _Perheen lainat_-välilehdellä takaajalle näkyvät huollettavien lainat ja huollettaville
  siellä näkyvät niiden henkilöiden lainat, joilla on sama takaaja.
+
+ _Taattavien maksut_-välilehdellä näkyvät kaikkien huollettavien maksut eriteltyinä. Välilehti tulee näkyville, jos yhdelläkin taattavalla on maksuja. Välilehteä ei näy, kun taattavilla ei ole maksuja.
