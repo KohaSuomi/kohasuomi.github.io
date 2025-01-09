@@ -56,7 +56,7 @@ Käydään läpi tiekartta vuodelle 2025.
 
 Liite: [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18357482/Tiekartta2025.xlsx)
 
-Päätös: Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta. Muita halukkaita osallistujia voi ilmoittaa Annelille.
+**Päätös**: Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta. Muita halukkaita osallistujia voi ilmoittaa Annelille.
 
 ### 5. Vaski: noudettavien varausten käsittelyn nopeuttaminen
 
@@ -77,9 +77,7 @@ Siirretään käsittely seuraavaan kokoukseen.
 Ryhmään tarvittanee täydennystä jälkeenpäin mukaan liittyneistä kimpoista (Kirkes ja Lastu), Koha-Suomen edustus "kuunteluoppilaana" voisi ehkä olla myös hyvä, jotta Koha-Suomessakin tiedettäisiin ryhmän toiminnasta. Olisiko mahdollista tahdä ja julkaista PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
 **Päätös:**
-Kirkes: Uotilan Elina (Järvenpää) ja Riikka Mustajärvi (Tuusula)
-Lastusta kolme osallistumassa Lahdesta
-Koha-Suomesta mukaan Emmi, mutta seuraavaan palaveriin (ma 13.1.) osallistuu joku muu kehittäjä
+Ryhmää täydennetään ja Kirkeksestä mukaan tulevat Uotilan Elina (Järvenpää) ja Riikka Mustajärvi (Tuusula). Lastusta kolme osallistumassa Lahdesta. Koha-Suomesta mukaan Emmi Takkinen, mutta seuraavaan palaveriin (ma 13.1.) osallistuu vapaan vuoksi joku muu kehittäjä.
 
 ### 8. KaTi-työryhmän perustaminen
 
