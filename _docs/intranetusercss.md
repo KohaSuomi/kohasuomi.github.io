@@ -1343,6 +1343,17 @@ Versio: 24.05
 body#circ_waitingreserves.circ a#holdscancelled-tab { display: none; }
 ```
 
+### Piilota varauksenteko-sivulta viimeinen Tulosta kuitti -sarake
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota varauksenteko-sivulta Tulosta kuljetuskuitti -sarake taulukosta */
+body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer th:nth-child(13) { display: none; }
+body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer td:nth-child(13) { display: none; }
+```
+
 ---
 
 ## Kausijulkaisut
