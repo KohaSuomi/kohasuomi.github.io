@@ -568,6 +568,35 @@ Versio: 24.05
 li.blocker.account_locked { font-weight: 700; }
 ```
 
+### Lisää Tili on lukittu -huomauksen perään ohje vaihtaa PIN-koodi
+
+Rimpsu lisää Tili on lukittu -huomauksen perään virkailijalle muistutukseksi ohjeen vaihtaa PIN-koodi. Rimpsussa on kieliversio suomelle, ruotsille ja englannille.
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Lisää käyttäjille ohjeeksi Asiakkaan infoboksiin Tili on lukittu -tekstin perään ": Vaihda PIN-koodi" */
+html[lang='fi-FI'] >
+body li.blocker.account_locked:after {
+  content: ": Vaihda PIN-koodi";
+  color:#990000;
+  }
+
+/* Lisää käyttäjille ohjeeksi Asiakkaan infoboksiin Ditt konto är låst -tekstin perään ": Ändra PIN-koden" */
+html[lang='sv-SE'] >
+body li.blocker.account_locked:after {
+  content: ": Ändra PIN-koden";
+  color:#990000;
+  }
+
+/* Lisää käyttäjille ohjeeksi Asiakkaan infoboksiin Account has been locked -tekstin perään ": Change PIN code" */
+html[lang='en'] >
+body li.blocker.account_locked:after {
+  content: ": Change PIN code";
+  color:#990000;
+  }
+```
+
 ## Asiakkaat-sivu
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
