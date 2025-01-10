@@ -29,7 +29,7 @@ Etelästä pohjoiseen
 ## Viikko 2
 
 Aika: 7.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Auli Rantasalo ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/1595)
@@ -55,6 +55,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lau
 **Siilinjärvi**
 * Ei mainittavaa
 * Kyseltiin onko Helle saanut palautetta takautuvasti nousseista myöhästymismaksuista. Yriteään Siilissä tiedottaa asiasta kovasti ennen 1.2.2025.
+
+**Vaara*
+* Pääkäyttäjävajaus tammikuun ajan, muuten ei mainittavaa
 
 Pohjoisesta etelään
 
