@@ -617,9 +617,11 @@ Rajoitteen voi poistaa manuaalisesti kortinvaihtotilanteessa.
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
 Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. Rajoitus voi olla voimassa toistaiseksi tai määräajan.
 
-Asiakkaalle lisätään vapaamuotoinen rajoite joko asiakkaan tiedoissa _Muokkaa_-painikkeen takaa tai Lainaus- ja Tiedot-näytöillä välilehdellä _Rajoitukset_.
+Asiakkaalle lisätään vapaamuotoinen rajoite joko Lainaus- ja Tiedot-näytöillä välilehdellä _Rajoitukset_
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus1.png)
+
+tai asiakkaan tiedoissa _Muokkaa_-painikkeen takaa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus2.png)
 
