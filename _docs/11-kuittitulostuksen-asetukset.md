@@ -6,13 +6,13 @@ redirect_from:
 toc: true
 ---
 
-# 9. Kuittitulostuksen asetukset
+# 11. Kuittitulostuksen asetukset
 
 Koha-Suomi tukee Firefoxin ESR-versiota.
 
 Tällä sivulla on ensin "yleisohje" uudemmille selaimille ja sen jälkeen erityishuomioita ja ohjeita liittyen tiettyihin selainversioihin. Näiden jälkeen ohjeistetaan, miten selain saadaan tulostamaan kuitit ilman, että pitää valita hiirellä OK (tai painaa enteriä). Lopuksi vielä ohjeita liittyen selaimen päivittymiseen ja ponnahdusikkoihin.
 
-## 9.1 Firefox ESR
+## 11.1 Firefox ESR
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
@@ -40,7 +40,7 @@ Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus.
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
 Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.2 mukaisesti.
 
-## 9.1.1 Firefoxin versio 115+esr
+## 11.1.1 Firefoxin versio 115+esr
 
 - Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
   - Jos arvot annetaan tuumina: Reunukset laitetaan muuten nollaksi, mutta vasemman reunan arvoksi laitetaan 0,05.
@@ -49,12 +49,12 @@ Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 
 
   ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostinasetukset.PNG)
 
-## 9.1.2 Firefoxin versiot 90+esr ja 100+esr
+## 11.1.2 Firefoxin versiot 90+esr ja 100+esr
 
 Huom! Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. 
 100+ -selainversioita kirjastoilla on käytössä ja ne ovat toimineet ongelmitta.
 
-## 9.1.3 Firefoxin versio 78+esr
+## 11.1.3 Firefoxin versio 78+esr
 
 Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
@@ -73,7 +73,7 @@ käyttää kaiken tilan kuitin tulostukseen.
 
 Klikkaa lopuksi _OK_.
 
-### 9.1.3.1 Oletustulostimen määrittely
+### 11.1.3.1 Oletustulostimen määrittely
 
 Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
 tulostinta Tulosta-valikosta.
@@ -99,7 +99,7 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer4.png)
 
 
-## 9.2 Selaimen määrittely tulostamaan kuitit automaattisesti
+## 11.2 Selaimen määrittely tulostamaan kuitit automaattisesti
 
 VAROITUS
 
@@ -123,14 +123,14 @@ Jos _print.always_print_silent_ -ominaisuutta ei löydy, lisää tämä ominaisu
 
 
 
-## 9.3 Selaimen päivittyessä
+## 11.3 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi, tarkista
 kuittitulostuksen asetukset. Vaihda yllä kuvatun
 _print.always_print_silent_-määrityksen asetus true -> false, niin pääset asetuksiin. Kun asetukset on muutettu toimiviksi, vaihda asetus takaisin asetus false -> true.
 
 
-## 9.4 Ponnahdusikkunat
+## 11.4 Ponnahdusikkunat
 
 Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
