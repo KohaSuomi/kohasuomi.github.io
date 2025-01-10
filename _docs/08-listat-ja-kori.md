@@ -26,7 +26,7 @@ Uudelle listalle on annettava muutama määritys:
 <!-- -->
 
 - Voit myös valita listan lajittelujärjestyksen alasvetovalikosta
-  _Järjestys_.
+  _Järjestä lista_.
 
 <!-- -->
 
