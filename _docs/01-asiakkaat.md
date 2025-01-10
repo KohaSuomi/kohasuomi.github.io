@@ -646,7 +646,7 @@ sekä asiakkaan tietojen muokkaus-sivulla.
 
 Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toimitaan kirjaston ohjeiden mukaan.
 
-![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
 
 Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut määreet ja tunnukset_-kohdassa.  
 
