@@ -621,14 +621,17 @@ Asiakkaalle lisätään vapaamuotoinen rajoite Lainaus- ja Tiedot-näytöillä v
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus1.png)
 
-Klikkaa kohdasta _Lisää rajoitus_, kirjoita selityskenttään rajoituksen syy. Tallenna _Lisää rajoitus_-painikkeella. 
+Klikkaa kohdasta _Lisää rajoitus_, valitse alasvetovalikosta rajoitteen tyyppi (vaihtoehdot voivat vaihdella kimpoittain) ja kirjoita kommenttikenttään rajoituksen syy. Syötä Vanhenee-kenttään tarvittaessa rajoituksen poistamispäivämäärä. Tallenna _Lisää rajoitus_-painikkeella. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus3.png)
 
-Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella. 
 Voit lisätä rajoitteen myös asiakkaan tiedoissa _Muokkaa_-painikkeen takaa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus2.png)
+
+Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella. 
+
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus13.png) 
 
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus10.png) 
