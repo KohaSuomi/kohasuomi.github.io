@@ -633,19 +633,18 @@ Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus13.png) 
 
-
-![](/assets/files/docs/Asiakkaat/Lisaarajoitus10.png) 
-
-Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. Vaikka kaikki asiakkaan rajoitukset näkyvät lainausnäytöllä, niin rajoituksista myöhäisimmin päättyvän päättymispäivämäärä näkyy näkyvimmin lainausnäytöllä, jos rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärät. 
+Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
-
-![](/assets/files/docs/Asiakkaat/Lisaarajoitus5.png)
 
 Jos et määritä päättymisaikaa, on rajoite voimassa toistaiseksi eikä rajoitteille näy lainausnäytöllä päättymispäivää.
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus7.png)
 
-Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
+Kaikki asiakkaan rajoitukset näkyvät lainaus- ja tiedot -näytöillä sekä asiakkaan tietojen muokkaus-sivulla.
+
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus20.png)
+
+Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toimitaan kirjaston ohjeiden mukaan.
 
 ![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
 
