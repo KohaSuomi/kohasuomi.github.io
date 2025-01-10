@@ -52,6 +52,7 @@ Lista voidaan luoda myös nimekehaun tuloksessa
 <!-- -->
 
 - Valitse _Lisää listalle_ alasvetovalikosta _Uusi lista_
+  
 <img src="/assets/files/docs/Listat_ja_Kori/uusi_lista1.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" />
 
 Nimeä lista ja valitse listan tyyppi
