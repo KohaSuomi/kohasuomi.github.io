@@ -9,8 +9,8 @@ toc: true
 # 2. Lainaus ja palautus
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
-tulostumaan automaattisesti (ohje kohdassa 11. Kuittitulostuksen
-asetukset). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
+tulostumaan automaattisesti (ohje kohdassa *11. Kuittitulostuksen
+asetukset*). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
 etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin,
@@ -41,13 +41,13 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
-- Viimeksi lainatun niteen tiedot näet *Lainattu*-kentässä.
+- Viimeksi lainatun niteen tiedot näet *Lainassa*-kentässä.
 - Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 **Tärkeää:**
 
 - Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
-  joten *Lainaus*-painiketta ei tarvitse välttämättä klikata.
+  joten *Lainaus*-painiketta ei tarvitse välttämättä klikata sen jälkeen, kun olet lukenut lainattavan niteen viivakoodin Lainaus-kenttään.
 - Jos niteen viivakoodia ei löydy, saat ilmoituksen:
 
   ![](/assets/files/docs/Lainaus/lainausviesti6.PNG)
