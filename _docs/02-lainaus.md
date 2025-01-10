@@ -9,7 +9,7 @@ toc: true
 # 2. Lainaus ja palautus
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
-tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
+tulostumaan automaattisesti (ohje kohdassa 11. Kuittitulostuksen
 asetukset). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
