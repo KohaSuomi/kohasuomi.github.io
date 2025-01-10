@@ -802,6 +802,6 @@ _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
- _Perheenjäsenten lainat_-välilehdellä takaajalle näkyvät huollettavien lainat.
+ _Perheenjäsenten lainat_-välilehdellä takaajalle näkyvät huollettavien lainat. Välilehti näkyy asiakkaan Lainaus- ja Tiedot-sivulla.
 
- _Taattavien maksut_-välilehdellä näkyvät kaikkien huollettavien maksut eriteltyinä. Välilehti tulee näkyville, jos yhdelläkin taattavalla on maksuja. Välilehteä ei näy, kun taattavilla ei ole maksuja.
+ _Taattavien maksut_-välilehti näkyy asiakkaan Tiedot-välilehdellä, jos yhdelläkin taattavalla on maksuja. Välilehdellä näkyvät tuolloin kaikkien huollettavien maksut eriteltyinä. Välilehteä ei näy, kun taattavilla ei ole maksuja. 
