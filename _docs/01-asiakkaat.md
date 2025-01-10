@@ -805,5 +805,6 @@ _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
  _Perheenjäsenten lainat_-välilehdellä takaajalle näkyvät huollettavien lainat. Välilehti näkyy asiakkaan Lainaus- ja Tiedot-sivulla.
 
  _Taattavien maksut_-välilehti näkyy asiakkaan Tiedot-välilehdellä, jos yhdelläkin taattavalla on maksuja. Välilehdellä näkyvät tuolloin kaikkien huollettavien maksut eriteltyinä. Välilehteä ei näy, kun taattavilla ei ole maksuja. 
+
 Huom. Mahdolliset taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huollettavien listan yläpuolella.
 ![](/assets/files/docs/Asiakkaat/Taattavienmaksut.png)
