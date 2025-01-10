@@ -56,6 +56,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Katariina Pohto ja Pirkko-Liisa Lau
 * Ei mainittavaa
 * Kyseltiin onko Helle saanut palautetta takautuvasti nousseista myöhästymismaksuista. Yriteään Siilissä tiedottaa asiasta kovasti ennen 1.2.2025.
 
+**Vaara**
+* Pääkäyttäjävaje tammikuun ajan, muuten ei mainittavaa
+
 
 
 Pohjoisesta etelään
