@@ -796,13 +796,12 @@ Lainoihin pääsee klikkaamalla _Lainassa_-painiketta. Maksut välilehteä ei n�
 Lainoista on tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
-#### 1.6.9.1 Perheen lainat ja taattavien maksut -välilhdet
+#### 1.6.9.1 Perheenjäsenten lainat ja Taattavien maksut -välilehdet
 
 _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
- _Perheen lainat_-välilehdellä takaajalle näkyvät huollettavien lainat ja huollettaville
- siellä näkyvät niiden henkilöiden lainat, joilla on sama takaaja.
+ _Perheenjäsenten lainat_-välilehdellä takaajalle näkyvät huollettavien lainat.
 
  _Taattavien maksut_-välilehdellä näkyvät kaikkien huollettavien maksut eriteltyinä. Välilehti tulee näkyville, jos yhdelläkin taattavalla on maksuja. Välilehteä ei näy, kun taattavilla ei ole maksuja.
