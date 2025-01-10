@@ -642,6 +642,7 @@ Kaikki asiakkaan rajoitukset näkyvät lainaus- ja tiedot -näytöillä
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus21.png)
 
 sekä asiakkaan tietojen muokkaus-sivulla.
+
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus22.png)
 
 Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toimitaan kirjaston ohjeiden mukaan.
@@ -650,7 +651,7 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ### 1.4.5. Asiakkaan rajoitusten poistaminen
 
-Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
+Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston ohjeiden mukaan.
 
 ## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
