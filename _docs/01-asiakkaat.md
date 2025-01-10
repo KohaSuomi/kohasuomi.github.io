@@ -779,7 +779,7 @@ Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
 Taulukossa näkyvät myös kuluvan päivän palautukset.
 
-![](assets/files/docs/Asiakkaat/Asiakkaantilastot.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaantilastot.png)
 
 ### 1.6.8. Hankintaehdotukset
 
