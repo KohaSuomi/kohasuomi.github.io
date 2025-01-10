@@ -648,10 +648,6 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
 
-Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut määreet ja tunnukset_-kohdassa.  
-
-![](/assets/files/docs/Asiakkaat/Lisaarajoitus8.png)
-
 ### 1.4.5. Asiakkaan rajoitusten poistaminen
 
 Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
