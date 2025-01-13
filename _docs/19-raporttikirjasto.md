@@ -3070,7 +3070,25 @@ WHERE creationdate BETWEEN <<Alkupvm|date>> AND <<Loppupvm|date>> GROUP BY baske
 ORDER BY basketname, booksellerid
 ```
 
+### OKM-liitännäisen mukainen hankintaportti, joka listaa tietueet, jotka on hankittu tietyllä aikavälillä tietyssä kirjastossa
 
+OKM-liitännäisen käyttämä kysely muuttettu sellaiseen muotoon, että sen voi tallentaa Kohan tallennettuihin raportteihin ja listata tietueet, jotka on hankittu tietyllä aikavälillä tietyssä kirjastossa.
+
+fiction-, musical-, ja celia-sarakkeita pitää lukea niin, että jos sarakkeen arvo on 1, niin tietue on kaunoa jne.
+
+Tekijä: Emmi Takkinen
+Pvm: 13.1.2025
+
+```
+SELECT i.itemnumber AS "Nidenumero", i.biblionumber AS "Tietuenumero", i.dateaccessioned AS "Hankipvm", i.location AS "Sijainti", i.cn_sort AS "Luokka ja pääsana", i.homebranch AS "Kotikirjasto", i.holdingbranch AS "Sijaintikirjasto", i.price AS "Hankintahinta", bde.itemtype AS "Aineistolaji", bde.primary_language AS "Pääkieli", bde.fiction AS "Kauno", bde.musical AS "Musiikkiaineisto", bde.celia AS "Celia"
+FROM items i
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON(i.biblionumber = bde.biblionumber)
+WHERE dateaccessioned >= <<Alkupvm|date>> AND dateaccessioned <= <<Loppupvm|date>>
+AND bde.itemtype NOT IN ("ALEHTI", "KAUSIJULK", "SLEHTI")
+AND i.notforloan not in ("-1")
+AND i.homebranch = <<Kotikirjasto|branches>>
+GROUP BY itemnumber
+```
 
 ## Lehtitilaukset
 
