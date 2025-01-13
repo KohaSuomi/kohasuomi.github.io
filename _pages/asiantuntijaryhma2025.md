@@ -77,7 +77,7 @@ Siirretään käsittely seuraavaan kokoukseen.
 Ryhmään tarvittanee täydennystä jälkeenpäin mukaan liittyneistä kimpoista (Kirkes ja Lastu), Koha-Suomen edustus "kuunteluoppilaana" voisi ehkä olla myös hyvä, jotta Koha-Suomessakin tiedettäisiin ryhmän toiminnasta. Olisiko mahdollista tahdä ja julkaista PowerBI:tä varten vakiomuotoinen datasetti, jotta samaa työtä ei tarvitsisi tehdä kaikissa kimpoissa erikseen?
 
 **Päätös:**
-Ryhmää täydennetään ja Kirkeksestä mukaan tulevat Uotilan Elina (Järvenpää) ja Riikka Mustajärvi (Tuusula). Lastusta kolme osallistumassa Lahdesta. Koha-Suomesta mukaan Emmi Takkinen, mutta seuraavaan palaveriin (ma 13.1.) osallistuu vapaan vuoksi joku muu kehittäjä.
+Ryhmää täydennetään ja Kirkeksestä mukaan tulee Uotilan Elina (Järvenpää). Lastusta kolme osallistumassa Lahdesta. Koha-Suomesta mukaan Emmi Takkinen, mutta seuraavaan palaveriin (ma 13.1.) osallistuu vapaan vuoksi joku muu kehittäjä.
 
 ### 8. KaTi-työryhmän perustaminen
 
