@@ -66,7 +66,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
   eräpäivä kuin oletuseräpäivä. Tämä vaihtoehto tulee näkyviin vain,
   jos järjestelmäasetuksissa on määritelty, että virkailijalla on
   oikeus muuttaa eräpäivää lainatessa.
-- Jos kimpalla on käytössä *automaattinen uusinta*, ohjelma uusii
+- Jos kimpalla on käytössä *Automaattinen uusinta*, ohjelma uusii
   lainatut teokset automaattisesti lainasääntöjen mukaisesti.
 - Toiminnolla *Älä lyhennä laina-aikaa varausten määrän pohjalta*
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
@@ -79,7 +79,7 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
 Kuitin voit tulostaa:
 - Painamalla näppäimistöltä *Enter*. (Huom.
-  järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
+  kimppasi järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
   asiakastiedot).
 - Painamalla pikanäppäimiä *Alt+P*.
 - Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta.
@@ -92,7 +92,7 @@ Kuitin voit tulostaa:
 
 *Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
 - *Asiakastietojen yhteenveto*: A4-tuloste asiakastiedoista,
-  lainoista, varauksista ja maksettavista maksuista.
+  lainoista, varauksista ja maksettavista maksuista. Jos selaimelle, jolla käytät Kohaa, on määritelty kuitit tulostumaan automaattisesti kuittitulostimelle, kannattaa yhteenveto tulostaa jostain toisesta selaimesta.
 - *Tulosta kuitti*: tulostaa kaikki asiakkaan lainat kuitille.
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
 - *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
@@ -100,6 +100,7 @@ Kuitin voit tulostaa:
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.
+  Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville *Tulosta palautuskuitti* -toimintoa.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
