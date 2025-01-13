@@ -12,6 +12,8 @@ Koha-Suomi Oy<br/>
 Roskildenkatu 9<br/>
 80140 Joensuu
 
+Sähköpostilla yhteydenotot: contact(at)koha-suomi.fi
+
 ## Koha-Suomen henkilöstö
 
 Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@koha-suomi.fi
