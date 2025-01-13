@@ -92,14 +92,15 @@ Kuitin voit tulostaa:
 
 *Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
 - *Asiakastietojen yhteenveto*: A4-tuloste asiakastiedoista,
-  lainoista, varauksista ja maksettavista maksuista. Jos selaimelle, jolla käytät Kohaa, on määritelty kuitit tulostumaan automaattisesti kuittitulostimelle, kannattaa yhteenveto tulostaa jostain toisesta selaimesta.
+  lainoista, varauksista ja maksettavista maksuista.<br>
+  Jos selaimelle, jolla käytät Kohaa, on määritelty kuitit tulostumaan automaattisesti kuittitulostimelle, kannattaa yhteenveto tulostaa jostain toisesta selaimesta A4:lle.
 - *Tulosta kuitti*: tulostaa kaikki asiakkaan lainat kuitille.
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
 - *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
-- *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.
+- *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville *Tulosta palautuskuitti* -toimintoa.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
