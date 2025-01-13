@@ -20,8 +20,8 @@ Aika: Ma 13.1.2025 klo 9<br />
 Läsnä: Lari, Anneli, Kodo, Pasi, Ari, Johanna
 
 * Viikon 3 päivitys
-  * [Asiakkaiden viennissä erämuokkaukseen tulee virhe #1464  https://github.com/KohaSuomi/Koha/issues/1464]
-  * [Lappi : Nidehaku ei löydä Museokirjaston niteitä #1549  https://github.com/KohaSuomi/Koha/issues/1549] 
+  * [Asiakkaiden viennissä erämuokkaukseen tulee virhe #1464](https://github.com/KohaSuomi/Koha/issues/1464)
+  * [Lappi : Nidehaku ei löydä Museokirjaston niteitä #1549](https://github.com/KohaSuomi/Koha/issues/1549) 
 
 
 ## Viikko 2
