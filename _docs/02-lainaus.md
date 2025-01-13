@@ -44,7 +44,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 - Viimeksi lainatun niteen tiedot näet *Lainassa*-kentässä.
 - Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
-![](/assets/files/docs/Lainaus/Näytä lainat reaaliaikaisesti.PNG)
+![](/assets/files/docs/Lainaus/Näytä_lainat_reaaliaikaisesti.PNG)
 
 **Tärkeää:**
 
