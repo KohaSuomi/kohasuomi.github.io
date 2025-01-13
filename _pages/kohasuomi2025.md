@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+
+## Viikko 3
+
+Aika: Ma 13.1.2025 klo 9<br />
+Läsnä: Lari, Anneli, Kodo, Pasi, Ari, Johanna
+
+* Viikon 3 päivitys
+  * [Asiakkaiden viennissä erämuokkaukseen tulee virhe #1464  https://github.com/KohaSuomi/Koha/issues/1464]
+  * [Lappi : Nidehaku ei löydä Museokirjaston niteitä #1549  https://github.com/KohaSuomi/Koha/issues/1549] 
+
+
 ## Viikko 2
 
 Aika: Ke 8.1.2025 klo 13<br />
