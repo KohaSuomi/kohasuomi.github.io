@@ -345,7 +345,7 @@ _Kirjautumistunnus_-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
 verkkokirjastoon. Huom! Kaikissa kimpoissa ei ole kuvassa näkyvää osiota käytössä.
 
-![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
+![](/assets/files/docs/Asiakkaat/Kirjautumistunnus.png)
 
 Tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
