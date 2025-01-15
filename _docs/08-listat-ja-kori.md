@@ -68,7 +68,7 @@ Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 
 Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä _Listat_-sivulla.
 
-<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" style="width:90.0%" />
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" style="width:90.0%" />
 
 _Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
 
@@ -88,7 +88,7 @@ Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
 
 Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
-<img src="/assets/files/docs/Listat_ja_Kori/listan_sisalto.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty otsikko Sisältö Kissakirjoja" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty otsikko Sisältö Kissakirjoja" style="width:90.0%" /> 
+<img src="/assets/files/docs/Listat_ja_Kori/listan_sisalto.png" title="Listat-sivulta kuvankaappaus, jossa on punaisella laatikolla merkitty otsikko Sisältö Kissakirjoja" alt="Listat-sivulta kuvankaappaus, jossa on punaisella laatikolla merkitty otsikko Sisältö Kissakirjoja" style="width:90.0%" /> 
 
 ### 8.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
