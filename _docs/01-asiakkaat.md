@@ -563,7 +563,8 @@ Kuvan voi lisätä sillä sivulla, jossa näkyy kuvalaatikko kysymysmerkillä.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaankuva.png)
 
-Vie hiiri kuvan kohdalle ja klikkaa kuvan kohdalla esiin tullutta _Lisää_-painiketta. 
+Vie hiiri kuvan kohdalle ja klikkaa kuvan kohdalla esiin tullutta _Lisää_-painiketta.
+
 ![](/assets/files/docs/Asiakkaat/Asiakkaankuva1.png)
 
 Jos tarkoituksena on ottaa asiakkaasta kuva, niin valitse _Salli_, mutta jos tarkoituksena on ladata valmis kuva, niin valitse _Estä_.
@@ -571,9 +572,11 @@ Jos tarkoituksena on ottaa asiakkaasta kuva, niin valitse _Salli_, mutta jos tar
 ![](/assets/files/docs/Asiakkaat/Asiakaskuva2.png)
 
 Tässä Asiakaskuva-laatikossa ei ole sallittu Kohankäyttää kameraa.
+
 ![](/assets/files/docs/Asiakkaat/Asiakaskuva3.png)
 
 Tässä Asiakaskuva-laatikossa kamera on sallittu.
+
 ![](/assets/files/docs/Asiakkaat/Asiakkaankuva2.png)
 
 
