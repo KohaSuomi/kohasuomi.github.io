@@ -514,19 +514,19 @@ Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uus
 Yläpalkin _Muokkaa_ ja _Muita toimintoja_ valikoista pääsee joka asiakastieto-sivulla päivittämään asiakkaan käyttöoikeuden.
 
 
-Lainausnäytöllä vanhentumispäivämäärän perässä olevista linkeistä _Uusinta_ ja _Muokkaa tietoja_ voi jatkaa asiakkaan käyttöoikeutta. 
+- Lainausnäytöllä vanhentumispäivämäärän perässä olevista linkeistä _Uusinta_ ja _Muokkaa tietoja_ voi jatkaa asiakkaan käyttöoikeutta. 
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
 
 
-Asiakkaan tiedot -sivulla tilin voi uusia Huomio- ja Kirjastotiedot -kohdissa _Uusinta- tai Muokkaa tietoja_-linkkien kautta.
+- Asiakkaan tiedot -sivulla tilin voi uusia Huomio- ja Kirjastotiedot -kohdissa _Uusinta- tai Muokkaa tietoja_-linkkien kautta.
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen3.png)
 
 
-Uusinnassa asiakkaalle tallentuu vanhentumispäivämäärä asiakkaan asiakastyypille määritellyn voimassaoloajan mukaan.
+_Uusinnassa asiakkaalle tallentuu vanhentumispäivämäärä asiakkaan asiakastyypille määritellyn voimassaoloajan mukaan._
 
 Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä. 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen4.png)
