@@ -88,7 +88,7 @@ Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
 
 Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
-<img src="/assets/files/docs/Listat_ja_Kori/listan_sisalto.png" title="Listat-sivulta kuvankaappaus, jossa on punaisella laatikolla merkitty otsikko Sisältö Kissakirjoja" alt="Listat-sivulta kuvankaappaus, jossa on punaisella laatikolla merkitty otsikko Sisältö Kissakirjoja" style="width:90.0%" /> 
+<img src="/assets/files/docs/Listat_ja_Kori/listan_sisalto.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" style="width:90.0%" /> 
 
 ### 8.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
