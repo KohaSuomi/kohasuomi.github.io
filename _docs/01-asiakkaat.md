@@ -737,28 +737,19 @@ nimeä pääset näkemään koko viestin.
 \- _Tyyppi_-sarakkeessa näkyy, missä muodossa viesti on lähetetty.
 Koha-Suomessa käytössä: printti, sms (tekstiviesti), sposti, suomi.fi, finvoice
 
-\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan
-
-_lähetetty_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
-lähettävään järjestelmään
-
-_odottaa_: viestiä ei ole vielä lähetetty eteenpäin lähettävään
-järjestelmään
-
-_epäonnistunut_: viestin lähetys on epäonnistunut. Osa
-lähettävistä järjestelmistä (esim. tekstiviestioperaattorit) palauttaa
-Kohaan epäonnistumisen syyn, jolloin se näkyy
-Toimitushuomautus-sarakkeessa.
+\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan esim. Lähetetty. Jos sarakkeessa lukee _Odottaa_, niin silloin viestiä ei ole vielä lähetetty eteenpäin lähettävään järjestelmään.
 
 \- _Päivitetty_-sarakkeessa näkyy milloin viesti on päivitetty. Tieto päivittyy aina,
-kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin
-luontiajankohdasta.
+kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin luontiajankohdasta.
 
-\- _Luontiaika_-sarakkeessa näkyy viestin lähetysaika. 
+_luontiaika_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
+lähettävään järjestelmään.
 
-\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen
-  epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä
-  tekstiviestioperaattorit palauttavat virheen syyn.
+\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn. 
+
+Kun lähetys on onnistunut, niin sarakkeessa ilmoitetaan viestin lähetysosoite sekä vastaanottajan sähköpostiosoite tai puhelinnumero.
+
+Mahdolliset virheilmoitukset
   
   _Message is duplicate_ tarkoittaa, että Koha on hylännyt viestin, koska
   se on täsmälleen samanlainen kuin hiljattain lähetetty toinen viesti.
