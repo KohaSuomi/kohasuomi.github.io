@@ -559,9 +559,12 @@ Tätä toimintoa ei käytetä manuaalisesti sillä asiakastyypit päivittyvät j
 
 Asiakkaan kuva voidaan lisätä asiakastietoihin, jos järjestelmäasetuksissa se on sallittu. Kaikissa kirjastoissa tätä ominaisuutta ei ole otettu käyttöön.
 
-Kuvan voi lisätä sillä sivulla, jossa näkyy kuvalaatikko kysymysmerkillä. Klikkaa kuvan kohdalla _Lisää_-painiketta.
+Kuvan voi lisätä sillä sivulla, jossa näkyy kuvalaatikko kysymysmerkillä. 
 
-![](/assets/files/docs/Asiakkaat/Asiakaskuva1.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaankuva.png)
+
+Vie hiiri kuvan kohdalle ja klikkaa kuvan kohdalla esiin tullutta _Lisää_-painiketta. 
+![](/assets/files/docs/Asiakkaat/Asiakkaankuva1.png)
 
 Jos tarkoituksena on ottaa asiakkaasta kuva, niin valitse _Salli_, mutta jos tarkoituksena on ladata valmis kuva, niin valitse _Estä_.
 
@@ -569,6 +572,9 @@ Jos tarkoituksena on ottaa asiakkaasta kuva, niin valitse _Salli_, mutta jos tar
 
 Tässä Asiakaskuva-laatikossa ei ole sallittu Kohankäyttää kameraa.
 ![](/assets/files/docs/Asiakkaat/Asiakaskuva3.png)
+
+Tässä Asiakaskuva-laatikossa kamera on sallittu.
+![](/assets/files/docs/Asiakkaat/Asiakkaankuva2.png)
 
 
 ## 1.4. Rajoitukset
