@@ -607,7 +607,7 @@ Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" il
 Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua 
 vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
 
-![](/assets/files/docs/Asiakkaat/tililukittu.png)
+![](/assets/files/docs/Asiakkaat/tilionlukittu.png)
 
 ### 1.4.3. Rajoite liiallisista kirjautumisyrityksistä
 
