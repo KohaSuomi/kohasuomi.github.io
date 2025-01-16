@@ -750,28 +750,25 @@ lähettävään järjestelmään.
 
 \- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn. 
 
-Kun lähetys on onnistunut, niin sarakkeessa ilmoitetaan viestin lähetysosoite sekä vastaanottajan sähköpostiosoite tai puhelinnumero.
+Mahdolliset virheilmoitukset:
+  
+**undeliverable (Teleservice Not Provisioned)** tarkoittaa mahdollisesti sitä, että liittymä ei voimassa ja viestiä ei voi siksi toimittaa.
 
-Mahdolliset virheilmoitukset
-  
-  _Message is duplicate_ tarkoittaa, että Koha on hylännyt viestin, koska
-  se on täsmälleen samanlainen kuin hiljattain lähetetty toinen viesti.
-  Näitä näkyy erityisesti tekstiviestien yhteydessä.
-  
-  _Message validity period has expired_ tarkoittaa, että viestiä on
-  yritetty lähettää maksimimäärä kertoja.
-  
-  _Unknown error_ tarkoittaa, että viestin epäonnistumisen syytä ei
-  tiedetä tai pystytä tarkentamaan. Syy voi olla esim. asiakkaan
-  puhelinnumero voi olla väärä tai hänen puhelimensa ei ota vastaan
-  tekstiviestejä, tai operaattorin päässä on häiriö.
-  
-  _Recipient is temporarily unreachable_ tarkoittaa, että vastaanottajaan
-  ei ole saatu yhteyttä.
-  
-  _Unallowed recipient phone number_
-  tarkoittaa, että asiakkaan puhelinnumerossa on jotain vikaa tai se on
-  väärässä muodossa (esim. lankapuhelin).
+**undeliverable (illegal subscriber)** tarkoittaa sitä, että vastaanottava operaattori on estänyt viestin. Mahdollisesti asiakas on estänyt viestit tietyntyyppisistä numeroista/lähettäjiltä.
+
+**Recipient phone number is invalid or unknown** / **Unallowed recipient phone number** / **Invalid phone number** / **invalid destination address** / **undeliverable (unknown subscriber)** tarkoittavat, että asiakkaan yhteystiedossa on jotain vikaa. Se esim. joko puuttuu, se on väärässä muodossa tai sitä ei ole olemassa.
+
+**Message is duplicate** / **DUPLICATE_MESSAGE** tarkoittaa, että Koha on hylännyt viestin, koska se on täsmälleen samanlainen kuin hiljattain lähetetty toinen viesti. Näitä näkyy erityisesti tekstiviestien yhteydessä.
+
+**undeliverable (expired)** / **Expired** / **Message validity period has expired** tarkoittaa, että viestiä on yritetty lähettää maksimimäärä kertoja tai sitä ei ole saatu toimitettua voimassaoloajan puitteissa (jos lähetystä yritetään x päivän ajan).
+
+**Unknown error** tarkoittaa, että viestin epäonnistumisen syytä ei tiedetä tai pystytä tarkentamaan. Syy voi olla esim. asiakkaan puhelinnumero voi olla väärä tai hänen puhelimensa ei ota vastaan tekstiviestejä, tai operaattorin päässä on häiriö.
+
+**NO_NOTES** / **undeliverable (Unidentified Subscriber)** tarkoittaa mahdollisesti sitä, että kyseessä on ollut hetkellinen häiriö lähetyksessä tai operaattorin päässä on ollut häiriö.
+
+**Recipient is temporarily unreachable** tarkoittaa, että vastaanottajaan ei ole saatu yhteyttä.
+
+Kun lähetys on onnistunut, niin sarakkeessa ilmoitetaan viestin lähetysosoite sekä vastaanottajan sähköpostiosoite tai puhelinnumero.
 
 ### 1.6.7. Tilastot
 
