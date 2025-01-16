@@ -327,7 +327,7 @@ Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
 Työkaluun pääsee myös esim. asiakastietojen ja perustiedot-näytön
 kautta, jolloin sinne on valmiiksi täytettynä asiakkan tai tietueen
-tunnista. Järjestelmäasetuksissa Lokit-osiossa määritetään, mitä tietoja
+tunniste. Järjestelmäasetuksissa Lokit-osiossa määritetään, mitä tietoja
 tallennetaan muutoshistoriaan eli lokitetaan. Tiedot haetaan tietokannan
 action_logs-taulusta.
 
@@ -544,7 +544,7 @@ Lisää halutut niteet *Perustiedot*-näytöltä tarratulostusjonoon. Laita rast
 
 Jos tulostettavia niteitä on kahdella eri välilehdellä (oman kirjaston kokoelmat ja muut kokoelmat), pitää kummallakin välilehdellä tehdä valinta ja vienti erikseen.
 
-Kannattaa hyödyntää Kokoelmat-taulukon suodatus-toimintoa ja suodattaa näkyville vain halutut niteet ja sen jälkeen *Valitse kaikki*, jolloin näkyvillä olevat niteet tulevat valituksi ja ne saa vietyä kerralla tulostusjonoon.
+Kannattaa hyödyntää *Kokoelmat*-taulukon *Näytä rajaukset*-toimintoa ja suodattaa näkyville vain halutut niteet ja sen jälkeen *Valitse kaikki*, jolloin näkyvillä olevat niteet tulevat valituksi ja ne saa vietyä kerralla tulostusjonoon.
 
 Myös niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko muokattavan niteen lomakkeen alta *Tulostusjonoon*-napista tai nidetaulukon *Toiminnot*-valikon *Tulostusjonoon*-kohdasta. Jokainen *Tulostusjonoon*-napin painallus vie viivakoodin tulostusjonoon. Saman niteen voi siis näin viedä useampaan kertaan, jos sellaiseen on tarvetta esim. av-aineiston osalta.
 
