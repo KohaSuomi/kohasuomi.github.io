@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 4
+
+Aika: 21.1.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Kuvailupohjista kannattaa poistaa oletusarvot nidetyyppi-kentästä 952y.
+  * Kysely, jolla saa etsittyä kuvailupohjat, joissa oletusarvo on asetettuna: ´´´select tagfield,tagsubfield,frameworkcode,defaultvalue from marc_subfield_structure where defaultvalue !="" and tagfield='952' and tagsubfield='y';```
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-4) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 3
 
 Aika: 14.1.2025 klo 9.15<br />
