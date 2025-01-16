@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: 14.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
@@ -49,6 +49,9 @@ Etelästä pohjoiseen
 * Tehtiin kehitysehdotus tarratulostukseen: tarratulostuksessa olisi hyvä näkyä numerointi myös tulostukseen tuotujen viivakoodien puolella. Lumpeissa on monia eri tarratulostuspohjia, niin tämä helpottaisi tarroja tulostavien työtä. Ehdotuksesta tehty tiketti.
 * Tietueissa esiintynyt säännöllisesti virhe 500 -virhettä, koska niteissä on ollut joku päivämääränä 0000-00-00 tai väärä nidetyyppi. Ongelmaa selvitellään.
 * Lyngsoen kirjakaappi antaa lainaan toiselle asiakkaalle varatun teoksen, mutta jättää varauksen varauksen tehneen asiakkaiden tietoihin odottaa-tilaan. Tästä asiakkaalle sitten kertyy maksuja, kun varausta ei ole noudettavana ja se vanhenee. Ongelma johtuu SIP-yhteydestä, koska siinä ei käsitellä ollenkaan varaustilaa. Ongelmasta tehty tiketti.
+
+**Kyyti**
+* Ilmeni ongelma, että virkailijat eivät voineet muuttaa asiakkaitten asiakastyyppiä [#1598](https://github.com/KohaSuomi/Koha/issues/1598)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-3) - [Palaa sivun alkuun](/paakayttajat2025)
 
