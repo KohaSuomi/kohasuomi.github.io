@@ -748,9 +748,9 @@ kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin luontiaja
 _luontiaika_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
 lähettävään järjestelmään.
 
-\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn. 
+\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn ja virheilmoitusten teksti voi vaihdella eri operaattoreilla. 
 
-Mahdolliset virheilmoitukset:
+Mahdollisia virheilmoituksia:
   
 **undeliverable (Teleservice Not Provisioned)** tarkoittaa mahdollisesti sitä, että liittymä ei voimassa ja viestiä ei voi siksi toimittaa.
 
