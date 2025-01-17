@@ -23,7 +23,8 @@ Läsnä:
 * Bugittomien jatko
 * Kuka kehittäjistä mukaan Kaukolainamoduulin tutustumisryhmään?
   * Asiantuntijaryhmän päätös: Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta. Muita halukkaita osallistujia voi ilmoittaa Annelille. 
-
+* Tikettien priorisointiryhmän ensimmäisen kokoontumisen briiffi
+ 
 ## Viikko 3
 
 Aika: Ma 13.1.2025 klo 9<br />
