@@ -55,11 +55,11 @@ Lista voidaan luoda myös nimekehaun tuloksessa
   
 <img src="/assets/files/docs/Listat_ja_Kori/uusi_lista1.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" />
 
-Nimeä lista ja valitse listan tyyppi
+Nimeä lista ja valitse listan tyyppi:
 
-\* Yksityinen lista näkyy vain sinulle ja vain sinä voit muokata sitä
+- Yksityinen lista näkyy vain sinulle ja vain sinä voit muokata sitä
 
-\* Julkinen lista näkyy kaikille
+- Julkinen lista näkyy kaikille
 
 Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 -valikosta hakutulosten yläpuolella.
