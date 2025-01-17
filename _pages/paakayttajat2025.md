@@ -26,7 +26,7 @@ Pohjoisesta etelään
 ## Viikko 3
 
 Aika: 14.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
@@ -65,6 +65,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Ilmeni ongelma, että virkailijat eivät voineet muuttaa asiakkaitten asiakastyyppiä [#1598](https://github.com/KohaSuomi/Koha/issues/1598)
+
+**Kirkes**
+* Järvenpäässä ollaan ottamassa käyttöön Canonin kirjastotulostusta. Ei toimi vielä, mutta päivitetään integraatiolistaus sitten, kun toimii. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-3) - [Palaa sivun alkuun](/paakayttajat2025)
 
