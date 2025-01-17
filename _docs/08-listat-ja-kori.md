@@ -30,17 +30,17 @@ Uudelle listalle on annettava muutama määritys:
 
 <!-- -->
 
-- _Tyyppi_ -alasvetovalikosta valitset, onko listasi yksityinen vai
+- _Julkinen_ -alasvetovalikosta valitset, onko listasi yksityinen vai
   julkinen.
-  - Yksityinen lista näkyy vain sinulle ja vain sinä voit muokata
+  - Yksityinen lista näkyy vain sinulle, ja vain sinä voit muokata
     sitä
-  - Julkinen lista näkyy kaikille, mutta vain sinä voit muokata sitä
+  - Julkinen lista näkyy kaikille Kohan käyttäjille
 
 <!-- -->
 
-- Lopuksi päätä listasi muokkausoikeudet. Oikeuden voi antaa:
-  - vain omistajalle
-  - kenelle tahansa tämän listan näkevälle
+- Lopuksi päätä listasi muokkausoikeudet _Salli muutokset sisältöön käyttäjältä_ -alasvetovalikosta.   
+  - jakamalla listan käyttöoikeuden myös muut pääsevät lisäämään aineistoa listalle
+  - yksityistä listaa voi kuitenkin muokata vain listan tekijä
 
 Lista voidaan luoda myös nimekehaun tuloksessa
 
@@ -59,7 +59,7 @@ Nimeä lista ja valitse listan tyyppi
 
 \* Yksityinen lista näkyy vain sinulle ja vain sinä voit muokata sitä
 
-\* Julkinen lista näkyy kaikille, mutta vain sinä voit muokata sitä
+\* Julkinen lista näkyy kaikille
 
 Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 -valikosta hakutulosten yläpuolella.
