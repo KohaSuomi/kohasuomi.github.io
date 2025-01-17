@@ -101,7 +101,7 @@ Kuitin voit tulostaa:
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
-  Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville *Tulosta palautuskuitti* -toimintoa.
+  Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -138,16 +138,21 @@ raja on ylittynyt.
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. 
 Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
 
-Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa *Asiakkaan
-rajoitukset*:
+Rajoituksen voit tallentaa asiakastietojen Muokkaa-sivulla kohdassa *Asiakkaan
+rajoitukset*. Valitse *+Lisää rajoitus* -linkkiä.
+
+![](/assets/files/docs/Lainaus/asiakkaan_rajoitukset.PNG) 
+
+![](/assets/files/docs/Lainaus/asiakkaan_rajoituksen_tyyppi.PNG)
+- *Tyyppi*-kenttään valitse rajoituksen tyyppi.
+- *Kommentti/Viesti*-kenttään tallenna rajoiteen syy.  
+- *Vanhenee*-kenttään aseta rajoitteen viimeinen voimassaolopäivä, jos rajoite on voimassa vain tietyn ajan. 
+
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys1.PNG) 
 
 tai asiakkaan tiedoissa välilehdellä *Rajoitukset*:
 
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
-
-Tallenna *Kommentti/Viesti*-kenttään rajoituksen syy. Jos haluat, että rajoitus on voimassa vain tietyn ajan, tallenna *Vanhenee*-kohtaan rajoituksen viimeinen
-voimassaolopäivä.
 
 Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedot tallennetaan. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -painikkeella.  
   
