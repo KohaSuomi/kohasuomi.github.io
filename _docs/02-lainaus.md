@@ -153,13 +153,13 @@ Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissa välilehdellä *Rajo
 
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
 
-Asiakkaan muokkausnäytöllä rajoitus tallentuu asiakkaalle, kun tallennat asiakkaan tiedot. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -toiminnolla.  
+Asiakkaan Muokkaa-sivulla rajoitus tallentuu asiakkaalle, kun tallennat asiakkaan tiedot. Rajoitukset-välilehdellä tallenna rajoitus *Lisää rajoitus* -toiminnolla.  
   
-Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
+Asiakkaan Lainaus- ja Tiedot-näytöllä rajoitus näkyy näin:
 
 ![](/assets/files/docs/Lainaus/rajoite1.PNG)
 
-### 2.2.2.1 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151014-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
+### 2.2.2.1 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#143-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
 
 ### 2.2.2.2 Rajoitteen poistaminen
 
