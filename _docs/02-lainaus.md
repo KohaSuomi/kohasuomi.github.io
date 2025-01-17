@@ -135,25 +135,25 @@ raja on ylittynyt.
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
-Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. 
+Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun asiakkaalle on lähetetty lasku palauttamattomasta tai turmeltuneesta aineistosta. Rajoitus voidaan lisätä asiakkaalle myös automaattisesti, kun palauttamaton aineiston lasku luodaan. 
 Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
 
 Rajoituksen voit tallentaa asiakastietojen Muokkaa-sivulla kohdassa *Asiakkaan
-rajoitukset*. 
+rajoitukset*.<br>
 Klikkaa linkkiä *+Lisää rajoitus*.
+
+![](/assets/files/docs/Lainaus/asiakkaan_rajoitukset.PNG)
 
 ![](/assets/files/docs/Lainaus/rajoituksen_tyyppi.PNG)
 - *Tyyppi*-kenttään valitse rajoituksen tyyppi.
-- *Kommentti/Viesti*-kenttään tallenna rajoiteen syy.  
-- *Vanhenee*-kenttään aseta rajoitteen viimeinen voimassaolopäivä, jos rajoite on voimassa vain tietyn ajan. 
+- *Kommentti/Viesti*-kenttään tallenna rajoituksen syy.  
+- *Vanhenee*-kenttään aseta rajoituksen viimeinen voimassaolopäivä, jos rajoitus on voimassa vain tietyn ajan. 
 
-![](/assets/files/docs/Lainaus/rajoitteenlisäys1.PNG) 
-
-tai asiakkaan tiedoissa välilehdellä *Rajoitukset*:
+Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissa välilehdellä *Rajoitukset*:
 
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
 
-Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedot tallennetaan. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -painikkeella.  
+Asiakkaan muokkausnäytöllä rajoitus tallentuu asiakkaalle, kun tallennat asiakkaan tiedot. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -toiminnolla.  
   
 Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
