@@ -16,16 +16,19 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 4
 
 Aika: Ma 20.1.2025 klo 9<br />
-Läsnä:
+Läsnä: Ari, Anneli, Pasi, Emmi, Johanna, Kodo, Lari
 
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Viikon 4 päivitys
 * Bugittomien jatko
-* Kuka kehittäjistä mukaan Kaukolainamoduulin tutustumisryhmään?
+  * Emmi tekee kyselyn pääkäyttäjille sopivista päivistä bugittomille.
+* Kuka kehittäjistä mukaan Kaukolainamoduulin tutustumisryhmään? - Johanna tulee
   * Asiantuntijaryhmän päätös: Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta. Muita halukkaita osallistujia voi ilmoittaa Annelille. 
 * Tikettien priorisointiryhmän ensimmäisen kokoontumisen briiffi
 * contact-postissa viesti avoimen lähdekoodin järjestelmien rekisteristä tms.
- 
+  * Pasi hoitaa 
+
+
 ## Viikko 3
 
 Aika: Ma 13.1.2025 klo 9<br />
