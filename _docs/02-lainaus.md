@@ -211,7 +211,7 @@ Lainauskielto ja huomautus poistuu, kun asiakastietojen Muokkaa-sivulla osiossa
 *Käyttäjätilin huomautukset* vaihdat *Kadonnut kortti* -kohtaan vaihtoehdon
 “Ei” ja tallennat asiakastiedot.
 
-### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#142-tili-lukittu))
+### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#142-tili-lukittu)
 
 ---
 
@@ -220,7 +220,7 @@ Lainauskielto ja huomautus poistuu, kun asiakastietojen Muokkaa-sivulla osiossa
 ### 2.3.1 Huomautus liitteistä
 
 Jos lainaat asiakkaalle niteen, joka sisältää useita osia ja tieto osista on
-tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
+tallennettu niteen muokkaussivulla kenttään 3 - Liitteiden määrä, saat
 ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/huomsisallosta.PNG)
@@ -250,11 +250,12 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom3.PNG)
 
-### 2.3.6 Aineistoa ei lainata (niteen tila on “Ei lainattavissa”).
+### 2.3.6 Nidettä ei voi lainata (niteen tila on “Ei lainattavissa”).
 
 ![](/assets/files/docs/Lainaus/lainhuom5.PNG)
 
-- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastoissa. Jos eston ohitus ei ole sallittu, saat ilmoituksen:
+ ![](/assets/files/docs/Lainaus/nide_ei_lainattavissa.PNG) 
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
