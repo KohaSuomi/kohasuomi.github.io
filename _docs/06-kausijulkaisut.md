@@ -102,11 +102,11 @@ tietoja valmiiksi.
 
 <!-- -->
 
-- _Julkinen viesti_ näkyy asiakkaille Kohan verkkokirjastossa
+- _Yleinen huomautus_ näkyy asiakkaille Kohan verkkokirjastossa
 
 <!-- -->
 
-- _Viesti virkailijalle_ näkyy vain virkailijatyökalussa
+- _Huomautus virkailijalle_ näkyy vain virkailijatyökalussa
 
 <!-- -->
 
@@ -171,13 +171,17 @@ alapuolella.
 
 <!-- -->
 
+- _Julkaisuaikapohjalla_ on mahdollista määritellä tietoja, jotka halutaan näkyviin tilauksen Julkaisupäivämäärä (teksti) -kenttään. Tiedot lisätään Template Toolkitiä käyttäen esim. [% serialseq %] [% publisheddate %]
+
+<!-- -->
+
 - _Kieli_ voidaan vaihtaa lehden kielen mukaan, esim.
   englanninkieliseen lehteen numerointitiedot englanniksi (mikäli
   käytetään muuta kuin pelkkää numerointia)
 
 <!-- -->
 
-- Kun _Ilmestysmiskaava_ on täytetty, numerointikaavaa pääsee
+- Kun _Numerointikaava_ on täytetty, numerointikaavaa pääsee
   muokkaamaan  
   ![](/assets/files/docs/Kausijulkaisut/numeroinnin_ennustuskaava.PNG)
   - _Alkaa merkeillä_ -kenttään annetaan ensimmäisen numeron tiedot
@@ -223,7 +227,7 @@ Klikattuasi _Vastaanota_, pääset saapumisvalvontanäytölle.
 <!-- -->
 
 - Jos tilausta tehdessä on valittu, että nide luodaan lehteä
-  vastaanotettaessa, saat niteen lisäysnäytön. Valitse _Saapunut_,
+  vastaanotettaessa, saat niteen lisäysnäytön. Valitse Ei lainata -tilaksi _Saapunut_,
   niin lehtinumeron voi varata, mutta se ei ole vielä lainattavissa.
   (Huom! Saapunut-tilan nimi voi vaihdella kimpan mukaan)  
   ![](/assets/files/docs/Kausijulkaisut/saapumisvalvonta_nidetiedot.PNG)
@@ -296,8 +300,7 @@ Tilausten tiedot näkyvät _Kausijulkaisutilaukset_ -välilehdellä.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_valilehti.PNG)
 
-Numerolistauksen alla olevasta _Kausijulkaisutilauksen tiedot_ -painikkeesta pääset siirtymään suoraan lehden kaikkiin tilauksiin. Klikkaamalla Kausijulkaisutilaukset-välilehdeltä linkkiä _Kausijulkaisutilauksen tiedot_ pääset kyseisen tilauksen
-yhteenvetonäytölle virkailijatyökalussa.
+Vasemman reunan _Kausijulkaisutilaukset_ -painikkeesta pääset siirtymään suoraan lehden kaikkiin tilauksiin. Klikkaamalla Kausijulkaisutilaukset-välilehdeltä linkkiä _Kausijulkaisutilauksen tiedot_ pääset kyseisen tilauksen yhteenvetonäytölle virkailijatyökalussa.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilauksen_tiedot.PNG)
 
@@ -353,7 +356,7 @@ Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
   numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä. **Huomaa, että tilauksen pituus vaikuttaa ainoastaan uusitulle lehtitilaukselle muodostuvaan tilauksen päättymispäivään. Jos lehtitilauksen ilmestymistiheyteen tai numerointikaavaan tulee muutoksia, on ne tehtävä lehtitilauksen muokkauksen kautta.**
 
-Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 4.8).
+Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 6.8).
 
 Riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
 
