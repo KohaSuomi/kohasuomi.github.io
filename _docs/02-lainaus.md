@@ -103,7 +103,7 @@ Kuitin voit tulostaa:
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
 <br>
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
-  {: .notice--warning}
+{: .notice--warning}
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
