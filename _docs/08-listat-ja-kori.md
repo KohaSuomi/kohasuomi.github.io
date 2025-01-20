@@ -83,8 +83,11 @@ listan nimen.
 
 ### 8.1.3. Listojen katsominen
 
-Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.  
-<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" style="width:90.0%" />
+Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
+
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" style="width:90.0%" />
+
+_Listat_-sivun painikkeista pääset muokkaamaan listan nimeä ja käyttöoikeuksia tai poistamaan listan. Jos lista on julkinen, listaa pääsevät muokkaamaan ja poistamaan listan omistajan lisäksi ne henkilöt, joilla on siihen tarvittava käyttöoikeus. Voit myös siirtää julkisen listan omistajuuden _siirto_-painikkeella toiselle henkilölle.
 
 Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
