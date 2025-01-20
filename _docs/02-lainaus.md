@@ -101,7 +101,9 @@ Kuitin voit tulostaa:
 - *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
+<br>
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
+  {: .notice--warning}
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -140,13 +142,14 @@ Rajoitus voi olla voimassa toistaiseksi tai määräajan.
 
 Rajoituksen voit tallentaa asiakastietojen Muokkaa-sivulla kohdassa *Asiakkaan
 rajoitukset*.<br>
+
 Klikkaa linkkiä *+Lisää rajoitus*.
 
 ![](/assets/files/docs/Lainaus/asiakkaan_rajoitukset.PNG)
 
 ![](/assets/files/docs/Lainaus/rajoituksen_tyyppi.PNG)
 - *Tyyppi*-kenttään valitse rajoituksen tyyppi.
-- *Kommentti/Viesti*-kenttään tallenna rajoituksen syy.  
+- *Kommentti/Viesti*-kenttään laita rajoituksen syy.  
 - *Vanhenee*-kenttään aseta rajoituksen viimeinen voimassaolopäivä, jos rajoitus on voimassa vain tietyn ajan. 
 
 Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissa välilehdellä *Rajoitukset*:
@@ -163,23 +166,31 @@ Asiakkaan Lainaus- ja Tiedot-näytöllä rajoitus näkyy näin:
 
 ### 2.2.2.2 Rajoitteen poistaminen
 
-Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
+Rajoitteen voit poistaa asiakkaan Muokkaa-sivulla laittamalla ruksin kohtaan *Poista* ja tallentamalla asiakkaan tiedot:
+
+![](/assets/files/docs/Lainaus/rajoitteenpoisto2.PNG)
+
+Rajoitukset-välilehdeltä rajoitteen voit poistaa toiminnolla *Poista*.
 
 ![](/assets/files/docs/Lainaus/rajoitteenpoisto.PNG)
 
+Ohjelma varmistaa poiston vielä *Poista rajoitus?*-popparilla, josta valitse *OK*.
+
+![](/assets/files/docs/Lainaus/rajoitteen_poiston_varmistus.PNG)
 
 ### 2.2.3 Asiakkaan osoitetiedot ovat väärät
 
 Jos asiakkan tiedoissa on päällä Tarkista osoite -asetus,
 lainaus estyy. (Huom! Toiminto voi olla piilotettuna kimpassasi.) 
 
+![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
+
 Lainaustilanteessa tulee huomautus:  
 
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
-Päivitä osoitetiedot asiakkaan muokkaussivulla. Aseta muokkaussivulla osioon *Käyttäjätilin huomautukset* kohtaan *Tarkista osoite* "Ei" ja tallenna asiakastietojen muokkaussivu.
-
-![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
+Päivitä osoitetiedot asiakkaan Muokkaa-sivulla.<br>
+Aseta muokkaussivulla kohtaan *Tarkista osoite* "Ei" ja tallenna asiakastietojen muokkaussivu.
 
 Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. 
 
