@@ -104,7 +104,7 @@ Kuitin voit tulostaa:
 <br>
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
 {: .notice--warning}
-
+<br>
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
 ### 2.1.2 Asiakastietojen tyhjennys näytöltä
