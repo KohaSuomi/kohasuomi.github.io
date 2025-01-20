@@ -79,8 +79,6 @@ Nimeke voidaan lisätä listalle myös valitsemalla nimeke
 hakutulosnäytöltä ja valitsemalla Lisää listalle-valikosta olemassa olevan
 listan nimen.
 
-![](/assets/files/docs/Listat_ja_Kori/Lisaa_listalle_3.png)
-
 ### 8.1.3. Listojen katsominen
 
 Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
