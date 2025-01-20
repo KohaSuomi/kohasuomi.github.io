@@ -190,27 +190,28 @@ Lainaustilanteessa tulee huomautus:
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
 Päivitä osoitetiedot asiakkaan Muokkaa-sivulla.<br>
-Aseta muokkaussivulla kohtaan *Tarkista osoite* "Ei" ja tallenna asiakastietojen muokkaussivu.
+Aseta tämän jälkeen täppä kohtaan *Tarkista osoite:* "Ei" ja tallenna sivu.
 
-Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. 
+Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. Tiedon virheellisistä osoitetiedoista voi tallentaa esim. asiakkaan viestihuomautuksiin *Lisää viesti* -toiminnolla. Tällöin asiakas ei mene lainauskieltoon virheellisten osoitetietojen vuoksi.
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkaussivulla osioon *Käyttäjätilin huomautukset* kohtaan *Kortti kadonnut* "Kyllä".
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen Muokkaa-sivun osioon *Käyttäjätilin huomautukset* kohtaan *Kadonnut kortti:* "Kyllä". Asiakas menee lainauskieltoon.
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
 Lainaustilanteessa tulee huomautus:  
+
 ![](/assets/files/docs/Lainaus/korttikadonnut.PNG)
 
 Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassasi sovittujen
 käytäntöjen mukaan.  
 
-Huomautus poistuu, kun asiakastietojen muokkaussivulla osiossa 
-*Käyttäjätilin huomautukset* vaihdat *Kortti kadonnut* -kohtaan vaihtoehdon
+Lainauskielto ja huomautus poistuu, kun asiakastietojen Muokkaa-sivulla osiossa 
+*Käyttäjätilin huomautukset* vaihdat *Kadonnut kortti* -kohtaan vaihtoehdon
 “Ei” ja tallennat asiakastiedot.
 
-### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151013-tili-lukittu)
+### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#142-tili-lukittu))
 
 ---
 
