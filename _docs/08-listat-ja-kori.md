@@ -86,9 +86,16 @@ listan nimen.
 Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
 
 <img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" style="width:90.0%" />
+
 _Listat_-sivun painikkeista pääset muokkaamaan listan nimeä ja muokkausoikeuksia tai poistamaan listan. 
-- Jos lista on julkinen, myös muut voivat muokata listaa tai poistaa listan, mikäli heillä on tähän tarvittavat virkailijaoikeudet (edit_public_lists ja delete_public_lists)
+
+- Jos lista on julkinen, myös muut voivat muokata listaa tai poistaa listan, mikäli heillä on tähän tarvittavat oikeudet
+
+<!-- -->
+
 - Voit myös siirtää julkisen listan omistajuuden _siirto_-painikkeella toiselle henkilölle.
+
+<!-- -->
 
 Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
