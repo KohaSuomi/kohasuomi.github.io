@@ -24,6 +24,7 @@ Läsnä:
 * Kuka kehittäjistä mukaan Kaukolainamoduulin tutustumisryhmään?
   * Asiantuntijaryhmän päätös: Perustetaan ryhmä, joka tutustuu Kohan kaukolainamoduuliin. Mukaan Anneli ja kehittäjä Koha-Suomesta, Semenoffin Piia OUTIsta, Janne Seppänen Lastusta, Päivi Knuutinen Vaarasta. Muita halukkaita osallistujia voi ilmoittaa Annelille. 
 * Tikettien priorisointiryhmän ensimmäisen kokoontumisen briiffi
+* contact-postissa viesti avoimen lähdekoodin järjestelmien rekisteristä tms.
  
 ## Viikko 3
 
