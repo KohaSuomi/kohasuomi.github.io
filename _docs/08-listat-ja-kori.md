@@ -76,9 +76,10 @@ _Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää 
 
 
 Nimeke voidaan lisätä listalle myös valitsemalla nimeke
-hakutulosnäytöltä ja valitsemalla Lisää listalle-valikosta olemassa olevan
+ja valitsemalla Lisää listalle-valikosta olemassa olevan
 listan nimen.
 
+![]
 ### 8.1.3. Listojen katsominen
 
 Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.
