@@ -171,7 +171,7 @@ alapuolella.
 
 <!-- -->
 
-- _Julkaisuaikapohjalla_ on mahdollista määritellä tietoja, jotka halutaan näkyviin tilauksen Julkaisupäivämäärä (teksti) -kenttään. Tiedot lisätään Template Toolkitiä käyttäen esim. [% serialseq %] [% publisheddate %]
+- _Julkaisuaikapohjalla_ on mahdollista määritellä tietoja, jotka halutaan näkyviin tilauksen Julkaisupäivämäärä (teksti) -kenttään. Tiedot lisätään Template Toolkitiä käyttäen esim. <code>[% serialseq %] [% publisheddate %]</code>
 
 <!-- -->
 
