@@ -1475,7 +1475,7 @@ GROUP BY reserves.branchcode WITH ROLLUP
 
 Raportilla voi hakea kuljetuksessa olevat varaukset, jotka ovat kiinnittyneet automaatilla, mutta joita ei ole vielä käsitelty Kohassa.
 
-Tehty: 3.1.2025<br />
+Tehty: 3.1.2025 / Päivitetty 20.1.2025<br />
 Tekijä: Janne Seppänen
 
 ```
@@ -1495,17 +1495,17 @@ FROM branchtransfers bt
 INNER JOIN items i ON i.itemnumber = bt.itemnumber
 INNER JOIN biblio b ON b.biblionumber = i.biblionumber
 INNER JOIN (
-	SELECT	 statistics.itemnumber, MAX(statistics.datetime) AS havainto
-	FROM	 statistics
-	GROUP BY statistics.itemnumber
-) AS smax ON (smax.itemnumber = i.itemnumber)
-INNER JOIN statistics s ON i.itemnumber = s.itemnumber AND bt.datesent = smax.havainto
+	SELECT		statistics.itemnumber, MAX(statistics.datetime) AS havainto
+        FROM		statistics
+        WHERE		statistics.interface = 'sip'
+        GROUP BY	statistics.itemnumber
+) AS smax ON (smax.itemnumber = i.itemnumber) AND bt.datesent BETWEEN smax.havainto AND DATE_ADD(smax.havainto, INTERVAL 2 SECOND)
+INNER JOIN statistics s ON i.itemnumber = s.itemnumber
 WHERE bt.frombranch = <<Lähtökirjasto|branches>>
   AND bt.datearrived IS NULL
   AND bt.datecancelled IS NULL
   AND bt.datesent IS NOT NULL
   AND bt.reason = 'Reserve'
-  AND s.interface = 'sip'
 ```
 
 
