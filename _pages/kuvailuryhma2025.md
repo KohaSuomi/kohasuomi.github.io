@@ -77,7 +77,7 @@ Kentät, joissa auktorisoitujen arvojen valikko, mutta ei ruotsinkielisiä terme
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/15" target="_blank">Melinda tietueessa 19002432 FENNI-kenttä monistuu </a> 
    -> Korjaus on jo tuotannossa, mutta olisi hyvä seurata, miten diakriittejä sisältävät sanat käyttäytyvät Melindaan siirrettäessä. Monistuuko kentät vai siirtyvätkö täysin oikein. Ylipäänsä jos Melinda-tietueella on 5- tai 9-osakentissä joitakin arvoja, olisi hyvä aina tarkistaa, että 5- tai 9-osakentän sisältävät kentät siirtyvät oikein, eivätkä tuplaannu tai poistu tietueelta Melindaan viennin yhteydessä.</li>
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/13" target="_blank">Muokkaa 035a-kentän aktivoitumista valutuksessa </a> 
-   -> On jo tuotannossa. 035a-kentän FI-BTJ-tunnus ei enää toimi aktivointiarvona.</li <br>
+   -> On jo tuotannossa. 035a-kentän FI-BTJ-tunnus ei enää toimi aktivointiarvona.</li>
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/14" target="_blank">Hae tietueita 035z-kentällä </a> 
    -> Testattu TäTin ja OUTIn välillä, vaikuttaa toimivalta. Testattava vielä Melindan kanssa.</li>
 </ul>
@@ -85,7 +85,7 @@ Kentät, joissa auktorisoitujen arvojen valikko, mutta ei ruotsinkielisiä terme
 #### 9. Tikettiehdotuksia ####
 <ul>
  <li>Kuvailupohjan vaihtuminen oikeaksi: Jos esim. hankintatietueen aineistotyyppi on kirja, mutta lopullinen kuvailtu tietue onkin nuotti, niin kuvailupohja ei vaihdu automaattisesti eikä myöskään aineistotyyppi.</li>
--> On aiheuttanut ongelmia, tehdään tiketti.
+<p>-> On aiheuttanut ongelmia, tehdään tiketti. </p>
  <li>Tietokannassa joillakin tietueilla on 856-kentän kansikuva- ja kuvauslinkit useaan kertaan, jos ne valuvat Melinda-tietueen mukana. Koetaanko tämä ongelmaksi ja voisiko tälle tehdä jotakin? </li>
 -> Ei koettu laajemmin ongelmaksi, ei tehdä tikettiä.
 </ul>
