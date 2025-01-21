@@ -26,7 +26,7 @@ Sihteeriksi valittiin Marja Leskinen.
 <ul>
  <li><a href="https://github.com/KohaSuomi/Koha/issues/390" target="_blank">YSA-YSO-konversio kaikille kimpoille </a> </li>
  <li>Konversiotestauksia tehty OUTIssa ja Vaskissa: <a href="https://github.com/KohaSuomi/Koha/issues/1040" target="_blank">YSA/YSO-konversion testausta </a> </li>
- <li>Jos asiasanaketjuissa on 9-osakentässä Kohan auktoriteettinumero ja termi on useassa ketjussa, monistuu termi turhaan. Mietitään, saadaanko jollain ajolla numerot pois 
+ <li>Jos asiasanaketjuissa on 9-osakentässä Kohan auktoriteettinumero ja termi on useassa ketjussa, monistuu termi turhaan. Mietitään, saadaanko jollain ajolla numerot pois. 
  <p> -> Tehdään tiketti. Anneli tekee raportin, jolla voi hakea 9-osakentän sisältävät tietueet. 9-osakentät poistetaan sitten tarvittavista kentistä tietueiden erämuokkaus -toiminnolla.</p> </li>
  <li>Konversio ei lisää YSO-ajan termeihin linkkejä. Näille on suunniteltava/tehtävä oma korjausajo konversion jälkeen.</li>
  <li>Konversiot tehdään perusmäärityksillä eikä käytetä mitään vipuja.</li>
@@ -77,7 +77,7 @@ Kentät, joissa auktorisoitujen arvojen valikko, mutta ei ruotsinkielisiä terme
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/15" target="_blank">Melinda tietueessa 19002432 FENNI-kenttä monistuu </a> 
    -> Korjaus on jo tuotannossa, mutta olisi hyvä seurata, miten diakriittejä sisältävät sanat käyttäytyvät Melindaan siirrettäessä. Monistuuko kentät vai siirtyvätkö täysin oikein. Ylipäänsä jos Melinda-tietueella on 5- tai 9-osakentissä joitakin arvoja, olisi hyvä aina tarkistaa, että 5- tai 9-osakentän sisältävät kentät siirtyvät oikein, eivätkä tuplaannu tai poistu tietueelta Melindaan viennin yhteydessä.</li>
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/13" target="_blank">Muokkaa 035a-kentän aktivoitumista valutuksessa </a> 
-   -> On jo tuotannossa. 035a-kentän FI-BTJ-tunnus ei enää toimi aktivointiarvona.</li>
+   -> On jo tuotannossa. 035a-kentän FI-BTJ-tunnus ei enää toimi aktivointiarvona.</li <br>
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/14" target="_blank">Hae tietueita 035z-kentällä </a> 
    -> Testattu TäTin ja OUTIn välillä, vaikuttaa toimivalta. Testattava vielä Melindan kanssa.</li>
 </ul>
