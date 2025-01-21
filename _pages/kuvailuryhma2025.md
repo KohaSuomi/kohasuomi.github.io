@@ -14,7 +14,7 @@ Aika: 15.1.2025 klo 13.15–14.44
 
 Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Eeva Hulkkonen (Lastu), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi), Johanna Räisä (Koha-Suomi, kohta 2)
 
-Poissa: Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu) 
+Poissa: Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu)
 
 ### Asialista ###
 
