@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
-  * [OKM-tilastojen korjaukset](https://github.com/KohaSuomi/Koha/discussions/1628)
+  * [OKM-tilastojen korjaukset](https://github.com/KohaSuomi/Koha/discussions/1628) - uudelleenajot käynnissä, Emmi tiedottaa edistymisestä Matrixissa.
 * Kuvailupohjista kannattaa poistaa oletusarvot nidetyyppi-kentästä 952y.
   * Kysely, jolla saa etsittyä kuvailupohjat, joissa oletusarvo on asetettuna: ```select tagfield,tagsubfield,frameworkcode,defaultvalue from marc_subfield_structure where defaultvalue !="" and tagfield='952' and tagsubfield='y';```
 * [Tiketti 302](https://github.com/KohaSuomi/Koha/issues/302) eli huoltajasuhde valmiiksi valituksi. Onko tälle tarvetta monessa kimpassa, viedäänkö asiantuntijaryhmään päätettäväksi, plugarisoidaanko?
