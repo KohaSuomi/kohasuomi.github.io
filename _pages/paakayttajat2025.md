@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
@@ -25,6 +25,9 @@ Läsnä:
   * [Kuljetettavat varaukset, joita ei ole käsitelty Kohassa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#kuljetettavat-varaukset-joita-ei-ole-k%C3%A4sitelty-kohassa)
 
 Pohjoisesta etelään
+
+**OUTI**
+* Normaalia tukitöitä. Kohan ohje suomeksi päivitystä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-4) - [Palaa sivun alkuun](/paakayttajat2025)
 
