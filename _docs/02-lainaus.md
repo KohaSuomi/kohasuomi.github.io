@@ -254,6 +254,7 @@ lainaamisen jatkamista.
 ![](/assets/files/docs/Lainaus/lainhuom5.PNG)
 
 - Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastoissa. Jos eston ohitus ei ole sallittu, saat ilmoituksen:
+  
  ![](/assets/files/docs/Lainaus/nide_ei_lainattavissa.PNG) 
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
