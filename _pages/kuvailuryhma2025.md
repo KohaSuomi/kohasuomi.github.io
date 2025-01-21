@@ -79,7 +79,7 @@ Kentät, joissa auktorisoitujen arvojen valikko, mutta ei ruotsinkielisiä terme
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/13" target="_blank">Muokkaa 035a-kentän aktivoitumista valutuksessa </a> 
    -> On jo tuotannossa. 035a-kentän FI-BTJ-tunnus ei enää toimi aktivointiarvona.</li>
  <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/14" target="_blank">Hae tietueita 035z-kentällä </a> 
-   -> Testattu TäTin ja OUTIn välillä, vaikuttaa toimivalta. Testattava vielä Melindan kanssa.</li>
+   -> Testattu TäTin ja OUTIn välillä, vaikuttaa toimivalta. Testattava vielä Melindan kanssa. </li>
 </ul>
 
 #### 9. Tikettiehdotuksia ####
