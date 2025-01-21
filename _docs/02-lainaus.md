@@ -103,6 +103,7 @@ Kuitin voit tulostaa:
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
 
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
+{: .notice--warning}
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -292,7 +293,8 @@ lainaamisen jatkamista.
 
 ## 2.4 Asiakkaan lainat
 
-*Lainassa*-painikkeesta saat näkyville asiakkaan kaikki lainat.  
+*Lainassa*-painikkeesta saat näkyville asiakkaan kaikki lainat.
+
 ![](/assets/files/docs/Lainaus/lainassa.PNG)
 
 *Sarakkeet* -valikosta voit valita, mitä sarakkeita
@@ -316,7 +318,7 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
 ylläpidon laina- ja maksusäännöissä on määritelty.
 
-Lainat voi uusia asiakkaan tiedoissa Lainat-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla. Huom! Toiminto voi olla kimpassasi piilotettu.
+Lainat voi uusia asiakkaan tiedoissa *Lainat*-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla. Huom! Uusinta-toiminto voi olla kimpassasi piilotettu.
 
 Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
 {: .notice--warning}
@@ -334,10 +336,11 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   Toiminto “ei valintaa” poistaa valinnat.
   
 - Jos kimpassa on käytössä asetus, joka estää uusimisen samana päivänä
-  uudestaan, tulee huomautus “Ei uusintaa ennen…”. Lainan voi uusia
+  uudestaan, tulee huomautus *“Ei uusintaa ennen…”*. Lainan voi uusia
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
   tulee, kun päivität Lainat-välilehden tai käyt välillä toisella
-  sivulla.  
+  sivulla.
+  
   ![](/assets/files/docs/Lainaus/uusinta6.PNG)
     
 #### 2.4.1.2 Uusinta-toiminto Lainaus ja palautus -sivulla
@@ -357,7 +360,7 @@ Jos niteen uusiminen onnistuu, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta3.PNG)
 
-Jos nide ei ole lainassa, saat ilmoituksen:
+Jos nide ei ollut lainassa, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta5.PNG)
 
@@ -371,8 +374,12 @@ Jos viivakoodia ei löydy, saat ilmoituksen:
 
 ## 2.5 Asiakkaan varaukset
 
-**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
+**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. 
+
+Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
+
+Voit poistaa varauksen valitsemalla Poista-sarakkeen alasvetovalikosta *Kyllä*.
 
 ![](/assets/files/docs/Lainaus/varaukset2.PNG)
 
@@ -384,22 +391,21 @@ ovat sallittu järjestelmäasetuksissa.
 
 Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen. 
 
-Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkausnäytöllä:
+Rajoituksen voit lisätä asiakkaan tiedoissa Muokkaa-sivulla tai Rajoitukset-välilehdellä:
 
 [Asiakkaalla on rajoitus](https://koha-suomi.fi/dokumentaatio/lainaus/#222-asiakkaalla-on-rajoitus-lainauskielto)
 
 ### 2.6.2 Huomautukset asiakastiedoissa
 
-Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät verkkokirjastossa asiakkaan Omat tiedot -sivulla tai Kohassa asiakkaan Lainaus ja Tiedot -sivulla. 
+Voit tallentaa asiakastietojen Muokkaa-sivulla asiakkaalle huomautuksia, jotka näkyvät verkkokirjastossa asiakkaan Omat tiedot -sivulla tai Kohassa asiakkaan Lainaus ja Tiedot -sivulla. Molemmat Huomautus-kentät eivät välttämättä ole käytössä kimpassasi.
 
 ![](/assets/files/docs/Lainaus/huomautukset1.PNG)
 
 ### 2.6.3 Viestit asiakastiedoissa
 
-Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla.
-Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
+Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla tai viestin, joka näkyy myös asiakkaalle verkkokirjastossa. Viestin voi lähettää asiakkaalle myös sähköpostina. Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
 
-[Lisää viesti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#156-lis%C3%A4%C3%A4-viesti)
+[Lisää viesti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#136-lis%C3%A4%C3%A4-viesti)
 
 
 ### 2.6.4 Vanhentunut asiakastieto
