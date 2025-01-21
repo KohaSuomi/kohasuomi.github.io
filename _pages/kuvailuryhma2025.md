@@ -45,8 +45,8 @@ Sihteeriksi valittiin Marja Leskinen.
 
 #### 4.	Koha-Suomen sisäisen peruskuvailukoulutuksen järjestäminen ####
 <ul>
- <li>Koha-Suomen sisäinen koulutus päätettiin järjestää useamman lyhyen koulutuksen sarjana. Eri koulutuskerroilla keskitytään eri asioihin ja/tai aineistotyyppeihin tai jaetaan laajemmat kokonaisuudet useammalle kerralle. Jokaisella kerralla voi olla eri kouluttaja. Anneli hoitaa koulutusten tiedotuksen, tilaisuudet tallennetaan.</li>
- <li>Ensimmäinen koulutus järjestetään ti 11.3.2025 klo 13.00–14.30, jolloin käsitellään kirja-aineiston kuvailua. Pääasiallisena aiheena on se, kuinka toimitaan, kun Kirjastopalvelusta ei ole tulossa kuvailua mutta Melindassa on tietue ja kuinka näitä erilaisia Melinda-tietueita käsitellään. Kouluttajana toimii Anna Viitanen Vaskista.</li>
+ <li>Koha-Suomen sisäinen koulutus päätettiin järjestää useamman lyhyen koulutuksen sarjana. Eri koulutuskerroilla keskitytään eri asioihin ja/tai aineistotyyppeihin tai jaetaan laajemmat kokonaisuudet useammalle kerralle. Jokaisella kerralla voi olla eri kouluttaja. Anneli hoitaa koulutusten tiedotuksen, tilaisuudet tallennetaan. </li>
+ <li>Ensimmäinen koulutus järjestetään ti 11.3.2025 klo 13.00–14.30, jolloin käsitellään kirja-aineiston kuvailua. Pääasiallisena aiheena on se, kuinka toimitaan, kun Kirjastopalvelusta ei ole tulossa kuvailua mutta Melindassa on tietue ja kuinka näitä erilaisia Melinda-tietueita käsitellään. Kouluttajana toimii Anna Viitanen Vaskista. </li>
 </ul>
 
 #### 5.	Melinda-tietueiden tekijöiden auktorisointi ####
