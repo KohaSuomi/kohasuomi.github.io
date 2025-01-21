@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
@@ -38,6 +38,12 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Tutkittu poistettavien asiakkuuksien listausta. Tulossa olisi iso siivous: lähdössä on 27 000 41 000:sta!
+
+**Lastu**
+* Sip2SortBinMapping-asetusta testailtu Larin kanssa, syy toimimattomuudelle löytynyt rivivaihtojen käsittelystä. Alkuperäinen tiketti: https://github.com/KohaSuomi/Koha/issues/1559
+* Nidehaun tuloksiin toivottu mukaan niteen edellisestä havaintoa sekä niteen huomautuskenttiä. Yhteisöstä löytyi näille tiketit, kommentoitu sinne:
+  * https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=13965
+  * https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=13823
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-4) - [Palaa sivun alkuun](/paakayttajat2025)
 
