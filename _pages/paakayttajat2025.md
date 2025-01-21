@@ -38,6 +38,7 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Tutkittu poistettavien asiakkuuksien listausta. Tulossa olisi iso siivous: lähdössä on 27 000 41 000:sta!
+* Raportin antamat oletusnidetyypit poistettu kuvailupohjista.
 
 **Lastu**
 * Sip2SortBinMapping-asetusta testailtu Larin kanssa, syy toimimattomuudelle löytynyt rivivaihtojen käsittelystä. Alkuperäinen tiketti: https://github.com/KohaSuomi/Koha/issues/1559
