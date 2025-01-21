@@ -102,8 +102,10 @@ Kuitin voit tulostaa:
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
 <br>
+
   Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
 {: .notice--warning}
+
 <br>
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -261,7 +263,8 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom6.png)
 
-- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tiettyä aineistoa, ohjelma ilmoittaa, kun raja on ylitetty.
+- Jos maksimimäärän ohitus on sallittu kimpassasi, se määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.8 Viivakoodia ei löytynyt.
 
@@ -273,7 +276,7 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom8.PNG)
 
-- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautusta. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautus, joka pitää vahvistaa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
