@@ -44,7 +44,7 @@ Pohjoisesta etelään
 ## Viikko 3
 
 Aika: 14.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Auli Rantasalo (Vaara), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
@@ -86,6 +86,10 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Järvenpäässä ollaan ottamassa käyttöön Canonin kirjastotulostusta. Ei toimi vielä, mutta päivitetään integraatiolistaus sitten, kun toimii. 
+
+**Lastu**
+* Raindance-integraatio otettu Lahdessa käyttöön onnistuneesti
+* Asiakkaita ihmetyttänyt Finnan varausjonon sija 0. Tämä tarkoittaa, että varaus/nide on käsittelyssä. Selvitellään voiko tämän ilmaista Finnassa muulla tavoin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-3) - [Palaa sivun alkuun](/paakayttajat2025)
 
