@@ -39,6 +39,7 @@ Klikkaa tämän jälkeen "Enemmän asetuksia".
 Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
 Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.2 mukaisesti.
+Salli tarvittaessa myös ponnahdusikkunat kohdan 11.4 mukaisesti.
 
 ## 11.1.1 Firefoxin versio 115+esr
 
