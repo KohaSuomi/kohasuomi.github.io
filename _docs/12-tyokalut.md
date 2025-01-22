@@ -344,8 +344,7 @@ Vaihtoehtojen kuvaukset ja sulkeissa valintaa vastaava taulun sarake
 action_logs-taulussa:
 
 - **Virkailija** (user): tähän kohtaan voi määrittää, minkä
-  käyttäjätunnuksen tekemiä muutoksia haetaan. Kenttään laitetaan
-  käyttäjän borrowernumber.
+  käyttäjätunnuksen tekemiä muutoksia haetaan. Kenttään voi kirjoittaa esim. borrowernumberin. Jos kirjoittaa nimen tai kirjastokortinnumeron, Koha hakee siihen täsmäävät asiakkaat, joista voi valita.
 - **Osiot** (module): määrittele, minkä Kohan osion tietoja haluat
   hakea. Huutomerkkikolmio kuvake kertoo, että kyseisen osion lokitus ei ole päällä. Silloin siihen ei tietenkään voi myöskään kohdistaa hakua
 - **Toiminnot** (action): valitse minkälaisia toimintoja haluat hakea.
