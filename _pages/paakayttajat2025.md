@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 5
+
+Aika: 28.1.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Finna-kehitysedotusten prosessin selkeyttäminen. [Nykyisen prosessin kuvaus](https://github.com/KohaSuomi/Finna-kehitysehdotukset/wiki)
+  * Kuinka monta kertaa vuodessa tavataan Kansalliskirjasto. Ehdotus: 6 kk välein tai tarpeen mukaan (jos esim isompi kehitystyö meneillään). Aina ennen Kansalliskirjaston tapaamista tehdään Finna-tikettien priorisointi Koha-Suomen kesken.
+  * Tikettien priorisointipalaverin ja Kansalliskirjaston palaverin seuraava vetovastuu sopimatta. Olisiko jatkossa kiertävä? Seuraava vetäjä ja ajankohta sovitaan edellisessä priorisointipalaverissa. Vetäjä kutsuu koolle ja valmistelee molemmat palaverit.
+  * Pitääkö ohje päivittää kun saadaan nämä sovittua? Vai mihin dokumentoidaan?
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
