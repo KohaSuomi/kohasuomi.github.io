@@ -12,7 +12,7 @@ Koha-Suomi tukee Firefoxin ESR-versiota.
 
 Tällä sivulla on ensin "yleisohje" uudemmille selaimille ja sen jälkeen erityishuomioita ja ohjeita liittyen tiettyihin selainversioihin. Näiden jälkeen ohjeistetaan, miten selain saadaan tulostamaan kuitit ilman, että pitää valita hiirellä OK (tai painaa enteriä). Lopuksi vielä ohjeita liittyen selaimen päivittymiseen ja ponnahdusikkoihin.
 
-## 11.1 Firefox ESR
+## 11.1 Firefox ESR versio 115+esr ja uudemmat
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
@@ -31,31 +31,25 @@ Klikkaa tämän jälkeen "Enemmän asetuksia".
 - Paperin koko: valitse sopiva vaihtoehto. Yleisin koko on 80x297 mm.
 - Koko: Sovita sivun leveyteen
 - Sivuja per arkki: 1
-- Reunukset: Ei reunuksia
-- Ota pois valinnat: "Tulosta ylä- ja alatunnisteet" ja "Tulosta taustat".
-
-![](/assets/files/docs/Kuittitulostuksen_asetukset/Tulosta_asetukset2.PNG)
-
-Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
-Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
-Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.2 mukaisesti.
-Salli tarvittaessa myös ponnahdusikkunat kohdan 11.4 mukaisesti.
-
-## 11.1.1 Firefoxin versio 115+esr
-
 - Tulostimen ajureista riippuen, tulostinasetuksiin kohtaan **Reunukset** valitaan "Oma (mm)" tai "Mukautettu (tuumina)".
   - Jos arvot annetaan tuumina: Reunukset laitetaan muuten nollaksi, mutta vasemman reunan arvoksi laitetaan 0,05.
   - Jos arvot annetaan millimetreinä: Reunukset laitetaan muuten nollaksi, mutta vasemman reunan arvoksi laitetaan 1,2.
 - Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja.
 
   ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostinasetukset.PNG)
+  
+- Ota pois valinnat: "Tulosta ylä- ja alatunnisteet" ja "Tulosta taustat".
 
-## 11.1.2 Firefoxin versiot 90+esr ja 100+esr
+![](/assets/files/docs/Kuittitulostuksen_asetukset/Tulosta_asetukset2.PNG)
+
+Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. Kun kuitti on ok, määritä selain tulostamaan automaattisesti kohdan 9.2 mukaisesti. Salli tarvittaessa myös ponnahdusikkunat kohdan 11.4 mukaisesti.
+
+## 11.1.1 Firefoxin versiot 90+esr ja 100+esr
 
 Huom! Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. 
 100+ -selainversioita kirjastoilla on käytössä ja ne ovat toimineet ongelmitta.
 
-## 11.1.3 Firefoxin versio 78+esr
+## 11.1.2 Firefoxin versio 78+esr
 
 Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
@@ -74,7 +68,7 @@ käyttää kaiken tilan kuitin tulostukseen.
 
 Klikkaa lopuksi _OK_.
 
-### 11.1.3.1 Oletustulostimen määrittely
+### 11.1.2.1 Oletustulostimen määrittely
 
 Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
 tulostinta Tulosta-valikosta.
