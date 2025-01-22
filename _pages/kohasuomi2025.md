@@ -20,6 +20,7 @@ Läsnä:
 
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Viikon 5 päivitys
+* Olisiko tarpeen jonkun osallistua PTFS:n Hackfestille Marseillessa 31.3.-4.4.2025?
 
 ## Viikko 4
 
