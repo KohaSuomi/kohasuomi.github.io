@@ -13,7 +13,7 @@ tulostumaan automaattisesti (ohje kohdassa *11. Kuittitulostuksen
 asetukset*). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
-etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin,
+etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin, joihin sinulla on käyttöoikeudet,
 mm. Lainaus- ja Palautus -sivun toimintoihin. Voi olla, että kimpassasi on piilotettu sivulta toimintoja, joita ei ole nähty tarpeellisiksi. *Lainaus ja palautus* -sivun toimintoihin pääset
 jokaisen sivun yläreunassa olevasta linkistä.
 
@@ -25,7 +25,7 @@ Ohjelmassa toimivat pikanäppäimet:
 - Lainaus: *Alt+U*
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
-- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* aktivoi kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+y.
+- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* aktivoi kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+Y.
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
@@ -91,9 +91,9 @@ Kuitin voit tulostaa:
 ![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
 *Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
-- *Asiakastietojen yhteenveto*: A4-tuloste asiakastiedoista,
+- *Asiakastietojen yhteenveto*: A4-tuloste asiakkaan tiedoista,
   lainoista, varauksista ja maksettavista maksuista.<br>
-  Jos selaimelle, jolla käytät Kohaa, on määritelty kuitit tulostumaan automaattisesti kuittitulostimelle, kannattaa yhteenveto tulostaa jostain toisesta selaimesta A4:lle.
+  Jos selaimelle, jolla käytät Kohaa, on määritelty kuitit tulostumaan automaattisesti kuittitulostimelle, kannattaa yhteenveto tulostaa jollain toisella selaimella A4:lle.
 - *Tulosta kuitti*: tulostaa kaikki asiakkaan lainat kuitille.
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
 - *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
@@ -102,8 +102,7 @@ Kuitin voit tulostaa:
 - *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
 
-  Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
-{: .notice--warning}
+  **Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.**
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
