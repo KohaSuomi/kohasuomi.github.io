@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
@@ -45,6 +45,12 @@ Pohjoisesta etelään
 * Nidehaun tuloksiin toivottu mukaan niteen edellisestä havaintoa sekä niteen huomautuskenttiä. Yhteisöstä löytyi näille tiketit, kommentoitu sinne:
   * https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=13965
   * https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=13823
+ 
+**Kirkes**
+* Kadonneet osakohteet pelastettu. <a href="https://github.com/KohaSuomi/Koha/issues/1612#issuecomment-2602226804">#1612</a>
+* Viestipohjien päivittämistä
+* Työntekijä teki haun "Hae tietokannasta" -hakukentän kautta lehdelle El Pais semanal 2024 ja tarkensi hakua faseteista "14 vrk lehti". Tuli 403 -virheilmoitus:
+Programming error - op 'cud-login' must not start with 'cud-' for GET https://kirkes.koha-suomi.fi/intranet/catalogue/search.pl?idx=kw&q=el%20pais%202024&op=cud-login&sort_by=pubdate_dsc&count=50&limit=itype:14VRKLE (referer: https://kirkes.koha-suomi.fi/cgi-bin/koha/catalogue/search.pl). Vastaavaa virhettä ei kuitenkaan onnistuttu toistamaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-4) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -92,7 +98,8 @@ Etelästä pohjoiseen
 * Ilmeni ongelma, että virkailijat eivät voineet muuttaa asiakkaitten asiakastyyppiä [#1598](https://github.com/KohaSuomi/Koha/issues/1598)
 
 **Kirkes**
-* Järvenpäässä ollaan ottamassa käyttöön Canonin kirjastotulostusta. Ei toimi vielä, mutta päivitetään integraatiolistaus sitten, kun toimii. 
+* Järvenpäässä ollaan ottamassa käyttöön Canonin kirjastotulostusta. Ei toimi vielä, mutta päivitetään integraatiolistaus sitten, kun toimii.
+* Osakohteita kadonnut luetteloidusta teoksesta.
 
 **Lastu**
 * Raindance-integraatio otettu Lahdessa käyttöön onnistuneesti
