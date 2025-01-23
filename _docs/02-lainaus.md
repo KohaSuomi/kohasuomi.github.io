@@ -13,8 +13,7 @@ tulostumaan automaattisesti (ohje kohdassa *11. Kuittitulostuksen
 asetukset*). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
-etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin, joihin sinulla on käyttöoikeudet,
-mm. Lainaus- ja Palautus -sivun toimintoihin. Voi olla, että kimpassasi on piilotettu sivulta toimintoja, joita ei ole nähty tarpeellisiksi. *Lainaus ja palautus* -sivun toimintoihin pääset
+etusivulla olevista pikakuvakkeista pääset ohjelman eri toimintoihin, joihin sinulla on käyttöoikeudet. Voi olla, että kimpassasi on piilotettu sivulta toimintoja, joita ei ole nähty tarpeellisiksi. *Lainaus ja palautus* -sivun toimintoihin pääset
 jokaisen sivun yläreunassa olevasta linkistä.
 
 ![](/assets/files/docs/Lainaus/lainaus.PNG)
@@ -32,12 +31,11 @@ Ohjelmassa toimivat pikanäppäimet:
 ## 2.1. Lainaus
 
 Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
-*Lainaus*-kenttään tai hakemalla asiakasta hänen nimellä.
-Toimi kirjastossasi sovittujen käytäntöjen mukaan.
+*Lainaus*-kenttään. 
 
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
-Lue lainattavan niteen viivakoodi nidekenttään.
+Lue lainattavan niteen viivakoodi Lainaus-kenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
@@ -58,7 +56,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 **Lainausasetukset**
 
-- Kimpassasi käytössä olevat lainausasetukset saat näkyville klikkaamalla viivakoodi-kentän lopussa olevaa valikko-kuvaketta.
+- Kimpassasi käytössä olevat lainausasetukset saat näkyville klikkaamalla Lainaus-kentän lopussa olevaa valikko-kuvaketta.
 
 ![](/assets/files/docs/Lainaus/lainausasetukset.PNG)
 
@@ -123,7 +121,8 @@ Näytön voit tyhjentää kahdella tavalla:
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
 estot ovat laitettu päälle kimppasi järjestelmäasetuksissa. Näissä tilanteissa
-näytölle tulee huomautus lainaamisen eston syystä.
+näytölle tulee huomautus lainaamisen eston syystä. Nämä huomautukset on käsiteltävä/huomioitava aina ennen
+lainaamisen jatkamista.
 
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
@@ -219,13 +218,10 @@ Lainauskielto ja huomautus poistuu, kun asiakastietojen Muokkaa-sivulla osiossa
 ### 2.3.1 Huomautus liitteistä
 
 Jos lainaat asiakkaalle niteen, joka sisältää useita osia ja tieto osista on
-tallennettu niteen muokkaussivulla kenttään 3 - Liitteiden määrä, saat
+tallennettu niteen muokkaussivulla kenttään *3 - Liitteiden määrä*, saat
 ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/huomsisallosta.PNG)
-
-Joskus lainaustilanteessa näytölle voi tulla keltaisella pohjalla oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava aina ennen
-lainaamisen jatkamista.
 
 ### 2.3.2 Aineisto on varattu toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
@@ -409,7 +405,7 @@ Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus 
 
 ### 2.6.4 Vanhentunut asiakastieto
 
-Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
+Jos asiakastiedot vaativat määräaikaistarkistuksen (kimppasi järjestelmäasetuksissa
 määritelty), näyttöön tulee ilmoitus:
 
 ![](/assets/files/docs/Lainaus/vanhentunut.png)
