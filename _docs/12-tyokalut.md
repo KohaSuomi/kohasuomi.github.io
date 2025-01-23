@@ -41,13 +41,14 @@ _Toiminnot_-painiketta ja valitsemalla _Lisää asiakkaita_, kuten kuvassa. Toin
 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:90.0%" />
 
-Siitä aukeaa sivu, jolla pystyt hakemaan asiakkaita esim. nimellä (kuvassa vanhemman version siniset sävyt).
+Siitä aukeaa sivu, jolla pystyt hakemaan asiakkaita esim. nimellä.
 Valitse hiirellä tarjottu asiakastieto, jolloin se listautuu hakukentän
-alapuolelle. Voit hakea useamman asiakkaan tiedot ennen kuin lisäät
+alapuolelle. Voit hakea valmiiksi useamman asiakkaan tiedot, ennen kuin lisäät
 heidät listalle _Lisää asiakkaita_ -painikkeesta.
 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat03.png" alt="Kuvakaappaus asiakkaiden hakemisesta tietokannasta asiakaslistaan lisäämistä varten" 
 style="width:90.0%" />
+
 <img src="/assets/files/docs/Tyokalut/asiakaslistat04.png" alt="Kuvakaappaus useammasta haetusta asiakkaasta valmiina lisättäväksi asiakaslistaan" 
 style="width:90.0%" />
 
