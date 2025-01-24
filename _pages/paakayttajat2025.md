@@ -28,7 +28,7 @@ Etelästä pohjoiseen
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
@@ -66,6 +66,10 @@ Pohjoisesta etelään
 * Viestipohjien päivittämistä
 * Työntekijä teki haun "Hae tietokannasta" -hakukentän kautta lehdelle El Pais semanal 2024 ja tarkensi hakua faseteista "14 vrk lehti". Tuli 403 -virheilmoitus:
 Programming error - op 'cud-login' must not start with 'cud-' for GET https://kirkes.koha-suomi.fi/intranet/catalogue/search.pl?idx=kw&q=el%20pais%202024&op=cud-login&sort_by=pubdate_dsc&count=50&limit=itype:14VRKLE (referer: https://kirkes.koha-suomi.fi/cgi-bin/koha/catalogue/search.pl). Vastaavaa virhettä ei kuitenkaan onnistuttu toistamaan.
+
+**Lumme**
+* Käyty kuvailupohjia lävitse ja yhtenäistetty pakollisia kenttiä. Poistettu myös kenttien oletusarvoja, jotta tietueisiin ei tulisi virhe 500 -ilmoitusta.
+* Lehtien vastaanotossa tuli ilmi, että vastaanotossa valittu päivämäärä muuttuu tallennuksen jälkeen päivämäärään 30.11.1899. Asiasta tehty tiketti #1636.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-4) - [Palaa sivun alkuun](/paakayttajat2025)
 
