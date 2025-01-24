@@ -10,3 +10,23 @@ title: 'Hallituksen tiedotteet 2025'
 ---
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
+
+## Koha-Suomen hallituksen tiedote 1/2025
+
+24.1.2025
+
+Hei kaikille ja hyvää alkanutta vuotta 2025
+
+Koha-Suomen hallituksen tammikuun kokouksessa merkittiin tiedoksi yhtiön vuoden 2024 taloustilanne,  Koha-Suomi Oy:n tiekartan tilannekatsaus ja sisäisen valvonnan raportti 2024 sekä sisäisen valvonnan suunnitelma 2025.
+
+Koha-Suomen hallitus päätti valmistella nyt lausuntopalvelussa olevaan in-house -yhtiöitä koskevaan lakiesitykseen yhtiön oman lausunnon. Lisäksi Koha-Suomi välittää omistajakunnille ensi viikolla tiedon, että yhtiö tekee oman lausunnon ja samalla välittää myöhemmin omistajakunnille tiedon lausunnon sisällöstä. Omistajakunnat voivat käyttää Koha-Suomen lausuntoa kuntien omien lausuntojen tueksi.
+
+Kävimme läpi perinteisesti toimitusjohtajan raportin ja se löytyy viestin liitteenä.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä, hallituksen pj.
+
+Liite: [Toimitusjohtajan raportti 1 25.pdf](https://github.com/user-attachments/files/18536289/Toimitusjohtajan.raportti.1.25.pdf)
