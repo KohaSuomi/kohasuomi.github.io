@@ -65,7 +65,8 @@ Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.
 
 Asiakkaita voi lisätä listalle myös tavallisen asiakashaun kautta valitsemalla
 ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
--valikosta haluamasi lista.  
+-valikosta haluamasi lista. Tai yksittäisen asiakkaan asiakastietojen _Asiakaslista_-välilehdeltä.
+
 <img src="/assets/files/docs/Tyokalut/asiakaslistat06.png" alt="Kuvakaappaus asiakkaiden lisäämisestä asiakaslistaan vaihtoehtoisella tavalla, normaalin 
 asiakashaun kautta" style="width:90.0%" />
 
