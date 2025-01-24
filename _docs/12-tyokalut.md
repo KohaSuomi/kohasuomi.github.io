@@ -52,6 +52,11 @@ style="width:90.0%" />
 <img src="/assets/files/docs/Tyokalut/asiakaslistat04.png" alt="Kuvakaappaus useammasta haetusta asiakkaasta valmiina lisättäväksi asiakaslistaan" 
 style="width:90.0%" />
 
+Useamman asiakkaan lisäämiseksi voit käyttää myös _Lisää useita asiakkaita_ -linkkiä. Listaa laatikkoon haluamiesi asiakkaiden kirjastokorttinumerot tai asiakas-ID:t ja paina OK.
+
+<img src="/assets/files/docs/Tyokalut/asiakaslistat04a.png" alt="Kuvakaappaus Lisää useita asiakkaita -linkistä avautuvasta hakulaatikosta" 
+style="width:90.0%" />
+
 Nyt pääset tarkastelemaan listalla olevia asiakkaita. Voit myös poistaa
 heitä listalta valitsemalla heidän tiedot ja klikkaamalla _Poista
 valitut asiakkaat_. Ohjelma kysyy varmistuksen “Haluatko varmasti poistaa valitut asiakkaat?”.
