@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 5
 
 Aika: Ma 27.1.2025 klo 9<br />
-Läsnä: 
+Läsnä: Lari, Kodo, Emmi, Anneli, Johanna, Pasi
 
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Viikon 5 päivitys + 3 tietoturvapaikkaa
