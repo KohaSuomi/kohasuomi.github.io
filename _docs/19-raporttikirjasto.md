@@ -2774,6 +2774,66 @@ SELECT biblionumber, CHAR_LENGTH(ExtractValue(metadata, '//controlfield[@tag='<<
  LIMIT 100
 ```
 
+### Raportti YSO-konversiota varten
+
+Syötä raportille MARC-kenttään 648-, 650-, 651- tai 655 ja MARC-osakentäksi 9, jolloin haetaan sellaiset tietueet, joiden 9-osakentässä on numeroita. Tuloksista rajataan pois ne tietueet, joiden valitun MARC-kentän jossain 2-osakentässä mainitaan sanat %yso% tai %kauno%. Tuloksista voi täten rajautua pois tietueita, joissa on sekä yso- että ysa-termejä. Tulokset rajataan 1000 riviin. Raportti on hidas.
+
+Lisätty: 27.1.2025<br />
+Tekijä: Anneli Österman
+
+```
+SELECT biblionumber,ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a', ExtractValue(bm.metadata, '//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') as 'Haettavan kentän sisältö', ExtractValue(bm.metadata, '//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') as '2-osakentän sisältö'
+FROM biblio_metadata bm
+WHERE (ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]')
+AND ExtractValue(bm.metadata, 'count(//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>'])') > 1
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') !=''
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%yso%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%kauno%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%bella%'
+LIMIT 1000
+```
+
+### Raportti YSO-konversiota varten 2
+
+Syötä raportille MARC-kenttään 648-, 650-, 651- tai 655 ja MARC-osakentäksi 9, jolloin haetaan sellaiset tietueet, joiden 9-osakentässä on numeroita. Tuloksista rajataan pois ne tietueet, joiden valitun MARC-kentän jossain 2-osakentässä mainitaan sanat %yso% tai %kauno%. Tuloksista voi täten rajautua pois tietueita, joissa on sekä yso- että ysa-termejä. Tuloksiin tulee mukaan ne tietueet, joiden haetun MARC-kentän 0-osakentässä ei ole sisältöä. Tuloksista rajataan pois moniviestin-aineistotyyppi. Tulokset rajataan 500 riviin. Raportti on hidas.
+
+Lisätty: 27.1.2025<br />
+Tekijä: Anneli Österman
+
+```
+SELECT bm.biblionumber,bm.biblionumber AS 'Tietuenumero', ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a', ExtractValue(bm.metadata, '//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') as 'Haettavan kentän sisältö', ExtractValue(bm.metadata, '//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') as '2-osakentän sisältö', bi.itemtype as 'Aineistotyyppi'
+FROM biblio_metadata bm
+LEFT JOIN biblioitems bi ON bm.biblionumber = bi.biblionumber
+WHERE (ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]'
+OR ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code='<<MARC-osakenttä>>']') REGEXP '[0-9]')
+AND ExtractValue(bm.metadata, 'count(//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>'])') > 1
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="0"]') =''
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') !=''
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%yso%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%kauno%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%bella%'
+AND bi.itemtype != 'MONIVIES'
+LIMIT 500
+```
+
+### YSO-konversion raporttien jälkeen
+
+Kunhan tietueet on käsitellyt jomman kumman ylemmän raportin kanssa, niin niistä voisi vielä poistaa sitten nämä rivit:
+```
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%yso%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%kauno%'
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="2"]') NOT LIKE '%bella%'
+```
+
+Ja tarkistaa, jäikö vielä muokattavia tietuita, jotka olivat rajautuneet pois noiden ehtojen vuoksi.
+
+os haluaa, niin siiten voi vaikka keräillä kopipastella tässä [videossa](https://youtu.be/zlAkQu_kLHU) olevan ohjeen mukaisesti muokattavat tietueet ja viedä biblionumberit Kuvailu-osion kautta tietueiden erämuokkaukseen.
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
