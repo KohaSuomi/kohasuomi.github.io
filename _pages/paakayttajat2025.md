@@ -16,6 +16,7 @@ Aika: 28.1.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
 * Finna-kehitysedotusten prosessin selkeyttäminen. [Nykyisen prosessin kuvaus](https://github.com/KohaSuomi/Finna-kehitysehdotukset/wiki)
   * Kuinka monta kertaa vuodessa tavataan Kansalliskirjasto. Ehdotus: 6 kk välein tai tarpeen mukaan (jos esim isompi kehitystyö meneillään). Aina ennen Kansalliskirjaston tapaamista tehdään Finna-tikettien priorisointi Koha-Suomen kesken.
   * Tikettien priorisointipalaverin ja Kansalliskirjaston palaverin seuraava vetovastuu sopimatta. Olisiko jatkossa kiertävä? Seuraava vetäjä ja ajankohta sovitaan edellisessä priorisointipalaverissa. Vetäjä kutsuu koolle ja valmistelee molemmat palaverit.
