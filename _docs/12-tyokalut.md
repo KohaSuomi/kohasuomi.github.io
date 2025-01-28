@@ -60,7 +60,6 @@ style="width:90.0%" />
 Asiakkaita voi lisätä listalle myös tavallisen asiakashaun kautta valitsemalla
 ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
 -valikosta haluamasi lista. Tai yksittäisen asiakkaan asiakastietojen _Asiakaslista_-välilehdeltä.
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat06.png" alt="Kuvakaappaus asiakkaiden lisäämisestä asiakaslistaan vaihtoehtoisella tavalla, normaalin 
 asiakashaun kautta" style="width:90.0%" />
 
@@ -68,7 +67,6 @@ Nyt pääset tarkastelemaan listalla olevia asiakkaita. Voit myös poistaa
 heitä listalta valitsemalla heidän tiedot ja klikkaamalla _Poista
 valitut asiakkaat_. Ohjelma kysyy varmistuksen “Haluatko varmasti poistaa valitut asiakkaat?”.
 Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.
-
 <img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:90.0%" />
 
 Jos haluat poistaa koko listan, valitse poistettava lista ja paina _Poista valitut listat_. Toinen tapa on valita _Toiminnot_-valikosta _Poista lista_.
