@@ -67,6 +67,7 @@ Nyt pääset tarkastelemaan listalla olevia asiakkaita. Voit myös poistaa
 heitä listalta valitsemalla heidän tiedot ja klikkaamalla _Poista
 valitut asiakkaat_. Ohjelma kysyy varmistuksen “Haluatko varmasti poistaa valitut asiakkaat?”.
 Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.
+
 <img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:90.0%" />
 
 Jos haluat poistaa koko listan, valitse poistettava lista ja paina _Poista valitut listat_. Toinen tapa on valita _Toiminnot_-valikosta _Poista lista_.
