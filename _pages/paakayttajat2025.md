@@ -40,6 +40,9 @@ Etelästä pohjoiseen
 * Valmistellaan tulevaa asiakasrekisterin siivousajoa. Pitää vielä päättää, mitä tehdään laskutettavien kanssa.
 * Finnan omissa tiedoissa olisi hyvä saada suosikkilistat aakkosjärjestykseen. Asiasta on tehty tiketti.
 
+**OUTI**
+* OKM-korjausajon jälkeen Oulussa huomattiin, että mm. kokoelma -tilasto oli uudessa OKM-tilastossa noin 1500 nidettä pienempi kuin alkuvuonna otetussa. Hankinnoissa oli myös pientä eroavaisuutta edelliseen ajoon mm. tietokirjallisuus oli vähentynyt ja kaunokirjallisuus oli miltei samassa määrin enentynyt.
+
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
 
