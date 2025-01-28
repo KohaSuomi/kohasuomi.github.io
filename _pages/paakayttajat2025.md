@@ -22,7 +22,7 @@ Läsnä:
   * Tikettien priorisointipalaverin ja Kansalliskirjaston palaverin seuraava vetovastuu sopimatta. Olisiko jatkossa kiertävä? Seuraava vetäjä ja ajankohta sovitaan edellisessä priorisointipalaverissa. Vetäjä kutsuu koolle ja valmistelee molemmat palaverit.
   * Pitääkö ohje päivittää kun saadaan nämä sovittua? Vai mihin dokumentoidaan?
 * Raportit YSO-konversion valmistelua varten [Raporttikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#raportti-yso-konversiota-varten) ja [tiketissä 1621](https://github.com/KohaSuomi/Koha/issues/1621#issuecomment-2612351054)
-
+* EDItX-virheraportointi sähköpostiin ei ole toiminut versionpäivityksen jälkeen. Nyt korjattu.
 
 Etelästä pohjoiseen
 
