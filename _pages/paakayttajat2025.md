@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -28,6 +28,11 @@ Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 Etelästä pohjoiseen
 
+**Lappi**
+* Kausijulkaisutietue oli poistettu ja sen mukana tilaukset ja niteet. Tietue palautettiin, mutta tilauset jouduttiin tekemään uudelleen. Tietue myös ilmestyi järjestelmäasetuksiin huomautuksena: tietue sekä taulussa biblio ja deletedbiblioitems. 
+* Muutoin rauhallista, lähinnä käyttäjätunnusten päivityksiä.
+
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 4
