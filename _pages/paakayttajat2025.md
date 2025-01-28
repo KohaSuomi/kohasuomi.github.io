@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Tuotiin esille Finna-kehitysehdotus siitä, että Finnan palautelomakkeen mukana välittyisi asiakkaan id Kohassa mikäli asiakas on palautetta jättäessään kirjautunut verkkokirjastoon. Idea sai ajatuksen tasolla kannatusta, mutta vaatii vielä miettimistä onko ehdotuksessa jotakin tietoturvan kannalta ongelmallista. Susanna tekee tiketin ja kehittäjät kommentoivat siihen pohdinnan jälkeen onko ehdotus toteutuskelpoinen.
 * Normaalia ylläpitoa, joitakin epäonnistuneita EDItX-sanomia tullut nyt tammikuussa kun virheilmoituksia ei lähtenyt sähköpostiin. Osan uudelleenkäsittely oli jo lopetettu, joten Vaski tekee niistä tukipyynnöt.
+
+**Lumme**
+* Valmistellaan tulevaa asiakasrekisterin siivousajoa. Pitää vielä päättää, mitä tehdään laskutettavien kanssa.
+* Finnan omissa tiedoissa olisi hyvä saada suosikkilistat aakkosjärjestykseen. Asiasta on tehty tiketti.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
