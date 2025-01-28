@@ -87,6 +87,7 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 <img src="/assets/files/docs/Tyokalut/ilmoitukset00.png" alt="Kuvakaappaus Ilmoitukset ja kuitit -osion etusivusta, jossa listataan käytössä olevat ilmoitus- ja kuittipohjat" style="width:90.0%" />
 
 - Uusia pohjia voi tehdä _Uusi ilmoitus_ -napilla. Valitse alasvetovalikosta ilmoituksen tyyppi tai osio, johon ilmoitus liittyy.
+- Versiosta 24.05 alkaen voi määritellä _Asiakkaat (räätälöity viesti)_ -ilmoituksen, jonka voi lähettää asiakkaalle sähköpostina asiakastiedoissa Lisää viesti -valikosta.
 - Pohjan voi kopioida toiselle kirjastolle _Kopioi_-napilla
 - Pohjaa voi muokata _Muokkaa_-napilla
 - Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole, tällä halutaan estää mahdollisten virhetilanteiden synty järjestelmässä.
