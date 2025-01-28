@@ -117,9 +117,9 @@ Lisätty EDI-tili tulee näkyviin EDI-tilien listalle. Olemassaolevia tilejä vo
 
 ### 1.3 Authoriser eli tilauksen luoja
 
-Kohaan täytyy luoda EditX-tilauksille _Authoriser_. Tämä on Kohan käyttäjätunnus, joka näkyy EditX tilauksissa tilauksen luojana. Tunnus ei tarvitse mitään oikeuksia. Katso Asiakkaan lisäys.
+Kohaan täytyy luoda EditX-tilauksille _Authoriser_. Tämä on Kohan käyttäjätunnus, joka näkyy EditX tilauksissa tilauksen luojana. Tunnus ei tarvitse mitään oikeuksia. Käytä esimerkiksi API-asiakastyyppiä, jotta vanhentuneiden asiakkaiden poistoajo ei siivoa authoriseria pois kannasta. Katso Asiakkaan lisäys.
 
-Authoriserin borrowernumber määritetään EditX-rajapinnan konfiguraatiossa (*anteeksi, jäi kaksi suomenkielistä sanaa). Tämän tekee pyynnöstä järjestelmänkehittäjä.
+Authoriserin borrowernumber määritetään EditX-rajapinnan konfiguraatiossa. Tämän tekee pyynnöstä järjestelmänkehittäjä.
 
 ### 1.4 Kohan MARC-määritykset
 
