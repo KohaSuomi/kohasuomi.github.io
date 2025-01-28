@@ -44,6 +44,8 @@ Etelästä pohjoiseen
 * OKM-korjausajon jälkeen Oulussa huomattiin, että mm. kokoelma -tilasto oli uudessa OKM-tilastossa noin 1500 nidettä pienempi kuin alkuvuonna otetussa. Hankinnoissa oli myös pientä eroavaisuutta edelliseen ajoon mm. tietokirjallisuus oli vähentynyt ja kaunokirjallisuus oli miltei samassa määrin enentynyt.
   * Koska poistojen tilasto oli pysynyt täsmälleen samana molemmissa OKM-ajoissa, niin on luultavaa, että OKM-ajojen välillä on tehty poistoja, jotka ovat vaikuttaneet vuoden 2024 kokoelman kokoon. Ajojen välillä tehdyt poistot tilastoituvat vuoden 2025 poistoihin.
   * Hankinnan lukujen erot voisivat johtua siitä, että hankinnassa olevan aineiston luokkia on muutettu tietokirjaluokista kaunoluokkiin, jolloin tilastot muuttuivat ”ristiin” ajojen välillä.
+  * Emmiltä saimme varmistuksen, että yllä luetellut arvelut luultavasti pitävät paikkansa, sillä tilastoja ei ole mahdollista "jäädyttää" tiettyyn hetkeen, koska ne otetaan kokoelmien ja hankintojen osalta tauluista, joissa tilanne elää koko ajan. Poistot, luokkien vaihdot, muutokset notforloan-arvoon, aineistolajiin, kieleen, niteen sijaintiin jne. vaikuttavat siihen, että tilastojen määrät voivat heitellä sen mukaan milloin tilasto on otettu.
+* Raahen kaupunginkirjasto siirtyy tämän kevään aikana Varaamosta Timmiin.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
