@@ -70,7 +70,7 @@ Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.
 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:90.0%" />
 
-Jos haluat poistaa koko listan, valitse poistettava lista ja paina _Poista valitut listat_. Toinen tapa on valita _Toiminnot_-valikosta _Poista lista_.
+Jos haluat poistaa koko listan, valitse poistettava(t) lista(t) ja paina _Poista valitut listat_. Toinen tapa on valita _Toiminnot_-valikosta _Poista lista_.
 <img src="/assets/files/docs/Tyokalut/asiakaslistat07.png" alt="Kuvakaappaus asiakaslistan poistamisesta" style="width:90.0%" />
 
 ---
