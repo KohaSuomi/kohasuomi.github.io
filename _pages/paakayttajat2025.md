@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -21,6 +21,8 @@ Läsnä:
   * Kuinka monta kertaa vuodessa tavataan Kansalliskirjasto. Ehdotus: 6 kk välein tai tarpeen mukaan (jos esim isompi kehitystyö meneillään). Aina ennen Kansalliskirjaston tapaamista tehdään Finna-tikettien priorisointi Koha-Suomen kesken.
   * Tikettien priorisointipalaverin ja Kansalliskirjaston palaverin seuraava vetovastuu sopimatta. Olisiko jatkossa kiertävä? Seuraava vetäjä ja ajankohta sovitaan edellisessä priorisointipalaverissa. Vetäjä kutsuu koolle ja valmistelee molemmat palaverit.
   * Pitääkö ohje päivittää kun saadaan nämä sovittua? Vai mihin dokumentoidaan?
+  * Seuraava vetäjä alustavasti Helle, vahvistus ensi viikolla.
+  * Seuraava priorisointipalaveri toukokuun alussa. (Ennen kesälomia)
 * Raportit YSO-konversion valmistelua varten [Raporttikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#raportti-yso-konversiota-varten) ja [tiketissä 1621](https://github.com/KohaSuomi/Koha/issues/1621#issuecomment-2612351054)
 * EDItX-virheraportointi sähköpostiin ei ole toiminut versionpäivityksen jälkeen. Nyt korjattu.
 
