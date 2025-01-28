@@ -1194,7 +1194,7 @@ Tältä näyttää ykl-luokitusjärjestelmän tiedot:
 Luokitusoppailla määritetään, miten signum items.itemcallnumber-kentästä normalisoidaan items.cn_sort-kenttään. cn_sort-kenttää taas käytetään tiedonhaussa luokan mukaan järjestämiseen. Koha-Suomella on kaksi versioita outi ja lumme.
 
 * outi on tarkoitettu signumeille, joissa luokka on toisena arvona signumissa. Esim. AIK 84.2 PAA tai ROAIK 84.2 PAA. Tieto siirtyy cn_sort-kenttään täten muodossa 84.2 PAA
-* lumme on tarkoitettu signumeille, jotka alkavat luokalla. Esim. AIK 84.2 PAA AIK. Tieto siirtyy samassa muodossa cn_sort-kenttään, koska luokkatieto on jo ensimmäisenä.
+* lumme on tarkoitettu signumeille, jotka alkavat luokalla. Esim. 84.2 PAA AIK. Tieto siirtyy samassa muodossa cn_sort-kenttään, koska luokkatieto on jo ensimmäisenä.
 
 Valitse käyttöön outi tai lumme sen mukaan, minkä muotoisia kimpan signumit ovat.
 
