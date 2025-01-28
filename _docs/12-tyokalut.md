@@ -92,6 +92,12 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 - Pohjaa voi muokata _Muokkaa_-napilla
 - Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole, tällä halutaan estää mahdollisten virhetilanteiden synty järjestelmässä.
 
+Uutta ilmoitusta luodessasi
+- Valitse kirjasto, jota ilmoitus koskee
+- Valitse Kohan osio, johon ilmoitus liittyy
+- Määrittele ilmoitukselle aakkosnumeerinen koodi(nimi), enintään 20 merkkiä
+- Anna ilmoitukselle nimi, joka kuvailee sisältöä tarkasti
+
 ### 12.2.1 Ilmoituksen muokkaaminen
 
 Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
@@ -100,7 +106,7 @@ käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointi
 
 Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne.
 Osa kuiteista, erityisesti lainaus-, varaus- ja kuljetuskuitit vaativat toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
-Muutokset tallennetaan _Tallenna_-napista. 
+Muutokset tallennetaan _Tallenna_-napista.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:90.0%" />
 
