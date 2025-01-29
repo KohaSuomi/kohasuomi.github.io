@@ -29,4 +29,6 @@ Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle p�
 
 Jouni Pääkkölä, hallituksen pj.
 
-Liite: [Toimitusjohtajan raportti 1 25.pdf](https://github.com/user-attachments/files/18536289/Toimitusjohtajan.raportti.1.25.pdf)
+Liitteet: 
+* [Toimitusjohtajan raportti 1 25.pdf](https://github.com/user-attachments/files/18536289/Toimitusjohtajan.raportti.1.25.pdf)
+* [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18584471/Tiekartta2025.xlsx)
