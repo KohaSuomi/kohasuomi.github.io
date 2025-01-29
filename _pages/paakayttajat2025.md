@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -46,6 +46,9 @@ Etelästä pohjoiseen
   * Hankinnan lukujen erot voisivat johtua siitä, että hankinnassa olevan aineiston luokkia on muutettu tietokirjaluokista kaunoluokkiin, jolloin tilastot muuttuivat ”ristiin” ajojen välillä.
   * Emmiltä saimme varmistuksen, että yllä luetellut arvelut luultavasti pitävät paikkansa, sillä tilastoja ei ole mahdollista "jäädyttää" tiettyyn hetkeen, koska ne otetaan kokoelmien ja hankintojen osalta tauluista, joissa tilanne elää koko ajan. Poistot, luokkien vaihdot, muutokset notforloan-arvoon, aineistolajiin, kieleen, niteen sijaintiin jne. vaikuttavat siihen, että tilastojen määrät voivat heitellä sen mukaan milloin tilasto on otettu.
 * Raahen kaupunginkirjasto siirtyy tämän kevään aikana Varaamosta Timmiin.
+
+**Siilinjärvi**
+* Ei mainittavaa
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
