@@ -18,7 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: Ma 3.2.2025<br />
 Läsnä:
 
-* Borrowernumberin käyttö Finnasta lähevässä sähköpostissa: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/42
+* Borrowernumberin käyttö Finnasta lähtevässä sähköpostissa: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/42
   
 ## Viikko 5
 
