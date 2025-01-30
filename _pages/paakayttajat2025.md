@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -49,6 +49,9 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Kirkes**
+* Normaaleja tukitöitä ja muita kiireitä. 
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
