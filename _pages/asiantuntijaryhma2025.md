@@ -23,6 +23,41 @@ Läsnä:
 
 ### Ajankohtaiset
 
+### Kohan signumiin vain luokka ja pääsana
+
+Signum-työryhmä on nyt kokoontunut kolmesti ja tutkinut, testannut ja pohtinut [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) ehdotusta, että Kohan signumiin eli items.itemcallnumber-kenttään laitettaisiin vain luokka ja pääsana ja tullut siihen päätöksen, että ehdottaa asiantuntijaryhmälle ehdotuksen hyväksymistä.
+
+Muutoksen etuja:
+
+- Selkeys saatavuustiedoissa:
+	- virkailija-Kohan saatavuustiedoissa näkyisi luokka ja pääsana, muut tarvittavat tiedot näkyvät viereisistä sarakkeista. Esim. nyt signumissa näkyvä PK kertoo että kyse on pääkirjastosta, mutta ei minkä kunnan pääkirjasto
+	- varsinkin Finnassa signumissa näkyvät lyhenteet ovat täysin tarpeettomia asiakkaille. Luokka ja pääsana riittää.
+- Seuraavia Koha-Suomen omia säätöjä saataisiin rutkasti yksinkertaistettua
+	- Signum- ja pääsanapluginit https://github.com/KohaSuomi/Koha-23x/issues/17
+	- Luokitusoppaissa omia järjestelysääntö-plugineja https://github.com/KohaSuomi/Koha-23x/issues/21
+- Niteiden erämuokkauksessa ei enää ilmenisi sitä ongelmaa, ettei se osaa päivittää signumia esim. hyllypaikkaa muutettaessa. Vain erämuokkaus ja uusi tarra. Ei enää signumien muokkausta yksi kerrallaan.
+
+Mihin ei vaikuta:
+- tarroihin, niihin saadaan jatkossakin samat tiedot kuin tähänkin mennessä.
+
+Mihin vaikuttaa:
+- Perustiedot-näytöllä hyllypaikka- ja kirjasto-tieto katsottava kotikirjasto-sarakkeesta.
+- Kaikkialla Kohassa, missä on "Luokka"-sarake, näkyy jatkossa vain luokka ja pääsana. Tarkistettava kimpoissa, että hyllypaikka-sarake on tarvittaessa näkyvillä eikä sitä ole piilotettu taulun asetuksissa.
+- raportit ja viestipohjat tarkistettava, että niissä on jatkossa tarvittavat tiedot, jos on käytetty items.itemcallnumber-kentän tietoja.
+- automaattien lajittelut: hyllypaikkatieto voidaan välittää bin-arvona SIP2SortBinMapping-järjestelmäasetuksen avulla
+- tarratulostimen tarrapohjat pitää säätää niin, että tarvittavat tiedot saadaan tarroille. Lopputulos voi olla hieman erilainen kuin aiemmin, jos kirjastossa on lisätty käsin hyllypaikkatiedon yhteyteen esim. kirjasto- tai kokoelmatietoja, mutta tarrapohjalle saa tarvittaessa esim. kirjastolyhenteen tai kokoelmakoodin (selkokielisenä tai koodina).
+- signum- ja pääsanaliitännäisistä voidaan suurimmasta osasta luopua ja tilalle tulee/tehdään vain yksi, joka muodostaa items.itemcallnumber-kenttään signumin muodossa "luokka pääsana".
+- luokitusoppaiden järjestelysääntö-liitännäisissä voidaan luopua outi-mallisesta liitännäisestä.
+- Finnassa nidetiedot selkeytyvät, kun saatavuustiedoista poistuu erilaiset lyhenteet
+![kuva](https://github.com/user-attachments/assets/329c0bbb-e06b-41cc-a4f6-1283fad97b77)
+- niteiden erämuokkauksessa pystyy kattavammin muokkaamaan signumeja, koska ei tarvitse huomioida hyllypaikkaa.
+
+
+Muutoksen mahdollisia haittoja:
+- voi aiheuttaa työjärjestysmuutoksia esim. tarratulostuksessa
+- voi aiheuttaa muutoksia tarran ulkonäköön
+- voi aiheuttaa muutoksia viestien sisältöön
+
 ### Käsiteltävät tiketit
 
 * [Huollettavan asiakastiedon muokkaus: Asiakastakaaja-osion Suhde-arvo valmiiksi valituksi #302](https://github.com/KohaSuomi/Koha/issues/302)
