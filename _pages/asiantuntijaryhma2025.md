@@ -48,7 +48,7 @@ Mihin vaikuttaa:
 - tarratulostimen tarrapohjat pitää säätää niin, että tarvittavat tiedot saadaan tarroille. Lopputulos voi olla hieman erilainen kuin aiemmin, jos kirjastossa on lisätty käsin hyllypaikkatiedon yhteyteen esim. kirjasto- tai kokoelmatietoja, mutta tarrapohjalle saa tarvittaessa esim. kirjastolyhenteen tai kokoelmakoodin (selkokielisenä tai koodina).
 - signum- ja pääsanaliitännäisistä voidaan suurimmasta osasta luopua ja tilalle tulee/tehdään vain yksi, joka muodostaa items.itemcallnumber-kenttään signumin muodossa "luokka pääsana".
 - luokitusoppaiden järjestelysääntö-liitännäisissä voidaan luopua outi-mallisesta liitännäisestä.
-- Finnassa nidetiedot selkeytyvät, kun saatavuustiedoista poistuu erilaiset lyhenteet
+- Finnassa nidetiedot selkeytyvät, kun saatavuustiedoista poistuu erilaiset lyhenteet.
 ![kuva](https://github.com/user-attachments/assets/329c0bbb-e06b-41cc-a4f6-1283fad97b77)
 - niteiden erämuokkauksessa pystyy kattavammin muokkaamaan signumeja, koska ei tarvitse huomioida hyllypaikkaa.
 
@@ -57,6 +57,10 @@ Muutoksen mahdollisia haittoja:
 - voi aiheuttaa työjärjestysmuutoksia esim. tarratulostuksessa
 - voi aiheuttaa muutoksia tarran ulkonäköön
 - voi aiheuttaa muutoksia viestien sisältöön
+
+Selvitettävä:
+- mahdolliset muut vaikutukset Finnan puolelle. Tarviiko muutos esim. uudelleenharavointeja/indeksointeja
+
 
 ### Käsiteltävät tiketit
 
