@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 6
+
+Aika: Ma 3.2.2025
+Läsnä:
+
+* Borrowernumberin käyttö Finnasta lähevässä sähköpostissa: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/42
+  
 ## Viikko 5
 
 Aika: Ma 27.1.2025 klo 9<br />
