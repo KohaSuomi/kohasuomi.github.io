@@ -28,7 +28,7 @@ Ohjelmassa toimivat pikanäppäimet:
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
-## 2.1. Lainaus
+## 2.1 Lainaus
 
 Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
 *Lainaus*-kenttään. 
