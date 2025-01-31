@@ -541,7 +541,7 @@ Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:
 Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 ![](/assets/files/docs/Lainaus/palautusviesti12.PNG)
 
-- Niteen laskutettutila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
+- Niteen laskutettu-tila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
 
 ### 2.7.3 Palautusilmoitukset
 
@@ -571,7 +571,11 @@ Ratkaisuvaihtoehtoja ovat:
 
 Valitse niteelle tarvittaessa myös uusi kadonnut-arvo. 
 
-Jos palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla, saat ilmoituksen, jossa voit myös ratkaista/merkitä lainan löytyneeksi.
+Jos kimppasi asetukset sen sallivat, palautusilmoitukset voidaan merkitä automaattisesti ratkaistuksi niteen palautuessa. Saat ratkaisusta ilmoituksen, kun palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla. 
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa6.PNG)
+
+Jos palautusilmoitusten automaattinen ratkaisu ei ole käytössä, saat palauttaessa ilmoituksen jossa voit ratkaista/merkitä lainan löytyneeksi.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa5.PNG)
 
