@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 6
+
+Aika: 4.2.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 6 päivitys
+* Omatoimikirjastojen estojen asettaminen
+* Testeillä on nähtävissä yksi ratkaisu liittyen [kehitysehdotus-tikettiin #886](https://github.com/KohaSuomi/Koha/issues/886). Keskustellaan, voiko ratkaisua ottaa käyttöön.
+  * Ongelmana on, että itse lisättyjen fasettien otsikot eivät käänny, koska ne kuvaukset ovat tietokannassa, eikä käännösmekanismi osaa "katsoa" sinne.
+  * testillä olevassa ehdotuksessa jokaiselle kielelle luodaan oma indeksi, joille sitten määritetään CSS:llä käännökset ja piilotetaan muut kuin käyttöliittymän kielivalinnan mukaiset kieliversiot.
+  * ongelmana on myös se, että kielikoodeja ei saa käännettyä kuin liittämällä fasettiin auktorisoidun arvon, jolloin niille saa selkokielisen kuvauksen yhdellä kielellä (tai sitten auktorisoidun arvon kuvaukseen lisää kaikki versiot, joka voi olla sekavaa)
+
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
