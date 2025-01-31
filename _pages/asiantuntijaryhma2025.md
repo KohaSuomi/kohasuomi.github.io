@@ -61,6 +61,15 @@ Muutoksen mahdollisia haittoja:
 Selvitettävä:
 - mahdolliset muut vaikutukset Finnan puolelle. Tarviiko muutos esim. uudelleenharavointeja/indeksointeja
 
+### Tikettien priorisointi
+
+Tikettien priorisointi -ryhmä on tehnyt ehdotuksen siitä, miten kehitysehdotukset voisi priorisoida ja toteutukselle määrittää aikataulu. Ehdotus on kirjattu Koha-tietovarannon [Tikettien priorisointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-priorisointi) -wikiin.
+
+Käydään läpi ehdotus ja testataan voisiko se toimia. Kehitetään tarvittaessa ehdotusta eteenpäin.
+
+Pohdittavaa:
+- mitkä kaikki tiketit priorisoidaan? Ehdotuksena työryhmällä, että alkuunsa vain kehitysehdotukset ja kunhan niiden kanssa on harjoiteltu ja saatu kokemuksia, voidaan priorisoinnin laajentamista ja sen tekijöitä harkita. Alustavasti mietittiin, että bugit priorisoisi Koha-Suomen vanhemmat kehittäjät ja jos tulee tilanne, että tiketin kirjaaja on prioriteetistä eri mieltä, voidaan asia käsitellä asiantuntijaryhmässä.
+- priorisoidaanko kaikki vanhat, jo käsitellyt kehitysehdotukset ja millä kokoonpanolla se tehdään?
 
 ### Käsiteltävät tiketit
 
@@ -72,7 +81,9 @@ Selvitettävä:
 * [Asiakastietoon muodostumaan automaattisesti Kohassa ja Finnassa näkyvä viesti liittyen omien tietojen tarkistamiseen #1573](https://github.com/KohaSuomi/Koha/issues/1573)
 * [Yli 50 epäonnistunutta kirjautumista ei kirjaudu lokille eikä siitä aiheutuvaa rajoitusta muodostu asiakkaan tietoihin. #1635](https://github.com/KohaSuomi/Koha/issues/1635)
 
+### Muut asiat
 
+### Seuraavat kokoukset
 
 ## Muistio 1/2025
 
