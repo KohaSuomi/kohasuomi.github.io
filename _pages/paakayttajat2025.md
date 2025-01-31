@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 28.1.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila ja Susanna Sandell (Vaski), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Auli Rantasalo ja Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1648)
@@ -51,7 +51,10 @@ Etelästä pohjoiseen
 * Ei mainittavaa
 
 **Kirkes**
-* Normaaleja tukitöitä ja muita kiireitä. 
+* Normaaleja tukitöitä ja muita kiireitä.
+
+**Vaara**
+* On havaittu mm. 9-luokkalaisten asiakkaiden kirjastokorttien häviämistä tietokannasta. Vai eivätkö ole käyttäneet kortteja 5 vuoteen?
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-5) - [Palaa sivun alkuun](/paakayttajat2025)
@@ -59,7 +62,7 @@ Etelästä pohjoiseen
 ## Viikko 4
 
 Aika: 21.1.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme)
+Läsnä: Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Iina Niemi (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle),  Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1630)
