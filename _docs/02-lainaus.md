@@ -575,7 +575,7 @@ Jos kimppasi asetukset sen sallivat, palautusilmoitukset voidaan merkitä automa
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa6.PNG)
 
-Jos palautusilmoitusten automaattinen ratkaisu ei ole käytössä, saat palauttaessa ilmoituksen jossa voit ratkaista/merkitä lainan löytyneeksi.
+Jos palautusilmoitusten automaattinen ratkaisu ei ole käytössä, saat palauttaessa ilmoituksen, jossa voit ratkaista/merkitä lainan löytyneeksi.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa5.PNG)
 
@@ -656,12 +656,12 @@ muutoksia käyttäjien toiveiden perusteella.
 Vinkkejä:
 
 - Voit valita *Sarakkeet*-valikosta, mitä sarakkeita raportissa näytetään.
-- Valitse kirjasto-sarakkeista (On shelf/Varaus) oma kirjasto, jolloin pystyt helposti
+- Valitse kirjasto-sarakkeista (Hyllyssä/Noutopaikka) oma kirjasto, jolloin pystyt helposti
   tarkistamaan omassa kirjastossa paikalla olevat varaukset ja joiden
   noutopiste on myös oma kirjastosi.
 - Kirjastolyhenne näkyy oranssin värisenä, jos nide löytyy varauksen noutokirjastosta.
-- Samaan poimintaryhmään kuuluvat kirjastot näkyvät boldattuna, mihin varauksen noutokirjasto myös kuuluu. 
-- Sivulla näytetään oletuksena 20 hyllyssä olevaa varausta. Valitse *Näytä_Kaikki*, jolloin saat samalle sivulle kaikki varaukset.
+- Jos kimpassasi on käytössä poimintaryhmät, raportilla näkyy boldattuna ne kirjastot, jotka kuuluvat noutokirjaston kanssa samaan poimintaryhmään.
+- Sivulla näkyy pääkäyttäjäsi määrittämä oletusmäärä varauksia. Tarvittaessa voit valita *Näytä_Kaikki*, jolloin saat kaikki varaukset samalle sivulle.
 - Voit rajata listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
 - Voit järjestää hakutuloksia otsikkorivin kaksisuuntaisista nuolista nousevaan tai laskevaan järjestykseen.
 - Tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
@@ -674,7 +674,7 @@ noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
 
 ![](/assets/files/docs/Lainaus/hyllyvaraus1.PNG)
 
-Suodata sarakkeesta "On shelf" oman kirjastosi varaukset. Jos et ole tehnyt valintaa,
+Suodata "Hyllyssä"-sarakkeesta oman kirjastosi varaukset. Jos et ole tehnyt valintaa,
 sarakkeessa näkyy _Ei mitään_ ja näkyvillä on kaikkien kimppasi kirjastojen hyllyssä olevat varaukset.
 
 ![](/assets/files/docs/Lainaus/hyllyvaraus2.PNG)
@@ -714,11 +714,11 @@ Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
 
 Valitse alasvetovalikosta kirjasto, johon olet siirtämässä aineistoa ja
 lue siirrettävän niteen viivakoodi *Syötä viivakoodi* -kenttään. Paina
-lopuksi *OK*. Niteeseen tulee palauttaessa tieto, minne nide pitää kuljettaa.
+sen jälkeen *OK*. Lopuksi voit tulostaa niteelle kuljetuskuitin.  
 
-![](/assets/files/docs/Lainaus/Siirto1_2.PNG)  
+![](/assets/files/docs/Lainaus/Siirto1_2_2.PNG)  
 
-Tietueen perustiedot-näytöllä nide näkyy kuljetus-tilassa.
+Tietueen perustiedot-näytöllä nide näkyy kuljetus-tilassa. Niteeseen tulee myös palauttaessa tieto, minne nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/Siirto1_3.PNG)  
 
