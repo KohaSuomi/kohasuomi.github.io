@@ -718,7 +718,7 @@ sen jälkeen *OK*. Lopuksi voit tulostaa niteelle kuljetuskuitin.
 
 ![](/assets/files/docs/Lainaus/Siirto1_2_2.PNG)  
 
-Tietueen perustiedot-näytöllä nide näkyy kuljetus-tilassa. Niteeseen tulee myös palauttaessa tieto, minne nide pitää kuljettaa.
+Tietueen perustiedot-näytöllä nide näkyy kuljetus-tilassa. 
 
 ![](/assets/files/docs/Lainaus/Siirto1_3.PNG)  
 
@@ -734,7 +734,7 @@ ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
 ## 2.15 Lähetettävät kuljetukset
 
-Raportilla voit tarkistaa kirjastostasi lähetettävät niteet.
+Raportilla voit tarkistaa kirjastostasi lähetettävät niteet. Raportti näkyy vain, jos Kiertokokoelmat-moduuli on käytössä kimpassasi.
 
 ![](/assets/files/docs/Lainaus/lähetettävätkuljetukset.PNG)
 
