@@ -65,7 +65,7 @@ Lue lainattavan niteen viivakoodi Lainaus-kenttään.
   jos järjestelmäasetuksissa on määritelty, että virkailijalla on
   oikeus muuttaa eräpäivää lainatessa.
 - Jos kimpalla on käytössä *Automaattinen uusinta*, ohjelma uusii
-  lainatut teokset automaattisesti lainasääntöjen mukaisesti.
+  lainassa olevat teokset automaattisesti lainasääntöjen mukaisesti.
 - Toiminnolla *Älä lyhennä laina-aikaa varausten määrän pohjalta*
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
   teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on käytössä.
