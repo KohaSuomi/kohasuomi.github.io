@@ -19,6 +19,12 @@ Aika: Ma 3.2.2025<br />
 Läsnä: Lari, Ari, Johanna, Kodo, Pasi, Anneli, Emmi
 
 * Borrowernumberin käyttö Finnasta lähtevässä sähköpostissa: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/42
+* Päivitykset
+  * ODUE-maksulle kirjastotieto #986
+  * Asiakkaan Reklamaatiot -välilehden Ratkaise-toiminto ei toimi asiakkaan Tiedot-sivulla #1397
+  * Vaski-nextissä kiinni oleva automaatti ei saa CL-kentässä tietoa SIP2SortBinMapping-määrityksistä #1559
+  * SIPoHTTP lokitusmuutos 99/98 sanomien osalta #1647
+  * Lisää embed-vaihtoehtoja REST-APIin #1655
   
 ## Viikko 5
 
