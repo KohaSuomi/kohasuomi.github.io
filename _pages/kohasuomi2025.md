@@ -25,6 +25,7 @@ Läsnä: Lari, Ari, Johanna, Kodo, Pasi, Anneli, Emmi
   * Vaski-nextissä kiinni oleva automaatti ei saa CL-kentässä tietoa SIP2SortBinMapping-määrityksistä #1559
   * SIPoHTTP lokitusmuutos 99/98 sanomien osalta #1647
   * Lisää embed-vaihtoehtoja REST-APIin #1655
+  * Kolme tietoturvapaikkaa
   
 ## Viikko 5
 
