@@ -438,6 +438,10 @@ Palautetun niteen tiedot tulevat näytölle.
 
 ![](/assets/files/docs/Lainaus/palautus1.PNG)
 
+Voit tulostaa palautuskuitin, jos Asiakas-sarakkeessa on "Tulosta palautuskuitti" -painike. Mikäli asiakkaan lainahistoria on anonymisoitu, painiketta ei tule. 
+
+![](/assets/files/docs/Lainaus/palautus2.png)
+
 ![](/assets/files/docs/Lainaus/sarakkeet.PNG)
 
 *Sarakkeet*-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
