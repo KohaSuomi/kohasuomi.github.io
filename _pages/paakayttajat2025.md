@@ -53,7 +53,7 @@ Pohjoisesta etelään
   * Tehdään tiketti, jos tapauksia alkaa ilmeneen muillakin.
 
 **Lastu**
-* Pohdittu miten varauksiin käytettäviä resursseja olisi mahdollista kehittää vähemmän työaikaa vieväksi
+* Pohdittu miten varauksiin käytettäviä resursseja olisi mahdollista kehittää vähemmän työaikaa vieväksi Kohan avulla
 * Muuten tavallista ylläpitoa
 
   
