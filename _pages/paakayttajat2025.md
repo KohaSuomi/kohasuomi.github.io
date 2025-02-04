@@ -64,7 +64,7 @@ Pohjoisesta etelään
 * Raportoitu tapauksia, missä automaatti ei suostu lainaamaan asiakkaalle hyllystä napattua kirjaa silloin, kun kirjassa on hyllyvaraus. Kohan asetusten puolesta tämän pitäisi onnistua. Epäiltiin olisiko kyseessä sellainen nide, jossa on ollut varaus, se on palautettu automaatilla ja kirja on mennyt vahingossa hyllyyn. Kyseessä ei vaikuta olevan tällainen tapaus ja sitä tutkitaan edelleen.
 
 **Siilinjärvi**
-* Myöhästymismaksu muutettu 1.2.2025 alaken 0,20 eurosta 0,30 euroon, muutos näyttäisi päivittyneen oikein. Asiakaspalautetta odotellaan.
+* Myöhästymismaksu muutettu 1.2.2025 alkaen 0,20 eurosta 0,30 euroon, muutos näyttäisi päivittyneen oikein. Asiakaspalautetta odotellaan.
 * Siilinjärvellä päätetty jättää lapset eli alle 18-vuotiaat vanhentumisajon ulkopuolelle. Perusteluna uudelleenrekisteröitymisen vaikeus varsinkin ryhmäkäynneillä ja kannustus lukuharrastukseen. Vanhentuneet lapsiasiakkaat poistuvat sitten siirtyessään aikuisasiakkaiksi.
 * Kuntasovelluksessa on ollut taas korjaus/päivitystarvetta.
 
