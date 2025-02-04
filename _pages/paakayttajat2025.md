@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -28,6 +28,8 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kus
 * [Kohan ohje suomeksi -päivitys](https://github.com/KohaSuomi/Koha/issues/1488)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tilaisia tikettejä paljon. Muistattehan sulkea itse avaamanne tiketit (tai siirtää toiseen tilaan, jos eivät vielä toimikaan oikein). :)
 
+Pohjoisesta etelään
+
 **Lappi**
 * Posion kirjaston väistön suunnittelu alkamassa, samoin Rovaniemen kirjaston paluu pääkirjastoon
 * Nidetyyppien rajausta Rovaniemen kirjastolle selvitetään, liittyy vain Rovaniemellä käytössä olevaan laina-/nidekohtaiseen maksuun
@@ -38,8 +40,17 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kus
 * Siirtyminen Turun seudullisen tapahtumakalenterin käyttöön verkkokirjastossa (Linked Events) 
 *	Suunnittelemme käsin lisätty-maksutyypin poistamista, jotta ei olisi houkutusta lisätä ALVillisia maksuja järjestelmään. Mitätöi maksutapahtuma-toiminto on nyt piilotettuna, mutta piilotuksen poistoa suunnitellaan.
 
+**OUTI**
+* Pudasjärven kirjasto on luopumassa Ceepos-kassan käytöstä.
+  * Riittänee, että poistamme Kohasta Pudasjärven maksurajapintaan liittyvät määritykset ja tuotteiston sekä kehittäjät poistavat Koha-palvelimelta kassaan liittyvät määritykset.
+  * Teemme tiketin, kun asia ajankohtainen.
+* Oulussa on pari kertaa tullut tapaus, että tietue on mennyt vähän kuin rikki tilanteessa, kun tietueelle on lisätty uusi nide Perustiedot-näytöltä Uusi nide -toiminnolla. OUTIssa on käytössä automaattinen nidetyyppiliitännäinen.
+  * Käyttäjä oli tallentanut niteelle tarvittavat tiedot ja tämän jälkeen hän oli joutunut klikkailemaan useamman kerran nidetyyppikentän kolmea pistettä ennen kuin ohjelma oli antanut oikean nidetyypin kenttään. Tämän jälkeen käyttäjä oli tallentanut tietueen, mutta tallennuksessa oli tapahtunut jotain kummallista (?).
+  * Tämän jälkeen molempien tapausten tietueet antoivat Internal server error -ilmoitusta. Tapauksessa 1 tietueen niteitä pääsi muokkaamaan. Tapauksessa 2 näkyville ei tullut enää yhtään tietueen nidettä.
+  * Tapauksessa 2 Finnassa tietueelle tuli ilmoitus: "Järjestelmä pois käytöstä. Kirjastojärjestelmä on juuri nyt pois käytöstä. Saatavuustiedot eivät ole juuri nyt käytettävissä…”
+  * Kun tutkimme ongelmaa, niteille oli molemmissa tapauksissa tallentunut nidetyypiksi KIRJA eli aivan kuin sinne olisi tullut jostain aineistotyypin Koha-tunnus.
+  * Tapaus 1 ongelma saatiin korjattua, kun nidetyyppi korjattiin oikeaksi niteen muokkaussivulla. Tapaus 2 saatiin korjattua niteiden erämuokkauksella.
 
-Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
 
