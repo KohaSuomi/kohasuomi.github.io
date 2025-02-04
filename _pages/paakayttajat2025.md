@@ -18,6 +18,8 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
 * Omatoimikirjastojen estojen asettaminen
+  * käytönesto ajastetaan tulemaan voimaan yöllä
+  * pääkäyttäjät tarkistavat aamulla, että rajoitus on mennyt päälle ja ilmoittaa, jos ei ole. Rajoite laitetaan sitten käsin päällle.
 * Testeillä on nähtävissä yksi ratkaisu liittyen [kehitysehdotus-tikettiin #886](https://github.com/KohaSuomi/Koha/issues/886). Keskustellaan, voiko ratkaisua ottaa käyttöön.
   * Ongelmana on, että itse lisättyjen fasettien otsikot eivät käänny, koska ne kuvaukset ovat tietokannassa, eikä käännösmekanismi osaa "katsoa" sinne.
   * testillä olevassa ehdotuksessa jokaiselle kielelle luodaan oma indeksi, joille sitten määritetään CSS:llä käännökset ja piilotetaan muut kuin käyttöliittymän kielivalinnan mukaiset kieliversiot.
