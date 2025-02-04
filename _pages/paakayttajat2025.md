@@ -23,7 +23,9 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kus
 * Testeillä on nähtävissä yksi ratkaisu liittyen [kehitysehdotus-tikettiin #886](https://github.com/KohaSuomi/Koha/issues/886). Keskustellaan, voiko ratkaisua ottaa käyttöön.
   * Ongelmana on, että itse lisättyjen fasettien otsikot eivät käänny, koska ne kuvaukset ovat tietokannassa, eikä käännösmekanismi osaa "katsoa" sinne.
   * testillä olevassa ehdotuksessa jokaiselle kielelle luodaan oma indeksi, joille sitten määritetään CSS:llä käännökset ja piilotetaan muut kuin käyttöliittymän kielivalinnan mukaiset kieliversiot.
-  * ongelmana on myös se, että kielikoodeja ei saa käännettyä kuin liittämällä fasettiin auktorisoidun arvon, jolloin niille saa selkokielisen kuvauksen yhdellä kielellä (tai sitten auktorisoidun arvon kuvaukseen lisää kaikki versiot, joka voi olla sekavaa)
+  * ongelmana on myös se, että kielikoodeja ei saa käännettyä kuin liittämällä fasettiin auktorisoidun arvon, jolloin niille saa
+    selkokielisen kuvauksen yhdellä kielellä (tai sitten auktorisoidun arvon kuvaukseen lisää kaikki versiot, joka voi olla sekavaa)
+  * Päätös: Keskusteltiin, tarviiko käännöksiä tehdä ja päätettiin kokeilla ensin ilman käännöksiä fasettien otsikoihin ja kielikoodeihin. Ei tehdä omia Koha-Suomi-spesifejä säätöjä vaan pyritään saamaan yhteisön kautta fasetit käänneettäviksi. Pohditaan asiaa uudelleen, jos aiheesta saadaan palauttetta käyttäjiltä. 
 * [Koha-seminaarin ilmoittautuminen avattu](https://github.com/KohaSuomi/Koha/discussions/1665). Ohjelma on vielä vajaavainen, mutta täydennetään niin pian kuin mahdollista.
 * [Kohan ohje suomeksi -päivitys](https://github.com/KohaSuomi/Koha/issues/1488)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tilaisia tikettejä paljon. Muistattehan sulkea itse avaamanne tiketit (tai siirtää toiseen tilaan, jos eivät vielä toimikaan oikein). :)
