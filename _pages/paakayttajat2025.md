@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -25,6 +25,10 @@ Läsnä:
 * [Koha-seminaarin ilmoittautuminen avattu](https://github.com/KohaSuomi/Koha/discussions/1665). Ohjelma on vielä vajaavainen, mutta täydennetään niin pian kuin mahdollista.
 * [Kohan ohje suomeksi -päivitys](https://github.com/KohaSuomi/Koha/issues/1488)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tilaisia tikettejä paljon. Muistattehan sulkea itse avaamanne tiketit (tai siirtää toiseen tilaan, jos eivät vielä toimikaan oikein). :)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 5
 
