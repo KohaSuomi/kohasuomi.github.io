@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -58,6 +58,10 @@ Pohjoisesta etelään
 **Lastu**
 * Pohdittu miten varauksiin käytettäviä resursseja olisi mahdollista kehittää vähemmän työaikaa vieväksi Kohan avulla
 * Muuten tavallista ylläpitoa
+
+**Lumme**
+* Tehty tietueiden erämuokkauksia YSO-muutosta ajatellen. Hommat jatkuu vielä.
+* Raportoitu tapauksia, missä automaatti ei suostu lainaamaan asiakkaalle hyllystä napattua kirjaa silloin, kun kirjassa on hyllyvaraus. Kohan asetusten puolesta tämän pitäisi onnistua. Epäiltiin olisiko kyseessä sellainen nide, jossa on ollut varaus, se on palautettu automaatilla ja kirja on mennyt vahingossa hyllyyn. Kyseessä ei vaikuta olevan tällainen tapaus ja sitä tutkitaan edelleen.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
