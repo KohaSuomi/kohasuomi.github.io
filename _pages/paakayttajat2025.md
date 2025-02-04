@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -28,6 +28,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 * [Kohan ohje suomeksi -päivitys](https://github.com/KohaSuomi/Koha/issues/1488)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tilaisia tikettejä paljon. Muistattehan sulkea itse avaamanne tiketit (tai siirtää toiseen tilaan, jos eivät vielä toimikaan oikein). :)
 
+**Lappi**
+* Posion kirjaston väistön suunnittelu alkamassa, samoin Rovaniemen kirjaston paluu pääkirjastoon
+* Nidetyyppien rajausta Rovaniemen kirjastolle selvitetään, liittyy vain Rovaniemellä käytössä olevaan laina-/nidekohtaiseen maksuun
+* Kohaan vaihdettu kimpan logo, alaosaan jäi musta palkki
+* Muuten rauhallista
+  
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
