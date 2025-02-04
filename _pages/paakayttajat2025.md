@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -62,6 +62,11 @@ Pohjoisesta etelään
 **Lumme**
 * Tehty tietueiden erämuokkauksia YSO-muutosta ajatellen. Hommat jatkuu vielä.
 * Raportoitu tapauksia, missä automaatti ei suostu lainaamaan asiakkaalle hyllystä napattua kirjaa silloin, kun kirjassa on hyllyvaraus. Kohan asetusten puolesta tämän pitäisi onnistua. Epäiltiin olisiko kyseessä sellainen nide, jossa on ollut varaus, se on palautettu automaatilla ja kirja on mennyt vahingossa hyllyyn. Kyseessä ei vaikuta olevan tällainen tapaus ja sitä tutkitaan edelleen.
+
+**Siilinjärvi**
+* Myöhästymismaksu muutettu 1.2.2025 alaken 0,20 eurosta 0,30 euroon, muutos näyttäisi päivittyneen oikein. Asiakaspalautetta odotellaan.
+* Siilinjärvellä päätetty jättää lapset eli alle 18-vuotiaat vanhentumisajon ulkopuolelle. Perusteluna uudelleenrekisteröitymisen vaikeus varsinkin ryhmäkäynneillä ja kannustus lukuharrastukseen. Vanhentuneet lapsiasiakkaat poistuvat sitten siirtyessään aikuisasiakkaiksi.
+* Kuntasovelluksessa on ollut taas korjaus/päivitystarvetta.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
