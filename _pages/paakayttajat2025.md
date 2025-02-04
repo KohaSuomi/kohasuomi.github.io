@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -33,7 +33,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kus
 * Nidetyyppien rajausta Rovaniemen kirjastolle selvitetään, liittyy vain Rovaniemellä käytössä olevaan laina-/nidekohtaiseen maksuun
 * Kohaan vaihdettu kimpan logo, alaosaan jäi musta palkki
 * Muuten rauhallista
-  
+
+**Vaski**
+* Siirtyminen Turun seudullisen tapahtumakalenterin käyttöön verkkokirjastossa (Linked Events) 
+*	Suunnittelemme käsin lisätty-maksutyypin poistamista, jotta ei olisi houkutusta lisätä ALVillisia maksuja järjestelmään. Mitätöi maksutapahtuma-toiminto on nyt piilotettuna, mutta piilotuksen poistoa suunnitellaan.
+
+
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
