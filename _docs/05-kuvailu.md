@@ -797,7 +797,7 @@ Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 
 Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. Tee sääntö _Kuvailu_-osion _MARC-muokkauksen pohjat_ -toiminnossa.
 
-Huom! Kiinteämittaisen kentän yksittäisen merkkipaikka-arvon muokkaus ei onnistu MARC-muokkauksessa. Kiinteämittaisen kentän muokkaus onnistuu, kun kentän kaikki merkkipaikat on määritelty ehtoon. Poikkeuksena kiinteämittainen kenttä 000 (leader) , jota ei pysty muokkaamaan/poistamaan eräajona.
+Kiinteämittaisen kentän muokkaus onnistuu, kun kentän kaikki merkkipaikat määritellään ehtoon. Poikkeuksena kiinteämittainen kenttä 000 (leader) , jota ei pysty muokkaamaan/poistamaan eräajona.
 
 ![](/assets/files/docs/Luettelointi/kuvailu66.png)
 
