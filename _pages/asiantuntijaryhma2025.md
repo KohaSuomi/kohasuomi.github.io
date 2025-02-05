@@ -21,9 +21,9 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 12.2.2025 klo 13<br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
-### Kohan signumiin vain luokka ja pääsana
+### 2. Kohan signumiin vain luokka ja pääsana
 
 Signum-työryhmä on nyt kokoontunut kolmesti ja tutkinut, testannut ja pohtinut [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) ehdotusta, että Kohan signumiin eli items.itemcallnumber-kenttään laitettaisiin vain luokka ja pääsana ja tullut siihen päätöksen, että ehdottaa asiantuntijaryhmälle ehdotuksen hyväksymistä.
 
@@ -61,7 +61,7 @@ Muutoksen mahdollisia haittoja:
 Selvitettävä:
 - mahdolliset muut vaikutukset Finnan puolelle. Tarviiko muutos esim. uudelleenharavointeja/indeksointeja
 
-### Tikettien priorisointi
+### 3. Tikettien priorisointi
 
 Tikettien priorisointi -ryhmä on tehnyt ehdotuksen siitä, miten kehitysehdotukset voisi priorisoida ja toteutukselle määrittää aikataulu. Ehdotus on kirjattu Koha-tietovarannon [Tikettien priorisointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-priorisointi) -wikiin.
 
@@ -71,7 +71,7 @@ Pohdittavaa:
 - mitkä kaikki tiketit priorisoidaan? Ehdotuksena työryhmällä, että alkuunsa vain kehitysehdotukset ja kunhan niiden kanssa on harjoiteltu ja saatu kokemuksia, voidaan priorisoinnin laajentamista ja sen tekijöitä harkita. Alustavasti mietittiin, että bugit priorisoisi Koha-Suomen vanhemmat kehittäjät ja jos tulee tilanne, että tiketin kirjaaja on prioriteetistä eri mieltä, voidaan asia käsitellä asiantuntijaryhmässä.
 - priorisoidaanko kaikki vanhat, jo käsitellyt kehitysehdotukset ja millä kokoonpanolla se tehdään?
 
-### Käsiteltävät tiketit
+### 4. Käsiteltävät tiketit
 
 * [Huollettavan asiakastiedon muokkaus: Asiakastakaaja-osion Suhde-arvo valmiiksi valituksi #302](https://github.com/KohaSuomi/Koha/issues/302)
   * Tehdäänkö JS-liitännäinen?
@@ -81,9 +81,9 @@ Pohdittavaa:
 * [Asiakastietoon muodostumaan automaattisesti Kohassa ja Finnassa näkyvä viesti liittyen omien tietojen tarkistamiseen #1573](https://github.com/KohaSuomi/Koha/issues/1573)
 * [Yli 50 epäonnistunutta kirjautumista ei kirjaudu lokille eikä siitä aiheutuvaa rajoitusta muodostu asiakkaan tietoihin. #1635](https://github.com/KohaSuomi/Koha/issues/1635)
 
-### Muut asiat
+### 5. Muut asiat
 
-### Seuraavat kokoukset
+### 6. Seuraavat kokoukset
 
 ## Muistio 1/2025
 
