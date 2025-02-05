@@ -799,7 +799,6 @@ Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos 
 
 Huom! Kiinteämittaisen kentän yksittäisen merkkipaikka-arvon muokkaus ei onnistu MARC-muokkauksessa. Kiinteämittaisen kentän muokkaus onnistuu, kun kentän kaikki merkkipaikat on määritelty ehtoon. Poikkeuksena kiinteämittainen kenttä 000 (leader) , jota ei pysty muokkaamaan/poistamaan eräajona.
 
-
 ![](/assets/files/docs/Luettelointi/kuvailu66.png)
 
 #### Uuden muokkauspohjan tekeminen
