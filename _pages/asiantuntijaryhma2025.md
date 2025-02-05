@@ -83,6 +83,7 @@ Pohdittavaa:
 * [Tarratulostukseen numerointi #1614](https://github.com/KohaSuomi/Koha/issues/1614)
 * [Asiakastietoon muodostumaan automaattisesti Kohassa ja Finnassa näkyvä viesti liittyen omien tietojen tarkistamiseen #1573](https://github.com/KohaSuomi/Koha/issues/1573)
 * [Yli 50 epäonnistunutta kirjautumista ei kirjaudu lokille eikä siitä aiheutuvaa rajoitusta muodostu asiakkaan tietoihin. #1635](https://github.com/KohaSuomi/Koha/issues/1635)
+  * Kohan toimintalogiikka on muuttunut, eikä rajoituksen lisääminen enää onnistu.
 
 ### 5. Muut asiat
 
