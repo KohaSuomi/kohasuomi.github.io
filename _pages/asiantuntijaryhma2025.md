@@ -23,6 +23,9 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+* [Koha-seminaarin ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/1665) on auki.
+* [Seuraava Bugiton 21.2.2025 klo 13](https://github.com/KohaSuomi/Koha/discussions/1666)
+
 ### 2. Kohan signumiin vain luokka ja pääsana
 
 Signum-työryhmä on nyt kokoontunut kolmesti ja tutkinut, testannut ja pohtinut [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) ehdotusta, että Kohan signumiin eli items.itemcallnumber-kenttään laitettaisiin vain luokka ja pääsana ja tullut siihen päätöksen, että ehdottaa asiantuntijaryhmälle ehdotuksen hyväksymistä.
