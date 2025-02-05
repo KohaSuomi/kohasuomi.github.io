@@ -162,11 +162,9 @@ Alla esimerkissä on lisätty uusi hakukenttä, asetettu molemmat hakusanat vaad
 
 Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katkaista %-merkeillä. Esimerkiksi tekijä-haku _jansson, tove_ ei palauta  osumia, koska MARC-kentästä haettu tekijätieto päättyy pisteeseen tai pilkkuun. Haku _jansson, tove%_ toimii oikein. Katkaisun lisäksi hakusanat on kirjoitettava aina tarkasti oikein. Esimerkiksi haku *%tove jansson*% ei palauta mitään, koska tekijätieto on muodossa _Jansson, Tove_. Yksittäisen merkin voi korvata merkillä \_ (alaviiva).
 
-Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa. Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
+Hakua voi rajata myös sivun yläosan valintalistoilta. Nidehaun kahden ensimmäisen osion valikot toimivat niin, että voit hakea valikon sisällöstä. Valikosta voi valita useamman vaihtoehdon, jolloin valitut vaihtoehdot näkyvät rivillä listattuna. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
 
-Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet, jotka eivät ole lainassa.
-
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku_21_nidehaun_rajaukset_2024.png)
+![](/assets/files/docs/Tiedonhaku/nidehaku_parannettu_useamman_vaihtoehdon_valinta_25.png)
 
 Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku 
 
@@ -180,15 +178,17 @@ _Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteell
 Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
 
-Esimerkeissä valituilla ehdoilla hakutuloslista näyttää tältä. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku23_nidehaku_tulokset_2024.png)
-
 Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä: 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
+
+Versiossa 24.05 nidehaun tuloksiin tuli uutena sarakkeena Lainauspvm, jossa näytetään niteen viimeisin lainauspäivä.
+![](/assets/files/docs/Tiedonhaku/nidehaun_sarake_lainauspvm_25.png)
 
 ### 10.5.1. Tulosten vienti CSV- tai -viivakooditiedostoksi
 
 Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkokäyttöä varten ylälaidan painikkeilla.
+
+Versiossa 24.05 tuli mukaan uutena ominaisuutena nidenumeron eli itemnumberin vieminen mukaan CSV-tiedostoon.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku25_nidehaku_tulosten_painikkeet.png)
 
@@ -196,7 +196,7 @@ Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
 ## 10.6. Teostiedot
 
-Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
+Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Järjestelmäasetuksella *RedirectToSoleResult* pystyy määrittämään siirrytäänkö tiedonhaussa suoraan tietueeseen, jos haku tuottaa vain yhden tuloksen, vai näytetäänkö hakutuloslista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
 Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeuksista riippuen seuraavat välilehdet
 
@@ -235,9 +235,11 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 ### 10.6.2. MARC-, Otsikoitu MARC ja ISBD-välilehdet
 
 MARC  
-![](/assets/files/docs/Tiedonhaku/tietue5.png)  
+![](/assets/files/docs/Tiedonhaku/tietue5.png)
+
 Otsikoitu MARC  
-![](/assets/files/docs/Tiedonhaku/tietue6.png)  
+![](/assets/files/docs/Tiedonhaku/tietue6.png)
+
 ISBD  
 ![](/assets/files/docs/Tiedonhaku/tietue10.png)
 
@@ -281,6 +283,15 @@ Voit suodattaa näkyville esim.
     välilyönti, jolloin muut ykkösellä alkavat numerot eivät enää
     täsmää hakuun.
 - tietyllä huomautuksella olevan niteen
+
+Nidetietojen nouto tietueen perustiedot-näytölle uudistui versiossa 24.05 niin, että se tapahtuu nykyään REST-apin kautta. Nidetaulun suodatus, järjestely ja sivutus tehdään APIn avulla.
+
+![](/assets/files/docs/Tiedonhaku/nidetietojen_sivutus_25.png)
+
+- Jos niteitä on paljon, ne sivutetaan. Tässä voi olla kimppakohtaisia eroja ja osassa kimpoista on voitu asettaa oletuksena näkymään kaikki niteet kerralla.
+- Voit säätää näytettävien niteiden määrää sivulla nidetaulukon yläpuolelta.
+- Tila-sarakkeen mukaan ei pysty hakemaan/suodattamaan niteitä.
+- Jos yhdelläkään teoksen niteellä ei ole jonkin sarakkeen tietoa, piilottuu kyseinen sarake automaattisesti. Tällainen sarake voi olla esimerkiksi Kokoelma-sarake.
 
 ### 10.7.1. Niteet-välilehti
 
