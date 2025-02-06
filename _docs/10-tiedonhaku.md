@@ -343,7 +343,7 @@ _Hankintatiedot_-välilehdeltä näkee mm. miltä toimittajilta teosta on tilatt
 
 Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan _Lainahistoria_-linkistä. Yksittäisen niteen lainahistoriaa pystyy tarkastelemaan _Niteet_-välilehdeltä _Näytä niteen lainahistoria_ -linkistä.
 
-Lainahistoria-sivulla näkee
+_Lainahistoria_-sivulla näkee:
 - teoksen kaikkien niteiden lainakerrat yhteensä
 - viivakoodin, lainanneen kirjaston, onko uusittu, koska lainattu, mikä oli eräpäivä ja koska palautettu
 
