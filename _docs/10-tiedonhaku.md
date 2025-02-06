@@ -296,8 +296,6 @@ Voit suodattaa näkyville esim.
     täsmää hakuun.
 - tietyllä huomautuksella olevan niteen
 
-Nidetietojen nouto tietueen perustiedot-näytölle uudistui versiossa 24.05 niin, että se tapahtuu nykyään REST-apin kautta. Nidetaulun suodatus, järjestely ja sivutus tehdään APIn avulla.
-
 ![](/assets/files/docs/Tiedonhaku/nidetietojen_sivutus_25.png)
 
 - Jos niteitä on paljon, ne sivutetaan. Tässä voi olla kimppakohtaisia eroja ja osassa kimpoista on voitu asettaa oletuksena näkymään kaikki niteet kerralla.
