@@ -204,7 +204,7 @@ Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
 ## 10.6. Teostiedot
 
-Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Järjestelmäasetuksella _RedirectToSoleResult_ pystyy määrittämään siirrytäänkö tiedonhaussa suoraan tietueeseen, jos haku tuottaa vain yhden tuloksen, vai näytetäänkö hakutuloslista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
+Yksittäisen teoksen tietoihin pääsee montaa reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Järjestelmäasetuksella _RedirectToSoleResult_ pystyy määrittämään siirrytäänkö tiedonhaussa suoraan tietueeseen, jos haku tuottaa vain yhden tuloksen, vai näytetäänkö hakutuloslista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
 Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeuksista riippuen seuraavat välilehdet:
 
