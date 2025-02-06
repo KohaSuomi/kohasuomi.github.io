@@ -150,13 +150,13 @@ Nidehaulla voit esimerkiksi:
 - Tarkastaa, ovatko kaikki lehtiniteet siirretty pois lehtiemon alta.
 - Tarkastaa, onko lehtien vanhoja numeroita jäänyt tietokantaan.
 
-Nidehaku on _Haku_-valikossa.
+_Nidehaku_ on _Haku_-valikossa.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_1_nidehaku.png)
 
-Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
+_Nidehaku_ palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin _tarkkaa hakua_.
 
-Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Nimeketietojen yhteydestä löytyy myös teoksen mahdollinen alanimeke, osan nimi, osan numero ja aineiston yleismääre. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä. Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
+Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Nimeketietojen yhteydestä löytyy myös teoksen mahdollinen alanimeke, osan nimi, osan numero ja aineiston yleismääre. Käytä hauissa aina valintalistan alaosan _räätälöityjä hakukenttiä_. Muista kentistä ainoastaan _ISBN_ ja _ISSN_ toimivat luotettavasti.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
 
