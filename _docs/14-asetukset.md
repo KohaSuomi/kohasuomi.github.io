@@ -511,7 +511,7 @@ Tarkentaaksesi sääntöä luo uusi sääntö, jolla on sama asiakastyyppi ja ni
 
 **Asiakastyyppi**
 
-Valitse, mitä asiakastyyppiä sääntö koskee. Jos se koskee kaikkia, silloin ei valita asiakastyyppiä. Huomioitavaa on, että jos asiakastyypille tekee yhdenkin oman säännön, tällöin ei kaikkia asiakastyyppejä koskeva sääntö/säännöt koske enää kyseistä asiakastyyppiä.
+Valitse, mitä asiakastyyppiä sääntö koskee. Jos se koskee kaikkia, silloin ei valita asiakastyyppiä. Huomioitavaa on, että jos asiakastyypille tekee yhdenkin oman säännön, tällöin kaikkia asiakastyyppejä koskevat sääntö/säännöt eivät koske enää kyseistä asiakastyyppiä.
 
 **Nidetyyppi**
 
@@ -579,11 +579,11 @@ Huom! Jos laina on useamman kerran myöhässä, niin lainasta voi kertyä yli ma
 
 **Korvaushinnan katto**
 
-Tällä asetuksella voidaan estää se, että niteen korvaushinta ei ylitä maksimi myöhästymismaksua.
+Tällä asetuksella voidaan estää se, että niteen myöhästymismaksu ei ylitä niteen korvaushintaa.
 
 **Keskeytys (päivää)**
 
-Jos asiakkaita "sakotetaan" jäädyttämällä heidän tilinsä/kirjasotkorttinsa, tähän määritetään, kuinka kauan päivissä jäädytys kestää.
+Jos asiakkaita "sakotetaan" jäädyttämällä heidän tilinsä/kirjastokorttinsa, tähän määritetään, kuinka kauan päivissä jäädytys kestää.
 
 Tätä ominaisuutta ei taideta Suomessa käyttää.
 
@@ -602,6 +602,10 @@ Keskeytyksen veloitusväli toimii kuten Veloitusaikaväli, mutta maksujen sijast
 Asetuksella määritetään, kuinka monta kertaa asiakas voi uusia lainansa, mikäli siihen ei kohdistu varauksia, eikä asiakkaalla ole liikaa maksuja.
 
 Huom! Jos tämän asetuksen muuttaa ns. lennossa pienemmäksi, voi asiakkailla olla uusintakertoja enemmän kuin sallitaan.
+
+**Sallitut verkkokirjastouusintakerrat**
+
+Asetuksella määritetään, kuinka monta kertaa asiakas saa uusia itse lainan verkkokirjastossa ennen kuin se pitää tehdä henkilökunnan toimesta. Tässä voisi olla esim. yksi vähemmän kuin Sallitut uusintakerrat -kohdassa, jolloin viimeisen uusinnan joutuisi tekemään henkilökunta. Tätä ei taida olla käytössä missään kimpassa.
 
 **Uusinta-aika**
 
@@ -629,6 +633,8 @@ Asetuksella voi määrittää päivien määrän, jonka jälkeen automaattista u
 
 Asetuksella määritetään, kuinka monta varausta voi tehdä yhteensä. Tässä on huomioitava, että jokainen lainasääntörivi sallii tässä määritetyn määrän varauksia. Jos jätetään tyhjäksi, asiakas voi tehdä rajoittamattoman määrän varauksia.
 
+Kokemus on osoittanut, että Finnassa tulee suorituskykyongelmia, jos asiakkaalla on voimassa olevia varauksia yli 500-600 kpl. Asiakkaan varaukset eivät lataudu näkyville Finnassa, jos varauksia on todella paljon.
+
 **Varauksia sallittu (päivittäin)**
 
 Asetuksella määritetään, kuinka monta varausta asiakas voi tehdä päivittäin.
@@ -653,7 +659,7 @@ Asetuksella säädetään, voiko verkkokirjastossa (koskee myös Finnaa) tehdä 
 
 **Varausten noutoaika (päiviä)**
 
-Asetuksella määritetään varausten noutoaika päivinä, jos pitää olla sääntörivi tai kirjastokohtainen. Noutoajan voi määrittää myös ReservesMaxPickUpDelay-järjestelmäasetukseen, jolloin se on oletusarvo, josta sitten poiketaan laina- ja maksusääntöjen säädöillä. Tyypillisesti tämä pitää lisätä esim. kirjastoautoille, joilla on tarve pidemmälle noutoajalle reittien vuoksi.
+Asetuksella määritetään varausten noutoaika päivinä, jos se pitää olla sääntörivi- tai kirjastokohtainen. Noutoajan voi määrittää myös ReservesMaxPickUpDelay-järjestelmäasetukseen, jolloin se on oletusarvo, josta sitten poiketaan laina- ja maksusääntöjen säädöillä. Tyypillisesti tämä pitää lisätä esim. kirjastoautoille, joilla on tarve pidemmälle noutoajalle reittien vuoksi.
 
 **Artikkelipyynnöt**
 
