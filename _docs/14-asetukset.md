@@ -215,15 +215,20 @@ Oppimateriaalipalvelut : OPPIMATER (Oulun koulukirjaston Oppimateriaalipalveluje
 
 ## 4. Auktorisoidut arvot
 
-Auktorisoituja arvoja voi käyttää Kohan eri osioissa esim. alasvetovalikoissa. Ne ovat siis valmiita "listoja", joita halutaan käytettävän vapaan tekstin sijaan. Kaikki arvot ovat pääsääntöisesti kaikille kirjastoille/asiakastyypeille käytettävissä, mutta ne voidaan rajoittaa myös käytettäväksi tietyillä kirjastoilla tai asiakastyyypeillä. Alla listattuna tärkeimmät:
+Auktorisoituja arvoja voi käyttää Kohan eri osioissa esim. alasvetovalikoissa. Ne ovat siis valmiita "listoja", joita halutaan käytettävän vapaan tekstin sijaan. Kaikki arvot ovat pääsääntöisesti kaikille kirjastoille/asiakastyypeille käytettävissä, mutta ne voidaan rajoittaa myös käytettäväksi tietyillä kirjastoilla tai asiakastyyypeillä. TäTi-tietokannassa on paljon RDA-kuvailuun liittyviä luokkia, joilla helpotetaan kuvailijoiden töitä. Näitä ei ole pääsääntöisesti paikalliskannoissa. Alla listattuna tärkeimmät paikalliskannoissa olevat auktorisoidut arvot:
 
 **agelevel**
 
-agelevel-luokalla ja sen arvoilla luodaan tiedonhakuun mahdollisuus rajata hakua elokuvan ikärajan mukaan. Luokan nimi on sama kuin ikäraja-indeksin nimi.
+agelevel-luokalla ja sen arvoilla luodaan tiedonhakuun mahdollisuus rajata hakua elokuvan ikärajan mukaan. Luokan nimi on sama kuin ikäraja-indeksin nimi. Tähän on lisätty arvot
+K3, K7, K12, K16, K18 ja S. Hakuehdon saa näkyville tarkan haun lomakkeelle AdvancedSearchTypes-järjestelmäasetuksella, johon lisätään arvo _agelevel_.
 
 **AUTOMTYPE**
 
 AUTOMTYPE-luokka on luotu asiakasmäärettä AUTOTYPE-varten, jolla taas voi määrittää SIP2-tunnuksiin, minkä tyyppinen automaatti on kysessä. Eli onko se lainausautomaatti, palautusautomaatti, lainaava ja palauttava vai ovikone. Tämä luokka on rajoitettu käytettäväksi vain asiakastyypille AUTOM/AUTOMAATTI
+
+**bib-level**
+
+bib-level-luokka on luotu sitä varten, että tiedonhakuun Tarkan haun lomakkeelle saadaan mahdollisuus rajata hakua emokohteen ja osakohteen mukaan. Hakuehdon saa näkyville tarkan haun lomakkeelle AdvancedSearchTypes-järjestelmäasetuksella, johon lisätään arvo _bib-level_.
 
 **BOR_NOTES**
 
@@ -320,9 +325,17 @@ Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineisto
 
 NOT_LOAN-luokassa on niteen Ei lainata -arvot. Arvot voivat olla miinus- tai plusmerkkisiä. *SkipHoldTrapOnNotForLoanValue*-järjestelmäasetuksella määritetään, mitkä ei-lainata-arvot estää varausten kiinni jäämisen. *TrapHoldsOnOrder*-järjestelmäasetuksessa määritetään, ovatko miinusmerkkiset arvot varattavissa.
 
+Arvoista -1 (Tilattu) ja -2 (Saapunut) ovat Kohan "sisäisiä" arvoja ja ne ovat yleensä kaikilla samat.
+
+Laskutusta varten on yleisesti kimpoissa käytetty arvoa 6 (Laskutettu).
+
+**PAYMENT_TYPE**
+
+PAYMENT_TYPE-luokan arvot näytetään maksua maksettaessa Maksutyyppi-valikossa. Tämä on oleellinen arvo vain Ceepos-kassaliittymää käyttäville kimpoille, jolloin tähän luokkaan lisätään käytettävien kassojen tunnukset. [Ceepos-kassaliittymän käyttöönotto-ohje](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/wiki/Ceepos%E2%80%90kassaliittym%C3%A4n-k%C3%A4ytt%C3%B6%C3%B6notto#maksutyyppi-jokaiselle-k%C3%A4ytett%C3%A4v%C3%A4lle-kassalle).
+
 **REPORT_GROUP ja REPORT_SUBGROUP**
 
-REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta. Jos luot ryhmän raportti-osiossa, muista ettei tunnuksessa saa olla ääkkösiä tai muita erikoismerkkejä. Ne rikkovat välilehtien toiminnan.
+REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta. Jos luot ryhmän raportti-osiossa, muista ettei tunnuksessa saa olla ääkkösiä tai muita erikoismerkkejä, koska ne rikkovat välilehtien toiminnan.
 
 **SIP_MEDIA_TYPE**
 
@@ -330,7 +343,7 @@ SIP_MEDIA_TYPE-luokassa on lueteltuna SIP-mediatyypit, jotka välittyvät SIP2-v
 
 **SUBLOC**
 
-SUBLOC-luokka eli niteen hyllytarkenne. Tämä on Koha-Suomen oma lisäys. Hyllytarkenteista ei ole Koha-Suomen kimppojen laajuista päätöstä ja niitä onkin käytetty hyvin eri tavoin. Niissä voi olla saman tyyppisiä arvoja kuin kokoelmissa tai esimerkiksi Koulukirjastojen kirjastoyksiköiden nimiä.
+SUBLOC-luokka eli niteen hyllytarkenne. Tämä on alunperin Koha-Suomen oma lisäys, mutta se on löytyy nykyään myös yhteisön tietokantarakenteesta. Hyllytarkenteista ei ole Koha-Suomen kimppojen laajuista päätöstä ja niitä onkin käytetty hyvin eri tavoin. Niissä voi olla saman tyyppisiä arvoja kuin kokoelmissa tai esimerkiksi Koulukirjastojen kirjastoyksiköiden nimiä.
 
 **TOIMITTAJAT**
 
