@@ -373,21 +373,21 @@ Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
 **Tyyppikoodi**
 
-Tyyppikoodiin tulee yllä luetellut tunnukset.
+Tyyppikoodiin tulee yllä luetellut tunnukset. Pakollinen tieto.
 
 **Kuvaus**
 
-Kuvausta voi muokata halutessaan muuksikin kuin yllä olevassa taulukossa.
+Selkokielinen kuvaus asiakastyypistä. Kuvausta voi muokata halutessaan muuksikin kuin yllä olevassa taulukossa.
 
 **Voimassaoloaika**
 
-Henkilöasikkaiden oletusvoimassaoloajaksi on sovittu Koha-Suomen asiantuntijaryhmän 9.5.2022 kokouksessa kymmenen vuotta.
+Henkilöasikkaiden (aikuiset ja lapset) oletusvoimassaoloajaksi on sovittu Koha-Suomen asiantuntijaryhmän 9.5.2022 kokouksessa kymmenen vuotta (120 kk).
 
-Muilla asiakastyypeillä voi olla tarvittaessa lyhyempi voimassaoloaika.
+Muilla asiakastyypeillä voi olla tarvittaessa kimpan päätöksen mukaan lyhyempi voimassaoloaika.
 
 **Vaadittu ikä ja Ikäraja**
 
-Näillä asetuksilla määritetään asiakkaan minimi ja maksimi-ikä. Lapsiasiakkaat muutetaan aikuiseksi tämän asetuksen perusteella, eli kun asiakas saavuttaa maksimi-iän, vaihdetaan hänen asiakastyyppi aikuisasiakkaaksi (henkilöasiakas).
+Näillä asetuksilla määritetään asiakkaan minimi- ja maksimi-ikä. Lapsiasiakkaat muutetaan aikuiseksi tämän asetuksen perusteella, eli kun asiakas saavuttaa maksimi-iän, vaihdetaan hänen asiakastyyppi aikuisasiakkaaksi (henkilöasiakas).
 
 HUOM! Tähän joutuu laittamaan maksimi-iäksi yhden vuoden enemmän kuin olisi tarpeen, koska ajastettu ajo, joka muuttaa lapsiasiakkaat aikuisasiakkaiksi tulkitsee luvun eri tavalla kuin Kohan käyttöliittymä. Eli jos asiakas pitää muuttaa aikuisasiakkaaksi hänen täytettyä 15 vuotta, pitää Ikärajaksi laittaa 15. Tästä seuraa se, että alla oleva väite siitä, että lomake tarkistaa, että asiakkaan ikä on asiakastyypille sallitussa ikähaarukassa ei toimi oikein.
 
@@ -395,11 +395,11 @@ Kun asiakasta lisätään, tarkistaa lomake, että asiakkaan ikä on asiakastyyp
 
 **Rekisteröintimaksu**
 
-Ei tarpeellinen Suomessa, merkitse 0.00.
+Ei tarpeellinen Suomessa, merkitse/anna olla 0.00.
 
 **Myöhästymisilmoitus**
 
-Tällä asetuksella määritetään, lähteekö asiakastyypin asiakkaille OVERDUE_NOTICE-tyyppisiä viestejä eli palautuskehotuksia. Esim. työkorteille (EITILASTO) ei kannata määrittää lähtemään myöhästymisilmoituksia.
+Tällä asetuksella määritetään, lähteekö asiakastyypin asiakkaille OVERDUE_NOTICE-tyyppisiä viestejä eli palautuskehotuksia/myöhästymisilmoituksia. Esim. työkorteille (EITILASTO) ei kannata määrittää lähtemään myöhästymisilmoituksia.
 
 **Näytetäänkö kadonneet niteet virkailijaliittymässä**
 
@@ -407,13 +407,19 @@ Valitse "Näytetään".
 
 **Varausmaksu**
 
-Ei sovellu suomalaiseen kirjastomaailmaan, koska varausmaksua ei saa lain mukaan periä. Laita 0.00.
+Ei sovellu suomalaiseen kirjastomaailmaan, koska varausmaksua ei saa lain mukaan periä. Laita/anna olla 0.00.
 
 **Luokkatyyppi**
 
-Luokkatyyppi määrittelee, minkälainen "lomake" näytetään asiakasta lisätessä ja muokatessa. Esim. lapsiasiakas-tyypeille pitää määrittää "Huollettava", jotta lomakkeella näkyy huoltajan lisäysosio. Yhteisöasiakkailla taas näkyy vain yksi nimikenttä. 
+Luokkatyyppi määrittelee, minkälainen "lomake" näytetään asiakasta lisätessä ja muokatessa. Esim. lapsiasiakas-tyypeille pitää määrittää "Huollettava", ja aikuisasiakkaille Aikuiset. Yhteisöasiakkailla taas näkyy vain yksi nimikenttä. 
 
 Huom! Tilastoyksikkö-valinta aiheuttaa sen, että lainatessa lainat eivät mene asiakkaalle lainaan.
+
+**Voi olla taattava**
+
+Asetuksella määritetään, onko asiakastyyppi taattava vai ei. Jos tähän valitsee _Kyllä_, näytetään asiakkaan lisäys/muokkauslomakkeella takaajatieto-osio. Jos taas valitaan _Ei_, asiakastiedoissa ei näytetä takaajatieto-osiota.
+
+Kyllä kannattaa laittaa lapsiasiakas ja Huollettava, muu kuin lapsi -asiakastyypeille.
 
 **Kirjastorajoitukset**
 
@@ -421,7 +427,7 @@ Asiakastyypin voi tarvittaessa rajoittaa myös tietyn kirjaston käyttöön, mut
 
 **Salasanan palautus verkkokirjastossa**
 
-Valitse järjestelmäasetuksessa OpacResetPassword, että käyttäjät saavat palauttaa unohtuneen salasanansa verkkokirjastossa ja valitse tähän kohtaan, että Noudata järjestelmäasetusta OpacResetPassword.
+Jos tämä halutaan sallia, valitse järjestelmäasetuksessa OpacResetPassword, että käyttäjät saavat palauttaa unohtuneen salasanansa verkkokirjastossa ja valitse tähän kohtaan, että Noudata järjestelmäasetusta OpacResetPassword. Monella kimpalla toiminto on käytössä.
 
 **Salasanan vaihto verkkokirjastossa**
 
@@ -432,6 +438,8 @@ Valitse järjestelmäasetuksessa OpacPasswordChange, että sallitaan salasanan v
 Asiakkaiden asiakastyypeille tähän laitetaan numero 4, koska omatoimikirjautumisessa ei voi käyttää kuin neljänumeroista pin-koodia.
 
 VIRKAILIJA/AUTOM/API-asiakastyypeille määritetään joko 15 (Kyberturvallisuuskeskuksen suositus) tai jätetään tyhjäksi, jolloin noudatetaan järjestelmäasetusta  minPasswordLength. Muista käydä määrittämässä kyseiseen järjestelmäasetukseen silloin tuo 15.
+
+Huom! Käytännössä Koha ei ehdota alle kahdeksan merkkisiä salasanoja, vaikka tähän asetukseen tai minPasswordLength-järjestelmäasetukseen laittaisikin 4. Meillä on erikseen JS-liitännäinen, jolla huolehditaan, että asiakkaille generoituu nelinumeroisia PIN-koodeja. Liitännäisen määrittelyssä määritetään, mille asiakastyypeille generoidaan nelinumeroinen PIN-koodi. [IntranetUserJS: Generate PIN codes -liitännäisen ohjeistus](https://github.com/KohaSuomi/koha-plugin-intranetjs-generate-pin/blob/master/README.md).
 
 **Vaadi vahva salasana**
 
@@ -445,7 +453,7 @@ Valitse vaihtoehto "Järjestelmäasetus BlockExpiredPatronOpacActions määritt�
 
 **Tarkasta edelliset lainat**
 
-Kotipalvelu-asiakastyypille voi valita "Kyllä ja yritä ohittaa järjestelmäasetukset". Muille asiakastyypeille kannattaa valita "Ei ja yritä ohittaa järjestelmäasetukset.
+Tämä vaihtoehto on näkyvillä vain, jos  CheckPrevCheckout-järjestelmäasetuksessa on valittuna jokin muu kuin _Älä tarkista_. Kotipalvelu-asiakastyypille voi valita "Kyllä ja yritä ohittaa järjestelmäasetukset". Muille asiakastyypeille kannattaa valita "Ei ja yritä ohittaa järjestelmäasetukset.
 
 Käytännössä järjestelmä tarkistaa lainatessa ja varatessa, onko saman tietueen nide ollut asiakkaalla jo lainassa. Jos asetus on päällä, pitää virkailijan kuitata huomautus. Lainaaminen ei onnistu automaateilla, jos teos on ollut jo asiakkaalla lainassa.
 
@@ -465,7 +473,9 @@ Valitse ei.
 
 Asiakastyypille voi määritellä oletusasetukset viesteille. Nämä valinnat tulevat siis automaattisesti, kun luodaan kyseisen asiakastyypin asiakasta.
 
-***
+Koha-Suomen suositus on, että oletusarvoja ei lisättäisi, jotta viestiasetusten tarkistukseen liittyvät JavaScript-liitännäiset toimisivat oikein.
+
+Ainoa poikkeus on Ennakkoilmoitus-kohta, johon kannattaa laittaa muu arvo kuin 0. Jos asiakkaalle tallentuu tähän arvo 0, hänelle ei käytännössä lähde ennakkoilmoitusta.
 
 ## 6. Laina- ja maksusäännöt
 
