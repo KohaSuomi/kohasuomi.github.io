@@ -76,7 +76,7 @@ Tarkka haku aukeaa napauttamalla _Haku_-painikkeen viereistä nuolta ja valitsem
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
 
-Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.
+Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä _\[+\]-painikkeella_.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
 
@@ -104,13 +104,16 @@ Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Tulosten oletusj�
 
 Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
-Jos olet hakenut hakusanalla _valokuvaus_,  
+Jos olet hakenut esimerkiksi hakusanalla _valokuvaus_, hakutulos voi näyttää tältä:
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku14_fasetit_lahtotilanne_2024.png)
 
-voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_. 
+Voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus.png)
 
-Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
+Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne_2024.png)
 
 ### 10.3.2 Haku hakutuloksesta
@@ -124,10 +127,12 @@ Huom. Hakusanat tulee tarvittaessa katkaista \*-merkillä. Kimppakohtainen asetu
 
 ## 10.4. Hakuhistoria
 
-Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen hakuhistoria-toiminnolla. Hakuhistoria on oikean yläkulman alasvetovalikossa. 
+Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen _Hakuhistoria_-toiminnolla. _Hakuhistoria_ on oikean yläkulman alasvetovalikossa.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_hakuhistoria_valikko.png)
 
 Hakuhistoriassa haut on jaettu kuluvan istunnon aikana ja aiemmissa istunnoissa tehtyihin hakuihin.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_hakuhistorianakyma.png)
 
 Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
@@ -145,7 +150,8 @@ Nidehaulla voit esimerkiksi:
 - Tarkastaa, ovatko kaikki lehtiniteet siirretty pois lehtiemon alta.
 - Tarkastaa, onko lehtien vanhoja numeroita jäänyt tietokantaan.
 
-Nidehaku on _Haku_-valikossa.  
+Nidehaku on _Haku_-valikossa.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_1_nidehaku.png)
 
 Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
@@ -154,9 +160,9 @@ Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin j
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
 
-Hakusanoja voi yhdistää operaattoreilla JA ja TAI. _Uusi kenttä_ lisää uuden hakukentän. 
+Hakusanoja voi yhdistää operaattoreilla _JA_ ja _TAI_. _Uusi kenttä_ lisää uuden hakukentän. 
 
-Alla esimerkissä on lisätty uusi hakukenttä, asetettu molemmat hakusanat vaadituiksi JA-operaattorilla ja kohdistettu hakusanat _Nimeke_- ja _Henkilötekijä_-kenttiin. Lisäksi hakusanat on katkaistu %-merkeillä. 
+Alla olevassa esimerkissä on lisätty uusi hakukenttä, asetettu molemmat hakusanat vaadituiksi _JA_-operaattorilla ja kohdistettu hakusanat _Nimeke_- ja _Henkilötekijä_-kenttiin. Lisäksi hakusanat on katkaistu %-merkeillä. 
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku20_nidehaun_tekstihaku.png)
 
@@ -166,22 +172,24 @@ Hakua voi rajata myös sivun yläosan valintalistoilta. Nidehaun kahden ensimmä
 
 ![](/assets/files/docs/Tiedonhaku/nidehaku_parannettu_useamman_vaihtoehdon_valinta_25.png)
 
-Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku 
+Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi alla oleva haku palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png) 
 
-palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
+_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki yli 10 kertaa lainatut niteet, jotka on lainattu 25.05.2023.
 
-_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki yli 10 kertaa lainatut niteet, jotka on lainattu 25.05.2023. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
 
-Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. 
+Kun olet valinnut haluamasi ehdot, voit hakea napauttamalla _Haku_-painiketta.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
 
-Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä: 
+Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä:
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
 
 Versiossa 24.05 nidehaun tuloksiin tuli uutena sarakkeena Lainauspvm, jossa näytetään niteen viimeisin lainauspäivä.
+
 ![](/assets/files/docs/Tiedonhaku/nidehaun_sarake_lainauspvm_25.png)
 
 ### 10.5.1. Tulosten vienti CSV- tai -viivakooditiedostoksi
@@ -196,9 +204,9 @@ Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
 ## 10.6. Teostiedot
 
-Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Järjestelmäasetuksella *RedirectToSoleResult* pystyy määrittämään siirrytäänkö tiedonhaussa suoraan tietueeseen, jos haku tuottaa vain yhden tuloksen, vai näytetäänkö hakutuloslista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
+Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Järjestelmäasetuksella _RedirectToSoleResult_ pystyy määrittämään siirrytäänkö tiedonhaussa suoraan tietueeseen, jos haku tuottaa vain yhden tuloksen, vai näytetäänkö hakutuloslista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
-Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeuksista riippuen seuraavat välilehdet
+Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeuksista riippuen seuraavat välilehdet:
 
 - Perustiedot
 - MARC
@@ -234,13 +242,16 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 
 ### 10.6.2. MARC-, Otsikoitu MARC ja ISBD-välilehdet
 
-MARC  
+MARC
+
 ![](/assets/files/docs/Tiedonhaku/tietue5.png)
 
-Otsikoitu MARC  
+Otsikoitu MARC
+
 ![](/assets/files/docs/Tiedonhaku/tietue6.png)
 
-ISBD  
+ISBD
+
 ![](/assets/files/docs/Tiedonhaku/tietue10.png)
 
 ## 10.7. Nidetiedot ja niiden suodattaminen
@@ -251,22 +262,23 @@ Teoksen kuvailutietojen alla on tiedot siihen liittyvistä niteistä ja niiden s
 
 Niteistä kerrotaan
 
-- nidetyyppi
-- nykyinen kirjasto (=sijaintikirjasto)
-- kotikirjasto, jonka yhteydessä myöa hyllypaikka ja hyllytarkenne
-- kokoelma
-- luokka (eli käytännössä “Kohan koko signum”)
-- tila: saatavana, lainassa, kuljetettavana, kadonnut, ei lainata jne
-  - jos teos on lainassa, kerrotaan asiakkaan kirjastokortin numero, mikä toimii myös linkkinä asiakastietoihin.
-- viimeisin havainto (päivittyy mm. lainatessa ja palautettaessa. Myös silloin, kun palautetaan hyllyssä olevana)
-- viimeksi lainattu
-- viivakoodi, jota klikkaamalla pääsee niteen tietoihin vasemman reunan Niteet-välilehdelle.
-- kausijulkaisun numerointi, eli lehden numero, esim. 2019 : 1
-- Yleiset huomautukset
+- _Nidetyyppi_
+- _Nykyinen kirjasto_ (=sijaintikirjasto)
+- _Kotikirjasto_, jonka yhteydessä myöa hyllypaikka ja hyllytarkenne
+- _Kokoelma_
+- _Luokka_ (eli käytännössä “Kohan koko signum”)
+- _Tila_: _Saatavana_, _Lainattu asiakkalle_, _Kuljetettavana_, _Kadonnut_, _Ei lainata_ jne.
+  - jos teos on lainassa, kerrotaan asiakkaan kirjastokortin numero, mikä toimii myös linkkinä asiakastietoihin
+  - jos teoksella on useampi näytettävä tila, näytetään ne allekkain
+- _Viimeisin havainto_ (päivittyy mm. lainatessa ja palautettaessa. Myös silloin, kun palautetaan hyllyssä olevana)
+- _Viimeksi lainattu_
+- _Viivakoodi_, jota klikkaamalla pääsee niteen tietoihin vasemman reunan _Niteet_-välilehdelle.
+- _Kausijulkaisun numerointi_, eli lehden numero, esim. 2019 : 1
+- _Yleiset huomautukset_
 
 Näkyvillä olevissa tiedoissa voi olla kimppakohtaista vaihtelua.
 
-Suodatus on kätevä toiminto
+Suodatus on kätevä toiminto.
 
 ![](/assets/files/docs/Tiedonhaku/tietue4.png)
 
@@ -290,8 +302,8 @@ Nidetietojen nouto tietueen perustiedot-näytölle uudistui versiossa 24.05 niin
 
 - Jos niteitä on paljon, ne sivutetaan. Tässä voi olla kimppakohtaisia eroja ja osassa kimpoista on voitu asettaa oletuksena näkymään kaikki niteet kerralla.
 - Voit säätää näytettävien niteiden määrää sivulla nidetaulukon yläpuolelta.
-- Tila-sarakkeen mukaan ei pysty hakemaan/suodattamaan niteitä.
-- Jos yhdelläkään teoksen niteellä ei ole jonkin sarakkeen tietoa, piilottuu kyseinen sarake automaattisesti. Tällainen sarake voi olla esimerkiksi Kokoelma-sarake.
+- _Tila_-sarakkeen mukaan ei pysty hakemaan/suodattamaan niteitä.
+- Jos yhdelläkään teoksen niteellä ei ole jonkin sarakkeen tietoa, piilottuu kyseinen sarake automaattisesti. Tällainen sarake voi olla esimerkiksi _Kokoelma_-sarake.
 
 ### 10.7.1. Niteet-välilehti
 
@@ -311,7 +323,7 @@ Niteestä näkee mm.
 
 ![](/assets/files/docs/Tiedonhaku/tietue8_2024.png)  
 
-Historia-tiedoista näkee
+Historia-tiedoista näkee:
 
 - tilauspäivän
 - toimittajan
@@ -339,8 +351,7 @@ Lainahistoria-sivulla näkee
 
 ![](/assets/files/docs/Tiedonhaku/tietue9.png)
 
-Yksittäisen niteen lainahistoria
-Näytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
+Yksittäisen niteen lainahistorianäytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
 
 ![](/assets/files/docs/Tiedonhaku/tietue11.png)  
 
