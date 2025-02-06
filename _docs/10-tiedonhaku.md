@@ -264,7 +264,7 @@ Niteistä kerrotaan
 
 - _Nidetyyppi_
 - _Nykyinen kirjasto_ (=sijaintikirjasto)
-- _Kotikirjasto_, jonka yhteydessä myöa hyllypaikka ja hyllytarkenne
+- _Kotikirjasto_, jonka yhteydessä myös hyllypaikka ja hyllytarkenne
 - _Kokoelma_
 - _Luokka_ (eli käytännössä “Kohan koko signum”)
 - _Tila_: _Saatavana_, _Lainattu asiakkalle_, _Kuljetettavana_, _Kadonnut_, _Ei lainata_ jne.
