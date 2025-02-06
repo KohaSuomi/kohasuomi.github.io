@@ -21,6 +21,7 @@ Läsnä:
   * saatavana-otsikon alla olevat näyttäisivät olevan lainattavissa olevia.
   * ei saatavilla -otsikon alla taas on erilaisissa tiloissa (damaged, kuljetettavat, yms.) olevia niteitä.
 * Viikon 7 päivitys
+* [Raporttitoive](https://github.com/KohaSuomi/Koha/issues/1671), onko muilla tarvetta tällaiselle tai jopa valmiina jotain tämän tyyppistä?
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
