@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 7
+
+Aika: 11.2.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
+  * ehdotettu, että saatavana-termiä ei muutettaisi ollenkaan, vaan muutettaisiin vain _ei saatavilla_-otsikko esim. muotoon _Tarkista saatavuus_.
+  * saatavana-otsikon alla olevat näyttäisivät olevan lainattavissa olevia.
+  * ei saatavilla -otsikon alla taas on erilaisissa tiloissa (damaged, kuljetettavat, yms.) olevia niteitä.
+* Viikon 7 päivitys
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
