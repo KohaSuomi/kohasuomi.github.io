@@ -172,7 +172,7 @@ Hakua voi rajata myös sivun yläosan valintalistoilta. Nidehaun kahden ensimmä
 
 ![](/assets/files/docs/Tiedonhaku/nidehaku_parannettu_useamman_vaihtoehdon_valinta_25.png)
 
-Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi alla oleva haku palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
+Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi alla oleva haku palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää _Luokka (084$a)_.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png) 
 
