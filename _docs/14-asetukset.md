@@ -371,6 +371,9 @@ Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
 ### 5.1 Asiakastyyppien määritykset
 
+<img src="/assets/files/docs/Asetukset/asiakastyypit.png" title="Asiakastyypin tiedot" alt="Asiakastyypin muokattavat kentät" style="width=100.0%" />
+
+
 **Tyyppikoodi**
 
 Tyyppikoodiin tulee yllä luetellut tunnukset. Pakollinen tieto.
