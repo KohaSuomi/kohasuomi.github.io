@@ -28,7 +28,7 @@ Läsnä:
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -83,6 +83,9 @@ Pohjoisesta etelään
 * Siilinjärvellä päätetty jättää lapset eli alle 18-vuotiaat vanhentumisajon ulkopuolelle. Perusteluna uudelleenrekisteröitymisen vaikeus varsinkin ryhmäkäynneillä ja kannustus lukuharrastukseen. Vanhentuneet lapsiasiakkaat poistuvat sitten siirtyessään aikuisasiakkaiksi.
 * Kuntasovelluksessa on ollut taas korjaus/päivitystarvetta.
 
+**Kyyti**
+* Esittelin eilen Kyyti-joryssa Annelin ajankohtaisdiasarjaa. Kiitos siitä.
+* Kysyin tarkennuksia YSA-YSO-konversioon liittyvään valmisteluajoon 648, 650, 651, 655 -kenttien 9-osakenttien tyhjentämisestä. Kaikki 9-osakentät saa siis poistaa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
 
