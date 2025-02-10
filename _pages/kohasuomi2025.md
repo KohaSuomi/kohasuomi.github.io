@@ -16,10 +16,11 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 7
 
 Aika: Ma 10.2.2025<br />
-Läsnä:
+Läsnä: Pasik, Ari, Johanna, Emmi, Kodo, Lari, Anneli
 
 * Viikon 7 päivitys
 * Onko keskiviikkona 12.2. huoltokatkoa?
+  * Kodo tutkii ja tiedottaa tarvittaessa.
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ## Viikko 6
