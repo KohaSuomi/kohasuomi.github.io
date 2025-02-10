@@ -22,6 +22,7 @@ Läsnä:
   * ei saatavilla -otsikon alla taas on erilaisissa tiloissa (damaged, kuljetettavat, yms.) olevia niteitä.
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/1675)
 * [Raporttitoive](https://github.com/KohaSuomi/Koha/issues/1671), onko muilla tarvetta tällaiselle tai jopa valmiina jotain tämän tyyppistä?
+* [Maanantaina oli suunnittelematon käyttökatkos](https://github.com/KohaSuomi/Koha/discussions/1677)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
