@@ -92,7 +92,7 @@ Pohjoisesta etelään
 **Vaara**
 * Ei mainittavaa
 
-** Kirkes**
+**Kirkes**
 * Kehittäjä raportoinut viallisesti luetteloidusta tietueesta, jonka luetteloija korjannut.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
