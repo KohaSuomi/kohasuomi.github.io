@@ -30,7 +30,7 @@ Läsnä:
 ## Viikko 6
 
 Aika: 4.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Auli Rantasalo ja Päivi Knuutinen (Vaara)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Susanna Sandell (Vaski), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Auli Rantasalo ja Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1663)
@@ -91,6 +91,9 @@ Pohjoisesta etelään
 
 **Vaara**
 * Ei mainittavaa
+
+** Kirkes**
+* Kehittäjä raportoinut viallisesti luetteloidusta tietueesta, jonka luetteloija korjannut.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
 
