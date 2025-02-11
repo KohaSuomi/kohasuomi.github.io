@@ -858,9 +858,9 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
 4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.**
 5. Ohjelma ehdottaa tallennuspaikkaa.
    - Älä muuta tiedoston nimeä, joka koostuu päivämäärästä ja kellonajasta (vvvv-kk-pp tunti-minuutti-sekuntti sekunninsadasosa).
-   - Valitse tallennuspaikaksi tiedosto, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C:-aseman temp-kansio.
+   - Valitse tallennuspaikaksi kansio, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C-asemalle luotu oma kansio.
   
-![](/assets/files/docs/Lainaus/OfflineKOCtemp.PNG)
+![](/assets/files/docs/Lainaus/OfflineKOCtemp.png)
 
    - Lainojen tallennuksen jälkeen ohjelma palaa takaisin lainausnäytölle ja voit jatkaa lainaamista seuraaville asiakkaille.
    - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon. Eri käyttäjien tallennetut tiedostot tallentuvat kukin omina tiedostoina valittuun kansioon.
