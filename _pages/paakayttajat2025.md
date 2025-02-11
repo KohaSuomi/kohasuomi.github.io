@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -31,6 +31,10 @@ Etelästä pohjoiseen
 **Lastu**
 * Tekstiviesteistä tullut viime aikoina tavallista enemmän palautetta, että noutoilmoitukset eivät olisi menneet perille asiakkaalle. Laitettu tiedustelua DNA:n suuntaan, sitä odotellessa toimitetaan asiakaspalveluun [tämä ohje](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/#tekstiviestit).
 * Ainakin Lahdessa havaittiin eilisen katkon yhtedessä, että yhteydettömän tilan lainauksen ohjeessa oleva C:\Temp-kansio tyhjenee asiakaspalvelun koneella kun koneelta kirjautuu ulos. Muutetaan ohjeeseen, että kannattaa luoda uusi kansio C:n juureen.
+
+**Vaara**
+* Ysa/yso-konversio tehty Vaaraan ja virheraportit toimitettu kuvailijoille
+* Kysymys viestien lähtöaikataulusta asiakkaalle, kun varaus on jäänyt kiinni. Kaikissa kimpoissa viestit lähtevät saman aikataulun mukaan vartin välein eli tasalta, vartin yli, puolelta jne. Jos varaus jää kiinni pari minuuttia ennen viesti lähtöaikaa, noutoilmoitus menee asiakkaalle ennen kuin varaus on ehtinyt noutohyllyyn. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
