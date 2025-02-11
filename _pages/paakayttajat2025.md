@@ -38,7 +38,7 @@ Etelästä pohjoiseen
 * Kysymys viestien lähtöaikataulusta asiakkaalle, kun varaus on jäänyt kiinni. Kaikissa kimpoissa viestit lähtevät saman aikataulun mukaan vartin välein eli tasalta, vartin yli, puolelta jne. Jos varaus jää kiinni pari minuuttia ennen viesti lähtöaikaa, noutoilmoitus menee asiakkaalle ennen kuin varaus on ehtinyt noutohyllyyn.
 
 **Kirkes**
-*Telian tekstiviestipalvelussa on ollut toimitusongelmia. Asian selvittely siirretään Keravalta Järvenpäähän. Mahdollisesti vanhassa rajapinnassa ongelmia.
+* Telian tekstiviestipalvelussa on ollut toimitusongelmia. Asian selvittely siirretään Keravalta Järvenpäähän. Mahdollisesti vanhassa rajapinnassa ongelmia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
