@@ -24,6 +24,9 @@ Läsnä:
 * [Raporttitoive](https://github.com/KohaSuomi/Koha/issues/1671), onko muilla tarvetta tällaiselle tai jopa valmiina jotain tämän tyyppistä?
 * [Maanantaina oli suunnittelematon käyttökatkos](https://github.com/KohaSuomi/Koha/discussions/1677)
 * Vaskissa otettiin pois päältä [Varausjono-raportin luovat ajot](https://github.com/KohaSuomi/Koha/issues/1550) ja kokeiltiin, auttaisiko se siihen, että varaukset eivät jää kiinni väärässä järjestyksessä. Tällä hetkellä näyttäisi siltä, että se auttoi ongelmaan. Olisiko tarpeellista ottaa varausjono-ajot pois muissakin kimpoissa?
+* Aina välillä tulee asiakkailta suoria yhteydenottoja Koha-Suomeen heidän saamistaan kirjastoviesteistä (sähköposteja), koska ilmeisesti eivät ole tienneet kehen muuhunkaan olla yhteydessä. Pystyisittekö tarkistamaan ja tarvittaessa lisäämään viestipohjiin tarkempia kirjaston/kimpan yhteystietoja tai linkki, mistä yhteystiedot löytyvät?
+
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
