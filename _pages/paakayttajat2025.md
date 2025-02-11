@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -49,6 +49,13 @@ Etelästä pohjoiseen
 * Telian tekstiviestipalvelussa viestin toimitusongelmia (kuten Kirkes-kimpassa). [KIRKES: Tekstiviestin toimitus asiakkaalle ei ole onnistunut](https://github.com/KohaSuomi/Koha/issues/1673)
 * YSA -> YSO -konversio valmistunut. [YSA YSO konversio kaikille kimpoille](https://github.com/KohaSuomi/Koha/issues/390)
 * Vuoden 2023 lehtitilaukset suljettu. [Helle: vuoden 2023 kausijulkaisutilausten sulkeminen](https://github.com/KohaSuomi/Koha/issues/1678)
+
+**OUTI**
+* OUTIssa asiakkailta tullut jo muutaman kerran toive, että Finnassa voisi hakea aineistoa sivumäärän perusteella.
+  * Piia tekee tiketin Finna-kehitysehdotuksiin.
+* Raahen ja Pyhäjoen kirjastoille on tehty kellutus-kirjastoryhmä. Raahen kirjstojen ja Pyhäjoen kirjastojen välillä kelluu nyt kaikki aineisto molempiin suuntiin.
+* Asiakkaalla oli useita varauksia samaan tietueeseen, joista yksi oli jo vanhentunut. Asiakkaan varaukset lainattiin siten, että vanhentuneen varauksen lainaaminen täytti toisen varauksen, jossa oli jo nide odottamassa, jolloin noudettavana ollut nide meni Saatavana-tilaan ja virkailija sai popparin, että niteeseen/tietueeseen on toinen varaus toisaalla. Kun tämä nide lainattiin, niin se taas puolestaan täytti toisen noutoa odottavan niteen varauksen. Saatavana olevat kappaleet täyttivät lainoja reserve_id:n mukaisessa järjestyksessä eli vanhan varauksen lainaaminen irrotti niteet omista reserve-ID:stä. Edellisen kerran tämä on tapahtunut OUTIssa syyskuussa 2024.
+  * Jatketaan OUTIssa vielä vähän tämän ihmettelyä/tutukimista 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
