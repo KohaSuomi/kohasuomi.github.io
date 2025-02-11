@@ -39,6 +39,7 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Telian tekstiviestipalvelussa on ollut toimitusongelmia. Asian selvittely siirretään Keravalta Järvenpäähän. Mahdollisesti vanhassa rajapinnassa ongelmia.
+* Yhdessä kirjastossa on tullut vastaan yksittäinen tapaus, jossa varaus ei vanhentunut ajossa, vaikka noutoaika oli ylittynyt. Pikaisella tarkastelulla ei löytynyt mitään erikoista syytä, mutta palataan tähän jos näitä alkaa tulla lisää. 
 
 **Lappi**
 * Hoidettu rästitehtäviä, mm. ilmoituksiin liittyen.
@@ -126,6 +127,7 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Kehittäjä raportoinut viallisesti luetteloidusta tietueesta, jonka luetteloija korjannut.
+* OKM-tilastoja tutkiessa huomattiin, että kaunon ja tiedon hankinnat eivät olleet raportilla oikein. Syypää oli väärä luokitusopas, jonka vaihtamisen jälkeen virheelliset cn_sort-kentät korjattiin ja tilastot ajettiin uusiksi. Tiketti [#1652](https://github.com/KohaSuomi/Koha/issues/1652)
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-6) - [Palaa sivun alkuun](/paakayttajat2025)
 
