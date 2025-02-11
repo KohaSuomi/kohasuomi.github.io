@@ -46,9 +46,8 @@ Etelästä pohjoiseen
 * Muuten rauhallista.
 
 **Helle**
-**Helle**
 * Telian tekstiviestipalvelussa viestin toimitusongelmia (kuten Kirkes-kimpassa).
-* YSA -> YSO -konversio valmistunut.
+* YSA -> YSO -konversio valmistunut. [YSA YSO konversio kaikille kimpoille](https://github.com/KohaSuomi/Koha/issues/390)
 * Vuoden 2023 lehtitilaukset suljettu. [Tiketti 1678](https://github.com/KohaSuomi/Koha/issues/1678)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
