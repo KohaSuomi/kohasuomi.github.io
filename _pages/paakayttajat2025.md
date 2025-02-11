@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -39,6 +39,11 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Telian tekstiviestipalvelussa on ollut toimitusongelmia. Asian selvittely siirretään Keravalta Järvenpäähän. Mahdollisesti vanhassa rajapinnassa ongelmia.
+
+**Lappi**
+* Hoidettu rästitehtäviä, mm. ilmoituksiin liittyen.
+* Työn alla Posion kirjaston väistöön sekä Rovaniemen pääkirjastoon paluuseen liittyvät tehtävät.
+* Muuten rauhallista. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
