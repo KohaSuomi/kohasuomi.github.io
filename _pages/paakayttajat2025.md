@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -35,7 +35,10 @@ Etelästä pohjoiseen
 
 **Vaara**
 * Ysa/yso-konversio tehty Vaaraan ja virheraportit toimitettu kuvailijoille
-* Kysymys viestien lähtöaikataulusta asiakkaalle, kun varaus on jäänyt kiinni. Kaikissa kimpoissa viestit lähtevät saman aikataulun mukaan vartin välein eli tasalta, vartin yli, puolelta jne. Jos varaus jää kiinni pari minuuttia ennen viesti lähtöaikaa, noutoilmoitus menee asiakkaalle ennen kuin varaus on ehtinyt noutohyllyyn. 
+* Kysymys viestien lähtöaikataulusta asiakkaalle, kun varaus on jäänyt kiinni. Kaikissa kimpoissa viestit lähtevät saman aikataulun mukaan vartin välein eli tasalta, vartin yli, puolelta jne. Jos varaus jää kiinni pari minuuttia ennen viesti lähtöaikaa, noutoilmoitus menee asiakkaalle ennen kuin varaus on ehtinyt noutohyllyyn.
+
+**Kirkes**
+*Telian tekstiviestipalvelussa on ollut toimitusongelmia. Asian selvittely siirretään Keravalta Järvenpäähän. Mahdollisesti vanhassa rajapinnassa ongelmia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
