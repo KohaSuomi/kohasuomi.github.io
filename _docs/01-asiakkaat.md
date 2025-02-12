@@ -609,18 +609,6 @@ vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkko
 
 ![](/assets/files/docs/Asiakkaat/Tilionlukittu.png)
 
-### 1.4.3. Rajoite liiallisista kirjautumisyrityksistä
-
-Kohassa on toiminto, joka lisää automaattisesti asiakkaalle rajoitteen, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
-
-Rajoite näyttää asiakkaalla tältä:
-
-![](/assets/files/docs/Asiakkaat/liikaayrityksia.png)
-
-Rajoitteen voi poistaa manuaalisesti kortinvaihtotilanteessa.
-
-<img src="/assets/files/docs/Asiakkaat/liikaayrityksia2.png" alt="" style="width:90.0%" />
-
 ### 1.4.4. Asiakkaan rajoitukset
 
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
