@@ -19,12 +19,13 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 
 Aika: 12.2.2025 klo 13<br />
-Läsnä:
+Läsnä: Noora, Susanna, Kodo, Ari, Hanna, Päivi, Riikka, Janne, Kati, Leena, Anneli
 
 ### 1. Ajankohtaiset
 
 * [Koha-seminaarin ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/1665) on auki.
 * [Seuraava Bugiton 21.2.2025 klo 13](https://github.com/KohaSuomi/Koha/discussions/1666)
+* Hankintalaki-asiassa (inhouse-yhtiöt) on menossa lausuntokierros. Koha-Suomi on tekemässä myös lausunnon. Toiveena on, että mahdollisimman moni kunta tekisi myös lausunnon. Koha on vain pieni osa kokonaisuutta, asia koskee myös esim. jäteyhtiöitä, Tieraa, Monetraa ym.
 
 ### 2. Kohan signumiin vain luokka ja pääsana
 
@@ -64,6 +65,8 @@ Muutoksen mahdollisia haittoja:
 Selvitettävä:
 - mahdolliset muut vaikutukset Finnan puolelle. Tarviiko muutos esim. uudelleenharavointeja/indeksointeja
 
+**Päätös:** Lähdetään edistämään muutosta ja suunnitelemaan toteutusaikataulua. Toiveena tuli, että valmistelulle varataan tarpeeksi aikaa.
+
 ### 3. Tikettien priorisointi
 
 Tikettien priorisointi -ryhmä on tehnyt ehdotuksen siitä, miten kehitysehdotukset voisi priorisoida ja toteutukselle määrittää aikataulu. Ehdotus on kirjattu Koha-tietovarannon [Tikettien priorisointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-priorisointi) -wikiin.
@@ -73,21 +76,28 @@ Käydään läpi ehdotus ja testataan voisiko se toimia. Kehitetään tarvittaes
 Pohdittavaa:
 - mitkä kaikki tiketit priorisoidaan? Ehdotuksena työryhmällä, että alkuunsa vain kehitysehdotukset ja kunhan niiden kanssa on harjoiteltu ja saatu kokemuksia, voidaan priorisoinnin laajentamista ja sen tekijöitä harkita. Alustavasti mietittiin, että bugit priorisoisi Koha-Suomen vanhemmat kehittäjät ja jos tulee tilanne, että tiketin kirjaaja on prioriteetistä eri mieltä, voidaan asia käsitellä asiantuntijaryhmässä.
 - priorisoidaanko kaikki vanhat, jo käsitellyt kehitysehdotukset ja millä kokoonpanolla se tehdään?
+- voiko prioriteeteille luoda "kiinteän" ehdotusaikataulun, kuinka monen kuukauden sisään työ pyritään aloittamaan.
 
 ### 4. Käsiteltävät tiketit
 
 * [Huollettavan asiakastiedon muokkaus: Asiakastakaaja-osion Suhde-arvo valmiiksi valituksi #302](https://github.com/KohaSuomi/Koha/issues/302)
-  * Tehdäänkö JS-liitännäinen?
+  * Tehdäänkö JS-liitännäinen? Tehdään
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
+  * Ei toteuteta, koska toiminnolle ei ole tarvetta.
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
+  * Ei toteuteta, koska toiminnolle ei ole tarvetta.
 * [Tarratulostukseen numerointi #1614](https://github.com/KohaSuomi/Koha/issues/1614)
+  * Toteutetaan
 * [Asiakastietoon muodostumaan automaattisesti Kohassa ja Finnassa näkyvä viesti liittyen omien tietojen tarkistamiseen #1573](https://github.com/KohaSuomi/Koha/issues/1573)
+  * Ei toteuteta Kohaan
 * [Yli 50 epäonnistunutta kirjautumista ei kirjaudu lokille eikä siitä aiheutuvaa rajoitusta muodostu asiakkaan tietoihin. #1635](https://github.com/KohaSuomi/Koha/issues/1635)
-  * Kohan toimintalogiikka on muuttunut, eikä rajoituksen lisääminen enää onnistu.
+  * Kohan toimintalogiikka on muuttunut, eikä rajoituksen lisääminen enää onnistu. Toiminnosta luovutaan tällaisena.
 
 ### 5. Muut asiat
 
 ### 6. Seuraavat kokoukset
+
+To 13.3.2025 klo 13
 
 ## Muistio 1/2025
 
