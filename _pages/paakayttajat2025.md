@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 8
+
+Aika: 18.2.2025<br />
+Läsnä:
+
+
+**Yhteiset**
+* Viikon 8 päivitys
+* [Asiantuntijaryhmän muistio 2/2025](https://github.com/KohaSuomi/Koha/discussions/1684)
+  * Signum-muutos etenee, aikataulutusta ja suunnittelua
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
