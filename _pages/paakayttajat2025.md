@@ -69,9 +69,9 @@ Etelästä pohjoiseen
 **OUTI**
 * OUTIssa asiakkailta tullut jo muutaman kerran toive, että Finnassa voisi hakea aineistoa sivumäärän perusteella.
   * Piia tekee tiketin Finna-kehitysehdotuksiin.
-* Raahen ja Pyhäjoen kirjastoille on tehty kellutus-kirjastoryhmä. Raahen kirjstojen ja Pyhäjoen kirjastojen välillä kelluu nyt kaikki aineisto molempiin suuntiin.
+* Raahen ja Pyhäjoen kirjastoille on tehty kellutus-kirjastoryhmä. Raahen kirjastojen ja Pyhäjoen kirjastojen välillä kelluu nyt kaikki aineisto molempiin suuntiin.
 * Asiakkaalla oli useita varauksia samaan tietueeseen, joista yksi oli jo vanhentunut. Asiakkaan varaukset lainattiin siten, että vanhentuneen varauksen lainaaminen täytti toisen varauksen, jossa oli jo nide odottamassa, jolloin noudettavana ollut nide meni Saatavana-tilaan ja virkailija sai popparin, että niteeseen/tietueeseen on toinen varaus toisaalla. Kun tämä nide lainattiin, niin se taas puolestaan täytti toisen noutoa odottavan niteen varauksen. Saatavana olevat kappaleet täyttivät lainoja reserve_id:n mukaisessa järjestyksessä eli vanhan varauksen lainaaminen irrotti niteet omista reserve-ID:stä. Edellisen kerran tämä on tapahtunut OUTIssa syyskuussa 2024.
-  * Jatketaan OUTIssa vielä vähän tämän ihmettelyä/tutukimista
+  * Jatketaan OUTIssa vielä vähän tämän ihmettelyä/tutkimista
  
 **Lumme**
 * Normaalia ylläpitoa.
