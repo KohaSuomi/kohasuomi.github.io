@@ -53,6 +53,7 @@ Mihin vaikuttaa:
 - signum- ja pääsanaliitännäisistä voidaan suurimmasta osasta luopua ja tilalle tulee/tehdään vain yksi, joka muodostaa items.itemcallnumber-kenttään signumin muodossa "luokka pääsana".
 - luokitusoppaiden järjestelysääntö-liitännäisissä voidaan luopua outi-mallisesta liitännäisestä.
 - Finnassa nidetiedot selkeytyvät, kun saatavuustiedoista poistuu erilaiset lyhenteet.
+
 ![kuva](https://github.com/user-attachments/assets/329c0bbb-e06b-41cc-a4f6-1283fad97b77)
 - niteiden erämuokkauksessa pystyy kattavammin muokkaamaan signumeja, koska ei tarvitse huomioida hyllypaikkaa.
 
