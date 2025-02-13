@@ -20,6 +20,7 @@ Läsnä:
 
 * Viikon 8 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Tikettien priorisointi ja aikataulutus (vuosineljännekset). Asiantuntijaryhmässä käsitelty ja testataan. Ehdotuksena on, että asiantuntijaryhmä antaa priorisoiduille kehitysehdotuksille ehdotuksen aloitusaikataulusta (vuosineljänneksestä) ja se katsotaan sitten meidän palavereissa tarkemmin vastuutuksen yhteydessä. Suhteutetaan mm. muuhun työtilanteeseen.
 
 ## Viikko 7
 
