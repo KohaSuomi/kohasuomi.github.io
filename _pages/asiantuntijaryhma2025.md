@@ -15,17 +15,17 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 2/2025
+## Muistio 2/2025
 
 
 Aika: 12.2.2025 klo 13<br />
-Läsnä: Noora, Susanna, Kodo, Ari, Hanna, Päivi, Riikka, Janne, Kati, Leena, Anneli
+Läsnä: Noora Valkonen (OUTI), Susanna Sandell (Vaski), Kodo Korkalo, Ari Mäkiranta, Anneli Österman (Koha-Suomi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Riikka Mustajärvi (Kirkes), Janne Seppänen (Lastu), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti)
 
 ### 1. Ajankohtaiset
 
 * [Koha-seminaarin ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/1665) on auki.
 * [Seuraava Bugiton 21.2.2025 klo 13](https://github.com/KohaSuomi/Koha/discussions/1666)
-* Hankintalaki-asiassa (inhouse-yhtiöt) on menossa lausuntokierros. Koha-Suomi on tekemässä myös lausunnon. Toiveena on, että mahdollisimman moni kunta tekisi myös lausunnon. Koha on vain pieni osa kokonaisuutta, asia koskee myös esim. jäteyhtiöitä, Tieraa, Monetraa ym.
+* Hankintalaki-asiassa (inhouse-yhtiöt) on menossa lausuntokierros. Koha-Suomi on tekemässä myös lausunnon, jota kunnat voivat hyödyntää luodessaan omaa lausuntoaan. Toiveena on, että mahdollisimman moni kunta tekisi myös lausunnon. Koha on vain pieni osa kokonaisuutta, asia koskee myös esim. jäteyhtiöitä, Tieraa, Monetraa ym.
 
 ### 2. Kohan signumiin vain luokka ja pääsana
 
@@ -78,22 +78,26 @@ Pohdittavaa:
 - priorisoidaanko kaikki vanhat, jo käsitellyt kehitysehdotukset ja millä kokoonpanolla se tehdään?
 - voiko prioriteeteille luoda "kiinteän" ehdotusaikataulun, kuinka monen kuukauden sisään työ pyritään aloittamaan.
 
+**Päätös**: Priorisointia kokeiltiin kokouksessa yhden kehitysehdotuksen kohdalla (muita ei tarvinut priorisoida) ja päätettiin jatkaa testailuja seuraavassa kokouksessa.
+
 ### 4. Käsiteltävät tiketit
 
 * [Huollettavan asiakastiedon muokkaus: Asiakastakaaja-osion Suhde-arvo valmiiksi valituksi #302](https://github.com/KohaSuomi/Koha/issues/302)
-  * Tehdäänkö JS-liitännäinen? Tehdään
+  * Tehdään JS-liitännäinen
 * [Tarratulostukseen mahdollisuus jakaa viivakoodeja toiselle käyttäjälle #1558](https://github.com/KohaSuomi/Koha/issues/1558)
   * Ei toteuteta, koska toiminnolle ei ole tarvetta.
 * [Tarratulostukseen mahdollisuus ohittaa tietty kokoelmakoodi #1561](https://github.com/KohaSuomi/Koha/issues/1561)
   * Ei toteuteta, koska toiminnolle ei ole tarvetta.
 * [Tarratulostukseen numerointi #1614](https://github.com/KohaSuomi/Koha/issues/1614)
-  * Toteutetaan
+  * Toteutetaan.
 * [Asiakastietoon muodostumaan automaattisesti Kohassa ja Finnassa näkyvä viesti liittyen omien tietojen tarkistamiseen #1573](https://github.com/KohaSuomi/Koha/issues/1573)
-  * Ei toteuteta Kohaan
+  * Ei toteuteta Kohaan, vaan tehdään Finna-toimistoon ehdotus, että asiakkaille tulisi kirjautumisen jälkeen esille esim. kerran vuodessa yhteystietojen tarkistuspyyntö.
 * [Yli 50 epäonnistunutta kirjautumista ei kirjaudu lokille eikä siitä aiheutuvaa rajoitusta muodostu asiakkaan tietoihin. #1635](https://github.com/KohaSuomi/Koha/issues/1635)
   * Kohan toimintalogiikka on muuttunut, eikä rajoituksen lisääminen enää onnistu. Toiminnosta luovutaan tällaisena.
 
 ### 5. Muut asiat
+
+Ei muita asioita.
 
 ### 6. Seuraavat kokoukset
 
