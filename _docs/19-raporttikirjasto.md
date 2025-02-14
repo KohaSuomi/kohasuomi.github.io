@@ -2183,6 +2183,29 @@ AND datelastseen != <<Valitse inventaarion päivämäärä|date>>
 AND onloan IS NULL
 ```
 
+#### Niteiden erämuokkaus-työkalun apuraportti
+
+Raportilla voi hakea niteitä muokattavaksi erämuokkaus-työkalulla. Raportissa on käytetty sellaisia ehtoja joita niteiden muokkauksessa suoraan kannassa on yleensä käytetty, mutta sitä voi tarpeen mukaan muokata vastaamaan sen hetkistä muokkaustarvetta. 
+
+Lisääjä: Emmi Takkinen<br/>
+Lisäyspvm: 14.2.2025<br/>
+Versio: 24.05
+
+```
+SELECT i.itemnumber
+FROM items i LEFT JOIN reserves r ON(i.itemnumber = r.itemnumber)
+WHERE i.homebranch = <<Valitse niteiden kotikirjasto|branches>>
+AND i.notforloan = 0
+AND i.onloan IS NULL
+AND r.found IS NULL
+AND i.itemnumber NOT IN (
+SELECT itemnumber
+FROM branchtransfers bt
+WHERE bt.datearrived IS NULL
+AND bt.datecancelled IS NULL
+)
+```
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
