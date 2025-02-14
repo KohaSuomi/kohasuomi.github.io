@@ -2183,7 +2183,7 @@ AND datelastseen != <<Valitse inventaarion päivämäärä|date>>
 AND onloan IS NULL
 ```
 
-#### Niteiden erämuokkaus-työkalun apuraportti
+### Niteiden erämuokkaus-työkalun apuraportti
 
 Raportilla voi hakea niteitä muokattavaksi erämuokkaus-työkalulla. Raportissa on käytetty sellaisia ehtoja joita niteiden muokkauksessa suoraan kannassa on yleensä käytetty, mutta sitä voi tarpeen mukaan muokata vastaamaan sen hetkistä muokkaustarvetta. 
 
