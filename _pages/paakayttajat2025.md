@@ -20,6 +20,7 @@ Läsnä:
 * Viikon 8 päivitys
 * [Asiantuntijaryhmän muistio 2/2025](https://github.com/KohaSuomi/Koha/discussions/1684)
   * Signum-muutos etenee, aikataulutusta ja suunnittelua
+* Uusi raportti: [Apuraportti](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteiden-er%C3%A4muokkaus-ty%C3%B6kalun-apuraportti), jolla voi hakea niteitä erämuokkausta varten. Raportti jättää ulkopuolelle lainassa olevat, kuljetuksessa olevat ja sellaiset, joilla on jokin notforloan-arvo. Raporttia voi käyttää esim. silloin kun pitää muuttaa jonkin kirjaston niteiden sijaintipiste kirjaston mennessä sulki tms. Raportti kysyy parametrinä kotikirjaston. Raporttia voi säätää eteenpäin tarvittaessa vastaamaan sen hetkistä tarvetta.
 
 Pohjoisesta etelään
 
