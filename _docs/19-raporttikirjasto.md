@@ -2283,7 +2283,8 @@ and iss.itemnumber = d.itemnumber
 
 Raportilla voi seurata palautettuja "Ei laskuteta" -tilassa olevia niteitä. Kirjastorajaus tehdään kirjoittamalla kirjastolyhenteen kuntaosio ja %-merkki, esim. KE%, KA% ja LIE%. Jos "Ei laskuteta" -tila on muuta kuin "8", muuta se kohtaan "and i.notforloan = 8".
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
+Päivitetty 17.2.2025 / AÖ
 
 ```
 select Concat(b.surname, ', ', b.firstname, '<br/>', '<a href="https://koha.outikirjastot.fi:8080/cgi-bin/koha/members/moremember.pl?borrowernumber=',b.borrowernumber,'">',b.cardnumber,'</a>') AS 'Nimi', 
@@ -2293,7 +2294,7 @@ from old_issues iss, items i, borrowers b,
 (select i.itemnumber, max(o.issue_id) as issue_id
 from old_issues o, items i
 where o.branchcode like <<Kuntaosio ja %-merkki>>
-and DATE(o.returndate) between DATE(<<Palautuspäiväväli|date>>) and DATE(<<Palautuspäiväväli|date>>)
+and DATE(o.returndate) between DATE(<<Alkaen|date>>) and DATE(<<Päättyen|date>>)
 and i.notforloan = 8
 and i.itemnumber = o.itemnumber
 group by i.itemnumber) d
