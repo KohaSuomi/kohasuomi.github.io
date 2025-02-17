@@ -16,11 +16,11 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 8
 
 Aika: Ma 17.2.2025<br />
-Läsnä:
+Läsnä: Lari, Pasi, Kodo, Anneli, Johanna, Emmi, Ari
 
 * Viikon 8 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
-* [Tikettien priorisointi ja aikataulutus](https://github.com/KohaSuomi/Koha/wiki/Tikettien-priorisointi) (vuosineljännekset). Asiantuntijaryhmässä käsitelty ja testataan. Ehdotuksena on, että asiantuntijaryhmä antaa priorisoiduille kehitysehdotuksille ehdotuksen aloitusaikataulusta (vuosineljänneksestä) ja se katsotaan sitten meidän palavereissa tarkemmin vastuutuksen yhteydessä. Suhteutetaan mm. muuhun työtilanteeseen.
+* [Tikettien priorisointi ja aikataulutus](https://github.com/KohaSuomi/Koha/wiki/Tikettien-priorisointi) (vuosineljännekset). Asiantuntijaryhmässä käsitelty ja testataan. Ehdotuksena on, että asiantuntijaryhmä antaa priorisoiduille kehitysehdotuksille ehdotuksen aloitusaikataulusta (vuosineljänneksestä) ja se katsotaan sitten meidän palavereissa tarkemmin vastuutuksen yhteydessä. Suhteutetaan mm. muuhun työtilanteeseen. - Keskustellaan lisää käytännöistä seuraavassa asiantuntijaryhmässä.
 * Päivystysvuorot viikosta 9 alkaen
 * Ehdotus: otetaan Kehittäjät-avaruuden huoneiden nimistä pois sana Kehittäjät. Syy: pidentävät huoneiden nimiä ja toistavat  avaruuden nimen. Järjestys säilyy samana, vaikka sanan poistaakin.
 
