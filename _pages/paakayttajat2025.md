@@ -29,7 +29,7 @@ Pohjoisesta etelään
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -76,6 +76,9 @@ Etelästä pohjoiseen
  
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Kyyti**
+* Kouvola on siirtymässä tänä vuonna Timmiin ja rajapintaa Kohaan ollaan hyödyntämässä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
