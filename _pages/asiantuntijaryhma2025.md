@@ -15,6 +15,23 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 3/2025
+
+Aika: To 13.3.2025 klo 13<br />
+Läsnä:
+
+## Ajankohtaiset
+
+## Tikettien priorisointi
+
+Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille tuli ajatus, että työllistävyys ei saisi vaikuttaa indeksiarvoon, koska mitä työllistävämpi työ on, sitä kaukaisemmaksi sen toteutus prioriteetin mukaan.
+
+## Kehitysehdotukset
+
+## Muut asiat
+
+## Seuraava kokous
+
 ## Muistio 2/2025
 
 
