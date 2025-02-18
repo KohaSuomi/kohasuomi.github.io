@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 
 **Yhteiset**
@@ -31,6 +31,9 @@ Pohjoisesta etelään
 **Vaara**
 * Viime viikolla tuli tarve saada tietää hyllyvarausten määrä ja Anneli teki raportin, joka toimi mm. Outissa, mutta ei esim. Vaarassa. Erona oli se, että järjestelmäasetus HoldsAutoFill oli Vaarassa "Älä täytä"-muodossa, Outissa "Täytä" samoin kuin tähän liittyvä kuittien tulostusasetus. Laitoin Vaarassa asetuksen uuteen asentoon maanantaina (olin ensin varoittanut käyttäjiä, että toiminto muuttuu) ja kyllä se jostain syystä vaikuttaa raportin toimintaan eli nyt raportilla tulee Vaarassakin järkevän näköisiä lukuja.
 
+**OUTI**
+* Oulun kirjastojen Ceepos-ympäristö siirtyy 1.4.2025 Oulun Monetran käyttöympäristöön, missä myös kaupungin muiden hallintokuntien kassaympäristöt ovat. Kirjaston ympäristö on ollut tähän asti omanaan. Kassa- ja tuotetunnisteet muuttuvat. Vaatii uudet kassakohtaiset tuotemäppäykset Ceepos-liitännäiseen, uudet kassatunnisteet payment_type -auktorisoituun arvoon (voi ilmeisesti muokata käytössä olevia, jos joku ei mene rikki) ja kassatunnisteiden muutokset palvelimelle.
+* Asiakaspalvelussa on tullut vastaan muutama tapaus, jossa asiakastiedot ovat kadonneet asiakkaiden siivousajon jälkeen. Esim. tapaus, kun asiakkaan kirjastokorttia oli käytetty vain silloin, kun hänelle oli lisätty kopiomaksuja ja kun asiakas oli maksanut niitä. Muuten asiakas ei ollut kirjastokorttiaan käyttänyt kirjastoasioinnissa. Kun siivousajo tehtiin, asiakkaalla ei ollut maksuja, joten hänen tili poistettiin siivousajossa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -133,7 +136,7 @@ Pohjoisesta etelään
   * Tapauksessa 2 Finnassa tietueelle tuli ilmoitus: "Järjestelmä pois käytöstä. Kirjastojärjestelmä on juuri nyt pois käytöstä. Saatavuustiedot eivät ole juuri nyt käytettävissä…”
   * Kun tutkimme ongelmaa, niteille oli molemmissa tapauksissa tallentunut nidetyypiksi KIRJA eli aivan kuin sinne olisi tullut jostain aineistotyypin Koha-tunnus.
   * Tapaus 1 ongelma saatiin korjattua, kun nidetyyppi korjattiin oikeaksi niteen muokkaussivulla. Tapaus 2 saatiin korjattua niteiden erämuokkauksella.
-  * Tehdään tiketti, jos tapauksia alkaa ilmeneen muillakin.
+  * Tehdään tiketti, jos tapauksia alkaa ilmeneen muillakin.https://github.com/KohaSuomi/Koha/issues/1667
 
 **Lastu**
 * Pohdittu miten varauksiin käytettäviä resursseja olisi mahdollista kehittää vähemmän työaikaa vieväksi Kohan avulla
