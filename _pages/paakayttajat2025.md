@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 
 **Yhteiset**
@@ -27,6 +27,9 @@ Pohjoisesta etelään
 **Vaski**
 * Tullut pariin otteeseen toive siitä, että Kohassa asiakkaiden sukunimi esitettäisiin isoilla kirjaimilla. Tarpeen taustalla ulkomaalaiset nimet, joista vaikea erottaa mihin etunimi loppuu ja sukunimi alkaa. Kohassa on järjestelmäasetus UppercaseSurnames, jonka päälle laittamalla sukunimi tallentuu tietokantaan isoin kirjaimin, mutta sen päälle laittaminen ei riittäisi vaan vanhojen asiakkaiden sukunimille tarvittaisiin muutosajo. Tällä hetkellä nimi-kentät eivät ole omia class-elementtejä ja css-muutos ei mahdollista sukunimen esitystavan muuttamista, mutta yhteisössä on asiaan liittyen tiketti. Sovittiin, että Vaski tekee kehitysehdotuksen Githubiin - josko voitaisiin saada yhteisön kautta muutos (jo ennen vuoden 2026 versiopäivitystä).
 * Mikko tehnyt raportin hyllyvarausten määrien hakemiseksi, hyödyntää action_logissa viimeisimmästä versiopäivityksestä lähtien mukana ollutta diff-saraketta. Mikko lisää raportin [tikettiin](https://github.com/KohaSuomi/Koha/issues/1680).
+
+**Vaara**
+* Viime viikolla tuli tarve saada tietää hyllyvarausten määrä ja Anneli teki raportin, joka toimi mm. Outissa, mutta ei esim. Vaarassa. Erona oli se, että järjestelmäasetus HoldsAutoFill oli Vaarassa "Älä täytä"-muodossa, Outissa "Täytä" samoin kuin tähän liittyvä kuittien tulostusasetus. Laitoin Vaarassa asetuksen uuteen asentoon maanantaina (olin ensin varoittanut käyttäjiä, että toiminto muuttuu) ja kyllä se jostain syystä vaikuttaa raportin toimintaan eli nyt raportilla tulee Vaarassakin järkevän näköisiä lukuja.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
