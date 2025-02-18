@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä:
+Läsnä: Anni Mäki-Mantila (Vaski)
 
 
 **Yhteiset**
@@ -23,6 +23,11 @@ Läsnä:
 * Uusi raportti: [Apuraportti](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteiden-er%C3%A4muokkaus-ty%C3%B6kalun-apuraportti), jolla voi hakea niteitä erämuokkausta varten. Raportti jättää ulkopuolelle lainassa olevat, kuljetuksessa olevat ja sellaiset, joilla on jokin notforloan-arvo. Raporttia voi käyttää esim. silloin kun pitää muuttaa jonkin kirjaston niteiden sijaintipiste kirjaston mennessä sulki tms. Raportti kysyy parametrinä kotikirjaston. Raporttia voi säätää eteenpäin tarvittaessa vastaamaan sen hetkistä tarvetta.
 
 Pohjoisesta etelään
+
+**Vaski**
+* Tullut pariin otteeseen toive siitä, että Kohassa asiakkaiden sukunimi esitettäisiin isoilla kirjaimilla. Tarpeen taustalla ulkomaalaiset nimet, joista vaikea erottaa mihin etunimi loppuu ja sukunimi alkaa. Kohassa on järjestelmäasetus UppercaseSurnames, jonka päälle laittamalla sukunimi tallentuu tietokantaan isoin kirjaimin, mutta sen päälle laittaminen ei riittäisi vaan vanhojen asiakkaiden sukunimille tarvittaisiin muutosajo. Tällä hetkellä nimi-kentät eivät ole omia class-elementtejä ja css-muutos ei mahdollista sukunimen esitystavan muuttamista, mutta yhteisössä on asiaan liittyen tiketti. Sovittiin, että Vaski tekee kehitysehdotuksen Githubiin - josko voitaisiin saada yhteisön kautta muutos (jo ennen vuoden 2026 versiopäivitystä).
+* Mikko tehnyt raportin hyllyvarausten määrien hakemiseksi, hyödyntää action_logissa viimeisimmästä versiopäivityksestä lähtien mukana ollutta diff-saraketta. Mikko lisää raportin [tikettiin](https://github.com/KohaSuomi/Koha/issues/1680).
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
 
