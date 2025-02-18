@@ -13,14 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi)
 
 
 **Yhteiset**
 * [Viikon 8 päivitys](https://github.com/KohaSuomi/Koha/discussions/1692)
 * [Asiantuntijaryhmän muistio 2/2025](https://github.com/KohaSuomi/Koha/discussions/1684)
-  * Signum-muutos etenee, aikataulutusta ja suunnittelua
+  * Signum-muutos etenee, aikataulutusta ja suunnittelua tulossa
 * Uusi raportti: [Apuraportti](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteiden-er%C3%A4muokkaus-ty%C3%B6kalun-apuraportti), jolla voi hakea niteitä erämuokkausta varten. Raportti jättää ulkopuolelle lainassa olevat, kuljetuksessa olevat ja sellaiset, joilla on jokin notforloan-arvo. Raporttia voi käyttää esim. silloin kun pitää muuttaa jonkin kirjaston niteiden sijaintipiste kirjaston mennessä sulki tms. Raportti kysyy parametrinä kotikirjaston. Raporttia voi säätää eteenpäin tarvittaessa vastaamaan sen hetkistä tarvetta.
+  * Palaverissa tullut hoksautus: _MaxItemsToProcessForBatchMod_-järjestelmäasetukseen voi laittaa luvuksi 10 000, jolloin niteiden erämuokkauksessa voi käsitellä kerralla 10 000 nidettä. Järjestelmäasetukseen _MaxItemsToDisplayForBatchMod_ kannattaa kuitenkin jättää luvuksi esim. 1000, koska nidetietojen hakeminen näytille on raskasta puuhaa ja jos yrittää noutaa näytille 10 000 niteen tiedot, voi haku päättyä virheeseen. Niteitä kuitenkin käsitellään aina _MaxItemsToProcessForBatchMod_-asetuksen mukaisesti, vaikka kaikkia ei näytetäkään liittymässä.
 
 Pohjoisesta etelään
 
