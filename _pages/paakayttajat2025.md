@@ -35,9 +35,9 @@ Pohjoisesta etelään
 * Oulun kirjastojen Ceepos-ympäristö siirtyy 1.4.2025 Oulun Monetran käyttöympäristöön, missä myös kaupungin muiden hallintokuntien kassaympäristöt ovat. Kirjaston ympäristö on ollut tähän asti omanaan. Kassa- ja tuotetunnisteet muuttuvat. Vaatii uudet kassakohtaiset tuotemäppäykset Ceepos-liitännäiseen, uudet kassatunnisteet payment_type -auktorisoituun arvoon (voi ilmeisesti muokata käytössä olevia, jos joku ei mene rikki) ja kassatunnisteiden muutokset palvelimelle.
 * Asiakaspalvelussa on tullut vastaan muutama tapaus, jossa asiakastiedot ovat kadonneet asiakkaiden siivousajon jälkeen. Esim. tapaus, kun asiakkaan kirjastokorttia oli käytetty vain silloin, kun hänelle oli lisätty kopiomaksuja ja kun asiakas oli maksanut niitä. Muuten asiakas ei ollut kirjastokorttiaan käyttänyt kirjastoasioinnissa. Kun siivousajo tehtiin, asiakkaalla ei ollut maksuja, joten hänen tili poistettiin siivousajossa.
 * Asiakkaalta saatu palautetta, että Finnassa hakutuloksen oletusjärjestyksessä käytetty termi "Relevanssi" on liian vaikeaselkoinen. Voisiko sanan vaihtaa johonkin muuhun?
-  * Päivi Vaarasta lupasi testata voiko sanan vaihtaa itse, jos ei voi, niin sovimme, että Piia tekee tiketin.
+  * Päivi Vaarasta lupasi testata voiko sanan vaihtaa itse, jos ei voi, niin sovimme, että Piia tekee tiketin. Kokouksen jälkeinen tieto: Päivi testasi Vaaran testi-Finnassa ja sai termin vaihdettua Finnan hallintaliittymässä kielikäännöksissä kohdassa sort_relevance.
   * Vaihtoehtoja Relevanssille: Paras osuma, Parhaiten vastaava, Hakua vastaavin, Osuvuuden mukaan ja Osuvuus.
-Kokouksen jälkeinen tieto: Päivi testasi Vaaran testi-Finnassa ja sai termin vaihdettua Finnan hallintaliittymässä kielikäännöksissä kohdassa sort_relevance.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
 
