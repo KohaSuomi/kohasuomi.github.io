@@ -2536,6 +2536,21 @@ WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield
 AND ExtractValue(bm.metadata, 'count(//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>'])') > 1
 ```
 
+### MARC-osakenttien sisältö ja esiintymistiheys
+
+Listaa itse määritellyn MARC-osakentän sisällöt, yleisimmät ensin. Listaa tulokset tietueittain, eli toistumat tulevat putkeen yhdeksi tulokseksi.
+
+Lisääjä: Katariina Pohto<br />
+Pvm: 19.2.2025
+
+```
+SELECT ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') as <<MARC-kenttä>><<MARC-osakenttä>>, count(*) AS 'Lkm'
+  FROM biblio_metadata bm
+ WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') != ''
+ GROUP BY 1
+ ORDER BY 2 DESC
+```
+
 ### Tietueet, joiden linkissä tietty merkkijono
 
 Kysely hakee tietueet, joiden 856u-kentän linkissä on tietty merkkijono. Tässä haetaan "ecom"-sanan sisältävät linkit. Prosenttimerkkien sisään voi muokata myös muun tiedon. Huomaa, että raportti on hidas, koska tiedot haetaan marcxml:stä like-ehdolla.
