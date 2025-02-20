@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes)
 
 
 **Yhteiset**
@@ -41,6 +41,9 @@ Pohjoisesta etelään
  
 **Siilinjärvi**
 * Ei mainittavaa.
+
+**Kirkes**
+* Ei ihmeitä. Edelleen mietitään eBookingille korvaajaa. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
