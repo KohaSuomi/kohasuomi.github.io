@@ -42,7 +42,6 @@ Konversio tuottaa paljon error-log-tiedostoja eli virhelistoja. Niitä voi tarvi
 #### 3.	YSO-konversion jälkityöt TäTissä ja paikalliskannoissa ####
 <ul>
  <li>Käytiin läpi TäTin korjauslistoja. Listoille on merkitty erilaisia konversiossa löytyneitä virhetyyppejä. Keskusteltiin, mitä kannattaisi korjata ja millä tavalla. Kirjoitusvirheet on helppo korjata, paikallisia maantieteellisiä asiasanoja kannattaa ehkä säilyttää. Sekä TäTissä että paikalliskannoissa olisi järkevää korjata yksiselitteisiä virheitä, kuten slm-sanastoon kuuluvia termejä oikeaan 655-kenttään. Myös vanhentuneet termit kannattaa korjata, esimerkiksi videopelit > po. digitaaliset pelit. Tulevan KaTi-tietokannan kannalta pitäisi miettiä, kuinka tietokantojen yhdistyessä toimitaan asiasanojen kanssa. Kenttä 653 on indeksoitu hakuihin, joten kentässä olevat termit eivät vaikuta haettavuuteen. Oikea termi väärässä kentässä voi kuitenkin vaikuttaa hakuihin. Erämuokkaustyökalusta ei ole apua, koska sen avulla ei voi esimerkiksi siirtää asiasanaa toiseen kenttään indikaattoreineen, lisätä 2- ja 0-osakenttiä samaan kenttään a-osakentän kanssa eikä muuttaa indikaattoreita.</li>
-
 <li>Millainen tilanne Kirkes- ja Lastu-kirjastoissa on näiden osalta?</li>
 <ul>
  <li>Kirkes-kirjastoissa tehtiin YSO-konversio 2021, silloin saatiin errog-logit. Virheitä on korjattu paljon, työ jaettiin kirjastojen kesken. Kohaan on tehty raportti, jolla voi listata 653-kentässä olevat termit, rivejä on nyt 17000.</li>
@@ -51,7 +50,6 @@ Konversio tuottaa paljon error-log-tiedostoja eli virhelistoja. Niitä voi tarvi
  <li>OUTI:ssa on tehty raportti MARC-osakenttien sisältö ja esiintymistiheys. Sillä saa listattua mm. 653-kentässä esiintyvät asiasanat ja niiden määrät.</li>
  <li>Jos on suuria korjattavia massoja, korjauksiin tarvittavat skriptit ovat Johanna Räisän mukaan mahdollisia.</li>
  <li>Odotetaan, että kaikki tietokannat on konvertoitu. Palataan virhelistojen sisältöön ja asiasanojen korjaamiseen seuraavassa kokouksessa.</li>
-</ul>
 </ul>
 
 #### 4.	YSO-Aika-sanastoon liittyvät korjaukset ####
