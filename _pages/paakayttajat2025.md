@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
 
 
 **Yhteiset**
@@ -38,6 +38,9 @@ Pohjoisesta etelään
 * Asiakkaalta saatu palautetta, että Finnassa hakutuloksen oletusjärjestyksessä käytetty termi "Relevanssi" on liian vaikeaselkoinen. Voisiko sanan vaihtaa johonkin muuhun?
   * Päivi Vaarasta lupasi testata voiko sanan vaihtaa itse, jos ei voi, niin sovimme, että Piia tekee tiketin. Kokouksen jälkeinen tieto: Päivi testasi Vaaran testi-Finnassa ja sai termin vaihdettua Finnan hallintaliittymässä kielikäännöksissä kohdassa sort_relevance.
   * Vaihtoehtoja Relevanssille: Paras osuma, Parhaiten vastaava, Hakua vastaavin, Osuvuuden mukaan ja Osuvuus.
+ 
+**Siilinjärvi**
+* Ei mainittavaa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
