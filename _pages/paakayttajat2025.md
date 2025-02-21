@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Lauri Hänninen (Lastu),
 
 
 **Yhteiset**
@@ -43,7 +43,13 @@ Pohjoisesta etelään
 * Ei mainittavaa.
 
 **Kirkes**
-* Ei ihmeitä. Edelleen mietitään eBookingille korvaajaa. 
+* Ei ihmeitä. Edelleen mietitään eBookingille korvaajaa.
+
+**Lastu**
+* Otettiin toinenkin tabletti testikäyttöön hylläreihin ja kokoelman hoitoon.
+* Tiketti bugikorjauksen tuonnista, kirjastokortin numerolla haku tarttuu myös syntymäaikoihin.
+* Nidevarausta tehdessä niteiden haku-toiminto tarttuu myös virkailijan valitsemaan kirjastoon, eli Sallitut noutopaikat -valikon aktiiviseen valintaan. Tämä tarkoittaa käytännössä sitä, että virkailija ei voi suodattaa nidelistaa omalla kirjastollaan.
+
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
