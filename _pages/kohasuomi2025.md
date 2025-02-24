@@ -16,10 +16,12 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 9
 
 Aika: Ma 24.2.2025<br />
-Läsnä:
+Läsnä: Ari, Pasi, Anneli, Lari, Kodo ja Emmi
 
 * Viikon 9 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* PTFS:n Hackfestille Marseillessa 31.3.-4.4.2025
+  * Lari selvittelee kustannuksia
 
 ## Viikko 8
 
