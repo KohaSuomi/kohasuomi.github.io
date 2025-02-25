@@ -958,6 +958,27 @@ SELECT borrowernumber, categorycode, branchcode, surname, borrowernotes, dateenr
  WHERE MOD(flags DIV POWER(2, <<Flagin nro>>),2)
 ```
 
+### Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmiin
+
+Raportilla voi hakea uusien asiakkaiden määrän valitulla aikavälillä. Tulokset jaotellaan ikäryhmiin, joita voi halutessaan muuttaa muokkaamalla CASE WHEN -rivien ehtoja. Mukaan lasketaan asiakastyypit 'HENKILO', 'HEOMATOIMI', 'LAPSI', 'LAOMATOIMI', 'MUUKUINLAP'. Näitä voi myös halutessaan muokata kyselyyn tai ottaa koko rivin pois, jolloin mukaan tulee kaikki asiakastyypit. Raportti tehty Vaara-kirjastojen raportin pohjalta.
+
+Pvm: 25.2.2025
+Lisääjä: Anneli Österman
+
+```
+SELECT 
+(CASE WHEN TIMESTAMPDIFF(YEAR, dateofbirth, CURDATE()) IS NULL THEN 'Ei syntymäaikaa'
+      WHEN TIMESTAMPDIFF(YEAR, dateofbirth, CURDATE()) BETWEEN 0 AND 15 THEN '0-15'
+      WHEN TIMESTAMPDIFF(YEAR, dateofbirth, CURDATE()) BETWEEN 16 AND 29 THEN '16-29'
+      WHEN TIMESTAMPDIFF(YEAR, dateofbirth, CURDATE()) >= 30 THEN '30-'
+END) AS 'Agegroup', 
+COUNT(*) AS 'New Patrons'
+FROM borrowers 
+WHERE dateenrolled BETWEEN <<Added BETWEEN (yyyy-mm-dd)|date>> 
+      AND <<and (yyyy-mm-dd)|date>> AND branchcode=<<Branch|branches>>
+      AND categorycode IN ('HENKILO', 'HEOMATOIMI', 'LAPSI', 'LAOMATOIMI', 'MUUKUINLAP')
+GROUP BY Agegroup
+```
 
 ## Varaukset
 
