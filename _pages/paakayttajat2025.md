@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
 * 
 Etelästä pohjoiseen
 
+**Vaski** 
+* Selvitetään, voisiko Koulukirjastojen niteille voisi asettaa jo tilausvaiheessa varaamisen estävä damaged-tila. Näin sellaisiin tietueisiin, joissa on vain koulukirjastojen niteitä ei voisi tulla varauksia tilausvaiheessa. Vaski tekee kehitysehdotuksen.
+* Keskustelu "hutilainoista" ja asiakkaan mahdollisesta vaatimuksesta korjata virheellinen lainatieto. Vielä ei ole tällaisia tapauksia tullut. Siivous vaatisi todennäköisesti muutoksia useampaan tauluun.
+   
 **Lastu**
 * Henkilökunnalta tullut toive, että varauksen voisi poistaa varatun niteen palauttamisesta syntyvässä popparissa. Nykyisellään se on piilotettu, koska noutamattoman varauksen maksu syntyy, mikäli palautusta ei tehdä palautussivulla, koska maksun käsittelyssä on sivukohtainen asetus. Maksun käsittely oikein vaatisi uuden järjestelmäasetuksen.
 * Toinen toive on, että varausten huomautuksia voisi muokata varauksen teon jälkeen. Tästä on olemassa [tiketti yhteisössä](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26476). Tulevassa varausten erämuokkaustyökalussa huomautusten muokkaaminen on mahdollista.
