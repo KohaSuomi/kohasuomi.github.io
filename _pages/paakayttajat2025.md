@@ -13,12 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä:
+Läsnä: Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
 * 
 Etelästä pohjoiseen
+
+**Lastu**
+* Henkilökunnalta tullut toive, että varauksen voisi poistaa varatun niteen palauttamisesta syntyvässä popparissa. Nykyisellään se on piilotettu, koska noutamattoman varauksen maksu syntyy, mikäli palautusta ei tehdä palautussivulla, koska maksun käsittelyssä on sivukohtainen asetus. Maksun käsittely oikein vaatisi uuden järjestelmäasetuksen.
+* Toinen toive on, että varausten huomautuksia voisi muokata varauksen teon jälkeen. Tästä on olemassa [tiketti yhteisössä](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26476). Tulevassa varausten erämuokkaustyökalussa huomautusten muokkaaminen on mahdollista.
+* Muistuteltiin maaliskuun uutiskirjeestä, jonka deadline on 21.3. Linkki pohjaan Elementin pääkäyttäjäkanavalla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
