@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -24,6 +24,10 @@ Etelästä pohjoiseen
 * Henkilökunnalta tullut toive, että varauksen voisi poistaa varatun niteen palauttamisesta syntyvässä popparissa. Nykyisellään se on piilotettu, koska noutamattoman varauksen maksu syntyy, mikäli palautusta ei tehdä palautussivulla, koska maksun käsittelyssä on sivukohtainen asetus. Maksun käsittely oikein vaatisi uuden järjestelmäasetuksen.
 * Toinen toive on, että varausten huomautuksia voisi muokata varauksen teon jälkeen. Tästä on olemassa [tiketti yhteisössä](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26476). Tulevassa varausten erämuokkaustyökalussa huomautusten muokkaaminen on mahdollista.
 * Muistuteltiin maaliskuun uutiskirjeestä, jonka deadline on 21.3. Linkki pohjaan Elementin pääkäyttäjäkanavalla.
+
+**Vaara**
+* Minulle tultiin ihmettelemään tekijäfasetissa näkyviä nimiä, jotka olivat suorassa järjestyksessä tai ensin oli alkuperäisen tekijän nimi ja hänen perässään suomentajan nimi. Tein asiasta tiketin https://github.com/KohaSuomi/Koha/issues/1707 jonka Anneli siirsi indeksointityöryhmän käsiteltäväksi.
+* Sitten paljastui oma moka eli kun marraskuun lopulla siirryttiin Toveri-ovilaitteista Mikroväylän laitteisiin, täytyi tehdä uusia asiakastyyppejä omatoimikäyttäjiä varten. Näille ei muistettu tehdä overdue-asetuksia eli näille asiakkaille ei ole mennyt palautuskehotuksia. Tein raporttipyynnön näistä lainoista ja pyritään saamaan ajo, jolla nämä puuttuvat muistutukset saataisiin lähtemään asiakkaille. https://github.com/KohaSuomi/Koha/issues/1710
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
