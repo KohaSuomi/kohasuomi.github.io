@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
-* 
+  * Anneli lupasi tarkistaa, tuleeko kaikkiin maksutyyppeihin nyt kirjastotieto. Tulos: ei tule ajastetun ajon kautta lisättyihin noutamattoman varauksen maksuihin. [Siitä nyt tiketti avattu](https://github.com/KohaSuomi/Koha/issues/1713).
+
 Etelästä pohjoiseen
 
 **Vaski** 
