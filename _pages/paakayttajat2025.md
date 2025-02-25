@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -28,6 +28,10 @@ Etelästä pohjoiseen
 **Vaara**
 * Minulle tultiin ihmettelemään tekijäfasetissa näkyviä nimiä, jotka olivat suorassa järjestyksessä tai ensin oli alkuperäisen tekijän nimi ja hänen perässään suomentajan nimi. Tein asiasta tiketin https://github.com/KohaSuomi/Koha/issues/1707 jonka Anneli siirsi indeksointityöryhmän käsiteltäväksi.
 * Sitten paljastui oma moka eli kun marraskuun lopulla siirryttiin Toveri-ovilaitteista Mikroväylän laitteisiin, täytyi tehdä uusia asiakastyyppejä omatoimikäyttäjiä varten. Näille ei muistettu tehdä overdue-asetuksia eli näille asiakkaille ei ole mennyt palautuskehotuksia. Tein raporttipyynnön näistä lainoista ja pyritään saamaan ajo, jolla nämä puuttuvat muistutukset saataisiin lähtemään asiakkaille. https://github.com/KohaSuomi/Koha/issues/1710
+
+**Lumme**
+* Varkaudessa virkailijoiden koneilla ollut häröilyä perjantaisen tietohallinnon päivityksen jälkeen. Kaikki virkailijat eivät pääse kirjautumaan kaikille koneille ja joissakin Kohan toiminnallisuuksissa osalle virkailijoista tulee Kohassa palvelinongelmaviestiä. Asiaa selvitellään.
+* Kuvailijoilta tullut kommenttia valutuksen hitaudesta. Syynä mahdolliset lomat, valutuksen hitaus, koska paljon kimppoja. Jäädään seuraamaan tilannetta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
