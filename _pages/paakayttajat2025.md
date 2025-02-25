@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -37,6 +37,11 @@ Etelästä pohjoiseen
 * Otettu käyttöön asetus AllowItemsOnHoldCheckoutSIP-asetus.
 * Selvitetty kirjastojen tarvetta lähettää yhteisöasiakkaille palautuskehotuksia.
 * Viime viikolla otettu käyttöön tiettyjen nidetyyppien rajaus tietyille kirjastoille. Väärin käytetyt nidetyypit. Joitain kyselyjä aiheesta, sekä virheilmoitus nidetietojen näkymisessä sekä asiakkaan varausnäkymässä Kohassa että Finnassa.
+
+**OUTI**
+* Finnassa lainaushistorian lataus ei onnistu tiedostoon tai suosikkeihin, jos historiassa on paljon teoksia. Testeissä alle 400:n lainahistorian lataus onnistuu, mutta yli 500 ei enää onnistu. Finnan viimeisimpään versioon on tullut toiminnallisuus, että lainahistorian pystyy lataamaan osissa. Ohjelma kyllä yrittää ladata historiaa osissa 1/2, mutta latauspainike palaa aina alkutilanteeseen "Lataa osa 1/2".  OUTIsta laitetaan ongelmasta Finna-tukeen.
+* Oulussa huomattiin, että Mikro-Väylän omatoimilaitteissa ei toiminut asiakkaalle asetettu omatoimen käyttökielto. Syyksi selvisi, että Mikro-Väylän omatoimilaitteille ei ole määritelty toimipistekoodia (institution ID:tä), jonka ovikoneet lähettää Kohalle 63-viestin AO-kentässä. Eli Koha ei tiennyt asettaa estoa ko. omatoimikoneelle. Toimipistekoodi lisätty ovikoneelle, jonka jälkeen käyttökielto on toiminut.
+* Pohdittu vaihtoehtoja, mitä signum-muutos aiheuttaa OUTIssa, jossa lasten ja nuorten aineistot ovat samalla hyllypaikalla ja osa kirjastoista ovat muokanneet signum-kentän hyllypaikkatietoa kirjastokohtaiseksi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
