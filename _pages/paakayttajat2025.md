@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -33,12 +33,17 @@ Etelästä pohjoiseen
 * Varkaudessa virkailijoiden koneilla ollut häröilyä perjantaisen tietohallinnon päivityksen jälkeen. Kaikki virkailijat eivät pääse kirjautumaan kaikille koneille ja joissakin Kohan toiminnallisuuksissa osalle virkailijoista tulee Kohassa palvelinongelmaviestiä. Asiaa selvitellään.
 * Kuvailijoilta tullut kommenttia valutuksen hitaudesta. Syynä mahdolliset lomat, valutuksen hitaus, koska paljon kimppoja. Jäädään seuraamaan tilannetta.
 
+**Lappi**
+* Otettu käyttöön asetus AllowItemsOnHoldCheckoutSIP-asetus.
+* Selvitetty kirjastojen tarvetta lähettää yhteisöasiakkaille palautuskehotuksia.
+* Viime viikolla otettu käyttöön tiettyjen nidetyyppien rajaus tietyille kirjastoille. Väärin käytetyt nidetyypit. Joitain kyselyjä aiheesta, sekä virheilmoitus nidetietojen näkymisessä sekä asiakkaan varausnäkymässä Kohassa että Finnassa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 8
 
 Aika: 18.2.2025<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Lauri Hänninen (Lastu),
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Annika Helastila ja Elina Uotila (Kirkes), Lauri Hänninen (Lastu), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi)
 
 
 **Yhteiset**
@@ -75,7 +80,10 @@ Pohjoisesta etelään
 * Tiketti bugikorjauksen tuonnista, kirjastokortin numerolla haku tarttuu myös syntymäaikoihin.
 * Nidevarausta tehdessä niteiden haku-toiminto tarttuu myös virkailijan valitsemaan kirjastoon, eli Sallitut noutopaikat -valikon aktiiviseen valintaan. Tämä tarkoittaa käytännössä sitä, että virkailija ei voi suodattaa nidelistaa omalla kirjastollaan.
 
-
+**Lappi**
+* Posion väistöä varten muutettuu niteet ei-lainattava, ei-varattava -tilaan.
+* Kemijärvellä oli etuileva varaus, syytä uuden varauksen nousemisesta varauslistan kärkeen ei selvinnyt.
+* Muuten normaalia ylläpitoa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-8) - [Palaa sivun alkuun](/paakayttajat2025)
 
