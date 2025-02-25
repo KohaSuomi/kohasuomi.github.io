@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 10
+
+Aika: 4.3.2025<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 10 päivitys
+* Uusi raportti kirjastossa: [Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmittäin](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#uusien-asiakkaiden-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-ik%C3%A4ryhmiin). Liittyy [tikettiin #1706](https://github.com/KohaSuomi/Koha/issues/1706).
+
 ## Viikko 9
 
 Aika: 25.2.2025<br />
