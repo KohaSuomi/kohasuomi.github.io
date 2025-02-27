@@ -28,12 +28,16 @@ Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille
 
 ## Kehitysehdotukset
 
+* [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
+* [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi #1681](https://github.com/KohaSuomi/Koha/issues/1681)
+* [Sukunimi erottumaan selvästi etunimistä #56](https://github.com/KohaSuomi/Bugiton/issues/56)
+* [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
+
 ## Muut asiat
 
 ## Seuraava kokous
 
 ## Muistio 2/2025
-
 
 Aika: 12.2.2025 klo 13<br />
 Läsnä: Noora Valkonen (OUTI), Susanna Sandell (Vaski), Kodo Korkalo, Ari Mäkiranta, Anneli Österman (Koha-Suomi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Riikka Mustajärvi (Kirkes), Janne Seppänen (Lastu), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti)
