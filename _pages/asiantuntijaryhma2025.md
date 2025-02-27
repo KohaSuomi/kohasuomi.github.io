@@ -20,22 +20,22 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: To 13.3.2025 klo 13<br />
 Läsnä:
 
-## Ajankohtaiset
+### Ajankohtaiset
 
-## Tikettien priorisointi
+### Tikettien priorisointi
 
 Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille tuli ajatus, että työllistävyys ei saisi vaikuttaa indeksiarvoon, koska mitä työllistävämpi työ on, sitä kaukaisemmaksi sen toteutus prioriteetin mukaan.
 
-## Kehitysehdotukset
+### Kehitysehdotukset
 
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
 * [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi #1681](https://github.com/KohaSuomi/Koha/issues/1681)
 * [Sukunimi erottumaan selvästi etunimistä #56](https://github.com/KohaSuomi/Bugiton/issues/56)
 * [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
 
-## Muut asiat
+### Muut asiat
 
-## Seuraava kokous
+### Seuraava kokous
 
 ## Muistio 2/2025
 
