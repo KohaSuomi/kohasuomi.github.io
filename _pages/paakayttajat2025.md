@@ -25,7 +25,7 @@ Läsnä:
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -62,6 +62,10 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Kadonneita osakohteita on metsästetty. Vaikuttaa siltä, että ne ovat poistuneet vahingossa.
+
+* **Helle**
+* Vaihdettu MaxSearchResultsItemsPerRecordStatusCheck-asetuksen arvoksi 200 (oli aiemmin 25). Vaikutus: tiedonhaun hakutuloksessa Saatavana-tieto kertoo oikein tietueen Saatavana-tilaisten niteiden määrän. Koskee tietueita, joilla on niteitä enintään 200.  
+(Tiketti Hakutulosnäytöllä niteiden saatavuustiedot ovat harhaanjohtavia)[https://github.com/KohaSuomi/Koha-translations/issues/58#issuecomment-2659103199]
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
