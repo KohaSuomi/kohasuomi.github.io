@@ -17,7 +17,9 @@ Läsnä:
 
 **Yhteiset**
 * Viikon 10 päivitys
-* Uusi raportti kirjastossa: [Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmittäin](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#uusien-asiakkaiden-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-ik%C3%A4ryhmiin). Liittyy [tikettiin #1706](https://github.com/KohaSuomi/Koha/issues/1706).
+* Uusia raportteja kirjastossa:
+  * [Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmittäin](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#uusien-asiakkaiden-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-ik%C3%A4ryhmiin). Liittyy [tikettiin #1706](https://github.com/KohaSuomi/Koha/issues/1706).
+  * TäTin tallennettuihin raportteihin lisätty raportti, joka hakee tietueet, joiden nimeke päättyy "; :". Sen kaveriksi lisätty Kuvailu-osioon MARC-muokkauspohja, jolla saa muokattua raportin antamat tietueet sellaisiksi, että nimekkeestä tiputetaan pois kaksoispiste ja jäljelle kentän loppuun jää puolipiste. Liittyy [tikettiin #1699](https://github.com/KohaSuomi/Koha/issues/1699). Vastaavan korjauksen voi tehdä myös tarvittaessa paikalliskantoihin.
 * Kohan tietokantaskeema lisätty [Miten tehdä SQL-raportteja](https://koha-suomi.fi/dokumentaatio/sqlkoulu/) -sivulle taulukkona. Koha-Suomen omat taulut on merkitty boldilla ja niiden rakenne on kuvattu omilla välilehdillään. Yhteisön taulujen rakenne löytyy [yhteisön skeemasivulta](https://schema.koha-community.org/).
 
 ## Viikko 9
