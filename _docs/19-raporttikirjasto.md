@@ -1529,6 +1529,56 @@ WHERE bt.frombranch = <<Lähtökirjasto|branches>>
   AND bt.reason = 'Reserve'
 ```
 
+### Käsiteltyjen hyllyvarausten määrä
+
+Alla olevilla kahdella raportilla pystyy laskemaan käsiteltyjen hyllyvarausten määriä. Niitä voi käyttää apuna esim. lokistiikkaa suunniteltaessa. Omaan kirjastoon jääneille ja kuljetukseen lähteneille on omat raporttinsa, koska tiedot pitää hakea eri tavalla.
+
+Päivämäärä: 28.2.2025
+Lisääjä: Anneli Österman
+
+#### Omaan kirjastoon jääneiden hyllyvarausten määrä
+
+Raportille annetaan parametriksi aikaväli.
+
+```
+SELECT s.branch AS 'Palauttava kirjasto',COUNT(*) AS 'Palautusten määrä'
+FROM statistics s
+LEFT JOIN reserves r ON s.itemnumber = r.itemnumber
+WHERE s.borrowernumber IS NULL
+AND s.type = 'return'
+AND date(s.datetime) BETWEEN <<Alkaen|date>> AND <<Päättyen|date>>
+AND r.waitingdate = date(s.datetime)
+GROUP BY s.branch
+
+UNION ALL
+SELECT s.branch AS 'Palauttava kirjasto',COUNT(*) AS 'Palautusten määrä'
+FROM statistics s
+LEFT JOIN old_reserves olr ON s.itemnumber = olr.itemnumber
+WHERE s.borrowernumber IS NULL
+AND s.type = 'return'
+AND date(s.datetime) BETWEEN <<Alkaen|date>> AND <<Päättyen|date>>
+AND olr.waitingdate = date(s.datetime)
+
+GROUP BY s.branch
+LIMIT 100
+```
+#### Kuljetuksena toiseen kirjastoon lähteneet hyllyvaraukset
+
+Huomioi, että tämä raportti toimii oikein vain, jos kimpassa on käytössä HoldsAutoFill-järjestelmäasetus. Raportille annetaan parametriksi aikaväli.
+
+```
+SELECT s.branch AS 'Palauttava kirjasto',COUNT(*) AS 'Palautusten määrä'
+FROM statistics s
+LEFT JOIN branchtransfers br ON s.itemnumber = br.itemnumber
+WHERE s.borrowernumber IS NULL
+AND s.type = 'return'
+AND date(s.datetime) BETWEEN <<Alkaen|date>> AND <<Päättyen|date>>
+AND br.daterequested = s.datetime
+AND br.reason='Reserve'
+AND br.datecancelled IS NULL
+GROUP BY s.branch
+LIMIT 100
+```
 
 ## Kokoelma
 
