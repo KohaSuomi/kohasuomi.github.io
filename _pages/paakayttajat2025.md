@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Viikon 10 päivitys
 * Uusi raportti kirjastossa: [Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmittäin](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#uusien-asiakkaiden-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-ik%C3%A4ryhmiin). Liittyy [tikettiin #1706](https://github.com/KohaSuomi/Koha/issues/1706).
+* Kohan tietokantaskeema lisätty [Miten tehdä SQL-raportteja](https://koha-suomi.fi/dokumentaatio/sqlkoulu/) -sivulle taulukkona. Koha-Suomen omat taulut on merkitty boldilla ja niiden rakenne on kuvattu omilla välilehdillään. Yhteisön taulujen rakenne löytyy [yhteisön skeemasivulta](https://schema.koha-community.org/).
 
 ## Viikko 9
 
