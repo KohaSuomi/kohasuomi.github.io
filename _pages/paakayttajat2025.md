@@ -63,7 +63,7 @@ Etelästä pohjoiseen
 **Kirkes**
 * Kadonneita osakohteita on metsästetty. Vaikuttaa siltä, että ne ovat poistuneet vahingossa.
 
-* **Helle**
+**Helle**
 * Vaihdettu MaxSearchResultsItemsPerRecordStatusCheck-asetuksen arvoksi 200 (oli aiemmin 25). Vaikutus: tiedonhaun hakutuloksessa Saatavana-tieto kertoo oikein tietueen Saatavana-tilaisten niteiden määrän. Koskee tietueita, joilla on niteitä enintään 200.  
 (Tiketti Hakutulosnäytöllä niteiden saatavuustiedot ovat harhaanjohtavia)[https://github.com/KohaSuomi/Koha-translations/issues/58#issuecomment-2659103199]
 
