@@ -12,6 +12,8 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025
 
 [Kohan tietokantaskeema](https://schema.koha-community.org/)
 
+[Koha-Suomen tietokantaskeema.ods](https://github.com/user-attachments/files/19023351/Kohan.skeema.ods) (päivitetty 28.2.2025)
+
 [Tutkimusmatka Kohan tietokantaan](https://youtu.be/lH7Z8OetO3c) -koulutuksen tallenne.
 
 ## SQL-lauseiden rakentaminen
