@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 10
 
-Aika: Ma 24.2.2025<br />
+Aika: Ma 3.3.2025<br />
 Läsnä: Johanna, Pasi ja Kodo
 
 * Viikon 10 päivitys
@@ -23,7 +23,7 @@ Läsnä: Johanna, Pasi ja Kodo
 
 ## Viikko 9
 
-Aika: Ma 3.3.2025<br />
+Aika: Ma 24.2.2025<br />
 Läsnä: Ari, Pasi, Anneli, Lari, Kodo ja Emmi
 
 * Viikon 9 päivitys
