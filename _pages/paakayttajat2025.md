@@ -26,7 +26,7 @@ Läsnä:
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -68,6 +68,8 @@ Etelästä pohjoiseen
 * Vaihdettu MaxSearchResultsItemsPerRecordStatusCheck-asetuksen arvoksi 200 (oli aiemmin 25). Vaikutus: tiedonhaun hakutuloksessa Saatavana-tieto kertoo oikein tietueen Saatavana-tilaisten niteiden määrän. Koskee tietueita, joilla on niteitä enintään 200.  
 (Tiketti Hakutulosnäytöllä niteiden saatavuustiedot ovat harhaanjohtavia)[https://github.com/KohaSuomi/Koha-translations/issues/58#issuecomment-2659103199]
 
+**Kyyti**
+* Asiakaspalvelusta tuli palautetta, että Finnaan kaivattaisiin uutta välilehteä, jolta asiakas voisi tarkistaa oman maksuhistoriansa. Asiakaspalvelussa tulee välillä vastaan tilanteita, joissa asiakkaalle kerrotaan että hänellä on maksuja jotka täytyy maksaa ennen kuin lainaus taas onnistuu ja asiakas saattaa näissä tilanteissa väittää, että on jo maksanut kyseisen maksun. Tästä syystä ajateltiin, että olisi asiakkaille selkeämpää, jos he voisivat ennen asiakaspalveluun tulemista tarkistaa mitä maksuja ovat oikeasti maksaneet. Pääkäyttäjäkokouksessa idea ei saanut kannatusta, vaan koettiin, että asiakkaiden maksuhistoria on arkaluonteista tietoa, josta ei haluta muistuttaa asiakkaita.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
