@@ -45,7 +45,8 @@ Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (
 
 **Helle**
 * Otettu käyttöön Nidetyypin automaattinen generointi -toiminto.
-* Tullut vastaan tilanne, jossa tietueen Porvoon niteet eivät lataudu/tule näkyviin. Koha ilmoittanut: Jotain meni pieleen taulua ladattaessa. 500 internal server error. Ilmoituksen aiheutti yhden Porvoon niteen tietojen Aineistotyyppi-arvo Nidetyyppi-kentässä. Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa, tiketti (Uuden niteen tallennus antaa Internal server error)[https://github.com/KohaSuomi/Koha/issues/1667]
+* Tullut vastaan tilanne, jossa tietueen perustiedoissa Porvoon niteet eivät lataudu/tule näkyviin. Koha ilmoittanut: Jotain meni pieleen taulua ladattaessa. 500 internal server error. Ilmoituksen aiheutti yhdessä Porvoon niteessä oleva Aineistotyyppi-arvo Nidetyyppi-kentässä. 
+Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa. Tiketti (Uuden niteen tallennus antaa Internal server error)[https://github.com/KohaSuomi/Koha/issues/1667]
 
 
 ## Viikko 9
