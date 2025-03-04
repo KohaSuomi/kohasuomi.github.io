@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä: Johanna Räisä (Koha-Suomi)
+Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Viikon 10 päivitys
@@ -29,6 +29,11 @@ Läsnä: Johanna Räisä (Koha-Suomi)
 * Alettu selvittää käyttöoikeuksien mallipohjien luontia
 * Väistöissä oleviin kirjastoihin liittyen ylläpitotöitä
 * Muuten rauhallista, pohjoisen talvilomaviikko
+
+**OUTI**
+* OUTIssa on kuvailupohjia, joista puuttuu tietoa tai kenttien järjestys on muuttunut esim. OUTIssa kuvailijan säätämät osakenttäjärjestykset ovat kadonneet useista pohjista. Sen vuoksi haimme Tätistä MARC-kuvailupohjan paikalliskantaan, mutta tuonti ei onnistunut suoraan, sillä kaikki ne kentät puuttuivat pohjista, joissa oli auktorisoitujen arvojen valikko kiinni (mm. 336a ja 336b). Ongelma johtui siitä, että Tätin pohjassa oli määritetty noihin tiettyihin kenttiin sellaisia auktorisoituja arvoja joita ei ole paikalliskannassa. Anneli haki kuvailupohjan Tätistä open office -muodossa ja muokkasi manuaalisesti tiedostosta pois auktorisoidut arvot, joita OUTIssa ei ole ja vei sitten muokatun pohjan OUTIin.
+* Oulun Finvoice-laskuja luodessa oli laskuttaja saanut virheilmoituksen: ”Tapahtui virhe: Korjaa asiakkastiedot: 564A*******, 564A6******” Kyseessä oli kaksi yhteisöasiakasta, joiden lainoilta laskuttaja oli poistanut "Laskuta"-täpät. Näiltä yhteisöasiakkailta puuttuu etunimet, joten siinä mielessä ilmoitus muodostui oikein. Koska laskuttaja sai pelkän virheilmoituksen eikä lainkaan tietoa siitä, että muutoin laskutus on onnistunut, niin laskutusajo näytti hänestä päättyneen virheeseen. Voisiko virheilmoitusta muokata tai lisätä toisen ilmoituksen, jossa kerrottaisiin, että laskutusajo on onnistunut?
+  * Teen tästä oman tiketin.
 
 ## Viikko 9
 
