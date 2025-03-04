@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle)
+Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Viikon 10 päivitys
@@ -48,11 +48,16 @@ Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (
 * Tullut vastaan tilanne, jossa tietueen perustiedoissa Porvoon niteet eivät lataudu/tule näkyviin. Koha ilmoittanut: Jotain meni pieleen taulua ladattaessa. 500 internal server error. Ilmoituksen aiheutti yhdessä Porvoon niteessä oleva Aineistotyyppi-arvo Nidetyyppi-kentässä. 
 Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa. Tiketti (Uuden niteen tallennus antaa Internal server error)[https://github.com/KohaSuomi/Koha/issues/1667]
 
+**Siilinjärvi**
+* Pitkään vireillä ollut myös muovitetun aineiston tilaamista koskeva muutos Hankintaportaalissa on vihdoin edennyt, testitilauksia on jo lähetetty.
+* Vanhentuneiden asiakkaiden poistoajo on pyydetty ti 11.3.
+* YSO-konversion valmistelu on työn alla
+
 
 ## Viikko 9
 
 Aika: 25.2.2025<br />
-Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Roosa Väisänen (Kyyti)
+Läsnä: Janne Seppänen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Susanna Sandell (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1709)
@@ -97,6 +102,11 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Asiakaspalvelusta tuli palautetta, että Finnaan kaivattaisiin uutta välilehteä, jolta asiakas voisi tarkistaa oman maksuhistoriansa. Asiakaspalvelussa tulee välillä vastaan tilanteita, joissa asiakkaalle kerrotaan että hänellä on maksuja jotka täytyy maksaa ennen kuin lainaus taas onnistuu ja asiakas saattaa näissä tilanteissa väittää, että on jo maksanut kyseisen maksun. Tästä syystä ajateltiin, että olisi asiakkaille selkeämpää, jos he voisivat ennen asiakaspalveluun tulemista tarkistaa mitä maksuja ovat oikeasti maksaneet. Pääkäyttäjäkokouksessa idea ei saanut kannatusta, vaan koettiin, että asiakkaiden maksuhistoria on arkaluonteista tietoa, josta ei haluta muistuttaa asiakkaita.
+
+**Siilinjärvi**
+* La 22.2. tehty fasettien nollaus huolimattomasti ja saatu tiedonhaku jumiin. Uudelleenindeksointi hoitui onneksi nopeasti ja ma-aamuna se jo toimi, kiitos!
+* Tarkistettu vielä, että fasettien uudelleen järjestäminen ei aiheuta uudelleen indeksoinnin tarvetta.
+* Kysytty myös Koha-Suomen "hinnastosta", se on vielä vaiheessa. Toistaiseksi tapauskohtaiseen harkintaan perustuva hinnoittelu.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
