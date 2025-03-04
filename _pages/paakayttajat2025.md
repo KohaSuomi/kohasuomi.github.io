@@ -13,10 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä:
+Läsnä: Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * Viikon 10 päivitys
+  * 260-kentässä järjestys ei ole vielä oikein, pitää tarkistaa?
 * Uusia raportteja kirjastossa:
   * [Uusien asiakkaiden määrä aikavälillä jaoteltuna ikäryhmittäin](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#uusien-asiakkaiden-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-ik%C3%A4ryhmiin). Liittyy [tikettiin #1706](https://github.com/KohaSuomi/Koha/issues/1706).
   * TäTin tallennettuihin raportteihin lisätty raportti, joka hakee tietueet, joiden nimeke päättyy "; :". Sen kaveriksi lisätty Kuvailu-osioon MARC-muokkauspohja, jolla saa muokattua raportin antamat tietueet sellaisiksi, että nimekkeestä tiputetaan pois kaksoispiste ja jäljelle kentän loppuun jää puolipiste. Liittyy [tikettiin #1699](https://github.com/KohaSuomi/Koha/issues/1699). Vastaavan korjauksen voi tehdä myös tarvittaessa paikalliskantoihin.
