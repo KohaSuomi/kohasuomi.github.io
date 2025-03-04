@@ -22,6 +22,11 @@ Läsnä:
   * TäTin tallennettuihin raportteihin lisätty raportti, joka hakee tietueet, joiden nimeke päättyy "; :". Sen kaveriksi lisätty Kuvailu-osioon MARC-muokkauspohja, jolla saa muokattua raportin antamat tietueet sellaisiksi, että nimekkeestä tiputetaan pois kaksoispiste ja jäljelle kentän loppuun jää puolipiste. Liittyy [tikettiin #1699](https://github.com/KohaSuomi/Koha/issues/1699). Vastaavan korjauksen voi tehdä myös tarvittaessa paikalliskantoihin.
   * [Käsiteltyjen hyllyvarausten määrä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#k%C3%A4siteltyjen-hyllyvarausten-m%C3%A4%C3%A4r%C3%A4) sisältä kaksi eri raporttia, joista toinen laskee omaan kirjastoon jääneitä käsiteltyjä hyllyvarauksia ja toinen kuljetukseen lähteneitä hyllyvarauksia. Huomioi, että jälkimmäinen toimii oikein vain, jos kimpassa on päällä HoldsAutoFill-järjestelmäasetus. Liittyy [tikettiin #1680](https://github.com/KohaSuomi/Koha/issues/1680).
 * Kohan tietokantaskeema lisätty [Miten tehdä SQL-raportteja](https://koha-suomi.fi/dokumentaatio/sqlkoulu/) -sivulle taulukkona. Koha-Suomen omat taulut on merkitty boldilla ja niiden rakenne on kuvattu omilla välilehdillään. Yhteisön taulujen rakenne löytyy [yhteisön skeemasivulta](https://schema.koha-community.org/).
+** Lappi **
+* Hoidettu yhtä konetta lukuunottamatta, että Mikroväylä-ovikoneet lähettää 63 viestin AO kentässä kirjaston toimipistekoodin.
+* Alettu selvittää käyttöoikeuksien mallipohjien luontia
+* Väistöissä oleviin kirjastoihin liittyen ylläpitotöitä
+* Muuten rauhallista, pohjoisen talvilomaviikko
 
 ## Viikko 9
 
