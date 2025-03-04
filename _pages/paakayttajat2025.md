@@ -70,6 +70,7 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Kadonneita osakohteita on metsästetty. Vaikuttaa siltä, että ne ovat poistuneet vahingossa.
+* Tilausta tehdessä havaittu tietueen ilmestyvän monografian osakohteena, eikä monografiana. Pitänyt korjata jälkikäteen erikseen, jotta nimekkeeseen voi tehdä varauksia.
 
 **Helle**
 * Vaihdettu MaxSearchResultsItemsPerRecordStatusCheck-asetuksen arvoksi 200 (oli aiemmin 25). Vaikutus: tiedonhaun hakutuloksessa Saatavana-tieto kertoo oikein tietueen Saatavana-tilaisten niteiden määrän. Koskee tietueita, joilla on niteitä enintään 200.  
