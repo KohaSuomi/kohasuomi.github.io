@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 11
+
+Aika: 11.3.205<br />
+Läsnä:
+
+**Yhteiset**
+* Nidetyyppi-kenttä 952$y kaikkiin kuvailupohjiin pakolliseksi sekä oletusarvon lisääminen samaiseen kenttään /Emmi
+
 ## Viikko 10
 
 Aika: 4.3.2025<br />
