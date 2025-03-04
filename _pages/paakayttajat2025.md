@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Viikon 10 päivitys
@@ -42,6 +42,10 @@ Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (
 
 **Lastu**
 * Seudun kirjastossa ollut ongelmia aineiston vastaanotossa, vastaavia ongelmia ei muualla. Tiedustellaan tarkempi kuvaus ongelmasta ja miten vastaanotto on tehty ongelmatapauksissa, ja tehdään tiketti mikäli ongelmat jatkuvat
+
+**Helle**
+* Otettu käyttöön Nidetyypin automaattinen generointi -toiminto.
+* Tullut vastaan tilanne, jossa tietueen Porvoon niteet eivät lataudu/tule näkyviin. Koha ilmoittanut: Jotain meni pieleen taulua ladattaessa. 500 internal server error. Ilmoituksen aiheutti yhden Porvoon niteen tietojen Aineistotyyppi-arvo Nidetyyppi-kentässä. Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa, tiketti (Uuden niteen tallennus antaa Internal server error)[https://github.com/KohaSuomi/Koha/issues/1667]
 
 
 ## Viikko 9
