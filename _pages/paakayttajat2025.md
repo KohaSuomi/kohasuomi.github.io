@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI, Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * Viikon 10 päivitys
