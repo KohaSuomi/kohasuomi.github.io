@@ -38,6 +38,9 @@ Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (
 **Vaara**
 * Tehty tiketti viime viikolla mainitun lähettämättömien palautuskehotusten lähettämisestä omatoimiasiakkaille
 * Kesälahden lainausautomaattiin vaihdettu ip-osoite ja sen käyttöönotto-ongelmasta (tunnelointi?) tehty tukipyyntö
+* 
+**Lastu**
+* Seudun kirjastossa ollut ongelmia aineiston vastaanotossa, vastaavia ongelmia ei muualla. Tiedustellaan tarkempi kuvaus ongelmasta ja miten vastaanotto on tehty ongelmatapauksissa, ja tehdään tiketti mikäli ongelmat jatkuvat
 
 
 ## Viikko 9
