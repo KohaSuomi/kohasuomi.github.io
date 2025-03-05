@@ -31,6 +31,13 @@ Esimerkissä asiakkaalla on 19,50 € julkisoikeudellisia maksuja, jotka vaikutt
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla _Maksa_-näppäimellä.
 
+<br>
+
+Jos asiakkaalla on taattavia ja heillä on maksuja, heidän maksunsa näkyvät _Taattavien maksut_-välilehdellä. Välilehdellä on eroteltuina kirjastokorttien numeroilla asiakkaan taattavat ja heidän tileillään olevat maksut. Taattavan kirjastokortin numeroa klikkaamalla pääsee suoraan taattavan kortin tietoihin.
+
+![](/assets/files/docs/Maksut/Taattavat02.png)
+
+
 Huom! Jos kirjastossa on käytössä kassajärjestelmä, joka on
 yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 3.5.
 
