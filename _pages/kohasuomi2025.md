@@ -16,13 +16,15 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 11
 
 Aika: Ma 10.3.2025<br />
-Läsnä: 
+Läsnä: Johanna, Pasi, Emmi, Lari, Kodo, Anneli, Ari
 
 * Viikon 11 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Päivystysvuorot viikosta 12 eteenpäin
 * YSO-konversiossa Lapin [Lapponica-sanaston](https://finto.fi/lapponica/fi/) sanat ovat menneet 653-kenttään. Ne haluttaisiin takaisin 650-kenttään. Tämä vaatisi työkalun, joka tutkii tietueet joissa on tuo 653-kenttä ja käy tarkastamassa Fintosta kuuluuko sana Lapponicaan.
+  * Maksullinen työ. Pyydetään tekemään tiketti, jonka jälkeen voidaan arvioida tarvittava työmäärä ja maksu.
 * Onko meillä kokeiluversiota Kohaa miettiville kirjastoille tai päästetäänkö johonkin testiin katselemaan?
+  * Luodaan tuotantoa seuraava testikanta tyyliin demo.koha-suomi.fi
 
 ## Viikko 10
 
