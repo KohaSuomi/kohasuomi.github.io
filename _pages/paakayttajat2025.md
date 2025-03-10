@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * Nidetyyppi-kenttä 952$y kaikkiin kuvailupohjiin pakolliseksi sekä oletusarvon lisääminen samaiseen kenttään /Emmi
+* Nidetyypin generointiin käyttöön permanent_location-sarake location-sarakkeen sijaan /Emmi
 
 ## Viikko 10
 
