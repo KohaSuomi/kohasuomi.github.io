@@ -18,6 +18,8 @@ Läsnä:
 **Yhteiset**
 * Nidetyyppi-kenttä 952$y kaikkiin kuvailupohjiin pakolliseksi sekä oletusarvon lisääminen samaiseen kenttään /Emmi
 * Nidetyypin generointiin käyttöön permanent_location-sarake location-sarakkeen sijaan /Emmi
+* Hellessä testattu [MaxSearchResultsItemsPerRecordStatusCheck -järjestelmäasetusta](https://github.com/KohaSuomi/Koha-translations/issues/58#issuecomment-2700020701) hyvin tuloksin. Seuraava kimppa voisi nyt testata sitä.
+  * Kati ehdottaa, että saatavana-tekstiä ei muutettaisi, kuten yllä linkatussa tiketissä on alunperin ehdotettu.
 
 ## Viikko 10
 
