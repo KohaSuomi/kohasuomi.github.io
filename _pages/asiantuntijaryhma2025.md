@@ -20,22 +20,27 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: To 13.3.2025 klo 13<br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
-### Tikettien priorisointi
+Koha-seminaariin ilmoittautuminen viimeistään perjantaina 14.3.2025. [Linkki ilmoittautumiseen](https://docs.google.com/forms/d/e/1FAIpQLSdHW_nKwe7IbDiSmWjrCIdbYiNEgoE73NW5OW6nx1rMsN5FFQ/viewform?usp=sharing).
+
+### 2. Tikettien priorisointi
 
 Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille tuli ajatus, että työllistävyys ei saisi vaikuttaa indeksiarvoon, koska mitä työllistävämpi työ on, sitä kaukaisemmaksi sen toteutus prioriteetin mukaan.
 
-### Kehitysehdotukset
+### 3. Kehitysehdotukset
 
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
 * [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi #1681](https://github.com/KohaSuomi/Koha/issues/1681)
 * [Sukunimi erottumaan selvästi etunimistä #56](https://github.com/KohaSuomi/Bugiton/issues/56)
 * [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
+* [Service-check raportit näkymään Kohaan #1720](https://github.com/KohaSuomi/Koha/issues/1720)
+* [OpacHiddenItemsHidesRecords-asetuksen tieto Finnaan, jotta tietueiden piilotus toimisi #11](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/11)
+* [Niteen siirtäminen kuljetettavaksi mahdolliseksi rajapinnan kautta #1732](https://github.com/KohaSuomi/Koha/issues/1732)
 
-### Muut asiat
+### 4. Muut asiat
 
-### Seuraava kokous
+### 5. Seuraava kokous
 
 ## Muistio 2/2025
 
