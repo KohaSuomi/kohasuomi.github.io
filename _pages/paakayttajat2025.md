@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -48,7 +48,16 @@ Etelästä pohjoiseen
 **Vaara**
 * Tukipyyntö lähettämättömien palautuskehotusten kanssa ratkaistu siten, että raportti otettu Annelin ohjeen mukaan ja asiakkaille on lähetetty sähköposti tai sen puuttuessa tekstiviesti kehottaen palauttamaan erääntyneet lainat. Näistä ei mene palautuskehotusmaksua, normaali myöhästymismaksu vain.
 * Kesälahden lainausautomaattiasia on edelleen kesken. Laitteen IP-osoitteen vaihto aiheutti sen, että laitetta ei ole saatu toimimaan, vaikka Koha-Suomen kehittäjät, konesalioperaattori ja Meita tehneet töitä.
-* Hionin tekemä kaupunkiappi on osoittautunut ainakin Joensuussa ongelmalliseksi, koska ei osaa huomioida asiakkaan lainauskieltoa (maksuja yli lainauskieltorajan) vaan antaa uusia myöhässä olevia lainoja niin kauan kuin uusintamahdollisuuksia on käyttämättä. Maksut eivät näy apissa ollenkaan asiakkaalle. Appi pitäisi saada pois käytöstä siihen saakka, kunnes puutteet on korjattu. 
+* Hionin tekemä kaupunkiappi on osoittautunut ainakin Joensuussa ongelmalliseksi, koska ei osaa huomioida asiakkaan lainauskieltoa (maksuja yli lainauskieltorajan) vaan antaa uusia myöhässä olevia lainoja niin kauan kuin uusintamahdollisuuksia on käyttämättä. Maksut eivät näy apissa ollenkaan asiakkaalle. Appi pitäisi saada pois käytöstä siihen saakka, kunnes puutteet on korjattu.
+
+**Lastu**
+* Omatoimien yhteysongelmia selvitelty nyt yhteispalaverissa kaikkien toimijoiden kanssa. Selkeää ratkaisua ei löytynyt, mutta monta pientä korjausta joita lähdetään koittamaan.
+* Lehtitilauksiin joissakin tapauksissa valittu vahingossa väärä tietue, kysyttiin onko mahdollista siirtää niteitä ja kausijulkaisutilausta toiselle tietueelle. Niteet saa, mutta tilausta ei, joten ohjeistetaan näissä tapauksissa kirjastoja poistamaan tilaus ja tekemään uusi.
+* Kyseltiin mahdollisuutta rajata hakutuloksia sellaisiin tietueisiin jotka eivät ole käännöksiä, mutta tämä ei ole mahdollista.
+* Muistuteltiin taas uutiskirjeestä, jonka deadline on ensi viikon perjantaina.
+
+
+
 
 ## Viikko 10
 
