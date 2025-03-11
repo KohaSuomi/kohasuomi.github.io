@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -31,6 +31,11 @@ Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tyyppisiä tikettejä parikymmentä. Muistattehan käydä sulkemassa itse tekemänne tiketit, kun olette todenneet niiden olevan kunnossa. 
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Emottomien osakohteiden raporttia kyselty, valutuksen seurauksena tullut välillä orpoja osakohteita.
+  * Ei mahdollista raporttina. Skripti olemassa, mutta poistoa ei kannata automatisoida vaan toimittaa raportti ennemmin pääkäyttäjille ja poistot tehtäisiin eräpoistotyökalun kautta. Vaski tekee tästä vielä tiketin.
+* Vuosittainen tietoturvakoulutus tällä viikolla henkilökunnalle, pidetty viimeksi vuosi sitten ja tarkoituksena järjestää koulutus säännöllisesti.
 
 ## Viikko 10
 
