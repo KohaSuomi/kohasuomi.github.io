@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -36,6 +36,10 @@ Etelästä pohjoiseen
 * Emottomien osakohteiden raporttia kyselty, valutuksen seurauksena tullut välillä orpoja osakohteita.
   * Ei mahdollista raporttina. Skripti olemassa, mutta poistoa ei kannata automatisoida vaan toimittaa raportti ennemmin pääkäyttäjille ja poistot tehtäisiin eräpoistotyökalun kautta. Vaski tekee tästä vielä tiketin.
 * Vuosittainen tietoturvakoulutus tällä viikolla henkilökunnalle, pidetty viimeksi vuosi sitten ja tarkoituksena järjestää koulutus säännöllisesti.
+
+**Lappi**
+* Epäonnistuneita tekstiviestejä muodostui 10.3. katkon aikana erikoisella virheilmoituksella. Kodo laittoi kaikki epäonnistuneet tekstiviestit takaisin "pending"-tilaan, jolloin ne lähtivät uudelleen seuraavassa viestienlähetyserässä. Tiketti #1736
+* Normaalia ylläpitoa lomien keskellä. 
 
 ## Viikko 10
 
