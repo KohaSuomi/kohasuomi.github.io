@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -56,6 +56,8 @@ Etelästä pohjoiseen
 * Kyseltiin mahdollisuutta rajata hakutuloksia sellaisiin tietueisiin jotka eivät ole käännöksiä, mutta tämä ei ole mahdollista.
 * Muistuteltiin taas uutiskirjeestä, jonka deadline on ensi viikon perjantaina.
 
+**OUTI**
+* Kehitysehdotus palautussivun kuljetusmodaalin käytettävyyden parantamiseksi: [tiketti #1741](https://github.com/KohaSuomi/Koha/issues/1741)
 
 
 
