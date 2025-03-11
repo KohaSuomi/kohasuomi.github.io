@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -44,6 +44,11 @@ Etelästä pohjoiseen
 **Kirkes**
 * Hyllyvarausraportissa ollut häiriö, mutta korjaantunut.
 * Jokunen epäonnistunut tekstiviesti 10.3. sekä tuplia.
+
+**Vaara**
+* Tukipyyntö lähettämättömien palautuskehotusten kanssa ratkaistu siten, että raportti otettu Annelin ohjeen mukaan ja asiakkaille on lähetetty sähköposti tai sen puuttuessa tekstiviesti kehottaen palauttamaan erääntyneet lainat. Näistä ei mene palautuskehotusmaksua, normaali myöhästymismaksu vain.
+* Kesälahden lainausautomaattiasia on edelleen kesken. Laitteen IP-osoitteen vaihto aiheutti sen, että laitetta ei ole saatu toimimaan, vaikka Koha-Suomen kehittäjät, konesalioperaattori ja Meita tehneet töitä.
+* Hionin tekemä kaupunkiappi on osoittautunut ainakin Joensuussa ongelmalliseksi, koska ei osaa huomioida asiakkaan lainauskieltoa (maksuja yli lainauskieltorajan) vaan antaa uusia myöhässä olevia lainoja niin kauan kuin uusintamahdollisuuksia on käyttämättä. Maksut eivät näy apissa ollenkaan asiakkaalle. Appi pitäisi saada pois käytöstä siihen saakka, kunnes puutteet on korjattu. 
 
 ## Viikko 10
 
