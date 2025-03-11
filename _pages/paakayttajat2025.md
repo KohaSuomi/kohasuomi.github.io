@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -39,7 +39,11 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Epäonnistuneita tekstiviestejä muodostui 10.3. katkon aikana erikoisella virheilmoituksella. Kodo laittoi kaikki epäonnistuneet tekstiviestit takaisin "pending"-tilaan, jolloin ne lähtivät uudelleen seuraavassa viestienlähetyserässä. Tiketti #1736
-* Normaalia ylläpitoa lomien keskellä. 
+* Normaalia ylläpitoa lomien keskellä.
+
+**Kirkes**
+* Hyllyvarausraportissa ollut häiriö, mutta korjaantunut.
+* Jokunen epäonnistunut tekstiviesti 10.3. sekä tuplia.
 
 ## Viikko 10
 
