@@ -1700,6 +1700,7 @@ $(document).ready(function() {
 ### Ilmoitus istunnon vanhenemisesta
 
 Vaskissa käytössä oleva ilmoitus istunnon vanhenemisesta. Skripti ilmoittaa vanhenemisesta viisi minuuttia etukäteen ja uudelleen istunnon vanhennettua. Ilmoitusaikaa kontrolloidaan const timeoutLength -arvolla, johon tulee täyttää kimpan timeout-järjestelmäasetusta vastaava aika.
+
 Versio: 24.05
 
 ```
