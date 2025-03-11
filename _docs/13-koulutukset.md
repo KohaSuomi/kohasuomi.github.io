@@ -13,7 +13,19 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
-### Hankinta
+### Hankinta ja kuvailu
+
+#### Kuvailukoulutus 1/2025
+
+11.3.2025 pidetty koulutus, jossa Anna Viitanen Turun kaupunginkirjastosta käy läpi TäTiin ja Melindaan kuvailua.
+
+Koulutuksen sisältö:
+
+* Milloin kuvailun saa/ei saa tehdä Tätiin
+* Missä tilanteessa tietueen voi siirtää Melindasta
+* Kuinka erilaisia Melindasta siirrettyjä tietueita muokataan
+
+[Kuvailukoulutuksen 1/2025 tallenne](https://youtu.be/_jebOfHK2wY) Youtubessa
 
 #### Budjettien ja tilien luonti
 
