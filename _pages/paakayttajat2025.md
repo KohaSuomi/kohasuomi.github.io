@@ -13,17 +13,24 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
 * [Maaliskuun kuukausihuolto 12.3.2025](https://github.com/KohaSuomi/Koha/discussions/1726)
 * [Koha-seminaarin ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/1665) päättyy perjantaina, ilmoittauduthan ajoissa.
 * Nidetyyppi-kenttä 952$y kaikkiin kuvailupohjiin pakolliseksi sekä oletusarvon lisääminen samaiseen kenttään /Emmi
+  * Ei lisätä oletusarvoa, koska se on esim. Lapissa määritettynä ja virheellisiä nidetyyppejä on silti tallentunut.
+  * Kaikki voisi tarkistaa, että 952$y on merkitty pakolliseksi. Sekään ei tosin näytä aina auttavan, koska vääriä nidetyyppejä on senkin kanssa syntynyt.
+  * Jatketaan tutkimista.
 * Nidetyypin generointiin käyttöön permanent_location-sarake location-sarakkeen sijaan /Emmi
+  * tehdään muutos, että käytetään permanent_location-saraketta
 * Hellessä testattu [MaxSearchResultsItemsPerRecordStatusCheck -järjestelmäasetusta](https://github.com/KohaSuomi/Koha-translations/issues/58#issuecomment-2700020701) hyvin tuloksin. Seuraava kimppa voisi nyt testata sitä.
   * Kati ehdottaa, että saatavana-tekstiä ei muutettaisi, kuten yllä linkatussa tiketissä on alunperin ehdotettu.
+  * Päätös: ei tehdä lisää käännösmuutoksia
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tyyppisiä tikettejä parikymmentä. Muistattehan käydä sulkemassa itse tekemänne tiketit, kun olette todenneet niiden olevan kunnossa. 
+
+Etelästä pohjoiseen
 
 ## Viikko 10
 
