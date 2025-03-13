@@ -18,29 +18,49 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 3/2025
 
 Aika: To 13.3.2025 klo 13<br />
-Läsnä:
+Läsnä: Ari, Päivi, Hanna, Tuomas, Kodo, Leena, Riikka, Asko, Noora, Kati, Janne, Anneli
 
 ### 1. Ajankohtaiset
 
 Koha-seminaariin ilmoittautuminen viimeistään perjantaina 14.3.2025. [Linkki ilmoittautumiseen](https://docs.google.com/forms/d/e/1FAIpQLSdHW_nKwe7IbDiSmWjrCIdbYiNEgoE73NW5OW6nx1rMsN5FFQ/viewform?usp=sharing).
 
+Hankintalain uudistamisen lausuntoaika päättyi viikolla 11. Nyt odotellaan, tuleeko ehdotukseen muutoksia ja lopullista versiota.
+
 ### 2. Tikettien priorisointi
 
 Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille tuli ajatus, että työllistävyys ei saisi vaikuttaa indeksiarvoon, koska mitä työllistävämpi työ on, sitä kaukaisemmaksi sen toteutus prioriteetin mukaan.
 
+Päätös: Kokeillaan jättää kiireellisyys pois indeksiarvosta, jolloin nähdään, tuleeko liian suurelle osalle tikettejä sama indeksiarvo.
+
 ### 3. Kehitysehdotukset
 
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
+  * Ei vielä päätöstä, pyydettiin lisätietoja. 
 * [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi #1681](https://github.com/KohaSuomi/Koha/issues/1681)
+  * Päätös: Piilotetaan CSS:llä ylimääräiset valinnat: Ei, älä lainaa, Peruuta lainaus ja tee varaus sekä Peruuta varaus -valintaboksi
 * [Sukunimi erottumaan selvästi etunimistä #56](https://github.com/KohaSuomi/Bugiton/issues/56)
+  * Päätös: Tehdään sukunimen esitystavan muutos alkuunsa vain laskutukseen, koska tarve kuulosti olevan isompi siellä.  
 * [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
+  * Ei vielä päätöstä, tarvitaan lisätietoja
 * [Service-check raportit näkymään Kohaan #1720](https://github.com/KohaSuomi/Koha/issues/1720)
+  * Päätös: Toteutetaan
 * [OpacHiddenItemsHidesRecords-asetuksen tieto Finnaan, jotta tietueiden piilotus toimisi #11](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/11)
+  *  Selvitetään alustavasti, miten piilotus tällä hetkellä toimii ja missä tämä piilotus pitäisi toteuttaa, jos se päätetään toteuttaa. Käsitellään uudelleen, kun on lisätietoja. 
 * [Niteen siirtäminen kuljetettavaksi mahdolliseksi rajapinnan kautta #1732](https://github.com/KohaSuomi/Koha/issues/1732)
+  * Tähän tarvitaan vielä lisätietoja.
 
 ### 4. Muut asiat
 
+VTJ-poiminta: Miten käsitellään kuolleet?
+* kirjastokortti disabloidaan
+* kirjataan huomautus virkailijalle -kenttään
+* virkailijat käyvät läpi raportin avulla mahdollisesti poistettavat tietueet
+
+
 ### 5. Seuraava kokous
+
+Ke 16.4.2025 klo 13
+
 
 ## Muistio 2/2025
 
