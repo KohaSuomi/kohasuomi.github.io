@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 3/2025
+## Muistio 3/2025
 
 Aika: To 13.3.2025 klo 13<br />
-Läsnä: Ari, Päivi, Hanna, Tuomas, Kodo, Leena, Riikka, Asko, Noora, Kati, Janne, Anneli
+Läsnä: Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Kodo Korkalo (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Riikka Mustajärvi (Kirkes-kirjastot), Asko Autio ja Susanna Sandell (Vaski-kirjastot) Noora Valkonen (OUTI-kirjastot), Kati Sillgren (Helle-kirjastot), Janne Seppänen (Lastu-kirjastot), Anneli Österman (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
@@ -30,31 +30,31 @@ Hankintalain uudistamisen lausuntoaika päättyi viikolla 11. Nyt odotellaan, tu
 
 Koha-Suomen palaverissa käytiin läpi tikettien priorisoinnin ehdotus ja esille tuli ajatus, että työllistävyys ei saisi vaikuttaa indeksiarvoon, koska mitä työllistävämpi työ on, sitä kaukaisemmaksi sen toteutus prioriteetin mukaan.
 
-Päätös: Kokeillaan jättää kiireellisyys pois indeksiarvosta, jolloin nähdään, tuleeko liian suurelle osalle tikettejä sama indeksiarvo.
+**Päätös**: Kokeillaan jättää kiireellisyys pois indeksiarvosta, jolloin nähdään, tuleeko liian suurelle osalle tikettejä sama indeksiarvo. Kiireellisyys otetaan huomioon aikataulua päätettäessä. Kiireellisyysarvo muutetaan positiiviseksi arvo nykyisen negatiivisten arvojen sijaan.
 
 ### 3. Kehitysehdotukset
 
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
   * Ei vielä päätöstä, pyydettiin lisätietoja. 
 * [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi #1681](https://github.com/KohaSuomi/Koha/issues/1681)
-  * Päätös: Piilotetaan CSS:llä ylimääräiset valinnat: Ei, älä lainaa, Peruuta lainaus ja tee varaus sekä Peruuta varaus -valintaboksi
+  * **Päätös**: Piilotetaan CSS:llä ylimääräiset valinnat: "Ei, älä lainaa", "Peruuta lainaus ja tee varaus" sekä "Peruuta varaus" -valintaruutu
 * [Sukunimi erottumaan selvästi etunimistä #56](https://github.com/KohaSuomi/Bugiton/issues/56)
-  * Päätös: Tehdään sukunimen esitystavan muutos alkuunsa vain laskutukseen, koska tarve kuulosti olevan isompi siellä.  
+  * **Päätös**: Tehdään sukunimen esitystavan muutos alkuunsa vain laskutukseen, koska tarve kuulosti olevan isompi siellä. Odotetaan sivupohjamuutoksien valmistumista yhteisössä ja tuodaan se sitten versionpäivityksen mukana meidän versioon. 
 * [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
-  * Ei vielä päätöstä, tarvitaan lisätietoja
+  * Ei vielä päätöstä, pyydettiin lisätietoja.
 * [Service-check raportit näkymään Kohaan #1720](https://github.com/KohaSuomi/Koha/issues/1720)
-  * Päätös: Toteutetaan
+  * **Päätös**: Toteutetaan
 * [OpacHiddenItemsHidesRecords-asetuksen tieto Finnaan, jotta tietueiden piilotus toimisi #11](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/11)
   *  Selvitetään alustavasti, miten piilotus tällä hetkellä toimii ja missä tämä piilotus pitäisi toteuttaa, jos se päätetään toteuttaa. Käsitellään uudelleen, kun on lisätietoja. 
 * [Niteen siirtäminen kuljetettavaksi mahdolliseksi rajapinnan kautta #1732](https://github.com/KohaSuomi/Koha/issues/1732)
-  * Tähän tarvitaan vielä lisätietoja.
+  * Ei vielä päätöstä, pyydettiin lisätietoja.
 
 ### 4. Muut asiat
 
-VTJ-poiminta: Miten käsitellään kuolleet?
+VTJ-poiminta: Miten käsitellään kuolleeksi ilmoitettujen henkilöiden kirjastokortit?
 * kirjastokortti disabloidaan
 * kirjataan huomautus virkailijalle -kenttään
-* virkailijat käyvät läpi raportin avulla mahdollisesti poistettavat tietueet
+* virkailijat käyvät läpi huomautuksella hakevan raportin avulla mahdollisesti poistettavat asiakastietueet
 
 
 ### 5. Seuraava kokous
