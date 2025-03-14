@@ -339,7 +339,13 @@ AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"][2]'),5,1) = ' '
 AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
 ```
 
+#### metadata-sarake näkyviin kuten se on tietokantaan tallennettu
 
+Jos halutaan nähdä biblio_metadata.metadata-sarakkeen tiedot xml-muodossa eli näkyvillä on myös MARC-kenttien tägit ja rivitykset, voi metadata-kentän tiedon hakea raportilla alla olevalla tavalla. Käytännössä siinä korvataan <- ja >-merkit &lt;- ja &gt; -merkeillä (ettei selain tulkitse niitä xml-tägeiksi ja piilota niitä) ja pre-tagilla määritetään näkyviin tiedot sellaislla asettelulla kuin ne on tietokantaan tallennettu. 
+
+```
+CONCAT('<pre>', REPLACE(REPLACE(bi.metadata, '<', '&lt;'), '>', '&gt;'), '</pre>') as metadata
+```
 
 
 ### NULL ja tyhjä
