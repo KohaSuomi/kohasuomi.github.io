@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 12
+
+Aika: 18.3.205<br />
+Läsnä:
+
+**Yhteiset**
+* [Niteiden muokkaus eräajossa: Signum ei muodostu klikatessa kolmea pistettä. #585](https://github.com/KohaSuomi/Koha/issues/585)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 11
 
 Aika: 11.3.205<br />
@@ -31,6 +43,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tyyppisiä tikettejä parikymmentä. Muistattehan käydä sulkemassa itse tekemänne tiketit, kun olette todenneet niiden olevan kunnossa. 
 
 Etelästä pohjoiseen
+
 
 **Vaski**
 * Emottomien osakohteiden raporttia kyselty, valutuksen seurauksena tullut välillä orpoja osakohteita.
