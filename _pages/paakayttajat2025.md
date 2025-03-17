@@ -16,7 +16,9 @@ Aika: 18.3.205<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
 * [Niteiden muokkaus eräajossa: Signum ei muodostu klikatessa kolmea pistettä. #585](https://github.com/KohaSuomi/Koha/issues/585)
+* Jos olette ilmoittautuneet Koha-seminaarin iltaohjelmaan, käyttehän vastaamassa sähköpostiin lähetettyyn ruokakyselyyn tämän viikon aikana.
 
 Pohjoisesta etelään
 
