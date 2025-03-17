@@ -27,7 +27,7 @@ Pohjoisesta etelään
 ## Viikko 11
 
 Aika: 11.3.205<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1734)
@@ -79,6 +79,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Ei erityistä.
+
+**Siilinjärvi**
+* Ei mainittavaa täälläkään.
 
 
 ## Viikko 10
