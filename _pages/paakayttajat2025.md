@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 18.3.205<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -36,6 +36,9 @@ Pohjoisesta etelään
 **OUTI**
 * Finnassa isompien lainahistorioiden lataaminen ei ole onnistunut. Tällä viikolla pitäisi tulla päivitys, jolla rajoitetaan ladattavien osien koko 400 tulokseen.
 * Virkailijoiden käyttäjäoikeuksia ryhminä lisäävä valikko lisätty skriptinä tuotantoon.
+
+**Kirkes**
+* Mietiskelty asiakkaan omien tietojen päivittämiseen liittyvää toimintaa ts. saako asiakas vahvistuksen, jos Finnassa muutetut tiedot hyväksyy tai hylkää. Kohassa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-12) - [Palaa sivun alkuun](/paakayttajat2025)
 
