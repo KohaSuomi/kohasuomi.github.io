@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 18.3.205<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -27,6 +27,11 @@ Pohjoisesta etelään
 **Vaski**
 * Meillä pohdittu miten toimia tapauksissa jossa varauksia pitää siirtää isoissa määrin tietueelta toiselle. Otimme Bugzillan tiketin seurantaan.
 * Aikakatkaisu palautettu tänään 30 minuuttiin. Katsotaan, miten henkilökunta reagoi aikakatkaisun selkeytykseen.
+
+**Vaara**
+* Ilomantsin kirjaston ilmoitus kadonneista sotutunnuksista. Keskustelun jälkeen tein tiketin https://github.com/KohaSuomi/Koha/issues/1752
+* Poistettavan tilauksen laskunumeron poisto ei onnistu, tiketti https://github.com/KohaSuomi/Koha/issues/1751
+* Varaustunnuksista käyty keskustelu johti tikettiin https://github.com/KohaSuomi/Koha/issues/1753
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
