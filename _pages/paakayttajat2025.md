@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 18.3.205<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
