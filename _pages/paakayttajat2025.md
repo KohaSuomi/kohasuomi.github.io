@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 18.3.205<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -23,6 +23,10 @@ Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suo
 * Jos olette ilmoittautuneet Koha-seminaarin iltaohjelmaan, käyttehän vastaamassa sähköpostiin lähetettyyn ruokakyselyyn tämän viikon aikana.
 
 Pohjoisesta etelään
+
+**Vaski**
+* Meillä pohdittu miten toimia tapauksissa jossa varauksia pitää siirtää isoissa määrin tietueelta toiselle. Otimme Bugzillan tiketin seurantaan.
+* Aikakatkaisu palautettu tänään 30 minuuttiin. Katsotaan, miten henkilökunta reagoi aikakatkaisun selkeytykseen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
