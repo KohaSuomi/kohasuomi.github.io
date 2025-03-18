@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
+* [Asiantuntijaryhmän muistio 3/2025](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-32025)
 * [Niteiden muokkaus eräajossa: Signum ei muodostu klikatessa kolmea pistettä. #585](https://github.com/KohaSuomi/Koha/issues/585)
 * Jos olette ilmoittautuneet Koha-seminaarin iltaohjelmaan, käyttehän vastaamassa sähköpostiin lähetettyyn ruokakyselyyn tämän viikon aikana.
 
