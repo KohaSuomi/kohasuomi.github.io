@@ -13,12 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 18.3.205<br />
-Läsnä:
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
 * [Asiantuntijaryhmän muistio 3/2025](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-32025)
 * [Niteiden muokkaus eräajossa: Signum ei muodostu klikatessa kolmea pistettä. #585](https://github.com/KohaSuomi/Koha/issues/585)
+  * Kokeillaan ensin ilmoituksen lisäämistä kentän viereen, jos signumin muodostamista varten tarvittavia tietoja ei ole saatavilla. Ei piiloteta kolmea pistettä.
 * Jos olette ilmoittautuneet Koha-seminaarin iltaohjelmaan, käyttehän vastaamassa sähköpostiin lähetettyyn ruokakyselyyn tämän viikon aikana.
 
 Pohjoisesta etelään
