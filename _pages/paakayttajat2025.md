@@ -37,8 +37,8 @@ Pohjoisesta etelään
 * Finnassa isompien lainahistorioiden lataaminen ei ole onnistunut. Tällä viikolla pitäisi tulla päivitys, jolla rajoitetaan ladattavien osien koko 400 tulokseen.
 * Virkailijoiden käyttäjäoikeuksia ryhminä lisäävä valikko lisätty skriptinä tuotantoon.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-12) - [Palaa sivun alkuun](/paakayttajat2025)
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-9) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 11
 
@@ -61,7 +61,6 @@ Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi)
 * [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tyyppisiä tikettejä parikymmentä. Muistattehan käydä sulkemassa itse tekemänne tiketit, kun olette todenneet niiden olevan kunnossa. 
 
 Etelästä pohjoiseen
-
 
 **Vaski**
 * Emottomien osakohteiden raporttia kyselty, valutuksen seurauksena tullut välillä orpoja osakohteita.
@@ -98,6 +97,8 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Ei mainittavaa täälläkään.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-11) - [Palaa sivun alkuun](/paakayttajat2025)
 
 
 ## Viikko 10
@@ -142,6 +143,8 @@ Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa. Tiketti (U
 * Pitkään vireillä ollut myös muovitetun aineiston tilaamista koskeva muutos Hankintaportaalissa on vihdoin edennyt, testitilauksia on jo lähetetty.
 * Vanhentuneiden asiakkaiden poistoajo on pyydetty ti 11.3.
 * YSO-konversion valmistelu on työn alla
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-10) - [Palaa sivun alkuun](/paakayttajat2025)
 
 
 ## Viikko 9
