@@ -9,6 +9,75 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 3/2025 ##
+
+Aika: 12.3.2025 klo 13.15–14.30
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Johanna Ranta (Kyyti)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokouksen sihteerinä Päivi Knuutinen.
+
+#### 2.	YSA-YSO-konversiot ja niiden jälkikorjaukset ####
+<ul>
+ <li>Kaikki konversiot valmiit </li>
+ <li>Lapissa Lapponica-sanaston asiasanat olivat menneet 653-kenttään ja ne olisi hyvä saada takaisin 650-kenttään. </li>
+ <li>Päätettiin tehdä uusi taulukkopohja, johon kootaan yhteisesti korjaustarpeita. Kaikkia koskevat korjaukset voidaan tehdä ainakin osittain Koha-Suomen toimesta, sillä ne edistävät mm. yhteiskantaan siirtymistä. Osa korjauksista voidaan tehdä paikallisesti erämuokkauksella, mutta sillä ei voi tehdä esim. indikaattorimuutoksia. </li>
+</ul>
+
+#### 3.	YSO-Aika-sanaston korjaustiketti ####
+<ul>
+ <li>Linkkien lisäys 0-osakenttiin 388- ja 648-kentissä </li>
+ <li>Huomioitava 1900–1909-, 2000–2009-muotoisten ajanjaksojen muuttaminen muotoon 1900-luku (vuosikymmen) jne. </li>
+</ul>
+
+#### 4.	TäTin ; : -merkkivirheiden korjausajo ####
+<ul>
+ <li>RDA-konversiossa muodostui virheellisiä 245a-kenttiä, joissa puolipisteen jälkeen kenttään oli ilmestynyt tyhjä välilyönti ja kaksoispiste. Nämä on mahdollista hakea raportilla ja korjata tietueiden erämuokkauksella. </li>
+ <li>TäTissä raportti 315: 2232 virheellistä tietuetta, joista suurin osa musiikkiaineistoa ja osakohteita. Nämä korjaukset on tehty TäTiin ennen kokousta. </li>
+ <li>OUTIssa jo korjattu. Raporttiin tarttui myös joitakin muita merkkiyhdistelmiä, esim. & : </li>
+ <li>Tästä mainittu myös Kohan pääkäyttäjien kokouksessa: <a href="https://koha-suomi.fi/paakayttajat2025#viikko-10" target="_blank">Muistio viikko 10 </a> </li>
+</ul>
+
+#### 5.	Finnan uusi esityskokoonpanorajain ja 382-kentän virheelliset tiedot ####
+<ul>
+ <li>Koskee musiikkiaineistoa </li>
+ <li>Finnassa on mahdollista ottaa käyttöön uusi esityskokoonpanorajain, joka hakee tietoa MARCin 382-kentästä. Rajainta on testattu Muusassa ja OUTIssa, mutta sen käyttö on jokseenkin ongelmallista vielä, koska 382-kentissä on paljon sinne kuulumattomia tietoja, jotka kannattaisi korjata ennen käyttöönottoa. Rajainta esitellään Yleisten kirjastojen Finna-tapaamisessa 1.4.2025. Tilaisuudesta tulee myös tallenne. <a href="https://www.kiwi.fi/display/Finna/Yleisten+kirjastojen+Finna-tapaaminen+1.4.2025" target="_blank">Yleisten kirjastojen Finna-tapaaminen 1.4.2025 </a> </li>
+ <li>Tietueiden 382a-kentissä on mm. 500a-kenttään kuuluvia huomautustietoja, esim. ”Sanat, melodia, kitara tabulatuurina, sointumerkit”. Nämä olisi hyvä korjata paikalliskannoissa. 382a-kentän oman kannan sisältölistauksen voi hakea raportilla, josta näkee kentässä olevat termit ja niiden yhteismäärät. Sen jälkeen korjattavia tietueita voi hakea esim. raporteilla, tarkassa haussa esityskokoonpano-vaihtoehdolla tai esim. hakulausekkeella performance-medium:sanat </li>
+</ul>
+
+#### 6.	Kuulumisia Koha-Suomi¬-Melinda-tilannepalaverista 11.3. ####
+<ul>
+ <li>BTJ:n korjauksien yhdistyminen TäTissä Melindan tietueisiin selvitettävänä. </li>
+ <li>Saamelaisbibliografian tietueiden tunnistaminen on vielä vaiheessa. Pyritään saamaan Lapissa kuntoon. </li>
+ <li>Seuraava kokous 10.9.</li>
+</ul>
+
+#### 7.	Muita asioita ####
+<ul>
+ <li>Onko ollut ongelmia Kirjastopalvelun tietueiden valumisessa viime aikoina? </li>
+	<ul>
+    <li>Vieraskielisten nimekkeiden valumisessa ongelmia </li>
+    <li>Aktivointiarvo kannattaa tarkistaa </li>
+    <li>Jos hankintatietueessa ISBN on jostain syystä 024-kentässä, niin silloin ei valu </li>
+  </ul>
+ <li>11.3. olleessa kuvailukoulutuksessa oli 94 osallistujaa ja sai paljon hyvää palautetta. Keskustellaan jatkokoulutustarpeista lisää seuraavassa kokouksessa. </li>
+ <li>Kirjastopalvelun tietueiden käsittelykaaviosta puuttuu vaihtoehto sille, mitä tehdään, jos tietueen kuvailustatuksena on viiva (–) ja nimekkeen julkaisuvuosi on vanha. Tällöin haetaan nimekettä suoraan TäTistä ja Melindasta. Antti päivittää kaaviota. </li>
+ <li>942c-kentän voi täyttää jo TäTissä, ei mene Melindaan </li>
+ <li>Celian äänikirja olisi hyvä jo saada Kohaan aineistotyypiksi. Tiketti on ollut jumissa kauan. </li>
+ <li>Tiketti 1725 tietueen perustiedot-näkymän järjestyksestä: <a href="https://github.com/KohaSuomi/Koha/issues/1725" target="_blank">Tietueen perustiedot-näytöllä kenttien järjestys väärin </a> </li>
+ <li>Tiketti 1739 emottomien osakohteiden poistoraportista: <a href="https://github.com/KohaSuomi/Koha/issues/1739" target="_blank">Säännöllisesti kimpoille toimitettava raportti emottomista osakohteista </a> </li>
+</ul>
+
+#### 8.	Seuraava kokous ke 9.4. klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 2/2025 ##
 
 Aika: 13.2.2025 klo 13.15–14.05
