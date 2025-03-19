@@ -41,7 +41,7 @@ Pohjoisesta etelään
 * Mietiskelty asiakkaan omien tietojen päivittämiseen liittyvää toimintaa ts. saako asiakas vahvistuksen, jos Finnassa muutetut tiedot hyväksyy tai hylkää. Kohassa.
 
 **Helle**
-* Kirjastosta ihmetelty, kun Hyllyvarausraportti-toiminto ei ole näyttänyt 13.11.2025 aamulla heti kaikkia hyllyvarauksia. Hyllyvarausraportin päivitys oli tuonut näkyviin aiempina päivinä tehtyjä varauksia. (Esimerkiksi mainittu tietue 181972. Tietueeseen tehty voimassa oleva varaus Helle-Finnassa 11.03.2025 19:11 (varauksen ID 1513170). Tietueella on vain yksi nide (ID 120681). Niteelle ei lokitietoja (hankittu v. 2004).) Vastaavaa on tapahtunut myös aiemmin.
+* Kirjastosta ihmetelty, kun Hyllyvarausraportti-toiminto ei ole näyttänyt 13.3.2025 aamulla heti kaikkia hyllyvarauksia. Hyllyvarausraportin päivitys oli tuonut näkyviin aiempina päivinä tehtyjä varauksia. (Esimerkiksi mainittu tietue 181972. Tietueeseen tehty voimassa oleva varaus Helle-Finnassa 11.03.2025 19:11 (varauksen ID 1513170). Tietueella on vain yksi nide (ID 120681). Niteelle ei lokitietoja (hankittu v. 2004).) Vastaavaa on tapahtunut myös aiemmin.
 * Vaski-kimpassa tehdylle Koha-aikakatkaisun selkeyttäminen -ominaisuudelle on kiinnostusta myös Helle-käyttöön. [Koha-aikakatkaisun selkeyttäminen](https://github.com/KohaSuomi/Koha/issues/1357)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-12) - [Palaa sivun alkuun](/paakayttajat2025)
