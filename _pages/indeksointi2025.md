@@ -14,7 +14,7 @@ Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2025. Indeksointi-
 ## Esityslista 1/2025
 
 Aika: 21.3.2025 klo 9<br />
-Läsnä:
+Läsnä: Ville, Johanna, Kai, Timo, Anneli, Mauri, Anna, Antti
 
 ### 1. Käsiteltävät kehitysehdotukset
 
@@ -25,5 +25,6 @@ Läsnä:
 
 ### 2. Seuraava kokous
 
+Katsotaan huhti-toukokuun vaihteessa, onko käsiteltäviä kehitysehdotuksia ja pidetään tarvittaessa kokous toukokuussa.
 
 
