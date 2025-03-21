@@ -11,6 +11,29 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 3/2025
+
+21.3.2025
+
+Hei kaikille
+
+Tämän aamun Koha-Suomen hallituksen kokouksessa käytiin läpi omistajakunnilta tulleet kommentit yhtiön osakassopimuksen päivittämiseen. Lopullinen päivitysesitys käsitellään ja päätetään kesäkuun yhtiökokouksessa.
+
+Koha-Seminaari 27. - 28.3.2025 Turussa.
+
+Liitteenä myös toimitusjohtajan raportti 3/2025.
+
+Mukavaa ja aurinkoista kevätpäivää!
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä, hallituksen pj.
+
+Liite: [Toimitusjohtajan raportti 3 25.pdf](https://github.com/user-attachments/files/19387333/Toimitusjohtajan.raportti.3.25.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 2/2025
 
 20.2.2025
