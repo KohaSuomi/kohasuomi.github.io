@@ -21,6 +21,9 @@ Läsnä:
 * Viikon 13 päivitys
 * [Indeksointi- ja tiedonhakuryhmän muistio 1/2025](https://koha-suomi.fi/indeksointiryhma2025#muistio-12025)
 * Koha-seminaari to-pe
+* [Libriksen Z39.50-palvelimelle voi määrittää käyttöön sääntötiedoston](https://koha-suomi.fi/dokumentaatio/asetukset/#35-z3950sru-palvelimet), jossa tiputetaan ruotsalaisia kenttiä, kun tietue tuodaan omaan kantaan. Sääntö on käytössä TäTissä, mutta sen pystyy halutessaan laittaa myös käyttöön paikalliskantaan.
+
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
