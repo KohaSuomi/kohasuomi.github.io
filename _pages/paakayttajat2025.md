@@ -10,10 +10,24 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+
+## Viikko 13
+
+Aika: 25.3.2025<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 13 päivitys
+* [Indeksointi- ja tiedonhakuryhmän muistio 1/2025](https://koha-suomi.fi/indeksointiryhma2025#muistio-12025)
+* Koha-seminaari to-pe
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 12
 
-Aika: 18.3.205<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski, Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Aika: 18.3.2025<br />
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -52,7 +66,7 @@ Pohjoisesta etelään
 
 ## Viikko 11
 
-Aika: 11.3.205<br />
+Aika: 11.3.2025<br />
 Läsnä: Anneli Österman, Kodo Korkalo, Emmi Takkinen, Lari Strand (Koha-Suomi), Anni Mäki-Mantila (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Annika Helastila (Kirkes), Päivi Knuutinen ja Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
