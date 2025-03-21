@@ -1347,6 +1347,49 @@ Ohje:
 
 ## 35. Z39.50/SRU-palvelimet
 
+Z39.50/SRU-palvelimien ylläpidossa voi määrittää käyttöön Z39.50/SRU-palvelia. Osa palvelimista on vapaasti käytettävissä, osa vaatii esim. käyttäjätunnuksen ja salasanan.
+
+### 35.1 Uusi Z39.50-palvelin
+
+![](/assets/files/docs/Asetukset/z3950.png)
+
+* _Palvelimen nimi_: Palvelimen selkokielinen nimi, josta käyttäjä tunnistaa sen helposti.
+* _Palvelin_: Palvelimen osoite.
+* _Portti_: Palvelimen portti.
+* _Tietokanta_: Tietokannan nimi, tämän saa palvelimen ylläpitäjältä.
+* _Käyttäjätunnus_: Käyttäjätunnus, jos palvelu vaatii sellaisen.
+* _Salasana_: Salasanan, jos palvelu vaatii sellaisen.
+* _Ennaltavalittu_: Jos tähän laittaa valinnan, tulee tietokanta Z39.50-hakua tehdessä automaattisesti valituksi haun kohteeksi.
+* _Järjestys_: Tällä voi määrittää palvelimien keskinäisen järjestyksen haussa.
+* _Määreet_: PQF-määreet, joita käytetään jokaisessa haussa.
+* _Muoto_: Tietueiden formaatti, valitse MARC21
+* _Merkistö_: Tietueiden merkistökoodaus, valitse utf8
+* _Aikakatkaisu_: Tähän voi halutessaan lisätä aikakatkaisun, kuinka kauan tietoja haetaan palvelimelta. Jos tähän syöttää arvoksi 0, ei aikakatkaisu ole käytössä.
+* _Tietuetyyppi_: Valitse, haetaanko bibliografisia tietueita vai auktoriteettitietueita.
+* _XSLT Tiedosto(t) muunnettuihin tuloksiin_: Tietueiden tuontiin voidaan määrittää sääntöjä, joiden mukaan esimerkiksi tiputetaan tiettyjä kenttiä, kun tietue tuodaan omaan tietokantaan. Säännöt ovat erillisessä XSLT-tiedostossa, jonka osoite palvelimella laitetaan tähän kenttään. Tiedostoja voi olla useampi ja ne erotetaan toisistaan pilkulla.
+  * Tällainen sääntötiedosto on meillä olemassa Libris-tietokannalle, jolloin kyseisen palvelimen tiedoissa tähän kenttään lisätään tiedosto-osoite /etc/koha/z3950/libris.xsl
+
+### 35.2 Uusi SRU-palvelin
+
+![](/assets/files/docs/Asetukset/sru.png)
+
+* _Palvelimen nimi_: Palvelimen selkokielinen nimi, josta käyttäjä tunnistaa sen helposti.
+* _Palvelin_: Palvelimen osoite.
+* _Portti_: Palvelimen portti.
+* _Tietokanta_: Tietokannan nimi, tämän saa palvelimen ylläpitäjältä.
+* _Käyttäjätunnus_: Käyttäjätunnus, jos palvelu vaatii sellaisen.
+* _Salasana_: Salasanan, jos palvelu vaatii sellaisen.
+* _Ennaltavalittu_: Jos tähän laittaa valinnan, tulee tietokanta Z39.50-hakua tehdessä automaattisesti valituksi haun kohteeksi.
+* _Järjestys_: Tällä voi määrittää palvelimien keskinäisen järjestyksen haussa.
+* _Määreet_: PQF-määreet, joita käytetään jokaisessa haussa.
+* _Muoto_: Tietueiden formaatti, valitse MARC21
+* _Merkistö_: Tietueiden merkistökoodaus, valitse utf8
+* _Aikakatkaisu_: Tähän voi halutessaan lisätä aikakatkaisun, kuinka kauan tietoja haetaan palvelimelta. Jos tähän syöttää arvoksi 0, ei aikakatkaisu ole käytössä.
+* _Tietuetyyppi_: Valitse, haetaanko bibliografisia tietueita vai auktoriteettitietueita.
+* _Muut SRU-valinnat_: Muita SRU-määrityksiä.
+* _SRU-hakukenttien vastaavuus_: Tällä asetuksella määritetään Kohan hakuindeksin ja SRU-palvelimen indeksien vastaavuus toisiinsa eli esim. mistä palvelimen kentästä haetaan tekijätietoa.
+* _XSLT Tiedosto(t) muunnettuihin tuloksiin_: Tietueiden tuontiin voidaan määrittää sääntöjä, joiden mukaan esimerkiksi tiputetaan tiettyjä kenttiä, kun tietue tuodaan omaan tietokantaan. Säännöt ovat erillisessä XSLT-tiedostossa, jonka osoite palvelimella laitetaan tähän kenttään. Tiedostoja voi olla useampi ja ne erotetaan toisistaan pilkulla.
+
 ## 36. SMTP-palvelimet
 
 ## 37. Tarkoititko?
