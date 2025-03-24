@@ -22,6 +22,7 @@ Läsnä:
 * [Indeksointi- ja tiedonhakuryhmän muistio 1/2025](https://koha-suomi.fi/indeksointiryhma2025#muistio-12025)
 * Koha-seminaari to-pe
 * [Libriksen Z39.50-palvelimelle voi määrittää käyttöön sääntötiedoston](https://koha-suomi.fi/dokumentaatio/asetukset/#35-z3950sru-palvelimet), jossa tiputetaan ruotsalaisia kenttiä, kun tietue tuodaan omaan kantaan. Sääntö on käytössä TäTissä, mutta sen pystyy halutessaan laittaa myös käyttöön paikalliskantaan.
+* Signum-muutoksen valmistelua: Onko signumbuilderin määrittelyt oikein [tiketissä #1759](https://github.com/KohaSuomi/Koha/issues/1759)?
 
 Etelästä pohjoiseen
 
