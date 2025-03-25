@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -26,6 +26,11 @@ Läsnä: Leena Kinnunen (Lappi)
 * Signum-muutoksen valmistelua: Onko signumbuilderin määrittelyt oikein [tiketissä #1759](https://github.com/KohaSuomi/Koha/issues/1759)?
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Asiakastietueiden poistoajoa valmistellaan ja kyseltiin miten muut ovat asiasta tiedottaneet. Kyytin verkkokirjaston tiedotearkistosta löytyy hyvä tiedote, josta OUTIssakin oli otettu mallia.
+* Aurora-Koha-konversiossa asiakastietueiden vanhenemisia porrastettiin alkamaan vuoden 2025 alusta ja asiakkaat ottavat nyt vanhenemisviestien seurauksena yhteyttä. Vaski tutkii pystyykö asiakkaiden erämuokkauksella tekemään vanhenemisajan muutoksen järkevästi itse vai tarvitseeko ajosta tehdä tiketti Githubiin.
+* Puolen tunnin aikakatkaisu sekä aikakatkaisua varten tehty javascript-rimpsu olleet samaan aikaan käytössä nyt viikon. Toistaiseksi henkilökunnalta ei ole tullut palautetta, tiedotus onnistui ehkä paremmin kuin edelliskerralla asetusta muutettaessa ja toisaalta 5 minuuttia ennen aikakatkaisua tuleva varoitus voi myös auttaa asiaa.
 
 **Lappi**
 * Kielifasetit päällä ja indeksointi tehty 23.3.
