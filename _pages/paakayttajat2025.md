@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -42,12 +42,16 @@ Etelästä pohjoiseen
 * Kysymykseen voiko tilapäisessä kirjaston remonttikiinniolotapauksessa estää tietyn kirjaston (noutoilmoitus)viestien lähteminen tuli vastaus, että ei voi, koska lähettäminen on kimppakohtaista (ei ollut yllätys).
 * Kaupunkisovelluksen lainauskieltorajan toimintaa kehitetään, pyydetty testitunnusta, jolla maksuja testausta varten. Toivotaan pikaista korjausta- asiaan.
 
+**Kyyti**
+* Muutimme Kouvolassa kelluvan aineiston kotikirjaston pääkirjastoksi.
+* Kysyin voiko kuvailupohjan muuttaa massamuokkauksella esim. oletuspohjasta lehtipohjaksi tietyille tietueille? - Ei voi, joko tietokanta-ajona tai käsin.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 12
 
 Aika: 18.3.2025<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -80,6 +84,10 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Kyyti**
+* Aloitimme kuvatallenteiden kellutuksen. Niteiden kotikirjastot jäivät ennalleen. Nyt kun muista kirjastoista palautuu lähikirjastojen aineistoa pääkirjastoon, jää kuljetustila päälle, vaikka ei tarvitsisi. Miten on toimittu muualla? Kaikissa vastanneissa toimittiin niin että niteiden kotikirjasto oli pääkirjasto ja kaikki muiden kuntien palautukset tulivat pääkirjastoon.
+On myös olemassa tiketti [973](https://github.com/KohaSuomi/Koha/issues/973), joka ei ole edennyt.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-12) - [Palaa sivun alkuun](/paakayttajat2025)
 
