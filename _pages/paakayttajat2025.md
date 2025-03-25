@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -49,6 +49,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Tietueiden yhdistämisessä mahdollisesti kadonnut varauksia. Asiaa selvitellään.
 * Ei muuta mainittavaa.
+
+**Kirkes**
+* Yhdestä kirjastosta on tullut kyselyä, miksi Finnassa näytetään niteet sijainti- eikä kotikirjaston mukaan. Finnan Koha-ajuri antaa valita jommankumman, ja koska kimpasta osa kelluttaa, kotikirjasto ei ole vaihtoehto. Muutenkin niteen reaaliaikainen sijaintikirjasto on asiakkaalle informatiivisempi tieto kuin kotikirjasto. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
