@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -45,6 +45,10 @@ Etelästä pohjoiseen
 **Kyyti**
 * Muutimme Kouvolassa kelluvan aineiston kotikirjaston pääkirjastoksi.
 * Kysyin voiko kuvailupohjan muuttaa massamuokkauksella esim. oletuspohjasta lehtipohjaksi tietyille tietueille? - Ei voi, joko tietokanta-ajona tai käsin.
+
+**Lumme**
+* Tietueiden yhdistämisessä mahdollisesti kadonnut varauksia. Asiaa selvitellään.
+* Ei muuta mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
