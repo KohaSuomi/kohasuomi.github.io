@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen (Kyyti)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -37,6 +37,10 @@ Etelästä pohjoiseen
 * Kimpan uudet käyttösäännöt voimaan 1.4., joten aletaan valmistella käyttämättömien kirjastokorttien poistoajoa
 * Lapin Kysy Kohasta-koulutus- ja kyselytunti tulossa 15.4.: vastataan tulleisiin kysymyksiin, kerrataan ja nostetaan esille uusia ja muuttuneita Kohan toimintoja.
 * Muutoin tukipostissa hyvin rauhallista
+
+**Vaara**
+* Kysymykseen voiko tilapäisessä kirjaston remonttikiinniolotapauksessa estää tietyn kirjaston (noutoilmoitus)viestien lähteminen tuli vastaus, että ei voi, koska lähettäminen on kimppakohtaista (ei ollut yllätys).
+* Kaupunkisovelluksen lainauskieltorajan toimintaa kehitetään, pyydetty testitunnusta, jolla maksuja testausta varten. Toivotaan pikaista korjausta- asiaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
