@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -26,6 +26,12 @@ Läsnä:
 * Signum-muutoksen valmistelua: Onko signumbuilderin määrittelyt oikein [tiketissä #1759](https://github.com/KohaSuomi/Koha/issues/1759)?
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Kielifasetit päällä ja indeksointi tehty 23.3.
+* Kimpan uudet käyttösäännöt voimaan 1.4., joten aletaan valmistella käyttämättömien kirjastokorttien poistoajoa
+* Lapin Kysy Kohasta-koulutus- ja kyselytunti tulossa 15.4.: vastataan tulleisiin kysymyksiin, kerrataan ja nostetaan esille uusia ja muuttuneita Kohan toimintoja.
+* Muutoin tukipostissa hyvin rauhallista
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
