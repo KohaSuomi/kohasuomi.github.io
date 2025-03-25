@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -51,14 +51,17 @@ Etelästä pohjoiseen
 * Ei muuta mainittavaa.
 
 **Kirkes**
-* Yhdestä kirjastosta on tullut kyselyä, miksi Finnassa näytetään niteet sijainti- eikä kotikirjaston mukaan. Finnan Koha-ajuri antaa valita jommankumman, ja koska kimpasta osa kelluttaa, kotikirjasto ei ole vaihtoehto. Muutenkin niteen reaaliaikainen sijaintikirjasto on asiakkaalle informatiivisempi tieto kuin kotikirjasto. 
+* Yhdestä kirjastosta on tullut kyselyä, miksi Finnassa näytetään niteet sijainti- eikä kotikirjaston mukaan. Finnan Koha-ajuri antaa valita jommankumman, ja koska kimpasta osa kelluttaa, kotikirjasto ei ole vaihtoehto. Muutenkin niteen reaaliaikainen sijaintikirjasto on asiakkaalle informatiivisempi tieto kuin kotikirjasto.
+
+**Lastu**
+* Normaalia ylläpitoa, alettu tarkemmin tutustumaan datan visualisointiin Power BI:llä
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 12
 
 Aika: 18.3.2025<br />
-Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto (OUTI), Annika Helastila (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 12 päivitys](https://github.com/KohaSuomi/Koha/discussions/1749)
@@ -95,6 +98,9 @@ Pohjoisesta etelään
 **Kyyti**
 * Aloitimme kuvatallenteiden kellutuksen. Niteiden kotikirjastot jäivät ennalleen. Nyt kun muista kirjastoista palautuu lähikirjastojen aineistoa pääkirjastoon, jää kuljetustila päälle, vaikka ei tarvitsisi. Miten on toimittu muualla? Kaikissa vastanneissa toimittiin niin että niteiden kotikirjasto oli pääkirjasto ja kaikki muiden kuntien palautukset tulivat pääkirjastoon.
 On myös olemassa tiketti [973](https://github.com/KohaSuomi/Koha/issues/973), joka ei ole edennyt.
+
+**Lastu**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-12) - [Palaa sivun alkuun](/paakayttajat2025)
 
