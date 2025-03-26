@@ -15,7 +15,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
@@ -55,6 +55,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Normaalia ylläpitoa, alettu tarkemmin tutustumaan datan visualisointiin Power BI:llä
+
+**Helle**
+* Tiedonhaussa Korin lähetykseen liittyvän CART-ilmoituksen pohja on Hellessä oletuskielen lisäksi suomeksi, ruotsiksi, englanniksi. Oletuskieli-pohjassa viesti on nyt vain englanniksi. Korin lähetystä testatessa viesti muodostui aina suomeksi. Korin lähetys testattu kaikilla Koha-kielillä (Svenska, English, Suomi). Kohaan kirjautuneen käyttäjätunnuksella on mm. arvo lang=fi-FI. Viestipohjaksi on vielä testaamatta tapa, jota on käytetty varauksen noutomuistutukseen Vaskissa: [HOLD_REMINDER eli varauksen noutomuistutus](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/#hold_reminder-eli-varauksen-noutomuistutus)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
