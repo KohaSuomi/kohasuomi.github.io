@@ -68,6 +68,9 @@ Etelästä pohjoiseen
 **Helle**
 * Tiedonhaussa Korin lähetykseen liittyvän CART-ilmoituksen pohja on Hellessä oletuskielen lisäksi suomeksi, ruotsiksi, englanniksi. Oletuskieli-pohjassa viesti on nyt vain englanniksi. Korin lähetystä testatessa viesti muodostui aina suomeksi. Korin lähetys testattu kaikilla Koha-kielillä (Svenska, English, Suomi). Kohaan kirjautuneen käyttäjätunnuksella on mm. arvo lang=fi-FI. Viestipohjaksi on vielä testaamatta tapa, jota on käytetty varauksen noutomuistutukseen Vaskissa: [HOLD_REMINDER eli varauksen noutomuistutus](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/#hold_reminder-eli-varauksen-noutomuistutus)
 
+**OUTI**
+* Toimme Tätistä kuvailupohjan OUTIn tuotantoon 21.3. ja sen jälkeen Huomautus virkailijalle kenttään tallennettu teksti ei näy niteen Perustiedot -näytöllä niteen saatavuustiedot rivillä ja, kun menee katsomaan niteen tietoja muokkauksen kautta, niin kenttään tallennettu teksti on kadonnut. Jos tiedon tallentaa Niteet -sivulla Huomautus virkalijalle-kenttään, niin tieto näkyy myös Perustiedot -näytöllä, eikä tieto katoa Niteet -sivulta. Tiketti: https://github.com/KohaSuomi/Koha/issues/1768
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-13) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 12
