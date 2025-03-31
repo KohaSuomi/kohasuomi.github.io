@@ -16,10 +16,11 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 14
 
 Aika: Ma 31.3.2025<br />
-Läsnä:
+Läsnä: Ari, Pasi, Emmi, Johanna, Lari, Kodo, Anneli
 
 * Viikon 14 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Päivystysvuorot vkosta 15 lähtien
 
 
 ## Viikko 13
