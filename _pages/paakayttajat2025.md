@@ -24,7 +24,7 @@ Läsnä:
 ## Viikko 13
 
 Aika: 25.3.2025<br />
-Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle)
+Läsnä: Leena Kinnunen (Lappi), Anni Mäki-Mantila (Vaski), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 13 päivitys](https://github.com/KohaSuomi/Koha/discussions/1760)
