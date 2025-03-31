@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Viikon 14 päivitys
 * Koha-seminaarin striimin tallenteet katsottavissa 2 viikkoa. Linkit löytyy [tapahtuman tiedotteesta](https://github.com/KohaSuomi/Koha/discussions/1665).
+* Seuraava [Bugi-perjantai 4.4.2025 klo 13](https://github.com/KohaSuomi/Koha/discussions/1771)
 
 
 ## Viikko 13
