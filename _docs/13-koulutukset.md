@@ -93,6 +93,15 @@ Esitysten diat:
 
 ### Tiedonhaku
 
+#### Tarkan haun uudet valikkovaihtoehdot
+
+Viikon 9/2025 päivityksessä lisättiin Tarkan haun valikoihin uusia vaihtoehtoja: Tuottajan maa/luomispaikka, Esityskokoonpano, Kohderyhmä, Tekijän ominaisuudet ja luomiaika.
+
+[Linkki videoon, jossa esitellään uudet vaihtoehdot](https://youtu.be/r-FyzbyEVdw)
+
+Videon diasarja: [Uudet vaihtoehdot valikossa.pdf](https://github.com/user-attachments/files/19532748/Uudet.vaihtoehdot.valikossa.pdf)
+
+
 #### Musiikin tiedonhaun koulutus
 
 Musiikin tiedonhaun koulutus pidettiin 3.10.2024. Kouluttajana infromaatikko Timo Torvinen Vaara-kirjastoista.
