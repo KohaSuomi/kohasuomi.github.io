@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 14
+
+Aika: 1.4.2025<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 14 päivitys
+* Koha-seminaarin striimin tallenteet katsottavissa 2 viikkoa. Linkit löytyy [tapahtuman tiedotteesta](https://github.com/KohaSuomi/Koha/discussions/1665).
 
 
 ## Viikko 13
