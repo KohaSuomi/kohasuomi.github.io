@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 1.4.2025<br />
-Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -27,6 +27,10 @@ Pohjoisesta etelään
 
 **Lastu**
 * Ei mainittavaa
+
+**Lappi**
+* Normaalia ylläpitoa.
+* Suunnitellaan signum-muutosta ja Kysy Kohasta -koulutus- ja kyselytuntia.
 
 ## Viikko 13
 
