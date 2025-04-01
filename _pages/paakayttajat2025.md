@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 1.4.2025<br />
-Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -31,6 +31,9 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa.
 * Suunnitellaan signum-muutosta ja Kysy Kohasta -koulutus- ja kyselytuntia.
+
+**Vaara**
+* Hion Digitalin kaupunkisovellus on korjattu lainauskiellossa olevien asiakkaiden kohdalta eli lainauskiellon ylittävät maksut estävät uusimasta lainoja. Varausten näyttämisessä on vielä ongelmaa.
 
 ## Viikko 13
 
