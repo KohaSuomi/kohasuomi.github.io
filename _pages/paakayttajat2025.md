@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 1.4.2025<br />
-Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -34,6 +34,10 @@ Pohjoisesta etelään
 
 **Vaara**
 * Hion Digitalin kaupunkisovellus on korjattu lainauskiellossa olevien asiakkaiden kohdalta eli lainauskiellon ylittävät maksut estävät uusimasta lainoja. Varausten näyttämisessä on vielä ongelmaa.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Näillä näkymin Kuortin kirjasto lopettaa toimintansa, asia on menossa vielä valituskierrokselle.
 
 ## Viikko 13
 
