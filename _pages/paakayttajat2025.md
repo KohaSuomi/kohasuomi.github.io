@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 1.4.2025<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -21,6 +21,7 @@ Läsnä:
 * Koha-seminaarista tulossa palautekysely
 * Seuraava [Bugi-perjantai 4.4.2025 klo 13](https://github.com/KohaSuomi/Koha/discussions/1771)
 * [Signumiin luokka ja pääsana](https://github.com/KohaSuomi/Koha/issues/923) - lisätty alitiketit tehtäville asioille. Puuttuukko vielä jotain?
+  * Tuli toive, että kaikki laittaisivat esimerkkitiedoston (pdf) tarrapohjista tarrapohja-tikettiin. Tiedostoon voi kerätä esimerkit monenlaisista aineistoista.
 
 Pohjoisesta etelään
 
