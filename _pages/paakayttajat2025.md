@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 15
 
-Aika: 8.4.2025<br />
+Aika: 8.4.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 
 ## Viikko 14
 
-Aika: 1.4.2025<br />
+Aika: 1.4.2025 klo 9.15<br />
 Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI) 
 
 **Yhteiset**
