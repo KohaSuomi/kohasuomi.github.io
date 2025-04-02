@@ -601,6 +601,18 @@ body li.blocker.account_admin_locked:after {
   }
 ```
 
+### Lihavoi asiakasmääre (varaustunnus) asiakkaan yhteenveto-osiossa vasemmalla
+
+Tällä saa lihavoitua asiakkaan tiedoissa vasemman reunan infolaatikossa / yhteenveto-osiossa ensimmäisen asiakasmääreen, joka ainakin henkilöasiakkailla (aikuiset ja lapset) todennäköisesti on kaikilla varaustunnus, eli perimmäisenä tarpeena oli lihavoida asiakkaan varaustunnus. Muilla asiakastyypeillä lihavoiduksi voi tulla jokin muukin asiakasmääre.
+
+Tarpeellisuus: Vapaaehtoinen <br />
+Versio: 24.05
+
+```
+/* Asiakasmääre lihavoiduksi asiakkaan yhteenveto-osioon */
+li.patronattribute:nth-child(1) { font-weight: bold; }
+```
+
 
 
 ## Asiakkaat-sivu
