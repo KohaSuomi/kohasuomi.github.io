@@ -2374,7 +2374,7 @@ Pohjan pystyy määrittämään, mutta asiakkaille ei saa valittua kooste-täpp�
 #### Sähköposti
 
 Huomioita:
-* viimeisen noutopäivän saa suomalaisessa muodossa | $KohaDates dateformat => 'dmydot' -määreellä.
+* viimeisen noutopäivän saa suomalaisessa muodossa ```| $KohaDates dateformat => 'dmydot'``` -määreellä.
 * allekirjoitukseen tulee sen kirjaston tiedot, missä viimeisin kiinni jäänyt varaus palautetaan/on noudettavissa.
 * teostietojen alapuolella kannattaa olla yksi tyhjä rivi, jotta eri teokset eivät tule ns. kiinni toisiinsa.
 
