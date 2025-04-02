@@ -2021,5 +2021,520 @@ If you have any questions about our library or our services, please do not hesit
 
 Best regards
 
+## CART
+
+Korin voi lähettää sähköpostina ja nyt sen viestipohja on tehty muokattavaksi työkalujen viestipohjien kautta. Aiemmin se oli ns. kovakoodattu. Alla kopioituna yhteisön oletusviesti ja se käännettynä suomeksi.
+
+### Email-pohjaan
+
+HTML: kyllä<br />
+Pohja: email
+
+
+#### Suomeksi
+
+```
+[%- USE Branches -%]
+[%- USE AuthorisedValues -%]
+[%- USE Koha -%]
+[%- PROCESS 'html_helpers.inc' -%]
+Hei,<br><br>
+[% borrower.firstname | html %] [% borrower.surname | html %] lähetti sinulle korinsa sisällön.<br>
+Huomio, että liitteenä oleva tiedosto sisältää MARC-tietueita, jotka voidaan ladata bibliografisten tietueiden hallintaohjelmiin kuten EndNote, Reference Manager tai ProCite.<br>
+[% IF ( comment ) %]<hr><br>[% comment | html | html_line_break %]<br><br>[% END %]<hr>
+<ol>[% FOREACH biblio IN biblios %]<li>
+[% biblio.title | html %]
+[% IF ( biblio.subtitle ) %][% FOREACH subtitle IN biblio.subtitle.split(' | ') %][% subtitle | html %][% END %][% END %][% biblio.part_number | html %] [% biblio.part_name | html %]<br>
+[% IF ( biblio.author || biblio.get_marc_contributors.size ) %]Tekijä(t): [% IF ( biblio.author ) %][% biblio.author | html %][% END %][% IF ( biblio.get_marc_contributors ) %][% IF ( biblio.author ) %]; [% END %][% FOREACH author IN biblio.get_marc_contributors %][% FOREACH subfield IN author.MARCAUTHOR_SUBFIELDS_LOOP %][% subfield.separator | html %][% subfield.value | html %][% END %][% UNLESS ( loop.last ) %];[% END %][% END %][% END %]<br>[% END %]
+[% SET biblioitem = biblio.biblioitem %][% IF ( biblioitem.isbn ) %]ISBN: [% FOREACH isbn IN biblioitem.isbn %][% isbn | html %][% UNLESS ( loop.last ) %]; [% END %][% END %]<br>[% END %]
+[% IF ( biblioitem.publishercode ) %]Published by: [% biblioitem.publishercode | html %][% IF ( biblioitem.publicationyear ) %] in [% biblioitem.publicationyear | html %][% END %][% IF ( biblioitem.pages ) %], [% biblioitem.pages | html %][% END %]<br>[% END %]
+[% IF ( biblio.seriestitle ) %]Sarja: [% biblio.seriestitle | html %]<br>[% END %]
+[% IF ( biblio.copyrightdate ) %]Julkaisuvuosi: [% biblio.copyrightdate | html %]<br>[% END %]
+[% IF ( biblio.notes ) %]Huomautukset: [% biblio.notes | html %]<br>[% END %]
+[% IF ( biblio.unititle ) %]Yhtenäistetty nimeke: [% biblio.unititle | html %]<br>[% END %]
+[% IF ( biblio.serial ) %]Kausijulkaisu: [% biblio.serial | html %]<br>[% END %]
+[% IF ( biblio.get_marc_host_only || biblio.get_marc_hostinfo_only ) %]Teoksessa: [% IF biblio.get_marc_host_only.biblionumber %][% INCLUDE 'biblio-title.inc'  biblio=biblio.get_marc_host_only %] [% biblio.get_marc_relatedparts_only %][% ELSE %][% biblio.get_marc_hostinfo_only %][% END %]<br>[% END %]
+[% IF ( biblioitem.url ) %]URL: [% biblioitem.url | html %]<br>[% END %]
+<a href='https://outi.finna.fi/Record/outi.[% biblio.biblionumber | html %]'>Tarkastele teosta Finnassa</a>
+[% IF ( biblio.items.count > 0 ) %]<br>Niteitä: <ul>[% FOREACH item IN biblio.items %]<li>[% Branches.GetName( item.holdingbranch ) | html %]
+[% IF ( item.location ) %], [% AuthorisedValues.GetDescriptionByKohaField( kohafield => 'items.location', authorised_value => item.location ) | html %][% END %][% IF item.itemcallnumber %]([% item.itemcallnumber | html %])[% END %][% item.barcode | html %]</li>[% END %]</ul>[% END %]
+<hr></li>[% END %]</ol>
+```
+
+#### Englanniksi
+
+```
+[%- USE Branches -%]
+[%- USE AuthorisedValues -%]
+[%- USE Koha -%]
+[%- PROCESS 'html_helpers.inc' -%]
+Hi,<br><br>
+[% borrower.firstname | html %] [% borrower.surname | html %] sent you a cart from our online catalog.<br>
+Please note that the attached file is a MARC bibliographic records file which can be imported into personal bibliographic software like EndNote, Reference Manager or ProCite.<br>
+[% IF ( comment ) %]<hr><br>[% comment | html | html_line_break %]<br><br>[% END %]<hr>
+<ol>[% FOREACH biblio IN biblios %]<li>
+[% biblio.title | html %]
+[% IF ( biblio.subtitle ) %][% FOREACH subtitle IN biblio.subtitle.split(' | ') %][% subtitle | html %][% END %][% END %][% biblio.part_number | html %] [% biblio.part_name | html %]<br>
+[% IF ( biblio.author || biblio.get_marc_contributors.size ) %]Author(s): [% IF ( biblio.author ) %][% biblio.author | html %][% END %][% IF ( biblio.get_marc_contributors ) %][% IF ( biblio.author ) %]; [% END %][% FOREACH author IN biblio.get_marc_contributors %][% FOREACH subfield IN author.MARCAUTHOR_SUBFIELDS_LOOP %][% subfield.separator | html %][% subfield.value | html %][% END %][% UNLESS ( loop.last ) %];[% END %][% END %][% END %]<br>[% END %]
+[% SET biblioitem = biblio.biblioitem %][% IF ( biblioitem.isbn ) %]ISBN: [% FOREACH isbn IN biblioitem.isbn %][% isbn | html %][% UNLESS ( loop.last ) %]; [% END %][% END %]<br>[% END %]
+[% IF ( biblioitem.publishercode ) %]Published by: [% biblioitem.publishercode | html %][% IF ( biblioitem.publicationyear ) %] in [% biblioitem.publicationyear | html %][% END %][% IF ( biblioitem.pages ) %], [% biblioitem.pages | html %][% END %]<br>[% END %]
+[% IF ( biblio.seriestitle ) %]Collection: [% biblio.seriestitle | html %]<br>[% END %]
+[% IF ( biblio.copyrightdate ) %]Copyright year: [% biblio.copyrightdate | html %]<br>[% END %]
+[% IF ( biblio.notes ) %]Notes: [% biblio.notes | html %]<br>[% END %]
+[% IF ( biblio.unititle ) %]Unified title: [% biblio.unititle | html %]<br>[% END %]
+[% IF ( biblio.serial ) %]Serial: [% biblio.serial | html %]<br>[% END %]
+[% IF ( biblioitem.lccn ) %]LCCN: [% biblioitem.lccn | html %]<br>[% END %]
+[% IF ( biblio.get_marc_host_only || biblio.get_marc_hostinfo_only ) %]In: [% IF biblio.get_marc_host_only.biblionumber %][% INCLUDE 'biblio-title.inc'  biblio=biblio.get_marc_host_only %] [% biblio.get_marc_relatedparts_only %][% ELSE %][% biblio.get_marc_hostinfo_only %][% END %]<br>[% END %]
+[% IF ( biblioitem.url ) %]URL: [% biblioitem.url | html %]<br>[% END %]
+<a href='[% Koha.Preference('OpacBaseUrl') %]/cgi-bin/koha/opac-detail.pl?biblionumber=[% biblio.biblionumber | html %]'>View in online catalog</a>
+[% IF ( biblio.items.count > 0 ) %]<br>Items: <ul>[% FOREACH item IN biblio.items %]<li>[% Branches.GetName( item.holdingbranch ) | html %]
+[% IF ( item.location ) %], [% AuthorisedValues.GetDescriptionByKohaField( kohafield => 'items.location', authorised_value => item.location ) | html %][% END %][% IF item.itemcallnumber %]([% item.itemcallnumber | html %])[% END %][% item.barcode | html %]</li>[% END %]</ul>[% END %]
+<hr></li>[% END %]</ol>
+```
+
+## LIST
+
+Myös listan voi lähettää sähköpostilla ja viestin sisältö on ollut aiemmin kovakoodattu. Nyt se on tuotu muokattavaksi työkaluihin viestipohjiin. Alla yhteisön oletusviesti ja se käännettynä suomeksi.
+
+### Englanniksi
+
+HTML: kyllä<br />
+Pohja: email
+
+```
+[%- USE Branches -%]
+[%- USE AuthorisedValues -%]
+[%- USE Koha -%]
+[%- PROCESS 'html_helpers.inc' -%]
+Hi,<br><br>
+[% borrower.firstname | html %] [% borrower.surname | html %] sent you a list from our online catalog called: [% listname | html %].<br>
+Please note that the attached file is a MARC bibliographic records file which can be imported into personal bibliographic software like EndNote, Reference Manager or ProCite.<br>
+[% IF ( comment ) %]<hr><br>[% comment | html | html_line_break %]<br><br>[% END %]<hr>
+<ol>[% FOREACH biblio IN biblios %]<li>
+[% biblio.title | html %]
+[% IF ( biblio.subtitle ) %][% FOREACH subtitle IN biblio.subtitle.split(' | ') %][% subtitle | html %][% END %][% END %][% biblio.part_number | html %] [% biblio.part_name | html %]<br>
+[% IF ( biblio.author || biblio.get_marc_contributors.size ) %]Author(s): [% IF ( biblio.author ) %][% biblio.author | html %][% END %][% IF ( biblio.get_marc_contributors ) %][% IF ( biblio.author ) %]; [% END %][% FOREACH author IN biblio.get_marc_contributors %][% FOREACH subfield IN author.MARCAUTHOR_SUBFIELDS_LOOP %][% subfield.separator | html %][% subfield.value | html %][% END %][% UNLESS ( loop.last ) %];[% END %][% END %][% END %]<br>[% END %]
+[% SET biblioitem = biblio.biblioitem %][% IF ( biblioitem.isbn ) %]ISBN: [% FOREACH isbn IN biblioitem.isbn %][% isbn | html %][% UNLESS ( loop.last ) %]; [% END %][% END %]<br>[% END %]
+[% IF ( biblioitem.publishercode ) %]Published by: [% biblioitem.publishercode | html %][% IF ( biblioitem.publicationyear ) %] in [% biblioitem.publicationyear | html %][% END %][% IF ( biblioitem.pages ) %], [% biblioitem.pages | html %][% END %]<br>[% END %]
+[% IF ( biblio.seriestitle ) %]Collection: [% biblio.seriestitle | html %]<br>[% END %]
+[% IF ( biblio.copyrightdate ) %]Copyright year: [% biblio.copyrightdate | html %]<br>[% END %]
+[% IF ( biblio.notes ) %]Notes: [% biblio.notes | html %]<br>[% END %]
+[% IF ( biblio.unititle ) %]Unified title: [% biblio.unititle | html %]<br>[% END %]
+[% IF ( biblio.serial ) %]Serial: [% biblio.serial | html %]<br>[% END %]
+[% IF ( biblioitem.lccn ) %]LCCN: [% biblioitem.lccn | html %]<br>[% END %]
+[% IF ( biblio.get_marc_host_only || biblio.get_marc_hostinfo_only ) %]In: [% IF biblio.get_marc_host_only.biblionumber %][% INCLUDE 'biblio-title.inc'  biblio=biblio.get_marc_host_only %] [% biblio.get_marc_relatedparts_only %][% ELSE %][% biblio.get_marc_hostinfo_only %][% END %]<br>[% END %]
+[% IF ( biblioitem.url ) %]URL: [% biblioitem.url | html %]<br>[% END %]
+[<a href='[% Koha.Preference('OpacBaseUrl') %]/cgi-bin/koha/opac-detail.pl?biblionumber=[% biblio.biblionumber | html %]'>View in online catalog</a>
+[% IF ( biblio.items.count > 0 ) %]<br>Items: <ul>[% FOREACH item IN biblio.items %]<li>[% Branches.GetName( item.holdingbranch ) | html %]
+[% IF ( item.location ) %], [% AuthorisedValues.GetDescriptionByKohaField( kohafield => 'items.location', authorised_value => item.location ) | html %][% END %][% IF item.itemcallnumber %]([% item.itemcallnumber | html %])[% END %][% item.barcode | html %]</li>[% END %]</ul>[% END %]
+<hr></li>[% END %]</ol>
+```
+
+### Suomeksi
+
+HTML: kyllä
+Pohja: sähköposti
+
+```
+[%- USE Branches -%]
+[%- USE AuthorisedValues -%]
+[%- USE Koha -%]
+[%- PROCESS 'html_helpers.inc' -%]
+Hei,<br><br>
+[% borrower.firstname | html %] [% borrower.surname | html %] lähetti sinulle listan nimeltään: [% listname | html %].<br>
+Huomio, että liitteenä oleva tiedosto sisältää MARC-tietueita, jotka voidaan ladata bibliografisten tietueiden hallintaohjelmiin kuten EndNote, Reference Manager tai ProCite.<br>
+[% IF ( comment ) %]<hr><br>[% comment | html | html_line_break %]<br><br>[% END %]<hr>
+<ol>[% FOREACH biblio IN biblios %]<li>
+[% biblio.title | html %]
+[% IF ( biblio.subtitle ) %][% FOREACH subtitle IN biblio.subtitle.split(' | ') %][% subtitle | html %][% END %][% END %][% biblio.part_number | html %] [% biblio.part_name | html %]<br>
+[% IF ( biblio.author || biblio.get_marc_contributors.size ) %]Tekijä(t): [% IF ( biblio.author ) %][% biblio.author | html %][% END %][% IF ( biblio.get_marc_contributors ) %][% IF ( biblio.author ) %]; [% END %][% FOREACH author IN biblio.get_marc_contributors %][% FOREACH subfield IN author.MARCAUTHOR_SUBFIELDS_LOOP %][% subfield.separator | html %][% subfield.value | html %][% END %][% UNLESS ( loop.last ) %];[% END %][% END %][% END %]<br>[% END %]
+[% SET biblioitem = biblio.biblioitem %][% IF ( biblioitem.isbn ) %]ISBN: [% FOREACH isbn IN biblioitem.isbn %][% isbn | html %][% UNLESS ( loop.last ) %]; [% END %][% END %]<br>[% END %]
+[% IF ( biblioitem.publishercode ) %]Julkaisija: [% biblioitem.publishercode | html %][% IF ( biblioitem.publicationyear ) %] in [% biblioitem.publicationyear | html %][% END %][% IF ( biblioitem.pages ) %], [% biblioitem.pages | html %][% END %]<br>[% END %]
+[% IF ( biblio.seriestitle ) %]Sarja: [% biblio.seriestitle | html %]<br>[% END %]
+[% IF ( biblio.copyrightdate ) %]Julkaisuvuosi: [% biblio.copyrightdate | html %]<br>[% END %]
+[% IF ( biblio.notes ) %]Huomautukset: [% biblio.notes | html %]<br>[% END %]
+[% IF ( biblio.unititle ) %]Yhtenäistetty nimeke: [% biblio.unititle | html %]<br>[% END %]
+[% IF ( biblio.serial ) %]Kausijulkaisu: [% biblio.serial | html %]<br>[% END %]
+[% IF ( biblio.get_marc_host_only || biblio.get_marc_hostinfo_only ) %]Teoksessa: [% IF biblio.get_marc_host_only.biblionumber %][% INCLUDE 'biblio-title.inc'  biblio=biblio.get_marc_host_only %] [% biblio.get_marc_relatedparts_only %][% ELSE %][% biblio.get_marc_hostinfo_only %][% END %]<br>[% END %]
+[% IF ( biblioitem.url ) %]URL: [% biblioitem.url | html %]<br>[% END %]
+<a href='https://outi.finna.fi/Record/outi.[% biblio.biblionumber | html %]'>Tarkastele teosta Finnassa</a>
+[% IF ( biblio.items.count > 0 ) %]<br>Niteet: <ul>[% FOREACH item IN biblio.items %]<li>[% Branches.GetName( item.holdingbranch ) | html %]
+[% IF ( item.location ) %], [% AuthorisedValues.GetDescriptionByKohaField( kohafield => 'items.location', authorised_value => item.location ) | html %][% END %][% IF item.itemcallnumber %]([% item.itemcallnumber | html %])[% END %][% item.barcode | html %]</li>[% END %]</ul>[% END %]
+<hr></li>[% END %]</ol>
+```
+
+## TICKET_ACKNOWLEDGE
+
+Viestipohja liittyy uuteen Kuvailutietojen virheet -toimintoon. Tämä viesti lähtee virheilmoituksen tehneelle.
+
+### Englanniksi
+
+HTML: kyllä<br />
+Pohja: email
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Dear [%- INCLUDE 'patron-title.inc' patron => ticket.reporter -%],<br>
+<br>
+Thank you for your report concerning [%- INCLUDE 'biblio-title.inc' biblio=ticket.biblio link = 0 -%].<br>
+<br>
+You reported: <br>
+[%- ticket.body -%]<br>
+<br>
+Thank you
+```
+
+### Suomeksi
+
+HTML: Kyllä<br />
+Pohja: sähköposti
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Hei [%- INCLUDE 'patron-title.inc' patron => ticket.reporter -%],<br>
+<br>
+Kiitos virheilmoituksestasi liittyen tietueeseen [%- INCLUDE 'biblio-title.inc' biblio=ticket.biblio link = 0 -%].<br>
+<br>
+Ilmoituksesi: <br>
+[%- ticket.body -%]<br>
+<br>
+Kiitos!
+```
+
+## TICKET_NOTIFY
+
+Viestipohja liittyy uuteen Kuvailutietojen virheet -toimintoon. Tämä viesti lähtee CatalogerEmails-järjestelmäasetuksessa määritettyyn osoitteeseen, kun tehdään uusi virheilmoitus.
+
+### Englanniksi
+
+HTML: kyllä<br />
+Pohja: email
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+[%- USE Koha -%]
+Dear cataloger,<br>
+[%- INCLUDE 'patron-title.inc' patron => ticket.reporter -%] reported the following concern with <a href='[%- Koha.Preference('staffClientBaseURL') -%]/cgi-bin/koha/catalogue/detail.pl?biblionumber=[% ticket.biblio.biblionumber %]' >[%- INCLUDE 'biblio-title.inc' biblio=ticket.biblio link = 0 -%]</a><br>
+<br>
+[%- ticket.body -%]<br>
+<br>
+You can mark this concern as resolved from the <a href='[%- Koha.Preference('staffClientBaseURL') -%]/cgi-bin/koha/cataloguing/concerns.pl'>concern management page</a>.
+```
+### Suomeksi
+
+HTML: kyllä<br />
+Pohja: sähköposti
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+[%- USE Koha -%]
+Hyvä kuvailija,<br>
+[%- INCLUDE 'patron-title.inc' patron => ticket.reporter -%] ilmoitti virheen liittyen tietueeseen <a href='[%- Koha.Preference('staffClientBaseURL') -%]/cgi-bin/koha/catalogue/detail.pl?biblionumber=[% ticket.biblio.biblionumber %]' >[%- INCLUDE 'biblio-title.inc' biblio=ticket.biblio link = 0 -%]</a><br>
+<br>
+[%- ticket.body -%]<br>
+<br>
+Voit käsitellä virheilmoituksen <a href='[%- Koha.Preference('staffClientBaseURL') -%]/cgi-bin/koha/cataloguing/concerns.pl'>Virheilmoitusten hallinnassa</a>.
+```
+
+
+## TICKET_RESOLVE
+
+Viestipohja liittyy uuteen Kuvailutietojen virheet -toimintoon. Tämä viesti lähtee virheilmoituksen tekijälle, kun ongelma ratkaistaan.
+
+### Englanniksi
+
+HTML: kyllä<br />
+Pohja: email
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Dear [%- INCLUDE 'patron-title.inc' patron => ticket_update.ticket.reporter -%],<br>
+<br>
+The library has now marked your concern with [%- INCLUDE 'biblio-title.inc' biblio=ticket_update.ticket.biblio link = 0 -%] as resolved.<br>
+<br>
+The following comment was left: <br>
+[%- ticket_update.message -%]<br>
+<br>
+Thank you
+```
+
+### Suomeksi
+
+HTML: Kyllä<br<br />
+Pohja: sähköposti
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Hei [%- INCLUDE 'patron-title.inc' patron => ticket_update.ticket.reporter -%],<br>
+<br>
+Virheilmoituksesi [%- INCLUDE 'biblio-title.inc' biblio=ticket_update.ticket.biblio link = 0 -%] on nyt merkitty ratkaistuksi.<br>
+<br>
+Ilmoitukseen lisättiin seuraava kommentti: <br>
+[%- ticket_update.message -%]<br>
+<br>
+Kiitos!
+```
+
+## TICKET_UPDATE
+
+Viestipohja liittyy uuteen Kuvailutietojen virheet -toimintoon. Tämä viesti lähtee virheilmoituksen tekijälle, kun virheilmoitukseen lisätään kommentti.
+
+### Englanniksi
+
+HTML: kyllä<br />
+Pohja: email
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Dear [%- INCLUDE 'patron-title.inc' patron => ticket_update.ticket.reporter -%],<br>
+<br>
+The library has added an update to the concern you reported against [%- INCLUDE 'biblio-title.inc' biblio=ticket_update.ticket.biblio link = 0 -%].<br>
+<br>
+The following comment was left: <br>
+[%- ticket_update.message -%]<br>
+<br>
+Thank you
+```
+### Suomeksi
+
+HTML: kyllä<br />
+Pohja: sähköposti
+
+```
+[%- PROCESS 'html_helpers.inc' -%]
+Hei [%- INCLUDE 'patron-title.inc' patron => ticket_update.ticket.reporter -%],<br>
+<br>
+Virheilmoitustasi [%- INCLUDE 'biblio-title.inc' biblio=ticket_update.ticket.biblio link = 0 -%] on muokattu.<br>
+<br>
+Ilmoitukseen lisättiin seuraava kommentti:<br>
+[%- ticket_update.message -%]<br>
+<br>
+Kiitos!
+```
+
+
+## HOLDDGST
+
+### Englanti
+
+#### Sähköposti
+
+HTML: ei
+
+```
+Library pick-up notice 
+<<today>>
+
+Hello [% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Your library hold identifier is <<borrower-attribute:HOLDID>>.
+
+The following items are waiting for pick-up:
+
+----
+[% hold.biblio.title %] [% biblio.part_number %] [% item.enumchron %] [% hold.biblio.author %] ([% item.barcode %]) at [% hold.branch.branchname %]. The last pick-up day is [% hold.expirationdate | $KohaDates dateformat => 'dmydot' %].
+
+----
+
+Please remember to take your library card with you when picking up your reservation. 
+If you do not pick up your hold, a fee of 1,00 € will be charged.
+
+
+Best regards
+<<branches.branchname>>
+<<branches.branchaddress1>>
+<<branches.branchzip>>  <<branches.branchcity>>
+<<branches.branchphone>>
+<<branches.branchreplyto>>
+www.outikirjastot.fi
+```
+
+#### Tekstiviesti
+
+```
+Your hold identifier is <<borrower-attribute:HOLDID>>. The followin items are waiting for pick-up:
+
+----
+[% hold.biblio.title %] [% biblio.part_number %] [% item.enumchron %] [% hold.biblio.author %] ([% item.barcode %]) [% hold.branch.branchname %]sta. Viimeinen noutopäivä on [% hold.expirationdate | $KohaDates dateformat => 'dmydot' %].
+
+----
+```
+
+#### Tuloste
+
+Pohjan pystyy määrittämään, mutta asiakkaille ei saa valittua kooste-täppää, koska se onnistuu vain, jos valittuna on myös joko email tai sms -täppä.
+
+### Suomeksi
+
+#### Sähköposti
+
+Huomioita:
+* viimeisen noutopäivän saa suomalaisessa muodossa | $KohaDates dateformat => 'dmydot' -määreellä.
+* allekirjoitukseen tulee sen kirjaston tiedot, missä viimeisin kiinni jäänyt varaus palautetaan/on noudettavissa.
+* teostietojen alapuolella kannattaa olla yksi tyhjä rivi, jotta eri teokset eivät tule ns. kiinni toisiinsa.
+
+```
+[%- USE KohaDates -%]
+NOUTOILMOITUS                                        
+<<today>>
+
+Hei [% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Varaustunnuksesi on <<borrower-attribute:HOLDID>>.
+
+Seuraavat varaamasi teokset ovat noudettavissa:
+
+----
+[% hold.biblio.title %] [% biblio.part_number %] [% item.enumchron %] [% hold.biblio.author %] ([% item.barcode %]) [% hold.branch.branchname %]sta. Viimeinen noutopäivä on [% hold.expirationdate | $KohaDates dateformat => 'dmydot' %].
+
+----
+
+Muistathan ottaa kirjastokortin mukaan varausta noutaessasi. Noutamattomasta varauksesta perimme yhden euron.
+
+
+Terveisin 
+<<branches.branchname>>
+<<branches.branchaddress1>>
+<<branches.branchzip>>  <<branches.branchcity>>
+<<branches.branchphone>>
+<<branches.branchreplyto>>
+www.outikirjastot.fi
+```
+
+#### Tekstiviesti
+
+Huomioita: 
+* viestistä tulee pakostakin pitkä, kun useamman varauksen tiedot ympätään yhteen viestiin.
+
+```
+Varaustunnuksellasi <<borrower-attribute:HOLDID>> on seuraavat varaamasi teokset noudettavissa:
+
+----
+[% hold.biblio.title %] [% biblio.part_number %] [% item.enumchron %] [% hold.biblio.author %] ([% item.barcode %]) [% hold.branch.branchname %]sta. Viimeinen noutopäivä on [% hold.expirationdate | $KohaDates dateformat => 'dmydot' %].
+
+----
+```
+
+#### Tuloste
+
+Pohjan pystyy määrittämään, mutta asiakkaille ei saa valittua kooste-täppää, koska se onnistuu vain, jos valittuna on myös joko email tai sms -täppä.
+
+## HOLDPLACED_PATRON
+
+### Englanniksi
+
+Pohja: email
+
+```
+Hello [% borrower.firstname %] [% borrower.surname %] ([% borrower.cardnumber %]),
+Your hold on [% hold.biblio.title %] ([% hold.biblio.id %]) has been confirmed.
+You will be notified by the library when your item is available for pickup.
+Thank you!
+```
+
+### Suomeksi
+
+Pohja: sähköposti
+
+```
+Hei [% borrower.firstname %] [% borrower.surname %] ([% borrower.cardnumber %]),
+
+Olet tehnyt varauksen teokseen [% hold.biblio.title %] ([% hold.biblio.id %]).
+
+Saat uuden ilmoituksen, kun teos on noudettavissa.
+
+Kiitos!
+```
+
+## MEMBERSHIP_RENEWED
+
+### Englanniksi
+
+Pohja: email
+
+```
+[%- USE Price -%]
+Dear [% borrower.title %] [% borrower.firstname %] [% borrower.surname %],
+
+Your library account has been renewed. The new expiry date is: [% borrower.dateexpiry %].
+[% IF borrower.category.enrolmentfee > 0 %]
+An enrollment fee of [% borrower.category.enrolmentfee | $Price with_symbol => 1 %] has been applied.
+[% END %]
+Thank you,
+
+Your library,
+
+[% branch.branchname %]
+```
+
+### Suomeksi
+
+Pohja: sähköposti
+
+```
+Hei [% borrower.firstname %] [% borrower.surname %],
+
+Kirjastokorttisi voimassaoloaika on uusittu. Uusi vanhentumispäivämäärä on: [% borrower.dateexpiry %].
+
+Terveisin
+
+[% branch.branchname %]
+```
+
+## PRES_TRAIN_ITEM
+
+### Englanniksi
+
+Pohja: Print
+
+```
+[%~ USE AuthorisedValues ~%]
+[%~ SET train = train_item.train ~%]
+[%~ SET item = train_item.catalogue_item ~%]
+Train name: [% train.name %]
+Sent on: [% train.sent_on | $KohaDates %]
+
+[% train.default_processing.name %]
+
+Item number #[% train_item.user_train_item_id %]
+
+[% FOREACH item_attribute IN train_item.attributes %]
+    [%~ SET value = item_attribute.value ~%]
+    [%~ IF item_attribute.processing_attribute.type == 'authorised_value' ~%]
+        [%~ SET value = AuthorisedValues.GetByCode(item_attribute.processing_attribute.option_source, item_attribute.value) ~%]
+    [%~ END ~%]
+    [% item_attribute.processing_attribute.name %]: [% value %]
+[% END %]
+```
+
+### Suomeksi
+
+Pohja: Tuloste
+
+```
+[%~ USE AuthorisedValues ~%]
+[%~ SET train = train_item.train ~%]
+[%~ SET item = train_item.catalogue_item ~%]
+Käsittelyerän nimi: [% train.name %]
+Lähetetty: [% train.sent_on | $KohaDates %]
+
+[% train.default_processing.name %]
+
+Nidenumero #[% train_item.user_train_item_id %]
+
+[% FOREACH item_attribute IN train_item.attributes %]
+    [%~ SET value = item_attribute.value ~%]
+    [%~ IF item_attribute.processing_attribute.type == 'authorised_value' ~%]
+        [%~ SET value = AuthorisedValues.GetByCode(item_attribute.processing_attribute.option_source, item_attribute.value) ~%]
+    [%~ END ~%]
+    [% item_attribute.processing_attribute.name %]: [% value %]
+[% END %]
+```
 Vaara Libraries
 ```
