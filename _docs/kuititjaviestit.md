@@ -2537,6 +2537,6 @@ Nidenumero #[% train_item.user_train_item_id %]
     [%~ END ~%]
     [% item_attribute.processing_attribute.name %]: [% value %]
 [% END %]
-```
+
 Vaara Libraries
 ```
