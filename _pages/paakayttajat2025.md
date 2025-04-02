@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 15
+
+Aika: 8.4.2025<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 15 päivitys
+* [Varaustunnuksen boldaus -rimpsu lisätty IntranetUserCSS-kirjastoon](https://koha-suomi.fi/dokumentaatio/intranetusercss/#lihavoi-asiakasm%C3%A4%C3%A4re-varaustunnus-asiakkaan-yhteenveto-osiossa-vasemmalla), sen voi ottaa kimpassa tarvittaessa käyttöön. Liittyy [tikettiin 1753](https://github.com/KohaSuomi/Koha/issues/1753)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 14
 
 Aika: 1.4.2025<br />
@@ -42,6 +55,9 @@ Pohjoisesta etelään
 **OUTI**
 * Oulun Ceepos-kassaympäristö siirtyi 1.4.2025 Oulun Monetran kassaympäristöön. https://github.com/KohaSuomi/Koha/issues/1718
 * OUTI siirtyi käyttämään 1.4.2025 LinkMobilityn uutta MyLink APIa Kohassa. https://github.com/KohaSuomi/Koha/issues/1381
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-14) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 13
 
