@@ -2007,6 +2007,7 @@ Terveisin
 Viestityyppi: Sähköposti
 HTML-viesti: kyllä
 Viestin aihe: Welcome to Vaara Libraries
+
 ```
 [% USE Koha %]
 Hello [% borrower.firstname %].
@@ -2020,6 +2021,7 @@ Please read our <a href='https://vaara.finna.fi/Content/asiakkaana#userrights'>l
 If you have any questions about our library or our services, please do not hesitate to contact us. <a href='https://vaara.finna.fi/Content/kirjastot'>Our contact info</a>.
 
 Best regards
+```
 
 ## CART
 
