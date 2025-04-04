@@ -21,6 +21,7 @@ Läsnä:
 * Kesälomat
 * Viikon 15 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* omat sandboxit?
 
 ## Viikko 14
 
