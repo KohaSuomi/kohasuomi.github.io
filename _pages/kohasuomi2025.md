@@ -20,7 +20,7 @@ Läsnä: Ari, Anneli, Emmi, Johanna, Lari, Pasi, Kodo
 
 * Kesälomat
 * Viikon 15 päivitys
-* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3AAssignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
   * Tämä linkki ei enää toimi, jotain muuttunut Githubissa. valittaa user:KohaSuomi -organisaatiosta. Pasi tutkii.
 * omat sandboxit?
   * ByWater yms tyyliset käyttäjien itse käynnistelemät vaatii todella paljon KS-ympäristön muutoksia.
