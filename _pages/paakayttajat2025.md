@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 14
 
 Aika: 1.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI) 
+Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -55,6 +55,10 @@ Pohjoisesta etelään
 **OUTI**
 * Oulun Ceepos-kassaympäristö siirtyi 1.4.2025 Oulun Monetran kassaympäristöön. https://github.com/KohaSuomi/Koha/issues/1718
 * OUTI siirtyi käyttämään 1.4.2025 LinkMobilityn uutta MyLink APIa Kohassa. https://github.com/KohaSuomi/Koha/issues/1381
+
+**Siilinjärvi**
+* Kysytty aiheuttaako YSO-konversion lokitiedosto toimenpiteitä omassa Kohassa; ei toistaiseksi. Seurataan teamsia ja muita keskusteluja.
+* Ei muuta mainittavaa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-14) - [Palaa sivun alkuun](/paakayttajat2025)
