@@ -1681,10 +1681,10 @@ ORDER BY items.cn_sort
 Parametriksi annetaan niteen itemnumber.
 
 Tehnyt: Anneli Österman<br />
-Pvm: 6.8.2019
+Pvm: 6.8.2019 / 8.4.2025
 
 ```
-select * from statistics where itemnumber=<<Itemnumber>>
+select * from statistics where itemnumber=<<itemnumber>>
 ```
 
 ### Eriparit aineistolajit
