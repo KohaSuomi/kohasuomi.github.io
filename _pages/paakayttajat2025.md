@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 8.4.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
@@ -21,6 +21,9 @@ Läsnä:
 * [Varaustunnuksen boldaus -rimpsu lisätty IntranetUserCSS-kirjastoon](https://koha-suomi.fi/dokumentaatio/intranetusercss/#lihavoi-asiakasm%C3%A4%C3%A4re-varaustunnus-asiakkaan-yhteenveto-osiossa-vasemmalla), sen voi ottaa kimpassa tarvittaessa käyttöön. Liittyy [tikettiin 1753](https://github.com/KohaSuomi/Koha/issues/1753)
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
