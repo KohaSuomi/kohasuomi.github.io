@@ -15,6 +15,28 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 4/2025
+
+Aika: To 16.4.2025 klo 13<br />
+Läsnä:
+
+### Ajankohtaiset
+
+### Kehitysehdotukset
+
+* [Lastseen-arvon päivittyminen maksujen luomisen ja maksamisen yhteydessä #1702](https://github.com/KohaSuomi/Koha/issues/1702)
+* [Lastseen-arvon päivittyminen Vaihda salasana -toiminnon yhteydessä #1742](https://github.com/KohaSuomi/Koha/issues/1742)
+* [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
+  * jatketaan käsittelyä
+* [Tarratulostustyökaluun tarrapohjan kopiointimahdollisuus #1786](https://github.com/KohaSuomi/Koha/issues/1786)
+* [Nidehistorian valmis linkki JS-liitännäiseksi #1788](https://github.com/KohaSuomi/Koha/issues/1788)
+* [Aikakatkaisun rimpsu JS-liitännäiseksi #1789](https://github.com/KohaSuomi/Koha/issues/1789)
+
+### Muut asiat
+
+### Seuraava kokous
+
+
 ## Muistio 3/2025
 
 Aika: To 13.3.2025 klo 13<br />
