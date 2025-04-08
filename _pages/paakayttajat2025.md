@@ -30,7 +30,7 @@ Etelästä pohjoiseen
 * Niteen havaintohistorian ihmettelyä, miten sama nide voi olla samaan aikaan monen eri kirjaston listalla.
 
 **OUTI**
-* Muutamassa Oulun koulukirjastossa on ollut ongelmana Kohan itsepalvelulainauksessa, että CSRF-token on vanhentunut monta kertaa päivässä ja tästä syystä itsepalvelulainaus on kirjautunut ohjelmasta ulos ja lakannut toimimasta. Viikon 14 Koha-päivityksessä tuli itsepalvelulainaukseen pari korjausta, joista toinen ehkä korjasi ko. ongelman. Päivityksen jälkee kouluilta ei ole tullut valituksia ongelmasta.
+* Muutamassa Oulun koulukirjastossa on ollut ongelmana Kohan itsepalvelulainauksessa, että CSRF-token on vanhentunut monta kertaa päivässä ja tästä syystä itsepalvelulainaus on kirjautunut ohjelmasta ulos ja lakannut toimimasta. Viikon 14 Koha-päivityksessä tuli itsepalvelulainaukseen pari korjausta, joista toinen ehkä korjasi ko. ongelman. Päivityksen jälkeen kouluilta ei ole tullut valituksia ongelmasta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
