@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 8.4.2025 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski)
+Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
@@ -24,6 +24,10 @@ Etelästä pohjoiseen
 
 **Vaski**
 * Normaalia ylläpitoa.
+
+**Vaara**
+* Signummuutoksen tarvitsemia muutoksia testattu mm. tarratulostukseen ja palautusautomaatin toimintaan. Nämä muutokset tulevat viemään aikaa, monenlaisia kysymyksiä ja ongelmia.
+* Niteen havaintohistorian ihmettelyä, miten sama nide voi olla samaan aikaan monen eri kirjaston listalla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
