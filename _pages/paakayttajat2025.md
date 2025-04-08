@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 8.4.2025 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
@@ -31,6 +31,10 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Muutamassa Oulun koulukirjastossa on ollut ongelmana Kohan itsepalvelulainauksessa, että CSRF-token on vanhentunut monta kertaa päivässä ja tästä syystä itsepalvelulainaus on kirjautunut ohjelmasta ulos ja lakannut toimimasta. Viikon 14 Koha-päivityksessä tuli itsepalvelulainaukseen pari korjausta, joista toinen ehkä korjasi ko. ongelman. Päivityksen jälkeen kouluilta ei ole tullut valituksia ongelmasta.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Toivottiin, että tarrapohjiin saataisiin kopiointimahdollisuus tarratulostustyökalussa. Asiasta tehty tiketti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
