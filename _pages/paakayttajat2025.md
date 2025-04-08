@@ -16,7 +16,8 @@ Aika: 8.4.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 15 päivitys
+* [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
+* [Huoltotiedote 9.4.2025](https://github.com/KohaSuomi/Koha/discussions/1783)
 * [Varaustunnuksen boldaus -rimpsu lisätty IntranetUserCSS-kirjastoon](https://koha-suomi.fi/dokumentaatio/intranetusercss/#lihavoi-asiakasm%C3%A4%C3%A4re-varaustunnus-asiakkaan-yhteenveto-osiossa-vasemmalla), sen voi ottaa kimpassa tarvittaessa käyttöön. Liittyy [tikettiin 1753](https://github.com/KohaSuomi/Koha/issues/1753)
 
 Etelästä pohjoiseen
