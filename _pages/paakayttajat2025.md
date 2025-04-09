@@ -49,6 +49,7 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Korjailtu hankintaportaalin tilauksen 1.4. jälkiä, tilauksen tietueista ja niteistä tuli Kohaan vain osa, aiheutti vähän selvittelyä.
 * Tiera ja Mikro-Väylä päivittävät 9.4. uudet DNS-osoitteet automaateille, ei pitäisi aiheuttaa Kohan päässä muutoksia.
+* Jatketaan signum-muutostöitä. Ei pitäisi Siilissä olla mitään ylivoimaista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
