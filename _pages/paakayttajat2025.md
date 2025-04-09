@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 8.4.2025 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Janne Seppänen (Lastu)
+Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Reetta Pihlaja (Siilinjärvi, alkuosan)
 
 **Yhteiset**
 * [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
@@ -45,6 +45,10 @@ Etelästä pohjoiseen
   > Valitse hakukentäksi "Varaustunnus" ja hakutyypiksi "Alkaa". Jos varaustunnuksessa on välilyönti, korvaa se alaviivalla, esim. 12_345
 * Asiakkailta tullut toiveita näyttää laina-aika myös Finnassa, mutta nidetyypit sellaisenaan eivät välttämättä tähän taivu sellaisenaan. Laina-aika voi myös muuttua varauksen tekohetkestä lainaushetkeen.
 * Kehitelty toimintoa, joka luo tietueen Niteet-välilehdelle kunkin niteen tietoihin linkin niteen havaintohistorian listaavalle raportille. JS-rimpsu löytyy [tältä tiketiltä](https://github.com/KohaSuomi/Koha/issues/1788), palaverin jälkeen pohdittu tehdäänkö tuosta plugari vai lisätäänkö IntranetUserJS-kirjastoon.
+
+**Siilinjärvi**
+* Korjailtu hankintaportaalin tilauksen 1.4. jälkiä, tilauksen tietueista ja niteistä tuli Kohaan vain osa, aiheutti vähän selvittelyä.
+* Tiera ja Mikro-Väylä päivittävät 9.4. uudet DNS-osoitteet automaateille, ei pitäisi aiheuttaa Kohan päässä muutoksia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-15) - [Palaa sivun alkuun](/paakayttajat2025)
 
