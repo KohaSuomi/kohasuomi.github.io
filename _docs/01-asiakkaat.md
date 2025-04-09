@@ -650,7 +650,7 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston ohjeiden mukaan.
 
-## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
+## 1.5. Asiakkaiden muutospyyntöjen käsittely
 
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, hyväksytään muutokset virkailijaliittymässä ennen muutosten voimaantuloa. 
