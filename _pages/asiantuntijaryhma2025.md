@@ -22,6 +22,8 @@ Läsnä:
 
 ### Ajankohtaiset
 
+Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025.
+
 ### Kehitysehdotukset
 
 * [Lastseen-arvon päivittyminen maksujen luomisen ja maksamisen yhteydessä #1702](https://github.com/KohaSuomi/Koha/issues/1702)
