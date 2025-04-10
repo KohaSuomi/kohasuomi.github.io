@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 8.4.2025 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Reetta Pihlaja (Siilinjärvi, alkuosan)
+Läsnä: Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Anneli Österman, Emmi Takkinen, Pasi Kallinen ja Lari Strand (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Reetta Pihlaja (Siilinjärvi, alkuosan), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 15 päivitys](https://github.com/KohaSuomi/Koha/discussions/1784)
