@@ -22,7 +22,7 @@ Läsnä:
 
 ### Ajankohtaiset
 
-Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025.
+Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. Päivitys pyritään pitämään normaalin huoltokatkon aikarajoissa.
 
 ### Kehitysehdotukset
 
@@ -33,6 +33,8 @@ Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025.
 * [Tarratulostustyökaluun tarrapohjan kopiointimahdollisuus #1786](https://github.com/KohaSuomi/Koha/issues/1786)
 * [Nidehistorian valmis linkki JS-liitännäiseksi #1788](https://github.com/KohaSuomi/Koha/issues/1788)
 * [Aikakatkaisun rimpsu JS-liitännäiseksi #1789](https://github.com/KohaSuomi/Koha/issues/1789)
+* [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
+  * jatketaan käsittelyä
 
 ### Muut asiat
 
