@@ -24,6 +24,9 @@ Läsnä:
 
 Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. Päivitys pyritään pitämään normaalin huoltokatkon aikarajoissa.
 
+[Suomi.fi-tiedote](https://asiakastiedotteet.dvv.fi/a/s/89627005-398c9f45e420db4e5143abb3c6ba7929/2241547)
+* Suomi on siirtymässä kohti ensisijaisesti digitaalista viranomaisviestintää. Käyttäjälle ehdotetaan 12.5.2025 alkaen Suomi.fi-viestien käyttöönottoa, kun hän tunnistautuu vahvasti julkisen hallinnon asiointipalveluihin. Tämä muutos Suomi.fi-tunnistuksessa voi aiheuttaa asiakasyhteydenottoja, joihin on hyvä varautua.
+
 ### Kehitysehdotukset
 
 * [Lastseen-arvon päivittyminen maksujen luomisen ja maksamisen yhteydessä #1702](https://github.com/KohaSuomi/Koha/issues/1702)
