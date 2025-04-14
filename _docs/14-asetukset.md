@@ -154,34 +154,22 @@ Jotta mitään voisi lainata, pitää määritellä nidetyypit, koska laina- ja 
 Laina- ja maksusääntöjä voi tehdä kirjaston, asiakastyypin ja nidetyypin mukaan. Nidetyyppejä luodessa kannattaa siis miettiä, minkälaisia laina-aikoja ja myöhästymismaksuja tarvitsee olla, kuinka monta lainaa saa olla kerralla, tarviiko automaatilla tehdä lajitteluja nidetyypin (joka mäpätään sip-materiaalityypiksi), tarvitseeko pystyä tekemään nidevarauksia.
 
 **Alla esimerkkinä OUTI-kirjastojen nidetyypit:**
-
-14 vrk - AV	: 14VRK (AV-aineistolle, joissa laina-aika on 14 vrk)
-
-14 vrk - 2 lainaa :	14VRK2LA  (Konsolipeleille, joissa laina-aika on sama kuin muulla AV-aineistolla, mutta lainamäärä on rajoitettu kahteen)
-
-14 vrk - 40 snt/pv :	14VRK40SNT (Lyhytlainoille, joilla laina-aika on 14 vrk, mutta päivittäinen myöhästymismaksu on korkeampi kuin AV-aineistolla)
-
-14 vrk - LN - AV	: 14VRKLN  (Lasten AV-aineisto, jolla laina-aika 14 vrk. Lastenaineistosta ei mene päiväkohtaista myöhästymismaksua, joten sitä varten tarvitaan oma nidetyyppi)
-
-14 vrk - LN - 2 lainaa :	14VRKLN2LA (Lasten konsolipeleille. Muuten sama kuin yllä oleva vastaava, mutta ei mene päiväkohtaista myöhästymismaksua)
-
-28 vrk :	28VRK (Yleisin nidetyyppi, jolle on määritetty laina-ajaksi 28 vrk ja myöhästymismaksuksi 15 snt/pv. Nidevaraukset eivät sallittuja verkkokirjastossa.)
-
-28 vrk - AV :	28VRKAV  (AV-aineistolle, joissa laina-aika on 28 vrk. Nämä pitää saada palautusautomaatilla lajiteltua muusta 28 vrk-materiaalista erilleen, minkä vuoksi oma nidetyyppi)
-
-28 vrk - Lehti	: 28VRKLEHTI (Aikuisten lehdille. Näille pitää pystyä tekemään nidevarauksia verkkokirjastossa, minkä vuoksi oma nidetyyppi)
-
-28 vrk - LN	: 28VRKLN (Lasten aineisto yleislaina-aika. Näistä ei saa mennä päiväkohtaista myöhästymismaksua, minkä vuoksi erillinen nidetyyppi 28 vrk:sta)
-
-28 vrk - LN - AV	: 28VRKLNAV (Lasten aineiston 28 vrk:n AV-aineiston nidetyyppi, joista ei saa mennä päiväkohtaista myöhästymismaksua)
-
-28 vrk - LN - Lehti	: 28VRKLNLEH (Lasten lehtiaineistolle oma nidetyyppi, koska ei saa mennä päiväkohtaista myöhästymismaksua ja pitää pystyä tekemään nidevarauksia verkkokirjastossa)
-
-7 vrk - 1 laina	: 7VRK1LA (Pikalainat/Sarjakortit, joilla laina-aika 7 vrk, lainamäärä 1 kpl ja myöhästymismaksu 40 snt/pv)
-
-Ei lainata	: EILAINATA (Ei lainattavan materiaalin nidetyyppi, joille määritetty lainamääräksi 0)
-
-Oppimateriaalipalvelut : OPPIMATER (Oulun koulukirjaston Oppimateriaalipalvelujen tarvitsema nidetyyppi. Muuten koulukirjaston niteet ovat lasten aineiston nidetyypeillä)
+Nidetyypin kuvaus | Nidetyypin tunnus | Selite
+---|---|---
+14 vrk - AV	| 14VRK |AV-aineistolle, joissa laina-aika on 14 vrk
+14 vrk - 2 lainaa |	14VRK2LA | Konsolipeleille, joissa laina-aika on sama kuin muulla AV-aineistolla, mutta lainamäärä on rajoitettu kahteen
+14 vrk - 40 snt/pv |	14VRK40SNT | Lyhytlainoille, joilla laina-aika on 14 vrk, mutta päivittäinen myöhästymismaksu on korkeampi kuin AV-aineistolla
+14 vrk - LN - AV	| 14VRKLN | Lasten AV-aineisto, jolla laina-aika 14 vrk. Lastenaineistosta ei mene päiväkohtaista myöhästymismaksua, joten sitä varten tarvitaan oma nidetyyppi
+14 vrk - LN - 2 lainaa |	14VRKLN2LA | Lasten konsolipeleille. Muuten sama kuin yllä oleva vastaava, mutta ei mene päiväkohtaista myöhästymismaksua
+28 vrk | 28VRK | Yleisin nidetyyppi, jolle on määritetty laina-ajaksi 28 vrk ja myöhästymismaksuksi 15 snt/pv. Nidevaraukset eivät sallittuja verkkokirjastossa.
+28 vrk - AV |	28VRKAV  | AV-aineistolle, joissa laina-aika on 28 vrk. Nämä pitää saada palautusautomaatilla lajiteltua muusta 28 vrk-materiaalista erilleen, minkä vuoksi oma nidetyyppi
+28 vrk - Lehti	|  28VRKLEHTI | Aikuisten lehdille. Näille pitää pystyä tekemään nidevarauksia verkkokirjastossa, minkä vuoksi oma nidetyyppi
+28 vrk - LN	| 28VRKLN | Lasten aineisto yleislaina-aika. Näistä ei saa mennä päiväkohtaista myöhästymismaksua, minkä vuoksi erillinen nidetyyppi 28 vrk:sta
+28 vrk - LN - AV	| 28VRKLNAV | Lasten aineiston 28 vrk:n AV-aineiston nidetyyppi, joista ei saa mennä päiväkohtaista myöhästymismaksua
+28 vrk - LN - Lehti	| 28VRKLNLEH | Lasten lehtiaineistolle oma nidetyyppi, koska ei saa mennä päiväkohtaista myöhästymismaksua ja pitää pystyä tekemään nidevarauksia verkkokirjastossa
+7 vrk - 1 laina	| 7VRK1LA | Pikalainat/Sarjakortit, joilla laina-aika 7 vrk, lainamäärä 1 kpl ja myöhästymismaksu 40 snt/pv
+Ei lainata	| EILAINATA | Ei lainattavan materiaalin nidetyyppi, joille määritetty lainamääräksi 0
+Oppimateriaalipalvelut | OPPIMATER | Oulun koulukirjaston Oppimateriaalipalvelujen tarvitsema nidetyyppi. Muuten koulukirjaston niteet ovat lasten aineiston nidetyypeillä
 
 ### 3.1 Uusi nidetyyppi
 
