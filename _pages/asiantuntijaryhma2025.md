@@ -40,6 +40,8 @@ Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. P
   * jatketaan käsittelyä
 
 ### Muut asiat
+* Asiakasvarmenteen uusiminen ja jakeluaikataulu
+* [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563) - miten edetään?
 
 ### Seuraava kokous
 
