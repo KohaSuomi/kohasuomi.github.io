@@ -323,11 +323,11 @@ PAYMENT_TYPE-luokan arvot näytetään maksua maksettaessa Maksutyyppi-valikossa
 
 **REPORT_GROUP ja REPORT_SUBGROUP**
 
-REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta. Jos luot ryhmän raportti-osiossa, muista ettei tunnuksessa saa olla ääkkösiä tai muita erikoismerkkejä, koska ne rikkovat välilehtien toiminnan.
+REPORT_GROUP ja REPORT_SUBGROUP -luokissa määritetään, minkä nimisiä välilehtiä näkyy Tallennetuissa raporteissa. Näitä voi luoda myös suoraan raportti-osion kautta. Jos luot ryhmän raportti-osiossa, muista **ettei tunnuksessa saa olla ääkkösiä tai muita erikoismerkkejä, koska ne rikkovat välilehtien toiminnan**.
 
 **SIP_MEDIA_TYPE**
 
-SIP_MEDIA_TYPE-luokassa on lueteltuna SIP-mediatyypit, jotka välittyvät SIP2-viestissä automaatille. Näiden perusteella voidaan tehdä esim. lajitteluja automaatin ohjelmistossa. Standardi on vanha, joten vaihtoehtoja ei ole kovin kummoisia. Nämä on kytkettävissä Kohan nidetyyppeihin niiden ylläpidossa.
+SIP_MEDIA_TYPE-luokassa on lueteltuna SIP-mediatyypit, jotka välittyvät SIP2-viestissä automaatille niteen "aineistolajina". Näiden perusteella voidaan tehdä esim. lajitteluja automaatin ohjelmistossa. Standardi on vanha, joten vaihtoehtoja ei ole kovin kummoisia. Nämä on kytkettävissä Kohan nidetyyppeihin niiden ylläpidossa.
 
 **SUBLOC**
 
@@ -963,7 +963,7 @@ WRITEOFF|Maksun poisto|Asiakkaan maksu on poistettu
 
 ## 16. Liitännäiset
 
-Liitännäisissä näkyvät kaikki asennetut liitännäiset ja niiden tila. Liitännäisiä on eri tyyppisiä. Osa on ns. työkaluja, jotka saa käynnistettyä (esim. tarratulostustyökalu), osa toimii vain taustalla, eikä niillä ole käyttöliittymää (esim. tekstiviestiajurit).
+Liitännäisissä näkyvät kaikki asennetut liitännäiset ja niiden tila. Liitännäisiä on eri tyyppisiä. Osa on ns. työkaluja, jotka saa käynnistettyä (esim. tarratulostustyökalu), osa toimii vain taustalla, eikä niillä ole käyttöliittymää (esim. tekstiviestiajurit). Osa on ns. raporttiliitännäisiä.
 
 ![](/assets/files/docs/Asetukset/liitannaiset.png)
 
@@ -1002,6 +1002,10 @@ TäTi-tietokannassa on täydellisimmät MARC-kuvailupohjat, koska primäärikuva
 Toiminnot-napista pääsee tutkailemaan MARC-rakennetta, muokkaamaan ja poistamaan kuvailupohjan sekä viemään ja tuomaan pohjan.
 
 ![](/assets/files/docs/Asetukset/kuvailupohjat1.png)
+
+MARC-kuvailupohjia voi viedä tietokannasta toiseen, mutta kannattaa huomioida pari asiaa:
+* jos lähtötietokannassa on kuvailupohjaan liitetty sellaisia auktorisoituja arvoja, joita ei kohdetietokannassa ole, eivät nämä kentät siirry kohdetietokantaan.
+* jos lähtö- ja kohdetietokannassa on erilaiset määritykset Kohan MARC-määrityksissä, voi linkitys MARC-kentän ja tietokannan taulun välillä muuttua tai poistua kokonaan, jolloin voi tulla ongelmia tietojen näkymisessä Kohan eri näytöillä. Tai jopa niin, että tiedot eivät tallennu.
 
 ### 18.1 MARC-rakenne
 
