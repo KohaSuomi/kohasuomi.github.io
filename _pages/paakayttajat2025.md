@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 15.4.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren, Lotta Juvonen, Vilgot Strömsholm (Helle)
 
 **Yhteiset**
 * ei viikkopäivitystä palvelimien tiedostojärjestelmäongelman vuoksi
