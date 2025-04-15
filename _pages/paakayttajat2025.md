@@ -26,7 +26,7 @@ Pohjoisesta etelään
 
 **OUTI**
 * OUTIin tullut asiakkaalta toive: "Voisiko Finnaankin tulla käyttöön kaksivaiheinen kirjautuminen? Kirjautuminen pelkällä pin-koodilla ei ole turvallista. Finna-käyttäjän takana on kuitenkin runsaasti henkilötietoja." Kansalliskirjaston Yleisten kirjastojen Finna-tapaamisessa oli kerrottu, että tämä on jo Finna-kehityslistalla.
-
+* Asiakaspalvelutilanteessa ei oltu voitu lainata asiakkaale varausta, kun hänellä oli liikaa lainoja ko. kirjastossa ja ilmeni, että asiakkaalla oli yli 200 lainaa (useasta eri kirjastosta). Asiakastyyppikohtainen lainaraja ei toimi ja laina- ja maksusäännöt toimivat kirjastokohtaisesti. Nidetyyppikohtainen lainaraja toimii ja hieman hillitsee asiakkaan lainamäärää. OUTI tekee tiketin tästä ja linkkaa siihen Larin löytämän Bugzilla-tiketin (https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=8137)
 
 **Lumme**
 * Ei mainittavaa.
