@@ -24,6 +24,10 @@ Pohjoisesta etelään
 * Vuoden 2024 budjetit ja tilit on suljettu.
 * Normaalia ylläpitoa.
 
+**OUTI**
+* OUTIin tullut asiakkaalta toive: "Voisiko Finnaankin tulla käyttöön kaksivaiheinen kirjautuminen? Kirjautuminen pelkällä pin-koodilla ei ole turvallista. Finna-käyttäjän takana on kuitenkin runsaasti henkilötietoja." Kansalliskirjaston Yleisten kirjastojen Finna-tapaamisessa oli kerrottu, että tämä on jo Finna-kehityslistalla.
+
+
 **Lumme**
 * Ei mainittavaa.
 
