@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 15.4.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * ei viikkopäivitystä palvelimien tiedostojärjestelmäongelman vuoksi
@@ -23,6 +23,9 @@ Pohjoisesta etelään
 **Lappi**
 * Vuoden 2024 budjetit ja tilit on suljettu.
 * Normaalia ylläpitoa.
+
+**Lumme**
+* Ei mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
 
