@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 15.4.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * ei viikkopäivitystä palvelimien tiedostojärjestelmäongelman vuoksi
@@ -35,7 +35,10 @@ Pohjoisesta etelään
 * Ei erityisempää. Tietojärjestelmäongelma aiheutti tietenkin oman hässäkkänsä.
 
 **Kirkes**
-* Edellisviikon käyttökatkoista selvittiin tällä tietoa ihan hyvin, ja ilmeisesti varalainausohjelman käyttö sujui kirjastoissa.  
+* Edellisviikon käyttökatkoista selvittiin tällä tietoa ihan hyvin, ja ilmeisesti varalainausohjelman käyttö sujui kirjastoissa.
+
+**Helle**
+* Vanhentuneiden asiakastietojen poistoajo tehty [Tiketti 1572](https://github.com/KohaSuomi/Koha/issues/1572#issuecomment-2771492169)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
 
