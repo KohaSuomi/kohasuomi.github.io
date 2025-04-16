@@ -26,27 +26,52 @@ Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. P
 
 [Suomi.fi-tiedote](https://asiakastiedotteet.dvv.fi/a/s/89627005-398c9f45e420db4e5143abb3c6ba7929/2241547)
 * Suomi on siirtymässä kohti ensisijaisesti digitaalista viranomaisviestintää. Käyttäjälle ehdotetaan 12.5.2025 alkaen Suomi.fi-viestien käyttöönottoa, kun hän tunnistautuu vahvasti julkisen hallinnon asiointipalveluihin. Tämä muutos Suomi.fi-tunnistuksessa voi aiheuttaa asiakasyhteydenottoja, joihin on hyvä varautua.
+* [Dokumentaatio suomi.fi-käyttöönotosta Kohassa](https://github.com/KohaSuomi/koha-suomi-messaging/wiki)
+ * A-alue Kaupunkien taajamavoittoisimmat postinumeroalueet, lyhyet jakelureitit ja jakelupisteiden määrä korkea
+ * B-alue Muut taajama-alueiden postinumerot, lyhyet jakelureitit ja jakelupisteiden määrä suuri
+ * C-alue Haja-asutusalueen postinumerot, pitkät jakelureitit ja jakelupisteiden määrä vähäinen
+ * Lastussa ei ole tullut käyttöönotosta kustannuksia Suomi.fin suunnalta
 
 ### Kehitysehdotukset
 
 * [Lastseen-arvon päivittyminen maksujen luomisen ja maksamisen yhteydessä #1702](https://github.com/KohaSuomi/Koha/issues/1702)
+  * Toteutetaan. Pyritään viemään myös yhteisöön. 
 * [Lastseen-arvon päivittyminen Vaihda salasana -toiminnon yhteydessä #1742](https://github.com/KohaSuomi/Koha/issues/1742)
+  * Ei toteuteta, koska ei tällä hetkellä keksitty tilanteita, joissa asiakas haluaisi vaihtaa salasanan, mutta ei sitten käyttäisi mitään muita palveluja, jotka päivittävät lastseen-arvon. Palataan asiaan, jos tulee vastaan tapauksia, joissa salasanan vaihdon olisi hyvä päivittää lastseen-arvo. 
 * [EDItX-tilauksen kautta luoduille niteille mahdolliseksi lisätä automaattisesti damaged-arvo #1714](https://github.com/KohaSuomi/Koha/issues/1714)
-  * jatketaan käsittelyä
+  * Suurimmalla osalla kimpoissa ei ollut tarvetta lisätä automaattisesti damaged-arvoa EDItX:n kautta. Vaskissa kokeillaan oletussääntöä varovasti ja jos näyttää, ettei se toimi, otetaan asia uudelleen käsittelyyn. Ei toteuteuta tällä hetkellä.
 * [Tarratulostustyökaluun tarrapohjan kopiointimahdollisuus #1786](https://github.com/KohaSuomi/Koha/issues/1786)
+  * Toteutetaan niin, että lisätään tarrapohjien tuonti- ja vientiominaisuus JSON-muodossa. 
 * [Nidehistorian valmis linkki JS-liitännäiseksi #1788](https://github.com/KohaSuomi/Koha/issues/1788)
+  * Toteutetaan 
 * [Aikakatkaisun rimpsu JS-liitännäiseksi #1789](https://github.com/KohaSuomi/Koha/issues/1789)
+  * Toteutetaan 
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
-  * jatketaan käsittelyä
+  * Ei toteuteta, koska ajansäästö on pieni suhteessa toteutuksen työmäärään.
 * [Tarratulostuksen kehittäminen viivakoodien luettavuuden parantamiseksi #7](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/7)
+  * Muutettiin bugi-tyyppiseksi ja tutkitaan, onko ongelmalle mitään tehtävissä.
 
 ### Muut asiat
 * Asiakasvarmenteen uusiminen ja jakeluaikataulu
+  * nykyinen asiakasvarmenne vanhenee 7.9.2025
+  * uuden varmenteen jakelu kimppoihin 11.8.2025 mennessä.
+  * asiakasvarmenteelle maksimikesto, jonka selaimet hyväksyvät (390 päivää?)
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563) - miten edetään?
+  * Kuinka usein viikossa kuljetus liikkuu eri yksiköiden välillä ja minkälaisella mallilla? Meneekö kaikki esim. yhden pisteen kautta.
+  * Mikä on varauksen noutoaika?
+    * Onko valmiita raportteja?
+    * Anneli tutkii 
+  * Kootaan tiedot tikettiin
 * Itsepalvelulainauksen pin-koodikysely / OUTI
+  * suurimmassa osassa kimppoja on pin-koodin kysely päällä sip-automaateilla
+  * Kohan itsepalvelulainaus on käytössä OUTIssa ja Hellessä, joista Hellessä salasanan kysely on päällä
+  * Koha-Suomi suosittelee pin-koodin käyttöönottoa itsepalvelulainauksessa ja sip-automaateilla.
+
+* Kimpoissa voisi jo miettiä seuraavan asiantuntijaryhmän edustusta. Valinta elo-syyskuussa, kun hallitus kokoontuu.
 
 ### Seuraava kokous
 
+Ke 21.5.2025 klo 13
 
 ## Muistio 3/2025
 
