@@ -10,10 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 17
+
+Aika: 22.4.2025 klo 9.15<br />
+Läsnä: 
+
+**Yhteiset**
+* [Raportti tietueista, joissa on sama asiasana kahdessa eri MARC-kentässä #1787](https://github.com/KohaSuomi/Koha/issues/1787)
+  * raportin voi lisätä omaan kantaan, jos haluatte siivota asiasanoja pois
+
+Etelästä pohjoiseen
+
 ## Viikko 16
 
 Aika: 15.4.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren, Lotta Juvonen, Vilgot Strömsholm (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren, Lotta Juvonen, Vilgot Strömsholm (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * ei viikkopäivitystä palvelimien tiedostojärjestelmäongelman vuoksi
