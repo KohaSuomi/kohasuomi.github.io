@@ -38,10 +38,12 @@ Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. P
 * [Aikakatkaisun rimpsu JS-liitännäiseksi #1789](https://github.com/KohaSuomi/Koha/issues/1789)
 * [Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan #1659](https://github.com/KohaSuomi/Koha/issues/1659)
   * jatketaan käsittelyä
+* [Tarratulostuksen kehittäminen viivakoodien luettavuuden parantamiseksi #7](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/7)
 
 ### Muut asiat
 * Asiakasvarmenteen uusiminen ja jakeluaikataulu
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563) - miten edetään?
+* Itsepalvelulainauksen pin-koodikysely / OUTI
 
 ### Seuraava kokous
 
