@@ -15,22 +15,23 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 4/2025
+## Muistio 4/2025
 
 Aika: Ke 16.4.2025 klo 13<br />
-Läsnä:
+Läsnä: Ari Mäkiranta, Noora Valkonen (OUTI-kirjastot), Pia Kusmin ja Leena Kinnunen (Lapin kirjasto), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Janne Seppänen (Lastu-kirjastot), Riikka Mustajärvi (Kirkes-kirjastot), Susanna Sandell (Vaski-kirjastot), Kati Sillgren (Helle-kirjastot), Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 ### Ajankohtaiset
 
-Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. Päivitys pyritään pitämään normaalin huoltokatkon aikarajoissa.
+* Palvelimien käyttöjärjestelmäpäivitys tehdään toukokuun huoltokatkossa 14.5.2025. Päivitys pyritään pitämään normaalin huoltokatkon aikarajoissa. 
 
-[Suomi.fi-tiedote](https://asiakastiedotteet.dvv.fi/a/s/89627005-398c9f45e420db4e5143abb3c6ba7929/2241547)
-* Suomi on siirtymässä kohti ensisijaisesti digitaalista viranomaisviestintää. Käyttäjälle ehdotetaan 12.5.2025 alkaen Suomi.fi-viestien käyttöönottoa, kun hän tunnistautuu vahvasti julkisen hallinnon asiointipalveluihin. Tämä muutos Suomi.fi-tunnistuksessa voi aiheuttaa asiakasyhteydenottoja, joihin on hyvä varautua.
-* [Dokumentaatio suomi.fi-käyttöönotosta Kohassa](https://github.com/KohaSuomi/koha-suomi-messaging/wiki)
- * A-alue Kaupunkien taajamavoittoisimmat postinumeroalueet, lyhyet jakelureitit ja jakelupisteiden määrä korkea
- * B-alue Muut taajama-alueiden postinumerot, lyhyet jakelureitit ja jakelupisteiden määrä suuri
- * C-alue Haja-asutusalueen postinumerot, pitkät jakelureitit ja jakelupisteiden määrä vähäinen
- * Lastussa ei ole tullut käyttöönotosta kustannuksia Suomi.fin suunnalta
+* [Suomi.fi-tiedote](https://asiakastiedotteet.dvv.fi/a/s/89627005-398c9f45e420db4e5143abb3c6ba7929/2241547)
+  * Suomi on siirtymässä kohti ensisijaisesti digitaalista viranomaisviestintää. Käyttäjälle ehdotetaan 12.5.2025 alkaen Suomi.fi-viestien käyttöönottoa, kun hän tunnistautuu vahvasti julkisen hallinnon asiointipalveluihin. Tämä muutos Suomi.fi-tunnistuksessa voi aiheuttaa asiakasyhteydenottoja, joihin on hyvä varautua.
+  * [Dokumentaatio Suomi.fi-käyttöönotosta Kohassa](https://github.com/KohaSuomi/koha-suomi-messaging/wiki). Suositellaan käyttöönottoa.
+     * Postin vyöhyke-hinnoittelu aiheutti ihmetystä epämääräisyydellään:
+       * A-alue Kaupunkien taajamavoittoisimmat postinumeroalueet, lyhyet jakelureitit ja jakelupisteiden määrä korkea
+       * B-alue Muut taajama-alueiden postinumerot, lyhyet jakelureitit ja jakelupisteiden määrä suuri
+       * C-alue Haja-asutusalueen postinumerot, pitkät jakelureitit ja jakelupisteiden määrä vähäinen
+     * Lastussa ei ole tullut käyttöönotosta kustannuksia Suomi.fin suunnalta
 
 ### Kehitysehdotukset
 
@@ -55,19 +56,19 @@ Palvelimien käyttöjärjestelmäpäivitys toukokuun huoltokatkossa 14.5.2025. P
 * Asiakasvarmenteen uusiminen ja jakeluaikataulu
   * nykyinen asiakasvarmenne vanhenee 7.9.2025
   * uuden varmenteen jakelu kimppoihin 11.8.2025 mennessä.
-  * asiakasvarmenteelle maksimikesto, jonka selaimet hyväksyvät (390 päivää?)
+  * asiakasvarmenteelle asetetaan maksimikesto, jonka selaimet hyväksyvät (390 päivää?)
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563) - miten edetään?
   * Kuinka usein viikossa kuljetus liikkuu eri yksiköiden välillä ja minkälaisella mallilla? Meneekö kaikki esim. yhden pisteen kautta.
   * Mikä on varauksen noutoaika?
-    * Onko valmiita raportteja?
-    * Anneli tutkii 
-  * Kootaan tiedot tikettiin
+  * Onko valmiita raportteja?
+      * Anneli tutkii 
+  * Kootaan tiedot tikettiin. 
 * Itsepalvelulainauksen pin-koodikysely / OUTI
   * suurimmassa osassa kimppoja on pin-koodin kysely päällä sip-automaateilla
   * Kohan itsepalvelulainaus on käytössä OUTIssa ja Hellessä, joista Hellessä salasanan kysely on päällä
   * Koha-Suomi suosittelee pin-koodin käyttöönottoa itsepalvelulainauksessa ja sip-automaateilla.
 
-* Kimpoissa voisi jo miettiä seuraavan asiantuntijaryhmän edustusta. Valinta elo-syyskuussa, kun hallitus kokoontuu.
+* Kimpoissa voitaisiin jo miettiä seuraavan asiantuntijaryhmän edustusta (jäsen ja varajäsen). Valinta elo-syyskuussa, kun hallitus kokoontuu.
 
 ### Seuraava kokous
 
