@@ -21,6 +21,10 @@ Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen (Lappi),
 
 Etelästä pohjoiseen
 
+**VASKI**
+* Asiakkaiden vanhenemispäivän siirtoajo tehty
+* Testien käynnistystä odotellaan eri kehitysprojektien testauksen takia
+
 **LASTU**
 * Lastussa aiemmin tyhjänä tullut EditX-sanoma jäänyt Kohan palvelimelle roikkumaan, pyydetty poistoa. Muuten normaalia ylläpitoa.
 
