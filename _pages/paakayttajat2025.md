@@ -21,6 +21,9 @@ Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen (Lappi),
 
 Etelästä pohjoiseen
 
+**LASTU**
+* Lastussa aiemmin tyhjänä tullut EditX-sanoma jäänyt Kohan palvelimelle roikkumaan, pyydetty poistoa. Muuten normaalia ylläpitoa.
+
 **OUTI**
 * OUTIssa hyllyvarauksia 22.4. aamulla 3279 kpl. Pääsiäisen jälkeinen viikko on ollut perinteisesti yksi vuoden vilkkaimmista viikoista, joka voi näkyä myös Kohan käytössä hidasteluna.
 * Oulussa on nyt loppu kevään ja kesän aikana menossa monta kirjastoa väliaikaisesti kiinni, joko remontin tai kesäkiinniolon vuoksi. Kaikki kiinni menot vaativat myös Kohaan muutoksia. Ensimmäisenä kiinni menee Tuiran kirjasto 30.4., joka muuttaa uusiin tiloihin ja avataan elokuussa uudestaan. Toukokuun lopussa alkaa ensimmäisten kirjastojen kesäsulut eli eivät ole auki edes omatoimella. Myös meidän pääkirjaston väistötila Pekurin kirjasto suljeteen kesäkuun lopussa ja remontoitu pääkirjasto avataan ehkä marraskuussa. Tämän väliajan asiakkaat voivat noutaa varaukset kirjastoauto Onnelista, joka parkkeeraa joka päivä entisen pääkirjaston (uusi nimi Oulun keskustakirjasto Saari) edessä. Kaikki kiinniolot vaativat jonkin moisia muutoksia ja muutosten aikataulutusta Kohaan.
