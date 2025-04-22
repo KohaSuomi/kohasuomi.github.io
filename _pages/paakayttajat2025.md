@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 * Testien käynnistystä odotellaan eri kehitysprojektien testauksen takia
 
 **LASTU**
-* Lastussa aiemmin tyhjänä tullut EditX-sanoma jäänyt Kohan palvelimelle roikkumaan, pyydetty poistoa. Muuten normaalia ylläpitoa.
+* Lastussa aiemmin tyhjänä tullut EditX-sanoma ilmoitellut itsestään pääsiäisen yli. Poistettu palvelimielta jo aiemmin, ja pitäisi olla nyt arkistoitunut. poistettu EDIFACT-sanoma uudelleen. Muuten normaalia ylläpitoa.
 
 **OUTI**
 * OUTIssa hyllyvarauksia 22.4. aamulla 3279 kpl. Pääsiäisen jälkeinen viikko on ollut perinteisesti yksi vuoden vilkkaimmista viikoista, joka voi näkyä myös Kohan käytössä hidasteluna.
