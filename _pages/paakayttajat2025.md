@@ -13,13 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 22.4.2025 klo 9.15<br />
-Läsnä: 
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Raportti tietueista, joissa on sama asiasana kahdessa eri MARC-kentässä #1787](https://github.com/KohaSuomi/Koha/issues/1787)
   * raportin voi lisätä omaan kantaan, jos haluatte siivota asiasanoja pois
 
 Etelästä pohjoiseen
+
+**OUTI**
+* OUTIssa hyllyvarauksia 22.4. aamulla 3279 kpl. Pääsiäisen jälkeinen viikko on ollut perinteisesti yksi vuoden vilkkaimmista viikoista, joka voi näkyä myös Kohan käytössä hidasteluna.
+* Oulussa on nyt loppu kevään ja kesän aikana menossa monta kirjastoa väliaikaisesti kiinni, joko remontin tai kesäkiinniolon vuoksi. Kaikki kiinni menot vaativat myös Kohaan muutoksia. Ensimmäisenä kiinni menee Tuiran kirjasto 30.4., joka muuttaa uusiin tiloihin ja avataan elokuussa uudestaan. Toukokuun lopussa alkaa ensimmäisten kirjastojen kesäsulut eli eivät ole auki edes omatoimella. Myös meidän pääkirjaston väistötila Pekurin kirjasto suljeteen kesäkuun lopussa ja remontoitu pääkirjasto avataan ehkä marraskuussa. Tämän väliajan asiakkaat voivat noutaa varaukset kirjastoauto Onnelista, joka parkkeeraa joka päivä entisen pääkirjaston (uusi nimi Oulun keskustakirjasto Saari) edessä. Kaikki kiinniolot vaativat jonkin moisia muutoksia ja muutosten aikataulutusta Kohaan.
+
 
 ## Viikko 16
 
