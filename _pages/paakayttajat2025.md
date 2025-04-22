@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 22.4.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Elina Uotila (Kirkes), Lauri Hänninen (Lastu), Susanna Sandell (Vaski), Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Raportti tietueista, joissa on sama asiasana kahdessa eri MARC-kentässä #1787](https://github.com/KohaSuomi/Koha/issues/1787)
