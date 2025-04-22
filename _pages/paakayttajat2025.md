@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 **Vaara**
 * Ei erityistä mainittavaa. Vaarassa myös tyhjä hankintaportaalisanoma poistettava (lisätty tikettiin 1798).
 
+**Lappi**
+* Kohan Työkalut - Varausten muokkaus eräajona - ohje puuttuu Kohan ohjeesta.
+* Rovaniemellä kesällä 1.6. lähtien Asemakirjaston (pääkirjaston väistö) paluu pääkirjastoon / Konttikirjastoon, Korkalovaaran muutto Vaaramon monitoimitaloon sekä Saarenkylän muutto väistöön remontin ajaksi. Paluu "normaaliin" kaikissa ajoittuu noin syyskuulle. Tiedossa siis muutoksia Kohaan, mm varausten noutopisteen siirtoja (ei ilmeisesti voi pääkäyttäjä itse tehdä).
+* Kulunut viikko rauhallinen. 
 
 ## Viikko 16
 
