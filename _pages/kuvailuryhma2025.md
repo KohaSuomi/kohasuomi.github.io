@@ -9,6 +9,119 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+
+## Kuvailuryhmän muistio 4/2025 ##
+
+Aika: 9.4.2025 klo 13.15–14.40
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Timo Torvinen (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Marja Leskinen (Vaara)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokouksen sihteerinä Tarja Mäkinen.
+
+#### 2.	Seuraavat kuvailukoulutukset ####
+
+Aiheita:
+<ul>
+ <li>Uuden tietueen tekeminen vanhan pohjalta </li>
+ <li>Melindan RDA-hybriditietueiden käsittely </li>
+ <li>Libriksen, Helmetin ja Kongressin kirjaston tietueiden poiminta ja käsittely </li>
+</ul>
+<p>-> Näitä aiheita voisi yhdistää ja näistä tulisi todennäköisesti kaksi koulutusta. Keväällä on jo paljon ohjelmaa/koulutuksia, joten siirtyy syyskuun alkuun. Anna pohtii, millaiset koulutuksista tulisi ja ilmoittaa päivämäärän lähiaikoina. </p>
+
+Tarkoitus olisi järjestää koulutukset myös aiheista musiikin osakohteet ja elokuva-aineisto. Musiikin osakohteissa olisi hyvä huomioida mm. erilaiset virhetilanteet (esim. kun osakohteiden määrä ei täsmää tietokantojen välillä) ja osakohteiden lisääminen Melinda-tietueelle. Lisäksi olisi hyvä vertailla tapoja, miten osakohteet kannattaa tehdä ja viedä Melindaan niin, että niiden valutus paikalliskantaan onnistuu kaikkein sujuvimmin ilman turhia poistamisia yms.
+
+Myös kiinteämittaisista kentistä on toivottu koulutusta, samoin kuin peruskuvailukoulutusta. Niiden opettaminen ei kuitenkaan kuulu Koha-Suomelle.
+
+[Lisäys 15.4.): Kokouksen jälkeen tuli vielä koulutusehdotus erilaisten tietueiden yhdistämisestä TäTissä. Tällaisia tapauksia ovat kaikenlaiset TäTin tuplatietueet, mutta myös TäTissä olevan valmiin tietueen ja Melindassa olevan ennakko- tai valmiin tietueen yhdistäminen.
+
+#### 3.	YSA-YSO-konversioiden korjaustaulukko ####
+<ul>
+ <li>Antti on hahmotellut raakaversion taulukosta: OUTI - > Koha Teams -> Kuvailu -> Tiedostot -> YSO-konversio (kansio) -> YSO-korjaukset (Excel)  </li>
+ <li>Taulukkoon on tarkoitus koota niitä tiedonhaun onnistumisen kannalta tärkeitä termejä, jotka pitäisi vielä siirtää oikeaan MARC-kenttäänsä ja joita on niin paljon, ettei niitä sisältäviä tietueita kannata alkaa käsin korjaamaan. Jotkin termit pitää myös samalla muuttaa nykyisin käytettävään muotoonsa (esim. musiikkiäänitteissä 650a: konsertit (yso-termi) -> 655a: liveäänitteet (slm-termi))  </li>
+ <li>YSO-konversiossa oli paljon tapauksia, joissa jollekin termille löytyy YSO:sta useampi vaihtoehto. Jos tietää tai löytää joitain sellaisia termejä, joille voi helposti päätellä nykyisen oikean vaihtoehdon, niin niitä voi listata taulukkoon myös. Näissä olisi hyvä myös tarvittaessa kertoa tarkemmin, missä aineistossa korjauksen voi tehdä, jotta korjaus kohdistuu oikeisiin tietueisiin.  </li>
+ <li>Taulukkoon voi laittaa myös sellaisia tapauksia, joissa tällä hetkellä on sama termi kahdessa eri kentässä ja toinen niistä pitäisi poistaa. Anneli on tehnyt raportteja, joilla voi hakea tietueita, joilla on sama termi esim. 650a- ja 655a-kentissä: <a href="https://github.com/KohaSuomi/Koha/issues/1787" target="_blank">Raportti tietueista, joissa on sama asiasana kahdessa eri MARC-kentässä </a> </li>
+</ul>
+
+#### 4.	Tietokannan tietojen siivousautomatiikkaa tietueille ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tiketti </a>  </li>
+ <li>Finton sanastojen arvoihin verraten virheellisten/muuttuneiden/vanhentuneiden asiasanojen listaus tietokannasta korjausta varten -> automaattinen päivitys  </li>
+ <li>Vaatii oman työkalun  </li>
+ <li>Odotetaan Johannan kommenttia [Päivitys 15.4.: Parhaillaan työn alla) </li>
+</ul>
+
+#### 5.	Kehitysehdotuksen lisäkysymykset ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1659" target="_blank">Kuvailupohjan ja aineistotyypin vaihtuminen automaattisesti kiinteämittaisten kenttien mukaan </a>  </li>
+ <li>Asiantuntijaryhmä tarvitsisi tähän lisätietoja ennen päätöstä: </li>
+  <ul>
+   <li>Kuinka paljon viikko tai kuukausitasolla olisi tarvetta muuttaa automattisesti kuvailupohjia ja aineistotyyppejä?  </li>
+   <li>Kuinka suuri osa aineistotyypeistä on väärin? </li>
+   <li>Missä aineistotyypeissä muutostarpeita olisi eniten? </li>
+   <li>Kuinka paljon työaikaa säästyisi automatiikalla? </li>
+  </ul>
+</ul>
+Keskusteltiin asiasta ja todettiin, että ongelma koskee musiikkiaineistoa. Suurin ongelma on osakohteissa, joissa aineistotyyppi puuttuu kokonaan, mutta se ei täysin liity tähän kehitysehdotukseen. Ei haittaa, jos asiantuntijaryhmä hylkää tämän kehitysehdotuksen, koska tälle ei ole kuitenkaan niin suurta tarvetta. Antti vastaa tikettiin.
+</ul>
+
+#### 6.	Kirjastopalvelun tietueiden käsittelykaavio ####
+<ul>
+ <li>Miten ohjeistetaan viivastatuksella olevat? Joissain tapauksissa valintalistoilla voi olla myös julkaisuvuodeltaan vanhempaa aineistoa, esim. vieraskieliset </li>
+ <li>TäTissä on nykyään paljon tuplia, joista Melinda-tietue on tehty aiemmin kuin Kirjastopalvelun kuvailutietue on saapunut. Ovatko mahdollisesti viivastatuksella olleita nimekkeitä?
+Kaaviota pidettiin selkeänä, ehkä pieni lisähuomautus tähän asiaan. Todettiin, että viivastatuksella olevan aineiston käsittelyä on hankala ohjeistaa täysin aukottomasti. </li>
+</ul>
+
+#### 7.	TäTi ja fiktiivinen hahmo ####
+<ul>
+ <li>Melindasta tuli listaus TäTin tietueista, joissa virheellinen (fiktiivinen hahmo) -merkintä. Osalla ei sulkuja ollenkaan ja osalla pelkkä päätös sulku. </li>
+ <li>Korjataanko vai poistetaan? -> Päivi korjaa </li>
+</ul>
+
+#### 8.	Kohan signumiin vain luokka ja pääsana ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/923" target="_blank">Tiketti </a>  </li>
+ <li>Lasten ja nuorten aineiston jako: Päätetäänkö osasto jo aineiston valintaa tehtäessä, vastaanottovaiheessa, vai vasta kun kuvailutiedot on saatu? </li>
+</ul>
+
+Yleensä aineiston hankkijat päättävät tilatessaan aineistoa. Osasto korjataan tarvittaessa, kun kuvailutiedot on saatu.
+
+#### 9.	Tikettejä ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1755" target="_blank">Linkkien lisäys 0-osakenttiin 388- ja 648-kentissä (sekä suomen- että ruotsinkieliset muodot) </a> -> Asia edistyy. Tällä hetkellä testattu OUTIssa ja Vaskissa, ja muutamia korjauksia vaille näyttä hyvältä. Korjausajoista tulee virhelistaus tietueista, joiden 388- tai 648-kentissä on YSO-aikaan kuulumattomia termejä.  </li>
+
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1756" target="_blank">Ongelmia tietueiden aktivoitumisessa </a> -> Johanna on tehnyt uudelleenaktivoinnin ja sulkenut tiketin. </li>
+
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1642" target="_blank">Liitännäinen poistettujen tietueiden ja niteiden palauttamiseen ja uudelleenindeksointiin </a> </li>
+
+ <li><a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/16" target="_blank">Muokatun tietueen vienti osakohteineen Tätistä takaisin Melindaan päätyy virheilmoitukseen: ”Failed to process component parts” </a> </li>
+</ul>
+
+#### 10. Muita asioita ####
+<ul>
+ <li>Koha-seminaarin kuulumiset: </li>
+Kuvailuryhmä järjesti oman palaverin Koha-seminaarin yhteydessä 27.3. Palaverin aiheena oli Koha-Suomen tietokantojen yhdistyminen KaTi-tietokannaksi.
+
+ <li>Jos TäTin tietuesiirtäjä ilmoittelee ”Internal server error” -virheestä, ongelma on todennäköisesti Melindan päässä. </li>
+
+ <li>Cyrilluxilla käsiteltyjen tietueiden vienti takaisin Melindaan: Välillä ollut ongelmia, jotka ovat johtuneet Melinda-tietueella olevasta 942-kentästä. Melinda-tietueilla ei saa olla 942-kenttiä, joten jos Cyrilluxiin lataa alun perin Kohasta olevan tietueen tiedoston, niin 942-kentät pitää poistaa (viimeistään) Cyrilluxissa, jotta tietueen takaisinvienti TäTistä Melindaan myöhemmin onnistuu. </li>
+
+ <li>Kun vaihtaa oletuspohjan joksikin toiseksi kuvailupohjaksi, niin 000-kentän oletusarvot eivät vaihdu, vaan pysyvät tekstiaineiston arvoina. Tätä ongelmaa on tutkittu joskus aikoinaan, mutta korjausta ei ole saatu tehtyä. </li>
+
+ <li>Jos Asteri-liitännäinen ei löydä jotain uutta tai vasta muutettua toimijanimeä, syynä voi olla, ettei Kanto ole vielä päivittynyt Asterista, esim. yhteysvian takia. (Asteri-plugin hakee tietoja ensin Kantosta, jonka jälkeen varsinainen auktoriteettitietue tuodaan Asterista.) </li>
+
+ <li>Muistin virkistykseksi: Kun TäTissä on muokannut tietuetta ja painaa Tallenna-nappia, tietue saattaa valua muihin Koha-tietokantoihin nopeastikin, vaikka tietueen kuvailu olisi vielä kesken. Tämä ei liity Vie (Melindaan) -toimintoon. </li>
+</ul>
+
+#### 11. Seuraava kokous ke 14.5. klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 3/2025 ##
 
 Aika: 12.3.2025 klo 13.15–14.30
