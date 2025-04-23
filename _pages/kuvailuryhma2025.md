@@ -38,7 +38,7 @@ Tarkoitus olisi järjestää koulutukset myös aiheista musiikin osakohteet ja e
 
 Myös kiinteämittaisista kentistä on toivottu koulutusta, samoin kuin peruskuvailukoulutusta. Niiden opettaminen ei kuitenkaan kuulu Koha-Suomelle.
 
-[Lisäys 15.4.): Kokouksen jälkeen tuli vielä koulutusehdotus erilaisten tietueiden yhdistämisestä TäTissä. Tällaisia tapauksia ovat kaikenlaiset TäTin tuplatietueet, mutta myös TäTissä olevan valmiin tietueen ja Melindassa olevan ennakko- tai valmiin tietueen yhdistäminen.
+[Lisäys 15.4.]: Kokouksen jälkeen tuli vielä koulutusehdotus erilaisten tietueiden yhdistämisestä TäTissä. Tällaisia tapauksia ovat kaikenlaiset TäTin tuplatietueet, mutta myös TäTissä olevan valmiin tietueen ja Melindassa olevan ennakko- tai valmiin tietueen yhdistäminen.
 
 #### 3.	YSA-YSO-konversioiden korjaustaulukko ####
 <ul>
@@ -53,7 +53,7 @@ Myös kiinteämittaisista kentistä on toivottu koulutusta, samoin kuin peruskuv
  <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tiketti </a>  </li>
  <li>Finton sanastojen arvoihin verraten virheellisten/muuttuneiden/vanhentuneiden asiasanojen listaus tietokannasta korjausta varten -> automaattinen päivitys  </li>
  <li>Vaatii oman työkalun  </li>
- <li>Odotetaan Johannan kommenttia [Päivitys 15.4.: Parhaillaan työn alla) </li>
+ <li>Odotetaan Johannan kommenttia [Päivitys 15.4.: Parhaillaan työn alla] </li>
 </ul>
 
 #### 5.	Kehitysehdotuksen lisäkysymykset ####
@@ -68,7 +68,6 @@ Myös kiinteämittaisista kentistä on toivottu koulutusta, samoin kuin peruskuv
   </ul>
 </ul>
 Keskusteltiin asiasta ja todettiin, että ongelma koskee musiikkiaineistoa. Suurin ongelma on osakohteissa, joissa aineistotyyppi puuttuu kokonaan, mutta se ei täysin liity tähän kehitysehdotukseen. Ei haittaa, jos asiantuntijaryhmä hylkää tämän kehitysehdotuksen, koska tälle ei ole kuitenkaan niin suurta tarvetta. Antti vastaa tikettiin.
-</ul>
 
 #### 6.	Kirjastopalvelun tietueiden käsittelykaavio ####
 <ul>
@@ -80,7 +79,7 @@ Kaaviota pidettiin selkeänä, ehkä pieni lisähuomautus tähän asiaan. Todett
 #### 7.	TäTi ja fiktiivinen hahmo ####
 <ul>
  <li>Melindasta tuli listaus TäTin tietueista, joissa virheellinen (fiktiivinen hahmo) -merkintä. Osalla ei sulkuja ollenkaan ja osalla pelkkä päätös sulku. </li>
- <li>Korjataanko vai poistetaan? -> Päivi korjaa </li>
+ <li>Korjataanko vai poistetaan? -> Päivi korjaa. </li>
 </ul>
 
 #### 8.	Kohan signumiin vain luokka ja pääsana ####
@@ -89,7 +88,7 @@ Kaaviota pidettiin selkeänä, ehkä pieni lisähuomautus tähän asiaan. Todett
  <li>Lasten ja nuorten aineiston jako: Päätetäänkö osasto jo aineiston valintaa tehtäessä, vastaanottovaiheessa, vai vasta kun kuvailutiedot on saatu? </li>
 </ul>
 
-Yleensä aineiston hankkijat päättävät tilatessaan aineistoa. Osasto korjataan tarvittaessa, kun kuvailutiedot on saatu.
+Yleensä aineiston valitsijat päättävät tilatessaan aineistoa. Osasto korjataan tarvittaessa, kun kuvailutiedot on saatu.
 
 #### 9.	Tikettejä ####
 <ul>
@@ -104,14 +103,13 @@ Yleensä aineiston hankkijat päättävät tilatessaan aineistoa. Osasto korjata
 
 #### 10. Muita asioita ####
 <ul>
- <li>Koha-seminaarin kuulumiset: </li>
-Kuvailuryhmä järjesti oman palaverin Koha-seminaarin yhteydessä 27.3. Palaverin aiheena oli Koha-Suomen tietokantojen yhdistyminen KaTi-tietokannaksi.
+ <li>Kuvailuryhmä järjesti oman palaverin Koha-seminaarin yhteydessä 27.3. Palaverin aiheena oli Koha-Suomen tietokantojen yhdistyminen KaTi-tietokannaksi.</li>
 
  <li>Jos TäTin tietuesiirtäjä ilmoittelee ”Internal server error” -virheestä, ongelma on todennäköisesti Melindan päässä. </li>
 
  <li>Cyrilluxilla käsiteltyjen tietueiden vienti takaisin Melindaan: Välillä ollut ongelmia, jotka ovat johtuneet Melinda-tietueella olevasta 942-kentästä. Melinda-tietueilla ei saa olla 942-kenttiä, joten jos Cyrilluxiin lataa alun perin Kohasta olevan tietueen tiedoston, niin 942-kentät pitää poistaa (viimeistään) Cyrilluxissa, jotta tietueen takaisinvienti TäTistä Melindaan myöhemmin onnistuu. </li>
 
- <li>Kun vaihtaa oletuspohjan joksikin toiseksi kuvailupohjaksi, niin 000-kentän oletusarvot eivät vaihdu, vaan pysyvät tekstiaineiston arvoina. Tätä ongelmaa on tutkittu joskus aikoinaan, mutta korjausta ei ole saatu tehtyä. </li>
+ <li>Kun tyhjän oletuspohjan vaihtaa joksikin toiseksi kuvailupohjaksi, niin 000-kentän oletusarvot eivät vaihdu, vaan pysyvät tekstiaineiston arvoina. Tätä ongelmaa on tutkittu joskus aikoinaan, mutta korjausta ei ole saatu tehtyä. Kannattaa valita suoraan oikea kuvailupohja, jos aloittaa uuden kuvailun täysin tyhjästä tietueesta. </li>
 
  <li>Jos Asteri-liitännäinen ei löydä jotain uutta tai vasta muutettua toimijanimeä, syynä voi olla, ettei Kanto ole vielä päivittynyt Asterista, esim. yhteysvian takia. (Asteri-plugin hakee tietoja ensin Kantosta, jonka jälkeen varsinainen auktoriteettitietue tuodaan Asterista.) </li>
 
