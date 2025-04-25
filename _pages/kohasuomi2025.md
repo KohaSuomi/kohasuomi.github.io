@@ -21,7 +21,8 @@ Läsnä:
 * Vaskissa olisi tarve siirtää Kulttuurikorttiasiakkaiden tietoja Kohan rajapinnan (esim. Raportterin) kautta Emaileriin ja siellä ollaan järjestämässä palaveria aiheesta.
   * Tarvitseeko Koha-kehittäjän olla mukana palaverissa vai riittäkö, että toimitetaan Vaski-pääkäyttäjile tarvittavat tiedot rajapinnasta?
 * Lastussa pitäisi tehdä ajo 3000 CD-levyn 007/006-kenttiin (väärä merkintä).
-  * Onko työ maksullista? Valmista skriptiä ei ainakaan ole, semmoinen pitäisi tehdä.  
+  * Onko työ maksullista? Valmista skriptiä ei ainakaan ole, semmoinen pitäisi tehdä.
+  * Tiketti Lastu: [Muutos kiinteämittaisiin kenttiin #1808](https://github.com/KohaSuomi/Koha/issues/1808)
 
 ## Viikko 17
 
