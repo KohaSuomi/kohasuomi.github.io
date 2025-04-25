@@ -18,6 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: Ma 28.4.2025<br />
 Läsnä:
 
+* Päivystysvuorot viikosta 19 alkaen
 * Vaskissa olisi tarve siirtää Kulttuurikorttiasiakkaiden tietoja Kohan rajapinnan (esim. Raportterin) kautta Emaileriin ja siellä ollaan järjestämässä palaveria aiheesta.
   * Tarvitseeko Koha-kehittäjän olla mukana palaverissa vai riittäkö, että toimitetaan Vaski-pääkäyttäjile tarvittavat tiedot rajapinnasta?
 * Lastussa pitäisi tehdä ajo 3000 CD-levyn 007/006-kenttiin (väärä merkintä).
