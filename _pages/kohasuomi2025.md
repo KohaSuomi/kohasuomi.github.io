@@ -19,11 +19,12 @@ Aika: Ma 28.4.2025<br />
 Läsnä:
 
 * Päivystysvuorot viikosta 19 alkaen
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Vaskissa olisi tarve siirtää Kulttuurikorttiasiakkaiden tietoja Kohan rajapinnan (esim. Raportterin) kautta Emaileriin ja siellä ollaan järjestämässä palaveria aiheesta.
   * Tarvitseeko Koha-kehittäjän olla mukana palaverissa vai riittäkö, että toimitetaan Vaski-pääkäyttäjile tarvittavat tiedot rajapinnasta?
 * Lastussa pitäisi tehdä ajo 3000 CD-levyn 007/006-kenttiin (väärä merkintä).
   * Onko työ maksullista? Valmista skriptiä ei ainakaan ole, semmoinen pitäisi tehdä.
-  * Tiketti Lastu: [Muutos kiinteämittaisiin kenttiin #1808](https://github.com/KohaSuomi/Koha/issues/1808)
+  * Tiketti [Lastu: Muutos kiinteämittaisiin kenttiin #1808](https://github.com/KohaSuomi/Koha/issues/1808)
 
 ## Viikko 17
 
