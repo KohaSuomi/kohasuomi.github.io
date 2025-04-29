@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 18
+
+Aika: 29.4.2025 klo 9.15<br />
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+
+
+**Yhteiset**
+* [Tuotantojen suhteen palattu normaaliin tilanteeseen ja testit ovat myös pystyssä](https://github.com/KohaSuomi/Koha/discussions/1806).
+
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 17
 
 Aika: 22.4.2025 klo 9.15<br />
