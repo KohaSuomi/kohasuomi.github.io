@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 29.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 
 **Yhteiset**
@@ -28,6 +28,9 @@ Pohjoisesta etelään
 
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Kyyti**
+* Hankintaportaalin tilauksissa on toisen aineistovälittäjän hinnoissa välillä nidekohtaisesti sentin heittoja lähetyslistassa ja Kohassa olevassa hinnassa. Tarkistin vielä EditX-sanoman ja siinä on sama hinta kuin Kohassa. Asia huomattu tänä vuonna. Lapissa havaittu sama asia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
 
