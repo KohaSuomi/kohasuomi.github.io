@@ -40,7 +40,8 @@ Pohjoisesta etelään
 * Hankintaportaalin kanssa takuttu, jotain saatu jo korjattua.
 * Muuten ei mainittavaa.
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-18) - [Palaa sivun alkuun](/paakayttajat2025)
+
 
 ## Viikko 17
 
@@ -74,6 +75,9 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Järvenpään kirjasto ottaa tällä viikolla käyttöön Canonin kirjastotulostuksen. Tieto on päivitetty integraatiolistaan. 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-17) - [Palaa sivun alkuun](/paakayttajat2025)
+
 
 ## Viikko 16
 
