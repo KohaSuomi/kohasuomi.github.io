@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 29.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara), Kati Sillgren (Helle)
 
 
 **Yhteiset**
