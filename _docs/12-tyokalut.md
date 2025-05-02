@@ -267,7 +267,7 @@ Joskus jos hakutulos on suuri, voi olla tarpeen rajata tulosjoukkoa esimerkiksi 
 
 Saat listan eräpäivistä, jotka vastaa edellisen sivun hakuehtoja. Voit valita kaikki tai vain osan.
 
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto3.png" title="Kuvakaappaus siirrettävistä lainoista" alt="Kuvakaappaus siirrettävistä lainoista" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto3.png" title="Kuvakaappaus siirrettävistä lainoista" alt="Kuvakaappaus siirrettävistä lainoista" />
 
 Taulukon alapuolella on huomautus:  Muistutus: tämä toiminto muokkaa kaikkia valittuja lainoja.
 
@@ -280,7 +280,7 @@ _Varausten muokkaus eräajona_ on Koha-Suomessa kehitetty työkalu, jolla voi te
 ### 12.7.1 Varausten haku
 
 Muokattavia varauksia voi hakea monilla ehdoilla:
-<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus.png" title="Kuvakaappaus varausten hausta" alt="Kuvakaappaus varausten hausta" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus.png" title="Kuvakaappaus varausten hausta" alt="Kuvakaappaus varausten hausta" />
 * **Vanhentumispäivämäärä alkaen**: Vanhentumispäivä ja viimeinen noutopäivä ovat käytännössä sama asia. Valitse aikaväli.
 * **Vanhentumispäivämäärä loppuen**
 * **Kirjastot**: Voit valita yhden tai useamman
@@ -295,13 +295,13 @@ Kun olet valinnut tarvittavat hakuehdot, valitse sitten _Haku_.
 
 Saat listan varauksista, jotka täsmäävät hakuehtojen kanssa. Voit valita kaikki tai osan.
 
-<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus1.png" title="Kuvakaappaus varaustlistasta" alt="Kuvakaappaus varauslistasta" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus1.png" title="Kuvakaappaus varaustlistasta" alt="Kuvakaappaus varauslistasta" />
 
 Varauslistan yläpuolelta pääset muokkaamaan hakuehtoja, jos tulos ei ollut halutunlainen.
 
 Varauslistan alla voi valita, mitä valituille varauksille tehdään.
 
-<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus2.png" title="Kuvakaappaus varausten muokkausvaihtoehdoista" alt="Kuvakaappaus varausten muokkausvaihtoehdoista" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus2.png" title="Kuvakaappaus varausten muokkausvaihtoehdoista" alt="Kuvakaappaus varausten muokkausvaihtoehdoista" />
 * **Uusi vanhentumispäivä**: Valitse kalenterista uusi vanhentumispäivä.
 * **Uusi noutokirjasto**: Valitse uusi noutokirjasto.
 * **Keskeytä varaukset**: Valitse, haluatko keskeyttää tai aktivoida valitut varaukset.
