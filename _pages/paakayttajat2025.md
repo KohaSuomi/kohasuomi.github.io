@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: 29.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 
 **Yhteiset**
@@ -39,6 +39,10 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Hankintaportaalin kanssa takuttu, jotain saatu jo korjattua.
 * Muuten ei mainittavaa.
+
+**Lastu**
+* Pohdittu pitäisikö virkailijatunnuksia säilyttää järjestelmässä deaktivoituina vielä työsuhteen loppumisen jälkeen, sillä poistaminen vaikuttaa myös asiakastietojen katselun lokitietoihin
+  * Palaverin jälkeen kysytty kaupungin tietosuojavastaavalta, jonka näkemys oli että tunnuksia on hyvä säilyttää deaktivoituina 6kk, jonka jälkeen tunnukset voi poistaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-18) - [Palaa sivun alkuun](/paakayttajat2025)
 
