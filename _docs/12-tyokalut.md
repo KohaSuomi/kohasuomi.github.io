@@ -245,7 +245,7 @@ Eräpäivien siirto eräajona -työkalulla pystyy hakemaan erilaisten ehtojen pe
 ### 12.6.1 Siirrettävien eräpäivien haku
 
 Valitse ensin ehdot, joilla siirrettäviä eräpäiviä haetaan
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" />
 
 * Asiakastyypit
 * Nidetyypit
@@ -255,11 +255,11 @@ Valitse ensin ehdot, joilla siirrettäviä eräpäiviä haetaan
 
 Valitsen sen jälkeen lainoille uusi eräpäivä. Voit antaa joko tietyn eräpäivän tai lisätä olemassa oleviin tietyn määrän päiviä.
 
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto1.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto1.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" />
 
 Viimeisessä osiossa voit valita, haluatko ensin esikatsella siirrettäviä eräpäiviä vai jatketaanko ilman esikatselua. Jos tulosten määrä on suuri, esikatselua ei suositella. _Jatka_-napista pääset eteenpäin.
 
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto2.png" title="Kuvakaappaus asetuksista" alt="Kuvakaappaus asetuksista" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto2.png" title="Kuvakaappaus asetuksista" alt="Kuvakaappaus asetuksista" />
 
 Joskus jos hakutulos on suuri, voi olla tarpeen rajata tulosjoukkoa esimerkiksi asiakastyypin mukaan ja tehdä muutostyö useammassa erässä.
 
