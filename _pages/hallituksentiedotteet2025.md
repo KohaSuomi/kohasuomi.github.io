@@ -11,6 +11,23 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 4/2025
+
+2.5.2025
+
+Hei,
+
+viimeisessä Koha-Suomen hallituksen kokouksessa 25.4. käytiin läpi lähinnä tilinpäätösasioita. Hallitus totesi, että yhtiöjärjestyksen mukaan yhtiön tarkoituksena ei ole tavoitella voittoa eikä se jaa omistajilleen osinkoa, vaan mahdollinen voitto käytetään yhtiön tarkoituksen toteuttamiseen. Niinpä hallitus esittää edelleen kesäkuun yhtiökokoukseen että tilikauden tulos –9 002,07 € kirjataan omaan pääomaan ja että osinkoa ei jaeta. Lopullinen tilinpäätös käsitellään ja päätetään kesäkuun yhtiökokouksessa. Yhtiökokouskutsut tulevat toukokuun aikana kuntien kirjaamoihin.
+
+Liitteenä myös toimitusjohtajan raportti 4/2025. Huhtikuun alussa ollut järjestelmäkatko ei johtunut ulkoisesta tekijästä.
+
+Mukavaa alkavaa toukokuuta, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
+
+Yst.terv. Nina Sipola, hallituksen varapj.
+
+Liitteet: [Toimitusjohtajan raportti 4_25.pdf](https://github.com/user-attachments/files/20011166/Toimitusjohtajan.raportti.4_25.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 3/2025
 
 21.3.2025
