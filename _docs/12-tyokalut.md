@@ -323,7 +323,7 @@ Voit viedä varauksia varausten muokkaukseen eräajona myös raporttien kautta, 
 
 <img src="/assets/files/docs/Tyokalut/varaustenmuokkaus3.png" title="Kuvakaappaus raportin tulosten yläpuolella olevasta valikosta" alt="Kuvakaappaus raportin tulosten yläpuolella olevasta valikosta" style="width:100.0%" />
 
-Päädyt kohdan 12.7.2 Varausten muokkaus -näkymään, jossa voit jatkaa sitten sen ohjeen mukaisesti.
+Päädyt kohdan [12.7.2 Varausten muokkaus](https://koha-suomi.fi/dokumentaatio/tyokalut/#1272-varausten-muokkaus) -näkymään, jossa voit jatkaa sitten sen ohjeen mukaisesti.
 
 ## 12.8 Kalenteri
 
