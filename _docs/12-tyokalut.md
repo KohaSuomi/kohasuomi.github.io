@@ -238,9 +238,44 @@ Sen jälkeen valitaan _Jatka_
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
 
----
+## 12.6 Eräpäivien siirto eräajona
 
-## 12.6 Kalenteri
+Eräpäivien siirto eräajona -työkalulla pystyy hakemaan erilaisten ehtojen perusteella lainoja ja määrittämään niille uuden eräpäivän. Tämä voi olla tarpeen esimerksi silloin, kun jokin kirjasto on yllättäen suljettu ja sulkupäivältä halutaan siirtää eräpäivät eteenpäin.
+
+### 12.6.1 Siirrettävien eräpäivien haku
+
+Valitse ensin ehdot, joilla siirrettäviä eräpäiviä haetaan
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" style="width:90.0%" />
+
+* Asiakastyypit
+* Nidetyypit
+* Kirjastot
+* Eräpäivä alkaen
+* Eräpäivät saakka
+
+Valitsen sen jälkeen lainoille uusi eräpäivä. Voit antaa joko tietyn eräpäivän tai lisätä olemassa oleviin tietyn määrän päiviä.
+
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto1.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" style="width:90.0%" />
+
+Viimeisessä osiossa voit valita, haluatko ensin esikatsella siirrettäviä eräpäiviä vai jatketaanko ilman esikatselua. Jos tulosten määrä on suuri, esikatselua ei suositella. _Jatka_-napista pääset eteenpäin.
+
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto2.png" title="Kuvakaappaus asetuksista" alt="Kuvakaappaus asetuksista" style="width:90.0%" />
+
+Joskus jos hakutulos on suuri, voi olla tarpeen rajata tulosjoukkoa esimerkiksi asiakastyypin mukaan ja tehdä muutostyö useammassa erässä.
+
+### 12.6.2 Eräpäivien siirto
+
+Saat listan eräpäivistä, jotka vastaa edellisen sivun hakuehtoja. Voit valita kaikki tai vain osan.
+
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto3.png" title="Kuvakaappaus siirrettävistä lainoista" alt="Kuvakaappaus siirrettävistä lainoista" style="width:90.0%" />
+
+Taulukon alapuolella on huomautus:  Muistutus: tämä toiminto muokkaa kaikkia valittuja lainoja.
+
+Jos olet varma, että haluat muokata valittuja lainoja, valitse _Muokkaa valittuja lainoja_. Kun työ on tehty, tulee taulukon yläpuolelle tieto _Eräpäivät on muutettu!_
+
+## 12.7 Varausten muokkaus eräajona
+
+## 12.8 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät. Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä eikä varausten viimeisiä noutopäiviä. Kalenterit määritetään erikseen jokaiselle kirjastolle.
 
@@ -253,7 +288,7 @@ kiinniolopäivistä.
 kiinniolopäivistä." alt="Kuvakaappaus kalenteri-työkalun Vinkit-ruudusta, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
 kiinniolopäivistä." style="width:90.0%" />
 
-### 12.6.1 Kiinniolon lisääminen
+### 12.8.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
@@ -288,7 +323,7 @@ Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden k
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
-### 12.6.2 Sulkupäivien värikoodit
+### 12.8.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
@@ -315,7 +350,7 @@ näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 12.6.3 Sulkutiedon poistaminen ja muokkaaminen
+### 12.8.3 Sulkutiedon poistaminen ja muokkaaminen
 
 Sulkupäiviä voi poistaa tai muokata, jos ne ovat virheellisiä tai tarpeettomia.
 
@@ -338,7 +373,7 @@ Huom. _Kopioi kiinniolopäivät kirjastolle_-vaihtoehto ei toimi, kun kalenteris
 
 ---
 
-## 12.7 Lokien katselu
+## 12.9 Lokien katselu
 
 Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
@@ -396,7 +431,7 @@ välillä:
 
 ---
 
-## 12.8 Uutiset
+## 12.10 Uutiset
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
@@ -423,7 +458,7 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset5.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
-### 12.8.1 Uuden uutisen luominen
+### 12.10.1 Uuden uutisen luominen
 
 Valitse sivun yläreunasta _Luo uusi_.
 
@@ -448,7 +483,7 @@ Valitse ja täytä tarvittavat tiedot:
 
 Tallenna valitsemalla *Tallenna* tai peruuta valitsemalla *Peruuta*.
 
-### 12.8.2 Uutisen poistaminen
+### 12.10.2 Uutisen poistaminen
 
 Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla *Poista valitut*.
 
@@ -459,13 +494,13 @@ Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useam
 
 ---
 
-## 12.9 Työkaluliitännäiset
+## 12.11 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:60.0%" />
 
-### 12.9.1 Laskutustyökalu
+### 12.11.1 Laskutustyökalu
 
 <img src="/assets/files/docs/Tyokalut/laskutus.png" title="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" alt="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" style="width:100.0%" />
 
@@ -501,7 +536,7 @@ Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite.
 Laskutuksen asetusten ohje on [GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki/Laskutusty%C3%B6kalun-k%C3%A4ytt%C3%B6%C3%B6notto%E2%80%90ohjeet).
 
 
-### 12.9.2 Tulosta ilmoituksia
+### 12.11.2 Tulosta ilmoituksia
 
 *Tulosta ilmoituksia* -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). *Tulosta ilmoituksia* -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
@@ -519,14 +554,14 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
 
 
-### 12.9.3 Sotuteekki
+### 12.11.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:70.0%" />
 
-### 12.9.4 Tarratulostustyökalu
+### 12.11.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
@@ -583,7 +618,7 @@ Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
 
 ---
 
-## 12.10 Siirtokokoelmat
+## 12.12 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
