@@ -245,7 +245,7 @@ Eräpäivien siirto eräajona -työkalulla pystyy hakemaan erilaisten ehtojen pe
 ### 12.6.1 Siirrettävien eräpäivien haku
 
 Valitse ensin ehdot, joilla siirrettäviä eräpäiviä haetaan
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää eräpäivien siirrossa" style="width:100.0%" />
 
 * Asiakastyypit
 * Nidetyypit
@@ -255,7 +255,7 @@ Valitse ensin ehdot, joilla siirrettäviä eräpäiviä haetaan
 
 Valitsen sen jälkeen lainoille uusi eräpäivä. Voit antaa joko tietyn eräpäivän tai lisätä olemassa oleviin tietyn määrän päiviä.
 
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto1.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto1.png" title="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" alt="Kuvakaappaus valittavista vaihtoehdoista, joita voi käyttää uutta eräpäivää valitessa" style="width:100.0%" />
 
 Viimeisessä osiossa voit valita, haluatko ensin esikatsella siirrettäviä eräpäiviä vai jatketaanko ilman esikatselua. Jos tulosten määrä on suuri, esikatselua ei suositella. _Jatka_-napista pääset eteenpäin.
 
@@ -267,7 +267,7 @@ Joskus jos hakutulos on suuri, voi olla tarpeen rajata tulosjoukkoa esimerkiksi 
 
 Saat listan eräpäivistä, jotka vastaa edellisen sivun hakuehtoja. Voit valita kaikki tai vain osan.
 
-<img src="/assets/files/docs/Tyokalut/erapaivasiirto3.png" title="Kuvakaappaus siirrettävistä lainoista" alt="Kuvakaappaus siirrettävistä lainoista" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/erapaivasiirto3.png" title="Kuvakaappaus siirrettävistä lainoista" alt="Kuvakaappaus siirrettävistä lainoista" style="width:100.0%" />
 
 Taulukon alapuolella on huomautus:  Muistutus: tämä toiminto muokkaa kaikkia valittuja lainoja.
 
@@ -275,12 +275,61 @@ Jos olet varma, että haluat muokata valittuja lainoja, valitse _Muokkaa valittu
 
 ## 12.7 Varausten muokkaus eräajona
 
+_Varausten muokkaus eräajona_ on Koha-Suomessa kehitetty työkalu, jolla voi tehdä erilaisia muutoksia varauksiin, kuten noutopaikan muutos, vanhentumispäivän muutos ja muokata keskeytystä.
+
+### 12.7.1 Varausten haku
+
+Muokattavia varauksia voi hakea monilla ehdoilla:
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus.png" title="Kuvakaappaus varausten hausta" alt="Kuvakaappaus varausten hausta" style="width:100.0%" />
+* **Vanhentumispäivämäärä alkaen**: Vanhentumispäivä ja viimeinen noutopäivä ovat käytännössä sama asia. Valitse aikaväli.
+* **Vanhentumispäivämäärä loppuen**
+* **Kirjastot**: Voit valita yhden tai useamman
+* **Keskeytys**: Valitse, pitääkö varauksen olla keskeytetty vai keskeyttämätön. Jos et valitse mitään, haetaan kummatkin.
+* **Aktivointipäivä alkaen**: Jos varaus on keskeytetty, valitse tästä aikaväli, jolla aktivointipäivä pitää olla.
+* **Aktivointipäivä päättyen**
+* **Varaushuomautus**: Jos varauksilla on jokin tietty huomautus, voit hakea sen mukaan varauksia.
+
+Kun olet valinnut tarvittavat hakuehdot, valitse sitten _Haku_.
+
+### 12.7.2 Varausten muokkaus
+
+Saat listan varauksista, jotka täsmäävät hakuehtojen kanssa. Voit valita kaikki tai osan.
+
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus1.png" title="Kuvakaappaus varaustlistasta" alt="Kuvakaappaus varauslistasta" style="width:100.0%" />
+
+Varauslistan yläpuolelta pääset muokkaamaan hakuehtoja, jos tulos ei ollut halutunlainen.
+
+Varauslistan alla voi valita, mitä valituille varauksille tehdään.
+
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus2.png" title="Kuvakaappaus varausten muokkausvaihtoehdoista" alt="Kuvakaappaus varausten muokkausvaihtoehdoista" style="width:100.0%" />
+* **Uusi vanhentumispäivä**: Valitse kalenterista uusi vanhentumispäivä.
+* **Uusi noutokirjasto**: Valitse uusi noutokirjasto.
+* **Keskeytä varaukset**: Valitse, haluatko keskeyttää tai aktivoida valitut varaukset.
+  * _Keskeyttämätön_ = Ota pois keskeytys valituilta varauksilta eli aktivoi ne.
+  * _Keskeytä varaus_ = Keskeytä valitut varaukset.
+* **Aktivointipäivä**: Valitse halutessasi keskeytettäville varauksille aktivointipäivä.
+* **Uusi varaushuomautus**: Lisää varauksille huomautus.
+* **Poista varausten huomautukset**: Laita tähän rasti, jos haluat poistaa valituilta varauksilta nykyiset huomautukset. 
+
+Valitse sitten _Muokkaa varauksia_.
+
+Taulukon yläpuolelle tulee tieto, kuinka monta varausta muokattiin. Taulukon alapuolelta pääse takaisin varausten muokkaukseen eräajona.
+
+### 12.7.3 Varausten muokkaus raporttien kautta
+
+Ei toimi vielä. 
+
+Voit viedä varauksia varausten muokkaukseen eräajona myös raporttien kautta, jos raportin tuloksissa on mukana reserve_id-arvo eli varauksen tunnus varaustaulussa. Tämä voi olla tarpeen esimerkiksi silloin, kun halutaan muokata yhden kuvailutietueen kaikkia varauksia kerralla. Raportin tulosten yläpuolelle tulee näkyville _Eräkäsittele x näkyvillä olevaa riviä_, josta voit valita _Varausten muokkaus eräajona_ -vaihtoehdon.
+
+<img src="/assets/files/docs/Tyokalut/varaustenmuokkaus3.png" title="Kuvakaappaus raportin tulosten yläpuolella olevasta valikosta" alt="Kuvakaappaus raportin tulosten yläpuolella olevasta valikosta" style="width:100.0%" />
+
+Päädyt kohdan 12.7.2 Varausten muokkaus -näkymään, jossa voit jatkaa sitten sen ohjeen mukaisesti.
+
 ## 12.8 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät. Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä eikä varausten viimeisiä noutopäiviä. Kalenterit määritetään erikseen jokaiselle kirjastolle.
 
-Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston kalenteri. Sen oikealle puolelle avautuu Vinkit-ruutu, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä
-kiinniolopäivistä.
+Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston kalenteri. Sen oikealle puolelle avautuu Vinkit-ruutu, jossa on selitykset sulkuvaihtoehdoiksi sekä listoja jo määritetyistä kiinniolopäivistä.
 
 <img src="/assets/files/docs/Tyokalut/Pekurinkirjastonkalenteri.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." alt="Kuvakaappaus kalenteri-työkalun näkymästä. Kalenterinäkymässä on Oulun kaupungin Pekurin kirjaston kalenteri huhtikuulta 2024." style="width:90.0%" />
 
