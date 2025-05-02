@@ -26,6 +26,12 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa.
 
+**OUTI**
+* OUTIin on tullut asiakaspalautetta Finnan lainaushistorian järjestämisestä otsikon mukaan. Nythän Finnassa lainahistoria järjestyy ensin poistettujen niteiden mukaan eivätkä ne mene aakkosjärjestykseen ja vasta poistettujen niteiden jälkeen järjestyvät aakkosiin kokoelmasta edelleen löytyvät niteet. Tästä on tikettejä auki ja mietimme pääkäyttäjäpalaverissa miten asiassa nyt edetään?
+  * Päätimme ottaa asian puheeksi seuraavassa Finna-kehitysehdotusten tapaamisessa toukokuussa (21.5.25025).
+* Kaukopalveluohjelma Webkaken ja Kohan välinen yhteys katkesi OUTIssa la 26.4. Yhteys oli edellen poikki tiistaina aamulla.
+  * Vika saatiin korjattua palaverin aikana. Syytä yhteyskatkolle ei ole OUTIlla tiedossa.
+
 **Vaara**
 * Normaalia ylläpitoa.
 * Hankintaportaalissa palvelinvirheitä ja hidastelua.
