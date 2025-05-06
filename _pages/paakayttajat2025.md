@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
 * Kohan ohje suomeksi - Työkalut-osioon lisätty osiot [Eräpäivien siirto eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#126-er%C3%A4p%C3%A4ivien-siirto-er%C3%A4ajona) ja [Varausten muokkaus eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-varausten-muokkaus-er%C3%A4ajona)
+* Testikannat luodaan uusiksi touko-kesäkuun vaihteessa, kunhan palvelinten käyttöjärjestelmäpäivitys on ohi.
 
 Etelästä pohjoiseen
 
