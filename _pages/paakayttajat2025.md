@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
@@ -28,6 +28,10 @@ Etelästä pohjoiseen
 
 **Vaara**
 * ei erityistä, normaalia ylläpitoa
+
+**OUTI**
+* Oulussa on testattu Lyngsoen automaatin offline-ohjelmaa. Testaushavainnot laitettu Matrixin Automaatti-kanavalle.
+* OUTIn Koha-pääkäyttäjät ovat koulutuksessa ke 7.5. koko päivän. Päivystyspuhelin on mukana, johon voi käyttäjät soittaa kiireellisissä asioissa esim. jos Koha ei toimi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
 
