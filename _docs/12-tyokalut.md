@@ -284,6 +284,7 @@ Muokattavia varauksia voi hakea monilla ehdoilla:
 * **Vanhentumispäivämäärä alkaen**: Vanhentumispäivä ja viimeinen noutopäivä ovat käytännössä sama asia. Valitse aikaväli.
 * **Vanhentumispäivämäärä loppuen**
 * **Kirjastot**: Voit valita yhden tai useamman
+* **Varauksen tila**: Valitse tarvittaessa varauksen tila: Ei tilamääritystä, Kuljetettavana, Käsittelyssä tai Odottaa 
 * **Keskeytys**: Valitse, pitääkö varauksen olla keskeytetty vai keskeyttämätön. Jos et valitse mitään, haetaan kummatkin.
 * **Aktivointipäivä alkaen**: Jos varaus on keskeytetty, valitse tästä aikaväli, jolla aktivointipäivä pitää olla.
 * **Aktivointipäivä päättyen**
