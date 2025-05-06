@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
 * Kohan ohje suomeksi - Työkalut-osioon lisätty osiot [Eräpäivien siirto eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#126-er%C3%A4p%C3%A4ivien-siirto-er%C3%A4ajona) ja [Varausten muokkaus eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-varausten-muokkaus-er%C3%A4ajona)
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Kyseltiin [Hakutulosnäytön muutoksia koskevan tiketin](https://github.com/KohaSuomi/Koha-23x/issues/157) perään. Koha-Suomi käsittelee omassa palaverissaan, keskusteltiin että mahdollisesti voisi olla hyvä käydä toiveiden ajantasaisuus vielä läpi tiedonhaku- ja indesointiryhmässä.
+* Kyseltiin myös [kehitysehdotuksesta, joka liittyy hyllyvaratun teoksen lainatapahtuman tekstiin](https://github.com/KohaSuomi/Koha/issues/1681). Todettiin, että Annelin version ongelmana on se, että noudettavissa olevaa varausta ei saa kokonaan peruutettua tilanteessa jossa toinen asiakas noutaa varauksen puolesta. Vaski tarkistaa ja kommentoi oliko tämä Mikon versiossa huomioitu. Sen lisäksi sovittiin, että muutkin testaavat Mikon versiota (joka toimii Firefox ESR 128-versiosta eteenpäin) ja mietitään sitten testausten jälkeen mennäänkö sillä vai onko tarvetta harkita esimerkiksi javascript-pluginia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
 
