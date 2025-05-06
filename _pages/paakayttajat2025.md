@@ -19,6 +19,10 @@ Läsnä:
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
 * Kohan ohje suomeksi - Työkalut-osioon lisätty osiot [Eräpäivien siirto eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#126-er%C3%A4p%C3%A4ivien-siirto-er%C3%A4ajona) ja [Varausten muokkaus eräajona](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-varausten-muokkaus-er%C3%A4ajona)
 
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 18
 
 Aika: 29.4.2025 klo 9.15<br />
