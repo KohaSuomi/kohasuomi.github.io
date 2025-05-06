@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
@@ -32,6 +32,12 @@ Etelästä pohjoiseen
 **OUTI**
 * Oulussa on testattu Lyngsoen automaatin offline-ohjelmaa. Testaushavainnot laitettu Matrixin Automaatti-kanavalle.
 * OUTIn Koha-pääkäyttäjät ovat koulutuksessa ke 7.5. koko päivän. Päivystyspuhelin on mukana, johon voi käyttäjät soittaa kiireellisissä asioissa esim. jos Koha ei toimi.
+
+**Siilinjärvi**
+* Kohan taannoisista kaatumisista aiheutui tarve kerrata henkilökunnan kanssa, kuinka poikkeustilanteessa toimitaan ja varsinkin että poikkeustilanteen jälkeen odotetaan kärsivällisesti käyttölupaa.
+* Havaittiin tiedonhakuongelma eli jotain vikaa indeksissä. Korjaantui kun LocalCoverImages-järjestelmäasetukset otettiin pois päälltä. Siilissä ei edes ole käytössä omia kansikuvia.
+* MyLink-tekstiviestirajapinta on tarkoitus ottaa käyttöön ma 2.6. Kuunneltiin tarkasti Lapin ongelmat.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
 
