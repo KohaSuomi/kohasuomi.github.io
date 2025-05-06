@@ -39,7 +39,7 @@ Etelästä pohjoiseen
 * MyLink-tekstiviestirajapinta on tarkoitus ottaa käyttöön ma 2.6. Kuunneltiin tarkasti Lapin ongelmat.
 
 **Kyyti**
-* Henkilökunnalta tullut palautetta, kun tiedonhaun tuloksissa fasettien sisällöt eivät ole aakkosjärjestyksessä. Järjestelmäasetuksella FacetOrder saa määriteltyä näytetäänkö facetit esiintymismäärän mukaisessa järjestyksessä, vai aakkosjärjestyksessä.
+* Henkilökunnalta tullut palautetta, kun tiedonhaun tuloksissa fasettien sisällöt eivät ole aakkosjärjestyksessä. Järjestelmäasetuksella FacetOrder saa määriteltyä näytetäänkö fasetit esiintymismäärän mukaisessa järjestyksessä, vai aakkosjärjestyksessä.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
