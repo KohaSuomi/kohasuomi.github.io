@@ -10,7 +10,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 19
+## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
 Läsnä:
@@ -19,7 +19,13 @@ Läsnä:
 * LocalCoverImages-asetus pois päältä tuotannoista
   * Kun kyseinen asetus on päällä, Koha yrittää hakea kaikille hakutuloksille paikallista kansikuvaa. Jos hakutuloksien joukossa on tietue, joka on poistettu, mutta se ei ole poistunut indeksistä, Koha näyttää 500 virhettä. 
   * Asetus on suositeltavaa ottaa pois päältä tuotannoista.
-  
+* [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1826)
+* [Toukokuun kuukausihuollon tiedote](https://github.com/KohaSuomi/Koha/discussions/1827)  
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-20) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
