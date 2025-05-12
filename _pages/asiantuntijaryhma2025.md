@@ -15,12 +15,28 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 5/2025
+
+Aika: Ke 21.5.2025 klo 13<br />
+Läsnä:
+
+## Ajankohtaiset
+
+## Kehitysehdotukset
+
+* [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
+
+## Muut asiat
+
+## Seuraava kokous
+
+
 ## Muistio 4/2025
 
 Aika: Ke 16.4.2025 klo 13<br />
 Läsnä: Ari Mäkiranta, Noora Valkonen (OUTI-kirjastot), Pia Kusmin ja Leena Kinnunen (Lapin kirjasto), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Janne Seppänen (Lastu-kirjastot), Riikka Mustajärvi (Kirkes-kirjastot), Susanna Sandell (Vaski-kirjastot), Kati Sillgren (Helle-kirjastot), Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
 * Palvelimien käyttöjärjestelmäpäivitys tehdään toukokuun huoltokatkossa 14.5.2025. Päivitys pyritään pitämään normaalin huoltokatkon aikarajoissa. 
 
@@ -33,7 +49,7 @@ Läsnä: Ari Mäkiranta, Noora Valkonen (OUTI-kirjastot), Pia Kusmin ja Leena Ki
        * C-alue Haja-asutusalueen postinumerot, pitkät jakelureitit ja jakelupisteiden määrä vähäinen
      * Lastussa ei ole tullut käyttöönotosta kustannuksia Suomi.fin suunnalta
 
-### Kehitysehdotukset
+### 2. Kehitysehdotukset
 
 * [Lastseen-arvon päivittyminen maksujen luomisen ja maksamisen yhteydessä #1702](https://github.com/KohaSuomi/Koha/issues/1702)
   * Toteutetaan. Pyritään viemään myös yhteisöön. 
@@ -52,7 +68,7 @@ Läsnä: Ari Mäkiranta, Noora Valkonen (OUTI-kirjastot), Pia Kusmin ja Leena Ki
 * [Tarratulostuksen kehittäminen viivakoodien luettavuuden parantamiseksi #7](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/7)
   * Muutettiin bugi-tyyppiseksi ja tutkitaan, onko ongelmalle mitään tehtävissä.
 
-### Muut asiat
+### 3. Muut asiat
 * Asiakasvarmenteen uusiminen ja jakeluaikataulu
   * nykyinen asiakasvarmenne vanhenee 7.9.2025
   * uuden varmenteen jakelu kimppoihin 11.8.2025 mennessä.
@@ -70,7 +86,7 @@ Läsnä: Ari Mäkiranta, Noora Valkonen (OUTI-kirjastot), Pia Kusmin ja Leena Ki
 
 * Kimpoissa voitaisiin jo miettiä seuraavan asiantuntijaryhmän edustusta (jäsen ja varajäsen). Valinta elo-syyskuussa, kun hallitus kokoontuu.
 
-### Seuraava kokous
+### 4. Seuraava kokous
 
 Ke 21.5.2025 klo 13
 
