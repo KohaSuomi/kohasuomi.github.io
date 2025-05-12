@@ -12,6 +12,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 19
 
+Aika: 13.5.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* LocalCoverImages-asetus pois päältä tuotannoista
+  * Kun kyseinen asetus on päällä, Koha yrittää hakea kaikille hakutuloksille paikallista kansikuvaa. Jos hakutuloksien joukossa on tietue, joka on poistettu, mutta se ei ole poistunut indeksistä, Koha näyttää 500 virhettä. 
+  * Asetus on suositeltavaa ottaa pois päältä tuotannoista.
+  
+## Viikko 19
+
 Aika: 6.5.2025 klo 9.15<br />
 Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Kati Sillgren ja Vilgot Strömsholm (Helle)
 
