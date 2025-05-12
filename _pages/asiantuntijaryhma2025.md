@@ -20,15 +20,15 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Ke 21.5.2025 klo 13<br />
 Läsnä:
 
-## Ajankohtaiset
+### Ajankohtaiset
 
-## Kehitysehdotukset
+### Kehitysehdotukset
 
 * [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
 
-## Muut asiat
+### Muut asiat
 
-## Seuraava kokous
+### Seuraava kokous
 
 
 ## Muistio 4/2025
