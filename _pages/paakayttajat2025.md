@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -31,6 +31,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 * Ranualla sijaitseva Japani-talo lakkaamassa, mietinnässä mitä niteille (n. 1600 kpl) tehdään
 * Lapin käyttösäännöt uudistuivat huhtikuussa, ja sen seurauksena tarvitaan tieto poistajakirjastosta. Asia ratkesi hakemalla poistajatiedot lokien katselulla. 
 * Kodo maininnut jossain asiantuntijapalaverissa mahdollisuudesta saada ns. virheraporttien tietoja Kohan about-sivulle, ei ilmeisesti edennyt?
+
+**Vaara**
+* normaalia ylläpitoa, vähän testausta ja yksi SIP2-tunnusten tekopyyntö
+* Pyhäselän kirjasto muuttaa, Irinalla tehtäviä sen kanssa. Kirjasto sulkeutuu tämän kuun lopussa ja avataan heinäkuussa uudessa tilassa uudella nimellä eli Hammaslahden kirjasto.
 
 Pohjoisesta etelään
 
