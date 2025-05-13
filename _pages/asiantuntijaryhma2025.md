@@ -25,8 +25,13 @@ Läsnä:
 ### Kehitysehdotukset
 
 * [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
+* [Palautussivun kuljetusmodaalin valintanappien parannus #1741](https://github.com/KohaSuomi/Koha/issues/1741)
 
 ### Muut asiat
+
+* [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
+  * Anneli kaivellut jonkin verran erilaisia raportteja. Minkälaisille raporteille on tarvetta?
+  * Tarvitaan tietoja tikettiin: Kuinka usein viikossa kuljetus liikkuu eri yksiköiden välillä ja minkälaisella mallilla? Meneekö kaikki esim. yhden pisteen kautta.
 
 ### Seuraava kokous
 
