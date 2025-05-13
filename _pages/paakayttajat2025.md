@@ -38,7 +38,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, I
 
 **Lumme**
 * Normaalia ylläpitoa.
-* Kuortin kirjasto on nyt virallisesti lopetettu.
+* Kuortin kirjasto on nyt virallisesti suljettu.
 
 Pohjoisesta etelään
 
