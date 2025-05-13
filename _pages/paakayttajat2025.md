@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -47,7 +47,7 @@ Pohjoisesta etelään
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Kati Sillgren ja Vilgot Strömsholm (Helle)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Kati Sillgren ja Vilgot Strömsholm (Helle), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
@@ -77,6 +77,9 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Normaalia ylläpitoa.
+
+**Lappi**
+* LinkMobilityn uusi rajapinta otettiin käyttöön 2.5., mutta 6.5. selvisi, että MyLink-ohjelma, jossa uudet tiedot ovat, oli demotilassa, eikä siksi lähettänyt viestejä. Demo poistettiin, ja viestit lähetettiin uudelleen, lisättiin varauksille noutoaikaa 9.-12.5. -> 16.5.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-19) - [Palaa sivun alkuun](/paakayttajat2025)
