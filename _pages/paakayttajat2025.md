@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -21,6 +21,16 @@ Läsnä:
   * Asetus on suositeltavaa ottaa pois päältä tuotannoista.
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1826)
 * [Toukokuun kuukausihuollon tiedote](https://github.com/KohaSuomi/Koha/discussions/1827)  
+
+**Lappi**
+
+* Laskujen ulkonäkö on muuttunut, teksti on pienempää ja marginaalit kapeampia
+* Muutettiin varausten noutopäiviä, ja kirjastot ottivat uusia kuitteja : jos otetaan uusi kuitti, siihen tulee alkuperäinen viimeinen noutopäivä.
+* Hankintaportaalista ei siirry kaikki tilaukset Kohaan. 
+* Circcontrol- asetus noudatti kirjautuneen käyttäjän kirjastoa, joka oli määritetty kirjastoon, jossa oli ohitettu eräpäivät. Testattu ja vaihdettu CircControl Koha Suomen suosituksen mukaiseksi "niteen kotikirjaston säännöt".
+* Ranualla sijaitseva Japani-talo lakkaamassa, mietinnässä mitä niteille (n. 1600 kpl) tehdään
+* Lapin käyttösäännöt uudistuivat huhtikuussa, ja sen seurauksena tarvitaan tieto poistajakirjastosta. Asia ratkesi hakemalla poistajatiedot lokien katselulla. 
+* Kodo maininnut jossain asiantuntijapalaverissa mahdollisuudesta saada ns. virheraporttien tietoja Kohan about-sivulle, ei ilmeisesti edennyt?
 
 Pohjoisesta etelään
 
