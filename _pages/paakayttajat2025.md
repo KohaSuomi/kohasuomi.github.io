@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -35,6 +35,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, I
 **Vaara**
 * normaalia ylläpitoa, vähän testausta ja yksi SIP2-tunnusten tekopyyntö
 * Pyhäselän kirjasto muuttaa, Irinalla tehtäviä sen kanssa. Kirjasto sulkeutuu tämän kuun lopussa ja avataan heinäkuussa uudessa tilassa uudella nimellä eli Hammaslahden kirjasto.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Kuortin kirjasto on nyt virallisesti lopetettu.
 
 Pohjoisesta etelään
 
