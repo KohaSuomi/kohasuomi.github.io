@@ -22,6 +22,9 @@ Läsnä:
 
 ### Ajankohtaiset
 
+* Yllättävä käyttökatkos ke 14.5.2025
+
+
 ### Kehitysehdotukset
 
 * [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
