@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -44,6 +44,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Au
 * Normaalia ylläpitoa.
 * Montaa teosta varatessa eroavaisuuksia yhden varauksen tekemiseen nähden, esim. noutopiste tyhjänä ja kiireetöntä varausta ei voi tehdä.
   * Molemmista löytyi jälkikäteen tiketit yhteisöstä, [36871](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=36871) ja [38638](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=38638).
+ 
+**Helle**
+* otettu käyttöön Varauksen noutomuistutus -ominaisuus [Tiketti 1812](https://github.com/KohaSuomi/Koha/issues/1812)
 
 Pohjoisesta etelään
 
