@@ -46,7 +46,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Au
   * Molemmista löytyi jälkikäteen tiketit yhteisöstä, [36871](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=36871) ja [38638](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=38638).
  
 **Helle**
-* otettu käyttöön Varauksen noutomuistutus -ominaisuus [Tiketti 1812](https://github.com/KohaSuomi/Koha/issues/1812)
+* otettu käyttöön Varauksen noutomuistutus -toiminto [Tiketti 1812](https://github.com/KohaSuomi/Koha/issues/1812)
 
 Pohjoisesta etelään
 
