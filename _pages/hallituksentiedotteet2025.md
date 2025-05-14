@@ -11,6 +11,32 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 5/2025
+
+14.5.2025
+
+Hei,
+
+Hallituksen toukokuun kokouksessa käytiin läpi perinteisesti kesäkuun yhtiökokousjärjestelyjä ja -tiedotusta. Yhtiökokous pidetään Mikkelissä 16.6.2025 klo 12.00. Käytännöt ovat samat kuin viime vuonna ja Koha-Suomi lähettää kokousohjeet ja -materiaalit omistajakuntiin toukokuussa. Kokoukseen on etämahdollisuus kaikille. 
+
+Nykyinen Koha-Suomen hallitus piti kautensa viimeisen kokouksen ja uusi hallitus päätetään yhtiökokouksessa nimeämistoimikunnan esityksestä. Toimitusjohtaja ja uuden hallituksen puheenjohtaja tiedottavat syksyn aikatauluista ja jokaisen kokouksen tiedote lähtee samalla tavoin jakeluun tällä jakelulistalla. Jos teillä on tullut jotain henkilövaihdoksia kirjastoissanne tai kimpoissanne, niin ilmoittakaa siitä toimitusjohtajalle tai minulle. Koha-Suomen hallitus kiittää kaikkia aktiivisesta osallistumisesta ja hienoa, että tiedotus järjestyy teidän kauttanne jokaiseen kirjastoon.
+
+Tämän viikon perjantaina on vielä Koha-kirjastojen johtajien aamukahvit, tapaamme osan teistä siellä.
+
+Liitteenä myös toimitusjohtajan raportti 5/2025.
+
+Mukavaa kesän odotusta kaikille, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
+
+Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
+
+Koha-Suomen hallituksen puolesta,
+
+Jouni Pääkkölä
+hallituksen pj.
+
+Toimitusjohtajan raportti 5/2025: [Toimitusjohtajan raportti 5 25.pdf](https://github.com/user-attachments/files/20207852/Toimitusjohtajan.raportti.5.25.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 4/2025
 
 2.5.2025
