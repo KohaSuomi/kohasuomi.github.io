@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -59,6 +59,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Au
  
 **Helle**
 * otettu käyttöön Varauksen noutomuistutus -toiminto [Tiketti 1812](https://github.com/KohaSuomi/Koha/issues/1812)
+
+**Siilinjärvi**
+* Laskujen lisäksi Tulosta ilmoituksia -työkalussa fontin koko oli pienentynyt, mutta se on nyt korjaantunut [Tiketti 1828](https://github.com/KohaSuomi/Koha/issues/1828)
+* Hankintaportaalin tiedonsiirto-ongelmat jatkuivat, mutta ne on nyt ilmeisesti korjattu ja sanomat tulevat perille Kohaan.
 
 Pohjoisesta etelään
 
