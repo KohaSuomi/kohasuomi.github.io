@@ -2975,6 +2975,48 @@ Ja tarkistaa, jäikö vielä muokattavia tietuita, jotka olivat rajautuneet pois
 
 os haluaa, niin siiten voi vaikka keräillä kopipastella tässä [videossa](https://youtu.be/zlAkQu_kLHU) olevan ohjeen mukaisesti muokattavat tietueet ja viedä biblionumberit Kuvailu-osion kautta tietueiden erämuokkaukseen.
 
+### Tietueet, joissa on sama termi kahdessa eri kentässä
+
+Raportti hakee tietueet, joissa on sama asiasana kahdessa eri kentässä
+
+Kolme versiota samasta raportista eri kentillä. Poista tarvittaessa aineistotyyppivalinta poistamalla WHERE-rivi. Raportin tuloksiin voi tulla "vääriä" tärppejä, jos esim. kaksiosaisen termin toinen osa täsmää toisessa kentässä olevaan termiin. Esim. historialliset sarjakuvat - sarjakuvat.
+
+Lisännyt: Anneli Österman
+Lisätty: 15.5.2025
+
+#### Tietueet, joissa sama termi kentissä 650a ja 655a
+
+```
+SELECT biblionumber, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="650"]/subfield[@code="a"]')," ") as f650, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="655"]/subfield[@code="a"]')," ") as f655 
+FROM biblio_metadata
+WHERE ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') = <<Aineistotyyppi|mtype>>
+HAVING f650 != "  " 
+AND f655 != "  " 
+AND (f650 LIKE CONCAT("%",f655,"%") OR f655 LIKE CONCAT("%",f650,"%"))
+```
+
+#### Tietueet, joissa sama termi kentissä 388a ja 648a
+
+```
+SELECT biblionumber, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="388"]/subfield[@code="a"]')," ") as f388, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="648"]/subfield[@code="a"]')," ") as f648 
+FROM biblio_metadata
+WHERE ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') = <<Aineistotyyppi|mtype>>
+HAVING f388 != "  " 
+AND f648 != "  " 
+AND (f388 LIKE CONCAT("%",f648,"%") OR f648 LIKE CONCAT("%",f388,"%"))
+```
+
+#### Tietueet, joissa sama termi kentissä 370g ja 651a
+
+```
+SELECT biblionumber, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="370"]/subfield[@code="g"]')," ") as f370, CONCAT(" ", ExtractValue(metadata,'//datafield[@tag="651"]/subfield[@code="a"]')," ") as f651 
+FROM biblio_metadata
+WHERE ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') = <<Aineistotyyppi|mtype>>
+HAVING f370 != "  " 
+AND f651 != "  " 
+AND (f370 LIKE CONCAT("%",f651,"%") OR f651 LIKE CONCAT("%",f370,"%"))
+```
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
