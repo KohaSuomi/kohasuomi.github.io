@@ -2277,6 +2277,37 @@ AND bt.datecancelled IS NULL
 )
 ```
 
+### Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla
+
+Raportilla voi hakea tietueita, joissa on niteitä, joiden kotikirjasto on sama, mutta sijaintikirjasto on eri ja niteet ovat hyllyssä. Käyttäjä voi valita kotikirjaston ja kaksi eri sijaintikirjastoa (jos halutaan valita useampi, pitää alimmalle riville koodissa vaihtaa valintaa vastaava luku). Valinnan voi tehdä painamalla näppäimistöltä ctrl-näppäimen alas ja valitsemalla hiirellä listalta halutut sijaintikirjastot. Lisäksi käyttäjä voi halutessaan valita aineistotyypin. Raportti listaa tulokseen biblionumberin, itemnumberin, teostiedot, löytyneet viivakoodit, luokan ja pääsanan, hyllypaikan, kokoelmakoodin sekä niteiden viimeksi nähty -tieto samassa järjestyksessä kuin viivakoodit on mainittu omassa sarakkeessaan.
+
+Lisääjä: Anneli Österman
+Pvm: 15.5.2025
+
+```
+SELECT
+    i.biblionumber,
+    i.itemnumber,
+    CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Teos',
+    b.author AS 'Tekijä',
+    GROUP_CONCAT(i.barcode ORDER BY i.barcode SEPARATOR ', ') AS 'Viivakoodit',
+    i.cn_sort AS 'Luokka ja pääsana',
+    i.location AS 'Hyllypaikka',
+    i.ccode AS 'Kokoelmakoodi',
+    GROUP_CONCAT(i.datelastseen ORDER BY i.barcode SEPARATOR ', ') AS 'Viimeksi nähty'
+FROM
+    items i
+    JOIN biblio b ON i.biblionumber = b.biblionumber
+WHERE
+    i.holdingbranch IN <<Valitse kaksi sijaintikirjastoa|branches:in>>
+AND i.homebranch = <<Valitse kotikirjasto|branches>>
+AND i.itype LIKE <<Valitse nidetyyppi|itemtypes:all>>
+AND i.onloan IS NULL
+GROUP BY
+    i.biblionumber, i.homebranch
+HAVING
+    COUNT(DISTINCT i.holdingbranch) = 2
+```
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
