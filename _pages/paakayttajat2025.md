@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
