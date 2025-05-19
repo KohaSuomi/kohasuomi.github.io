@@ -12,11 +12,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 21
 
-Aika: 13.5.2025 klo 9.15<br />
+Aika: 19.5.2025 klo 9.15<br />
 Läsnä:
 
-* Viikon 21 päivitys
+* [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
 * Uusi raportti: [Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-kahdessa-eri-sijaintikirjastossa-samalla-kotikirjastolla)
+* [Kuvailupohjien tarkistus](https://github.com/KohaSuomi/Koha/issues/1835) - olematon 973-kenttä
 
 Etelästä pohjoiseen
 
