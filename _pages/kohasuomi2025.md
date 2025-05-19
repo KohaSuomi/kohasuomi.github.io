@@ -20,6 +20,7 @@ Läsnä:
 
 * Viikon 21 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* [Tietueen Perustiedot-näytöllä ei pysty suodattamaan ja järjestämään Tila-sarakkeen mukaan #1534](https://github.com/KohaSuomi/Koha/issues/1534) /Emmi
 
 ## Viikko 20
 
