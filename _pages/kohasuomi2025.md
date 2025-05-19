@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 21
 
 Aika: Ma 19.5.2025<br />
-Läsnä:
+Läsnä: Emmi, Lari, Johanna, Pasi, Ari, Kodo, Anneli
 
 * Päivystyvuorot viikosta 22 alkaen
 * Viikon 21 päivitys
