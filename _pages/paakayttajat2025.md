@@ -25,14 +25,16 @@ Etelästä pohjoiseen
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
   * Kun kyseinen asetus on päällä, Koha yrittää hakea kaikille hakutuloksille paikallista kansikuvaa. Jos hakutuloksien joukossa on tietue, joka on poistettu, mutta se ei ole poistunut indeksistä, Koha näyttää 500 virhettä. 
   * Asetus on suositeltavaa ottaa pois päältä tuotannoista.
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/1826)
-* [Toukokuun kuukausihuollon tiedote](https://github.com/KohaSuomi/Koha/discussions/1827)  
+* [Toukokuun kuukausihuollon tiedote](https://github.com/KohaSuomi/Koha/discussions/1827)
+
+Pohjoisesta etelään
 
 **Lappi**
 
@@ -64,7 +66,14 @@ Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Au
 * Laskujen lisäksi Tulosta ilmoituksia -työkalussa fontin koko oli pienentynyt, mutta se on nyt korjaantunut [Tiketti 1828](https://github.com/KohaSuomi/Koha/issues/1828)
 * Hankintaportaalin tiedonsiirto-ongelmat jatkuivat, mutta ne on nyt ilmeisesti korjattu ja sanomat tulevat perille Kohaan.
 
-Pohjoisesta etelään
+**OUTI**
+* Testattu, mille kirjastolle accountlines-tauluun Koha-maksut kirjautuvat. Testien perusteella näyttäisi menevän seuraavasti:
+  * Palautuskehotusmaksut: kirjastolle, josta lainat oli lainattu tai jos asiakkaalla on samalle eräpäivälle lainoja useammasta kuin yhdestä kirjastosta, maksu kirjautuu kirjastolle, josta asiakas oli lainannut lainan ensimmäiseksi.
+  * Myöhästymismaksut voi määrittää järjestelmäasetuksella OverdueFineBranch, mille kirjastolle maksut kirjautuvat.
+  * Noutamattoman varauksen maksu kirjautuu kirjastolle, jossa varauksen noutopaikka.
+  * Kadonneen aineiston maksu kirjautuu kirjastolle, jossa nide asetettu kadonneeksi.
+  * Manuaalisesti lisätty maksu kirjautuu kirjastolle, jossa maksu lisätty asiakkaan maksuihin.
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-20) - [Palaa sivun alkuun](/paakayttajat2025)
 
