@@ -333,6 +333,10 @@ SIP_MEDIA_TYPE-luokassa on lueteltuna SIP-mediatyypit, jotka välittyvät SIP2-v
 
 SUBLOC-luokka eli niteen hyllytarkenne. Tämä on alunperin Koha-Suomen oma lisäys, mutta se on löytyy nykyään myös yhteisön tietokantarakenteesta. Hyllytarkenteista ei ole Koha-Suomen kimppojen laajuista päätöstä ja niitä onkin käytetty hyvin eri tavoin. Niissä voi olla saman tyyppisiä arvoja kuin kokoelmissa tai esimerkiksi Koulukirjastojen kirjastoyksiköiden nimiä.
 
+Hyllytarkenne näytetään virkailijaliittymässä tietueen perustiedot-näytöllä Kotikirjasto-sarakkeessa hyllypaikan perässä sulkeissa.
+
+<img src="/assets/files/docs/Asetukset/hyllytarkenne.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus, jossa hyllytarkenne näkyy hyllypaikan yhteydessä sulkeissa" style="width:90.0%" />
+
 **TOIMITTAJAT**
 
 TOIMITTAJAT-luokka on aisapari AUTOMTYPE-luokalle eli tällä voi määrittää SIP2-tunnukseen, mikä toimittajan automaatista on kyse. Tämä arvo on rajoitettu vain asiakastyypille AUTOM/AUTOMAATTI.
