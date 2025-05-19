@@ -2309,12 +2309,12 @@ HAVING
     COUNT(DISTINCT i.holdingbranch) = 2
 ```
 
-### Niteen havaintohistoria
+### Niteen havaintohistoria liitännäistä varten
 
 Tämä raportti on tehty Niteen havaintohistoria -linkin näyttämiseen Niteet-sivulla. Lisää raportti tallennettuihin raportteihin ja määritä IntranetUserJS: Item history report link -liitännäiseen raportin ID.
 
-Tekijä: Katariina Pohto
-Lisääjä: Anneli Österman
+Tekijä: Katariina Pohto<br/>
+Lisääjä: Anneli Österman<br/>
 Pvm: 19.5.2025
 
 ```
