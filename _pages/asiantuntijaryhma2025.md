@@ -23,7 +23,8 @@ Läsnä:
 ### Ajankohtaiset
 
 * Yllättävä käyttökatkos ke 14.5.2025
-
+* [Varausten noutohylly -toiminnon tilannekatsaus](https://github.com/KohaSuomi/Koha/issues/1686) / Susanna
+* Seuraavan asiantuntijaryhmän kokoonpano
 
 ### Kehitysehdotukset
 
