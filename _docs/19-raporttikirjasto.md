@@ -2308,6 +2308,39 @@ GROUP BY
 HAVING
     COUNT(DISTINCT i.holdingbranch) = 2
 ```
+
+### Niteen havaintohistoria
+
+Tämä raportti on tehty Niteen havaintohistoria -linkin näyttämiseen Niteet-sivulla. Lisää raportti tallennettuihin raportteihin ja määritä IntranetUserJS: Item history report link -liitännäiseen raportin ID.
+
+Tekijä: Katariina Pohto
+Lisääjä: Anneli Österman
+Pvm: 19.5.2025
+
+```
+SELECT datetime AS Havaintoaika, branch AS Kirjasto,
+       CASE WHEN type = 'issue' THEN 'Laina'
+            WHEN type = 'renew' THEN 'Uusinta'
+            WHEN type = 'return' THEN 'Palautus'
+            ELSE 'Ei tietoa'
+       END AS Tapahtuma,
+       itemnumber AS Nidenumero, itemtype AS Nidetyyppi, location AS Hyllypaikka,
+       ccode AS Kokoelma,
+       CASE WHEN categorycode = 'EITILASTO' THEN 'Työkortti'
+            WHEN categorycode IS NULL THEN ''
+            ELSE 'Asiakas'
+       END AS Asiakastieto,
+       CASE WHEN type = 'renew' THEN ''
+            WHEN interface = 'intranet' THEN 'Virkailijaliittymä'
+       	    WHEN interface = 'sip' THEN 'Automaatti'
+            WHEN interface = 'api' THEN 'Finna'
+            WHEN interface = 'opac' THEN 'Itsepalvelu'
+            ELSE 'Ei tietoa'
+       END AS 'Käyttöliittymä'
+  FROM statistics s
+ WHERE itemnumber = <<itemnumber>>
+ ORDER BY datetime DESC
+```
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
