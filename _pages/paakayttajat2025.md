@@ -36,6 +36,7 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Käyty läpi OUTIn SIP-tunnuksia, joita on lähes 200. Käytöstä poistettuja tunnuksia ei ole poistettu koskaan. Listataan poistettavat tunnukset tikettiin poistettavaksi SIP-palvelimelta.
+* 15.5. OUTIn kuvailijoilta tuli tieto, että 14.5. Kirjapalvelun paketti on jäänyt valumatta, mutta että pakettia ei kannattanut valuttaa enää jälkeenpäin, kun ei tiedetty mitä kaikkia tietueita oli korjattu valuneeseen pakettiin. Tehdään kehitysehdotustiketti siitä, että olisiko mahdollista valuttaa paketit aikajärjestyksessä, jotta tietueiden korjaukset eivät menisi hukkaan. 
 
 **Siilinjärvi**
 * Ei mainittavaa, hankintaportaali näyttäisi nyt toimivan ok.
