@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
 * Uusi raportti: [Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-kahdessa-eri-sijaintikirjastossa-samalla-kotikirjastolla)
@@ -42,6 +42,11 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Ei mainittavaa.
+
+**Kyyti**
+* Testikantojen testiasiakkaiden kirjastokorttien pseudonymisointi https://github.com/KohaSuomi/Koha/issues/1832. Onko mahdollista jättää pseudonymisoimatta? - On kuulemma mahdollista.
+* Hallinnoi taustatöistä oli keskiviikon Kohan kaatumisen jäljiltä oli 14 epäonnistunutta taustatyötä. Aiheuttaako puutteellinen indeksi ongelmaa niteiden poistossa? - Voi aiheuttaa, koska niteiden poiston yhteydessä päivitetään myös indeksiä.
+* Kuvailupohjien testaus ilmoittaa, että itemtype ei ole määritetty. Onko ongelma? - Ei ole, liittyy meidän MTYPEen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
