@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan)
 
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
 * Uusi raportti: [Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-kahdessa-eri-sijaintikirjastossa-samalla-kotikirjastolla)
@@ -36,6 +36,9 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Käyty läpi OUTIn SIP-tunnuksia, joita on lähes 200. Käytöstä poistettuja tunnuksia ei ole poistettu koskaan. Listataan poistettavat tunnukset tikettiin poistettavaksi SIP-palvelimelta.
+
+**Siilinjärvi**
+* Ei mainittavaa, hankintaportaali näyttäisi nyt toimivan ok.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
