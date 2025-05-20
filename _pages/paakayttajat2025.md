@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi)
+Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes)
 
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
 * Uusi raportti: [Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-kahdessa-eri-sijaintikirjastossa-samalla-kotikirjastolla)
@@ -25,6 +25,10 @@ Etelästä pohjoiseen
 * Ikuisuusprojekti Saamelaisbibliografian poiminta valmistumassa, eli Bibsysiin poimintaa varten korjattu saamelaisbibliografian tietueet. Haravointi uudelleen testauksessa tulevana yönä. Linkki bibliografiaan https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/search?vid=SAPMI 
 * Korjattu ja tarkistettu kaikkien kirjastojen tuplatilaukset 16.5. ongelmien jälkeen
 * Muuten rauhallista, normaalia ylläpitoa
+
+  **Kirkes**
+  * Asiakkaalta tulleen palautteen mukaan palautusautomaatista tulostuneesta palautuskuitista puuttui viimeisenä palautettu nide, mutta sähköpostiin saapuneessa palautuskuitissa oli kaikki niteet. Jos asiakkaan palauttamissa niteissä olisi muiden asiakkaiden lainoja, ne voisivat puuttua sähköpostiin lähetettävästä palautuskuitista, mutta tässä tapauksessa tutkimme palautusautomaatin lokeja. Kyseessä ei todennäköisesti ole laajempi ongelma.
+  * Kirkes-kirjastoissa on käytössä Suomi.fi-viestit, mutta uuden rajapinnan käyttöönottoa on mietitty. Githubista löytyy tähän ohje: https://github.com/KohaSuomi/koha-suomi-messaging/wiki
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
