@@ -21,14 +21,15 @@ Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi
 * Muistattehan käydä sulkemassa itse kirjaamanne [Ratkaisu ehdotettu](https://github.com/orgs/KohaSuomi/projects/4/views/15) -tilaiset tiketit
 
 Etelästä pohjoiseen
+
 **Lappi**
 * Ikuisuusprojekti Saamelaisbibliografian poiminta valmistumassa, eli Bibsysiin poimintaa varten korjattu saamelaisbibliografian tietueet. Haravointi uudelleen testauksessa tulevana yönä. Linkki bibliografiaan https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/search?vid=SAPMI 
 * Korjattu ja tarkistettu kaikkien kirjastojen tuplatilaukset 16.5. ongelmien jälkeen
 * Muuten rauhallista, normaalia ylläpitoa
 
-  **Kirkes**
-  * Asiakkaalta tulleen palautteen mukaan palautusautomaatista tulostuneesta palautuskuitista puuttui viimeisenä palautettu nide, mutta sähköpostiin saapuneessa palautuskuitissa oli kaikki niteet. Jos asiakkaan palauttamissa niteissä olisi muiden asiakkaiden lainoja, ne voisivat puuttua sähköpostiin lähetettävästä palautuskuitista, mutta tässä tapauksessa tutkimme palautusautomaatin lokeja. Kyseessä ei todennäköisesti ole laajempi ongelma.
-  * Kirkes-kirjastoissa on käytössä Suomi.fi-viestit, mutta uuden rajapinnan käyttöönottoa on mietitty. Githubista löytyy tähän ohje: https://github.com/KohaSuomi/koha-suomi-messaging/wiki
+**Kirkes**
+* Asiakkaalta tulleen palautteen mukaan palautusautomaatista tulostuneesta palautuskuitista puuttui viimeisenä palautettu nide, mutta sähköpostiin saapuneessa palautuskuitissa oli kaikki niteet. Jos asiakkaan palauttamissa niteissä olisi muiden asiakkaiden lainoja, ne voisivat puuttua sähköpostiin lähetettävästä palautuskuitista, mutta tässä tapauksessa tutkimme palautusautomaatin lokeja. Kyseessä ei todennäköisesti ole laajempi ongelma.
+* Kirkes-kirjastoissa on käytössä Suomi.fi-viestit, mutta uuden rajapinnan käyttöönottoa on mietitty. Githubista löytyy tähän ohje: https://github.com/KohaSuomi/koha-suomi-messaging/wiki
  
 **Vaara**
 * Normaalia ylläpitoa ja tikettien testausta, etenkin signummuutokseen liittyvien asioiden testaus ja selvittely.
