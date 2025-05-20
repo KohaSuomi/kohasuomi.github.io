@@ -36,6 +36,9 @@ Läsnä:
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
   * Anneli kaivellut jonkin verran erilaisia raportteja. Minkälaisille raporteille on tarvetta?
   * Tarvitaan tietoja tikettiin: Kuinka usein viikossa kuljetus liikkuu eri yksiköiden välillä ja minkälaisella mallilla? Meneekö kaikki esim. yhden pisteen kautta.
+* Itsepalvelulainaukset asiakasvarmenteen taakse
+  * Asiasta keskusteltu kokouksessa 12/24
+  * OUTI-kirjastojen osalta ongelmaksi jäivät Istekin hallinnoimat koulukirjastojen VDI-päätteet, joihin asiakasvarmenteen automaattista hyväksyntää ei saatu toimimaan. Muiden OUTI-kirjastojen osalta OK. VDI on Oulussa väistyvä tekniikka. Uusi yritys siis, kun VDIt korvataan jollain muulla pääte/kioskimoodisella tietokoneella.
 
 ### Seuraava kokous
 
