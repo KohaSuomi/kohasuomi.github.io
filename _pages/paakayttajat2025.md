@@ -50,7 +50,7 @@ Etelästä pohjoiseen
 * Kuvailupohjien testaus ilmoittaa, että itemtype ei ole määritetty. Onko ongelma? - Ei ole, liittyy meidän MTYPEen.
 
 **Helle**
-* Voisiko käyttöön saada ominaisuuden,joka ilmoittaa kehittäjille kimppaan/kimppoihin siirtymättömistä kuvailutietue-paketeista?
+* Voisiko käyttöön saada ominaisuuden, joka ilmoittaa kehittäjille kimppaan/kimppoihin siirtymättömistä kuvailutietue-paketeista?
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
