@@ -49,6 +49,9 @@ Etelästä pohjoiseen
 * Hallinnoi taustatöistä oli keskiviikon Kohan kaatumisen jäljiltä oli 14 epäonnistunutta taustatyötä. Aiheuttaako puutteellinen indeksi ongelmaa niteiden poistossa? - Voi aiheuttaa, koska niteiden poiston yhteydessä päivitetään myös indeksiä.
 * Kuvailupohjien testaus ilmoittaa, että itemtype ei ole määritetty. Onko ongelma? - Ei ole, liittyy meidän MTYPEen.
 
+**Helle**
+* Voisiko käyttöön saada ominaisuuden,joka ilmoittaa kehittäjille kimppaan/kimppoihin siirtymättömistä kuvailutietue-paketeista?
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 20
