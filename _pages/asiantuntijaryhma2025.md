@@ -24,24 +24,39 @@ Läsnä:
 
 * Yllättävä käyttökatkos ke 14.5.2025
 * [Varausten noutohylly -toiminnon tilannekatsaus](https://github.com/KohaSuomi/Koha/issues/1686) / Susanna
+* Harava-projekti / Asko
 * Seuraavan asiantuntijaryhmän kokoonpano
+  * ilmoittakaa Annelille elokuun alkupuolella varsinainen ja varajäsen
+  * Kyyti: Roosa Väisänen varsinainen, Tuomas Kunttu varajäsen
+  * Vaara: Päivi Knuutinen varsinainen, Irina Halminen varajäsen
+  * Lumme: Hanna Ikonen varsinainen, Katja Valjakka varajäsen
+  * Helle: Kati Sillgren varsinainen, Tove Selkälä varajäsen
+  * Kirkes: Riikka Mustajärvi varsinainen, Anu Järvi varajäsen
 
 ### Kehitysehdotukset
 
 * [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
+Koha-Suomen asiantuntijaryhmä 21.5.2025: 
+  * Tutkitaan ja testataan emonide-toiminnallisuutta, saisiko sillä toteutettua paremmin pitävät lainarajat.
+    * Sovitaan pääkäyttäjäpalaverissa pienempi ryhmä, joka testaa ominaisuutta laajemmin.
+  * Tekisikö Piia uuden tiketin bugzillaan toimimattomasta asiakastyyppikohtaisesta lainarajasta?
+  * Koha-Suomi seuraa olemassa olevaa tikettiä ja avustaa tarvittaessa.
 * [Palautussivun kuljetusmodaalin valintanappien parannus #1741](https://github.com/KohaSuomi/Koha/issues/1741)
+  * Kehittäjät tutkivat, onko tämä toteutettavissa. Jos on, yhdistetään se nykyiseen IntranetUserJS: Qslip keyboard shortcut -liitännäiseen (nimetään uudelleen).
 
 ### Muut asiat
 
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
   * Anneli kaivellut jonkin verran erilaisia raportteja. Minkälaisille raporteille on tarvetta?
   * Tarvitaan tietoja tikettiin: Kuinka usein viikossa kuljetus liikkuu eri yksiköiden välillä ja minkälaisella mallilla? Meneekö kaikki esim. yhden pisteen kautta.
+  * Asiantuntijaryhmä 21.5.2025: Perustetaan erillinen työryhmä, joka miettii tarkemmin säännöt. Halukkaat, ilmoittakaa Annelille elokuun alkuun mennessä kimpan edustaja. Sovitaan Koha-Suomen palaverissa, kuka kehittäjistä tulee mukaan. Anneli toimii kokoonkutsujana.
 * Itsepalvelulainaukset asiakasvarmenteen taakse
   * Asiasta keskusteltu kokouksessa 12/24
   * OUTI-kirjastojen osalta ongelmaksi jäivät Istekin hallinnoimat koulukirjastojen VDI-päätteet, joihin asiakasvarmenteen automaattista hyväksyntää ei saatu toimimaan. Muiden OUTI-kirjastojen osalta OK. VDI on Oulussa väistyvä tekniikka. Uusi yritys siis, kun VDIt korvataan jollain muulla pääte/kioskimoodisella tietokoneella.
 
 ### Seuraava kokous
 
+To 12.6.2025 klo 13
 
 ## Muistio 4/2025
 
