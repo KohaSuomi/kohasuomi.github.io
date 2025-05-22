@@ -23,7 +23,7 @@ Läsnä: Päivi Knuutinen (Vaara-kirjastot), Ari Mäkiranta, Anneli Österman, E
 ### Ajankohtaiset
 
 * Yllättävä käyttökatkos ke 14.5.2025
-  * Katkoksen perimmäistä syytä ei vielä tiedetä, mutta se liittynee jotenkin palvelimen käyttöjärjestelmän päivitykseen
+  * Katkoksen perimmäistä syytä ei vielä tiedetä, mutta se liittynee jollakin tavalla palvelimen käyttöjärjestelmän päivitykseen.
   * Käyttöjärjestelmäpäivitykset on pyritty tekemään tähän mennessä niin, että niistä aiheutuisi mahdollisimman lyhkäset käyttökatkot, mutta jatkossa joudutaan todennäköisesti käyttämään enemmän aikaa päivityksiin, jolloin myös katkokset tulevat olemaan pidempiä. Koettiin kuitenkin, että pidempi ennakoitu katkos on parempi kuin odottamaton käyttökatkos virhetilanteen vuoksi.
 * [Varausten noutohylly -toiminnon tilannekatsaus](https://github.com/KohaSuomi/Koha/issues/1686) / Susanna
   * Susanna kertoi ja Anneli näytti, miltä varausten noutohylly-toiminto näyttää tällä hetkellä. Työ on jo melko pitkällä, mutta käyttöönotto menee todennäköisesti syksylle.
