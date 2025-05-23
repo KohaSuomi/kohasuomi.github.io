@@ -28,7 +28,7 @@ Kokouksen sihteeriksi valittiin Johanna Ranta.
  <li><a href="https://www.kiwi.fi/pages/viewpage.action?pageId=478576660" target="_blank">Toimijasivut Finna.fi:ssä </a> </li>
  <li>Toukokuu-syyskuu 2025 </li>
  <li>Myös Melinda osallistuu talkoisiin </li>
- <li>Vapaaehtoinen, mutta kannattaisi toteuttaa ainakin TäTissä -> Antti tekee päivitykset TäTiin </li>
+ <li>Vapaaehtoinen, mutta kannattaisi toteuttaa ainakin TäTissä <br> -> Antti tekee päivitykset TäTiin </li>
 </ul>
 
 #### 3.	YKL:n luokkamuutokset ####
@@ -62,8 +62,8 @@ Kokouksen sihteeriksi valittiin Johanna Ranta.
    <li>Jos ysa- ja isbd-muotoisia tietueita tulee lisää, pääkäyttäjää voi pyytää palauttamaan tietueet ennalleen </li>
   </ul>
  <li><a href="https://github.com/KohaSuomi/Koha/issues/1470" target="_blank">Saamelaisbibliografian siirto Melindaan </a> </li>
- <li>Seuraava Koha-Suomen kuvailukoulutus torstaina 18.9. (päivä saattaa vielä vaihtua). Anna miettii kesän aikana koulutuksen sisältöä </li>
- <li>341-kentässä käytettävät termit ovat muuttuneet -> poistetaan termit sisältävä valikot Kirja- ja muista pohjista, joissa ne ovat käytössä.</li>
+ <li>Seuraava Koha-Suomen kuvailukoulutus torstaina 18.9. (päivä saattaa vielä vaihtua). Anna miettii kesän aikana koulutuksen sisältöä. </li>
+ <li>341-kentässä käytettävät termit ovat muuttuneet -> Poistetaan termit sisältävä valikot Kirja- ja muista pohjista, joissa ne ovat käytössä.</li>
 </ul>
 
 #### 7.	Seuraava kokous keskiviikkona 3.9. Klo 13.15. ####
