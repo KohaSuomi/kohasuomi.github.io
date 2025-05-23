@@ -10,11 +10,27 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 22
+
+Aika: 27.5.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 22 päivitys
+* Ehdotus: Voisiko kaikissa kimpoissa laittaa ylläpidossa kirjastojen vastausosoitteisiin kirjaston sähköpostiosoitteen, jotta jos asiakas syystä tai toisesta vastaa noreplystä tulevaan viestiin, ohjautuu vastaus kirjastolle. Nyt ne eivät mene minnekään.
+
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-22) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
 Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
+**Yhteiset**
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
 * Uusi raportti: [Tietueet, joissa on useampi nide kahdessa eri sijaintikirjastossa samalla kotikirjastolla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-kahdessa-eri-sijaintikirjastossa-samalla-kotikirjastolla)
 * [Kuvailupohjien tarkistus](https://github.com/KohaSuomi/Koha/issues/1835) - olematon 973-kenttä
