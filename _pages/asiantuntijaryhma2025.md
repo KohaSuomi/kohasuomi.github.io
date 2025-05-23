@@ -20,7 +20,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Ke 21.5.2025 klo 13<br />
 Läsnä: Päivi Knuutinen (Vaara-kirjastot), Ari Mäkiranta, Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi), Noora Valkonen (OUTI-kirjastot), Hanna Ikonen Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell ja Asko Autio (Vaski-kirjastot), Lauri Hänninen (Lastu-kirjastot), Riikka Mustajärvi (Kirkes-kirjastot)
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
 * Yllättävä käyttökatkos ke 14.5.2025
   * Katkoksen perimmäistä syytä ei vielä tiedetä, mutta se liittynee jollakin tavalla palvelimen käyttöjärjestelmän päivitykseen.
@@ -29,7 +29,7 @@ Läsnä: Päivi Knuutinen (Vaara-kirjastot), Ari Mäkiranta, Anneli Österman, E
   * Susanna kertoi ja Anneli näytti, miltä varausten noutohylly-toiminto näyttää tällä hetkellä. Työ on jo melko pitkällä, mutta käyttöönotto menee todennäköisesti syksylle.
 * RFID-harava-projekti / Asko
   * Turku etsii kumppaneita saattamaan heillä kehitetty RFID-haravan ohjelma avoimen lähdekoodin ohjelmaksi, jolloin sitä pystyisi käyttämään muutkin ja sen jatkokehityksen voi tarvittaessa ostaa mistä vain.
-  * Kiinnostuneita mukaan tulijoita on Lumme, Kotka, Lastu
+  * Kiinnostuneita mukaan tulijoita on Vaskin lisäksi Lumme, Kotka, Lastu ja Helle.
 * Seuraavan asiantuntijaryhmän kokoonpano
   * Ilmoittakaa Annelille viimeistään elokuun alkupuolella varsinainen ja varajäsen
   * Kyyti: Roosa Väisänen varsinainen, Tuomas Kunttu varajäsen
@@ -38,7 +38,7 @@ Läsnä: Päivi Knuutinen (Vaara-kirjastot), Ari Mäkiranta, Anneli Österman, E
   * Helle: Kati Sillgren varsinainen, Tove Selkälä varajäsen
   * Kirkes: Riikka Mustajärvi varsinainen, Anu Järvi varajäsen
 
-### Kehitysehdotukset
+### 2. Kehitysehdotukset
 
 * [Lainamäärän rajoitus toimimaan siten, että asiakas ei voi lainata enemmän kuin lainarajoituksiin on tallennettu #1800](https://github.com/KohaSuomi/Koha/issues/1800)
 Koha-Suomen asiantuntijaryhmä 21.5.2025: 
@@ -49,7 +49,7 @@ Koha-Suomen asiantuntijaryhmä 21.5.2025:
 * [Palautussivun kuljetusmodaalin valintanappien parannus #1741](https://github.com/KohaSuomi/Koha/issues/1741)
   * Kehittäjät tutkivat, onko tämä toteutettavissa. Jos on, yhdistetään se nykyiseen IntranetUserJS: Qslip keyboard shortcut -liitännäiseen (nimetään uudelleen).
 
-### Muut asiat
+### 3. Muut asiat
 
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563)
   * Anneli kaivellut jonkin verran erilaisia raportteja. Minkälaisille raporteille on tarvetta?
@@ -59,7 +59,7 @@ Koha-Suomen asiantuntijaryhmä 21.5.2025:
   * Asiasta keskusteltu kokouksessa 12/24
   * OUTI-kirjastojen osalta ongelmaksi jäivät Istekin hallinnoimat koulukirjastojen VDI-päätteet, joihin asiakasvarmenteen automaattista hyväksyntää ei saatu toimimaan. Muiden OUTI-kirjastojen osalta OK. VDI on Oulussa väistyvä tekniikka. Uusi yritys siis, kun VDIt korvataan jollain muulla pääte/kioskimoodisella tietokoneella.
 
-### Seuraava kokous
+### 4. Seuraava kokous
 
 To 12.6.2025 klo 13
 
