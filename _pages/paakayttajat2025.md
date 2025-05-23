@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Viikon 22 päivitys
 * Ehdotus: Voisiko kaikissa kimpoissa laittaa ylläpidossa kirjastojen vastausosoitteisiin kirjaston sähköpostiosoitteen, jotta jos asiakas syystä tai toisesta vastaa noreplystä tulevaan viestiin, ohjautuu vastaus kirjastolle. Nyt ne eivät mene minnekään.
+* Uusi raportti: [Asiakkaat, joilla on useampi varaus samaan tietueeseen tietyllä aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#asiakkaat-joilla-on-useampi-varaus-samaan-tietueeseen)
 
 
 Pohjoisesta etelään
