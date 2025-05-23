@@ -1585,7 +1585,7 @@ Raportilla voi hakea asiakkaat, joilla on useampi varaus samaan tietueeseen. Rap
 
 Parametreinä on asiakastyyppi, noutokirjasto ja aikaväli, jolla varaus on tehty.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br/>
 Pvm: 23.5.2025
 
 ```
