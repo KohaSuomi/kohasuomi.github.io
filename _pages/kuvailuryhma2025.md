@@ -9,7 +9,67 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 5/2025 ##
 
+Aika: 14.5.2025 klo 13.15–14.12
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Päivi Knuutinen (Vaara), Sani Kuosmanen (Kirkes), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski)
+
+Poissa: Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokouksen sihteeriksi valittiin Johanna Ranta.
+
+#### 2.	Finnan tunnistetalkoot ####
+<ul>
+ <li><a href="https://www.kiwi.fi/pages/viewpage.action?pageId=478576660" target="_blank">Toimijasivut Finna.fi:ssä </a> </li>
+ <li>Toukokuu-syyskuu 2025 </li>
+ <li>Myös Melinda osallistuu talkoisiin </li>
+ <li>Vapaaehtoinen, mutta kannattaisi toteuttaa ainakin TäTissä -> Antti tekee päivitykset TäTiin </li>
+</ul>
+
+#### 3.	YKL:n luokkamuutokset ####
+<ul>
+ <li><a href="https://www.kiwi.fi/display/Finto/YKL%3An+muutokset" target="_blank">YKL:n luokkamuutokset </a> </li>
+ <li>Uusia luokkia mm. kurdinkielisen kaunokirjallisuuden luokat soranille ja kurmandzille </li>
+ <li>Odotetaan tietoa, korjaako Kirjastopalvelu tekemänsä tietueet </li>
+ <li>Anna kysyy Siskulta, onko siellä mietitty luokkien korjaamista järjestelmällisesti Melindaan </li>
+ <li>Luokkia voi silti halutessaan korjata, kun niitä tulee vastaan. TäTiin tehdyistä korjauksista ei tarvitse ilmoittaa muille </li>
+</ul>
+
+#### 4.	YSO-konversion jälkityöt ja Melindan massakorjaukset ####
+<ul>
+ <li>Oulussa 338- ja 648-kenttiin on lisätty linkki 0-osakenttään. [Lisäys 22.5: kaikki muutkin tietokannat nyt päivitetty] </li>
+ <li>Muita korjauksia ei ole ehditty vielä tehdä </li>
+ <li><a href="https://www.kiwi.fi/pages/viewpage.action?pageId=440828047" target="_blank">Melindan massakorjauksia </a> -> Taulukkoon tehty lisäys, jossa vaaleansinisellä taustavärillä tärkeimmät paikalliskannoissa korjattavat asiat. </li>
+</ul>
+
+#### 5.	Sanastomuutoksista ja massakorjauksista tiedottaminen kirjastoissa ####
+<ul>
+ <li>Finton sanastojen arvojen automaattinen päivitys tulossa: <a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> -> Asennettu Vaskin testille 23.5. </li>
+ <li>Muutoksia ja korjauksia tulee nykyään suhteellisen usein </li>
+ <li>Sitten kun päivitykset tapahtuvat automaattisesti, muutoksista kannattaisi tiedottaa muulle henkilökunnalle </li>
+</ul>
+
+#### 6.	Muita asioita ####
+<ul>
+ <li>Kirjastopalvelun aamupaketeissa on ollut mukana ysa- ja isbd-muotoisia tietueita </li>
+  <ul>
+   <li>Anneli palautti tietueet takaisin entiseen muotoon </li>
+   <li>Jos ysa- ja isbd-muotoisia tietueita tulee lisää, pääkäyttäjää voi pyytää palauttamaan tietueet ennalleen </li>
+  </ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1470" target="_blank">Saamelaisbibliografian siirto Melindaan </a> </li>
+ <li>Seuraava Koha-Suomen kuvailukoulutus torstaina 18.9. (päivä saattaa vielä vaihtua). Anna miettii kesän aikana koulutuksen sisältöä </li>
+ <li>341-kentässä käytettävät termit ovat muuttuneet -> poistetaan termit sisältävä valikot Kirja- ja muista pohjista, joissa ne ovat käytössä.</li>
+</ul>
+
+#### 7.	Seuraava kokous keskiviikkona 3.9. Klo 13.15. ####
+
+ 
+---
 ## Kuvailuryhmän muistio 4/2025 ##
 
 Aika: 9.4.2025 klo 13.15–14.40
