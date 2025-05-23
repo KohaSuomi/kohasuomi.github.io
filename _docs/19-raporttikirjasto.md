@@ -1579,6 +1579,28 @@ AND br.datecancelled IS NULL
 GROUP BY s.branch
 LIMIT 100
 ```
+### Asiakkaat, joilla on useampi varaus samaan tietueeseen
+
+Raportilla voi hakea asiakkaat, joilla on useampi varaus samaan tietueeseen. Raportti luotiin, jotta voidaan löytää Finnan virhetilanteen vuoksi tuplaantuneet varaukset.
+
+Parametreinä on asiakastyyppi, noutokirjasto ja aikaväli, jolla varaus on tehty.
+
+Lisääjä: Anneli Österman
+Pvm: 23.5.2025
+
+```
+SELECT r.borrowernumber,r.biblionumber,COUNT(reserve_id) AS 'Varauksia tietueeseen', bi.itemtype AS 'Aineistotyyppi'
+FROM reserves r
+LEFT JOIN borrowers br ON br.borrowernumber = r.borrowernumber
+LEFT JOIN biblioitems bi ON r.biblionumber = bi.biblionumber
+WHERE br.categorycode = <<Valitse asiakastyyppi|categorycode>>
+AND r.branchcode LIKE <<Valitse kirjasto|branches:all>>
+AND r.reservedate BETWEEN <<Varauksen tekopäivä alkaen|date>> AND <<Tekopäivä loppuen|date>>
+GROUP BY r.biblionumber,r.borrowernumber
+HAVING COUNT(r.biblionumber) >1
+ORDER BY r.borrowernumber
+```
+
 
 ## Kokoelma
 
