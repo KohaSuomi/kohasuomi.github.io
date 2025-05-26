@@ -16,9 +16,10 @@ Aika: 27.5.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 22 päivitys
+* [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
 * Ehdotus: Voisiko kaikissa kimpoissa laittaa ylläpidossa kirjastojen vastausosoitteisiin kirjaston sähköpostiosoitteen, jotta jos asiakas syystä tai toisesta vastaa noreplystä tulevaan viestiin, ohjautuu vastaus kirjastolle. Nyt ne eivät mene minnekään.
 * Uusi raportti: [Asiakkaat, joilla on useampi varaus samaan tietueeseen tietyllä aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#asiakkaat-joilla-on-useampi-varaus-samaan-tietueeseen)
+* [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi](https://github.com/KohaSuomi/Koha/issues/1681#issuecomment-2854321162) - kuinka edetään tämän kanssa?
 
 
 Pohjoisesta etelään
