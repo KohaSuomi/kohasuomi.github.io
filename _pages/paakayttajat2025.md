@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
@@ -30,6 +30,12 @@ Pohjoisesta etelään
 * Yksi epäonnistunut verkkomaksu muodostunut. Selvitellään, mistä tullut.
 * Remontit ja aukiolopoikkeukset työllistävät.
 * Pääkäyttäjien lomat alkavat.
+
+**OUTI**
+* Toivottiin Annelilta ohjevideota offline-lainaamisesta.
+  * Anneli alkaa tekemään ohjevideoita testikantojen redusoinnin jälkeen. LIstalla ovat mmm. offline-lainaus ja varausten muokkaus eräajona-työkalun käyttö.
+* Kimpan kirjastojen kesäkiinniolot, Pekurin kirjaston sulketuminen ja Keskustakirjasto Saaren ottaminen käyttöön työllistävät nyt kesän aikana.
+* OUTIn pääkäyttäjien lomat alkavat pyörimään tällä viikolla.
 
 **Lumme**
 * Normaalia ylläpitoa.
