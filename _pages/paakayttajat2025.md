@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
@@ -34,6 +34,11 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa.
 * Ainoa Lumpeiden Toveri-ovikone on saatu vaihdettua.
+
+  **Kirkes**
+  * Järvenpään koulukirjastoilla ei ole kirjastoyksiköiden ylläpidossa sähköpostiosoitetta, johon asiakas voisi vastata. Elina selvittää, minkä osoitteen siihen voisi laittaa.
+  * Erikalta kysytty, miksi (uusien) niteen tiedoissa on "Laskun numero" -kenttä. Kyseessä ilmeisesti tieto, joka niteelle automaattisesti tulee nidettä vastaanotettaessa.
+  * Kohan yhteystietoihin päivitetään Kirkes-pääkäyttäjäksi Annikan sijasta Erikan tiedot. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-22) - [Palaa sivun alkuun](/paakayttajat2025)
