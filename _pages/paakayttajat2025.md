@@ -33,7 +33,7 @@ Pohjoisesta etelään
 
 **OUTI**
 * Toivottiin Annelilta ohjevideota offline-lainaamisesta.
-  * Anneli alkaa tekemään ohjevideoita testikantojen redusoinnin jälkeen. LIstalla ovat mmm. offline-lainaus ja varausten muokkaus eräajona-työkalun käyttö.
+  * Anneli alkaa tekemään ohjevideoita testikantojen redusoinnin jälkeen. Listalla ovat mmm. offline-lainaus ja varausten muokkaus eräajona-työkalun käyttö.
 * Kimpan kirjastojen kesäkiinniolot, Pekurin kirjaston sulketuminen ja Keskustakirjasto Saaren ottaminen käyttöön työllistävät nyt kesän aikana.
 * OUTIn pääkäyttäjien lomat alkavat pyörimään tällä viikolla.
 
