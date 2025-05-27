@@ -13,13 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
 * Ehdotus: Voisiko kaikissa kimpoissa laittaa ylläpidossa kirjastojen vastausosoitteisiin kirjaston sähköpostiosoitteen, jotta jos asiakas syystä tai toisesta vastaa noreplystä tulevaan viestiin, ohjautuu vastaus kirjastolle. Nyt ne eivät mene minnekään.
+  * [Kirjasto-osion ohjeistus Asetukset-sivulla](https://koha-suomi.fi/dokumentaatio/asetukset/#1-kirjastot)
 * Uusi raportti: [Asiakkaat, joilla on useampi varaus samaan tietueeseen tietyllä aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#asiakkaat-joilla-on-useampi-varaus-samaan-tietueeseen)
 * [Hyllyvaratun teoksen lainatapahtuman viesti valinnaiseksi](https://github.com/KohaSuomi/Koha/issues/1681#issuecomment-2854321162) - kuinka edetään tämän kanssa?
+  * Kokeillaan laittaa Mikon has-muotoiset CSS-rimpsut käyttöön ja jos ne eivät toimi jollakulla, suositellaan selaimen päivittämistä uudempaan. Se olisi tietoturvankin kannalta paras ratkaisu. Kannattaa ensin testata testillä ja vasta sitten laittaa tuotantoon.
 
 
 Pohjoisesta etelään
