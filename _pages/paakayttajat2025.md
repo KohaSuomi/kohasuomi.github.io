@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
@@ -28,6 +28,10 @@ Pohjoisesta etelään
 * Yksi epäonnistunut verkkomaksu muodostunut. Selvitellään, mistä tullut.
 * Remontit ja aukiolopoikkeukset työllistävät.
 * Pääkäyttäjien lomat alkavat.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Ainoa Lumpeiden Toveri-ovikone on saatu vaihdettua.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-22) - [Palaa sivun alkuun](/paakayttajat2025)
