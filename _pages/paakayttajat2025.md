@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
@@ -44,7 +44,13 @@ Pohjoisesta etelään
   **Kirkes**
   * Järvenpään koulukirjastoilla ei ole kirjastoyksiköiden ylläpidossa sähköpostiosoitetta, johon asiakas voisi vastata. Elina selvittää, minkä osoitteen siihen voisi laittaa.
   * Erikalta kysytty, miksi (uusien) niteen tiedoissa on "Laskun numero" -kenttä. Kyseessä ilmeisesti tieto, joka niteelle automaattisesti tulee nidettä vastaanotettaessa.
-  * Kohan yhteystietoihin päivitetään Kirkes-pääkäyttäjäksi Annikan sijasta Erikan tiedot. 
+  * Kohan yhteystietoihin päivitetään Kirkes-pääkäyttäjäksi Annikan sijasta Erikan tiedot.
+
+**Vaara**
+* Ihmettelyä testitietokannan asetuksista (recall päällä, vaikka tuotannossa ei)
+* Kysymys, onko notloan-arvoa ei lainattavissa tai vain lukusalikäyttöön käytössä jossain kimpassa rinnakkain. Lastussa käytetään termiä Käytettävissä kirjastossa. Otetaan harkintaan meiläkin.
+  
+    
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-22) - [Palaa sivun alkuun](/paakayttajat2025)
