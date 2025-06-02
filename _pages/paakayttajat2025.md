@@ -16,7 +16,8 @@ Aika: 3.6.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 23 päivitys
+* [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
+* [Kesäkuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1862)
 * [Tuomaksen kysymys](https://github.com/KohaSuomi/Koha/issues/1737)
 * Koha-Suomen kesäharjoittelija Olli aloittanut
 
