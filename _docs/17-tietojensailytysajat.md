@@ -10,7 +10,7 @@ toc: true
 
 ### Asiakkaan viestit (tekstiviestit, sähköpostit, e-kirjeet) 
 
-Asiakkaille lähetetyt viestit, jotka näkyvät asiakkaan tiedoissa Ilmoitukset-välilehdellä.
+Asiakkaille lähetetyt viestit message_queue-taulussa, jotka näkyvät asiakkaan tiedoissa Ilmoitukset-välilehdellä.
 * Tieteelliset säilyttää 3 vuotta 
 * Ongelmien selvittelyn kannalta hyvä säilyttää vähän pidempi aika
 * **Päätös**: kuluva + 3 vuotta: kuluva vuosi aktiivisessa taulussa, loput vuositauluissa
@@ -74,6 +74,7 @@ Kohan statistics-taulu.
 
 * Tieteelliset säilyttää 2 vuotta
   * **Päätös**: Säilytetään toistaiseksi, mutta aktiivisessa statistics-taulussa vain kuluva + 1 vuosi. Loput siirretään "vuositauluihin", statistics_2018, statistics_2019 jne.
+  * Kirjaus Asiantuntijaryhmän muistio 10/23: kuluva + vuosi, ajo tammikuussa
 
 ### Hakuhistoria
 
@@ -87,6 +88,7 @@ Kohan action_logs-taulu.
 
 * Tieteelliset säilyttää 2 vuotta
 * **Päätös**: Säilytetään toistaiseksi, mutta aktiivisessa action_logs -taulussa vain kuluva +1 vuosi. Loput siirretään vuositauluihin, action_logs_2018, action_logs_2019 jne.
+* Kirjaus Asiantuntijaryhmän muistio 10/23: 12 kk aktiivisessa taulussa, ajo joka kuun eka päivä
 
 ### Poistetut niteet ja tietueet 
 
