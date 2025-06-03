@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
@@ -23,6 +23,11 @@ Läsnä:
 * [Versionvaihdon tietovaranto](https://github.com/KohaSuomi/Koha-25x/wiki) jo perustettu ja wikiin kerätty alustavasti tietoja
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Aikakatkaisuliitännäinen laitettu päälle (JS-versiota ei ollut, joten ei tarvinnut poistaa käytöstä)
+* Vaaran Koha on viime aikoina kaatunut muutaman vuorokauden välein öisin, kun plack ei ole käynnistynyt yöllisten ajojen ja uudelleenkäynnistyksen jälkeen. Tämä on todella ongelmallista, sillä omatoimikirjastot avautuvat normaalisti klo 7 eikä siihen mennessä yleensä kukaan kehittäjä ole ollut töissä. Myös kuvailutietojen valutus jää tulematta Vaaraan, koska siihen ei saada yhteyttä. Verkkokirjaston kautta asiakkaat eivät pääse aikaisin aamulla hoitamaan asioitaan. Toivottavasti kehittäjät saavat selville ongelman syyn ja korjattua sen.
+* Pyhäselän kirjasto on mennyt kiinni muuttoa varten. Uusi kirjasto avataan Hammaslahden kirjaston nimellä elokuussa. Irina on tehnyt tarvittavia muutostöitä ja muuttoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
