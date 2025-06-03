@@ -20,6 +20,7 @@ Läsnä:
 * [Kesäkuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1862)
 * [Tuomaksen kysymys](https://github.com/KohaSuomi/Koha/issues/1737)
 * Koha-Suomen kesäharjoittelija Olli aloittanut
+* [Versionvaihdon tietovaranto](https://github.com/KohaSuomi/Koha-25x/wiki) jo perustettu ja wikiin kerätty alustavasti tietoja
 
 Etelästä pohjoiseen
 
