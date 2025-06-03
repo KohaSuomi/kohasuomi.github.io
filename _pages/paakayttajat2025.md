@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
@@ -28,6 +28,11 @@ Etelästä pohjoiseen
 * Aikakatkaisuliitännäinen laitettu päälle (JS-versiota ei ollut, joten ei tarvinnut poistaa käytöstä)
 * Vaaran Koha on viime aikoina kaatunut muutaman vuorokauden välein öisin, kun plack ei ole käynnistynyt yöllisten ajojen ja uudelleenkäynnistyksen jälkeen. Tämä on todella ongelmallista, sillä omatoimikirjastot avautuvat normaalisti klo 7 eikä siihen mennessä yleensä kukaan kehittäjä ole ollut töissä. Myös kuvailutietojen valutus jää tulematta Vaaraan, koska siihen ei saada yhteyttä. Verkkokirjaston kautta asiakkaat eivät pääse aikaisin aamulla hoitamaan asioitaan. Toivottavasti kehittäjät saavat selville ongelman syyn ja korjattua sen.
 * Pyhäselän kirjasto on mennyt kiinni muuttoa varten. Uusi kirjasto avataan Hammaslahden kirjaston nimellä elokuussa. Irina on tehnyt tarvittavia muutostöitä ja muuttoa.
+
+**OUTI**
+* Nyt kun kaikkiin Koha-maksuihin tule aiheuttajaperusteinen kirjastotieto ja maksut saadaan jyvitettyä raportilla kirjastokohtaiseksi, vertasimme Kohan antamia raporttitilastoja verkkomaksuportaalin antamiin maksutilastoihin. Maksutilastoissa on pientä eroa niin, että verkkomaksuportaalin maksutilastot ovat muutamia kymppejä pienempiä kuin Kohan vastaavalta ajalta olevat maksutilastot. Ero ei ollut kuukausitasolla merkittävä kokonaissummaan nähden. Kysytty kaupungin verkkomaksuportaalin pääkäyttäjiltä, missä vaiheessa maksut tilastoituvat varkkomaksuportaalin tilastoihin, joka voisi selittää pienen tilastoeron.
+* OUTIssa on päätetty ottaa käyttöön lasten ja nuorten lyhytlainan nidetyyppi eli vastaava kuin aikuisilla on, mutta niin, ettei nidetyypille kirjaudu myöhästymismaksuja myöskään silloin, jos lainaaja on aikuinen.
+* Oulun aineistoa on kellunut pääkirjaston perusparannusremontin ajan yksipuolisesti Iin, Limingan, Lumijoen, Pyhäjoen ja Pudasjärven kirjastoissa. Nyt kun remontti alkaa olla loppusuoralla, kellutussäännöt on poistettu Kohasta, jotta aineisto palaa nyt automaattisesti kotikirjastoon Ouluun.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
