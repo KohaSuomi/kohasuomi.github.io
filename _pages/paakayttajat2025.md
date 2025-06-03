@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
