@@ -15,6 +15,7 @@ Asiakkaille lähetetyt viestit message_queue-taulussa, jotka näkyvät asiakkaan
 * Ongelmien selvittelyn kannalta hyvä säilyttää vähän pidempi aika
 * **Päätös**: kuluva + 3 vuotta: kuluva vuosi aktiivisessa taulussa, loput vuositauluissa
   * ODUECLAIM eli laskut säilytettävä 10 vuotta
+*  Kirjaus Asiantuntijaryhmän muistio 4/2023: 12 kk, ajo joka kuun eka päivä 
 
 ### Vanhat istunnot
 
