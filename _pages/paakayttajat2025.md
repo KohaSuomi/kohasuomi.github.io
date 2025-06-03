@@ -32,7 +32,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Nyt kun kaikkiin Koha-maksuihin tule aiheuttajaperusteinen kirjastotieto ja maksut saadaan jyvitettyä raportilla kirjastokohtaiseksi, vertasimme Kohan antamia raporttitilastoja verkkomaksuportaalin antamiin maksutilastoihin. Maksutilastoissa on pientä eroa niin, että verkkomaksuportaalin maksutilastot ovat muutamia kymppejä pienempiä kuin Kohan vastaavalta ajalta olevat maksutilastot. Ero ei ollut kuukausitasolla merkittävä kokonaissummaan nähden. Kysytty kaupungin verkkomaksuportaalin pääkäyttäjiltä, missä vaiheessa maksut tilastoituvat varkkomaksuportaalin tilastoihin, joka voisi selittää pienen tilastoeron.
 * OUTIssa on päätetty ottaa käyttöön lasten ja nuorten lyhytlainan nidetyyppi eli vastaava kuin aikuisilla on, mutta niin, ettei nidetyypille kirjaudu myöhästymismaksuja myöskään silloin, jos lainaaja on aikuinen.
-* Oulun aineistoa on kellunut pääkirjaston perusparannusremontin ajan yksipuolisesti Iin, Limingan, Lumijoen, Pyhäjoen ja Pudasjärven kirjastoissa. Nyt kun remontti alkaa olla loppusuoralla, kellutussäännöt on poistettu Kohasta, jotta aineisto palaa nyt automaattisesti kotikirjastoon Ouluun.
+* Oulun aineistoa on kellunut pääkirjaston perusparannusremontin ajan yksipuolisesti Iin, Limingan, Lumijoen, Pyhäjoen ja Pudasjärven kirjastoissa. Nyt kun remontti alkaa olla loppusuoralla, kellutussäännöt on poistettu Kohasta, jotta aineisto palaa automaattisesti kotikirjastoon Ouluun.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
