@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
@@ -41,6 +41,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Huomattu, että tietueiden aikaleimat eivät ehkä muuttuneet taannoin tehdyssä asiasanakenttien korjauksessa, koska muuttuneista tietueista ei tullut Raportterin kautta tietoa Kelluttimeen. Tässä tapauksessa muuttuneilla tiedoilla ei ollut Kelluttimen kannalta merkitystä, mutta sovittiin että Vaski kyselee kuitenkin Pasilta muuttuivatko aikaleimat vai eivät.
 * Mietitty niteiden erämuokkausten tekoa silloin, kun muutettavia niteitä kymmeniä tuhansia. Aiheuttavat hiukan viivettä indeksointeihin, taustatöihin tulee näistä sen verran ruuhkaa. Palaverissa annettiin suositus, että ei kannata tehdä kaikista ruuhkaisimpina aikoina suuria määriä erämuokkauksia.
+
+**Lumme**
+* MyLink-rajapinta otettu käyttöön.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
