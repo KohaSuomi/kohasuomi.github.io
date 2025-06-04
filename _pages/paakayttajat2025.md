@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
@@ -47,14 +47,17 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa.
 
 **Helle**
-* Ylläpidossa kunnankirjastojen Vastausosoite-kenttään lisätty kirjaston sähköpostiosoite. 
+* Ylläpidossa kunnankirjastojen Vastausosoite-kenttään lisätty kirjaston sähköpostiosoite.
+
+**Lastu**
+* Pohdittu decreaseLoanHighHolds - asetusta, voisiko kenties siirtyä käyttämään sitä nykyisen manuaalisen laina-aikojen lyhentämisen sijaan. On ollut käytössä muissa kimpoissa, esim. Hellessä joskus aikoinaan, mutta toiminta ollut puutteellista. Jatketaan testailuja miltä toiminto vaikuttaa nykypäivänä ja onko ongelmia saatu ratkottua.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 22
 
 Aika: 27.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/1852)
@@ -99,7 +102,7 @@ Pohjoisesta etelään
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
@@ -199,7 +202,7 @@ Pohjoisesta etelään
 ## Viikko 19
 
 Aika: 6.5.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Kati Sillgren ja Vilgot Strömsholm (Helle), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Kati Sillgren ja Vilgot Strömsholm (Helle), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/1819)
