@@ -31,6 +31,10 @@ Harava-ohjelmiston kehittäjä Robert aloittaa Koha-Suomen palkkalistoilla mää
 
 [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/) ovat eläneet erilaisten ongelmatilanteiden vuoksi. Tarkistetaan ja selkeytetään kirjauksia.
 
+### Tiekartan tilannekatsaus
+
+Käydään läpi tiekartan tilannekatsaus.
+
 ### Muut asiat
 
 ### Seuraava kokous
