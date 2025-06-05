@@ -25,6 +25,8 @@ Läsnä:
 
 Koha-yhteisö on julkaissut version 25.05 ja seuraavaa versionvaihtoa varten luotiin [GitHubiin tietovaranto](https://github.com/KohaSuomi/Koha-25x). Aiemmin tehtiin alustava päätös, että seuraava versionvaihto tehdään maaliskuussa 2026. Lopullinen päätös tehtävä syksyllä, jotta ehditään valmistelemaan ja testaamaan seuraavaa versiota tarpeeksi.
 
+Harava-ohjelmiston kehittäjä Robert aloittaa Koha-Suomen palkkalistoilla määräaikaisena 3 kuukauden ajan.
+
 ### Tietojen säilytysaikojen tarkistus
 
 [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/) ovat eläneet erilaisten ongelmatilanteiden vuoksi. Tarkistetaan ja selkeytetään kirjauksia.
