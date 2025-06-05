@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: 3.6.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Päivi Knuutinen, Auli Rantasalo ja Irina Halminen (Vaara), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/1863)
@@ -51,6 +51,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Pohdittu decreaseLoanHighHolds - asetusta, voisiko kenties siirtyä käyttämään sitä nykyisen manuaalisen laina-aikojen lyhentämisen sijaan. On ollut käytössä muissa kimpoissa, esim. Hellessä joskus aikoinaan, mutta toiminta ollut puutteellista. Jatketaan testailuja miltä toiminto vaikuttaa nykypäivänä ja onko ongelmia saatu ratkottua.
+
+**Kyyti**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-23) - [Palaa sivun alkuun](/paakayttajat2025)
 
