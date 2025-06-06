@@ -669,7 +669,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |other-classification|084a|Luokka|
 |other-control-number|035|Järjestelmän tuottama kontrollinumero|
 |ownership-history|561a|Huomautus omistushistoriasta|
-|performance-medium|382a|Esityskokoonpano|
+|performance-medium|382abdp|Esityskokoonpano|
 |performance-note|382v|Esityskokoonpanon huomautus|
 |personal-name|100|Henkilönnimi|
 |personal-name|400||
@@ -989,8 +989,11 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |370g|Teoksen tai ekspression luontipaikka|place-of-origin|
 |382a|Esityskokoonpano|performance-medium|
 |382b|Solisti|soloist|
+|382b|Esityskokoonpano|performance-medium|
 |382d|Sivusoitin|doubling-instrument|
+|382d|Esityskokoonpano|performance-medium|
 |382p|Vaihtoehtoinen esityskokoonpano|alt-performance-medium|
+|382p|Esityskokoonpano|performance-medium|
 |382v|Esityskokoonpanon huomautus|performance-note|
 |383a|Musiikkiteoksen numerointimerkintö|musical-serial-number|
 |383b|Musiikkiteoksen numerointimerkintö|musical-opus-number|
