@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+
+## Viikko 24
+
+Aika: Ma 9.6.2025<br />
+Läsnä:
+
+* Päivystysvuorot viikosta 25 alkaen
+* Viikon 24 päivitys
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
 ## Viikko 23
 
 Aika: Ma 2.6.2025<br />
