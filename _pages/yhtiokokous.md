@@ -13,17 +13,17 @@ Koha-Suomen yhtiökokous kokoontuu kerran vuodessa. Alla on vuosittain kokouksen
 
 ## Yhtiökokous 2025
 
-[Esityslista 2025](/assets/files/Yhti%C3%B6kokousesityslista2024.pdf)
+[Esityslista 2025](/assets/files/Yhti%C3%B6kokousesityslista2025.pdf)
 
-[Tilinpäätös 2024](/assets/files/Tilinp%C3%A4%C3%A4t%C3%B6s%202023.pdf)
+[Tilinpäätös 2024](/assets/files/Tilinp%C3%A4%C3%A4t%C3%B6s%202024.pdf)
 
-[Valtakirja 2025](/assets/files/VALTAKIRJA%20YHTI%C3%96KOKOUSTA%20VARTEN%202024.pdf)
+[Valtakirja 2025](/assets/files/VALTAKIRJA%20YHTI%C3%96KOKOUSTA%20VARTEN%202025.docx)
 
-[Ohjeita yhtiökokoukseen](/assets/files/Ohjeita%20yhti%C3%B6kokoukseen%202024.pdf)
+[Ohjeita yhtiökokoukseen](/assets/files/Ohjeita%20yhti%C3%B6kokoukseen%202025.pdf)
 
-[Osakassopimuksen muuttaminen](/assets/files/Osakassopimuksen%20muuttaminen.pdf)
+[Osakassopimuksen muuttaminen](/assets/files/Koha-Suomi%20osakassopimus_uusi2025.pdf)
 
-[Pöytäkirja 2024](/assets/files/Yhtiokokous2024.pdf)
+[Kirje osakkaille](/assets/files/Kirje%20osakkaille.pdf)
 
 
 ## Yhtiökokous 2024
