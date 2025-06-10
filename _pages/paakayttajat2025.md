@@ -18,6 +18,7 @@ Läsnä: Anneli, Emmi ja Olli (Koha-Suomi)
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
 * voidaanko siirtää 19.8.2025 palaveri keskiviikolle 20.8.2025?
+  *  siirretään ke 20.8.2025 klo 9.15
 
 Pohjoisesta etelään
 
