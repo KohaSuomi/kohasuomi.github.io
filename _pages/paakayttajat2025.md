@@ -13,10 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
+* voidaanko siirtää 19.8.2025 palaveri keskiviikolle 20.8.2025?
 
 Pohjoisesta etelään
 
