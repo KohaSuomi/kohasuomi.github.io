@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -21,6 +21,13 @@ Läsnä: Anneli, Emmi ja Olli (Koha-Suomi)
   *  siirretään ke 20.8.2025 klo 9.15
 
 Pohjoisesta etelään
+
+**Lappi**
+* EDItX tilaussanomien käsittelyssä ongelmia 9.6. klo 23.05 ja 6.6. klo 23.05. Aamulla viestit tulleet perille. 
+* Rovaniemen remonttien aiheuttamat muutokset työllistävät (varausten noutopisteiden muutoksia, eräpäivien massamuutoksia...). Remontteja yms. menossa tai alkamassa myös Posiolla ja Kittilässä. 
+* Käyttäjätunnusten puolivuotistarkistus johtajilla
+  
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
