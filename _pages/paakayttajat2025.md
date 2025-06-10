@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -31,7 +31,12 @@ Pohjoisesta etelään
 * Testailtu Kohan automatiikkaa (decreaseLoanHighHolds) laina-ajan automaattisessa lyhentämisessä, ja toiminto vaikuttaa toimivan kyllä kuten se lupaakin. Ainoa selkeä puute on se, ettei toiminto osaa jättää huomiotta jäädytettyjä varauksia.
 * Raindance-laskutusjärjestelmään muodostunut liian suuria laskutuslisiä, mutta laskutettavan aineiston tiedot lähtevät Kohasta ilman laskutuslisää ja se lisätään myöhemmin mukaan laskulle.
 
-
+**Kirkes**
+* Suomi-fi-viestien REST-rajapinnan käyttöönotto etenee ja testaukset ovat onnistuneet
+* Kirkes-henkilökunnalta tullut kysymys laskusta, jonka Erika vienyt Matrixiin. Ongelma on todennäköisesti ollut Provincian päässä.
+* Elina ja Erika tekevät kesän aikana tarrapohjiin signum-muutoksen edellyttämiä muutoksia.
+* Kirkes-kirjastoissa ollut jälleen esillä henkilöllisyystodistusten käyttö asiakaspalvelussa, ja Erika kirjoittanut tästäkin Matrixiin. Henkilöllisyystodistusta aiotaan alkaa käyttää asiakkaan yksilöimiseen tilanteessa, jossa hänelle opastetaan kirjastokortin hakeminen verkkokirjastosta.
+* Elina lomalla 16.6.-16.7.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
