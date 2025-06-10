@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -37,6 +37,11 @@ Pohjoisesta etelään
 * Elina ja Erika tekevät kesän aikana tarrapohjiin signum-muutoksen edellyttämiä muutoksia.
 * Kirkes-kirjastoissa ollut jälleen esillä henkilöllisyystodistusten käyttö asiakaspalvelussa, ja Erika kirjoittanut tästäkin Matrixiin. Henkilöllisyystodistusta aiotaan alkaa käyttää asiakkaan yksilöimiseen tilanteessa, jossa hänelle opastetaan kirjastokortin hakeminen verkkokirjastosta.
 * Elina lomalla 16.6.-16.7.
+
+**Vaara**
+* Ihmetelty asiakkailla olevia miinussaldoja. Erilaisia tilanteita, osa verkkomaksuja tuplasti. Niihin ei vaikuta edes asiakkaan tiedoissa olevat hyvitykset. Joensuun kaupungin ohjeistuksia noudatettava palautusten suhteen.
+* Genreluokista luovutaan, siirrytään kokoelmakoodeihin varmaan syksyllä, kunhan saadaan päätettyä menettelytavat.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
