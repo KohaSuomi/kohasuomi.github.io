@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -41,6 +41,12 @@ Pohjoisesta etelään
 **Vaara**
 * Ihmetelty asiakkailla olevia miinussaldoja. Erilaisia tilanteita, osa verkkomaksuja tuplasti. Niihin ei vaikuta edes asiakkaan tiedoissa olevat hyvitykset. Joensuun kaupungin ohjeistuksia noudatettava palautusten suhteen.
 * Genreluokista luovutaan, siirrytään kokoelmakoodeihin varmaan syksyllä, kunhan saadaan päätettyä menettelytavat.
+
+**Vaski**
+* Kesän kiinnioloja työn alla.
+* Kelluttimen (kelluvan kokoelman hallinnan työkalu) jatkokehitys käynnistynyt, sen ohessa Turkuun lähivuosina tulevan aineistohotellin suunnittelua.
+* Turun pääkirjaston palautusautomaation kilpailutus edennyt, sopimukset vielä allekirjoittamatta.
+* Lisäksi luvattiin huolehtia Ohita-toiminnon lisäämisestä kausijulkaisuohjeeseen.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
