@@ -52,6 +52,7 @@ Pohjoisesta etelään
 * Kesän sulut ja muutot työllistävät.
 * Tuotantoon on laitettu CSS, joka piilottaa turhia nappeja hyllyvarausilmoituksesta lainaustapahtuman yhteydessä. [Tiketti #1681](https://github.com/KohaSuomi/Koha/issues/1681)
 * Tiedonhaun fasetteihin on otettu käyttöön hakurajaus tieto- tai kaunoluokkiin.
+* Pirkko-Liisa lomalla 6.7. asti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
