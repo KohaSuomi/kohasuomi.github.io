@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -27,6 +27,10 @@ Pohjoisesta etelään
 * Rovaniemen remonttien aiheuttamat muutokset työllistävät (varausten noutopisteiden muutoksia, eräpäivien massamuutoksia...). Remontteja yms. menossa tai alkamassa myös Posiolla ja Kittilässä. 
 * Käyttäjätunnusten puolivuotistarkistus johtajilla
   
+**Lastu**
+* Testailtu Kohan automatiikkaa (decreaseLoanHighHolds) laina-ajan automaattisessa lyhentämisessä, ja toiminto vaikuttaa toimivan kyllä kuten se lupaakin. Ainoa selkeä puute on se, ettei toiminto osaa jättää huomiotta jäädytettyjä varauksia.
+* Raindance-laskutusjärjestelmään muodostunut liian suuria laskutuslisiä, mutta laskutettavan aineiston tiedot lähtevät Kohasta ilman laskutuslisää ja se lisätään myöhemmin mukaan laskulle.
+
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
