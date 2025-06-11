@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Esityslista 6/2025
 
-Aika: Ke 12.6.2025 klo 13<br />
+Aika: To 12.6.2025 klo 13<br />
 Läsnä:
 
 ### Ajankohtaiset
