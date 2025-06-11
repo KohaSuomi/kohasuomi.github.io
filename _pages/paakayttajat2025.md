@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -59,6 +59,9 @@ Pohjoisesta etelään
 
 **Lumme**
 * Perusylläpitoa.
+
+**Siilinjärvi**
+* Tekstiviestirajapinnan muutos 2.6. sujui kivuttomasti. Ei muuta mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
