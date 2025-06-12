@@ -19,31 +19,33 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 6/2025
 
 Aika: To 12.6.2025 klo 13<br />
-Läsnä: Piia, Emmi, Susanna, Erika, Päivi, Janne, Leena, Ari, Kati, Anneli, Hanna
+Läsnä: Piia Semenoff (OUTI-kirjastot), Susanna Sandell (Vaski-kirjastot), Erika Miettunen (Kirkes-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Janne Seppänen (Lastu-kirjastot), Leena Kinnunen (Lapin kirjasto), Kati Sillgren (Helle-kirjastot), Hanna Ikonen (Lumme-kirjastot), Anneli Österman, Emmi Takkinen ja Ari Mäkiranta (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
 Koha-yhteisö on julkaissut version 25.05 ja seuraavaa versionvaihtoa varten luotiin [GitHubiin tietovaranto](https://github.com/KohaSuomi/Koha-25x). Aiemmin tehtiin alustava päätös, että seuraava versionvaihto tehdään maaliskuussa 2026. Lopullinen päätös tehtävä syksyllä, jotta ehditään valmistelemaan ja testaamaan seuraavaa versiota tarpeeksi.
 
-Harava-ohjelmiston kehittäjä Robert aloittaa Koha-Suomen palkkalistoilla määräaikaisena 3 kuukauden ajan elokuussa.
+Harava-ohjelmiston kehittäjä Robert aloittaa elokuussa Koha-Suomen palkkalistoilla määräaikaisena 3 kuukauden ajan.
 
-Koha-Suomen korkeakouluharjoittelija Olli aloittanut harjoittelun.
+Koha-Suomen korkeakouluharjoittelija Olli aloittanut harjoittelunsa.
 
 ### 2. Tietojen säilytysaikojen tarkistus
 
 [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/) ovat eläneet erilaisten ongelmatilanteiden vuoksi. Tarkistetaan ja selkeytetään kirjauksia.
 
+**Päätös**: Dokumentti siivottiin ja tarkistettiin. Muutamasta kohdasta Anneli tekee vielä tiketin, koska niistä ei ollut ajastettua ajoa vielä olemassa.
+
 ### 3. Tiekartan tilannekatsaus
 
-Käydään läpi tiekartan tilannekatsaus.
+Käydään läpi tiekartan tilannekatsaus. Pieniä päivityksiä liitteenä olevaan tiekarttaan.
 
-Liite: [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18357482/Tiekartta2025.xlsx)
+Liite: [Tiekartta2025-1.xlsx](https://github.com/user-attachments/files/20708781/Tiekartta2025-1.xlsx)
+
 
 ### 4. Muut asiat
 
-Helle: Asiakkaat vahvistamaan sähköpostiosoitteensa asiakkaaksi lisäämisen yhteydessä? [Yhteisössä asiasta kuusi vuotta vanha tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=23908)
+Helle: Voisiko Kohaan saada toiminnon, joka lähettää asiakkaalle sähköpostiin pyynnön vahvistaa sähköpostiosoitteensa asiakkaaksi lisäämisen yhteydessä? [Yhteisössä asiasta kuusi vuotta vanha tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=23908)
 * Kati tekee meillekin tiketin tästä, edistetään.
-
 
 ### 5. Seuraava kokous
 
