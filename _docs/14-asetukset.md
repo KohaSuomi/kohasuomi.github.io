@@ -345,7 +345,7 @@ TOIMITTAJAT-luokka on aisapari AUTOMTYPE-luokalle eli tällä voi määrittää 
 
 Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
-|Lyhenne/Tunnus|Selite|Asiakastyypin tyyppi|Huomautus|
+|Lyhenne/Tunnus|Selite|Luokkatyyppi|Huomautus|
 |-----------|-------------|-----------|---|
 |HENKILO|Henkilöasiakas|Aikuiset||
 |LAPSI|Lapsiasiakas|Huollettava||
@@ -406,7 +406,9 @@ Ei sovellu suomalaiseen kirjastomaailmaan, koska varausmaksua ei saa lain mukaan
 
 **Luokkatyyppi**
 
-Luokkatyyppi määrittelee, minkälainen "lomake" näytetään asiakasta lisätessä ja muokatessa. Esim. lapsiasiakas-tyypeille pitää määrittää "Huollettava", ja aikuisasiakkaille Aikuiset. Yhteisöasiakkailla taas näkyy vain yksi nimikenttä. 
+Luokkatyyppi määrittelee, minkälainen "lomake" näytetään asiakasta lisätessä ja muokatessa. Esim. lapsiasiakas-tyypeille pitää määrittää "Huollettava", ja aikuisasiakkaille Aikuiset. Yhteisöasiakkailla taas näkyy vain yksi nimikenttä.
+
+Käyttäjätunnuksille (VIRKAILIJA) pitää valita Henkilökunta-tyyppi, jotta ne saadaan vietyä testeille redusoinnissa. Myöskin osan Koha-Suomen omien IntranetUserJS-liitännäisten toiminta perustuu siihen, että VIRKAILIJA-asiakastyypin luokkatyyppi on "henkilökunta".
 
 Huom! Tilastoyksikkö-valinta aiheuttaa sen, että lainatessa lainat eivät mene asiakkaalle lainaan.
 
