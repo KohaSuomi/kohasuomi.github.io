@@ -345,21 +345,21 @@ TOIMITTAJAT-luokka on aisapari AUTOMTYPE-luokalle eli tällä voi määrittää 
 
 Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
-|Lyhenne/Tunnus|Selite|Huomautus|
+|Lyhenne/Tunnus|Selite|Asiakastyypin tyyppi|Huomautus|
 |-----------|-------------|-----------|
-|HENKILO|Henkilöasiakas||
-|LAPSI|Lapsiasiakas||
-|YHTEISO|Yhteisöasiakas||
-|VIRKAILIJA|Kirjaston työntekijä| Tätä käytetään vain käyttäjätunnuksena, ei käytetä kirjastokorttina. Henkilökunnalla pitää olla erikseen kirjastokortti-tunnus.|
-|KAUKOLAINA|Kaukolainakirjasto||
-|KOTIPALVEL|Kotipalveluasiakas||
-|EITILASTO|Ei tilastoitavat lainat|Käytetään ns. työlainojen ja -varausten tekemiseen.|
-|MUUHUOL|Huollettava, muu kuin lapsi|Aikuinen, jolle pitää merkitä huoltaja.|
-|AUTOM|Z Automaatti Z|SIP2-automaattien/ovikoneiden/laitteiden käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun.|
-|API| Z API Z|Erilaisten rajapintoja käyttävien järjestelmien/toimintojen käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 4/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#Muistio-421).|
-|LAOMATOIMI|Lapsi, omatoimi sallittu|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 5/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille) |
-|HEOMATOIMI| Henkilöasiakas, omatoimi sallittu | Tarvitaan henkilöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Henkilö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
-|YHOMATOIMI| Yhteisöasiakas, omatoimi sallittu| Tarvitaan yhteisöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Yhteisö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
+|HENKILO|Henkilöasiakas|Aikuiset||
+|LAPSI|Lapsiasiakas|Huollettava||
+|YHTEISO|Yhteisöasiakas|Yhteisö||
+|VIRKAILIJA|Kirjaston työntekijä| Henkilökunta| Tätä käytetään vain käyttäjätunnuksena, ei käytetä kirjastokorttina. Henkilökunnalla pitää olla erikseen kirjastokortti-tunnus. Tämän tunnuksen tyyppi pitää olla _Henkilökunta_, jotta virkailijatunnukset saadaan siirrettyä redusoinnissa testikantaan |
+|KAUKOLAINA|Kaukolainakirjasto|Yhteisö||
+|KOTIPALVEL|Kotipalveluasiakas|Aikuiset||
+|EITILASTO|Ei tilastoitavat lainat|Ammattilainen|Käytetään ns. työlainojen ja -varausten tekemiseen.|
+|MUUHUOL|Huollettava, muu kuin lapsi|Huollettava|Aikuinen, jolle pitää merkitä huoltaja.|
+|AUTOM|Z Automaatti Z|Tilastoyksikkö|SIP2-automaattien/ovikoneiden/laitteiden käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun.|
+|API| Z API Z|Tilastoyksikkö|Erilaisten rajapintoja käyttävien järjestelmien/toimintojen käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 4/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#Muistio-421).|
+|LAOMATOIMI|Lapsi, omatoimi sallittu|Huollettava|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 5/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille) |
+|HEOMATOIMI| Henkilöasiakas, omatoimi sallittu |Aikuinen| Tarvitaan henkilöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Henkilö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
+|YHOMATOIMI| Yhteisöasiakas, omatoimi sallittu|Yhteisö| Tarvitaan yhteisöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Yhteisö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
 
 ### 5.1 Asiakastyyppien määritykset
 
