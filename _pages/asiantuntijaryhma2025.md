@@ -16,10 +16,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 
-## Esityslista 6/2025
+## Muistio 6/2025
 
 Aika: To 12.6.2025 klo 13<br />
-Läsnä: Piia, Emmi, Susanna, Erika, Päivi, Janne, Leena, Ari, Kati, Anneli
+Läsnä: Piia, Emmi, Susanna, Erika, Päivi, Janne, Leena, Ari, Kati, Anneli, Hanna
 
 ### 1. Ajankohtaiset
 
