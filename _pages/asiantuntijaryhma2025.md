@@ -21,23 +21,25 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: To 12.6.2025 klo 13<br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
 Koha-yhteisö on julkaissut version 25.05 ja seuraavaa versionvaihtoa varten luotiin [GitHubiin tietovaranto](https://github.com/KohaSuomi/Koha-25x). Aiemmin tehtiin alustava päätös, että seuraava versionvaihto tehdään maaliskuussa 2026. Lopullinen päätös tehtävä syksyllä, jotta ehditään valmistelemaan ja testaamaan seuraavaa versiota tarpeeksi.
 
 Harava-ohjelmiston kehittäjä Robert aloittaa Koha-Suomen palkkalistoilla määräaikaisena 3 kuukauden ajan.
 
-### Tietojen säilytysaikojen tarkistus
+### 2. Tietojen säilytysaikojen tarkistus
 
 [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/) ovat eläneet erilaisten ongelmatilanteiden vuoksi. Tarkistetaan ja selkeytetään kirjauksia.
 
-### Tiekartan tilannekatsaus
+### 3. Tiekartan tilannekatsaus
 
 Käydään läpi tiekartan tilannekatsaus.
 
-### Muut asiat
+### 4. Muut asiat
 
-### Seuraava kokous
+Helle: Asiakkaat vahvistamaan sähköpostiosoitteensa asiakkaaksi lisäämisen yhteydessä? [Yhteisössä asiasta kuusi vuotta vanha tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=23908 )
+
+### 5. Seuraava kokous
 
 
 ## Muistio 5/2025
