@@ -346,7 +346,7 @@ TOIMITTAJAT-luokka on aisapari AUTOMTYPE-luokalle eli tällä voi määrittää 
 Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
 |Lyhenne/Tunnus|Selite|Asiakastyypin tyyppi|Huomautus|
-|-----------|-------------|-----------|
+|-----------|-------------|-----------|---|
 |HENKILO|Henkilöasiakas|Aikuiset||
 |LAPSI|Lapsiasiakas|Huollettava||
 |YHTEISO|Yhteisöasiakas|Yhteisö||
