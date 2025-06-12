@@ -288,7 +288,7 @@ Voit valita yhdistettävät tietueet myös suoraan tiedohaun tuloksesta.
 ![](/assets/files/docs/Luettelointi/kohakuvat551.png)
 
 Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
-aloitettaessa](https://koha-suomi.fi/dokumentaatio/kuvailu/#5171-tietueiden-yhdistaminen-tiedonhaun-kautta),
+aloitettaessa],(https://koha-suomi.fi/assets/files/docs/Luettelointi/kuvailu18.png)
 kuvasta “Yhdistetään tietueita”.
 
 ### 5.1.8. Tietueiden poistaminen
