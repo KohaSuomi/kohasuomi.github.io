@@ -35,6 +35,8 @@ Harava-ohjelmiston kehittäjä Robert aloittaa Koha-Suomen palkkalistoilla mää
 
 Käydään läpi tiekartan tilannekatsaus.
 
+Liite: [Tiekartta2025.xlsx](https://github.com/user-attachments/files/18357482/Tiekartta2025.xlsx)
+
 ### 4. Muut asiat
 
 Helle: Asiakkaat vahvistamaan sähköpostiosoitteensa asiakkaaksi lisäämisen yhteydessä? [Yhteisössä asiasta kuusi vuotta vanha tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=23908 )
