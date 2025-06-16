@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 25
 
 Aika: Ma 16.6.2025<br />
-Läsnä:
+Läsnä: Olli, Emmi, Lari, Anneli, Pasi
 
 * Viikon 25 päivitys
 * Kouvolan Timmi-viesti
