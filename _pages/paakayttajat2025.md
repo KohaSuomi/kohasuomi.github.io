@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
@@ -23,6 +23,9 @@ Etelästä pohjoiseen
 **Lappi**
 * Perusylläpitoa, kesälomasijaisten tunnuksia, väistöihin liittyviä tukitöitä
 * 23.6. ajetaan asiakkaiden poistoajo
+
+**Vaara**
+* ei mainittavaa, perusylläpitoa
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-25) - [Palaa sivun alkuun](/paakayttajat2025)
