@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
 
 **Kirkes**
  * Kirkes-kirjastoissa havaittu hitautta lainausautomaateissa asiakkailla, joilla on paljon (kymmeniä tai noin sata) varausta tai lainaa. Muilla tällaista ei ole havaittu.
+
+**Lumme**
+* Perusylläpitoa.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-25) - [Palaa sivun alkuun](/paakayttajat2025)
