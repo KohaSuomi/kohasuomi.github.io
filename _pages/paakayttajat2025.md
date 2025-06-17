@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
-* 
+  
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Omatoimikirjastoissa ajoittain levotonta. Mietimme voisiko lasten omatoimisuuden rajoittamisesta asiakastyypeillä olla apua puuttumiseen. Asiakastyyppi on kuitenkin tarkoitettu lapsen suojelemiseksi, eikä ongelmiin puuttumiseen.
+   
 **Lappi**
 * Perusylläpitoa, kesälomasijaisten tunnuksia, väistöihin liittyviä tukitöitä
 * 23.6. ajetaan asiakkaiden poistoajo
