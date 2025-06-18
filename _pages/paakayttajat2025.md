@@ -28,13 +28,16 @@ Pohjoisesta etelään
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
   
 
 Etelästä pohjoiseen
+
+**Lastu**
+* Perusylläpitoa.
 
 **Vaski**
 * Omatoimikirjastoissa ajoittain levotonta. Mietimme voisiko lasten omatoimisuuden rajoittamisesta asiakastyypeillä olla apua puuttumiseen. Asiakastyyppi on kuitenkin tarkoitettu lapsen suojelemiseksi, eikä ongelmiin puuttumiseen.
