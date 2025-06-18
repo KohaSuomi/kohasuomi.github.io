@@ -152,6 +152,33 @@ Ystävällisin terveisin
 [% branch.branchillemail %]
 ```
 
+##### ILL_REQUEST_UNAVAIL
+
+Otsikko: Pyytämäsi kaukolaina ei ole saatavilla
+Email:
+```
+Hei [% borrower.firstname %],
+
+pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla.
+
+
+Terveisin
+
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+Otsikko: Kaukolaina ei saatavilla
+Viestityyppi: Sms
+
+```
+Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
+```
+
 ### FA-kuvailupohja
 
 942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
