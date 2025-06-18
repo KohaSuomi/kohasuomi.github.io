@@ -28,7 +28,7 @@ Pohjoisesta etelään
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
@@ -54,6 +54,9 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Perusylläpitoa.
+
+**OUTI**
+* Virheellisistä tekstiviesteistä ei ole tullut ilmoituksia raportille, viimeisin tullut 1.6. Seuraillaan tilannetta.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-25) - [Palaa sivun alkuun](/paakayttajat2025)
