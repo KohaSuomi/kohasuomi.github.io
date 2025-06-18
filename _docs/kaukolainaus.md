@@ -83,7 +83,7 @@ Uudet viestiasetukset asiakastiedoissa:
 * Interlibrary loan unavailable
 
 
-#### Viestipohjat
+#### Viestipohjat suomeksi
 
 ##### ILL_REQUEST_UPDATE
 
@@ -188,6 +188,102 @@ Viestityyppi: Sms
 ```
 Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
 ```
+
+#### Viestipohjat ruotsiksi
+
+##### ILL_REQUEST_UPDATE
+
+
+Otsikko: Din fjärrlånebeställning har uppdaterats
+Viestityyppi: email
+```
+Hej [% borrower.firstname %]!  
+
+Din fjärrlånebeställning gällande [% ill_bib_title %] / [% ill_bib_author %] har uppdaterats.  
+
+De nya uppgifterna:  
+[% additional_text %]
+
+Med vänlig hälsning,
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+##### ILL_PICKUP_READY
+
+Otsikko: Fjärrlån finns att hämta
+Viestityyppi: email
+```
+Hej [% borrower.firstname %]!  
+
+Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %].  
+
+Avgift för fjärrlånet: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
+
+Med vänlig hälsning,
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+
+Otsikko: Fjärrlån finns att hämta
+Viestityyppi: sms
+```
+Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %]. Avgift: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %].Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Mvh [% branch.branchname %]
+```
+
+##### ILL_PARTNER_REQ
+
+Otsikko: Beställning av fjärrlån
+Viestityyppi: email
+
+```
+Hej!
+
+Vi skulle vilja beställa följande verk som fjärrlån:
+[% ill_full_metadata %]
+
+Med vänlig hälsning,
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+```
+
+##### ILL_REQUEST_UNAVAIL
+
+Otsikko: Det fjärrlån du har beställt finns inte tillgängligt
+Viestityyppi: email
+
+```
+Hej [% borrower.firstname %]!  
+
+[% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. 
+
+Med vänlig hälsning,
+
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+Otsikko: Det fjärrlån du har beställt finns inte tillgängligt
+Viestityyppi: sms
+
+```Hej [% borrower.firstname %]. [% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. Mvh [% branch.branchname %]```
 
 ### FA-kuvailupohja
 
