@@ -78,6 +78,11 @@ Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaami
 
 #### Viestiasetukset
 
+Uudet viestiasetukset asiakastiedoissa:
+* Interlibrary loan ready
+* Interlibrary loan unavailable
+
+
 #### Viestipohjat
 
 ##### ILL_REQUEST_UPDATE
