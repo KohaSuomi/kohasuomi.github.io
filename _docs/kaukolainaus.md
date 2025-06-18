@@ -71,6 +71,87 @@ Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaami
 
 ### Viestipohjat ja uudet viestiasetukset
 
+#### Viestiasetukset
+
+#### Viestipohjat
+
+##### ILL_REQUEST_UPDATE
+
+Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä.
+
+Viestin otsikko: Kaukolainapyyntöäsi on päivitetty
+Viestityyppi: email
+
+```
+Hei [% borrower.firstname %],
+
+kaukolainapyyntöäsi  [% ill_bib_title %] / [% ill_bib_author %] on päivitetty.
+
+Päivitetyt tiedot:
+
+[% additional_text %]
+
+Ystävällisin terveisin
+
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+##### ILL_PICKUP_READY
+
+Otsikko: Kaukolainan noutoilmoitus
+Viestityyppi: email
+
+```
+Hei [% borrower.firstname %],
+
+Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta.
+
+Kaukolainamaksu: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
+
+Terveisin
+
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+Otsikko: Kaukolainan noutoilmoitus
+Viestityyppi: sms
+
+```
+Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta. Kaukolainamaksu: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
+```
+
+##### ILL_PARTNER_REQ
+
+Otsikko: Kaukolainapyyntö
+Viestityyppi: email
+
+```
+Hei,
+
+pyytäisimme kaukolainaksi seuraavan teoksen:
+
+[% ill_full_metadata %]
+
+Ystävällisin terveisin
+
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+```
+
 ### FA-kuvailupohja
 
 942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
