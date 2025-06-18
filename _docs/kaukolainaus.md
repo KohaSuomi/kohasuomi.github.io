@@ -191,7 +191,7 @@ Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% i
 
 ### FA-kuvailupohja
 
-942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
+Tämä puuttuu vielä pohjasta: 942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
 
 ### Raportit
 
