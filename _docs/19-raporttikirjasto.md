@@ -2492,6 +2492,8 @@ AND (CAST(time_queued as date) between <<Alkupvm|date>> AND <<Loppupvm|date>>)
 
 Erotellaan kirjastoittain kaikki verkkomaksuista kertyneet tulot. Toimii vain *Ceepos-verkkomaksujen* kanssa. Ei esim. Finna-Paytrail-maksujen kanssa.
 
+**Vanha, ei toimi.**
+
 ```
 SELECT Verkkomaksutulot, branch, branchcity, branchphone FROM (SELECT CAST(SUM(payments.paid_price_cents)/100.00 as decimal(19,2)) AS Verkkomaksutulot, IF(homebranch IS NULL, user_branch, homebranch) AS branch FROM 
 	(SELECT DISTINCT payments_transactions_accountlines.transaction_id, payments_transactions.borrowernumber, status, paid_price_cents, payments_transactions_accountlines.accountlines_id, accountlines.itemnumber, payments_transactions.user_branch FROM payments_transactions, payments_transactions_accountlines, accountlines 
@@ -2587,6 +2589,59 @@ Raportilla voi hakea asiakkaat, joiden maksut ovat miinuksella.
 select distinct(borrowernumber) from accountlines where credit_type_code='PAYMENT' and amountoutstanding<0
 ```
 
+### Verkkomaksujen jako kirjastoittain tai kunnittain
+
+Raportti hakee maksusuoritukset, jotka on tehty verkkomaksuna eli niissä on huomautus, joka alkaa sanoilla _Online transaction_. Raporttiin valitaan päivämääräväli maksusuorituksille ja tulokset ryhmitellään kirjastokoodin mukaisesti. Kannattaa huomioida, että kaikissa maksuissa ei ole tietoa kirjastopisteestä, joten ne ryhmittyvät listassa ensimmäiseksi NULL-arvolla. Nämä pitää jakaa itse kirjastojen kesken jollain kaavalla. Kirjastotieto on saatu tallentumaan kaikkiin maksutyyppeihin 26.5.2025 lähtien.
+
+Lisääjä: Anneli Österman
+Pvm: 18.6.2025
+
+```
+SELECT COALESCE(od.branchcode, 'Ei kirjastotietoa') AS Maksupaikka,
+       COUNT(DISTINCT od.accountlines_id, od.debit_type_code) AS 'Maksujen määrä',
+       ROUND(ABS(SUM(ao.amount)), 2) AS 'Maksujen summa'
+  FROM accountlines al
+       INNER JOIN account_offsets ao ON credit_id = al.accountlines_id
+       INNER JOIN accountlines od ON ao.debit_id = od.accountlines_id
+ WHERE al.credit_type_code = 'PAYMENT'
+     AND al.note LIKE 'Online transaction%'
+     AND DATE(al.date) BETWEEN <<Maksusuorituksen alkupvm|date>> AND <<Loppupvm|date>>
+     AND ao.credit_id NOT IN (SELECT ao.credit_id FROM account_offsets WHERE ao.debit_id IN (SELECT al.accountlines_id FROM accountlines al WHERE al.debit_type_code = 'PAYOUT'))
+ GROUP BY od.branchcode
+ LIMIT 100
+```
+
+Jos haluaa, voi raporttia täydentää niin, että kirjastoille voi vielä luoda kuntakohtaisen ryhmittelyn tähän tyyliin:
+
+Tekijä: Katariina Pohto
+
+```
+SELECT CASE WHEN od.branchcode IS NULL THEN 'Ei tietoa'
+	WHEN od.branchcode LIKE 'OU%' THEN 'OULU'
+	WHEN od.branchcode LIKE 'SI%' THEN 'SIIKAJOKI'
+        WHEN od.branchcode LIKE 'RA%' THEN 'RAAHE'
+        WHEN od.branchcode LIKE 'LI%' THEN 'LIMINKA'
+        WHEN od.branchcode LIKE 'TY%' THEN 'TYRNÄVÄ'
+        ELSE br.branchcity
+        END AS Maksukunta,
+       COUNT(DISTINCT od.accountlines_id, od.debit_type_code) AS 'Maksujen määrä',
+       ROUND(ABS(SUM(ao.amount)), 2) AS 'Maksujen summa'
+ FROM accountlines al
+       INNER JOIN account_offsets ao ON credit_id = al.accountlines_id
+       INNER JOIN accountlines od ON ao.debit_id = od.accountlines_id
+       LEFT JOIN branches br ON od.branchcode = br.branchcode
+ WHERE al.credit_type_code = 'PAYMENT'
+   AND al.note LIKE 'Online transaction%'
+   AND DATE(al.date) BETWEEN <<Maksusuorituksen alkupvm|date>> AND <<Loppupvm|date>>
+   AND ao.credit_id NOT IN (SELECT ao.credit_id
+ 	                    FROM account_offsets
+		            WHERE ao.debit_id IN (SELECT al.accountlines_id
+            			                  FROM accountlines al
+                                                  WHERE al.debit_type_code = 'PAYOUT')
+                           )
+ GROUP BY 1 WITH ROLLUP
+ LIMIT 100
+```
 
 
 ## Kuvailu
