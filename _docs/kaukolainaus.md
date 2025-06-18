@@ -158,5 +158,7 @@ Ystävällisin terveisin
 
 ### Raportit
 
+* myöhässä olevia kaukolainoja voi seurata Overdues-raportilla (joka on tällä hetkellä piilotettu kaikilla Lainaus ja palautus -sivulla) (vaatii overdues_report-oikeuden)
+
 ### Kuinka asiakkaat tekevät kaukolainapyyntöjä
 
