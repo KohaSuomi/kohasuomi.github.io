@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 26
+
+Aika: 24.6.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 26 päivitys
+* Raportteja:
+  * [Verkkomaksujen jako kirjastoittain tai kunnittain](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#verkkomaksujen-jako-kirjastoittain-tai-kunnittain). [Liittyy tikettiin #1845](https://github.com/KohaSuomi/Koha/issues/1845)
+  * [Finnan tunnistetalkoiden apuraportti](https://github.com/KohaSuomi/Koha/issues/1841#issuecomment-2955619706), löytyy Tätistäkin ja jota kuvailijat toivottavasti osaavat hyödyntää Finnan tunnistetalkoissa.
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
