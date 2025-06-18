@@ -27,6 +27,17 @@ ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston
 
 ### Auktorisoidut arvot
 
+ILL_STATUS_ALIAS -auktorisoitu arvo
+
+* Saapunut
+* Noutoilmoitus lähetetty
+* Noutamaton kaukolaina
+* Asiakas perunut pyynnön
+* Lainattu asiakkaalle (jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
+* Karhuttu
+
+
+
 ### Nidetyyppi
 
 Tunnus: KAUKOLAINA<br />
