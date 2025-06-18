@@ -24,3 +24,27 @@ ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön l�
 ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän tarvittavia yhteyksiä
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
+
+### Auktorisoidut arvot
+
+### Nidetyyppi
+
+Tunnus: KAUKOLAINA<br />
+Kuvaus: Kaukolaina<br />
+Palautusviesti: Tähän jonkinlainen huomautus, että kyseessä on kaukolaina ja tarvitsee erilaista käsittelyä<br />
+Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus palautuksessa, erottuu paremmin kuin viesti)
+
+### Käyttäjäoikeudet
+
+### Laina- ja maksusäännöt
+
+### Viestipohjat ja uudet viestiasetukset
+
+### FA-kuvailupohja
+
+942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
+
+### Raportit
+
+### Kuinka asiakkaat tekevät kaukolainapyyntöjä
+
