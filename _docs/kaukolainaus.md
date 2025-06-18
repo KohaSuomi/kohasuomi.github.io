@@ -47,6 +47,11 @@ Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus pa
 
 ### Käyttäjäoikeudet
 
+* ill - jotta pääsee kaukopalvelumoduuliin
+* fast_cataloging  - jotta pystyy käsittelemään kaukolainamoduulin kautta luotuja tietueita/niteitä, joilla on FA-kuvailupohja käytössä
+* override_renewals - jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0
+* overdues_report - jotta käyttäjä voi avata Myöhässä-raportin Lainaus ja palautus -sivulla
+
 ### Laina- ja maksusäännöt
 
 * Asiakastyyppi: Ei tarvitse valita, koska säännöt ovat samat kaikille asiakastyypeille
