@@ -38,6 +38,26 @@ Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus pa
 
 ### Laina- ja maksusäännöt
 
+* Asiakastyyppi: Ei tarvitse valita, koska säännöt ovat samat kaikille asiakastyypeille
+* Nidetyyppi: Kaukolaina
+* Sallittu lainamäärä: kimpan käyttösääntöjen mukaisesti
+* Laina-aika: 28 vrk - tähän kannattanee määrittää jotain, koska muuten Koha automaattisesti antaa eräpäiväksi lainauspäivän. Pääsääntöisesti virkailija valitsee itse eräpäivän sen mukaan, mitä lähettävä kirjasto on sen määrittänyt.
+* Uusintakerrat: 0, jotta asiakkaat eivät pysty uusimaan lainojaan verkkokirjastossa. Annetaan kuitenkin kaukopalvelua tekeville henkilöille käyttäjäoikeus, jolla he voivat ohittaa uusinnan estot.
+* Uusinta-aika: 28 vrk samalla perusteella kuin laina-aika. Uusinnan eräpäivän voi valita lainat-taulukon alapuolelta.
+* Ei uusintaa ennen: kimppakohtaisesti päätettävissä
+* Varauksia sallittu (yhteensä): 0
+* Varauksia sallittu (päivittäin): 0
+* Varauksia tietuetta kohti (määrä): 0
+* Hyllyvaraukset sallittu: Jos yhtään ei ole saatavilla
+* Verkkokirjaston nidevaraukset: Älä salli
+
+Oletusvaraussääntö nidetyypeittäin
+ * tänne voi tarvittaessa lisätä palautussäännön Kaukolaina-nidetyypille, että se palaa lainaavaan (tilaavaan) kirjastoon tai kotikirjastoon, jolloin se käytännössä palautuu kaukolainan tilanneeseen kirjastoon.
+
+Jos jollakin kirjastolla on kirjastokohtaisia lainasääntöjä, pitää nämä muistaa tehdä kaikille kirjastoille, joihin säännöt halutaan "purevan".
+
+Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaamista, pitää asiakastyypille tehdä sääntö, jossa lainamäärä on 0.
+
 ### Viestipohjat ja uudet viestiasetukset
 
 ### FA-kuvailupohja
