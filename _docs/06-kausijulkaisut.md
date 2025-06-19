@@ -248,6 +248,8 @@ Kausijulkaisun vastaanotosta löytyy myös valinta _Ohita numeroita_. Toimintoa 
 
 ![.](/assets/files/docs/Kausijulkaisut/Ohita%20numeroita.png)
 
+![.](/assets/files/docs/Kausijulkaisut/Numerot%20ohittamisen%20j%C3%A4lkeen.png)
+
 Jos lehtinumerot saapuvat epäsäännöllisesti tai virheellisessä
 järjestyksessä, voit mennä muokkaamaan aikaisempia numeroita
 Tilausnäytöllä vasemmassa reunassa olevasta
