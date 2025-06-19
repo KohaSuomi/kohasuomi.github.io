@@ -243,6 +243,11 @@ Klikattuasi _Vastaanota_, pääset saapumisvalvontanäytölle.
 
 - Tallenna lopuksi nidetiedot.
 
+Kausijulkaisun vastaanotosta löytyy myös valinta _Ohita numeroita_. Toimintoa voinee lähinnä hyödyntää tilanteissa, joissa vastaanotetaankin tuplanumero ja seuraava numero halutaan siksi ohittaa vastaanoton yhteydessä. Alla olevassa esimerkkikuvassa on vastaanotettavan lehden numeroinniksi muutettu 1-2 ja valittu, että ohitetaan tallennuksen yhteydessä yksi numero. Tallentamisen jälkeen näkyy, että numero 1-2 vastaanotettiin ja seuraavaksi odotetaan numeroa 3. Numero 2 siis ohitettiin vastaanottamisen yhteydessä.
+{: .notice--warning}
+
+![.](/assets/files/docs/Kausijulkaisut/Ohita%20numeroita.png)
+
 Jos lehtinumerot saapuvat epäsäännöllisesti tai virheellisessä
 järjestyksessä, voit mennä muokkaamaan aikaisempia numeroita
 Tilausnäytöllä vasemmassa reunassa olevasta
