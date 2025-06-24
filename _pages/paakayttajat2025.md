@@ -24,6 +24,7 @@ Läsnä: Leena Kinnunen (Lappi)
 Pohjoisesta etelään
 
 **Lappi**
+
 *Asiakkaiden poistoajo 23.6. poisti reilut 66000 asiakasta
 *Aautomaattien AO-viestit kuntoon kolmelle automaatille
 *Väistöjen varauksiin ja eräpäiviin liittyvät ylläpidot
