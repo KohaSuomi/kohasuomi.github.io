@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 24.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Viikon 26 päivitys
@@ -27,6 +27,10 @@ Pohjoisesta etelään
 * Asiakkaiden poistoajo 23.6. poisti reilut 66000 asiakasta
 * Automaattien AO-viestit kuntoon kolmelle automaatille, pyydetty muutos toimittajilta
 * Väistöjen varauksiin ja eräpäiviin liittyvät ylläpidot
+
+**Vaara**
+* rauhallista pääkäyttäjätöiden osalta, yhden kirjastoauton varausten siirto kun ei muistettu ilmoittaa ajoissa kesälomaa
+* raporttien ajoa ja testausta
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
 
