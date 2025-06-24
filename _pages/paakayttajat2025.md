@@ -13,13 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 24.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Johanna ja Lari (Koha-Suomi) Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Viikon 26 päivitys
 * Raportteja:
   * [Verkkomaksujen jako kirjastoittain tai kunnittain](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#verkkomaksujen-jako-kirjastoittain-tai-kunnittain). [Liittyy tikettiin #1845](https://github.com/KohaSuomi/Koha/issues/1845)
   * [Finnan tunnistetalkoiden apuraportti](https://github.com/KohaSuomi/Koha/issues/1841#issuecomment-2955619706), löytyy Tätistäkin ja jota kuvailijat toivottavasti osaavat hyödyntää Finnan tunnistetalkoissa.
+     * Kassu lisää raporttikirjastoon. 
 
 Pohjoisesta etelään
 
