@@ -41,7 +41,7 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa
 * Lastun osalta asiakkaiden poistoajoa ei tarvitse tehdä tänä tai ensi vuonna, asiakasrekisteri siivottiin kesällä 2024
 
-  **Kirkes**
+**Kirkes**
   * Kirkes-kirjastoilla on asetuksessa FailedLoginAttempts "10", kuten usealla muullakin, osalla asetukseen on asetettu "12". Erika huomannut muiden testausten ohessa, että Finna-käyttäjätili ei mennyt lukkoon kymmenellä epäonnistuneella kirjautumisella, vaikka sen pitäisi lukittua kuudennella kirjautumisyrityksellä. HUOM. Finna ei ilmoita tilin lukittumisesta, mutta huomautuksen pitäisi näkyä Kohassa. Muilla tilin lukittautuminen toimi oikein. Todennäköisesti ongelma koskee siis vain Erikan testauksia, eikä asiaa tarvitse tutkia enempää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
