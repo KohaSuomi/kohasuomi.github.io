@@ -3091,7 +3091,7 @@ Raportti hakee tietueet, joissa on sama asiasana kahdessa eri kentässä
 
 Kolme versiota samasta raportista eri kentillä. Poista tarvittaessa aineistotyyppivalinta poistamalla WHERE-rivi. Raportin tuloksiin voi tulla "vääriä" tärppejä, jos esim. kaksiosaisen termin toinen osa täsmää toisessa kentässä olevaan termiin. Esim. historialliset sarjakuvat - sarjakuvat.
 
-Lisännyt: Anneli Österman
+Lisännyt: Anneli Österman<br />
 Lisätty: 15.5.2025
 
 #### Tietueet, joissa sama termi kentissä 650a ja 655a
@@ -3131,7 +3131,9 @@ AND (f370 LIKE CONCAT("%",f651,"%") OR f651 LIKE CONCAT("%",f370,"%"))
 
 Raportti laskee eri variaatioille esiintymiskerrat ja listaa niille kuuluvat bibliot. Raportti ryhmittelee tekijätiedot osakenttien a, d, e, i, t, 0 ja 9 mukaan Hakutermi-sarakkeeseen. Toisessa sarakkeessa on kyseisellä osakenttäyhdistelmällä löytyvien tietueiden määrä. Tietuenumerot-sarakkeessa listataan tietueet ja sarakkeen sisältöä klikkaamalla avautuu toiseen välilehteen toinen raportti, joka listaa kyseiset tietueet. Raportilta tietueet voi sitten viedä tietueiden erämuokkaukseen. Ks. alempaa ohjeet toisen raportin työstämiseen.
 
-Tekijät: Anneli Österman ja Katariina Pohto
+Raporttia ajaessa määritellään kentäksi 100, 600 tai 700. Tekijä-tietoa haetaan laittamalla %-merkki alkuun ja loppuun. Jos merkin laittaa vain loppuun, niin tuloksiin tulee vain ne tietueet, joissa ko. tekijä on mainittu ensimmäisenä. 
+
+Tekijät: Anneli Österman ja Katariina Pohto<br />
 Lisätty: 24.6.2025
 
 ```
