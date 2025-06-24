@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 24.6.2025 klo 9.15<br />
-Läsnä: Johanna ja Lari (Koha-Suomi), Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Johanna ja Lari (Koha-Suomi), Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * Viikon 26 päivitys
@@ -36,6 +36,10 @@ Pohjoisesta etelään
 **OUTI**
 * Hiljaista on, joskin kesäsulut ja siirrettävät varaukset työllistävät.
 * Testaamme tuotannossa CSS-variaatiota, jossa piilotetaan varauksen poistamisen vaihtoehto myös lainatessa kuljetetus- ja käsittelytilaisia varauksia. [#1681](https://github.com/KohaSuomi/Koha/issues/1681)
+
+**Lastu**
+* Normaalia ylläpitoa
+* Lastun osalta asiakkaiden poistoajoa ei tarvitse tehdä tänä tai ensi vuonna, asiakasrekisteri siivottiin kesällä 2024
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
 
