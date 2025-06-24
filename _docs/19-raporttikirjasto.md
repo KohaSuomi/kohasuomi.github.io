@@ -3127,6 +3127,91 @@ AND f651 != "  "
 AND (f370 LIKE CONCAT("%",f651,"%") OR f651 LIKE CONCAT("%",f370,"%"))
 ```
 
+### Tunnistetalkoot eli 100-, 600- ja 700-kenttien koko sisällöt
+
+Raportti laskee eri variaatioille esiintymiskerrat ja listaa niille kuuluvat bibliot. Raportti ryhmittelee tekijätiedot osakenttien a, d, e, i, t, 0 ja 9 mukaan Hakutermi-sarakkeeseen. Toisessa sarakkeessa on kyseisellä osakenttäyhdistelmällä löytyvien tietueiden määrä. Tietuenumerot-sarakkeessa listataan tietueet ja sarakkeen sisältöä klikkaamalla avautuu toiseen välilehteen toinen raportti, joka listaa kyseiset tietueet. Raportilta tietueet voi sitten viedä tietueiden erämuokkaukseen. Ks. alempaa ohjeet toisen raportin työstämiseen.
+
+Tekijät: Anneli Österman ja Katariina Pohto
+Lisätty: 24.6.2025
+
+```
+SELECT 
+CASE WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][1]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][2]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][3]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][4]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][5]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][6]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][7]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][8]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][9]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][10]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][11]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][12]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][13]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][14]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][15]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][16]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][17]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][18]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][19]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][20]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][21]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][22]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][23]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][24]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][25]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][26]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][27]/subfield[@code="9"]'))
+     WHEN ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="a"]') LIKE <<Tekijä>>
+     THEN CONCAT_WS(" ", ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="a"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="d"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="e"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="0"]'), ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>'][28]/subfield[@code="9"]'))
+          END AS Hakutermi, COUNT(*) AS 'Määrä', 
+     CONCAT('<a href="https://tati.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?id=328&sql_params=^', GROUP_CONCAT(biblionumber SEPARATOR "$|^"), '$&op=run" target="_blank">', GROUP_CONCAT(biblionumber SEPARATOR ', '), '</a>') AS Tietuenumerot
+
+  FROM biblio_metadata bm
+ WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="a"]') != ''
+  AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code="a"]') LIKE <<Tekijä>>
+  GROUP BY Hakutermi
+  ORDER BY 2 DESC
+```
+
+Lisää ao. raportti, jotta saat uuden, eräkäsittelyyn vietävän tietuelistan avautumaan linkistä. Muuta myös ylläolevasta raportista loppupuolella olevaan linkkiin oikea domain ja raportin numero: xx.koha-suomi.fi ja guided_reports.pl?id=XX. 
+
+```
+SELECT biblionumber, CONCAT_WS(" ", title, subtitle, part_name, part_number, author) AS 'Teos'
+FROM biblio b
+WHERE biblionumber REGEXP <<param>>
+LIMIT 1000
+```
+
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
