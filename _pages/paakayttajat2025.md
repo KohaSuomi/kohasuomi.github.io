@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: 24.6.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * Viikon 26 päivitys
@@ -22,6 +22,11 @@ Läsnä:
   * [Finnan tunnistetalkoiden apuraportti](https://github.com/KohaSuomi/Koha/issues/1841#issuecomment-2955619706), löytyy Tätistäkin ja jota kuvailijat toivottavasti osaavat hyödyntää Finnan tunnistetalkoissa.
 
 Pohjoisesta etelään
+
+**Lappi**
+*Asiakkaiden poistoajo 23.6. poisti reilut 66000 asiakasta
+*Aautomaattien AO-viestit kuntoon kolmelle automaatille
+*Väistöjen varauksiin ja eräpäiviin liittyvät ylläpidot
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
 
