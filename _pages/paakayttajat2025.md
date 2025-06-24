@@ -25,7 +25,7 @@ Pohjoisesta etelään
 
 **Lappi**
 * Asiakkaiden poistoajo 23.6. poisti reilut 66000 asiakasta
-* Aautomaattien AO-viestit kuntoon kolmelle automaatille
+* Automaattien AO-viestit kuntoon kolmelle automaatille, pyydetty muutos toimittajilta
 * Väistöjen varauksiin ja eräpäiviin liittyvät ylläpidot
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-26) - [Palaa sivun alkuun](/paakayttajat2025)
