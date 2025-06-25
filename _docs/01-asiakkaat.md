@@ -181,7 +181,7 @@ Sotuteekissa on myös erillinen käyttöliittymä liitännäiset-osiossa, jossa 
 sotu-avaimella, jos se on tarpeen. Heillä on erilliset tunnukset tarkistusta varten.
 
 Sotuteekistä tarkemmin Kohan ohje suomeksi -ohjeen
-kohdassa [12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-sotuteekki)
+kohdassa [12.11.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12113-sotuteekki)
 
 ### 1.2.2. Nimi, syntymäaika, muu nimi ja varaustunnus
 
