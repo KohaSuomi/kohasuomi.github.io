@@ -2549,11 +2549,11 @@ ORDER BY accountlines_id
 ```
 SELECT CONCAT('<a href="/cgi-bin/koha/members/boraccount.pl?borrowernumber=', accountlines.borrowernumber, '">', accountlines.borrowernumber, '</a>') AS borrowernumberi,
 accountlines.*,
-borrowers.* 
+borrowers.borrowernumber
 FROM accountlines, borrowers WHERE accountlines.amountoutstanding > 0 
 AND accountlines.date<NOW()-INTERVAL 3 YEAR 
 AND accountlines.borrowernumber LIKE <<borrowernumber TAI syötä %-merkki jos haluat kaikki>> 
-AND accountlines.accounttype LIKE <<accounttype TAI syötä %-merkki jos haluat kaikki>> 
+ 
 AND accountlines.borrowernumber=borrowers.borrowernumber 
 AND borrowers.branchcode=<<Lainauskirjasto|branches>> 
 GROUP BY borrowernumberi 
