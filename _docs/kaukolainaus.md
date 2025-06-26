@@ -285,6 +285,87 @@ Viestityyppi: sms
 
 ```Hej [% borrower.firstname %]. [% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. Mvh [% branch.branchname %]```
 
+### Viestipohjat englanniksi
+
+#### ILL_REQUEST_UPDATE 
+
+Viestin otsikko: Your interlibrary loan request has been updated 
+Viestityyppi: email 
+
+```
+Hello [% borrower.firstname %], 
+
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] has been updated.  
+ 
+Updated information: [% additional_text %] 
+
+Best regards,  
+[% branch.branchname %] 
+
+[% branch.branchaddress1 %] 
+
+[% branch.branchzip %] [% branch.branchcity %] 
+
+[% branch.branchphone %] 
+
+[% branch.branchillemail %] 
+
+[% branch.branchemail %]
+```
+
+#### ILL_PICKUP_READY
+Otsikko: Your interlibrary loan is ready for pick up 
+Viestityypppi: email
+
+```
+Hello [% borrower.firstname %],
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is waiting for you at [% branch.branchname %]. 
+
+Interlibrary loan fee: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
+
+Best regards, 
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+#### ILL_PICKUP_READY
+Otsikko: Interlibrary loan ready for pick up 
+Viestityyppi: SMS
+
+```
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is waiting for you at [% branch.branchname %]. Interlibrary loan fee: % IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
+```
+
+#### ILL_REQUEST_UNAVAIL
+Viestin otsikko: The interlibrary loan you requested is not available
+Viestityyppi: email
+
+```
+Hello [% borrower.firstname %],
+The interlibrary loan you requested, [% ill_bib_title %] / [% ill_bib_author %] is not available. Your interlibrary loan request has been cancelled. 
+
+Best regards, 
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+[% branch.branchemail %]
+```
+
+#### ILL_REQUEST_UNAVAIL
+Otsikko: Your interlibrary loan request has been cancelled
+Viestityyppi: SMS
+
+```
+Your interlibrary loan request has been cancelled since the title [% ill_bib_title %] / [% ill_bib_author %] is not available. Best regards, [% branch.branchname %]
+```
+
 ### FA-kuvailupohja
 
 Tämä puuttuu vielä pohjasta: 942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
