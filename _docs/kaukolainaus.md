@@ -341,6 +341,23 @@ Viestityyppi: SMS
 Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is waiting for you at [% branch.branchname %]. Interlibrary loan fee: % IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
 ```
 
+#### ILL_PARTNER_REQ
+Otsikko: Request for interlibrary loan
+Viestityyppi: email
+
+```
+Hello,
+We would like to request the following item from your collection as an interlibrary loan: 
+[% ill_full_metadata %]
+ 
+Best regards,
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchzip %] [% branch.branchcity %]
+[% branch.branchphone %]
+[% branch.branchillemail %]
+```
+
 #### ILL_REQUEST_UNAVAIL
 Viestin otsikko: The interlibrary loan you requested is not available
 Viestityyppi: email
