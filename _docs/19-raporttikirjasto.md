@@ -2560,9 +2560,10 @@ GROUP BY borrowernumberi
 ORDER BY DATE DESC
 ```
 
-Raportti näyttää maksut, jotka on luotu vähintään 3 vuotta sitten. Maksuja voi rajata borrowernumberilla tai maksun tyypillä (accounttype). Merkitse % jos haluat valita kaikki borrowernumberit ja/tai maksutyypit. 
+Raportti näyttää maksut, jotka on luotu vähintään 3 vuotta sitten. Maksuja voi rajata borrowernumberilla. Merkitse % jos haluat valita kaikki borrowernumberit. 
 
 Lisääjä: Päivi Knuutinen / VAARA 5.2.2019
+Päivittänyt: Lari Strand 26.6.2025
 
 ### Asiakkaan haku maksun ID:llä (Ceepos)
 
