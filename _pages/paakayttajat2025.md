@@ -49,7 +49,7 @@ Pohjoisesta etelään
 ## Viikko 25
 
 Aika: 17.6.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Piia Semenoff (OUTI)
+Läsnä: Leena Kinnunen ja Maria Joona (Lappi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Erika Miettinen (Kirkes), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Piia Semenoff (OUTI), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/1886)
@@ -78,6 +78,9 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Virheellisistä tekstiviesteistä ei ole tullut ilmoituksia raportille, viimeisin tullut 1.6. Seuraillaan tilannetta.
+
+**KYYTI**
+* Perusylläpitoa.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-25) - [Palaa sivun alkuun](/paakayttajat2025)
@@ -85,7 +88,7 @@ Etelästä pohjoiseen
 ## Viikko 24
 
 Aika: 10.6.2025 klo 9.15<br />
-Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli, Emmi ja Olli (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/1869)
@@ -134,6 +137,9 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Tekstiviestirajapinnan muutos 2.6. sujui kivuttomasti. Ei muuta mainittavaa.
+
+**KYYTI**
+* Alettu suunnittelemaan tarvittavia muutoksia automaatin lajittelusääntöihin, joita signum-muutoksesta seuraa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-24) - [Palaa sivun alkuun](/paakayttajat2025)
 
