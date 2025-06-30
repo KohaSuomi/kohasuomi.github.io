@@ -319,7 +319,7 @@ Viestityypppi: email
 
 ```
 Hello [% borrower.firstname %],
-Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is waiting for you at [% branch.branchname %]. 
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is ready for pick-up at [% branch.branchname %]. 
 
 Interlibrary loan fee: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
 Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
@@ -338,7 +338,7 @@ Otsikko: Interlibrary loan ready for pick up
 Viestityyppi: SMS
 
 ```
-Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is waiting for you at [% branch.branchname %]. Interlibrary loan fee: % IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is ready for pick-up at [% branch.branchname %]. Interlibrary loan fee: % IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
 ```
 
 #### ILL_PARTNER_REQ
