@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Viikon 27 päivitys
@@ -24,7 +24,11 @@ Etelästä pohjoiseen
 * Uusia omatoimikoneita Rovaniemelle pääkirjastoon ja Korkalovaaraan
 * Kittilän remontti alkaa elokuussa
 * Raportit käyty läpi ja siivottu tarpeettomat pois
-* Raportilla 544 löytyy asiakkaita, joiden sotu on kiinni useammassa asiakastiedossa. Näissä on asiakkaita, joilla ei näytä olevan tapahtumia 5 vuoteen, mutta eivät ole poistuneet 23.6. asiakkaiden poistoajossa, johtuneeko asiakkaille merkitystä rajoituksesta. Tehdään tiketti ja selvitetään, voiko asiakastiedot poistaa. 
+* Raportilla 544 löytyy asiakkaita, joiden sotu on kiinni useammassa asiakastiedossa. Näissä on asiakkaita, joilla ei näytä olevan tapahtumia 5 vuoteen, mutta eivät ole poistuneet 23.6. asiakkaiden poistoajossa, johtuneeko asiakkaille merkitystä rajoituksesta. Tehdään tiketti ja selvitetään, voiko asiakastiedot poistaa.
+
+**Vaara**
+* Viime viikolla keskiviikkoaamuna Joensuun pääkirjaston tunneloitu palautusautomaatti ei halunnut toimia, herjasi vain SIP-virhettä. Soitin Koha-kehittäjien päivystysnumeroon, jossa Johanna selvitti asiaa välikätenä Bittigurun ja Meitan välillä. Lopulta palautusautomaatti saatiin toimimaan vasta torstaina iltapäivällä juuri ennen klo 15. Kesäloma-ajalla lienee osittain vaikutus ongelman ratkaisun kestämiseen.
+* Samaan aikaan huomattiin myös Ceepos-kassojen yhteysongelma Kohaan eli maksut eivät päivittyneet kuten piti vaan ne piti hoitaa käsin. Johanna epäili, että asialla olisi jotain tekemistä tuon tunnelin kanssa, mutta ilmeisesti ongelma on kuitenkin jossakin muualla (Meitalle tehty tikettejä asiasta), sillä kassaongelma on edelleen.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-27) - [Palaa sivun alkuun](/paakayttajat2025)
