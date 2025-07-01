@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * Viikon 27 päivitys
