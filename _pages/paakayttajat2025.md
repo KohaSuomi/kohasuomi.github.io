@@ -13,12 +13,19 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: 
+Läsnä: Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * Viikon 27 päivitys
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Uusia omatoimikoneita Rovaniemelle pääkirjastoon ja Korkalovaaraan
+* Kittilän remontti alkaa elokuussa
+* Raportit käyty läpi ja siivottu tarpeettomat pois
+* Raportilla 544 löytyy asiakkaita, joiden sotu on kiinni useammassa asiakastiedossa. Näissä on asiakkaita, joilla ei näytä olevan tapahtumia 5 vuoteen, mutta eivät ole poistuneet 23.6. asiakkaiden poistoajossa, johtuneeko asiakkaille merkitystä rajoituksesta. Tehdään tiketti ja selvitetään, voiko asiakastiedot poistaa. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-27) - [Palaa sivun alkuun](/paakayttajat2025)
 
