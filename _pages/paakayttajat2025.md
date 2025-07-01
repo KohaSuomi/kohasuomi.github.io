@@ -36,7 +36,7 @@ Etelästä pohjoiseen
 ## Viikko 26
 
 Aika: 24.6.2025 klo 9.15<br />
-Läsnä: Johanna ja Lari (Koha-Suomi), Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Erika Miettinen (Kirkes)
+Läsnä: Johanna ja Lari (Koha-Suomi), Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Erika Miettinen (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Viikon 26 päivitys
