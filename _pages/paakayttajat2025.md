@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * Viikon 27 päivitys
@@ -30,6 +30,9 @@ Etelästä pohjoiseen
 * Viime viikolla keskiviikkoaamuna Joensuun pääkirjaston tunneloitu palautusautomaatti ei halunnut toimia, herjasi vain SIP-virhettä. Soitin Koha-kehittäjien päivystysnumeroon, jossa Johanna selvitti asiaa välikätenä Bittigurun ja Meitan kanssa. Lopulta palautusautomaatti saatiin toimimaan vasta torstaina iltapäivällä juuri ennen klo 15. Kesäloma-ajalla lienee osittain vaikutus ongelman ratkaisun kestämiseen.
 * Samaan aikaan huomattiin myös Ceepos-kassojen yhteysongelma Kohaan eli maksut eivät päivittyneet kuten piti vaan ne piti hoitaa käsin. Johanna epäili, että asialla olisi jotain tekemistä tuon tunnelin kanssa, mutta ilmeisesti ongelma on kuitenkin jossakin muualla (Meitalle tehty tikettejä asiasta), sillä kassaongelma on edelleen.
 
+**Lastu**
+* [Tekstiviesteissä epäonnistuneita viestien lähetyksiä](https://github.com/KohaSuomi/Koha/issues/1895), selvitys menossa mistä johtuu. Myös Vaskissa vastaava ongelma.
+* Muuten perusylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-27) - [Palaa sivun alkuun](/paakayttajat2025)
 
