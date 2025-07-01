@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi), Janne Seppänen (Lastu)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi), Janne Seppänen (Lastu), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Viikon 27 päivitys
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 **Lastu**
 * [Tekstiviesteissä epäonnistuneita viestien lähetyksiä](https://github.com/KohaSuomi/Koha/issues/1895), selvitys menossa mistä johtuu. Myös Vaskissa vastaava ongelma.
 * Muuten perusylläpitoa
+
+**Kirkes**
+ * Erika saanut tarrapohjia muokattua signum-muutoksen edellyttämiksi
+ * Suomi.fi-REST-rajapinnan käyttöönotto olisi sovittavissa, mutta odotellaan lomakauden loppua, jotta pystytään paremmin tiedottamaan henkilökuntaa ja asiakkaita.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-27) - [Palaa sivun alkuun](/paakayttajat2025)
 
