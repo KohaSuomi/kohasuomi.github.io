@@ -13,12 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi), Janne Seppänen (Lastu), Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Emmi Takkinen (Koha-Suomi), Janne Seppänen (Lastu), Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Viikon 27 päivitys
 
 Etelästä pohjoiseen
+
+**OUTI**
+* Oulun keskustassa olevan Pekurin kirjaston sulkutoimenpiteitä ja siihen liittyen Oulun keskustakirjasto Saaren avaustoimenpiteitä tehty. Saari aukeaa marraskuussa 2025, mutta se on jo nyt valittavissa varausten noutopisteeksi ja sen varauksia voi hakea Saaren lähettyvillä pysäköivästä kirjastoauto Onnelista avautumiseen saakka.
+* kirjastojen kesäkiinniolot työllistävät edelleen.
+* muutoin on rauhallista.
 
 **Lappi**
 * Uusia omatoimikoneita Rovaniemelle pääkirjastoon ja Korkalovaaraan
