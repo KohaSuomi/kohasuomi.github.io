@@ -933,7 +933,7 @@ WHERE login_attempts>=<<Etsi asiakkaat, joilla on yli tämä määrä kirjautumi
 
 ### Tunnukset, joilla on yksittäinen käyttöoikeus
 
-Raportilla haetaan kaikki käyttäjätunnukset, joilta löytyy syötetty käyttöoikeus
+Raportilla haetaan kaikki käyttäjätunnukset, joilta löytyy syötetty käyttöoikeus. Huom! Jos käyttäjällä on ylemmän tason oikeus (flag) ei yksittäisiä oikeuksia tuon flagin alla ole listattu järjestelmään. Käytä tuolloin alempana olevaa raporttia flag-tason oikeuksien listaamiseen.
 
 Lisääjä: Katariina Pohto<br />
 Pvm: 2.1.2025
