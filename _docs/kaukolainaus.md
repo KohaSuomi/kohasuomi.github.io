@@ -87,7 +87,7 @@ Uudet viestiasetukset asiakastiedoissa:
 
 ##### ILL_REQUEST_UPDATE
 
-Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä.
+Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä. Tämä pohja kannattaa kopioida myös suomi.fi-palvelun kohdalle.
 
 Viestin otsikko: Kaukolainapyyntöäsi on päivitetty
 Viestityyppi: email
