@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 28
 
-Aika:
+Aika: Ma 7.7.2025<br />
 Läsnä:
 
 * Viikon 28 päivitys
