@@ -21,6 +21,7 @@ Läsnä:
 * Viikon 28 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * [Helle, Porvoo: Evergreenin varausjärjestelmän Cloud 9 käyttöönotto #1903](https://github.com/KohaSuomi/Koha/issues/1903)
+* Vaarassa plack ei käynnistynyt perjantaina
 
 ## Viikko 27
 
