@@ -21,6 +21,10 @@ Läsnä: Erika Miettinen (Kirkes), Kati Sillgren (Helle), Noora Suvanto (Lappi),
 
 Pohjoisesta etelään
 
+**Lastu**
+* DNA saanut korjattua [ongelman](https://github.com/KohaSuomi/Koha/issues/1895) jossa osa tekstiviesteistä päättyi erikoiseen virheeseen.
+* Muuten hiljaista, perusylläpitoa.
+
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
