@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * Ei päivitystä
+* [Ke 9.7. huoltokatko](https://github.com/KohaSuomi/Koha/discussions/1904)
 
 Pohjoisesta etelään
 
