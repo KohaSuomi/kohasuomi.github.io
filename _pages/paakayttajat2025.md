@@ -25,6 +25,10 @@ Pohjoisesta etelään
 * DNA saanut korjattua [ongelman](https://github.com/KohaSuomi/Koha/issues/1895) jossa osa tekstiviesteistä päättyi erikoiseen virheeseen.
 * Muuten hiljaista, perusylläpitoa.
 
+**OUTI**
+* Kirjastojen kesäsulkutoimenpiteet ovat aiheuttaneet vielä säätöä.
+* Väistökirjastona toiminut Pekurin kirjasto on mennyt kiinni heinäkuun alusta alkaen ja muutto peruskorjattuun pääkirjastoon eli keskustakirjasto Saareen on alkanut. Ma 7.7. niteille, joiden havaintokirjasto oli Pekuri, muutettiin havaintokirjastoksi Saaren kirjasto ja niteet vielä muuttolaatikossa-tilaan.
+
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
