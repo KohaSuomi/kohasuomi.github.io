@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 8.7.2025 klo 9.15<br />
-Läsnä: 
+Läsnä: Erika Miettinen (Kirkes), Kati Sillgren (Helle), Noora Suvanto (Lappi), Iina Niemi (Vaski), Janne Seppänen (Lastu), Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari (OUTI), Piia Semenoff (OUTI), Roosa Väisänen (Kyyti), Hanna Hyttinen (Vaara), Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * Ei päivitystä
