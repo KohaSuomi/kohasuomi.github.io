@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: 8.7.2025 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Kati Sillgren (Helle), Noora Suvanto (Lappi), Iina Niemi (Vaski), Janne Seppänen (Lastu), Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari (OUTI), Piia Semenoff (OUTI), Roosa Väisänen (Kyyti), Hanna Hyttinen (Vaara), Pasi Kallinen (Koha-Suomi)
+Läsnä: Erika Miettinen (Kirkes), Kati Sillgren (Helle), Noora Suvanto (Lappi), Iina Niemi (Vaski), Janne Seppänen (Lastu), Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari (OUTI), Piia Semenoff (OUTI), Roosa Väisänen (Kyyti), Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * Ei päivitystä
@@ -30,7 +30,10 @@ Pohjoisesta etelään
 * Väistökirjastona toiminut Pekurin kirjasto on mennyt kiinni heinäkuun alusta alkaen ja muutto peruskorjattuun pääkirjastoon eli keskustakirjasto Saareen on alkanut. Ma 7.7. niteille, joiden havaintokirjasto oli Pekuri, muutettiin havaintokirjastoksi Saaren kirjasto ja niteet vielä muuttolaatikossa-tilaan.
 
 **Vaski**
-* Perusylläpitoa 
+* Perusylläpitoa
+
+**Helle**
+* Porvooseen tulossa pilottikäyttöön EnvisionWare varausjärjestelmä Cloud 9 (asiakaskoneille/-laitteille).
 
 ## Viikko 27
 
