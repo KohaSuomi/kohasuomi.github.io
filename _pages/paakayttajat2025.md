@@ -35,6 +35,9 @@ Pohjoisesta etelään
 **Helle**
 * Porvooseen tulossa pilottikäyttöön EnvisionWare varausjärjestelmä Cloud 9 (asiakaskoneille/-laitteille).
 
+**Kirkes**
+ * Perusylläpitoa
+
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
