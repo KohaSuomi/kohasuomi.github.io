@@ -33,7 +33,7 @@ Pohjoisesta etelään
 * Perusylläpitoa
 
 **Helle**
-* Porvooseen tulossa pilottikäyttöön EnvisionWare varausjärjestelmä Cloud 9 (asiakaskoneille/-laitteille).
+* Porvooseen tulossa pilottikäyttöön EnvisionWare varausjärjestelmä Cloud 9 (asiakaskoneille/-laitteille). [Helle, Porvoo: Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903)
 
 **Kirkes**
  * Perusylläpitoa
