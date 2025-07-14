@@ -41,6 +41,9 @@ Pohjoisesta etelään
 **Lappi**
  * Perusylläpitoa
 
+**Vaara**
+ * ei mainittavaa, rauhallista
+
 ## Viikko 27
 
 Aika: 1.7.2025 klo 9.15<br />
