@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
-Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes)
+Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Viikon 29 päivitys
