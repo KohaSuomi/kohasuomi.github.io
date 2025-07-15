@@ -23,7 +23,7 @@ Etelästä pohjoiseen
 **Lappi**
 * Normaalia ylläpitoa
 
-** Vaara**
+**Vaara**
 * Hiljaista on, ei mainittavaa
 
 **Kirkes**
