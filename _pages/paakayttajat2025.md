@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
-Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara)
+Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Viikon 29 päivitys
@@ -25,6 +25,10 @@ Etelästä pohjoiseen
 
 ** Vaara**
 * Hiljaista on, ei mainittavaa
+
+**Kirkes**
+* Erika käynyt läpi signum-muutoksen edellyttämiä toimia, mm. raporttien tarkistusta.
+* Toinen Kirkes-pääkäyttäjä Elina palaa lomalta tällä viikolla.
 
 ## Viikko 28
 
