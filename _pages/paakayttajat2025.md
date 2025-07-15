@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
-Läsnä: 
+Läsnä: Emmi Takkinen (Koha-Suomi Oy)
 
 **Yhteiset**
 * Viikon 29 päivitys
