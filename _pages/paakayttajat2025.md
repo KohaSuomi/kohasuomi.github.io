@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
-Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Viikon 29 päivitys
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Kuvailija oli tehnyt Finnan tietuetalkoiden tietueita TäTissä ja hän oli vahingossa laittanut väärät muokkaussäännöt 130 tietueelle. Tietueet pitäisi palauttaa takaisin edelliseen versiooon. Muokatut tietuenumerot ovat tallessa excelissä. Kehittäjän kanssa tulimme siihen tulokseen, että paras ja varmin ratkaisu on, että Oulussa palautetaan muokatut tietueet itse manuaalisesti.
 * Oulun Finvoice-laskutusajolla "testataan" uutta SFTP-moduulia keskiviikkona 16.7. Jos laskujen lähetys toimii ongelmitta uudella lähetystavalla, moduuli otetaan käyttöön myös muissa kimpoissa.
+
+**Siilinjärvi**
+* Signum-muutokseen liittyvät tiketit käyty (toivottavasti) läpi ja kommentoitu Siilin osalta. Muutoksen aikataulusta ei kai ole vielä mitään tietoa?
+* Muuten rauhallista.
 
 ## Viikko 28
 
