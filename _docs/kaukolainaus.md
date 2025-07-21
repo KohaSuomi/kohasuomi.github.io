@@ -90,7 +90,7 @@ Uudet viestiasetukset asiakastiedoissa:
 Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä. Tämä pohja kannattaa kopioida myös suomi.fi-palvelun kohdalle.
 
 Viestin otsikko: Kaukolainapyyntöäsi on päivitetty
-Viestityyppi: email
+Viestityyppi: email ja suomifi
 
 ```
 Hei [% borrower.firstname %],
@@ -114,7 +114,7 @@ Ystävällisin terveisin
 ##### ILL_PICKUP_READY
 
 Otsikko: Kaukolainan noutoilmoitus
-Viestityyppi: email
+Viestityyppi: email ja suomifi
 
 ```
 Hei [% borrower.firstname %],
@@ -165,7 +165,7 @@ Ystävällisin terveisin
 ##### ILL_REQUEST_UNAVAIL
 
 Otsikko: Pyytämäsi kaukolaina ei ole saatavilla
-Email:
+Viestityyppi: email ja suomifi
 ```
 Hei [% borrower.firstname %],
 
@@ -195,7 +195,7 @@ Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% i
 
 
 Otsikko: Din fjärrlånebeställning har uppdaterats
-Viestityyppi: email
+Viestityyppi: email och suomifi
 ```
 Hej [% borrower.firstname %]!  
 
@@ -216,7 +216,7 @@ Med vänlig hälsning,
 ##### ILL_PICKUP_READY
 
 Otsikko: Fjärrlån finns att hämta
-Viestityyppi: email
+Viestityyppi: email och suomifi
 ```
 Hej [% borrower.firstname %]!  
 
@@ -263,7 +263,7 @@ Med vänlig hälsning,
 ##### ILL_REQUEST_UNAVAIL
 
 Otsikko: Det fjärrlån du har beställt finns inte tillgängligt
-Viestityyppi: email
+Viestityyppi: email och suomifi
 
 ```
 Hej [% borrower.firstname %]!  
@@ -290,7 +290,7 @@ Viestityyppi: sms
 #### ILL_REQUEST_UPDATE 
 
 Viestin otsikko: Your interlibrary loan request has been updated 
-Viestityyppi: email 
+Viestityyppi: email och suomifi
 
 ```
 Hello [% borrower.firstname %], 
@@ -315,7 +315,7 @@ Best regards,
 
 #### ILL_PICKUP_READY
 Otsikko: Your interlibrary loan is ready for pick up 
-Viestityypppi: email
+Viestityypppi: email ja suomifi
 
 ```
 Hello [% borrower.firstname %],
@@ -360,7 +360,7 @@ Best regards,
 
 #### ILL_REQUEST_UNAVAIL
 Viestin otsikko: The interlibrary loan you requested is not available
-Viestityyppi: email
+Viestityyppi: email ja suomifi
 
 ```
 Hello [% borrower.firstname %],
