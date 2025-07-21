@@ -22,11 +22,15 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
-### deleted-taulujen säilytysaika ja lainahistoria
+### 2. deleted-taulujen säilytysaika ja lainahistoria
 
 Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi, mutta deleted-taulujen tiedot poistetaan 5 vuotta poiston jälkeen? Nykyään Finnassa haetaan teostiedot myös deleted-tauluista niiltä osin, kun teoslinkki on olemassa old_issues-taulussa. Vanhemmissa lainoissa linkkiä (itemnumber) ei välttämättä ole, koska aiemmin tieto poistettiin, kun nide poistettiin.
 
 Tiketti [deleted-taulujen säilytysaika #1887](https://github.com/KohaSuomi/Koha/issues/1887)
+
+### 3. Käsiteltävät kehitysehdotukset
+
+### x. Seuraava kokous
 
 ## Muistio 6/2025
 
