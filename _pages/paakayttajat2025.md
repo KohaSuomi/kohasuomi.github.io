@@ -13,12 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
 
 Pohjoisesta etelään
+
+**Vaski**
+
+* Vaskille lisätty uudet hakufasetit Kaunokirjallisuus ja Tietokirjallisuus. Lisäksi lisätty js-koodi, joka järjestelee itse lisätyt hakufasetit haluttuun järjestykseen: https://github.com/KohaSuomi/Koha/issues/1908.
+* Vaski-testi meni nurin perjantaina 18.7. ja ainakin maanantaina 21.7. havaittiin hidastelua aina silloin, kun raporttia ajettiin ja raportin ei tarvinnut ole edes mitenkään erityisen raskas. Laitetaan viestiä tämän tiimoilta, jos ongelma edelleen jatkuu.
+* Ihmetelty, miksi asiakkaan lisäyksessä näkyy pari itsepalveluun liittyvää asiakasmäärettä ja virkailijan käyttöoikeuksien muokkauksessa borrowers-oikeuksien alla tyhjiä rivejä. Tehty tiketti https://github.com/KohaSuomi/Koha/issues/1916.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
 
