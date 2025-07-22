@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
@@ -31,7 +31,9 @@ Pohjoisesta etelään
 * Saatiin palautetta, että Kohassa ja Finnassa kun klikkaa tekijän nimikenttää, hakutulokseen tulee myös muiden saman nimisten henkilöiden teoksia, vaikka klikatussa tekijäkentässä on käytetty Asterin auktoriteettimuotoa. Esimerkkinä oli Eino Leino. Koha hakee tekijäkentästä ei auktoriteettikentästä.
 * Oulussa Myllyojan kirjastossa oli asiakkaan kaksi vanhentunutta noudettavaa varausta vielä seuraavana päivänä noudettavissa tilassa. Eli varaukset olivat vanhentuneet 17.7., mutta yöllisessä varausten vanhentumisajossa oli ollut ilmeisesti joku kupru, kun nämä kaksi varausta olivat jääneet vanhentamatta. Muita vastaavia OUTIsta ei löytynyt. Tiketti: https://github.com/KohaSuomi/Koha/issues/1914
   
-
+**Kirkes**
+* Suomi.fi-REST-rajapinnan käyttöönotto odottaa lomakauden päättymistä. Otetaan käyttöön elokuussa, jotta ehditään tiedottaa henkilökuntaa ja mahdollisesti asiakkaitakin.
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 29
