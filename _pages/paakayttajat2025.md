@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes), Pia Kusmin (Lappi)
+Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes), Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
