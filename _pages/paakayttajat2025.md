@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
@@ -33,6 +33,10 @@ Pohjoisesta etelään
   
 **Kirkes**
 * Suomi.fi-REST-rajapinnan käyttöönotto odottaa lomakauden päättymistä. Otetaan käyttöön elokuussa, jotta ehditään tiedottaa henkilökuntaa ja mahdollisesti asiakkaitakin.
+
+**Lappi**
+* Normaalia ylläpitoa, rauhallista on.
+* Raporttien päivitykseen tarvitaan varmaan kehittäjien/Annelin apua.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
 
