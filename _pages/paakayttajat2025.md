@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski)
+Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
@@ -25,6 +25,12 @@ Pohjoisesta etelään
 * Vaskille lisätty uudet hakufasetit Kaunokirjallisuus ja Tietokirjallisuus. Lisäksi lisätty js-koodi, joka järjestelee itse lisätyt hakufasetit haluttuun järjestykseen: https://github.com/KohaSuomi/Koha/issues/1908.
 * Vaski-testi meni nurin perjantaina 18.7. ja ainakin maanantaina 21.7. havaittiin hidastelua aina silloin, kun raporttia ajettiin ja raportin ei tarvinnut ole edes mitenkään erityisen raskas. Laitetaan viestiä tämän tiimoilta, jos ongelma edelleen jatkuu.
 * Ihmetelty, miksi asiakkaan lisäyksessä näkyy pari itsepalveluun liittyvää asiakasmäärettä ja virkailijan käyttöoikeuksien muokkauksessa borrowers-oikeuksien alla tyhjiä rivejä. Tehty tiketti https://github.com/KohaSuomi/Koha/issues/1916.
+
+**OUTI**
+* Kun Oulun kuvailija oli palauttanut TäTissä Lokien katselu -toiminnossa tietueita, palautuksen jälkeen hän oli huomannut, että toistetut osakentät 100e, 700e, 505t katoavat, myös 880-kentistä katoaa tietoa ja kentistä kopioituu tietoja kokonaan vääriin kenttiin. Lisäksi hän oli huomannut, että osassa 700-kentissä olleet t- ja l-osakenttä hyppäävät kaikkiin 700-kentän toistumiin. Tiketti: https://github.com/KohaSuomi/Koha/issues/1913
+* Saatiin palautetta, että Kohassa ja Finnassa kun klikkaa tekijän nimikenttää, hakutulokseen tulee myös muiden saman nimisten henkilöiden teoksia, vaikka klikatussa tekijäkentässä on käytetty Asterin auktoriteettimuotoa. Esimerkkinä oli Eino Leino. Koha hakee tekijäkentästä ei auktoriteettikentästä.
+* Oulussa Myllyojan kirjastossa oli asiakkaan kaksi vanhentunutta noudettavaa varausta vielä seuraavana päivänä noudettavissa tilassa. Eli varaukset olivat vanhentuneet 17.7., mutta yöllisessä varausten vanhentumisajossa oli ollut ilmeisesti joku kupru, kun nämä kaksi varausta olivat jääneet vanhentamatta. Muita vastaavia OUTIsta ei löytynyt. Tiketti: https://github.com/KohaSuomi/Koha/issues/1914
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
 
