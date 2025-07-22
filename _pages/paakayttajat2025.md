@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 30
+
+Aika: 22.7.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
@@ -37,6 +49,8 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Signum-muutokseen liittyvät tiketit käyty (toivottavasti) läpi ja kommentoitu Siilin osalta. Muutoksen aikataulusta ei kai ole vielä mitään tietoa?
 * Muuten rauhallista.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-29) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 28
 
@@ -71,6 +85,8 @@ Pohjoisesta etelään
 
 **Vaara**
  * ei mainittavaa, rauhallista
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-28) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 27
 
