@@ -19,6 +19,7 @@ Läsnä:
 * Viikon 31 päivitys
 * [Raportit: Monivalintavalikon valinnan arvo monistuu myös seuraavaan ajonaikaiseen parametriin](https://github.com/KohaSuomi/Koha/issues/1912)
   * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon? 
+* [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
 
 ## Viikko 30
 
