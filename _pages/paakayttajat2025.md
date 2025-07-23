@@ -20,6 +20,7 @@ Läsnä:
 * [Raportit: Monivalintavalikon valinnan arvo monistuu myös seuraavaan ajonaikaiseen parametriin](https://github.com/KohaSuomi/Koha/issues/1912)
   * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon? 
 * [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
+  * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
 
 ## Viikko 30
 
