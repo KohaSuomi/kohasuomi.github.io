@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 31
+
+Aika: 29.7.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 31 päivitys
+* [Raportit: Monivalintavalikon valinnan arvo monistuu myös seuraavaan ajonaikaiseen parametriin](https://github.com/KohaSuomi/Koha/issues/1912)
+  * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon? 
+
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
