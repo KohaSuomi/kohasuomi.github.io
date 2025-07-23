@@ -298,11 +298,13 @@ AgeRestrictionOverride | Älä salli | Esim. elokuvien ja pelien ikärajat ovat 
 CalculateFinesOnReturn | Älä laske | Myöhästymismaksut lasketaan yöllä ajastetulla ajolla. Jos tämäkin on päällä, maksut voivat kirjautua asiakkaalle tietyissä tilanteissa uudelleen [maksut maksetaan ja sitten sen jälkeen palautetaan myöhässä olevia niteitä].
 CancelOrdersInClosedBaskets | Salli | Asetuksella määritetään, voiko suljettujen tilauskorien tilauksia perua. Jos tähän laittaa, että voi perua, ei tarvitse ensin avata tilauskoria ensin.
 ChargeFinesOnClosedDays | Laskuta | Asetuksella määritetään, lasketaanko myöhästymismaksut kalenteriin merkittyinä sulkupäivinä. Käytännössä tähän kannattaa laittaa Laskuta, jotta myöhästymismaksut olisivat aina ajan tasalla. Myöhästymismaksut lasketaan seuraavana aukiolopäivänä siten, että myös sulkupäivät laskutetaan, joten asiakkaalle voi näyttää siltä kuin maksua olisi kertynyt kerralla liikaa.
+CircControl | the library the item is from | Asetuksella säädetään, minkä kirjaston laina- ja maksusääntöjä käytetään. Lisäksi pitää määrittää HomeOrHoldingBranch-asetus, jossa määritetään, käytetäänkö niteen koti- vai sijaintikirjastoa.
 DefaultPatronSearchMethod | Sisältää | Asetuksella määritetään, käytetäänkö asiakashaussa Alkaa- vai Sisältää-hakua.
 finnaprefix |esim. outi. | Asetukseen laitetaan kimpan Finna-tietueiden tunniste, joka on osoitteessa ennen tietuenumeroa. Esim. OUTIssa https://outi.finna.fi/Record/**outi.**2255834 ja Siilinjärvellä https://siilinjarvenkirjasto.finna.fi/Record/**siilinjarvi.**130457. Tietoa käytetään, kun viedään raportin tulokset JSON-muotoon. Asetus löytyy Paikalliset asetukset -osiosta, johon järjestelmäasetusten haku ei yllä.
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
+HomeOrHoldingBranch | the item’s holding library (holdingbranch) | Asetuksella määritetään, onko CircControlissa määritetty kirjastotieto niteen koti- vai sijaintikirjasto.
 LockExpiredDelay | Jätä tyhjäksi | Jos tässä asetuksessa on arvo, cleanup_database-cronajo asettaa vanhentuneille asiakkaille borrowers-tauluun login_attempts-sarakkeeseen arvon -1 eli "Tili on lukittu hallinnollisesti". Cronajo ei ole normaalisti käytössä, mutta sitä saatetaan joutua käyttämään välillä, joten asetuksen arvo kannattaa jättää tyhjäksi, jolloin toiminto ei ole käytössä.
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
 SearchEngine| ElasticSearch |
