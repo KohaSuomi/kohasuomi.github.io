@@ -795,7 +795,38 @@ Versio 24.05
 
 ```
 /* Piilota Älä lainaa ja tulosta kuitti -nappula, jos yritetään lainata noudettava varaus toiselle asiakkaalle kuin varaajalle */
-body#circ_circulation.circ button.print { display: none; }
+body#circ_circulation.circ button.print { display: none !important; }
+```
+
+### Hyllyvaratun teoksen lainatapahtuman viestien muokkaus
+
+Jos käytössä myös "Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa" -rimpsu, niin siinä täytyy olla mukana !important, muuten tämä rimpsu voi yliajaa kyseisen piilotuksen.
+
+Lisätty: 23.7.2025<br />
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio 24.05
+
+```
+/* Lainauksessa tulevaan varoitukseen hyllyvaratusta niteestä liittyvät muutokset:
+/* Varauspopparista piiloon Peruuta varaus, Ei, älä lainaa sekä Peruuta lainaus ja tee varaus  */
+body#circ_circulation.circ div#circ_needsconfirmation:has(ul>li.needsconfirm.reserved) button { display:none; }
+body#circ_circulation.circ div#circ_needsconfirmation:has(ul>li.needsconfirm.reserved) button.approve { display: initial; }
+body#circ_circulation.circ div#circ_needsconfirmation:has(ul>li.needsconfirm.reserved) input#cancelreserve { display: none; } /* Piilota Peruuta varaus -valintaboksi */
+body#circ_circulation.circ div#circ_needsconfirmation:has(ul>li.needsconfirm.reserved) label[for="cancelreserve"] { display:none; } /* Piilota Peruuta varaus -otsikko */
+/* Käsiteltävissä oleva tärpännyt varaus */
+/* Piilota Peruuta varaus -valintaboksi */
+body#circ_circulation.circ div#circ_needsconfirmation:has(>ul>li.needsconfirm.processing) input#cancelreserve { display: none; }
+/* Piilota Peruuta varaus -otsikko */
+body#circ_circulation.circ div#circ_needsconfirmation:has(>ul>li.needsconfirm.processing) label[for="cancelreserve"] { display:none; }
+/* Kuljetettavana oleva tärpännyt varaus */
+/* Piilota Peruuta varaus -valintaboksi */
+body#circ_circulation.circ div#circ_needsconfirmation:has(>ul>li.needsconfirm.transferred) input#cancelreserve { display: none; }
+/* Piilota Peruuta varaus -otsikko */
+body#circ_circulation.circ div#circ_needsconfirmation:has(>ul>li.needsconfirm.transferred) label[for="cancelreserve"] { display:none; }
+/* Tämä koodi palauttaa asetukset, kun lainassa olevaa nidettä yritetään lainata toiselle asiakkaalle, jotta virkailija pystyy valitsemaan tilanteeseen oikean vaihtoehdon  */
+body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-alert-action)) div#circ_needsconfirmation button { display: initial; }
+body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-alert-action)) div#circ_needsconfirmation input#cancelreserve { display: initial; }
+body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-alert-action)) div#circ_needsconfirmation label[for="cancelreserve"] { display: initial; }
 ```
 
 ### Piilota Automatic renewal / Automaattinen uusinta -checkbox
