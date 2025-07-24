@@ -21,6 +21,7 @@ Läsnä:
   * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon? 
 * [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
   * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
+* Uusi raportti kirjastossa: [Tietueet, joissa on useampi nide samassa kotikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-samassa-kotikirjastossa), liittyy [tikettiin #1918](https://github.com/KohaSuomi/Koha/issues/1918)
 
 ## Viikko 30
 
