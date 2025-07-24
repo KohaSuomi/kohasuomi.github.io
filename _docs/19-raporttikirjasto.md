@@ -2363,6 +2363,25 @@ SELECT datetime AS Havaintoaika, branch AS Kirjasto,
  WHERE itemnumber = <<itemnumber>>
  ORDER BY datetime DESC
 ```
+
+### Tietueet, joissa on useampi nide samassa kotikirjastossa
+
+Raportilla voi hakea kotikirjaston mukaan tietueet, joissa on useampi nide valitussa kotikirjastossa. Tulokset järjestetään cn_sort-kentän eli luokan ja pääsanan mukaan nousevasti. Tuloksissa on näkyvillä niteiden viivakoodit, nimeke, tekijä, signum, kokoelma ja cn_sort. Tiedot järjestetään sarakkeiden sisällä viivakoodin mukaiseen järjestykseen, jolloin ne on samassa järjestyksessä kuin viivakoodi-sarakkeen niteet. Esim. kokoelma-tietoa ei kuitenkaan ole kaikilla niteillä, joten niissä välistä saattaa "puuttua" niteitä. Raportilla valitaan parametrinä niteen kotikirjasto.
+
+Lisääjä: Anneli Österman
+Pvm: 24.7.2025
+
+
+```
+SELECT GROUP_CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', i.biblionumber,'\">', i.barcode, '</a>' ORDER BY i.barcode SEPARATOR ', ') AS 'Viivakoodi', CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', b.author AS 'Tekijä', GROUP_CONCAT(i.itemcallnumber ORDER BY i.barcode SEPARATOR ', ') AS 'Signum', GROUP_CONCAT(i.ccode ORDER BY i.barcode SEPARATOR ', ') AS 'Kokoelma', i.cn_sort AS 'Luokka ja pääsana'
+FROM items i
+LEFT JOIN biblio b USING (biblionumber)
+WHERE homebranch = <<Kirjasto|branches>>
+GROUP BY biblionumber
+HAVING COUNT(biblionumber) > 1
+ORDER BY i.cn_sort
+```
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
