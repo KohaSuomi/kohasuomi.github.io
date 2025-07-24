@@ -2368,7 +2368,7 @@ SELECT datetime AS Havaintoaika, branch AS Kirjasto,
 
 Raportilla voi hakea kotikirjaston mukaan tietueet, joissa on useampi nide valitussa kotikirjastossa. Tulokset järjestetään cn_sort-kentän eli luokan ja pääsanan mukaan nousevasti. Tuloksissa on näkyvillä niteiden viivakoodit, nimeke, tekijä, signum, kokoelma ja cn_sort. Tiedot järjestetään sarakkeiden sisällä viivakoodin mukaiseen järjestykseen, jolloin ne on samassa järjestyksessä kuin viivakoodi-sarakkeen niteet. Esim. kokoelma-tietoa ei kuitenkaan ole kaikilla niteillä, joten niissä välistä saattaa "puuttua" niteitä. Raportilla valitaan parametrinä niteen kotikirjasto.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 24.7.2025
 
 
