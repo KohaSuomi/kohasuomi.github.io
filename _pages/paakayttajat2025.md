@@ -26,7 +26,7 @@ Läsnä:
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes), Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Ville Kivioja (Kyyti-kirjastot)
+Läsnä: Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Elina Uotila ja Erika Miettinen (Kirkes), Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Ville Kivioja (Kyyti-kirjastot), Lauri Hänninen (Lastu-kirjastot)
 
 **Yhteiset**
 * [Viikon 30 päivitys](https://github.com/KohaSuomi/Koha/discussions/1915)
@@ -54,6 +54,10 @@ Pohjoisesta etelään
 **Lumme**
 * Juhannusviikolla sattunut kaupungin laskujen lähetys OmaPostiin kirjaston nimissä on selvinnyt. Ongelma paikallistettiin OmaPostiin ja tätä selvittelevät yhdessä Meitan kanssa.
 * Muuten rauhallista.
+
+**Lastu**
+* Normaalia ylläpitoa.
+* Laskutusasiat edelleen selvityksessä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-30) - [Palaa sivun alkuun](/paakayttajat2025)
 
