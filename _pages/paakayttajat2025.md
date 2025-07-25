@@ -22,7 +22,7 @@ Läsnä:
 * [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
   * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
 * Uusi raportti kirjastossa: [Tietueet, joissa on useampi nide samassa kotikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-samassa-kotikirjastossa), liittyy [tikettiin #1918](https://github.com/KohaSuomi/Koha/issues/1918)
-
+* Testikantojen redusoinnissa huomattua: Luokitusoppaista ei saa poistaa vaihtoehtoja generic, lcc ja dewey, koska se aiheuttaa ongelmia redusoinnissa ja myöskin Kohassa, koska niillä on riippuvuuksia muualla Kohassa. Tieto lisätty [Asetukset-ohjeeseen Tekniseen dokumentaatioon](https://koha-suomi.fi/dokumentaatio/asetukset/#222-luokitusoppaat).
 ## Viikko 30
 
 Aika: 22.7.2025 klo 9.15<br />
