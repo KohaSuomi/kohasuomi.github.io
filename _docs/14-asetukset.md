@@ -1204,6 +1204,8 @@ Luokitusjärjestelmillä määritetään, mitä luokitusjärjestelmiä käytetä
 
 ![](/assets/files/docs/Asetukset/luokitusjarjestelmat.png)
 
+Huomioi, että olemassaolevista luokitusjärjestelmistä ei saa poistaa vaihtoehtoja generic, LCC ja Dewey, koska niillä on riippuvuuksia Kohan toimintoihin.
+
 ### 22.1 Luokitusjärjestelmät
 
 Koha-Suomessa on käytössä ykl-luokitusjärjestelmä. Mikäli sellaista ei ole, lisää sellainen _Uusi luokitusjärjestelmä_ -napin kautta.
