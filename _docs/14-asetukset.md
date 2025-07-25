@@ -1204,7 +1204,6 @@ Luokitusjärjestelmillä määritetään, mitä luokitusjärjestelmiä käytetä
 
 ![](/assets/files/docs/Asetukset/luokitusjarjestelmat.png)
 
-Huomioi, että olemassaolevista luokitusjärjestelmistä ei saa poistaa vaihtoehtoja generic, LCC ja Dewey, koska niillä on riippuvuuksia Kohan toimintoihin.
 
 ### 22.1 Luokitusjärjestelmät
 
@@ -1229,6 +1228,8 @@ Luokitusoppailla määritetään, miten signum items.itemcallnumber-kentästä n
 * lumme on tarkoitettu signumeille, jotka alkavat luokalla. Esim. 84.2 PAA AIK. Tieto siirtyy samassa muodossa cn_sort-kenttään, koska luokkatieto on jo ensimmäisenä.
 
 Valitse käyttöön outi tai lumme sen mukaan, minkä muotoisia kimpan signumit ovat.
+
+Huomioi, että olemassaolevista luokitusoppaista ei saa poistaa vaihtoehtoja generic, lcc ja dewey, koska niillä on riippuvuuksia Kohan toimintoihin.
 
 ## 23. Tietueiden täsmäytyssäännöt
 
