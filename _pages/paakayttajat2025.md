@@ -24,6 +24,10 @@ Läsnä:
   * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
 * Uusi raportti kirjastossa: [Tietueet, joissa on useampi nide samassa kotikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-samassa-kotikirjastossa), liittyy [tikettiin #1918](https://github.com/KohaSuomi/Koha/issues/1918)
 * Testikantojen redusoinnissa huomattua: Luokitusoppaista ei saa poistaa vaihtoehtoja generic, lcc ja dewey, koska se aiheuttaa ongelmia redusoinnissa ja myöskin Kohassa, koska niillä on riippuvuuksia muualla Kohassa. Tieto lisätty [Asetukset-ohjeeseen Tekniseen dokumentaatioon](https://koha-suomi.fi/dokumentaatio/asetukset/#222-luokitusoppaat).
+* [Asiakasvarmenteiden vaihto 2025](https://github.com/KohaSuomi/Koha/issues/1920)
+  * Uusi varmenne jakoon viimeistään ma 11.8.2025
+* Tiketin [Koha #1681](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-toiselle-varattua-teosta-lainatessa-ilmoituksesta-tietoja) rimpsu dokumentoitu CSS-kirjastoon.
+
 
 Etelästä pohjoiseen
 
