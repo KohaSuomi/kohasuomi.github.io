@@ -13,13 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * Viikon 31 päivitys
   * Ei päivitettävää
 * [Raportit: Monivalintavalikon valinnan arvo monistuu myös seuraavaan ajonaikaiseen parametriin](https://github.com/KohaSuomi/Koha/issues/1912)
-  * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon? 
+  * Tuodaanko korjaus myös meille vai odotetaanko versionvaihtoon?
+  * Päätös: Tuodaan
 * [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
   * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
 * Uusi raportti kirjastossa: [Tietueet, joissa on useampi nide samassa kotikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-samassa-kotikirjastossa), liittyy [tikettiin #1918](https://github.com/KohaSuomi/Koha/issues/1918)
