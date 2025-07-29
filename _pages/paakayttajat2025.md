@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara)
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Viikon 31 päivitys
@@ -31,7 +31,11 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara)
   **Vaara**
   * ei mainittavaa, rauhallista ollut
   
-   
+   **Kirkes**
+  * Asiakas on poistanut varauksen Finnan kautta 15 sekunnin kuluessa siitä, kun virkailija on tärppäyttänyt varauksen Kohassa. Henkilökunnalta tullut kysymys, miksi Finna antaa poistaa noudettavissa olleen varauksen. Erikan testien perusteella varauksen poisto Finnan kautta onnistuu, vaikka varaus olisi jo Kohan mukaan noudettavana, jos Finnaan kirjautuneella asiakkaalla on omien varausten sivu auki varauksen tärpätessä ja sen jälkeen. Finnan toiminta saattaa johtua siitä, että Kohan omassa verkkokirjastossa noudettavan varauksen poisto on mahdollista. Jos Finnan varaussivua päivittää tai käy millä tahansa muulla sivulla, varausten tilanne päivittyy Finnaan reaaliaikaisesti. Koska kyseessä ei kokemusten perusteella ole laaja ongelma, ei asiaan tällä erää puututa enempää.
+  * Kirkes-kirjastoilla ei ole varauksen noutomuistutusta käytössä, koska siitä, että viesti tulee sulkupäivinä joka päivä, on tullut palautetta. Vaski-kirjastoilla varauksen noutomuistutus on käytössä sähköpostivaihtoehtona, tekstiviestivaihtoehto on mahdollista piilottaa. Voidaan miettiä, otetaanko myös Kirkes-kirjastoille käyttöön Vaskin malli.
+  * Elina tehnyt signum-muutoksen edellyttämät tarrapohjamuutokset Järvenpäälle ja Erika Tuusulalle. Tarrapohjamuutokset ja automaattien säännöt ohjeistetaan vielä muille Kirkes-kirjastoille.
+  * Mäntsälässä näkynyt kahdeksan laskukopiota, vaikka vain seitsemän pitäisi olla lähdössä. Elina tarkistanut, että vain seitsemän laskua näkyy pending-tilaisena. Ylimääräinen laskukopio on marraskuulta 2024. Jos tällaisia tapauksia tulee lisää, tehdään tiketti. 
 
 
 Etelästä pohjoiseen
