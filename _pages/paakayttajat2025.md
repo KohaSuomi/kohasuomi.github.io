@@ -23,6 +23,7 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettin
   * Päätös: Tuodaan
 * [TäTissä on tunnistetalkoot tehty](https://github.com/KohaSuomi/Koha/issues/1841). Talkoot voi aloittaa myös paikalliskannoissa.
   * Muistakaa vaihtaa apuraportin numero ja tietokannan osoite Tätin numerosta ja osoitteesta omaksi
+  * [Lisätietoja Finnan tunnistetalkoista](https://mailchi.mp/helsinki.fi/finnan-tunnistetalkoot-kynnistyvt?e=f6d8dcb728). Osallistuminen on vapaaehtoista.
 * Uusi raportti kirjastossa: [Tietueet, joissa on useampi nide samassa kotikirjastossa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-on-useampi-nide-samassa-kotikirjastossa), liittyy [tikettiin #1918](https://github.com/KohaSuomi/Koha/issues/1918)
 * Testikantojen redusoinnissa huomattua: Luokitusoppaista ei saa poistaa vaihtoehtoja generic, lcc ja dewey, koska se aiheuttaa ongelmia redusoinnissa ja myöskin Kohassa, koska niillä on riippuvuuksia muualla Kohassa. Tieto lisätty [Asetukset-ohjeeseen Tekniseen dokumentaatioon](https://koha-suomi.fi/dokumentaatio/asetukset/#222-luokitusoppaat).
 * [Asiakasvarmenteiden vaihto 2025](https://github.com/KohaSuomi/Koha/issues/1920)
