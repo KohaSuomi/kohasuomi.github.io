@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Viikon 31 päivitys
@@ -27,6 +27,9 @@ Läsnä:
 * [Asiakasvarmenteiden vaihto 2025](https://github.com/KohaSuomi/Koha/issues/1920)
   * Uusi varmenne jakoon viimeistään ma 11.8.2025
 * Tiketin [Koha #1681](https://koha-suomi.fi/dokumentaatio/intranetusercss/#hyllyvaratun-teoksen-lainatapahtuman-viestien-muokkaus) rimpsu dokumentoitu CSS-kirjastoon.
+
+  **Vaara**
+  * ei mainittavaa, rauhallista ollut
 
 
 Etelästä pohjoiseen
