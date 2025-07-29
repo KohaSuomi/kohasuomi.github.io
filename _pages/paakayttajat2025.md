@@ -29,7 +29,7 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara)
 * Tiketin [Koha #1681](https://koha-suomi.fi/dokumentaatio/intranetusercss/#hyllyvaratun-teoksen-lainatapahtuman-viestien-muokkaus) rimpsu dokumentoitu CSS-kirjastoon.
 
   **Vaara**
-  * ei mainittavaa, rauhallista ollut
+   * ei mainittavaa, rauhallista ollut
 
 
 Etelästä pohjoiseen
