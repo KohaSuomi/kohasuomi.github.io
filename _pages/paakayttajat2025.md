@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Viikon 31 päivitys
@@ -52,7 +52,9 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettin
 **Lumme**
 * Ei mainittavaa.
 
-Etelästä pohjoiseen
+**Lastu**
+* Normaalia ylläpitoa, rauhallista
+* Tekstiviestien lähdöstä palautuva epäonnistuminen ja uudelleen yritykset mietitytti
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-31) - [Palaa sivun alkuun](/paakayttajat2025)
 
