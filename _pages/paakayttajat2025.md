@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Viikon 31 päivitys
@@ -48,6 +48,9 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettin
 **Kyyti**
 * Kysyin Kohan rajapinnan osoitetta, jonka Anneli lähetti kokouksen jälkeen Matrixissa
 * Lomilta palattu, ei muuta mainittavaa
+
+**Lumme**
+* Ei mainittavaa.
 
 Etelästä pohjoiseen
 
