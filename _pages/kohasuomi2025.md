@@ -13,12 +13,20 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 32
+
+Aika: Ma 4.8.2025<br />
+Läsnä: 
+
+* Viikon 32 päivitys
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
 ## Viikko 31
 
 Aika: Ma 28.7.2025<br />
 Läsnä: Anneli, Emmi, Lari, Pasi
 
-* Viikon 30 päivitys
+* Viikon 31 päivitys
   * Ei päivitettävää
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Päivystysvuorot viikosta 32 alkaen
