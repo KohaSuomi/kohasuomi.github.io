@@ -21,6 +21,10 @@ Läsnä:
   * Tarkistatteko oman kimpan tilanteen ja jos on tarvetta, niin muuttakaa Finnassa varauksen teossa päivämäärävalinta valinnaiseksi (eli tyhjäksi).
   * Anneli sulkee tiketin, jos ei tule esille muuta korjattavaa.
 
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-32) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
