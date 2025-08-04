@@ -20,6 +20,7 @@ Läsnä:
 * [Varauksen viimeiseksi noutopäivämääräksi muodostuu varauksen viimeinen voimassaolopäivä, jos pvm muuttaa tallentaessaan varausta #1174](https://github.com/KohaSuomi/Koha/issues/1174)
   * Tarkistatteko oman kimpan tilanteen ja jos on tarvetta, niin muuttakaa Finnassa varauksen teossa päivämäärävalinta valinnaiseksi (eli tyhjäksi).
   * Anneli sulkee tiketin, jos ei tule esille muuta korjattavaa.
+* Miten edettäis [tiketin #1790](https://github.com/KohaSuomi/Koha/issues/1790) kanssa?
 
 Pohjoisesta etelään
 
