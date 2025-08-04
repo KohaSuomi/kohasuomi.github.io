@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 32
+
+Aika: 5.8.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
+* [Varauksen viimeiseksi noutopäivämääräksi muodostuu varauksen viimeinen voimassaolopäivä, jos pvm muuttaa tallentaessaan varausta #1174](https://github.com/KohaSuomi/Koha/issues/1174)
+  * Tarkistatteko oman kimpan tilanteen ja jos on tarvetta, niin muuttakaa Finnassa varauksen teossa päivämäärävalinta valinnaiseksi (eli tyhjäksi).
+  * Anneli sulkee tiketin, jos ei tule esille muuta korjattavaa.
+
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
