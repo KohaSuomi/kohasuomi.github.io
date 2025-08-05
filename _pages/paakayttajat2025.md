@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
@@ -32,6 +32,9 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa.
+
+**Kirkes**
+ * Suomi.fi-viestien REST-rajapinnan käyttöönotolle mietitään sopivaa ajankohtaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-32) - [Palaa sivun alkuun](/paakayttajat2025)
 
