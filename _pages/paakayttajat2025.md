@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
@@ -23,6 +23,9 @@ Läsnä:
 * Miten edettäis [tiketin #1790](https://github.com/KohaSuomi/Koha/issues/1790) kanssa?
 
 Pohjoisesta etelään
+
+**Vaara**
+* ei erityisempää, loman jälkeen vähän testausta
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-32) - [Palaa sivun alkuun](/paakayttajat2025)
 
