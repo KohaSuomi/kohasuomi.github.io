@@ -2352,8 +2352,7 @@ SELECT datetime AS Havaintoaika, branch AS Kirjasto,
             WHEN categorycode IS NULL THEN ''
             ELSE 'Asiakas'
        END AS Asiakastieto,
-       CASE WHEN type = 'renew' THEN ''
-            WHEN interface = 'intranet' THEN 'Virkailijaliittymä'
+       CASE WHEN interface = 'intranet' THEN 'Virkailijaliittymä'
        	    WHEN interface = 'sip' THEN 'Automaatti'
             WHEN interface = 'api' THEN 'Finna'
             WHEN interface = 'opac' THEN 'Itsepalvelu'
