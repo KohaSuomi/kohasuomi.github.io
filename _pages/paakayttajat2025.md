@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
@@ -21,6 +21,7 @@ Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara
   * Tarkistatteko oman kimpan tilanteen ja jos on tarvetta, niin muuttakaa Finnassa varauksen teossa päivämäärävalinta valinnaiseksi (eli tyhjäksi).
   * Anneli sulkee tiketin, jos ei tule esille muuta korjattavaa.
 * Miten edettäis [tiketin #1790](https://github.com/KohaSuomi/Koha/issues/1790) kanssa?
+  * Lisätään piilotus osaksi js-liitännäistä
 
 Pohjoisesta etelään
 
