@@ -28,7 +28,22 @@ Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi,
 
 Tiketti [deleted-taulujen säilytysaika #1887](https://github.com/KohaSuomi/Koha/issues/1887)
 
-### 3. Käsiteltävät kehitysehdotukset
+### 3. Seuraavan asiantuntijaryhmän kokoonpano
+
+Kimpoista on tullut hallitukselle ehdotuksena seuraavat henkilöt mukaan seuraavaan Koha-Suomen asiantuntijaryhmään:
+
+* Kyyti: Roosa Väisänen varsinainen, Tuomas Kunttu varajäsen
+* Vaara: Päivi Knuutinen varsinainen, Irina Halminen varajäsen
+* Lumme: Hanna Ikonen varsinainen, Katja Valjakka varajäsen
+* Helle: Kati Sillgren varsinainen, Tove Selkälä varajäsen
+* Kirkes: Riikka Mustajärvi varsinainen, Anu Järvi varajäsen
+* Lastu: Janne Seppänen varsinainen, Lauri Hänninen varajäsen
+* OUTI: Noora Valkonen varsinainen, Piia Semenoff varajäsen
+* Vaski: Susanna Sandell varsinainen, Asko Autio varajäsen
+* Lappi: Leena Kinnunen varsinainen, Pia Kusmin varajäsen
+
+
+### 4. Käsiteltävät kehitysehdotukset
 
 ### x. Seuraava kokous
 
