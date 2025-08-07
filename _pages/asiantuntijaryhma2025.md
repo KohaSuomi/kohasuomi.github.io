@@ -45,6 +45,8 @@ Kimpoista on tullut hallitukselle ehdotuksena seuraavat henkilöt mukaan seuraav
 
 ### 4. Käsiteltävät kehitysehdotukset
 
+* [Kirjautumisten lokittuminen #1926](https://github.com/KohaSuomi/Koha/issues/1926)
+
 ### x. Seuraava kokous
 
 ## Muistio 6/2025
