@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 33
+
+Aika: Ma 11.8.2025<br />
+Läsnä: 
+
+* Viikon 33 päivitys
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Asiakasvarmenteet jaeltu perjantaina
+* Finna ja vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
+  * Helmetissä käynnissä digiperustahanke, jonka osana selvitetään myös vahvaa tunnistautumista. Tässä vaiheessa asiasta ei kuitenkaan ole enempää kerrottavaa. Voivat palata asiaan uudelleen loppuvuodesta.
+
 ## Viikko 32
 
 Aika: Ma 4.8.2025<br />
