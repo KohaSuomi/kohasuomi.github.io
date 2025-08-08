@@ -23,6 +23,8 @@ Läsnä:
 * Asiakasvarmenteet jaeltu perjantaina
 * Finna ja vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
   * Helmetissä käynnissä digiperustahanke, jonka osana selvitetään myös vahvaa tunnistautumista. Tässä vaiheessa asiasta ei kuitenkaan ole enempää kerrottavaa. Voivat palata asiaan uudelleen loppuvuodesta.
+* The Koha Foundation Steering Group on julkaisut kyselyn ja kaipaa palautetta tähän mennessä tehdyistä suunnitelmista
+  * https://surveys.catalyst.net.nz/koha-olf-bylaws-feedback 
 
 ## Viikko 32
 
