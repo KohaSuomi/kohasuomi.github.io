@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 33
+
+Aika: 12.8.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
+* [Elokuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1928)
+* [Kuvailukoulutus 2/2025](https://github.com/KohaSuomi/Koha/discussions/1929)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
