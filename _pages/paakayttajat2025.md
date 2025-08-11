@@ -19,6 +19,7 @@ Läsnä:
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
 * [Elokuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1928)
 * [Kuvailukoulutus 2/2025](https://github.com/KohaSuomi/Koha/discussions/1929)
+* Onko vielä tulijoita Varausten priorisointiryhmään vai joko ryhmän voi kutsua kokoon?
 
 Etelästä pohjoiseen
 
