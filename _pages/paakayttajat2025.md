@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
@@ -35,6 +35,12 @@ Etelästä pohjoiseen
 **Lappi**
 * Uudet varmenteet lähteneet jakeluun johtajien kautta 11.8.
 * Muuten normaalia ylläpitoa.
+
+  **Kirkes**
+* Kirkes-kirjastoissa pohdittu, poistuuko kahdesta muistutuksesta muodostuva rajoitus automaattisesti, kun myöhässä ollut aineisto palautuu. Asetus, joka tähän vaikuttaa, on AutoRemoveOverduesRestrictions.
+* Mäntsälässä ja Järvenpäässä muodostunut virheilmoituksia ilmeisesti laskuista, jotka on jätetty laskutuksen ulkopuolelle. Laskutusohjelma yrittää siis muodostaa laskujäljennöksen, ja muodostaa virheilmoituksen lähetyksen ulkopuolelle jäävistä laskuista. Elina tekee tiketin.
+* Uusi Suomi.fi-REST-rajapinta otetaan käyttöön syyskuussa, jolloin henkilökunta palannut lomilta ja on ehditty tiedottaa asiakkaita ja henkilökuntaa. Ohjetta henkilökunnalle kirjatessa noussut kysymys (Aurora-aikana lisätyistä) asiakkaista, joilla ei ole asetettu mitään viestiasetuksiin. Tällaiset asiakkaat saavat Kohasta lähtevät noutomuistutukset ja myöhästymismuistutukset kirjeenä tai sähköpostina.
+* Tuusulan virkailija kysynyt, saako nidettä poistettaessa näkyviin poistettavan niteen nidetunnuksen. Nidetunnus näkyy, jos niteen poistaa tiedonhakunäytöltä niteen muokkaus -näytön sijaan, joten tällä erää kehitysehdotus ei saa kannatusta.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
 
