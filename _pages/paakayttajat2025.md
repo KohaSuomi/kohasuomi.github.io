@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
@@ -28,6 +28,9 @@ Etelästä pohjoiseen
 * Uusi varmenne laitettu jakoon eilen. Käyttäjät hoitavat itse varmenteen asennuksen ja vanhan poistamisen.
 * Testikannasta oli hävinnyt kesäkuun päivityksessä keväällä tehdyt valmistelut signum-muutoksesta johtuvaan tarratulostuksen päivitykseen. Piti muistutella, mitä muutoksia siihen tarvitaan.
 * Lähiaikoina on tarkoitus ottaa nidepaketit käyttöön korvaamaan oheislukemistot. Testattu tätä jo testikannassa. Koska suomenkielistä ohjetta ei ole tehty, Hanna Hyttinen lupautui tekemään suomenkielisen ohjeen yhteisön ohjeen pohjalta.
+
+**Vaski**
+* Harava-projekti käynnistynyt ja sen tiimoilta tarvittaisiin Matrixiin oma huone haravakeskusteluja varten. Sovittiin, että Vaski tekee huoneen itse.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
 
