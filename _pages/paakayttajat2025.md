@@ -13,13 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
 * [Elokuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/1928)
 * [Kuvailukoulutus 2/2025](https://github.com/KohaSuomi/Koha/discussions/1929)
 * Onko vielä tulijoita Varausten priorisointiryhmään vai joko ryhmän voi kutsua kokoon?
+* Viikon 34 palaveri poikkeuksellisesti ke 20.8.2025 klo 9.15
 
 Etelästä pohjoiseen
 
