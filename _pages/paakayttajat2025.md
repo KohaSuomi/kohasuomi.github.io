@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
@@ -32,6 +32,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Harava-projekti käynnistynyt ja sen tiimoilta tarvittaisiin Matrixiin oma huone haravakeskusteluja varten. Sovittiin, että Vaski tekee huoneen itse.
 
+**Lappi**
+* Uudet varmenteet lähteneet jakeluun johtajien kautta 11.8.
+* Muuten normaalia ylläpitoa.
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 32
