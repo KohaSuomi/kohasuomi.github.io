@@ -38,7 +38,7 @@ Etelästä pohjoiseen
 
   **Kirkes**
 * Kirkes-kirjastoissa pohdittu, poistuuko kahdesta muistutuksesta muodostuva rajoitus automaattisesti, kun myöhässä ollut aineisto palautuu. Asetus, joka tähän vaikuttaa, on AutoRemoveOverduesRestrictions.
-* Mäntsälässä ja Järvenpäässä muodostunut virheilmoituksia ilmeisesti laskuista, jotka on jätetty laskutuksen ulkopuolelle. Laskutusohjelma yrittää siis muodostaa laskujäljennöksen, ja muodostaa virheilmoituksen lähetyksen ulkopuolelle jäävistä laskuista. Elina tekee tiketin.
+* Mäntsälässä ja Järvenpäässä muodostunut virheilmoituksia ilmeisesti laskuista, jotka on jätetty laskutuksen ulkopuolelle. Laskutusohjelma yrittää siis muodostaa laskujäljennöksen, ja muodostaa virheilmoituksen lähetyksen ulkopuolelle jäävistä laskuista. Elina tehnyt [tiketin #1930](https://github.com/KohaSuomi/Koha/issues/1930).
 * Uusi Suomi.fi-REST-rajapinta otetaan käyttöön syyskuussa, jolloin henkilökunta palannut lomilta ja on ehditty tiedottaa asiakkaita ja henkilökuntaa. Ohjetta henkilökunnalle kirjatessa noussut kysymys (Aurora-aikana lisätyistä) asiakkaista, joilla ei ole asetettu mitään viestiasetuksiin. Tällaiset asiakkaat saavat Kohasta lähtevät noutomuistutukset ja myöhästymismuistutukset kirjeenä tai sähköpostina.
 * Tuusulan virkailija kysynyt, saako nidettä poistettaessa näkyviin poistettavan niteen nidetunnuksen. Nidetunnus näkyy, jos niteen poistaa tiedonhakunäytöltä niteen muokkaus -näytön sijaan, joten tällä erää kehitysehdotus ei saa kannatusta.
   
