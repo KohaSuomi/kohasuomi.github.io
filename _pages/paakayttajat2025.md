@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
@@ -45,6 +45,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Tuiran uusi kirjasto avautunut tällä viikolla. Saareen muutto käynnissä.
 * Väliaikaisen varaustennoutotoimipisteen kanssa on syntynyt ongelmia, kun kirjastoautoa on jouduttu käyttämään fyysisenä toimipisteenä, mutta järjestelmässä onkin käytössä eri toimipiste. Erityisesti ongelmia tuottaa kahden toimipisteen erilaiset eräpäiväkalenterit ja automaatti, joka osoittaa nyt väärään toimipisteeseen. Kassu testaa olisiko automaatin kotikirjastoasetuksella Kohassa vaikutusta.
+
+**Lastu**
+* Uusi varmenne laitettu jakeluun kimpassa 11.8.
+* Lahden Launeen lähikirjaston toiminta lakkaa vuodenvaihteessa, valmistelevia toimia aloitettu.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
 
