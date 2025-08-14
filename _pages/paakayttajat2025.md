@@ -26,7 +26,7 @@ Pohjoisesta etelään
 ## Viikko 33
 
 Aika: 12.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/1927)
@@ -63,13 +63,16 @@ Etelästä pohjoiseen
 **Lastu**
 * Uusi varmenne laitettu jakeluun kimpassa 11.8.
 * Lahden Launeen lähikirjaston toiminta lakkaa vuodenvaihteessa, valmistelevia toimia aloitettu.
+
+**Kyyti**
+* Uusi varmenne laitettu jakoon.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-33) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman ja Lari Strand (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
+Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman ja Lari Strand (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
