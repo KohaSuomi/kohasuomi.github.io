@@ -45,6 +45,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Tuiran uusi kirjasto avautunut tällä viikolla. Saareen muutto käynnissä.
 * Väliaikaisen varaustennoutotoimipisteen kanssa on syntynyt ongelmia, kun kirjastoautoa on jouduttu käyttämään fyysisenä toimipisteenä, mutta järjestelmässä onkin käytössä eri toimipiste. Erityisesti ongelmia tuottaa kahden toimipisteen erilaiset eräpäiväkalenterit ja automaatti, joka osoittaa nyt väärään toimipisteeseen. Kassu testaa olisiko automaatin kotikirjastoasetuksella Kohassa vaikutusta.
+* Uusi varmenne laitettu jakoon.
 
 **Lastu**
 * Uusi varmenne laitettu jakeluun kimpassa 11.8.
