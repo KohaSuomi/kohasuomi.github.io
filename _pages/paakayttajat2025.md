@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Viikon 34 päivitys
 * Signum-muutosta voisi alkaa edistämään ja sopimaan kimppakohtaiset aikataulut.
+  * Lisätty kimppakohtaiset tiketit [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) alatiketeiksi
 
 Pohjoisesta etelään
 
