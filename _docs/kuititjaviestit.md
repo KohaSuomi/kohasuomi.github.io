@@ -281,6 +281,43 @@ HTML-täppä paikoilleen. Vaskin mallissa kirjastokorttitunnuksen kolmen viimeis
 <p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
 ```
 
+#### Pohja, jossa <<items.content>> on korvattu Template toolkitillä.
+
+#### Suomeksi
+
+```
+<p>Kirjastokortti: *****[% borrower.cardnumber.substr(-3) %]</p>
+
+<p>Lainasi erääntyvät tänään. Lainoja ei voi uusia vastaamalla tähän viestiin. Voit uusia lainat verkkokirjastossa osoitteessa http://www.vaskikirjastot.fi, soittamalla kirjastoon tai kirjastossa paikan päällä.</p>
+
+<h3>Erääntyvät lainat:</h3>
+
+[% FOREACH c IN checkouts %][% duedate = c.date_due | $KohaDates %]
+
+<p>
+<b>[% duedate %]</b>: [% c.title %][% IF c.part_number %] [% c.part_number %] [% c.part_name %][% ELSIF c.part_name %] [% c.part_name %][% ELSIF c.subtitle %] [% c.subtitle.substr(0,20) %][% END %][% IF c.enumchron %] ([% c.enumchron %])[% END %], nide [% c.barcode %]<br />[% END %]
+</p>
+
+<p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta.</p>
+```
+
+#### Englanniksi
+```
+<p>Library card: *****[% borrower.cardnumber.substr(-3) %]</p>
+
+<p>Your loans are due today. You cannot renew your loans by replying to this message. You can renew your loans online at http://www.vaskilibraries.fi, by calling the library or visiting the library.</p>
+
+<h3>Loans due:</h3>
+
+[% FOREACH c IN checkouts %][% duedate = c.date_due | $KohaDates %]
+
+<p>
+<b>[% duedate %]</b>: [% c.title %][% IF c.part_number %] [% c.part_number %] [% c.part_name %][% ELSIF c.part_name %] [% c.part_name %][% ELSIF c.subtitle %] [% c.subtitle.substr(0,20) %][% END %][% IF c.enumchron %] ([% c.enumchron %])[% END %], item [% c.barcode %]<br />[% END %]
+</p>
+
+<p>You cannot reply to this message. You’ll find all Vaski Libraries’ contact information at the web library.</p>
+```
+
 ## PREDUEDGST eli Eräpäivämuistutus ennakkoon
 
 ### Email-pohjaan
@@ -345,6 +382,41 @@ outi.finna.fi
 P.S. You can connect other library cards under your library card in the OUTI Web Library, such as the card of a child or another family member. By connecting the library card, you can see and edit the information of the card, renew loans, and make reservations. You need the number and PIN of the library card you want to add.
 ```
 
+#### Pohja, jossa <<items.content>> on korvattu Template toolkitillä.
+
+#### Suomeksi
+
+```
+<p>Kirjastokortti: *****[% borrower.cardnumber.substr(-3) %]</p>
+
+<p>Lainasi ovat erääntymässä. Lainoja ei voi uusia vastaamalla tähän viestiin. Voit uusia lainat verkkokirjastossa osoitteessa http://www.vaskikirjastot.fi, soittamalla kirjastoon tai kirjastossa paikan päällä.</p>
+
+<h3>Erääntyvät lainat:</h3>
+
+[% FOREACH c IN checkouts %][% duedate = c.date_due | $KohaDates %]
+
+<p>
+<b>[% duedate %]</b>: [% c.title %][% IF c.part_number %] [% c.part_number %] [% c.part_name %][% ELSIF c.part_name %] [% c.part_name %][% ELSIF c.subtitle %] [% c.subtitle.substr(0,20) %][% END %][% IF c.enumchron %] ([% c.enumchron %])[% END %], nide [% c.barcode %]<br />[% END %]
+</p>
+```
+
+#### Englanniksi
+
+```
+<p>Library card: *****[% borrower.cardnumber.substr(-3) %]</p>
+
+<p>Your loans are about to expire. You cannot renew your loans by replying to this message. You can renew your loans online at http://www.vaskilibraries.fi, by calling the library or visiting the library.</p>
+
+<h3>Loans that are due soon:</h3>
+
+[% FOREACH c IN checkouts %][% duedate = c.date_due | $KohaDates %]
+
+<p>
+<b>[% duedate %]</b>: [% c.title %][% IF c.part_number %] [% c.part_number %] [% c.part_name %][% ELSIF c.part_name %] [% c.part_name %][% ELSIF c.subtitle %] [% c.subtitle.substr(0,20) %][% END %][% IF c.enumchron %] ([% c.enumchron %])[% END %], item [% c.barcode %]<br />[% END %]
+</p>
+
+<p>You cannot reply to this message. You’ll find all Vaski Libraries’ contact information at the web library.</p>
+```
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
 25.11.2024
