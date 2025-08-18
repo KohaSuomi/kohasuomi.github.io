@@ -16,9 +16,12 @@ Aika: 19.8.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 34 päivitys
+* [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1944)
 * Signum-muutosta voisi alkaa edistämään ja sopimaan kimppakohtaiset aikataulut.
   * Lisätty kimppakohtaiset tiketit [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) alatiketeiksi
+* Miten edetään [Kotikirjasto ja sijaintikirjasto fasettien kanssa](https://github.com/KohaSuomi/Koha/issues/1490)?
+* [Kuvailupohjien tarkistus #1835](https://github.com/KohaSuomi/Koha/issues/1835) -kuittaus puuttuu vielä kahdelta kimpalta
+
 
 Pohjoisesta etelään
 
