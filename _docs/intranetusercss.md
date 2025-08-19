@@ -1332,6 +1332,19 @@ Versio: 24.05
 body#catalog_itemsearch.catalog p.hint:nth-child(2):after { content: " \00a0 Vuosilukuja ei voi katkaista, jos käyttää <>-operaattoreita"; color:red; }
 ```
 
+### Kotikirjasto- ja/tai sijaintikirjasto -fasettien piilotus
+
+Näillä pystyy piilottamaan halutessaan hakutulos-sivulla faseteista kotikirjaston ja/tai sijaintikirjaston fasetin. Niitä ei pysty enää poistamaan näkyvistä Elasticsearchin asetuksissa.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Kirjasto-fasetin piilotus */
+body#catalog_results.catalog li#homebranch_id { display: none; } /* Kotikirjasto-fasetin piilotus */
+body#catalog_results.catalog li#holdingbranch_id { display: none; } /* Sijaintikirjasto-fasetin piilotus */
+```
+
 ---
 
 ## Varaukset
