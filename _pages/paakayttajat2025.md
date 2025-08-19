@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 19.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1944)
@@ -30,6 +30,10 @@ Pohjoisesta etelään
 **Vaara**
 * ei erityisempää, normaalia ylläpitoa
 * nidepakettien kanssa hämmentävä ongelma, joka ratkesi käännöksen lisäämällä tuotantoon (testikannassa ei ole)
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Uudet varmenteet laitettu jakoon.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-34) - [Palaa sivun alkuun](/paakayttajat2025)
 
