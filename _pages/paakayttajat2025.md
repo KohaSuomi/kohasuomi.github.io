@@ -13,13 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: 19.8.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1944)
 * Signum-muutosta voisi alkaa edistämään ja sopimaan kimppakohtaiset aikataulut.
   * Lisätty kimppakohtaiset tiketit [tiketin #923](https://github.com/KohaSuomi/Koha/issues/923) alatiketeiksi
+  * Aloitetaan Lastusta ja Siilistä. Sovitaan loput sitä mukaa, kun kimpoissa on valmius siirtymiseen.
 * Miten edetään [Kotikirjasto ja sijaintikirjasto fasettien kanssa](https://github.com/KohaSuomi/Koha/issues/1490)?
+  * Piilotetaan kimpoissa CSS:llä tarvittaessa fasetti. Anneli dokumentoi rimpsut ja sulkee tiketin.
 * [Kuvailupohjien tarkistus #1835](https://github.com/KohaSuomi/Koha/issues/1835) -kuittaus puuttuu vielä kahdelta kimpalta
 
 
