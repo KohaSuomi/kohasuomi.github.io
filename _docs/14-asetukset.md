@@ -1055,6 +1055,7 @@ Muokkaa osakenttiä -vaihtoehdolla avautuu osakenttien muokkausnäkymä. Kentän
 Kentän perustiedot
 ![](/assets/files/docs/Asetukset/kuvailupohjat6.png)
 
+Perusrajoitukset
 * _Osakentän koodi_: Ei ole muokattavissa
 * _Kuvaus virkailijaliittymässä_: Kentän otsikko näytetään kuvailua tehdessä tämän kentän mukaisesti. Jos kentän nimeen tulee muutos, pitää se muokata täällä.
 * _Kuvaus verkkokirjastossa_: Sama kuin yllä, mutta koskee Kohan verkkokirjastoa, joka meillä ei ole käytössä.
@@ -1063,6 +1064,7 @@ Kentän perustiedot
 * _Tärkeä_: Tämä on lievempi vaihtoehto pakollisuudelle. Se antaa tietuetta tallennettaessa ilmoituksen, että tärkeitä kenttiä on tyhjänä, mutta ei pakota täyttämään kenttää.
 * _Näytetään välilehdellä_: Valikosta valitaan, millä välilehdellä osakenttä näytetään kuvailussa. Kaikki saman MARC-kentän osakentät pitää määrittää samalle välilehdelle tai valita _Älä huomioi_, jotta MARC-pohjien tarkistus ei valita niistä.
 
+Muut rajoitukset
 * _Oletusarvo_: Tähän voi tarvittaessa kirjoittaa kentälle jonkin oletusarvon, jos sellainen on mahdollista määrittää. Onnistunee helpommin kiinteämittaisilla kentillä.
 * _Maksimipituus_: Kentän maksimipituudeksi kannattaa määrittää 9999 merkkiä, mikäli ei ole erityisesti tarpeen rajoittaa, miten pitkästi kenttään saa kirjoittaa/lisätä tietoja.
 * _Näkyvyys_: Tässä kohdassa voi tehdä useammanlaisia määrittelyjä
@@ -1071,6 +1073,14 @@ Kentän perustiedot
   * _Editori_: Tällä valitaan, näkyykö kenttä tietueen kuvailussa peruseditorissa.
   * _Supistettu_: Tällä valitaan, onko kenttä peruseditorissa heti näkyvissä vai onko se "supistettu" piiloon, jolloin sen saa näkyviin klikkaamalla pääkenttää.
   * _Merkitty_: Tämä tarkoittaa, että kenttä piilotetaan kaikkialta eli käytännössä sama kuin ottaisi itse rastin pois kaikista muista tämän kohdan bokseista.
+* _On verkko-osoite_: Tähän laitetaan valinta, jos osakentän sisältö on URL-osoite.
+* _Linkki_: Tähän voi määrittää indeksin nimen, johon kenttä linkitetään. Pääsääntöisesti linkitykset tehdään kuitenkin Elasticsearchin asetukset -sivulla.
+* _Kohan linkki_: Tässä näkee, mihin Kohan tietokannan taulun sarakkeeseen osakenttä on kytketty eli mihin tietokannana taulun sarakkeeseen osakentässä oleva tieto myöskin tallennetaan. Linkitystä ei voi muokata tässä, vaan se pitää tehdä Kohan MARC-määritykset -sivulla ylläpidossa.
+
+Muut vaihtoehdot (valitse yksi)
+* _Auktorisoitu arvo_: Tähän voi halutessaan valita käyttöön jonkin Auktorisoiduista arvoista, jolloin kentässä näkyy muokatessa alasvetovalikkona valitun auktorisoidun arvon vaihtoehdot.
+* _Sanasto_: Tähän voi valita käyttöön Auktoriteettien sanastoja eli auktoriteettityyppejä. Käytännössä tämä mahdollistaa kyseisen auktorityypin auktoriteettien hakemisen.
+* _Liitännäinen_: Kohassa on sisäänrakennettuna ja meidän itse lisäämänä erilaisia pieniä liitännäisiä, joilla voi esim. generoida nidetyyppejä, signumeita tai viivakoodeja, määrittää käyttöön erilaisia Finto-sanastoon liittyviä liitännäisiä, määrittää käyttöön kiinteämittaisten kenttien "koostajia" / buildereita, jotka tuovat kuvailijalle valittavaksi eri merkkipaikkojen mahdolliset sisällöt.
 
 ## 19. Kohan MARC-määritykset
 
