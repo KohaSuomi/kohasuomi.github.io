@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Robert Vallimägi aloittanut RFID-harava-antennin ohjelmiston projektissa.
+
 ### 2. deleted-taulujen säilytysaika ja lainahistoria
 
 Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi, mutta deleted-taulujen tiedot poistetaan 5 vuotta poiston jälkeen? Nykyään Finnassa haetaan teostiedot myös deleted-tauluista niiltä osin, kun teoslinkki on olemassa old_issues-taulussa. Vanhemmissa lainoissa linkkiä (itemnumber) ei välttämättä ole, koska aiemmin tieto poistettiin, kun nide poistettiin.
