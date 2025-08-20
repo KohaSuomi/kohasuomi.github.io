@@ -51,7 +51,7 @@ Kimpoista on tullut hallitukselle ehdotuksena seuraavat henkilöt mukaan seuraav
 
 Versionvaihdon alustavaksi aikatauluksi on sovittu maaliskuu ja tämä sekä 25.05 versioon tehdyt muutokset huomioon ottaen olisi kannattavaa ottaa Koha-Suomen seuraavaksi versioksi 25.05.03, jonka julkaisun tulisi tapahtua elokuussa. Näin versionvaihtoon jäisi aikaa 6-7 kuukautta (riippuen siitä, toteutetaanko vaihto maaliskuun alussa vai lopussa). Aiemmissa versionvaihdoissa vastaava aika on ollut 5 kuukautta, mutta versiossa 25.05 julkaistut muutokset mm. tyylitiedostoihin ja rajapintoihin tulevat todennäköisesti vaikuttaamaan kaikkiin Koha-Suomen omiin toiminnallisuuksiin, on tekemiselle hyvä varata aikaa tavallista enemmän.
 
-### x. Seuraava kokous
+### 6. Seuraava kokous
 
 ## Muistio 6/2025
 
