@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 35
+
+Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 35 päivitys
+* [Ongelmatilanteiden ohjeistuksia täydennetty sähköpostiviestien osalta](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/#s%C3%A4hk%C3%B6postiviestit), koska näyttää siltä, että aika moni sähköpostiosoitteesta toiseen käännetty viesti hylätään siellä käännön kohteena olevan sähköpostin palvelussa. Erityisesti outlookissa. Tästä voi johtua se, ettei asiakas saa kirjaston lähettämiä viestejä.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 34
 
 Aika: 19.8.2025 klo 9.15<br />
