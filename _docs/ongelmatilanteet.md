@@ -54,7 +54,7 @@ Jos yllä olevista ei ole apua, soita kehittäjien päivystysnumeroon, joka on p
 * onko viesti päätynyt roskapostikansioon tai johonkin muuhun automaattiseen kansioon kuten Uutiskirjeet.
 * onko asiakkaalla viestin lajittelusääntöjä, jotka siirtävät viestin muualle kuin Saapuneet-kansioon
 * asiakasta voi pyytää lisäämään viestin lähettäjän osoitteen (monesti kotikirjaston osoite tai se osoite, joka kirjaston tietoihin on merkitty lähettäjäksi) sallittujen/luotettujen listalle. Osassa sähköposteissa lähettäjän osoiteen lisääminen omaan osoitekirjaan myös auttaa. Näin sähköpostipalvelun tarjoaja tietää, että kyseessä ei ole roskaposti tai muuten epäilyttävä viesti.
-* onko asiakkaalla tietoihin tallennetussa osoitteessa kääntö Outlook-osoitteeseen, esimerkiksi iki.fi, hotmail.com tai hotmail.fi -päätteinen osoite tai mikä tahansa muu osoite, josta sähköposti ohjautuu Outlook-osoitteeseen. Näissä tilanteissa sähköpostin alkuperävarmennus (SPF) näyttää menevän Outlookissa rikki, vaikka Koha-Suomen/Bittigurun järjestelmistä lähtevissä alkuperäisisissä viesteissä se on kunnossa. 
+* onko asiakkaalla tietoihin tallennetussa osoitteessa kääntö Outlook-osoitteeseen, esimerkiksi iki.fi, hotmail.com tai hotmail.fi -päätteinen osoite tai mikä tahansa muu osoite, josta sähköposti ohjautuu Outlook-osoitteeseen. Näissä tilanteissa sähköpostin alkuperävarmennus (SPF) näyttää menevän Outlookissa rikki, vaikka Koha-Suomen järjestelmistä lähtevissä alkuperäisisissä viesteissä se on kunnossa. 
 * onko asiakkaalle kääntö toiseen osoitteeseen, mutta viesti on päätynyt roskapostiin alkuperäisessä osoitteessa, jolloin sitä ei ole käännetty.
 
 ### Kirjeet
