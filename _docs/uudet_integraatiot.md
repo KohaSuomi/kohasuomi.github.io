@@ -1,3 +1,11 @@
+---
+title: 'Uudet integraatiot'
+permalink: /dokumentaatio/uudet_integraatiot/
+redirect_from:
+  - /theme-setup/
+toc: true
+---
+
 # Uudet integraatiot
 
 Kohaan tehtävien integraatioiden käyttöönotot (lukuunottamatta tavallisten omatoimen ovikoneiden ja lainaus/palautusautomaattien käyttöönottoja) alkavat aina aloituspalaverilla.
