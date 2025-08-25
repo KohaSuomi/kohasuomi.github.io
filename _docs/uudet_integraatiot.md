@@ -6,8 +6,6 @@ redirect_from:
 toc: true
 ---
 
-# Uudet integraatiot
-
 Kohaan tehtävien integraatioiden käyttöönotot (lukuunottamatta tavallisten omatoimen ovikoneiden ja lainaus/palautusautomaattien käyttöönottoja) alkavat aina aloituspalaverilla.
 
 Palaverissa paikalla ovat ainakin:
