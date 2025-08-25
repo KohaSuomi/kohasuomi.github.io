@@ -33,6 +33,13 @@ Koulutuksen sisältö:
 
 [Budjetit ja tilit EDItX-muotoon](https://youtu.be/nQv6E_sHZJQ) (Videossa tekstitys)
 
+### Lainaus ja palautus
+
+#### Koha offline circulation -ohjelma
+
+[Koha offline circulation -ohjelman esittelyvideo](https://github.com/KohaSuomi/Koha/discussions/1919) Koha-Suomen YouTube-kanavalla.
+
+Lisätty sivulle 25.8.2025
 
 ### Seminaarit ja klinikat
 
