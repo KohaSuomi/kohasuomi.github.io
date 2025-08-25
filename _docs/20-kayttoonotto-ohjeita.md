@@ -8,6 +8,10 @@ toc: true
 
 Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita. Katso myös [uusien integraatioiden käyttönotto-ohje](/dokumentaatio/uudet_integraatiot/).
 
+## Lainaus- ja palautusautomaatit + omatoimen ovikoneet
+
+Automaattien ja ovikoneiden kytkeminen Kohaan on kuvattu [SIP2-tunnusten käsittelyohjeessa](/dokumentaatio/automaatit/#sip2-tunnusten-k%C3%A4sittelyohje).
+
 ## Asteri-liitännäinen
 
 Asteri-liitännäisellä saa haettua Kansalliskirjaston KANTO-tietokannasta auktoriteettitietueita TäTiin.
