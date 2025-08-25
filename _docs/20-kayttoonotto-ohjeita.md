@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita. Katso myös [uusien integraatioiden käyttönotto-ohje](/dokumentaatio/uudet_integraatiot.md).
+Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita. Katso myös [uusien integraatioiden käyttönotto-ohje](/dokumentaatio/uudet_integraatiot/).
 
 ## Asteri-liitännäinen
 
