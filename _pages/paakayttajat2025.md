@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Viikon 35 päivitys
@@ -34,6 +34,10 @@ Etelästä pohjoiseen
 **Lumme**
 * Normaalia ylläpitoa.
 * Signum-muutoksia ollaan alettu valmistelemaan.
+
+**Kirkes**
+* Hankinnasta kysyttiin, voiko vanhempia Edifact-sanomia poistaa, koska viestien suodattaminen on hidasta. Todettiin että vuotta vanhemmat poistuvat joka tapauksessa automaattisesti, eikä sanomien määrä vaikuta siltä, että säilytysaikaa pitäisi lyhentää.
+* [Tikettiä laskutustyökalun virheilmoituksista](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/30) voi joku muukin testata halutessaan. Kirkesin testillä se näyttää toimivan oikein.     
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
 
