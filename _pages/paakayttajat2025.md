@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * Viikon 35 päivitys
