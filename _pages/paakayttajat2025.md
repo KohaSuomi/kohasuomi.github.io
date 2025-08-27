@@ -13,13 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski)
 
 **Yhteiset**
 * Viikon 35 päivitys
 * [Ongelmatilanteiden ohjeistuksia täydennetty sähköpostiviestien osalta](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/#s%C3%A4hk%C3%B6postiviestit), koska näyttää siltä, että aika moni sähköpostiosoitteesta toiseen käännetty viesti hylätään siellä käännön kohteena olevan sähköpostin palvelussa. Erityisesti outlookissa. Tästä voi johtua se, ettei asiakas saa kirjaston lähettämiä viestejä.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Meillä podittu miten estettäisiin, että henkilökunnan työkorteille ei lähtisi ilmoituksina kirjeinä. Kohan asetuksilla ei saa tietyn asiakastyypin sähköpostikenttää pakolliseksi. Voisimme kokeilla laittaa Ei tilastoitavat lainat -korttityypeille oletusasetuksesksi sähköpostin.
 
 **Vaara**
 * Tehty uudelleen signummuutoksen tarvitsemat tarrapohjat, kun aikasemmin testikantaan tehdyt pohjat katosivat testikannan uuden version myötä. Nyt tuotu uudet pohjat tuotantoon jo valmiiksi.
