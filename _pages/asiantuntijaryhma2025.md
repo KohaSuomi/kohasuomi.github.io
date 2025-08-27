@@ -22,7 +22,7 @@ Läsnä: Noora, Päivi, Pia, Hanna, Kati, Janne, Tuomas, Ari, Susanna, Elina, An
 
 ### 1. Ajankohtaiset
 
-Robert Vallimägi aloittanut RFID-harava-antennin ohjelmiston projektissa.
+Robert Vallimägi on aloittanut RFID-harava-antennin ohjelmiston projektissa.
 
 ### 2. deleted-taulujen säilytysaika ja lainahistoria
 
@@ -30,7 +30,7 @@ Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi,
 
 Tiketti [deleted-taulujen säilytysaika #1887](https://github.com/KohaSuomi/Koha/issues/1887)
 
-Päätös: Edetään alkuperäisen suunnitelman mukaisesti ja kimpat tarkistavat, että Finnassa olevat tekstit ovat selkeät.
+**Päätös**: Edetään alkuperäisen suunnitelman mukaisesti eli deleted-tauluista poistetaan 5 vuotta vanhemmat tiedot, vaikka se tuo asiakkaiden lainahistoriaan "Ei nimekettä" -otsikolla olevia lainoja. Kimpat tarkistavat, että Finnassa olevat tekstit ja ohjeet ovat selkeät lainahistorian osalta.
 
 ### 3. Seuraavan asiantuntijaryhmän kokoonpano
 
@@ -51,13 +51,13 @@ Hallituksen kokous on pe 5.9.2025 ja siellä vahvistetaan asiantuntijaryhmän ko
 ### 4. Käsiteltävät kehitysehdotukset
 
 * [Kirjautumisten lokittuminen #1926](https://github.com/KohaSuomi/Koha/issues/1926)
-  * Päätös: Suurin osa Kohassa tehdyistä toiminnoista (lainaus, palautus, tietueiden ja niteiden muutokset yms.) kirjautuu muutoslokille, mikä tarkoittaa, että käyttäjän on pitänyt kirjautua järjestelmään onnistuneesti ennen toiminnon tekemistä. Tässä valossa onnistuneiden kirjautumisten lokittamista ei pidetä tarpeellisena. Finna kerännee asiakastietojen kirjautumiset. Susanna varmistaa asian Finna-toimistosta.
+  * **Päätös**: Suurin osa Kohassa tehdyistä toiminnoista (lainaus, palautus, tietueiden ja niteiden muutokset yms.) kirjautuvat muutoslokille, mikä tarkoittaa, että käyttäjän on pitänyt kirjautua järjestelmään onnistuneesti ennen toiminnon tekemistä. Tässä valossa onnistuneiden kirjautumisten lokittamista ei pidetä tarpeellisena. Finna kerännee asiakastietojen kirjautumiset. Susanna varmistaa asian Finna-toimistosta.
 
 ### 5. Versionvaihdon aikataulu
 
 Versionvaihdon alustavaksi aikatauluksi on sovittu maaliskuu ja tämä sekä 25.05 versioon tehdyt muutokset huomioon ottaen olisi kannattavaa ottaa Koha-Suomen seuraavaksi versioksi 25.05.03, jonka julkaisun tulisi tapahtua elokuussa. Näin versionvaihtoon jäisi aikaa 6-7 kuukautta (riippuen siitä, toteutetaanko vaihto maaliskuun alussa vai lopussa). Aiemmissa versionvaihdoissa vastaava aika on ollut 5 kuukautta, mutta versiossa 25.05 julkaistut muutokset mm. tyylitiedostoihin ja rajapintoihin tulevat todennäköisesti vaikuttaamaan kaikkiin Koha-Suomen omiin toiminnallisuuksiin, on tekemiselle hyvä varata aikaa tavallista enemmän.
 
-Päätös: Tehdään versionvaihto vkolla 13 eli maanantai-tiistai 23.-24.3.2026 ja otetaan versio 25.05.03.
+**Päätös**: Tehdään versionvaihto viikolla 13 eli maanantai-tiistai 23.-24.3.2026 ja otetaan versio 25.05.03. Varataan vaihtoon puolitoista päivää, kuten aiemminkin ja järjestelmä voidaan ottaa käyttöön tarvittaessa aiemminkin, jos näyttää, että kaikki toimii.
 
 ### 6. Muut asiat
 
