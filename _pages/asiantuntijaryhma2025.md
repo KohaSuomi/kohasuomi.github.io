@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 7/2025
+## Muistio 7/2025
 
 Aika: Ke 27.8.2025 klo 13<br />
-Läsnä:
+Läsnä: Noora, Päivi, Pia, Hanna, Kati, Janne, Tuomas, Ari, Susanna, Elina, Anneli ja Kodo
 
 ### 1. Ajankohtaiset
 
@@ -30,6 +30,8 @@ Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi,
 
 Tiketti [deleted-taulujen säilytysaika #1887](https://github.com/KohaSuomi/Koha/issues/1887)
 
+Päätös: Edetään alkuperäisen suunnitelman mukaisesti ja kimpat tarkistavat, että Finnassa olevat tekstit ovat selkeät.
+
 ### 3. Seuraavan asiantuntijaryhmän kokoonpano
 
 Kimpoista on tullut hallitukselle ehdotuksena seuraavat henkilöt mukaan seuraavaan Koha-Suomen asiantuntijaryhmään:
@@ -38,22 +40,34 @@ Kimpoista on tullut hallitukselle ehdotuksena seuraavat henkilöt mukaan seuraav
 * Vaara: Päivi Knuutinen varsinainen, Irina Halminen varajäsen
 * Lumme: Hanna Ikonen varsinainen, Katja Valjakka varajäsen
 * Helle: Kati Sillgren varsinainen, Tove Selkälä varajäsen
-* Kirkes: Riikka Mustajärvi varsinainen, Anu Järvi varajäsen
+* Kirkes: Varsinainen jäsen vielä päättämättä, Anu Järvi varajäsen
 * Lastu: Janne Seppänen varsinainen, Lauri Hänninen varajäsen
 * OUTI: Noora Valkonen varsinainen, Piia Semenoff varajäsen
 * Vaski: Susanna Sandell varsinainen, Asko Autio varajäsen
 * Lappi: Leena Kinnunen varsinainen, Pia Kusmin varajäsen
 
+Hallituksen kokous on pe 5.9.2025 ja siellä vahvistetaan asiantuntijaryhmän kokoonpano.
 
 ### 4. Käsiteltävät kehitysehdotukset
 
 * [Kirjautumisten lokittuminen #1926](https://github.com/KohaSuomi/Koha/issues/1926)
+  * Päätös: Suurin osa Kohassa tehdyistä toiminnoista (lainaus, palautus, tietueiden ja niteiden muutokset yms.) kirjautuu muutoslokille, mikä tarkoittaa, että käyttäjän on pitänyt kirjautua järjestelmään onnistuneesti ennen toiminnon tekemistä. Tässä valossa onnistuneiden kirjautumisten lokittamista ei pidetä tarpeellisena. Finna kerännee asiakastietojen kirjautumiset. Susanna varmistaa asian Finna-toimistosta.
 
 ### 5. Versionvaihdon aikataulu
 
 Versionvaihdon alustavaksi aikatauluksi on sovittu maaliskuu ja tämä sekä 25.05 versioon tehdyt muutokset huomioon ottaen olisi kannattavaa ottaa Koha-Suomen seuraavaksi versioksi 25.05.03, jonka julkaisun tulisi tapahtua elokuussa. Näin versionvaihtoon jäisi aikaa 6-7 kuukautta (riippuen siitä, toteutetaanko vaihto maaliskuun alussa vai lopussa). Aiemmissa versionvaihdoissa vastaava aika on ollut 5 kuukautta, mutta versiossa 25.05 julkaistut muutokset mm. tyylitiedostoihin ja rajapintoihin tulevat todennäköisesti vaikuttaamaan kaikkiin Koha-Suomen omiin toiminnallisuuksiin, on tekemiselle hyvä varata aikaa tavallista enemmän.
 
-### 6. Seuraava kokous
+Päätös: Tehdään versionvaihto vkolla 13 eli maanantai-tiistai 23.-24.3.2026 ja otetaan versio 25.05.03.
+
+### 6. Muut asiat
+
+Otetaan käyttöön kaikissa kimpoissa ReportsLog-järjestelmäasetus ja seurataan yhteisön tikettiä, jossa lisätään raportin ajajista ylös tarkemmin tietoja.
+
+Tietokanta-replicalla on otettu käyttöön toiminto, joka keskeyttää yli kuusi tuntia roikkumaan jääneiden raporttien ajamiset. Tämä otetaan myöhemmin käyttöön myös main-tietokantapalvelimella.
+
+### 7. Seuraava kokous
+
+Ti 23.9.2025 klo 13.
 
 ## Muistio 6/2025
 
