@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * Viikon 35 päivitys
 * [Ongelmatilanteiden ohjeistuksia täydennetty sähköpostiviestien osalta](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/#s%C3%A4hk%C3%B6postiviestit), koska näyttää siltä, että aika moni sähköpostiosoitteesta toiseen käännetty viesti hylätään siellä käännön kohteena olevan sähköpostin palvelussa. Erityisesti outlookissa. Tästä voi johtua se, ettei asiakas saa kirjaston lähettämiä viestejä.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Tehty uudelleen signummuutoksen tarvitsemat tarrapohjat, kun aikasemmin testikantaan tehdyt pohjat katosivat testikannan uuden version myötä. Nyt tuotu uudet pohjat tuotantoon jo valmiiksi.
+* Testailtu hyllytarkenteen ominaisuuksia, sillä mahdollisesti korvataan Vaarassa käytössä olleet genreluokat, jotka eivät ole oikein suositellussa muodossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
 
