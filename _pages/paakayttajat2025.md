@@ -28,7 +28,7 @@ Pohjoisesta etelään
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
 
 **Yhteiset**
 * Viikon 35 päivitys
@@ -63,6 +63,9 @@ Etelästä pohjoiseen
 * Lisätty Finnan tunnistetalkoihin liittyen tunnisteet tietueiden henkilönimeen Tove Jansson.
 * Lisätty 973-kenttä kuvailupohjiin. [Tiketti 1835 Kuvailupohjien tarkistus](https://github.com/KohaSuomi/Koha/issues/1835)
 * Poistettu rekisteristä neljä Askolan kirjastoa (ASKJK, ASKSK, ASKYK, ZASKMN). Kirjastojen toiminta loppunut.
+
+**OUTI**
+* Normaalia tukityötä ja ylläpitoa. Tukiposti taas vilkastunut kesän jälkeen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
 
