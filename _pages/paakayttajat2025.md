@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Viikon 35 päivitys
@@ -42,6 +42,12 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Ei mainittavaa
 * Siili-testin tarrapohjassa ilmennyt ongelma saatu korjattua, toimii taas!
+
+**Helle**
+* Kirjastoauton reitit/pysäkit Kohaan? Helpottaisi/selkeyttäisi tärpänneiden varausten käsittelyä. Palaverissa Lastu-kimpasta mainittiin tilastoihin liittyvä parannus, kun saatavilla olisi kirjastoauton reittikohtaiset tilastot.
+* Lisätty Finnan tunnistetalkoihin liittyen tunnisteet tietueiden henkilönimeen Tove Jansson.
+* Lisätty 973-kenttä kuvailupohjiin. [Tiketti 1835 Kuvailupohjien tarkistus](https://github.com/KohaSuomi/Koha/issues/1835)
+* Poistettu rekisteristä neljä Askolan kirjastoa (ASKJK, ASKSK, ASKYK, ZASKMN). Kirjastojen toiminta loppunut.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
 
