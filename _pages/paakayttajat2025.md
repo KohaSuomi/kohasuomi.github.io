@@ -44,7 +44,7 @@ Etelästä pohjoiseen
 * Siili-testin tarrapohjassa ilmennyt ongelma saatu korjattua, toimii taas!
 
 **Helle**
-* Kirjastoauton reitit/pysäkit Kohaan? Helpottaisi/selkeyttäisi tärpänneiden varausten käsittelyä. Palaverissa Lastu-kimpasta mainittiin tilastoihin liittyvä parannus, kun saatavilla olisi kirjastoauton reittikohtaiset tilastot.
+* Kirjastoauton reitit/pysäkit Kohaan? Helpottaisi/selkeyttäisi tärpänneiden varausten käsittelyä. Palaverissa Lastu-kimpasta mainittiin tilastoihin liittyvä parannus, kun saatavilla/haettavissa olisi myös kirjastoauton reittikohtaiset tilastot.
 * Lisätty Finnan tunnistetalkoihin liittyen tunnisteet tietueiden henkilönimeen Tove Jansson.
 * Lisätty 973-kenttä kuvailupohjiin. [Tiketti 1835 Kuvailupohjien tarkistus](https://github.com/KohaSuomi/Koha/issues/1835)
 * Poistettu rekisteristä neljä Askolan kirjastoa (ASKJK, ASKSK, ASKYK, ZASKMN). Kirjastojen toiminta loppunut.
