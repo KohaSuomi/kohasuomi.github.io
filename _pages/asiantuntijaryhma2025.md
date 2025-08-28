@@ -18,13 +18,13 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 7/2025
 
 Aika: Ke 27.8.2025 klo 13<br />
-Läsnä: Noora, Päivi, Pia, Hanna, Kati, Janne, Tuomas, Ari, Susanna, Elina, Anneli ja Kodo
+Läsnä: Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Pia Kusmin (Lapin kirjasto), Hanna Ikonen (Lumme-kirjastot), Kati Sillgren (Helle-kirjastot), Janne Seppänen (Lastu-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Susanna Sandell (Vaski-kirjastot), Elina Uotila (Kirkes-kirjastot), Ari Mäkiranta, Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
 Robert Vallimägi on aloittanut RFID-harava-antennin ohjelmiston projektissa.
 
-### 2. deleted-taulujen säilytysaika ja lainahistoria
+### 2. Deleted-taulujen säilytysaika ja lainahistoria
 
 Kuinka toimitaan, jos asiakas haluaa säilyttää lainahistoriansa toistaiseksi, mutta deleted-taulujen tiedot poistetaan 5 vuotta poiston jälkeen? Nykyään Finnassa haetaan teostiedot myös deleted-tauluista niiltä osin, kun teoslinkki on olemassa old_issues-taulussa. Vanhemmissa lainoissa linkkiä (itemnumber) ei välttämättä ole, koska aiemmin tieto poistettiin, kun nide poistettiin.
 
@@ -57,17 +57,17 @@ Hallituksen kokous on pe 5.9.2025 ja siellä vahvistetaan asiantuntijaryhmän ko
 
 Versionvaihdon alustavaksi aikatauluksi on sovittu maaliskuu ja tämä sekä 25.05 versioon tehdyt muutokset huomioon ottaen olisi kannattavaa ottaa Koha-Suomen seuraavaksi versioksi 25.05.03, jonka julkaisun tulisi tapahtua elokuussa. Näin versionvaihtoon jäisi aikaa 6-7 kuukautta (riippuen siitä, toteutetaanko vaihto maaliskuun alussa vai lopussa). Aiemmissa versionvaihdoissa vastaava aika on ollut 5 kuukautta, mutta versiossa 25.05 julkaistut muutokset mm. tyylitiedostoihin ja rajapintoihin tulevat todennäköisesti vaikuttaamaan kaikkiin Koha-Suomen omiin toiminnallisuuksiin, on tekemiselle hyvä varata aikaa tavallista enemmän.
 
-**Päätös**: Tehdään versionvaihto viikolla 13 eli maanantai-tiistai 23.-24.3.2026 ja otetaan versio 25.05.03. Varataan vaihtoon puolitoista päivää, kuten aiemminkin ja järjestelmä voidaan ottaa käyttöön tarvittaessa aiemminkin, jos näyttää, että kaikki toimii.
+**Päätös**: Tehdään versionvaihto viikolla 13 eli maanantai-tiistai 23.-24.3.2026 ja otetaan käyttöön versio 25.05.03. Varataan vaihtoon puolitoista päivää, ja järjestelmä voidaan ottaa käyttöön tarvittaessa aiemminkin, jos näyttää siltä, että kaikki toimii moitteetta.
 
 ### 6. Muut asiat
 
-Otetaan käyttöön kaikissa kimpoissa ReportsLog-järjestelmäasetus ja seurataan yhteisön tikettiä, jossa lisätään raportin ajajista ylös tarkemmin tietoja.
+Otetaan käyttöön kaikissa kimpoissa ReportsLog-järjestelmäasetus ja seurataan yhteisön tikettiä [Record who last ran a report](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=40649), jossa toivotaan, että raportin ajajista tallennetaan tarkemmin tietoja.
 
 Tietokanta-replicalla on otettu käyttöön toiminto, joka keskeyttää yli kuusi tuntia roikkumaan jääneiden raporttien ajamiset. Tämä otetaan myöhemmin käyttöön myös main-tietokantapalvelimella.
 
 ### 7. Seuraava kokous
 
-Ti 23.9.2025 klo 13.
+Tiistaina 23.9.2025 klo 13.
 
 ## Muistio 6/2025
 
