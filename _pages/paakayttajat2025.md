@@ -28,7 +28,7 @@ Pohjoisesta etelään
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Viikon 35 päivitys
