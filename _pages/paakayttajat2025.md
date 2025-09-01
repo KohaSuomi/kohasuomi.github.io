@@ -19,7 +19,8 @@ Läsnä:
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
   * Aktivoidaan kaikissa kimpoissa ReportsLog-järjestelmäasetus, joka kirjaa muutoslokille (action_logs), kuka lisää, muokkaa ja poistaa tallennettuja raportteja.
   * Versionvaihto tehdään ma-ti 23.-24.3.2026. Vaihtoon varataan puoltoista päivää, mutta jos kaikki toimii moitteetta, voidaan järjestelmä ottaa käyttöön aiemminkin.
-* Viikon 36 päivitys
+    * [Versionvaihdon ensimmäinen tiedote](https://github.com/KohaSuomi/Koha/discussions/1969)
+* [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/1968)
 
 Pohjoisesta etelään
 
