@@ -21,6 +21,8 @@ Läsnä:
 * Viikon 36 päivitys
 * [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Päivystysvuorot vko 36 lähtien (Emmille kaveri?)
+* Versionvaihto ja tuotantojen "jäädytys"
+  * Tuotannot "jäädytetään" viikosta 41 alkaen. Tämä tarkoittaa sitä, että tuotantoihin ei enää tuoda viikolla 40 tehtävän viikkopäivityksen  jälkeen uusia ominaisuuksia, vaan ne tehdään suoraan tulevaan versioon ja saadaan käyttöön versionvaihdon jälkeen. Tuotantoihin tuodaan vain tarvittaessa välttämättömät päivitykset, esim. tietoturvapäivitykset.  
 
 ## Viikko 35
 
