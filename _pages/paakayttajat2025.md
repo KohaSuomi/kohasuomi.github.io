@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -30,6 +30,10 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa.
 * Henkilökunnalta tullut toive sarjatiedon lisäämisestä infotarralle. Selvittelyn alla, ongelmana tilanpuute.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Pyritään saamaan Suomi.fi-viestit käyttöön vuoden lopussa. Tällä hetkellä selvittelyn alla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
