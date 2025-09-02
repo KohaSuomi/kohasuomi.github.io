@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -34,6 +34,12 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa.
 * Pyritään saamaan Suomi.fi-viestit käyttöön vuoden lopussa. Tällä hetkellä selvittelyn alla.
+
+**OUTI**
+* Normaalia ylläpitoa.
+* Teimme pari vähemmän merkittävää tikettiä virkailijaoikeuksien käsittelyyn liittyen:
+  * [Virkailijaoikeuksien näkymässä ongelma jos korttitieto puuttuu](https://github.com/KohaSuomi/Koha/issues/1974)
+  * [Asiakastietojen Muita toimintoja -valikon 'Päivitä lapsi aikuiseksi' kohta katoaa](https://github.com/KohaSuomi/Koha/issues/1975)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
