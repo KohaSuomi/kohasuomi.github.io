@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -23,6 +23,9 @@ Läsnä:
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/1968)
 
 Pohjoisesta etelään
+
+**Vaara**
+* Signummuutokseen liittyviä asioita edistetty. Uusi tuonnin ja viennin mahdollistava toiminto tarratulostuksessa on todella hyvä. Ei pääse enää tapahtumaan tiedojen katoamista testikannasta uudelleenluonnin yhteydessä, kun tuo itselle talteen tiedostoon nämä pohjat. Sama koskee myös tallennuspohjia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
