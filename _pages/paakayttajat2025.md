@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -44,6 +44,10 @@ Pohjoisesta etelään
 **Lastu**
 * Selvittelyssä miten Lahdesta saataisiin siirrettyä poistuvia musiikkiaineistoja Varastokirjastoon TäTin/Melindan kautta low tag - menetelmää hyödyntämällä.
 * Muuten normaalia ylläpitoa.
+
+**Kyyti**
+* Heinäkuun Koha-katkoksen ja/tai varalainauksen sotkuja on vielä selvitetty
+* Kouvolalle tuli Timmin Koha-rajapinta juuri testattavaksi
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
