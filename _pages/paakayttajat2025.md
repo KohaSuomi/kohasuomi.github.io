@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -41,12 +41,16 @@ Pohjoisesta etelään
   * [Virkailijaoikeuksien näkymässä ongelma jos korttitieto puuttuu](https://github.com/KohaSuomi/Koha/issues/1974)
   * [Asiakastietojen Muita toimintoja -valikon 'Päivitä lapsi aikuiseksi' kohta katoaa](https://github.com/KohaSuomi/Koha/issues/1975)
 
+**Lastu**
+* Selvittelyssä miten Lahdesta saataisiin siirrettyä poistuvia musiikkiaineistoja Varastokirjastoon TäTin/Melindan kautta low tag - menetelmää hyödyntämällä.
+* Muuten normaalia ylläpitoa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 35
 
 Aika: **Keskiviikko** 27.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen (Vaara), Anneli Österman (Koha-Suomi), Maria Joona (Lappi), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Katariina Pohto (OUTI), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Viikon 35 päivitys
@@ -84,6 +88,9 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Normaalia tukityötä ja ylläpitoa. Tukiposti taas vilkastunut kesän jälkeen.
+
+**Lastu**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-35) - [Palaa sivun alkuun](/paakayttajat2025)
 
