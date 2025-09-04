@@ -66,9 +66,10 @@ Pohjoisesta etelään
 * Henkilökunta toivonut, että laskutettujen niteiden poistaminen estettäisiin. Koha huomauttaa poistaessa, jos nide on lainassa tai siihen on varauksia, eli lainassa olevista laskutetuista tulee huomautus. Lisäksi on tilanteita, joissa laskutettuja tai muissa not for loan -tiloissa olevia niteitä pitää oikeasti poistaa, jolloin estot tai huomautukset vaikeuttavat virkailijan työtä. Toive ei saanut kannatusta.
 
 **Helle**
-* Poistettu tietueista massana Kohan auktoriteettitietueiden tunnuksia 9-oakentästä (mm. kentistä 100, 600, 700, 900). Arvot muodostavat tietueen Perustiedot-näytölle suurennuslasi-kuvakkeita. Mm. Fennica-tietueisiin liittyvät 9-osakentät tietueilla edelleen on. Tiketissä [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
+* Poistettu tietueista massana Kohan auktoriteettitietueiden tunnuksia 9-oakentästä koskien kenttiä: 100, 110, 111, 130, 600, 610, 611, 647, 648, 650, 651, 653, 654, 655, 656, 657, 700, 710, 711, 720, 730, 740, 751, 752)
+900, 910). Arvot muodostavat tietueen Perustiedot-näytölle suurennuslasi-kuvakkeita. Mm. Fennica-tietueisiin liittyvät 9-osakentät tietueilla edelleen on. Tiketissä [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
 * Laitettu käyttöön ReportsLog-asetus.
-* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. Tiketti tuosta: [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
+* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. Tiketti:: [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
