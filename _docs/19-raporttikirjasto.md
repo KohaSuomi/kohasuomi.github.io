@@ -458,6 +458,32 @@ WHERE borrowernumber IN (SELECT borrowernumber FROM borrowers WHERE lastseen IS 
 ORDER BY 2 ASC
 ```
 
+### Lainat asiakastyypin ja kirjaston mukaan aikavälillä
+
+Raportilla voi hakea aikavälin ja kirjaston mukaan eri asiakastyyppien ensilainat, uusinnat ja lainat yhteensä. Lisäksi tuloksiin lasketaan, kuinka monta asiasta kyseisessä asiakastyypissä on ja kuinka moni asiakastyypin asiakas on lainannut vuoden sisällä eli on ollut ns. aktiivinen.
+
+Raportin parametreinä valitaan päivämääräväli ja yksi tai useampi kirjasto. Tulokset järjestetään ensin kirjaston, sitten asiakastyypin mukaan.
+
+Pvm: 4.9.2025<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT s.categorycode AS 'Asiakastyyppi',
+       s.branch AS Kirjasto, 
+       SUM(IF(s.type = 'issue', 1, 0)) AS 'Ensilainat',
+       SUM(IF(s.type = 'renew', 1, 0)) AS 'Uusinnat', 
+       SUM(IF(s.type = 'renew' OR (s.type='issue'), 1, 0)) AS 'Kaikki lainat yht.',
+       (SELECT COUNT(*) FROM borrowers WHERE categorycode = Asiakastyyppi) AS 'Asiakastyypin asiakasmäärä',
+       (SELECT COUNT(DISTINCT(borrowernumber)) FROM statistics s WHERE s.categorycode = Asiakastyyppi AND date(s.datetime) >= CURDATE() - INTERVAL 1 YEAR AND s.type IN ('issue', 'renew')) AS 'Asiakastyypin vuoden aikana lainanneiden määrä'
+  FROM statistics s
+ WHERE DATE(datetime) BETWEEN <<Aloituspvm |date>> AND <<Lopetuspvm |date>>
+   AND s.branch IN <<Kirjasto|branches:in>> 
+   AND s.categorycode IS NOT NULL
+ GROUP BY 1, 2
+ ORDER BY 2, 1
+ LIMIT 100
+```
+
 ## Kaukolainat
 
 ### Kaukolainojen kuukausitilasto, valitse vuosi
