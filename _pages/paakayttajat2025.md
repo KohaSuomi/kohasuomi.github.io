@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 37
+
+Aika: Ti 9.9.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Uusia raportteja raporttikirjastossa:
+  * [Lainat asiakastyypin ja kirjaston mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#lainat-asiakastyypin-ja-kirjaston-mukaan-aikav%C3%A4lill%C3%A4), liittyy [tikettiin #1971](https://github.com/KohaSuomi/Koha/issues/1971).
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
@@ -20,6 +31,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (
   * Aktivoidaan kaikissa kimpoissa ReportsLog-järjestelmäasetus, joka kirjaa muutoslokille (action_logs), kuka lisää, muokkaa ja poistaa tallennettuja raportteja.
   * Versionvaihto tehdään ma-ti 23.-24.3.2026. Vaihtoon varataan puoltoista päivää, mutta jos kaikki toimii moitteetta, voidaan järjestelmä ottaa käyttöön aiemminkin.
     * [Versionvaihdon ensimmäinen tiedote](https://github.com/KohaSuomi/Koha/discussions/1969)
+    * Nykyisen version "jäädytys" alkaa viikosta 41 lähtien, eli viimeisin viikkopäivitys tehdään vkolla 40. Siitä lähtien nykyiseen versioon tuodaan vain kriittiset päivitykset, kuten tietoturvapäivitykset.
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/1968)
 
 Pohjoisesta etelään
