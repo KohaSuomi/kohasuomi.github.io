@@ -68,8 +68,7 @@ Pohjoisesta etelään
 **Helle**
 * Poistettu tietueista massana Kohan auktoriteettitietueiden tunnukset 9-oakentästä (esim. kentistä 100, 600, 700, 900). Arvot muodostivat tietueen Perustiedot-näytölle suurennuslasi-kuvakkeita. Perustiedot-näkymät nyt selkeämmät. Mm. Fennica-tietueisiin liittyvät 9-kentät tietueilla edelleen on. [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
 * Laitettu käyttöön ReportsLog-asetus.
-* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. [OKM-tilastoihin mukaan kaukolainojen määrät][https://github.com/KohaSuomi/Koha/issues/1970]
-
+* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
