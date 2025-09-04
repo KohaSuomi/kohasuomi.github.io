@@ -25,7 +25,7 @@ Läsnä:
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Lotta Juvonen ja Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -63,7 +63,13 @@ Pohjoisesta etelään
 * Kouvolalle tuli Timmin Koha-rajapinta juuri testattavaksi
 
 **Kirkes**
-* Henkilökunta toivonut, että laskutettujen niteiden poistaminen estettäisiin. Koha huomauttaa poistaessa, jos nide on lainassa tai siihen on varauksia, eli lainassa olevista laskutetuista tulee huomautus. Lisäksi on tilanteita, joissa laskutettuja tai muissa not for loan -tiloissa olevia niteitä pitää oikeasti poistaa, jolloin estot tai huomautukset vaikeuttavat virkailijan työtä. Toive ei saanut kannatusta. 
+* Henkilökunta toivonut, että laskutettujen niteiden poistaminen estettäisiin. Koha huomauttaa poistaessa, jos nide on lainassa tai siihen on varauksia, eli lainassa olevista laskutetuista tulee huomautus. Lisäksi on tilanteita, joissa laskutettuja tai muissa not for loan -tiloissa olevia niteitä pitää oikeasti poistaa, jolloin estot tai huomautukset vaikeuttavat virkailijan työtä. Toive ei saanut kannatusta.
+
+**Helle**
+* Poistettu tietueista massana Kohan auktoriteettitietueiden tunnukset 9-oakentästä (esim. kentistä 100, 600, 700, 900). Arvot muodostivat tietueen Perustiedot-näytölle suurennuslasi-kuvakkeita. Perustiedot-näkymät nyt selkeämmät. Mm. Fennica-tietueisiin liittyvät 9-kentät tietueilla edelleen on. [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
+* Laitettu käyttöön ReportsLog-asetus.
+* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. [OKM-tilastoihin mukaan kaukolainojen määrät][https://github.com/KohaSuomi/Koha/issues/1970]
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
