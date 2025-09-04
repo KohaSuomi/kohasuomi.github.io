@@ -484,6 +484,27 @@ SELECT s.categorycode AS 'Asiakastyyppi',
  LIMIT 100
 ```
 
+### Palautusten määrä aikavälillä jaoteltuna virkailijalle/automaattiin
+
+Raportilla voi hakea aikavälin ja kirjaston mukaan palautukset. Tulokset jaotellaan virkailijoiden tekemiin palautuksiin ja automaattien tekemiin palautuksiin sekä lasketaan ne yhteen.
+
+Parametreiksi raportin ajaja valitsee päivämäärävälin ja yhden tai useamman kirjaston.
+
+Pvm: 4.9.2025
+Lisääjä: Anneli Österman
+
+```
+SELECT s.branch AS Kirjasto, 
+       SUM(IF(s.type = 'return' AND s.interface = 'intranet', 1, 0)) AS 'Palautukset virkailijalle',
+       SUM(IF(s.type = 'return' AND s.interface = 'sip', 1, 0)) AS 'Palautukset automaatilla',
+       SUM(IF(s.type = 'return' AND s.interface IN ('sip', 'intranet'), 1, 0)) 'Palautukset yht.'
+       
+  FROM statistics s
+ WHERE DATE(datetime) BETWEEN <<Aloituspvm |date>> AND <<Lopetuspvm |date>>
+   AND s.branch IN <<Kirjasto|branches:in>> 
+ GROUP BY 1
+ LIMIT 100
+```
 ## Kaukolainat
 
 ### Kaukolainojen kuukausitilasto, valitse vuosi
