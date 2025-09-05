@@ -17,7 +17,7 @@ Asetuksen nimi|Valinta|Selite
 ILLDefaultStaffEmail |Jätä tyhjäksi|Ei tarpeen
 ILLSendStaffNotices |Jätä tyhjäksi|
 CirclulateILL|Älä salli/Salli|Tämä sallii lainaamisen suoraan kaukolainapyynnön kautta ilman että mennään asiakkaan tietoihin ja manuaalisesti luetaan niteen viivakoodi. Tämä luo automaattisesti niteen ja sille viivakoodin.
-ILLHiddenRequestStatuses ||
+ILLHiddenRequestStatuses |Kaukolainastatukset, joita pidetään valmiina, ja joita ei tulisi näyttää kaukolainamoduulissa: (erotetaan | -merkillä). Jos jätetään tyhjäksi, kaikki kaukolainapyynnöt näytetään. Pyyntökoodit määritetään taustajärjestelmässä ja lisäaliaksia voi määrittää auktorisoidun arvon luokkaan ILL_STATUS_ALIAS.| Status-aliakset vielä kesken
 ILLModule |Käytä|Tämä on ns. pääkytkin, jolla Kaukolaina-toiminto kytketään päälle ja pois päältä.
 ILLModuleUnmediated |Älä salli|Vaatii toimiakseen Kohan oma verkkokirjaston (opac)
 ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön lähetykseen näkyville Kaukolainakirjasto-tyyppiset asiakastiedot, joilla on tiedoissaan sähköpostiosoite tallennettuna
