@@ -37,7 +37,7 @@ ARRIVED|Saapunut
 NOTIFIED|Noutoilmoitus lähetetty
 EXPIRED|Noutamaton kaukolaina
 CANCELLED|Asiakas perunut pyynnön
-CHECKEDOUT|Lainattu asiakkaalle (jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
+CHECKEDOUT|Lainattu asiakkaalle (Lisätieto, jota ei lisätä kuvaukseen: jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
 CLAIMED|Karhuttu
 
 
