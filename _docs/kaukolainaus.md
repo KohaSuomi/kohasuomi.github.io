@@ -25,18 +25,21 @@ ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän ta
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } | Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
+IntranetUserCSS|Poista /* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ /*/body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] {
+display: none; -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
 
 ### Auktorisoidut arvot
 
 ILL_STATUS_ALIAS -auktorisoitu arvo
 
-* Saapunut
-* Noutoilmoitus lähetetty
-* Noutamaton kaukolaina
-* Asiakas perunut pyynnön
-* Lainattu asiakkaalle (jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
-* Karhuttu
-
+Tunnus|Kuvaus
+---|---
+ARRIVED|Saapunut
+NOTIFIED|Noutoilmoitus lähetetty
+EXPIRED|Noutamaton kaukolaina
+CANCELLED|Asiakas perunut pyynnön
+CHECKEDOUT|Lainattu asiakkaalle (jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
+CLAIMED|Karhuttu
 
 
 ### Nidetyyppi
@@ -55,7 +58,7 @@ Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus pa
 
 ### Laina- ja maksusäännöt
 
-* Asiakastyyppi: Ei tarvitse valita, koska säännöt ovat samat kaikille asiakastyypeille
+* Asiakastyyppi: Tee sääntö, joka koskee kaikkia asiakastyyppejä. Jos jollekin asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolaina-niteen tehdä myös erikseen kyseiselle asiakastyypille.
 * Nidetyyppi: Kaukolaina
 * Sallittu lainamäärä: kimpan käyttösääntöjen mukaisesti
 * Laina-aika: 28 vrk - tähän kannattanee määrittää jotain, koska muuten Koha automaattisesti antaa eräpäiväksi lainauspäivän. Pääsääntöisesti virkailija valitsee itse eräpäivän sen mukaan, mitä lähettävä kirjasto on sen määrittänyt.
@@ -75,7 +78,7 @@ Jos jollakin kirjastolla on kirjastokohtaisia lainasääntöjä, pitää nämä 
 
 Jos asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolainasääntö tehdä myös erikseen kyseiselle asiakastyypille.
 
-Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaamista, pitää asiakastyypille tehdä sääntö, jossa lainamäärä on 0.
+Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaamista, pitää asiakastyypille tehdä sääntö, jossa lainamäärä on 0. Esim. VIRKAILIJA-asiakastyyppi.
 
 ### Viestipohjat ja uudet viestiasetukset
 
@@ -392,7 +395,9 @@ Tämä puuttuu vielä pohjasta: 942n=1 estää tietueen näkymisen verkkokirjast
 
 ### Raportit
 
-* myöhässä olevia kaukolainoja voi seurata Overdues-raportilla (joka on tällä hetkellä piilotettu kaikilla Lainaus ja palautus -sivulla) (vaatii overdues_report-oikeuden)
+* myöhässä olevia kaukolainoja voi seurata Overdues-raportilla (vaatii overdues_report-oikeuden)
+* luodaan raportteja sitä mukaa, kun toiminto on otettu käyttöön ja huomataan uusia tarpeita raporteille.
 
 ### Kuinka asiakkaat tekevät kaukolainapyyntöjä
 
+* Tämän osalta tutkitaan vielä, miten lomakkeen voisi toteuttaa Finnaan. Mallina voisi mahdollisesti käyttää erilaisia hankintaehdotuslomakkeita.
