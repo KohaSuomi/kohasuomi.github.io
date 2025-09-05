@@ -72,6 +72,8 @@ Oletusvaraussääntö nidetyypeittäin
 
 Jos jollakin kirjastolla on kirjastokohtaisia lainasääntöjä, pitää nämä muistaa tehdä kaikille kirjastoille, joihin säännöt halutaan "purevan".
 
+Jos asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolainasääntö tehdä myös erikseen kyseiselle asiakastyypille.
+
 Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaamista, pitää asiakastyypille tehdä sääntö, jossa lainamäärä on 0.
 
 ### Viestipohjat ja uudet viestiasetukset
