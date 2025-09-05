@@ -25,8 +25,7 @@ ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän ta
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } | Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
-IntranetUserCSS|Poista /* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ /*/body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] {
-display: none; -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
+IntranetUserCSS|Poista "/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] { display: none; }" -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
 
 ### Auktorisoidut arvot
 
