@@ -90,9 +90,11 @@ Kohan palvelimilla uhkasi loppua tila kesken, joten kaikkia kimppoja pyydettiin 
 * [Tätiin Tietuesiirtäjän käyttäjätunnuksiin järjestystä #1494](https://github.com/KohaSuomi/Koha/issues/1494) 
   * Päätös: Muutetaan käyttäjä-valikko järjestymään aakkosjärjestykseen, jolloin ne menevät samalla kimpoittain.
 
-### 8. Muut asiat
+### 8. Vuosisuunnitelma 2025
 
-Ei muita asioita.
+Hyväksytään vuosisuunnitelma vuodelle 2025.
+*Päätös: hyväksyttiin vuosisuunnitelma.
+https://github.com/KohaSuomi/kohasuomi.github.io/files/14405118/Asiantuntijaryhman_vuosisuunnitelma2025.docx
 
 ### 9. Seuraavat kokoukset
 
