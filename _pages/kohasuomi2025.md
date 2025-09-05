@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 37
+
+Aika: Ma 8.9.2025<br />
+Läsnä:
+
+* Viikon 36 päivitys
+* [Vastuuttomien tikettien vastuutus](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Versionvaihdon aloituspalaverin ajankohta?
+* Kirjastoverkkopäivät Helsingissä 22.-23.10.
+* Reaperin ajastus kantoihin
+
 ## Viikko 36
 
 Aika: Ma 1.9.2025<br />
