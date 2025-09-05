@@ -24,6 +24,7 @@ ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön l�
 ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän tarvittavia yhteyksiä
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
+IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } | Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
 
 ### Auktorisoidut arvot
 
