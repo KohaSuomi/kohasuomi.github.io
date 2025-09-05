@@ -9,6 +9,97 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 6/2025 ##
+
+Aika: 3.9.2025 klo 13.15–14.35
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Mauri Aittaniemi (Lappi), Johanna Ranta (Kyyti)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Anna Viitanen.
+
+#### 2.	Kesän aikana tehtyjä korjauksia TäTissä ####
+<ul>
+ <li>Finnan tunnistetalkoiden tunnukset lisätty -> Tästä lähtien muistettava lisätä ko. henkilönimiin Asteri-tunnukset, jos ne puuttuvat poimituista tietueista. </li>
+ <li>Korjattu niiden tietueiden 035-kenttiä, joissa virheellisiä FI-MELINDA-tunnuksia (tietueita oli alle 20) </li>
+ <li>Melinda korjasi tietueita, joissa oli virheellisiä FI-TATI-tunnuksia 035a-kentissä (yli 800 tietuetta, suuri osa osakohteita). Näiden joukossa oli todella paljon replikoitumattomaksi jääneitä tietueita, mahdollisesti kaikki olivat tällaisia. Lisäksi edelleen on korjaamatta tietueita, joissa on jostakin syystä useampi FI-TATI- tai FI-BTJ-tunnuksella alkava 035-kenttä.</li>
+-> Melindassa on lisäksi tarkoitus korjata vielä Melindaan vietyjen TäTi-tietueiden virheellisiä SID-kenttiä. SID-kentät ovat Alephin omia kenttiä, joihin tallennetaan Melindaan vietyjen tietueiden 001-kentän kontrollinumero. Jos kontrollinumero on virheellinen, niin sekin vaikuttaa tietueiden replikointeihin. Esim. jos yhden emotietueen kaikilla osakohteilla on ollut sama kontrollinumero 001-kentässä, niin tällaiset tietueet eivät replikoidu ollenkaan. Melinda replikoi pääasiassa 035-kentän Melinda-tunnuksen perusteella, mutta SID-kentät tarkistetaan replikoitaessa myös. 
+ <li>Tekemättä vielä: Ylimääräisten 942c-kenttien poisto. Kts. tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/1943" target="_blank">Melindaan vienti tuplannut TäTissä osakohteiden 942c-kenttää </a> </li>
+</ul>
+
+#### 3.	Kehitysehdotus Tietuesiirtäjään ####
+<ul>
+ <li>Pitäisikö tietuesiirtäjään tehdä toiminto, joka huomauttaa tai ei päästä läpi tietueita, jos 001- ja 003-kenttien tiedot eivät vastaa 035a-kenttää? Ongelmia syntyy silloin, kun uutta tietuetta tehdään vanhan pohjalta eikä muisteta tyhjentää 001/003/035-kenttiä. </li>
+ <li>Todettiin, että käyttäjän kannalta olisi helpointa, jos uutta tietuetta vanhan pohjalta luotaessa ko. kentät tyhjentyisivät automaattisesti. Tämä saataisiin ehkä hoidettua määrittelemällä kentille kuvailupohjissa oletusarvot. </li>
+ <li>Päivi tekee tiketin: <a href="https://github.com/KohaSuomi/Koha/issues/1979" target="_blank">Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta </a> </li>
+</ul>
+
+#### 4.	Kuulumiskierros ####
+<ul>
+ <li><strong>Helle:</strong> Osallistutaan Finnan tunnistetalkoisiin, tunnisteiden lisääminen edennyt hyvin. </li>
+ <li><strong>Kirkes:</strong> Ei osallistuta tunnistetalkoisiin. Kesän aikana on siivottu tietokantaa, varsinkin tuplatietueita ja 653-kentän asiasanoja. RDA-konversio on vielä tekemättä, tulossa syksyn aikana. </li>
+ <li><strong>Kyyti:</strong> Ei osallistuta tunnistetalkoisiin. Viime aikoina on huomattu ongelmia tietueiden valumisessa, varsinkin vieraskielisessä aineistossa. </li>
+ <li><strong>Lastu:</strong> RDA-konversio on valmistunut viime viikolla. Tunnistetalkoisiin ei ole ilmoittauduttu, mutta tunnisteita on lisätty (vielä kesken).  Varastokirjastoon lähetettävän musiikkiaineiston tietueiden siirtoa selvitellään. </li>
+ <li><strong>Lumme:</strong> Ei osallistuta tunnistetalkoisiin </li>
+ <li><strong>OUTI:</strong> Tunnistetalkoiden tunnisteet lisätty. </li>
+ <li><strong>Vaara:</strong> Osallistutaan tunnistetalkoisiin, tunnisteiden lisäykset vielä kesken. Kesän aikana on siivottu tietokantaa käymällä tuplatietueraportteja läpi. Kirjastoja on kannustettu poistotalkoisiin, jotta saataisiin tietuemäärää vähennettyä. Tietueiden valumisessa huomattu joka viikko ongelmatapauksia. </li>
+ <li><strong>Vaski:</strong> Kesän aikana on kertynyt paljon primaarikuvailtavaa. Tunnistetalkoisiin ei ole toistaiseksi osallistuttu, mahdollisesti vielä osallistutaan. Tuplatietueiden siivoamiseen on saatu syyskuusta lähtien puoleksi vuodeksi osa-aikainen työntekijä. </li>
+</ul>
+
+Finnan tunnistetalkoisiin osallistujien kannattaa ilmoittautua mukana oleviksi. Ilmoittautumislomake on täällä, aikaa ilmoittautua on syyskuun loppuun asti: <a href="https://www.kiwi.fi/spaces/Finna/blog/2025/04/29/478577151/Finnan+tunnistetalkoot+k%C3%A4ynnistyv%C3%A4t+toukokuussa" target="_blank">Finnan tunnistetalkoot </a>
+
+#### 5.	Siivousautomatiikkaa tietueille ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tiketti 511 </a> </li>
+ <li>Finton sanastojen arvojen automaattinen päivitys on kytketty tuotantoon kesäkuun alussa. Sisältää sanastot: YSO, YSO-aika, YSO-paikat, SLM ja KAUNO. Jatkossa näissä sanastoissa tapahtuneiden muutosten pitäisi siis päivittyä tietueisiin automaattisesti. </li>
+ <li>Päivittyminen koskee vain kesäkuun alun jälkeen sanastoissa tapahtuvia muutoksia. Kaikki tietokannat pitäisi päivittää vielä takautuvasti aiemmin muuttuneiden termien osalta. Antti tekee tästä tiketin. </li>
+</ul>
+
+#### 6.	Kuvailukoulutus 2/2025 18.9. klo 13–14.30 ####
+<ul>
+ <li>Kouluttajana Anna Viitanen </li>
+ <li>Koulutuksen sisältö: </li>
+ <ul>
+	<li>Muualta kuin Melindasta siirrettyjen tietueiden käyttäminen </li>
+    <li>Olemassa olevan tietueen käyttäminen uuden tietueen pohjana </li>
+ </ul>
+ <li>Ei tarvitse ilmoittautua erikseen, osallistumislinkki GitHubin tiedotteessa: <a href="https://github.com/KohaSuomi/Koha/discussions/1929" target="_blank">Kuvailukoulutus </a> </li>
+</ul>
+
+#### 7.	Tikettejä ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1913" target="_blank">Lokien katselu -toiminnossa palautettujen tietueiden toistettuja osakenttiä katoaa </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1922" target="_blank">Osakohteiden täydentäminen Melindaan tietuesiirtäjällä ei onnistu </a> </li>
+o	Antti on kysellyt tähän tikettiin liittyen 19.8. Teamsissa musiikin kuvailijoiden mielipiteitä – vastauksia kaivataan lisää!
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/509" target="_blank">Tiedonhaku/ tarkka haku: YSOn termit Asiasana-haun avuksi, kun YSOn aika on </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1642" target="_blank">Työkalu poistettujen tietueiden ja niteiden palauttamiseen ja uudelleenindeksointiin </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/429" target="_blank">Osakohteellisten tietueiden yhdistely ei poista osakohteita </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1739" target="_blank">Säännöllisesti kimpoille toimitettava raportti emottomista osakohteista </a> -> Saisiko tämän tiketin valmistumista nopeutettua mitenkään? </li>
+ <li>Lisäksi Annelin on tehnyt yhteisöön tällaisen ehdotuksen Antin ideoinnin pohjalta: <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=40676" target="_blank">New tool: Batch duplicate bibliographic records </a> </li>
+o	Tarkoituksena on helpottaa kuvailijan työtä tilanteissa, joissa sama paljon osakohteita sisältävä nuotti on kuvailtavana monelle eri soittimelle tarkoitettuina versioina. Antilla on näiden tekemiseen myös vaihtoehtoinen ratkaisu – ohjeistusta tästä tulossa myöhemmin.
+</ul>
+
+#### 8.	Muita asioita ####
+<ul>
+ <li>Finto-liitännäistä Metatietosanastosta ei kannata toistaiseksi edistää, koska Metatietosanastossa on edelleen muutoksia tekeillä. </li>
+ <li>Seuraava Koha-Suomi-Melinda-työryhmän kokous 10.9. </li>
+ <li>Seuraava Kirjastopalvelun asiakasohjausryhmän kokous 21.10. </li>
+</ul>
+
+#### 9.	Seuraavat kokoukset ####
+<ul>
+ <li>Ke 8.10. Klo 13.15 </li>
+ <li>Ke 5.11. Klo 13.15 </li>
+ <li>Ke 10.12. Klo 13.15 </li>
+</ul>
+
+
+---
 ## Kuvailuryhmän muistio 5/2025 ##
 
 Aika: 14.5.2025 klo 13.15–14.12
