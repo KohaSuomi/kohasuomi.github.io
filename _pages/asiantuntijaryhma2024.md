@@ -93,6 +93,7 @@ Kohan palvelimilla uhkasi loppua tila kesken, joten kaikkia kimppoja pyydettiin 
 ### 8. Vuosisuunnitelma 2025
 
 Hyväksytään vuosisuunnitelma vuodelle 2025.
+
 *Päätös: hyväksyttiin vuosisuunnitelma.
 https://github.com/KohaSuomi/kohasuomi.github.io/files/14405118/Asiantuntijaryhman_vuosisuunnitelma2025.docx
 
