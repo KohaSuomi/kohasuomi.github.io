@@ -15,6 +15,26 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+
+## Esityslista 8/2025
+
+Aika: Ti 23.9.2025 klo 13<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. MTYPE:t äänikirja-aineistotyypeille
+
+Finnaan lisättiin jo muutama vuosi sitten aineistotyyppejä äänikirjoille ja meillä on siitä avoinna [tiketti #750](https://github.com/KohaSuomi/Koha/issues/750). Uusille aineistotyypeille pitää sopia käytettävät aineistotyypit (tunnus ja kuvaus).
+
+Kohan aineistotyyppi|			Finnan aineistolaji
+---|---
+PUHECD;	CD, puhe | Jakautuu kahteen: CD-äänikirja tai Celia-äänikirja
+PUHETAL; Äänitallenne, puhe|E-äänikirja
+PUHEKAS; Kasetti, puhe|Kasettiäänikirja
+PUHELEVY; Äänilevy, puhe|Muu äänikirja
+
+
 ## Muistio 7/2025
 
 Aika: Ke 27.8.2025 klo 13<br />
