@@ -16,6 +16,7 @@ Aika: Ti 9.9.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/1982)
 * Uusia raportteja raporttikirjastossa:
   * [Lainat asiakastyypin ja kirjaston mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#lainat-asiakastyypin-ja-kirjaston-mukaan-aikav%C3%A4lill%C3%A4), liittyy [tikettiin #1971](https://github.com/KohaSuomi/Koha/issues/1971).
   * [Palautukset virkailijalle/automaattiin aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#palautusten-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-virkailijalleautomaattiin), liittyy [tikettiin #1973](https://github.com/KohaSuomi/Koha/issues/1973)
