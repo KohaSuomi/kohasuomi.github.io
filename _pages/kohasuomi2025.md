@@ -21,8 +21,10 @@ Läsnä: Ari, Emmi, Kodo, Lari, Anneli, Pasi
 * Viikon 37 päivitys
 * Vastuuttomat tiketit [ei-Koha25x](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)  [kaikki](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Versionvaihdon aloituspalaverin ajankohta?
+  * Pidetään palaveri 22.9. viikkopalaverin ohessa 
 * Kirjastoverkkopäivät Helsingissä 22.-23.10.
 * Reaperin ajastus kantoihin
+  * ajastettu replicoille, mutta ei vielä mainiin 
 
 ## Viikko 36
 
