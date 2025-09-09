@@ -21,6 +21,9 @@ Läsnä:
   * [Lainat asiakastyypin ja kirjaston mukaan aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#lainat-asiakastyypin-ja-kirjaston-mukaan-aikav%C3%A4lill%C3%A4), liittyy [tikettiin #1971](https://github.com/KohaSuomi/Koha/issues/1971).
   * [Palautukset virkailijalle/automaattiin aikavälillä](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#palautusten-m%C3%A4%C3%A4r%C3%A4-aikav%C3%A4lill%C3%A4-jaoteltuna-virkailijalleautomaattiin), liittyy [tikettiin #1973](https://github.com/KohaSuomi/Koha/issues/1973)
 
+Etelästä pohjoiseen
+
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 36
