@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 9.9.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), 
+Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/1982)
@@ -34,6 +34,10 @@ Etelästä pohjoiseen
   * Piia tiedustelee tätä Koha-kirjastojen yhteisessä Hankinta-Teams-keskustelussa ja palaa tarvittaessa asiaan.
 * Oulussa laskutuksen henkilökunta on siirtynyt Ruskon kirjavaraston tiloista Keskustakirjasto Saaren tiloihin. Laskujen ajo ei viime viikolla onnistunut, kun laskuttaja oli kirjatuneena Saareen, sillä Saarelle ei oltu tehty omaa laskupohjaa. Testillä onnistui laskutus, kun Oululla oli kannassa sekä Ruskon että Saaren laskutuspohja (jätimme Ruskon laskupohjan siltä varalta, jos laskutusta tehdään siellä vielä). Huomenna keskiviikkona 10.9. testaamme tuotannossa. Emmi tarkkailee taustalla tilannetta.
 * Asiakas ihmetteli miksi Finnassa on muutettu varaussivulla näkymää siten, että valitessa varausten järjestykseksi Noudettavat varaukset, nyt noudettavien varausten jälkeen tulevat muut varaukset aakkosjärjestyksessä. Aiemmin ne tulivat varauksen luontijärjestyksessä. Vaskissa on huomattu tämä sama ja siitä on kysytty Finnan Wikissä, mutta ilmeisesti kysymykseen ei vielä ole saatu vastausta.
+
+**Vaara**
+* Tietopyyntö tullut, lähetetty asiakastieto Kohan kehittäjille. Epäselvää, tarviiko tehdä asiasta erillinen tiketti.
+* signummuutoksen edistämistä, normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
