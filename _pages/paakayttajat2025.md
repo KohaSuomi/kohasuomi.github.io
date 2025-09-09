@@ -44,7 +44,7 @@ Etelästä pohjoiseen
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Lotta Juvonen ja Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Lotta Juvonen ja Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -91,6 +91,9 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Vaski**
+* Pohdittiin https://github.com/KohaSuomi/Koha/issues/923 muutostöihin liittyen virheellisessä muodossa olevien signumien siivoustarvetta. Tieto normaalista poikkeavista signumerista kannattaa lisätä tikettiin, jotta ne mahdollisesti voidaan ajossa huomioida.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
