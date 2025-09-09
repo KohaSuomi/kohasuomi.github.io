@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 9.9.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), 
 
 **Yhteiset**
 * [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/1982)
@@ -23,6 +23,11 @@ Läsnä:
 
 Etelästä pohjoiseen
 
+**Lappi**
+
+*Varmenteen vaihto meni hyvin, vain pari kyselyä.
+*Kysy Kohasta -kyselytunti 9.9. Lapin kirjastoille. 
+*Rovaniemen paluu pääkirjastoon 1.9., jonkin verran sotkuja varausten ja kuittien kanssa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
