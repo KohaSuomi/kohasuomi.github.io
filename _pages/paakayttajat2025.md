@@ -36,7 +36,7 @@ Etelästä pohjoiseen
 * Asiakas ihmetteli miksi Finnassa on muutettu varaussivulla näkymää siten, että valitessa varausten järjestykseksi Noudettavat varaukset, nyt noudettavien varausten jälkeen tulevat muut varaukset aakkosjärjestyksessä. Aiemmin ne tulivat varauksen luontijärjestyksessä. Vaskissa on huomattu tämä sama ja siitä on kysytty Finnan Wikissä, mutta ilmeisesti kysymykseen ei vielä ole saatu vastausta.
 
 **Vaara**
-* Tietopyyntö tullut, lähetetty asiakastieto Kohan kehittäjille. Epäselvää, tarviiko tehdä asiasta erillinen tiketti.
+* Tietopyyntö tullut, lähetetty asiakastieto Kohan kehittäjille. Tehty tiketti asiasta.
 * signummuutoksen edistämistä, normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
