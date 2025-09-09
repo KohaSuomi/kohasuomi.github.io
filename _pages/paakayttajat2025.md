@@ -29,7 +29,7 @@ Etelästä pohjoiseen
 ## Viikko 36
 
 Aika: Ti 2.9.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Lotta Juvonen ja Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Elina Uotila (Kirkes), Lotta Juvonen ja Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Asiantuntijaryhmän muistio 7/2025](https://github.com/KohaSuomi/Koha/discussions/1960)
@@ -73,6 +73,9 @@ Pohjoisesta etelään
 * Poistettu tietueista massana Kohan auktoriteettitietueiden tunnuksia 9-oakentästä koskien kenttiä: 100, 110, 111, 130, 600, 610, 611, 647, 648, 650, 651, 653, 654, 655, 656, 657, 700, 710, 711, 720, 730, 740, 751, 752, 900, 910. Kenttien 9-osakenttä-arvo muodostaa tietueen Perustiedot-näytölle suurennuslasi-kuvakkeen. Mm. Fennica-tietueisiin liittyvät 9-osakentät tietueilla edelleen on. Tiketissä [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
 * Laitettu käyttöön ReportsLog-asetus.
 * OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. Tiketti:: [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
+
+**Siilinjärvi**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-36) - [Palaa sivun alkuun](/paakayttajat2025)
 
