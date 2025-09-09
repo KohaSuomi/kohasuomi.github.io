@@ -27,7 +27,12 @@ Etelästä pohjoiseen
 
 * Varmenteen vaihto meni hyvin, vain pari kyselyä.
 * Kysy Kohasta -kyselytunti 9.9. Lapin kirjastoille. 
-* Rovaniemen paluu pääkirjastoon 1.9., jonkin verran sotkuja varausten ja kuittien kanssa. 
+* Rovaniemen paluu pääkirjastoon 1.9., jonkin verran sotkuja varausten ja kuittien kanssa.
+
+**OUTI**
+* Hankintahaun hakuvaihtoehdoista puuttuu haku EAN:lla. Onko kimpoissa tarvetta ko. hakuehdolle?
+  * Piia tiedustelee tätä Koha-kirjastojen yhteisessä Hankinta-Teams-keskustelussa ja palaa tarvittaessa asiaan.
+* Oulussa laskutuksen henkilökunta on siirtynyt Ruskon kirjavaraston tiloista Keskustakirjasto Saaren tiloihin. Laskujen ajo ei viime viikolla onnistunut, kun laskuttaja oli kirjatuneena Saareen, sillä Saarelle ei oltu tehty omaa laskupohjaa. Testillä onnistui laskutus, kun Oululla oli kannassa sekä Ruskon että Saaren laskutuspohja (jätimme Ruskon laskupohjan siltä varalta, jos laskutusta tehdään siellä vielä). Huomenna keskiviikkona 10.9. testaamme tuotannossa. Emmi on luvannut tarkkailla myös tilannetta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
