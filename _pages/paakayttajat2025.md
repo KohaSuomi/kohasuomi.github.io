@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 9.9.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/1982)
@@ -44,6 +44,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Normaalia ylläpitoa.
 * Varmenteen päivitys näyttää menneen mallikkaasti.
+
+**Kirkes**
+* Ei mainittavaa, lähinnä on pohdittu automaattien elinkaarta. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
