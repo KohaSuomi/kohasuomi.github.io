@@ -3692,7 +3692,7 @@ UPDATE issues SET date_due='2019-11-21 23:59:00' WHERE issuedate like '2019-10-0
 ### Noutamattomien varausten maksun poisto
 
 ```
-UPDATE accountlines SET amountoutstanding=0 WHERE accounttype='HE' AND timestamp like '2020-06-02%' AND amountoutstanding=1;
+UPDATE accountlines SET amountoutstanding=0 WHERE debit_type_code='RESERVE_EXPIRED' AND timestamp like '2020-06-02%' AND amountoutstanding=1;
 ```
 
 ### Asiakastilin vanhenemisen siirto
