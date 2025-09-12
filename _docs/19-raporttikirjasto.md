@@ -2579,24 +2579,20 @@ ORDER BY branchcity
 
 Muuta: Tämä raportti hakee tietyltä aikaväliltä käsiteltyjä maksuja. Käsittely voi tarkoittaa joko maksun luomista tai päivittämistä (maksamista).
 
-Maksutunnukset:
-F (myöh.maksut)
-FU (myöh.maksut)
-HE (noutamaton varaus)
-ODUE1
-ODUE2
-ODUE3 (myöhästymismuistutuksia)
-L (kadonnut aineisto, aineiston korvaus)
-Korva (aineiston korvaus)
-N (uusi kortti)
-M (sekalainen)
-Kopio (kopio)
-Kauko (kaukolainat)
-A (käyttäjätilin hallinta)
-Konve (konvertoidut maksut esim. OUTI ja Lappi)
+Yleisimmät maksutyypit
+
+Tunnus|Kuvaus|Käyttökohde|Saako estää lainauksen?
+---|---|---|---
+NEW_CARD|Uusi kortti|Maksu uudesta kortista|Ei
+ODUE|Palautuskehotus|Koha-Suomen oma lisäys, jolla palautuskehotuksesta lisätään asiakkaalle maksu|Kyllä
+OVERDUE|Myöhästymismaksu|Päivittäinen myöhästymismaksu|Kyllä
+Pay|Maksusuoritus|Asiakkaan tekemä maksusuoritus
+RESERVE_EXPIRED|Noutamattoman varauksen maksu|Lisätään ajastetulla ajolla asiakkaalle, kun hän ei nouda varaustaan|Kyllä
+
  
 Lisääjä: Päivi Knuutinen / Vaara-kirjastot<br />
 pvm: 30.10.2018
+Päivitetty: 12.9.2025 / AÖ
 
 ```
 SELECT CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', accountlines.borrowernumber, '">', accountlines.borrowernumber, '</a>') AS asiakas,
@@ -2604,7 +2600,7 @@ SELECT CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', ac
   accountlines.*
 FROM accountlines
 WHERE date(accountlines.timestamp) BETWEEN <<Alkupäivä|date>> AND <<Loppupäivä|date>> 
-AND accounttype=<<Kohan maksutunnus>> 
+AND debit_type_code=<<Kohan maksutunnus>> 
 AND amountoutstanding>0
 ORDER BY accountlines_id
 ```
