@@ -23,7 +23,7 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
-Versionvaihdon valmistelu on aloitettu. Koha-Suomi piti "aloituspalaverin" maanantaina 22.9.2025 ja teki työnjakoa.
+Versionvaihdon valmistelu on aloitettu. Koha-Suomi piti "aloituspalaverin" maanantaina 22.9.2025 ja teki työnjakoa versionvaihdon tikettien osalta. Tuotantojen viikkopäivitykset jäädytetään viikosta 41 lähtien eli viikon 40 päivitys on näillä näkymin viimeinen ennen versionpäivitystä. Toki kriittiset päivitykset ja tietoturvapäivitykset tehdään tarvittaessa. [Versionvaihdon ensimmäinen tiedote on julkaistu](https://github.com/KohaSuomi/Koha/discussions/1969) ja sieltä voi kaikki kerrata, mitä kaikkea prosessi pitääkään sisällä. 
 
 ### 2. MTYPE:t äänikirja-aineistotyypeille
 
