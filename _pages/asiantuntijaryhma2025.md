@@ -23,6 +23,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Versionvaihdon valmistelu on aloitettu. Koha-Suomi piti "aloituspalaverin" maanantaina 22.9.2025 ja teki työnjakoa.
+
 ### 2. MTYPE:t äänikirja-aineistotyypeille
 
 Finnaan lisättiin jo muutama vuosi sitten aineistotyyppejä äänikirjoille ja meillä on siitä avoinna [tiketti #750](https://github.com/KohaSuomi/Koha/issues/750). Uusille aineistotyypeille pitää sopia käytettävät aineistotyypit (tunnus ja kuvaus).
