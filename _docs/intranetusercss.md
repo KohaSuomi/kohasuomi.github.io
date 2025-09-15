@@ -407,8 +407,8 @@ Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 24.05
 
 ```
-/* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi */ 
-body#pat_moremember.pat a#updatechild { display: none; }
+/* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi (piilotus toimii kaikilla Asiakassivuilla) */ 
+div#toolbar ul.dropdown-menu a#updatechild { display: none; }
 ```
 
 ### Piilota Verkkokirjasto-vaihtoehto Viestin lisäys -popupista
@@ -1451,6 +1451,27 @@ Versio: 24.05
 /* Piilota varauksenteko-sivulta Tulosta kuljetuskuitti -sarake taulukosta */
 body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer th:nth-child(13) { display: none; }
 body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer td:nth-child(13) { display: none; }
+```
+
+### Piilota varaajan asiakastiedot varausvaroituksesta Kuljetus- ja siirrot -sivulla 
+
+Versio: 24.05
+
+```
+/* Piilota varaajan asiakastiedot varausvaroituksesta Kuljetus- ja siirrot -sivulla */
+#circ_branchtransfers div#transfer_confirm.modal div.modal-body ul { display: none; }
+#circ_branchtransfers div#transfer_confirm.modal div.modal-body h5 { display: none; }
+```
+
+### Piilota 'Peruuta varaus' nappi varausvaroituksesta Kuljetus- ja siirrot -sivulla
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 24.05
+
+```
+/* Piilota 'Peruuta varaus' nappi varausvaroituksesta Kuljetus- ja siirrot -sivulla */
+div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillReserved"]) { display: none; }
+div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillWaiting"]) { display: none; }
 ```
 
 ---
