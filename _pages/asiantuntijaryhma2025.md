@@ -34,6 +34,15 @@ PUHETAL; Äänitallenne, puhe|E-äänikirja
 PUHEKAS; Kasetti, puhe|Kasettiäänikirja
 PUHELEVY; Äänilevy, puhe|Muu äänikirja
 
+### 3. Käsiteltävät kehitysehdotukset
+
+* [Tulostusjonoon nidettä lisätessä näkyville tieto jonossa olevien niteiden määrästä #9](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/9)
+* [Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta #1979](https://github.com/KohaSuomi/Koha/issues/1979)
+* [Ehdotuksia, missä tilanteessa tietueita ei saa viedä Melindaan #1984](https://github.com/KohaSuomi/Koha/issues/1984)
+
+### 4. Muut asiat
+
+### 5. Seuraava kokous
 
 ## Muistio 7/2025
 
