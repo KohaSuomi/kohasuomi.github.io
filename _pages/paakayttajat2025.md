@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 38
+
+Aika: Ti 16.9.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
+* Annelin kehitysehdotus: Tutkitaan, saisiko esim. noutoilmoituksiin mukaan kalenterikutsun/merkinnän, joka tallentaa käyttäjän kalenteriin varauksen viimeisen noutopäivän
+* Ruotsinkieliset käännökset: Esim. sv-SE-staff-prog.po -tiedostossa on lähes 170 käännettävää tekstinpätkää. Kaikkien näiden kääntäminen tikettien kautta on turhan työlästä. Kääntäjiä on yritetty löytää jo useamman vuoden ajan siinä onnistumatta, joten toimisiko sellainen, että Anneli kävisi parin-kolmen ruotsia hyvin osaavan kanssa yhdessä nuo käännökset läpi ja ne muokattaisiin yhdessä oikeaan muotoon? Eräänlainen käännöstyöryhmä.
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 37
 
 Aika: Ti 9.9.2025 klo 9.15<br />
