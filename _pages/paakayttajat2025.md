@@ -23,7 +23,7 @@ Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 Pohjoisesta etelään
 
 **OUTI**
-* Oulussa kausijulkaisujen vastaanotto oli luonut useita niteitä samalle lehtinumerolle. Aiemmin joskus on tullut tuplaniteitä, mutta ei aiemmin kolmea tai neljää nidettä samalle numerolle. Emmi tarkisti lokit, eikä niistä löytynyt mitään kummallisuuksia, joten ongelma jäi mysteeriksi. Raportoidaan, jos näitä tulee jatkossa.
+* Oulussa kausijulkaisujen vastaanotto oli luonut useita niteitä samalle lehtinumerolle. Aiemmin joskus on tullut tuplaniteitä, mutta ei aiemmin kolmea tai neljää nidettä samalle numerolle. Emmi tarkisti lokit, eikä niistä löytynyt mitään kummallisuuksia, joten ongelma jäi mysteeriksi. Raportoidaan, jos näitä tulee jatkossa. Tiketti: https://github.com/KohaSuomi/Koha/issues/1985
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
