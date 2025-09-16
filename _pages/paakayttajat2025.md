@@ -34,7 +34,7 @@ Pohjoisesta etelään
 * Ceepos-kassa temppuili viime viime keskiviikosta lähtien useassa kirjastossa. Perjantaina oli tilanne jo niin huono, että pääkirjastossa ei saatu poistettua asiakkaiden maksuja ollenkaan, kun kassa ei toiminut. Useampi kirjasto oli tehnyt Meitalle tiketin kassaongelmasta, mutta vasta perjantaina asia tuli kuntoon. Haluaisimme tietää, missä kohti ketjua tämä ongelma on, sillä toimijoita tässä on useita (Koha, Meita, Bittiguru, Ceepos).
 
 **Helle**
-* Asiakaspalaute ruotsinkielisestä noutoilmoituksesta, jossa kirjaston nimi suomeksi. Koha mahdollistaa kirjaston nimen lisäämisen vain yhdellä kielellä. (Nidetyypit mahdollista lisätä Kohan kaikilla kolmella kielellä.) [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi](https://github.com/KohaSuomi/Koha/issues/448)
+* Asiakaspalaute ruotsinkielisestä noutoilmoituksesta, jossa kirjaston nimi suomeksi. Koha mahdollistaa kirjaston nimen lisäämisen vain yhdellä kielellä. (Nidetyypit mahdollista lisätä Kohan kaikilla kolmella kielellä.) Vanha tiketti, [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi](https://github.com/KohaSuomi/Koha/issues/448)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
