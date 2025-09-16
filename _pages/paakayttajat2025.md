@@ -36,7 +36,7 @@ Pohjoisesta etelään
 **Helle**
 * Asiakaspalaute ruotsinkielisestä noutoilmoituksesta, jossa kirjaston nimi suomeksi. Koha mahdollistaa kirjaston nimen lisäämisen vain yhdellä kielellä. (Nidetyypit mahdollista lisätä Kohan kaikilla kolmella kielellä.) Vanha tiketti, [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi](https://github.com/KohaSuomi/Koha/issues/448)
 * KIrjastoihin tiedotettu/muistutettu, että tekevät hankintaan vuoden 2026 tilit ja ilmoittavat ko. uudet tilit aineistotoimittajille.
-* Lisätty IntranetUserCSS-rimpsu, joka piilottaa tietueen Perustiedot-näytön suurennuslasi-kuvakkeet (liittyvät tietueen auktoriteettitietueiden tunnusarvoihin 9-oakentässä). Janne Seppäselle (Lastu) kiitos tekemästään palaverissa jakamastaan rimpsusta.
+* Lisätty IntranetUserCSS-rimpsu, joka piilottaa tietueen Perustiedot-näytön suurennuslasi-kuvakkeet (liittyvät tietueen auktoriteettitietueiden tunnusarvoihin 9-oakentässä). Janne Seppäselle (Lastu) kiitos tekemästään ja palaverissa jakamastaan rimpsusta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
