@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
@@ -32,6 +32,9 @@ Pohjoisesta etelään
 **Vaara**
 * Emmi kysyi aamulla, onko tietoa mitä tapahtunut Vaarassa eilen iltapäivällä, kun oli yritetty tallentaa niteitä ilman nidetyyppiä. Selvityksen jälkeen tietoon tuli, että virkailija oli harjoitellut uudenlaisen aineiston tallentamista ja unohtanut valita nidetyypin. Valitulla kuvailupohjalla nidetyyppi ei ollut pakollinen kenttä. Tämän jälkeen kenttä tuli pakolliseksi, niin tällaisilta virheiltä säästytään.
 * Ceepos-kassa temppuili viime viime keskiviikosta lähtien useassa kirjastossa. Perjantaina oli tilanne jo niin huono, että pääkirjastossa ei saatu poistettua asiakkaiden maksuja ollenkaan, kun kassa ei toiminut. Useampi kirjasto oli tehnyt Meitalle tiketin kassaongelmasta, mutta vasta perjantaina asia tuli kuntoon. Haluaisimme tietää, missä kohti ketjua tämä ongelma on, sillä toimijoita tässä on useita (Koha, Meita, Bittiguru, Ceepos).
+
+**Helle**
+* Asiakaspalaute ruotsinkielisestä noutoilmoituksesta, jossa kirjaston nimi suomeksi. Koha mahdollistaa kirjaston nimen lisäämisen vain yhdellä kielellä. (Nidetyypit mahdollista lisätä Kohan kaikilla kolmella kielellä.) [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi](https://github.com/KohaSuomi/Koha/issues/448)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -129,7 +132,7 @@ Pohjoisesta etelään
 **Helle**
 * Poistettu tietueista massana Kohan auktoriteettitietueiden tunnuksia 9-oakentästä koskien kenttiä: 100, 110, 111, 130, 600, 610, 611, 647, 648, 650, 651, 653, 654, 655, 656, 657, 700, 710, 711, 720, 730, 740, 751, 752, 900, 910. Kenttien 9-osakenttä-arvo muodostaa tietueen Perustiedot-näytölle suurennuslasi-kuvakkeen. Mm. Fennica-tietueisiin liittyvät 9-osakentät tietueilla edelleen on. Tiketissä [Kohan omat auktoriteetit ja suurennuslasit teoksen perustiedot näytöllä -tiketissä](https://github.com/KohaSuomi/Koha-23x/issues/181) mainittu suurennuslasien piilotustapa ei vaikuta nyt tepsivän Helle-Kohassa.
 * Laitettu käyttöön ReportsLog-asetus.
-* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. Tiketti:: [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
+* OKM-tilastoraporttiin olisi hyvä saada mukaan kaukolainojen määrät. Tiketti: [OKM-tilastoihin mukaan kaukolainojen määrät](https://github.com/KohaSuomi/Koha/issues/1970)
 
 **Siilinjärvi**
 * Ei mainittavaa
