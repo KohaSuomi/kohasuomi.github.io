@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
@@ -24,6 +24,10 @@ Pohjoisesta etelään
 
 **OUTI**
 * Oulussa kausijulkaisujen vastaanotto oli luonut useita niteitä samalle lehtinumerolle. Aiemmin joskus on tullut tuplaniteitä, mutta ei aiemmin kolmea tai neljää nidettä samalle numerolle. Emmi tarkisti lokit, eikä niistä löytynyt mitään kummallisuuksia, joten ongelma jäi mysteeriksi. Raportoidaan, jos näitä tulee jatkossa. Tiketti: https://github.com/KohaSuomi/Koha/issues/1985
+
+**Lappi**
+* Viime viikon tiistaina pidimme Kysy Kohasta kyselytunnin Lapin henkilökunnalle. Tapahtuma oli vapaamuotoinen ja siellä sai kysyä, mikä mieltä askarrutti Kohassa. Kysmyksia tuli mm. raporteista, hankinnasta ja omatoimesta. 
+* Kirjastoilta on pyydetty vuoden 2026 tilit hankintaan. Pääkäyttäjät lisäävät tilit ja ilmoittavat ne yhdellä kertaa aineistotoimittajille. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
