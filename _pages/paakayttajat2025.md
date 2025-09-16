@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
@@ -27,7 +27,11 @@ Pohjoisesta etelään
 
 **Lappi**
 * Viime viikon tiistaina pidimme Kysy Kohasta kyselytunnin Lapin henkilökunnalle. Tapahtuma oli vapaamuotoinen ja siellä sai kysyä, mikä mieltä askarrutti Kohassa. Kysmyksia tuli mm. raporteista, hankinnasta ja omatoimesta. 
-* Kirjastoilta on pyydetty vuoden 2026 tilit hankintaan. Pääkäyttäjät lisäävät tilit ja ilmoittavat ne yhdellä kertaa aineistotoimittajille. 
+* Kirjastoilta on pyydetty vuoden 2026 tilit hankintaan. Pääkäyttäjät lisäävät tilit ja ilmoittavat ne yhdellä kertaa aineistotoimittajille.
+
+**Vaara**
+* Emmi kysyi aamulla, onko tietoa mitä tapahtunut Vaarassa eilen iltapäivällä, kun oli yritetty tallentaa niteitä ilman nidetyyppiä. Selvityksen jälkeen tietoon tuli, että virkailija oli harjoitellut uudenlaisen aineiston tallentamista ja unohtanut valita nidetyypin. Valitulla kuvailupohjalla nidetyyppi ei ollut pakollinen kenttä. Tämän jälkeen kenttä tuli pakolliseksi, niin tällaisilta virheiltä säästytään.
+* Ceepos-kassa temppuili viime viime keskiviikosta lähtien useassa kirjastossa. Perjantaina oli tilanne jo niin huono, että pääkirjastossa ei saatu poistettua asiakkaiden maksuja ollenkaan, kun kassa ei toiminut. Useampi kirjasto oli tehnyt Meitalle tiketin kassaongelmasta, mutta vasta perjantaina asia tuli kuntoon. Haluaisimme tietää, missä kohti ketjua tämä ongelma on, sillä toimijoita tässä on useita (Koha, Meita, Bittiguru, Ceepos).
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
