@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
@@ -41,6 +41,10 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa.
 * Otettiin kokeiluun uusi nidetyyppi suositulle lasten aineistolle - kirjat ovat lainattavissa, mutta eivät varattavissa.
+
+**Kyyti**
+* Kausijulkaisua vastaanotettaessa vastaanotettavan numeron vuosiluvuksi vaihtuu viime vuosi,  esim. pitäisi vastaanottaa numero 2025:18, niin vastaanotossa odottaa numeroa 2024:18. Tästä tehty tiketti: https://github.com/KohaSuomi/Koha/issues/1990
+* Kyytistä löytyi Kotkan osalta virheellisiä signumeja n.2500, joista puuttuu välilyönti kirjaston ja hyllypaikan lyhenteen välistä. Näistä mainittu Kyytin omassa signum-muutokseen liittyvässä tiketissä: https://github.com/KohaSuomi/Koha/issues/1935
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
