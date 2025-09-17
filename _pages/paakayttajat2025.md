@@ -43,8 +43,8 @@ Pohjoisesta etelään
 * Otettiin kokeiluun uusi nidetyyppi suositulle lasten aineistolle - kirjat ovat lainattavissa, mutta eivät varattavissa.
 
 **Kyyti**
-* Kausijulkaisua vastaanotettaessa vastaanotettavan numeron vuosiluvuksi vaihtuu viime vuosi,  esim. pitäisi vastaanottaa numero 2025:18, niin vastaanotossa odottaa numeroa 2024:18. Tästä tehty tiketti: https://github.com/KohaSuomi/Koha/issues/1990
-* Kyytistä löytyi Kotkan osalta virheellisiä signumeja n.2500, joista puuttuu välilyönti kirjaston ja hyllypaikan lyhenteen välistä. Näistä mainittu Kyytin omassa signum-muutokseen liittyvässä tiketissä: https://github.com/KohaSuomi/Koha/issues/1935
+* Kausijulkaisua vastaanotettaessa vastaanotettavan numeron vuosiluvuksi vaihtuu viime vuosi,  esim. pitäisi vastaanottaa numero 2025 : 18, niin vastaanotossa odottaa numeroa 2024 : 18. Tästä tehty tiketti: https://github.com/KohaSuomi/Koha/issues/1990
+* Kyytistä löytyi Kotkan osalta virheellisiä signumeja n. 2500, joista puuttuu välilyönti kirjaston ja hyllypaikan lyhenteen välistä. Näistä mainittu Kyytin omassa signum-muutokseen liittyvässä tiketissä: https://github.com/KohaSuomi/Koha/issues/1935
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
