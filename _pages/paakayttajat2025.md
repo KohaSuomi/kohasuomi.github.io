@@ -13,12 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti), Erika Miettinen (osan aikaa) ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti), Erika Miettinen (osan aikaa) ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
 * Annelin kehitysehdotus: Tutkitaan, saisiko esim. noutoilmoituksiin mukaan kalenterikutsun/merkinnän, joka tallentaa käyttäjän kalenteriin varauksen viimeisen noutopäivän
+  * Ehdotus sai kannatusta, Anneli tekee kehitysehdotuksen.
 * Ruotsinkieliset käännökset: Esim. sv-SE-staff-prog.po -tiedostossa on lähes 170 käännettävää tekstinpätkää. Kaikkien näiden kääntäminen tikettien kautta on turhan työlästä. Kääntäjiä on yritetty löytää jo useamman vuoden ajan siinä onnistumatta, joten toimisiko sellainen, että Anneli kävisi parin-kolmen ruotsia hyvin osaavan kanssa yhdessä nuo käännökset läpi ja ne muokattaisiin yhdessä oikeaan muotoon? Eräänlainen käännöstyöryhmä.
+  * Elina Uotila lupautui mukaan. Kati kyselee Hellestä osallistujia.
 
 Pohjoisesta etelään
 
