@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
-Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti), Erika Miettinen (osan aikaa) ja Elina Uotila (Kirkes), 
+Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti), Erika Miettinen (osan aikaa) ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/1987)
@@ -47,7 +47,15 @@ Pohjoisesta etelään
 * Kyytistä löytyi Kotkan osalta virheellisiä signumeja n. 2500, joista puuttuu välilyönti kirjaston ja hyllypaikan lyhenteen välistä. Näistä mainittu Kyytin omassa signum-muutokseen liittyvässä tiketissä: https://github.com/KohaSuomi/Koha/issues/1935
 
 **Kirkes**
-* DVV-projektin tilanteesta on tullut kysymyksiä, mutta se on vielä työn alla. 
+* DVV-projektin tilanteesta on tullut kysymyksiä, mutta se on vielä työn alla.
+
+**Lastu**
+* Kyseltiin pe 12.9. n. 00.05 - 08.10 tapahtuneen SIP-palvelimen katkoksen syitä, kehittäjät tutkivat asiaa.
+* Perustiedot-näytölle ilmestynyt suurennuslasikuvakkeita, jotka viittaavat olemattomiin auktoriteetteihin. Päädyttiin piilottamaan kuvakkeet CSS:llä:
+  `/* Piilota auktoriteetti-suurennuslasit perustiedot-näytöltä */
+  body#catalog_detail .authlink { display: none; }`
+* Vanhan käytännön jäänteinä Lastussa on jonkin verran yhteisöasiakkaita, joilla on takaaja. Lastun asetusten perusteella yhteisöasiakas ei ole taattava, ja tämä poistaa asiakastietojen muokkauksesta takaaja-kentät kokonaan, joka aiheuttaa hieman hämmennystä asiakaspalvelussa. Takaajaa ei ole mahdollista poistaa eräajolla, mutta päädyttiin siihen että käydään pikkuhiljaa näiden n. 150 asiakkaan joukko läpi käsin, ja poistetaan takaaja.
+* Kaukolainamoduulin käyttöönottoa valmistelevia töitä tehty tuotannossa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
