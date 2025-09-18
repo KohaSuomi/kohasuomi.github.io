@@ -26,6 +26,9 @@ Pohjoisesta etelään
 
 **OUTI**
 * Oulussa kausijulkaisujen vastaanotto oli luonut useita niteitä samalle lehtinumerolle. Aiemmin joskus on tullut tuplaniteitä, mutta ei aiemmin kolmea tai neljää nidettä samalle numerolle. Emmi tarkisti lokit, eikä niistä löytynyt mitään kummallisuuksia, joten ongelma jäi mysteeriksi. Raportoidaan, jos näitä tulee jatkossa. Tiketti: https://github.com/KohaSuomi/Koha/issues/1985
+* Oulussa laskuttajat ovat muuttaneet Ruskon kirjavaraston (OUPK) tiloista Oulun keskustakirjasto Saaren (OUSA) tiloihin ja laskutus halutaan jatkossa hoitaa kirjautuneena Kohassa Saaren kirjastoon. Tällä hetkellä laskuttajan tulee muistaa vaihtaa kirjasto Kohassa Ruskon kirjastoksi aina laskuja ajaessaan. Luultavasti muutostyötä tarvitaan enää täällä Oulun päässä Digillä ja Monetralla, joten Kohan puolella tarvitsemme kehittäjän apua testaamisessa ja taustatukena. Kysyin teenkö tiketin ja onko työ maksullinen?
+ * Sovimme, että teen Githubiin tiketin ja, koska kyseessä oli tehtävä, joka vie vain vähän aikaa, niin työ tuskin on maksullinen.
+ * Tiketti: https://github.com/KohaSuomi/Koha/issues/1993
 
 **Lappi**
 * Viime viikon tiistaina pidimme Kysy Kohasta kyselytunnin Lapin henkilökunnalle. Tapahtuma oli vapaamuotoinen ja siellä sai kysyä, mikä mieltä askarrutti Kohassa. Kysmyksia tuli mm. raporteista, hankinnasta ja omatoimesta. 
