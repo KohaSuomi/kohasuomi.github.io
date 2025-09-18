@@ -20,7 +20,10 @@ Kaukolainapyynnön voi tehdä Kaukolainamoduulin etusivulla kohdasta _Uusi kauko
   * Book-tyyppinen pyyntö lisää tietokantaan tietueen syötetyillä tiedoilla käyttäen ILL-kuvailupohjaa.
 * Eri tyypit tuovat näkyville erilaisia kenttiä. Täytä tarpeelliset kentät.
 
-![Kaukolainapyynnön lomake](/assets/files/docs/Kaukolainaus/kaukolainat2.PNG)
+![Kaukolainapyynnön teostiedot](/assets/files/docs/Kaukolainaus/kaukolainat2.PNG)
 
 * Lisää tarvittaessa myös Custom fields -kohtaan vapaamuotoisia tietoja
 * Lisää lopuksi _Cardnumber, username or surname_ -kohtaan asiakkaan kirjastokortin numero ja _Destination library_ -kohtaan mistä kirjastosta hän noutaa kaukolainan.
+
+Kun tarvittavat tiedot on lisätty, valitse _Create_, jolloin kaukolainapyyntö luodaan ja ohjelma siirtyy Kaukolainauksen etusivulle.
+
