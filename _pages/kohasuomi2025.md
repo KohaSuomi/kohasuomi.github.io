@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 39
 
 Aika: Ma 22.9.2025<br />
-Läsnä: Emmi, Johanna, Anneli, Pasi, Lari, Robert ja Ari
+Läsnä: Emmi, Johanna, Anneli, Pasi, Lari, Robert, Kodo ja Ari
 
 
 * Viikon 39 päivitys
