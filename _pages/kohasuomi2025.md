@@ -22,6 +22,8 @@ Läsnä: Emmi, Johanna, Anneli, Pasi, Lari, Robert, Kodo ja Ari
 * Viikon 39 päivitys
 * Versionvaihdon aloituspalaveri
   * Tuotannon jäädytys alkaa 6.10.
+  * Jokainen käy ensi viikkoon mennessä nimeämässä itselleen edellisessä versionvaihdossa tekemänsä tiketit. Loput tiketit jaetaan ensi viikon viikkopalaverissa.
+  * Versionvaihdon edistymistä seurataan 3-4 viikon välein pidettävässä palaverissa. Ensimmäinen palaveri pidetään 4 viikko tuotantojen jäädytyksen jälkeen eli 3.11.
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
