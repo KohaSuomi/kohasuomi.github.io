@@ -13,6 +13,19 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 16.9.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
+* Nextit
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
+
+## Viikko 38
+
+Aika: Ti 16.9.2025 klo 9.15<br />
 Läsnä: Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Roosa Väisänen (Kyyti), Erika Miettinen (osan aikaa) ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
@@ -62,7 +75,7 @@ Pohjoisesta etelään
 * Vanhan käytännön jäänteinä Lastussa on jonkin verran yhteisöasiakkaita, joilla on takaaja. Lastun asetusten perusteella yhteisöasiakas ei ole taattava, ja tämä poistaa asiakastietojen muokkauksesta takaaja-kentät kokonaan, joka aiheuttaa hieman hämmennystä asiakaspalvelussa. Takaajaa ei ole mahdollista poistaa eräajolla, mutta päädyttiin siihen että käydään pikkuhiljaa näiden n. 150 asiakkaan joukko läpi käsin, ja poistetaan takaaja.
 * Kaukolainamoduulin käyttöönottoa valmistelevia töitä tehty tuotannossa
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-38) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 37
 
