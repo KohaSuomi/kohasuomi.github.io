@@ -17,7 +17,14 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
-* Nextit
+* Kaikki muut Nextit paitsi vaski-next on pystyssä ja Elasticit pyörii
+  * tietokannaksi vaihdettu testien tietokannat eli kirjautumaan pääsee testin tunnuksilla
+  * vaski-next saataneen tänään tiistaina toimintaan, mutta indeksoinnissa menee todennäköisesti vielä jonkin aikaa.
+  * nexteiltä puuttuu kaikki meidän muutokset, esim. perustiedot-näytöllä ei avaudu nidetaulukko, koska hyllytarkenne-muutos puuttuu vielä
+  * [Mitä uutta versiossa 25.05](https://github.com/KohaSuomi/Koha-25x/wiki/Uutta)
+  * Nexteihin voi siis alkaa tutustumaan
+  * Anneli pyytää Finna-toimistoa haravoimaan finna-nextit uudelleen. Selvitellään api-avaimet.
+* Koha-Suomen henkilökunta osallistuu Kirjastoverkkopäiville 22.-23.10.2025 Helsingissä (Anneli lähtee jo 21.10. junailemaan)
 
 Etelästä pohjoiseen
 
