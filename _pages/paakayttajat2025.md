@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
@@ -51,7 +51,12 @@ Etelästä pohjoiseen
 
 **OUTI**
 * OUTIssa on tullut palautetta viikon 38 Koha-päivityksestä, jossa piilotettiin Niteet-sivulta linkki ”Näytä niteen lainahistoria”. Kahdessa kimpan kirjastossa sivun tietoja oli käytetty hankinnan tueksi. Sivulta oli tarkistettu, paljonko oman kirjaston niteet olivat olleet lainassa omassa kirjastossa eli onko teoksella ollut kiinnostusta oman kirjaston asiakkailla vai ovatko lainat kertyneet muiden kirjastojen lainoista. Käyttäjille ehdotettiin Lainahistoria-sivun käyttöä, josta voi helposti rajata näkyville vain oman kirjaston niteet kuntatunnuksen tai lainauskirjaston perusteella. Mutta niteen lainahistoria sivulla olevista virheellisistä tiedoista huolimatta, sivu haluttaisiin takaisin näkyville. Asia viedään asiantuntijaryhmän kokoukseen päätettäväksi.
-* Suomi.fi-viestien tukiklinikalla 19.9. tuli esille, että vuoden 2026 alusta alkaen käyttövelvoitetuilla organisaatioilla, kuten kunnalliset viranomaiset niiden hoitaessa laissa niille säädettyjä tehtäviä, tulee olla Suomi.fi-viestit käytössä. Tukiklinikan esitysmateriaali: https://kehittajille.suomi.fi/tapahtumat/suomi-fi-viestien-tukiklinikka-etenemissuunnitelma-julkishallinnon-organisaatioille 
+* Suomi.fi-viestien tukiklinikalla 19.9. tuli esille, että vuoden 2026 alusta alkaen käyttövelvoitetuilla organisaatioilla, kuten kunnalliset viranomaiset niiden hoitaessa laissa niille säädettyjä tehtäviä, tulee olla Suomi.fi-viestit käytössä. Tukiklinikan esitysmateriaali: https://kehittajille.suomi.fi/tapahtumat/suomi-fi-viestien-tukiklinikka-etenemissuunnitelma-julkishallinnon-organisaatioille
+
+**Helle**
+* Emmi sulkenut vuoden 2023 ja vuoden 2024 kausijulkaisutitilaukset [Hellen kausijulkaisutilausten sulkeminen, vuodet 2023 ja 2024](https://github.com/KohaSuomi/Koha/issues/1994)
+* Hellestä kaksi osallistujaa Koha ruotsiksi -käännöstyöryhmään: Madeleine Lindholm (Raasepori), Frida Wickholm (Sipoo)
+* Korjattu kunnankirjastojen niteiden signumeita. Hakuapuna Kohan Nidehaku.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
