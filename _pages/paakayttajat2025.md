@@ -58,9 +58,9 @@ Etelästä pohjoiseen
 * Hellestä kaksi osallistujaa Koha ruotsiksi -käännöstyöryhmään: Madeleine Lindholm (Raasepori), Frida Wickholm (Sipoo)
 * Korjattu kunnankirjastojen niteiden signumeita. Korjattavien hakuapuna Kohan Nidehaku-toiminto.
 
-  **Kirkes**
-  *Kirkes-kirjastoissa suunniteltu Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa lokakuun 2025 alusta. Kaiken pitäisi olla valmista. DVV:lta ei ole saatu vielä vahvistusta tuotantokäyttöönottopäivästä.
-  *Tuusulan kirjastoauto ottanut käyttöön Kohasta erillisen tekstiviestipalvelun, jonka käyttäjiksi auton asiakkaat voivat ilmoittautua, jos haluavat tekstiviestitse tiedon auton reittien poikkeuksista. Pohdittiin, olisiko syytä tehdä kehitysehdotus, että Kohasta saataisiin suoraan järjestelmästä laitettua asiakkaille sähköpostitse tieto poikkeuksista. Erika otti mahdollisen kehitysehdotuksen teon työlistalle.
+**Kirkes**
+  * Kirkes-kirjastoissa suunniteltu Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa lokakuun 2025 alusta. Kaiken pitäisi olla valmista. DVV:lta ei ole saatu vielä vahvistusta tuotantokäyttöönottopäivästä.
+  * Tuusulan kirjastoauto ottanut käyttöön Kohasta erillisen tekstiviestipalvelun, jonka käyttäjiksi auton asiakkaat voivat ilmoittautua, jos haluavat tekstiviestitse tiedon auton reittien poikkeuksista. Pohdittiin, olisiko syytä tehdä kehitysehdotus, että Kohasta saataisiin suoraan järjestelmästä laitettua asiakkaille sähköpostitse tieto poikkeuksista. Erika otti mahdollisen kehitysehdotuksen teon työlistalle.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
