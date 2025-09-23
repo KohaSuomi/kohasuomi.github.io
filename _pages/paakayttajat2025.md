@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
@@ -59,8 +59,8 @@ Etelästä pohjoiseen
 * Korjattu kunnankirjastojen niteiden signumeita. Korjattavien hakuapuna Kohan Nidehaku-toiminto.
 
   **Kirkes**
-  * Kirkes-kirjastoissa suunniteltu Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa lokakuun 2025 alusta. Kaiken pitäisi olla valmista. DVV:lta ei ole saatu vielä vahvistusta tuotantokäyttöönottopäivästä.
-  * Tuusulan kirjastoauto ottanut käyttöön Kohasta erillisen tekstiviestipalvelun, jonka käyttäjiksi auton asiakkaat voivat ilmoittautua, jos haluavat tekstiviestitse tiedon auton reittien poikkeuksista. Pohdittiin, olisiko syytä tehdä kehitysehdotus, että Kohasta saataisiin suoraan järjestelmästä laitettua asiakkaille sähköpostitse tieto poikkeuksista. Erika otti mahdollisen kehitysehdotuksen teon työlistalle.
+  *Kirkes-kirjastoissa suunniteltu Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa lokakuun 2025 alusta. Kaiken pitäisi olla valmista. DVV:lta ei ole saatu vielä vahvistusta tuotantokäyttöönottopäivästä.
+  *Tuusulan kirjastoauto ottanut käyttöön Kohasta erillisen tekstiviestipalvelun, jonka käyttäjiksi auton asiakkaat voivat ilmoittautua, jos haluavat tekstiviestitse tiedon auton reittien poikkeuksista. Pohdittiin, olisiko syytä tehdä kehitysehdotus, että Kohasta saataisiin suoraan järjestelmästä laitettua asiakkaille sähköpostitse tieto poikkeuksista. Erika otti mahdollisen kehitysehdotuksen teon työlistalle.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
