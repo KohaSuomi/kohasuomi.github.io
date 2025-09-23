@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
@@ -32,6 +32,11 @@ Etelästä pohjoiseen
 **Lastu**
 * Kyseltiin kannattaako tuotantoon tehdyt muutokset viedä myös nextille, ja todettiin että kannattaa
 * Normaalia ylläpitoa
+
+**Siilinjärvi**
+* Ti 16.9. ilmaantunut epäonnistuneiden tekstiviestien ongelma on ilmeisesti ratkennut. LinkMobility tutki asiaa ja kyseessä oli kuittausongelma, viestit ovat kuitenkin menneet perille. Siltä näyttää, asiakaspalautetta ei ole tullut.
+* Vanhoja virheellisiä ääkkössignumeita, esim. 78.63 PÃ– PK M po. 78.63 PÖL PK M, vapaaehtoinen virkailija korjailee iltavuoron ratoksi.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
 
