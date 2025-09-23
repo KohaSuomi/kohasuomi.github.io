@@ -13,10 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
+  * Tietueiden palautustyökalun muutos ei tullutkaan mukaan -> Tulee vkolla 40
 * Kaikki muut Nextit paitsi vaski-next on pystyssä ja Elasticit pyörii
   * tietokannaksi vaihdettu testien tietokannat eli kirjautumaan pääsee testin tunnuksilla
   * vaski-next saataneen tänään tiistaina toimintaan, mutta indeksoinnissa menee todennäköisesti vielä jonkin aikaa.
