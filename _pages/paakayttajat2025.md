@@ -56,7 +56,7 @@ Etelästä pohjoiseen
 **Helle**
 * Emmi sulkenut vuoden 2023 ja vuoden 2024 kausijulkaisutitilaukset [Hellen kausijulkaisutilausten sulkeminen, vuodet 2023 ja 2024](https://github.com/KohaSuomi/Koha/issues/1994)
 * Hellestä kaksi osallistujaa Koha ruotsiksi -käännöstyöryhmään: Madeleine Lindholm (Raasepori), Frida Wickholm (Sipoo)
-* Korjattu kunnankirjastojen niteiden signumeita. Hakuapuna Kohan Nidehaku.
+* Korjattu kunnankirjastojen niteiden signumeita. Korjattavien hakuapuna Kohan Nidehaku.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
