@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
@@ -28,6 +28,10 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 * Koha-Suomen henkilökunta osallistuu Kirjastoverkkopäiville 22.-23.10.2025 Helsingissä (Anneli lähtee jo 21.10. junailemaan)
 
 Etelästä pohjoiseen
+
+**Lastu**
+* Kyseltiin kannattaako tuotantoon tehdyt muutokset viedä myös nextille, ja todettiin että kannattaa
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-39) - [Palaa sivun alkuun](/paakayttajat2025)
 
