@@ -52,6 +52,7 @@ Etelästä pohjoiseen
 **OUTI**
 * OUTIssa on tullut palautetta viikon 38 Koha-päivityksestä, jossa piilotettiin Niteet-sivulta linkki ”Näytä niteen lainahistoria”. Kahdessa kimpan kirjastossa sivun tietoja oli käytetty hankinnan tueksi. Sivulta oli tarkistettu, paljonko oman kirjaston niteet olivat olleet lainassa omassa kirjastossa eli onko teoksella ollut kiinnostusta oman kirjaston asiakkailla vai ovatko lainat kertyneet muiden kirjastojen lainoista. Käyttäjille ehdotettiin Lainahistoria-sivun käyttöä, josta voi helposti rajata näkyville vain oman kirjaston niteet kuntatunnuksen tai lainauskirjaston perusteella. Mutta niteen lainahistoria sivulla olevista virheellisistä tiedoista huolimatta, sivu haluttaisiin takaisin näkyville. Asia viedään asiantuntijaryhmän kokoukseen päätettäväksi.
 * Suomi.fi-viestien tukiklinikalla 19.9. tuli esille, että vuoden 2026 alusta alkaen käyttövelvoitetuilla organisaatioilla, kuten kunnalliset viranomaiset niiden hoitaessa laissa niille säädettyjä tehtäviä, tulee olla Suomi.fi-viestit käytössä. Tukiklinikan esitysmateriaali: https://kehittajille.suomi.fi/tapahtumat/suomi-fi-viestien-tukiklinikka-etenemissuunnitelma-julkishallinnon-organisaatioille
+* Siilinjärven edellä mainitsema epäonnistuneiden tekstiviestien ongelma on loppunut myös OUTIssa eikä asiakaspalautetta ole tullut.
 
 **Helle**
 * Emmi sulkenut vuoden 2023 ja vuoden 2024 kausijulkaisutitilaukset [Hellen kausijulkaisutilausten sulkeminen, vuodet 2023 ja 2024](https://github.com/KohaSuomi/Koha/issues/1994)
