@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
@@ -28,6 +28,9 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Laur
 * Koha-Suomen henkilökunta osallistuu Kirjastoverkkopäiville 22.-23.10.2025 Helsingissä (Anneli lähtee jo 21.10. junailemaan)
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Johannan tekemää kuljetus-rajapintaa päästy Kelluttimen kanssa viimein testailemaan ja alustavasti vaikuttaa ainakin toimivan kuten pitää.
 
 **Lastu**
 * Kyseltiin kannattaako tuotantoon tehdyt muutokset viedä myös nextille, ja todettiin että kannattaa
