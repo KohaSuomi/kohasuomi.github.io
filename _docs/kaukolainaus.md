@@ -442,7 +442,7 @@ Your interlibrary loan request has been cancelled since the title [% ill_bib_tit
 #### ILL_SLIP
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
-Otsikko: Interlibrary loanslip
+Otsikko: Interlibrary loan slip
 Viestityyppi: Print
 Täppä html-kohtaan
 
@@ -453,7 +453,7 @@ Täppä html-kohtaan
   p { font-family: arial; font-size: 10pt; }
 </style>
  
-<h1>Interlibrary loan</h1>
+<h1>Interlibrary loan slip</h1>
  
 <br />
 <h2>Library member: <<borrower-attribute:HOLDID>></h2><br /><br />
