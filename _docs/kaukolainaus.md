@@ -193,6 +193,46 @@ Viestityyppi: Sms
 ```
 Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
 ```
+#### ILL_SLIP
+
+Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
+
+Otsikko: Kaukolainan infokuitti
+Viestityyppi: Tulosta
+Täppä html-kohtaan
+
+```
+<style type="text/css">
+  h1 { font-family: arial; font-size: 20pt; }
+  h2 { font-family: arial; font-size: 14pt; }
+  p { font-family: arial; font-size: 10pt; }
+</style>
+
+<h1>Kaukolainan infokuitti</h1>
+
+<br />
+<h2>Asiakas: <<borrower-attribute:HOLDID>></h2><br /><br />
+
+<p>
+Eräpäivä: _______________________________<br /><br />
+
+Teos: ___________________________________<br /><br />
+
+Tekijä: __________________________________<br /><br />
+
+Kaukolainan hinta: _______________________<br /><br />
+
+Noutopaikka: __________________________<br /><br />
+
+Kaukolainanumero: _____________________<br /><br />
+
+Ilmoitustapa: ___________________________<br /><br />
+
+</p>
+
+<p>Jos haluat uusia kaukolainan, ole yhteydessä omaan kirjastoon.</p>
+<p>Yhteystiedot: Kaukolainakirjasto, puh. 123 456</p>
+```
 
 #### Viestipohjat ruotsiksi
 
@@ -387,6 +427,19 @@ Viestityyppi: SMS
 ```
 Your interlibrary loan request has been cancelled since the title [% ill_bib_title %] / [% ill_bib_author %] is not available. Best regards, [% branch.branchname %]
 ```
+
+#### ILL_SLIP
+
+Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
+
+Otsikko: Kaukolainan infokuitti
+Viestityyppi: Tulosta
+Täppä html-kohtaan
+
+
+
+
+
 
 ### FA-kuvailupohja
 
