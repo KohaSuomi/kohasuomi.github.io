@@ -8,6 +8,12 @@ toc: true
 
 ## Kaukolainamoduulin käyttöönotto
 
+### Koha-config
+
+Koha-config-tiedostoon (koha-conf.xml) pitää lisätä 'branch' blokkiin kirjastokoodi. 
+
+Tarviiko lisätä kaikki ne kirjastot, jotka tulee käyttämään moduulia?
+
 ### Järjestelmäasetukset
 
 Mene Ylläpito ->  Järjestelmäasetukset -> Kaukolainat
