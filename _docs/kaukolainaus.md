@@ -27,6 +27,11 @@ ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston
 IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } | Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
 IntranetUserCSS|Poista "/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] { display: none; }" -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
 
+
+### Kirjaston tiedot
+
+Lisää niille kirjastoille, jotka käyttävät kaukolainamoduulia Kaukolainauksen sähköposti -kenttään tieto sekä Huomautukset-kenttään kaukolainauksen puhelinnumero, jotta tiedot saadaan kuiteille.
+
 ### Auktorisoidut arvot
 
 ILL_STATUS_ALIAS -auktorisoitu arvo
@@ -231,7 +236,7 @@ Ilmoitustapa: ___________________________<br /><br />
 </p>
 
 <p>Jos haluat uusia kaukolainan, ole yhteydessä omaan kirjastoon.</p>
-<p>Yhteystiedot: Kaukolainakirjasto, puh. 123 456</p>
+<p>Yhteystiedot: <<branches.branchname>>, <<branches.branchillemail>>, <<branches.branchnotes>></p>
 ```
 
 #### Viestipohjat ruotsiksi
