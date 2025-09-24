@@ -10,7 +10,7 @@ toc: true
 
 ### Koha-config
 
-Koha-config-tiedostoon (koha-conf.xml) pitää lisätä 'branch' blokkiin kirjastokoodi. 
+Koha-config-tiedostoon (koha-conf.xml) pitää kehittäjien lisätä 'branch' blokkiin kirjastokoodi. 
 
 Tarviiko lisätä kaikki ne kirjastot, jotka tulee käyttämään moduulia?
 
