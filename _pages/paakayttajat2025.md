@@ -55,7 +55,7 @@ Etelästä pohjoiseen
 * Siilinjärven edellä mainitsema epäonnistuneiden tekstiviestien ongelma on loppunut myös OUTIssa eikä asiakaspalautetta ole tullut.
 
 **Helle**
-* Emmi sulkenut vuoden 2023 ja vuoden 2024 kausijulkaisutitilaukset [Hellen kausijulkaisutilausten sulkeminen, vuodet 2023 ja 2024](https://github.com/KohaSuomi/Koha/issues/1994)
+* Emmi sulkenut vuoden 2023 ja vuoden 2024 kausijulkaisutitilaukset sekä tiputtanut odottaa-tilaiset reklamaatiot-listalta [Hellen kausijulkaisutilausten sulkeminen, vuodet 2023 ja 2024](https://github.com/KohaSuomi/Koha/issues/1994)
 * Hellestä kaksi osallistujaa Koha ruotsiksi -käännöstyöryhmään: Madeleine Lindholm (Raasepori), Frida Wickholm (Sipoo)
 * Korjattu kunnankirjastojen niteiden signumeita. Korjattavien hakuapuna Kohan Nidehaku-toiminto.
 
