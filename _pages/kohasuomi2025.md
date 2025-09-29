@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 40
 
 Aika: Ma 29.9.2025<br />
-Läsnä:
+Läsnä: Ari, Emmi, Johanna, Pasi, Robert, Lari
 
 * Viikon 40 päivitys
 * Päivystysvuorot viikosta 41 alkaen
