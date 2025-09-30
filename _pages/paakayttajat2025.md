@@ -12,10 +12,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
-* Kyytiläisten Power Automate-esittely
+* Kouvolan Power Automate-esittely
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2004)
 * [Asiantuntijaryhmän muistio 8/2025](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-82025) (vielä viimeistelemätön)
 
@@ -41,12 +41,15 @@ Pohjoisesta etelään
 * Äänikirjojoen aineistotyyppimuutokset on tehty tuotantoon, testille ja nextille.
 * Käyttäjällä on ongelmana, ettei hän saa generoitua nidetyyppiä, kun hän lisää monikielisen kirjaston aineistolle niteitä. Ongelma syyksi selvisi, että tietueilta puuttui aineistolajitieto.
 
+**Kyyti**
+* Kotkassa automatissa ollut ongelmaa sähkökatkon jälkeen.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 39
 
 Aika: Ti 23.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/1997)
