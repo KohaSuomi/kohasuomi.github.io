@@ -2778,16 +2778,17 @@ ORDER BY copyrightdate ASC
 
 ### Tietueiden haku MARC-kentän ja -osakentän mukaan
 
-Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber. Raportilla ei voi hakea kiinteämittaisista kentistä.
+Hieman muunnettu versio yllä olevasta kyselystä. Kyselyssä voi kyselyn ajaja määrittää, mistä MARC-kentistä ja sen -osakentistä haetaan tietoa ja mitä sieltä haetaan. Tuloksena tulee tietueen biblionumber ja nimeke. Raportilla ei voi hakea kiinteämittaisista kentistä.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 30.7.2024<br />
+Pvm: 30.7.2024, päivitetty 30.9.2025<br />
 Versio: 24.05
 
 ```
 SELECT biblionumber,ExtractValue(bm.metadata, '//datafield[@tag="245"]/subfield[@code="a"]') as 'Nimeke 245a'
 FROM biblio_metadata bm
 WHERE ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') like <<Mitä kentästä haetaan? Katkaise %-merkillä>>
+AND ExtractValue(bm.metadata,'//datafield[@tag='<<MARC-kenttä>>']/subfield[@code='<<MARC-osakenttä>>']') !=''
 ```
 
 ### Tietueiden haku MARC-kentän ja -osakentän mukaan - huomioidaan myös kenttätoistumat
