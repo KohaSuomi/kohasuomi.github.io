@@ -12,9 +12,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
+* Kyytiläisten Power Automate-esittely
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2004)
 * [Asiantuntijaryhmän muistio 8/2025](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-82025) (vielä viimeistelemätön)
 
