@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Kyytiläisten Power Automate-esittely
@@ -33,6 +33,13 @@ Pohjoisesta etelään
 
 **Kirkes**
    * Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa suunniteltu huomiseksi 1.10.2025. Kirkes-kirjastoissa Suomi.fi-viestit on jo käytössä, mutta laajenee REST-rajapinnan myötä niin, että kaikki kirjaston viestit on mahdollista saada Suomi.fi-viestinä.
+
+**OUTI**
+* Torstaina 25.9. oli tullut taas asiakkaiden tekstiviesti-ilmoitusten tilaksi, että lähetys on epäonnistunut. Ongelmaa oli ollut aamun ja aamupäivän aikana. Viimeisin tekstiviestilähetys oli klo 12.15, johon tieto oli tullut. Ongelma oli ilmeisesti sama kuin edellisviikolla eli sanoman kuittauksessa Kohaan oli ollut ongelma. myLink-liittymässä ko. ajankohtana viestien tilana oli ”toimitettu”. Asiakkailta ei myöskään ole tullut palautetta, että viestit eivät olisi menneet perille.
+* Kysytty DVV:ltä, onko kirjastot velvoitettuja ottamaan Suomi.fi-viestit käyttöön viimeistään vuoden loppuun mennessä. Vastaukseksi saimme:
+  * "Kirjastot toimivat yleensä kuntien y-tunnuksen alla, joten heillä on velvollisuus käyttää Suomi.fi- viestejä hoitaessaan lakisääteisiä tehtäviä ja oikeus sitten taas muissa tehtävissään. Arviointi siitä, mitkä toiminnot kuuluvat lakisääteisiin tehtäviin, pitäisi määritellä organisaation sisällä eli tässä tapauksessa xxxx kaupungin sisällä. Apuna toiminee myös Laki yleisistä kirjastoista 1492/2016."
+* Äänikirjojoen aineistotyyppimuutokset on tehty tuotantoon, testille ja nextille.
+* Käyttäjällä on ongelmana, ettei hän saa generoitua nidetyyppiä, kun hän lisää monikielisen kirjaston aineistolle niteitä. Ongelma syyksi selvisi, että tietueilta puuttui aineistolajitieto.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
