@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * Kyytiläisten Power Automate-esittely
@@ -20,6 +20,10 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 * [Asiantuntijaryhmän muistio 8/2025](https://koha-suomi.fi/asiantuntijaryhma2025#muistio-82025) (vielä viimeistelemätön)
 
 Pohjoisesta etelään
+
+**Vaara**
+* Celia-äänikirjan tarvitsemat toimenpiteet lisätty kaikkiin Vaaran versioihin (tuotanto, testi ja next)
+* Kohan kaukolainamoduulia testattu
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
