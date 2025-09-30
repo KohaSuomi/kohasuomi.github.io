@@ -19,11 +19,11 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 8/2025
 
 Aika: Ti 23.9.2025 klo 13<br />
-Läsnä: Ari, Emmi, Janne, Kati, Katja, Leena, Outi, Susanna, Erika, Päivi, Roosa, Anneli
+Läsnä: Ari Mäkiranta, Emmi Takkinen ja Anneli Österman (Koha-Suomi), Janne Seppänen (Lastu-kirjastot), Kati Sillgren (Helle-kirjastot), Katja Valjakka (Lumme-kirjastot), Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Susanna Sandell (Vaski-kirjastot), Erika Miettinen (Kirkes-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Roosa Väisänen (Kyyti-kirjastot)
 
 ### 1. Ajankohtaiset
 
-Versionvaihdon valmistelu on aloitettu. Koha-Suomi piti "aloituspalaverin" maanantaina 22.9.2025 ja teki työnjakoa versionvaihdon tikettien osalta. Tuotantojen viikkopäivitykset jäädytetään viikosta 41 lähtien eli viikon 40 päivitys on näillä näkymin viimeinen ennen versionpäivitystä. Toki kriittiset päivitykset ja tietoturvapäivitykset tehdään tarvittaessa. [Versionvaihdon ensimmäinen tiedote on julkaistu](https://github.com/KohaSuomi/Koha/discussions/1969) ja sieltä voi kaikki kerrata, mitä kaikkea prosessi pitääkään sisällä. 
+Versionvaihdon valmistelu on aloitettu. Koha-Suomi piti "aloituspalaverin" maanantaina 22.9.2025 ja sovittiin työnjaosta versionvaihdon tikettien osalta. Tuotantojen viikkopäivitykset jäädytetään viikosta 41 lähtien eli viikon 40 päivitys on näillä näkymin viimeinen ennen versionpäivitystä. Toki kriittiset päivitykset ja tietoturvapäivitykset tehdään tarvittaessa. [Versionvaihdon ensimmäinen tiedote on julkaistu](https://github.com/KohaSuomi/Koha/discussions/1969) ja sieltä voi kaikki kerrata, mitä kaikkea prosessi pitääkään sisällä. 
 
 ### 2. MTYPE:t äänikirja-aineistotyypeille
 
@@ -36,22 +36,24 @@ PUHETAL; Äänitallenne, puhe|E-äänikirja
 PUHEKAS; Kasetti, puhe|Kasettiäänikirja
 PUHELEVY; Äänilevy, puhe|Muu äänikirja
 
-Päätös: Luodaan Celia-äänikirjalle uusi MTYPE tunnuksella CELIA ja selitteeksi Celia-äänikirja
+**Päätös**: 
+
+Luodaan Celia-äänikirjalle uusi MTYPE tunnuksella CELIA ja selitteeksi Celia-äänikirja
 
 Muissa tunnukset pidetään samana, mutta muutetaan selite vastaamaan Finnan selitteitä/kuvauksia. Pääkäyttäjien pitää käydä lisäämässä uusi MTYPE CELIA ja muuttamassa muihin tässä mainittuihin kuvaus vastaamaan Finnaa. Muutoksen voi tehdä heti MTYPEihin.
 
-Kun muutos on tehty finnamaterialtypes-moduuliin, niin pitää ajaa ajo, joka muuttaa Celia-äänikirjoilla MTYPEn CELIAksi.
+Kun kehittäjät ovat tehneet tarvittavat muutokset finnamaterialtypes-moduuliin, niin pitää ajaa ajo, joka muuttaa Celia-äänikirjoilla MTYPEn CELIAksi olemassa olevilla tietueilla.
 
-OKM-liitännäisessä pitää CELIA lisätä määrityksissä itemTypeToStatisticalCategory:-kohtaan kategorialla Recordings. Tämän voi lisätä sen jälkeen, kun aineistotyyppi on lisätty MTYPE-auktorisoituun arvoon.
+OKM-liitännäisessä pitää CELIA lisätä määrityksissä itemTypeToStatisticalCategory:-kohtaan kategorialla Recordings. Tämän voi lisätä sen jälkeen, kun aineistotyyppi on lisätty MTYPE-auktorisoituun arvoon. Jos määritystä ei muista tehdä, epäonnistuu seuraava OKM-tilastoajo, koska se ei löydä tarvitsemiaan tietoja.
 
 Jos kuvailupohjissa on merkittynä oletusarvoksi Celialle CDPUHE, pitää se vaihtaa CELIAksi.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Tulostusjonoon nidettä lisätessä näkyville tieto jonossa olevien niteiden määrästä #9](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/9)
-  * Päätös: Ei toteuteta
+  * Päätös: Ei toteuteta, koska kimpoissa ei ollut tarvetta ehdotetulle toiminnolle.
 * [Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta #1979](https://github.com/KohaSuomi/Koha/issues/1979)
-  * Päätös: Tehdään popup, joka huomauttaa, että kentät pitää tyhjentää, jos osoiterivillä on duplicate-tieto. Luodaan nextille ja käyttöön versionvaihdon yhteydessä. Edistetään versionvaihdon jälkeen yhteisössä bugia [Bug 18138](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18138) - Use MARC modification template when adding/updating bibliographic records, mikäli se ei ole edistynyt siihen mennessä.
+  * Päätös: Tehdään väliaikaisesti popup, joka huomauttaa, että kentät pitää tyhjentää, jos osoiterivillä on duplicate-tieto. Luodaan nextille ja käyttöön versionvaihdon yhteydessä. Edistetään versionvaihdon jälkeen yhteisössä bugia [Bug 18138](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18138) - Use MARC modification template when adding/updating bibliographic records, mikäli se ei ole edistynyt siihen mennessä.
 * [Ehdotuksia, missä tilanteessa tietueita ei saa viedä Melindaan #1984](https://github.com/KohaSuomi/Koha/issues/1984)
   * Tiketti on todella laaja ja pitää sisällään ainakin kolme erillistä toiminnallisuutta. Voisiko tämän palastella pienempiin osiin ja arvioidaan sitten niiden toteutuskelpoisuus ja työllistävyys.
 
@@ -63,7 +65,7 @@ OUTI: Niteen lainahistoria-linkki piilotettu: OUTIn pienet kirjastot tarvitsevat
 
 Koha-Suomen henkilökunta osallistuu Kansalliskirjaston Kirjastoverkkopäiville 22.-23.10.2025 Helsingissä.
 
-Kirkes-kirjastoissa on päätetty, että Erika Miettinen on vuoden loppuun saakka varsinaisena jäsenenä. Anu Järvi jatkaa varajäsenenä.
+Kirkes-kirjastoissa on päätetty, että Erika Miettinen on vuoden loppuun saakka varsinaisena jäsenenä asiantuntijaryhmässä. Anu Järvi jatkaa varajäsenenä.
 
 ### 5. Seuraava kokous
 
