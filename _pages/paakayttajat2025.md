@@ -29,7 +29,7 @@ Pohjoisesta etelään
 * Lauantaina automaatit eivät toimineet, SIP-palvelin ollut alhaalla
 * Hankinnan budjetit ja tilit tehty kirjastoille
 * Hankintaportaalin käyttäjälista laitettu tarkistettavaksi johtajille, koska käyttäjissä oli jonkin verran tiedossa olleita kimpasta poistuneita henkilöitä 
-* Laitettu päälle käyttäjäryhmä päätöksellä istunnon aikakatkaisu-poppari
+* Laitettu päälle käyttäjäryhmän päätöksellä istunnon aikakatkaisu-poppari
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
