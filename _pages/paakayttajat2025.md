@@ -31,7 +31,7 @@ Pohjoisesta etelään
 * Hankintaportaalin käyttäjälista laitettu tarkistettavaksi johtajille, koska käyttäjissä oli jonkin verran tiedossa olleita kimpasta poistuneita henkilöitä 
 * Laitettu päälle käyttäjäryhmän päätöksellä istunnon aikakatkaisu-poppari
 
-  **Kirkes**
+**Kirkes**
    * Suomi.fi-REST-rajapinnan tuotantokäyttöönottoa suunniteltu huomiseksi 1.10.2025. Kirkes-kirjastoissa Suomi.fi-viestit on jo käytössä, mutta laajenee REST-rajapinnan myötä niin, että kaikki kirjaston viestit on mahdollista saada Suomi.fi-viestinä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
