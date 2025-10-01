@@ -45,8 +45,8 @@ Pohjoisesta etelään
 * Kotkassa automatissa ollut ongelmaa sähkökatkon jälkeen.
 
 **Helle**
-* Käyttäjän sotusiiloon kirjautuminen ei onnistunut tunnuksellaan. Kirjautumisyrityksestä Tarkista tunnus -ilmoitus. Selaimen välimuistin tyhjennyksen jälkeen kirjautuminen onnistui.
-* Kirjaston aikuinen asiakas ilmoittanut saaneensa huollettavansa lainoista muistutusilmoituksen, mutta ei ennakkoilmoitusta lainojen eräpäivästä. ASiakkaalla on Gmail-sähköpostipalvelu käytössä.
+* Käyttäjän sotusiiloon kirjautuminen ei onnistunut tunnuksellaan. Kirjautumisyrityksestä Tarkista tunnus -ilmoitus. Selaimen välimuistin ja historiatietojen tyhjennyksen jälkeen kirjautuminen onnistui.
+* Kirjaston aikuinen asiakas ilmoittanut saaneensa huollettavansa lainoista muistutusilmoituksen, mutta ei ennakkoilmoitusta lainojen eräpäivästä. Asiakkaalla on Gmail-sähköpostipalvelu käytössä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
