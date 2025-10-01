@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Kouvolan Power Automate-esittely
@@ -43,6 +43,10 @@ Pohjoisesta etelään
 
 **Kyyti**
 * Kotkassa automatissa ollut ongelmaa sähkökatkon jälkeen.
+
+**Helle**
+* Käyttäjän sotusiiloon kirjautuminen ei onnistunut tunnuksellaan. Kirjautumisyrityksestä Tarkista tunnus -ilmoitus. Selaimen välimuistin tyhjennyksen jälkeen kirjautuminen onnistui.
+* Kirjaston aikuinen asiakas ilmoittanut saaneensa huollettavansa lainoista muistutusilmoituksen, mutta ei ennakkoilmoitusta lainojen eräpäivästä. ASiakkaalla on Gmail-sähköpostipalvelu käytössä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
