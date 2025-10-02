@@ -341,6 +341,46 @@ Viestityyppi: sms
 
 ```Hej [% borrower.firstname %]. [% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. Mvh [% branch.branchname %]```
 
+#### ILL_SLIP
+
+Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
+
+Otsikko: Kvitto på fjärrlån
+Viestityyppi: Tulosta
+Täppä html-kohtaan
+
+```
+<style type="text/css">
+  h1 { font-family: arial; font-size: 20pt; }
+  h2 { font-family: arial; font-size: 14pt; }
+  p { font-family: arial; font-size: 10pt; }
+</style>
+
+<h1>Kvitto på fjärrlån</h1>
+
+<br />
+<h2>Låntagare: <<borrower-attribute:HOLDID>></h2><br /><br />
+
+<p>
+Förfallodag: _______________________________<br /><br />
+
+Titel: ___________________________________<br /><br />
+
+Författare: __________________________________<br /><br />
+
+Fjärrlåneavgift: _______________________<br /><br />
+
+Avhämtningsbibliotek: __________________________<br /><br />
+
+Fjärrlånenummer: _____________________<br /><br />
+
+Meddelande via: ___________________________<br /><br />
+
+</p>
+
+<p>Om du vill förnya fjärrlånet, ta kontakt med ditt eget bibliotek.</p>
+<p>Kontaktuppgifter: <<branches.branchname>>, <<branches.branchillemail>>, <<branches.branchnotes>></p>
+```
 ### Viestipohjat englanniksi
 
 #### ILL_REQUEST_UPDATE 
@@ -481,7 +521,12 @@ Notification via: ___________________________<br /><br />
 
 ### FA-kuvailupohja
 
-Tämä puuttuu vielä pohjasta: 942n=1 estää tietueen näkymisen verkkokirjastossa eli sen voisi laittaa kaukolainojen käyttämän Fast Add -kuvailupohjan oletusarvoksi
+Jos kaukolainapyynnöstä muodostuu Kohaan uusi tietue, käytetään siinä automaattisesti FA-nimistä eli Fast Add -kuvailupohjaa. Tätä varten luotiin "redusoidun" ACQ-kuvailupohjan pohjalta FA-pohja, johon asetettiin 942$n-kenttään oletusarvoksi 1, jolloin tietue piilottuu verkkokirjastosta hauista, mutta näkyy asiakkaan lainoissa.
+
+Alla on FA-kuvailupohja, jonka voi viedä oman kimpan kuvailupohjiin vientitoiminnolla:
+
+[export_FA.ods](https://github.com/user-attachments/files/22656626/export_FA.ods)
+
 
 ### Raportit
 
