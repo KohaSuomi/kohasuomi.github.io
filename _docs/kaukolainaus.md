@@ -1,20 +1,18 @@
 ---
-title: 'Kohan ohje suomeksi'
+title: 'Kaukolaina-moduulin käyttöönotto'
 permalink: /dokumentaatio/kaukolainaus/
 redirect_from:
   - /theme-setup/
 toc: true
 ---
 
-## Kaukolainamoduulin käyttöönotto
-
-### Koha-config
+## Koha-config
 
 Koha-config-tiedostoon (koha-conf.xml) pitää kehittäjien lisätä 'branch' blokkiin kirjastokoodi. 
 
 Tarviiko lisätä kaikki ne kirjastot, jotka tulee käyttämään moduulia?
 
-### Järjestelmäasetukset
+## Järjestelmäasetukset
 
 Mene Ylläpito ->  Järjestelmäasetukset -> Kaukolainat
 
@@ -34,11 +32,11 @@ IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-i
 IntranetUserCSS|Poista "/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] { display: none; }" -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
 
 
-### Kirjaston tiedot
+## Kirjastojen tiedot
 
 Lisää niille kirjastoille, jotka käyttävät kaukolainamoduulia Kaukolainauksen sähköposti -kenttään tieto sekä Huomautukset-kenttään kaukolainauksen puhelinnumero, jotta tiedot saadaan kuiteille.
 
-### Auktorisoidut arvot
+## Auktorisoidut arvot
 
 ILL_STATUS_ALIAS -auktorisoitu arvo
 
@@ -52,21 +50,23 @@ CHECKEDOUT|Lainattu asiakkaalle (Lisätieto, jota ei lisätä kuvaukseen: jos ni
 CLAIMED|Karhuttu
 
 
-### Nidetyyppi
+## Nidetyyppi
 
 Tunnus: KAUKOLAINA<br />
 Kuvaus: Kaukolaina<br />
 Palautusviesti: Tähän jonkinlainen huomautus, että kyseessä on kaukolaina ja tarvitsee erilaista käsittelyä<br />
 Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus palautuksessa, erottuu paremmin kuin viesti)
 
-### Käyttäjäoikeudet
+## Käyttäjäoikeudet
+
+Kaukolaina-moduulin käyttäjä tarvitsee seuraavat käyttäjäoikeudet:
 
 * ill - jotta pääsee kaukopalvelumoduuliin
 * fast_cataloging  - jotta pystyy käsittelemään kaukolainamoduulin kautta luotuja tietueita/niteitä, joilla on FA-kuvailupohja käytössä
 * override_renewals - jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0
 * overdues_report - jotta käyttäjä voi avata Myöhässä-raportin Lainaus ja palautus -sivulla
 
-### Laina- ja maksusäännöt
+## Laina- ja maksusäännöt
 
 * Asiakastyyppi: Tee sääntö, joka koskee kaikkia asiakastyyppejä. Jos jollekin asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolaina-niteen tehdä myös erikseen kyseiselle asiakastyypille.
 * Nidetyyppi: Kaukolaina
@@ -90,18 +90,19 @@ Jos asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa sää
 
 Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaamista, pitää asiakastyypille tehdä sääntö, jossa lainamäärä on 0. Esim. VIRKAILIJA-asiakastyyppi.
 
-### Viestipohjat ja uudet viestiasetukset
+## Viestipohjat ja uudet viestiasetukset
 
-#### Viestiasetukset
+### Viestiasetukset
 
 Uudet viestiasetukset asiakastiedoissa:
 * Interlibrary loan ready
 * Interlibrary loan unavailable
 
+Nämä valitaan asiakaskohtaisesti tarvittaessa.
 
-#### Viestipohjat suomeksi
+### Viestipohjat suomeksi
 
-##### ILL_REQUEST_UPDATE
+#### ILL_REQUEST_UPDATE
 
 Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä. Tämä pohja kannattaa kopioida myös suomi.fi-palvelun kohdalle.
 
@@ -127,7 +128,7 @@ Ystävällisin terveisin
 [% branch.branchemail %]
 ```
 
-##### ILL_PICKUP_READY
+#### ILL_PICKUP_READY
 
 Otsikko: Kaukolainan noutoilmoitus
 Viestityyppi: email ja suomifi
@@ -157,7 +158,7 @@ Viestityyppi: sms
 Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta. Kaukolainamaksu: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
 ```
 
-##### ILL_PARTNER_REQ
+#### ILL_PARTNER_REQ
 
 Otsikko: Kaukolainapyyntö
 Viestityyppi: email
@@ -178,7 +179,7 @@ Ystävällisin terveisin
 [% branch.branchillemail %]
 ```
 
-##### ILL_REQUEST_UNAVAIL
+#### ILL_REQUEST_UNAVAIL
 
 Otsikko: Pyytämäsi kaukolaina ei ole saatavilla
 Viestityyppi: email ja suomifi
@@ -204,7 +205,7 @@ Viestityyppi: Sms
 ```
 Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
 ```
-#### ILL_SLIP
+### ILL_SLIP
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
 
@@ -245,9 +246,9 @@ Ilmoitustapa: ___________________________<br /><br />
 <p>Yhteystiedot: <<branches.branchname>>, <<branches.branchillemail>>, <<branches.branchnotes>></p>
 ```
 
-#### Viestipohjat ruotsiksi
+### Viestipohjat ruotsiksi
 
-##### ILL_REQUEST_UPDATE
+#### ILL_REQUEST_UPDATE
 
 
 Otsikko: Din fjärrlånebeställning har uppdaterats
@@ -269,7 +270,7 @@ Med vänlig hälsning,
 [% branch.branchemail %]
 ```
 
-##### ILL_PICKUP_READY
+#### ILL_PICKUP_READY
 
 Otsikko: Fjärrlån finns att hämta
 Viestityyppi: email och suomifi
@@ -297,7 +298,7 @@ Viestityyppi: sms
 Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %]. Avgift: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %].Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Mvh [% branch.branchname %]
 ```
 
-##### ILL_PARTNER_REQ
+#### ILL_PARTNER_REQ
 
 Otsikko: Beställning av fjärrlån
 Viestityyppi: email
@@ -316,7 +317,7 @@ Med vänlig hälsning,
 [% branch.branchillemail %]
 ```
 
-##### ILL_REQUEST_UNAVAIL
+#### ILL_REQUEST_UNAVAIL
 
 Otsikko: Det fjärrlån du har beställt finns inte tillgängligt
 Viestityyppi: email och suomifi
@@ -341,7 +342,7 @@ Viestityyppi: sms
 
 ```Hej [% borrower.firstname %]. [% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. Mvh [% branch.branchname %]```
 
-#### ILL_SLIP
+### ILL_SLIP
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
 
@@ -519,7 +520,7 @@ Notification via: ___________________________<br /><br />
 <p>Contact information: <<branches.branchname>>, <<branches.branchillemail>>, <<branches.branchnotes>></p>
 ```
 
-### FA-kuvailupohja
+## FA-kuvailupohja
 
 Jos kaukolainapyynnöstä muodostuu Kohaan uusi tietue, käytetään siinä automaattisesti FA-nimistä eli Fast Add -kuvailupohjaa. Tätä varten luotiin "redusoidun" ACQ-kuvailupohjan pohjalta FA-pohja, johon asetettiin 942$n-kenttään oletusarvoksi 1, jolloin tietue piilottuu verkkokirjastosta hauista, mutta näkyy asiakkaan lainoissa.
 
@@ -528,11 +529,11 @@ Alla on FA-kuvailupohja, jonka voi viedä oman kimpan kuvailupohjiin vientitoimi
 [export_FA.ods](https://github.com/user-attachments/files/22656626/export_FA.ods)
 
 
-### Raportit
+## Raportit
 
 * myöhässä olevia kaukolainoja voi seurata Overdues-raportilla (vaatii overdues_report-oikeuden)
 * luodaan raportteja sitä mukaa, kun toiminto on otettu käyttöön ja huomataan uusia tarpeita raporteille.
 
-### Kuinka asiakkaat tekevät kaukolainapyyntöjä
+## Kuinka asiakkaat tekevät kaukolainapyyntöjä
 
 * Tämän osalta tutkitaan vielä, miten lomakkeen voisi toteuttaa Finnaan. Mallina voisi mahdollisesti käyttää erilaisia hankintaehdotuslomakkeita.
