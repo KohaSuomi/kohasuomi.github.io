@@ -205,7 +205,7 @@ Viestityyppi: Sms
 ```
 Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
 ```
-### ILL_SLIP
+#### ILL_SLIP
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
 
@@ -342,7 +342,7 @@ Viestityyppi: sms
 
 ```Hej [% borrower.firstname %]. [% ill_bib_title %] / [% ill_bib_author %], som du hade beställt, finns tyvärr inte tillgängligt för fjärrlån. Mvh [% branch.branchname %]```
 
-### ILL_SLIP
+#### ILL_SLIP
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
 
