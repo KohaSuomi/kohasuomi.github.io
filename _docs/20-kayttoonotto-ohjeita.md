@@ -28,6 +28,12 @@ Finto-liitännäisiä voi hakea auktorisoituja muotoja käytettävistä termeist
 
 [Finto-liitännäisten määrittely](/dokumentaatio/finto/)
 
+## Kaukolaina-moduuli
+
+Työryhmän tekemät ja miettimät ohjeet Kaukolaina-moduuliin käyttöönottoa varten.
+
+[Kaukolaina-moduulin käyttöönotto-ohje](/dokumentaatio/kaukolainaus/)
+
 ## Laskutustyökalu
 
 Laskutustyökalu on toteutettu liitännäisenä.
