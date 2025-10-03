@@ -526,8 +526,7 @@ Jos kaukolainapyynnöstä muodostuu Kohaan uusi tietue, käytetään siinä auto
 
 Alla on FA-kuvailupohja, jonka voi viedä oman kimpan kuvailupohjiin vientitoiminnolla:
 
-[export_FA.ods](https://github.com/user-attachments/files/22656626/export_FA.ods)
-
+[export_FA.ods](https://github.com/user-attachments/files/22679865/export_FA.ods)
 
 ## Raportit
 
