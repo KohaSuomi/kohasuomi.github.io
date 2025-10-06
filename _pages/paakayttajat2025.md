@@ -9,6 +9,25 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 ---
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
+
+## Viikko 41
+
+Aika: Ti 7.10.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+
+* [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2012)
+* [borrowers/status](https://github.com/KohaSuomi/Koha-25x/issues/80)
+* [Niteen muokkausnäytöllä ei toimi Poista nide -linkki](https://github.com/KohaSuomi/Koha-25x/issues/127) - käyttääkö tuota kyseistä linkkiä kukaan? Tarviiko korjausta tuoda? Tähän liittyy  myös ongelma, että Peruuta-nappi ei myöskään toimi poisto-prosessissa.
+* Versionvaihto
+  * nexteille tuotu uudemmat käännöstiedostot, mutta esim. yläreunan Lisätietoja-valikon teksti ei vielä toimi oikein. Vaatinee koodinkin tuontia vielä.
+  * [Osa tiketeistä on jo testattavissa](https://github.com/orgs/KohaSuomi/projects/6/views/3)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
