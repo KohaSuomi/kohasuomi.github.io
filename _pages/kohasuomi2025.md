@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 41
 
 Aika: Ma 6.10.2025<br />
-Läsnä:
+Läsnä: Pasi, Emmi, Lari, Johanna, Kodo, Anneli
 
 * Viikon 41 päivitys
 * Vastuuttomat tiketit
