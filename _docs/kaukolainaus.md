@@ -21,15 +21,68 @@ Asetuksen nimi|Valinta|Selite
 ILLDefaultStaffEmail |Jätä tyhjäksi|Ei tarpeen
 ILLSendStaffNotices |Jätä tyhjäksi|
 CirclulateILL|Älä salli/Salli|Tämä sallii lainaamisen suoraan kaukolainapyynnön kautta ilman että mennään asiakkaan tietoihin ja manuaalisesti luetaan niteen viivakoodi. Tämä luo automaattisesti niteen ja sille viivakoodin.
-ILLHiddenRequestStatuses |Kaukolainastatukset, joita pidetään valmiina, ja joita ei tulisi näyttää kaukolainamoduulissa: (erotetaan putki-merkillä). Jos jätetään tyhjäksi, kaikki kaukolainapyynnöt näytetään. Pyyntökoodit määritetään taustajärjestelmässä ja lisäaliaksia voi määrittää auktorisoidun arvon luokkaan ILL_STATUS_ALIAS.| Status-aliakset vielä kesken
+ILLHiddenRequestStatuses |CANCELLED, EXPIRED| Kaukolainastatukset, joita pidetään valmiina, ja joita ei tulisi näyttää kaukolainamoduulissa: (erotetaan putki-merkillä). Jos jätetään tyhjäksi, kaikki kaukolainapyynnöt näytetään. Pyyntökoodit määritetään taustajärjestelmässä ja lisäaliaksia voi määrittää auktorisoidun arvon luokkaan ILL_STATUS_ALIAS.
 ILLModule |Käytä|Tämä on ns. pääkytkin, jolla Kaukolaina-toiminto kytketään päälle ja pois päältä.
 ILLModuleUnmediated |Älä salli|Vaatii toimiakseen Kohan oma verkkokirjaston (opac)
 ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön lähetykseen näkyville Kaukolainakirjasto-tyyppiset asiakastiedot, joilla on tiedoissaan sähköpostiosoite tallennettuna
+ILLRequestsTabs | <img width="511" height="243" alt="kuva" src="https://github.com/user-attachments/assets/be6f5c99-3ecb-49ac-8a57-4acf5d532d3a" />|Asetuksella voi lisätä välilehtiä, joissa tietyn tilaiset pyynnöt näkyvät
+ILLDefaultStaffEmail | Jätä tyhjäksi | Tähän voi määrittää, mihin sähköpostiosoitteeseen lähetetään viestit, jos kirjastolle ei ole merkitty kaukolaina-osoitetta
+ILLSendStaffNotices |Jätä tyhjäksi|Tähän voi määrittää, mitkä kaukolainojen tiloihin liittyvät viestit lähetetään henkilökunnalle sähköpostina. Voi myös halutessaan määrittää viestit, mutta ei ole pakko.
+AutoILLBackendPriority | Ei anna valita mitään, koska ei ole asennettuna backendejä, joista voi tarkistaa saatavuuden|
 ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän tarvittavia yhteyksiä
+ILLHistoryCheck |Testattava|Tarkista/Älä tarkista, onko asiakas tehnyt aiemmin kaukolainapyynnön samaan teokseen. Vertailu tehdään käyttäen seuraavia tunnuksia: DOI, Pubmed ID tai ISBN. 
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
-IntranetUserCSS |/* ILL PatronAutoComplete -piilotus */ #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } | Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
-IntranetUserCSS|Poista "/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */ body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] { display: none; }" -piilotus | Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
+ILLOpacUnauthenticatedRequest | Älä salli | Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
+
+### IntranetUserCSS 
+
+Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
+```
+/* ILL PatronAutoComplete -piilotus */ 
+#illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } 
+```
+
+Poista alla oleva rimpsu asetuksesta, koska Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
+
+```
+/* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta 
+*/ body#circ_circulation-home.circ a[href*="/cgi-bin/koha/circ/overdue.pl"] { display: none; }" -piilotus
+```
+
+### IntranetUserJS
+
+Muuttaa asiakkaan lainat-taulussa Kaukolaina-sanan punaiseksi.
+
+```
+// Kaukolaina-nidetyypin tekstin värin muutos asiakkaan lainoissa
+$(document).ready(function() {
+  $("#issues-table-load-now-button").on("click", function() {
+    const observer = new MutationObserver(function(mutationsList) {
+      mutationsList.forEach(function(mutation) {
+        mutation.addedNodes.forEach(function(node) {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            const tdElements = node.querySelectorAll?.("td") || [];
+            tdElements.forEach(function(td) {
+              if (td.textContent.trim() === "Kaukolaina") {
+                td.style.color = "red";
+              }
+            });
+          }
+        });
+      });
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+
+    // Katkaise tarkkailu 5 sekunnin kuluttua
+    setTimeout(() => observer.disconnect(), 5000);
+  });
+});
+```
 
 
 ## Kirjastojen tiedot
