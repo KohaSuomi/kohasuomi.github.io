@@ -18,7 +18,8 @@ Läsnä:
 **Yhteiset**
 
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2012)
-* [borrowers/status](https://github.com/KohaSuomi/Koha-25x/issues/80)
+* [borrowers/status](https://github.com/KohaSuomi/Koha-25x/issues/136)-endpointissa on toimintoja, jotka eivät toimi, koska niiden "takana" ei ole koodia. Voisiko ne poistaa rajapinnasta kokonaan?
+  * asia pitänee varmistaa erilaisten [integraatioiden toimittajilta](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) ensin, jotta heidän palvelunsa ei lakkaa toimimasta.
 * [Niteen muokkausnäytöllä ei toimi Poista nide -linkki](https://github.com/KohaSuomi/Koha-25x/issues/127) - käyttääkö tuota kyseistä linkkiä kukaan? Tarviiko korjausta tuoda? Tähän liittyy  myös ongelma, että Peruuta-nappi ei myöskään toimi poisto-prosessissa.
 * Versionvaihto
   * nexteille tuotu uudemmat käännöstiedostot, mutta esim. yläreunan Lisätietoja-valikon teksti ei vielä toimi oikein. Vaatinee koodinkin tuontia vielä.
