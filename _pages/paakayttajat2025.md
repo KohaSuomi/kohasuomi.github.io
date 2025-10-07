@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi),
 
 **Yhteiset**
 
@@ -29,6 +29,10 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
   * sovitaan viikon 42 palaverissa Kohan ohje suomeksi -päivitysvastuut
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Lapin integraatiot päivitetty 7.10
+* Normaalia ylläpitoa *
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
