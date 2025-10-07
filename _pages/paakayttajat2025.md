@@ -13,14 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2012)
 * [borrowers/status](https://github.com/KohaSuomi/Koha-25x/issues/136)-endpointissa on toimintoja, jotka eivät toimi, koska niiden "takana" ei ole koodia. Voisiko ne poistaa rajapinnasta kokonaan?
   * asia pitänee varmistaa erilaisten [integraatioiden toimittajilta](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) ensin, jotta heidän palvelunsa ei lakkaa toimimasta.
+  * Anneli tekee tikettiin listan integraatioista, joissa käytetään borrowers/statusta ja kimpat voivat ilmoittaa, keneltä varmistavat asian.
 * [Niteen muokkausnäytöllä ei toimi Poista nide -linkki](https://github.com/KohaSuomi/Koha-25x/issues/127) - käyttääkö tuota kyseistä linkkiä kukaan? Tarviiko korjausta tuoda? Tähän liittyy  myös ongelma, että Peruuta-nappi ei myöskään toimi poisto-prosessissa.
+  * Tämän joutunee joka tapauksessa tuomaan, koska korjaus vaikuttaa myös Cancel-napin toimimattomuuteen.
 * Versionvaihto
   * nexteille tuotu uudemmat käännöstiedostot, mutta esim. yläreunan Lisätietoja-valikon teksti ei vielä toimi oikein. Vaatinee koodinkin tuontia vielä.
   * [Osa tiketeistä on jo testattavissa](https://github.com/orgs/KohaSuomi/projects/6/views/3)
