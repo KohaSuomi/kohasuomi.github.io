@@ -26,6 +26,7 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 * Versionvaihto
   * nexteille tuotu uudemmat käännöstiedostot, mutta esim. yläreunan Lisätietoja-valikon teksti ei vielä toimi oikein. Vaatinee koodinkin tuontia vielä.
   * [Osa tiketeistä on jo testattavissa](https://github.com/orgs/KohaSuomi/projects/6/views/3)
+  * sovitaan viikon 42 palaverissa Kohan ohje suomeksi -päivitysvastuut
 
 Etelästä pohjoiseen
 
