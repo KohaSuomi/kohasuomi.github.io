@@ -32,7 +32,7 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Lapin integraatiot päivitetty 7.10
-* Normaalia ylläpitoa *
+* Normaalia ylläpitoa 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
