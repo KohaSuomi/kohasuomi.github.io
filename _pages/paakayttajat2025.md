@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi),
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), 
 
 **Yhteiset**
 
@@ -32,7 +32,14 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Lapin integraatiot päivitetty 7.10
-* Normaalia ylläpitoa 
+* Normaalia ylläpitoa
+
+**Kirkes**
+ * Suomi.fi-REST-rajapinta otettu käyttöön 1.10.25, käyttöönotto onnistunut, asiakkailta ei ole tullut palautetta tähän mennessä.
+ * Selvitelty Mäntsälän kirjaston laskutusasiaa, laskutusjärjestelmänä Provincia. Ongelmaa Kohan päässä tutkiessa tultu siihen tulokseen, että ongelma olisi kuitenkin Provincian päässä.
+ * Keravan kirjastolla ollut kiinnostusta DVV:n tarjoamaan organisaatiokorttipalveluun: https://dvv.fi/organisaatiokortit
+ * Elina tekee erillisen tiketin cn-sort-asiasta.
+ * Keravalle tulossa joulukuussa uusi lajitteleva palautusautomaatti. Toiveenamme on, että saamme ajoitettua signum-muutoksen niin, että automaatin muutokset voisi tehdä vasta uuteen automaattiin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
