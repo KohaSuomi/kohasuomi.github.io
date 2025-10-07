@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), 
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), 
 
 **Yhteiset**
 
@@ -40,6 +40,9 @@ Etelästä pohjoiseen
  * Keravan kirjastolla ollut kiinnostusta DVV:n tarjoamaan organisaatiokorttipalveluun: https://dvv.fi/organisaatiokortit
  * Elina tekee erillisen tiketin cn-sort-asiasta.
  * Keravalle tulossa joulukuussa uusi lajitteleva palautusautomaatti. Toiveenamme on, että saamme ajoitettua signum-muutoksen niin, että automaatin muutokset voisi tehdä vasta uuteen automaattiin.
+
+**OUTI**
+ * Oulussa laskuttajat voivat nyt hoitaa Finvoice-laskutuksen kirjautuneena Kohassa joko Ruskon kirjavarastoon (OUPK) tai Oulun keskustakirjasto Saareen (OUSA). Tiketti: https://github.com/KohaSuomi/Koha/issues/1993
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
