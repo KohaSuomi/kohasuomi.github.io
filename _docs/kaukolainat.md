@@ -16,17 +16,20 @@ Kaukolainapyynnön voi tehdä Kaukolainamoduulin etusivulla kohdasta _Uusi kauko
 
 ![Kaukolainapyynnön lomake](/assets/files/docs/Kaukolainaus/kaukolainat1.png)
 
-* Valitse kaukolainapyynnön tyyppi: Book, Chapter, Journal, Journal article, Thesis, Conference, Other, Generic resource.
-  * Book-tyyppinen pyyntö lisää tietokantaan tietueen syötetyillä tiedoilla käyttäen ILL-kuvailupohjaa.
+* Valitse kaukolainapyynnön tyyppi: Kirja, Luku, Lehti, Lehtiartikkeli, Opinnäytetyö, Kokous, DVD, Muu, Yleinen resurssi.
+  * Kirja-tyyppinen pyyntö lisää tietokantaan tietueen syötetyillä tiedoilla käyttäen FA-kuvailupohjaa.
 * Eri tyypit tuovat näkyville erilaisia kenttiä. Täytä tarpeelliset kentät.
 
 ![Kaukolainapyynnön teostiedot](/assets/files/docs/Kaukolainaus/kaukolainat2.png)
 
-* Lisää tarvittaessa myös Custom fields -kohtaan vapaamuotoisia tietoja
-* Lisää lopuksi _Cardnumber, username or surname_ -kohtaan asiakkaan kirjastokortin numero ja _Destination library_ -kohtaan mistä kirjastosta hän noutaa kaukolainan.
+* Lisää tarvittaessa myös _Lisäkentät_ -kohtaan vapaamuotoisia tietoja
+* Lisää lopuksi _Kirjastokortti, käyttäjätunnus tai sukunimi_ -kohtaan asiakkaan kirjastokortin numero ja _Noutokirjasto_ -kohtaan mistä kirjastosta hän noutaa kaukolainan.
+  * Pyri käyttämään asiakkaan hakemiseen aina kirjastokortin numeroa, jotta pyyntö tallentuu oikealle asiakkaalle.
 
-Kun tarvittavat tiedot on lisätty, valitse _Create_, jolloin kaukolainapyyntö luodaan ja ohjelma siirtyy Kaukolainauksen etusivulle.
+Kun tarvittavat tiedot on lisätty, valitse _Luo_, jolloin kaukolainapyyntö luodaan ja ohjelma siirtyy Kaukolainauksen etusivulle.
 
-## 14.2 Kaukolainapyyntöjen lista
+## 14.2 Kaukolainapyyntöjen listaus
 
-Kaukolainamoduulin aloitussivulla listataan kaikki kaukolainapyynnöt. Muilla osion sivuilla ollessa aloitussivulle pääsee Näytä kaikki kaukolainapyynnöt -napista.
+Kaukolainamoduulin aloitussivulla listataan kaikki kaukolainapyynnöt. Muilla moduulin sivuilla ollessa aloitussivulle pääsee _Näytä kaikki kaukolainat_ -napista.
+
+![Näytä kaikki kaukolainat -nappi](/assets/files/docs/Kaukolainaus/kaukolainat3.png)
