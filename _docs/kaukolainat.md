@@ -30,6 +30,10 @@ Kun tarvittavat tiedot on lisätty, valitse _Luo_, jolloin kaukolainapyyntö luo
 
 ## 14.2 Kaukolainapyyntöjen listaus
 
-Kaukolainamoduulin aloitussivulla listataan kaikki kaukolainapyynnöt. Muilla moduulin sivuilla ollessa aloitussivulle pääsee _Näytä kaikki kaukolainat_ -napista.
+Kaukolainamoduulin aloitussivulla listataan kaikki kaukolainapyynnöt. 
+
+![Lista kaukolainoista](/assets/files/docs/Kaukolainaus/kaukolainat4.png)
+
+Muilla moduulin sivuilla ollessa aloitussivulle pääsee _Näytä kaikki kaukolainat_ -napista.
 
 ![Näytä kaikki kaukolainat -nappi](/assets/files/docs/Kaukolainaus/kaukolainat3.png)
