@@ -38,7 +38,7 @@ Etelästä pohjoiseen
  * Suomi.fi-REST-rajapinta otettu käyttöön 1.10.25, käyttöönotto onnistunut, asiakkailta ei ole tullut palautetta tähän mennessä.
  * Selvitelty Mäntsälän kirjaston laskutusasiaa, laskutusjärjestelmänä Provincia. Ongelmaa Kohan päässä tutkiessa tultu siihen tulokseen, että ongelma olisi kuitenkin Provincian päässä.
  * Keravan kirjastolla ollut kiinnostusta DVV:n tarjoamaan organisaatiokorttipalveluun: https://dvv.fi/organisaatiokortit
- * Elina tekee erillisen tiketin cn-sort-asiasta.
+ * Elina tehnyt tiketin virheellisistä cn_sort-kentistä, jotka huomattiin signum-muutoksen valmistelussa. Tiketti: [#2024](https://github.com/KohaSuomi/Koha/issues/2024)
  * Keravalle tulossa joulukuussa uusi lajitteleva palautusautomaatti. Toiveenamme on, että saamme ajoitettua signum-muutoksen niin, että automaatin muutokset voisi tehdä vasta uuteen automaattiin.
 
 **OUTI**
