@@ -37,3 +37,37 @@ Kaukolainamoduulin aloitussivulla listataan kaikki kaukolainapyynnöt.
 Muilla moduulin sivuilla ollessa aloitussivulle pääsee _Näytä kaikki kaukolainat_ -napista.
 
 ![Näytä kaikki kaukolainat -nappi](/assets/files/docs/Kaukolainaus/kaukolainat3.png)
+
+Kaukolainoja voi suodattaa vasemman reunan rajauksilla
+
+![Rajauksilla voi suodattaa, mitä pyyntöjä näytetään](/assets/files/docs/Kaukolainaus/kaukolainat5.png)
+
+## 14.3 Kaukolainapyyntöjen muokkaus
+
+Valitse Muokkaa pyyntöä kaukolainapyyntöjen taulukon viimeisessä sarakkeessa tai ensimmäisestä sarakkeesta Pyynnön ID -numeroa. Riippuen pyynnön sen hetkisestä tilasta, voit nähdä kaikki tai osan seuraavista toiminnoista:
+
+* Muokkaa pyyntöä
+  * Voit muokata borrowernumberia, biblionumberia, kirjastoa ja lisätä huomautuksia. Jos on lisätty kaukolainapyyntöjen tiloja, voi niitäkin valita tässä näkymässä.
+* Vahvista kaukolainapyyntö:
+  * Tällä asetetaan pyynnön tilaksi "Pyydetty', jos pyyntöä ei ole tehty moduulin kautta.
+* Pyydä yhteistyökumppaneilta
+  * Tällä voi lähettää sähköpostilla pyynnön kaukolainakirjastoille.
+* Vaihda toimittajaa (backend)
+  * Tämä mahdollistaa pyynnön siirtämiseen toiseen backendiin.
+* Poista pyyntö
+  * Tällä saa poistettua pyynnön täysin. Pyynnön tietoja ei säilytetä Kohassa.
+* Peruuta pyyntö
+  * Tällä voi perua _Pyydetty_ ja _Pyydetty yhteistyökumppaneilta_ -tilat, jolloin pyynnön tilaksi asetetaan _Uusi_
+* Merkitse valmiiksi
+  * Tällä voi merkitä pyynnön valmiksi, kun pyydetty teos on esimerkiksi palautettu takaisin tilauskirjastoon tai artikkelikopio on luovutettu asiakkaalle.
+* Muokkaa teoksen metatietoja
+  * Täällä voi muokata pyydettävän teoksen tietoja.
+* Näytä toimittajan metadata
+  * Täällä voi katsoa pyydetyn teoksen tietoja, mutta ei muokata niitä.
+* Kaukolainapyynnön loki
+  * Tänne tallentuu pyyntöön liittyvät muutokset.
+* Kommentit
+  * Pyyntöön on mahdollista lisätä kommentteja, joilla voi seurata esimerkiksi pyynnön edistymistä ja tehtyjä työvaiheita. Kommentit ovat vain luettavissa ja ne tallennetaan aikajärjestyksessä. Kommentista näytetään tekijä, ajankohta ja sisältö. Jos pyyntöö liittyy kommentteja, näytetään niiden määrä kaukolainojen listauksessa aloitussivulla.
+* Lainaus
+  * Tämä toiminto on käytettävissä, mikäli CirculateILL-järjestelmäasetus on päällä. Tällä voi merkitä pyynnön asiakkaalle lainaan suoraan pyynnön tiedoista.
+
