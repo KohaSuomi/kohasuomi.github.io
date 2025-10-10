@@ -581,7 +581,10 @@ PDF-laskun luomisen jälkeen siirrytään esikatselu-näkymään, jossa näkee s
 Lasku luodaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
 
 **Laskutettavien palautus**  
-Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Huom. Rajoite ei poistu automaattisesti takaajalta, vaan vain taattavalta. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
+Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Mikäli takaajalle lisätään laskutettaessa rajoite, ei rajoite poistu automaattisesti takaajalta, vaan vain taattavalta. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
+
+**Huom!** Tilanteessa, jossa sekä takaajalla että taattavilla on laskutettua aineistoa ja takaaja palauttaa omat laskutetut lainansa, poistuu rajoite takaajalta **vaikka taattavilla on edelleen laskutettuja niteitä**. Tällaisessa tilanteessa takaajalle on siis manuaalisesti lisättä rajoite takaisin.
+{: .notice--warning}
 
 Laskutuksen asetusten ohje on [GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki/Laskutusty%C3%B6kalun-k%C3%A4ytt%C3%B6%C3%B6notto%E2%80%90ohjeet).
 
