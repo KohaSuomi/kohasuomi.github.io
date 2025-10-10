@@ -71,3 +71,15 @@ Valitse Muokkaa pyyntöä kaukolainapyyntöjen taulukon viimeisessä sarakkeessa
 * Lainaus
   * Tämä toiminto on käytettävissä, mikäli CirculateILL-järjestelmäasetus on päällä. Tällä voi merkitä pyynnön asiakkaalle lainaan suoraan pyynnön tiedoista.
 
+### 14.3.1 Pyyntöjen tilat
+
+Kaukolainapyynnöillä voi olla seuraavanlaisia tiloja:
+
+* Uusi pyyntö (NEW)
+* Pyydetty (REQ)
+* Pyydetty yhteistyökumppaneilta (GENREQ)
+* Pyyntö peruutettu (REQREV)
+* Peruutuspyyntö - asiakas on pyytänyt verkkokirjastossa pyynnön perumista (CANCREQ)
+* Valmis (COMP)
+* Lainattu (CHK)
+* Palautettu kirjastoon (RET)
