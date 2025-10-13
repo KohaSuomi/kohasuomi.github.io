@@ -10,6 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 42
+
+Aika: Ti 14.10.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
+* [IntranetNav-järjestelmäasetukseen lisätyt linkit](https://github.com/KohaSuomi/Koha-25x/issues/138)
+  * Linkit menevät More/Lisätietoja-valikon vasemmalle puolelle
+  * Yhteisössä tehty muutos, joka on heidän mielestään looginen, koska ilmeisesti siihen on tarkoitus lisätä Kohan sisäisiä linkkejä.
+  * Koha-Suomen palaverissa 13.10.2025 päätettiin, että koska muutosta eli paluuta vanhaan tapaan ei todennäköisti saada läpi yhteisössä, mennään yhteisön mukaisella tavalla. Jos joku kimppa haluaa siirtää JS-rimpsulla linkit/More-valikon entiseen kohtaan, voi sen tehdä, mutta JS-rimpsun ylläpito on sitä käyttävän kimpan vastuulla.
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
