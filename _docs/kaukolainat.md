@@ -10,6 +10,8 @@ toc: true
 
 Kohan kaukolainamoduulilla pystyy hallinnoimaan asiakkaiden tekemiä kaukolainapyyntöjä. Osioon pääsee Kohan etusivulta Kaukolainapyynnöt-nappulasta tai Muita toimintoja -> Kaukolainapyynnöt. Toiminto näkyy vain, jos käyttäjällä on kaukolainoihin liittyvä käyttäjäoikeus.
 
+Ennen kuin kaukolainamoduulia voi käyttää, pitää määrittää mm. erilaisia järjestelmäasetuksia, auktorisoituja arvoja, lainasääntöjä ja viestipohjia, jotta moduuli toimisi oikein. Pyydä kimpan pääkäyttäjiä tutustumaan [Kaukolaina-moduulin käyttöönotto-ohjeeseen](https://koha-suomi.fi/dokumentaatio/kaukolainaus/) ja tekemään tarvittavat määritykset.
+
 ## 14.1 Kaukolainapyynnön tekeminen
 
 Kaukolainapyynnön voi tehdä Kaukolainamoduulin etusivulla kohdasta _Uusi kaukolainapyyntö_
@@ -83,3 +85,31 @@ Kaukolainapyynnöillä voi olla seuraavanlaisia tiloja:
 * Valmis (COMP)
 * Lainattu (CHK)
 * Palautettu kirjastoon (RET)
+
+## 14.4 Kaukolainojen pyytäminen yhteistyökumppaneilta
+
+Kaukolainapyyntöjä voi tehdä suoraan Kohasta yhteistyökumppaneille. Sitä varten pitää olla määritettynä asiakastyyppi, joille pyyntöjä lähetetään. Asiakastyypin asiakkaille pitää määrittää sähköpostiosoite, jotta niille pystyy lähettämään pyyntöjä.
+
+Pyynnön lähettäminen onnistuu, kun menee tarkastelemaan kaukolainapyynön tietoja tarkemmin ja klikkaa _Pyydä yhteistyökumppaneilta_ -nappia.
+
+Avautuvalta sivulta voi valita kirjaston, johon pyyntö lähetetään. _Sähköpostiteksti_-kenttään tulee valmiiksi ILL_PARTNER_REQ-viestipohjaan määritetyt tekstit ja sitä voi myös täydentää tarvittaessa ennen viestin lähettämistä.
+
+![Tee kaukolainapyyntö kumppanikirjastoihin](/assets/files/docs/Kaukolainaus/kaukolainat6.png)
+
+Pyynnön lähettämisen jälkeen palataan kaukolainapyynnön tietoihin ja sen tilaksi on muuttunut _Pyydetty yhteistyökumppaneilta_ ja perässä on sulkeissa sähköpostiosoite, mihin pyyntö on lähetetty.
+
+![Tee kaukolainapyyntö kumppanikirjastoihin](/assets/files/docs/Kaukolainaus/kaukolainat7.png)
+
+## 14.5 Kaukolainojen lainaaminen
+
+Jos _CirculateILL_-järjestelmäasetus on päällä, voi kaukolainan lainata asiakkaalle suoraan kaukolainapyynnön kautta.
+
+Kun luot Kirja-tyyppisen pyynnön, lyhyt kuvailutietue luodaan automaattisesti Fast Add -kuvailupohjan perusteella. Kun pyynnöllä on sopiva tila, työkaluriville ilmestyy Lainaus-painike. Painamalla tätä käyttäjä voi lainata teoksen joko pyynnön tehneelle käyttäjälle tai kirjaston sisäiselle tilastokäyttäjälle.
+
+Kohteen lainaaminen:
+
+* Napsauta Lainaus-painiketta.
+* Valitse nidetyyppi. Kohde nide automaattisesti ja liitetään pyyntöä varten luotuun kuvailutietueeseen. Kohteen viivakoodi on muodossa "ILL-pyynnön ID".
+* Seuraavaksi valitse eräpäivä. Jos et valitse eräpäivää, käytetään sopivaa laina- ja maksusääntöä eräpäivän laskemiseen.
+* Kun nide on lainattu, pyynnön tilaksi muuttuu _Lainattu_ ja sen jälkeen, kun nide on palautettu, tilaksi päivittyy _Palautettu kirjastoon_.
+* Kaukolainapyyntöjen yhteydessä luodulla kuvailutietueella on Kokoelmat-taulukossa ylimääräinen välilehti, jossa on linkki takaisin pyyntöön kaukolainamoduulissa.
