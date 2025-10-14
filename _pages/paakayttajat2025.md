@@ -49,7 +49,7 @@ Pohjoisesta etelään
 * MTYPE-korjauksia tehty Kirkes-kirjastoissakin.
 
 **OUTI**
-* Raahen kirjastossa 8.10. Kohassa muodostettu  ja lähetetty Finvoice-lasku on kadonnut. Emmi tarkisti, että se on Kohasta lähtenyt oikeaan aikaan, oikean näköisenä ja ongelmitta. Joki-ICT:ltä kertoivat, että siirrossa oli ollut ongelmia 8.10., joten siirto tehtiin manuaalisesti 9.10. aamulla CGI:n edustapalvelimelle. Syy ongelmaan voi olla se, että aineiston siirtoon on tehty muutos Raahessa ja on voinut käydä niin, että viesti muutoksesta on jäänyt kertomatta tarvittaville tahoille. 
+* Raahen kirjastossa 8.10. Kohassa muodostettu  ja lähetetty Finvoice-lasku on kadonnut. Emmi tarkisti, että se on Kohasta lähtenyt oikeaan aikaan, oikean näköisenä ja ongelmitta. Joki-ICT:ltä kertoivat, että siirrossa oli ollut ongelmia 8.10., joten siirto tehtiin manuaalisesti 9.10. aamulla CGI:n edustapalvelimelle. Syy ongelmaan voi olla se, että aineiston siirtoon on tehty muutos Raahessa ja on voinut käydä niin, että viesti muutoksesta on jäänyt kertomatta tarvittaville tahoille ja sen vuoksi laskun siirrossa on ollut ongelmia. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
