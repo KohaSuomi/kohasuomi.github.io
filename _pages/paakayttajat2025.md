@@ -29,7 +29,7 @@ Pohjoisesta etelään
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 
@@ -63,6 +63,10 @@ Etelästä pohjoiseen
 **Vaara**
 * Ceepos taas temppuilee, maksut ei kuittaannu Kohasta
 * muuten normaalia ylläpitoa
+
+**Lastu**
+* RFID-haravat saapuneet ja testailtu Robertin kanssa aineistolla. Aloitetaan kattavampi testaus kun saadaan ohjelmisto käyttöön.
+* "Yhdistä valitut asiakkaat"-toimintoa pohdittu, voisiko se jossain tapauksissa olla toimiva ratkaisu jos asiakkaalla on poikkeuksellisesti kaksi asiakastietuetta. OUTI lisää Koha-Suomen dokumentaatioon ohjeen tästä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
