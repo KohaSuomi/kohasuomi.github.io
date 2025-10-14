@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -40,7 +40,13 @@ Pohjoisesta etelään
 **Lappi**
 * Virkailijalla ollut väärä toimipiste, korjattu vajaan 500 niteen havaintopiste
 * Selvitelty johtoryhmää varten suomi.fi -viestien hintoja vs. nykyisten paperikirjeiden hinta
-* Pia koulutti Lapin henkilökuntaa Kohan kokoelmatyöhön liittyvistä raporteista ja toiminnoista 9.10. 
+* Pia koulutti Lapin henkilökuntaa Kohan kokoelmatyöhön liittyvistä raporteista ja toiminnoista 9.10.
+
+**Kirkes**
+* Viime viikolla puhuttu laskutusasia on selvitetty Provincian kanssa.
+* Henkilökunnalta tullut palaute, että Kohan hyllyvarauslistassa pitäisi näkyä, onko kyseessä nidevaraus. Tästä on ollut keskustelua aiemmin Koha-pääkäyttäjien kesken, mutta on todettu, että nidevaraukset ovat lähinnä lehtiä, ja koska lehdistä näkee numeron, nidevaraus-tiedolle hyllyvarauslistassa ei ole tarvetta. Erika kysyy vielä henkilökunnalta tarkemmin, mistä syystä nidevarauksia oli tässä tehty.
+* Yhdeltä Kirkes-kirjastolta tullut kysymys muiden Koha-kuntien hyllyvaraustenhakukäytännöistä, koska hyllyvarauslistan läpikäynti on koettu hankalaksi. Hyllyvarauslistaa koskien on avoinna tiketit: https://github.com/KohaSuomi/Koha/issues/1261 ja https://github.com/KohaSuomi/Koha/issues/1262
+* MTYPE-korjauksia tehty Kirkes-kirjastoissakin. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
