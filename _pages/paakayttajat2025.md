@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -36,6 +36,11 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Aineistotyyppimuutokseen liittyvät korjaukset vasta suunnitteluasteella.
+
+**Lappi**
+* Virkailijalla ollut väärä toimipiste, korjattu vajaan 500 niteen havaintopiste
+* Selvitelty johtoryhmää varten suomi.fi -viestien hintoja vs. nykyisten paperikirjeiden hinta
+* Pia koulutti Lapin henkilökuntaa Kohan kokoelmatyöhön liittyvistä raporteista ja toiminnoista 9.10. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
