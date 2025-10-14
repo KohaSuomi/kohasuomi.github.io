@@ -70,9 +70,9 @@ Etelästä pohjoiseen
 
 **Helle**
 * Saisiko tulevan Koha25x-version yläpalkin Kohan toimintoja sisältävän Lisätietoja-linkin ennen yläpalkkiin itse lisättyjä linkkejä? Tiketti [Lisätietoja-osion siirto](https://github.com/KohaSuomi/Koha-25x/issues/138)
-* Finna-toimistosta saatu palaute liittyen Helle-tietueiden suomenkielisten teosten luokkakenttä-arvoihin 84.21 (mäenkieli). Kielikoodi-arvoksi korjattu 84.2
-* Äänikirjojen aineistotyyppimuutokset tehty.
-* Sotusiiloon kirjautumisessa ollut edelleen samalla käyttäjällä kirjautumisongelmia. Palaverissa mainittu, voisivatko mahdolliset selaimeen tallennetut muut salasanat vaikuttaa? Palaverin jälkeen saatu tieto, että sotusiiloon kirjautuneen selaimessa ei ole tallennettuja salasanoja. 
+* Finna-toimistosta saatu palaute liittyen joidenkin Helle-tietueiden suomenkielisten teosten luokkakenttä-arvoihin 84.21 (mäenkieli). Kielikoodi-arvoksi korjattu 84.2
+* Äänikirjojen aineistotyyppimuutokset tehty. Vastaavat nyt Finnan äänikirja-aineistotyyppejä.
+* Sotusiiloon kirjautumisessa ollut edelleen samalla käyttäjällä kirjautumisongelmia. Palaverissa mainittu, voisivatko mahdolliset selaimeen tallennetut muut salasanat vaikuttaa? Palaverin jälkeen sotusiiloon kirjautuneelta saatu tieto, että selaimessa ei ole tallennettuja salasanoja. 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
