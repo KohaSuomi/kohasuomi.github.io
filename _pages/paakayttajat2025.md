@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -29,6 +29,10 @@ Pohjoisesta etelään
 * Ceepos-ongelma jatkunut jo toista viikkoa. Kun jotain ohjelmapäivitystä tapahtuu kassaohjelmaan, seuraa yleensä yhteysongelma (asiakkaan maksu ei poistu Kohasta, vaikka maksu menee kassaan)
 * Webkake irtisanottu 3 kuukauden irtisanomisajalla, otetaan käyttöön loppuvuoden aikana Kohan kaukolainamoduuli.
 * Aineistotyyppimuutokseen liittyviä korjauksia tehty kuvailutietoihin.
+
+**Lumme**
+* Aletaan käymään lävitse viallisia tietueita Celia-muutosta varten.
+* Virkailijalta tuli toivetta, että Vanhentunut, käsittelemätön varaus -tilaan tulisi päivämäärä, josta näkisi milloin varaus on vanhentunut. Monet asiakkaat eivät kiinnitä automaateilla huomiota siihen, että onko varaus mennyt ylipäätään lainaan. Tämän muutoksen toivottiin selkeyttävän mahdollisen kadonneen niteen etsintää. Tällä hetkellä toteutus ei ole mahdollinen Kohassa, joten kokeillaan saadaanko tässä tilassa olevia kadonneita kiinni raportin avulla, joka listaa vanhentuneet varaukset.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
