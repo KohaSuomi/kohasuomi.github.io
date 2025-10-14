@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -34,12 +34,15 @@ Pohjoisesta etelään
 * Aletaan käymään lävitse viallisia tietueita Celia-muutosta varten.
 * Virkailijalta tuli toivetta, että Vanhentunut, käsittelemätön varaus -tilaan tulisi päivämäärä, josta näkisi milloin varaus on vanhentunut. Monet asiakkaat eivät kiinnitä automaateilla huomiota siihen, että onko varaus mennyt ylipäätään lainaan. Tämän muutoksen toivottiin selkeyttävän mahdollisen kadonneen niteen etsintää. Tällä hetkellä toteutus ei ole mahdollinen Kohassa, joten kokeillaan saadaanko tässä tilassa olevia kadonneita kiinni raportin avulla, joka listaa vanhentuneet varaukset.
 
+**Siilinjärvi**
+* Aineistotyyppimuutokseen liittyvät korjaukset vasta suunnitteluasteella.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati sillgren (Helle)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 
@@ -82,7 +85,10 @@ Etelästä pohjoiseen
 * Saisiko tulevan Koha25x-version yläpalkin Kohan toimintoja sisältävän Lisätietoja-linkin ennen yläpalkkiin itse lisättyjä linkkejä? Tiketti [Lisätietoja-osion siirto](https://github.com/KohaSuomi/Koha-25x/issues/138)
 * Finna-toimistosta saatu palaute liittyen joidenkin Helle-tietueiden suomenkielisten teosten luokkakenttä-arvoihin 84.21 (meänkieli). Kielikoodi-arvoksi korjattu 84.2
 * Äänikirjojen aineistotyyppimuutokset tehty. Vastaavat nyt Finnan äänikirja-aineistotyyppejä.
-* Sotusiiloon kirjautumisessa ollut edelleen samalla käyttäjällä kirjautumisongelmia. Palaverissa mainittu, voisivatko mahdolliset selaimeen tallennetut muut salasanat vaikuttaa? Palaverin jälkeen sotusiiloon kirjautuneelta saatu tieto, että selaimessa ei ole tallennettuja salasanoja. 
+* Sotusiiloon kirjautumisessa ollut edelleen samalla käyttäjällä kirjautumisongelmia. Palaverissa mainittu, voisivatko mahdolliset selaimeen tallennetut muut salasanat vaikuttaa? Palaverin jälkeen sotusiiloon kirjautuneelta saatu tieto, että selaimessa ei ole tallennettuja salasanoja.
+
+**Siilinjärvi**
+* Ei mainittavaa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
