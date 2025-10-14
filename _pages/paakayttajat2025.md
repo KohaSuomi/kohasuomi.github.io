@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -21,6 +21,7 @@ Läsnä:
   * Linkit menevät More/Lisätietoja-valikon vasemmalle puolelle
   * Yhteisössä tehty muutos, joka on heidän mielestään looginen, koska ilmeisesti siihen on tarkoitus lisätä Kohan sisäisiä linkkejä.
   * Koha-Suomen palaverissa 13.10.2025 päätettiin, että koska muutosta eli paluuta vanhaan tapaan ei todennäköisti saada läpi yhteisössä, mennään yhteisön mukaisella tavalla. Jos joku kimppa haluaa siirtää JS-rimpsulla linkit/More-valikon entiseen kohtaan, voi sen tehdä, mutta JS-rimpsun ylläpito on sitä käyttävän kimpan vastuulla.
+* Tiketteihin ei tule automaattisesti projektia jostain syystä, muistaisitteko lisätä sen?
 
 Pohjoisesta etelään
 
