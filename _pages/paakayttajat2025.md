@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -24,6 +24,11 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 * Tiketteihin ei tule automaattisesti projektia jostain syystä, muistaisitteko lisätä sen?
 
 Pohjoisesta etelään
+
+**Vaara**
+* Ceepos-ongelma jatkunut jo toista viikkoa. Kun jotain ohjelmapäivitystä tapahtuu kassaohjelmaan, seuraa yleensä yhteysongelma (asiakkaan maksu ei poistu Kohasta, vaikka maksu menee kassaan)
+* Webkake irtisanottu 3 kuukauden irtisanomisajalla, otetaan käyttöön loppuvuoden aikana Kohan kaukolainamoduuli.
+* Aineistotyyppimuutokseen liittyviä korjauksia tehty kuvailutietoihin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
