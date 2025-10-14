@@ -29,7 +29,7 @@ Pohjoisesta etelään
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati sillgren (Helle)
 
 **Yhteiset**
 
@@ -68,6 +68,12 @@ Etelästä pohjoiseen
 * RFID-haravat saapuneet ja testailtu Robertin kanssa aineistolla. Aloitetaan kattavampi testaus kun saadaan ohjelmisto käyttöön.
 * "Yhdistä valitut asiakkaat"-toimintoa pohdittu, voisiko se jossain tapauksissa olla toimiva ratkaisu jos asiakkaalla on poikkeuksellisesti kaksi asiakastietuetta. OUTI lisää Koha-Suomen dokumentaatioon ohjeen tästä.
 
+**Helle**
+* Saisiko tulevan Koha25x-version yläpalkin Kohan toimintoja sisältävän Lisätietoja-linkin ennen yläpalkkiin itse lisättyjä linkkejä? Tiketti [Lisätietoja-osion siirto](https://github.com/KohaSuomi/Koha-25x/issues/138)
+* Finna-toimistosta saatu palaute liittyen Helle-tietueiden suomenkielisten teosten luokkakenttä-arvoihin 84.21 (mäenkieli). Kielikoodi-arvoksi korjattu 84.2
+* Äänikirjojen aineistotyyppimuutokset tehty.
+* Sotusiiloon kirjautumisessa ollut edelleen samalla käyttäjällä kirjautumisongelmia. Palaverissa mainittu, voisivatko mahdolliset selaimeen tallennetut muut salasanat vaikuttaa? Palaverin jälkeen saatu tieto, että sotusiiloon kirjautuneen selaimessa ei ole tallennettuja salasanoja. 
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 40
