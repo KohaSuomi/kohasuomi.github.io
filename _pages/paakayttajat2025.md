@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -49,7 +49,10 @@ Pohjoisesta etelään
 * MTYPE-korjauksia tehty Kirkes-kirjastoissakin.
 
 **OUTI**
-* Raahen kirjastossa 8.10. Kohassa muodostettu  ja lähetetty Finvoice-lasku on kadonnut. Emmi tarkisti, että se on Kohasta lähtenyt oikeaan aikaan, oikean näköisenä ja ongelmitta. Joki-ICT:ltä kertoivat, että siirrossa oli ollut ongelmia 8.10., joten siirto tehtiin manuaalisesti 9.10. aamulla CGI:n edustapalvelimelle. Syy ongelmaan voi olla se, että aineiston siirtoon on tehty muutos Raahessa ja on voinut käydä niin, että viesti muutoksesta on jäänyt kertomatta tarvittaville tahoille ja sen vuoksi laskun siirrossa on ollut ongelmia. 
+* Raahen kirjastossa 8.10. Kohassa muodostettu  ja lähetetty Finvoice-lasku on kadonnut. Emmi tarkisti, että se on Kohasta lähtenyt oikeaan aikaan, oikean näköisenä ja ongelmitta. Joki-ICT:ltä kertoivat, että siirrossa oli ollut ongelmia 8.10., joten siirto tehtiin manuaalisesti 9.10. aamulla CGI:n edustapalvelimelle. Syy ongelmaan voi olla se, että aineiston siirtoon on tehty muutos Raahessa ja on voinut käydä niin, että viesti muutoksesta on jäänyt kertomatta tarvittaville tahoille ja sen vuoksi laskun siirrossa on ollut ongelmia.
+
+**Vaski**
+* Keskusteltiin mm. pin-koodien pituudesta, Vaskissa mietitään muutoksia nykyisiin käytänteisiin ja mahdollisesti tuodaan keskusteltavaksi myöhemmin kehitysehdotus niihin liittyen. Ei erityisiä muita kuulumisia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
