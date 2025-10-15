@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anni Mäki-Mantila (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2027)
@@ -53,6 +53,10 @@ Pohjoisesta etelään
 
 **Vaski**
 * Keskusteltiin mm. pin-koodien pituudesta, Vaskissa mietitään muutoksia nykyisiin käytänteisiin ja mahdollisesti tuodaan keskusteltavaksi myöhemmin kehitysehdotus niihin liittyen. Ei erityisiä muita kuulumisia.
+
+**Lastu**
+* RFID-haravia päästy myös itse nyt testailemaan ja keräämään kommentteja
+* Muuten perusylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-42) - [Palaa sivun alkuun](/paakayttajat2025)
 
