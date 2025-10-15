@@ -1774,22 +1774,6 @@ GROUP BY biblionumber
 ORDER BY 4,1
 ```
 
-### Nimekkeet, joissa on varauksia, mutta ei niteitä
-
-Raportti listaa nimekkeet, joihin kohdistuu varauksia, mutta niillä ei ole yhtään nidettä, joka voisi täyttää varauksen.
-
-Lisääjä: Anneli Österman<br />
-Pvm: 9.4.2020
-
-```
-SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos', CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowers.borrowernumber,'">',borrowers.cardnumber,'</a>') AS 'Asiakas'
-FROM reserves
-LEFT JOIN biblio b USING (biblionumber)
-LEFT JOIN items USING (biblionumber)
-LEFT JOIN borrowers USING (borrowernumber)
-WHERE reserves.biblionumber NOT IN (select biblionumber from items)
-```
-
 ### Aineistolajittomat niteet
 
 Raportti listaa niteet, joilla ei ole aineistolajia määritetty.
