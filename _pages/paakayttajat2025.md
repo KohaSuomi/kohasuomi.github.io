@@ -20,6 +20,12 @@ Läsnä:
   * Uutena muutoksena [Asiakkaan tilin vanhentumisilmoitus viestiasetuksiin](https://github.com/KohaSuomi/Koha-25x/wiki/Uutta#asiakkaan-tilin-vanhentumisilmoitus-viestiasetuksiin). Tämä muutos lisää asiakkaan viestiasetuksiin vaihtoehdon "Asiakastili on vanhentunut". Jos MembershipExpiryDaysNotice-järjestelmäasetus on käytössä, kun versionvaihto tehdään, aktivoidaan viestiasetus automaattisesti kaikille vanhoille käyttäjille. Uutta asiakasta tehdessä valinta ei tule automaattisesti ellei sitä lisätä asiakastyypin oletusasetuksiin.
   * Kuinka toimitaan? Laitetaanko kimpoissa oletusvalinta päälle asiakastyyppeihin vai tiksutteleeko virkailijat valinnan uusille asiakkaille sitä mukaa?
   * Meillä on taidettu aiemmin suositella, että oletusvalintoja ei olisi (muuta kuin ennakkoilmoituksessa päivämäärävalinta)
+  * Jos asiakkaalla ei ole sähköpostiosoitetta, mutta valittuna on ilmoituksen lähettäminen sähköpostina, muodostuu asiakkaalle kirje.
+
+Etelästä pohjoiseen
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 42
 
