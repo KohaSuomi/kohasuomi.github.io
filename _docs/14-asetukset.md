@@ -243,12 +243,14 @@ LOST-luokassa on niteiden kadonnut-arvot.
 MTYPE-luokassa on tietueiden aineistotyypit, jotka vastaavat Finnan materiaalityyppejä. Arvo on kytketty MARC-kenttä 942c.
 
 Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineistotyyppien tunnisteet
-(1.11.2021 lisätty VIDEOPELI ja LAUTAPELI korvaamaan KONSOLIP):
+* 1.11.2021 lisätty VIDEOPELI ja LAUTAPELI korvaamaan KONSOLIP
+* 16.10.2025 lisätty CELIA/Celia-äänikirja ja muutettu PUHECD, PUHETAL, PUHEKAS ja PUHELEVY kuvauksia asiantuntijaryhmän 23.9.2025 päätöksen mukaiseksi)
 
 |Finna-materiaalityyppi|MTYPE|Selite|
 |---|---|---|
 |Article|ARTIKKELI|Artikkeli|
 |Atlas|ATLAS|Atlas|
+|AudioBookDaisy|CELIA|Celia-äänikirja|
 |BluRay|BLURAY|Blu-ray|
 |BookSection|KIRJANOSA|Kirjan osa|
 |Book|KIRJA|Kirja|
@@ -268,10 +270,10 @@ Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineisto
 |MusicalScore|NUOTTI|Nuotti|
 |MusicRecording|MUSATAL|Musiikkitallenne|
 |Newspaper|SLEHTI|Sanomalehti|
-|NonmusicalCassette|PUHEKAS|Kasetti, puhe|
-|NonmusicalCD|PUHECD|CD, puhe|
-|NonmusicalDisc|PUHELEVY|Äänilevy, puhe|
-|NonmusicalRecording|PUHETAL|Äänitallenne, puhe|
+|NonmusicalCassette|PUHEKAS|Kasettiäänikirja|
+|NonmusicalCD|PUHECD|CD-äänikirja|
+|NonmusicalDisc|PUHELEVY|Muu äänikirja|
+|NonmusicalRecording|PUHETAL|E-äänikirja|
 |OnlineVideo|EVIDEO|eVideo|
 |Painting|MAALAUS|Maalaus|
 |Photo|VALOKUVA|Valokuva|
