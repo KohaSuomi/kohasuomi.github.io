@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 43
+
+Aika: Ti 21.10.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Versionvaihto:
+  * Uutena muutoksena [Asiakkaan tilin vanhentumisilmoitus viestiasetuksiin](https://github.com/KohaSuomi/Koha-25x/wiki/Uutta#asiakkaan-tilin-vanhentumisilmoitus-viestiasetuksiin). Tämä muutos lisää asiakkaan viestiasetuksiin vaihtoehdon "Asiakastili on vanhentunut". Jos MembershipExpiryDaysNotice-järjestelmäasetus on käytössä, kun versionvaihto tehdään, aktivoidaan viestiasetus automaattisesti kaikille vanhoille käyttäjille. Uutta asiakasta tehdessä valinta ei tule automaattisesti ellei sitä lisätä asiakastyypin oletusasetuksiin.
+  * Kuinka toimitaan? Laitetaanko kimpoissa oletusvalinta päälle asiakastyyppeihin vai tiksutteleeko virkailijat valinnan uusille asiakkaille sitä mukaa?
+  * Meillä on taidettu aiemmin suositella, että oletusvalintoja ei olisi (muuta kuin ennakkoilmoituksessa päivämäärävalinta)
+
 ## Viikko 42
 
 Aika: Ti 14.10.2025 klo 9.15<br />
