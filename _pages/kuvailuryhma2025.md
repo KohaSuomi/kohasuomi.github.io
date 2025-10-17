@@ -33,8 +33,8 @@ Koulutus meni ilmeisesti hyvin, koska palautteita ei ole tullut. Seuraava aihe o
 
 #### 3.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 10.9.2025 ####
 <ul>
- <li>TäTi-putkea olisi mahdollista taas edistää</li>
- <li>Melindan käsittelemät saamelaisbibliografian tietueet katselmoitavana Rovaniemen kirjastossa </li>
+ <li>TäTi-putkea olisi mahdollista taas edistää.</li>
+ <li>Melindan käsittelemät saamelaisbibliografian tietueet katselmoitavana Rovaniemen kirjastossa. </li>
 </ul>
 
 #### 4.	Tikettejä ####
