@@ -9,6 +9,90 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 7/2025 ##
+
+Aika: 8.10.2025 klo 13.15–14.10
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Mauri Aittaniemi (Lappi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Merja Hakulinen vaihtoi sihteerivuoron Mauri Aittaniemen kanssa.
+
+#### 2.	Koha-Suomen kuvailukoulutukset ####
+<ul>
+ <li>Palaute kuvailukoulutuksesta 2/2025 18.9.</li>
+ <li>Mitä seuraavaksi?</li>
+</ul>
+
+Koulutus meni ilmeisesti hyvin, koska palautteita ei ole tullut. Seuraava aihe on musiikin osakohteiden käsittely. Järjestetään koulutus marraskuussa. Antti ilmoittaa myöhemmin koulutuksen tarkemman ajankohdan.
+
+#### 3.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 10.9.2025 ####
+<ul>
+ <li>TäTi-putkea olisi mahdollista taas edistää</li>
+ <li>Melindan käsittelemät saamelaisbibliografian tietueet katselmoitavana Rovaniemen kirjastossa </li>
+</ul>
+
+#### 4.	Tikettejä ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1979" target="_blank">Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta </a> -> Tehdään popup-ikkuna, joka huomauttaa, että 001/003/035-kentät pitää tyhjentää, jos osoiterivillä on duplicate-tieto. Luodaan nextille ja käyttöön versionvaihdon yhteydessä.</li>
+
+<p>Esitettiin, että huomautus tulee vain, jos kentät unohtuvat tyhjentää. Antti lisää kommentin tikettiin. </p>
+	
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1984" target="_blank">Ehdotuksia, missä tilanteessa tietueita ei saa viedä Melindaan </a> -> Tiketissä kolme eri tilannetta. Jokaisesta pitäisi tehdä omat tiketit. </li>
+
+<p>Tärkeintä on tarkistaa osakohteiden 001- ja 003-kentät, jotta ne olisivat jokaisella osakohteella erilaiset (varsinkin 001-kenttä). Tehdään ainakin tästä oma tikettinsä. </p>
+
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1986" target="_blank">Lumme: Tietuesiirtäjä siirsi toistuvasti samoja kolmea tietuetta </a> -> Jos TäTin tietueessa on 000/17-merkkipaikalla arvo z, tietue jää ikuiseen valutuskierteeseen. </li>
+
+<p>Tilanne on korjaantunut valutuksen estolla. Z-arvon ilmaantumisen syy jäi epäselväksi. Johanna Räisä on ehkä korjannut jo vian. Anneli tarkistaa asian Johannalta. </p>
+
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi </a> </li>
+<ul>
+ <li>Kaikkiin tietokantoihin on tulossa korjausajo, jossa päivitetään tietueiden aineistotyypit vastaamaan Finnan arvoja. Samalla tulee uusi aineistotyyppi Celian äänikirja.</li>
+ <li>Ajossa korjaantuu paljon virheellisiä aineistotyyppejä ja jos aineistotyyppi on puuttunut kokonaan, se lisätään tietueille nyt.</li>
+ <li>Osa aineistotyypeistä muuttuu väärin korjausajon yhteydessä, koska tietueiden kiinteiden kenttien arvot ovat väärin.</li>
+ <li>Tietueet kannattaisi korjata ennen korjausajoa, ainakin sellaiset, joita on vaikeaa jäljittää enää ajon jälkeen.</li>
+ <li>Tietueet on korjattava tarvittaessa myös TäTissä ja Melindassa.</li>
+ <li>Jatkossa muistettava tarkistaa ja korjata osakohteiden kiinteät kentät, jos poimii Melindasta vanhempia tietueita, joissa 007-kenttä on puutteellinen. </li> 
+ <li>Korjattavia ainakin tietueet, joissa on tapahtumassa muutos:</li>
+	<ul>
+ <li>CD -> Äänilevy tai Musiikkitallenne (007-kentässä puutteelliset arvot, merkkipaikalla 007/06, pitäisi olla arvo g)</li>
+ <li>Aikakausilehti -> Kausijulkaisu tai Kirja (Näitä paljon tietokannoissa, joten Päivi tekee tiketin niiden korjaamisesta. Aikakauslehtien kuvailussa 008/21-merkkipaikalle pitää laittaa p – aikakauslehti, jotta niiden aineistotyyppi muodostuu oikein)</li>
+ <li>Celia/CDPUHE -> CDROM [Lisäys 15.10.: Välttämättä ei tarvitse korjata, koska Celian tunnistamiseen on muitakin kenttiä kuin vain kiinteät]</li>
+ <li>Kannattaa varalta tarkistaa myös Kirja -> Moniviestin, myös Lautapeli -> Esine</li>
+	</ul>
+ <li>Raporttikirjasto TäTissä: </li>
+	<ul>
+ <li>293 - Tietueet, joissa on MARC-kentässä 007 tietty merkkijono (Tällä voi hakea esim. puutteelliset CD-tietueet)</li>
+ <li>333 - Aineistotyyppimuutoksen loki (Raportissa arvoiksi laitetaan esim.: Vanha arvo ALEHTI, uusi arvo kausijulkaisu.)</li>
+ <li>334 - Aineistotyyppi-ajon muutosten yhteenveto</li>
+	</ul>
+</ul>
+</ul>
+
+#### 5.	Tekijähaku Kohassa ja Finnassa ####
+•	Hakutuloksissa tekijähaku ei erottele faseteissa eikä perustiedot-näytöllä samannimisiä tekijöitä, esim. Eino Leino, Paavo Nurmi
+
+<p>Tälle ei todennäköisesti voi tehdä mitään. Tekijöillä pitäisi olla täydelliset auktoriteetit, jota haut onnistuisivat hyvin. </p>
+
+##### 6. Muita asioita ####
+<ul>
+ <li>Kirkes-kirjastojen RDA-konversio marraskuussa</li>
+ <li>Kirjastopalvelun asiakasohjausryhmän kokous 21.10.2025</li>
+ <li>Versiopäivitys viikolla 13/2026, 23.-24.3.2026, uusia ominaisuuksia ja korjauksia tulossa: <a href="https://github.com/KohaSuomi/Koha-25x/wiki/Uutta" target="_blank">Uutta </a> </li>
+<p>Kuvailuun tulossa pieni muutos: 005-kenttä päivittyy automaattisesti. Tyhjää 005-kenttää ei tarvitse enää itse täydentää klikkaamalla. </p>
+ <li>Tiketti <a href="https://github.com/KohaSuomi/Koha-22x/issues/191" target="_blank">Järjestelmäasetus: AddbiblioHostFrameworkToComponentFramework </a> on jäänyt tekemättä aiempien versionvaihtojen yhteydessä. Anneli selvittää, mikä sen tilanne on tällä hetkellä. </li>
+</ul>
+
+#### 7.	Seuraava kokous keskiviikkona 12.11.2025 klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 6/2025 ##
 
 Aika: 3.9.2025 klo 13.15–14.35
