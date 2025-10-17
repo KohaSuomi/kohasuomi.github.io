@@ -58,25 +58,25 @@ Koulutus meni ilmeisesti hyvin, koska palautteita ei ole tullut. Seuraava aihe o
  <li>Osa aineistotyypeistä muuttuu väärin korjausajon yhteydessä, koska tietueiden kiinteiden kenttien arvot ovat väärin.</li>
  <li>Tietueet kannattaisi korjata ennen korjausajoa, ainakin sellaiset, joita on vaikeaa jäljittää enää ajon jälkeen.</li>
  <li>Tietueet on korjattava tarvittaessa myös TäTissä ja Melindassa.</li>
- <li>Jatkossa muistettava tarkistaa ja korjata osakohteiden kiinteät kentät, jos poimii Melindasta vanhempia tietueita, joissa 007-kenttä on puutteellinen. </li> 
  <li>Korjattavia ainakin tietueet, joissa on tapahtumassa muutos:</li>
 	<ul>
  <li>CD -> Äänilevy tai Musiikkitallenne (007-kentässä puutteelliset arvot, merkkipaikalla 007/06, pitäisi olla arvo g)</li>
- <li>Aikakausilehti -> Kausijulkaisu tai Kirja (Näitä paljon tietokannoissa, joten Päivi tekee tiketin niiden korjaamisesta. Aikakauslehtien kuvailussa 008/21-merkkipaikalle pitää laittaa p – aikakauslehti, jotta niiden aineistotyyppi muodostuu oikein)</li>
+ <li>Aikakausilehti -> Kausijulkaisu tai Kirja (Näitä paljon tietokannoissa, joten Päivi tekee tiketin niiden korjaamisesta: <a href="https://github.com/KohaSuomi/Koha/issues/2020" target="_blank">ALEHTI-aineistotyypin koodauksen korjauspyyntö</a>. Aikakauslehtien kuvailussa 008/21-merkkipaikalle pitää laittaa p – aikakauslehti, jotta niiden aineistotyyppi muodostuu oikein)</li>
  <li>Celia/CDPUHE -> CDROM [Lisäys 15.10.: Välttämättä ei tarvitse korjata, koska Celian tunnistamiseen on muitakin kenttiä kuin vain kiinteät]</li>
  <li>Kannattaa varalta tarkistaa myös Kirja -> Moniviestin, myös Lautapeli -> Esine</li>
 	</ul>
  <li>Raporttikirjasto TäTissä: </li>
 	<ul>
  <li>293 - Tietueet, joissa on MARC-kentässä 007 tietty merkkijono (Tällä voi hakea esim. puutteelliset CD-tietueet)</li>
- <li>333 - Aineistotyyppimuutoksen loki (Raportissa arvoiksi laitetaan esim.: Vanha arvo ALEHTI, uusi arvo kausijulkaisu.)</li>
- <li>334 - Aineistotyyppi-ajon muutosten yhteenveto</li>
+ <li>333 - Aineistotyyppimuutoksen loki (Raportissa arvoiksi laitetaan esim. vanha arvo ALEHTI, uusi arvo kausijulkaisu.)</li>
+ <li>334 - Aineistotyyppiajon muutosten yhteenveto</li>
 	</ul>
+ <li>Jatkossa muistettava tarkistaa ja korjata osakohteiden kiinteät kentät, jos poimii Melindasta vanhempia tietueita, joissa 007-kenttä on puutteellinen. </li> 
 </ul>
 </ul>
 
 #### 5.	Tekijähaku Kohassa ja Finnassa ####
-•	Hakutuloksissa tekijähaku ei erottele faseteissa eikä perustiedot-näytöllä samannimisiä tekijöitä, esim. Eino Leino, Paavo Nurmi
+Hakutuloksissa tekijähaku ei erottele faseteissa eikä perustiedot-näytöllä samannimisiä tekijöitä, esim. Eino Leino, Paavo Nurmi
 
 <p>Tälle ei todennäköisesti voi tehdä mitään. Tekijöillä pitäisi olla täydelliset auktoriteetit, jota haut onnistuisivat hyvin. </p>
 
