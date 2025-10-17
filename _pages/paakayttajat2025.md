@@ -63,7 +63,7 @@ Pohjoisesta etelään
 * Viime viikolla puhuttu laskutusasia on selvitetty Provincian kanssa.
 * Henkilökunnalta tullut palaute, että Kohan hyllyvarauslistassa pitäisi näkyä, onko kyseessä nidevaraus. Tästä on ollut keskustelua aiemmin Koha-pääkäyttäjien kesken, mutta on todettu, että nidevaraukset ovat lähinnä lehtiä, ja koska lehdistä näkee numeron, nidevaraus-tiedolle hyllyvarauslistassa ei ole tarvetta. Erika kysyy vielä henkilökunnalta tarkemmin, mistä syystä nidevarauksia oli tässä tehty.
 * Yhdeltä Kirkes-kirjastolta tullut kysymys muiden Koha-kuntien hyllyvaraustenhakukäytännöistä, koska hyllyvarauslistan läpikäynti on koettu hankalaksi. Hyllyvarauslistaa koskien on avoinna tiketit: https://github.com/KohaSuomi/Koha/issues/1261 ja https://github.com/KohaSuomi/Koha/issues/1262
-* MTYPE-korjauksia tehty Kirkes-kirjastoissakin.
+* Aineistotyyppimuutokseen liittyvät korjaukset on aloitettu. Lisäksi tehty RDA-testiajo, jonka perusteella kuvailutietueista löytyi myös korjattavaa. Aineistotyyppimuutoksen korjaukset valmistunevat tällä viikolla, RDA-konversiota varten tehtävät korjaukset tämän kuun loppuun mennessä. 
 
 **OUTI**
 * Raahen kirjastossa 8.10. Kohassa muodostettu  ja lähetetty Finvoice-lasku on kadonnut. Emmi tarkisti, että se on Kohasta lähtenyt oikeaan aikaan, oikean näköisenä ja ongelmitta. Joki-ICT:ltä kertoivat, että siirrossa oli ollut ongelmia 8.10., joten siirto tehtiin manuaalisesti 9.10. aamulla CGI:n edustapalvelimelle. Syy ongelmaan voi olla se, että aineiston siirtoon on tehty muutos Raahessa ja on voinut käydä niin, että viesti muutoksesta on jäänyt kertomatta tarvittaville tahoille ja sen vuoksi laskun siirrossa on ollut ongelmia.
