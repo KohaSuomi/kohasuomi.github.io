@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle)
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Versionvaihto:
@@ -41,6 +41,12 @@ Etelästä pohjoiseen
 **Vaara**
 * Aineistotyyppimuutosten kuiva-ajojen tulosten korjaamista. Kun saadaan lehdet kuntoon, ajon voi tehdä tuotantoon.
 * Kassakin on saatu kuntoon :)
+
+**OUTI**
+* Kuvailija pyysi kysymään voiko tiketissä: https://github.com/KohaSuomi/Koha/issues/2020 hoitamaan myös tähän samaan ongelmaan liittyvän korjauksen vai tulisiko sille tehdä uusi tiketti? Hän kysyi myös samalla, että voiko OUTIssa tehdä uuden kuiva-ajon, kun aikakauslehtiä koskevat korjaukset on tehty?
+  * Pyydettiin tekemään uusi tiketti: https://github.com/KohaSuomi/Koha/issues/2031
+  * Uusi kuiva-ajo voidaan tehdä
+ 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
