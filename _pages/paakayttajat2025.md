@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski)
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * Versionvaihto:
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 * Vehmaan kirjasto ottamassa ajanvarausjärjestelmää käyttöön, sen tiimoilta Toshiban kanssa palaveri tänään.
 * Turun pääkirjaston palautusautomaatin vaihto lähenee, viikonloppuna alkaa purkutyöt ja väliaikaisen lajittelijan asennus.
 
+**Lappi**
+* Kysytty, miksi Kohan budjetti ja kaupungin kirjanpito eivät täsmää - onko muilla ratkaisuja?
+* Kemille lisäsiin Hankintaportaaliin uusia tilejä, mutta unohtui EditX mäppäykset, joten saatiin turhia EditX-virheilmoituksia
+* Kirjastoauton pitkät laina-ajat ja auton taukojen vuoksi ylitetyt eräpäivät jatkavat varausten noutoaikaa pitkästi -> laina-ajoista keskustellaan käyttäjäryhmässä 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
