@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi, Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Versionvaihto:
