@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Versionvaihto:
@@ -23,6 +23,9 @@ Läsnä:
   * Jos asiakkaalla ei ole sähköpostiosoitetta, mutta valittuna on ilmoituksen lähettäminen sähköpostina, muodostuu asiakkaalle kirje.
 
 Etelästä pohjoiseen
+
+**Kirkes**
+* [Tikettiin #750](https://github.com/KohaSuomi/Koha/issues/750) liittyvät aineistotyyppikorjaukset on saatu valmiiksi. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
