@@ -46,7 +46,7 @@ Etelästä pohjoiseen
 * Kuvailija pyysi kysymään voiko tiketissä: https://github.com/KohaSuomi/Koha/issues/2020 hoitamaan myös tähän samaan ongelmaan liittyvän korjauksen vai tulisiko sille tehdä uusi tiketti? Hän kysyi myös samalla, että voiko OUTIssa tehdä uuden kuiva-ajon, kun aikakauslehtiä koskevat korjaukset on tehty?
   * Pyydettiin tekemään uusi tiketti: https://github.com/KohaSuomi/Koha/issues/2031
   * Uusi kuiva-ajo voidaan tehdä
- 
+* OUTIssa on selvitelty Suomi.fi-viestintäpalvelun sopimusasioita. Samassa yhteydessä on tullut esille, että TKJ-palvelussa olisi mahdollista käyttää costPool-avainta, joka mahdollistaa e-kirjeenä toimitettujen viestin laskutuksen kuntakohtaisesti (aiheuttajaperusteisesti). Tällä hetkellä kimpoille, jotka käyttävät TKJ-palvelua, lasku tulee yhteen kuntaan, jossa se jyvitetään muille kimpan kunnille. Tehdään tiketti ja selvitetään mitä avaimen käyttö vaatisi Kohassa (https://github.com/KohaSuomi/Koha/issues/2032).
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
