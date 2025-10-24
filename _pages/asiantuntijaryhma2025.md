@@ -22,16 +22,23 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
-### Käsiteltävät kehitysehdotukset
+RFID-haravaprojekti etenee suunnitellusti. Uusia haravia on saatu mukana oleviin kirjastoihin ja ne ovat testauksessa.
+
+Versionvaihdon työt on aloitettu ja Koha-Suomen omien ominaisuuksien siirto versioon 25 on hyvässä vauhdissa.
+
+[Koha-Suomi palkittiin vuoden 2025 Open World Hero -tunnustuksella](https://github.com/KohaSuomi/Koha/discussions/2016).
+
+
+### 2. Käsiteltävät kehitysehdotukset
 
 * [Varaukselle normaali noutoaika myös patron_expiration_daten yli #1991](https://github.com/KohaSuomi/Koha/issues/1991)
 * [Asiakkaiden viesteihin mukaan "kalenterikutsu", jos viestiin liittyy päivämäärä #1992](https://github.com/KohaSuomi/Koha/issues/1992)
 * [Kirjeviestintärajapinnan muutos #2003](https://github.com/KohaSuomi/Koha/issues/2003)
 
 
-### Muut asiat
+### 3. Muut asiat
 
-### Seuraava kokous
+### 4. Seuraava kokous
 
 
 ## Muistio 8/2025
