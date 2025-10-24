@@ -38,6 +38,11 @@ Versionvaihdon työt on aloitettu ja Koha-Suomen omien ominaisuuksien siirto ver
 
 ### 3. Muut asiat
 
+Suomi.fi Viestien käyttöönottoaikataulut. Kunnat velvollisia ottamaan viestintätavan käyttöön vuoden 2025 loppuun mennessä. Siirtymäaika ollut vuodesta 2017 lähtien. Jos ei oteta käyttöön, pitää siitä tehdä poikkeamailmoitus.
+
+[Sähköinen asiakkaaksi ilmoittautuminen vahvalla tunnistautumisella](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/33) - tilanne?
+ * Helmetissä käynnissä digiperustahanke, jonka osana selvitetään myös vahvaa tunnistautumista. Tässä vaiheessa asiasta ei kuitenkaan ole enempää kerrottavaa. Voivat palata asiaan uudelleen loppuvuodesta.
+
 ### 4. Seuraava kokous
 
 
