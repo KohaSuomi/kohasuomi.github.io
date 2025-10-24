@@ -53,7 +53,7 @@ Etelästä pohjoiseen
 * Kuun lopussa on uutiskirjeen deadline. Sinne ehtii vielä laittamaan oman kirjaston kuulumisia.
 
 **Kyyti**
-*Kotkassa huomattiin, että lehtitilaukselle oli tallennettu väärä numerointikaava. Numerointikaava muutettiin oikeaksi, mutta lehti jäi silti odottamaan väärää numeroa. Ilmeisesti numerointikaavan muuttaminen kesken tilauksen ei korjaa numerointia oikeaksi loppuvuoden saapuville lehdille, mutta jos tilauksen kopioi ensi vuodelle uudeksi tilaukseksi pitäisi numeroinnin toimia ensi vuoden osalta oikein.
+* Kotkassa huomattiin, että lehtitilaukselle oli tallennettu väärä numerointikaava. Numerointikaava muutettiin oikeaksi, mutta lehti jäi silti odottamaan väärää numeroa. Ilmeisesti numerointikaavan muuttaminen kesken tilauksen ei korjaa numerointia oikeaksi loppuvuoden saapuville lehdille, mutta jos tilauksen kopioi ensi vuodelle uudeksi tilaukseksi pitäisi numeroinnin toimia ensi vuoden osalta oikein.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
