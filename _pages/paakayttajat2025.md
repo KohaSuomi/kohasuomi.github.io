@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Versionvaihto:
@@ -51,6 +51,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Normaalia ylläpitoa.
 * Kuun lopussa on uutiskirjeen deadline. Sinne ehtii vielä laittamaan oman kirjaston kuulumisia.
+
+**Kyyti**
+*Kotkassa huomattiin, että lehtitilaukselle oli tallennettu väärä numerointikaava. Numerointikaava muutettiin oikeaksi, mutta lehti jäi silti odottamaan väärää numeroa. Ilmeisesti numerointikaavan muuttaminen kesken tilauksen ei korjaa numerointia oikeaksi loppuvuoden saapuville lehdille, mutta jos tilauksen kopioi ensi vuodelle uudeksi tilaukseksi pitäisi numeroinnin toimia ensi vuoden osalta oikein.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
