@@ -24,6 +24,11 @@ Läsnä:
 
 ### Käsiteltävät kehitysehdotukset
 
+* [Varaukselle normaali noutoaika myös patron_expiration_daten yli #1991](https://github.com/KohaSuomi/Koha/issues/1991)
+* [Asiakkaiden viesteihin mukaan "kalenterikutsu", jos viestiin liittyy päivämäärä #1992](https://github.com/KohaSuomi/Koha/issues/1992)
+* [Kirjeviestintärajapinnan muutos #2003](https://github.com/KohaSuomi/Koha/issues/2003)
+
+
 ### Muut asiat
 
 ### Seuraava kokous
