@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 44
+
+Aika: Ti 28.10.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
@@ -28,7 +40,7 @@ Etelästä pohjoiseen
 * [Tikettiin #750](https://github.com/KohaSuomi/Koha/issues/750) liittyvät aineistotyyppikorjaukset on saatu valmiiksi.
 
 **Vaski**
-* Kyseltiin, nko viime viikon ean-muutos voinut vaikuttaa myös isbn-koodien täsmäytymiseen? Viime viikolla ilmoitettu useammasta ei-yhdistyneestä tietueesta ja ainakin osassa tapauksista tilanne oli se, että ensimmäisessä toistumassa esiintyvä isbn oli osittain sama kuin vanhassa tietueessa (tilatussa tietueessa isbn 9513111458 ja vanhassa tietueessa isbn 9789513111458 eli isbn oli sama lukuunottamatta puuttuvaa 978-alkua). Ei ollut varmaa tietoa siitä, onko isbn:ien täsmäytys toiminut aina näin, mutta sovittiin että Vaski tekee tästä tiketin ja liittää siihen myös editx-sanomien tiedot.
+* Kyseltiin, onko viime viikon ean-muutos voinut vaikuttaa myös isbn-koodien täsmäytymiseen? Viime viikolla ilmoitettu useammasta ei-yhdistyneestä tietueesta ja ainakin osassa tapauksista tilanne oli se, että ensimmäisessä toistumassa esiintyvä isbn oli osittain sama kuin vanhassa tietueessa (tilatussa tietueessa isbn 9513111458 ja vanhassa tietueessa isbn 9789513111458 eli isbn oli sama lukuunottamatta puuttuvaa 978-alkua). Ei ollut varmaa tietoa siitä, onko isbn:ien täsmäytys toiminut aina näin, mutta sovittiin että Vaski tekee tästä tiketin ja liittää siihen myös editx-sanomien tiedot.
 * Siirto-rajapinnan käyttöönotto etenee, kyselty Johannalta aikataulua tuotantoon viennille.
 * Vehmaan kirjasto ottamassa ajanvarausjärjestelmää käyttöön, sen tiimoilta Toshiban kanssa palaveri tänään.
 * Turun pääkirjaston palautusautomaatin vaihto lähenee, viikonloppuna alkaa purkutyöt ja väliaikaisen lajittelijan asennus.
