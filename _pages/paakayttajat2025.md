@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
+* Versiota 25 testatessa huomattua: Asiakkaalta saa poistettua sotuavaimen ja sitten tallennettua asiakkaan ilman ohita-napin painallusta ilman sotuavainta. Ongelma on myös nykyisessä veriossa. Tarviiko tehdä bugitikettiä?
 
 Pohjoisesta etelään
 
