@@ -16,12 +16,13 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 44
 
 Aika: Ma 27.10.2025<br />
-Läsnä: 
+Läsnä: Johanna, Anneli, Lari, Pasi, Kodo, Ari, Robert, Emmi
 
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * Joubu kyselee Mattermostissa vapaaehtoisia tekijöitä [Koha Advent Calendarille](https://chat.koha-community.org/koha-community/pl/nk9j37m85fdddmkjgatimmwamc), oisko meillä tuohon mitään ideaa?
+  * Ehdotettu, että esitellään omia plugareitamme (niitä joista voisi olla myös yhteisölle iloa) 
 
 
 ## Viikko 43
