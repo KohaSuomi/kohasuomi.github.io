@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -58,6 +58,11 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 **Lumme**
 * Finnassa useampi karuselli oli lakannut näkymästä ja syyksi paljastui karusellien id-numeroiden muutos. Pieni epäilys on, että tämä olisi tapahtunut mahdollisesti jonkun päivityksen yhteydessä. Karusellien id-numeroiden päivitys korjasi ongelman.
 * Meillä on toivottu värikoodimuutoksia esim. Lainattavissa, ei varattavissa -tilassa oleville niteille, koska asiakkaat kokevat näiden saatavuustilan huomioimisen hankalaksi. Vaskissa on kokeiltu esim. käsikirjastossa olevien niteiden saatavuustilan värin muuttamista keltaiseksi. Kokeillaan, olisiko tästä apua meille.
+
+**Kyyti**
+* Aineistotyyppimuutosten vaatimat korjaukset on tehty ja ajon saa tehdä tuotantoon.
+* Ensivuoden aikakauslehtien uusien tietuepohjien luonnin yhteydessä otamme niissä käyttöön lehtien kuvailupohjan ja siihen ei tule käyttöön nidetyypin automaattista valintaa. Tällöin nidetyyppi tulee lehtiniteille lehtitilauksesta, mikä vähentää klikkailua ja nopeuttaa vastaanottoa.
+
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
