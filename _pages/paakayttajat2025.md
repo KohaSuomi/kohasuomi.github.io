@@ -24,6 +24,7 @@ Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
   * Siilille ja Lastulle tehdään testille ajo ja jos ne näyttävät olevan ok, niin tehdään tuotantoonkin. Vanhat signumit otetaan aputauluun talteen, josta ne voidaan tarvittaessa palauttaa. Pasi tarkistaa vielä, että niteet indeksoituvat uudelleen ajon yhteydessä.
   * muutoslogiikka: vanhoista signumeista poistetaan ylimääräisiä osia, ei luoda uusia signumeita
 * Kaukolainamoduulin esittely vko 47 ylläpito/käyttöönottoesittely/video ja vkolla 48 käyttäjille tarkoitettu esittely/video
+* [Kohan ohje suomeksi päivitys versioon 25](https://github.com/KohaSuomi/Koha/issues/2037) - päivitysvastuut
 
 Pohjoisesta etelään
 
