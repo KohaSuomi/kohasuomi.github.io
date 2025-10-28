@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -27,6 +27,12 @@ Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
 * [Kohan ohje suomeksi päivitys versioon 25](https://github.com/KohaSuomi/Koha/issues/2037) - päivitysvastuut
 
 Pohjoisesta etelään
+
+**Vaara**
+* Yhdessä kirjastossa on havaittu ongelma Firefoxin popup-ikkunoissa tulostamisen aikana. "Selaimena Firefox ja 140.3.0 ESR. Kun tulostaa varausta, poppari jää auki ja pitää sulkea ruksista. Jos ei sulje (jättää sen vaikka taustalle), seuraavaksi palautettujen niteitten kuitit eivät tulostu. Kun tulostaa lainakuittia, selain avaa kokonaan uuden välilehden, joka jää valkeana auki + pyörittämään "rullakuvaketta" välilehden ylälaitaan. Kuittien tulostumisessa ei ole muuta ongelmaa eli vain tuo ponnahdusten auki jäänti häiritsee. Tarkistin kaikki kuittiasetukset ja laitoin print_always_silentin pois ja takaisin päälle ja pop upit pois ja takaisin hyväksytyiksi, muttei muuttanut asiaa."
+Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongelma on ratkennut. Ratkaisuksi ehdotettiin Firefoxin profiilin uusimista https://support.mozilla.org/fi/kb/profiilien-hallinta-luo-ja-poista-profiileja
+* Henkilökunnalta tuli kysymys, voisiko Koha muistuttaa salasanan vaihtamisesta määräajoin. Anneli lupasi selvittää, onko tähän olemassa mitään mahdollisuutta. Koha muistuttaa tilin vanhenemisesta, mutta se on eri asia.
+* Tulevana perjantaina 31.10. kaikki Vaara-kirjastojen työntekijät ovat kouluttautumassa Ake-päivässä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
