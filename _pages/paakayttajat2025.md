@@ -13,11 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
+  * Anneli julkaisee ma 3.11.2025
 * Versiota 25 testatessa huomattua: Asiakkaalta saa poistettua sotuavaimen ja sitten tallennettua asiakkaan ilman ohita-napin painallusta ilman sotuavainta. Ongelma on myös nykyisessä versiossa. Tarviiko tehdä bugitikettiä?
+  * Anneli tekee, tutkitaan, onko edes mahdollista aktivoida Ohita-nappi sen jälkeen, kun Tyhjennä-nappia on painettu
+* Signum-muutosajot
+  * Siilille ja Lastulle tehdään testille ajo ja jos ne näyttävät olevan ok, niin tehdään tuotantoonkin. Vanhat signumit otetaan aputauluun talteen, josta ne voidaan tarvittaessa palauttaa. Pasi tarkistaa vielä, että niteet indeksoituvat uudelleen ajon yhteydessä.
+  * muutoslogiikka: vanhoista signumeista poistetaan ylimääräisiä osia, ei luoda uusia signumeita
+* Kaukolainamoduulin esittely vko 47 ylläpito/käyttöönottoesittely/video ja vkolla 48 käyttäjille tarkoitettu esittely/video
 
 Pohjoisesta etelään
 
