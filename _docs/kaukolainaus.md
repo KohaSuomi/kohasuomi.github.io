@@ -35,6 +35,17 @@ ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 ILLOpacUnauthenticatedRequest | Älä salli | Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 
+### ILLRequestsTabs
+
+```
+- name: Pyydetyt
+  status:
+    - REQ
+    - GENREQ
+- name: Valmiit
+  status:
+    - COMP
+```
 ### IntranetUserCSS 
 
 Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
