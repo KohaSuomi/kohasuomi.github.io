@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -50,8 +50,11 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Anneli teki kuvailijan pyynnöstä uuden raportin aktivoitumattomista tietueista, joka näyttää tuloksissa vähemmän tietoja MARC-tietueesta kuin alkuperäinen raportti. Uuden raportin mukaan 1.4. ja 14.5. on OUTIssa ollut paljon ennakkotietueita, jotka on jääneet aktivoitumatta (se ehkä selittää miksi OUTIssa on ollut myös vähempi valuneita tietueita).
   * Muutamat näyttävät johtuvan siitä, että hankintatietueissa ISBN on tallennettu 024a-kenttään 020a-kentän sijaan
   * Jostain syystä Hankintaportaalin kautta tulee välillä Melindan ennakkotietueita, jolloin niistä aktivoituu 035-kentän Melinda-ID eikä Kirjastopalvelun tietueet silloin kohtaa niitä. Ei ole varmaa tulevatko ne Hankintaportaalin kautta vai mistä ne tulevat.
-  * Anneli laittoi tikettiin: https://github.com/KohaSuomi/Koha/issues/1756#issuecomment-3455041237 uuden raportin, jotta muissakin kimpoissa voidaan tarkistaa tapahtuuko niissä samaa kuin OUTIssa. Kuvalijamme ottaa asian puheeksi seuraavassa kuvailijoiden kokouksessa 12.11. 
-
+  * Anneli laittoi tikettiin: https://github.com/KohaSuomi/Koha/issues/1756#issuecomment-3455041237 uuden raportin, jotta muissakin kimpoissa voidaan tarkistaa tapahtuuko niissä samaa kuin OUTIssa. Kuvalijamme ottaa asian puheeksi seuraavassa kuvailijoiden kokouksessa 12.11.
+ 
+**Helle**
+* Ehdotus uudesta aineistotyypistä Palapeli. Tiketti [Käyttöön uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/48) Ehdotus on ilmoitettu Finna-toimistolle.
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 43
