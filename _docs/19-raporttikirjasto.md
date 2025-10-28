@@ -3260,6 +3260,30 @@ WHERE biblionumber REGEXP <<param>>
 LIMIT 1000
 ```
 
+### Tietueet, joilla ei ole valutuksen aktivoitumisarvoa
+
+Tällä raportilla voi hakea tietueet, joilla ei ole tietueen valutuskseen liittyvässä taulussa aktivointiarvoa eli käytännössä tietueisiin ei valu uudet kuvailutiedot, jos TäTiin tulee päivityksiä vastaavaan tietueeseen. Tulokset on rajattu 200 tulokseen, poista arvo tai muuta sitä tarvittaessa.
+
+Lisätty 28.10.2025<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT biblio.biblionumber, 
+   CONCAT_WS(' / ', biblio.timestamp, biblio_metadata.timestamp) AS 'biblio-taulun aikaleima/metadata-taulun aikaleima', ExtractValue(metadata, '//controlfield[@tag="001"]') AS '001',
+   ExtractValue(metadata, '//controlfield[@tag="003"]') AS '003', 
+   CONCAT_WS(' ', ExtractValue(metadata, '//datafield[@tag="020"]/subfield[@code="a"]'), ExtractValue(metadata, '//datafield[@tag="020"]/subfield[@code="q"]'), ExtractValue(metadata, '//datafield[@tag="020"]/subfield[@code="z"]') ) AS '020aqz', 
+   CONCAT_WS(' ', ExtractValue(metadata, '//datafield[@tag="024"]/subfield[@code="a"]'), ExtractValue(metadata, '//datafield[@tag="024"]/subfield[@code="z"]')) AS '024az', ExtractValue(metadata, '//datafield[@tag="035"]/subfield[@code="a"]') AS '035a', 
+   biblio.author AS '100/110/111a', 
+   CONCAT_WS(' ', biblio.title, biblio.subtitle, biblio.part_number, biblio.part_name, ExtractValue(metadata, '//datafield[@tag="245"]/subfield[@code="c"]') ) AS 'Nimeketiedot',
+   ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') AS '942c'
+FROM biblio
+LEFT JOIN biblio_metadata ON (biblio_metadata.biblionumber=biblio.biblionumber)
+WHERE biblio.biblionumber not in (select biblionumber from koha_plugin_fi_kohasuomi_broadcastbiblios_activerecords)
+AND ExtractValue(metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = ''
+AND datecreated > <<Tietueen lisäyspäivä suurempi kuin|date>>
+AND ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') NOT IN ('ALEHTI', 'ESINE')
+LIMIT 200
+```
 
 ## Kuljetukset
 
