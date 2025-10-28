@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), 
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -40,7 +40,13 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 
 **Lappi**
 * Siirtokokoelmissa oleva aineisto hämmentää ajoittain käyttäjiä, kun nide ei halua kotikirjastoonsa. 
-* Muuten normaalia ylläpitoa. 
+* Muuten normaalia ylläpitoa.
+
+**OUTI**
+* Oulun Ceepos-kassojen päivitys 3.11.2025 versioon 10.2. Laitettu CPU:lle varmistusta, etteihän Ouluun ole tulossa vastaavia Koha-Ceepos-rajapintaongelmia mitä Joensuussa oli päivityksen jälkeen.
+* Oulun kaupungilla on suunnitteilla ottaa käyttöön verkkomaksujen täsmäytysrobotiikka, jolla pystyttäisiin täsmäyttämään verkkomaksuna maksetut Koha-maksut, Ceeposin verkkomaksuportaalin, Ceeposin reskontran, Paytrailin ja kirjanpitoon. Ehkä mahdollista toteuttaa Raportteri-liitännäisellä, tiketti: https://github.com/KohaSuomi/Koha/issues/2035
+* Samoin on pyydetty raporttia Oulun Ceepos-kassoille maksetuista Koha-maksuista, joita haluttaisiin myös käyttää kirjanpidon täsmäytyksessä Ceepos-kassojen osalta.
+* Pyhäjoen kirjasto on remontissa muutaman viikon. Reilut 24000 nidettä muutettu Muuttolaatikossa-tilaan. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
