@@ -46,7 +46,11 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Oulun Ceepos-kassojen päivitys 3.11.2025 versioon 10.2. Laitettu CPU:lle varmistusta, etteihän Ouluun ole tulossa vastaavia Koha-Ceepos-rajapintaongelmia mitä Joensuussa oli päivityksen jälkeen.
 * Oulun kaupungilla on suunnitteilla ottaa käyttöön verkkomaksujen täsmäytysrobotiikka, jolla pystyttäisiin täsmäyttämään verkkomaksuna maksetut Koha-maksut, Ceeposin verkkomaksuportaalin, Ceeposin reskontran, Paytrailin ja kirjanpitoon. Ehkä mahdollista toteuttaa Raportteri-liitännäisellä, tiketti: https://github.com/KohaSuomi/Koha/issues/2035
 * Samoin on pyydetty raporttia Oulun Ceepos-kassoille maksetuista Koha-maksuista, joita haluttaisiin myös käyttää kirjanpidon täsmäytyksessä Ceepos-kassojen osalta.
-* Pyhäjoen kirjasto on remontissa muutaman viikon. Reilut 24000 nidettä muutettu Muuttolaatikossa-tilaan. 
+* Pyhäjoen kirjasto on remontissa muutaman viikon. Reilut 24000 nidettä muutettu Muuttolaatikossa-tilaan.
+* Anneli teki kuvailijan pyynnöstä uuden raportin aktivoitumattomista tietueista, joka näyttää tuloksissa vähemmän tietoja MARC-tietueesta (kuin alkuperäinen raportti). Uuden raportin mukaan 1.4. ja 14.5. on OUTIssa ollut paljon ennakkotietueita, jotka on jääneet aktivoitumatta (se ehkä selittää miksi OUTIssa on ollut myös vähempi valuneita tietueita).
+  * Muutamat näyttävät johtuvan siitä, että hankintatietueissa ISBN on tallennettu 024a-kenttään 020a-kentän sijaan
+  * Jostain syystä Hankintaportaalin kautta tulee välillä Melindan ennakkotietueita, jolloin niistä aktivoituu 035-kentän Melinda-ID eikä Kirjastopalvelun tietueet silloin kohtaa niitä. Ei ole varmaa tulevatko ne Hankintaportaalin kautta vai mistä ne tulevat.
+  * Anneli laittoi tikettiin: https://github.com/KohaSuomi/Koha/issues/1756#issuecomment-3455041237 uuden raportin, jotta muissakin kimpoissa voidaan tarkistaa tapahtuuko niissä samaa kuin OUTIssa. Kuvalijamme ottaa asian puheeksi seuraavassa kuvailijoiden kokouksessa 12.11. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
