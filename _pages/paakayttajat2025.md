@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), 
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -36,7 +36,11 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Tulevana perjantaina 31.10. kaikki Vaara-kirjastojen työntekijät ovat kouluttautumassa Ake-päivässä.
 
 **Kirkes**
- * Kirkes-johtoryhmälle viety pohdittavaksi asia, jonka Vaski-kirjastot nostivat esiin pari viikkoa sitten, eli tilanne, jossa asiakas oli eri korttinumeroita ja PIN-koodeja testaamalla onnistunut kirjautumaan toisen asiakkaan tietoihin. Kirkes-kirjastokorteissa on juokseva numerointi. Johtajat ovat kysyneet, onko Kohaan mahdollista tehdä asetus, joka estää helpoimmat PIN-koodit. Pääkäyttäjäryhmässä tultiin taannoin siihen tulokseen, että tietoturva on lopulta asiakkaan vastuulla, ja vaikka Kohaan saisi eston, jäisi olemassa oleville asiakkaille vanhoja helposti arvattavia PIN-koodeja. Erika lupautui selvittämään, onko Finnaan mahdollista saada asetus, joka estäisi liian yksinkertaisen PIN-koodin asettamisen Finnassa. 
+ * Kirkes-johtoryhmälle viety pohdittavaksi asia, jonka Vaski-kirjastot nostivat esiin pari viikkoa sitten, eli tilanne, jossa asiakas oli eri korttinumeroita ja PIN-koodeja testaamalla onnistunut kirjautumaan toisen asiakkaan tietoihin. Kirkes-kirjastokorteissa on juokseva numerointi. Johtajat ovat kysyneet, onko Kohaan mahdollista tehdä asetus, joka estää helpoimmat PIN-koodit. Pääkäyttäjäryhmässä tultiin taannoin siihen tulokseen, että tietoturva on lopulta asiakkaan vastuulla, ja vaikka Kohaan saisi eston, jäisi olemassa oleville asiakkaille vanhoja helposti arvattavia PIN-koodeja. Erika lupautui selvittämään, onko Finnaan mahdollista saada asetus, joka estäisi liian yksinkertaisen PIN-koodin asettamisen Finnassa.
+
+**Lappi**
+* Siirtokokoelmissa oleva aineisto hämmentää ajoittain käyttäjiä, kun nide ei halua kotikirjastoonsa. 
+* Muuten normaalia ylläpitoa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
