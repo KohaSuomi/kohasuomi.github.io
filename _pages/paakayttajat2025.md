@@ -54,6 +54,10 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
  
 **Helle**
 * Ehdotus uudesta aineistotyypistä Palapeli. Tiketti [Käyttöön uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/48) Ehdotus on ilmoitettu Finna-toimistolle.
+
+**Lumme**
+* Finnassa useampi karuselli oli lakannut näkymästä ja syyksi paljastui karusellien id-numeroiden muutos. Pieni epäilys on, että tämä olisi tapahtunut mahdollisesti jonkun päivityksen yhteydessä. Karusellien id-numeroiden päivitys korjasi ongelman.
+* Meillä on toivottu värikoodimuutoksia esim. Lainattavissa, ei varattavissa -tilassa oleville niteille, koska asiakkaat kokevat näiden saatavuustilan huomioimisen hankalaksi. Vaskissa on kokeiltu esim. käsikirjastossa olevien niteiden saatavuustilan värin muuttamista keltaiseksi. Kokeillaan, olisiko tästä apua meille.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
