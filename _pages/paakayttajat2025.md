@@ -13,11 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
-* Versiota 25 testatessa huomattua: Asiakkaalta saa poistettua sotuavaimen ja sitten tallennettua asiakkaan ilman ohita-napin painallusta ilman sotuavainta. Ongelma on myös nykyisessä veriossa. Tarviiko tehdä bugitikettiä?
+* Versiota 25 testatessa huomattua: Asiakkaalta saa poistettua sotuavaimen ja sitten tallennettua asiakkaan ilman ohita-napin painallusta ilman sotuavainta. Ongelma on myös nykyisessä versiossa. Tarviiko tehdä bugitikettiä?
 
 Pohjoisesta etelään
 
