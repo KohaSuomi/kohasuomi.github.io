@@ -36,7 +36,7 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Tulevana perjantaina 31.10. kaikki Vaara-kirjastojen työntekijät ovat kouluttautumassa Ake-päivässä.
 
 **Kirkes**
- * Kirkes-johtoryhmälle viety pohdittavaksi asia, jonka Vaski-kirjastot nostivat esiin pari viikkoa sitten, eli tilanne, jossa asiakas oli eri korttinumeroita ja PIN-koodeja testaamalla onnistunut kirjautumaan toisen asiakkaan tietoihin. Kirkes-kirjastokorteissa on juokseva numerointi. Johtajat ovat kysyneet, onko Kohaan mahdollista tehdä asetus, joka estää helpoimmat PIN-koodit. Pääkäyttäjäryhmässä tultiin taannoin siihen tulokseen, että tietoturva on lopulta asiakkaan vastuulla, ja vaikka Kohaan saisi eston, jäisi olemassa oleville asiakkaille vanhoja helposti arvattavia PIN-koodeja. Erika lupautui selvittämään, onko Finnaan mahdollista saada asetus, joka estäisi liian yksinkertaisen PIN-koodin asettamisen Finnassa.
+ * Kirkes-johtoryhmälle viety pohdittavaksi Finna-kirjautumisen tietoturvaan liittyvä asia, joka oli puheena pääkäyttäjäpalaverissa pari viikkoa sitten. Kirkes-kirjastokorteissa on juokseva numerointi. Johtajat ovat kysyneet, onko Kohaan mahdollista tehdä asetus, joka estää helpoimmat PIN-koodit. Pääkäyttäjäryhmässä tultiin taannoin siihen tulokseen, että tietoturva on lopulta asiakkaan vastuulla, ja vaikka Kohaan saisi eston, jäisi olemassa oleville asiakkaille vanhoja helposti arvattavia PIN-koodeja. Erika lupautui selvittämään, onko Finnaan mahdollista saada asetus, joka estäisi liian yksinkertaisen PIN-koodin asettamisen Finnassa.
 
 **Lappi**
 * Siirtokokoelmissa oleva aineisto hämmentää ajoittain käyttäjiä, kun nide ei halua kotikirjastoonsa. 
