@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -63,13 +63,18 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Aineistotyyppimuutosten vaatimat korjaukset on tehty ja ajon saa tehdä tuotantoon.
 * Ensivuoden aikakauslehtien uusien tietuepohjien luonnin yhteydessä otamme niissä käyttöön lehtien kuvailupohjan ja siihen ei tule käyttöön nidetyypin automaattista valintaa. Tällöin nidetyyppi tulee lehtiniteille lehtitilauksesta, mikä vähentää klikkailua ja nopeuttaa vastaanottoa.
 
+**Lastu**
+* Tullut palautetta, että jos automaatilla palauttaa aineistoa jolla on jokin notforloan-arvo, se ei joissakin tapauksissa lajitu oikein lajittelevalla automaatilla. Havaittu, että tämä johtuu siitä, että palautukset saavat SIP-sanoman CV-kentässä arvon 53, joka ylikirjoittaa samassa kentässä välitettävän tiedon varauksesta. Ongelmaa oli muillakin, joten tehtiin tästä kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/2040
+* Lastun pääkäyttäjät kehittämispäivässä 31.10 ja rajoitetusti tavoitettavissa puhelimella tai sähköpostilla.
+* RFID-haravan testaukset sujuneet hyvin, tehdään kooste havainnoista Robertille.
+
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 43
 
 Aika: Ti 21.10.2025 klo 9.15<br />
-Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Roosa Väisänen (Kyyti)
+Läsnä: Erika Miettinen ja Elina Uotila (Kirkes), Anni Mäki-Mantila (Vaski), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Versionvaihto:
@@ -110,6 +115,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Kotkassa huomattiin, että lehtitilaukselle oli tallennettu väärä numerointikaava. Numerointikaava muutettiin oikeaksi, mutta lehti jäi silti odottamaan väärää numeroa. Ilmeisesti numerointikaavan muuttaminen kesken tilauksen ei korjaa numerointia oikeaksi loppuvuoden saapuville lehdille, mutta jos tilauksen kopioi ensi vuodelle uudeksi tilaukseksi pitäisi numeroinnin toimia ensi vuoden osalta oikein.
+
+**Lastu**
+* RFID-haravaa testailtu, muuten perusylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
 
