@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 9/2025
+## Muistio 9/2025
 
 Aika: Ke 29.10.2025 klo 13<br />
-Läsnä:
+Läsnä: Ari, Anneli, Emmi, Leena, Erika, Janne, Kati, Noora, Päivi, Susanna, Tuomas, Hanna
 
 ### 1. Ajankohtaiset
 
@@ -32,9 +32,13 @@ Versionvaihdon työt on aloitettu ja Koha-Suomen omien ominaisuuksien siirto ver
 ### 2. Käsiteltävät kehitysehdotukset
 
 * [Varaukselle normaali noutoaika myös patron_expiration_daten yli #1991](https://github.com/KohaSuomi/Koha/issues/1991)
+  * Päätös: Toteutetaan
 * [Asiakkaiden viesteihin mukaan "kalenterikutsu", jos viestiin liittyy päivämäärä #1992](https://github.com/KohaSuomi/Koha/issues/1992)
+  * Päätös: Ei toteuteta
 * [Kirjeviestintärajapinnan muutos #2003](https://github.com/KohaSuomi/Koha/issues/2003)
+  * Päätös: Toteutetaan. Tutkitaan, mikä tieto lähettäjäosoitteeksi voidaan saada. Lähettäjäosoitteen mukaan perille menemätön paperikirjeet palautetaan lähettäjälle.
 * [Vanhojen 10-merkkiä pitkien ja uusien 13-merkkiä pitkien isbn-tunnusten täsmäyttäminen #2033](https://github.com/KohaSuomi/Koha/issues/2033)
+  * Toteutetaan
 
 
 ### 3. Muut asiat
@@ -43,9 +47,14 @@ Suomi.fi Viestien käyttöönottoaikataulut. Kunnat velvollisia ottamaan viestin
 
 [Sähköinen asiakkaaksi ilmoittautuminen vahvalla tunnistautumisella](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/33) - tilanne?
  * Helmetissä käynnissä digiperustahanke, jonka osana selvitetään myös vahvaa tunnistautumista. Tässä vaiheessa asiasta ei kuitenkaan ole enempää kerrottavaa. Voivat palata asiaan uudelleen loppuvuodesta.
+ * Finna-toimisto on valmis toteuttamaan tunnistautumisen meidän kanssa, mutta he ovat todella työllistettyjä tällä hetkellä. VuFindissa tulossa isoja muutoksia, jotka vievät heiltä paljon aikaa. VuFindin keskeisiä osia on poistumassa.
+ * Tässä vaiheessa ei kannata tehdä erillistä lomaketta muuta kautta.
+ * Ari muistuttelee Finna-toimistoa tarpeesta säännöllisesti, jotta asia ei unohdu.
+ * Pyritään saamaan käyttöön talven aikana.
 
 ### 4. Seuraava kokous
 
+Ke 26.11.2025 klo 13
 
 ## Muistio 8/2025
 
