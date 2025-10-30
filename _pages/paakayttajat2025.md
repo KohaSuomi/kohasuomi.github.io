@@ -1346,7 +1346,7 @@ Etelästä pohjoiseen
 ## Viikko 16
 
 Aika: 15.4.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren, Lotta Juvonen, Vilgot Strömsholm (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren, Lotta Juvonen, Vilgot Strömsholm (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * ei viikkopäivitystä palvelimien tiedostojärjestelmäongelman vuoksi
@@ -1372,6 +1372,9 @@ Pohjoisesta etelään
 
 **Helle**
 * Vanhentuneiden asiakastietojen poistoajo tehty [Tiketti 1572](https://github.com/KohaSuomi/Koha/issues/1572#issuecomment-2771492169)
+
+**Vaski**
+* Ei erityistä
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-16) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -1425,7 +1428,7 @@ Etelästä pohjoiseen
 ## Viikko 14
 
 Aika: 1.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/1772)
@@ -1458,6 +1461,9 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Kysytty aiheuttaako YSO-konversion lokitiedosto toimenpiteitä omassa Kohassa; ei toistaiseksi. Seurataan teamsia ja muita keskusteluja.
 * Ei muuta mainittavaa.
+
+**Vaski**
+* Koha-seminaariin toivottaisiin yhteisten asioiden työstämistä, kimppojen kehitysprojekteja ja Kehittäjätyön syvällisempää läpikäyntiä.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-14) - [Palaa sivun alkuun](/paakayttajat2025)
@@ -1625,7 +1631,7 @@ Etelästä pohjoiseen
 ## Viikko 10
 
 Aika: 4.3.2025<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Johanna Räisä (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Viikon 10 päivitys
@@ -1664,6 +1670,10 @@ Muissa kimpoissa ollut muutama vastaava tapaus nidettä tallentaessa. Tiketti (U
 * Pitkään vireillä ollut myös muovitetun aineiston tilaamista koskeva muutos Hankintaportaalissa on vihdoin edennyt, testitilauksia on jo lähetetty.
 * Vanhentuneiden asiakkaiden poistoajo on pyydetty ti 11.3.
 * YSO-konversion valmistelu on työn alla
+
+**Vaski**
+* ø-kirjainta ei tunnisteta ööksi. Vaski tekee tiketin
+* OpacHiddenItemsHidesRecords-asetus. Piilottaa OpacHiddenItems asetuksella piilotettujen niteiden tietueet. Ei tällä hetkellä toimi Finnan kanssa. Vaski tekee tiketin
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-10) - [Palaa sivun alkuun](/paakayttajat2025)
 
