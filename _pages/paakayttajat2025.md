@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Erika Miettinen (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Pirkko-Liisa Lauhikari, Katariina Pohto, Piia Semenoff (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Uutiskirjeen deadline lähestyy](https://docs.google.com/document/d/1b39zVuGhE01WNne2aragzvsZU-z-PBHlnZCCuxcLZx8/edit?tab=t.0)
@@ -80,6 +80,10 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * Tullut palautetta, että jos automaatilla palauttaa aineistoa jolla on jokin notforloan-arvo, se ei joissakin tapauksissa lajitu oikein lajittelevalla automaatilla. Havaittu, että tämä johtuu siitä, että palautukset saavat SIP-sanoman CV-kentässä arvon 53, joka ylikirjoittaa samassa kentässä välitettävän tiedon varauksesta. Ongelmaa oli muillakin, joten tehtiin tästä kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/2040
 * Lastun pääkäyttäjät kehittämispäivässä 31.10 ja rajoitetusti tavoitettavissa puhelimella tai sähköpostilla.
 * RFID-haravan testaukset sujuneet hyvin, tehdään kooste havainnoista Robertille.
+
+**Vaski**
+* Selvitetty korttien vaihtamista sellaisiin, joissa viivakoodi sisältää satunnaisnumeroita.
+* Vanha Tuomas-automaatti purettu pääkirjastolta ja aulaan rakennettu tilapäinen palautusautomaatti siksi aikaa kunnes uusi automaatti saadaan rakennettua vanhan paikalle.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-44) - [Palaa sivun alkuun](/paakayttajat2025)
@@ -190,7 +194,7 @@ Pohjoisesta etelään
 ## Viikko 41
 
 Aika: Ti 7.10.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti). Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 
@@ -237,6 +241,9 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Ei mainittavaa.
+
+**Vaski**
+* Ei mainittavaa
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-41) - [Palaa sivun alkuun](/paakayttajat2025)
 
