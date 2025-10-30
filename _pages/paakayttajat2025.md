@@ -564,7 +564,7 @@ Etelästä pohjoiseen
 ## Viikko 34
 
 Aika: 19.8.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Katariina (Kassu) Pohto (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Johanna Räisä ja Lari Strand (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Katariina (Kassu) Pohto (OUTI), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/1944)
@@ -594,6 +594,12 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Varmenteiden jakelu on käynnissä.
 * Varmistettu, ettei template toolkit -muotoisten viestien käyttöönotto vaadi mitään erityistä Kohassa.
+
+**Vaski**
+* Hankinnassa puutteellisia varoituksia niteiden poistumisesta, kun tilausrivejä poistetaan.
+* Lasten PIN-koodeja mietitty. Tällä hetkellä tiukka linja, ettei ilman huoltajan suostumusta anneta uutta PIN-koodia unohtuneen tilalle, koska ei ole tietoa huoltajan suostumuksesta.
+* Googlen ja Kirkannan välille selvitelty rajapintatoteutusta, josta saataisiin ajantasaiset aukioloajat Googleen.
+* Harava-projektin Matrix-huoneeseen kaikki uteliaat tervetulleita.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-34) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -646,7 +652,7 @@ Etelästä pohjoiseen
 ## Viikko 32
 
 Aika: 5.8.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman ja Lari Strand (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman ja Lari Strand (Koha-Suomi), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/1924)
@@ -676,12 +682,15 @@ Pohjoisesta etelään
 **Lastu**
 * Normaalia ylläpitoa.
 
+**Vaski**
+* Ei erityistä
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-32) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 31
 
 Aika: 29.7.2025 klo 9.15<br />
-Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
+Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Anneli Österman (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Viikon 31 päivitys
@@ -723,6 +732,9 @@ Läsnä: Auli Rantasalo ja Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettin
 **Lastu**
 * Normaalia ylläpitoa, rauhallista
 * Tekstiviestien lähdöstä palautuva epäonnistuminen ja uudelleen yritykset mietitytti
+
+**Vaski**
+* Tulostusjärjestelmän kanssa huomattiin ongelma asiakastietojen poiston yhteydessä, kun osalta tulostusjärjestelmän käyttäjistä oli Kohasta poistunut asiakastietue. Nykyään tulostusjärjestelmän käyttökin näkyy Kohassa, mutta näin ei ole ollut aivan koko aikaa, kun Turussa kirjastotulostus on ollut. Samalla nousi esille, että mitä pitäisi tehdä tulostusjärjestelmän asiakkaille, jotka eivät enää ole kirjaston asiakkaita ja eivät siten voi käyttää tulostusjärjestelmää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-31) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -767,7 +779,7 @@ Pohjoisesta etelään
 ## Viikko 29
 
 Aika: 15.7.2025 klo 9.15<br />
-Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Emmi Takkinen (Koha-Suomi Oy), Pia Kusmin (Lappi), Auli Rantasalo klo 9.15-9.20 (Vaara). Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Viikon 29 päivitys
@@ -791,6 +803,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Signum-muutokseen liittyvät tiketit käyty (toivottavasti) läpi ja kommentoitu Siilin osalta. Muutoksen aikataulusta ei kai ole vielä mitään tietoa?
 * Muuten rauhallista.
+
+**Vaski**
+* Ei erityistä
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-29) - [Palaa sivun alkuun](/paakayttajat2025)
 
