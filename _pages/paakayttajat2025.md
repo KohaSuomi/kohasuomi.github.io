@@ -18,6 +18,9 @@ Läsnä:
 **Yhteiset**
 * Viikon 45 päivitys
 * [Asiantuntijaryhmän muistio 9/25](https://github.com/KohaSuomi/Koha/discussions/2044)
+* Versionvaihto
+  * [Patron expiry notice sallittavaksi lähtemään vain sähköpostilla. #152](https://github.com/KohaSuomi/Koha-25x/issues/152)
+    * Print-pohjan tyhjennys estää viestin muodostumisen sellaisille asiakkaille, joilla ei ole sähköpostiosoitetta
 
 Etelästä pohjoiseen
 
