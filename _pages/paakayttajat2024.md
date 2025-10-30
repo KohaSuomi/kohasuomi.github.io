@@ -203,7 +203,7 @@ Pohjoisesta etelään
 ## Viikko 48
 
 Aika: 26.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes), Kati Sillgren (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes), Kati Sillgren (Helle), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Käännösehdotuksia](https://github.com/KohaSuomi/Koha-translations/issues/58)?
@@ -251,12 +251,16 @@ Etelästä pohjoiseen
 * Kyseltiin onko jo kokemuksia s-postin suoralähetyksestä asiakkaalle Kohasta, s-postin kahteen osoitteeseen lähetyksestä onkin tulossa asiantuntijaryhmän kannanotto.
 * Maksukorotuksia tulossa 1.1.2025, ensimmäistä kertaa Kohan aikana!
 
+**Vaski**
+* Pupen jatkokehityksestä tulossa palaveri 9.12.
+* AuthSuccessLogia saattaa voida jatkossa käyttää ainakin ajoittaiseen seurantaan. Levytilan loppuminen johtui myös muusta vanhasta datasta mm. 2016 välivarastoiduista tietueista. 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-48) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 47
 
 Aika: 19.11.2024, klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila ja Annika Helastila (Kirkes)
+Läsnä: Anneli Österman (Koha-Suomi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu); Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila ja Annika Helastila (Kirkes), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Viestipohjat ja Template Toolkit: Hakasulkeiden sisällä olevat hauenleuat eivät enää toimi, vaan tiedot pitää laittaa TT-muodossa esim. borrower.firstname. [Tiketti Koha-24.05 #158](https://github.com/KohaSuomi/Koha-24.05/issues/158#issuecomment-2482625803) ja [tiketti Koha-24.05 #178](https://github.com/KohaSuomi/Koha-24.05/issues/178)
@@ -295,7 +299,10 @@ Pohjoisesta etelään
 **Lappi**
 * Kohaan avattu pääsy henkilökunnalle 19.11. klo 8. Samalla avattu Finnan kirjautuminen.
 * Joitain ongelmia tullut esille (esim. plugin IntranetUserJS: Restrict patron modification by category rajoitti liikaa pääsyä asiakastietoihin). Korjattu myös IntranetUserCSS-asetuksia havaittujen virheiden vuoksi.
-* Vuoden 2023 versionvaihdosta on vielä auki tikettejä, käydään sulkemassa ne, jos toiminto on korjautunut uudemmissa päivityksissä. 
+* Vuoden 2023 versionvaihdosta on vielä auki tikettejä, käydään sulkemassa ne, jos toiminto on korjautunut uudemmissa päivityksissä.
+
+**Vaski**
+* Finna-kirjautumiset lokittuvat, mutta vain 12 epäonnistuneeseen kirjautumiseen asti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-47) - [Palaa sivun alkuun](/paakayttajat2024)
 
