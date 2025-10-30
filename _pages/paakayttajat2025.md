@@ -1113,7 +1113,7 @@ Pohjoisesta etelään
 ## Viikko 21
 
 Aika: 20.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen (Lappi), Elina Uotila & Erika Miettinen (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi; alkuosan), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/1836)
@@ -1153,12 +1153,16 @@ Etelästä pohjoiseen
 **Helle**
 * Voisiko käyttöön saada ominaisuuden, joka ilmoittaa kehittäjille kimppaan/kimppoihin siirtymättömistä kuvailutietue-paketeista?
 
+**Vaski**
+* 14.5. EDItX-sanomien käsittelyhäiriöstä aiheutuneita processing ja postponed -tilaisia viestejä. Myös osa failed-tilaisista näyttää onnistuneen tilasta huolimatta. Vaski tekee tiketin.
+* Aktiivisessa viestitaulussa on useamman vuoden viestejä, vaikka säilytysaikojen mukaan vain vuosi ja kuluva kuukausi kuuluisivat aktiiviseen tauluun. Asiantuntijaryhmän tarkistettavaksi.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-21) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 20
 
 Aika: 13.5.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Kati Sillgren ja Lotta Juvonen (Helle), Anneli Österman Lari Strand ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * LocalCoverImages-asetus pois päältä tuotannoista
@@ -1206,6 +1210,11 @@ Pohjoisesta etelään
   * Noutamattoman varauksen maksu kirjautuu kirjastolle, jossa varauksen noutopaikka.
   * Kadonneen aineiston maksu kirjautuu kirjastolle, jossa nide asetettu kadonneeksi.
   * Manuaalisesti lisätty maksu kirjautuu kirjastolle, jossa maksu lisätty asiakkaan maksuihin.
+ 
+**Vaski**
+* Palautussivun kuljetusmodaalin valintanappien parannus -tikettiin laitettu ehdotus uudeksi toiminnaksi. Tätä voi testailla kimpoissa.
+* Haravaprojektiin muita kiinnostuneita kuin Helle, Lastu, Lumme ja Vaski?
+* Hankintaportaalista kaikki tilaukset eivät näytä siirtyneen.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-20) - [Palaa sivun alkuun](/paakayttajat2025)
@@ -1253,7 +1262,7 @@ Etelästä pohjoiseen
 ## Viikko 18
 
 Aika: 29.4.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Irina Halminen (Vaara), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski)
 
 
 **Yhteiset**
@@ -1288,6 +1297,12 @@ Pohjoisesta etelään
 **Lastu**
 * Pohdittu pitäisikö virkailijatunnuksia säilyttää järjestelmässä deaktivoituina vielä työsuhteen loppumisen jälkeen, sillä poistaminen vaikuttaa myös asiakastietojen katselun lokitietoihin
   * Palaverin jälkeen kysytty kaupungin tietosuojavastaavalta, jonka näkemys oli että tunnuksia on hyvä säilyttää deaktivoituina 6kk, jonka jälkeen tunnukset voi poistaa
+ 
+**Vaski**
+* Hankintaportaalin kanssa ollut ongelmia
+* Anonymisointiin käytetty käyttäjä ollut tyyppiä API, vaikka pitäisi olla henkilö ja siksi jäänyt tilastojen ulkopuolelle. Onko tästä muute huomioitavaa? Ei ole.
+* Jos writeoff-pohja on tyhjä, jääkö se lähettämättä? Ei kenelläkään käytössä, vaatii testaamista.
+* Nimekkeen poistaminen, kun viimeinen nide poistetaan täppä antaa poistaa nimekkeen, vaikka käyttäjällä ei siihen pitäisi olla oikeutta. Yhteisöstä puuttuu käyttöoikeus tietueen poistamiseen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-18) - [Palaa sivun alkuun](/paakayttajat2025)
 
