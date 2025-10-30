@@ -250,7 +250,7 @@ Etelästä pohjoiseen
 ## Viikko 40
 
 Aika: Ti 30.9.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Kouvolan Power Automate-esittely
@@ -290,6 +290,10 @@ Pohjoisesta etelään
 * Tilit ja budjetit 2026 valmiina kevään uutuustilauksia varten.
 * Suomi.fi-viestit selvittelyn alla, mutta vuodenvaihteeseen mennessä ei ehditä mukaan.
 * Äänikirjojen aineistotyyppimuutokset tehty Siilin tuotantoon, testille ja nextille.
+
+**Vaski**
+* Accountlines-taulun description-kenttään ei tule noutamattoman varauksen maksulle niteen itemnumber kuten pitäisi. Vaski tekee tiketin ongelmasta.
+* Eräpoistossa on mahdollista poistaa tietueita, joihin kohdistuu varauksia. Varauksista saa varoituksen, mutta poiston voi silti tehdä. Ei muuteta toimintaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-40) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -406,7 +410,7 @@ Pohjoisesta etelään
 ## Viikko 37
 
 Aika: Ti 9.9.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/1982)
@@ -448,6 +452,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Normaalia ylläpitoa
+
+**Vaski**
+* Verkkokirjastossa huoltajan ja huollettavan välinen linkki ei katkea, kun lapsiasiakkaasta tulee henkilöasiakas. Tiketti ongelmasta olemassa. Roosa kyselee kansalliskirjastolta asian etenemisestä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-37) - [Palaa sivun alkuun](/paakayttajat2025)
 
