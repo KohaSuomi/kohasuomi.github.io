@@ -1,4 +1,4 @@
-[Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)---
+---
 title: 'Kaukolaina-moduulin käyttöönotto'
 permalink: /dokumentaatio/kaukolainaus/
 redirect_from:
@@ -605,6 +605,8 @@ Finnaan tehdään uudet lomakkeet kaukolainapyynnölle ja uusimislomakkeelle. Li
 ### Lomakkeet
 
 Alla olevat koodit viedään oman tuotannossa olevan näkymän tiedostoon local/config/vufind/FeedbackForms.yaml ja muokataan oman kimpan tietojen mukaisiksi.
+
+[Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)
 
 ```
 #Kaukolainapyyntölomake
