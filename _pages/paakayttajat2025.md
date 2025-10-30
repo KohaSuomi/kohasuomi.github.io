@@ -1784,7 +1784,7 @@ Pohjoisesta etelään
 ## Viikko 7
 
 Aika: 11.2.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 * [Hakutulosnäytön harhaanjohtavat termit](https://github.com/KohaSuomi/Koha-translations/issues/58)
@@ -1834,6 +1834,10 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Kouvola on siirtymässä tänä vuonna Timmiin ja rajapintaa Kohaan ollaan hyödyntämässä.
+
+**Vaski**
+* Hyllyvaratun teoksen lainatapahtuman viesti epäselvä. Edistetään asetusta, ettei viestiä tulisi ollenkaan.
+* Finnan palautelomakkeelle haluttaisiin asiakkaan tunnistamiseksi tieto. Tämä voisi tietoturvasyistä olla esimerkiksi varaustunnus.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-7) - [Palaa sivun alkuun](/paakayttajat2025)
 
@@ -2011,7 +2015,7 @@ Programming error - op 'cud-login' must not start with 'cud-' for GET https://ki
 ## Viikko 3
 
 Aika: 14.1.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren & Lotta Juvonen (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Auli Rantasalo (Vaara), Janne Seppänen (Lastu)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren & Lotta Juvonen (Helle), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila ja Elina Uotila (Kirkes), Auli Rantasalo (Vaara), Janne Seppänen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * LockExpiredDelay-järjestelmäasetukseen kaikilla 0 tai tyhjä siltä varalta, että aletaan ajamaan cleanup_database-cronia säännöllisesti.
@@ -2058,6 +2062,10 @@ Etelästä pohjoiseen
 **Lastu**
 * Raindance-integraatio otettu Lahdessa käyttöön onnistuneesti
 * Asiakkaita ihmetyttänyt Finnan varausjonon sija 0. Tämä tarkoittaa, että varaus/nide on käsittelyssä. Selvitellään voiko tämän ilmaista Finnassa muulla tavoin.
+
+**Vaski**
+* Finnaan haluttaisiin varaukset sivulle sivutus esimerkikksi 50 tai 100 varausta/sivu. Suurilla varausmäärillä voi tulla timeout.
+* Kohan aikakatkaisun selkiyttäminen tikettiä haluttaisiin edistää. Tehdään keskustelun perusteella muutoksia ehdotettuun skriptiin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-3) - [Palaa sivun alkuun](/paakayttajat2025)
 
