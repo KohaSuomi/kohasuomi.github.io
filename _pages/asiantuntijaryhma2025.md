@@ -18,11 +18,11 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 9/2025
 
 Aika: Ke 29.10.2025 klo 13<br />
-Läsnä: Ari, Anneli, Emmi, Leena, Erika, Janne, Kati, Noora, Päivi, Susanna, Tuomas, Hanna
+Läsnä: Ari Mäkiranta, Anneli Österman ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Erika Miettinen (Kirkes-Kirjastot), Janne Seppänen (Lastu-kirjastot), Kati Sillgren (Helle-kirjastot), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Susanna Sandell (Vaski-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Hanna Ikonen (Lumme-kirjastot)
 
 ### 1. Ajankohtaiset
 
-RFID-haravaprojekti etenee suunnitellusti. Uusia haravia on saatu mukana oleviin kirjastoihin ja ne ovat testauksessa.
+RFID-haravaprojekti etenee suunnitellusti. Uusia haravia on saatu mukana oleviin kirjastoihin ja ne ovat testauksessa. Projekti jatkuu vielä pari viikkoa.
 
 Versionvaihdon työt on aloitettu ja Koha-Suomen omien ominaisuuksien siirto versioon 25 on hyvässä vauhdissa.
 
@@ -38,17 +38,18 @@ Versionvaihdon työt on aloitettu ja Koha-Suomen omien ominaisuuksien siirto ver
 * [Kirjeviestintärajapinnan muutos #2003](https://github.com/KohaSuomi/Koha/issues/2003)
   * Päätös: Toteutetaan. Tutkitaan, mikä tieto lähettäjäosoitteeksi voidaan saada. Lähettäjäosoitteen mukaan perille menemätön paperikirjeet palautetaan lähettäjälle.
 * [Vanhojen 10-merkkiä pitkien ja uusien 13-merkkiä pitkien isbn-tunnusten täsmäyttäminen #2033](https://github.com/KohaSuomi/Koha/issues/2033)
-  * Toteutetaan
+  * Toteutetaan lisäämällä täsmäytykseen ehto, että jos ISBN-numero on 10-merkkinen, lisätään siihen alkuu 978 ja kokeillaan täsmäytystä uudelleen.
 
 
 ### 3. Muut asiat
 
 Suomi.fi Viestien käyttöönottoaikataulut. Kunnat velvollisia ottamaan viestintätavan käyttöön vuoden 2025 loppuun mennessä. Siirtymäaika ollut vuodesta 2017 lähtien. Jos ei oteta käyttöön, pitää siitä tehdä poikkeamailmoitus.
+  * Pohdittiin mm. mitkä kirjastojen viestit ovat "viranomaisviestintää", jotka kuuluisi lähettää Suomi.fi-viesteinä. Jatketaan pohdintaa seuraavassa kokouksessa.
 
 [Sähköinen asiakkaaksi ilmoittautuminen vahvalla tunnistautumisella](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/33) - tilanne?
  * Helmetissä käynnissä digiperustahanke, jonka osana selvitetään myös vahvaa tunnistautumista. Tässä vaiheessa asiasta ei kuitenkaan ole enempää kerrottavaa. Voivat palata asiaan uudelleen loppuvuodesta.
- * Finna-toimisto on valmis toteuttamaan tunnistautumisen meidän kanssa, mutta he ovat todella työllistettyjä tällä hetkellä. VuFindissa tulossa isoja muutoksia, jotka vievät heiltä paljon aikaa. VuFindin keskeisiä osia on poistumassa.
- * Tässä vaiheessa ei kannata tehdä erillistä lomaketta muuta kautta.
+ * Finna-toimisto on valmis toteuttamaan tunnistautumisen meidän kanssa, mutta he ovat todella työllistettyjä tällä hetkellä. VuFindissa on tulossa isoja muutoksia, jotka vievät heiltä paljon aikaa. VuFindin keskeisiä osia on poistumassa ja pitää korvata toisella.
+ * Tässä vaiheessa ei kannata kuitenkaan tehdä erillistä lomaketta muuta kautta.
  * Ari muistuttelee Finna-toimistoa tarpeesta säännöllisesti, jotta asia ei unohdu.
  * Pyritään saamaan käyttöön talven aikana.
 
