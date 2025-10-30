@@ -50,7 +50,7 @@ Pyydetty hankinnan vastaanottoa tekeviä tyhjentämään selaimen välimuisti, j
 ## Viikko 51
 
 Aika: 17.12.2024, klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Annika Helastila ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 
@@ -86,12 +86,15 @@ Pohjoisesta etelään.
 **Siilinjärvi**
 * Tarkistetut käyttösäännöt voimaan 1.1.2025 ja maksut 1.2.2025. Lapsi-ikäraja ei laskekaan 15 vuoteen vaan säilyy 18 vuodessa.
 
+**Vaski**
+* Tehty raportti varausten priorisointiin Tuomaksen ohjeen perusteella.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 50
 
 Aika: 10.12.2024, klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen ja Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100) alkaisi olemaan valmis käyttöönottoon. Milloin tehdään? Mielellään kaikilla samaan aikaan.
@@ -132,6 +135,11 @@ Etelästä pohjoiseen
 * Kyseltiin Bugzillan tiketeistä, onko pääkäyttäjien toivottavaa käydä siellä kommentoimassa niitä tikettejä jotka koetaan merkityksellisiksi. Kannattaa käydä, mutta ei toistuvasti samaa tikettiä.
 * Muuten normaalia ylläpitoa
 
+**Vaski**
+* lastseen tarkkuus kerran päivässä. Onko riittävä? Aina tehtävä kirjaaminen on todella raskas
+* Varaus kiilannut jonossa muutaman aiemmin tehdyn varauksen ohi. Ei näy lokeissa tietoja, että muita varauksia olisi keskeytetty tai jonojärjestystäkään muokattu.
+* Kevään versionvaihdon päivät? Onko suunnitelmat tarkentuneet?
+* Sähköpostit eivät mene perille Åbo Akademin sähköpostiosoitteisiin.
  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-50) - [Palaa sivun alkuun](/paakayttajat2024)
 
