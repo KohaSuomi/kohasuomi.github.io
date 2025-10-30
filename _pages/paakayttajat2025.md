@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 45
+
+Aika: Ti 4.11.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 45 päivitys
+* [Asiantuntijaryhmän muistio 9/25](https://github.com/KohaSuomi/Koha/discussions/2044)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 44
 
 Aika: Ti 28.10.2025 klo 9.15<br />
@@ -69,7 +82,7 @@ Vastaavaa ongelmaa on ollut joskus aikaisemminkin, mutta emme muista miten ongel
 * RFID-haravan testaukset sujuneet hyvin, tehdään kooste havainnoista Robertille.
 
   
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-43) - [Palaa sivun alkuun](/paakayttajat2025)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-44) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 43
 
