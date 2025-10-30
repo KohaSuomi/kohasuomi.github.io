@@ -1,4 +1,4 @@
----
+[Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)---
 title: 'Kaukolaina-moduulin käyttöönotto'
 permalink: /dokumentaatio/kaukolainaus/
 redirect_from:
@@ -600,4 +600,280 @@ Alla on FA-kuvailupohja, jonka voi viedä oman kimpan kuvailupohjiin vientitoimi
 
 ## Kuinka asiakkaat tekevät kaukolainapyyntöjä
 
-* Tämän osalta tutkitaan vielä, miten lomakkeen voisi toteuttaa Finnaan. Mallina voisi mahdollisesti käyttää erilaisia hankintaehdotuslomakkeita.
+Finnaan tehdään uudet lomakkeet kaukolainapyynnölle ja uusimislomakkeelle. Lisäksi pitää tehdä kielikäännöksiä.
+
+### Lomakkeet
+
+Alla olevat koodit viedään oman tuotannossa olevan näkymän tiedostoon local/config/vufind/FeedbackForms.yaml ja muokataan oman kimpan tietojen mukaisiksi.
+
+```
+#Kaukolainapyyntölomake
+    InterlibraryloanRequest:
+        title: Interlibrary loan request form
+        enabled: true
+        onlyForLoggedUsers: true
+        emailSubject: Kaukolainapyyntö asiakkaalta kirjastolle (%%Kirjasto%%)
+        response: Thank you for your request
+        hideSenderInfo: true
+        help: 
+            pre: feedback_help_interlibraryloan
+            post: feedback_help_postinterlibraryloan
+        fields:
+          - name: Kirjasto
+            type: select
+            label: feedback_choose_library
+            required: true
+            recipient: true
+            options:
+              -
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/ASK/
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/HAN/
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/PRV/
+          - name: Julkaisun_nimi
+            type: text
+            label: helle/forms/title
+            required: true
+          - name: Tekijä(t)
+            type: text
+            label: helle/forms/author
+            required: true
+          - name: Artikkeli
+            type: text
+            label: helle/forms/article
+            required: false
+          - name: Nro/Vuosi
+            type: text
+            label: helle/forms/num
+            required: false
+          - name: Vuosikerta/Sivut
+            type: text
+            label: helle/forms/vol
+            required: false
+          - name: format
+            type: select
+            options:
+              - 0/Book/
+              - 1/Journal/Journal/
+              - 1/Journal/Article/
+              - 1/Video/BluRay/
+              - 1/Sound/CD/
+              - 1/Video/DVD/
+              - 1/Other/Microfilm/
+              - 1/Other/Other/
+              - 0/MusicalScore/
+              - 1/Journal/Newspaper/
+              - 1/Video/VideoCassette/
+              - 1/Game/VideoGame/
+              - 1/Sound/SoundCassette/
+              - 1/Sound/SoundDisc/
+            label: Format
+            required: true
+          - name: Kieli
+            type: text
+            label: helle/forms/language
+            required: false
+          - name: ISBN/ISSN
+            type: text
+            label: helle/forms/isbn
+            required: false
+          - name: Saa_tilata_ulkomailta
+            type: select
+            options:
+              -
+              - helle/forms/orderabroadno
+              - helle/forms/orderabroadyes
+            required: false
+            label: helle/forms/orderabroad
+          - name: Tarvitaan_viimeistään/Muita_huomioita
+            type: textarea
+            label: helle/forms/needed
+            required: false
+          - name: Noutopaikka
+            type: select
+            options:
+                -
+                - 3/Helle/ASK/PK/
+                - 3/Helle/RAS/BR/
+                - 3/Helle/INK/DK/
+                - 3/Helle/PRV/GK/
+                - 3/Helle/HAN/PK/
+                - 3/Helle/INK/PK/
+                - 3/Helle/RAS/KA/
+                - 3/Helle/PRV/KR/
+                - 3/Helle/PRV/KV/
+                - 3/Helle/LOV/BU/
+                - 3/Helle/PRV/BU/
+                - 3/Helle/RAS/BU/
+                - 3/Helle/LAP/PK/
+                - 3/Helle/HAN/LK/
+                - 3/Helle/LOV/LK/
+                - 3/Helle/LOV/PK/
+                - 3/Helle/RAS/SV/
+                - 3/Helle/MYR/PK/
+                - 3/Helle/LOV/PE/
+                - 3/Helle/RAS/PO/
+                - 3/Helle/LAP/PO/
+                - 3/Helle/PNK/PK/
+                - 3/Helle/PRV/PK/
+                - 3/Helle/PUK/PK/
+                - 3/Helle/SIP/PK/
+                - 3/Helle/SIU/PK/
+                - 3/Helle/SIP/SK/
+                - 3/Helle/RAS/EK/
+                - 3/Helle/RAS/TE/
+                - 3/Helle/LOV/TK/
+            label: helle/forms/pickuplocation
+            required: true
+          - name: name
+            type: text
+            required: true
+            label: helle/forms/name
+          - name: username
+            type: text
+            required: true
+            label: helle/forms/card
+          - name: tel
+            type: text
+            required: false
+            label: helle/forms/tel
+          - name: email
+            type: email
+            label: helle/forms/email
+          - name: contact
+            type: select
+            options:
+              -
+              - helle/forms/contact_bymail
+              - helle/forms/contact_byphone
+            label: helle/forms/pickup
+            required: true
+          - name: accept2
+            type: checkbox
+            options:
+              - helle/forms/accept2
+            required: true
+```
+```
+ #Kaukolainan uusimispyyntölomake
+    InterlibraryloanRenewRequest:
+        title: Interlibrary loan renewal form
+        enabled: true
+        onlyForLoggedUsers: true
+        emailSubject: Kaukolainan uusimispyyntö (%%Kirjasto%%)
+        response: Thank you for your request
+        hideSenderInfo: true
+        help: 
+            pre: feedback_help_interlibraryloan_renew
+            post: feedback_help_postinterlibraryloan
+        fields:
+          - name: Kirjasto
+            type: select
+            label: feedback_choose_library
+            required: true
+            recipient: true
+            options:
+              - value: sähköposti@osoite.fi
+                label: Kunnan pääkirjasto
+              - value: sähköposti@osoite.fi
+                label: Kunnan kirjasto
+              - value: sähköposti@osoite.fi
+                label: Kunnan pääkirjasto
+          - name: Julkaisun_nimi
+            type: text
+            label: helle/forms/title
+            required: true
+          - name: Tekijä(t)
+            type: text
+            label: helle/forms/author
+            required: true
+          - name: ISBN/ISSN
+            type: text
+            label: helle/forms/isbn
+            required: false
+          - name: name
+            type: text
+            required: true
+            label: helle/forms/name
+          - name: username
+            type: text
+            required: true
+            label: helle/forms/card
+          - name: tel
+            type: text
+            required: false
+            label: helle/forms/tel
+          - name: email
+            type: email
+            label: helle/forms/email
+          - name: contact
+            type: select
+            options:
+              - 
+              - helle/forms/contact_byphone
+              - helle/forms/contact_bymail
+            label: helle/forms/interlibrary_renewal
+            required: true
+          - name: accept
+            type: checkbox
+            options: 
+              - helle/forms/accept2
+            required: true
+```
+
+### Kielikäännökset
+
+Finnan kielikäännöksiin viedään kaikki nämä ja tehdään niille halutut käännökset, tässä meidän (käännökset tarkistettu täällä Hellessä):
+
+Interlibrary loan request form - Lomakkeen nimi
+
+    EN: Interlibrary loan request form
+    FI: Kaukolainapyyntölomake
+    SV: Blankett för beställning av fjärrlån
+
+Interlibrary loan renewal form - Lomakkeen nimi
+
+    EN: Interlibrary loan renewal form
+    FI: Kaukolainan uusimispyyntölomake
+    SV: Blankett för förnyande av fjärrlån
+
+Thank you for your request - Käännöksiin laitetaan viesti, jonka asiakas näkee, kun pyyntö on lähetetty. Huomioikaa, että jos teillä on jo samalla koodilla tehty kielikäännös, täytyy käyttää toista lausetta tässä koodina. Tämä viesti tulee näkyviin sekä pyyntö- että uusimislomakkeen lähettämisen jälkeen. Ruotsikäännös on hieman erilainen, koska sanavalintaa piti miettiä, kun kyseessä molemmat lomakkeet.
+
+    EN: Thank you for your request. It will be processed as soon as possible.
+    FI: Kiitos pyynnöstäsi. Se käsitellään mahdollisimman pian.
+    SV: Tack för att du tog kontakt. Ditt ärende kommer att behandlas så snart som möjligt.
+
+feedback_help_interlibraryloan - Haluttu selitysteksti kaukolainapyyntölomakkeeseen asiakkaalle ennen lomaketta.
+
+    EN: With this form, you can send an interlibrary loan request to your local library. Before submitting your request, check Helle-Finna to see if the item is already available. You can only request items that are not available at Helle libraries.<br/><br/>Please fill in the required fields so that your request can be processed. <br/><br/>Please note! Interlibrary loans are subject to a fee. The fee is usually either €6 or €12, depending on which library the interlibrary loan comes from.<br/><br/>Item ordered through interlibrary loan usually arrives within two weeks, unless it is on loan or there are holds on it at the sending library. If the item is on hold for other customers, the delivery may take several weeks or even months.
+    FI: Tällä lomakkeella voit lähettää kaukolainapyynnön omaan kirjastoosi. Ennen kuin teet pyynnön, tarkista Helle-Finnasta, onko teos jo jossakin kirjastossa. Kaukolainaksi voi tilata sellaista aineistoa, jota ei löydy Helle-kirjastoista.<br/><br/>Täytä pakolliset kentät, jotta pyyntösi tulee perille. <br/><br/>Huom! Kaukolainat ovat maksullisia. Maksu on yleensä joko 6 tai 12 euroa riippuen siitä, mistä kirjastosta kaukolaina tulee.<br/><br/>Kaukolainaksi tilattu aineisto saapuu yleensä kahden viikon sisällä, paitsi jos aineisto on lähettävässä kirjastossa lainassa tai siihen on varauksia. Jos kaukolainapyyntö joutuu varausjonoon, aineiston saapuminen voi kestää useita viikkoja tai jopa kuukausia.
+    SV: Använd blanketten nedan för att skicka en fjärrlåneförfrågan till ditt lokala bibliotek. Innan du gör din beställning, kontrollera i Helle-Finna om materialet finns i Helle. Som fjärrlån kan du endast beställa material som inte finns på något av Helle-biblioteken.<br/><br/>Fyll i de obligatoriska uppgifterna för att din beställning ska kunna behandlas.<br/><br/>Observera att fjärrlån är avgiftsbelagda. Avgiften är vanligtvis 6 € eller 12 €, beroende på vilket bibliotek fjärrlånet kommer ifrån.<br/><br/>Ett fjärrlån kommer oftast inom två veckor, om inte materialet är utlånat eller reserverat. Om fjärrlånebeställningen ställs i reservationskö kan lånet dröja flera veckor, till och med månader.
+
+feedback_help_postinterlibraryloan - Lomakkeen jälkeinen selitysteksti.
+
+    EN: The information I provide will be stored for the purpose of processing my request and will be retained for the duration of the request processing. Helle Libraries' privacy policy.
+    FI: Antamani tiedot tallennetaan pyynnön käsittelyä varten ja tietoja säilytetään pyynnön käsittelyn ajan. Helle-kirjastojen tietosuojaseloste.
+    SV: Den information jag lämnar kommer att lagras i syfte att behandla min begäran och kommer att behållas under hela behandlingen av begäran. Helle Libraries integritetspolicy.
+
+feedback_help_interlibraryloan_renew - Haluttu selitysteksti uusintapyyntölomakkeeseen asiakkaalle ennen lomaketta.
+
+    EN: Use this form to request a renewal for an interlibrary loan that you have borrowed. Please, select the library through which you borrowed the interlibrary loan.
+    FI: Tällä lomakkeella voit pyytää uusintaa kaukolainalle. Valitse oma kirjastosi, jonka kautta olet kaukolainan lainannut.
+    SV: Använd denna blankett för att förnya dina fjärrlån. Välj det bibliotek genom vilket du lånade fjärrlånet.
+
+helle/forms/accept2 - Lomakkeen lähetyksen Hyväksy-napin teksti. Meillä accept2, koska pelkkä accept käytössä jo hankintapyyntölomakkeessa, jossa oli eri teksti eikä sitä näin ollen haluttu käyttää.
+
+    EN: I accept that my information will be stored and used according to the text above.
+    FI: Hyväksyn tietojen tallentamisen yllä mainittuun käyttöön.
+    SV: Jag godkänner att mina uppgifter sparas för detta bruk.
+
+Kaikki kohdat, joissa on helle/forms/x viedään kielikäännöksiin ja näille tehdään se käännös, mikä tahdotaan asiakkaan näkevän lomakkeen kenttien otsikkona. "helle" vaihtuu oman kimpan nimeen. Otin itse käännökset osaan kenttiin Webkaken kentistä (meidän tilauslomake asiakkaalle on kolmella kielellä: https://webkake.kirjastot.fi/wtil/tilaus?pa_ullang=0&pa_ulid=25), osassa hyödynsin meidän hankintapyyntölomakkeeseen jo tehtyjä käännöksiä.
+
+Esim. helle/forms/author
+
+    EN: Author/Artist
+    FI: Tekijä/Esittäjä
+    SV: Författare/Artist
+
