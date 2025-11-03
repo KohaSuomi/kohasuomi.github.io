@@ -16,14 +16,16 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 45
 
 Aika: Ma 03.11.2025<br />
-Läsnä:
+Läsnä: Anneli, Emmi, Pasi, Ari, Robert, Lari, Johanna, Kodo
 
 * Päivystysvuorot viikosta 46 alkaen
 * Viikon 45 päivitys
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
-* Versionvaihdon tilannekatsaus 
+* Versionvaihdon tilannekatsaus
+  * päästetään isompi joukko testaamaan 12.1.2026 lähtien
+* Ei luoda testikantoja uudelleen joulukuussa, koska testaus kohdistuu tällä hetkellä nexteihin ja versionvaihtoon. Tehdään testikannat uusiksi seuraavan kerran viimeistään toukokuussa 2026. 
 
 ## Viikko 44
 
