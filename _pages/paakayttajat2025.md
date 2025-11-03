@@ -22,8 +22,9 @@ Läsnä:
 * Versionvaihto
   * [Patron expiry notice sallittavaksi lähtemään vain sähköpostilla. #152](https://github.com/KohaSuomi/Koha-25x/issues/152)
     * Print-pohjan tyhjennys estää viestin muodostumisen sellaisille asiakkaille, joilla ei ole sähköpostiosoitetta
-  * Nextien laajempi testaus (muutkin kuin pääkäyttäjät) päätettiin Koha-Suomen palaverissa aloitta 12.1.2026 alkaen. Eli siitä lähtien voi päästää muitakin testailemaan. Toivottavasti saadaan mahdollisimman paljon kiinni erilaisia ongelmia ennen tuotantoon siirtymistä.
+  * Nextien laajempi testaus (muutkin kuin pääkäyttäjät) päätettiin Koha-Suomen palaverissa aloittaa 12.1.2026 alkaen. Eli siitä lähtien voi päästää muitakin testailemaan. Toivottavasti saadaan mahdollisimman paljon kiinni erilaisia ongelmia ennen tuotantoon siirtymistä.
 * Testikantoja ei luoda uusiksi joulukuussa 2025, koska testaus keskittyy nyt nexteille ja versionvaihtoon. Luodaan testikannat uusiksi viimeistään toukokouussa 2025.
+
 Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
