@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -47,6 +47,10 @@ Etelästä pohjoiseen
 **Vaara**
 * Kaukopalvelumoduulin testausta ja lomakkeiden tekoa
 * muuten normaalia ylläpitoa
+
+**Lastu**
+* Havaittu, että osakohteiden ja emojen välinen linkitys oli mennyt rikki suurelta joukolta tietueita. Anneli paikansi virheen johtuvan AutoControlNumber-asetuksesta, joka oli jäänyt Lastun käyttöönotossa virheellisesti päälle (generoidaan tietuenumerona). Johanna sai tietueet skriptillä kaiveltua, ja ne saatiin korjattua Lastun tuotantoon.
+* Signum-muutosta testailtu testillä ja tarkisteltu tuotannon tilastollista listausta millaisiksi signumit muodostuisivat, sekä korjailtu sen pohjalta virheellisiä signumeita.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
