@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -43,6 +43,10 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Oulun Ceepos-kassojen päivitys oli 3.11.2025 versioon 10.2. Päivityksen jälkeen ei ole ilmennyt Koha-Ceepos-maksurajapinnassa ongelmia. Ensimmäisessä testimaksussa tuli virheilmoitus ”error 98: System error”. CPU:lta saadun vastauksen mukaan kyseessä on vain yleinen virheilmoitus. Todennäköisesti palvelun käynnistyksessä on ollut jotain viivettä ja maksu on jäänyt aikakatkaisuun. CPU:lla on muutettu palvelun aikakatkaisuasetuksia hieman, jottei näin kävisi jatkossa.
+
+**Vaara**
+* Kaukopalvelumoduulin testausta ja lomakkeiden tekoa
+* muuten normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
