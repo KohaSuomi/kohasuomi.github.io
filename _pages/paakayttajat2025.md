@@ -35,6 +35,12 @@ Etelästä pohjoiseen
 * Lehtitilausten tallentajat kyselleet odotusajan merkitsemisestä. Selvitellään ja testataan, mihin odotusaika kannattaa perustua.
 * Rauhallista, normaalia ylläpitoa.
 
+**Kirkes**
+* Kirkes-kirjastoissa testailtu eri viestipohjien eri kieliversioiden kulkemista Suomi.fi-viestipalvelussa. Kaikki muut viestit näyttäisivät nyt olevan ok, mutta lainakuitti ei ole tullut Suomi.fi-palveluun. Erika tarkistaa vielä CHECKOUT-pohjan.
+* Kirkes-kirjastoilta kyselty tikettien https://github.com/KohaSuomi/Koha/issues/1262 ja https://github.com/KohaSuomi/Koha/issues/1261 aikataulua. Näille ei ole määritelty aikataulua, mutta ne eivät toteudu ainakaan ennen versiopäivitystä.
+* Erika tehnyt tiketin https://github.com/KohaSuomi/Koha/issues/2051 tilanteesta, jossa puuttuvaa kirjastoa ei ole pystynyt lisäämään kirjastojen hakuryhmään Kohassa.
+* Kirkes-kirjastot ovat perjantain 7.11. naapurikirjastokimpan kanssa verkostoitumispäivässä.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 44
