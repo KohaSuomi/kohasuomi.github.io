@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -27,6 +27,10 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
 * Testikantoja ei luoda uusiksi joulukuussa 2025, koska testaus keskittyy nyt nexteille ja versionvaihtoon. Luodaan testikannat uusiksi viimeistään toukokuussa 2026.
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Lehtitilausten tallentajat kyselleet odotusajan merkitsemisestä. Selvitellään ja testataan, mihin odotusaika kannattaa perustua.
+* Rauhallista, normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
