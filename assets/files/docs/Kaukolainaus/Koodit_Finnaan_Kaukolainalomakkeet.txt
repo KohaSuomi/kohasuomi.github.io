@@ -1,0 +1,214 @@
+#Kaukolainapyyntölomake
+    InterlibraryloanRequest:
+        title: Interlibrary loan request form
+        enabled: true
+        onlyForLoggedUsers: true
+        emailSubject: Kaukolainapyyntö asiakkaalta kirjastolle (%%Kirjasto%%)
+        response: Thank you for your request
+        hideSenderInfo: true
+        help: 
+            pre: feedback_help_interlibraryloan
+            post: feedback_help_postinterlibraryloan
+        fields:
+          - name: Kirjasto
+            type: select
+            label: feedback_choose_library
+            required: true
+            recipient: true
+            options:
+              -
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/ASK/
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/HAN/
+              - value: sähköposti@osoite.fi
+                label: 4/Helle/PRV/
+          - name: Julkaisun_nimi
+            type: text
+            label: helle/forms/title
+            required: true
+          - name: Tekijä(t)
+            type: text
+            label: helle/forms/author
+            required: true
+          - name: Artikkeli
+            type: text
+            label: helle/forms/article
+            required: false
+          - name: Nro/Vuosi
+            type: text
+            label: helle/forms/num
+            required: false
+          - name: Vuosikerta/Sivut
+            type: text
+            label: helle/forms/vol
+            required: false
+          - name: format
+            type: select
+            options:
+              - 0/Book/
+              - 1/Journal/Journal/
+              - 1/Journal/Article/
+              - 1/Video/BluRay/
+              - 1/Sound/CD/
+              - 1/Video/DVD/
+              - 1/Other/Microfilm/
+              - 1/Other/Other/
+              - 0/MusicalScore/
+              - 1/Journal/Newspaper/
+              - 1/Video/VideoCassette/
+              - 1/Game/VideoGame/
+              - 1/Sound/SoundCassette/
+              - 1/Sound/SoundDisc/
+            label: Format
+            required: true
+          - name: Kieli
+            type: text
+            label: helle/forms/language
+            required: false
+          - name: ISBN/ISSN
+            type: text
+            label: helle/forms/isbn
+            required: false
+          - name: Saa_tilata_ulkomailta
+            type: select
+            options:
+              -
+              - helle/forms/orderabroadno
+              - helle/forms/orderabroadyes
+            required: false
+            label: helle/forms/orderabroad
+          - name: Tarvitaan_viimeistään/Muita_huomioita
+            type: textarea
+            label: helle/forms/needed
+            required: false
+          - name: Noutopaikka
+            type: select
+            options:
+                -
+                - 3/Helle/ASK/PK/
+                - 3/Helle/RAS/BR/
+                - 3/Helle/INK/DK/
+                - 3/Helle/PRV/GK/
+                - 3/Helle/HAN/PK/
+                - 3/Helle/INK/PK/
+                - 3/Helle/RAS/KA/
+                - 3/Helle/PRV/KR/
+                - 3/Helle/PRV/KV/
+                - 3/Helle/LOV/BU/
+                - 3/Helle/PRV/BU/
+                - 3/Helle/RAS/BU/
+                - 3/Helle/LAP/PK/
+                - 3/Helle/HAN/LK/
+                - 3/Helle/LOV/LK/
+                - 3/Helle/LOV/PK/
+                - 3/Helle/RAS/SV/
+                - 3/Helle/MYR/PK/
+                - 3/Helle/LOV/PE/
+                - 3/Helle/RAS/PO/
+                - 3/Helle/LAP/PO/
+                - 3/Helle/PNK/PK/
+                - 3/Helle/PRV/PK/
+                - 3/Helle/PUK/PK/
+                - 3/Helle/SIP/PK/
+                - 3/Helle/SIU/PK/
+                - 3/Helle/SIP/SK/
+                - 3/Helle/RAS/EK/
+                - 3/Helle/RAS/TE/
+                - 3/Helle/LOV/TK/
+            label: helle/forms/pickuplocation
+            required: true
+          - name: name
+            type: text
+            required: true
+            label: helle/forms/name
+          - name: username
+            type: text
+            required: true
+            label: helle/forms/card
+          - name: tel
+            type: text
+            required: false
+            label: helle/forms/tel
+          - name: email
+            type: email
+            label: helle/forms/email
+          - name: contact
+            type: select
+            options:
+              -
+              - helle/forms/contact_bymail
+              - helle/forms/contact_byphone
+            label: helle/forms/pickup
+            required: true
+          - name: accept2
+            type: checkbox
+            options:
+              - helle/forms/accept2
+            required: true
+
+
+ #Kaukolainan uusimispyyntölomake
+    InterlibraryloanRenewRequest:
+        title: Interlibrary loan renewal form
+        enabled: true
+        onlyForLoggedUsers: true
+        emailSubject: Kaukolainan uusimispyyntö (%%Kirjasto%%)
+        response: Thank you for your request
+        hideSenderInfo: true
+        help: 
+            pre: feedback_help_interlibraryloan_renew
+            post: feedback_help_postinterlibraryloan
+        fields:
+          - name: Kirjasto
+            type: select
+            label: feedback_choose_library
+            required: true
+            recipient: true
+            options:
+              - value: sähköposti@osoite.fi
+                label: Kunnan pääkirjasto
+              - value: sähköposti@osoite.fi
+                label: Kunnan kirjasto
+              - value: sähköposti@osoite.fi
+                label: Kunnan pääkirjasto
+          - name: Julkaisun_nimi
+            type: text
+            label: helle/forms/title
+            required: true
+          - name: Tekijä(t)
+            type: text
+            label: helle/forms/author
+            required: true
+          - name: ISBN/ISSN
+            type: text
+            label: helle/forms/isbn
+            required: false
+          - name: name
+            type: text
+            required: true
+            label: helle/forms/name
+          - name: username
+            type: text
+            required: true
+            label: helle/forms/card
+          - name: tel
+            type: text
+            required: false
+            label: helle/forms/tel
+          - name: email
+            type: email
+            label: helle/forms/email
+          - name: contact
+            type: select
+            options:
+              - 
+              - helle/forms/contact_byphone
+              - helle/forms/contact_bymail
+            label: helle/forms/interlibrary_renewal
+            required: true
+          - name: accept
+            type: checkbox
+            options: 
+              - helle/forms/accept2
+            required: true
