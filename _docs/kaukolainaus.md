@@ -606,6 +606,8 @@ Finnaan tehdään uudet lomakkeet kaukolainapyynnölle ja uusimislomakkeelle. Li
 
 Alla olevat koodit viedään oman tuotannossa olevan näkymän tiedostoon local/config/vufind/FeedbackForms.yaml ja muokataan oman kimpan tietojen mukaisiksi.
 
+HUOM! Lataa ensisijaisesti alla oleva txt-tiedosto, koska silloin koodin asettelu pysyy paremmin kasassa. Jos lomake ei tule näkyville siitä huolimatta, tarkista, että Finnan yaml-tiedostossa on sisennykset oikein.
+
 [Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)
 
 
