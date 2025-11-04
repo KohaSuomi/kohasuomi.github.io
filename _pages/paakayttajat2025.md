@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -27,6 +27,9 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmi
 * Testikantoja ei luoda uusiksi joulukuussa 2025, koska testaus keskittyy nyt nexteille ja versionvaihtoon. Luodaan testikannat uusiksi viimeistään toukokuussa 2026.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Turku-appi tekeillä ja sinne tulossa mobiilikirjastokortti. Rajapinnan osalta päädytty Finna-APIin. 
 
 **Lappi**
 * Lehtitilausten tallentajat kyselleet odotusajan merkitsemisestä. Selvitellään ja testataan, mihin odotusaika kannattaa perustua.
