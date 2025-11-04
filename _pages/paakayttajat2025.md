@@ -13,17 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
 * [Uutiskirje 2/2025](https://github.com/KohaSuomi/Koha/discussions/2049)
+* [Marraskuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/2047)
 * [Asiantuntijaryhmän muistio 9/25](https://github.com/KohaSuomi/Koha/discussions/2044)
 * Versionvaihto
   * [Patron expiry notice sallittavaksi lähtemään vain sähköpostilla. #152](https://github.com/KohaSuomi/Koha-25x/issues/152)
     * Print-pohjan tyhjennys estää viestin muodostumisen sellaisille asiakkaille, joilla ei ole sähköpostiosoitetta
   * Nextien laajempi testaus (muutkin kuin pääkäyttäjät) päätettiin Koha-Suomen palaverissa aloittaa 12.1.2026 alkaen. Eli siitä lähtien voi päästää muitakin testailemaan. Toivottavasti saadaan mahdollisimman paljon kiinni erilaisia ongelmia ennen tuotantoon siirtymistä.
-* Testikantoja ei luoda uusiksi joulukuussa 2025, koska testaus keskittyy nyt nexteille ja versionvaihtoon. Luodaan testikannat uusiksi viimeistään toukokouussa 2025.
+* Testikantoja ei luoda uusiksi joulukuussa 2025, koska testaus keskittyy nyt nexteille ja versionvaihtoon. Luodaan testikannat uusiksi viimeistään toukokuussa 2026.
 
 Etelästä pohjoiseen
 
