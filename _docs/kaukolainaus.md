@@ -608,6 +608,8 @@ Alla olevat koodit viedään oman tuotannossa olevan näkymän tiedostoon local/
 
 [Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)
 
+[Koodit Finnaan kaukolainalomakkeille](assets/files/docs/Kaukolainaus/Koodit_Finnaan_Kaukolainalomakkeet.txt)
+
 ```
 #Kaukolainapyyntölomake
     InterlibraryloanRequest:
