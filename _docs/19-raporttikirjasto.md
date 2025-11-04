@@ -2461,28 +2461,31 @@ ORDER BY p.surname, p.firstname
 
 ### Palautetut laskutetut niteet
 
-Raportilla voi seurata niteitä, jotka on palautettu, mutta ovat edelleen laskutettu-tilassa. Kirjastorajaus tehdään kirjoittamalla kirjastolyhenteestä kuntaosio ja %-merkki, esim. KE% tai  KA% tai LIE%. Jos Laskutettu-tila on jokin muu kuin "6", muuta se oikeaksi kohdassa "and i.notforloan = 6".
+Raportilla voi seurata niteitä, jotka on palautettu, mutta ovat edelleen laskutettu-tilassa. Kirjastorajaus tehdään kirjoittamalla kirjastolyhenteestä kuntaosio ja %-merkki, esim. KE% tai  KA% tai LIE%. Jos Laskutettu-tila on jokin muu kuin "6", muuta se oikeaksi kohdassa "and i.notforloan = 6". Anonyymin asiakkaan kohdalla raportti hakee asiakas-ID:n statistics-taulusta. Vaihda numeron 12345 tilalle oman kimpan anonyymin asiakkaan ID. Korttinumero jää lainahistorian anonymisoinnnin kohdalla vielä tyhjäksi.
 
 Lisääjä: Anneli Österman / OUTI-kirjastot
+Päivittäjä: Katariina Pohto 
+Päivitetty 4.11.2025
 
 ```
-select Concat(b.surname, ', ', b.firstname, '<br/>', '<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',b.borrowernumber,'">',b.cardnumber,'</a>') AS 'Nimi',
-Concat('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',i.biblionumber,'&itemnumber=',i.itemnumber,'">',i.barcode,'</a>') AS 'Viivakoodi',
-iss.date_due AS 'Eräpäivä',
-iss.branchcode,
-iss.returndate AS 'Palautuspäivä'
-from old_issues iss, items i, borrowers b,
-(select i.itemnumber, max(o.issue_id) as issue_id
-from old_issues o, items i
-where o.branchcode like <<Kuntaosio ja %-merkki>>
-and DATE(o.returndate) between DATE(<<Palautuspäiväväli|date>>) and DATE(<<Päättyen|date>>)
-and i.notforloan = 6
-and i.itemnumber = o.itemnumber
-group by i.itemnumber) d
-where b.borrowernumber = iss.borrowernumber
-and i.itemnumber = iss.itemnumber
-and iss.issue_id = d.issue_id
-and iss.itemnumber = d.itemnumber
+SELECT CASE WHEN b.borrowernumber = 12345 THEN s.borrowernumber
+       ELSE b.borrowernumber END AS borrowernumber,
+	   b.cardnumber,
+       CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',i.biblionumber,'&itemnumber=',i.itemnumber,'">',i.barcode,'</a>') AS Viivakoodi,
+       ois.date_due AS 'Eräpäivä', 
+       ois.branchcode, 
+       ois.returndate AS 'Palautuspäivä' 
+  FROM old_issues ois
+       INNER JOIN items i ON ois.itemnumber = i.itemnumber
+       INNER JOIN borrowers b ON ois.borrowernumber = b.borrowernumber
+       LEFT JOIN statistics s ON DATE(ois.returndate) = DATE(s.datetime) AND ois.itemnumber = s.itemnumber AND s.type = 'return' AND s.borrowernumber IS NOT NULL
+ WHERE ois.branchcode LIKE <<Kuntaosio ja %-merkki>>
+   AND DATE(ois.returndate) BETWEEN DATE(<<Palautuspäiväväli|date>>) and DATE(<<Loppuen|date>>)
+   AND ois.issue_id IN (SELECT MAX(issue_id) AS issue_id
+                          FROM old_issues
+                               INNER JOIN items i USING(itemnumber)
+                         WHERE i.notforloan = 6
+                         GROUP BY i.itemnumber)
 ```
 
 ### Palautetut Ei laskuteta -niteet
