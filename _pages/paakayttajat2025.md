@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
