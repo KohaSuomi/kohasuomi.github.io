@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -55,6 +55,12 @@ Etelästä pohjoiseen
 **Kyyti**
 * Käyty läpi signumien muutosajon tilastollista listausta ja jonkin verran niitä korjailtu
 * Kouvolassa Kohasta tehtiin ensin tietosuojan ennakkovaikutusten arviointi ja sen perusteella päätettiin tehdä laaja tietosuojan vaikutusten arviointi.
+
+**Lumme**
+* Savonlinna on ottamassa käyttöön Finvoice-laskut.
+* Suomi.fi-prosessi on käynnissä. Kunnat ovat parhaillaan hakemassa käyttölupaa viesteille, joten vuodenvaihteeseen mennessä palvelua ei välttämättä saada käyttöön. Sanktioita ei pitäisi tämänhetkisten tietojen mukaan tulla, jos prosessi on käynnissä.
+* Signum-uudistuksen myötä tarrapohjia on päivitelty testeille, mutta yhdellä käyttäjistä tarratulostustyökalun toiminnassa on ongelmia. Työkalu ei anna tulostaa tarroja, vaan heittää nopean error-koodin sitä yrittäessä. Virhettä ei ole vielä saatu paikallistettua, sillä se näyttää toistuvan eri koneilla ja koneen kirjautumistunnuksilla.
+* Varmenteen kanssa on ollut samalla käyttäjällä ongelmia eri selainten kanssa. Varmenne tulee näkyviin, mutta kun ok-nappia painaa, mitään ei tapahdu. Varmenteen joutuu hylkäämään ja sen jälkeen evästeet täytyy poistaa, jotta Koha kysyy varmennetta uudelleen. Tämän jälkeen selain hyväksyy varmenteen. Asiaa selvitellään.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
