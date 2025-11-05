@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2048)
@@ -51,6 +51,10 @@ Etelästä pohjoiseen
 **Lastu**
 * Havaittu, että osakohteiden ja emojen välinen linkitys oli mennyt rikki suurelta joukolta tietueita. Anneli paikansi virheen johtuvan AutoControlNumber-asetuksesta, joka oli jäänyt Lastun käyttöönotossa virheellisesti päälle (generoidaan tietuenumerona). Johanna sai tietueet skriptillä kaiveltua, ja ne saatiin korjattua Lastun tuotantoon.
 * Signum-muutosta testailtu testillä ja tarkisteltu tuotannon tilastollista listausta millaisiksi signumit muodostuisivat, sekä korjailtu sen pohjalta virheellisiä signumeita.
+
+**Kyyti**
+* Käyty läpi signumien muutosajon tilastollista listausta ja jonkin verran niitä korjailtu
+* Kouvolassa Kohasta tehtiin ensin tietosuojan ennakkovaikutusten arviointi ja sen perusteella päätettiin tehdä laaja tietosuojan vaikutusten arviointi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-45) - [Palaa sivun alkuun](/paakayttajat2025)
 
