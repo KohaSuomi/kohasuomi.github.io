@@ -2463,14 +2463,14 @@ ORDER BY p.surname, p.firstname
 
 Raportilla voi seurata niteitä, jotka on palautettu, mutta ovat edelleen laskutettu-tilassa. Kirjastorajaus tehdään kirjoittamalla kirjastolyhenteestä kuntaosio ja %-merkki, esim. KE% tai  KA% tai LIE%. Jos Laskutettu-tila on jokin muu kuin "6", muuta se oikeaksi kohdassa "and i.notforloan = 6". Anonyymin asiakkaan kohdalla raportti hakee asiakas-ID:n statistics-taulusta. Vaihda numeron 12345 tilalle oman kimpan anonyymin asiakkaan ID. Korttinumero jää lainahistorian anonymisoinnnin kohdalla vielä tyhjäksi.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
-Päivittäjä: Katariina Pohto 
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
+Päivittäjä: Katariina Pohto<br />
 Päivitetty 4.11.2025
 
 ```
 SELECT CASE WHEN b.borrowernumber = 12345 THEN s.borrowernumber
        ELSE b.borrowernumber END AS borrowernumber,
-	   b.cardnumber,
+       b.cardnumber,
        CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',i.biblionumber,'&itemnumber=',i.itemnumber,'">',i.barcode,'</a>') AS Viivakoodi,
        ois.date_due AS 'Eräpäivä', 
        ois.branchcode, 
