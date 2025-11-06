@@ -797,3 +797,21 @@ Välilehteä ei näy, kun taattavilla ei ole maksuja.
 Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huollettavien listan yläpuolella, jos yhdelläkin taattavalla on maksuja. Pääset Taattavien maksut-välilehdelle klikkaamalla linkkiä _Näytä kaikki maksut_.
 
 ![](/assets/files/docs/Asiakkaat/Taattavienmaksut.png)
+
+## 1.7. Asiakastietojen yhdistäminen
+
+Jos asiakkaalla on useampi kuin yksi kortti Kohan asiakasrekisterissä, niin toimi kirjastosi ohjeiden mukaan. Kaikilla kimpoilla ei ole käytössä _Yhdistä valitut asiakkaat_ -toiminto.
+
+_Yhdistä valitut asiakkaat_-toimintoa käyttääksesi hae kaikki asiakkaan kortit samaan hakutulokseen. Valitse yhdistettävät korttitiedot ja klikkaa _Yhdistä valitut asiakaat_.
+
+![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat1.png)
+
+Valitse säilytettävä asiakastieto. Klikkaa _Yhdistä asiakkaat_.
+
+![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat2.png)
+
+Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa kerrotaan säilytetyn kortin tieto. Pääset säilytetyn kortin tietoihin klikkaamalla _Näytä asiakastietue_.
+
+![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat3.png)
+
+Korttitiedot, joita ei säilytetty, poistuvat automaattisesti Kohasta.
