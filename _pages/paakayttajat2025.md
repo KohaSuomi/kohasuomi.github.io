@@ -43,6 +43,8 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Oulun Ceepos-kassojen päivitys oli 3.11.2025 versioon 10.2. Päivityksen jälkeen ei ole ilmennyt Koha-Ceepos-maksurajapinnassa ongelmia. Ensimmäisessä testimaksussa tuli virheilmoitus ”error 98: System error”. CPU:lta saadun vastauksen mukaan kyseessä on vain yleinen virheilmoitus. Todennäköisesti palvelun käynnistyksessä on ollut jotain viivettä ja maksu on jäänyt aikakatkaisuun. CPU:lla on muutettu palvelun aikakatkaisuasetuksia hieman, jottei näin kävisi jatkossa.
+* Palautetut laskutetut niteet-raportin tulokseen tuli Oulussa anonymisoitujen asiakkaiden palautuksia eli sellaisten asiakkaiden, joille ei kerry lainahistoriaa. Kassu muokkasi OUTIssa olevaa raporttia siten, että tulokseen tulee myös asiakkaan borrowernumber. Tuolla tiedolla laskuttaja saa helposti selville kenen palautuksesta on kyse. Tulokseen ei tule anonymisoidun asiakkaan kirjastokorttinumeroa, sillä ajateltiin, että asiakkaan ID riittää.
+  * Kassu muokkasi myös Githubin Raporttikirjastossa olevaa Palautetut laskutetut niteet-rimpsua samalla tavalla kuin OUTIn raportin rimpsua. Linkki muokattuun raporttiin: https://varastokirjasto.fi/kysely-kirjastoille-varastokirjaston-palveluiden-maksullisuudesta/
 
 **Vaara**
 * Kaukopalvelumoduulin testausta ja lomakkeiden tekoa
