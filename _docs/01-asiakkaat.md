@@ -815,3 +815,6 @@ Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa ker
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat3.png)
 
 Korttitiedot, joita ei säilytetty, poistuvat automaattisesti Kohasta.
+
+Jos valitset ennen yhdistämistä _Pidä asiakkaat valittuna uutta toimintoa varten_, niin seuraavassa asiakashaussa säilytetty asiakastieto on valmiiksi valittuna.
+![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat4.png)
