@@ -800,13 +800,14 @@ Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huolle
 
 ## 1.7. Asiakastietojen yhdistäminen
 
-Jos asiakkaalla on useampi kuin yksi kortti Kohan asiakasrekisterissä, niin toimi kirjastosi ohjeiden mukaan. Kaikilla kimpoilla ei ole käytössä _Yhdistä valitut asiakkaat_ -toiminto.
+Jos asiakkaalla on useampi kuin yksi kortti Kohan asiakasrekisterissä, niin toimi kirjastosi ohjeiden mukaan. Kimppojen käytännöt voivat vaihdella eikä kaikilla kimpoilla ole käytössä _Yhdistä valitut asiakkaat_ -toiminto.
 
 _Yhdistä valitut asiakkaat_-toimintoa käyttääksesi hae kaikki asiakkaan kortit samaan hakutulokseen. Valitse yhdistettävät korttitiedot ja klikkaa _Yhdistä valitut asiakaat_.
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat1.png)
 
-Valitse säilytettävä asiakastieto. Klikkaa _Yhdistä asiakkaat_.
+Tällä sivulla voit vielä tarkistaa yhdistettävien korttien tiedot keskenään. Jos kortteja ei voi yhdistää, niin poistu sivulta.
+Jos kortit voi yhdistää, niin valitse säilytettävä asiakastieto ja klikkaa _Yhdistä asiakkaat_.
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat2.png)
 
@@ -814,7 +815,7 @@ Jos valitset ennen yhdistämistä _Pidä asiakkaat valittuna uutta toimintoa var
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat4.png)
 
-Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa kerrotaan säilytetyn kortin tieto. Pääset säilytetyn kortin tietoihin klikkaamalla _Näytä asiakastietue_.
+Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa on säilytetyn kortin tieto. Pääset säilytetyn kortin tietoihin klikkaamalla _Näytä asiakastietue_ tai klikkaamalla nimeä ja korttinumeroa, joka on samalla linkki asiakkaan tietoihin.
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat3.png)
 
