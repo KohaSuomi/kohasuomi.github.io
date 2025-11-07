@@ -11,6 +11,30 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 7/2025
+
+7.11.2025
+
+Hei,
+
+Hallituksen lokakuun kokouksessa käytiin läpi taloustilanne, päivitettiin Koha-Suomen asiantuntijaryhmää, toimitusjohtajan raporttia ja sovittiin hallituksen seminaaripäivästä 11.12.2025. Lisäksi merkittiin tiedoksi tärkeä Koha-Suomelle annettu tunnustus: Koha-Suomi Oy sai COSS RY:n Open world hero palkinnon 7.10.2025. 
+ 
+Joulukuussa pidetään Koha-kirjastojen johtajien aamukahvit, tapaamme osan teistä siellä.
+
+Liitteenä myös toimitusjohtajan raportti 7/2025.
+
+Mukavaa talven odotusta kaikille, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
+
+Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
+
+Koha-Suomen hallituksen puolesta,
+
+Jouni Pääkkölä
+hallituksen pj.
+
+Liite:
+Toimitusjohtajan raportti 7/2025: [Toimitusjohtajan raportti 7.pdf](https://github.com/user-attachments/files/23415930/Toimitusjohtajan.raportti.7.pdf)
+
 ## Koha-Suomen hallituksen tiedote 5/2025
 
 14.5.2025
