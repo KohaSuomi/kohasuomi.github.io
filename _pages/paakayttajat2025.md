@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 46
+
+Aika: Ti 11.11.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [IntranetUserCSS](https://github.com/KohaSuomi/Koha-25x/wiki/IntranetUserCSS):t käyty suunnilleen läpi nexteillä
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 45
 
 Aika: Ti 4.11.2025 klo 9.15<br />
