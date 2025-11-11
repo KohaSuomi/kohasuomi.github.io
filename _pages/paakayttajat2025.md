@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Versionvaihto  
@@ -42,6 +42,9 @@ Pohjoisesta etelään
 **Helle**
 * Vanhentuneet varaukset -raportin hakutuloksessa Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjaston raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
 * Digi- ja väestövirasto on hyväksynyt Hellen Suomi.fi-viestien käyttölupahakemuksen.
+
+**Siilinjärvi**
+* Kohassa ei mainittavaa, ongelmia ollut kunnan verkkoyhteyksissä ja Siilinjärvi-sovelluksessa, jossa osa asiakkaista ei voi tehdä varauksia.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
