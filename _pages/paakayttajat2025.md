@@ -41,7 +41,7 @@ Pohjoisesta etelään
 
 **Helle**
 * Vanhentuneet varaukset -raportin hakutuloksessa Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjaston raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
-* Digi- ja väestövirasto on hyväksynyt Hellen Suomi.fi-viestien käyttölupahakemuksen.
+* Digi- ja väestövirasto on hyväksynyt Hellen Suomi.fi-viestien käyttölupahakemuksen Kohan osalta.
 
 **Siilinjärvi**
 * Kohassa ei mainittavaa, ongelmia ollut kunnan verkkoyhteyksissä ja Siilinjärvi-sovelluksessa, jossa osa asiakkaista ei voi tehdä varauksia.
