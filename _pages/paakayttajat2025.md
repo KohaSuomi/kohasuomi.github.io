@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Versionvaihto  
@@ -29,6 +29,9 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**OUTI**
+* Normaalia ylläpitoa, Saaren avaaminen työllistää
 
 **Vaski**
 * Uusi lajitteleva palautusautomaatti on otettu käyttöön
