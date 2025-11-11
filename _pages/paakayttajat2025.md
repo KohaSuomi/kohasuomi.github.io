@@ -31,8 +31,9 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa
 
 **Vaski**
-* Uusi lajitteleva palautusautomaatti on otettu käyttöön 
-* 
+* Uusi lajitteleva palautusautomaatti on otettu käyttöön
+
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 45
