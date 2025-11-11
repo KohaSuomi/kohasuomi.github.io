@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * Versionvaihto  
@@ -21,6 +21,11 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
   * Käydään läpi Uutta-wiki to 20.11.2025 klo 9.15 (tallennetaan)
 
 Pohjoisesta etelään
+
+**Vaara**
+* Kaukopalvelumoduulin testausta kaukopalvelun hoitajien kanssa. Asetuksen päälle laittaminen tuotannossa aiheutti asiakkaan ilmoituksissa väärän rivin piilotuksen. Asia saatiin korjattua, kun se havaittiin.
+* Nextin IntranetUserCSS-asetusten testaaminen
+* Aikaisemmin mainittu ongelma kuittitulostuksessa johtui liian uudesta selainversiosta. Palattiin vähän vanhempaan, jolloin ongelma poistui.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
 
