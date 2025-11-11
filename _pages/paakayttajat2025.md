@@ -37,7 +37,7 @@ Pohjoisesta etelään
 * Erika ollut yhteydessä Finnaan tuloksetta.
 * Tuusulan kunnan verkkoyhteyksissä ollut häiriötä maanantaina, Kohan varalainaohjelma toiminut hyvin.
 * Järvenpäässä toivottu, että tilattu-tilaiset niteet jäisivät "Niteen muokkaus iän mukaan" -ajon ulkopuolelle. Elina selvittää ja testaa.
-* Vaski-kirjastoilla ehtoja varaustunnukselle esimerkiksi pituuden suhteen. Laitetaan nämä jakoon kaikille kiinnostuneille.
+* Vaski-kirjastoilla on Finnaan määritetty ehtoja varaustunnukselle esimerkiksi pituuden ja erityismerkkien suhteen. Skripti laitetaan jakoon kaikille kiinnostuneille.
 
 **Helle**
 * Vanhentuneet varaukset -raportin hakutuloksessa Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjaston raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
