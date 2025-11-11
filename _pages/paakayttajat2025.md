@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Versionvaihto  
@@ -27,6 +27,9 @@ Pohjoisesta etelään
 * Nextin IntranetUserCSS-asetusten testaaminen
 * Aikaisemmin mainittu ongelma kuittitulostuksessa johtui liian uudesta selainversiosta. Palattiin vähän vanhempaan, jolloin ongelma poistui.
 
+**Lappi**
+* Normaalia ylläpitoa
+* 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 45
