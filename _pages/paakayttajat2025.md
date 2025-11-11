@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Versionvaihto  
@@ -38,6 +38,10 @@ Pohjoisesta etelään
 * Tuusulan kunnan verkkoyhteyksissä ollut häiriötä maanantaina, Kohan varalainaohjelma toiminut hyvin.
 * Järvenpäässä toivottu, että tilattu-tilaiset niteet jäisivät "Niteen muokkaus iän mukaan" -ajon ulkopuolelle. Elina selvittää ja testaa.
 * Vaski-kirjastoilla ehtoja varaustunnukselle esimerkiksi pituuden suhteen. Laitetaan nämä jakoon kaikille kiinnostuneille.
+
+**Helle**
+* Vanhentuneet varaukset -raportin hakutulokseen tullut Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjastoon raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
+* Digi- ja väestövirasto on hyväksynyt Hellen Suomi.fi-viestien käyttölupahakemuksen.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
