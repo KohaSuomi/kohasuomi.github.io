@@ -40,7 +40,7 @@ Pohjoisesta etelään
 * Vaski-kirjastoilla ehtoja varaustunnukselle esimerkiksi pituuden suhteen. Laitetaan nämä jakoon kaikille kiinnostuneille.
 
 **Helle**
-* Vanhentuneet varaukset -raportin hakutulokseen tullut Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjastoon raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
+* Vanhentuneet varaukset -raportin hakutuloksessa Kadonnut-nidetilaiseksi merkitty noutamaton varaus. Vaski-kimpasta ratkaisu tähän. Anneli päivitti ratkaisun Raporttikirjaston raportin https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset
 * Digi- ja väestövirasto on hyväksynyt Hellen Suomi.fi-viestien käyttölupahakemuksen.
 
   
