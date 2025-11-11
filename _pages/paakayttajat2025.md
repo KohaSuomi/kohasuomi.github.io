@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Versionvaihto  
@@ -32,6 +32,12 @@ Pohjoisesta etelään
 
 **Vaski**
 * Uusi lajitteleva palautusautomaatti on otettu käyttöön
+
+**Kirkes**
+* Erika ollut yhteydessä Finnaan tuloksetta.
+* Tuusulan kunnan verkkoyhteyksissä ollut häiriötä maanantaina, Kohan varalainaohjelma toiminut hyvin.
+* Järvenpäässä toivottu, että tilattu-tilaiset niteet jäisivät "Niteen muokkaus iän mukaan" -ajon ulkopuolelle. Elina selvittää ja testaa.
+* Vaski-kirjastoilla ehtoja varaustunnukselle esimerkiksi pituuden suhteen. Laitetaan nämä jakoon kaikille kiinnostuneille.
 
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-46) - [Palaa sivun alkuun](/paakayttajat2025)
