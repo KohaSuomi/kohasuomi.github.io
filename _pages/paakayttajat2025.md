@@ -13,10 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
-* [IntranetUserCSS](https://github.com/KohaSuomi/Koha-25x/wiki/IntranetUserCSS):t käyty suunnilleen läpi nexteillä
+* Versionvaihto  
+  * [IntranetUserCSS](https://github.com/KohaSuomi/Koha-25x/wiki/IntranetUserCSS):t käyty suunnilleen läpi nexteillä
+  * Käydään läpi Uutta-wiki to 20.11.2025 klo 9.15 (tallennetaan)
 
 Pohjoisesta etelään
 
