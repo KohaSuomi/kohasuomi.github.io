@@ -420,7 +420,7 @@ Jos Nidetyyppi-kenttään kirjoittaa väärän/olemattoman tunnuksen, tulee nide
 
 Niteitä voi muokata monella tavalla.
 
-#### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä_ nimeketietonäytöltä
+#### Klikkaamalla _Muokkaa -&gt; Hallinnoi niteitä_ nimeketietonäytöltä
 
 ![](/assets/files/docs/Luettelointi/kuvailu28.png)
 
@@ -429,7 +429,7 @@ rivin alussa, mitä nidettä haluat muokata.
 
 ![](/assets/files/docs/Luettelointi/kuvailu29.png)
 
-#### Klikkaamalla _Muokkaa_ Niteet-välilehdellä halutun niteen kohdalla
+#### Klikkaamalla _Muokkaa nidettä_ Niteet-välilehdellä halutun niteen kohdalla
 
 ![](/assets/files/docs/Luettelointi/kuvailu30.png)
 
