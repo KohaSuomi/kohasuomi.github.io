@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 47
 
 Aika: Ma 17.11.2025<br />
-Läsnä: Johanna, Emmi, Anneli, Pasi, Robert, Lari, Olli, Ari
+Läsnä: Johanna, Emmi, Anneli, Pasi, Robert, Lari, Olli, Kodo, Ari
 
 * https://github.com/KohaSuomi/koha-suomi-utility/issues/80
 
