@@ -229,9 +229,9 @@ _Muokkaa uutena kopiona_.
 
 Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty kopioidun
 tietueen tiedoilla ja voit muokata tietoja haluamiksesi.  
-Muista tyhjentää kentän 001 sisältö, kun aloitat tietueen muokkauksen.
-Näin tietueelle tulee uusi tietueen kontrollinumero tähän kenttään, kun
-tallennat tietueen.
+Muista tyhjentää kenttien 001, 003 ja 035 sisältö, kun aloitat tietueen muokkauksen.
+Näin tietueelle tulee uusi tietueen kontrollinumero kenttään 001, kun
+tallennat tietueen. Kenttään 003 lisätään kuvailupaikan koodi.
 
 ![](/assets/files/docs/Luettelointi/kuvailu16.png)
 
