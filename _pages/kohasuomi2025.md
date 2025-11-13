@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 47
+
+Aika: Ma 17.11.2025<br />
+Läsnä: Johanna, Emmi, Anneli, Pasi, Robert, Lari, Olli, Ari
+
+* https://github.com/KohaSuomi/koha-suomi-utility/issues/80
+
 ## Viikko 46
 
 Aika: Ma 10.11.2025<br />
