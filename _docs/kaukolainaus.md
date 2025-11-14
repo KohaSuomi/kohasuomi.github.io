@@ -100,6 +100,10 @@ $(document).ready(function() {
 
 Lisää niille kirjastoille, jotka käyttävät kaukolainamoduulia Kaukolainauksen sähköposti -kenttään tieto sekä Huomautukset-kenttään kaukolainauksen puhelinnumero, jotta tiedot saadaan kuiteille.
 
+## Asiakastyyppien tiedot
+
+Valitse asiakastyyppien ylläpidossa _Voi tehdä kaukolainapyynnön verkkokirjastossa_ -kohtaan "Ei". Tämä toiminnallisuus toimii vain Kohan omassa verkkokirjastossa.
+
 ## Auktorisoidut arvot
 
 ILL_STATUS_ALIAS -auktorisoitu arvo
