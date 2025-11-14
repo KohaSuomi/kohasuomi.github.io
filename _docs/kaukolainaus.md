@@ -30,7 +30,7 @@ ILLDefaultStaffEmail | Jätä tyhjäksi | Tähän voi määrittää, mihin sähk
 ILLSendStaffNotices |Jätä tyhjäksi|Tähän voi määrittää, mitkä kaukolainojen tiloihin liittyvät viestit lähetetään henkilökunnalle sähköpostina. Voi myös halutessaan määrittää viestit, mutta ei ole pakko.
 AutoILLBackendPriority | Ei anna valita mitään, koska ei ole asennettuna backendejä, joista voi tarkistaa saatavuuden|
 ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän tarvittavia yhteyksiä
-ILLHistoryCheck |Testattava|Tarkista/Älä tarkista, onko asiakas tehnyt aiemmin kaukolainapyynnön samaan teokseen. Vertailu tehdään käyttäen seuraavia tunnuksia: DOI, Pubmed ID tai ISBN. 
+ILLHistoryCheck |Älä tarkista|Kimpassa voidaan tarvittaessa laittaa tämä päälle. Tarkista/Älä tarkista, onko asiakas tehnyt aiemmin kaukolainapyynnön samaan teokseen. Vertailu tehdään käyttäen seuraavia tunnuksia: DOI, Pubmed ID tai ISBN. 
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 ILLOpacUnauthenticatedRequest | Älä salli | Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
