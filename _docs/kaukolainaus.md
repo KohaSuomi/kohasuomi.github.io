@@ -886,3 +886,12 @@ Esim. helle/forms/author
     FI: Tekijä/Esittäjä
     SV: Författare/Artist
 
+## Automaattien lajittelut
+
+Nyt kun kaukolainaniteet lisätään Kohaan, niin myöskin palautusautomaatit alkavat ottamaan niitä vastaan. Sen estäminen teknisesti voi olla haastavaa, joten kannattaa tehdä palautusautomaateille vähintään sellainen sääntö, että kaukolainat päätyvät jonnekin "uudelleenkäsiteltävien" laariin, jolloin ne pienemmällä todennäköisyydellä menevät vahingossa oman kirjaston hyllyyn.
+
+## Sisäinen ohjeistus -dokumentti
+
+Käyttöönottotyöryhmä koosti käyttöohjeista myös sellaisen version, joka sisältää tarkempaa ja käytännönläheisempää ohjeistusta moduulin käyttäjille. Kyseessä on runko, jonka pohjalta kimpoissa/kirjastoissa voidaan luoda vielä tarkempi ohjeistus juuri omien käyttösääntöjen ja toimintatapojen pohjalta.
+
+[Kaukolainaohjeistus.docx](https://github.com/user-attachments/files/23548887/Kaukolainaohjeistus.docx)
