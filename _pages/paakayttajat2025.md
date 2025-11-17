@@ -20,6 +20,7 @@ Läsnä:
 * Pasi ja signum-ajot
 * Tärkeimmät kuulumiset/kysymykset kimpoista, ei käydä varsinaista kuulumiskierrosta
 * Kaukolainamoduulin käyttöönotto-ohjeiden läpikäynti (tallennetaan)
+  * Kohan ohje suomeksi -> Tekninen dokumentaatio -> Käyttöönotto-ohjeet -> [Kaukolainamoduulin käyttöönotto-ohje](https://koha-suomi.fi/dokumentaatio/kaukolainaus/)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-47) - [Palaa sivun alkuun](/paakayttajat2025)
 
