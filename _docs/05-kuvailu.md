@@ -608,7 +608,7 @@ _Niteet_-välilehdeltä.
 Historia-otsikon alla näkyy linkki _Raportti_, jota
 klikkaamalla näkyy tämän niteen havaintohistoria. (huom. raportin numero on kimppakohtainen).
 
-![](/assets/files/docs/Luettelointi/luettelointi0161.png)
+![](/assets/files/docs/Luettelointi/kuvailu5266.png)
 
 Perustiedot-näkymästä on kaksi erilaista lainaushistorialinkkiä. Vasemmalla valikossa
 on _Lainahistoria_.
