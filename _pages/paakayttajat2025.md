@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 47
+
+Aika: Ti 18.11.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
+* Pasi ja signum-ajot
+* Tärkeimmät kuulumiset/kysymykset kimpoista, ei käydä varsinaista kuulumiskierrosta
+* Kaukolainamoduulin käyttöönotto-ohjeiden läpikäynti (tallennetaan)
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-47) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
