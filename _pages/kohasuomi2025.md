@@ -22,7 +22,10 @@ Läsnä: Johanna, Emmi, Anneli, Pasi, Lari, Kodo, Ari
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * https://github.com/KohaSuomi/koha-suomi-utility/issues/80
-* https://github.com/KohaSuomi/Koha-25x/tree/ksdev/ks-0250-G1642-undelete-records
+* [Koha-Suomen tietueiden ja niteiden palautustyökalu](https://github.com/KohaSuomi/Koha-25x/tree/ksdev/ks-0250-G1642-undelete-records)
+  * Open Fifth on tehnyt Kohaan oman vastaavan työkalunsa, joka tulee jossain vaiheessa käyttöön meilläkin
+  * Näin ollen Koha-Suomen kehittämästä palautustyökalusta tullaan luopumaan, joten siihen ei enää tulla kehittämään uutta toiminallisuutta
+  * Työkalun käyttämiseen tarvittaviin käyttöoikeuksiin tehdään vielä muutoksia, mutta työkalulle ei lisätä omaa käyttäjäoikeutta vaan hyödynnetään jo olemassa olevia oikeuksia  
 
 ## Viikko 46
 
