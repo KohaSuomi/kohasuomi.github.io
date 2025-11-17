@@ -610,6 +610,24 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 ![](/assets/files/docs/Luettelointi/luettelointi0161.png)
 
+Perustiedot-näkymästä on kaksi erilaista lainaushistorialinkkiä. Vasemmalla valikossa
+on _Lainahistoria_.
+
+![](/assets/files/docs/Luettelointi/kuvailu5261.png)
+
+Sen näkymästä selviää mm. kunkin niteen lainauspäivä, eräpäivä ja palautuspäivä.
+
+![](/assets/files/docs/Luettelointi/kuvailu5262.png)
+
+Nimekkeen tietojen alimmaisena rivinä on linkki _Lainatilasto_-raporttiin (huom. raportin numero
+on kimppakohtainen).
+
+![](/assets/files/docs/Luettelointi/kuvailu5263.png)
+
+Avautuvan raportin kautta näet mm. nimekkeen niteiden yhteisen lainamäärän.
+
+![](/assets/files/docs/Luettelointi/kuvailu5264.png)
+
 ## 5.3. Erämuokkaukset
 
 ### 5.3.1. Niteiden muokkaus eräajona
