@@ -600,13 +600,13 @@ Täällä voit valita niteet, jotka poistetaan.
 
 Jokaisella nimekkeellä säilytetään lainahistoria (asiakastietojen kanssa
 tai ilman niitä, riippuu järjestelmän asetuksista), mutta jokaisella
-niteellä on myös oma lainahistoriansa. Tämä löytyy
+niteellä on myös oma havaintohistoriansa. Tämä löytyy
 _Niteet_-välilehdeltä.
 
-![](/assets/files/docs/Luettelointi/luettelointi601.png)
+![](/assets/files/docs/Luettelointi/kuvailu5265.png)
 
-Historia-otsikon alla näkyy linkki _Näytä niteen lainahistoria_, jota
-klikkaamalla näkyy tämän niteen lainaushistoria.
+Historia-otsikon alla näkyy linkki _Raportti_, jota
+klikkaamalla näkyy tämän niteen havaintohistoria. (huom. raportin numero on kimppakohtainen).
 
 ![](/assets/files/docs/Luettelointi/luettelointi0161.png)
 
