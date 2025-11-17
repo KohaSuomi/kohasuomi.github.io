@@ -25,12 +25,12 @@ ILLHiddenRequestStatuses |CANCELLED, EXPIRED| Kaukolainastatukset, joita pidetä
 ILLModule |Käytä|Tämä on ns. pääkytkin, jolla Kaukolaina-toiminto kytketään päälle ja pois päältä.
 ILLModuleUnmediated |Älä salli|Vaatii toimiakseen Kohan oma verkkokirjaston (opac)
 ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön lähetykseen näkyville Kaukolainakirjasto-tyyppiset asiakastiedot, joilla on tiedoissaan sähköpostiosoite tallennettuna
-ILLRequestsTabs | <img width="511" height="243" alt="kuva" src="https://github.com/user-attachments/assets/be6f5c99-3ecb-49ac-8a57-4acf5d532d3a" />|Asetuksella voi lisätä välilehtiä, joissa tietyn tilaiset pyynnöt näkyvät
+ILLRequestsTabs | <img width="511" height="243" alt="kuva" src="https://github.com/user-attachments/assets/be6f5c99-3ecb-49ac-8a57-4acf5d532d3a" />|Asetuksella voi lisätä välilehtiä, joissa tietyn tilaiset pyynnöt näkyvät. Taulukon alapuolella esimerkkimääritys erillisen otsikon alla.
 ILLDefaultStaffEmail | Jätä tyhjäksi | Tähän voi määrittää, mihin sähköpostiosoitteeseen lähetetään viestit, jos kirjastolle ei ole merkitty kaukolaina-osoitetta
 ILLSendStaffNotices |Jätä tyhjäksi|Tähän voi määrittää, mitkä kaukolainojen tiloihin liittyvät viestit lähetetään henkilökunnalle sähköpostina. Voi myös halutessaan määrittää viestit, mutta ei ole pakko.
 AutoILLBackendPriority | Ei anna valita mitään, koska ei ole asennettuna backendejä, joista voi tarkistaa saatavuuden|
 ILLCheckAvailability |Älä tarkista|Ei tarpeen, koska meillä ei ole tähän tarvittavia yhteyksiä
-ILLHistoryCheck |Älä tarkista|Kimpassa voidaan tarvittaessa laittaa tämä päälle. Tarkista/Älä tarkista, onko asiakas tehnyt aiemmin kaukolainapyynnön samaan teokseen. Vertailu tehdään käyttäen seuraavia tunnuksia: DOI, Pubmed ID tai ISBN. 
+ILLHistoryCheck |Älä tarkista|Kimpassa voidaan tarvittaessa laittaa tämä päälle, jos halutaan Kohan antavan ilmoituksen, että asiakkaalla on jo samalla ISBN:llä oleva kaukolainapyyntö. Ei estä tekemästä kuitenkaan uutta pyyntöä. Tarkista/Älä tarkista, onko asiakas tehnyt aiemmin kaukolainapyynnön samaan teokseen. Vertailu tehdään käyttäen seuraavia tunnuksia: DOI, Pubmed ID tai ISBN. Meillä käytännössä toimisi vain ISBN. 
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 ILLOpacUnauthenticatedRequest | Älä salli | Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
@@ -54,7 +54,7 @@ Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
 #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } 
 ```
 
-Poista alla oleva rimpsu asetuksesta, koska Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin
+**Poista** alla oleva rimpsu asetuksesta, koska Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin.
 
 ```
 /* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta 
@@ -63,7 +63,7 @@ Poista alla oleva rimpsu asetuksesta, koska Kaukolainaajat tarvitsevat näkyvill
 
 ### IntranetUserJS
 
-Muuttaa asiakkaan lainat-taulussa Kaukolaina-sanan punaiseksi.
+Muuttaa asiakkaan lainat-taulussa Kaukolaina-sanan punaiseksi. Huomioi, että tarvitset tämän lisäämiseen avuksi kehittäjän.
 
 ```
 // Kaukolaina-nidetyypin tekstin värin muutos asiakkaan lainoissa
@@ -98,7 +98,7 @@ $(document).ready(function() {
 
 ## Kirjastojen tiedot
 
-Lisää niille kirjastoille, jotka käyttävät kaukolainamoduulia Kaukolainauksen sähköposti -kenttään tieto sekä Huomautukset-kenttään kaukolainauksen puhelinnumero, jotta tiedot saadaan kuiteille.
+Lisää niille kirjastoille, jotka käyttävät kaukolainamoduulia _Kaukolainauksen sähköposti_ -kenttään sähköpostiosoite sekä _Huomautukset_-kenttään kaukolainauksen puhelinnumero, jotta tiedot saadaan tulostumaan kuiteille.
 
 ## Asiakastyyppien tiedot
 
@@ -106,7 +106,7 @@ Valitse asiakastyyppien ylläpidossa _Voi tehdä kaukolainapyynnön verkkokirjas
 
 ## Auktorisoidut arvot
 
-ILL_STATUS_ALIAS -auktorisoitu arvo
+ILL_STATUS_ALIAS -auktorisoitu arvo. Lisää ainakin nämä arvot, mutta niitä voi tarvittaessa lisätä muitakin, jos käytäntö osoittaa sellaisten olevan tarpeellisia.
 
 Tunnus|Kuvaus
 ---|---
@@ -121,28 +121,33 @@ PATCHECKIN|Asiakas palauttanut
 
 ## Nidetyyppi
 
+Lisää uusi nidetyyppi KAUKOLAINA, jota käytetään aina, kun kaukolainatilaukseen liittyvälle tietueelle lisätään nide ja se lainataan. Erillinen nidetyyppi mahdollistaa laina- ja maksusääntöjen tekemisen nidetyypin mukaan.
+
 Tunnus: KAUKOLAINA<br />
 Kuvaus: Kaukolaina<br />
-Palautusviesti: Tähän jonkinlainen huomautus, että kyseessä on kaukolaina ja tarvitsee erilaista käsittelyä<br />
+Palautusviesti: Lisää tähän jonkinlainen huomautus, että kyseessä on kaukolaina ja tarvitsee erilaista käsittelyä.<br />
 Palautusviestin tyyppi: Huomautus (tulee keltaisella pohjalla oleva huomautus palautuksessa, erottuu paremmin kuin viesti)
 
 ## Käyttäjäoikeudet
 
 Kaukolaina-moduulin käyttäjä tarvitsee seuraavat käyttäjäoikeudet:
 
-* ill - jotta pääsee kaukopalvelumoduuliin
-* fast_cataloging  - jotta pystyy käsittelemään kaukolainamoduulin kautta luotuja tietueita/niteitä, joilla on FA-kuvailupohja käytössä
-* override_renewals - jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0
-* overdues_report - jotta käyttäjä voi avata Myöhässä-raportin Lainaus ja palautus -sivulla
+Käyttäjäoikeus|Tarvekuvaus
+---|---
+ill | jotta käyttäjä pääsee kaukopalvelumoduuliin
+fast_cataloging  | jotta käyttäjä pystyy käsittelemään kaukolainamoduulin kautta luotuja tietueita/niteitä, joilla on FA-kuvailupohja käytössä
+override_renewals | jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0 (ks. laina- ja maksusäännöt)
+overdues_report | jotta käyttäjä voi avata Myöhässä-raportin Lainaus ja palautus -sivulla (ks. myöhässä olevien seuranta)
 
 ## Laina- ja maksusäännöt
 
-* Asiakastyyppi: Tee sääntö, joka koskee kaikkia asiakastyyppejä. Jos jollekin asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolaina-niteen tehdä myös erikseen kyseiselle asiakastyypille.
+Iso taulukko
+* Asiakastyyppi: Tee vähintään sääntö, joka koskee kaikkia asiakastyyppejä. Jos jollekin asiakastyypille on yksikin oma sääntö kaikkia kirjastoja koskevissa säännöissä, pitää kaukolaina-nidetyypille tehdä myös erikseen sääntö kyseiselle asiakastyypille.
 * Nidetyyppi: Kaukolaina
 * Sallittu lainamäärä: kimpan käyttösääntöjen mukaisesti
-* Laina-aika: 28 vrk - tähän kannattanee määrittää jotain, koska muuten Koha automaattisesti antaa eräpäiväksi lainauspäivän. Pääsääntöisesti virkailija valitsee itse eräpäivän sen mukaan, mitä lähettävä kirjasto on sen määrittänyt.
+* Laina-aika: 28 vrk / kimpan käyttösääntöjen mukaisesti. Tähän kannattanee määrittää jotain, koska muuten Koha automaattisesti antaa eräpäiväksi lainauspäivän. Pääsääntöisesti virkailija valitsee itse lainaustilanteessa eräpäivän sen mukaan, mitä lähettävä kirjasto on sen määrittänyt.
 * Uusintakerrat: 0, jotta asiakkaat eivät pysty uusimaan lainojaan verkkokirjastossa. Annetaan kuitenkin kaukopalvelua tekeville henkilöille käyttäjäoikeus, jolla he voivat ohittaa uusinnan estot.
-* Uusinta-aika: 28 vrk samalla perusteella kuin laina-aika. Uusinnan eräpäivän voi valita lainat-taulukon alapuolelta.
+* Uusinta-aika: 28 vrk / kimpan käytäntöjen mukaan samalla perusteella kuin laina-aika. Uusinnan eräpäivän voi tarvittaessa valita lainat-taulukon alapuolelta.
 * Ei uusintaa ennen: kimppakohtaisesti päätettävissä
 * Varauksia sallittu (yhteensä): 0
 * Varauksia sallittu (päivittäin): 0
@@ -164,14 +169,19 @@ Jos kimpassa on asiakastyyppejä, joille ei haluta sallia kaukolainojen lainaami
 ### Viestiasetukset
 
 Uudet viestiasetukset asiakastiedoissa:
-* Interlibrary loan ready
-* Interlibrary loan unavailable
+* Kaukolainan saapumisilmoitus
+* Kaukolaina ei saatavilla
+* Kaukolaina on päivitetty
 
 Nämä valitaan asiakaskohtaisesti tarvittaessa.
+
+Jos on tarve estää esim. tekstiviesti-vaihtoehdon valitseminen näille viestipohjille, tehkää siitä tiketti, niin kehittäjät voivat poistaa sms-vaihtoehdon viestityyppi-vaihtoehdoista tietokannan taulusta.
 
 ### Viestipohjat suomeksi
 
 #### ILL_REQUEST_UPDATE
+
+Tämä viesti lähtee asiakkaalle, jos/kun kaukolainapyyntöä päivitetään/muutetaan.
 
 Vain email-tyyppinen viesti, ei haluta lähettää tekstiviestinä. Tämä pohja kannattaa kopioida myös suomi.fi-palvelun kohdalle.
 
@@ -198,6 +208,8 @@ Ystävällisin terveisin
 ```
 
 #### ILL_PICKUP_READY
+
+Tämä on kaukolainan noutoilmoitus, jonka saa lähetettyä kaukolainapyynnön tiedoista.
 
 Otsikko: Kaukolainan noutoilmoitus
 Viestityyppi: email ja suomifi
@@ -229,6 +241,8 @@ Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavis
 
 #### ILL_PARTNER_REQ
 
+Tällä voi lähettää kaukolainamoduulista sähköpostiviestin "yhteistyökumppaneille" ja pyytää heiltä asiakkaan pyytämää teosta. Viestiin tulee mukaan teostiedot ill_full_metadata-tägillä, tiedot järjestyvät viestissä otsikon mukaan aakkosiin.
+
 Otsikko: Kaukolainapyyntö
 Viestityyppi: email
 
@@ -249,6 +263,8 @@ Ystävällisin terveisin
 ```
 
 #### ILL_REQUEST_UNAVAIL
+
+Tämän viestin voi lähettää asiakkaalle, jos kaukolainapyyntöä ei voida toimittaa.
 
 Otsikko: Pyytämäsi kaukolaina ei ole saatavilla
 Viestityyppi: email ja suomifi
@@ -275,6 +291,8 @@ Viestityyppi: Sms
 Hei [% borrower.firstname %],  pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] ei ole saatavilla. Terveisin [% branch.branchname %]
 ```
 #### ILL_SLIP
+
+Tällä voi tulostaa asiakkaan tiedoissa ollessa kaukolainan "infokuitin", johon saadaan automaattisesti tulostumaan asiakkaan varaustunnus. Räätölöidyillä kuiteilla ei ole pääsyä kaukolaina-osion tietoihin, joten niitä tietoja ei saada automaattisesti. Sitä varten tulostettavalle lapulle on lisätty kohdat, joihin kaukolainan käsittelijä voi itse kirjoittaa tarvittavat teos ja lainatiedot. Tätä viestipohjaa varten pitää lisätä kirjastojen ylläpidossa tiedot _Kaukolainauksen sähköposti_ ja _Huomautukset_ -kenttiin (ks. Kirjastojen tiedot).
 
 Uusi ilmoitus -> Asiakkaat (Räätälöity kuitti)
 
@@ -611,6 +629,8 @@ Finnaan tehdään uudet lomakkeet kaukolainapyynnölle ja uusimislomakkeelle. Li
 Alla olevat koodit viedään oman tuotannossa olevan näkymän tiedostoon local/config/vufind/FeedbackForms.yaml ja muokataan oman kimpan tietojen mukaisiksi.
 
 HUOM! Lataa ensisijaisesti alla oleva txt-tiedosto, koska silloin koodin asettelu pysyy paremmin kasassa. Jos lomake ei tule näkyville siitä huolimatta, tarkista, että Finnan yaml-tiedostossa on sisennykset oikein.
+
+HUOM2! Esimerkeissä on pyydetty asiakkaan kirjastokortin numeroa, mutta Koha-Suomi ei suosittele kirjastokortin numeron lähettämistä salaamattomana sähköpostina.
 
 [Koodit_Finnaan_Kaukolainalomakkeet.txt](https://github.com/user-attachments/files/23226521/Koodit_Finnaan_Kaukolainalomakkeet.txt)
 
