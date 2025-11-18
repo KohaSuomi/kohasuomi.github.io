@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
@@ -24,6 +24,9 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Lappi**
 * Rovaniemellä vaihtuu kaikki lainaus-palautusautomaatit toimittajalta toiselle, käyttöönotto 24.-25.11.
+
+**Vaski**
+* Hyllyvarausraportin huomattu näyttävän noutokirjaston väärin, jos varauksia useampia. Tiketti https://github.com/KohaSuomi/Koha/issues/2052.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-47) - [Palaa sivun alkuun](/paakayttajat2025)
 
