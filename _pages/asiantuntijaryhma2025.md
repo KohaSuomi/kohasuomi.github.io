@@ -15,6 +15,26 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 10/2025
+
+Aika: Ke 26.11.2025 klo 13<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Käsiteltävät kehitysehdotukset
+
+* [Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja #2036](https://github.com/KohaSuomi/Koha/issues/2036)
+* [SIP2-rajapinnan kautta palautetun niteen notforloan-tilan päivitys ennen palautusviestin muodostamista #2040](https://github.com/KohaSuomi/Koha/issues/2040)
+* [Tarratulostimen signum-tarran kentille samat ominaisuudet kuin tarran kentille #2045](https://github.com/KohaSuomi/Koha/issues/2045)
+* [Tarratulostimeen mahdollisuus katkaista kenttiä merkkimäärän mukaan #2046](https://github.com/KohaSuomi/Koha/issues/2046)
+* [Hyllyvaraukset: Hyllypaikan, jossa niteitä hyllyssä, korostaminen tai siihen rajaaminen #2060](https://github.com/KohaSuomi/Koha/issues/2060)
+
+### 3. Muut asiat
+
+### 4. Seuraava kokous
+
+
 ## Muistio 9/2025
 
 Aika: Ke 29.10.2025 klo 13<br />
