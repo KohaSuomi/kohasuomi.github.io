@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
@@ -21,6 +21,7 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päiv
 * Tärkeimmät kuulumiset/kysymykset kimpoista, ei käydä varsinaista kuulumiskierrosta
 * Kaukolainamoduulin käyttöönotto-ohjeiden läpikäynti (tallennetaan)
   * Kohan ohje suomeksi -> Tekninen dokumentaatio -> Käyttöönotto-ohjeet -> [Kaukolainamoduulin käyttöönotto-ohje](https://koha-suomi.fi/dokumentaatio/kaukolainaus/)
+  * [Tallenne Koha-Suomen Youtube-kanavalla Live-videoissa](https://www.youtube.com/live/D-mYocXXZO0?si=fJUftvqYmryy-G6Z).
 
 **Lappi**
 * Rovaniemellä vaihtuu kaikki lainaus-palautusautomaatit toimittajalta toiselle, käyttöönotto 24.-25.11.
