@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
