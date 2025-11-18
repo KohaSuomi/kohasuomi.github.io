@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
@@ -28,6 +28,10 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päiv
 
 **Vaski**
 * Hyllyvarausraportin huomattu näyttävän noutokirjaston väärin, jos varauksia useampia. Tiketti https://github.com/KohaSuomi/Koha/issues/2052.
+
+**OUTI**
+* Peruskorjattu Oulun keskustakirjasto Saari avataan maanantaina 24.11.
+* Suomi.fi-viestit otetaan käyttöön versiopäivityksen jälkeen keväällä 2026.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-47) - [Palaa sivun alkuun](/paakayttajat2025)
 
