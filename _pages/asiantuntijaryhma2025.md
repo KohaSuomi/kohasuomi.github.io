@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Ollin harjoittelu jatkuu vielä kuukauden marras-joulukuussa.
+
 ### 2. Käsiteltävät kehitysehdotukset
 
 * [Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja #2036](https://github.com/KohaSuomi/Koha/issues/2036)
