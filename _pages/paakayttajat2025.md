@@ -10,6 +10,24 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 48
+
+Aika: Ti 25.11.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Sanasto on lähestynyt Koha-Suomea aiheella, miten he saisivat tiedon kirjaston tilaisuuksissa esitetyistä teoksista (lukutuokiot yms.). Helsingissä on toteutettu asia [puitesopimuksella](https://www.sanasto.fi/helsingin-kaupunginkirjasto-ja-sanasto-sopivat-jatkuvasta-esitysluvasta-lukutuokioille/), jossa henkilökunta rekisteröi luetut teokset kirjastojärjestelmässä ja sen perusteella kirjasto sitten raportoi säännöllisesti käytön Sanastolle. Tästä on aloitettu keskustelut Sanaston ja Koha-Suomen välillä.
+  * Tämä voisi onnistua suht helposti myös Kohassa nykyisillä toiminnoilla.
+    * Luodaan kimppaan ainakin yksi tilastoasiakastyyppiä oleva tunnus, jolle lainataan kaikki esitetyt teokset. Näistä jää statistics-tauluun kirjaus "localuse". Niteet eivät mene lainaan, joten niitä ei tarvitse erikseen palauttaa.
+    * statistics-taulun kirjauksen perusteella haetaan teokset SQL-raportilla
+    * Tiedot voidaan toimittaa [Raportteri-rajapinnan](https://github.com/KohaSuomi/koha-plugin-report-services) välityksellä JSON-muodossa tai jos tämä ei onnistu Sanastolla, niin kirjastot voivat lähettää ne esim. CSV-muodossa.
+* Versionvaihto:
+  * [Uusien ominaisuuksien esittelyvideo pääkäyttäjille](https://www.youtube.com/live/KkwN__E0B04?si=Sd8llLu4k9GBfEzu) löytyy Koha-Suomen Youtube-kanavalta Live-osiosta. 
+  * Kuinka toimitaan [tiketin #168](https://github.com/KohaSuomi/Koha-25x/issues/168) ongelman kanssa?
+* [Kaukolainamoduulin käyttäjien ohjeistuksen](https://koha-suomi.fi/dokumentaatio/kaukolainat/) läpikäynti (tallennetaan)
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-48) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
