@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: Ti 25.11.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * Sanasto on lähestynyt Koha-Suomea aiheella, miten he saisivat tiedon kirjaston tilaisuuksissa esitetyistä teoksista (lukutuokiot yms.). Helsingissä on toteutettu asia [puitesopimuksella](https://www.sanasto.fi/helsingin-kaupunginkirjasto-ja-sanasto-sopivat-jatkuvasta-esitysluvasta-lukutuokioille/), jossa henkilökunta rekisteröi luetut teokset kirjastojärjestelmässä ja sen perusteella kirjasto sitten raportoi säännöllisesti käytön Sanastolle. Tästä on aloitettu keskustelut Sanaston ja Koha-Suomen välillä.
@@ -24,8 +24,11 @@ Läsnä: Anni Mäki-Mantila (Vaski)
 * Versionvaihto:
   * [Uusien ominaisuuksien esittelyvideo pääkäyttäjille](https://www.youtube.com/live/KkwN__E0B04?si=Sd8llLu4k9GBfEzu) löytyy Koha-Suomen Youtube-kanavalta Live-osiosta. 
   * Kuinka toimitaan [tiketin #168](https://github.com/KohaSuomi/Koha-25x/issues/168) ongelman kanssa? Uudet suggestions_create ja suggenstions_delete -oikeudet tulee virheellisesti myös catalogue-oikeuksilla oleville. Pitäisi tulla vain suggenstions_manage-oikeuksilla oleville.
+    * koitetaan korjata oikeuksien lisäys niin, että se menee tuotannossa vain suggestions_manage-oikeuksilla oleville.
+  * Käydään vko 49 viikkopalaverissa 2.12.2025 läpi Versionvaihdon wikin muut osiot. Tallennetaan.
 * Ei pidetä kuulumiskierrosta kaukolainamoduulin esittelyn vuoksi, mutta voidaan käydä tärkeimmät kuulumiset läpi ennen sitä. 
 * [Kaukolainamoduulin käyttäjien ohjeistuksen](https://koha-suomi.fi/dokumentaatio/kaukolainat/) läpikäynti (tallennetaan)
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-48) - [Palaa sivun alkuun](/paakayttajat2025)
 
