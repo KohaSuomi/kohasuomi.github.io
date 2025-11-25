@@ -9,6 +9,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 ---
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
+## Viikko 49
+
+Aika: Ti 2.12.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Versionvaihto
+  * Milloin kannattaisi pitää uuden version esittely henkilökunnalle? Helmikuun puolivälin jälkeen?
+  * Versionvaihdon wikin osioden läpikäynti (järjestelmäasetukset, auktorisoidut arvot, käyttäjäoikeudet jne), tallennetaan. 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-49) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 48
 
@@ -25,7 +36,7 @@ Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Tak
   * [Uusien ominaisuuksien esittelyvideo pääkäyttäjille](https://www.youtube.com/live/KkwN__E0B04?si=Sd8llLu4k9GBfEzu) löytyy Koha-Suomen Youtube-kanavalta Live-osiosta. 
   * Kuinka toimitaan [tiketin #168](https://github.com/KohaSuomi/Koha-25x/issues/168) ongelman kanssa? Uudet suggestions_create ja suggenstions_delete -oikeudet tulee virheellisesti myös catalogue-oikeuksilla oleville. Pitäisi tulla vain suggenstions_manage-oikeuksilla oleville.
     * koitetaan korjata oikeuksien lisäys niin, että se menee tuotannossa vain suggestions_manage-oikeuksilla oleville.
-  * Käydään vko 49 viikkopalaverissa 2.12.2025 läpi Versionvaihdon wikin muut osiot. Tallennetaan.
+  * Käydään vko 49 viikkopalaverissa 2.12.2025 läpi Versionvaihdon wikin muut osiot. Tallennetaan. [Linkki tallenteeseen](https://youtube.com/live/HoDe9Mo9H-8?feature=share)
 * Ei pidetä kuulumiskierrosta kaukolainamoduulin esittelyn vuoksi, mutta voidaan käydä tärkeimmät kuulumiset läpi ennen sitä. 
 * [Kaukolainamoduulin käyttäjien ohjeistuksen](https://koha-suomi.fi/dokumentaatio/kaukolainat/) läpikäynti (tallennetaan)
 
