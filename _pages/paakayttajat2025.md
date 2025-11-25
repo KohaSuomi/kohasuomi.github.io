@@ -23,7 +23,8 @@ Läsnä:
     * Tiedot voidaan toimittaa [Raportteri-rajapinnan](https://github.com/KohaSuomi/koha-plugin-report-services) välityksellä JSON-muodossa tai jos tämä ei onnistu Sanastolla, niin kirjastot voivat lähettää ne esim. CSV-muodossa.
 * Versionvaihto:
   * [Uusien ominaisuuksien esittelyvideo pääkäyttäjille](https://www.youtube.com/live/KkwN__E0B04?si=Sd8llLu4k9GBfEzu) löytyy Koha-Suomen Youtube-kanavalta Live-osiosta. 
-  * Kuinka toimitaan [tiketin #168](https://github.com/KohaSuomi/Koha-25x/issues/168) ongelman kanssa?
+  * Kuinka toimitaan [tiketin #168](https://github.com/KohaSuomi/Koha-25x/issues/168) ongelman kanssa? Uudet suggestions_create ja suggenstions_delete -oikeudet tulee virheellisesti myös catalogue-oikeuksilla oleville. Pitäisi tulla vain suggenstions_manage-oikeuksilla oleville.
+* Ei pidetä kuulumiskierrosta kaukolainamoduulin esittelyn vuoksi, mutta voidaan käydä tärkeimmät kuulumiset läpi ennen sitä. 
 * [Kaukolainamoduulin käyttäjien ohjeistuksen](https://koha-suomi.fi/dokumentaatio/kaukolainat/) läpikäynti (tallennetaan)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-48) - [Palaa sivun alkuun](/paakayttajat2025)
