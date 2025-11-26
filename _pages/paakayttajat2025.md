@@ -24,7 +24,7 @@ Läsnä:
 ## Viikko 48
 
 Aika: Ti 25.11.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Sanasto on lähestynyt Koha-Suomea aiheella, miten he saisivat tiedon kirjaston tilaisuuksissa esitetyistä teoksista (lukutuokiot yms.). Helsingissä on toteutettu asia [puitesopimuksella](https://www.sanasto.fi/helsingin-kaupunginkirjasto-ja-sanasto-sopivat-jatkuvasta-esitysluvasta-lukutuokioille/), jossa henkilökunta rekisteröi luetut teokset kirjastojärjestelmässä ja sen perusteella kirjasto sitten raportoi säännöllisesti käytön Sanastolle. Tästä on aloitettu keskustelut Sanaston ja Koha-Suomen välillä.
