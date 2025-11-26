@@ -109,7 +109,7 @@ Kun luot Kirja-tyyppisen pyynnön, lyhyt kuvailutietue luodaan automaattisesti F
 Kohteen lainaaminen:
 
 * Napsauta Lainaus-painiketta.
-* Valitse nidetyyppi. Kohde nide automaattisesti ja liitetään pyyntöä varten luotuun kuvailutietueeseen. Kohteen viivakoodi on muodossa "ILL-pyynnön ID".
+* Valitse nidetyyppi. Nide luodaan automaattisesti ja liitetään pyyntöä varten luotuun kuvailutietueeseen. Kohteen viivakoodi on muodossa "ILL-pyynnön ID".
 * Seuraavaksi valitse eräpäivä. Jos et valitse eräpäivää, käytetään sopivaa laina- ja maksusääntöä eräpäivän laskemiseen.
 * Kun nide on lainattu, pyynnön tilaksi muuttuu _Lainattu_ ja sen jälkeen, kun nide on palautettu, tilaksi päivittyy _Palautettu kirjastoon_.
 * Kaukolainapyyntöjen yhteydessä luodulla kuvailutietueella on Kokoelmat-taulukossa ylimääräinen välilehti, jossa on linkki takaisin pyyntöön kaukolainamoduulissa.
