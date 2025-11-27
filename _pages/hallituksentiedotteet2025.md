@@ -27,7 +27,7 @@ Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
 
 Koha-Suomen hallituksen puolesta,
 
-Jouni Pääkkölä
+Jouni Pääkkölä<br />
 hallituksen pj.
 
 Toimitusjohtajan raportti 8/2025: [Toimitusjohtajan raportti 8 25.pdf](https://github.com/user-attachments/files/23795377/Toimitusjohtajan.raportti.8.25.pdf)
