@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 10/2025
 
 Aika: Ke 26.11.2025 klo 13<br />
-Läsnä:
+Läsnä: Ari Mäkiranta, Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot), Erika Miettinen (Kirkes-kirjastot)
 
 ### 1. Ajankohtaiset
 
@@ -31,13 +31,13 @@ Koha-Suomi on vastannut Piki-kirjastojen tietopyyntöön kirjastojärjestelmän 
 * [Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja #2036](https://github.com/KohaSuomi/Koha/issues/2036)
   * Päätös: Toteutetaan
 * [SIP2-rajapinnan kautta palautetun niteen notforloan-tilan päivitys ennen palautusviestin muodostamista #2040](https://github.com/KohaSuomi/Koha/issues/2040)
-  * Tutkitaan, onko mahdollista ja mikäli se on mahdollista, toteutus versionvaihdon jälkeen.
+  * Päätös: Tutkitaan, onko mahdollista ja mikäli se on mahdollista, toteutus versionvaihdon jälkeen.
 * [Tarratulostimen signum-tarran kentille samat ominaisuudet kuin tarran kentille #2045](https://github.com/KohaSuomi/Koha/issues/2045)
-  * Ei toteuteta
+  * Päätös: Ei toteuteta
 * [Tarratulostimeen mahdollisuus katkaista kenttiä merkkimäärän mukaan #2046](https://github.com/KohaSuomi/Koha/issues/2046)
-  * Ei toteuteta
+  * Päätös: Ei toteuteta
 * [Hyllyvaraukset: Hyllypaikan, jossa niteitä hyllyssä, korostaminen tai siihen rajaaminen #2060](https://github.com/KohaSuomi/Koha/issues/2060)
-  * Tätä ei ole teknisesti mahdollista toteuttaa nykyiseen hyllyvarausraporttiin. 
+  * Päätös: Tätä ei ole teknisesti mahdollista toteuttaa nykyiseen hyllyvarausraporttiin. 
 
 ### 3. Muut asiat
 
