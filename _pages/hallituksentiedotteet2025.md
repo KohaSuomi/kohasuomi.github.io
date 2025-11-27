@@ -11,6 +11,28 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 8/2025
+
+27.11.2025
+
+Hei,
+
+Hallituksen marraskuun kokouksessa käytiin läpi taloustilannetta 2025 ja seuraavan vuoden toiminnallisia ja taloudellisia tavoitteita. Asioihin palataan hallituksen joulukuun kokouksessa ja päätetään ensi vuoden talousarviosta.
+
+Liitteenä toimitusjohtajan raportti 8/2025.
+
+Mukavaa talven odotusta kaikille, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
+
+Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
+
+Koha-Suomen hallituksen puolesta,
+
+Jouni Pääkkölä
+hallituksen pj.
+
+Toimitusjohtajan raportti 8/2025: [Toimitusjohtajan raportti 8 25.pdf](https://github.com/user-attachments/files/23795377/Toimitusjohtajan.raportti.8.25.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 7/2025
 
 7.11.2025
