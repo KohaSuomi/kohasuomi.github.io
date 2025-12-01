@@ -16,7 +16,7 @@ Aika: Ti 2.12.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Ohje tulossa: Mitä pitää muistaa/huomioida Kohan osalta, jos asiakaspalvelutietokone varastetaan.
+* Uusi ohje: [Mitä pitää muistaa/huomioida Kohan osalta, jos asiakaspalvelutietokone varastetaan.](https://koha-suomi.fi/dokumentaatio/ty%C3%B6asemavarkaus/)
 * Versionvaihto
   * Milloin kannattaisi pitää uuden version esittely henkilökunnalle? Helmikuun puolivälin jälkeen?
   * [Tiketti #3](https://github.com/KohaSuomi/Koha-25x/issues/3), liian pitkät viivakoodit, voisiko ne uudelleentarroittaa tai poistaa?
