@@ -5,7 +5,6 @@ Tämä ohje kertoo mitä tehdä, jos kirjaston virkailijatyöasema varastetaan t
 - Ota viipymättä yhteys kirjastokimpan pääkäyttäjään (yhteystiedot löyvät kimpoittain osoitteesta: https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot).
 - Pääkäyttäjä ottaa yhteyttä Koha-Suomen päivystäjään.
 - Riippuen katoamisesta kuluneesta ajasta voidaan tilin tunnuksia väliaikaisesti tai pysyvästi disabloida, tai joutua uusimaan tai perumaan.
-- Salasanoja ja sertifikaattitiedostoja ei saa tallentaa työsemalle eikä salasanaa saa tallentaa selaimeen.
 
 1. Heti tehtävät
 - Kirjaston virkailija: soita välittömästi kirjastokimpan pääkäyttäjälle ja kerro lyhyesti seuraavat tiedot, sikäli kun ne ovat tiedossa:
