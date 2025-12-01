@@ -72,4 +72,6 @@ Lainausautomaateilla, omatoimijärjestelmissä ja Kohan itsepalvelulainauksessa 
 
 ## Miten toimia, jos huomaat tietoturvaan liittyvän ongelman
 
-Jos huomaat tietoturvaan liittyvän ongelman, ole yhteydessä kimppasi pääkäyttäjään suojatusti (turvaposti, puhelu). Kimppojen pääkäyttäjät voivat laittaa Koha-Suomelle viestin ongelmasta turvapostilla osoitteeseen support(ät)koha-suomi.fi tai Matrixissa suojatussa huoneessa. Työasemien katoamista ja varkaustapauksia varten löytyy erillinen toimintaohje: [Jos työasema varastetaan tai katoaa](/dokumentaatio/työasemavarkaus/).
+Jos huomaat tietoturvaan liittyvän ongelman, ole yhteydessä kimppasi pääkäyttäjään suojatusti (turvaposti, puhelu). Kimppojen pääkäyttäjät voivat laittaa Koha-Suomelle viestin ongelmasta turvapostilla osoitteeseen support(ät)koha-suomi.fi tai Matrixissa suojatussa huoneessa.
+
+Työasemien katoamista ja varkaustapauksia varten löytyy erillinen toimintaohje: [Jos työasema varastetaan tai katoaa](/dokumentaatio/työasemavarkaus/).
