@@ -1,3 +1,11 @@
+---
+title: 'Jos virkailijatyöasema varastetaan tai katoaa'
+permalink: /dokumentaatio/työasemavarkaus/
+redirect_from:
+  - /theme-setup/
+toc: true
+---
+
 # Jos virkailijatyöasema varastetaan tai katoaa
 
 Tämä ohje kertoo mitä tehdä, jos kirjaston virkailijatyöasema varastetaan tai muuten katoaa. Toimintaohjeet on suunnattu ensisijassa Koha-loppukäyttäjille (kirjastoille ja niiden henkilökunnalle). Noudata ohjeita tarkasti estääksesi tilien väärinkäytön ja minimoidaksesi tietoturvariskit.
