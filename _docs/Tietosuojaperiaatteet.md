@@ -246,6 +246,5 @@ asioissa?
 ## 8. Asiakirjan päivitys
 
 Asiakirjaa tarkastellaan ja päivitetään tarpeen mukaan. Päivitetty versio käsitellään yhtiön
-hallituksessa. Pääsääntöisesti suunnitelmia ylläpitää tuotepäällikkö. Ohjeistuksilla viedään suunnitellut
-toimenpiteet käytännön asteelle ja näitä ohjeistuksia voidaan päivittää aina tarvittaessa ilman erillistä
+hallituksessa. Ohjeistuksilla viedään suunnitellut toimenpiteet käytännön asteelle ja näitä ohjeistuksia voidaan päivittää aina tarvittaessa ilman erillistä
 käsittelyä. Ohjeistuksien muutokset voidaan laittaa kuitenkin tiedoksi hallitukselle.
