@@ -9,6 +9,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 ---
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
+
 ## Viikko 49
 
 Aika: Ti 2.12.2025 klo 9.15<br />
@@ -17,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Versionvaihto
   * Milloin kannattaisi pitää uuden version esittely henkilökunnalle? Helmikuun puolivälin jälkeen?
+  * [Tiketti #3](https://github.com/KohaSuomi/Koha-25x/issues/3), liian pitkät viivakoodit, voisiko ne uudelleentarroittaa tai poistaa?
   * Versionvaihdon wikin osioden läpikäynti (järjestelmäasetukset, auktorisoidut arvot, käyttäjäoikeudet jne), tallennetaan. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-49) - [Palaa sivun alkuun](/paakayttajat2025)
