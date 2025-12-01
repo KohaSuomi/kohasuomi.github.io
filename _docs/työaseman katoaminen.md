@@ -1,6 +1,6 @@
 # Jos virkailijatyöasema varastetaan tai katoaa
 
-Tämä ohje kertoo, mitä tehdä välittömästi ja myöhemmin, jos kirjaston virkailijatyöasema varastetaan tai muuten katoaa. Toimintaohjeet on suunnattu ensisijassa loppukäyttäjille (kirjastoille ja niiden henkilökunnalle). Noudata ohjeita tarkasti estääksesi tilien väärinkäytön ja minimoidaksesi tietoturvariskit.
+Tämä ohje kertoo mitä tehdä, jos kirjaston virkailijatyöasema varastetaan tai muuten katoaa. Toimintaohjeet on suunnattu ensisijassa loppukäyttäjille (kirjastoille ja niiden henkilökunnalle). Noudata ohjeita tarkasti estääksesi tilien väärinkäytön ja minimoidaksesi tietoturvariskit.
 
 - Ota viipymättä yhteys kirjastokimpan pääkäyttäjään (yhteystiedot löyvät kimpoittain osoitteesta: https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot).
 - Pääkäyttäjä ottaa yhteyttä Koha-Suomen päivystäjään.
