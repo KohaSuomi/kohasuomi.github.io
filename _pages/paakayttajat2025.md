@@ -27,7 +27,7 @@ Läsnä:
 ## Viikko 48
 
 Aika: Ti 25.11.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Erika Miettinen (Kirkes)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Erika Miettinen (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Sanasto on lähestynyt Koha-Suomea aiheella, miten he saisivat tiedon kirjaston tilaisuuksissa esitetyistä teoksista (lukutuokiot yms.). Helsingissä on toteutettu asia [puitesopimuksella](https://www.sanasto.fi/helsingin-kaupunginkirjasto-ja-sanasto-sopivat-jatkuvasta-esitysluvasta-lukutuokioille/), jossa henkilökunta rekisteröi luetut teokset kirjastojärjestelmässä ja sen perusteella kirjasto sitten raportoi säännöllisesti käytön Sanastolle. Tästä on aloitettu keskustelut Sanaston ja Koha-Suomen välillä.
@@ -49,7 +49,7 @@ Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Tak
 ## Viikko 47
 
 Aika: Ti 18.11.2025 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [preferred_name näkymään Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)
@@ -74,7 +74,7 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päiv
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Versionvaihto  
