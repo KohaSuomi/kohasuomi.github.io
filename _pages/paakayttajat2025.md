@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 49
 
 Aika: Ti 2.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Uusi ohje: [Miten toimia, jos asiakaspalvelutietokone varastetaan.](https://koha-suomi.fi/dokumentaatio/ty%C3%B6asemavarkaus/)
