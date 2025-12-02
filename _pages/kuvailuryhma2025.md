@@ -9,6 +9,78 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 8/2025 ##
+
+Aika: 12.11.2025 klo 13.15–14.00
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokous avattiin kello 13.15, puheenjohtajana Antti Heikkinen ja sihteerivuorossa Mauri Aittaniemi.
+
+#### 2.	Lahjoituskokoelmat ja paikallisen kuvailun taso ####
+<ul>
+ <li>Kysymys Lapin kirjastoista: Ranuan kirjasto haluaa saada entisen Japani-talon kokoelman kuvailluksi. Kokoelma ei ole uusi eikä paikallisen kuvailuyhteistyön linjanvetojen mukaisesti Lapin TäTi-kuvailijoiden tarvitse sitä kuvailla. Saako isompia kokonaisuuksia kuvailla vain paikalliskantaan, ja millä tasolla kuvailu tällöin kuuluisi tehdä? Lisähankaluutta Japani-talon kokoelman kuvailun kanssa aiheuttaa vieras kirjaimisto ja sen vaatima translitterointi.</li>
+ <li>OUTIssa on ollut joitakin kuntien koulukirjastojen kokoelmia, jotka on kuvailtu vain paikalliskantaan minitiedoilla. Näitä varten on tehty ohje, mitkä tiedot on ainakin laitettava, jotta tietueet ovat MARC-formaatin mukaisia.</li>
+ <li>Vaskissa on välillä ollut kuvailtavana vieraskielisiä teoksia, joiden translitterointia ei aina pysty varmistamaan. Nämä tietueet on tehty tasolla 3 TäTiin, mutta niitä ei ole siirretty Melindaan. </li>
+ <li>Oltiin yhtä mieltä siitä, että tulevaisuudessa yhteistietokantaan mentäessä paikallisesti kuvaillut ja vain paikalliskannassa olevat tietueet ovat ”riesa”, jos niitä ei ole kuvailtu vähintään formaatin mukaisesti oikein. </li>
+ <li>Tarkempia tietoja, mitä Ranuan Japani-talon entisen kokoelman kuvailun kanssa paikallisesti aiotaan tehdä, ei tällä hetkellä ole tiedossa. Periaatteessa paikallinen kuvailu on luvallista, mutta silti se vaatii ainakin sen, että kuvailu on MARC-formaatin mukaista ja tietueiden kiinteiden kenttien arvojen on oltava oikein. Käytännössä kuvailu olisi helpompaa TäTissä, jossa voisi käyttää vaikkapa kuvailun tasoa 3.</li>
+</ul>
+
+#### 3.	Kuulumisia Kirjastopalvelun asiakasohjausryhmän kokouksesta 21.10.2025 ####
+<ul>
+ <li>Virheiden ilmoittaminen Kirjastopalveluun -> Ilmoitusten joukossa on virheitä, jotka eivät ole olleet Kirjastopalvelun tekemiä. Lisäksi virheilmoituksia teoksista, joita Kirjastopalvelu ei ole edes alun perin kuvaillut, mutta tietueisiin on jostain syystä päätynyt FI-BTJ-tunnus. Nämä johtuvat pääasiassa siitä, että Melinda-tietue sekoittuu Kirjastopalvelun oman tietueen kanssa monin eri tavoin.</li>
+ <li>Ekstranetin (-) -merkintä aiheuttaa yhä hämmennystä kirjastoissa. Jos teoksen status on vuodelta 2023 tai vanhempi, merkintää ei Kirjastopalvelun puolesta voida enää muuttaa. Merkintä ei katoa Ekstranetistä, vaikka sen yhteyteen tulisi tieto siitä, että kuvailua ei tule.</li>
+ <li>Skannausyhteistyö Kirjastopalvelun kanssa: kun Kirjastopalvelu ei saa kuvailtavaa teosta ajoissa, he voivat pyytää skannaamaan puuttuvan teoksen nimiösivun ja sen kääntöpuolen sekä lisäksi kertomaan sivumäärän, kansityypin ja selän korkeuden. Tämä on aluksi kokeilu ainoastaan asiakasohjausryhmään kuuluvien kirjastojen kanssa.</li>
+ <li>Musiikkiaineisto on siirtymässä myös Kuvailu-uudistuksen pariin.</li>
+ <li>Kirjastopalvelussa on meneillään Kanto-integraatio heidän käyttämäänsä Bellfons-järjestelmään. Tämän pitäisi olla valmis vuoden loppuun mennessä. </li>
+ <li>Kirjastopalvelussa oli pohdittu myös tekoälyn käyttöä kuvailutyössä, mutta se ei ole vielä aktiivisessa käytössä. </li>
+ <li>Englanninkielisen musiikkiaineiston saamisessa Kirjastopalvelulta oli ollut huomattava viive ulkomaisten tavaratoimitusten ongelmista johtuen. </li>
+</ul>
+
+#### 4.	Tietueiden aktivoituminen paikalliskannoissa ja valutusongelmat ####
+<ul>
+ <li>Aktivoitumisraporttia muokattu seuraamisen helpottamiseksi: <a href="https://github.com/KohaSuomi/Koha/issues/1756" target="_blank">Ongelmia tietueiden aktivoitumisessa </a> -> Raportilla voidaan hakea tietueet, joilla ei ole aktivoitumisarvoa. Raportti kannattaa hankkia omaan kirjastoon, jos sitä ei ole jo käytettävissä. </li>
+ <li>OUTIssa on ollut 1.4. ja 14.5.2025 paljon ennakkotietueita, jotka eivät ole jostain syystä aktivoituneet. Tämä selittää osaltaan valuneiden tietueiden vähyyden syksyllä. </li>
+ <li>Jotkin valutusongelmat johtuvat myös siitä, että hankintatietueissa ISBN on tallennettu 024a-kenttään 020a-kentän sijaan. Lisäksi paikalliskannassa on välillä myös Melindan ennakkotietueita, jolloin niistä aktivoituu 035-kentän Melinda-ID eikä Kirjastopalvelun tietueet silloin kohtaa niitä. Ei ole varmuutta tulevatko nämä Hankintaportaalin kautta. </li>
+</ul>
+
+#### 5.	Aineistotyyppien korjaukset ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi </a> </li>
+ <li>Osa kimpoista jo korjattu, mikä tilanne lopuissa?</li>
+</ul>
+
+
+#### 6.	Tikettejä ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/1979" target="_blank">Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta </a> -> Lisätty tarkentava kommentti, mutta 003-kentän käyttäytyminen mietittävä </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2042" target="_blank">Lastu: Osakohteiden linkitys rikki useissa äänitteissä </a> -> Syynä AutoControlNumber-järjestelmäasetus, joka tyhjensi 001-kentän tietueen poiminnan yhteydessä. </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2030" target="_blank">942c-kenttä ei päivity, kun pohjaa vaihtaa </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2017" target="_blank">TäTiin MTYPE-ajo käyttäen Finnamaterials-moduulia </a> </li>
+</ul>
+
+#### 7.	Uusia kehitysehdotuksia ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2033" target="_blank">Vanhojen 10-merkkiä pitkien ja uusien 13-merkkiä pitkien isbn-tunnusten täsmäyttäminen </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2036" target="_blank">Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2055" target="_blank">Emottomien osakohteiden listaus käyttöliittymään </a> </li>
+</ul>
+
+#### 8.	Koha-Suomen kuvailukoulutus 3/2025 3.12.2025 Klo 13.00–14.30 ####
+<ul>
+ <li>Aiheena musiikkiaineiston osakohteet </li>
+ <li>Ei tarvitse ilmoittautua erikseen </li>
+ <li>Osallistumislinkki GitHubin tiedotteessa: <a href="https://github.com/KohaSuomi/Koha/discussions/2061" target="_blank">Kuvailukoulutus </a> </li>
+</ul>
+
+#### 9. Seuraava kokous keskiviikkona 10.12 Klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 7/2025 ##
 
 Aika: 8.10.2025 klo 13.15–14.10
