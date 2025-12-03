@@ -46,14 +46,18 @@ Kokous avattiin kello 13.15, puheenjohtajana Antti Heikkinen ja sihteerivuorossa
  <li>Aktivoitumisraporttia muokattu seuraamisen helpottamiseksi: <a href="https://github.com/KohaSuomi/Koha/issues/1756" target="_blank">Ongelmia tietueiden aktivoitumisessa </a> -> Raportilla voidaan hakea tietueet, joilla ei ole aktivoitumisarvoa. Raportti kannattaa hankkia omaan kirjastoon, jos sitä ei ole jo käytettävissä. </li>
  <li>OUTIssa on ollut 1.4. ja 14.5.2025 paljon ennakkotietueita, jotka eivät ole jostain syystä aktivoituneet. Tämä selittää osaltaan valuneiden tietueiden vähyyden syksyllä. </li>
  <li>Jotkin valutusongelmat johtuvat myös siitä, että hankintatietueissa ISBN on tallennettu 024a-kenttään 020a-kentän sijaan. Lisäksi paikalliskannassa on välillä myös Melindan ennakkotietueita, jolloin niistä aktivoituu 035-kentän Melinda-ID eikä Kirjastopalvelun tietueet silloin kohtaa niitä. Ei ole varmuutta tulevatko nämä Hankintaportaalin kautta. </li>
+ <li>Kaikissa paikalliskannoissa välillä tapauksia, jotka eivät ole valuneet, vaikka kaikki pitäisi olla kunnossa.</li>
 </ul>
 
 #### 5.	Aineistotyyppien korjaukset ####
 <ul>
  <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi </a> </li>
  <li>Osa kimpoista jo korjattu, mikä tilanne lopuissa?</li>
+<ul>
+ <li>Lapin listalla olleet Celiat on korjattu paikalliskannassa ja TäTissä. Suureksi osaksi vialliset tietueet olivat vanhoja tai sitten muualta poimittuja. Yleisin ”vika” tietueissa oli entinen merkintätapa, jolla Celioita oli aiemmin kuvailtu.</li>
+ <li>Keskustelttin atlasten ja kirjoina kuvailtujen karttojen tai kartastojen eroista. Jatketaan asiasta seuraavassa kokouksessa.</li>
 </ul>
-
+</ul>
 
 #### 6.	Tikettejä ####
 <ul>
