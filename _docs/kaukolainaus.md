@@ -12,6 +12,13 @@ Koha-config-tiedostoon (koha-conf.xml) pitää kehittäjien lisätä 'branch' bl
 
 Tarviiko lisätä kaikki ne kirjastot, jotka tulee käyttämään moduulia?
 
+## Ohjeiden läpikäynnin tallenteet
+
+Linkit kimppojen pääkäyttäjille pidettyihin ohjeiden läpikäyntien tallenteisiin
+
+* [Käyttöönotto-ohjeet](https://youtube.com/live/D-mYocXXZO0?feature=share)
+* [Käyttöohjeet](https://youtube.com/live/HoDe9Mo9H-8?feature=share)
+
 ## Järjestelmäasetukset
 
 Mene Ylläpito ->  Järjestelmäasetukset -> Kaukolainat
