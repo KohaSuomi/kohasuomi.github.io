@@ -22,7 +22,8 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knu
     * ke 25.2.2026 klo 13
   * [Tiketti #3](https://github.com/KohaSuomi/Koha-25x/issues/3), liian pitkät viivakoodit, voisiko ne uudelleentarroittaa tai poistaa?
     * Pohdittiin, että voidaan mennä myös ihan nykyisillä merkkimäärillä, vaikka se aiheuttaa virheilmoituksen. Viivakoodit voidaan muuttaa Nide-välilehden kautta sitä mukaa kuin on tarve. Tutkitaan myös, voisiko viivakoodit tyhjentää kokonaan tai lyhentää niin, että ne pysyy edelleen tunnistettavina/yksilöityinä.
-  * Versionvaihdon wikin osioden läpikäynti (järjestelmäasetukset, auktorisoidut arvot, käyttäjäoikeudet jne), tallennetaan. 
+  * Versionvaihdon wikin osioden läpikäynti (järjestelmäasetukset, auktorisoidut arvot, käyttäjäoikeudet jne), tallennetaan.
+  * [Tallenne Koha-Suomen Youtube-kanavalla](https://www.youtube.com/live/OtyavpVXHxs?si=Kk8752vQdsxMFghx)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-49) - [Palaa sivun alkuun](/paakayttajat2025)
 
