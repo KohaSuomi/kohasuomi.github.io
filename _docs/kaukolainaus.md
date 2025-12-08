@@ -29,7 +29,7 @@ ILLDefaultStaffEmail |Jätä tyhjäksi|Ei tarpeen
 ILLSendStaffNotices |Jätä tyhjäksi|
 CirclulateILL|Älä salli|Tämä sallii lainaamisen suoraan kaukolainapyynnön kautta ilman että mennään asiakkaan tietoihin ja manuaalisesti luetaan niteen viivakoodi. Tämä luo automaattisesti niteen ja sille viivakoodin. Tämä lisää kaukolainanpyynnön tietoihin näkyville Lainaus-napin, jolloin sen voi lainata ilman varsinaista lainaus-sivulla käymistä. 
 ILLHiddenRequestStatuses |CANCELLED, EXPIRED| Kaukolainastatukset, joita pidetään valmiina, ja joita ei tulisi näyttää kaukolainamoduulissa: (erotetaan putki-merkillä). Jos jätetään tyhjäksi, kaikki kaukolainapyynnöt näytetään. Pyyntökoodit määritetään taustajärjestelmässä ja lisäaliaksia voi määrittää auktorisoidun arvon luokkaan ILL_STATUS_ALIAS.
-ILLModule |Käytä|Tämä on ns. pääkytkin, jolla Kaukolaina-toiminto kytketään päälle ja pois päältä.
+ILLModule |Käytä|Tämä on ns. pääkytkin, jolla Kaukolaina-toiminto kytketään päälle ja pois päältä. Huom! Tämä pitää olla päällä, jotta kirjastoille voi lisätä kaukolaina-osoitteen.
 ILLModuleUnmediated |Älä salli|Vaatii toimiakseen Kohan oma verkkokirjaston (opac)
 ILLPartnerCode|Kaukolainakirjasto-asiakastyyppi|Tämä tuo kaukolainapyynnön lähetykseen näkyville Kaukolainakirjasto-tyyppiset asiakastiedot, joilla on tiedoissaan sähköpostiosoite tallennettuna
 ILLRequestsTabs | <img width="511" height="243" alt="kuva" src="https://github.com/user-attachments/assets/be6f5c99-3ecb-49ac-8a57-4acf5d532d3a" />|Asetuksella voi lisätä välilehtiä, joissa tietyn tilaiset pyynnöt näkyvät. Taulukon alapuolella esimerkkimääritys erillisen otsikon alla.
