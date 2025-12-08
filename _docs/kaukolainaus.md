@@ -653,7 +653,8 @@ Jos kaukolainapyynnöstä muodostuu Kohaan uusi tietue, käytetään siinä auto
 
 Alla on FA-kuvailupohja, jonka voi viedä oman kimpan kuvailupohjiin vientitoiminnolla:
 
-[export_FA.ods](https://github.com/user-attachments/files/22679865/export_FA.ods)
+[export_FA.ods](https://github.com/user-attachments/files/24032161/export_FA.ods)
+
 
 ## Raportit
 
@@ -954,4 +955,5 @@ Nyt kun kaukolainaniteet lisätään Kohaan, niin myöskin palautusautomaatit al
 
 Käyttöönottotyöryhmä koosti käyttöohjeista myös sellaisen version, joka sisältää tarkempaa ja käytännönläheisempää ohjeistusta moduulin käyttäjille. Kyseessä on runko, jonka pohjalta kimpoissa/kirjastoissa voidaan luoda vielä tarkempi ohjeistus juuri omien käyttösääntöjen ja toimintatapojen pohjalta.
 
-[Kaukolainaohjeistus.docx](https://github.com/user-attachments/files/23548887/Kaukolainaohjeistus.docx)
+[Kaukolainaohjeistus.docx](https://github.com/user-attachments/files/24032166/Kaukolainaohjeistus.docx)
+
