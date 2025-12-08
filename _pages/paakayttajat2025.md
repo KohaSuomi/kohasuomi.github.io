@@ -28,6 +28,8 @@ Läsnä:
 * [Joulukuun kuukausihuolto 10.12. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2078)
 * [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/2087)
 * [Suomi.fi-viestien tukiklinikka: Kirkes-kirjastojen sähköiset viestit](https://kehittajille.suomi.fi/tapahtumat/kirkes-kirjastojen-sahkoiset-viestit-suomi-fi)
+* [Kaukolainamoduulin käyttöönotto-ohjeet valmiit](https://koha-suomi.fi/dokumentaatio/kaukolainaus/) ja projektiryhmä ei enää kokoonnu, ellei sille synny tarvetta.
+  * Viimeisessä palaverissa muokattiin FA-kuvailupohjaa ja Kaukolainaohjeistus-tiedostoa, joten jos olette ne jo poimineet itsellenne, käykää noutamassa ne uudelleen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
