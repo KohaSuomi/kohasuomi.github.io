@@ -24,7 +24,9 @@ Läsnä:
     * [Tietuenäytön muutokset](https://github.com/KohaSuomi/Koha-25x/issues/22) - iso osa muutoksista lisätään uudella Record display modification -työkalulla näkyviin
     * [Hakutulosnäytön muutokset](https://github.com/KohaSuomi/Koha/issues/1963) - iso osa muutoksista lisätään uudella Record display modification -työkalulla näkyviin
     * [Testattava: 25711 Move ExpireReservesMaxPickUpDelayCharge to the circulation rules](https://github.com/KohaSuomi/Koha-25x/issues/166) - noutamattoman varauksen maksu nidetyypin ja asiakastyypin mukaan siirtynyt laina- ja maksusääntöihin. Testattava, voimmeko luopua omasta skriptistä.
+    * [Viivakoodin enimmäispituuteen tullut APIssa rajoitus + muuta](https://github.com/KohaSuomi/Koha-25x/issues/3) - yli 20-merkkiset niteiden viivakoodit
 * [Joulukuun kuukausihuolto 10.12. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2078)
+* [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/2087)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
