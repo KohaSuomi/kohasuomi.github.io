@@ -30,6 +30,8 @@ Läsnä: Pasi, Anneli, Johanna, Ari, Emmi, Lari
   * 5 Kommentoitu
   * 2 Siirretään
   * 100 avointa
+  * Sovittiin, että kaikki käyvät vielä läpi omat tikettinsä, joiden tilana on No status. Jatketaan tilannekatsausta huomisen pikapalaverissa.
+* Vko 50 päivitys  
 
 ## Viikko 49
 
