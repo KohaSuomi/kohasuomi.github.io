@@ -18,6 +18,12 @@ Läsnä:
 **Yhteiset**
 * Versionvaihto
   * [Versionvaihdon tiedote 2/2025: Version 25.05 esittely 25.2.2026 klo 13](https://github.com/KohaSuomi/Koha/discussions/2085) -tiedote julkaistu
+  * Tammikuussa tarkoitus päästää isommat joukot testaajia nexteille
+  * Testattavia tällä hetkellä 54 kpl eli jos vain teillä on aikaa käyttää testaukseen, niin mahdollisimman moni tiketti olisi hyvä saada testattua ennen kuin nexteille päästetään muita.
+  * Tiketit, joita/hin kaikkien pitää testata/reagoida:
+    * [Tietuenäytön muutokset](https://github.com/KohaSuomi/Koha-25x/issues/22) - iso osa muutoksista lisätään uudella Record display modification -työkalulla näkyviin
+    * [Hakutulosnäytön muutokset](https://github.com/KohaSuomi/Koha/issues/1963) - iso osa muutoksista lisätään uudella Record display modification -työkalulla näkyviin
+    * [Testattava: 25711 Move ExpireReservesMaxPickUpDelayCharge to the circulation rules](https://github.com/KohaSuomi/Koha-25x/issues/166) - noutamattoman varauksen maksu nidetyypin ja asiakastyypin mukaan siirtynyt laina- ja maksusääntöihin. Testattava, voimmeko luopua omasta skriptistä.
 * [Joulukuun kuukausihuolto 10.12. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2078)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
