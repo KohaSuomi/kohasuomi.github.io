@@ -62,6 +62,20 @@ Piilottaa asiakastiedon automaattisen ehdotuksen kaukolainapyyntöä tehdessä
 #illrequests.ill ul#ui-id-1 li.ui-menu-item { display: none; } 
 ```
 
+```
+/* Piilota uusi kaukolainapyyntö-lomakkeen tyyppi-valikosta muut vaihtoehdot kuin kirja ja lehtiartikkeli */
+body#illrequests select#type option[value="chapter"],
+body#illrequests select#type option[value="journal"],
+body#illrequests select#type option[value="thesis"],
+body#illrequests select#type option[value="conference"],
+body#illrequests select#type option[value="dvd"],
+body#illrequests select#type option[value="other"],
+body#illrequests select#type option[value="resource"]
+{
+    display: none;
+}
+```
+
 **Poista** alla oleva rimpsu asetuksesta, koska Kaukolainaajat tarvitsevat näkyville Lainaus ja palautus -sivulle Myöhässä-raportin.
 
 ```
@@ -103,6 +117,24 @@ $(document).ready(function() {
 });
 ```
 
+Jos haluaa lisätä enemmän lisäkenttiä, niin ole yhteydessä Koha-Suomeen.
+```
+/* Lisää uusi kaukolainapyyntö-lomakkeelle automaattisesti kaksi lisäkenttää */
+$(document).ready(function() {
+    if ( "body#illrequests" ){
+        if ($('input[name="custom_key"]').length < 2) {
+            $('#add-new-fields').click();
+            setTimeout(function() {
+                $('#add-new-fields').click();
+                setTimeout(function() {
+                    $('input[name="custom_key"]').eq(0).val('Lähettävä kirjasto');
+                    $('input[name="custom_key"]').eq(1).val('Tarvitaan viimeistään');
+                }, 100);
+            }, 100);
+        }
+    }
+});
+```
 
 ## Kirjastojen tiedot
 
