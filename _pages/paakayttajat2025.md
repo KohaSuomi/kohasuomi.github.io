@@ -27,6 +27,7 @@ Läsnä:
     * [Viivakoodin enimmäispituuteen tullut APIssa rajoitus + muuta](https://github.com/KohaSuomi/Koha-25x/issues/3) - yli 20-merkkiset niteiden viivakoodit
 * [Joulukuun kuukausihuolto 10.12. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2078)
 * [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/2087)
+* [Suomi.fi-viestien tukiklinikka: Kirkes-kirjastojen sähköiset viestit](https://kehittajille.suomi.fi/tapahtumat/kirkes-kirjastojen-sahkoiset-viestit-suomi-fi)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
