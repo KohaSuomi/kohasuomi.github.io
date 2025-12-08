@@ -21,6 +21,15 @@ Läsnä:
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Versionvaihdon tilannekatsaus
+  * Suuremmat joukot testaajia tarkoitus päästää valloilleen nexteillä tammikuussa
+  * 22 tikettiä No status -tilassa
+  * 8 Odottaa
+  * 54 Testatavana
+  * 7 Työn alla
+  * 5 Kommentoitu
+  * 2 Siirretään
+  * 100 avointa
 
 ## Viikko 49
 
