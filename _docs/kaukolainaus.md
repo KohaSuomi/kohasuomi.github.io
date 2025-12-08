@@ -41,6 +41,7 @@ ILLHistoryCheck |Älä tarkista|Kimpassa voidaan tarvittaessa laittaa tämä pä
 ILLModuleDisclaimerByType|Jätä tyhjäksi|
 ILLOpacbackends |Jätä tyhjäksi|Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
 ILLOpacUnauthenticatedRequest | Älä salli | Vaatisi toimiakseen Kohan oman verkkokirjaston (opacin)
+IllLog| Älä kerää lokia |Tämä kerää lokitietoja, jonka saa näkyviin Kaukolainapyynnön loki -napilla. Ei suositella laitettavaksi päälle kuin ongelmatilanteita selvitettäessä.
 
 ### ILLRequestsTabs
 
