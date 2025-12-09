@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * Versionvaihto
@@ -30,6 +30,8 @@ Läsnä:
 * [Suomi.fi-viestien tukiklinikka: Kirkes-kirjastojen sähköiset viestit](https://kehittajille.suomi.fi/tapahtumat/kirkes-kirjastojen-sahkoiset-viestit-suomi-fi)
 * [Kaukolainamoduulin käyttöönotto-ohjeet valmiit](https://koha-suomi.fi/dokumentaatio/kaukolainaus/) ja projektiryhmä ei enää kokoonnu, ellei sille synny tarvetta.
   * Viimeisessä palaverissa muokattiin FA-kuvailupohjaa ja Kaukolainaohjeistus-tiedostoa, joten jos olette ne jo poimineet itsellenne, käykää noutamassa ne uudelleen.
+
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
