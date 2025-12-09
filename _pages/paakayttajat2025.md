@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * Versionvaihto
@@ -32,6 +32,11 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
   * Viimeisessä palaverissa muokattiin FA-kuvailupohjaa ja Kaukolainaohjeistus-tiedostoa, joten jos olette ne jo poimineet itsellenne, käykää noutamassa ne uudelleen.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Koska noutamattoman varauksen maksun käsittely muuttuu uudessa versiossa, jouduttiin tekemään lapsiasiakkaille laina- ja maksusäännöt, joita ei ennestään ollut. Kodo auttoi taulujen muokkauksessa nextille, kun olin tehnyt oletuspohjaan valmiit säännöt lapsiasiakkaille. Sen jälkeen oli paljon helpompaa korjata tarvittavat noutoajat eri tauluihin, kun ei tarvinnut koko riviä luoda uudelleen.
+* Viivakoodin enimmäispituuteen tuleva rajoitus toi pähkäiltävää, koska Vaarassa niitä on yli 11000 kpl. Tein tiketin #2086, jonka mukaan nykyinen viivakoodi siirretään nidetunnus-kenttään, josta se on haettavissa. Sen jälkeen niteen viivakoodista poistetaan lopusta kirjastotunnus, jonka jälkeen pituus on alle rajoituksen (20 merkkiä)
+* Kaukolainamoduulin testausta ja tarvittavien asetusten ja käytäntöjen suunnittelua kaukopalvelun työntekijöiden kanssa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
