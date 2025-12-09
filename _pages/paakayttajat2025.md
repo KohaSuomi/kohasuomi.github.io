@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * Versionvaihto
