@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Versionvaihto
