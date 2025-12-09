@@ -43,6 +43,12 @@ Etelästä pohjoiseen
 * Kuvailijat kysyneet, saisiko Yleiseen huomautukseen pudotusvalikon, kuten kokoelmakoodissa on.
 * Finnassa varaaminen ei ole onnistunut nimekkeeseen, jossa on ei-lainattavia niteitä, ks. Elinan Matrix-viesti.
 
+**OUTI**
+* Ohjeistettu kimpassa, miten toimia, jos asiakaspalvelutietokone varastetaan. Samalla ohjeistettiin ja muistutettiin, kuinka selainasetukset tulee olla työasemilla, jotta selaimen välimuistiin ja historiatietoihin ei tallennu käyttäjä- ja asiakastietoja.
+* Oulun nuorten Byströmin Ohjaamon kirjasto ajetaan alas vuoden 2026 alussa. Ohjaamo muuttaa väistötiloihin sisäilmaongelmien vuoksi ja koko aineisto joudutaan poistamaan. Lainassa olevien niteiden nidetyypiksi on muutettu ”Ei lainata”, joka estää lainojen uusimisen ja saatavana oleville niteille on laitettu tilakoodiksi ”Ei lainattavissa”. Vuoden alkupuolella poistetaan koko kokoelma niteiden eräpoistolla.
+* Oulun kaupunginkirjaston aineistojen kotikirjastomuutos suunnitteilla tehtäväksi alku vuodesta eli Ruskon kirjavarastossa (OUPK) olevalle aineistolle muutetaan kotikirjastoksi Oulun keskustakirjasto Saari (OUSA), lukuunottamatta lehti- ja varastoaineistoja sekä esineitä, joiden kotikirjastomuutokset pääkäyttäjät tekevät erikseen. Jatkossa kaikki uutuusaineisto tilantaan keskustakirjasto Saarelle, joten Saarelle tehdään oma budjetti, tilit ja ostoskorit.
+* Jokin aika saimme palautetta, että Finnassa on musiikkiaineiston osakohteet väärällä teoksella (https://outi.finna.fi/Record/outi.468710?sid=5185443791#componentparts). Osakohteet löytyvät kyllä myös oikeasta teoksesta (https://outi.finna.fi/Record/outi.1022803#componentparts). Ilmeisesti tämä on yksittäistapaus, koska muita vastaavia virehitä ei ole tullut esille. Kohassa tätä virhettä ei ole. Finna-tuesta on tullut 8.12. tieto, että OUTIn aineisto on laitettu uudestaan haravoitumaan. Ainakaan vielä virhe ei ole korjaantunut. 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 49
