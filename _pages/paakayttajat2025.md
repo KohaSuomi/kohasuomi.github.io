@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Versionvaihto
@@ -51,6 +51,9 @@ Etelästä pohjoiseen
 
 **SIILINJÄRVI**
 * Ei mainittavaa
+
+**Kyyti**
+* Kyytissä halutaan lapset pois poistoajosta. Sovittiin, että kommentoidaan tikettiin [1877](https://github.com/KohaSuomi/Koha/issues/1877)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
