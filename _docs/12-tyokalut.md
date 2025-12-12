@@ -318,7 +318,7 @@ Taulukon yläpuolelle tulee tieto, kuinka monta varausta muokattiin. Taulukon al
 
 ### 12.7.3 Varausten muokkaus raporttien kautta
 
-Ei toimi vielä. 
+Varauksien viennissä työkaluun raporttien kautta on ongelma, joka rajoittaa kerralla vietävien varausten määrän reiluun 200 varaukseen kerrallaan.
 
 Voit viedä varauksia varausten muokkaukseen eräajona myös raporttien kautta, jos raportin tuloksissa on mukana reserve_id-arvo eli varauksen tunnus varaustaulussa. Tämä voi olla tarpeen esimerkiksi silloin, kun halutaan muokata yhden kuvailutietueen kaikkia varauksia kerralla. Raportin tulosten yläpuolelle tulee näkyville _Eräkäsittele x näkyvillä olevaa riviä_, josta voit valita _Varausten muokkaus eräajona_ -vaihtoehdon.
 
