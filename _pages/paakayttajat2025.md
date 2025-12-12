@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2025'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 51
+
+Aika: Ti 16.12.2025 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [API-avainten ja integraatioille luotujen sertifikaattien säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-51) - [Palaa sivun alkuun](/paakayttajat2025)
+
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
