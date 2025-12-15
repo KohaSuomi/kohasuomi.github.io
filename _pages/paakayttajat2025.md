@@ -18,6 +18,7 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
 * [Viikon 51 päivitys](https://github.com/KohaSuomi/Koha/discussions/2100)
+* Toimintalokien ja tilastodatan säilytys (Kodo)
 
 Pohjoisesta etelään
 
