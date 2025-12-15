@@ -13,10 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
+* [Viikon 51 päivitys](https://github.com/KohaSuomi/Koha/discussions/2100)
 
 Pohjoisesta etelään
 
