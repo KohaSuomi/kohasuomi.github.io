@@ -16,7 +16,7 @@ Aika: Ti 16.12.2025 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* [API-avainten ja integraatioille luotujen sertifikaattien säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
+* [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
 
 Pohjoisesta etelään
 
