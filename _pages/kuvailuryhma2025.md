@@ -108,7 +108,7 @@ Todettiin tarpeellisiksi. Päivi tekee molemmat.
  <li>Onko tiedossa vielä, kuka edustaa Kirkestä ensi vuoden alkupuoliskolla Suvin sijaisena? -> Ei vielä tiedossa.</li>
 </ul>
 
-#### 11.	Seuraava kokous keskiviikkona 14.1. 2026 klo 13.15–14.45 ####
+#### 11. Seuraava kokous keskiviikkona 14.1.2026 klo 13.15–14.45 ####
 
 
 ---
