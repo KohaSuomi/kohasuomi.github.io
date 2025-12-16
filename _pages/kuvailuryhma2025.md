@@ -67,7 +67,7 @@ Edellisten lisäksi kokous kehotti erityiseen valppauteen tietueita yhdisteltäe
  <li>Finto: <a href="https://finto.fi/yso/fi/new" target="_blank">Uudet ja poistetut </a> </li>
  <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> -> Automatiikassa oli virhe, jonka takia korjauksia ei ole päivittynyt kaikkiin tietueisiin. Korjausajo 8.12. Onko toiminut? <p> - Korjausajo toiminut ilmeisesti hyvin ainakin OUTIssa ja TäTissä. Kaikki eivät ole ehtineet vielä tarkastella korjauksia.</p> </li>
  <li>Seurattava tuleeko ristiriitoja TäTissä olevin Melinda-tietueiden kanssa, jos Melindan korjaukset tapahtuvat vasta myöhemmin. Melindassa ei ole säännöllisiä korjausajoja Finto-muutoksille. </li>
- <li>Joillekin termeille on useampia oikeita vaihtoehtoja. Tutkittava, seuraako tästä jonknlaisia ongelmia.</li>
+ <li>Joillekin termeille on useampia oikeita vaihtoehtoja. Tutkittava, seuraako tästä jonkinlaisia ongelmia.</li>
 </ul>
 
 #### 7.	Kuvailukoulutukset ####
