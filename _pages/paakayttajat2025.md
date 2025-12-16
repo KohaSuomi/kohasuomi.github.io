@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
@@ -29,6 +29,10 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 **Vaara**
 * Puppe otettu eilen käyttöön Joensuussa
 * kaukopalvelumoduulin ja tikettien testausta
+
+**Kirkes**
+* Elina havainnut, että not for loan -tilan poistuminen ei lokitu, kun se poistuu updatenotforloanstatusoncheckout-järjestelmäasetuksen mukaan lainattaessa. Tehdään tikeetti yhteisöön.
+* Kerava ottaa Pupen käyttöön vuoden 2026 alusta. 
   
 Pohjoisesta etelään
 
