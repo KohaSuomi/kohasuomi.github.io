@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
@@ -34,6 +34,10 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 * Elina havainnut, että not for loan -tilan poistuminen ei lokitu, kun se poistuu updatenotforloanstatusoncheckout-järjestelmäasetuksen mukaan lainattaessa. Tehdään tiketti yhteisöön.
 * Kerava ottaa Pupen käyttöön vuoden 2026 alusta.
 * Tuusulassa ihmetelty aikakauslehtiä, joilta puuttuu korvaushinta. Erika muistuttaa henkilökuntaa siitä, että korvaushintakenttään tulee piste pilkun sijasta. Jos korvaushinnattomia ilmenee silti edelleen, tutkitaan, liittyykö toiseen bugiin.
+
+**Siilinjärvi**
+* Kaukopalvelumoduulin käyttöönotosta keskusteltu, vaikka Varastokirjaston maksupolitiikka mietityttää
+* Muutoin ei mainittavaa
   
 Pohjoisesta etelään
 
