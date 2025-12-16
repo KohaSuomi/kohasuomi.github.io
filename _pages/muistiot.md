@@ -93,8 +93,7 @@ Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päätt
 
 ### KaTi-työryhmän muistiot
 
-[KaTi-työryhmän muistio #1 9.12.2025](/Kati1)
-[KaTi-työryhmän muistio #2 16.12.2025](/Kati2)
+[KaTi-työryhmän muistiot](/Kati)
 
 ## Yhtiökokous
 
