@@ -129,6 +129,6 @@ Läsnä: Antti Heikkinen, Kodo Korkalo, Marjukka Laapotti, Kati Sillgren, Timo T
      - Myös muita rajoituksia on olemassa, esimerkiksi jos ACQ-pohja on käytössä, ei kiinteämittaisia kenttiä pysty muuttamaan value builderien kautta. Kenttään voi kuitenkin kirjoittaa suoraan
      - Rajoitteet voitanee kuitenkin huomoida kuvailupohjan suunnittelussa.
 
-### Seuraava palaveri
+### Seuraava kokous
 
 - Tiistai 16.12. klo 14.
