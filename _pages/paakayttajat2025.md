@@ -74,7 +74,7 @@ Etelästä pohjoiseen
 ## Viikko 49
 
 Aika: Ti 2.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Uusi ohje: [Miten toimia, jos asiakaspalvelutietokone varastetaan.](https://koha-suomi.fi/dokumentaatio/ty%C3%B6asemavarkaus/)
@@ -91,7 +91,7 @@ Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knu
 ## Viikko 48
 
 Aika: Ti 25.11.2025 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Erika Miettinen (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman, Pasi Kallinen ja Emmi Takkinen (Koha-Suomi), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Erika Miettinen (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Sanasto on lähestynyt Koha-Suomea aiheella, miten he saisivat tiedon kirjaston tilaisuuksissa esitetyistä teoksista (lukutuokiot yms.). Helsingissä on toteutettu asia [puitesopimuksella](https://www.sanasto.fi/helsingin-kaupunginkirjasto-ja-sanasto-sopivat-jatkuvasta-esitysluvasta-lukutuokioille/), jossa henkilökunta rekisteröi luetut teokset kirjastojärjestelmässä ja sen perusteella kirjasto sitten raportoi säännöllisesti käytön Sanastolle. Tästä on aloitettu keskustelut Sanaston ja Koha-Suomen välillä.
@@ -138,7 +138,7 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Päiv
 ## Viikko 46
 
 Aika: Ti 11.11.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi, Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Maria Joona, Pia Kusmin (Lappi), Iina Niemi (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Versionvaihto  
