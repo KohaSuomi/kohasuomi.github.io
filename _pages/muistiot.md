@@ -91,6 +91,11 @@ Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päätt
 
 [Koha-Suomen kuvailuryhmän 2023 muistiot](/kuvailuryhma2023)
 
+### KaTi-työryhmän muistiot
+
+[KaTi-työryhmän muistio #1 9.12.2025](/Kati1)
+[KaTi-työryhmän muistio #2 16.12.2025](/Kati2)
+
 ## Yhtiökokous
 
 Koha-Suomen yhtiökokous kokoontuu kerran vuodessa.
