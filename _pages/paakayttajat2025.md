@@ -31,7 +31,7 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 * kaukopalvelumoduulin ja tikettien testausta
 
 **Kirkes**
-* Elina havainnut, että not for loan -tilan poistuminen ei lokitu, kun se poistuu updatenotforloanstatusoncheckout-järjestelmäasetuksen mukaan lainattaessa. Tehdään tikeetti yhteisöön.
+* Elina havainnut, että not for loan -tilan poistuminen ei lokitu, kun se poistuu updatenotforloanstatusoncheckout-järjestelmäasetuksen mukaan lainattaessa. Tehdään tiketti yhteisöön.
 * Kerava ottaa Pupen käyttöön vuoden 2026 alusta.
 * Tuusulassa ihmetelty aikakauslehtiä, joilta puuttuu korvaushinta. Erika muistuttaa henkilökuntaa siitä, että korvaushintakenttään tulee piste pilkun sijasta. Jos korvaushinnattomia ilmenee silti edelleen, tutkitaan, liittyykö toiseen bugiin.
   
