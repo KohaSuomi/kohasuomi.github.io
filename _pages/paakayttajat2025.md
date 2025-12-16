@@ -13,13 +13,20 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
 * [Viikon 51 päivitys](https://github.com/KohaSuomi/Koha/discussions/2100)
 * Toimintalokien ja tilastodatan säilytys (Kodo)
 
+**Lappi**
+* Kohan käyttäjätunnusten puolivuositarkistus johtajilla työn alla
+* Kimpan jory päätti ottaa suomi.fi -viestit käyttöön kesäkuuhun 2026 mennessä. 
+* Kimpan jory päätti, että uusi kirjastokortti rikkoutuneen tai kadonneen tilalle on palvelu ja siten alviton. Näin saatiin lisättyä kortin hinta lisättäviin maksuihin ja verkossa maksettavaksi. 
+* Jos asiakashaku ei löydä asiakkaita, ilmoitus "vastaavia tietueita ei löytynyt" on hämäävä. Selvempi vastaus olisi parempi, mutta kyseistä fraasia ei Annelin mukaan ole helppo vaihtaa.
+
+  
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-51) - [Palaa sivun alkuun](/paakayttajat2025)
