@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
@@ -26,6 +26,9 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 * Kimpan jory päätti, että uusi kirjastokortti rikkoutuneen tai kadonneen tilalle on palvelu ja siten alviton. Näin saatiin lisättyä kortin hinta lisättäviin maksuihin ja verkossa maksettavaksi. 
 * Jos asiakashaku ei löydä asiakkaita, ilmoitus "vastaavia tietueita ei löytynyt" on hämäävä. Selvempi vastaus olisi parempi, mutta kyseistä fraasia ei Annelin mukaan ole helppo vaihtaa.
 
+**Vaara**
+* Puppe otettu eilen käyttöön Joensuussa
+* kaukopalvelumoduulin ja tikettien testausta
   
 Pohjoisesta etelään
 
