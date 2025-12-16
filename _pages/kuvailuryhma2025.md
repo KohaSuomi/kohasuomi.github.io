@@ -56,7 +56,7 @@ Edellisten lisäksi kokous kehotti erityiseen valppauteen tietueita yhdisteltäe
 
 #### 5.	Suomenkielisten asiasanojen lisäys ruotsinkielisessä kaunokirjallisuudessa ####
 <ul>
- <li>Kirjastopalvelun tietueet kannattaisi viedä Melindaan tai yhdistää Melinda-tietueen kanssa, jotta mahdolliset Kirjastopalvelun korjaustietueet eivät kirjoita niiden yli.
+ <li>Kirjastopalvelun tietueet kannattaisi viedä Melindaan tai yhdistää Melinda-tietueen kanssa, jotta mahdolliset Kirjastopalvelun korjaustietueet eivät kirjoita niiden yli.</li>
  <li>Kokouksessa tuli tieto, että Piki-kirjastot muuttavat Kirjastopalvelun tietueiden ruotsinkielisen kuvailun suomenkieliseksi ja vievät tietueet Melindaan vasta sitten. Tästä tulee ongelmia, jos haluaa yhdistää ruotsiksi kuvaillun TäTi- tietueen Melinda-tietueen kanssa. Melinda-ohjeiden mukaan 1. kuvailija päättää kuvailukielen, poikkeuksena Kansalliskirjaston oikeus muuttaa suomenruotsalaisen aineiston kohdalla kuvailukieleksi suomi. Anna kysyy Tampereelta asiaa. Jos ruotsinkielisten TäTi- ja Melinda-tietueiden kuvailukielet ovat erit, niitä ei toistaiseksi kannata lähteä yhdisteleämään. Jos Melindassa on pelkkä ennakkotietue tai ei ollenkaan vielä tietuetta, niin sitten ongelmia ei pitäisi olla.</li>
  <li>Keskusteltiin suomenkielisten asiasanojen tarpeellisuudesta ruotsinkielisessä aineistossa. Osalle kimpoista ne ovat tärkeät, osalle ei. Kehotettiin sietämään kieliongelmia tulevan Kati-tietokannan vuoksi.</li>
 </ul>
