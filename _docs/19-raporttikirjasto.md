@@ -1671,6 +1671,25 @@ AND i.itemnumber IS NULL
 AND bi.itemtype like <<Valitse aineistolaji|mtype:all>>
 ```
 
+### Niteettömät nimekkeet, versio 2
+
+Raportilla voi hakea ne nimekkeet, joissa ei ole niteitä. Osakohteet eivät tule mukaan tuloksiin. Raporttia ajaessa voi valita useamman aineistotyypin valikosta. 
+
+Lisätty: 16.12.2025<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
+bi.itemtype AS 'Aineistotyyppi', b.biblionumber
+from biblio b
+LEFT JOIN items i ON b.biblionumber = i.biblionumber
+LEFT JOIN biblioitems bi ON bi.biblionumber = b.biblionumber
+LEFT JOIN biblio_metadata bm ON bm.biblionumber = b.biblionumber
+WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
+AND i.itemnumber IS NULL
+AND bi.itemtype IN <<Valitse aineistolaji|mtype:in>>
+```
+
 ### Weeding tool
 
 "Weeding toolilla" voi tutkia esim. nollalainoja kirjaston, aineistolajin, hyllypaikan mukaan. Tehty Koha Reports Libraryn raportin pohjalta. 
