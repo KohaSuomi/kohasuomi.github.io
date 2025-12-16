@@ -1,3 +1,14 @@
+---
+layout: single
+permalink: /kati1
+hidden: true
+header:
+  overlay_color: '#5e616c'
+  overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
+toc: true
+title: 'KaTi yhteistietokanta'
+---
+
 # KaTi 16.12. klo 14-15
 
 Läsnä: Antti Heikkinen, Suvi Kauranen, Leena Kinnunen, Kodo Korkalo, Marjukka Laapotti, Kati Sillgren, Timo Torvinen, Anna Viitanen, Anneli Österman
