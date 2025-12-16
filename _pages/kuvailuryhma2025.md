@@ -9,6 +9,109 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2025'
 ---
 
 
+## Kuvailuryhmän muistio 9/2025 ##
+
+Aika: 10.12.2025 klo 13.15–14.52
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Pasi Hynninen.
+
+#### 2.	Aineistotyyppien korjaukset ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi </a> </li>
+ <li>Osa kimpoista jo korjattu, mikä tilanne lopuissa? </li>
+<ul>
+ <li>Lappi – Celiat tehty, muut eivät vielä. Ehkä tammikuussa?</li>
+ <li>Lumme – Vähän vielä kesken.</li>
+ <li>Helle – Keskeneräiset.</li>
+ <li>Siili – Ei tietoa, Anneli selvittelee.</li>
+</ul>
+ <li>Kiinteiden kenttien arvot ennakkotietueissa ja muussa erikoisemmassa aineistossa -> Päätettiin järjestää koulutusta kts. kohta 7. </li>
+</ul>
+
+#### 3.	TäTin YKL-luokkamuutokset ####
+Vaskissa olisi tarvetta tehdä massamuutoksena luokkakorjausajoja ainakin somalin-, turkin- ja ukrainankielisiin kaunokirjoihin. Tämän takia olisi järkevää ajaa korjaukset ensin TäTiin tarvittaville tietueille.
+
+<ul>
+ <li>Kimpat näyttivät vihreää valoa korjauksille. Anna korjaa/muuttaa TäTiin.</li>
+ <li>Keskusteltiin, että pääkäyttäjät voisivat myöntää tarvittaessa TäTi-kuvailijoille oikeuksia laajemmin tietueiden muokkaus eräajona -toimintoon ja MARC-muokkauksen pohjiin. </li>
+</ul>
+
+#### 4.	Kirjastopalvelun ja Melinda-tietueiden yhdistäminen ####
+<ul>
+ <li>Luokkamuutosten seuranta ja ilmoittaminen, jos pääluokka oikeasti muuttuu </li>
+ <li>ks. <a href="https://www.kiwi.fi/download/attachments/59937473/Muistio_Sisallonkuvailun_asiantuntijaryhma_etakokous_13112025.pdf?version=1&modificationDate=1764594999536&api=v2" target="_blank">Siskun muistio 13.11.2025 </a> Kohta 9 Ennakkotietojen 084-kenttä / ennakkoluokka </li>
+</ul>
+
+Edellisten lisäksi kokous kehotti erityiseen valppauteen tietueita yhdisteltäessä Kirjastopalvelun ja Melindan tietueiden eroavuuksien takia. 
+
+<p>Todettiin, että jos jollakulla on kiire tuoda Melindasta tietue paikalliskantaan, vaikka se olisi myöhemmin tulossa Kirjastopalvelusta, niin olisi syytä poistaa Melinda-tietueesta ainakin 035-kenttä valumisen mahdollistamiseksi.</p>
+
+<p>Melinda-tietueet kuormittavat tietuesiirtäjän raporttia, koska tietueisiin tulee niin paljon aikaleimamuutoksia Melindassa massakorjausten ja muiden kirjastojen LOW-tagin lisäämisten takia. </p>
+
+#### 5.	Suomenkielisten asiasanojen lisäys ruotsinkielisessä kaunokirjallisuudessa ####
+<ul>
+ <li>Kirjastopalvelun tietueet kannattaisi viedä Melindaan tai yhdistää Melinda-tietueen kanssa, jotta mahdolliset Kirjastopalvelun korjaustietueet eivät kirjoita niiden yli.
+ <li>Kokouksessa tuli tieto, että Piki-kirjastot muuttavat Kirjastopalvelun tietueiden ruotsinkielisen kuvailun suomenkieliseksi ja vievät tietueet Melindaan vasta sitten. Tästä tulee ongelmia, jos haluaa yhdistää ruotsiksi kuvaillun TäTi- tietueen Melinda-tietueen kanssa. Melinda-ohjeiden mukaan 1. kuvailija päättää kuvailukielen, poikkeuksena Kansalliskirjaston oikeus muuttaa suomenruotsalaisen aineiston kohdalla kuvailukieleksi suomi. Anna kysyy Tampereelta asiaa. Jos ruotsinkielisten TäTi- ja Melinda-tietueiden kuvailukielet ovat erit, niitä ei toistaiseksi kannata lähteä yhdisteleämään. Jos Melindassa on pelkkä ennakkotietue tai ei ollenkaan vielä tietuetta, niin sitten ongelmia ei pitäisi olla.</li>
+ <li>Keskusteltiin suomenkielisten asiasanojen tarpeellisuudesta ruotsinkielisessä aineistossa. Osalle kimpoista ne ovat tärkeät, osalle ei. Kehotettiin sietämään kieliongelmia tulevan Kati-tietokannan vuoksi.</li>
+</ul>
+
+#### 6.	Finton sanastomuutosten seuranta ####
+<ul>
+ <li>Kiwi: <a href="https://www.kiwi.fi/spaces/Finto/pages/186484570/YSOn+muutokset" target="_blank">YSOn muutokset </a> </li>
+ <li>Finto: <a href="https://finto.fi/yso/fi/new" target="_blank">Uudet ja poistetut </a> </li>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> -> Automatiikassa oli virhe, jonka takia korjauksia ei ole päivittynyt kaikkiin tietueisiin. Korjausajo 8.12. Onko toiminut? <p> - Korjausajo toiminut ilmeisesti hyvin ainakin OUTIssa ja TäTissä. Kaikki eivät ole ehtineet vielä tarkastella korjauksia.</p> </li>
+ <li>Seurattava tuleeko ristiriitoja TäTissä olevin Melinda-tietueiden kanssa, jos Melindan korjaukset tapahtuvat vasta myöhemmin. Melindassa ei ole säännöllisiä korjausajoja Finto-muutoksille. </li>
+ <li>Joillekin termeille on useampia oikeita vaihtoehtoja. Tutkittava, seuraako tästä jonknlaisia ongelmia.</li>
+</ul>
+
+#### 7.	Kuvailukoulutukset ####
+<ul>
+ <li>Palautetta kuvailukoulutuksesta 3/2025 Musiikin osakohteet </li>
+
+<p>- Kehuja tullut koulutuksesta. Osallistujia paikan päällä 50.</p>
+
+ <li>Lisäkoulutusehdotuksia: </li>
+<ul>
+ <li>Elokuvien kuvailu </li>
+ <li>TäTi- ja Melinda-tietueiden yhdistäminen </li>
+ <li>Kiinteät kentät </li>
+ <li>Tietueiden erämuokkaus ja muokkauspohjat </li>
+</ul>
+</ul>
+
+#### 8.	TäTin toiminnoista ####
+<ul>
+ <li>TäTiin linkki Tietuesiirtäjän wikiin tai suoraan virhetilanteisiin Kuvailijoille-valikkoon yläriviin? </li>
+ <li>Tarvitaanko TäTin fasetteihin hakurajusta YKL kaunoluokat ja YKL tietoluokat? </li>
+</ul>
+
+Todettiin tarpeellisiksi. Päivi tekee molemmat.
+
+#### 9.	Tikettejä ####
+<ul>
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2033" target="_blank">Vanhojen 10-merkkiä pitkien ja uusien 13-merkkiä pitkien isbn-tunnusten täsmäyttäminen </a> </li>
+ -> Tiketti hyväksytty. Toteutus loppuvuosi 2026.
+ <li><a href="https://github.com/KohaSuomi/Koha/issues/2055" target="_blank">Emottomien osakohteiden listaus käyttöliittymään </a> </li>
+</ul>
+
+#### 10. Muita asioita ####
+<ul>
+ <li>KaTi-työryhmän ensimmäinen kokous 9.12. Seuraava kokous onkin jo 16.12.2025. </li>
+ <li>Kirjastopalvelun tietuepaketeissa on ollut taas ISBD-muotoisia tietueita. Heidän IT-osastonsa selvittelee tilannetta. Muistakaa vastata asiakastyytyväisyyskyselyyn 17.12. mennessä. </li>
+ <li>Ensi vuodelle ehkä pohdittavaksi TäTin tuplatietueiden poistotalkoot: Jaetaan käsiteltävät/poistettavat tuplat tasan kaikkien TäTi-kuvailijoiden kesken. </li>
+ <li>Onko tiedossa vielä, kuka edustaa Kirkestä ensi vuoden alkupuoliskolla Suvin sijaisena? -> Ei vielä tiedossa.</li>
+</ul>
+
+#### 11.	Seuraava kokous keskiviikkona 14.1. 2026 klo 13.15–14.45 ####
+
+
+---
 ## Kuvailuryhmän muistio 8/2025 ##
 
 Aika: 12.11.2025 klo 13.15–14.00
