@@ -91,7 +91,7 @@ Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päätt
 
 [Koha-Suomen kuvailuryhmän 2023 muistiot](/kuvailuryhma2023)
 
-### KaTi-työryhmän muistiot
+## KaTi-työryhmän muistiot
 
 [KaTi-työryhmän muistiot](/kati)
 
