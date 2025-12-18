@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
+* [KaTi-työryhmän muistiot](https://koha-suomi.fi/kati)
+  * Vähän muokattu versio [Niteettömät nimekkeet](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteett%C3%B6m%C3%A4t-nimekkeet-versio-2) -raportista. Sitä voi käyttää apuna, kun tutkitte, minkälaisia tarkoituksellisesti niteettömiä nimekkeitä kimpoissa on.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
