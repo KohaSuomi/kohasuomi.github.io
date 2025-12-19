@@ -17,7 +17,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Esityslista 1/2026
 
-Aika: Ke 15.1.2026 klo 13<br />
+Aika: Torstai 15.1.2026 klo 13<br />
 Läsnä:
 
 ### 1. Ajankohtaiset asiat
@@ -29,6 +29,6 @@ Läsnä:
 * [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista #2075](https://github.com/KohaSuomi/Koha/issues/2075)
 * [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois #2097](https://github.com/KohaSuomi/Koha/issues/2097)
 
-### x. Muut asiat
+### 4. Muut asiat
 
-### x. Seuraava kokous
+### 5. Seuraava kokous
