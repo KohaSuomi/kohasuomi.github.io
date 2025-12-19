@@ -32,6 +32,8 @@ Toimintalokit tallentavat tiedot tärkeistä tapahtumista, kuten käyttäjien ki
 * Selvittämään virhetilanteita
 * Täyttämään lakisääteiset vaatimukset (esim. GDPR)
 
+Tarkemmin tietoja [Toimintalokien seuranta -wikissä](https://github.com/KohaSuomi/Koha/wiki/Toimitalokien-seuranta)
+
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista #2075](https://github.com/KohaSuomi/Koha/issues/2075)
