@@ -26,7 +26,7 @@ Läsnä:
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
@@ -57,6 +57,10 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 
 **OUTI**
 * Kaukopalvelumoduulin käyttöönottotoimenpiteet meneillään.
+
+**Helle**
+* Kohaan kirjautuneelle tulee päivittäin virheilmoitus Error 403. Palaverissa saatu tieto: selaimen asetuksista on hyvä poistaa Kohaan liittyvät todennuspäätökset.
+* Mm. kirjojen alv-prosentti muuttuu 1.1.2026 alkaen 14 -> 13,5
   
 Pohjoisesta etelään
 
