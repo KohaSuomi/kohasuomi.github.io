@@ -24,6 +24,14 @@ Läsnä:
 
 ### 2. Kohan toimintalokit ja niiden auditointi
 
+Audit-lokit eli toimintalokit ovat järjestelmän tuottamia tietueita, jotka tallentavat käyttäjien ja järjestelmän suorittamia merkittäviä toimenpiteitä. Audit-lokien seuranta on tärkeää tietoturvan, virhetilanteiden selvittämisen ja lainsäädännön, kuten GDPR:n, noudattamisen kannalta.
+
+Toimintalokit tallentavat tiedot tärkeistä tapahtumista, kuten käyttäjien kirjautumisista, tietojen muutoksista ja järjestelmän asetusten päivityksistä. Lokitietojen seuranta auttaa:
+
+* Havaitsemaan luvattoman käytön
+* Selvittämään virhetilanteita
+* Täyttämään lakisääteiset vaatimukset (esim. GDPR)
+
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista #2075](https://github.com/KohaSuomi/Koha/issues/2075)
