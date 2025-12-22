@@ -11,6 +11,30 @@ title: 'Hallituksen tiedotteet 2025'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2025. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 9/2025
+
+22.12.2025
+
+Hei kaikille!
+
+Koha-Suomen hallituksen joulukuun kokouksessa päätettiin yhtiön vuoden 2026 toimintasuunnitelmasta, toimitusjohtajan tavoitteista ja talousarviosta 2026.
+
+Kävimme läpi perinteisesti myös toimitusjohtajan raportin ja se löytyy viestin liitteenä.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Rauhallista joulua kaikille ja hyvää tulevaa uutta vuotta 2026!
+
+Koha-Suomen hallituksen puolesta,
+
+Jouni Pääkkölä<br />
+hallituksen pj.
+
+Toimitusjohtajan raportti 9/25: [Toimitusjohtajan raportti 9 25.pdf](https://github.com/user-attachments/files/24287678/Toimitusjohtajan.raportti.9.25.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 8/2025
 
 27.11.2025
@@ -51,7 +75,7 @@ Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
 
 Koha-Suomen hallituksen puolesta,
 
-Jouni Pääkkölä
+Jouni Pääkkölä<br />
 hallituksen pj.
 
 Liite:
@@ -77,7 +101,7 @@ Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
 
 Koha-Suomen hallituksen puolesta,
 
-Jouni Pääkkölä
+Jouni Pääkkölä<br />
 hallituksen pj.
 
 Toimitusjohtajan raportti 5/2025: [Toimitusjohtajan raportti 5 25.pdf](https://github.com/user-attachments/files/20207852/Toimitusjohtajan.raportti.5.25.pdf)
@@ -95,7 +119,8 @@ Liitteenä myös toimitusjohtajan raportti 4/2025. Huhtikuun alussa ollut järje
 
 Mukavaa alkavaa toukokuuta, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
 
-Yst.terv. Nina Sipola, hallituksen varapj.
+Yst.terv. Nina Sipola<br />
+hallituksen varapj.
 
 Liitteet: [Toimitusjohtajan raportti 4_25.pdf](https://github.com/user-attachments/files/20011166/Toimitusjohtajan.raportti.4_25.pdf)
 
@@ -118,7 +143,8 @@ Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
 
 Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
 
-Jouni Pääkkölä, hallituksen pj.
+Jouni Pääkkölä<br />
+hallituksen pj.
 
 Liite: [Toimitusjohtajan raportti 3 25.pdf](https://github.com/user-attachments/files/19387333/Toimitusjohtajan.raportti.3.25.pdf)
 
@@ -144,7 +170,8 @@ Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
 
 Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
 
-Jouni Pääkkölä, hallituksen pj.
+Jouni Pääkkölä<br />
+hallituksen pj.
 
 Liitteet:
 
@@ -169,7 +196,8 @@ Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
 
 Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
 
-Jouni Pääkkölä, hallituksen pj.
+Jouni Pääkkölä<br />
+hallituksen pj.
 
 Liitteet: 
 * [Toimitusjohtajan raportti 1 25.pdf](https://github.com/user-attachments/files/18536289/Toimitusjohtajan.raportti.1.25.pdf)
