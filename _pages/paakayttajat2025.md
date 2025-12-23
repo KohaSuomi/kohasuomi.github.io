@@ -26,6 +26,9 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 **Kyyti**
 * Kyytissä normaalia ylläpitoa.
 
+**Vaski**
+* Ei tiedotettavaa
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
 
