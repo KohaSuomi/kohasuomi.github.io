@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 52
 
 Aika: Ti 23.12.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski)
+Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
@@ -28,6 +28,11 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 
 **Vaski**
 * Ei tiedotettavaa
+
+**Kirkes**
+* Myös Kirkes-kirjastoissa ihmetelty, miksi Kirjastopalvelun tietueet eivät olleet valuneet meille.
+* Canon-tulostukseen samoin kuin Finna-verkkomaksamiseen tarvitaan asiakkaille sähköpostiosoite. Mietitään ratkaisua tilanteeseen, jossa asiakkaan tiedoissa ei ole sähköpostiosoitetta.
+* Kiitämme yhteistyöstä ja avusta kuluneena vuonna!
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
