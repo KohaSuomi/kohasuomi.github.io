@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 52
 
 Aika: Ti 23.12.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara)
+Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
@@ -22,6 +22,9 @@ Läsnä: Päivi Knuutinen (Vaara)
 
 **Vaara**
 * ei erityisempää, mutta viime yönä ei ole valunut Kirjastopalvelun eiliset kuvailutietueet Tätiin ja tein siitä ilmoituksen Kirjastopalvelulle. Vastaukseksi tuli, että viime yönä on tapahtunut palvelimella joku katkos, jonka takia tietueet eivät ole siirtyneet. Lupasivat siirtää manuaalisesti ja tiedottaa kaikille.
+
+**Kyyti**
+* Kyytissä normaalia ylläpitoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
