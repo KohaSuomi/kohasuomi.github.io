@@ -36,7 +36,7 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 
 **Helle**
 * Kohan kaukolaina-toiminto käyttövalmis.
-* Vanhentuneiden maksujen poistoajo vuoden alussa/tammikuussa?
+* Vanhentuneiden maksujen poistoajo vuoden 2026 alussa/tammikuussa?
 * Porvoon pääkirjaston palautusautomaatilla yhteysongelmia 19.12.2025 alkaen. Liittyvät palomuuriin. 
 * Lapsi-asiakastieto muuttuu Aikuinen-asiakastyypiksi ja muuttuneen asiakastiedon yhteystietona takaajan sähköposti. Miten tieto asiakkaalle yhteystietojen päivittämis-/tarkistustarpeesta? Susanna/Vaski mainitsi kokouksessa Finna-kehityksen: [Asiakkaalle ilmoitus tarkistaa yhteystiedot](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/44)
 
