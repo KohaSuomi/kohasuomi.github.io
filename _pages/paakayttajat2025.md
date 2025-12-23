@@ -13,12 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 52
 
 Aika: Ti 23.12.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
 * [KaTi-työryhmän muistiot](https://koha-suomi.fi/kati)
   * Vähän muokattu versio [Niteettömät nimekkeet](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteett%C3%B6m%C3%A4t-nimekkeet-versio-2) -raportista. Sitä voi käyttää apuna, kun tutkitte, minkälaisia tarkoituksellisesti niteettömiä nimekkeitä kimpoissa on.
+
+**Vaara**
+* ei erityisempää, mutta viime yönä ei ole valunut Kirjastopalvelun eiliset kuvailutietueet Tätiin ja tein siitä ilmoituksen Kirjastopalvelulle. Vastaukseksi tuli, että viime yönä on tapahtunut palvelimella joku katkos, jonka takia tietueet eivät ole siirtyneet. Lupasivat siirtää manuaalisesti ja tiedottaa kaikille.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
