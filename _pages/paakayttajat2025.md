@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 52
 
 Aika: Ti 23.12.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
@@ -34,6 +34,11 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 * Canon-tulostukseen samoin kuin Finna-verkkomaksamiseen tarvitaan asiakkaille sähköpostiosoite. Mietitään ratkaisua tilanteeseen, jossa asiakkaan tiedoissa ei ole sähköpostiosoitetta.
 * Kiitämme yhteistyöstä ja avusta kuluneena vuonna!
 
+**Helle**
+* Kohan kaukolaina-toiminto käyttövalmis.
+* Vanhentuneiden maksujen poistoajo vuoden alussa/tammikuussa?
+* Porvoon pääkirjaston palautusautomaatilla yhteysongelmia 19.12.2025 alkaen. Liittyvät palomuuriin. 
+* Lapsi-asiakastieto muuttuu Aikuinen-asiakastyypiksi ja muuttuneen asiakastiedon yhteystietona takaajan sähköposti. Miten tieto asiakkaalle yhteystietojen päivittämis-/tarkistustarpeesta? Susanna/Vaski mainitsi kokouksessa Finna-kehityksen: [Asiakkaalle ilmoitus tarkistaa yhteystiedot](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/44)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
 
