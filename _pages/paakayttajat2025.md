@@ -13,13 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
 * Versionvaihto
   * Nexteille saa päästää isomman testaajamäärän 12.1.2026 lähtien.
   * Koha-Suomen käännökset (suomi ja ruotsi) asennettu nexteille. Ilmoittele Annelille, jos huomaat jotain puutteita.
+
+Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
