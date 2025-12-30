@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi)
+Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
@@ -29,6 +29,9 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa
 * Rovaniemen maksuihin tulossa muutoksia vuoden vaiheessa.
+
+**Kirkes**
+ * Vuoden 2026 alusta Elina jatkaa pääkäyttäjyyttä 100 % työajalla ja Erika pienemmällä työajalla - alkuperäisestä kiertävän pääkäyttäjyyden ajatuksesta on siis luovuttu. Elina on vuoden 2026 alusta lähtien myös Koha-asiantuntijaryhmän Kirkes-edustaja.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
