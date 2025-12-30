@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
@@ -22,6 +22,9 @@ Läsnä: Anneli Österman (Koha-Suomi)
   * Koha-Suomen käännökset (suomi ja ruotsi) asennettu nexteille. Ilmoittele Annelille, jos huomaat jotain puutteita.
 
 Pohjoisesta etelään
+
+**Vaski**
+* Rauhallista menoa, joten nyt paremmin aikaa mm. versiopäivityksen tikettien testailulle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
