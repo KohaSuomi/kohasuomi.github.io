@@ -281,24 +281,24 @@ _Varausten muokkaus eräajona_ on Koha-Suomessa kehitetty työkalu, jolla voi te
 
 Muokattavia varauksia voi hakea monilla ehdoilla:
 <img src="/assets/files/docs/Tyokalut/varaustenmuokkaus.png" title="Kuvakaappaus varausten hausta" alt="Kuvakaappaus varausten hausta" />
-* **Vanhentumispäivämäärä alkaen**: Vanhentumispäivä ja viimeinen noutopäivä ovat käytännössä sama asia. Valitse aikaväli.
-* **Vanhentumispäivämäärä loppuen**
+* **Vanhentumispäivämäärä alkaen**: Vanhentumispäivä ja viimeinen noutopäivä ovat käytännössä sama asia. Valitse aikaväli. Voit myös valita vain alkupäivän tai loppupäivän.
+* **Vanhentumispäivämäärä loppuen**: Valitse aikaväli tai pelkästään loppupäivä.
 * **Kirjastot**: Voit valita yhden tai useamman
 * **Varauksen tila**: Valitse tarvittaessa varauksen tila: Ei tilamääritystä, Kuljetettavana, Käsittelyssä tai Odottaa 
 * **Keskeytys**: Valitse, pitääkö varauksen olla keskeytetty vai keskeyttämätön. Jos et valitse mitään, haetaan kummatkin.
-* **Aktivointipäivä alkaen**: Jos varaus on keskeytetty, valitse tästä aikaväli, jolla aktivointipäivä pitää olla.
-* **Aktivointipäivä päättyen**
+* **Aktivointipäivä alkaen**: Jos varaus on keskeytetty, valitse tästä aikaväli, jolla aktivointipäivä pitää olla. Voit myös valita vain alkupäivän tai loppupäivän.
+* **Aktivointipäivä päättyen**: Valitse aikaväli tai pelkästää loppupäivä.
 * **Varaushuomautus**: Jos varauksilla on jokin tietty huomautus, voit hakea sen mukaan varauksia.
 
 Kun olet valinnut tarvittavat hakuehdot, valitse sitten _Haku_.
 
 ### 12.7.2 Varausten muokkaus
 
-Saat listan varauksista, jotka täsmäävät hakuehtojen kanssa. Voit valita kaikki tai osan.
+Saat listan varauksista, jotka täsmäävät hakuehtojen kanssa. Voit valita kaikki tai osan. Työkalu huomauttaa, jos yrität muokata varauksia valitsematta niitä ensin.
 
 <img src="/assets/files/docs/Tyokalut/varaustenmuokkaus1.png" title="Kuvakaappaus varaustlistasta" alt="Kuvakaappaus varauslistasta" />
 
-Varauslistan yläpuolelta pääset muokkaamaan hakuehtoja, jos tulos ei ollut halutunlainen.
+Varauslistan yläpuolelta pääset muokkaamaan hakuehtoja _Muokkaa hakua_ -kohdasta, jos tulos ei ollut halutunlainen.
 
 Varauslistan alla voi valita, mitä valituille varauksille tehdään.
 
@@ -314,7 +314,7 @@ Varauslistan alla voi valita, mitä valituille varauksille tehdään.
 
 Valitse sitten _Muokkaa varauksia_.
 
-Taulukon yläpuolelle tulee tieto, kuinka monta varausta muokattiin. Taulukon alapuolelta pääse takaisin varausten muokkaukseen eräajona.
+Taulukon yläpuolelle tulee tieto, kuinka monta varausta muokattiin. Taulukon alapuolelta pääset takaisin varausten muokkaukseen eräajona.
 
 ### 12.7.3 Varausten muokkaus raporttien kautta
 
