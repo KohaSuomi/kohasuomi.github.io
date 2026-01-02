@@ -190,21 +190,20 @@ _Hankinnat_-sivulla.
 Toimittajan lisäyslomake koostuu kolmesta osasta.
 
 - Ensimmäinen osio sisältää toimittajan yhteystiedot.  
-  ![Yrityksen tiedot -lomake, jossa kentät Nimi, Postiosoite, Osoite, Puh, Faksi, www-osoite, Tilinumero, Toimittajan tyyppi ja Aliakset](/assets/files/docs/Hankinta/hankinta10.png)
+  ![Yrityksen tiedot -lomake, jossa kentät Nimi, Postiosoite, Fyysinen sijainti, Puhelin, Faksi, Verkkosivut, Tilinumero, Toimittajatyyppi ja Aliakset](/assets/files/docs/Hankinta/hankinta10.png)
   - Näistä kentistä vain _Nimi_-kenttä on pakollinen, muut tiedot helpottavat laskutuksen ja reklamoinnin
     tekemisessä.
   - _Aliakset_-kenttään voi lisätä erilaisia nimimuotoja toimittajalle, esim. entisiä nimiä. Aliaksilla voi hakea toimittajaa.
 
 - Toinen osio koostuu yhteyshenkilön/henkilöiden tiedoista.  
-  ![Yhteystiedot-osio, jossa kentät Yhteystiedot, Asema/Titteli, Puh, Vaihtoehtoinen puhelin, Faksi, Sähköposti, Huomautukset. Kenttien alapuolella kaksi otsikko Hankinta-asetukset ja Kausijulkaisutilausten asetukset, joiden alla rastittavana vasemmalla Ensisijainen hankinnan yhteystieto, Tilausyhteystieto, Myöhässä olevien tilausten yhteystieto sekä oikealla Ensisijainen kausijulkaisutilausten yhteystieto ja Myähässä olevien numeroiden yhteystieto. Näiden alapuolella vielä nappi Lisää uusi yhteystieto, josta saa lisättyä toiset yhteystiedot samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta11.png)
+  ![Yhteystiedot-osio, jossa kentät Yhteyshenkilön nimi, Toimi, Puhelin, Vaihtoehtoinen puhelin, Faksi, Sähköposti, Huomautukset. Kenttien alapuolella kaksi otsikko Hankinta-asetukset ja Kausijulkaisutilausten asetukset, joiden alla rastittavana vasemmalla Ensisijainen hankinnan yhteystieto, Tilausyhteystieto, Myöhässä olevien tilausten yhteystieto sekä oikealla Ensisijainen kausijulkaisutilausten yhteystieto ja Myähässä olevien numeroiden yhteystieto. Näiden alapuolella vielä nappi Lisää uusi yhteystieto, josta saa lisättyä toiset yhteystiedot samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta11.png)
   - Mikään näistä tiedoista ei ole pakollinen.
 
 - Kolmanteen osioon voi lisätä toimittajan verkkopalvelun osoitteen, tunnuksen, salasanan ja tilin sähköpostiosoitteen. Salasana piilotetaan tallennuksen jälkeen, mutta sen saa näkyville klikkaamalla. Ei kannata tallentaa salasanaa tähän.
-  ![Lisää uusi verkkopalvelu -nappi](/assets/files/docs/Hankinta/hankinta111.png)
-  ![Verkkopalvelu-lomake, jossa kentät Nimi, Tyyppi, URI, Kirjautumistunnus, Salasana, Tilin sähköposti ja Huomautukset. Niiden alla nappi Poista verkkopalvelu. Alimmaisen nappi Lisää uusi verkkopalvelu, jolla voi lisätä toisen verkkopalvelutiedon samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta112.png)
+  ![Käyttöliittymät-lomake, jossa kentät Nimi, Tyyppi, URI, Kirjautumistunnus, Salasana, Tilin sähköposti ja Huomautukset. Niiden alla nappi Poista käyttöliittymä. Alimmaisen nappi Lisää uusi käyttöliittymä, jolla voi lisätä toisen verkkopalvelutiedon samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta111.png)
 
 - Viimeinen osio sisältää aineiston hintoihin liittyviä tietoja.  
-  ![Tilaustiedot-lomake, jossa on vaihtoehdot Toimittaja (aktiivinen/ei käytössä), Listahinnat ovat (EUR), Laskuhinnat ovat (EUR), Veronumero (Kyllä/Ei), Listahinnat (Verollinen/Veroton), Laskuhinnat (Verollinen/Veroton), Veroprosentti (0% valikossa), Alennus %, Toimitusaika päivää, Huomautukset.](/assets/files/docs/Hankinta/hankinta12.png)
+  ![Tilaustiedot-lomake, jossa on vaihtoehdot Toimittaja (aktiivinen/epäaktiivinen), Listahinnat ovat (EUR), Laskuhinnat ovat (EUR), Veronumero tallennettu (Kyllä/Ei), Listahinnat (Verollinen/Veroton), Laskuhinnat (Verollinen/Veroton), Veroprosentti, Alennusprosentti - %, Toimitusaika - päivää, Huomautukset.](/assets/files/docs/Hankinta/hankinta12.png)
   - Toimittajan tulee olla _Aktiivinen_, jotta tilauksia voi tehdä
   - _Lista- ja laskuhinnat_ näkyvät tietyssä valuutassa, joka
     tallennetaan järjestelmäasetuksissa
@@ -214,12 +213,12 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
   - Tallenna veroprosentti, jos kirjastolta veloitetaan verot
     tilauksesta. **Jos EDItX-hankinta on käytössä, valitse tähän 0 %**
   - Jos toimittaja antaa yleisen alennuksen aineistosta, laita
-    alennusprosentti _Alennus_-kenttään
+    alennusprosentti _Alennusprosentti_-kenttään
     - Voit antaa niteeseen kohdistuvan oikean alennusprosentin
       tilausta tehtäessä
   - Jos tiedät normaalin toimitusajan aineistolle, voit antaa
     _toimitusajan_ päivinä. Tästä Koha pystyy arvioimaan, milloin
-    tilaus joutuu myöhässä olevien tilausten raporttiin.
+    tilaus joutuu myöhässä olevien tilausten raportille.
   - _Huomautukset_-kenttä on sisäiseen käyttöön tuleva huomautus.
 
 ### 7.2.2. Näytä/muokkaa toimittajaa
