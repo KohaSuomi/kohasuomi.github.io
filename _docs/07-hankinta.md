@@ -25,7 +25,7 @@ Pääset hankintaan kahta kautta:
 
 ![Hankinnat-osioon pääsee joko Muita toimintoja -valikosta tai etusivulta Hankinnat-nappulasta](/assets/files/docs/Hankinta/hankinta1.png)
 
-Hankinnan etusivulla voit hakea toimittajia sekä tilauksia je siellä näkyvät kaikki tilit.
+Hankinnan etusivulla voit hakea toimittajia sekä tilauksia ja siellä näkyvät kaikki tilit.
 
 ![Hankinnan etusivulla voit hakea toimittajia ja tilausea ja siellä näkyvät kaikki tilit](/assets/files/docs/Hankinta/hankinta7.png)
 
@@ -158,7 +158,7 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
 - _Varoituskohta_ (%) tai (summa) voidaan merkitä halutessa, jolloin Koha
   varoittaa, kun ylität tietyn määrän käytetyistä määrärahoista. Huom! Toimii vain, kun tilauksia lisätään manuaalisesti Kohan omilla toiminnoilla. Ei toimi EDItX-tilauksia Kohaan vietässä.
 - _Omistaja_ on se henkilö, joka voi tehdä muutoksia tiliin.
-  Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
+  Omistajaksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
   oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
   _Lisää_. Ikkuna sulkeutuu automaattisesti.  
   ![Kuvassa on näkymä Hae asiakkaita -ikkunasta, jossa on kentät Haku, Kirjasto ja Tyyppi. Niiden alapuolella nappulat Haku ja Tyhjennä. Kuvassa on haettu asiakkaalla 'teijatestaaja' ja hakukenttien alapuolella on listaus hakutuloksista. Hakutuloksena näkyy teijatestaaja-tunnus. Tulosrivin oikeassa reunassa on Lisää-nappula.](/assets/files/docs/Hankinta/hankinta05.png)
@@ -171,10 +171,8 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
   Kimpoissa kannattaa rajauksia tehdä, jotta kaikille ei näy kaikkien
   kirjastojen tilit (nopeuttaa manuaalisten tilausten tekemistä).  
   ![Kuvassa Rajoita käyttö -valikon vaihtoehdot Ei mitään, Omistaja, Omistaja käyttäjät, Omistaja, käyttäjät ja kirjasto](/assets/files/docs/Hankinta/hankinta6.png)
-- _Muuta:_ tähän voit kirjoittaa tarvittavan huomautuksen, joka tulee
-  näkyviin tiliä käytettäessä.
-- _Tilasto 1:n muoto_ ja _Tilasto 2:n muoto_: näihin voi halutessaan
-  valita auktorisoidun arvon. Ei suositeltavaa.
+- _Huomautukset:_ tähän voit kirjoittaa tarvittaessa huomautuksen, joka tulee näkyviin tiliä käytettäessä.
+- _Tilasto 1:n muoto_ ja _Tilasto 2:n muoto_: näihin voi halutessaan valita auktorisoidun arvon. Ei suositeltavaa.
 
 Tallenna lopuksi _OK_-painikkeesta.
 
