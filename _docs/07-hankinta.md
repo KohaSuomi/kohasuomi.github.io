@@ -223,20 +223,21 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
 
 ### 7.2.2. Näytä/muokkaa toimittajaa
 
-Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku _Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla.
+Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku _Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla tai aliaksella.
 
 ![Kuvassa Hankinnat-osion etusivu, jossa vasemmasta yläreunasta ympäröitynä punaisella Toimittajahaku-hakukenttä sekä keskiosiosta Toimittaja-hakukenttä.](/assets/files/docs/Hankinta/hankinta13.png)
 
-![Kuvassa Testitoimittaja-toimittajan tiedot ja ympäröitynä Muokkaa toimittajaa -linkki sekä toimittajan nimi.](/assets/files/docs/Hankinta/hankinta14.png)
+![Kuvassa kahden toimittajan tiedot taulukossa](/assets/files/docs/Hankinta/hankinta14.png)
 
-Kun klikkaat linkkinä olevaa toimittajan nimeä, näet toimittajan tiedot.
+* Hakua vastaavat toimittajat listataan taulukkona, jota voi järjestellä sarakkeiden mukaan ja suodattaa hakemalla Haku-kentässä.
+* Nimi-sarakkeen toimittajanimeä klikkaamalla avautuu yhteenveto sivu toimittajasta. Siellä pystyy myös muokkaamaan toimittajan tietoja.
+* Tilauskorit-sarakkeessa on linkki kyseisen toimittajan tilauskoreihin. Linkin nimessä on tilauskorien määrä.
+* Toiminnot-sarakkeessa on Muokkaa- ja Vastaanota tilauksia -napit.
 
-![Näkymä, jossa yhteenveto toimittajalle tallennetuista tiedoista viidessä eri osiossa.](/assets/files/docs/Hankinta/hankinta15.png)
+![Näkymä, jossa yhteenveto toimittajalle tallennetuista tiedoista neljässä eri osiossa.](/assets/files/docs/Hankinta/hankinta15.png)
 
-Jos haluat tehdä muutoksia toimittajan tietoihin, klikkaa _Muokkaa
-toimittajaa_ -nappia. Jos toimittajalla ei ole yhtään tilausta, silloin
-on näkyvillä myös _Poista toimittaja_ -nappi. Muuten on näkyvillä
-_Vastaanota tilauksia_ -nappi.
+Jos haluat tehdä muutoksia toimittajan tietoihin, klikkaa _Muokkaa toimittajaa_ -nappia. Jos toimittajalla ei ole yhtään tilausta, silloin
+on näkyvillä myös _Poista toimittaja_ -nappi. Muuten on näkyvillä _Vastaanota tilauksia_ -nappi.
 
 ![Kuvassa linkit Uusi, Muokkaa toimittajaa ja Vastaanota tilauksia. Näistä on ympäröitynä Muokkaa toimittajaa.](/assets/files/docs/Hankinta/hankinta16.png)
 
