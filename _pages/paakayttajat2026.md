@@ -17,6 +17,8 @@ Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
 Läsnä: 
 
 **Yhteiset**
+* OKM-tilastot, onko ongelmia?
+
 
 Etelästä pohjoiseen
 
