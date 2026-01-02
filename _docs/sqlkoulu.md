@@ -468,7 +468,7 @@ SELECT * FROM items WHERE ccode=<<Valitse kokoelma|CCODE>>
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu6.png)
 
-### 6. Päivämäärän valinta kalenterista
+### Päivämäärän valinta kalenterista
 
 ```
 SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
@@ -476,7 +476,7 @@ SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu7.png)
 
-### 7. Linkin lisääminen raportille
+### Linkin lisääminen raportille
 
 Raporttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
 
@@ -490,7 +490,7 @@ Jos klikkaat borrowernumberin, itemnumberin tai biblionumberin vieressä olevaa 
 
 Jos kuitenkin haluat näkyville esim. kirjastokortin numeron tai teoksen nimekkeen, alla on siihen ohjeet.
 
-#### 7.1 Asiakkaaseen
+#### 1. Asiakkaaseen
 
 Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokortin numero ja osoitteeseen lisätään asiakkaan borrowernumber. Linkki avautuu uuteen välilehteen.
 
@@ -502,7 +502,7 @@ WHERE zipcode=<<Postinumero>>
 
 b.cardnumber-tiedon sijalle voi periaatteessa laittaa minkä tahansa borrowers-taulun tiedon, mutta kannattaa muistaa ettei tee turhia asiakastietojen katseluja raporteillakaan.
 
-#### 7.2 Teoksen perustiedot-näytölle
+#### 2. Teoksen perustiedot-näytölle
 
 Linkki teokseen siten, että tekstinä näkyy teoksen nimeke ja osoitteeseen lisätään teoksen biblionumber. Linkki avautuu uuteen välilehteen.
 
@@ -512,7 +512,7 @@ FROM biblio b
 WHERE datecreated BETWEEN <<Luontipäivä aikaisintaan|date>> AND <<Luontipäivä viimeistään|date>>
 ```
 
-####  7.3 Niteen muokkaukseen
+####  3. Niteen muokkaukseen
 
 Linkki tietyn niteen muokkaukseen niin, että osoitteeseen lisätään biblionumber, itemnumber ja linkkitekstiksi tulee viivakoodi. Linkki avautuu uuteen välilehteen.
 
@@ -522,7 +522,7 @@ FROM items i
 WHERE i.ccode='CELIA'
 ```
 
-#### 7.4 Tietueen muokkaukseen
+#### 4. Tietueen muokkaukseen
 
 Linkki tietueen muokkaukseen siten, että osoitteeseen lisätään biblionumber ja linkin tekstiksi tulee biblionumber. Linkin tekstiksi voi helposti muokata myös teoksen nimen halutessaan vaihtamalla jälkimmäiseen b.biblionumber-kohtaan b.title. Linkki avautuu uuteen välilehteen.
 
@@ -532,7 +532,7 @@ FROM biblio b
 WHERE datecreated=<<Valitse päivä|date>>
 ```
 
-#### 7.5 Varausjonoon
+#### 5. Varausjonoon
 
 Linkki tietueen varausjonoon siten, että linkkitekstinä on tietueen nimeke. Linkki avautuu uuteen välilehteen.
 
@@ -543,7 +543,7 @@ JOIN biblio b USING (biblionumber)
 WHERE r.branchcode=<<Valitse noutokirjasto|branches>>
 ```
 
-### 8. Automaattiset ehdotukset
+### Automaattiset ehdotukset
 
 Versiossa 23.11 Kohan raportteihin lisättiin automaattiset ehdotukset. Kun kirjoitat, ehdottelee Koha kirjoittamiasi merkkejä vastaavia ehdotuksia tauluista ja "käskyistä". Esimerkiksi, jos kirjoitat 'i', saat näkyville pienen valikon, jossa on ehdolla i:llä alkavia taulujen nimiä kuten items ja issues ja käskyjä kuten IS ja IN.
 
@@ -555,7 +555,7 @@ Jos määrittelet kyselyssä taululle aliaksen esim. items i, niin voit saada eh
 
 Ehdotukset voi valita joko hiirellä tai näppäimistöllä nuolinäppäimillä ja ENTER-painikkeella. Huomioi, että jos olet vaihtamassa riviä ENTERillä ja Koha antaa automaattisen ehdotuksen, tulee ensimmäinen ehdotus valituksi kun tarkoitus oli vaihtaa riviä vaihtaessa. Ehdotuksesta pääsee eroon lisäämällä esimerkiksi välilyönnin ennen rivinvaihtoa ja sitten poistamalla sen.
 
-### 9. Ajonaikaiset parametrit
+### Ajonaikaiset parametrit
 
 Tallennetulle raportille pystyy lisäämään ajoaikaisia parametrejä myös SQL-laatikon yläpuolella olevasta valikosta _Lisää ajoajan parametri_.
 ![](/assets/files/docs/Ohjeet/sqlkoulu12.png)
