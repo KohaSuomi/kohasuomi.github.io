@@ -8,6 +8,8 @@ toc: true
 
 # 7. Hankinta
 
+Ohje päivitetty version 25.05 mukaiseksi.
+
 **Huomioitavaa:** Hankinnan tilejä ei saa poistaa, jotta tilastointi
 toimisi oikein. Tilit voi sulkea halutessaan, eikä se vaikuta
 tilastoihin.
@@ -17,15 +19,15 @@ Kohan Hankinta mahdollistaa tilausten teon ja budjetin seuraamisen.
 Kirjastolle pitää olla määritettynä budjetti ja vähintään yksi tili,
 jotta tilauksia voi tehdä.
 
-Pääset hankintaa kahta kautta: 
+Pääset hankintaan kahta kautta: 
 - _Muita toimintoja -&gt; Hankinnat_
 - Etusivulta _Hankinnat_
 
 ![Hankinnat-osioon pääsee joko Muita toimintoja -valikosta tai etusivulta Hankinnat-nappulasta](/assets/files/docs/Hankinta/hankinta1.png)
 
-Hankinnan etusivulla näkyvät kaikki tilit.
+Hankinnan etusivulla voit hakea toimittajia sekä tilauksia je siellä näkyvät kaikki tilit.
 
-![Hankinnan etusivulla näkyvät kaikki tilit](/assets/files/docs/Hankinta/hankinta7.png)
+![Hankinnan etusivulla voit hakea toimittajia ja tilausea ja siellä näkyvät kaikki tilit](/assets/files/docs/Hankinta/hankinta7.png)
 
 - Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
 _Piilota käytöstä poistetut budjetit_. Takaisin näkyviin ne saa
@@ -33,7 +35,7 @@ klikkaamalla _Näytä käytöstä poistetut budjetit_.
 
 - Voit suodattaa näkymää alasvetovalikosta _Kirjaston mukaan_. 
 
-- Voit suodattaa näkymää myös kirjoittamalla sopivan hakutermin _Hae_-kohtaan. Haun saa poistettua klikkaamalla _Tyhjennä suodatin_.
+- Voit suodattaa näkymää myös kirjoittamalla sopivan hakutermin _Haku_-kohtaan. Haun saa poistettua klikkaamalla _Tyhjennä suodatin_.
 
 Jos haluat nähdä, mitä teoksia on tilattu tiettyä tiliä käyttäen,
 klikkaa tilin kohdalla _Tilattu_-sarakkeessa linkkinä olevaa summaa.  
