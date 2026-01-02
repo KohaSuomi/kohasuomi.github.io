@@ -288,6 +288,7 @@ Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
 
 ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
 
+
 ```
 SELECT * FROM biblio_metadata bm
 WHERE ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = '';
@@ -302,11 +303,25 @@ JOIN biblio b using (biblionumber)
 WHERE biblionumber=1234
 ```
 
-Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. Mallin haku antaa tulosjoukoksi luettelointitiedot, joilla ei ole kenttää 773w eli se on tyhjä.
+Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. 
+
+#### Nimiöstä haku
 
 Nimiöstä 7. merkkipaikalta lähtien 2 merkkiä eteenpäin ei ole "im":
 ```
 SUBSTR(ExtractValue(bm.metadata,'//leader'),7,2) NOT IN ('im') 
+```
+
+Nimiön tietojen haku hakutuloksiin
+```
+ExtractValue(bm.metadata,'//leader') AS 'Nimiö'
+```
+
+#### Kiinteämittaisista kentistä haku
+
+Kiinteämittaisen kentän haku hakutuloksiin
+```
+ExtractValue(bm.metadata,'//controlfield[@tag="005"]') AS '005'
 ```
 
 Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenpäin on "ss":
@@ -365,6 +380,12 @@ SELECT * FROM items WHERE (barcode IS NULL OR barcode = '') AND homebranch = 'ML
 
 Mallin tulosjoukko muodostuu niteistä, joilla ei ole viivakoodia. *Huomaa sulut OR-vertailujen ympärillä!* Jos sekoitellaan AND- ja OR-vertailua, niin OR pitää ympyröidä suluilla.
 
+Huomioi myös, että IS NOT -kyselyjä tehdessä NULL-arvo pitää määrittää erikseen mukaan. Muuten kysely huomioi vain ne rivit, joissa on jokin arvo. Esim. jos halutaan hakea niteet, joissa ei ole kokoelmakoodia "JANNITYS", pitää NULL-arvot huomioida seuraavasti:
+
+```
+SELECT * FROM items WHERE ccode !='JANNITYS'
+AND ccode IS NULL
+```
 ### Relaatiot
 
 Relaatioilla tarkoitetaan tauluja yhdistäviä tekijöitä, kuten asiakkaiden relaatiota lainoihin.
@@ -384,6 +405,8 @@ Yleensä relaatiot on nimetty samalla nimellä, kuten mallissa kaikista tauluist
 
 ## Tallennetut raportit
 
+### Auktorisoitujen arvojen käyttäminen kyselyssä
+
 Kohan tallennetuissa raporteissa voi käyttää ehdoissa hyväksi myös auktorisoituja arvoja, jolloin ne saadaan kyselyn ajovaiheessa alasvetovalikkoon. Ne määritellään käyttöön seuraavasti:
 
 ```
@@ -398,7 +421,7 @@ Arvoja saa lisättyä kyselyyn myös _Lisää ajoajan parametri_ -valikosta vali
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu1.png)
 
-### 1. Kirjasto
+#### 1. Kirjasto
 
 ```
 SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
@@ -412,7 +435,7 @@ tai
 SELECT * FROM bORrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
 ```
 
-### 2. Hyllypaikka
+#### 2. Hyllypaikka
 
 ```
 SELECT * FROM items WHERE location=<<Valitse hyllypaikka|loc>>
@@ -420,7 +443,7 @@ SELECT * FROM items WHERE location=<<Valitse hyllypaikka|loc>>
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu3.png)
 
-### 3. Nidetyyppi
+#### 3. Nidetyyppi
 
 ```
 SELECT * FROM items WHERE itype=<<Valitse nidetyyppi|itemtypes>>
@@ -429,7 +452,7 @@ SELECT * FROM items WHERE itype=<<Valitse nidetyyppi|itemtypes>>
 ![](/assets/files/docs/Ohjeet/sqlkoulu4.png)
 
 
-### 4. Aineistotyyppi
+#### 4. Aineistotyyppi
 
 ```
 SELECT * FROM biblioitems WHERE itemtype = <<Valitse aineistotyyppi|MTYPE>>
@@ -437,7 +460,7 @@ SELECT * FROM biblioitems WHERE itemtype = <<Valitse aineistotyyppi|MTYPE>>
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu5.png)
 
-### 5. Kokoelma
+#### 5. Kokoelma
 
 ```
 SELECT * FROM items WHERE ccode=<<Valitse kokoelma|CCODE>>
@@ -565,3 +588,4 @@ Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin
 * tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..).
 * onhan lauseessa sana SELECT?
 * onhan haettava taulu määritetty?
+* eihän kysely sisällä kiellettyjä sanoja tai sarakkeita?
