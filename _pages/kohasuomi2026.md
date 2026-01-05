@@ -11,9 +11,9 @@ layout: single
 hidden: true
 ---
 
-## Viikko 2
+## Viikko 3
 
-Aika: Ma 5.1.2026<br />
+Aika: Ma 12.1.2026<br />
 Läsnä: 
 
 * Vastuuttomat tiketit
