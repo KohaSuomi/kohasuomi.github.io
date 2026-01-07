@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Maria Joona (Lappi)
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Maria Joona (Lappi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
