@@ -18,6 +18,7 @@ Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
+  * Ei havaittu ainakaan vielä ongelmia. Jos ilmenee vielä, niin selvitellään niitä sitten, kun Emmi palailee lomilta.
 * LinkMobilylta tullut tieto, että he ohjeistavat, kuinka pitää toimia lähettäjänimen luvittamisessa. Älkää tehkö sitä ennen mitään. Lakimuutos tulee voimaan 4.5.2026.
   * DNA, Telia ja Arena: kannattaa kysyä operaattorilta ohjeistuksia
 
