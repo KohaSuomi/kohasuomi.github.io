@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
@@ -30,5 +30,14 @@ Etelästä pohjoiseen
 
 **Kirkes**
  * Ei erityistä raportoitavaa. Elina lomalla tämän viikon ja Erika lomalla 12.-25.1.
+
+**OUTI**
+* Kotikirjastomuutos Oulun aineistolle tehdään ensi viikolla.
+* Perjantaina 2.1.2026 Koha jumitteli kovasti. Syylliseksi paikallistettiin kaukolainamoduulin suodatuskenttä. Pikaisella testauksella ongelmaa ei vaikuttanut olevan enää Nextillä. Kenttä piilotettiin CSS:llä:
+```
+/* Kaukolainoista Haku-kentän piilotus */
+body#illrequests.ill div#ill-requests_filter.dataTables_filter { display: none; }
+```
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
