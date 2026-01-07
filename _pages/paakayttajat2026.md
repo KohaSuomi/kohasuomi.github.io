@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes)
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
@@ -24,6 +24,9 @@ Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Mi
 
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Ei erityistä raportoitavaa, mutta suomi.fi-viestit otetaan käyttöön tänään kirjepostin osalta.
 
 **Kirkes**
  * Ei erityistä raportoitavaa. Elina lomalla tämän viikon ja Erika lomalla 12.-25.1.
