@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
@@ -35,6 +35,9 @@ Pohjoisesta etelään
 
 **OUTI**
 * Kohan kaukolaina-toiminto otettu ma 29.12.2025 käyttöön Oulussa. Otetaan käyttöön 31.12.2025-2.1.2026 Kempeleessä, Kuusamossa, Raahessa ja Vihannissa.
+
+**Vaara**
+* Ei erityisempää, testausta ja muuta normaalia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
