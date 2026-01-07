@@ -14,10 +14,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: 
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
+* LinkMobilylta tullut tieto, että he ohjeistavat, kuinka pitää toimia lähettäjänimen luvittamisessa. Älkää tehkö sitä ennen mitään. Lakimuutos tulee voimaan 4.5.2026.
+  * DNA, Telia ja Arena: kannattaa kysyä operaattorilta ohjeistuksia
 
 
 Etelästä pohjoiseen
