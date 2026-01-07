@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi)
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
@@ -24,5 +24,8 @@ Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi)
 
 
 Etelästä pohjoiseen
+
+**Kirkes**
+ * Ei erityistä raportoitavaa. Elina lomalla tämän viikon ja Erika lomalla 12.-25.1.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
