@@ -36,7 +36,10 @@ Tarkemmin tietoja [Toimintalokien seuranta -wikissä](https://github.com/KohaSuo
 
 ### 3. Tiekartta
 
-Vuoden 2025 tiekartta: [Tiekartta2025-1.xlsx](https://github.com/user-attachments/files/24427954/Tiekartta2025-1.xlsx)
+Päivitetään tiekartta.
+
+Vuoden 2025 tiekartta: [Tiekartta2025joulu.xlsx](https://github.com/user-attachments/files/24493105/Tiekartta2025joulu.xlsx)
+
 
 ### 4. Käsiteltävät kehitysehdotukset
 
