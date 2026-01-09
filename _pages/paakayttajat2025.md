@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen (Vaara), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
@@ -38,6 +38,9 @@ Pohjoisesta etelään
 
 **Vaara**
 * Ei erityisempää, testausta ja muuta normaalia.
+
+**Lastu**
+* Normaalia ylläpitoa ja valmistautumista Launeen kirjaston sulkemiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
