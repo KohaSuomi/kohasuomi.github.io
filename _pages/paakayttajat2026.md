@@ -25,7 +25,7 @@ Pohjoisesta etelään
 ## Viikko 2
 
 Aika: **Keskiviikkona** 7.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Maria Joona (Lappi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Pasi Kallinen, Johanna Räisä (Koha-Suomi), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Leena Kinnunen ja Maria Joona (Lappi), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * OKM-tilastot, onko ongelmia?
@@ -51,6 +51,10 @@ body#illrequests.ill div#ill-requests_filter.dataTables_filter { display: none; 
 ```
 **Lappi**
 * Noora Suvanto lopettanut Lapin pääkäyttäjänä vuoden loppuun Pellon kunnan säästösyistä. Pääkäyttäjähaku aukeaa lähiaikoina.
-* Normaalia ylläpitoa, nextin asetusten tallennusta. 
+* Normaalia ylläpitoa, nextin asetusten tallennusta.
+
+**Lastu**
+* Suljetun Launeen kirjaston kokoelman erämuutos toimi tuotannossa oikein, eli ongelma koski vain testiä.
+* Muuten normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
