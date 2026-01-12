@@ -45,6 +45,7 @@ Vuoden 2025 tiekartta: [Tiekartta2025joulu.xlsx](https://github.com/user-attachm
 
 * [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista #2075](https://github.com/KohaSuomi/Koha/issues/2075)
 * [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois #2097](https://github.com/KohaSuomi/Koha/issues/2097)
+* [Huoltajalta poistuu huollettavan laskusta aiheutunut lainauskielto, kun hän palauttaa omia lainojaan #2118](https://github.com/KohaSuomi/Koha/issues/2118)
 
 ### 4. Muut asiat
 
