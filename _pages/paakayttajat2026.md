@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti, Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman, Lari Strand ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti, Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
@@ -51,7 +51,11 @@ https://www.traficom.fi/fi/ajankohtaista/organisaatioiden-nimissa-lahetettavia-h
 
 **Lumme**
 * Celia- ja signum-muutosten jatkotyöstöä.
-* Alustavasti Mikkelin pääkirjastoon on tulossa LVIS-remontti vuonna 2027 ja kirjasto muuttaa tilapäisiin tiloihin muutamaksi vuodeksi. 
+* Alustavasti Mikkelin pääkirjastoon on tulossa LVIS-remontti vuonna 2027 ja kirjasto muuttaa tilapäisiin tiloihin muutamaksi vuodeksi.
+
+**Helle**
+* Webkaken API-tunnus poistettu.
+* Piilotettu CSS:llä Kaukolaina-toiminnon Kauolainapyynnöt-sivulta Haku-laatikko. (Haun käyttö jumittanut Kohan ainakin OUTI-kimpassa.)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
