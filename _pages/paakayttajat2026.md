@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä: Anneli, Lari ja Emmi (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli, Lari ja Emmi (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
@@ -34,6 +34,11 @@ Pohjoisesta etelään
 ```
 AFGreetings from Koha. Huomautus verkkokirjastossa Messages for you: 31.12.2024: Asiakasviesti poistettu tietokannan anonymisoinnissa
 ```
+**Kyyti**
+* On alettu edistää SMS Sender ID:n rekisteröintiä ja käyttöönottoa
+https://www.traficom.fi/fi/ajankohtaista/organisaatioiden-nimissa-lahetettavia-huijausviesteja-torjutaan-uusilla-keinoilla
+* Kouvolassa laskutettu aineisto ei enää aiheuta lainauskieltoa. Tähän päädyttiin kaupunginlakimiehen lausunnon jälkeen. Laskutetut niteet myös poistetaan lainasta ja kirjastojärjestelmästä, kun lasku lähtee.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
