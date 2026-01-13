@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
+* Signumiin luokka ja pääsana - aikataulutusta?
 
 Pohjoisesta etelään
 
