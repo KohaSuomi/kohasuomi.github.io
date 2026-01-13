@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1
 
 Aika: Ti 30.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen (Vaara), Janne Seppänen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI, Päivi Knuutinen (Vaara), Janne Seppänen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Mukavaa uutta vuotta!
@@ -42,12 +42,15 @@ Pohjoisesta etelään
 **Lastu**
 * Normaalia ylläpitoa ja valmistautumista Launeen kirjaston sulkemiseen
 
+**Siilinjärvi**
+* Ei mainittavaa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-1) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 52
 
 Aika: Ti 23.12.2025 klo 9.15<br />
-Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Vaski), Elina Uotila ja Erika Miettinen (Kirkes), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Vanhentuneiden asiakkaiden poistoajo on ajastettu kaikille kimpoille tapahtuvaksi vuosittain 15.1.klo 6.00](https://github.com/KohaSuomi/Koha/discussions/2106) - kannattaa tiedottaa myös sisäisesti, jotta asiakkaiden katoaminen rekisteristä ei tule yllätyksenä.
@@ -79,6 +82,9 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 
 **Lastu**
 * Testillä niteiden erämuokkauksessa ongelma (tiketti: https://github.com/KohaSuomi/Koha/issues/2116), jossa niteet eivät muokkaudu. Tuotannossa toimii, Emmi selvittelee mistä ongelma johtuu.
+
+**Siilinjärvi**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-52) - [Palaa sivun alkuun](/paakayttajat2025)
 
