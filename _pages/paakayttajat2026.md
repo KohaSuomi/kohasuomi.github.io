@@ -13,11 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli, Lari ja Emmi (Koha-Suomi)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
 * Signumiin luokka ja pääsana - aikataulutusta?
+  * Saa tehdä: Lastu, Siili, Vaara ja Kyyti
+  * Tarkistetaan tilanne muiden osalta yllä olevien jälkeen
 
 Pohjoisesta etelään
 
