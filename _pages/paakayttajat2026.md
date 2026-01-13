@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä: Anneli, Lari ja Emmi (Koha-Suomi)
+Läsnä: Anneli, Lari ja Emmi (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
@@ -23,6 +23,10 @@ Läsnä: Anneli, Lari ja Emmi (Koha-Suomi)
 
 Pohjoisesta etelään
 
+**Lappi**
+* Tarkistettiin Koha-Suomi - nimen oikea muoto : Koha-Suomi.
+* Sodankylän remontti alkamassa maaliskuussa. 
+* Signum-muutoksiin liittyen korjattu laskutuspohjia
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 2
