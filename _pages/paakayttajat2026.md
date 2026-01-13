@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti, Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Lari Strand ja Emmi Takkinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu ja Roosa Väisänen (Kyyti, Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
@@ -45,6 +45,9 @@ https://www.traficom.fi/fi/ajankohtaista/organisaatioiden-nimissa-lahetettavia-h
 
 **OUTI**
 * 12.1.2026 ajettu Oulun aineistojen kotikirjastomuutos Oulun keskustakirjasto Saareen, koska pääkirjaston remontin ajan kotikirjastona oli Ruskon kirjavarasto. Ajossa muutettiin kotikirjasto 705 699 niteelle (https://github.com/KohaSuomi/Koha/issues/2114). Varasto- ja lehtiaineistojen kotikirjastomuutokset Koha-tuessa tehdään itse.
+
+**Vaski**
+* Vaskissa yritetään keksiä miten saisimme pakotettua kaikille asiakkaille PIN-koodin vaihdon, jotta pääsisimme tietoturvan kannalta riskialttiilta 1234-tyyppisistä salasanoista eroon. Ongelma on, miten informoida tästä asiakkaita. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
