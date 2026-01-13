@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
-Läsnä: Anneli, Lari ja Emmi (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anneli, Lari ja Emmi (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Tammikuun huoltokatko 14.1.2026](https://github.com/KohaSuomi/Koha/discussions/2121)
@@ -27,6 +27,14 @@ Pohjoisesta etelään
 * Tarkistettiin Koha-Suomi - nimen oikea muoto : Koha-Suomi.
 * Sodankylän remontti alkamassa maaliskuussa. 
 * Signum-muutoksiin liittyen korjattu laskutuspohjia
+
+**Lastu**
+* Lyngsoen automaatin toimintaa testattu nextia vasten, kaikki perustoiminnot toimivat oikein. Jatketaan tiketeissä olevien testailuja.
+* Uusi järjestelmäasetus SIP2AddOpacMessagesToScreenMessage toimii ja SIP-sanoman AF-kentässä välittyy asiakkaalle lisätty verkkokirjastossa näkyvä viesti. AF-kentän alussa on kuitenkin paljon turhaa, jota kenties on mahdollista suodattaa pois viestistä regexin avulla SIP-palvelimen päässä:
+```
+AFGreetings from Koha. Huomautus verkkokirjastossa Messages for you: 31.12.2024: Asiakasviesti poistettu tietokannan anonymisoinnissa
+```
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 2
