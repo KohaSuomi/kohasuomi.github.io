@@ -34,6 +34,8 @@ Toimintalokit tallentavat tiedot tärkeistä tapahtumista, kuten käyttäjien ki
 
 Tarkemmin tietoja [Toimintalokien seuranta -wikissä](https://github.com/KohaSuomi/Koha/wiki/Toimitalokien-seuranta)
 
+Johanna Räisä esittelee asiaa ja tämä on lähinnä tiedoksi asiantuntijaryhmälle, mutta voimme keskustella tarkemmin mitä asioita seurataan.
+
 ### 3. Tiekartta
 
 Päivitetään tiekartta.
