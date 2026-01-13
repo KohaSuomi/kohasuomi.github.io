@@ -47,7 +47,7 @@ https://www.traficom.fi/fi/ajankohtaista/organisaatioiden-nimissa-lahetettavia-h
 * 12.1.2026 ajettu Oulun aineistojen kotikirjastomuutos Oulun keskustakirjasto Saareen, koska pääkirjaston remontin ajan kotikirjastona oli Ruskon kirjavarasto. Ajossa muutettiin kotikirjasto 705 699 niteelle (https://github.com/KohaSuomi/Koha/issues/2114). Varasto- ja lehtiaineistojen kotikirjastomuutokset Koha-tuessa tehdään itse.
 
 **Vaski**
-* Vaskissa yritetään keksiä miten saisimme pakotettua kaikille asiakkaille PIN-koodin vaihdon, jotta pääsisimme tietoturvan kannalta riskialttiilta 1234-tyyppisistä salasanoista eroon. Ongelma on, miten informoida tästä asiakkaita. 
+* Vaskissa yritetään keksiä miten saisimme pakotettua kaikille asiakkaille PIN-koodin vaihdon, jotta pääsisimme tietoturvan kannalta riskialttiilta 1234-tyyppisistä salasanoista eroon. Pohdittavana on, miten pakottaa salansan vaihto ja miten informoida tästä asiakkaita. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
 
