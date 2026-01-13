@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 3
 
-Aika: Ti 12.1.2026 klo 9.15<br />
+Aika: Ti 13.1.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
