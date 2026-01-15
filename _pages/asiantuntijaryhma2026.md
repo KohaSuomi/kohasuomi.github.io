@@ -18,13 +18,13 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 1/2026
 
 Aika: Torstai 15.1.2026 klo 13<br />
-Läsnä: Elina, Kati, Johanna, Hanna, Emmi, Noora, Susanna, Leena, Päivi, Janne, Ari ja Anneli
+Läsnä: Elina Uotila (Kirkes-kirjastot), Kati Sillgren (Helle-kirjastot), Hanna Ikonen (Lumme-kirjastot), Noora Valkonen (OUTI-kirjastot), Susanna Sandell (Vaski-kirjastot), Leena Kinnunen (Lapin kirjasto), Päivi Knuutinen (Vaara-kirjastot), Janne Seppänen (Lastu-kirjastot), Ari Mäkiranta, Anneli Österman, Emmi Takkinen ja Johanna Räisä (Koha-Suomi)
 
 ### 1. Ajankohtaiset asiat
 
-Odotellaan edelleen hankintalakimuutoksen käsittelyä.
+Koha-Suomessa odotellaan edelleen hankintalakimuutoksen käsittelyä.
 
-Koha-Suomella on ständi Kirjastopäivillä kesäkuussa ammattimessuilla. Löytyisikö ständille kirjastoista erilaisia käyttäjiä mukaan esittelemään ja kertomaan Kohasta?
+Koha-Suomella on ständi [Kirjastopäivillä kesäkuussa ammattimessuilla](https://kirjastopaivat.fi/ammattimessut/). Löytyisikö ständille kirjastoista erilaisia käyttäjiä mukaan esittelemään ja kertomaan Kohasta?
 
 ### 2. Kohan toimintalokit ja niiden auditointi
 
@@ -40,15 +40,15 @@ Tarkemmin tietoja [Toimintalokien seuranta -wikissä](https://github.com/KohaSuo
 
 Johanna Räisä esittelee asiaa ja tämä on lähinnä tiedoksi asiantuntijaryhmälle, mutta voimme keskustella tarkemmin mitä asioita seurataan.
 
-Pääkäyttäjäryhmään pohdittavaksi: Riittääkö, että aktiivisessa action_logs-taulussa säilytetään 2 vuotta, vai onko tarvetta pidemmälle ajalle?
+**Pääkäyttäjäryhmään pohdittavaksi**: Riittääkö, että aktiivisessa action_logs-taulussa säilytetään 2 vuotta, vai onko tarvetta pidemmälle ajalle?
 
 ### 3. Tiekartta
 
-Päivitetään tiekartta.
+Käytiin läpi edellinen tiekartta ja päivitettiin tilanne.
 
-Vuoden 2025 tiekartta: [Tiekartta2025joulu.xlsx](https://github.com/user-attachments/files/24493105/Tiekartta2025joulu.xlsx)
+Tiekartta tammikuu 2026: [Tiekartta2026tammi.xlsx](https://github.com/user-attachments/files/24642984/Tiekartta2026tammi.xlsx)
 
-Selvitettävä kimpoissa: 
+Selvitettävä kimpoissa seuraavaan kokoukseen: 
 * Minkälaisia vahvaa tunnistautumista tukevia lomakkeita kunnissa on jo käytössä? Pystyisikö niitä hyödyntämään?
 * Kuinka paljon lähtee paperikirjeitä/kimppa?
 
@@ -57,7 +57,7 @@ Selvitettävä kimpoissa:
 * [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista #2075](https://github.com/KohaSuomi/Koha/issues/2075)
   * Päätös: Toteutetaan johdonmukaisuuden vuoksi
 * [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois #2097](https://github.com/KohaSuomi/Koha/issues/2097)
-  * Päätös: Toteutetaan uusi asetus liitännäiseen, jolla saa määritettyä pois suljettavat nidetyypit (items.itype).
+  * Päätös: Toteutetaan liitännäiseen uusi asetus, jolla saa määritettyä pois suljettavat nidetyypit (items.itype).
 * [Huoltajalta poistuu huollettavan laskusta aiheutunut lainauskielto, kun hän palauttaa omia lainojaan #2118](https://github.com/KohaSuomi/Koha/issues/2118)
   * Siirretään seuraavan kokoukseen, mihin mennessä kimpoissa pohditaan, miten edetään.
   * Teknisesti vaihtoehdot ovat:
