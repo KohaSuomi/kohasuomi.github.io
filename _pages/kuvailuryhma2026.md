@@ -11,7 +11,7 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 
 ## Kuvailuryhmän muistio 1/2026 ##
 
-Aika: 15.1.2025 klo 13.15–14.44
+Aika: 14.1.2026 klo 13.15-14.26
 
 Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Eeva Hulkkonen (Lastu), Pasi Hynninen (Helle), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi)
 
