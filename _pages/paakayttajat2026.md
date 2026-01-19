@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 4
+
+Aika: Ti 20.1.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195) 
+
+Etelästä pohjoiseen.
+
 ## Viikko 3
 
 Aika: Ti 13.1.2026 klo 9.15<br />
