@@ -25,7 +25,7 @@ Sihteeriksi valittiin Marja Leskinen. Kevään kokouksissa Kirkes-kirjastojen ed
 
 #### 2.	KaTi-työryhmän kokoukset ####
 <ul>
-  <li>Muistiot: https://koha-suomi.fi/kati </li>
+  <li>Muistiot Koha-Suomen sivuilla: <a href="https://koha-suomi.fi/kati" target="_blank">KaTi-työryhmä </a> </li>
   <li>Seuraavaan kokoukseen koontia paikallisten kuvailukenttien käytöstä kimppakohtaisesti.</li>
 </ul>
 
@@ -38,14 +38,14 @@ Sihteeriksi valittiin Marja Leskinen. Kevään kokouksissa Kirkes-kirjastojen ed
 
 #### 4.	Tietueet, joiden merkkipaikka 000/17 = z ####
 <ul>
-  <li>Liittyy tikettiin Lumme: Tietuesiirtäjä siirsi toistuvasti samoja kolmea tietuetta: https://github.com/KohaSuomi/Koha/issues/1986 -> Valutusvirhe korjattu Nexteille </li>
+  <li>Liittyy tikettiin <a href="https://github.com/KohaSuomi/Koha/issues/1986" target="_blank">Lumme: Tietuesiirtäjä siirsi toistuvasti samoja kolmea tietuetta </a> -> Valutusvirhe korjattu Nexteille </li>
   <li>Anneli on tehnyt raportin, jolla löytyy TäTistä tietueet, joiden 000/17 = z. Tietueita 22 kpl. Päätettiin poistaa kyseiset tietueet TäTistä. </li>
   <li>Annelin tekemän raportin voi ottaa käyttöön myös paikalliskantoihin. Tarvittaessa tietueet voi korjata poimimalla Melindasta uuden tietueen vanhan päälle tai muuttaa merkkipaikan arvoksi 4.</li>
 </ul>
 
 #### 5.	Finton sanastomuutosten seuranta ####
 <ul>
-  <li>Tietokannan tietojen siivousautomatiikkaa tietueille: https://github.com/KohaSuomi/Koha/issues/511 </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a></li>
   <li>Antti yrittää koota kaikista paikalliskannoista löytyviä nimekkeitä, että saadaan tieto toimiiko sanastomuutosten siivousautomatiikka paikalliskannoissa.</li>
 </ul>
 
@@ -57,7 +57,7 @@ Sihteeriksi valittiin Marja Leskinen. Kevään kokouksissa Kirkes-kirjastojen ed
 
 #### 7.	Muita asioita ####
 <ul>
-  <li>TäTi-nextiä voi alkaa testaamaan versiopäivityksen osalta osoitteessa https://tati-next.koha-suomi.fi Toimintoja voi testata kuten paikallis-nexteissä. </li>
+  <li>TäTi-nextiä voi alkaa testaamaan versiopäivityksen osalta osoitteessa <a href="https://tati-next.koha-suomi.fi" target="_blank">tati-next </a>. Toimintoja voi testata kuten paikallis-nexteissä. </li>
   <li>Vieraskielisen kaunokirjallisuuden luokkamuutokset tehty TäTissä kielien ukraina, somali ja turkki osalta. </li>
   <li>Melinda korjannut KAINU-tietokannan erätuonnista tulleita virheitä, kuten tupla 0-kentät. Korjaukset toivottavasti replikoituneet paikalliskantoihin asti. </li>
   <li>Melinda selvittelee, pitäisikö jonkin toisen Melinda-kirjaston Melinda-tietueelle lisäämien uusien osakohteiden replikoitua TäTiin. (Esim. tapaus, jossa Cd-levyn liitteenä olevan Blu-rayn osakohteet on lisätty tietueelle) </li>
@@ -67,9 +67,9 @@ Sihteeriksi valittiin Marja Leskinen. Kevään kokouksissa Kirkes-kirjastojen ed
 #### 8.	Seuraavat kokoukset ####
 Kevään kokousajat ovat:
 <ul>
-  <li>ke 11.2. klo 13.15. - 14.45 </li>
-  <li>ti 10.3. klo 13.15. - 14.45 </li>
-  <li>ke 15.4. klo 13.15. - 14.45 </li>
-  <li>ke 20.5. klo 13.15. - 14.45 </li>
+  <li>Ke 11.2. klo 13.15. - 14.45 </li>
+  <li>Ti 10.3. klo 13.15. - 14.45 </li>
+  <li>Ke 15.4. klo 13.15. - 14.45 </li>
+  <li>Ke 20.5. klo 13.15. - 14.45 </li>
 </ul>
 
