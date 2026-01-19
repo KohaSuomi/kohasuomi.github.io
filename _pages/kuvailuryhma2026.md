@@ -61,7 +61,7 @@ Sihteeriksi valittiin Marja Leskinen. Kevään kokouksissa Kirkes-kirjastojen ed
   <li>Vieraskielisen kaunokirjallisuuden luokkamuutokset tehty TäTissä kielien ukraina, somali ja turkki osalta. </li>
   <li>Melinda korjannut KAINU-tietokannan erätuonnista tulleita virheitä, kuten tupla 0-kentät. Korjaukset toivottavasti replikoituneet paikalliskantoihin asti. </li>
   <li>Melinda selvittelee, pitäisikö jonkin toisen Melinda-kirjaston Melinda-tietueelle lisäämien uusien osakohteiden replikoitua TäTiin. (Esim. tapaus, jossa Cd-levyn liitteenä olevan Blu-rayn osakohteet on lisätty tietueelle) </li>
-  <li>Piki-kirjastoista saatu vastaus Kirjastopalvelun ruotsinkielisten tietueiden muokkaamisesta: Ruotsinkieliset tietueet käännetään suomeksi. Jos Melindassa ei ole nimekettä entuudestaan, PIKI vie kääntämänsä tietueen Melindaan. Pikissä mietitään parhaillaan kuvailuprosessia ja he lupasivat pohtia, voisivatko jatkossa viedä Kirjastopalvelun tietueet ruotsinkielisenä Melindaan. Seurataan tilannetta ja kysellään myöhemmin, onko asia edennyt. </li>
+  <li>Piki-kirjastoista saatu vastaus Kirjastopalvelun ruotsinkielisten tietueiden muokkaamisesta: Ruotsinkieliset tietueet käännetään suomeksi. Jos Melindassa ei ole nimekettä entuudestaan, Piki vie kääntämänsä tietueen Melindaan. Pikissä mietitään parhaillaan kuvailuprosessia ja he lupasivat pohtia, voisivatko jatkossa viedä Kirjastopalvelun tietueet ruotsinkielisenä Melindaan. Seurataan tilannetta ja kysellään myöhemmin, onko asia edennyt. </li>
 </ul>
 
 #### 8.	Seuraavat kokoukset ####
