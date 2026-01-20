@@ -13,10 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset**
-* [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195) 
+* [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
+* Versionvaihto
+  * Käykää kaikki tekemässä sorting rule -sääntö: https://github.com/KohaSuomi/Koha-25x/issues/18
+* Käykää merkkaamassa, koska teidän kimppaan haluatte, että tehdään 0000-00-00-korjausajo tuotannossa: https://github.com/KohaSuomi/Koha/issues/1957
 
 Etelästä pohjoiseen.
 
