@@ -37,7 +37,7 @@ Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 * Hankinta ihmetellyt tilausten siirron yhteydessä sitä, että osittain saapuneet tilaukset ovat kokonaisuudessaan siirtyneet uuden budjettivuoden alle. Todettu, ettei oikein voi toimia toisin, koska hankinnan tili määritellään koko tilaukselle eikä tilauksen niteille erikseen.
 
 **Helle**
-* Porvoon kirjastoautosta ilmoittivat, että perjantaina 16.1.2026 noin klo 17.30 Koha lakannut toimasta. Muihin järjestelmiin ja nettiin oli päässyt normaaliin tapaan. Aiemmin on ollut usein perjantaisin huomattavaa Kohan hidastelua klo 17.00 jälkeen.
+* Porvoon kirjastoautosta ilmoittivat, että perjantaina 16.1.2026 noin klo 17.30 Koha oli lakannut toimimasta. Muihin järjestelmiin ja nettiin oli päässyt normaalisti. Aiemmin on ollut usein perjantaisin huomattavaa Kohan hidastelua klo 17.00 jälkeen.
 
 ## Viikko 3
 
