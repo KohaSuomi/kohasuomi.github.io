@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
@@ -35,6 +35,8 @@ Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 **Vaski**
 * PIN-koodin tallentamiseen lisätty tarkistus verkkokirjastossa ja Kohassa. Kyseltiin olisiko kiinnostusta yhteiselle kehitysehdotukselle Kohan osalta, mutta kiinnostusta ei ilmennyt joten mennään omalla js-koodilla.
 * Hankinta ihmetellyt tilausten siirron yhteydessä sitä, että osittain saapuneet tilaukset ovat kokonaisuudessaan siirtyneet uuden budjettivuoden alle. Todettu, ettei oikein voi toimia toisin, koska hankinnan tili määritellään koko tilaukselle eikä tilauksen niteille erikseen.
+**Helle**
+* Porvoon kirjastoautosta ilmoittivat, että perjantaina 16.1.2026 noin klo 17.30 Koha lakannut toimasta. Muihin järjestelmiin ja nettiin oli päässyt normaaliin tapaan. Aiemmin on ollut usein perjantaisin huomattavaa Kohan hidastelua klo 17.00 jälkeen.
 
 ## Viikko 3
 
