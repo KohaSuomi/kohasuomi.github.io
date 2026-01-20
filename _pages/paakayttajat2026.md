@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
@@ -50,6 +50,9 @@ Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 * Perustietonäkymässä näkyy sarjatieto kentästä 800 ja sen kuvailusäännöt ovat muuttuneen siten, että sarjalinkin haku ei enää löydä sarjan vanhoja eri tavalla kuvailtuja osia. 490-kentässä sarja on kirjattu vanhalla tavalla ja jos se näkyisi perustietonäkymässä ja sarjan nimi olisi linkki löytyisi myös sarjan vanhat osat. Finnassa näkyy linkkeinä sekä 800 että 490.
 Anneli arveli, että tietuenäyttöjen mukautuksessa voisi kokeilla 490-kentän laittamista näkyville, mutta saako sen linkiksi, ei ole tietoa. Toinen vaihtoehto olisi laittaa kehitysehdotusta yhteisöön.
 * Kouvolalla on tahtotila saada PowerBI:n kokoelmaraportit päivittymään raportterirajapinnan kautta palvelimelle. Kysyin toimintatapaa. Sovitaan palaveri Kodon ja palvelinta hallinnoivan tahon kanssa.
+
+**OUTI**
+* Oulun aineistojen kellutuspoikkeuksien testausta FloatRules-järjestelmäasetukseen tallennettujen määritysten mukaisesti, ettei tietyt nidetyypit ja hyllypaikat kelluisi Oulussa, vaan pyrkisivät kotikirjastoon. Hyllypaikkasääntö ei toimi vielä.
 
 
 ## Viikko 3
