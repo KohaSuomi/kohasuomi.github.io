@@ -44,7 +44,7 @@ Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 * Kaukolainan "Maksettu hinta"-kentässä ongelmaa numeron 0 tallentamisessa, tiketti tehty: https://github.com/KohaSuomi/Koha/issues/2138
 
 **Kirkes**
-* Signum-muutoksen valmistelut lähes valmiita, vielä yhdessä kirjastossa tarkistettava automaattien lajittelusääntöjen tilanne
+* Signum-muutoksen valmistelut lähes valmiita, vielä yhdessä kirjastossa tarkistettava automaattien lajittelusääntöjen tilanne.
 
 ## Viikko 3
 
