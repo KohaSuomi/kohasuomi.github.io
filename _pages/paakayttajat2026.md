@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
@@ -38,6 +38,10 @@ Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 
 **Helle**
 * Porvoon kirjastoautosta ilmoittivat, että perjantaina 16.1.2026 noin klo 17.30 Koha oli lakannut toimimasta. Muihin järjestelmiin ja nettiin oli päässyt normaalisti. Porvoon kirjastoautossa on aiemmin ollut usein perjantaisin huomattavaa Kohan hidastelua klo 17.00 jälkeen.
+
+**Lastu**
+* Automaatin testauksia jatkettu, SIP-palvelimen päässä tehty regex toimii ja asiakkaan AF-kentässä välittyvä viesti on siistimpi.
+* Kaukolainan "Maksettu hinta"-kentässä ongelmaa numeron 0 tallentamisessa, tiketti tehty: https://github.com/KohaSuomi/Koha/issues/2138
 
 ## Viikko 3
 
