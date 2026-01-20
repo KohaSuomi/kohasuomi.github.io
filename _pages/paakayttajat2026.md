@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
@@ -23,6 +23,10 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 * [Käykää merkkaamassa, koska teidän kimppaan haluatte, että tehdään 0000-00-00-korjausajo tuotannossa](https://github.com/KohaSuomi/Koha/issues/1957)
 
 Etelästä pohjoiseen.
+
+**Vaara**
+* Perjantaina tuli Joensuun johtajalle tieto yhdestä Vaara-kirjastosta, että heidän sähköpostiinsa oli tullut Paytraililta viesti maksusta 11,50 euroa. Tätä ihmeteltiin, kunnes katsoin Paytrailin maksutaulukosta kyseisen summan kohdalta, mistä maksusta on kysymys. Osoittautui, että nykyään seutukirjaston asiakkaana oleva henkilö oli maksanut mainitun summan eikä asiakkaan tiedoissa ollut sähköpostiosoitetta ollenkaan. Ryhdyin tutkimaan lokitietoja ja sieltä selvisi, että asiakas oli ollut toisen Vaara-kirjaston kotipalveluasiakas aikaisemmin ja sen vuoksi asiakkaan tiedoissa oli ko. kirjaston sähköpostiosoite. Ihmettelin asiaa Paytrailille, joka vastasi, että "selvittää tarkemmin asiointipalvelun teknisentuen kanssa" eli käytännössä Finna-tuen kanssa. Sieltä selvisi, että Finna käyttää ensisijaisesti omaan asiakasrekisteriinsä tallennettua sähköpostiosoitetta. Tätähän me emme pysty mitenkään näkemään asiakkaan tiedoista Kohassa. Pyysin Finna-tukea poistamaan asiakkaan sähköpostiosoitteen, koska hänellä ei Kohassa ole mitään sähköpostiosoitetta.
+Tämä Finnan oma sähköpostikenttä aiheuttaa kyllä ongelmia.
 
 ## Viikko 3
 
