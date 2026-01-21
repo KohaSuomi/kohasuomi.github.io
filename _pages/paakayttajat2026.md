@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Uuden delete_bibliographic_records-oikeuden asettaminen käyttäjille](https://github.com/KohaSuomi/Koha-25x/issues/195)
@@ -53,6 +53,10 @@ Anneli arveli, että tietuenäyttöjen mukautuksessa voisi kokeilla 490-kentän 
 
 **OUTI**
 * Oulun aineistojen kellutuspoikkeuksien testausta FloatRules-järjestelmäasetukseen tallennettujen määritysten mukaisesti, ettei tietyt nidetyypit ja hyllypaikat kelluisi Oulussa, vaan pyrkisivät kotikirjastoon. Hyllypaikkasääntö ei toimi vielä.
+
+**Lumme**
+* Viime viikon perjantain pienen käyttökatkon syyksi paljastui Plack-ongelma. Ongelma saatiin korjattua nopeasti.
+* Otettiin käyttöön asetus kausijulkaisuille, joka muuttaa edelliset numerot automaattisesti Saatavana-tilaan.
 
 
 ## Viikko 3
