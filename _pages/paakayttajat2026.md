@@ -59,7 +59,7 @@ Anneli arveli, että tietuenäyttöjen mukautuksessa voisi kokeilla 490-kentän 
 * Otettiin käyttöön asetus kausijulkaisuille, joka muuttaa edelliset numerot automaattisesti Saatavana-tilaan.
 
 **Siilinjärvi**
-* Aineistotyyppimuutos äänikirjoille ajettu, vielä jäi jotain korjattavaa jälkikäteenkin.
+* [Aineistotyyppimuutos äänikirjoille](https://github.com/KohaSuomi/Koha/issues/750) ajettu, vielä jäi jotain korjattavaa jälkikäteenkin.
 * Muuten ei mitään erikoista.
 
 
