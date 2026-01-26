@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
+* Talteen ja tiedoksi: [DVV:n PowerBI-raportti Suomi.fi viesteistä](https://app.powerbi.com/view?r=eyJrIjoiNWM5NWQ1Y2YtNjliZS00NDQ4LTk5YzItYWJjZjFmNWNmYzkxIiwidCI6ImFhMjE1NzcyLTgzYmYtNDc4OC04MDY1LTUyNDU2ZmEyNjAyNyIsImMiOjh9)
+  * Täältä voi esim. tutkia, minkä tyyppisinä viestit on mennyt käyttäjille (paperi/sähköinen).
 
 Pohjoisesta etelään
 
