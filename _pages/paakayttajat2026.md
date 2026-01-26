@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 5
+
+Aika: Ti 27.1.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
+
+
 ## Viikko 4
 
 Aika: Ti 20.1.2026 klo 9.15<br />
@@ -62,6 +76,7 @@ Anneli arveli, että tietuenäyttöjen mukautuksessa voisi kokeilla 490-kentän 
 * [Aineistotyyppimuutos äänikirjoille](https://github.com/KohaSuomi/Koha/issues/750) ajettu, vielä jäi jotain korjattavaa jälkikäteenkin.
 * Muuten ei mitään erikoista.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-4) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 3
 
@@ -113,7 +128,7 @@ https://www.traficom.fi/fi/ajankohtaista/organisaatioiden-nimissa-lahetettavia-h
 **Siilinjärvi**
 * Ei mainittavaa
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-2) - [Palaa sivun alkuun](/paakayttajat2026)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-3) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 2
 
