@@ -21,6 +21,7 @@ Läsnä:
   * Täältä voi esim. tutkia, minkä tyyppisinä viestit on mennyt käyttäjille (paperi/sähköinen).
 * Versionvaihto:
   * [Nexteiltä kopioitavat tiedot](https://github.com/KohaSuomi/Koha-25x/wiki/Versionvaihdon-muistiinpanot-kehitt%C3%A4jille#nexteilt%C3%A4-kopioitavat-tiedot) - käydään läpi ja tarkistetaan, onko kaikki listatut tarpeen ja puuttuuko jotain.
+  * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta](https://github.com/KohaSuomi/Koha/issues/1262#issuecomment-3798749609) - Taulujen asetuksissa uusi vaihtoehto, jolla saa käyttäjäkohtaisesti talteen haun ja suodatuksen tilan ja muistamaan asetukset sivua vaihdettaessa.
 
 Pohjoisesta etelään
 
