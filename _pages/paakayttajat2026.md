@@ -27,7 +27,7 @@ Pohjoisesta etelään
 
 **Kirkes**
  * Elina tehnyt testauksia ja muokkauksia nextillä.
- * Erika esittelee Kirkes-kirjastojen Suomi.fi-viestiprosessia Suomi.fi-tukiklinikka pe 30.1. klo 8.30-9.15. https://kehittajille.suomi.fi/tapahtumat/kirkes-kirjastojen-sahkoiset-viestit-suomi-fi Myös Johanna on Kohan puolelta mukana. Klinikan alussa esitellään sivusto, josta raportit esim. sähköisten ja paperiviestien jakautumisesta jatkossa löytyvät. Materiaali laitetaan Koha-pääkäyttäjille jakoon klinikan jälkeen.
+ * Erika esittelee Kirkes-kirjastojen Suomi.fi-viestiprosessia Suomi.fi-tukiklinikalla pe 30.1. klo 8.30-9.15. https://kehittajille.suomi.fi/tapahtumat/kirkes-kirjastojen-sahkoiset-viestit-suomi-fi Myös Johanna on Kohan puolelta mukana. Klinikan alussa esitellään sivusto, josta raportit esim. sähköisten ja paperiviestien jakautumisesta jatkossa löytyvät. Materiaali laitetaan Koha-pääkäyttäjille jakoon klinikan jälkeen.
  * Tuusulan kirjastoautossa ollut joitain kummallisia varausten viimeisiä noutopäiviä, vaikka laina- ja maksusääntöihin tms. ei ole tehty muutoksia. Selvitellään lisää ja palataan asiaan, jos selitystä ei löydy.
 
 
