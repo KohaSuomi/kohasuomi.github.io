@@ -13,12 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi), Lotta Juvonen ja Kati Sillgren (Helle)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
-* onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
+* Onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti? / Johanna
 * Talteen ja tiedoksi: [DVV:n PowerBI-raportti Suomi.fi viesteistä](https://app.powerbi.com/view?r=eyJrIjoiNWM5NWQ1Y2YtNjliZS00NDQ4LTk5YzItYWJjZjFmNWNmYzkxIiwidCI6ImFhMjE1NzcyLTgzYmYtNDc4OC04MDY1LTUyNDU2ZmEyNjAyNyIsImMiOjh9)
   * Täältä voi esim. tutkia, minkä tyyppisinä viestit on mennyt käyttäjille (paperi/sähköinen).
+  * Linkki lakkaa toimimasta jossain vaiheessa.
 * Versionvaihto:
   * [Nexteiltä kopioitavat tiedot](https://github.com/KohaSuomi/Koha-25x/wiki/Versionvaihdon-muistiinpanot-kehitt%C3%A4jille#nexteilt%C3%A4-kopioitavat-tiedot) - käydään läpi ja tarkistetaan, onko kaikki listatut tarpeen ja puuttuuko jotain.
   * [Niteet, jotka ovat paikalla noutokirjastossa piiloon muiden hyllyvarauslistalta](https://github.com/KohaSuomi/Koha/issues/1262#issuecomment-3798749609) - Taulujen asetuksissa uusi vaihtoehto, jolla saa käyttäjäkohtaisesti talteen haun ja suodatuksen tilan ja muistamaan asetukset sivua vaihdettaessa.
