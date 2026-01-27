@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi), Lotta Juvonen ja Kati Sillgren (Helle)
 
 **Yhteiset**
 * onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
@@ -42,7 +42,14 @@ Pohjoisesta etelään
 
 **Lappi**
 * Virheelliset postinumerot -rapsalle oli tullut ulkomainen postinumero. Löytyi vanha tieto, että virheelliset postinumerot estävät e-kirjeiden lähetyksen, mutta onko tilanne edelleen tämä?
-* Silmäilty avoimia tikettejä joissa Lappi mukana: tiketin 750 vaihe oli epäselvä, selvitetään tilanne. 
+* Silmäilty avoimia tikettejä joissa Lappi mukana: tiketin 750 vaihe oli epäselvä, selvitetään tilanne.
+
+**Helle**
+* Johanna lisännyt Kaukolaina-toimintoon liittyvät kaksi IntranetUserJS-rimpsua liittyen lisäkenttiin ja käännöksiin.
+[Helle, IntranetUserJS-rimpsu käyttöön: "Lisää uusi kaukolainapyyntö-lomakkeelle automaattisesti kaksi lisäkenttää"](https://github.com/KohaSuomi/Koha/issues/2144)
+* Lisätty Koha-yhteisön Bugzillaan tiketti Kaukolaina-toimintoon tarvittavasta Eräpäivä-kentästä
+[Add new field to ILL request]( https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41712)
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
 
