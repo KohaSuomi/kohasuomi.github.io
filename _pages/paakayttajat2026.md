@@ -38,7 +38,7 @@ Pohjoisesta etelään
 
 **Lumme**
 * Nextin työstöä valmiiksi. Tarkoituksena testailla laina- ja maksusääntöjä.
-* Kuvailijat käyväy edelleen läpi Celia-muutoksia.
+* Kuvailijat käyvät edelleen läpi Celia-muutoksia.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
