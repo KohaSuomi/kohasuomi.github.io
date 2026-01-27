@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
@@ -40,6 +40,9 @@ Pohjoisesta etelään
 * Nextin työstöä valmiiksi. Tarkoituksena testailla laina- ja maksusääntöjä.
 * Kuvailijat käyvät edelleen läpi Celia-muutoksia.
 
+**Lappi**
+* Virheelliset postinumerot -rapsalle oli tullut ulkomainen postinumero. Löytyi vanha tieto, että virheelliset postinumerot estävät e-kirjeiden lähetyksen, mutta onko tilanne edelleen tämä?
+* Silmäilty avoimia tikettejä joissa Lappi mukana: tiketin 750 vaihe oli epäselvä, selvitetään tilanne. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
 
