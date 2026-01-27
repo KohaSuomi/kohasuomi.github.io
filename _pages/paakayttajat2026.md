@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti?
@@ -31,7 +31,10 @@ Pohjoisesta etelään
  * Tuusulan kirjastoautossa ollut joitain kummallisia varausten viimeisiä noutopäiviä, vaikka laina- ja maksusääntöihin tms. ei ole tehty muutoksia. Selvitellään lisää ja palataan asiaan, jos selitystä ei löydy.
 
 **OUTI**
-* Pääkäyttäjät käyvät tänään läpi uuden version järjestelmäasetukset, kuinka ne halutaan kimpassa olevan ja mitä uutta versioon on tulossa. Katsotaan, pitkääkö joistain asioista ehdä kimpassa erillinen päätös. 
+* Pääkäyttäjät käyvät tänään läpi uuden version järjestelmäasetukset, kuinka ne halutaan kimpassa olevan ja mitä uutta versioon on tulossa. Katsotaan, pitkääkö joistain asioista ehdä kimpassa erillinen päätös.
+
+**Siilinjärvi**
+* Meillä on jäänyt aikanaan päivittämättä luettelointipohjiin kenttä 952$y Kohan aineistolaji -> Kohan nidetyyppi. Nyt päivitetty, joten niteen muokkauslomakkeellakin otsikko näkyy oikein.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
