@@ -394,7 +394,7 @@ kunkin nimekkeen vasemmalla puolella olevaan laatikkoon ja valita näille
 nimekkeille tilan alla olevasta valikosta ja syyn valinnalle. Voit myös
 kokonaan arkistoida ehdotuksen _Arkistoi valitut_ -valinnalla.
 
-![Hankintaehdotusten hallinta -sivulla Muuta valittujen hankintaehdotusten tila -osiosta ympäröity Merkitse valitut ja Tästä syystä -osio vasemmalla sekä oikealla Poista valitut -otsikko ja sen alapuolelta Poista-nappi.](/assets/files/docs/Hankinta/hankinta27.png)
+![Hankintaehdotusten hallinta -sivulla Muuta valittujen hankintaehdotusten tila -osiosta ympäröity Merkitse valitut ja Tästä syystä -osio vasemmalla sekä oikealla Arkistoi valitut -otsikko ja sen alapuolelta Arkistoi-nappi.](/assets/files/docs/Hankinta/hankinta27.png)
 
 Klikkaamalla _Muokkaa_ hankintaehdotusrivin oikeassa reunassa, pääset muokkaamaan
 hankintaehdotusta.  
@@ -428,11 +428,11 @@ sähköpostiviesti ehdotuksen hyväksymisestä/hylkäämisestä.
 ## 7.4 Tilausten teko
 
 Kun teet tilauksen, aloita hakemalla toimittajan tiedot.  
-![Hankinnat-osion etusivulla Tilausten hallinta -otsikon alapuolella Toimittaja-haku](/assets/files/docs/Hankinta/hankinta33.png)
+![Hankinnat-osion etusivulla Hae toimittajia -otsikon alapuolella Toimittaja-haku](/assets/files/docs/Hankinta/hankinta33.png)
 
 ### 7.4.1 Tilauksen luominen
 
-Klikkaa ensin _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yläpuolella.
+Valitse taulukosta haluamasi toimittaja ja klikkaa sitten _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yläpuolella.
 
 ![Toimittajan tiedoissa on ympäröitynä Uusi-valikosta Tilauskori](/assets/files/docs/Hankinta/hankinta40.png)
 
