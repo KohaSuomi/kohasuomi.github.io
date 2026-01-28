@@ -313,9 +313,7 @@ _Hankintaehdotukset_-linkkiä _Hankinnat_-sivun vasemmassa reunassa.
 
 ### 7.3.1 Hankintaehdotuksen tekeminen
 
-Hankintaehdotuksia voi tehdä virkailijatyökalussa kirjaston puolesta tai
-asiakkaan puolesta. Asiakkaat voivat tehdä hankintaehdotuksia Kohan
-verkkokirjastossa (ei Finnassa tällä hetkellä).
+Hankintaehdotuksia voi tehdä virkailijatyökalussa kirjaston puolesta tai asiakkaan puolesta.
 
 Jos et halua liittää hankintaehdotukseen asiakastietoa, lähde liikkeelle klikkaamalla Hankintaehdotusten hallinnassa _Uusi hankintaehdotus_ -nappulaa.
 
@@ -394,7 +392,7 @@ kirjaston) hankintaehdotukset, valitse hankintaehdotustaulukon yläpuolelta _Nä
 Kun katsot _Odottaa_-tilassa olevia ehdotuksia, voit tehdä valinnan
 kunkin nimekkeen vasemmalla puolella olevaan laatikkoon ja valita näille
 nimekkeille tilan alla olevasta valikosta ja syyn valinnalle. Voit myös
-kokonaan poistaa ehdotuksen _Poista valitut_ -valinnalla.
+kokonaan arkistoida ehdotuksen _Arkistoi valitut_ -valinnalla.
 
 ![Hankintaehdotusten hallinta -sivulla Muuta valittujen hankintaehdotusten tila -osiosta ympäröity Merkitse valitut ja Tästä syystä -osio vasemmalla sekä oikealla Poista valitut -otsikko ja sen alapuolelta Poista-nappi.](/assets/files/docs/Hankinta/hankinta27.png)
 
