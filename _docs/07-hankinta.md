@@ -249,16 +249,15 @@ paljon kullekin toimittajalle on maksettu.
 
 #### 7.2.3.1 Lisää sopimus
 
-Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_. Tai vasemmasta reunasta _Sopimukset -> Uusi -> Sopimus_
-
-![Toimittajan tiedoissa vasemmassa reunassa valikosta ympäröitynä punaisella Sopimukset sekä Uusi-valikko avattuna ja ympäröitynä punaisella Uusi - Sopimukset -alue.](/assets/files/docs/Hankinta/hankinta17.png)
+Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_. Tai jos toimittajalla ei ole vielä ennestään sopimuksia, näkyy sivulla linkki _Lisää sopimus_.
+![Sopimukset-osiossa Uusi-valikko avattuna ja ympäröitynä punaisella Sopimukset -alue sekä taustalla näkyvä Lisää sopimus -linkki.](/assets/files/docs/Hankinta/hankinta17.png)
 
 Saat lomakkeen, johon pitää tallentaa perustiedot sopimuksesta.
 
 ![Uusi sopimus kohteelle Testitoimittaja -lomake, jossa kentät Nimi (pakollinen), Kuvaus, Alkupvm (pakollinen) sekä Loppumispvm (pakollinen).](/assets/files/docs/Hankinta/hankinta18.png)
 
 **Tärkeää:** Et voi tallentaa sopimusta jälkikäteen. Loppupäivämäärä ei
-saa olla ennen kuluvaa päivää.
+saa olla ennen Alkupvm-arvoa.
 
 Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla. Sopimuksen voi _poistaa_ tai sitä voi _muokata_ Toiminnot-sarakkeen painikkeilla.
 
