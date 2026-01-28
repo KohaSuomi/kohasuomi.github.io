@@ -465,7 +465,7 @@ alasvetovalikosta.
 
 Klikkaa lopuksi _Tallenna_.
 
-![Yhteenvetonäkymä juuri luodusta tilauskorista. Tilauskori Testikori (40491) kirjastolle Testitoimittaja](/assets/files/docs/Hankinta/hankinta42.png)
+![Yhteenvetonäkymä juuri luodusta tilauskorista. Tilauskori Testikori (4524) kirjastolle Testitoimittaja](/assets/files/docs/Hankinta/hankinta42.png)
 
 Kun tilaus on luotu, voit lisätä siihen nimekkeitä, joita tilataan.
 Aloita klikkaamalla _Lisää tilauskoriin_ -nappia.
@@ -474,8 +474,7 @@ Valitse sitten, miten haluat lisätä nimekkeen:
 
 ![Pop-up, jossa eri tapoja lisätä nimeke. Tavat kuvattu tekstissä alapuolella.](/assets/files/docs/Hankinta/hankinta421.png)
 
-Ensin esitellään kaikki eri tavat lisätä tilaus, lopussa kerrotaan Nide-
-ja tilitystietojen lisääminen.
+Ensin esitellään kaikki eri tavat lisätä tilaus, lopussa kerrotaan Nide- ja tilitystietojen lisääminen.
 
 #### 7.4.1.1. Olemassa olevasta tietueesta
 
