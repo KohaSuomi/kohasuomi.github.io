@@ -43,14 +43,22 @@ IllLog| Älä kerää lokia |Tämä kerää lokitietoja, jonka saa näkyviin Kau
 
 ### ILLRequestsTabs
 
+Pyyntöjen tilojen lyhenteet löytyvät [Kaukolaina-ohjeesta](https://koha-suomi.fi/dokumentaatio/kaukolainat/#1431-pyynt%C3%B6jen-tilat).
+
 ```
 - name: Pyydetyt
   status:
     - REQ
     - GENREQ
+- name: Lainassa
+  status:
+    - CHK
 - name: Valmiit
   status:
     - COMP
+- name: Palautetut
+  status:
+    - RET
 ```
 ### IntranetUserCSS 
 
