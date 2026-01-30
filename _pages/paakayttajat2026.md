@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Johanna Räisä (Koha-Suomi), Irina Halminen (Vaara, klo 9.45 saakka), Auli Rantasalo (Vaara, klo 10 saakka), Hanna Hyttinen (Vaara)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI); Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Leena Kinnunen (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Johanna Räisä (Koha-Suomi), Irina Halminen (Vaara, klo 9.45 saakka), Auli Rantasalo (Vaara, klo 10 saakka), Hanna Hyttinen (Vaara), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Onko käytössä ulkoisia palveluita, joihin olisi tarpeen vaihtaa salasana? Esim. tekstiviestipalvelut, posti? / Johanna
@@ -50,6 +50,9 @@ Pohjoisesta etelään
 [Helle, IntranetUserJS-rimpsu käyttöön: "Lisää uusi kaukolainapyyntö-lomakkeelle automaattisesti kaksi lisäkenttää"](https://github.com/KohaSuomi/Koha/issues/2144)
 * Lisätty Koha-yhteisön Bugzillaan tiketti Kaukolaina-toimintoon tarvittavasta Eräpäivä-kentästä
 [Add new field to ILL request]( https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41712)
+
+**Kyyti**
+* Selvitetty mahdollisuutta ottaa eräpäivän mukaan järjestykseen lajiteltu lainakuitti käyttöön.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-5) - [Palaa sivun alkuun](/paakayttajat2026)
