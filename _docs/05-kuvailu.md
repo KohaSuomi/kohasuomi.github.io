@@ -859,16 +859,31 @@ _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle
 
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
 
+## 5.4 Työkalut
 
-## 5.4. Auktoriteetit
+Kuvailuun liittyy myös työkaluja. Ne löytyvät Kuvailu-osiosta Työkalut-otsikon alapuolelta.
+
+### 5.4.1 Poistettujen tietueiden palautus
+
+Poistettuja tietueiden palautusta varten on työkalu nimeltään _Poistettujen kuvailutietueiden palautustyökalu_. Tämä on Koha-Suomen oma työkalu, joka tulee poistumaan, kun yhteisössä tehty vastaava työkalu tulee meillä aikanaan versionvaihdossa 25.11.
+
+#### 5.4.1.1 Poistettujen kuvailutietueiden hakeminen
+
+Poistettuja kuvailutietueita voi hakea aikavälin perusteella
+
+![](/assets/files/docs/Luettelointi/kuvailu77.png)
+
+### 5.4.2 Poistettujen niteiden palautus
+
+## 5.5. Auktoriteetit
 
 ohje tehdään myöhemmin
 
-## 5.5. Kuvailuohjeet
+## 5.6. Kuvailuohjeet
 
 <a href="https://koha-community.org/manual/latest/en/html/cataloging.html" target="_blank">Yhteisön kuvailuohjeet</a>
 
-### 5.5.1. Niteiden tarrat ja niiden tulostaminen
+### 5.6.1. Niteiden tarrat ja niiden tulostaminen
 
 Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#1294-tarratulostusty%C3%B6kalu)
 
