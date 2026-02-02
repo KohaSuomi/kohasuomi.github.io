@@ -20,6 +20,8 @@ Läsnä:
 * Versionvaihto:
   * [Onko kaikilla preferred_name-kenttä näkyvissä Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)? Voiko tiketin sulkea?
   * [Uusien käyttäjäoikeuksien create_public_lists ja use_public_lists lisääminen versiopäivityksessä #205](https://github.com/KohaSuomi/Koha-25x/issues/205)
+  * [Varaushyllyjen varaamis- ja lukitustoimintojen intuitiivisuus #198](https://github.com/KohaSuomi/Koha-25x/issues/198) - Mielipiteitä?
+
 
 Etelästä pohjoiseen
 
