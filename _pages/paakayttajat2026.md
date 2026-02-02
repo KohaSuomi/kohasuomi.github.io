@@ -22,7 +22,7 @@ Läsnä:
   * [Uusien käyttäjäoikeuksien create_public_lists ja use_public_lists lisääminen versiopäivityksessä #205](https://github.com/KohaSuomi/Koha-25x/issues/205)
   * [Varaushyllyjen varaamis- ja lukitustoimintojen intuitiivisuus #198](https://github.com/KohaSuomi/Koha-25x/issues/198) - Mielipiteitä?
   * [Testattava: 25711 Move ExpireReservesMaxPickUpDelayCharge to the circulation rules #166](https://github.com/KohaSuomi/Koha-25x/issues/166) - Helle, Kyyti, Lumme, puuttuu vielä kuittaus, että säännöt tehty ja toimivat tarkoituksenmukaiseksi. Lainasäännöt kopioidaan nexteiltä tuotantoon versionvaihdossa.
-
+* Matrixin siivous: Onko pääkäyttäjien huoneessa mukana henkilöitä, jotka eivät ole (enää) pääkäyttäjiä? Voiko heidät poistaa?
 
 Etelästä pohjoiseen
 
