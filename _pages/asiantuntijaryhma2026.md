@@ -24,13 +24,29 @@ Läsnä:
 
 ### 2. Uutiskirje
 
+Vuonna 2025 julkaistiin Koha-kirjastojen yhteinen uutiskirje kaksi kertaa. Koontivastuussa olivat Lastu ja Lumme. Vuonna 2024 uutiskirjeitä julkaistiin neljä kertaa ja koontivastuissa olivat Vaski, Lappi, OUTI ja Vaara. Koontivastuussa eivät ole vielä olleet: Kyyti, Kirkes ja Helle (sekä Siilinjärvi)
+
 ### 3. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
-Edellisessä kokouksessa päätettiin selvittää varalta, onko kunnissa olemassa jo lomakkeita, joissa on käytössä vahva tunnistautuminen.
+Edellisessä kokouksessa päätettiin selvittää varalta, onko kunnissa olemassa jo lomakkeita, joissa on käytössä vahva tunnistautuminen. Tehdään koonti valmiista lomakkeista.
 
 ### 4. Paperikirjeiden määrä
 
 Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperikirjeitä / kimppa.
+
+### 5. Käsiteltävät kehitysehdotukset
+
+* [Huoltajalta poistuu huollettavan laskusta aiheutunut lainauskielto, kun hän palauttaa omia lainojaan #2118](https://github.com/KohaSuomi/Koha/issues/2118)
+  * Siirretty edellisestä kokouksesta, jotta kimpoissa ehditään miettimään, miten edetään.
+  * Teknisesti vaihtoehdot ovat:
+    * muutetaan rajoitteen tyypiksi manual, jolloin se ei poistu AutoRemoveOverduesRestrictions-järjestelmäasetuksen toiminnolla. Tämä tarkoittaa, että rajoite pitää poistaa käsin.
+    * luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä.
+* [Tee kaukolainapyyntö -lomakkeelle valmis arvo Kaukolaina: (Kaukolaina kaksoispiste välilyönti) kenttään Nimeke: #2146](https://github.com/KohaSuomi/Koha/issues/2146)
+* [Kaukopalvelu: ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja #2152](https://github.com/KohaSuomi/Koha/issues/2152)
+
+### 6. Muut asiat
+
+### 7. Seuraava kokous
 
 ## Muistio 1/2026
 
