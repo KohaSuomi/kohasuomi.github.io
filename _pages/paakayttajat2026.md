@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 6
+
+Aika: Ti 3.2.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Versionvaihto:
+  * [Onko kaikilla preferred_name-kenttä näkyvissä Finnassa](https://github.com/KohaSuomi/Koha-25x/issues/160)? Voiko tiketin sulkea?
+  * [Uusien käyttäjäoikeuksien create_public_lists ja use_public_lists lisääminen versiopäivityksessä #205](https://github.com/KohaSuomi/Koha-25x/issues/205)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 5
 
 Aika: Ti 27.1.2026 klo 9.15<br />
