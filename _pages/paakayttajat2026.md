@@ -23,6 +23,8 @@ Läsnä:
   * [Varaushyllyjen varaamis- ja lukitustoimintojen intuitiivisuus #198](https://github.com/KohaSuomi/Koha-25x/issues/198) - Mielipiteitä?
   * [Testattava: 25711 Move ExpireReservesMaxPickUpDelayCharge to the circulation rules #166](https://github.com/KohaSuomi/Koha-25x/issues/166) - Helle, Kyyti, Lumme, puuttuu vielä kuittaus, että säännöt tehty ja toimivat tarkoituksenmukaiseksi. Lainasäännöt kopioidaan nexteiltä tuotantoon versionvaihdossa.
 * Matrixin siivous: Onko pääkäyttäjien huoneessa mukana henkilöitä, jotka eivät ole (enää) pääkäyttäjiä? Voiko heidät poistaa?
+* [Kaukolainamoduulin testaaminen](https://github.com/KohaSuomi/Koha/issues/1703) -tiketti jo kiinni, koska käyttöönotto on jo käytännössä tehty?
+  * Jatkossa uusista ehdotuksista ja ongelmista erilliset tiketit.
 
 Etelästä pohjoiseen
 
