@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), 
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Versionvaihto:
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 * Uutena pääkäyttäjänä aloittanut Mauri Aittaniemi Rovaniemeltä.
 * Kaukopalvelumoduuli saatu testaukseen nextille
 * Asiakkaalle muodostunut hyvitys maksutyypillä "liikamaksun hyvitys", ie. Overpayment refund.
+
+**Vaara**
+* normaalia ylläpitoa
+* herätettiin keskustelu virkailijan kirjautumiskirjastosta, olisiko se mahdollista saada valittavaksi joka kerta, ettei tapahdu lainojen ja palautusten rekisteröitymistä väärään kirjastoon
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
