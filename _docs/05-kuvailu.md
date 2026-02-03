@@ -890,6 +890,31 @@ Saat kuittauksen, mitkä tietueet palautettiin.
 
 Tässä vaiheessa voit siirtyä halutessasi palauttamaan tietueeseen liittyviä poistettuja niteitä _Palauta poistettuja niteitä_ -napista.
 
+Palautetut tietueet indeksoidaan eli lisätään hakukoneen muistiin automaattisesti eli ne löytyvät tiedonhaussa lähes välittömästi palautuksen jälkeen.
+
+### 5.4.3 Poistettujen niteiden palautus
+
+Myös pelkkiä poistettuja niteitä voi palauttaa, mutta huomioi, että niteitä ei voi palauttaa eikä ne tule hakutuloksiin mikäli niteiden tietue on poistettu. Eli tietue pitää palauttaa ennen kuin poistetut niteet voi palauttaa.
+
+Poistettujen niteiden työkalu löytyy Kuvailu-sivulta Työkalut-otsikon alta.
+
+Poistettuja niteitä haetaan poistopäivämäärän perusteella.
+
+![](/assets/files/docs/Luettelointi/kuvailu80.png)
+
+Hakua vastaavat poistetut niteet näytetään taulukossa. Taulukon yläpuolella on Haku-kenttä ja näytettävien rivien määrää voi säätää.
+
+![](/assets/files/docs/Luettelointi/kuvailu81.png)
+
+Niteistä näytetään tietuenumero, itemnumber, poistoajankohta, nimeke, tekijä, viivakoodi, nidehuomautukset, nidetyyppi, sijaintikirjasto ja kotikirjasto.
+
+Valitse haluamasi niteet ja valitsen sen jälkeen _Palauta valitut niteet_.
+
+Saat kuittauksen, mitkä niteet palautettiin.
+![](/assets/files/docs/Luettelointi/kuvailu81.png)
+
+Palautetut niteet indeksoidaan eli lisätään hakukoneen muistiin automaattisesti eli ne löytyvät tiedonhaussa lähes välittömästi palautuksen jälkeen.
+
 ## 5.5. Auktoriteetit
 
 ohje tehdään myöhemmin
