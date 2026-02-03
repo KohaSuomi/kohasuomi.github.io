@@ -865,7 +865,7 @@ Kuvailuun liittyy myös työkaluja. Ne löytyvät Kuvailu-osiosta Työkalut-otsi
 
 ### 5.4.1 Poistettujen kuvailutietueiden ja niteiden palautus
 
-Poistettuja kuvailutietueiden ja niteiden palautusta varten on työkalut nimeltään _Poistettujen kuvailutietueiden palautustyökalu_ ja _Poistettujen niteiden palautustyökalu_. Nämä ovat Koha-Suomen oma työkalu, joka tulee poistumaan, kun yhteisössä tehdyt vastaavat työkalut tulevat meillä aikanaan versionvaihdossa 26.05.
+Poistettuja kuvailutietueiden ja niteiden palautusta varten on työkalut nimeltään _Poistettujen kuvailutietueiden palautustyökalu_ ja _Poistettujen niteiden palautustyökalu_. Nämä ovat Koha-Suomen omia työkaluja, joka tulevat poistumaan, kun yhteisössä tehdyt vastaavat työkalut tulevat meille käyttöön versionvaihdossa 26.05.
 
 Jotta työkaluja pääsee käyttämään, pitää käyttäjällä olla joko _edit_catalogue_ tai _superlibrarian_ -käyttäjäoikeus.
 
@@ -908,7 +908,7 @@ Hakua vastaavat poistetut niteet näytetään taulukossa. Taulukon yläpuolella 
 
 Niteistä näytetään tietuenumero, itemnumber, poistoajankohta, nimeke, tekijä, viivakoodi, nidehuomautukset, nidetyyppi, sijaintikirjasto ja kotikirjasto.
 
-Valitse haluamasi niteet ja valitsen sen jälkeen _Palauta valitut niteet_.
+Valitse haluamasi niteet ja valitse sen jälkeen _Palauta valitut niteet_.
 
 Saat kuittauksen, mitkä niteet palautettiin.
 ![](/assets/files/docs/Luettelointi/kuvailu81.png)
