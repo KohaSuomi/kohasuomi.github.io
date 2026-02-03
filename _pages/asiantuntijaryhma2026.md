@@ -43,6 +43,7 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
     * luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä.
 * [Tee kaukolainapyyntö -lomakkeelle valmis arvo Kaukolaina: (Kaukolaina kaksoispiste välilyönti) kenttään Nimeke: #2146](https://github.com/KohaSuomi/Koha/issues/2146)
 * [Kaukopalvelu: ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja #2152](https://github.com/KohaSuomi/Koha/issues/2152)
+* [Laina- ja maksusäännöille kopiointimahdollisuus #2155](https://github.com/KohaSuomi/Koha/issues/2155)
 
 ### 6. Muut asiat
 
