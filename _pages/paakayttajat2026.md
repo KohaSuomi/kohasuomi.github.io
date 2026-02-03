@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * Versionvaihto:
@@ -23,8 +23,9 @@ Läsnä:
   * [Varaushyllyjen varaamis- ja lukitustoimintojen intuitiivisuus #198](https://github.com/KohaSuomi/Koha-25x/issues/198) - Mielipiteitä?
   * [Testattava: 25711 Move ExpireReservesMaxPickUpDelayCharge to the circulation rules #166](https://github.com/KohaSuomi/Koha-25x/issues/166) - Helle, Kyyti, Lumme, puuttuu vielä kuittaus, että säännöt tehty ja toimivat tarkoituksenmukaiseksi. Lainasäännöt kopioidaan nexteiltä tuotantoon versionvaihdossa.
 * Matrixin siivous: Onko pääkäyttäjien huoneessa mukana henkilöitä, jotka eivät ole (enää) pääkäyttäjiä? Voiko heidät poistaa?
+  * Sovittiin, että kaikki kimpat tarkistavat sekä Matrixin jäsenet että superlibrarians-ryhmän Githubissa ja ilmoittavat Annelille poistettavat käyttäjät.
 * [Kaukolainamoduulin testaaminen](https://github.com/KohaSuomi/Koha/issues/1703) -tiketti jo kiinni, koska käyttöönotto on jo käytännössä tehty?
-  * Jatkossa uusista ehdotuksista ja ongelmista erilliset tiketit.
+  * Kyllä, suljetaan. Jatkossa uusista ehdotuksista ja ongelmista erilliset tiketit.
 
 Etelästä pohjoiseen
 
