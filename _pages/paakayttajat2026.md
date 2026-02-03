@@ -35,7 +35,7 @@ Etelästä pohjoiseen
 * Asiakkaalle muodostunut hyvitys maksutyypillä "liikamaksun hyvitys", ie. Overpayment refund.
 
 **OUTI**
-* Piia tekee Kaukopalvelumoduulin kehitysehdotuksen Bugzillaan ja Githubbiin. Toiveena on, että kun kaukolaina lainataan, niin kaukolainatilauksen tilaksi päivittyy "Kaukolaina lainattu asiakkaalle". Samassa tiketissä  ehdotetaan myös kaukolainan palautuksessa vastaavaa tilauksen tilan päivittymistä.
+* Piia tekee kaukopalvelumoduulin kehitysehdotuksen Bugzillaan ja Githubbiin. Toiveena on, että kun kaukolaina lainataan, niin kaukolainatilauksen tilaksi päivittyy "Kaukolaina lainattu asiakkaalle". Samassa tiketissä  ehdotetaan myös kaukolainan palautuksessa vastaavaa tilauksen tilan päivittymistä.
 
 **Vaara**
 * normaalia ylläpitoa
