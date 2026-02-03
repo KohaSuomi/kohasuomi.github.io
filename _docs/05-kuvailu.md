@@ -863,17 +863,17 @@ Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusj
 
 Kuvailuun liittyy myös työkaluja. Ne löytyvät Kuvailu-osiosta Työkalut-otsikon alapuolelta.
 
-### 5.4.1 Poistettujen tietueiden palautus
+### 5.4.1 Poistettujen kuvailutietueiden ja niteiden palautus
 
-Poistettuja tietueiden palautusta varten on työkalu nimeltään _Poistettujen kuvailutietueiden palautustyökalu_. Tämä on Koha-Suomen oma työkalu, joka tulee poistumaan, kun yhteisössä tehty vastaava työkalu tulee meillä aikanaan versionvaihdossa 25.11.
+Poistettuja kuvailutietueiden ja niteiden palautusta varten on työkalut nimeltään _Poistettujen kuvailutietueiden palautustyökalu_ ja _Poistettujen niteiden palautustyökalu_. Nämä ovat Koha-Suomen oma työkalu, joka tulee poistumaan, kun yhteisössä tehdyt vastaavat työkalut tulevat meillä aikanaan versionvaihdossa 26.05.
 
-#### 5.4.1.1 Poistettujen kuvailutietueiden hakeminen
+Jotta työkaluja pääsee käyttämään, pitää käyttäjällä olla joko _edit_catalogue_ tai _superlibrarian_ -käyttäjäoikeus.
+
+#### 5.4.1.1 Poistettujen tietueiden palautus
 
 Poistettuja kuvailutietueita voi hakea aikavälin perusteella
 
 ![](/assets/files/docs/Luettelointi/kuvailu77.png)
-
-### 5.4.2 Poistettujen tietueiden palautus
 
 Kun tietueita on haettu aikavälin mukaisesti, listautuvat ne taulukkoon, josta voi tarvittaessa hakea oikeaa tai oikeita tietueita esim. nimellä. Näytettävien rivien määrää pystyy myös säätämään.
 
@@ -892,7 +892,7 @@ Tässä vaiheessa voit siirtyä halutessasi palauttamaan tietueeseen liittyviä 
 
 Palautetut tietueet indeksoidaan eli lisätään hakukoneen muistiin automaattisesti eli ne löytyvät tiedonhaussa lähes välittömästi palautuksen jälkeen.
 
-### 5.4.3 Poistettujen niteiden palautus
+#### 5.4.1.2 Poistettujen niteiden palautus
 
 Myös pelkkiä poistettuja niteitä voi palauttaa, mutta huomioi, että niteitä ei voi palauttaa eikä ne tule hakutuloksiin mikäli niteiden tietue on poistettu. Eli tietue pitää palauttaa ennen kuin poistetut niteet voi palauttaa.
 
