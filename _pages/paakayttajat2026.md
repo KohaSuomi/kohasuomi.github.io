@@ -36,6 +36,8 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Piia tekee kaukopalvelumoduulin kehitysehdotuksen Bugzillaan ja Githubbiin. Toiveena on, että kun kaukolaina lainataan, niin kaukolainatilauksen tilaksi päivittyy "Kaukolaina lainattu asiakkaalle". Samassa tiketissä  ehdotetaan myös kaukolainan palautuksessa vastaavaa tilauksen tilan päivittymistä.
+* OUTIssa signumeiden korjausajo tehdään vasta versiopäivityksen jälkeen, kun kimpassa on saatu päätettyä, erotetaanko lasten ja nuorten aineisto toisistaan. Uusi signum-liitännäinen otetaan käyttöön versiopäivityksen yhteydessä.
+* OUTIn kokoelmatyöryhmä pohtii, otettaisiinko uutuusaineistoille käyttöön lyhyempi laina-aika tietyksi ajaksi. Muutamissa kimpoissa tämä on käytössä. Kiitos taas vastauksista, joita on tullut, kun kysyttiin kimpoilta lyhyemmän laina-ajan käytänteistä ja kokemuksista.
 
 **Vaara**
 * normaalia ylläpitoa
