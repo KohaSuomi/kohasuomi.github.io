@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Versionvaihto:
@@ -53,6 +53,10 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa.
 * Laina- ja maksusääntöjä esitestailtu Nextillä, todettu alustavasti toimivaksi. Vaatii vielä laajempaa testailua.
 * Tehty kehitysehdotus laina- ja maksusääntöjen kopioinnista, tiketti #2155.
+
+**Siilinjärvi**
+* Tarkistettu että LinkMobilityn omaan päivitykseen liittyvä IP-osoitteiden tarkistuspyyntö ei aiheuta toimenpiteitä, Koha-viestit eivät käytä IP-osoitteita.
+* Palataan API-avainten uusintoihin versiopäivityksen jälkeen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
