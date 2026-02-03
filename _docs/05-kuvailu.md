@@ -873,7 +873,22 @@ Poistettuja kuvailutietueita voi hakea aikavälin perusteella
 
 ![](/assets/files/docs/Luettelointi/kuvailu77.png)
 
-### 5.4.2 Poistettujen niteiden palautus
+### 5.4.2 Poistettujen tietueiden palautus
+
+Kun tietueita on haettu aikavälin mukaisesti, listautuvat ne taulukkoon, josta voi tarvittaessa hakea oikeaa tai oikeita tietueita esim. nimellä. Näytettävien rivien määrää pystyy myös säätämään.
+
+![](/assets/files/docs/Luettelointi/kuvailu78.png)
+* Poistettu-sarakkeessa näkyy tarkka poistoajankohta
+* Nimeke-sarakkeessa näkyy nimeke ja osakohteilta myös emotietueen nimeke. Sen perusteella pystyy hakemaan näkyville esim. CD-levyn kaikkien osakohteiden tiedot ja palauttamaan ne yhdessä emon kanssa.
+* Teoksesta näytetään myös tekijä, luontipäivä ja aineistotyyppi.
+* Poistetut niteet -sarakkeesta saa näkyville tietueen poistetut niteet
+
+Valitse tarvittavat tietueet ja valitse sen jälkeen taulukon alapuolelta _Palauta valitut tietueet_
+
+Saat kuittauksen, mitkä tietueet palautettiin.
+![](/assets/files/docs/Luettelointi/kuvailu79.png)
+
+Tässä vaiheessa voit siirtyä halutessasi palauttamaan tietueeseen liittyviä poistettuja niteitä _Palauta poistettuja niteitä_ -napista.
 
 ## 5.5. Auktoriteetit
 
