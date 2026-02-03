@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Versionvaihto:
@@ -37,6 +37,12 @@ Etelästä pohjoiseen
 **Vaara**
 * normaalia ylläpitoa
 * herätettiin keskustelu virkailijan kirjautumiskirjastosta, olisiko se mahdollista saada valittavaksi joka kerta, ettei tapahdu lainojen ja palautusten rekisteröitymistä väärään kirjastoon
+
+**Kirkes**
+* Elina kerännyt jo listaa henkilöistä, jotka voi poistaa Matrixista, ja toimittaa sen Annelille.
+* Elina lisännyt nextille Kirkes-kirjastojen laina- ja maksusääntöjä, enää Tuusulan kirjastoauto puuttuu.
+* Kirkes-kirjastojen henkilökunnalta tulee aika ajoin pyyntöjä siitä, saisiko pitkien, Aurora-aikaisten, numeromuotoisten varaustunnusten noutokuitteihin välilyönnin. Tähän on vaihtoehtona maksullinen muutosajo, mutta välilyönnin voisi ehkä saada kuittiin myös Template Toolkitillä. Tutkitaan.
+* Erika linkannut Matrixiin 30.1. pidetyn Suomi.fi-viestitukiklinikan materiaalit. Tilastoista:  https://kehittajille.suomi.fi/ajankohtaista/suomi-fi-palveluiden-raportit-jatkossa-vain-kirjautuneelle-kayttajalle ja esitysmateriaali: https://cdn.verkkopalvelu.suomi.fi/files/30.1.2026%20Suomi.fi-viestien%20tukiklinikka%20-%20Kirkes-kirjastojen%20s%C3%A4hk%C3%B6iset%20viestit-19f9fb80fbfd3743559fb9de8fb8e666.pdf
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
