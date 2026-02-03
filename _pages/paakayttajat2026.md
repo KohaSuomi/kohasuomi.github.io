@@ -28,7 +28,8 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joo
   * Kyllä, suljetaan. Jatkossa uusista ehdotuksista ja ongelmista erilliset tiketit.
 
 Etelästä pohjoiseen
-** Lappi **
+
+**Lappi**
 * Uutena pääkäyttäjänä aloittanut Mauri Aittaniemi Rovaniemeltä.
 * Kaukopalvelumoduuli saatu testaukseen nextille
 * Asiakkaalle muodostunut hyvitys maksutyypillä "liikamaksun hyvitys", ie. Overpayment refund.
