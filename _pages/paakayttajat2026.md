@@ -57,6 +57,7 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Tarkistettu että LinkMobilityn omaan päivitykseen liittyvä IP-osoitteiden tarkistuspyyntö ei aiheuta toimenpiteitä, Koha-viestit eivät käytä IP-osoitteita.
 * Palataan API-avainten uusintoihin versiopäivityksen jälkeen.
+* Matrix- ja GitHub-jäsenyydet Siilin osalta ok.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
