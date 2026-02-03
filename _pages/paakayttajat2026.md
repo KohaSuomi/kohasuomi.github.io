@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Versionvaihto:
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
 * Uutena pääkäyttäjänä aloittanut Mauri Aittaniemi Rovaniemeltä.
 * Kaukopalvelumoduuli saatu testaukseen nextille
 * Asiakkaalle muodostunut hyvitys maksutyypillä "liikamaksun hyvitys", ie. Overpayment refund.
+
+**OUTI**
+* Piia tekee Kaukopalvelumoduulin kehitysehdotuksen Bugzillaan ja Githubbiin. Toiveena on, että kun kaukolaina lainataan, niin kaukolainatilauksen tilaksi päivittyy "Kaukolaina lainattu asiakkaalle". Samassa tiketissä  ehdotetaan myös kaukolainan palautuksessa vastaavaa tilauksen tilan päivittymistä.
 
 **Vaara**
 * normaalia ylläpitoa
