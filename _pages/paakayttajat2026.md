@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Lotta Juvonen ja Kati Sillgren (Helle)
 
 **Yhteiset**
 * Versionvaihto:
@@ -62,6 +62,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Melko paljon saatu tehtyä versiopäivityksen testailua ja valmistelua.
 * Kysellään automaattitoimittajalta lajittelusääntömuutosten tekemisestä signum-muutokseen liittyen.
+
+**Helle**
+* Hellen 83 asiakastiedossa on arvo käytöstä poistetussa kentässä phonepro. Arvojen massapoisto Kohan työkalulla ei onnistu. Kun phonepro-arvon laittaa käyttöön (asetus borrowerunwantedfield), näkyy kenttä asiakastiedon muokkauksessa ja asiakkaan tiedoissa. Kenttä ei näy eikä ole muokattavissa työkalussa Asiakkaiden muokkaus eräajona.
+* Hankintaportaalin kautta muodostuneissa tietueissa saattaa edelleen olla luokka-arvon 084a alussa virheellisesti kirjain. Ainakin näitä kirjaimia esiintyy luokka-arvon alussa: K tai L tai T.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
