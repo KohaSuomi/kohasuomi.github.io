@@ -65,7 +65,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Hellen 83 asiakastiedossa on arvo käytöstä poistetussa kentässä phonepro. Arvojen massapoisto Kohan työkalulla ei onnistu. Kun phonepro-arvon laittaa käyttöön (asetus borrowerunwantedfield), näkyy kenttä asiakastiedon muokkauksessa ja asiakkaan tiedoissa. Kenttä ei näy eikä ole muokattavissa työkalussa Asiakkaiden muokkaus eräajona.
-* Hankintaportaalin kautta muodostuneissa tietueissa saattaa edelleen olla luokka-arvon 084a alussa virheellisesti kirjain. Ainakin näitä kirjaimia esiintyy luokka-arvon alussa: K tai L tai T.
+* Hankintaportaalin kautta muodostuneissa tietueissa saattaa edelleen olla kentässä 084a luokka-arvon alussa virheellisesti kirjain. Ainakin näitä kirjaimia esiintyy luokka-arvon alussa: K tai L tai T.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
