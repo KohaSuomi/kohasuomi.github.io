@@ -47,6 +47,9 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
 
 ### 6. Muut asiat
 
+[Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä #2130](https://github.com/KohaSuomi/Koha/issues/2130)
+* Miten kannattaisi ajastaa vanhojen rajotteiden poistaminen? Päivittäin, kun ne  ovat vanhentuneet?
+
 ### 7. Seuraava kokous
 
 ## Muistio 1/2026
