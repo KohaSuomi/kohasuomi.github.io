@@ -2612,3 +2612,38 @@ Nidenumero #[% train_item.user_train_item_id %]
 
 Vaara Libraries
 ```
+
+## Räätälöity kuitti: Asiakkaan noudettavat varaukset
+
+Räätälöity kuitti lisätään Ilmoitukset ja kuitit -sivun "Uusi ilmoitus" -valikosta valitsemalla vaihtoehto "Asiakkaat (räätälöity kuitti)". Kuitti tulee näkyville asiakkaan tietoihin Tulosta-valikkoon (huom. jokainen kieliversio näkyy erikseen Tulosta-valikossa, joten todennäköisesti kannattaa lisätä pohja vain Oletus-pohjaan ja jättää muut kieliversiot tyhjiksi). Kuitille tulostuu asiakkaalla noudettavissa olevat varaukset, joissa noutokirjasto on sama kuin virkailijan kirjasto. Kuitille tulostuu varauksen noutohyllytieto ja jos sitä ei ole, asiakkaan varaustunniste.
+
+Pohja: Tuloste
+
+```
+[% USE Branches %]
+
+<font face="Arial"> 
+
+<h2>Noudettavat varaukset</h2><br />
+
+[% # Build sortable array first %]
+[% sortable_holds = [] %]
+[% FOREACH hold IN borrower.holds %]
+    [% IF hold.branchcode == Branches.GetLoggedInBranchcode() && hold.found == "W" %]
+        [% sortable_holds.push({
+            hold => hold,
+            shelf_name => hold.hold_pickup_shelf.shelf_name || ''
+        }) %]
+    [% END %]
+[% END %]
+
+[% # Now loop through sorted holds %]
+[% FOREACH item IN sortable_holds.sort('shelf_name') %]
+    [% hold = item.hold %]
+    <p>
+    [% IF hold.hold_pickup_shelf_id %]Noutohylly: [% hold.hold_pickup_shelf.shelf_name %][% ELSE %]Varaustunnus: <<borrower-attribute:HOLDID>>[% END %]<br />
+    [% hold.item.cn_sort %]: [% hold.biblio.title %]<br />
+    Nide: [% hold.item.barcode %]</p>
+    ===============================
+[% END %]
+```
