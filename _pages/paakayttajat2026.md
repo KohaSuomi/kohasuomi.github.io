@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 6
 
 Aika: Ti 3.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Lotta Juvonen ja Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Hanna Hyttinen (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Lotta Juvonen ja Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Versionvaihto:
@@ -74,6 +74,10 @@ Etelästä pohjoiseen
 **Helle**
 * Hellen 83 asiakastiedossa on arvo käytöstä poistetussa kentässä phonepro. Arvojen massapoisto Kohan työkalulla ei onnistu. Kun phonepro-arvon laittaa käyttöön (asetus borrowerunwantedfield), näkyy kenttä asiakastiedon muokkauksessa ja asiakkaan tiedoissa. Kenttä ei näy eikä ole muokattavissa työkalussa Asiakkaiden muokkaus eräajona.
 * Hankintaportaalin kautta muodostuneissa tietueissa saattaa edelleen olla kentässä 084a luokka-arvon alussa virheellisesti kirjain. Ainakin näitä kirjaimia esiintyy luokka-arvon alussa: K tai L tai T.
+
+**Lastu**
+* Finnasta tulee ilmoituksia käyttäjätilin vanhentumisesta asiakkaille, joilla on ollut ennen järjestelmänvaihtoa käytössä useampi kuin yksi kirjastokortti ja jotka ovat käyttäneet kirjautumiseen aiemmin muuta korttia kuin vaihdon jälkeen. Kohassa korttien vaihdossa tätä ei enää ilmene, eli on vain tämän kevään ongelma (Finna-käyttäjätilit vanhenevat 18kk käyttämättömyyden jälkeen)
+* Matrix ja GitHub Lastun osalta ok
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-6) - [Palaa sivun alkuun](/paakayttajat2026)
 
