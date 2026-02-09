@@ -50,6 +50,9 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
 [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä #2130](https://github.com/KohaSuomi/Koha/issues/2130)
 * Miten kannattaisi ajastaa vanhojen rajotteiden poistaminen? Päivittäin, kun ne  ovat vanhentuneet?
 
+[OUTI signum-ongelman kanssa toimiminen](https://github.com/KohaSuomi/Koha/issues/1939)
+* Lyötyisikö Lapset ja nuoret hyllypaikkojen kanssa toimimisesta asiantuntinaryhmästä yhteinen näkemys?
+
 ### 7. Seuraava kokous
 
 ## Muistio 1/2026
