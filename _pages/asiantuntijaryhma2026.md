@@ -51,7 +51,7 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
 * Miten kannattaisi ajastaa vanhojen rajotteiden poistaminen? Päivittäin, kun ne  ovat vanhentuneet?
 
 [OUTI signum-ongelman kanssa toimiminen](https://github.com/KohaSuomi/Koha/issues/1939)
-* Lyötyisikö Lapset ja nuoret hyllypaikkojen kanssa toimimisesta asiantuntinaryhmästä yhteinen näkemys?
+* Lyötyisikö Lapset ja nuoret hyllypaikkojen kanssa toimimisesta asiantuntijaryhmästä yhteinen näkemys?
 
 ### 7. Seuraava kokous
 
