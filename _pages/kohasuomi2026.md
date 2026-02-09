@@ -14,14 +14,21 @@ hidden: true
 ## Viikko 7
 
 Aika: Ma 9.2.2026<br />
-Läsnä:
+Läsnä: Ari, Pasi, Lari, Emmi, Johanna, Kodo
 
 * Vko 7 päivitys
+  * Koha-tietoturvapaikka, tuotantoon tiistaina 10.2. aamulla.
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 * IntranetUserJS-rimpsujen päivitykset
+  * Pääkäyttäjät tekee varsinaisen muutoksen, Koha-Suomen päivystäjä laskee uuden tarkisteen.
+  * Tehdään ohjeistus (Emmi), päivitetään principio (Kodo)
 * Meitä kiinnostavien yhteisö-tikettien koostaminen esim. Bugiton-tietovarantoon.
+  * Avataan tiketti bugittomaan ja siihen linkki bugzillaan.
+* OUTIn signum-kuvio
+  * Käytetään asiantuntijaryhmässä, saataisiinko yhtenäinen käytäntö
+  * Otettanee plugin matkaan tilapäisesti, työ on Outille maksullista
 
 ## Viikko 6
 
