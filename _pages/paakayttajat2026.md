@@ -16,7 +16,13 @@ Aika: Ti 10.2.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
+* [Helmikuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2159)
 * [Kuinka edetään preferred_name-ajon kanssa?](https://github.com/KohaSuomi/Koha-25x/issues/128)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 6
 
