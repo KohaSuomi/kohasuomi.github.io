@@ -123,23 +123,40 @@ $(document).ready(function() {
 });
 ```
 
-Jos haluaa lisätä enemmän lisäkenttiä, niin ole yhteydessä Koha-Suomeen.
+Tämä JS-rimpsu lisää Kaukolainapyyntö-lomakkeelle automaattisesti neljä lisäkenttää. Jos haluat vähemmän, poista tarvittava määrä "input[name.."-rivejä ja muuta "addFieldsUntilCount(4)";-kohtaan sulkeisiin haluttua määrää vastaava luku sulkeisiin.
 ```
-/* Lisää uusi kaukolainapyyntö-lomakkeelle automaattisesti kaksi lisäkenttää */
+/// ALKU ///
+/* Lisää uusi kaukolainapyyntö-lomakkeelle automaattisesti neljä lisäkenttää */
 $(document).ready(function() {
-    if ( "body#illrequests" ){
-        if ($('input[name="custom_key"]').length < 2) {
-            $('#add-new-fields').click();
-            setTimeout(function() {
-                $('#add-new-fields').click();
-                setTimeout(function() {
-                    $('input[name="custom_key"]').eq(0).val('Lähettävä kirjasto');
-                    $('input[name="custom_key"]').eq(1).val('Tarvitaan viimeistään');
-                }, 100);
-            }, 100);
-        }
+  	function addFieldsUntilCount(targetCount, currentAttempts = 0) {
+      const maxAttempts = 20; // Prevent infinite loops
+      const currentCount = $('input[name="custom_key"]').length;
+
+      if (currentCount >= targetCount) {
+        // Set the values once we have enough fields
+        $('input[name="custom_key"]').eq(0).val('Lähettävä kirjasto');
+        $('input[name="custom_key"]').eq(1).val('Tarvitaan viimeistään');
+        $('input[name="custom_key"]').eq(2).val('Aineistolaji');
+        $('input[name="custom_key"]').eq(3).val('Kieli');
+        return;
+      }
+
+      if (currentAttempts >= maxAttempts) {
+        console.warn('Max attempts reached adding fields');
+        return;
+      }
+
+      $('#add-new-fields').click();
+
+      setTimeout(function() {
+        addFieldsUntilCount(targetCount, currentAttempts + 1);
+      }, 150);
+    }
+    if ($("body#illrequests").length) {
+        addFieldsUntilCount(4);
     }
 });
+/// LOPPU ///
 ```
 
 ## Kirjastojen tiedot
