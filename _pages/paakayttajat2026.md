@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: Ti 10.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski)
+Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
@@ -37,6 +37,10 @@ Pohjoisesta etelään
 
 **Vaski**
 * Normaalia ylläpitoa
+
+**OUTI**
+* Kaukolainaniteillä voi olla yli 20 merkkiä pitkiä nidetunnuksia, jotka ovat ongelmallisia Koha-versiossa 25.05. (https://github.com/KohaSuomi/Koha-25x/issues/3). OUTIssa hoidetaan nämä tapaukset ohjeistuksella.
+* OUTIssa on aloitettu henkilökunnan kolme viikkoa kestävä uuden version testausjakso.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
