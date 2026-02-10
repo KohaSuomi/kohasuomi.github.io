@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: Ti 10.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
@@ -34,6 +34,9 @@ Pohjoisesta etelään
 **Vaara**
 * Tehty korjauksia signumeihin signummuutosta ja uuden palautusautomaatin takia. Toivottavasti signummuutos saadaan Vaaraan tehtyä viikolla 11, sillä uusi automaatti asennetaan 12.3.2026
 * Irina kysyi muiden kimppojen käytännöstä, annetaanko lyhytaikaisille tilapäisille (esim. tettiläinen) omaa tunnusta Kohaan. Missään kimpassa ei ole tällaista käytäntöä.
+
+**Vaski**
+* Normaalia ylläpitoa
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
