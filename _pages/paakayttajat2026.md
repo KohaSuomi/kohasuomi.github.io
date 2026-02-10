@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: Ti 10.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
@@ -24,7 +24,13 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Signum-muutosajoon tarvittavat valmistelut ovat yhden automaatin lajittelua vaille valmiita.
-* Kirkesin versioon Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle JS-rimpsusta on lisätty Nextille uudessa versiossa tulevat käyttöoikeudet. 
+* Kirkesin versioon Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle JS-rimpsusta on lisätty Nextille uudessa versiossa tulevat käyttöoikeudet.
+
+**Lappi**
+* Rovaniemen kaupunki suunnittelee tietovarantosiirtoja. Suunnittelukokous on pidetty Koha-Suomen (Kodo) kanssa viime viikolla.
+* Signum-muutokseen liittyviä töitä tehdään edelleen.
+* Käyttöoikeuksien mallipohjat on myös työn alla.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
 
