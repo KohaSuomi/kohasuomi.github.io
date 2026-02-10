@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: Ti 10.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
@@ -21,6 +21,10 @@ Läsnä: Anneli Österman (Koha-Suomi)
 * [Kuinka edetään preferred_name-ajon kanssa?](https://github.com/KohaSuomi/Koha-25x/issues/128)
 
 Pohjoisesta etelään
+
+**Kirkes**
+* Signum-muutosajoon tarvittavat valmistelut ovat yhden automaatin lajittelua vaille valmiita.
+* Kirkesin versioon Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle JS-rimpsusta on lisätty Nextille uudessa versiossa tulevat käyttöoikeudet. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
 
