@@ -53,6 +53,9 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
 [OUTI signum-ongelman kanssa toimiminen](https://github.com/KohaSuomi/Koha/issues/1939)
 * Lyötyisikö Lapset ja nuoret hyllypaikkojen kanssa toimimisesta asiantuntijaryhmästä yhteinen näkemys?
 
+[Sotu-siilon siivous](https://github.com/KohaSuomi/Koha/issues/1689)
+* Vaskissa paljastui jokin aika sitten, että Sotuteekkiin on tallennettu jonkin verran hetuja, joissa on + -merkki (todennäköisesti miinusmerkin sijaan). Osa viivakoodinlukijoistamme ympäri Vaskia on lukenut henkilöllisyystunnuksen viivakoodin siten, että välimerkiksi on tullut virheellisesti  +. Kirjastokorttia tehdessä on luettu henkilöllisyystodistuksen viivakoodi ja tallennettu siten virheellinen hetu. Kaikki Sotuteekissä olevat hetut, joissa on + -merkki, ovat virheellisiä. 
+
 ### 7. Seuraava kokous
 
 ## Muistio 1/2026
