@@ -20,6 +20,10 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025 / 
 
 ## SQL-lauseiden rakentaminen
 
+### Tietoturva
+
+Ota aina huomioon tietoturva kyselyitä laatiessasi. Vältä turhia asiakastietojen katseluja, eli lisää raportin tuloksiin vain sen verran asiakastietoja kuin on täysin välttämätöntä. Lisää mielummin anonyymi linkki asiakkaaseen kuin että haet asiakkaan erilaisia tunnistetietoja näkyville raportin tuloksiin.
+
 ### Kielletyt sanat ja muodot
 
 Kohan Tallennetut raportit eivät salli käytettäväksi seuraavia SQL-käskyjä:
