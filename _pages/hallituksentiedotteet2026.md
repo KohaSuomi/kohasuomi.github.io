@@ -29,7 +29,8 @@ Lisäksi Koha-Suomen nimeämistoimikunta piti vuoden ensimmäisen kokouksensa. T
 Välittäkää tiedotetta kirjastoillenne ja kimpoillenne! 
 
 Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
- 
 
 Jouni Pääkkölä, <br />
 hallituksen pj.
+
+Toimitusjohtajan raportti: [Toimitusjohtajan raportti 1_26.pdf](https://github.com/user-attachments/files/25227713/Toimitusjohtajan.raportti.1_26.pdf)
