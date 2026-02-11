@@ -331,20 +331,20 @@ GROUP_CONCAT(column_name SEPARATOR ', ')
 ```
 SELECT 
     borrowernumber,
-    GROUP_CONCAT(itemnumber SEPARATOR ', ') AS itemnumber
+    GROUP_CONCAT(itemnumber SEPARATOR ', ') AS itemnumbers
 FROM issues
 GROUP BY borrowernumber;
 ```
 
 Mallikyselyssä haetaan asiakkaiden borrowernumberit ja lainassa olevien niteiden itemnumberit ja ryhmitellään ne borrowernumberin mukaan. Tulos on tämäntyyppinen
 
-| borrowernumber | barcodes         |
+| borrowernumber | itemnumbers     |
 | -------------- | ---------------- |
 | 123            | 1001, 1002, 1003 |
 
 Ilman GROUP_CONCATia tulokset ryhmittyisivät näin:
 
-| borrowernumber | barcode |
+| borrowernumber | itemnumbers |
 | -------------- | ------- |
 | 123            | 1001    |
 | 123            | 1002    |
@@ -358,15 +358,13 @@ Hyvä tietää:
   * ```GROUP_CONCAT(DISTINCT title SEPARATOR ', ')``` 
 * Yhdistettävällä merkkijoukolla on maksimipituus 1024 merkkiä ja pidemmät merkkijonot katkaistaan 
 
-
 GROUP_CONCATia voi käyttää esim. kun haluat
-
 * tietueen kaikki viivakoodit yhdelle riville
 * asiakkaan kaikki lainassa olevat nimekkeet yhdelle riville
 
 ### ExtractValue
 
-ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
+ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Tätä käytetään usein, kun halutaan hakea kuvailutietueista tietystä kentästä tietoja. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
 
 
 ```
@@ -374,20 +372,28 @@ SELECT * FROM biblio_metadata bm
 WHERE ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = '';
 ```
 
+Mallikyselyssä haetaan biblio_metadata-taulusta kaikki rivit, joilla on MARC-kenttä 773$w.
+
 Jos MARC-kentän tiedot halutaan hakea vain taulukon sarakkeeseen, sen voi tehdä näin:
 
 ```
 SELECT title, ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]')
 FROM biblio_metadata bm
-JOIN biblio b using (biblionumber)
+JOIN biblio b USING (biblionumber)
 WHERE biblionumber=1234
 ```
 
-Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. 
+Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. Tuloksena on
+
+| title | ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') |
+| -------------- | ------- |
+| Matkani maailmalla | 1995 |
 
 #### Nimiöstä haku
 
-Nimiöstä 7. merkkipaikalta lähtien 2 merkkiä eteenpäin ei ole "im":
+Nimiöstä haettaessa käytetään //leader-määritystä.
+
+Tietueet, joissa nimiössä 7. merkkipaikalta lähtien 2 merkkiä eteenpäin ei ole "im":
 ```
 SUBSTR(ExtractValue(bm.metadata,'//leader'),7,2) NOT IN ('im') 
 ```
@@ -399,12 +405,14 @@ ExtractValue(bm.metadata,'//leader') AS 'Nimiö'
 
 #### Kiinteämittaisista kentistä haku
 
-Kiinteämittaisen kentän haku hakutuloksiin
+Muista kiinteämittaisista kuin nimiöstä haettaessa käytetään //controlfield-määritettä.
+
+Koko kiinteämittaisen kentän haku hakutuloksiin
 ```
 ExtractValue(bm.metadata,'//controlfield[@tag="005"]') AS '005'
 ```
 
-Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenpäin on "ss":
+Tiettyjen merkkipaikkojen hakeminen onnistuu myös. Merkkipaikat lähdetään laskemaan nollasta. Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenpäin on "ss":
 ```
 SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,2) IN ('ss')
 ```
@@ -439,7 +447,7 @@ AND ExtractValue(metadata, 'count(//controlfield[@tag="007"])') > 1
 Jos halutaan nähdä biblio_metadata.metadata-sarakkeen tiedot xml-muodossa eli näkyvillä on myös MARC-kenttien tägit ja rivitykset, voi metadata-kentän tiedon hakea raportilla alla olevalla tavalla. Käytännössä siinä korvataan <- ja >-merkit &lt;- ja &gt; -merkeillä (ettei selain tulkitse niitä xml-tägeiksi ja piilota niitä) ja pre-tagilla määritetään näkyviin tiedot sellaislla asettelulla kuin ne on tietokantaan tallennettu. 
 
 ```
-CONCAT('<pre>', REPLACE(REPLACE(metadata, '<', '&lt;'), '>', '&gt;'), '</pre>') as metadata
+CONCAT('<pre>', REPLACE(REPLACE(metadata, '<', '&lt;'), '>', '&gt;'), '</pre>') AS metadata
 ```
 
 
