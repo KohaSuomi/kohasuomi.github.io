@@ -14,6 +14,7 @@ Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisen
 ## Koha-Suomen hallituksen tiedote 1/2026
 
 Koha-Suomen hallituksen tiedote 1/2026 ja Koha-Suomen nimeämistoimikunnan kokous 1/2026
+
 10.2.2026
 
 Hei kaikille ja hyvää alkanutta vuotta 2026
