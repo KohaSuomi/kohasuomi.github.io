@@ -61,9 +61,10 @@ Lausetta rakentaessa kannattaa ensin miettiä mikä on päätaulu, eli mitä tie
 Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2022-10.06.2022, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
 
 ```
-SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus' FROM borrowers b
+SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus'
+FROM borrowers b
 JOIN accountlines a on b.borrowernumber = a.borrowernumber
-WHERE a.amountoutstanding != 0 AND date(a.date) between '2022-06-01' AND '2022-06-10' ORDER BY date desc;
+WHERE a.amountoutstanding != 0 AND date(a.date) BETWEEN '2022-06-01' AND '2022-06-10' ORDER BY date DESC;
 ```
 
 Kannattaa myös katsoa ensin [Koha-yhteisön raporttikirjastosta](https://wiki.koha-community.org/wiki/SQL_Reports_Library) onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
@@ -89,7 +90,7 @@ SELECT borrowernumber, cardnumber, address FROM borrowers;
 Kenttien nimiä voidaan myös muuttaa, jos ei haluta näyttää englanninkielisiä sarakeotsikoita. Tämä tapahtuu "as"-sanalla.
 
 ```
-SELECT borrowernumber as 'Asiakasnumero', cardnumber as 'Kortin numero', address as 'Osoite' FROM borrowers;
+SELECT borrowernumber AS 'Asiakasnumero', cardnumber AS 'Kortin numero', address AS 'Osoite' FROM borrowers;
 ```
 
 Nimi kannattaa laittaa yksöishipsuihin, varsinkin jos se on kaksiosainen tai sisältää ääkkösiä.
@@ -111,7 +112,7 @@ SELECT * FROM items WHERE itype = '28VRK' AND location = 'A';
 SELECT * FROM items WHERE itype = '14VRK' OR itype = '28VRK';
 ```
 
-Mallissa AND-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 28VRK ja hyllypaikka aikuiset.
+Mallissa AND-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 28VRK ja hyllypaikkana aikuiset.
 Mallissa OR-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 14VRK tai nidetyyppi 28VRK. Eli tulosjoukko muodostuu kummastakin nidetyypistä.
 
 Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti. Siihen käytetään määritystä !=
@@ -120,7 +121,7 @@ Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti. Siihen käyte
 SELECT * FROM items WHERE itype != '28VRK' AND homebranch = 'MLI_PK';
 ```
 
-Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista niteistä paitsi e-kirjasta.
+Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista niteistä paitsi 28 vuorokauden lainajalla olevista niteistä.
 
 Jos Kohassa halutaan valita kirjastopiste ennen raportin käynnistystä niin silloin raporttin laitetaan ohjelmoitu valintatyökalu.
 
@@ -185,8 +186,9 @@ SELECT * FROM items WHERE homebranch IN <<Syötä kirjastojen tunnukset yksi per
 Haussa tulosjoukkoon saadaan tietoa muista tauluista relaatioiden avulla. JOIN-komento on keskeisessä roolissa tässä yhdistelyssä.
 
 ```
-SELECT b.author as 'Tekijä', b.title as 'Nimeke', i.location as 'Hyllypaikka', i.homebranch as 'Kotikirjasto' FROM items i 
-JOIN biblio b on i.biblionumber = b.biblionumber 
+SELECT b.author AS 'Tekijä', b.title AS 'Nimeke', i.location AS 'Hyllypaikka', i.homebranch AS 'Kotikirjasto'
+FROM items i 
+JOIN biblio b ON i.biblionumber = b.biblionumber 
 WHERE i.itype = '28VRK';
 ```
 
@@ -236,15 +238,17 @@ Aloitus- ja lopetuspäivämäärien kuvaus eli yllä esim. AloitusPvm, kannattaa
 COUNT-komennolla voidaan laskea tulosjoukon rivien määrä yhteen.
 
 ```
-SELECT count(*) FROM items WHERE itype = '28VRK';
+SELECT COUNT(*) FROM items WHERE itype = '28VRK';
 ```
+
+Tämä kysely laskee items-taulusta rivit, joissa itype on 28VRK.
 
 ### GROUP BY
 
 GROUP BY -komennolla voidaan ryhmitellä tulosjoukkoa.
 
 ```
-SELECT * FROM issues group by itemnumber;
+SELECT * FROM issues GROUP BY itemnumber;
 ```
 
 Mallin lause antaa lainat-taulusta tulosjoukon niteen numeron mukaan, eli joka rivillä on eri itemnumber. Tätä joudutaan käyttämään joskus jos tulosjoukkoon tulee paljon samoja rivejä.
@@ -273,7 +277,7 @@ LIMIT-komennolla voidaan rajata hakutuloksen tulosjoukkoa.
 SELECT * FROM borrowers LIMIT 100;
 ```
 
-Mallin  lause hakee 100 ensimmäistä riviä borrowers-taulusta.
+Mallin lause hakee 100 ensimmäistä riviä borrowers-taulusta.
 
 
 ### CONCAT
@@ -281,10 +285,84 @@ Mallin  lause hakee 100 ensimmäistä riviä borrowers-taulusta.
 CONCAT-komennolla voidaan muodostaa yhtenäisiä merkkijonoja. 
 
 ```
-SELECT concat(b.surname,' ', b.firstname) as 'Asiakas' FROM borrowers WHERE categorycode = 'HENKILO';
+SELECT CONCAT(b.surname,' ', b.firstname) as 'Asiakas'
+FROM borrowers
+WHERE categorycode = 'HENKILO';
 ```
 
 Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
+
+CONCAT-komentoja on muitakin:
+
+#### CONCAT_WS
+
+CONCAT_WS yhdistää merkkijonoja toisiinsa erottimella
+
+```
+SELECT CONCAT_WS(' ', firstname, surname)
+FROM borrowers;
+```
+Mallin lause hakee borrowers-taulusta etunimen ja sukunimen ja lisää niiden väliin välilyönnin. Erottimena voi käyttää myös muita merkkejä kuten pilkku, puolipilkku, viiva jne.
+
+CONCAT_WS myös ohittaa NULL-arvot, jolloin tuloksiin haetaan ne arvot, jotka ovat olemassa. CONCAT-komentoa käytettäessä NULL-arvoja ei ohiteta ja koko merkkijoukko hylätään, jos yksi haetuista arvoista on NULL.
+
+```
+CONCAT(firstname, ' ', middlename, ' ', surname)
+```
+
+Jos middlename on NULL, tulee koko tuloksesta NULL
+
+Kun taas
+
+```
+CONCAT_WS(' ', firstname, middlename, surname)
+```
+
+Jos middlename on NULL, tulee tulokseksi etunimi ja sukunimi.
+
+#### GROUP_CONCAT
+
+GROUP_CONCAT yhdistää useiden rivien tuloksia yhdeksi riviksi. Yleensä määritetään myös erotinmerkki.
+
+```
+GROUP_CONCAT(column_name SEPARATOR ', ')
+```
+
+```
+SELECT 
+    borrowernumber,
+    GROUP_CONCAT(itemnumber SEPARATOR ', ') AS itemnumber
+FROM issues
+GROUP BY borrowernumber;
+```
+
+Mallikyselyssä haetaan asiakkaiden borrowernumberit ja lainassa olevien niteiden itemnumberit ja ryhmitellään ne borrowernumberin mukaan. Tulos on tämäntyyppinen
+
+| borrowernumber | barcodes         |
+| -------------- | ---------------- |
+| 123            | 1001, 1002, 1003 |
+
+Ilman GROUP_CONCATia tulokset ryhmittyisivät näin:
+
+| borrowernumber | barcode |
+| -------------- | ------- |
+| 123            | 1001    |
+| 123            | 1002    |
+| 123            | 1003    |
+
+Hyvä tietää:
+* GROUP_CONCATin kanssa pitää käyttää GROUP BY -toimintoa
+* Voit järjestää GROUP_CONCATin sisällä tietoja
+  * ```GROUP_CONCAT(title ORDER BY title SEPARATOR ', ')```
+* Voit poistaa duplikaatit
+  * ```GROUP_CONCAT(DISTINCT title SEPARATOR ', ')``` 
+* Yhdistettävällä merkkijoukolla on maksimipituus 1024 merkkiä ja pidemmät merkkijonot katkaistaan 
+
+
+GROUP_CONCATia voi käyttää esim. kun haluat
+
+* tietueen kaikki viivakoodit yhdelle riville
+* asiakkaan kaikki lainassa olevat nimekkeet yhdelle riville
 
 ### ExtractValue
 
