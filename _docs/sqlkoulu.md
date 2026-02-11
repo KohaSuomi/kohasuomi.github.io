@@ -7,7 +7,7 @@ toc: true
 ---
 
 Ohjeen tekijä: Johanna Räisä<br />
-Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025
+Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025 / 11.2.2026
 
 
 [Kohan tietokantaskeema](https://schema.koha-community.org/)
@@ -15,6 +15,8 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025
 [Koha-Suomen tietokantaskeema.ods](https://github.com/user-attachments/files/19023351/Kohan.skeema.ods) (päivitetty 28.2.2025)
 
 [Tutkimusmatka Kohan tietokantaan](https://youtu.be/lH7Z8OetO3c) -koulutuksen tallenne.
+
+[Koha Report Assistant](https://chatgpt.com/g/g-Uy73aJR6R-koha-report-assistant) - ChatGPT, jolle on opetettu Kohan skeema. Siltä pystyy kyselemään luonnollisella kielellä (englanniksi) apuja raporttien luomiseen tai muokkaamiseen. Se myös selittää raporttien rakenteita ja taulujen sisältöjä.
 
 ## SQL-lauseiden rakentaminen
 
