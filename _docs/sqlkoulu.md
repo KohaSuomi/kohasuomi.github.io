@@ -280,7 +280,9 @@ SELECT * FROM borrowers LIMIT 100;
 Mallin lause hakee 100 ensimmäistä riviä borrowers-taulusta.
 
 
-### CONCAT
+### CONCAT-komennot
+
+#### CONCAT
 
 CONCAT-komennolla voidaan muodostaa yhtenäisiä merkkijonoja. 
 
@@ -292,7 +294,6 @@ WHERE categorycode = 'HENKILO';
 
 Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
 
-CONCAT-komentoja on muitakin:
 
 #### CONCAT_WS
 
@@ -312,7 +313,7 @@ CONCAT(firstname, ' ', middlename, ' ', surname)
 
 Jos middlename on NULL, tulee koko tuloksesta NULL
 
-Kun taas
+Kun taas CONCAT_WS-komentoa käytettäessä
 
 ```
 CONCAT_WS(' ', firstname, middlename, surname)
@@ -479,7 +480,7 @@ AND ccode IS NULL
 Relaatioilla tarkoitetaan tauluja yhdistäviä tekijöitä, kuten asiakkaiden relaatiota lainoihin.
 
 ```
-SELECT count(*) FROM borrowers b
+SELECT COUNT(*) FROM borrowers b
 JOIN issues i on b.borrowernumber = i.borrowernumber
 JOIN old_issues oi on b.borrowernumber = oi.borrowernumber
 WHERE b.borrowernumber = 1;
@@ -511,6 +512,7 @@ Arvoja saa lisättyä kyselyyn myös _Lisää ajoajan parametri_ -valikosta vali
 
 #### 1. Kirjasto
 
+Kirjastoyksiköitä haettaessa käytetään määrettä _branches_.
 ```
 SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
 ```
@@ -520,10 +522,12 @@ SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
 tai
 
 ```
-SELECT * FROM bORrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
+SELECT cardnumber FROM borrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
 ```
 
 #### 2. Hyllypaikka
+
+Hyllypaikkoja haettaessa käytetään määritettä _loc_.
 
 ```
 SELECT * FROM items WHERE location=<<Valitse hyllypaikka|loc>>
@@ -532,6 +536,8 @@ SELECT * FROM items WHERE location=<<Valitse hyllypaikka|loc>>
 ![](/assets/files/docs/Ohjeet/sqlkoulu3.png)
 
 #### 3. Nidetyyppi
+
+Nidetyyppejä haettaessa käytetään määritettä _itemtypes_.
 
 ```
 SELECT * FROM items WHERE itype=<<Valitse nidetyyppi|itemtypes>>
@@ -542,6 +548,8 @@ SELECT * FROM items WHERE itype=<<Valitse nidetyyppi|itemtypes>>
 
 #### 4. Aineistotyyppi
 
+Aineistotyypit ovat Koha-Suomen oma auktorisoituarvo, joita haettaessa käytetään arvon tunnistetta _MTYPE_.
+
 ```
 SELECT * FROM biblioitems WHERE itemtype = <<Valitse aineistotyyppi|MTYPE>>
 ```
@@ -550,6 +558,8 @@ SELECT * FROM biblioitems WHERE itemtype = <<Valitse aineistotyyppi|MTYPE>>
 
 #### 5. Kokoelma
 
+Kokoelmia haettaessa käytetään määritettä _CCODE_.
+
 ```
 SELECT * FROM items WHERE ccode=<<Valitse kokoelma|CCODE>>
 ```
@@ -557,6 +567,8 @@ SELECT * FROM items WHERE ccode=<<Valitse kokoelma|CCODE>>
 ![](/assets/files/docs/Ohjeet/sqlkoulu6.png)
 
 ### Päivämäärän valinta kalenterista
+
+Parametriin saa kalenterivalinnan tunnisteella _date_.
 
 ```
 SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
@@ -568,7 +580,7 @@ SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
 
 Raporttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
 
-**Huom!** Versiosta 22.11 lähtien Koha lisää automaattisesti linkin asiakkaaseen, niteeseen ja tietueeseen, jos raportin tuloksissa on sarakkeessa borrowernumber, itemnuber tai biblionumber.
+**Huom!** Versiosta 22.11 lähtien Koha lisää automaattisesti linkin asiakkaaseen, niteeseen ja tietueeseen, jos raportin tuloksissa on sarakkeessa borrowernumber, itemnuber tai biblionumber. Huomioi, että sarakkeen nimi/otsikko pitää olla borrowernumber, itemnumber tai biblionumber, jotta datavalikko muodostuu. Jos muutat sarakkeen otsikon toiseksi AS-määrityksellä, linkit/datavalikot eivät muodostu.
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu8.png)
 
@@ -576,7 +588,7 @@ Jos klikkaat borrowernumberin, itemnumberin tai biblionumberin vieressä olevaa 
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu9.png)
 
-Jos kuitenkin haluat näkyville esim. kirjastokortin numeron tai teoksen nimekkeen, alla on siihen ohjeet.
+Jos kuitenkin haluat linkkiin esim. kirjastokortin numeron tai teoksen nimekkeen, alla on siihen ohjeet.
 
 #### 1. Asiakkaaseen
 
@@ -641,7 +653,7 @@ Jos määrittelet kyselyssä taululle aliaksen esim. items i, niin voit saada eh
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu11.png)
 
-Ehdotukset voi valita joko hiirellä tai näppäimistöllä nuolinäppäimillä ja ENTER-painikkeella. Huomioi, että jos olet vaihtamassa riviä ENTERillä ja Koha antaa automaattisen ehdotuksen, tulee ensimmäinen ehdotus valituksi kun tarkoitus oli vaihtaa riviä vaihtaessa. Ehdotuksesta pääsee eroon lisäämällä esimerkiksi välilyönnin ennen rivinvaihtoa ja sitten poistamalla sen.
+Ehdotukset voi valita joko hiirellä tai näppäimistöllä nuolinäppäimillä ja ENTER-painikkeella. Huomioi, että jos olet vaihtamassa riviä ENTERillä ja Koha antaa automaattisen ehdotuksen, tulee ensimmäinen ehdotus valituksi kun tarkoitus oli vaihtaa riviä vaihtaessa. Ehdotuksesta pääsee eroon ESC-näppäimellä tai lisäämällä esimerkiksi välilyönnin ennen rivinvaihtoa ja sitten poistamalla sen.
 
 ### Ajonaikaiset parametrit
 
@@ -672,6 +684,7 @@ Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin
 
 ## Ei toimi?
 
+Joskus raportti ei ajettaessa toimi, kuten olisi halunnut. Tässä pieni tsekkauslista:
 * tarkista, että hipsuilla " tai ' ja sulkeilla on vastakappaleet, monesti ne esiintyvät pareittain.
 * tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..).
 * onhan lauseessa sana SELECT?
