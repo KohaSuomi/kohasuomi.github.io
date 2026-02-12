@@ -15,24 +15,50 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 2/2026
+## Muistio 2/2026
 
 Aika: Torstai 12.2.2026 klo 13<br />
-Läsnä:
+Läsnä: Piia Semenoff (OUTI-kirjastot), Hanna Ikonen (Lumme-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Kati Sillgren (Helle-kirjastot), Janne Seppänen (Lastu-kirjastot), Elina Uotila (Kirkes-kirjastot), Susanna Sandell (Vaski-kirjastot), Leena Kinnunen (Lapin kirjasto), Roosa Väisänen (Kyyti-kirjastot), Anneli Österman ja Kodo Korkalo (Koha-Suomi) ja Noora Valkonen OUTIn signum-kohdassa.
 
 ### 1. Ajankohtaiset
 
+Ei ajankohtaisia asioita.
+
 ### 2. Uutiskirje
 
-Vuonna 2025 julkaistiin Koha-kirjastojen yhteinen uutiskirje kaksi kertaa. Koontivastuussa olivat Lastu ja Lumme. Vuonna 2024 uutiskirjeitä julkaistiin neljä kertaa ja koontivastuissa olivat Vaski, Lappi, OUTI ja Vaara. Koontivastuussa eivät ole vielä olleet: Kyyti, Kirkes ja Helle (sekä Siilinjärvi)
+Vuonna 2025 julkaistiin Koha-kirjastojen yhteinen uutiskirje kaksi kertaa. Koontivastuussa olivat Lastu ja Lumme. Vuonna 2024 uutiskirjeitä julkaistiin neljä kertaa ja koontivastuissa olivat Vaski, Lappi, OUTI ja Vaara. Koontivastuussa eivät ole vielä olleet: Kyyti, Kirkes ja Helle
+
+Huhtikuun loppu eli 29.4.2026: Kirkes
+Lokakuun loppu eli 30.10.2026: Kyyti
 
 ### 3. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
 Edellisessä kokouksessa päätettiin selvittää varalta, onko kunnissa olemassa jo lomakkeita, joissa on käytössä vahva tunnistautuminen. Tehdään koonti valmiista lomakkeista.
 
+* Helle: Sipoossa  Oma asiointi https://asiointi.sipoo.fi/public/fi
+* Lumme: Pieksämäki Docuware (Suomi.fi-rajapinta), Savonlinna epalvelulomake, jota pystyy muokkaamaan tarpeen mukaan
+* Lapin kirjasto: Rovaniemellä olemassa n. 30 erilaista lomaketta
+* Kirkes: Asiointi.jarvenpaa.fi Digiexpress-alusta, Keravalla Microsoft dynamics ja Tuusulassa Visma Sign
+* Vaara: Joensuulla erilaisia lomakkeita
+* Kyyti: Kotka palautelomakkeella Suomi.fi-tunnistautuminen, Pyhtäällä pari elomaketta, Kouvolassa Webprobol-lomakkeelle on mahdollista tunnistautua Suomi.fi-tunnistautumisella, mutta rajapinta ei ole REST-rajapinta vielä.
+* Vaski: Turulla on Tunnistamo, jossa on Suomi.fi-tunnistautuminen mahdollista. Myös muita kaikenlaisia hakemuksia voi tehdä (esim. venepaikkoja)
+* OUTI: selvittelee vielä
+* Lastu: Lahdella Webprobol, Heinolassa ollut ePalvelu-lomake (Aurora-aikaan robotti)
+
 ### 4. Paperikirjeiden määrä
 
 Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperikirjeitä / kimppa.
+
+* Vaara: 11 000 / vuosi
+* Lumme: 11 000 / vuosi
+* Vaski: 22 600 / vuosi
+* Lappi: 7600 / vuosi
+* Kirkes: 5000 / vuosi
+* Kyyti: 4500 / vuosi
+* Helle: 2300 / vuosi
+* Lastu: 2700 / vuosi
+* OUTI: 10 500 / vuosi
+* Siili: Anneli tarkistaa
 
 ### 5. Käsiteltävät kehitysehdotukset
 
@@ -41,22 +67,34 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
   * Teknisesti vaihtoehdot ovat:
     * muutetaan rajoitteen tyypiksi manual, jolloin se ei poistu AutoRemoveOverduesRestrictions-järjestelmäasetuksen toiminnolla. Tämä tarkoittaa, että rajoite pitää poistaa käsin.
     * luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä.
+  * Päätös: Luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä. Aikataulu: Pudotetaan versionvaihdon yhteydessä
 * [Tee kaukolainapyyntö -lomakkeelle valmis arvo Kaukolaina: (Kaukolaina kaksoispiste välilyönti) kenttään Nimeke: #2146](https://github.com/KohaSuomi/Koha/issues/2146)
+  * Ei vaadi toimenpiteitä asiantuntijaryhmältä.
 * [Kaukopalvelu: ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja #2152](https://github.com/KohaSuomi/Koha/issues/2152)
+  * Päätös: Toteutus yhteisön kautta. Katsotaan tarkempi toteutus ja aikataulu Koha-Suomen viikkopalaverissa.
 * [Laina- ja maksusäännöille kopiointimahdollisuus #2155](https://github.com/KohaSuomi/Koha/issues/2155)
+  * Päätös: Toteutus yhteisön kautta itse lisäämällä Toiminnot-sarakkeeseen Kopioi-nappi.
 
 ### 6. Muut asiat
 
 [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä #2130](https://github.com/KohaSuomi/Koha/issues/2130)
 * Miten kannattaisi ajastaa vanhojen rajotteiden poistaminen? Päivittäin, kun ne  ovat vanhentuneet?
+* Tallentuuko rajoituksen lisääminen action_logsille? Pääkäyttäjillä voi olla olla tarve tarkistaa, onko asiakkaalla joskus ollut rajoite.
+  * Jos tieto tallentuu, niin voidaan poistaa yhteisön skriptillä päivittäin.
+  * Jos ei tallennu, voidaan kirjoittaa oma skripti, joka kirjaa action_logsille tiedon poistosta (mukaan tieto, mikä rajoite ollut kyseessä ja rajoitteen voimassaoloaika, rajoitteen lisääjän id).
 
 [OUTI signum-ongelman kanssa toimiminen](https://github.com/KohaSuomi/Koha/issues/1939)
 * Lyötyisikö Lapset ja nuoret hyllypaikkojen kanssa toimimisesta asiantuntijaryhmästä yhteinen näkemys?
+  * Keskusteltiin aiheesta ja todettiin, että täysin yhteneväisen näkemyksen löytäminen voi olla hankalaa mm. erilaisten kirjastotilojen vuoksi sekä nykyisten hyllypaikkojen moninaisuuden vuoksi.
+  * Asiaa voidaan pitää mietinnässä, mutta ei tehdä tässä vaiheessa suosituksia.
 
 [Sotu-siilon siivous](https://github.com/KohaSuomi/Koha/issues/1689)
 * Vaskissa paljastui jokin aika sitten, että Sotuteekkiin on tallennettu jonkin verran hetuja, joissa on + -merkki (todennäköisesti miinusmerkin sijaan). Osa viivakoodinlukijoistamme ympäri Vaskia on lukenut henkilöllisyystunnuksen viivakoodin siten, että välimerkiksi on tullut virheellisesti  +. Kirjastokorttia tehdessä on luettu henkilöllisyystodistuksen viivakoodi ja tallennettu siten virheellinen hetu. Kaikki Sotuteekissä olevat hetut, joissa on + -merkki, ovat virheellisiä. Toiveissa siis siivousajo.
+* Asiantuntijaryhmän kokous: Siivousajoa varten on olemassa skripti. Kodo ajaa skriptin läpi poistamatta vielä henkilötunnuksia ja toimittaa kimppoihin SQL-raportin, jolla kimpoissa voidaan tarkistaa, mihin asiakkaisiin poistoajo vaikuttaisi. Tarkistuksen jälkeen voidaan ajaa varsinaiset poistoajot.
 
 ### 7. Seuraava kokous
+
+To 19.3.2026 klo 13
 
 ## Muistio 1/2026
 
