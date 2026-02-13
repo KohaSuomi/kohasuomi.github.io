@@ -38,7 +38,7 @@ Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen on toiveissa saada to
 * Helle: Sipoossa  Oma asiointi https://asiointi.sipoo.fi/public/fi
 * Lumme: Pieksämäki Docuware (Suomi.fi-rajapinta), Savonlinna epalvelulomake, jota pystyy muokkaamaan tarpeen mukaan
 * Lapin kirjasto: Rovaniemellä olemassa n. 30 erilaista lomaketta
-* Kirkes: Asiointi.jarvenpaa.fi Digiexpress-alusta, Keravalla Microsoft dynamics ja Tuusulassa Visma Sign
+* Kirkes: Asiointi.jarvenpaa.fi Digiexpress-alusta, Keravalla Microsoft dynamics ja Mäntsälässä Visma Sign
 * Vaara: Joensuulla erilaisia lomakkeita
 * Kyyti: Kotka palautelomakkeella Suomi.fi-tunnistautuminen, Pyhtäällä pari elomaketta, Kouvolassa Webprobol-lomakkeelle on mahdollista tunnistautua Suomi.fi-tunnistautumisella, mutta rajapinta ei ole REST-rajapinta vielä.
 * Vaski: Turulla on Tunnistamo, jossa on Suomi.fi-tunnistautuminen mahdollista. Myös muita kaikenlaisia hakemuksia voi tehdä (esim. venepaikkoja)
