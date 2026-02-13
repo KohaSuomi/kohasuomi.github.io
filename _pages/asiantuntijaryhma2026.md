@@ -28,8 +28,8 @@ Ei ajankohtaisia asioita.
 
 Vuonna 2025 julkaistiin Koha-kirjastojen yhteinen uutiskirje kaksi kertaa. Koontivastuussa olivat Lastu ja Lumme. Vuonna 2024 uutiskirjeitä julkaistiin neljä kertaa ja koontivastuissa olivat Vaski, Lappi, OUTI ja Vaara. Koontivastuussa eivät ole vielä olleet: Kyyti, Kirkes ja Helle
 
-Uutiskirje 1/2026: Huhtikuun loppu eli 29.4.2026: Kirkes
-Uutiskirje 2/2026: Lokakuun loppu eli 30.10.2026: Kyyti
+* Uutiskirje 1/2026: Huhtikuun loppu eli 29.4.2026: Kirkes
+* Uutiskirje 2/2026: Lokakuun loppu eli 30.10.2026: Kyyti
 
 ### 3. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
