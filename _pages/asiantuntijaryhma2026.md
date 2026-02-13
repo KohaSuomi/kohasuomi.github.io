@@ -28,12 +28,12 @@ Ei ajankohtaisia asioita.
 
 Vuonna 2025 julkaistiin Koha-kirjastojen yhteinen uutiskirje kaksi kertaa. Koontivastuussa olivat Lastu ja Lumme. Vuonna 2024 uutiskirjeitä julkaistiin neljä kertaa ja koontivastuissa olivat Vaski, Lappi, OUTI ja Vaara. Koontivastuussa eivät ole vielä olleet: Kyyti, Kirkes ja Helle
 
-Huhtikuun loppu eli 29.4.2026: Kirkes
-Lokakuun loppu eli 30.10.2026: Kyyti
+Uutiskirje 1/2026: Huhtikuun loppu eli 29.4.2026: Kirkes
+Uutiskirje 2/2026: Lokakuun loppu eli 30.10.2026: Kyyti
 
 ### 3. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
-Edellisessä kokouksessa päätettiin selvittää varalta, onko kunnissa olemassa jo lomakkeita, joissa on käytössä vahva tunnistautuminen. Tehdään koonti valmiista lomakkeista.
+Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen on toiveissa saada toimimaan Finnan kautta, koska se on asiakkaille tuttu ympäristö ja kaikilla kimpoilla on se jo käytössä. Edellisessä kokouksessa päätettiin kuitenkin selvittää varalta, onko kunnissa olemassa jo lomakkeita, joissa on käytössä vahva tunnistautuminen. Tehdään koonti valmiista lomakkeista.
 
 * Helle: Sipoossa  Oma asiointi https://asiointi.sipoo.fi/public/fi
 * Lumme: Pieksämäki Docuware (Suomi.fi-rajapinta), Savonlinna epalvelulomake, jota pystyy muokkaamaan tarpeen mukaan
@@ -58,7 +58,7 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
 * Helle: 2300 / vuosi
 * Lastu: 2700 / vuosi
 * OUTI: 10 500 / vuosi
-* Siili: Anneli tarkistaa
+* Siili: 1405 / vuosi
 
 ### 5. Käsiteltävät kehitysehdotukset
 
@@ -67,13 +67,13 @@ Edellisessä kokouksessa päätettiin selvittää, kuinka paljon lähtee paperik
   * Teknisesti vaihtoehdot ovat:
     * muutetaan rajoitteen tyypiksi manual, jolloin se ei poistu AutoRemoveOverduesRestrictions-järjestelmäasetuksen toiminnolla. Tämä tarkoittaa, että rajoite pitää poistaa käsin.
     * luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä.
-  * Päätös: Luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä. Aikataulu: Pudotetaan versionvaihdon yhteydessä
+  * **Päätös**: Luovutaan ominaisuudesta, jossa huoltajalle voi lisätä rajoitteen laskutuksen yhteydessä. Aikataulu: Pudotetaan versionvaihdon yhteydessä
 * [Tee kaukolainapyyntö -lomakkeelle valmis arvo Kaukolaina: (Kaukolaina kaksoispiste välilyönti) kenttään Nimeke: #2146](https://github.com/KohaSuomi/Koha/issues/2146)
-  * Ei vaadi toimenpiteitä asiantuntijaryhmältä.
+  * Ei vaadi toimenpiteitä asiantuntijaryhmältä, koska ongelma ratkennut lisäämällä kaukolaina-sana FA-pohjan 245$b-kenttään oletuksena.
 * [Kaukopalvelu: ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja #2152](https://github.com/KohaSuomi/Koha/issues/2152)
-  * Päätös: Toteutus yhteisön kautta. Katsotaan tarkempi toteutus ja aikataulu Koha-Suomen viikkopalaverissa.
+  * **Päätös**: Toteutus yhteisön kautta. Katsotaan tarkempi toteutus ja aikataulu Koha-Suomen viikkopalaverissa.
 * [Laina- ja maksusäännöille kopiointimahdollisuus #2155](https://github.com/KohaSuomi/Koha/issues/2155)
-  * Päätös: Toteutus yhteisön kautta itse lisäämällä Toiminnot-sarakkeeseen Kopioi-nappi.
+  * **Päätös**: Toteutus yhteisön kautta itse lisäämällä Toiminnot-sarakkeeseen Kopioi-nappi.
 
 ### 6. Muut asiat
 
