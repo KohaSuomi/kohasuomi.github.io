@@ -24,7 +24,7 @@ Läsnä:
 ## Viikko 7
 
 Aika: Ti 10.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Anneli Österman (Koha-Suomi), Erika Miettinen ja Elina Uotila (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Päivi Knuutinen, Irina Halminen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/2162)
@@ -60,6 +60,10 @@ Pohjoisesta etelään
 **Helle**
 * Kehittäjä Emmi mahdollistanut kaukolaina-nidetyypin punafonttisuuden asiakkaan lainatiedoissa [Helle: yhden IntranetUserJS-rimpsun lisääminen](https://github.com/KohaSuomi/Koha/issues/2158#issuecomment-3858456993)
 * Palaverissa sovittu Helle-ehdotuksen tiketöinnistä [Kaukolainapyynnöt-listauksesta asiakkaan nimi piiloon](https://github.com/KohaSuomi/Koha/issues/2163)
+
+**Lastu**
+* Kimpasta tullut kyselyjä voiko yhteydettömän tilan lainausta käyttää versionvaihdon aikana. Tätä ei muissa kimpoissa tehdä, joten ei meilläkään.
+* Pohdittu asiakastietueiden mukana kulkeneiden lankapuhelinnumeroiden siivousta ja kentän piilotusta käyttöliittymästä, kun loputkin lankapuhelinverkot ajetaan alas.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-7) - [Palaa sivun alkuun](/paakayttajat2026)
 
