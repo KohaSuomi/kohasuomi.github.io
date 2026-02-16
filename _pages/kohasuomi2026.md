@@ -15,7 +15,7 @@ hidden: true
 ## Viikko 8
 
 Aika: Ma 16.2.2026<br />
-Läsnä:
+Läsnä: Ari, Emmi, Johanna, Kodo, Anneli, Lari, Pasi
 
 * Päivystysvuorot vko 9 eteenpäin
 * Vastuuttomat tiketit
