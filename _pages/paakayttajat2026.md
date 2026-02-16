@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
+* Uusi ohje: [IntranetUserJS‐asetukseen lisääminen ja muokkaaminen](https://github.com/KohaSuomi/Koha/wiki/IntranetUserJS%E2%80%90asetukseen-lis%C3%A4%C3%A4minen-ja-muokkaaminen)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
