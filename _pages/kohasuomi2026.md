@@ -21,6 +21,9 @@ Läsnä:
 * Vastuuttomat tiketit
   * [ei-Koha25x-tiketit](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20owner%3AKohaSuomi%20archived%3Afalse%20sort%3Aupdated-desc%20no%3Aassignee%20-repo%3AKohaSuomi%2FBugiton%20-repo%3AKohaSuomi%2FFinna-kehitysehdotukset%20-repo%3AKohaSuomi%2FKoha-25x)
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Versionvaihdon tilannekatsaus, kun versionvaihtoon reilu kuukausi.
+  * [Auki olevat tiketit](https://github.com/KohaSuomi/Koha-25x/issues)
+  * [Avoimet tiloittain](https://github.com/orgs/KohaSuomi/projects/6/views/2)
 
 ## Viikko 7
 
