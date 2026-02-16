@@ -14,7 +14,7 @@ hidden: true
 
 ## Viikko 8
 
-Aika: Ma 17.2.2026<br />
+Aika: Ma 16.2.2026<br />
 Läsnä:
 
 * Päivystysvuorot vko 9 eteenpäin
