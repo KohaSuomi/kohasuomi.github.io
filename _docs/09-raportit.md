@@ -72,15 +72,13 @@ Voit nyt ajaa juuri tekemäsi raportin _Aja raportti_ -napista painamalla. Voit 
 
 #### 9.1.2.1 Käytä tallennettua raporttia
 
-Tallennettuista raporteista löytyvät ohjatun raporttien luonnin kautta tehdyt ja SQL-kyselyillä tehdyt raportit.
+Tallennetuista raporteista löytyvät ohjatun raporttien luonnin kautta tehdyt ja SQL-kyselyillä tehdyt raportit.
 
 ![](/assets/files/docs/Raportit/raportit14.png)
 
 - Kaikki-välilehdeltä löytyy kaikki tallennetut raportit
-- Muilta välilehdiltä löytyy niihin määritetyt raportit. Osion määritys
-  tehdään raportin tallennuksen yhteydessä.
-- Haku-kentällä voi rajata taulukossa näkyviä raportteja. Jos tiedät
-  raportin nimen tai numeron, voit hakea sen niillä suoraan.
+- Muilta välilehdiltä löytyy niihin määritetyt raportit. Osion määritys tehdään raportin tallennuksen yhteydessä.
+- Haku-kentällä voi rajata taulukossa näkyviä raportteja. Jos tiedät raportin nimen tai numeron, voit hakea sen esille suoraan niillä.
 
 Raportin voi ajaa valitsemalla rivin oikeasta reunasta _Käynnistä_  
 ![](/assets/files/docs/Raportit/raportit15.png)
@@ -134,8 +132,8 @@ Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber, tietu
 - Niteiden poisto eräajona
 
 ![Asiakkaat](/assets/files/docs/Raportit/raportit1821.png)
-- Asiakkaiden muokkaus eräajona (jos cardnumber-sarake)
-- Kirjastokorttien luonti (jos borrowernumber-sarake)
+- Asiakkaiden muokkaus eräajona
+- Kirjastokorttien luonti
 
 #### 9.1.2.3 Linkit nide-, kuvailu- ja asiakastietueisiin
 
