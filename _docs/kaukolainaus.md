@@ -136,7 +136,7 @@ $(document).ready(function() {
         // Set the values once we have enough fields
         $('input[name="custom_key"]').eq(0).val('Lähettävä kirjasto');
         $('input[name="custom_key"]').eq(1).val('Tarvitaan viimeistään');
-        $('input[name="custom_key"]').eq(2).val('Aineistolaji');
+        $('input[name="custom_key"]').eq(2).val('Aineistotyyppi');
         $('input[name="custom_key"]').eq(3).val('Kieli');
         return;
       }
