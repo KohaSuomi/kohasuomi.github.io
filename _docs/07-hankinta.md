@@ -807,11 +807,11 @@ sulkea ja viedä tilauksen PDF:ksi. Jos EDIFACT-määritykset on tehty, voi tila
 
 Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät _Suljettu_-välilehdelle. Sieltä tilausryhmän tietoja voi katsoa, avata uudelleen, viedä PDF:ksi tai CSV-muotoon. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
 
-Tilausryhmiin pääsee myös kun hakee Hankinnan etusivulla ensin
-toimittajan nimellä, ja valitsee sitten vasemmasta reunausta
-_Tilausryhmät_.
+Tilausryhmiin pääsee myös kun hakee Hankinnan etusivulla ensin toimittajan nimellä, ja klikkaa sitten toimittajan nimestä, jolloin avautuu toimittajan tarkemmat tiedot. Vasemmasta reunasta löytyy sen jälkeen _Tilausryhmät_.
 
 ![Näkymä toimittajan tiedoissa, jossa vasemman reunan valikosta ympäröity Tilausryhmät-linkki](/assets/files/docs/Hankinta/hankinta69.png)
+
+Sivulla voi myös lisätä uuden tilausryhmän _Uusi tilausryhmä_ -napista.
 
 ### 7.4.4 EDItX-tilaaminen
 
