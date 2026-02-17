@@ -949,18 +949,14 @@ Jos taas et poista nimekettä, sekin kerrotaan varmistusviestissä
 
 ## 7.7. Myöhässä olevien tilausten reklamointi
 
-Jos olet tallentanut toimittajan sähköpostiosoitteen
-toimittajatietoihin, voit lähettää reklamoinnin tilauksesta, jonka
-toimitus on myöhässä. Sivu voi avautua hitaasti, jos myöhässä olevia on
-paljon.
+Jos olet tallentanut toimittajan sähköpostiosoitteen toimittajatietoihin, voit lähettää reklamoinnin tilauksesta, jonka
+toimitus on myöhässä. Sivu voi avautua hitaasti, jos myöhässä olevia on paljon.
 
-Valitse _Hankinnat_-sivulla vasemmasta reunasta _Myöhässä olevat_
--linkkiä
+Valitse _Hankinnat_-sivulla vasemmasta reunasta _Myöhässä olevat tilaukset_ -linkkiä
 
 ![Hankinnat-osion vasemman reunan valikosta ympäröitynä Myöhässä olevat -linkki](/assets/files/docs/Hankinta/hankinta831.png)
 
-Pääset listaukseen, jota voit suodattaa sivun vasemmassa reunassa
-olevasta valikosta esimerkiksi tilauspäivän tai toimittajan mukaan.
+Pääset listaukseen, jota voit suodattaa sivun vasemmassa reunassa olevasta valikosta esimerkiksi tilauspäivän tai toimittajan mukaan.
 Suodatus koskee vain suljettuja tilauskoreja.  
 ![Haun rajaus tilauspäivämäärän, saapumispäivämäärän, loppumispäivämäärän ja toimittajan mukaan.](/assets/files/docs/Hankinta/hankinta83.png)
 
@@ -977,8 +973,7 @@ Kun tilauksia on suodatettu toimittajan mukaan, hakutulos näyttää tältä:
 Kun sähköpostin lähetys onnistuu, tulee seuraava ilmoitus:  
 ![Sähköposti on lähetetty -ilmoitus sinertävällä taustalla.](/assets/files/docs/Hankinta/hankinta85.png)
 
-HUOM! Arvioitu saapumispäivä perustuu toimittajan tiedoissa
-tallennettuun _Toimitusaika_-arvoon.
+HUOM! Arvioitu saapumispäivä perustuu toimittajan tiedoissa tallennettuun _Toimitusaika_-arvoon.
 
 ## 7.8 Laskut
 
