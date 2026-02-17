@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: Ti 17.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 
 **OUTI**
 * OUTIssa henkilökunnan testaukset nextillä alkaneet. Ainakaan vielä ei ole ilmennyt mitään isompia ongelmia, ainoastaan muutamalla testaajalla tuli ongelma, kun he vaihtoivat käyttäjätunnuksen tilin tiedoissa kotikirjastoa, Koha nakkasi käyttäjän ulos ja vanhensi koko tilin (https://github.com/KohaSuomi/Koha-25x/issues/215). Ongelma korjattu ja nyt kirjaston vaihtaminen omista tiedoista toimii.
+
+**Lumme**
+* Perusylläpito pitänyt kiireisenä.
+* Sulkuajan viestintää aletaan valmistelemaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
