@@ -782,12 +782,11 @@ Jos jo tallennetun tilauksen tilausmäärää pitää jälkikäteen muuttaa, onn
 Tilauskori pitää sulkea, jotta tilaukset voidaan vastaanottaa.
 Sulkemisen yhteydessä tilauskorin voi halutessaan lisätä samannimiseen
 tilausryhmään laittamalla rastin kohtaan “Lisää tämä tilauskori uuteen,
-samannimiseen tilausryhmään”.
+samannimiseen tilausryhmään”. Tilausryhmistä tarkemmin alla.
 
-![Vahvistuskysymys, halutaanko varmasti sulkea tilauskori](/assets/files/docs/Hankinta/hankinta67.png)
+![Vahvistuskysymys, halutaanko varmasti sulkea tilauskorin](/assets/files/docs/Hankinta/hankinta67.png)
 
 - **Huom!** Jos yhdenkin tilauksen hinta on vahvistamaton, tilausta ei voi sulkea.
-- Tilauksen sulun yhteydessä tilauskorin voi viedä saman nimiseen tilausryhmään halutessaan. Laita tällöin rasti ilmoituksessa olevaan ruutuun. Tilausryhmistä tarkemmin alla.
 
 ### 7.4.3. Tilausryhmän tekeminen
 
