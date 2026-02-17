@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: Ti 17.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
 * Uusi ohje: [IntranetUserJS‐asetukseen lisääminen ja muokkaaminen](https://github.com/KohaSuomi/Koha/wiki/IntranetUserJS%E2%80%90asetukseen-lis%C3%A4%C3%A4minen-ja-muokkaaminen)
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Työn alla käyttäjätunnusten mallipohjat, tehdään asiakastunnuksen ja kahden kevyttunnuksen pohjat, muille oikeuksille joko suppeat pohjat tai lisätään käsin.
+* Muuten normaalia ylläpitoa, ja signum-muutoksia
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
