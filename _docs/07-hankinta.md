@@ -997,7 +997,7 @@ _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 
 ![Tiedot - Sulje](/assets/files/docs/Hankinta/hankinta854.png)
 ![Tiedot - Avaa uudelleen](/assets/files/docs/Hankinta/hankinta855.png)
-![Tiedot - Poista](/assets/files/docs/Hankinta/hankinta855.png)
+![Tiedot - Poista](/assets/files/docs/Hankinta/hankinta856.png)
 
 - Tiedot-kohdasta voit avata laskun tiedot tarkemaan katseluun
 - Voit avata laskun uudelleen, jos se on suljettu
