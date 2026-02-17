@@ -23,7 +23,7 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Työn alla käyttäjätunnusten mallipohjat, tehdään asiakastunnuksen ja kahden kevyttunnuksen pohjat, muille oikeuksille joko suppeat pohjat tai lisätään käsin.
-* Muuten normaalia ylläpitoa, ja signum-muutoksia
+* Muuten normaalia ylläpitoa ja signum-muutoksia
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
