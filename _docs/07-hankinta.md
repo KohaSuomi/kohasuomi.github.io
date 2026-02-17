@@ -1061,6 +1061,7 @@ näkyviin siihen tiliin tehdyt tilaukset.
 
 - Myös tällä sivulla toimii _Haku_-kenttä.
 - Voit myös järjestää tuloksia esim. nimekkeen mukaan sarakkeen ensimmäisen rivin nuolilla.
+- Voit viedä taulukon tiedot _Vie_-napilla Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
 
 ## 7.11 Lisäkentät laskuille, tilauksille ja tilauskoreille
 
