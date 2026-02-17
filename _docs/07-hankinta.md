@@ -832,19 +832,16 @@ prosessin mukaan.
 
 ## 7.5. Tilausten vastaanottaminen
 
-Tilauksia lähdetään vastaanottamaan toimittajan kautta. Hae ensin
-toimittajan tiedot.
+Tilauksia lähdetään vastaanottamaan toimittajan kautta. Hae ensin toimittajan tiedot.
 
 ![Hankinnan etusivulta kuva, jossa Toimittaja-hakuun kirjoitettu 'Testitoimittaja'](/assets/files/docs/Hankinta/hankinta71.png)
 
-Klikkaa _Vastaanota tilauksia_.
+Klikkaa _Vastaanota tilauksia_ Toiminnot-sarakkeessa.
 
-![Toimittajan tiedoissa ympäröity Vastaanota tilauksia -linkki](/assets/files/docs/Hankinta/hankinta72.png)
+![Toimittaja-taulukossa ympäröity Vastaanota tilauksia -linkki](/assets/files/docs/Hankinta/hankinta72.png)
 
-Aineistoa vastaanotettaessa kysytään toimittajan laskun numeroa (tähän
-voi laittaa esimerkiksi lähetyslistan tunnuksen). Jokaiselle
-toimitukselle kannattaa tehdä oma laskunumeronsa. Jos käyttää aina
-samaa, hidastuu vastaanotto.  
+Aineistoa vastaanotettaessa kysytään toimittajan laskun numeroa (tähän voi laittaa esimerkiksi lähetyslistan tunnuksen). Jokaiselle
+toimitukselle kannattaa tehdä oma laskunumeronsa. Jos käyttää aina samaa numeroa tai tunnistetta, hidastuu vastaanotto huomattavasti.  
 ![Toimittajan laskun luonti](/assets/files/docs/Hankinta/hankinta73.png)
 
 - Lähetyspäivämääräksi tulee automaattisesti kuluva päivä, sen voi
@@ -889,18 +886,15 @@ vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteist�
 
 Vastaanoton tallennuksen jälkeen palaat takaisin tilauskoriin. Vastaanotetut näkyvät vastaanotettavien alapuolella omana taulukkonaan.
 
-Voit peruuttaa vastaanoton, mikäli valitsit vahingossa väärän
-tietueen, klikkaamalla _Peruuta vastaanotto_, jolloin teos siirtyy takaisin
+Voit peruuttaa vastaanoton, mikäli valitsit vahingossa väärän tietueen, klikkaamalla _Peruuta vastaanotto_, jolloin teos siirtyy takaisin
 vastaanotettaviin.
 
 ![Vastaanoton yhteenvetosivu, jossa on ympäröity Peruuta vastaanotto -linkki yhden rivin kohdalla](/assets/files/docs/Hankinta/hankinta77.png)
 
-Kun olet vastaanottanut koko lähetyksen, valitse alareunasta _Lopeta
-vastaanotto_, jolloin ohjaudut laskun tietoihin.
+Kun olet vastaanottanut koko lähetyksen, valitse alareunasta _Lopeta vastaanotto_, jolloin ohjaudut laskun tietoihin.
 ![Laskun tiedot -sivu](/assets/files/docs/Hankinta/hankinta771.png)
 
-- Laita rasti kohtaan _Suljettu_, jolloin lasku suljetaan, eikä jää
-  turhaan avoimeksi.
+- Laita rasti kohtaan _Suljettu_, jolloin lasku suljetaan, eikä jää turhaan avoimeksi.
 - Valitse sitten _Tallenna_.
 
 ### 7.5.1 Oikaisut
