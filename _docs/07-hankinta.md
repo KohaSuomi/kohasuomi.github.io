@@ -1025,8 +1025,7 @@ Toimittajahaussa voit hakea millä tahansa sanan osalla.
 
 ### 7.9.2 Hankintahaku
 
-Hankintahaussa voit hakea tilaamiasi nimekkeitä joko toimittajatietojen
-kanssa tai ilman toimittajan nimeä. Nimekkeestä riittää myös osa, ei
+Hankintahaussa voit hakea tilaamiasi nimekkeitä joko toimittajatietojen kanssa tai ilman toimittajan nimeä. Nimekkeestä riittää myös osa, ei
 tarvitse olla kokonaan.
 
 ![Hankintahakuun kirjoitettu Nimekehakuun 'kadonnut' ja Toimittajahakuun 'testi'](/assets/files/docs/Hankinta/hankinta89.png)
@@ -1036,15 +1035,13 @@ tarvitse olla kokonaan.
 - Voit säätää _Sarakkeet_ -napista, mitä sarakkeita taulukossa on näkyvillä.
 - _Vie_ -napista voit viedä tulokset Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
 
-Klikkaamalla valikko-kuvaketta hankintahaun oikeassa reunassa voit laajentaa
-hakuehtoja.
+Klikkaamalla valikko-kuvaketta hankintahaun oikeassa reunassa voit laajentaa hakuehtoja. Alas laskeutuvaan lisäosioon tulee tarjolle mahdollisuus hakea tilauskorin nimellä tai laskun numerolla.
 
 ![Valikko-kuvakkesta avautuu lisävaihtoehtoja: Tilauskori, Laskun numero ja Tarkka haku -linkki (ympäröity)](/assets/files/docs/Hankinta/hankinta91.png)
 
-Saat laajemman hakulomakkeen, kun valitset avautuvasta valikosta
-_Tarkka haku_ -linkin.
+Saat laajemman hakulomakkeen, kun valitset avautuvasta valikosta _Tarkka haku_ -linkin.
 
-Tarkassa haussa pystyt hakemaan mm. ISBN-numerolla  
+Tarkassa haussa pystyt hakemaan mm. ISBN-numerolla, nimekkeellä tai hankinnan tilalla
 ![Tarkan haun lomake, jossa on useita eri hakuvaihtoehtoja, kuten nimeke, tilauskorin luoja](/assets/files/docs/Hankinta/hankinta921.png)
 
 ## 7.10 Budjetointi ja tilien seuranta
