@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: Ti 17.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle)
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
