@@ -8,6 +8,8 @@ toc: true
 
 # 9. Raportit
 
+Tämä ohje on päivitetty version 25.05 mukaiseksi.
+
 Raporteilla voi hakea tietokannasta mm. tilastotietoja ja erilaisia
 listoja asiakkaista, teoksista tai niteistä. Jos sinulla on oikeus
 käyttää raportteja, pääset niihin joko etusivun kautta
