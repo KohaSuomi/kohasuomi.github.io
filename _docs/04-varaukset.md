@@ -163,6 +163,17 @@ Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muutta
 
 ![](/assets/files/docs/Lainaus/Varaus_18_peruuta_odottava_ja_kuljetustila.PNG)
 
+Niteen kuljetustila poistuu asiakkaan tiedoista, mutta niteen tiedoista kuljetustilan voi poistaa seuraavasti: 
+1)	Palauta nide.
+2)	Valitse varauksesta ilmoittavassa pop up -ikkunassa ”Peruuta kuljetus”.
+
+![](/assets/files/docs/Lainaus/Varaus_kuljetuksen_peruutus.png)
+
+3)	Nide muuttuu saatavana-olevaksi, jos nide jää kellumaan palautuskirjastoon. Muussa tapauksessa kuljetustilan kohde muuttuu niteen kotikirjastoksi.
+
+Kuljetustilan poistumisessa on tällä hetkellä bugi. Jos kuljetustila ei poistu, niteen voi kokeilla lainata esimerkiksi työkortille, jolloin palautuksen yhteydessä kuljetustilan pitäisi poistua. 
+
+
 ---
 
 ## 4.2. Varausten kiinnijääminen
