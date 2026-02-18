@@ -147,6 +147,10 @@ Asiakastietue
 
 ![](/assets/files/docs/Raportit/raportit184.png)
 
+Kuvailutietue
+
+![](/assets/files/docs/Raportit/raportit185.png)
+
 ### 9.1.2 Tilastovelho
 
 Tilastovelholla pystyy hakemaan tietoja tietokannasta seitsemästä eri
@@ -376,7 +380,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ## 9.2 Lainaus ja palautus -osion raportit
 
-Lainaus ja palautus -osiossa on myös muutamia hyödyllisiä raportteja. Niiden kuvaukset löytyvät wikin [Lainaus-osiosta](https://koha-suomi.fi/dokumentaatio/lainaus/#213-lainauksen-valmiit-raportit)
+Lainaus ja palautus -osiossa on myös muutamia hyödyllisiä raportteja. Niiden kuvaukset löytyvät ohjeen [Lainaus-osiosta](https://koha-suomi.fi/dokumentaatio/lainaus/#213-lainauksen-valmiit-raportit)
 
 
 ## 9.3 OKM-tilastot
@@ -391,12 +395,10 @@ Liitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raport
 
 ### 9.3.1 Liitännäisen määritykset
 
-Raporttiliitännäisen ylläpidossa on asetus, johon tehdään tietyt
-määritykset. Loput määritykset tulee suoraan työkalun koodista ja niitä
+Raporttiliitännäisen ylläpidossa on asetus, johon tehdään tietyt määritykset. Loput määritykset tulevat suoraan työkalun koodista ja niitä
 määrityksiä on avattu alla.
 
-Asetuksessa määritetään, miten aineistotyypit, asiakaslajit ja
-hyllypaikat jaotellaan OKM-tilastoihin sekä, mitä niteen tiloja ei oteta
+Asetuksessa määritetään, miten aineistotyypit, asiakaslajit ja hyllypaikat jaotellaan OKM-tilastoihin sekä, mitä niteen tiloja ei oteta
 mukaan tilastoihin.  
 <img src="/assets/files/docs/Raportit/raportit52.png" title="OKM-järjestelmäasetus" alt="OKM-järjestelmäasetus" style="width:80.0%" />
 
@@ -419,6 +421,8 @@ mukaan tilastoihin.
   “EITILASTO”-asiakastyyppi, jonka lainoja ei lasketa mukaan, niin
   sitä ei merkitä tähän mukaan.
 
+- _interlibraryCategory_ -otsikon alle merkitään asiakastyypit, jotka ovat kaukolainakirjastoja
+ 
 - _excludedItemtypes_ -kohtaan merkitään aineistotyypit, joita ei lasketa mukaan kokoelmiin. Tähän lisätään esim. lehtiaineistojen aineistotyypit, koska niitä OKM:n ohjeistuksen mukaan ei lasketa nidetasolla mukaan kokoelmiin vaan ne ilmoitetaan vuosikertoina. Sitä tietoa taas ei tällä liitännäisellä lasketa.
 
 - _notForLoanStatuses_-kohtaan merkitään ne ei-lainattavana-tilat eli notforloan-tilat, joita ei
@@ -504,6 +508,8 @@ patronCategories:
   - LAOMATOIMI
   - MUUHUOL
   - YHTEISO
+interlibraryCategory:
+  - KAUKO
 notForLoanStatuses:
   - -1
 adultShelvingLocations:
@@ -549,12 +555,11 @@ ole ‘fin’ tai ‘swe’, mutta se on määritetty.
 
 #### 9.3.2.3 Jako lasten- ja aikuisten aineistoihin
 
-Nide lasketaan lasten materiaaliksi ‘OKM’-järjestelmäasetuksessa
-tehtyjen hyllypaikkamääritysten mukaan.
+Nide lasketaan lasten materiaaliksi ‘OKM’-järjestelmäasetuksessa tehtyjen hyllypaikkamääritysten mukaan.
 
 #### 9.3.2.4 Jako kauno- ja tietokirjoihin
 
-Nide on kaunokirja, jos sen YKL-luokka **niteessä** on 80-85. Muut ovat tietokirjoja. Tieto otetaan niteen cn_sort-kentästä, jossa se pitää olla kentän ensimmäisenä tietona. cn_sort-kentän tieto muodostetaan niteen signum-kentästä (itemcallnumber) ja sitä varten on kaksi eri liitännäistä riippuen siitä, onko signum-kentässä ensimmäisenä luokka-arvo vai jotain muuta.
+Nide on kaunokirja, jos sen YKL-luokka **niteessä** on 80-85. Muut ovat tietokirjoja. Tieto otetaan niteen cn_sort-kentästä, jossa se pitää olla kentän ensimmäisenä tietona. cn_sort-kentän tieto muodostetaan niteen signum-kentästä (itemcallnumber).
 
 #### 9.3.2.5 Musiikkiäänitteet
 
@@ -562,10 +567,8 @@ Nide lasketaan musiikkitallenteeksi, jos sen YKL-luokka on 78.
 
 #### 9.3.2.6 Hankinnat
 
-Nide lasketaan mukaan hankintoihin, jos se on vastaanotettu määritetyllä
-aikavälillä. Jos Hankinnat-osiota ei käytetä, nide kuitenkin lasketetaan
-hankintoihin, jos se on lisätty kokoelmiin raportin ajossa määritettynä
-ajanjaksona.
+Nide lasketaan mukaan hankintoihin, jos se on vastaanotettu määritetyllä aikavälillä. Jos Hankinnat-osiota ei käytetä, nide kuitenkin lasketetaan
+hankintoihin, jos se on lisätty kokoelmiin raportin ajossa määritettynä ajanjaksona.
 
 Aikaväli tarkistetaan niteen dateaccessioned-tiedon mukaan.
 
@@ -573,31 +576,26 @@ Aikaväli tarkistetaan niteen dateaccessioned-tiedon mukaan.
 
 Lainat sisältävät ensilainat ja uusinnat.
 
-Lainoiksi lasketaan määritettynä aikavälinä tehdyt lainat, joiden
-lainaajat kuuluvat OKM-järjestelmäasetuksessa ‘patronCategories’-kohtaan
+Lainoiksi lasketaan määritettynä aikavälinä tehdyt lainat, joiden lainaajat kuuluvat OKM-järjestelmäasetuksessa ‘patronCategories’-kohtaan
 määritettyihin asiakastyyppeihin.
 
-Lainat lasketaan lainanneelle kirjastolle. Verkkokirjastouusinnan
-kirjastoksi lasketaan niteen nykyinen sijainti uusintahetkellä.
+Lainat lasketaan lainanneelle kirjastolle. Verkkokirjastouusinnan kirjastoksi lasketaan niteen nykyinen sijainti uusintahetkellä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
 #### 9.3.2.8 Kausijulkaisut
 
-Aikakauslehtiä ei lasketa mukaan kokoelmiin, poistoihin ja hankintoihin.
-Ne ovat mukana kokonaislainoissa.
+Aikakauslehtiä ei lasketa mukaan kokoelmiin, poistoihin ja hankintoihin. Ne ovat mukana kokonaislainoissa.
 
 #### 9.3.2.9 Poistot
 
-Kaikki määritetyllä aikavälillä poistetut niteet, pois lukien
-aikakauslehdet, lasketaan poistoiksi.
+Kaikki määritetyllä aikavälillä poistetut niteet, pois lukien aikakauslehdet, lasketaan poistoiksi.
 
-Poistettuja niteitä ei lasketa määritetyn aikavälin kokoelmiin ja
-hankintoihin, koska hankintatietoja ei säilytetä.
+Poistettuja niteitä ei lasketa määritetyn aikavälin kokoelmiin ja hankintoihin, koska hankintatietoja ei säilytetä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
-Tätä lukua ei enää ilmoiteta OKM:lle, vaan he laskevat poistot omalla laskukaavalla.
+Tätä lukua ei enää ilmoiteta OKM:lle, vaan he laskevat poistot omalla laskukaavallaan.
 
 #### 9.3.2.10 Lainanneet asiakkaat
 
@@ -605,12 +603,10 @@ Lainaajat lasketaan aina uniikkeina arvoina. Tällöin, jos asiakas on lainannut
 
 ### 9.3.3 Raportin käyttöohje
 
-OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM-välilehti
+OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti
 
-OKM-tilastoraportin tiedot jaotellaan OKM:n laatimien ehtojen
-mukaisesti. Sarakkeiden otsikoissa noudatetaan
-[tilastot.kirjastot.fi](https://tilastot.kirjastot.fi/) -sivun
-termistöä.
+OKM-tilastoraportin tiedot jaotellaan OKM:n laatimien ehtojen mukaisesti. Sarakkeiden otsikoissa noudatetaan
+[tilastot.kirjastot.fi](https://tilastot.kirjastot.fi/) -sivun termistöä.
 
 Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä aikavälin tilastoja haluat tarkastella.
 
@@ -634,9 +630,12 @@ Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä
 - Tilasto avataan **klikkaamalla** haluttua riviä.
 
 
-Kun raportin on avannut, pystyy sen myös sen jälkeen lataamaan XSL-tiedostoksi tai tiedot kopioimaan leikepöydälle ja liittämään haluamaansa ohjelmaan.
-
 <img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna" alt="Tilasto avattuna" style="width:90.0%" />
+
+- tilastotaulukosta pystyy piilottamaan osioita taulukon yläpuolella olevista napeista, esim. _Piilota kokoelmat (sijaintikirj)
+- tietoja voi suodattaa Suodata-kentän avulla
+- tiedot pystyy myös viemään XSL-tiedostoksi tai kopioimaan leikepöydälle ja liittämään haluamaansa ohjelmaan.
+
 
 - Rivejä voi suodattaa halutessaan. Tyhjennä suodatin -nappulalla saa tyhjennettyä Suodata-kentän.
 - Tilastoja voi järjestellä otsikkorivien mukaan valitsemalla nuolen ylös tai alas.
