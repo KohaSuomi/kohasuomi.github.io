@@ -1479,6 +1479,49 @@ AND IF(i.itemlost=1 AND i.itemlost_on IS NOT NULL AND olr.cancellationdate <= i.
 ORDER BY 1,2
 ```
 
+### Vanhentuneet noutamattomat varaukset (raportilla noutohylly-tieto)
+
+Turussa tehty versio vanhentuneiden noutamattomien varausten raportista. Raportilla mukana myös noutohylly-tieto (ensimmäisessä sarakkeessa näytetään ensisijaisesti varauksella ollut noutohylly ja jos sitä ei ole, asiakkaan varaustunniste).
+
+```
+SELECT IF(olr.hold_pickup_shelf_id IS NOT NULL, (SELECT hps.shelf_name FROM hold_pickup_shelves hps WHERE hps.hold_pickup_shelf_id = olr.hold_pickup_shelf_id), CON-CAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',ba.borrowernumber,'\">',ba.attribute,'</a>')) AS "Hyllypaikka/Varaustunnus",
+	CONCAT('<a href=\"/cgi-bin/koha/catalogue/moredetail.pl?biblionumber=',biblio.biblionumber,'#item',items.itemnumber,'\">',items.barcode,'</a>') AS "Nide",
+	CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',biblio.biblionumber,'\">',biblio.title,'</a>') AS "Nimeke",
+	biblioitems.itemtype AS "Aineistolaji",
+	olr.expirationdate AS "Viimeinen noutopäivä"
+FROM (SELECT IF(o.borrowernumber=28, RE-GEXP_SUBSTR(SUBSTRING(al.info,(LOCATE("'borrowernumber' =>", al.info)+20), 7), '^[0-9]+'), o.borrowernumber) as borrowernumber,
+	o.reserve_id,
+    o.biblionumber,
+    o.itemnumber,
+    o.cancellationdate,
+    o.expirationdate,
+    o.found,
+    o.branchcode,
+    o.hold_pickup_shelf_id
+	FROM old_reserves o
+	LEFT JOIN (SELECT * FROM action_logs WHERE module='HOLDS' AND ac-tion='CANCEL') al ON al.object = o.reserve_id) olr 
+LEFT JOIN (SELECT * FROM borrower_attributes WHERE code='HOLDID') ba us-ing(borrowernumber)
+LEFT JOIN biblio using(biblionumber)
+LEFT JOIN items using(itemnumber)
+LEFT JOIN biblioitems using(biblioitemnumber)
+WHERE olr.cancellationdate > DATE(items.datelastseen)
+	AND olr.expirationdate <= <<Anna viim. noutopäivä|date>>
+    AND olr.expirationdate < olr.cancellationdate
+    AND olr.found = "W"
+    AND IF(items.datelastborrowed IS NOT NULL, olr.cancellationdate > items.datelastborrowed, 1=1)
+    AND IF(items.itemlost=1 AND items.itemlost_on IS NOT NULL AND olr.cancellationdate <= items.itemlost_on, 1=0,1=1)
+    AND olr.branchcode = <<Noutokirjasto|branches>>
+    AND olr.itemnumber NOT IN (SELECT itemnumber FROM issues WHERE is-sues.borrowernumber=olr.borrowernumber AND issues.itemnumber=olr.itemnumber)
+ORDER BY
+CASE WHEN ba.attribute REGEXP '^[a-ö]' THEN ba.attribute END,
+CASE WHEN ba.attribute REGEXP '^[0-9]{4}-[0-9]{4}-[0-9]{4}' THEN ba.attribute END,
+CASE WHEN ba.attribute REGEXP '^[0-9]' THEN cast(REPLACE(ba.attribute, ' ', '') as int) END,
+CASE WHEN olr.hold_pickup_shelf_id IS NOT NULL THEN olr.hold_pickup_shelf_id END
+```
+
+Pvm: 18.2.2026
+Tekijä: Mikko Liimatainen
+
 ### Nimekkeet, joihin on varauksia mutta ainut nide merkitty kadonneeksi
 
 Raportilla voi hakea nimekkeet, joihin kohdistuu varauksia, mutta ainut nide on merkitty kadonneeksi.
