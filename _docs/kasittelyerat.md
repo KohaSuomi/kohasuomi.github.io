@@ -8,6 +8,8 @@ toc: true
 
 # 13. Käsittelyerät
 
+Tämä ohje on päivitetty version 25.05 mukaiseksi.
+
 Käsittelyerät-toimintoon pääset kahta reittiä.
 
 * Etusivun _Käsittelyerät_-napista
@@ -17,7 +19,7 @@ Käsittelyerät-toimintoon pääset kahta reittiä.
 
 Käsittelyerät-toiminnolla pystyy seuraamaan erilaisia aineiston käsittelyyn liittyviä työkulkuja kuten sitomoon vientejä, ditigointia, muovitusta yms. Niteet lisätään ensin odotuslistalle, jonka jälkeen ne liitetään sopivaan käsittelyerään.
 
-Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsitelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. 
+Jotta toimintoa voi käyttää, pitää se ensin aktivoida PreservationModule-järjestelmäasetuksesta. Myöskin odotuslistalle ja käsittelyerille pitää määrittää ei-lainata-tilan oletusarvot NOT_LOAN -auktorisoituun arvoon sekä  PreservationNotForLoanDefaultTrainIn ja PreservationNotForLoanWaitingListIn -järjestelmäasetuksiin. 
 
 Huom! Odotuslistalle ja käsittelyerälle kannattaa olla omat erilliset arvonsa.
 
@@ -54,11 +56,11 @@ Käsittelypohjaan voi lisätä erilaisia ominaisuuksia, kuten nimeke ja tekijä.
 * _Nimi_: ominaisuuden/määreen nimi
 * _Tyyppi_: Vaihtoehtoja on kolme: auktorisoitu arvo, tietokannan sarake tai vapaateksti
 * _Valinnat_: Valintaan voi tulla eri vaihtoehtoja riippuen siitä, mitä on valittuna tyyppi-kohdassa.
-  * Jos tyypissä on valittuna auktorisoitu arvo, tulee tähän lista järjestelmään tallennetuista auktorisoiduista arvoista.
-  * Jos tyypissä on valittuna tietokannan sarake, tulee tähän lista käytettävissä olevista tietokannan sarakkeista, esim. biblio.title.
-  * Jos tyypissä on valituna Vapaateksti, valintaa ei tule tarjolle.
+  * Jos tyypissä on valittuna _auktorisoitu arvo_, tulee tähän lista järjestelmään tallennetuista auktorisoiduista arvoista.
+  * Jos tyypissä on valittuna _tietokannan sarake_, tulee tähän lista käytettävissä olevista tietokannan sarakkeista, esim. biblio.title.
+  * Jos tyypissä on valituna _Vapaateksti_, valintaa ei tule tarjolle.
 
-Tallenna käsittelypohja _Submit_-napista.
+Tallenna käsittelypohja _OK_-napista.
 
 Huom! Tyyppi ja Valinnat -riveillä toimii tietojen täydennys, eli voit alkaa kirjoittamaan kenttään haluamaasi tietoa ja valikko ehdottaa sitä vastaavia vaihtoehtoja.
 
@@ -80,7 +82,7 @@ Avautuu ikkuna, johon voit joko lukea tai kirjoittaa halutut viivakoodit. Lisä�
 
 ![Niteiden lisääminen odotuslistalle](/assets/files/docs/Kasittelyerat/kasittelyerat4.png)
 
-Kun olet lisännyt halutut viivakoodit, valitse sitten _Submit_. Näkymä palaa odotuslistan etusivulle.
+Kun olet lisännyt halutut viivakoodit, valitse sitten _Save_. Näkymä palaa odotuslistan etusivulle.
 
 Sivulle ilmestyy uusi nappi _Lisää viimeiset x nidettä käsittelyerään_, jota painamalla juuri viedyt niteet saa vietyä suoraan jo olemassa olevaan käsittelyerään.
 
@@ -118,7 +120,7 @@ _Uusi käsittelyerä_ -nappulasta saat lisättyä käsittelyerän.
 Voit lisätä niteitä käsittelyerään kahta kautta:
 
 * Odotuslistalta  _Lisää viimeiset x nidettä käsittelyerään_ -napista sen jälkeen, kun olet lisännyt niteet odotuslistalle.
-* Käsittelyerän kohdalta _Lisää niteitä_ -napista.
+* Käsittelyerän kohdalta _Lisää niteitä_ -napista. Huomaa, että lisättävät niteet täytyy olla odotuslistalla.
 ![Lisää nide käsittelyerään Korjattavat](/assets/files/docs/Kasittelyerat/kasittelyerat7.png)
 ![Nide lisätty käsittelyerään](/assets/files/docs/Kasittelyerat/kasittelyerat8.png)
 
