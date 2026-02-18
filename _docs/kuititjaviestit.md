@@ -124,6 +124,13 @@ at the OUTI Web Library:
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>.
 
 ```
+### Noutohylly-tiedon lisääminen pohjaan
+
+Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdollista määritellä seuraavan Template Toolkit -koodin avulla, että ensisijaisesti tulostetaan noutohylly ja jos sitä ei ole, asiakkaan varaustunniste:
+
+```
+[% IF hold.hold_pickup_shelf_id %]<<hold_pickup_shelf>>[% ELSE %]<<borrower-attribute:HOLDID>>[% END %]
+```
 
 ## MEMBERSHIP_EXPIRY eli sähköpostiviesti tilin voimassaoloajan loppumisesta
 
@@ -855,6 +862,14 @@ Varaustunnuksellasi <<borrower-attribute:HOLDID>> on noudettavissa varaus <<bibl
 Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>> <<biblio.part_number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
 
+### Noutohylly-tiedon lisääminen pohjaan
+
+Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdollista määritellä seuraavan Template Toolkit -koodin avulla, että ensisijaisesti tulostetaan noutohylly ja jos sitä ei ole, asiakkaan varaustunniste:
+
+```
+[% IF hold.hold_pickup_shelf_id %]<<hold_pickup_shelf>>[% ELSE %]<<borrower-attribute:HOLDID>>[% END %]
+```
+
 ## HOLD_REMINDER eli varauksen noutomuistutus
 
 Päivitetty 25.11.2024
@@ -913,6 +928,14 @@ Item: [% hold.item.barcode %]<br />
 
 <p>You cannot reply to this message. You’ll find all Vaski Libraries’ contact information at http://www.vaskilibraries.fi</p>
 [% END %]
+```
+
+### Noutohylly-tiedon lisääminen pohjaan
+
+Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdollista määritellä seuraavan Template Toolkit -koodin avulla, että ensisijaisesti tulostetaan noutohylly ja jos sitä ei ole, asiakkaan varaustunniste:
+
+```
+[% IF hold.hold_pickup_shelf_id %]<<hold_pickup_shelf>>[% ELSE %]<<borrower-attribute:HOLDID>>[% END %]
 ```
 
 ## CHECKINSLIP eli palautuskuitti
