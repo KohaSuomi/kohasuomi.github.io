@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: Ti 17.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
@@ -44,6 +44,9 @@ Etelästä pohjoiseen
 **Kyyti**
 * Perusylläpitoa
 * Asiakkaan henkilötunnuksen tallentamisessa Kohaan oli ollut ongelmaa. Varmistettu, että Kohaan voi syöttää vain suomalaisessa muodossa olevia henkilötunnuksia.
+
+**Lastu**
+* Tekstiviesteissä havaittu ongelmaa, jos asiakkaalle saapuu noudettavaksi lyhyen ajan sisään useampi saman päänimekkeen nide. Koha tulkitsee nämä noutoilmoitukset kaksoiskappaleiksi, eikä lähetä niistä kuin yhden. Tämä ratkaistu lisäämällä viestiin niteen viivakoodi ja typistämällä pitkät nimekkeet ja varaustunnukset, jotta viestin sisältö mahtuu yhteen tekstiviestiin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
