@@ -11,6 +11,28 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 2/2026 
+
+24.2.2026
+
+Hei kaikille
+
+Koha-Suomen hallituksen helmikuun kokouksessa käytiin läpi vuoden 2026 taloustilanne ja ajankohtaiset asiat. Lisäksi hallitus teki itsearviointia strategisen ohjauksen, kirjastojärjestelmän kehityssuunnan, riskien hallinnan, tietoturvan, osaamisen, tuotekehityksen, hallitustyöskentelyn ja yhteistyön rakentavuuden osalta.
+
+Liitteenä myös toimitusjohtajan raportti 2/2026.
+
+Mukavaa kevään odotusta kaikille!
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä<br />
+hallituksen pj.
+
+Toimitusjohtajan raportti: [Toimitusjohtajan raportti 2_26.pdf](https://github.com/user-attachments/files/25513414/Toimitusjohtajan.raportti.2_26.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 1/2026
 
 Koha-Suomen hallituksen tiedote 1/2026 ja Koha-Suomen nimeämistoimikunnan kokous 1/2026
