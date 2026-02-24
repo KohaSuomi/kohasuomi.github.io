@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: Ti 24.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle). Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Keskiviikkona 25.2.2026 klo 13](https://github.com/KohaSuomi/Koha/discussions/2085) uuden version esittely henkilökunnalle
