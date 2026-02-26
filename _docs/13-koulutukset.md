@@ -165,6 +165,14 @@ Lisätty: 25.1.2023
 
 ### Versionvaihdot
 
+#### Kohan 25.05 -version esittely
+
+Kohan version 25.05 esittely pidettiin 25.2.2026. Esittelijänä Anneli Österman.
+
+[Version 25.05 esittelyn tallenne Koha-Suomen Youtube-kanavalla](https://www.youtube.com/watch?v=9-09pOEf3ko)
+
+Esittelyn diasarja: [Uutta Kohan versiossa 25.05.pdf](https://github.com/user-attachments/files/25567759/Uutta.Kohan.versiossa.25.05.pdf)
+
 #### Kohan 24.05 -version esittely
 
 Kohan version 24.05 esittely pidettiin 7.11.2024. Esittelijänä Anneli Österman
