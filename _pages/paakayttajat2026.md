@@ -35,7 +35,7 @@ Pohjoisesta etelään
 * Normaalia tukitöitä.
 
 **Kirkes**
-* Ei mainittavaa.
+* Nextiä testailevalta tullut Erikalle kysymys, onko testeille jotain deadlinea. Testit olisi hyvä saada valmiiksi 16.3. mennessä.
 
 **Siilinjärvi**
 * Ei mainittavaa, joitain tikettejä saatu sentään testattua.
