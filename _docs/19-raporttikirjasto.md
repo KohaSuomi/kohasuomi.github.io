@@ -2703,7 +2703,7 @@ select distinct(borrowernumber) from accountlines where credit_type_code='PAYMEN
 
 ### Verkkomaksujen jako kirjastoittain tai kunnittain
 
-Raportti hakee maksusuoritukset, jotka on tehty verkkomaksuna eli niissä on huomautus, joka alkaa sanoilla _Online transaction_. Raporttiin valitaan päivämääräväli maksusuorituksille ja tulokset ryhmitellään kirjastokoodin mukaisesti. Kannattaa huomioida, että kaikissa maksuissa ei ole tietoa kirjastopisteestä, joten ne ryhmittyvät listassa ensimmäiseksi NULL-arvolla. Nämä pitää jakaa itse kirjastojen kesken jollain kaavalla. Kirjastotieto on saatu tallentumaan kaikkiin maksutyyppeihin 26.5.2025 lähtien.
+Raportti hakee maksusuoritukset, jotka on tehty verkkomaksuna eli niissä on huomautus, joka alkaa sanoilla _Online transaction_ tai _Online payment_. Raporttiin valitaan päivämääräväli maksusuorituksille ja tulokset ryhmitellään kirjastokoodin mukaisesti. Kannattaa huomioida, että kaikissa maksuissa ei ole tietoa kirjastopisteestä, joten ne ryhmittyvät listassa ensimmäiseksi NULL-arvolla. Nämä pitää jakaa itse kirjastojen kesken jollain kaavalla. Kirjastotieto on saatu tallentumaan kaikkiin maksutyyppeihin 26.5.2025 lähtien.
 
 Lisääjä: Anneli Österman
 Pvm: 18.6.2025
@@ -2716,7 +2716,7 @@ SELECT COALESCE(od.branchcode, 'Ei kirjastotietoa') AS Maksupaikka,
        INNER JOIN account_offsets ao ON credit_id = al.accountlines_id
        INNER JOIN accountlines od ON ao.debit_id = od.accountlines_id
  WHERE al.credit_type_code = 'PAYMENT'
-     AND al.note LIKE 'Online transaction%'
+     AND al.note LIKE 'Online%'
      AND DATE(al.date) BETWEEN <<Maksusuorituksen alkupvm|date>> AND <<Loppupvm|date>>
      AND ao.credit_id NOT IN (SELECT ao.credit_id FROM account_offsets WHERE ao.debit_id IN (SELECT al.accountlines_id FROM accountlines al WHERE al.debit_type_code = 'PAYOUT'))
  GROUP BY od.branchcode
@@ -2743,7 +2743,7 @@ SELECT CASE WHEN od.branchcode IS NULL THEN 'Ei tietoa'
        INNER JOIN accountlines od ON ao.debit_id = od.accountlines_id
        LEFT JOIN branches br ON od.branchcode = br.branchcode
  WHERE al.credit_type_code = 'PAYMENT'
-   AND al.note LIKE 'Online transaction%'
+   AND al.note LIKE 'Online%'
    AND DATE(al.date) BETWEEN <<Maksusuorituksen alkupvm|date>> AND <<Loppupvm|date>>
    AND ao.credit_id NOT IN (SELECT ao.credit_id
  	                    FROM account_offsets
