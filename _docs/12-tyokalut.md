@@ -412,13 +412,14 @@ Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän
 
 * Huom! Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä vaihtoehtoa _Poista tämä päivä_ (päättymispäivää ei tarvita). Vaihtoehtoa _Poista toistuvat kiinniolot aikavälillä_ käytetään silloin, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, toistuva kiinniolo.
 
-Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja kuvausta. Valitse
+Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja/tai kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
 
 Voit kopioida valitsemasi poiston tai muokkauksen kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon _Kopioi muutokset kaikkiin kirjastoihin_ -vaihtoehdon. 
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
+* Huom. _Kopioi kiinniolopäivät kirjastolle_-vaihtoehto kopioi koko kalenterin toiselle kirjastolle eikä vain sillä hetkellä tehtyä poistoa tai kiinniolon muutosta.
 ---
 
 ## 12.9 Lokien katselu
