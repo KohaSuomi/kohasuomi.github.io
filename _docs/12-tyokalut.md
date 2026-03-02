@@ -437,7 +437,7 @@ Voit kopioida valitsemasi poiston tai muokkauksen **kaikkiin** kimpan kirjastoih
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
-* Huom. _Kopioi kiinniolopäivät kirjastolle_-vaihtoehto kopioi koko kalenterin toiselle kirjastolle eikä vain sillä hetkellä tehtyä poistoa tai kiinniolon muutosta.
+Huom. _Kopioi kiinniolopäivät kirjastolle_-vaihtoehto kopioi koko kalenterin toiselle kirjastolle eikä vain sillä hetkellä tehtyä poistoa tai kiinniolon muutosta.
 ---
 
 ## 12.9 Lokien katselu
