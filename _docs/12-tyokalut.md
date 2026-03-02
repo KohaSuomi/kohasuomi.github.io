@@ -408,14 +408,32 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 
 <img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: luo poikkeus tälle toistetulle kiinniololle, luo poikkeukset aikavälille, poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: luo poikkeus tälle toistetulle kiinniololle, luo poikkeukset aikavälille, poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
+Valitse sopiva muokkaus- tai poistovaihtoehto:
+
+- Luo poikkeus tälle toistetulle kiinniololle.
+  - Voit asettaa kiinnioloajalle poikkeuksen. Esimerkiksi, jos kirjasto on joka viikko kiinni lauantaisin ja sunnuntaisin, voit asettaa jonkin tietyn lauantain poikkeuksena, jolloin kirjasto on sinä lauantaina auki.
+- Luo poikkeukset aikavälille.
+  - Voit asettaa vuosittain toistuvalle kiinniolopäivälle poikkeuksen, jolloin kirjasto on ko. päivänä auki.
+    
+- Poista tämä päivä.
+  - Tämä poistaa kiinniolopäivän ja tarkistaa _toistettavien_ kiinniolopäivien mahdolliset poikkeukset. Jos poikkeus löytyy, toistuva kiinniolopäivä muuttuu normaaliksi kiinniolopäiväksi. _Huom. Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä tätä vaihtoehtoa (päättymispäivää ei tarvitse valita)_.
+- Poista yksittäiset kiinniolot aikavälillä.
+  - Tämä poistaa vain yksittäisten kiinniolopäivien sääntöjä. Toistettuja kiinniolopäiviä ja niiden poikkeuksia ei poisteta.
+- Poista toistuvat kiinniolot aikavälillä.
+  - Tämä poistaa toistetut kiinniolopäivät aikaväliltä ja tarkistaa toistettavien kiinniolopäivien aikaväliltä mahdolliset poikkeukset. Jos poikkeus löytyy, se muuttuu normaaliksi kiinniolopäiväksi. _Huom. Käytä tätä Vaihtoehtoa, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, vuosittain toistuva kiinniolo_.
+- Poista poikkeukset aikaväliltä.
+  - Tämä poistaa poikkeukset valitulta ajanjaksolta. Käytä aikarajausta varoen, jos valitset liian ison aikavälin, saatat hidastaa Kohaa.
+ 
+- Muokkaa kiinniolopäivää.
+  - Tällä voit muokata kiinniolopäivän nimeä ja kuvausta. Jos tämä on toistettu kiinniolopäivä, muutokset vaikuttavat kaikkiin toistettuihin päiviin.
+  - Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja/tai kuvausta. Valitse sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
+
+- Kopioi muutokset kaikkiin kirjastoihin.
+  - Jos valitset tämän, muutokset kiinnioloajalle kopioidaan kaikille kimpan kirjastoille. _Huom! Jos kirjastolle ei ole määritelty ko. kiinnioloaikaa, kiinniolo lisätään sen kalenteriin. Toiminto voi ylikirjoittaa kaletereissa jo olevia kiinnioloja!_
+
 Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Tallenna valinnat.
 
-* Huom! Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä vaihtoehtoa _Poista tämä päivä_ (päättymispäivää ei tarvita). Vaihtoehtoa _Poista toistuvat kiinniolot aikavälillä_ käytetään silloin, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, toistuva kiinniolo.
-
-Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja/tai kuvausta. Valitse
-sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
-
-Voit kopioida valitsemasi poiston tai muokkauksen kaikkiin kimpan kirjastoihin valitsemalla vaihtoehdon _Kopioi muutokset kaikkiin kirjastoihin_ -vaihtoehdon. 
+Voit kopioida valitsemasi poiston tai muokkauksen **kaikkiin** kimpan kirjastoihin valitsemalla vaihtoehdon _Kopioi muutokset kaikkiin kirjastoihin_ -vaihtoehdon. 
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
