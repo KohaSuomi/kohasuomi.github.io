@@ -404,7 +404,7 @@ näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.
 
 Sulkupäiviä voi poistaa tai muokata, jos ne ovat virheellisiä tai tarpeettomia.
 
-Valitse päivä tai aikavälin ensimmäinen päivä.
+Valitse kirjasto sekä päivä tai aikavälin ensimmäinen päivä.
 
 <img src="/assets/files/docs/Tyokalut/Muokkaakiinniolopaivaa.png" title="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: luo poikkeus tälle toistetulle kiinniololle, luo poikkeukset aikavälille, poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on kiinniolopäivän poisto- ja muokkausvaihtoehdot: luo poikkeus tälle toistetulle kiinniololle, luo poikkeukset aikavälille, poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
@@ -416,11 +416,15 @@ Valitse sopiva muokkaus- tai poistovaihtoehto:
   - Voit asettaa vuosittain toistuvalle kiinniolopäivälle poikkeuksen, jolloin kirjasto on ko. päivänä auki.
     
 - Poista tämä päivä.
-  - Tämä poistaa kiinniolopäivän ja tarkistaa _toistettavien_ kiinniolopäivien mahdolliset poikkeukset. Jos poikkeus löytyy, toistuva kiinniolopäivä muuttuu normaaliksi kiinniolopäiväksi. _Huom. Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä tätä vaihtoehtoa (päättymispäivää ei tarvitse valita)_.
+  - Tämä poistaa kiinniolopäivän ja tarkistaa _toistettavien_ kiinniolopäivien mahdolliset poikkeukset. Jos poikkeus löytyy, toistuva kiinniolopäivä muuttuu normaaliksi kiinniolopäiväksi.
+  -  _Huom. Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä tätä vaihtoehtoa (päättymispäivää ei tarvitse valita)_.
 - Poista yksittäiset kiinniolot aikavälillä.
   - Tämä poistaa vain yksittäisten kiinniolopäivien sääntöjä. Toistettuja kiinniolopäiviä ja niiden poikkeuksia ei poisteta.
+  - Tarvittaessa voi määrittää aikavälin loppupäivän.
 - Poista toistuvat kiinniolot aikavälillä.
-  - Tämä poistaa toistetut kiinniolopäivät aikaväliltä ja tarkistaa toistettavien kiinniolopäivien aikaväliltä mahdolliset poikkeukset. Jos poikkeus löytyy, se muuttuu normaaliksi kiinniolopäiväksi. _Huom. Käytä tätä Vaihtoehtoa, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, vuosittain toistuva kiinniolo_.
+  - Tämä poistaa toistetut kiinniolopäivät aikaväliltä ja tarkistaa toistettavien kiinniolopäivien aikaväliltä mahdolliset poikkeukset. Jos poikkeus löytyy, se muuttuu normaaliksi kiinniolopäiväksi.
+  - _Huom. Käytä tätä Vaihtoehtoa, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, vuosittain toistuva kiinniolo_.
+  - Tarvittaessa voi määrittää aikavälin loppupäivän.
 - Poista poikkeukset aikaväliltä.
   - Tämä poistaa poikkeukset valitulta ajanjaksolta. Käytä aikarajausta varoen, jos valitset liian ison aikavälin, saatat hidastaa Kohaa.
  
@@ -429,15 +433,12 @@ Valitse sopiva muokkaus- tai poistovaihtoehto:
   - Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja/tai kuvausta. Valitse sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
 
 - Kopioi muutokset kaikkiin kirjastoihin.
-  - Jos valitset tämän, muutokset kiinnioloajalle kopioidaan kaikille kimpan kirjastoille. _Huom! Jos kirjastolle ei ole määritelty ko. kiinnioloaikaa, kiinniolo lisätään sen kalenteriin. Toiminto voi ylikirjoittaa kaletereissa jo olevia kiinnioloja!_
+  - Voit kopioida valitsemasi poiston tai muokkauksen ruksaamalla tämän toiminnon. Tuolloin valitsemasi muutos kiinnioloajalle kopioidaan kaikille kimpan kirjastoille. _Huom! Jos kirjastolle ei ole määritelty ko. kiinnioloaikaa, kiinniolo lisätään sen kalenteriin. Toiminto voi ylikirjoittaa kaletereissa jo olevia kiinnioloja!_
 
-Poistaessasi kiinnioloa voit määrittää tarvittaessa aikavälin loppupäivän. Valitse haluamasi poisto -vaihtoehto. Tallenna valinnat.
+Lopuksi tallenna tekemäsi muutos.
 
-Voit kopioida valitsemasi poiston tai muokkauksen **kaikkiin** kimpan kirjastoihin valitsemalla vaihtoehdon _Kopioi muutokset kaikkiin kirjastoihin_ -vaihtoehdon. 
+_Huom. Kopioi kiinniolopäivät kirjastolle -vaihtoehto kopioi koko kalenterin toiselle kirjastolle eikä vain sillä hetkellä tehtyä poistoa tai kiinniolon muutosta._
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
-
-Huom. _Kopioi kiinniolopäivät kirjastolle_-vaihtoehto kopioi koko kalenterin toiselle kirjastolle eikä vain sillä hetkellä tehtyä poistoa tai kiinniolon muutosta.
 ---
 
 ## 12.9 Lokien katselu
