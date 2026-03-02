@@ -16,6 +16,7 @@ Aika: Ti 3.3.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* Koha-Suomella aloittanut maanantaina harjoittelija Aleksi Mikkelissä. Harjoittelu kestää kolme viikkoa.
 
 Etelästä pohjoiseen
 
