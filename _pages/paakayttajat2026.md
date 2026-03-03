@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Koha-Suomella aloittanut maanantaina harjoittelija Aleksi Mikkelissä. Harjoittelu kestää kolme viikkoa.
