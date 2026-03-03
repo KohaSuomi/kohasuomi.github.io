@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Koha-Suomella aloittanut maanantaina harjoittelija Aleksi Mikkelissä. Harjoittelu kestää kolme viikkoa.
@@ -25,6 +25,9 @@ Etelästä pohjoiseen
 
 **Vaara**
 * ei erikoisempaa
+
+**Lappi**
+* Ei mitään erityistä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
