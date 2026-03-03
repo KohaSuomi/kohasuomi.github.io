@@ -449,27 +449,19 @@ Valitse kirjasto sekä päivä tai aikavälin ensimmäinen päivä.
 <img src="/assets/files/docs/Tyokalut/Yksittainenkiinniolopaiva.png" title="Kuvakaappaus, jossa on yksittäisen kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" alt="Kuvakaappaus, jossa on yksittäisen kiinniolopäivän poisto- ja muokkausvaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä, muokkaa kiinniolopäivää sekä kopioi muutokset kaikkiin kirjastoihin" style="width:90.0%" />
 
 Valitse sopiva muokkaus- tai poistovaihtoehto:
-
-- Luo poikkeus tälle toistetulle kiinniololle.
-  - Voit asettaa kiinnioloajalle poikkeuksen. Esimerkiksi, jos kirjasto on joka viikko kiinni lauantaisin ja sunnuntaisin, voit asettaa jonkin tietyn lauantain poikkeuksena, jolloin kirjasto on sinä lauantaina auki.
-- Luo poikkeukset aikavälille.
-  - Voit asettaa vuosittain toistuville kiinniolopäiville poikkeuksen, jolloin kirjasto on niinä päivinä auki.
-  - Määritä aikavälille loppupäivä.
-    
+ 
 - Poista tämä päivä.
   - Tämä poistaa kiinniolopäivän ja tarkistaa _toistettavien_ kiinniolopäivien mahdolliset poikkeukset. Jos poikkeus löytyy, toistuva kiinniolopäivä muuttuu normaaliksi kiinniolopäiväksi.
   -  _Huom. Joka viikko/vuosi toistuvan kiinniolopäivän poistaminen tapahtuu käyttämällä tätä vaihtoehtoa (päättymispäivää ei tarvitse valita)_.
 - Poista yksittäiset kiinniolot aikavälillä.
   - Tämä poistaa vain yksittäisten kiinniolopäivien sääntöjä. Toistettuja kiinniolopäiviä ja niiden poikkeuksia ei poisteta.
-  - Tarvittaessa voi määrittää aikavälin loppupäivän.
-- Poista toistuvat kiinniolot aikavälillä.
-  - Tämä poistaa toistetut kiinniolopäivät aikaväliltä ja tarkistaa toistettavien kiinniolopäivien aikaväliltä mahdolliset poikkeukset. Jos poikkeus löytyy, se muuttuu normaaliksi kiinniolopäiväksi.
+ - Poista toistuvat kiinniolot aikavälillä.
+  - Tämä poistaa vain toistettujen kiinniolopäivien sääntöjä. Toistetut kiinniolopäivät poistetaan, mutta ei niiden poikkeuksia.
   - _Huom. Käytä tätä Vaihtoehtoa, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, vuosittain toistuva kiinniolo_.
   - Määritä aikavälille loppupäivä.
 - Poista poikkeukset aikaväliltä.
   - Tämä poistaa poikkeukset valitulta ajanjaksolta. Käytä aikarajausta varoen, jos valitset liian ison aikavälin, saatat hidastaa Kohaa.
- 
-- Muokkaa kiinniolopäivää.
+ - Muokkaa kiinniolopäivää.
   - Tällä voit muokata kiinniolopäivän nimeä ja kuvausta. Jos tämä on toistettu kiinniolopäivä, muutokset vaikuttavat kaikkiin toistettuihin päiviin.
   - Muokatessasi kiinniolopäivää voit tehdä muutoksen vain yksi päivä kerrallaan. Valitse muutettava päivä ja muokkaa valitun päivän nimekettä ja/tai kuvausta. Valitse sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
 
