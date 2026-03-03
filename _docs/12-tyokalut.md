@@ -424,7 +424,7 @@ Valitse sopiva muokkaus- tai poistovaihtoehto:
 - Poista toistuvat kiinniolot aikavälillä.
   - Tämä poistaa toistetut kiinniolopäivät aikaväliltä ja tarkistaa toistettavien kiinniolopäivien aikaväliltä mahdolliset poikkeukset. Jos poikkeus löytyy, se muuttuu normaaliksi kiinniolopäiväksi.
   - _Huom. Käytä tätä Vaihtoehtoa, kun kyseessä on tietylle ajanjaksolle (esim. 24.-26.12.) lisätty, vuosittain toistuva kiinniolo_.
-  - Tarvittaessa voi määrittää aikavälin loppupäivän.
+  - Määritä aikavälille loppupäivä.
 - Poista poikkeukset aikaväliltä.
   - Tämä poistaa poikkeukset valitulta ajanjaksolta. Käytä aikarajausta varoen, jos valitset liian ison aikavälin, saatat hidastaa Kohaa.
  
