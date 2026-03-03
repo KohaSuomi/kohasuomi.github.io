@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Koha-Suomella aloittanut maanantaina harjoittelija Aleksi Mikkelissä. Harjoittelu kestää kolme viikkoa.
@@ -31,6 +31,10 @@ Etelästä pohjoiseen
 
 **Lumme**
 * Ei mainittavaa.
+
+**OUTI**
+* Finna-nextillä asiakastietojen päivitystestauksessa huomattiin, että kun sähköpostiosoite ei ollut validi (redusoiduilla asiakkalla .none-loppuisia), Finna ei päivittänyt tietoa, mutta se kuitenkin ilmoitti "Käyttäjäprofiilisi on päivitetty". Sama ilmoitus tulee tuotanto-Finnassa eli kentässä on ilmeisesti joku tarkistus. OUTIsta laitetaan palautetta virheellisestä ilmoituksesta Finna-tukeen.
+* Samassa yhteydessä huomattiin, kun Finnaan kirjautuu normi virkailijatunnuksella, kaikkia päivitettäviä tietoja pystyy päivittämään. Superlibraria-tunnuksella pystyi päivittämään kaikkia muita tietoja, mutta ei Numero tekstiviestille- eikä Sähköposti-kentän tietoja, tulee ilmoitus "Updating of patron information failed". Pääsääntönä voisi pitää, että kaikki virkailijatunnuksen yhteystietoihin liittyvät päivitykset tehdään Kohaan. OUTIsta kysytään Finna-tuelta, voisiko kirjautumisen virkailijatunnuksella estää Finnaan.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
