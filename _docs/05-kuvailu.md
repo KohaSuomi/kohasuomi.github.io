@@ -1045,6 +1045,12 @@ järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset s
 <td>Täytetään automaattisesti hankintamoduulissa Kohaan tallennetun toimittajan tunnuksella, kun nide on saapunut.</td>
 </tr>
 <tr>
+<td>952$f</td>
+<td>Koodattu paikkamääre</td>
+<td>Kirjaston tunnus</td>
+<td>Tallenna kuvailupohjaan liitännäinen (signumbuilder).</td>
+</tr>
+<tr>
 <td>952$g</td>
 <td>Hankintahinta</td>
 <td>Desimaalinumero, ei valuuttamerkkejä (esim. 10.00)</td>
@@ -1055,6 +1061,12 @@ järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset s
 <td>Sarjanumero</td>
 <td>Esim. 2016 : 3</td>
 <td>Täytetään automaattisesti kausijulkaisuissa, jos niteet on merkitty saapuneeksi saapumisvalvonnan kautta</td>
+</tr>
+<tr>
+<td>952$j</td>
+<td>Hyllytarkenne</td>
+<td>Hyllytarkenne</td>
+<td>Jos käytössä, tallenna auktorisoitu arvo SUBLOC.</td>
 </tr>
 <tr>
 <td>952$o</td>
