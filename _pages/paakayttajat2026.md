@@ -36,7 +36,7 @@ Etelästä pohjoiseen
 * Finna-nextillä asiakastietojen päivitystestauksessa huomattiin, että kun sähköpostiosoite ei ollut validi (redusoiduilla asiakkalla .none-loppuisia), Finna ei päivittänyt tietoa, mutta se kuitenkin ilmoitti "Käyttäjäprofiilisi on päivitetty". Sama ilmoitus tulee tuotanto-Finnassa eli kentässä on ilmeisesti joku tarkistus. OUTIsta laitetaan palautetta virheellisestä ilmoituksesta Finna-tukeen.
 * Samassa yhteydessä huomattiin, kun Finnaan kirjautuu normi virkailijatunnuksella, kaikkia päivitettäviä tietoja pystyy päivittämään. Superlibraria-tunnuksella pystyi päivittämään kaikkia muita tietoja, mutta ei Numero tekstiviestille- eikä Sähköposti-kentän tietoja, tulee ilmoitus "Updating of patron information failed". Pääsääntönä voisi pitää, että kaikki virkailijatunnuksen yhteystietoihin liittyvät päivitykset tehdään Kohaan. OUTIsta kysytään Finna-tuelta, voisiko kirjautumisen virkailijatunnuksella estää Finnaan.
 
-**Siilinjärvi***
+**Siilinjärvi**
 * Ei mainittavaa
 * Paitsi kiitos kommentoinnista tiketissä [#128](https://github.com/KohaSuomi/Koha-25x/issues/128) kun mietin, miten preferred_name-kentän käyttöönoton jälkeen saa asiakasviesteihin oikeanlaisen tervehdyksen, myös yhteisölainaajille.
 
