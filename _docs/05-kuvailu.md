@@ -1048,7 +1048,7 @@ järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset s
 <td>952$f</td>
 <td>Koodattu paikkamääre</td>
 <td>Kirjaston tunnus</td>
-<td>Tallenna kuvailupohjaan liitännäinen (signumbuilder).</td>
+<td>Kenttään voi lisätä sijaintitunnisteen, jos sellaiselle on lisäksi tarvetta. Esim. tietty varaston osio. Vaarassa liitännäinen (signumbuilder).</td>
 </tr>
 <tr>
 <td>952$g</td>
