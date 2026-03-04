@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Iina Niemi (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Koha-Suomella aloittanut maanantaina harjoittelija Aleksi Mikkelissä. Harjoittelu kestää kolme viikkoa.
@@ -42,6 +42,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Havaittu, että asiakkaan maksujen Tapahtumat-sivulla Kuitti-toiminnossa sähköpostilla saa erittelyn maksuista, mutta tulosteeseen sama TT-koodinpätkä ei tee erittelyä. Ei tehty tikettiä, koska tulostusvaihtoehto on meillä piilotettu.
+
+**Kirkes**
+* Tuusulassa pohdittu, mistä OKM-tilastojen kaukolainausluvut tulevat. Niihin lasketaan lainat, jotka on annettu asiakastyyppiä KAUKOLAINA oleville kirjastoille. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
