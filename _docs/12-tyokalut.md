@@ -596,8 +596,7 @@ Valitse ja täytä tarvittavat tiedot:
 - **Näyttöpaikka**: näytetäänkö uutinen kaikkialla,
   virkailijatyökalussa, kuiteissa vai Kohan omassa verkkokirjastossa (ei käytössä Koha-Suomen kirjastoissa)
 - **Kirjasto**: näytetäänkö uutinen kaikille kirjastoille vai vain yhdelle valitulle kirjastolle
-- **Julkaisuaika**: voi joko jättää tyhjäksi, jolloin uutinen
-  julkaistaan heti tai valita tietty julkaisupäivä.
+- **Julkaisuaika**: valitse päivä, jolloin uutinen tulee näkyville, pakollinen tieto
 - **Vanhentumispvm**: voi joko jättää tyhjäksi, jolloin uutinen ei
   vanhene tai valita tietty vanhentumispäivä, jolloin uutinen
   piilotetaan käyttäjiltä valittuna päivänä.
