@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: Ti 10.3.2026 klo 9.15<br />
-Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi),
 
 Pohjoisesta etelään
 
 **Vaara**
 * signummuutosta odotellaan, torstaina tulee uusi palautusautomaatti, jonka asetukset on uusien signumeiden mukaiset
 * muuten normaalia ylläpitoa
+
+**Lappi** 
+* Niteiden massamuutoksia, signum-muutoksia, yksi kirjasto menee kiinni remontin vuoksi, joten siihen liittyviä toimia. 
+* Muuten normaalia ylläpitoa.  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
