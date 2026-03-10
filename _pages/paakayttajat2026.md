@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: Ti 10.3.2026 klo 9.15<br />
-Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Erika Miettinen ja Elina Uotila (Kirkes)
 
 Pohjoisesta etelään
 
@@ -35,6 +35,9 @@ Pohjoisesta etelään
 
 **Lastu**
 * Normaalia ylläpitoa
+
+**Kirkes**
+* Varauksen noutomuistutuksen uutta toteutusta [tiketissä #2178](https://github.com/KohaSuomi/Koha/issues/2178) on testailtu, ja se otettaisiin mielellään käyttöön heti versionvaihdon jälkeen, jos kaikki on vain kunnossa siihen mennessä. Elina on kysynyt Finna-toimistosta, voiko noutomuistuksen ja eräpäivämuistutuksen kielikäännökset eriyttää, vai pitääkö niihin muokata tekstit, jotka käyvät kumpaankin. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
