@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: Ti 10.3.2026 klo 9.15<br />
-Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 Pohjoisesta etelään
 
@@ -32,6 +32,9 @@ Pohjoisesta etelään
 
 **Lumme**
 * Ei mainittavaa.
+
+**Lastu**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
