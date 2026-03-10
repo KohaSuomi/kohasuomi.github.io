@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 11
+
+Aika: Ti 10.3.2026 klo 9.15<br />
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara)
+
+Pohjoisesta etelään
+
+**Vaara**
+* signummuutosta odotellaan, torstaina tulee uusi palautusautomaatti, jonka asetukset on uusien signumeiden mukaiset
+* muuten normaalia ylläpitoa
+
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
