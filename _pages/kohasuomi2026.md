@@ -14,7 +14,7 @@ hidden: true
 ## Viikko 11
 
 Aika: Ma 9.3.2026<br />
-Läsnä: 
+Läsnä: Ari, Emmi, Johanna, Aleksi, Lari, Kodo, Pasi
 
 * Päivystysvuorot viikosta 12 alkaen
 * Vastuuttomat tiketit
