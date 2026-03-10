@@ -21,6 +21,9 @@ Pohjoisesta etelään
 * signummuutosta odotellaan, torstaina tulee uusi palautusautomaatti, jonka asetukset on uusien signumeiden mukaiset
 * muuten normaalia ylläpitoa
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
+
+
 ## Viikko 10
 
 Aika: Ti 3.3.2026 klo 9.15<br />
