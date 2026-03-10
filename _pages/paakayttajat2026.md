@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: Ti 10.3.2026 klo 9.15<br />
-Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), 
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
 
 Pohjoisesta etelään
 
@@ -29,6 +29,9 @@ Pohjoisesta etelään
 * OUTIn verkkokirjasto-Finnassa lainahistorian lataaminen ei onnistunut ja muokkasimme latausmäärää saaden sen toimimaan. Nyt OUTIn Finnassa latausmäärä on 250 ja sillä saa isommankin lainahistorian ladattua.
 * OUTIn Finna-Pre-nextillä ja tuotannossa muokattu Omat tiedot- sivulla viestiasetusten näkymää ja Muuta viestiasetuksia-lomaketta.
 * Normaalia ylläpitoa ja versionvaihto-hommia.
+
+**Lumme**
+* Ei mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-9) - [Palaa sivun alkuun](/paakayttajat2026)
 
