@@ -25,8 +25,11 @@ Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. 
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
-- Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella, mutta helpommin asiakastieto löytyy käyttämällä 
-hakulaatikoita ja rajaamalla hakuja hakuehdoilla. 
+- Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella. 
+
+<img src="/assets/files/docs/Asiakkaat/Selaasukunimenperusteella.png" alt="" style="width:90.0%" />
+
+Sukunimihakua helpommin asiakastieto löytyy käyttämällä hakulaatikoita ja rajaamalla hakuja hakuehdoilla.
 
 Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
 
