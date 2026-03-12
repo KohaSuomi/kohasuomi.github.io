@@ -25,7 +25,7 @@ Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. 
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
-- Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella. 
+Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella. 
 
 <img src="/assets/files/docs/Asiakkaat/Selaasukunimenperusteella.png" alt="" style="width:90.0%" />
 
