@@ -30,6 +30,8 @@ hakulaatikoita ja rajaamalla hakuja hakuehdoilla.
 
 Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
 
+<img src="/assets/files/docs/Asiakkaat/kirjoitakenttaan.png" alt="" style="width:90.0%" />
+
 Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 - Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_- tai _sisältää_-vaihtoehdon. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
 - Saat tarkennettua hakua rajaamalla hakua asiakastyypin mukaan,  jos valitset sen _Tyyppi_-alasvetovalikossa.
