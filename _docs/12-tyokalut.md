@@ -635,7 +635,7 @@ Laskutettava aineisto haetaan aikaväliltä. Sivulle tultaessa aikaväli muodost
 
 Tuloksia voi suodattaa asiakasryhmän ja minimisumman mukaan. Minimisumma kannattaa säätää nollaan, jotta mukaan tulee myös ne asiakkaat, joiden laskutettavien niteiden kaikki korvaushinnat ovat nolla tai tyhjä.
 
-Rajausten alapuolella olevilla sinisillä painikkeilla voi luoda laskut tai jäljennökset kaikille hakutuloksen asiakkaille yhdellä kertaa.
+Rajausten yhteydessä olevalla sinisillä painikkeilla voi luoda laskut kaikille hakutuloksen asiakkaille yhdellä kertaa.
 
 **Laskutettava aineisto**  
 Laskutettava aineisto näkyy kunkin asiakkaan alla, tiedot saa auki asiakkaan tiedoissa olevasta nuolesta.
@@ -652,14 +652,14 @@ Laskun luonti lisää niteille asetuksissa määritellyn "Laskutettu"-tilan. Jos
 
 PDF-laskun luomisen jälkeen siirrytään esikatselu-näkymään, jossa näkee sivun asettelun. Painamalla *Tulosta* avautuu PDF-tiedosto.
 
-*Jäljennös*-napilla saa tulostettua myös PDF-laskutusta käytettäessä etu- tai jälkikäteen jäljenteen eli laskukopion. Napin painaminen ei aiheuta laskutusmerkintöjä.
+*Esikatselu*-napilla voi tarkastella laskua ennen laskutusta. Laskutuksen jälkeen napissa lukee *jäljennös*, ja sillä saa kopion laskusta.
 
 Lasku luodaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
 
 **Laskutettavien palautus**  
-Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Mikäli takaajalle lisätään laskutettaessa rajoite, ei rajoite poistu automaattisesti takaajalta, vaan vain taattavalta. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
+Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
 
-**Huom!** Tilanteessa, jossa sekä takaajalla että taattavalla on laskutettua aineistoa ja takaaja palauttaa omat laskutetut lainansa, poistuu rajoite takaajalta **vaikka taattavalla on edelleen laskutettuja niteitä**. Tällaisessa tilanteessa takaajalle on siis manuaalisesti lisättä rajoite takaisin.
+**Huom!** Versiosta 25.05 alkaen ei huoltajalle ole enää voinut tulla automaattista rajoitetta silloin, kun huollettavaa laskutetaan. Jos kirjasto haluee myös huoltajalle rajoituksen, se tulee asettaa manuaalisesti. Tässä on kuitenkin seuraava ongelma. Tilanteessa, jossa sekä takaajalla että taattavalla on laskutettua aineistoa ja takaaja palauttaa omat laskutetut lainansa, poistuu rajoite takaajalta **vaikka taattavalla on edelleen laskutettuja niteitä**. Tällaisessa tilanteessa takaajalle on siis manuaalisesti lisättä rajoite takaisin.
 {: .notice--warning}
 
 Laskutuksen asetusten ohje on [GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki/Laskutusty%C3%B6kalun-k%C3%A4ytt%C3%B6%C3%B6notto%E2%80%90ohjeet).
