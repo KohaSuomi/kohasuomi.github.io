@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Testiversionvaihto tehtiin maanantaina. Emmi ja Kodo antavat luvan testata, kun kaikki on valmista.
@@ -22,6 +22,11 @@ Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
 * Pidetään versionvaihdon tilannekatsaus ma 23.3.2026 klo 12
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Signummuutos tehty viime viikolla, sujui hyvin. Vielä korjattavaa Vaaran luokissa, joissa oli genretunnuksia.
+* Palautusautomaatti asennettu Joensuun pääkirjastoon torstaina, vielä säätöä lajittelun kanssa.
+  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-11) - [Palaa sivun alkuun](/paakayttajat2026)
 
