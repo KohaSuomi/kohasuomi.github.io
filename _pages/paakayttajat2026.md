@@ -13,10 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
-* testiversionvaihto tehtiin maanantaina
+* Testiversionvaihto tehtiin maanantaina. Emmi ja Kodo antavat luvan testata, kun kaikki on valmista.
+  * Kannattaa käydä testeillä läpi [Pääkäyttäjien muistilista](https://github.com/KohaSuomi/Koha-25x/wiki/Muistilista-p%C3%A4%C3%A4k%C3%A4ytt%C3%A4jille) sillä silmällä, että onhan siellä kaikki tarpeellinen.
+* Asiakasviestinnän käynnistys versionvaihdon jälkeen: lisätkää tiketti, missä kerrotaan, milloin teidän kimpassa halutaan käynnistettäväksi viestien lähetys
 
 Etelästä pohjoiseen
 
