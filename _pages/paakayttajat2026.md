@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Testiversionvaihto tehtiin maanantaina. Emmi ja Kodo antavat luvan testata, kun kaikki on valmista.
@@ -30,14 +30,16 @@ Etelästä pohjoiseen
 **OUTI**
 * Asiakas ei ollut päässyt kirjautumaan Oulussa omatoimikirjastoon, mutta lainaaminen oli onnistunut. Ilmeni, että Oulussa omatoimikirjautumislaitteilla on asetuksiin tallennettu kirjastokorttien merkkimääräksi 11 ja asiakkaan kortissa oli merkkejä 10. Kyseessä oli vanha kortti, joita OUTIssa on vielä liikkeellä aktiivisilla asiakkailla noin 250 kpl ja kaiken kaikkiaan niitä on asiakkailla noin 400 korttia. Oulun oviautomaatteissa on nyt tämä otettu huomioon.
 * Tiketti https://github.com/KohaSuomi/Koha/issues/2186. Oulussa on ollut samanlainen tilanne aiemmin, jossa Monetra on sallinut erikoismerkit omassa järjestelmässään. Selvitääme, jos Raahen tilanne ratkeaisi samalla tavalla. 
-  
+
+**Kyyti**
+* Tullut esiin muutama tapaus, joissa lehtien _uusin numero, ei lainattavissa_ -tila ei ole poistunut seuraavan numeron saapuessa, kuten pitäisi (asetus makePreviousSerialAvailable). Yksi syy voi olla väliin manuaalisesti lisättävät b-numerot yms. Kyse ei vaikuta olevan merkittävästä ongelmasta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-11) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 11
 
 Aika: Ti 10.3.2026 klo 9.15<br />
-Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Leena Kinnunen, Maria Joona ja Pia Kusmin (Lappi), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Erika Miettinen ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 Pohjoisesta etelään
 
