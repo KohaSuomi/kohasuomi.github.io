@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Testiversionvaihto tehtiin maanantaina. Emmi ja Kodo antavat luvan testata, kun kaikki on valmista.
@@ -33,6 +33,10 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Tullut esiin muutama tapaus, joissa lehtien _uusin numero, ei lainattavissa_ -tila ei ole poistunut seuraavan numeron saapuessa, kuten pitäisi (asetus makePreviousSerialAvailable). Yksi syy voi olla väliin manuaalisesti lisättävät b-numerot yms. Kyse ei vaikuta olevan merkittävästä ongelmasta.
+
+**Lappi**
+* Uusi kokoelma lisätty signum-muutokseen liittyen.
+* Ei muuta erityistä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-11) - [Palaa sivun alkuun](/paakayttajat2026)
 
