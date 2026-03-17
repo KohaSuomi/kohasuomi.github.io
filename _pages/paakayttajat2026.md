@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman, Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Katariina Pohto, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Testiversionvaihto tehtiin maanantaina. Emmi ja Kodo antavat luvan testata, kun kaikki on valmista.
@@ -26,6 +26,10 @@ Etelästä pohjoiseen
 **Vaara**
 * Signummuutos tehty viime viikolla, sujui hyvin. Vielä korjattavaa Vaaran luokissa, joissa oli genretunnuksia.
 * Palautusautomaatti asennettu Joensuun pääkirjastoon torstaina, vielä säätöä lajittelun kanssa.
+
+**OUTI**
+* Asiakas ei ollut päässyt kirjautumaan Oulussa omatoimikirjastoon, mutta lainaaminen oli onnistunut. Ilmeni, että Oulussa omatoimikirjautumislaitteilla on asetuksiin tallennettu kirjastokorttien merkkimääräksi 11 ja asiakkaan kortissa oli merkkejä 10. Kyseessä oli vanha kortti, joita OUTIssa on vielä liikkeellä aktiivisilla asiakkailla noin 250 kpl ja kaiken kaikkiaan niitä on asiakkailla noin 400 korttia. Oulun oviautomaatteissa on nyt tämä otettu huomioon.
+* Tiketti https://github.com/KohaSuomi/Koha/issues/2186. Oulussa on ollut samanlainen tilanne aiemmin, jossa Monetra on sallinut erikoismerkit omassa järjestelmässään. Selvitääme, jos Raahen tilanne ratkeaisi samalla tavalla. 
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-11) - [Palaa sivun alkuun](/paakayttajat2026)
