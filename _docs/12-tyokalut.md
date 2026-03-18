@@ -658,7 +658,7 @@ Tietuenäyttöjen mukautukset -työkalu lisättiin versiosta 25.05 lähtien. Ty�
 
 Uuden tietuenäytön mukautuksen saa lisättyä _Luo uusi_ -napista.
 
-<img src="/assets/files/docs/Tyokalut/mukautus.png" title="Uusi tietunäytön mukautus" alt="Uusi tietuenäytön mukautus" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/mukautus.png" title="Uusi tietunäytön mukautus" alt="Uusi tietuenäytön mukautus" style="width:100.0%" />
 
 * _Näyttöpaikka_: Tästä voi valita, mille tietuenäytölle halutaan lisätä näkyville kuvailutietueiden tietoja. Niitä on mahdollista lisätä Kohan verkkokirjaston näkymiin ja virkailijaliittymän näkymiin. Alla on listaus virkailijaliittymän näyttöpaikoista:
   * _StaffDetailPage_: Tällä saa lisättyä kuvailutietoja näkyviin tiedonhaussa Perustiedot-näytölle
@@ -686,13 +686,13 @@ Uuden tietuenäytön mukautuksen saa lisättyä _Luo uusi_ -napista.
 Tietuenäyttöjen mukautukset tulevat näkyville tietuenäytöille aina samaan kohtaan, Kohan sisäisesti määritettyjen teostietojen jälkeen. Työkalulla ei saa lisättyä tietoja Kohan sisäisen määrittelytiedoston tietojen sekaan.
 
 Perustiedot-näyttö:
-<img src="/assets/files/docs/Tyokalut/mukautus1.png" title="Perustiedot-näytölle lisätyt mukautukset" alt="Perustiedot-näytölle lisätyt mukautukset" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/mukautus1.png" title="Perustiedot-näytölle lisätyt mukautukset" alt="Perustiedot-näytölle lisätyt mukautukset" style="width:100.0%" />
 
 Hakutuloslista
-<img src="/assets/files/docs/Tyokalut/mukautus2.png" title="Hakutuloslistalle lisätyt mukautukset" alt="Hakutuloslistalle lisätyt mukautukset" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/mukautus2.png" title="Hakutuloslistalle lisätyt mukautukset" alt="Hakutuloslistalle lisätyt mukautukset" style="width:100.0%" />
 
 Listat-toiminto
-<img src="/assets/files/docs/Tyokalut/mukautus3.png" title="Listat-toimintoon lisätyt mukautukset" alt="Listat-toimintoon lisätyt mukautukset" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/mukautus3.png" title="Listat-toimintoon lisätyt mukautukset" alt="Listat-toimintoon lisätyt mukautukset" style="width:100.0%" />
 
 ## 12.13 Työkaluliitännäiset
 
