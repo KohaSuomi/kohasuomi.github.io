@@ -654,6 +654,46 @@ Esimerkki StaffLoginInstructions-näkymän muokkauksista:
 
 ## 12.12 Tietuenäyttöjen mukautukset
 
+Tietuenäyttöjen mukautukset -työkalu lisättiin versiosta 25.05 lähtien. Työkalulla voi lisätä tietuenäytöille näkyville MARC-kentistä kuvailutietoja Template Toolkit -määrityksillä. Taustalla on sama Lisäsisällöt-toiminto kuin uutisissa ja HTML-muokkauksissa.
+
+Uuden tietuenäytön mukautuksen saa lisättyä _Luo uusi_ -napista.
+
+<img src="/assets/files/docs/Tyokalut/mukautus.png" title="Uusi tietunäytön mukautus" alt="Uusi tietuenäytön mukautus" style="width:90.0%" />
+
+* _Näyttöpaikka_: Tästä voi valita, mille tietuenäytölle halutaan lisätä näkyville kuvailutietueiden tietoja. Niitä on mahdollista lisätä Kohan verkkokirjaston näkymiin ja virkailijaliittymän näkymiin. Alla on listaus virkailijaliittymän näyttöpaikoista:
+  * _StaffDetailPage_: Tällä saa lisättyä kuvailutietoja näkyviin tiedonhaussa Perustiedot-näytölle
+  * _StaffListPage_: Tällä saa lisättyä kuvailutietoja näkyviin Listat-toiminnossa
+  * _StaffResultsPage_: Tällä saa lisättyä kuvailutietoja näkyviin tiedonhaussa hakutuloslistalle
+* _Kirjasto_: Tällä voit määrittää näytetäänkö lisätty sisältö jossain tietyssä kirjastossa vai kaikissa kirjastoissa. Jälkimmäinen on yleisempi vaihtoehto.
+* _Julkaisuaika_: Tämä on pakollinen tieto ja ilman tätä lisätty sisältö ei tule näkyville.
+* _Vanhentumispvm_: Jos lisätty tieto halutaan näkymään vain tietylle aikavälille, voi sen määrittää vanhentumaan tiettynä päivänä.
+* _Näyttöjärjestys_: Jos lisätään useampia tietuenäyttöjen mukautuksia, voi niiden keskinäistä järjestystä näytöllä säätää tällä määrityksellä. Yhteen mukautukseen voi kuitenkin tehdä useamman määrityksen, joten useampi samantyyppinen mukautus ei pääsääntöisesti ole tarpeellista.
+* _Kieliversiot_: Tietuenäyttöjen mukautuksia voi lisätä kaikilla niillä kielillä, mitkä Kohaan on asennettu. Se mahdollistaa erilaisten kieliversioiden lisäämisen samasta tekstistä.
+  * _Nimeke_: Tämä ei tule näytöille näkyville, mutta tähän voi kirjoittaa jonkin kuvaavan selitteen.
+  * _Sisältö_: Tähän lisätään halutut määritykset Template Toolkit -kieltä käyttäen, esim. tällä voi lisätä 942$c-kentässä olevan aineistotyypin näkyviin tietuenäytölle. Määrityksiä voi lisätä niin monia kuin on tarpeen ja ne näytetään siinä järjestyksessä, missä ne lisätään sisältöön. Käytössä on perus-tekstieditori ja HTML-muokkaukset on estetty poiketen muista lisäsisältöihin perustuvista työkaluista.
+
+ ```
+<!-- Aineistotyyppi -->
+[% IF record.subfield('942' , 'c') %]
+<span class="results_summary materialtype">
+<span class="label">Aineistotyyppi: </span>
+[% record.subfield('942' , 'c') %]
+</span>
+[% END %]
+```
+  * Jos Oletus-välilehden Sisältö-kentän jättää tyhjäksi, tulee sinne automaattisesti _no content_ -kommentti. Tämä varmistaa sen, että mukautus tulee näkyviin tietuenäyttöjen mukautusten listalle. Ilman sitä mukautus ei näy listalla.
+
+Tietuenäyttöjen mukautukset tulevat näkyville tietuenäytöille aina samaan kohtaan, Kohan sisäisesti määritettyjen teostietojen jälkeen. Työkalulla ei saa lisättyä tietoja Kohan sisäisen määrittelytiedoston tietojen sekaan.
+
+Perustiedot-näyttö:
+<img src="/assets/files/docs/Tyokalut/mukautus1.png" title="Perustiedot-näytölle lisätyt mukautukset" alt="Perustiedot-näytölle lisätyt mukautukset" style="width:90.0%" />
+
+Hakutuloslista
+<img src="/assets/files/docs/Tyokalut/mukautus2.png" title="Hakutuloslistalle lisätyt mukautukset" alt="Hakutuloslistalle lisätyt mukautukset" style="width:90.0%" />
+
+Listat-toiminto
+<img src="/assets/files/docs/Tyokalut/mukautus3.png" title="Listat-toimintoon lisätyt mukautukset" alt="Listat-toimintoon lisätyt mukautukset" style="width:90.0%" />
+
 ## 12.13 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
