@@ -41,7 +41,7 @@ Sihteerivuorossa Marjukka Laapotti.
     <li>Nimeketietojen ja pääkirjausten erot </li>
     <li>Toisistaan poikkeavat huomautuskentät </li>
   </ul>
--> Aloitettiin näiden pohtiminen, mutta asiaa kannattaa ehkä tutkia tarkemmin vasta sitten kun kaikkien tietokantojen yhdistämistä päästään kunnolla testaamaan.  </li>
+-> Aloitettiin näiden pohtiminen, mutta asiaa kannattaa ehkä tutkia tarkemmin vasta sitten kun kaikkien tietokantojen yhdistämistä päästään kunnolla testaamaan.
 </ul>
 
 <ul>
@@ -64,7 +64,7 @@ Sihteerivuorossa Marjukka Laapotti.
 #### 5.	Muita asioita ####
 <ul>
   <li>Koha-Suomi-Melinda-tilannepalaveri 11.3. Aiheena mm. TäTi-putki ja sen seuraavat askeleet. </li>
-  <li>Tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/2036" target="_blank">Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja </a> -> Testattu ja toimii Täti-Nextillä. </li>
+  <li>Tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/2036" target="_blank">Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja </a> -> Testattu ja toimii Täti-Nextillä. Tulee versiopäivityksessä käyttöön. </li>
   <li>Tiketti: <a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/18" target="_blank">Lisätään FI-TATI "003/001"-vertailuun mukaan </a> </li>
   <ul>
     <li>Paikalliskantojen 001/003-kenttien aktivoituminen toimii ainoastaan FI-BTJ-tunnuksilla. Paikalliskantojen Nexteille on tehty versio testattavaksi, jossa myös FI-TATI-tunnukset aktivoituvat. Jos toimii, niin otetaan versiopäivityksen yhteydessä käyttöön. </li>
