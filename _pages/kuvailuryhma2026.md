@@ -9,6 +9,75 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 3/2026 ##
+
+Aika: 10.3.2026 klo 13.15–13.47
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes)
+
+Poissa: Marja Leskinen (Vaara), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerivuorossa Marjukka Laapotti.
+
+#### 2.	Kirjastokohtaisten kenttien sisältö ja muut kirjastokohtaiset huomautukset eri kentissä ####
+<ul>
+  <li>Päivi Knuutisen kokoama lista löytyy Oulun Koha Teamsin Kuvailu-kanavalta, KaTi-työryhmä-tiedostokansiosta. Sitä voi tarvittaessa vielä täydentää. Tiedoston nimi on ”Omat kuvailukentät kimpoissa”. </li>
+  <li>Helle ja Siili: tiedot puuttuvat vielä listalta </li>
+</ul>
+
+#### 3.	Tuplatietueiden yhdistäminen ####
+<ul>
+  <li>Tuplatietueet ovat jatkuva ongelma muiden kirjastojen ja Kirjastopalvelun kuvailemien tietueiden välillä, koska kaikessa aineistossa Kirjastopalvelun mahdollisesta kuvailusta ei ole varmuutta. Tuplia on eniten vieraskielisessä aineistossa, peleissä ja äänitteissä. </li>
+  <li>Ongelma ei poistu sillä, että Melinda-tietue poistetaan TäTistä ja Kirjastopalvelun tietue jätetään, koska Melinda-tietueen löytyminen tarkoittaa jo sitä, että jossakin paikalliskannassa se on. Nämä tulevat vastaan viimeistään sitten kun tietokannat yhdistetään. </li>
+  <li>Ratkaistava myös KaTia varten, kun yhdistetään parhaimmillaan yli 11 tietuetta. Todettiin, että tuplatietueilla voi olla eri koodaustasoja (kenttä 000/17). Lisäksi tietueet voivat olla hybriditietueita tai kokonaan RDA:lla kuvailtuja. Mikä tietue näistä ”voittaa”? </li>
+  <li>Milloin tietueet ovat riittävän identtiset, että ne voidaan yhdistää? Tärkeitä yhdistäviä tekijöitä ovat ainakin standarditunnus, aineistotyyppi ja nimeke. </li>
+  <li>Miten toimitaan, jos kuvailuissa on paljon eroja? </li>
+  <ul>
+    <li>Sisällönkuvailun erot (lähinnä luokitus ja asiasanoitus, musiikkiaineistossa voi olla tapauksia, joissa genre on määritelty täysin eri tavalla riippuen kuvailijan tulkinnasta) </li>
+    <li>Nimeketietojen ja pääkirjausten erot </li>
+    <li>Toisistaan poikkeavat huomautuskentät </li>
+  </ul>
+-> Aloitettiin näiden pohtiminen, mutta asiaa kannattaa ehkä tutkia tarkemmin vasta sitten kun kaikkien tietokantojen yhdistämistä päästään kunnolla testaamaan.  </li>
+</ul>
+
+<ul>
+  <li>Todettiin, että ei aleta yhdistämään tuplia TäTissä systemaattisesti, koska niitä on niin paljon. </li>
+  <li>Sovittiin, että pyritään uutuusaineistoa käsiteltäessä yhdistämään tuplat saman tien. Melindan tietue jätetään, koska se on jo linkitetty ja löytyy jostakin paikalliskannasta. Sisällönkuvailua voidaan täydentää Kirjastopalvelun tietueen pohjalta. Jos tietueiden välillä on suuria eroja, esim. pääkirjauksissa, niin sitten käsiteltävään nimekkeeseen on perehdyttävä tarkemmin. Tarvittaessa voi tiedustella kuvailusta tietueiden alkuperäisiltä kuvailijoilta.<br>
+(Huom. Jos Melinda-tietueessa on selviä virheitä, niin ne saa korjata, vaikka tietue olisi Kansalliskirjaston kattavalla tasolla kuvailema, kunhan korjauksista sitten ilmoittaa asianosaisille.)</li>
+</ul>
+
+#### 4.	Tietueiden erämuokkaus ####
+<ul>
+  <li>TäTissä on yli tuhat tietuetta, joissa on loppupiste- tai kaksoispistevirheitä 264-kentissä. Osassa näistä on muitakin epämääräisyyksiä. Periaatteessa saisi korjattua erämuokkauksella, mutta se ei toimi parhaalla mahdollisella tavalla, jos/kun korjattavaa kenttää on toistettu. </li>
+  <li>Välimerkkivirheillä ei ole käytännön merkitystä, mutta paikalliskannasta voi tarkistaa niiden määrän. Päätetään myöhemmin, mitä näille tehdään TäTissä. Pääkäyttäjiltä voi pyytää TäTistä löytyvät raportit: </li>
+  <ul>
+    <li>Tietueet, joissa valitun Marc-kentän lopussa on kaksoispiste ilman välilyöntiä </li>
+    <li>Tietueet, joissa on valitun Marc-kentän lopussa ylimääräisiä välilyöntejä </li>
+    <li>Tietueet, joissa 245a-kentän lopussa on ylimääräisiä :-merkkejä  </li>
+  </ul>
+</ul>
+
+#### 5.	Muita asioita ####
+<ul>
+  <li>Koha-Suomi-Melinda-tilannepalaveri 11.3. Aiheena mm. TäTi-putki ja sen seuraavat askeleet. </li>
+  <li>Tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/2036" target="_blank">Melindaan vietäville osakohteille tarkistus, ettei niissä ole samoja 001-arvoja </a> -> Testattu ja toimii Täti-Nextillä. </li>
+  <li>Tiketti: <a href="https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/18" target="_blank">Lisätään FI-TATI "003/001"-vertailuun mukaan </a> </li>
+  <ul>
+    <li>Paikalliskantojen 001/003-kenttien aktivoituminen toimii ainoastaan FI-BTJ-tunnuksilla. Paikalliskantojen Nexteille on tehty versio testattavaksi, jossa myös FI-TATI-tunnukset aktivoituvat. Jos toimii, niin otetaan versiopäivityksen yhteydessä käyttöön. </li>
+    <li>Testattu toimivaksi OUTI- ja TäTi-Nextillä. Tätä voi testata niin, että poimii TäTistä standarditunnuksettoman tietueen, jossa on 003- ja 001-kentissä TäTi-tunnukset ja tarkistaa sitten aktivoituivatko ne omassa kannassa ja löytääkö tietue vastintietueen TäTistä Tietuesiirtäjässä. </li>
+  </ul>
+  <li>YKN:n metatietoryhmän kokous 11.3. Aiheena mm. KAUNO:n ja YKL:n siirtyminen VAKE:lle ja niiden ylläpidon jatko. </li>
+  <li>Kansallisten kuvailuryhmien kevään työpaja 26.3. Aiheena mm. esineiden kuvailu eri organisaatioissa. </li>
+</ul>
+
+#### 6.	Seuraava kokous keskiviikkona 15.4. klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 2/2026 ##
 
 Aika: 11.2.2026 klo 13.15–14.45
