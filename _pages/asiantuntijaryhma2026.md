@@ -32,6 +32,8 @@ Versionvaihto ihan käsillä eli muutosten valmistelu aloitetaan su 22.3.2026 kl
 
 ### 3. Muut asiat
 
+#### 3.1 Hyllyvaraussovellus
+
 Vaski olisi kiinnostunut mahdollisuudesta kehittää erillinen hyllyvaraussovellus, mikäli Koha-Suomella ei ole suurempia suunnitelmia hyllyvarauslistan kehittämiseksi. Ajatuksena on hakea hankkeelle ulkopuolista rahoitusta.
 
 Idea ja tarve on siis seuraavanlainen:
@@ -41,6 +43,8 @@ Selvitetään mahdollisuutta kehittää hyllyvaraus-sovellus, jossa käyttäjä 
 - pystyy suodattamaan ja järjestelemään listaa haluamallaan tavalla
 - näkee nimenomaan niiden niteiden tiedot, jotka ovat hänen kirjastossaan hyllyssä
 - voi merkitä varauksia kerätyksi (varaus muuttuisi processing/transferred-tilaan)
+
+#### 3.2 Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
 
 Tiedoksi, tutustuttavaksi ja käsiteltäväksi seuraavassa asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
 
