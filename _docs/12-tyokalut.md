@@ -620,13 +620,17 @@ Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useam
 
 ---
 
-## 12.11 Työkaluliitännäiset
+## 12.11 HTML-muokkaukset
+
+## 12.12 Tietuenäyttöjen mukautukset
+
+## 12.13 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:50.0%" />
 
-### 12.11.1 Laskutustyökalu
+### 12.13.1 Laskutustyökalu
 
 <img src="/assets/files/docs/Tyokalut/laskutus.png" title="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" alt="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" style="width:100.0%" />
 
@@ -665,7 +669,7 @@ Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite.
 Laskutuksen asetusten ohje on [GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki/Laskutusty%C3%B6kalun-k%C3%A4ytt%C3%B6%C3%B6notto%E2%80%90ohjeet).
 
 
-### 12.11.2 Tulosta ilmoituksia
+### 12.13.2 Tulosta ilmoituksia
 
 *Tulosta ilmoituksia* -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). *Tulosta ilmoituksia* -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
@@ -683,14 +687,14 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
 
 
-### 12.11.3 Sotuteekki
+### 12.13.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:70.0%" />
 
-### 12.11.4 Tarratulostustyökalu
+### 12.13.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
@@ -747,7 +751,7 @@ Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
 
 ---
 
-## 12.12 Siirtokokoelmat
+## 12.14 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
