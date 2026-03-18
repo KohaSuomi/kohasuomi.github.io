@@ -622,6 +622,36 @@ Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useam
 
 ## 12.11 HTML-muokkaukset
 
+HTML-muokkaukset-työkalulla voi lisätä sisältöä näkyviin virkailijaliittymään ja Kohan omaan verkkokirjastoon.
+
+Lisää uusi HTML-muokkaus valitsemalla _Luo uusi_.
+
+<img src="/assets/files/docs/Tyokalut/html.png" title="Uuden HTML-muokkauksen lisäyssivu" alt="Uuden HTML-muokkauksen lisäyssivu" style="width:90.0%" />
+* _Näyttöpaikka_: Valitse, missä näkymässä lisäämäsi tiedot näytetään. Valikossa on ensin Kohan verkkokirjaston eli OPACin mahdolliset näkymät ja sen jälkeen virkailijaliittymän näkymät. Alla listattuna virkailijaliittymän vaihtoehdot:
+  * IntranetMainUserblock: Tällä saa lisättyä tietoja Kohan etusivulle alareunaan
+  * RoutingListNote: Tällä saa lisättyä tekstiä kiertolistojen huomautukseen
+  * StaffAquisitionsHome: Tällä saa lisättyä tekstiä Hankinnat-osion etusivulle
+  * StaffAuthoritiesHome: Tällä saa lisättyä tietoja Auktoriteetit-osion etusivulle
+  * StaffListsHome: Tällä saa lisättyä tietoja Listat-osion etusivulle
+  * StaffLoginInstructions: Tällä saa lisättyä tietoja Kohan kirjautumissivulle
+  * StaffPatronsHome: Tällä saa lisättyä tietoja Asiakkaat-osion etusivulle
+  * StaffPOSHome: Tällä saa lisättyä tietoja Myyntipiste-osion etusivulle
+  * StaffSerialsHome: Tällä saa lisättyä tietoja Kausijulkaisut-osion etusivulle
+* _Kirjasto_: Tällä voit määrittää näytetäänkö lisätty sisältö jossain tietyssä kirjastossa vai kaikissa kirjastoissa. Jälkimmäinen on yleisempi vaihtoehto.
+* _Julkaisuaika_: Tämä on pakollinen tieto ja ilman tätä lisätty sisältö ei tule näkyville.
+* _Vanhentumispvm_: Jos lisätty tieto halutaan näkymään vain tietylle aikavälille, voi sen määrittää vanhentumaan tiettynä päivänä.
+* _Näyttöjärjestys_: Jos lisätään useampia HTML-muokkauksia, voi niiden keskinäistä järjestystä näytöllä säätää tällä määrityksellä.
+* _Kieliversiot_: HTML-muokkaukset voi lisätä kaikilla niillä kielillä, mitkä Kohaan on asennettu. Se mahdollistaa erilaisten kieliversioiden lisäämisen samasta tekstistä.
+  * _Nimeke_: Tämä ei tule näytöille näkyville, mutta tähän voi kirjoittaa jonkin kuvaavan selitteen.
+  * _Sisältö_: Tähän lisätään haluttu sisältö. Käytössä on WYSIWYG-editori (what you see is what you get), joka periaatteessa näyttää lisätyt sisällöt sellaisena kuin ne tulevat näkyviin eri näkymissä. Käytettävissä on perustekstinkäsittelytoimintoja. <>-nappulasta voi myös avata halutessaan HTML-editorin, jossa voi muokata suoraan HTML-koodia.
+
+Lista lisätyistä HTML-muokkauksista:
+<img src="/assets/files/docs/Tyokalut/html1.png" title="Lista olemassaolevista HMTL-muokkauksista" alt="Lista olemassaolevista HMTL-muokkauksista" style="width:90.0%" />
+* _Toiminnot_-sarakkeesta pääsee muokkaamaan olemassa olevaa HTML-muokkausta.
+
+Esimerkki StaffLoginInstructions-näkymän muokkauksista:
+<img src="/assets/files/docs/Tyokalut/html2.png" title="Esimerkki StaffLoginInstructions-näkymän muokkauksista" alt="Esimerkki StaffLoginInstructions-näkymän muokkauksista" style="width:90.0%" />
+
 ## 12.12 Tietuenäyttöjen mukautukset
 
 ## 12.13 Työkaluliitännäiset
