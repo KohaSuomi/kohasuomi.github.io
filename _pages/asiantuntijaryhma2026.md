@@ -77,7 +77,7 @@ Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen on toiveissa saada to
 * Vaara: Joensuulla erilaisia lomakkeita
 * Kyyti: Kotka palautelomakkeella Suomi.fi-tunnistautuminen, Pyhtäällä pari elomaketta, Kouvolassa Webprobol-lomakkeelle on mahdollista tunnistautua Suomi.fi-tunnistautumisella, mutta rajapinta ei ole REST-rajapinta vielä.
 * Vaski: Turulla on Tunnistamo, jossa on Suomi.fi-tunnistautuminen mahdollista. Myös muita kaikenlaisia hakemuksia voi tehdä (esim. venepaikkoja)
-* OUTI: selvittelee vielä
+* OUTI: Oululla olisi vahvan tunnistautumisen lomakkeita, esim. tonttihaku. Kempeleen kunnan kotisivuilta ja sieltä löytyi Muksunetti. Muhoksella ja Kempeleessä varhaiskasvatuksessa hoitoaikojen ja poissaolojen ilmoittamiseen käytetään Edlevo-palvelua. Pudasjärvellä mm. Kuntalaisaloitteen tekeminen vaatii tunnistautumisen ja varhaiskasvatushakemuksen tekeminen. Tyrnävällä kunta on ottamassa käyttöön Visma Signin sähköisiä allekirjoituksia varten ja palvelussa on mahdollista tehdä myös lomakkeita, jotka allekirjoitetaan vahvalla tunnistautumisella tehdyllä sähköisellä allekirjoituksella.
 * Lastu: Lahdella Webprobol, Heinolassa ollut ePalvelu-lomake (Aurora-aikaan robotti)
 
 ### 4. Paperikirjeiden määrä
