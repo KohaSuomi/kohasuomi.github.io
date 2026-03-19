@@ -15,22 +15,22 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 3/2026
+## Muistio 3/2026
 
 Aika: Torstai 19.3.2026 klo 13<br />
-Läsnä: Leena, Erika, Ari, Hanna, Anneli, Janne, Roosa, Päivi, Kati, Noora, Susanna, Emmi
+Läsnä: Leena Kinnunen (Lapin kirjasto), Erika Miettinen (Kirkes-kirjastot), Hanna Ikonen (Lumme-kirjastot), Janne Seppänen (Lastu-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Kati Sillgren (Helle-kirjastot), Noora Valkonen (OUTI-kirjastot), Susanna Sandell (Vaski-kirjastot), Emmi Takkinen, Ari Mäkiranta ja Anneli Österman (Koha-Suomi Oy)
 
 ### 1. Ajankohtaiset
 
-Versionvaihto ihan käsillä eli muutosten valmistelu aloitetaan su 22.3.2026 klo 19, jolloin Kohat laitetaan alas. Tämän jälkeen ei toimi mikään palvelu, joka tarvitsee toimiakseen yhteyden Kohaan, esim. automaatit, omatoimet, Finna, erilaiset integraatiot.
+Versionvaihto on ihan käsillä eli muutosten valmistelu aloitetaan su 22.3.2026 klo 19, jolloin Kohat laitetaan alas. Tämän jälkeen ei toimi mikään palvelu, joka tarvitsee toimiakseen yhteyden Kohaan, esim. automaatit, omatoimet, Finna, erilaiset integraatiot.
 
 ### 2. Käsiteltävät kehitysehdotukset
 
 * [Kaukolainapyynnöt: Tulokset automaattisesti esille sijaintikirjaston mukaan #2170](https://github.com/KohaSuomi/Koha/issues/2170)
-  * Päätös: Ei toteuteta, koska kliksuttelutarve siirtyisi vain kimppoihin/kuntiin, joissa on keskitetty kaukopalvelu. Eli keskitetyissä kaukopalveluissa pitäisi sitten poistaa automaattisesti valituksi tullut kirjastotieto ja tehdä haku.
+  * **Päätös**: Ei toteuteta, koska kliksuttelutarve siirtyisi vain kimppoihin/kuntiin, joissa on keskitetty kaukopalvelu. Eli keskitetyissä kaukopalveluissa pitäisi sitten poistaa automaattisesti valituksi tullut kirjastotieto ja tehdä haku.
 * [Asiakkaan viestiasetuksiin Ei ilmoitusta-toiminto #337](https://github.com/KohaSuomi/Koha/issues/337)
   * Palautetaan asiantuntijaryhmään ehdotuksella "ei toteuteta"
-  * Päätös: Ei toteuteta, koska aika ajanut ohi ja tarpeet muuttuneet. Jos jollakin kimpalla on tarve "Tuloste"-viestivaihtoehdolle, niin siitä voisi tehdä erillisen tiketin suoraan yhteisöön.
+  * **Päätös**: Ei toteuteta, koska aika ajanut ohi ja tarpeet muuttuneet. Jos jollakin kimpalla on tarve "Tuloste"-viestivaihtoehdolle, niin siitä voisi tehdä erillisen tiketin suoraan yhteisöön.
 
 ### 3. Muut asiat
 
