@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 3/2026
 
 Aika: Torstai 19.3.2026 klo 13<br />
-Läsnä:
+Läsnä: Leena, Erika, Ari, Hanna, Anneli, Janne, Roosa, Päivi, Kati, Noora, Susanna, Emmi
 
 ### 1. Ajankohtaiset
 
@@ -27,8 +27,10 @@ Versionvaihto ihan käsillä eli muutosten valmistelu aloitetaan su 22.3.2026 kl
 ### 2. Käsiteltävät kehitysehdotukset
 
 * [Kaukolainapyynnöt: Tulokset automaattisesti esille sijaintikirjaston mukaan #2170](https://github.com/KohaSuomi/Koha/issues/2170)
+  * Päätös: Ei toteuteta, koska kliksuttelutarve siirtyisi vain kimppoihin/kuntiin, joissa on keskitetty kaukopalvelu. Eli keskitetyissä kaukopalveluissa pitäisi sitten poistaa automaattisesti valituksi tullut kirjastotieto ja tehdä haku.
 * [Asiakkaan viestiasetuksiin Ei ilmoitusta-toiminto #337](https://github.com/KohaSuomi/Koha/issues/337)
   * Palautetaan asiantuntijaryhmään ehdotuksella "ei toteuteta"
+  * Päätös: Ei toteuteta, koska aika ajanut ohi ja tarpeet muuttuneet. Jos jollakin kimpalla on tarve "Tuloste"-viestivaihtoehdolle, niin siitä voisi tehdä erillisen tiketin suoraan yhteisöön.
 
 ### 3. Muut asiat
 
@@ -44,11 +46,15 @@ Selvitetään mahdollisuutta kehittää hyllyvaraus-sovellus, jossa käyttäjä 
 - näkee nimenomaan niiden niteiden tiedot, jotka ovat hänen kirjastossaan hyllyssä
 - voi merkitä varauksia kerätyksi (varaus muuttuisi processing/transferred-tilaan)
 
+**Päätös**: Vaski tutkii ja testaa Varausjono-raporttia, vastaako se nykyään enemmän tarpeita ja toimiiko se paremmin kuin aikaisemmin. Sen jälkeen tutkitaan, voiko sitä kehittämään esim. tuon kerätyksi merkitsemisen osalta. Hyllyvarausten haun työläysongelma koskee lähinnä isompia kirjastoja, joissa on paljon varauksia.
+
 #### 3.2 Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
 
 Tiedoksi, tutustuttavaksi ja käsiteltäväksi seuraavassa asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
 
 ### 4. Seuraava kokous
+
+To 23.4.2026 klo 13
 
 ## Muistio 2/2026
 
