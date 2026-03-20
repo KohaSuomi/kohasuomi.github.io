@@ -21,7 +21,7 @@ saapuneita lehtiä.
 
 ## 6.1. Määrittele ilmestymistiheyksiä
 
-Kohassa voi määritellä erilaisia valmiita ilmestymistiheyksiä lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
+Kohassa voi määritellä erilaisia valmiita ilmestymistiheyksiä lehdille. Toiminto vaatii täydet kausijulkaisuoikeudet.
 
 Ilmestymistiheydet löytyvät Ilmestymistiheys-sivulta:
 
