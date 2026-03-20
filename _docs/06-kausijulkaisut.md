@@ -327,11 +327,11 @@ Valitse ensin, miltä toimittajalta tilattuja kausijulkaisuja haluat reklamoida.
 
 Saat listan kaikista valitun toimittajan lehtinumeroista, joiden olisi jo pitänyt saapua.
 
-![](/assets/files/docs/Kausijulkaisut/reklamaatiot2.png)
+![](/assets/files/docs/Kausijulkaisut/Reklamaatiot3.png)
 
-Voit suodattaa numeroita päivämäärävälillä tai taulukon alareunasta sarakkeiden suodattimilla, esim. nimekkeellä ja kirjastolla.
+Voit suodattaa numeroita sivupalkista päivämäärävälillä tai taulukon yläreunasta sarakkeiden suodattimilla, esim. nimekkeellä ja kirjastolla.
 
-Valitse tarvittavat numerot ja klikkaa _Lähetä ilmoitus_.
+Valitse tarvittavat numerot ja klikkaa sivun alareunasta _Lähetä ilmoitus_.
 
 ## 6.8. Lehtitilauksen päättymisajan tarkistaminen
 
