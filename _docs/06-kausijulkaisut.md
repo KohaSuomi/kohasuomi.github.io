@@ -185,7 +185,6 @@ alapuolella.
   muokkaamaan  
   ![](/assets/files/docs/Kausijulkaisut/numeroinnin_ennustuskaava.PNG)
   - _Alkaa merkeillä_ -kenttään annetaan ensimmäisen numeron tiedot
-    (x-kenttään vuosiluku, y-kenttään numero)
   - _Sisempi laskuri_ tarvitaan yleensä vain jälkimmäiseen
     sarakkeeseen kertomaan systeemille, milloin numeroinnin pitää
     alkaa numerosta 1
