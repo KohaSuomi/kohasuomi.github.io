@@ -380,7 +380,7 @@ tiedoilla tilausta. Sama tarkka haku löytyy myös kausijulkaisumoduulin etusivu
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul42.png)
 
-Hakutuloksen voit suodattaa jokaisen sarakkeen alla olevasta
+Hakutuloksen voit suodattaa jokaisen sarakkeen yllä olevasta
 hakulaatikosta ja määrittää hakutulosten määrän taulukon yläreunassa
 olevissa laatikoissa. Haku-kenttää voi myös käyttää tietojen
 suodattamiseen. Se hakee kaikista sarakkeista kerralla.
