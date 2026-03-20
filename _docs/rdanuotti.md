@@ -9,36 +9,25 @@ toc: true
 Kun esim. nuottiin halutaan RDA-kuvailusäännöistä poikkeava pääsana signumiin ja tarralle, voi ottaa käyttöön sitä varten luodut liitännäiset. 
 Lisäksi tarrapohjaan pitää tehdä lisäyksiä.
 
-Tässä ratkaisussa tiedot poimitaan 942-kentästä normaalien sääntöjen sijaan, jolloin kuvailija pystyy itse määrittämään, mitä tietoja signumiin tulee.
+Tässä ratkaisussa tiedot poimitaan 942im-kentistä normaalien sääntöjen sijaan, jolloin kuvailija pystyy itse määrittämään, mitä tietoja signumiin ja tarralle tulee.
 
-Tähän liittyy seuraavat liitännäiset:
+**Marraskuussa 2022 tehtiin muutos**, että kaikki pääsana-liitännäiset tarkistavat ensim 942m-kentän ja jos siellä ei ole sisältöä, toimitaan normaalin pääsana-käytännön mukaisesti.
 
-Liitännäinen|Liitetään kenttään
----|---
-fi_signumbuilder_942k_branchloc_942hm.pl|952o
-fi_signumbuilder_942k_loc_942hm.pl|952o
-fi_signumbuilder_942k_loc_ccode_942hm.pl|952o
-fi_signumbuilder_942khm_branch_loc.pl|952o
-fi_signumbuilder_942khm_branchloc.pl|952o
-fi_signumbuilder_942khm_branchloc_genre.pl|952o
-fi_signumbuilder_942khm_loc.pl|952o
-ykl_from_084a.pl|942h
-
-**Marraskuussa 2022 tehtiin muutos**, että kaikki pääsana-liitännäiset tarkistavat ensim 942m-kentän ja jos siellä ei ole sisältöä, toimitaan normaalin käytännön mukaisesti.
+**Versiossa 25.05** säilytettiin vain seuraavat signum- ja pääsanaliitännäiset:
+* signum_builder_ks.pl
+* fi_signumbuilder_942k_branchloc_942hm.pl (Vaaran tarve)
 
 ## Muutokset kuvailupohjaan
 
-RDA:sta poikkeavia säätöjä ei tarvitse tehdä kaikelle aineistolle, vaan esimerkiksi vain nuottiaineistolle siinä tapauksessa, 
-että RDAn mukainen tekijätieto ei vastaa hyllytyskäytäntöjä.
+RDA:sta poikkeavia säätöjä ei tarvitse tehdä kaikelle aineistolle, vaan esimerkiksi vain nuottiaineistolle siinä tapauksessa, että RDAn mukainen tekijätieto ei vastaa hyllytyskäytäntöjä.
 
 Esim. Nightwishin musiikkia sisältävä nuotti halutaan hyllyyn Nightwishin mukaisesti eikä säveltäjä Tuomas Holopaisen mukaisesti.
 
 1. Luo uusi kuvailupohja
 2. Tuo siihen attachment:export_NUOP.csv -tiedostosta tiedot valitsemalla kuvailupohjan oikeasta reunasta Toiminnot -> Tuo
 3. Tarkista, että 
-* näkyvillä on 942him-kentät
-* 942h-kentässä kiinni liitännäinen ykl_from_084a.pl
-* 952o-kentässä oleva liitännäinen on omalle kimpalle sopiva. Jos ei ole, kokeile muita fi_signumbuilder-alkuisia liittännäisiä löytääksesi kimpallesi sopivan liitännäisen. Liitännäiset hakevat tiedot 942-kentistä, jolloin signumiin tulee poikkeuksen mukaiset tiedot.
+* näkyvillä on 942im-kentät
+* 952o-kentässä on signum_builder_ks.pl
 
 Voit tehdä muutokset myös käsin ilman kuvailupohjan tuontia.
 
@@ -54,17 +43,16 @@ Käytännössä tuo määrittää, että "hae tieto 942i-kentästä, jos siitä 
 
 ## Miten kenttiä käytetään
 
-Yllä määritettyjä 942him-kenttiä tarvitaan, jotta tarralle saadaan tulostettua "normaalista" pääsanasta poikkeava tieto.
+Yllä määritettyjä 942im-kenttiä tarvitaan, jotta tarralle saadaan tulostettua "normaalista" pääsanasta poikkeava tieto.
 
 ![](/assets/files/docs/Ohjeet/rda1.png)
-* h-kenttään haetaan tietueen luokka klikkaamalla kentän perässä olevaa kuvaketta
 * i-kenttään kirjoitetaan kuvailusäännöistä poikkeava pääsana
 * m-kenttään kirjoitetaan poikkeavasta pääsanasta kolme ensimmäistä merkkiä.
 
 Poikkeavat merkinnät pitää saada myös niteen signumiin.
 
 ![](/assets/files/docs/Ohjeet/rda2.png)
-* klikkaa signumin vieressä olevaa kolmea pistettä, jolloin tiedot haetaan 942hm-kentistä normaalin pääsanasäännön sijaan.
+* klikkaa signumin vieressä olevaa kolmea pistettä, jolloin tiedot haetaan 942m-kentistä normaalin pääsanasäännön sijaan.
 
 Tarralla tieto näyttää sitten esim. OUTI-kirjastoissa tarrarullan pohjalla tältä:
 
@@ -77,3 +65,5 @@ olisi tullut
 
 * Pääsanaksi: O'Connell, Finneas
 * Pääasanan kolme ensimmäistä merkkiä O'C
+
+Päivitetty: 20.3.2026
