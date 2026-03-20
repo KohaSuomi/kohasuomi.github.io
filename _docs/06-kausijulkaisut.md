@@ -33,7 +33,7 @@ Voit myös luoda uusia ilmestymistiheyksiä.
 
 ## 6.2. Määrittele numerointikaavoja
 
-Kohassa voi määritellä erilaisia valmiita numerointikaavoja lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
+Kohassa voi määritellä erilaisia valmiita numerointikaavoja lehdille.
 
 Numeroinnit löytyvät Numerointikaavat-sivulta:
 ![](/assets/files/docs/Kausijulkaisut/kausijul5.png)
