@@ -14,7 +14,7 @@ toimintoja-valikkoon -&gt; Kausijulkaisut_
 tai etusivulla Kausijulkaisut -napin kautta.  
 ![](/assets/files/docs/Kausijulkaisut/kausijul2.png)
 
-Jos nämä toiminnot eivät ole aktiivisia (näkyvät harmaana), sinulta
+Jos nämä toiminnot eivät näy Kohassa, sinulta
 puuttuu oikeudet käsitellä näitä tietoja. Ota yhteys esimieheesi.
 Kausijulkaisujen avulla ylläpidetään lehtitilauksia ja vastaanotetaan
 saapuneita lehtiä.
