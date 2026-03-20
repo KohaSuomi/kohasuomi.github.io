@@ -385,7 +385,7 @@ hakulaatikosta ja määrittää hakutulosten määrän taulukon yläreunassa
 olevissa laatikoissa. Haku-kenttää voi myös käyttää tietojen
 suodattamiseen. Se hakee kaikista sarakkeista kerralla.
 
-![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_hakutulos.png)
+![](/assets/files/docs/Kausijulkaisut/Kausijulkaisutilaukset hakutulos2.png)
 
 ## 6.11. Lehtitilauksen poistaminen
 
