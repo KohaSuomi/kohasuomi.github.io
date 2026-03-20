@@ -11,6 +11,28 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 3/2026
+
+20.3.2026
+
+Hei kaikille
+
+Koha-Suomen hallituksen maaliskuun kokouksessa käytiin läpi alustavasti vuoden 2025 tilinpäätöstietoja, vuoden 2026 taloustilanne ja ajankohtaisia asioita.
+
+Hallitus muistuttaa, että jäsenkunnat käsittelevät päivitetyn osakassopimuksen mahdollisimman pian eli hyväksyntä ja allekirjoitus. Saatekirje ja päivitetty osakassopimus on laitettu kuntiin hyväksyttäväksi. Jos asiasta ei ole tietoa tullut, niin ottakaa yhteyttä kuntanne/kaupunkinne kirjaamoon.
+
+Liitteenä myös toimitusjohtajan raportti 3/2026.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä, <br />
+hallituksen pj.
+
+Toimitusjohtajan raportti 3/2026: [Toimitusjohtajan raportti 3_26.pdf](https://github.com/user-attachments/files/26134380/Toimitusjohtajan.raportti.3_26.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 2/2026 
 
 24.2.2026
