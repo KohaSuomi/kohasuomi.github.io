@@ -293,7 +293,7 @@ _Kirjastonhallinta_-osio sisältää kirjaston käyttöön liittyviä tietoja. O
 ![](/assets/files/docs/Asiakkaat/kirjastohallinta.png)
 
 \- Lue asiakkaan kirjastokortin numero ylimmäisenä olevaan
-_Kirjastokortin numero_ -kenttään.
+_Kirjastokortin numero / Korttinumero_ -kenttään.
 
 \- _Kirjasto_-kenttään valitaan asiakkaan kotikirjasto, jota Koha
 ehdottaa esim. varausta tehtäessä noutokirjastoksi.
@@ -308,7 +308,7 @@ poista sitä näkyvistä. **Jos valitsit alussa väärän asiakastyypin, niin al
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png" alt="" style="width:90.0%" />
 
-\- _Tullut asiakkaaksi_ -päivämäärä tulee automaattisesti kuluvan päivän
+\- _Tullut asiakkaaksi / Rekisteröintipvm_ -päivämäärä tulee automaattisesti kuluvan päivän
 mukaiseksi.
 
 \- _Vanhenee_ -kohtaan ei tarvitse merkitä mitään. Tieto tulee
@@ -318,11 +318,7 @@ automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
 näkyy OPACissa ja Finnassa. Huom! kaikissa kimpoissa ei ole kuvassa näkyvää kenttää käytössä.
 
-Finnassa huomautus näkyy Omat tiedot-välilehdellä kohdassa _Huomautukset_.
-
-<img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko2.png" alt="" style="width:80.0%" />
-
-\- _Huomautus (näkyy virkailijatyökalussa)_ -laatikkoon tallennettu huomautus
+\- _Huomautus_ -laatikkoon tallennettu huomautus
 näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko.png" alt="" style="width:90.0%" />
