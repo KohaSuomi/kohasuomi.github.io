@@ -420,11 +420,11 @@ Asiakastietojen yläreunassa olevat painikkeet
 Harvemmin tarvittavia muokkaustoimintoja löytyy _Muita toimintoja_ -alasvetovalikosta, joista tarkemmin 
 kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#137-muita-toimintoja--alasvetovalikko)
 
-### 1.3.1. Lisää huollettava
+### 1.3.1. Lisää huollettava/taattava
 
-Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava_-painike avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla takaaja. Valittuasi sopivan asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy ja takaajan osoite-tiedot kopioituvat automaattisesti huollettavan tietoihin.
+Tämän napin kautta pääset tallentamaan henkilöasiakkaalle huollettavan. _Lisää taattava_-painike avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla takaaja. Valittuasi sopivan asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy ja takaajan osoite-tiedot kopioituvat automaattisesti huollettavan tietoihin.
 
-![](/assets/files/docs/Asiakkaat/Lisaahuollettava.png)
+![](/assets/files/docs/Asiakkaat/Lisaataattava.png)
 
 ### 1.3.2. Salasanan vaihtaminen
 
