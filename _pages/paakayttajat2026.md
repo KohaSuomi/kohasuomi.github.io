@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 13
+
+Aika: Ti 24.3.2026 klo 9.15<br />
+Läsnä:
+
+
+**Yhteiset**
+* Miten meni versionvaihto?
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-13) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 12
 
 Aika: Ti 17.3.2026 klo 9.15<br />
@@ -41,7 +55,7 @@ Etelästä pohjoiseen
 **Kirkes**
 * Signum-ajo tehty onnistuneesti edellisenä yönä, ja kaikki vaikuttaa sen suhteen hyvältä. Virheellisille cn_sort-kentille tehdään ajo myöhemmin, [tiketti 2024](https://github.com/KohaSuomi/Koha/issues/2024). 
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-11) - [Palaa sivun alkuun](/paakayttajat2026)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-13) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 11
 
