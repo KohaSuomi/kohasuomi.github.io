@@ -11,6 +11,15 @@ layout: single
 hidden: true
 ---
 
+## Viikko 13
+
+Aika: Ma 30.3.2026<br />
+Läsnä: 
+
+* Vastuuttomat tiketit
+  * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+* Asioiden kirjaaminen palaverimuistioon on jäänyt retuperälle, kuinka tätä tilannetta voitaisiin parantaa ja missä laajuudessa asioita on hyvä kirjata? Nyt tehtyjen muutosten seuraaminen on hankalaa.  
+
 ## Viikko 12
 
 Aika: Ma 16.3.2026<br />
