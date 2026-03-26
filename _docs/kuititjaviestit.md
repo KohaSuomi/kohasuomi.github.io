@@ -930,6 +930,24 @@ Item: [% hold.item.barcode %]<br />
 [% END %]
 ```
 
+### SMS:lle:
+```
+[%- SET varaustunnus = '' -%][%- FOREACH ba IN borrower.extended_attributes -%][%- IF ba.code == 'HOLDID' -%][%- varaustunnus = ba.attribute -%][%- END -%][%- END -%]
+Muistathan noutaa varaamasi aineiston varaustunnisteella [% varaustunnus.replace('(?<![A-Za-z-])(\d+)(\d{3})$', '$1 $2') %]
+[% seen = {} -%]
+[% branches = [] -%]
+[% FOREACH hold IN holds -%]
+  [% branchname = hold.branch.branchname -%]
+  [% IF !seen.$branchname -%]
+    [% branches.push(branchname) -%]
+    [% seen.$branchname = 1 -%]
+  [% END -%]
+[% END -%]
+[% IF branches.size == 1 -%]noutopaikasta [% ELSIF branches.size > 1 -%]noutopaikoista [% END -%]
+[% branches.join(', ') -%]
+.
+```
+
 ### Noutohylly-tiedon lisääminen pohjaan
 
 Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdollista määritellä seuraavan Template Toolkit -koodin avulla, että ensisijaisesti tulostetaan noutohylly ja jos sitä ei ole, asiakkaan varaustunniste:
