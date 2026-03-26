@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: Ti 24.3.2026 klo 9.15<br />
-Läsnä: Susanna Sandell (Vaski), 
+Läsnä: Susanna Sandell (Vaski), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
 
 
 **Yhteiset**
