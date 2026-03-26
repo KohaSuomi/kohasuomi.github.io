@@ -24,49 +24,6 @@ body#pat_member.pat .searchfieldstype option[value='full_address'] { display:non
 body#pat_member.pat .searchfieldstype_filter option[value='full_address'] { display:none; }
 ```
 
-### Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista
-
-Versio: 17.05
-
-```
-/* Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista */
-li#patronbasics img[src$="blank.png"] { display: none !important; }
-li.email { background: none !important; }
-```
-
-### "Kirjoitussuojaa" sotu-avain-kenttä
-
-Sotu-avain-kentän voi "kirjoitussuojata" niin, että siihen pystyy Lisää sotu -toiminnolla lisäämään sotu-avaimen, mutta käyttäjä ei pysty muokkaamaan kentässä olevaa tietoa. Käyttäjä pystyy poistamaan tiedon kentän vieressä olevalla "Tyhjennä"-linkillä.
-
-Huomioi, että patron_attr_4-osiossa oleva numero riippuu siitä, kuinka monentena sotu-avain on näytöllä. Esim. OUTI-kirjastoissa numerona on 3 ja Hellessä 4. Voit tarkistaa numeron klikkaamalla asiakkaan muokkausnäytöllä hiiren oikealla sotu-avain-kenttää ja valitsemalla "Inspect Element (Q)" (toimii ainakin Firefoxilla).
-
-Tarpeellisuus: Ei tarpeen versiosta 24.05 lähtien<br />
-Versio: 23.11
-
-```
-body#pat_memberentrygen.pat textarea#patron_attr_4 { pointer-events: none; }
-```
-
-### Käyttäjätunnus-osion piilottaminen asiakkaan muokkausnäytöltä
-
-Käyttäjätunnus-osion piilottaminen asiakkaan muokkausnäytöltä.
-
-Versio: 17.05
-
-```
-/* Piilota Käyttäjätunnus-osio asiakkaan muokkausnäytöltä */
-#pat_memberentrygen.pat fieldset#memberentry_userid { display:none; }
-```
-
-### Asiakasmääreen piilottaminen tiedot-näytöltä
-
-Versio: 17.05
-
-```
-/* Piilota asiakasmääre tiedot-näytöltä */
-div#patron-extended-attributes ol li:nth-child(1) { display:none; }
-```
-
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -237,19 +194,6 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value
  [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
 ```
 
-### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite)
-
-Tarpeellisuus: Ei tarpeen versiosta 24.05 lähtien, korvattu piilottamalla tieto BorrowerUnwanted-järjestelmäasetuksen avulla<br />
-Versio: 23.11
-
-Osoitteen tarkistustarve ei saa aiheuttaa lainakieltoa.
-
-Suositeltava, koska näiden perusteella ei saa tulla lainakieltoa lain mukaan.
-```
-/* Piilota Käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite) */ 
-#pat_memberentrygen #memberentry_account_flags { display:none; }
-```
-
 ### Piilota noutomuistutus asiakaslomakkeelta ja viestiasetuksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -278,30 +222,6 @@ div#patron-messaging-prefs th:nth-child(5),
 div#patron-messaging-prefs td:nth-child(5) {
   display:none;
 }
-```
-
-
-### Piilota Salli automaattinen uusinta -kohta
-
-Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti. Päivitys 8.4.2024: Tätä piilotusta ei enää tarvita, vaan tiedon saa piiloon BorrowerUnwantedField-järjestelmäasetukella valitsemalla autorenew_checkouts-kohdan.
-
-Tarpeellisuus: Ei tarpeellinen<br />
-Versio: 22.11
-
-```
-/* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
-body#circ_circulation #set-automatic-renewal { display: none; }
-```
-
-### Asiakkaan tietoruudun piilotus asiakastiedoista vasemmasta reunasta
-
-Tarpeellisuus: Ei tarpeen<br />
-Versio: 21.11<br />
-Asiantuntijaryhmä on päättänyt, että tietoruutu on näkyvillä, jotta tilin lukkiutuminen näkyy virkailijalle.
-
-```
-/* Asiakkaan tietoruudun piilotus vasemmasta reunasta */
-div.patroninfo { display: none; }
 ```
 
 ### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto
@@ -338,19 +258,6 @@ Versio: 24.05
 /* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot asiakkaan Tiedot-sivulta */
 #patron-privacyguarantor + li { display: none; }
 #patron-privacyguarantor { display: none; }
-```
-
-### Säädä Lisää viesti -popparin alasvetovalikon leveyttä
-
-Tarpeellisuus: Ei enää tarpeellinen versiosta 24.05 lähtien<br />
-Versio: 23.11
-
-Säätö tehdään sekä lainaus- että tiedot-sivulle.
-
-```
-/* Säädä Lisää viesti -popupissa valikon leveys kapeammaksi lainaus- ja tiedot-näytöillä */
-body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px; }
-body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px; }
 ```
 
 ### Piilota kirjautumistunnusosio asiakaslomakkeelta
@@ -833,16 +740,6 @@ body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-ale
 body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-alert-action)) div#circ_needsconfirmation label[for="cancelreserve"] { display: initial; }
 ```
 
-### Piilota Automatic renewal / Automaattinen uusinta -checkbox
-
-Versio: 21.11<br />
-Versio: 22.11 Ei tarpeellinen, koska  AllowSetAutomaticRenewal -järjestelmäasetuksella saa täpän piiloon.
-
-```
-/* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
-body#circ_circulation #set-automatic-renewal { display: none; }
-```
-
 ### Palautus
 
 ### Piilota palautus-näytön asetukset
@@ -950,14 +847,6 @@ body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert
 
 ## Maksut
 
-### Piilota Maksa- ja Poista-alavälilehdet asiakkaan maksusivulta
-
-Tarpeellisuus: Ei tarpeellinen
-
-```
-/* Piilota Maksa-Poista välilehdet Maksusivulta */
-body#pat_paycollect ul.nav-pills { display: none; }
-```
 
 ### Piilota Luo hyvitys -välilehti asiakkaan maksuista 
 
@@ -1024,48 +913,7 @@ body#pat_paycollect ul.nav-pills { display: none;}
 
 ## Tiedonhaku
 
-### Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle
 
-Tarpeellisuus: Ei tarpeen versiosta 23.11 lähtien<br />
-Versio: 22.11
-
-```
-/* Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle */
-.label { vertical-align: inherit; }
-```
-
-
-### Fonttikokojen säätö isommaksi koko perustiedot-näytöllä
-
-Tarpeellisuus: Vapaaehtoinen, käytä mielummin selaimen ctrl+ -toimintoa suurentamaan fontteja<br />
-Versio: 21.11
-
-```
-/* Säädä perustiedot-näytön fonttikokoja isommaksi*/
-#catalogue_detail_biblio { font-size:larger; }
-```
-
-### Otsikkorivin fonttikoko suuremmaksi
-
-Tarpeellisuus: Ei tarpeen enää versiossa 22.11<br />
-Versio: 21.11
-
-```
-/* Otsikkorivin (nimeke ja tekijä) fonttikoko suuremmaksi */
-#catalogue_detail_biblio h1 { font-size: 16pt; }
-```
-
-### Seuraava- ja Edellinen -linkit pienemmiksi
-
-Versio: 17.05, ei tarpeellinen versiossa 21.11, koska linkit muuttuneet nuoliksi
-
-```
-/* Seuraava- ja edellinen-linkit pienemmiksi, jotta ne mahtuvat niille sallittuun tilaan */
-body#catalog_detail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff; }
-body#catalog_MARCdetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
-body#catlaog_labeledMARCdetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
-body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
-```
 
 
 ### Piilota kentät 336-338
@@ -1076,18 +924,6 @@ Versio: 24.05
 ```
 /* Piilota perustiedot-näytöltä kentät 336-338 */
 body#catalog_detail #content_type.results_summary { display: none; }
-```
-
-### Esityskokoonpanon järjestys näytöllä
-
-Tarpeellisuus: Ei tarpeellinen version 17.05 jälkeen<br />
-Versio: 17.05
-
-```
-/* Esityskokoonpanon järjestys näytöllä */
-.performance-medium span[class^="sf-"] + span[class^="sf-"]:before {
-  content: ", ";
-}
 ```
 
 ### Otsikot boldattuna mustalla
@@ -1114,43 +950,6 @@ Versio: 24.05
 #bibliodetails #components a.nimeke { font-weight:bold; }
 ```
 
-
-### Auktoriteettien MARC-näkymän säätöä
-
-Tarpeellisuus: Ei tarpeellinen<br />
-Versio: 17.05
-
-```
-/* Auktoriteettien MARC */
-#authoritiestabs div.tag p { font-weight: normal; display: inline; font-family: monospace; }
-#authoritiestabs div.tag .labelsubfield,
-#authoritiestabs div.tag .labelsubfield b { font-weight: normal; font-family: sans-serif; }
-#authoritiestabs div.tag .labelsubfield span { display:none; }
-#authoritiestabs div.tag p .labelsubfield:hover span,
-#authoritiestabs div.tag p:hover .labelsubfield span {  display: inline; float:right; border: 1px solid black; background-color:#f0f0f0; position:relative; top: -1em; right: 0; padding:1em; }
-```
-
-### Muokkaa hakutulos-näytön värejä
-
-Tarpeellisuus: Ei tarpeellinen<br />
-Versio: 17.05
-
-```
-/* Muokkaa hakutulos-näytön värejä */
-.results_summary { color: #000111 !important; }
-.results_summary span { color: #000000; font-weight: normal !important; }
-.results_summary .label { color: #000000 !important; }
-```
-
-### Piilota Näytä kausijulkaisun tiedot -linkki
-
-Tarpeellisuus: Ei tarpeellinen<br />
-Versio: 17.05
-
-```
-span.results_summary.analytics { display: none; }
-```
-
 ### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -1173,20 +972,6 @@ Versio: 24.05
 ```
 /* Piilota Toimenpide-huomautus 583-kenttä perustiedot-näytöltä */
 span.results_summary.actionnote { display: none; }
-```
-
-### Piilota tuplakansikuvat
-
-Joskus luettelointitiedoissa on syystä tai toisesta useampi kansikuvalinkki. Jos haluaa, että näkyvillä on vain yksi kansikuva, saa muut piiloon seuraavalla rimpsulla.
-
-Tarpeellisuus: Ei tarpeellinen <br />
-Versio: 17.05
-
-```
-/* Piilota tuplakansikuvat */
-.cover_image_container ~ .cover_image_container {
-   display:none;
-}
 ```
 
 
@@ -1349,20 +1134,6 @@ body#catalog_results.catalog li#holdingbranch_id { display: none; } /* Sijaintik
 
 ## Varaukset
 
-### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
-
-Tämä ei ole enää kovin tarpeellinen versiossa 24.05, koska varaussivulla ei ole enää yläreunassa noutokirjaston valintaa. Se tehdään aina joko seuraava vapaa nide -kohdassa tai nidevarauksen kohdalla.
-
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 23.11
-
-```
-/* Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus. */
-body#circ_request.catalog div#requestspecific_filter:after {
-  content: " Valitse noutokirjasto niteen kohdalta, jos teet nidevarauksen.";
-  color:red;
-}
-```
 
 ### Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan
 
@@ -1476,20 +1247,6 @@ div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillWaiting
 
 ---
 
-## Kausijulkaisut
-
-### Tasaa kausijulkaisujen vastaanotossa nidetiedot keskemmälle ruutua
-
-Tarpeellisuus: Ei enää tarpeen versiosta 23.11 lähtien<br />
-Versio: 22.11
-
-```
-/* Tasaa kausijulkaisujen vastaanotossa nidetiedot keskemmälle ruutua. */
-body#ser_serials-edit.ser fieldset.rows ol li {display:block;}
-body#ser_serials-edit.ser fieldset.rows ol li label {float: left; font-weight: 700; margin-right: 1rem; text-align: right;}
-```
-
----
 
 ## Muita
 
@@ -1501,16 +1258,6 @@ Versio: 24.05
 ```
 /* Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle. */
 tr:hover td { background-color:#f8fcf6 !important; }
-```
-
-### Korjataan päivämääräkentän leveys sopivaksi
-
-Tarpeellisuus: Ei enää tarpeen versiosta 23.11 lähtien.<br />
-Versio: 22.11
-
-```
-/* Korjataan päivämääräkenttien leveys sopivaksi. Tiketit 111 ja 119 */
-.flatpickr-input {width: auto}
 ```
 
 ### Koha-logon piilotus virkailijaliittymän vasemmasta reunasta
@@ -1588,16 +1335,6 @@ background-repeat: no-repeat;
 }
 ```
 
-### Piilota Työkalut-sivulta linkit JS-liitännäisiin Työkaluliitännäiset-osiosta
-
-Tarpeellisuus: Ei tarpeen, muutettu JS-rimpsuksi<br />
-Versio: 23.11
-
-```
-/* Piilota Työkalut-sivulta linkit JS-liitännäisiin Työkaluliitännäiset-osiosta. Rimpsut piilottavat tietyn rivin, joten kun liitännäisiä tulee lisää, kopioi yksi riveistä ja muuta nth-child(1)-kohtaan sopiva rivinumemero. JS-liitännäiset pitäisi tulla peräkkäin, mutta testaamalla löytyy oikea numero. */
-body#tools_tools-home.tools div.col-sm-6 li:nth-child(1) { display: none; }
-body#tools_tools-home.tools div.col-sm-6 li:nth-child(2) { display: none; }
-```
 
 ### Piilota niteiden eräajosta 'Muut määreet - Jätä pois paikallisten varausten jonosta' ja 'Palauta niteet'
 
