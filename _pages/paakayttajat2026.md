@@ -19,7 +19,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kus
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
 * [Uutiskirjeen 1/2026](https://docs.google.com/document/d/1-W46CdTUVsuFPlVt6feS2z_POwyVq3_LF2ublqKSvTQ/edit?usp=sharing) deadline 29.4. Linkki myös pääkäyttäjien huoneessa Elinan laittamana.
 * [020q-kentän rimpsu vaihdettava](https://github.com/KohaSuomi/Koha/issues/2219)
+  * käykää kaikki vaihtamassa uudempi TT-rimpsu kimpoissa Tietuenäyttöjen mukautukset -työkaluun, jotta 020q-kentän toistumat näkyy ARRAY-tekstin sijaan.
 * [800t-kentän kuvailusääntömuutos](https://github.com/KohaSuomi/Koha/issues/2218)
+  * Tämä lähinnä tiedoksi tässä vaiheessa
+* Koha-seminaarin ajankohta on 17.-18.9.2026 ja paikkana Oulu. Pistäkäähän valmiiksi ajankohta kalenteriin.
+* Ari on toivonut, että kirjastoista saataisiin perus-Koha-käyttäjiä esittelemään Kohaa Kirjastopäiville Koha-Suomen ständille kesäkuussa.
+  * Anneli selvittää, miten organisoidaan, ketkä pääsevät tulemaan ja miten aikataulutetaan vuorot.
 
 Etelästä pohjoiseen
 
