@@ -1,5 +1,5 @@
 ---
-title: 'Järjestelmäasetukset'
+title: 'Järjestelmäasetukset ja työkalut'
 permalink: /dokumentaatio/jarjestelmaasetukset/
 redirect_from:
   - /theme-setup/
@@ -13,6 +13,8 @@ Koha-yhteisön suositus on, että auktorisoitujen arvojen koodeihin, esim. kirja
 Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheuttaa ongelmia indeksin kanssa.
 
 Koska järjestelmäasetuksia on satoja, ei kaikista ole tällä sivulla tietoja. Järjestelmäasetuksia on käyty läpi pääkäyttäjien kanssa ja läpikäynneistä on tallenteet [Koha-Suomen Youtube-kanavalla](https://www.youtube.com/@koha-suomi/videos).
+
+## Järjestelmäasetusten ohjeita
 
 ### ActionLogsTraceDepth
 
@@ -317,5 +319,10 @@ TrapHoldsOnOrder | Ota kiinni | Saapunut/tilattu-tilaiset jäävät palautuksess
 UpdateNotForLoanStatusOnCheckin | 6 : ONLYMESSAGE | Laskutetusta niteestä tulee ilmoitus palautettaessa
 
 
+## Työkalujen asetuksia
 
+### Tietuenäyttöjen mukautukset
 
+Tietuenäyttöjen mukautukset on koottu omalle sivullensa:
+
+[Tietuenäyttöjen mukautukset](/dokumentaatio/tietuenaytot/)
