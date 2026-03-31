@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
 * [Uutiskirjeen 1/2026](https://docs.google.com/document/d/1-W46CdTUVsuFPlVt6feS2z_POwyVq3_LF2ublqKSvTQ/edit?usp=sharing) deadline 29.4. Linkki myös pääkäyttäjien huoneessa Elinan laittamana.
+* [020u-kentän rimpsu vaihdettava](https://github.com/KohaSuomi/Koha/issues/2219)
 
 Etelästä pohjoiseen
 
