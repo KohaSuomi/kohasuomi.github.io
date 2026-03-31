@@ -36,6 +36,7 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.    
 * Emmi
   * Kirkesiin ajettu cn_sort-kenttien korjaus https://github.com/KohaSuomi/Koha/issues/2024
+  * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
 
 ## Viikko 12
 
