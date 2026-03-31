@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
@@ -36,6 +36,10 @@ Etelästä pohjoiseen
 
 **Vaara**
 * Monta asiaa yhtä aikaa: signummuutos, uuden palautusautomaatin lajitteluongelmat, tableteilla hyllyvarausten valikko-ongelma näytöllä hyppivän näppäimistön kanssa jne. Isoin ongelma on Kohan ja Ceepos-kassan ongelma. Vaarassa liikenne kassan ja Kohan välillä on kulkenut vanhaa palautusautomaattia varten rakennetun tunnelin kautta. Kun tunneli tuli automaatinvaihdon takia tarpeettomaksi, se poistettiin käytöstä. Vaara-kirjastojen tietoliikennettä hoitaa Meita, jolle tunnelin tulevasta poistosta on ilmoitettu jo viime vuoden puolella, mutta asialle ei ole tehty mitään. Meita ei toimi samalla tavalla kuin muut palveluntarjoajat, heille ei tietoturvasyistä kelpaa Koha-Suomen ratkaisu. En tiedä, kauanko kestää tämän ongelman ratkaiseminen. Siihen saakka joudutaan käsin kuittaaman kassasta Kohan maksut, mikä helposti aiheuttaa virhetilanteita.
+
+**Lumme**
+* Lyngsoen automaatit ja tarrapohjat vaativat edelleen viilausta versionvaihdon ja signum-muutoksen jälkeen. Aletaan olla tässä kuitenkin voiton puolella.
+* Kuvailijoille annettu lisäoikeuksia, jotta ovat päässeet vastaanottomaan uusia niteitä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
