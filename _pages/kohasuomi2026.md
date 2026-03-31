@@ -29,6 +29,11 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Lastussa oli lähtenyt asiakkaalle palautuskehotus, jossa ei ollut item-tägin sisälle muodostunut teostietoja. Epäilin ensin, että asiakas on ehtinyt palauttaa niteen siinä välissä, kun viesti on luotu, mutta ei vielä lähetetty. Teokset oli kuitenkin palautettu vasta viestin lähetyksen jälkeen, joten tämä teoria ei pitänyt paikkansa. Tämä saattaa jäädä mysteeriksi, koska muita vastaavia tapauksia ei message_queuesta löytynyt.
   * OUTIssa ei ollut lähtenyt MEMBERSHIP_EXPIRY-viestejä. Todennäköinen syy on viestipohjassa ollut Template Toolkit -koodissa ollut virhe.
   * Kyytistä ihmeteltiin, että Vanhentuneet varaukset -raportille ei tule enää tuloksia sen jälkeen kun ExpireReservesOnHolidays-järjestelmäasetukseen muutettiin heillä, että varausten ei sallita vanhentua kiinniolopäivinä (esim. viikonloppuisin). Raportti on kuitenkin rakennettu niin, että varaus on poistettu seuraavana päivänä sen expirationdatesta. Muuten siihen tulee mukaan muitakin kuin vanhentumisskriptin poistamia.
+* Johanna
+  * Tarratulostustyökalu: Käännösten lisääminen liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana. https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11
+  * Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti: Tähän viety korjaus testeille, vaatii vielä parantelua. https://github.com/KohaSuomi/Koha/issues/2221
+  * Lapille aktivoitu kaukolainamoduulia testeille. https://github.com/KohaSuomi/Koha/issues/2216
+  * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.    
 
 
 ## Viikko 12
