@@ -23,6 +23,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 Etelästä pohjoiseen
 
+**Lappi**
+* Versionvaihdossa ei juuri ilmennyt ongelmia: muutamat säädöt eivät siirtyneet nextiltä tai indeksoinnin hitaudesta aiheutuneita "virheitä". 
+* Muutamalle jouduttu lisäämään vendor_manage-oikeus. 
+* Signum-muutos versionvaihdon kanssa samoihin aikoihin, jonkin verran kysymyksiä
+* Yksi automaatti ottaa/otti yhteyttä palvelimeen nimellä RO, jota meillä ei ole Kohassa (asia joka korjattiin marraskuussa 2025). 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 13
