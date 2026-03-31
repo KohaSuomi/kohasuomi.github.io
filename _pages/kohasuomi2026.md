@@ -33,7 +33,8 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Tarratulostustyökalu: Käännösten lisääminen liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana. https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11
   * Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti: Tähän viety korjaus testeille, vaatii vielä parantelua. https://github.com/KohaSuomi/Koha/issues/2221
   * Lapille aktivoitu kaukolainamoduulia testeille. https://github.com/KohaSuomi/Koha/issues/2216
-  * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.    
+  * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.
+  * Tätissä siivottu Melinda_no_comps-nimisestä OAI-setistä pois osakohteet.    
 * Emmi
   * Kirkesiin ajettu cn_sort-kenttien korjaus https://github.com/KohaSuomi/Koha/issues/2024
   * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
