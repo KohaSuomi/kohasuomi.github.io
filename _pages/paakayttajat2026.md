@@ -27,7 +27,12 @@ Etelästä pohjoiseen
 * Versionvaihdossa ei juuri ilmennyt ongelmia: muutamat säädöt eivät siirtyneet nextiltä tai indeksoinnin hitaudesta aiheutuneita "virheitä". 
 * Muutamalle jouduttu lisäämään vendor_manage-oikeus. 
 * Signum-muutos versionvaihdon kanssa samoihin aikoihin, jonkin verran kysymyksiä
-* Yksi automaatti ottaa/otti yhteyttä palvelimeen nimellä RO, jota meillä ei ole Kohassa (asia joka korjattiin marraskuussa 2025). 
+* Yksi automaatti ottaa/otti yhteyttä palvelimeen nimellä RO, jota meillä ei ole Kohassa (asia joka korjattiin marraskuussa 2025).
+
+**OUTI**
+* OUTIssa asiakkaan maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration". Virheilmoituksen syyksi selvisi Lainaus-näytöllä olevan "Maksa kaikki maksut" -napin käyttö maksutilanteessa. Asiakkaan tiedot-näkymässä samainen nappi on piilotettu, koska se ei toimi Ceepos-maksuissa. Tiketti: https://github.com/KohaSuomi/Koha/issues/2208 
+* Eräpäivien siirto eräajona -työkalussa ei kaikille hakutuloksen lainoille muodostu Uusi eräpäivä-sarakkeeseen uutta eräpäivää. Kaikille hakutuloksen lainoille kuitenkin muuttuu eräajossa eräpäivä vaikka sarakkeessa ei ko. pvm ole näkyvissä. OUTI tekee tästä tiketin.
+* OUTIssa Oulun kaikki automaatit ja omatoimet menettivät yhteyden Kohaan vajaaksi 10 minuutiksi 30.3. OUTIn automaateista oli lokitus tuolloin jostain syystä pois päältä, joten yhteyshärö jäi mysteeriksi. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
