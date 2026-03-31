@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Iina Niemi (Vaski), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Iina Niemi (Vaski), Erika Miettinen ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
@@ -58,7 +58,7 @@ Etelästä pohjoiseen
 ## Viikko 13
 
 Aika: Ti 24.3.2026 klo 9.15<br />
-Läsnä: Susanna Sandell (Vaski), Päivi Knuutinen ja Hanna Hyttinen (Vaara)
+Läsnä: Susanna Sandell (Vaski), Päivi Knuutinen ja Hanna Hyttinen (Vaara), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 
 **Yhteiset**
