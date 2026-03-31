@@ -13,12 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
 * [Uutiskirjeen 1/2026](https://docs.google.com/document/d/1-W46CdTUVsuFPlVt6feS2z_POwyVq3_LF2ublqKSvTQ/edit?usp=sharing) deadline 29.4. Linkki myös pääkäyttäjien huoneessa Elinan laittamana.
-* [020u-kentän rimpsu vaihdettava](https://github.com/KohaSuomi/Koha/issues/2219)
+* [020q-kentän rimpsu vaihdettava](https://github.com/KohaSuomi/Koha/issues/2219)
+* [800t-kentän kuvailusääntömuutos](https://github.com/KohaSuomi/Koha/issues/2218)
 
 Etelästä pohjoiseen
 
