@@ -6,11 +6,17 @@ redirect_from:
 toc: true
 ---
 
+Versiossa 25.05 tuli käyttöön uusi työkalu _Tietuenäyttöjen mukautukset_, jolla saa lisättyä Perustiedot-näytölle, hakutuloslistalle ja Listat-toimintoon näkyviin MARC-kenttien tietoja. Työkalulla lisätyt tiedot tulevat näytöille näkyviin Kohan sisäisen XSLT-tiedoston määritysten jälkeen, eikä niitä saa työkalulla sijoitettua XSLT:n kautta tulevien tietojen sekaan. Lisäysten keskinäistä järjestystä voi säätää muuttamalla määritysten järjestystä.
+
+Määritykset tehdään Template Toolkit -kielellä. Työkalulla voi määrittää eri kieliversioihin näkymään eri tekstit, joka mahdollistaa otsikoiden kääntämisen eri kielille. Kenttiin lisätyt tiedot näkyvät siinä muodossa kuin ne ovat kentässä kielivalinnasta huolimatta.
+
+
 ## Perustiedot-näyttö
 
 Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffDetailPage alasvetovalikosta -> muista valita Publication date -kohtaan se päivä, mistä lähtien haluat määritysten näkyvän (valitse tämä päivä)
 
-Englanniksi:
+### Englanniksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
@@ -187,7 +193,8 @@ Englanniksi:
 [% END %]
 ```
 
-Suomeksi:
+### Suomeksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
@@ -361,7 +368,8 @@ Suomeksi:
 [% END %]
 ```
 
-Ruotsiksi:
+### Ruotsiksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
@@ -543,7 +551,8 @@ Ruotsiksi:
 
 Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffResultsPage alasvetovalikosta -> muista valita Publication date -kohtaan se päivä, mistä lähtien haluat määritysten näkyvän (valitse tämä päivä)
 
-Suomeksi:
+### Suomeksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
@@ -590,7 +599,8 @@ Suomeksi:
 [% END %]
 ```
 
-Ruotsiksi:
+### Ruotsiksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
@@ -637,7 +647,8 @@ Ruotsiksi:
 [% END %]
 ```
 
-Englanniksi:
+### Englanniksi
+
 ```
 <!-- Aineistotyyppi -->
 [% IF record.subfield('942' , 'c') %]
