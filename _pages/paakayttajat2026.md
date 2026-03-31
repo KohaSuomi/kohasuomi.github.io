@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
 * OUTIssa asiakkaan maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration". Virheilmoituksen syyksi selvisi Lainaus-näytöllä olevan "Maksa kaikki maksut" -napin käyttö maksutilanteessa. Asiakkaan tiedot-näkymässä samainen nappi on piilotettu, koska se ei toimi Ceepos-maksuissa. Tiketti: https://github.com/KohaSuomi/Koha/issues/2208 
 * Eräpäivien siirto eräajona -työkalussa ei kaikille hakutuloksen lainoille muodostu Uusi eräpäivä-sarakkeeseen uutta eräpäivää. Kaikille hakutuloksen lainoille kuitenkin muuttuu eräajossa eräpäivä vaikka sarakkeessa ei ko. pvm ole näkyvissä. OUTI tekee tästä tiketin.
 * OUTIssa Oulun kaikki automaatit ja omatoimet menettivät yhteyden Kohaan vajaaksi 10 minuutiksi 30.3. OUTIn automaateista oli lokitus tuolloin jostain syystä pois päältä, joten yhteyshärö jäi mysteeriksi. 
+
+**Vaara**
+* Monta asiaa yhtä aikaa: signummuutos, uuden palautusautomaatin lajitteluongelmat, tableteilla hyllyvarausten valikko-ongelma näytöllä hyppivän näppäimistön kanssa jne. Isoin ongelma on Kohan ja Ceepos-kassan ongelma. Vaarassa liikenne kassan ja Kohan välillä on kulkenut vanhaa palautusautomaattia varten rakennetun tunnelin kautta. Kun tunneli tuli automaatinvaihdon takia tarpeettomaksi, se poistettiin käytöstä. Vaara-kirjastojen tietoliikennettä hoitaa Meita, jolle tunnelin tulevasta poistosta on ilmoitettu jo viime vuoden puolella, mutta asialle ei ole tehty mitään. Meita ei toimi samalla tavalla kuin muut palveluntarjoajat, heille ei tietoturvasyistä kelpaa Koha-Suomen ratkaisu. En tiedä, kauanko kestää tämän ongelman ratkaiseminen. Siihen saakka joudutaan käsin kuittaaman kassasta Kohan maksut, mikä helposti aiheuttaa virhetilanteita.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
