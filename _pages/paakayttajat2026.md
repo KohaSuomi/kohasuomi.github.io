@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
@@ -45,6 +45,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Lyngsoen automaatit ja tarrapohjat vaativat edelleen viilausta versionvaihdon ja signum-muutoksen jälkeen. Aletaan olla tässä kuitenkin voiton puolella.
 * Kuvailijoille annettu lisäoikeuksia, jotta ovat päässeet vastaanottomaan uusia niteitä.
+
+**Vaski**
+* Pohdimme parannusehdotuksia saatavuustietonäkymään käyttäjiltä tulleiden palautteiden pohjalta. Palaamme asiaan kun on jotain konkreettista esiteltävää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
