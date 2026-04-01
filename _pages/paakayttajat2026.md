@@ -68,6 +68,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Signum-muutosajo valmistunut 19.3.2026.
+* Versionvaihdossa otettu käyttöön tapa näyttää tietueen Perustiedot-näytöllä nidetiedot sijaintikirjaston mukaan (muutos asetukseen SeiparateHoldingsBranch).
 * Versionvaihdon jälkeen Varauksen noutomuistutus -asiakasviesti lähtee myös voimassa olevasta vanhenevasta varauksesta. Tiketti [Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta](https://github.com/KohaSuomi/Koha/issues/2227)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
