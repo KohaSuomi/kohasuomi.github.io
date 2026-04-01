@@ -872,78 +872,121 @@ Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdol
 
 ## HOLD_REMINDER eli varauksen noutomuistutus
 
-Päivitetty 25.11.2024
+Päivitetty 1.4.2026
 
 ### Email-pohjaan
 
-#### Oletus
+HMTL-täppä pakoilleen.
 
-HOLD_REMINDER-pohja ei osaa tällä hetkellä käyttää kielipohjia (ks. tiketti 662), mutta Oletus-pohjaan on mahdollista tehdä Template Toolkitillä asiakkaan kielivalintoja hyödyntävät eri viestivaihtoehdot. HMTL-täppä pakoilleen.
+#### Suomeksi
 
 ```
-[% IF borrower.lang == "fi-FI" %]
-
-<p>Muistathan noutaa varaamasi aineiston noutopaikasta <<branches.branchname>> varaustunnisteella <<borrower-attribute:HOLDID>>.</p>
+<p>Muistathan noutaa varaamasi aineiston varaustunnisteella <<borrower-attribute:HOLDID>>.</p>
 
 [% FOREACH hold IN holds %]
 <p>
 [% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
 Nide: [% hold.item.barcode %]<br />
+Noutokirjasto: [% hold.branch.branchname %]<br />
 <b>Viimeinen noutopäivä: [% hold.expirationdate | $KohaDates %]</b><br />
 </p>
 [% END %]
 
-<p>Ota mukaasi kirjastokortti ja joko saapumisilmoitus tai varaustunniste. Noutamatta jääneestä varauksesta peritään 2 €. Mikäli et pääse noutamaan varaamaasi aineistoa, ota yhteyttä kirjastoon.</p>
+<p>Ota mukaasi kirjastokortti ja joko saapumisilmoitus tai varaustunniste. Noutamatta jääneestä varauksesta peritään 2 euroa. Mikäli et pääse noutamaan varaamaasi aineistoa, ota yhteyttä kirjastoon.</p>
 
-<p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
+<p>Tähän viestiin ei voi vastata. Kirkes-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta https://kirkes.finna.fi</p>
+```
 
-[% ELSIF borrower.lang == "sv-SE" %]
+#### Englanniksi
 
-<p>Du kommer väl ihåg att hämta din reservering från <<branches.branchname>> med reserveringskod <<borrower-attribute:HOLDID>>.</p>
+```
+<p>Remember to pick up the item you have reserved with your reservation identifier <<borrower-attribute:HOLDID>>.</p>
+
+[% FOREACH hold IN holds %]
+<p>
+[% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
+Item: [% hold.item.barcode %]<br />
+Branch: [% hold.branch.branchname %]<br />
+<b>Last date for pick up: [% hold.expirationdate | $KohaDates %]</b><br />
+</p>
+[% END %]
+
+<p>Bring your Library card and either the pick-up notification or your reservation identifier with you. Uncollected reservations carry a 2 euro charge. If you can't pick up your reservation, please contact the library.</p>
+
+<p>You cannot reply to this message. You’ll find all Kirkes Libraries’ contact information at https://kirkes.finna.fi</p>
+```
+
+#### Ruotsiksi
+
+```
+<p>Du kommer väl ihåg att hämta din reservering med reserveringskoden <<borrower-attribute:HOLDID>>.</p>
 
 [% FOREACH hold IN holds %]
 <p>
 [% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
 Exemplar: [% hold.item.barcode %]<br />
+Avhämtningsbibliotek: [% hold.branch.branchname %]<br />
 <b>Sista avhämtningsdag: [% hold.expirationdate | $KohaDates %]</b><br />
 </p>
 [% END %]
 
-<p>Ta med dig bibliotekskortet och antingen avhämtningsmeddelandet eller reserveringskoden. För oavhämtat material uppbärs en avgift på 2 €. Ifall du inte kan hämta din reservering, ta kontakt med biblioteket.</p>
+<p>Ta med dig bibliotekskortet och antingen avhämtningsmeddelandet eller reserveringskoden. För oavhämtat material uppbärs en avgift på 2 euro. Ifall du inte kan hämta din reservering, ta kontakt med biblioteket.</p>
 
-<p>Du kan inte svara på detta meddelande. Du hittar Vaski-bibliotekens kontaktuppgifter i nätbiblioteket på adressen http://www.vaskibiblioteken.fi</p>
-
-[% ELSE %]
-
-<p>Remember to pick up the item you have reserved from <<branches.branchname>> with reservation identifier <<borrower-attribute:HOLDID>>.</p>
-
-[% FOREACH hold IN holds %]
-<p>[% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
-Item: [% hold.item.barcode %]<br />
-<b>Last date for pick up: [% hold.expirationdate | $KohaDates %]</b><br />
-</p>
-[% END %]
-
-<p>Bring your Library card and either the pick-up notification or your reservation identifier with you. Uncollected reservations carry a 2 € charge. If you can't pick up your reservation, please contact the library.</p>
-
-<p>You cannot reply to this message. You’ll find all Vaski Libraries’ contact information at http://www.vaskilibraries.fi</p>
-[% END %]
+<p>Du kan inte svara på detta meddelande. Du hittar Kirkes-bibliotekens kontaktuppgifter i nätbiblioteket på adressen https://kirkes.finna.fi</p>
 ```
 
-### SMS:lle:
+### SMS/Tekstiviestipohjaan
+
+#### Suomeksi
+
 ```
-[%- SET varaustunnus = '' -%][%- FOREACH ba IN borrower.extended_attributes -%][%- IF ba.code == 'HOLDID' -%][%- varaustunnus = ba.attribute -%][%- END -%][%- END -%]
-Muistathan noutaa varaamasi aineiston varaustunnisteella [% varaustunnus.replace('(?<![A-Za-z-])(\d+)(\d{3})$', '$1 $2') %]
+Muistathan noutaa varaamasi aineiston varaustunnisteella <<borrower-attribute:HOLDID>>
 [% seen = {} -%]
 [% branches = [] -%]
 [% FOREACH hold IN holds -%]
-  [% branchname = hold.branch.branchname -%]
-  [% IF !seen.$branchname -%]
-    [% branches.push(branchname) -%]
-    [% seen.$branchname = 1 -%]
-  [% END -%]
+[% branchname = hold.branch.branchname -%]
+[% IF !seen.$branchname -%]
+[% branches.push(branchname) -%]
+[% seen.$branchname = 1 -%]
+[% END -%]
 [% END -%]
 [% IF branches.size == 1 -%]noutopaikasta [% ELSIF branches.size > 1 -%]noutopaikoista [% END -%]
+[% branches.join(', ') -%]
+.
+```
+
+#### Englanniksi
+
+```
+Your reservation ID: <<borrower-attribute:HOLDID>>. Remember to pick up
+[% seen = {} -%]
+[% branches = [] -%]
+[% FOREACH hold IN holds -%]
+[% branchname = hold.branch.branchname -%]
+[% IF !seen.$branchname -%]
+[% branches.push(branchname) -%]
+[% seen.$branchname = 1 -%]
+[% END -%]
+[% END -%]
+[% IF branches.size == 1 -%]your hold from [% ELSIF branches.size > 1 -%]your holds from [% END -%]
+[% branches.join(', ') -%]
+.
+```
+
+#### Ruotsiksi
+
+```
+Din reserveringskod: <<borrower-attribute:HOLDID>>. Du kommer väl ihåg att hämta
+[% seen = {} -%]
+[% branches = [] -%]
+[% FOREACH hold IN holds -%]
+[% branchname = hold.branch.branchname -%]
+[% IF !seen.$branchname -%]
+[% branches.push(branchname) -%]
+[% seen.$branchname = 1 -%]
+[% END -%]
+[% END -%]
+[% IF branches.size == 1 -%]din reservering från [% ELSIF branches.size > 1 -%]dina reserveringar från [% END -%]
 [% branches.join(', ') -%]
 .
 ```
@@ -955,6 +998,16 @@ Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdol
 ```
 [% IF hold.hold_pickup_shelf_id %]<<hold_pickup_shelf>>[% ELSE %]<<borrower-attribute:HOLDID>>[% END %]
 ```
+
+### Välilyönnin lisääminen numeromuotoisiin varaustunnuksiin 
+
+Aurorasta konvertoidut varaustunnukset ovat yleensä numerosarjoja, joita voi olla vaikea lukea. Niihin voi lisätä välilyönnin Template Toolkitin avulla esim. näin: 
+
+```
+[%- SET varaustunnus = '' -%][%- FOREACH ba IN borrower.extended_attributes -%][%- IF ba.code == 'HOLDID' -%][%- varaustunnus = ba.attribute -%][%- END -%][%- END -%]
+<p>Muistathan noutaa varaamasi aineiston varaustunnisteella [% varaustunnus.replace('(?<![A-Za-z-])(\d+)(\d{3})$', '$1 $2') %].</p>
+```
+
 
 ## CHECKINSLIP eli palautuskuitti
 
