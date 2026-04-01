@@ -881,7 +881,7 @@ HMTL-täppä pakoilleen.
 #### Suomeksi
 
 ```
-<p>Muistathan noutaa varaamasi aineiston varaustunnisteella <<borrower-attribute:HOLDID>>.</p>
+<p>Muistathan noutaa varaamasi aineiston varaustunnuksella <<borrower-attribute:HOLDID>>.</p>
 
 [% FOREACH hold IN holds %]
 <p>
@@ -940,7 +940,7 @@ Avhämtningsbibliotek: [% hold.branch.branchname %]<br />
 #### Suomeksi
 
 ```
-Muistathan noutaa varaamasi aineiston varaustunnisteella <<borrower-attribute:HOLDID>>
+Muistathan noutaa varaamasi aineiston varaustunnuksella <<borrower-attribute:HOLDID>>
 [% seen = {} -%]
 [% branches = [] -%]
 [% FOREACH hold IN holds -%]
@@ -1005,7 +1005,7 @@ Aurorasta konvertoidut varaustunnukset ovat yleensä numerosarjoja, joita voi ol
 
 ```
 [%- SET varaustunnus = '' -%][%- FOREACH ba IN borrower.extended_attributes -%][%- IF ba.code == 'HOLDID' -%][%- varaustunnus = ba.attribute -%][%- END -%][%- END -%]
-<p>Muistathan noutaa varaamasi aineiston varaustunnisteella [% varaustunnus.replace('(?<![A-Za-z-])(\d+)(\d{3})$', '$1 $2') %].</p>
+<p>Muistathan noutaa varaamasi aineiston varaustunnuksella [% varaustunnus.replace('(?<![A-Za-z-])(\d+)(\d{3})$', '$1 $2') %].</p>
 ```
 
 
