@@ -935,7 +935,7 @@ Avhämtningsbibliotek: [% hold.branch.branchname %]<br />
 <p>Du kan inte svara på detta meddelande. Du hittar Kirkes-bibliotekens kontaktuppgifter i nätbiblioteket på adressen https://kirkes.finna.fi</p>
 ```
 
-### SMS/Tekstiviestipohjaan
+### SMS/Tekstiviesti-pohjaan
 
 #### Suomeksi
 
