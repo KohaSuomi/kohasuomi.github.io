@@ -26,7 +26,7 @@ Pohjoisesta etelään
 ## Viikko 14
 
 Aika: Ti 31.3.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Iina Niemi (Vaski), Erika Miettinen ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto, Pirkko-Liisa Lauhikari  ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Hanna Ikonen (Lumme), Iina Niemi (Vaski), Erika Miettinen ja Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 14 päivitys](https://github.com/KohaSuomi/Koha/discussions/2226)
@@ -64,7 +64,11 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Versionvaihto meni meidän kokemuksemme mukaan hyvin. Joitakin huomioita on tullut henkilökunnalta, mutta lähinnä ulkoasusta ja sellaisista ominaisuuksista, jotka ovat olleet olemassa jo ennen versionvaihtoa.
-* Muutamalle on myös meillä jouduttu lisäämään vendor_manage-oikeus. 
+* Muutamalle on myös meillä jouduttu lisäämään vendor_manage-oikeus.
+
+**Helle**
+* Signum-muutosajo valmistunut 19.3.2026.
+* Versionvaihdon jälkeen Varauksen noutomuistutus -asiakasviesti lähtee myös voimassa olevasta vanhenevasta varauksesta. Tiketti [Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta](https://github.com/KohaSuomi/Koha/issues/2227)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-14) - [Palaa sivun alkuun](/paakayttajat2026)
 
