@@ -36,11 +36,20 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Suljin signum-muutokseen liittyviä tikettejä ja jätin auki lähinnä OUTIn muutokseen liittyvät. Ne tehdään sitten, kun OUTIssa on saatu vietyä päätökseen projektia varten tarvittavat muutokset.
   * Kyytissä ja OUTIssa on tullut käyttäjiltä ilmoituksia, että he ovat saaneet Virhe 500 -ilmoituksen, kun ovat lainanneet toiselle asiakkaalle jo lainassa olevia niteitä ja valinneet valinnan "Muista istunnolle", että lainaesto ohitetaan. Testasimme tätä Pirkko-Liisan kanssa sekä testeillä että tuotannossa superlibraian-oikeuksilla, perusvirkailijaoikeuksilla sekä minimioikeuksisilla tunnuksilla emmekä saaneet toistettua virheilmoitusta. Ehdotin ongelman johtuvan välimuistiongelmasta ja että käyttäjät voisivat tyhjentää selaimen välimuistinsa ja yrittää uudelleen. [Tiketti Koha-25x #254](https://github.com/KohaSuomi/Koha-25x/issues/254)
 * Johanna
-  * Tarratulostustyökalu: Käännösten lisääminen liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana. https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11
-  * Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti: Tähän viety korjaus testeille, vaatii vielä parantelua. https://github.com/KohaSuomi/Koha/issues/2221
-  * Lapille aktivoitu kaukolainamoduulia testeille. https://github.com/KohaSuomi/Koha/issues/2216
-  * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.
-  * Tätissä siivottu Melinda_no_comps-nimisestä OAI-setistä pois osakohteet.    
+  * [Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11)Käännösten lisääminen Tarratulostus-liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana. https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11
+  * [Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti](https://github.com/KohaSuomi/Koha/issues/2221) Tähän viety korjaus testeille, vaatii vielä parantelua.
+  * [Lappi: Testikantaan päälle kaukolainamoduuli](https://github.com/KohaSuomi/Koha/issues/2216)
+    > Lisätty testeille.
+  * [Lappi: Suomi.fi -viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2214)
+      > Vastuutettu: johannaraisa
+  * [Noutohyllyjen tuonti nextiltä testille](https://github.com/KohaSuomi/Koha-25x/issues/252) ja OUTI:lle tyhjennetty noutohyllytaulut.
+  * [OAI-setin siivousskripti](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/19)
+      > Siivous on tehty Tätissä, mutta vaatii vielä tarkastuksen ettei uusia synny.
+  * [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237)
+      > Tiketti avattu
+  * [Vaski: Kulttuurikorttiasiakkaiden haku Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232)
+      > Vastuutettu: johannaraisa
+      > Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety testauksen jälkeen tuotantoon, jotta näkee mikä voisi kyselyn rikkoa.
 * Emmi
   * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
   * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
