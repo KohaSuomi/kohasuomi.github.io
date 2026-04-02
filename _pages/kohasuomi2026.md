@@ -42,9 +42,9 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Vaskille vietu noutohyllyt nexteiltä testeille, https://github.com/KohaSuomi/Koha-25x/issues/252 ja OUTI:lle tyhjennetty noutohyllytaulut.
   * Tätissä siivottu Melinda_no_comps-nimisestä OAI-setistä pois osakohteet.    
 * Emmi
-  * Kirkesiin ajettu cn_sort-kenttien korjaus https://github.com/KohaSuomi/Koha/issues/2024
+  * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
   * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
-  * Laskutustyökaluun lisätty testi-vipu, jolla voi generoida testilaskuja palvelimelle. Laskut generoituvat erilliseen test-hakemistoon ja ne merkitään tietokantaan failed-tilaan. Lisäksi niille tule oma failure_code:nsa. https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/35 
+  * Laskutustyökaluun lisätty testi-vipu, jolla voi generoida testilaskuja palvelimelle. Laskut generoituvat erilliseen test-hakemistoon ja ne merkitään tietokantaan failed-tilaan. Lisäksi niille tule oma failure_code:nsa. [Laskutusliitännäinen: Test-vipu run_finvoices.pl ajoon](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/35) 
 
 ## Viikko 12
 
