@@ -55,7 +55,123 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
 * Emmi
   * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
   * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
-  * Laskutustyökaluun lisätty testi-vipu, jolla voi generoida testilaskuja palvelimelle. Laskut generoituvat erilliseen test-hakemistoon ja ne merkitään tietokantaan failed-tilaan. Lisäksi niille tule oma failure_code:nsa. [Laskutusliitännäinen: Test-vipu run_finvoices.pl ajoon](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/35) 
+  * Laskutustyökaluun lisätty testi-vipu, jolla voi generoida testilaskuja palvelimelle. Laskut generoituvat erilliseen test-hakemistoon ja ne merkitään tietokantaan failed-tilaan. Lisäksi niille tule oma failure_code:nsa. [Laskutusliitännäinen: Test-vipu run_finvoices.pl ajoon](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/35)
+
+* Lari
+
+## Tiketit (kommenttini)
+
+- **KohaSuomi/Koha-25x#192** – 99-sanomien käsittely SIP-palvelimen ohi
+  - Tiketti: https://github.com/KohaSuomi/Koha-25x/issues/192
+  - Kommentti: https://github.com/KohaSuomi/Koha-25x/issues/192#issuecomment-4126292134 (2026-03-25T12:41:26Z)
+      Bibliothecan automaatit eivät toimi uuden toiminnallisuuden kanssa. Ongelma on ilmeisesti checksummien tai sequence numberien kanssa. Automaatit lähettävät toteutuksen kanssa viestin uudelleenvälittämispyyntöä (97):
+      
+      Request ACS Resend
+      This message requests the ACS to re-transmit its last message. It is sent by the SC to the ACS when the
+      checksum in a received message does not match the value calculated by the SC. The ACS should
+      respond by re-transmitting its last message, This message should never include a “sequence number”
+      field, even when error detection is enabled, (see “Checksums and Sequence Numbers” below) but would
+      include a “checksum” field since checksums are in use.
+      97
+      
+      [2026-03-25 14:10:48,646] INFO  ---> 97AZFEF5
+      [2026-03-25 14:10:48,646] INFO  <--- 941AY0AZFDFD
+      [2026-03-25 14:10:54,662] INFO  ---> 97AZFEF5
+      [2026-03-25 14:10:54,663] INFO  <--- 941AY0AZFDFD
+      
+      
+      
+  - Kommentti: https://github.com/KohaSuomi/Koha-25x/issues/192#issuecomment-4126304055 (2026-03-25T12:43:04Z)
+      Toiminnallisuus on poistettu tuotannoista ja sanomat käsitellään sip-palvelimella. Tätä toteutusta ja sen korjausta pitäisi pystyä jotenkin testaamaan Bibliothecan automaatin kanssa.
+
+
+- **KohaSuomi/Koha#2208** – OUTI: Maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration"
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2208
+
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2208#issuecomment-4161967280 (2026-03-31T11:32:10Z)
+      Toimimaton nappi on piilotettu Lainausnäkymästä. Testattavana testeillä.
+
+- **KohaSuomi/Koha#2210** – Hyllyvarausraportille näppäintoiminto pudotusvalikkoihin
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2210
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2210#issuecomment-4143125802 (2026-03-27T14:43:42Z)
+      Tähän löytyi selitys "zero-width space" merkinnöistä datassa joka päätyi taulukkoon, eivätkä kirjaimet/näppäimet siksi täsmänneet toisiaan pudotusvalikkovaihtoehtojen kanssa. Korjaus viety testeille.
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2210#issuecomment-4153737961 (2026-03-30T09:55:09Z)
+      Poistin holds-to-pull-skriptistä "zero-width space"-lisäykset jotta näppäinkomennot tarttuvat suodatusarvoihin ja tein mm. Hyllyssä- ja Noutopaikassa-sarakkeille kustomoidut filtterit. Testatkaa muutkin sarakkeet, että toimivat edelleen täsmällisellä valinnalla. Testattavana testeillä.
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2210#issuecomment-4154339925 (2026-03-30T11:32:53Z)
+      Lisäsin saman kustomoidun filtteröinnin käyttöön näille muillekin sarakkeille, millä on pudotusvalikko ja missä voi olla useampi arvo valittavana. Testattavana testeillä.
+
+- **KohaSuomi/Koha#2223** – Yksityisoikeudellisten maksujen poistoajo ei päällä?
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2223
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2223#issuecomment-4152668945 (2026-03-30T06:47:14Z)
+      Nämä ajot ovat olleet poikki kaikissa kimpoissa versionvaihdosta lähtien johtuen siitä, että ajastetun ajon $NEWTRIG-skripti puuttuu tuotannoista, eikä ajot siksi ole menneet läpi.
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2223#issuecomment-4153951879 (2026-03-30T10:30:51Z)
+      Nyt kaikkin tuotantoihin on korjattu ajastettu ajo. Ajautuu siis ensi yöstä taas päivittäin ja missatut maksutkin tulevat käsiteltyä.
+
+- **KohaSuomi/Koha#2190** – Varauksen noutomuistutusilmoituksille sallittavat viestienvälitystavat
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2190
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2190#issuecomment-4160773143 (2026-03-31T08:16:49Z)
+      Sovittiin kehittäjäpalsussa että siivotaan ei-halutut viestivalinnat pois asiakkailta tietokannasta ennemmin kuin muutetaan skriptin toimintaa (vipu tiettyjen toimitustapojen pakottamiseksi), jotta skripti toimii käyttöliittymässä näkyvien(/piilotettujen) valintojen mukaisesti. Ei maksa mittee.
+
+- **KohaSuomi/Koha#2233** – Maksujen muodostus hidasta versionvaihdon jälkeen
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2233
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2233#issuecomment-4168175381 (2026-04-01T07:40:48Z)
+      Tutkimusteni mukaan accountlines-tauluun on tullut versionvaihdossa uusi sarake old_issue_id ja issues/old_issues-tauluun checkin_library joilla voi olla merkitystä. Reserves-taulussa uutena deleted_biblionumber.
+
+- **KohaSuomi/Koha#2198** – Vaskille käyttöön versiopäivityksen yhteydessä varauksen noutomuistutuksen muutokset
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2198
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2198#issuecomment-4169222458 (2026-04-01T10:53:43Z)
+      Kolmella asiakkaalla on muu kuin NULL tai 1, heillä on 0 days_in_advance-arvona (432421,121798, 127230), saako ylikirjoittaa?
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2198#issuecomment-4169354657 (2026-04-01T11:19:45Z)
+      Ajettu:
+      
+      MariaDB [vaskiprod]>   UPDATE borrower_message_preferences bmp
+          -> SET days_in_advance = 1
+          -> WHERE bmp.message_attribute_id = 10
+          ->   AND EXISTS (
+          ->       SELECT 1
+          ->       FROM borrower_message_transport_preferences bmtp
+          ->       WHERE bmtp.borrower_message_preference_id = bmp.borrower_message_preference_id
+          ->         AND bmtp.message_transport_type = 'email'
+          ->         AND bmp.days_in_advance IS NULL
+          ->   );
+      
+      Query OK, 104000 rows affected (4.459 sec)
+      Rows matched: 104000  Changed: 104000  Warnings: 0
+      
+
+- **KohaSuomi/Koha#2227** – Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2227
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2227#issuecomment-4169532227 (2026-04-01T11:50:44Z)
+      Lisäsin testeille noutomuistutusten luontiskriptiin ehdon, että vain varaukset, joiden tila on W"odottaa" käsitellään.
+      https://github.com/KohaSuomi/Koha-25x/commit/bb3d199fc06dfeb9aa293498546327d525c198e2
+      
+      Muutos viety testeille.
+
+- **KohaSuomi/Koha#1847** – Self service-pluginin repositorion korvaaminen Koha-Suomen versiolla.
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/1847
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/1847#issuecomment-4175978538 (2026-04-02T09:40:00Z)
+      Plugin on poistettu käytöstä.
+
+- **KohaSuomi/Koha#2079** – SIP2-autentikointi lokittuu virheellisesti verkkokirjastossa tapahtuvaksi
+  - Tiketti: https://github.com/KohaSuomi/Koha/issues/2079
+  - Kommentti: https://github.com/KohaSuomi/Koha/issues/2079#issuecomment-4176213764 (2026-04-02T10:24:36Z)
+      Muutos on tuotannoissa.
+
+## Kommitit
+
+- **KohaSuomi/Koha-25x**
+  - `6276f0d` 2026-03-30T09:38:40Z – KOHA-2210 Use custom filter plugin in template for filter typing and exact matches
+    https://github.com/KohaSuomi/Koha-25x/commit/6276f0d34abdb7794a2d9a3d09a21d63600b4468
+  - `8c28b94` 2026-03-30T11:22:50Z – KOHA-2210 Use custom list filter for all dropdown columns
+    https://github.com/KohaSuomi/Koha-25x/commit/8c28b94ab8b883ba97f2b4c7c0050778cc9c19e7
+  - `bb3d199` 2026-03-31T07:40:23Z – Only deal with reserves with waiting status
+    https://github.com/KohaSuomi/Koha-25x/commit/bb3d199fc06dfeb9aa293498546327d525c198e2
+
+- **KohaSuomi/koha-plugin-ceepos-integration**
+  - `fa7053e` 2026-03-31T11:08:25Z – KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
+    https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/fa7053ef54730468ec18f0e17738a2cff95c8dc3
+
+
 
 ## Viikko 12
 
