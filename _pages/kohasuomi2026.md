@@ -59,9 +59,9 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
 
 * Lari
 
-## Tiketit (kommenttini)
+  **Tiketit (kommenttini)**
 
-- **KohaSuomi/Koha-25x#192** – 99-sanomien käsittely SIP-palvelimen ohi
+- *KohaSuomi/Koha-25x#192* – 99-sanomien käsittely SIP-palvelimen ohi
   - Tiketti: https://github.com/KohaSuomi/Koha-25x/issues/192
   - Kommentti: https://github.com/KohaSuomi/Koha-25x/issues/192#issuecomment-4126292134 (2026-03-25T12:41:26Z)
       Bibliothecan automaatit eivät toimi uuden toiminnallisuuden kanssa. Ongelma on ilmeisesti checksummien tai sequence numberien kanssa. Automaatit lähettävät toteutuksen kanssa viestin uudelleenvälittämispyyntöä (97):
@@ -157,7 +157,7 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   - Kommentti: https://github.com/KohaSuomi/Koha/issues/2079#issuecomment-4176213764 (2026-04-02T10:24:36Z)
       Muutos on tuotannoissa.
 
-## Kommitit
+  **Kommitit**
 
 - **KohaSuomi/Koha-25x**
   - `6276f0d` 2026-03-30T09:38:40Z – KOHA-2210 Use custom filter plugin in template for filter typing and exact matches
