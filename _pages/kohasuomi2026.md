@@ -46,7 +46,7 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
       > Vastuutettu: johannaraisa
   * [Noutohyllyjen tuonti nextiltä testille](https://github.com/KohaSuomi/Koha-25x/issues/252) ja OUTI:lle tyhjennetty noutohyllytaulut.
   * [OAI-setin siivousskripti](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/19)
-      > Siivous on tehty Tätissä, mutta vaatii vielä tarkastuksen ettei uusia synny.
+      > Siivous on tehty Tätissä, ja varmistettu ettei uusia enää synny.
   * [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237)
       > Tiketti avattu
   * [Vaski: Kulttuurikorttiasiakkaiden haku Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232)
