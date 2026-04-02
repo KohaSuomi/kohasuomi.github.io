@@ -50,7 +50,7 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237)
       > Tiketti avattu
   * [Vaski: Kulttuurikorttiasiakkaiden haku Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232)
-      > Vastuutettu: johannaraisa
+      > Vastuutettu: johannaraisa.
       > Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety testauksen jälkeen tuotantoon, jotta näkee mikä voisi kyselyn rikkoa.
 * Emmi
   * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
