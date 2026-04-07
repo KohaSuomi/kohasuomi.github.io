@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: Ti 7.4.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Tietuenäyttöjen mukautuksista](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) luotu samantyyppinen "kirjasto" kuin IntranetUserCSS:lle ja IntranetUserJS:lle. Linkki uuteen kirjastoon löytyy Koha-Suomen verkkosivuilta Ohjeet-osiosta [Järjestelmäasetukset-sivulta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/).
@@ -34,6 +34,10 @@ Pohjoisesta etelään
 * Ensi viikolla Kirkes-kirjastojen kaukolainoja hoitavien kesken palaveri kaukolainamoduulin käyttöönotosta.
 * Tuusulan pääkirjastolla yksi lainausautomaatti ei saa yhteyttä Kohaan, kyseessä ilmeisesti verkko-ongelma.
 * Selvitelty sähköpostiviesteihin liittyvää kummallisuutta.
+
+**Siilinjärvi**
+* Signum-muutos ja ylipitkien viivakoodien korjaus on tehty onnistuneesti. Myös versionvaihto sujui melkoisen hyvin.
+* Pääkirjasto siirtyy 1.9. alkaen säästösyistä yhteen vuoroon eli aukioloajat lyhenevät merkittävästi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-15) - [Palaa sivun alkuun](/paakayttajat2026)
 
