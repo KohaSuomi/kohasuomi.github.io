@@ -214,7 +214,25 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   - `fa7053e` 2026-03-31T11:08:25Z – KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
     https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/fa7053ef54730468ec18f0e17738a2cff95c8dc3
 
-
+* Kodo
+  * Koha versiopäivityksen yliheitto + ajot
+    > yliheitto ja ajot ajettu sunnuntain 2026-03-22 – maanantain 2026-03-23 välisenä yönä.
+  * [FacetSortingLocale-järjestelmäasetuksesta puuttuu kielivaihtoehdot](https://github.com/KohaSuomi/Koha-25x/issues/246)
+    > tilanne kuvattu: ongelma ei ilmene testeillä; TäTi ja Siili ok; muissa kimpoissa kielivaihtoehdot näkyvät/puuttuvat vaihtelevasti. Kokeellinen korjaus tehty, mutta tulos laiha.
+  * [Lainaus ja palautus -sivujen sivuvalikossa väärä linkki](https://github.com/KohaSuomi/Koha-25x/issues/249)
+    > linkki korjattu kiireellisenä tuotantoihin; pysyvämpi korjaus tehty ja tulossa buildissa tuotantoon; tiketti jätetty auki odottamaan tuotantoon päätymistä.
+    > Seuraava: varmistus viikkopäivityksen jälkeen, että pysyvä korjaus on tuotannossa, ja tiketin sulku.
+  * [EDItX-plugin - koha-plugin-editx](https://github.com/KohaSuomi/Koha-25x/issues/83)
+    > hankinta tuotti `HANK_`-alkuisia viivakoodeja kimpoissa joissa halutaan automaattigeneroitu viivakoodi, korjaus tehty EDItX-pluginille ja testattu toimivaksi.
+    > commitoitu ja pushattu, ei vaadi muita toimenpiteitä, seuranta mahdollisten uusien havaintojen varalta
+  * [Vanhentuneiden varausten peruuttaminen (crontab)](https://github.com/KohaSuomi/Koha-25x/issues/204)
+    > tilanne todettu tarkistettavaksi ensi viikolla, vanha cronjob deprekoitu ja turha, mutta ei toiminnallista haittaa.
+    > Seuraava: crontab-rivien läpikäynti kimpoittain ja päätös vanhan rivin poistosta / uuden rivin varmistus.
+  * [99-sanomien käsittely SIP-palvelimen ohi](https://github.com/KohaSuomi/Koha-25x/issues/192)
+    > Bibliothecan automaattien yhteensopivuusongelma (97 resend / checksum/sequence -epäily, mahdollinen rivinvaihto/carriage return -ero)
+    > Korjauksen testauksesta sovittu Bibliothecan kanssa.
+    > Seuraava: testaus Bibliothecan automaatilla, jotta korjaus voidaan validoida ennen uudelleenkäyttöönottoa.
+  
 ## Viikko 12
 
 Aika: Ma 16.3.2026<br />
