@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: Ti 7.4.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * [Tietuenäyttöjen mukautuksista](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) luotu samantyyppinen "kirjasto" kuin IntranetUserCSS:lle ja IntranetUserJS:lle. Linkki uuteen kirjastoon löytyy Koha-Suomen verkkosivuilta Ohjeet-osiosta [Järjestelmäasetukset-sivulta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/).
@@ -27,6 +27,8 @@ Pohjoisesta etelään
 * Alettu suunnittelemaan taas kesällä kokonaan kiinni menevien kirjastojen tarvittavia sulkutoimenpiteitä.
 * Asiakaspalvelusta tuli ihmettelyä, miksiköhän asiakkaan muutamille maksuille, jotka oli luotu vuonna 2021 ja 2022 oli maksujen Tapahtumat-välilehdelle maksun Päivitetty-päivämääräkenttään päivittynyt versopäivityksen aloituspäivä 22.3.2026 klo 21.15. 
 
+**Vaara**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-15) - [Palaa sivun alkuun](/paakayttajat2026)
 
