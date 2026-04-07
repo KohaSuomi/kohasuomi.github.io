@@ -56,6 +56,7 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
   * Testeille tehty muutoksia indeksointijonon kokoon ja muutos dokumentoitu
   * Laskutustyökaluun lisätty testi-vipu, jolla voi generoida testilaskuja palvelimelle. Laskut generoituvat erilliseen test-hakemistoon ja ne merkitään tietokantaan failed-tilaan. Lisäksi niille tule oma failure_code:nsa. [Laskutusliitännäinen: Test-vipu run_finvoices.pl ajoon](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/35)
+  * Varaustyökaluun ei pysty tällä hetkellä viemään raportilla kuin alle 50 varausta. Ongelma näyttäisi poistuneen yhteisön versiossa 25.05.05, mutta korjaavaa committia ei ole vielä löytynyt. [Varausten vienti raportilta erämuokkaukseen epäonnistuu isoilla määrillä](https://github.com/KohaSuomi/Koha/issues/1980)
 
 * Lari
 
