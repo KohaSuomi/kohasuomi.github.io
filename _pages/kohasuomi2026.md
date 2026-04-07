@@ -11,6 +11,10 @@ layout: single
 hidden: true
 ---
 
+## Viikko 14
+
+Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
+
 ## Viikko 13
 
 Aika: Ma 30.3.2026<br />
