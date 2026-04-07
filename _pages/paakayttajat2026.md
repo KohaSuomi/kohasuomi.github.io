@@ -14,12 +14,19 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: Ti 7.4.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Tietuenäyttöjen mukautuksista](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) luotu samantyyppinen "kirjasto" kuin IntranetUserCSS:lle ja IntranetUserJS:lle. Linkki uuteen kirjastoon löytyy Koha-Suomen verkkosivuilta Ohjeet-osiosta [Järjestelmäasetukset-sivulta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/).
 
 Pohjoisesta etelään
+
+**OUTI**
+* OUTIssa on tehty päätös, että lasten ja nuorten aineistot erotellaan omille hyllypaikoille. Katsottu vähän aikatauluja ja tavoitteena olisi saada homma hoidettu kesän alkupuolelle mennessä niin, että Pasi voisi ajaa sitten signumien korjausajot ja OUTIssakin otettaisiin käyttöön uusi signum-liitännäinen.
+* OUTIn kellutuspoikkeukset on määritelty nyt floatrules-järjestelmäasetukseen ja saatu toimimaan. Vaati, että kellutusryhmät poistettiin kirjastoilta, joille poikkeukset määriteltiin.
+* Alettu suunnittelemaan taas kesällä kokonaan kiinni menevien kirjastojen tarvittavia sulkutoimenpiteitä.
+* Asiakaspalvelusta tuli ihmettelyä, miksiköhän asiakkaan muutamille maksuille, jotka oli luotu vuonna 2021 ja 2022 oli maksujen Tapahtumat-välilehdelle maksun Päivitetty-päivämääräkenttään päivittynyt versopäivityksen aloituspäivä 22.3.2026 klo 21.15. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-15) - [Palaa sivun alkuun](/paakayttajat2026)
 
