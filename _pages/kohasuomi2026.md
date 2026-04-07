@@ -172,7 +172,43 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   - `fa7053e` 2026-03-31T11:08:25Z – KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
     https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/fa7053ef54730468ec18f0e17738a2cff95c8dc3
 
+* Kodo
+  * [Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236)
+    > testicronjobien perussetti listattu (OUTI-test), `update-holds-to-pull`-kuormariski huomioitu, syspref-ohjaus (**RunTestCronjobs**) toteutettu testiajojen määräaikaiseen päälle/pois-kytkentään.
+  * [Lappi: Omatoimikirjaston käyttökiellon asettaminen asiakkaalle](https://github.com/KohaSuomi/Koha/issues/2239)
+    > estot asetettu.
 
+  * [Lappi: Listaus sip-palvelimelle yhteyden saavista automaateista](https://github.com/KohaSuomi/Koha/issues/2234)
+    > kesken; SIP-palvelimelle väärällä RO-tunnuksella yhteyttä ottavat Lapin automaatit; pyydetty SIP-palvelimelta lista yhteyttä ottavista automaateista rajauksen tekemiseksi.
+    > Seuraava: SIP-lista ulos ja tunnusten/salasanojen tarkistus niille automaateille, jotka ottavat yhteyttä väärällä RO-tunnuksella.
+  * [Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235)
+    > kesken; vanha IPsec-tunneli purettu, uusi liikennöinti kesken; Koha-päähän tarvitaan ceepos-yhteysosoitteen muutos + tarkistuspalaveri + testaus, eteneminen Meita/CPU:n aikataululla.
+    > Seuraava: ceepos-yhteysosoitteen muutos Kohaan + yhteistestaus Meita/CPU:n kanssa (palaveri + testit).
+
+  * [/var/etc/hakemiston siivous](https://github.com/KohaSuomi/Koha-25x/issues/169)
+    > `/var/etc` siivottu; vanhat tiedostot siirretty `/var/etc/koha/old`-hakemistoon; jatkotoimet tunnistettu (sms_send + koha-conf → utility #105–#108); tiketti avattu takaisin kunnes liittyvät tiketit hoidettu.
+    > Seuraava: utility-tikettien #105–#108 läpivienti ja tämän sulkeminen niiden jälkeen.
+
+  * [zebradb-konfigeissa roikkuu viittauksia jaettuun /home/koha/koha-dev:iin](https://github.com/KohaSuomi/koha-suomi-utility/issues/108)
+    > viittaukset siivottu, konffit vaihdettu prod- ja test-roolien kontteihin.
+  * [Vanhat easticsearch-dumpit ja -hakemistot pois](https://github.com/KohaSuomi/koha-suomi-utility/issues/101)
+    > indeksien dumppaus ja synkkaus siirretty versiopäivityksessä Elmalle; vanhat dumpit ja `elasticsearch.ondisk`-hakemistot poistettu / poistettavana tuotannoista ja varmistuksista. (tausta: [Elma tuotantoon](https://github.com/KohaSuomi/koha-suomi-utility/issues/30))
+  * [sms_send driverin siirto /var/koha/etc:stä tarkoituksenmukaisempaan paikkaan](https://github.com/KohaSuomi/koha-suomi-utility/issues/105)
+    > sms_send todettu YAML-konffiksi (ei driveriä) → jätetty etc:iin.
+  * [/home/koha hakemistossa perl5 modulihakemisto](https://github.com/KohaSuomi/koha-suomi-utility/issues/109)
+    > korjaus tehty testeillä; `koha_perl_deps.pl` OK; OAI testaus vielä tekemättä.
+  * [MariaDB systemd service unitin korjaus](https://github.com/KohaSuomi/koha-suomi-utility/issues/70)
+    > todettu, ettei palvelu käynnisty aina automaattisesti.
+
+  * [Vanhat tietokantadumpit pois](https://github.com/KohaSuomi/koha-suomi-utility/issues/104)
+    > kesken; tiered dumppeihin siirtymisen jälkeen vanhat tietokantadumpit poistettava varmistusjärjestelmästä manuaalisesti; poistossa huomioitava säilytysajat (erityisesti LTS).
+    > Seuraava: poistojen ajosuunnitelma (mitä poistetaan/mistä) + toteutus säilytysaikojen puitteissa + kuittaus tikettiin.
+  * [next-roolin konttipohja pitää uusia](https://github.com/KohaSuomi/koha-suomi-utility/issues/110)
+    > kesken; next-roolin konttipohja päivitettävä vastaamaan maaliskuu 2026 -versionvaihdon jälkeisiä tuotantoja ennen seuraavaa versiopäivitystä.
+    > Seuraava: erot tuotanto ↔ next -konttipohja kartoitetaan ja konttipohja päivitetään vastaamaan nykyisiä tuotantoja.
+  * [LimitRequestBody-asetuksen muuttaminen palvelimella](https://github.com/KohaSuomi/koha-suomi-utility/issues/69)
+    > kesken; Apachen `LimitRequestBody` ei rajoittava (apache “unlimited”); rajoite HAProxy/palomuurissa. HAProxyyn suunnitellut `tune.bufsize`/`tune.maxrewrite`-muutokset päätetty jättää tekemättä, koska ongelma muuttui Koha 3/2026 -versiossa ja epäonnistuu myös pienillä määrillä (vika ei todennäköisesti HAProxyssä).
+    > Seuraava: toisto pienellä aineistolla + lokien keruu (Koha + LB/HAProxy) ja rajaus, onko kyse request-koosta vai sovellus-/backend-ongelmasta.
 
 ## Viikko 12
 
