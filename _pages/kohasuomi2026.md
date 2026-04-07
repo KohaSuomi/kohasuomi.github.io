@@ -232,6 +232,9 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
     > Bibliothecan automaattien yhteensopivuusongelma (97 resend / checksum/sequence -epäily, mahdollinen rivinvaihto/carriage return -ero)
     > Korjauksen testauksesta sovittu Bibliothecan kanssa.
     > Seuraava: testaus Bibliothecan automaatilla, jotta korjaus voidaan validoida ennen uudelleenkäyttöönottoa.
+  * Runsaasti erilaisia SIP-tunnusongelmia monissa kimpoissa.
+    > Tunnuksia putoillut kyydistä versiopäivityksessä, korjailtu sitä mukaa kun tulee vastaan.
+    > Seuraava: tarkistettava kaikkien kimppojen sip-konfiguraatioiden oikeellisuus
   
 ## Viikko 12
 
