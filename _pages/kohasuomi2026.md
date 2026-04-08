@@ -242,8 +242,8 @@ linkki korjattu kiireellisenä tuotantoihin; pysyvämpi korjaus tehty ja tulossa
 Seuraavana varmistus viikkopäivityksen jälkeen, että pysyvä korjaus on tuotannossa, ja tiketin sulku.
 * [EDItX-plugin - koha-plugin-editx](https://github.com/KohaSuomi/Koha-25x/issues/83);
 hankinta tuotti `HANK_`-alkuisia viivakoodeja kimpoissa joissa halutaan automaattigeneroitu viivakoodi, korjaus tehty EDItX-pluginille ja testattu toimivaksi.
-Commitoitu ja pushattu, ei vaadi muita toimenpiteitä, seuranta mahdollisten uusien havaintojen varalta
-[Vanhentuneiden varausten peruuttaminen (crontab)](https://github.com/KohaSuomi/Koha-25x/issues/204);
+Commitoitu ja pushattu, ei vaadi muita toimenpiteitä, seuranta mahdollisten uusien havaintojen varalta.
+* [Vanhentuneiden varausten peruuttaminen (crontab)](https://github.com/KohaSuomi/Koha-25x/issues/204);
 tilanne todettu tarkistettavaksi ensi viikolla, vanha cronjob deprekoitu ja turha, mutta ei toiminnallista haittaa.
 Seuraavana crontab-rivien läpikäynti kimpoittain ja päätös vanhan rivin poistosta / uuden rivin varmistus.
 * [99-sanomien käsittely SIP-palvelimen ohi](https://github.com/KohaSuomi/Koha-25x/issues/192);
