@@ -11,17 +11,17 @@ layout: single
 hidden: true
 ---
 
-## Viikko 15
+## Viikko 16
 Aika: Ma 13.4.2026<br />
 Läsnä:
 
-* Viikon 15 päivitys
+* Viikon 16 päivitys
 * Vastuuttomat tiketit
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
-Viikolla 14 tehty:
+Viikolla 15 tehty:
 
-## Viikko 14
+## Viikko 15
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
 
@@ -64,7 +64,7 @@ Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit
     > Seuraava: toisto pienellä aineistolla + lokien keruu (Koha + LB/HAProxy) ja rajaus, onko kyse request-koosta vai sovellus-/backend-ongelmasta.
 
 
-## Viikko 13
+## Viikko 14
 
 Aika: Ma 30.3.2026<br />
 Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
@@ -246,6 +246,10 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
   * Runsaasti erilaisia SIP-tunnusongelmia monissa kimpoissa.
     > Tunnuksia putoillut kyydistä versiopäivityksessä, korjailtu sitä mukaa kun tulee vastaan.
     > Seuraava: tarkistettava kaikkien kimppojen sip-konfiguraatioiden oikeellisuus
+
+## Viikko 13
+
+Versionvaihdon vuoksi normaaliin viikkopalaveri aikaan pidettiin versionvaihdon tilannekatsaus.
   
 ## Viikko 12
 
