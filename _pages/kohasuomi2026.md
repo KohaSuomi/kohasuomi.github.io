@@ -125,53 +125,50 @@ Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety te
   Tiketit
 
   * [Yksityisoikeudellisten maksujen poistoajo ei päällä?](https://github.com/KohaSuomi/Koha/issues/2223) https://github.com/KohaSuomi/Koha/issues/2223
-    Nämä ajot ovat olleet poikki kaikissa kimpoissa versionvaihdosta lähtien johtuen siitä, että ajastetun ajon $NEWTRIG-skripti puuttuu tuotannoista, eikä ajot siksi ole menneet läpi.
+    [30.3.] Nämä ajot ovat olleet poikki kaikissa kimpoissa versionvaihdosta lähtien johtuen siitä, että ajastetun ajon $NEWTRIG-skripti puuttuu tuotannoista, eikä ajot siksi ole menneet läpi.
 
   * [Hyllyvarausraportille näppäintoiminto pudotusvalikkoihin](https://github.com/KohaSuomi/Koha/issues/2210) https://github.com/KohaSuomi/Koha/issues/2210
-    Poistin holds-to-pull-skriptistä "zero-width space"-lisäykset jotta näppäinkomennot tarttuvat suodatusarvoihin ja tein mm. Hyllyssä- ja Noutopaikassa-sarakkeille kustomoidut filtterit. Testatkaa muutkin sarakkeet, että toimivat edelleen täsmällisellä valinnalla. Testattavana testeillä.
+    [30.3.] Poistin holds-to-pull-skriptistä "zero-width space"-lisäykset jotta näppäinkomennot tarttuvat suodatusarvoihin ja tein mm. Hyllyssä- ja Noutopaikassa-sarakkeille kustomoidut filtterit. Testatkaa muutkin sarakkeet, että toimivat edelleen täsmällisellä valinnalla. Testattavana testeillä.
 
   * [Varauksen noutomuistutusilmoituksille sallittavat viestienvälitystavat](https://github.com/KohaSuomi/Koha/issues/2190) https://github.com/KohaSuomi/Koha/issues/2190
-    Sovittiin kehittäjäpalsussa että siivotaan ei-halutut viestivalinnat pois asiakkailta tietokannasta ennemmin kuin muutetaan skriptin toimintaa (vipu tiettyjen toimitustapojen pakottamiseksi), jotta skripti toimii käyttöliittymässä näkyvien(/piilotettujen) valintojen mukaisesti. Ei maksa mittee.
+    [31.3.] Sovittiin kehittäjäpalsussa että siivotaan ei-halutut viestivalinnat pois asiakkailta tietokannasta ennemmin kuin muutetaan skriptin toimintaa (vipu tiettyjen toimitustapojen pakottamiseksi), jotta skripti toimii käyttöliittymässä näkyvien(/piilotettujen) valintojen mukaisesti. Ei maksa mittee.
 
   * [Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin](https://github.com/KohaSuomi/Koha/issues/2231) https://github.com/KohaSuomi/Koha/issues/2231
-    Yhteisössä lisätty kokoelmakoodi: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41206, siinä mallia.
+    [31.3.] Yhteisössä lisätty kokoelmakoodi: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41206, siinä mallia.
 
   * [OUTI: Maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration"](https://github.com/KohaSuomi/Koha/issues/2208) https://github.com/KohaSuomi/Koha/issues/2208
-    Toimimaton nappi on piilotettu Lainausnäkymästä. Testattavana testeillä.
+    [31.3.] Toimimaton nappi on piilotettu Lainausnäkymästä. Testattavana testeillä.
 
   * [Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233) https://github.com/KohaSuomi/Koha/issues/2233
-    Tutkimusteni mukaan accountlines-tauluun on tullut versionvaihdossa uusi sarake old_issue_id ja issues/old_issues-tauluun checkin_library joilla voi olla merkitystä. Reserves-taulussa uutena deleted_biblionumber.
+    [1.4.] Tutkimusteni mukaan accountlines-tauluun on tullut versionvaihdossa uusi sarake old_issue_id ja issues/old_issues-tauluun checkin_library joilla voi olla merkitystä. Reserves-taulussa uutena deleted_biblionumber.
 
   * [Vaskille käyttöön versiopäivityksen yhteydessä varauksen noutomuistutuksen muutokset](https://github.com/KohaSuomi/Koha/issues/2198) https://github.com/KohaSuomi/Koha/issues/2198
-    Kolmella asiakkaalla on muu kuin NULL tai 1, heillä on 0 days_in_advance-arvona (432421,121798, 127230), saako ylikirjoittaa?
+    [1.4.] Ajettu Vaskiin days_in_advance NULL->1
 
   * [Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta](https://github.com/KohaSuomi/Koha/issues/2227) https://github.com/KohaSuomi/Koha/issues/2227
-    Lisäsin testeille noutomuistutusten luontiskriptiin ehdon, että vain varaukset, joiden tila on W"odottaa" käsitellään. https://github.com/KohaSuomi/Koha-25x/commit/bb3d199fc06dfeb9aa293498546327d525c198e2  Muutos viety testeille.
+    [1.4.] Lisäsin testeille noutomuistutusten luontiskriptiin ehdon, että vain varaukset, joiden tila on W"odottaa" käsitellään. https://github.com/KohaSuomi/Koha-25x/commit/bb3d199fc06dfeb9aa293498546327d525c198e2  Muutos viety testeille.
 
   * [Self service-pluginin repositorion korvaaminen Koha-Suomen versiolla.](https://github.com/KohaSuomi/Koha/issues/1847) https://github.com/KohaSuomi/Koha/issues/1847
-    Plugin on poistettu käytöstä.
+    [2.4.] Plugin on poistettu käytöstä.
 
   * [Lumme: uusien maksutyyppien lisäys mitätöintiajoon](https://github.com/KohaSuomi/Koha/issues/2143) https://github.com/KohaSuomi/Koha/issues/2143
-    Maksutyypit on lisätty entisten lisäksi maksujen mitätöintiajoon. Ajautuvat joka päivä, joten huomenna poistuvat kaikki 3v ja sitä vanhemmat, joiden kuuluu poistua.
+    [2.4.] Maksutyypit on lisätty entisten lisäksi maksujen mitätöintiajoon. Ajautuvat joka päivä, joten huomenna poistuvat kaikki 3v ja sitä vanhemmat, joiden kuuluu poistua.
 
   * [SIP2-autentikointi lokittuu virheellisesti verkkokirjastossa tapahtuvaksi](https://github.com/KohaSuomi/Koha/issues/2079) https://github.com/KohaSuomi/Koha/issues/2079
-    Muutos on tuotannoissa.
+    [2.4.] Muutos on tuotannoissa.
 
   * [EDItX Koodiin jääneen debuglokituksen poisto](https://github.com/KohaSuomi/koha-plugin-editx/issues/11) https://github.com/KohaSuomi/koha-plugin-editx/issues/11
-    Tämä muutos koski EDItX-pluginia eikä SIPoHTTP:ta kuten tiketissä virheellisesti mainittiin. Korjaus on paikallaan tuotannoissa ja testeillä (ja nexteillä).
-
-  * [Lappi: Listaus sip-palvelimelle yhteyden saavista automaateista](https://github.com/KohaSuomi/Koha/issues/2234) https://github.com/KohaSuomi/Koha/issues/2234
-    Lähetin @LeenaKinnunen Matrixiin tämän päivän ja viime viikon ajalta lokeilta kerätyt tunnukset, joilta on tullut liikennettä.
+    [2.4.] Tämä muutos koski EDItX-pluginia eikä SIPoHTTP:ta kuten tiketissä virheellisesti mainittiin. Korjaus on paikallaan tuotannoissa ja testeillä (ja nexteillä).
 
   Kommitit
 
   KohaSuomi/Koha-25x
-    * `6276f0d` 2026-03-30T09:38:40Z – KOHA-2210 Use custom filter plugin in template for filter typing and exact matches
-    * `8c28b94` 2026-03-30T11:22:50Z – KOHA-2210 Use custom list filter for all dropdown columns
-    * `bb3d199` 2026-03-31T07:40:23Z – Only deal with reserves with waiting status
+    * `6276f0d` [30.3.] KOHA-2210 Use custom filter plugin in template for filter typing and exact matches
+    * `8c28b94` [30.3.] KOHA-2210 Use custom list filter for all dropdown columns
+    * `bb3d199` [31.3.] Only deal with reserves with waiting status
 
   KohaSuomi/koha-plugin-ceepos-integration
-    * `fa7053e` 2026-03-31T11:08:25Z – KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
+    * `fa7053e` [31.3.] KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
 
 #### Kodo
 * Koha versiopäivityksen yliheitto + ajot;
