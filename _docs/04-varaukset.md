@@ -244,3 +244,54 @@ Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu valtuutet
 ![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen_2.PNG)
 
 Jos valitaan _Peruuta odottava-tila_, siirtyy varaus takaisin jonon ensimmäiseksi ja se jää uudelleen kiinni samalle asiakkaalle, kun teokseen kuuluva nide seuraavan kerran palautetaan.
+
+## 4.3. Noutohyllyt
+
+Kohassa on mahdollista ottaa käyttöön noutohylly-toiminto. Toiminnon käyttöönottaminen vaatii pääkäyttäjäoikeudet, joten mikäli olet kiinnostunut toiminnon käytöstä omassa kirjastossasi, ota ensimmäiseksi yhteyttä kimppasi pääkäyttäjään.
+
+## 4.3.1. Varausten käsitteleminen noudettavaksi
+
+Kun noutohyllyt ovat käytössä, valitaan varaukselle tärppäytyksen yhteydessä noutohylly, johon varaus sijoitetaan. Ideana siis on, että useita varauksia voidaan sijoittaa samaan noutohyllyyn sen sijaan, että niitä järjesteltäisiin asiakkaan varaustunnisteen mukaan.
+
+Noutohyllyihin mahtuva nidemäärä on määritetty asetuksissa ja Koha merkitsee noutohyllyn täydeksi automaattisesti nidemäärän tullessa täyteen. Noutohylly on tarvittaessa mahdollista merkitä täydeksi myös käsin.
+
+Noutohyllyjen ollessa käytössä näytetään varaus pop-upissa noutohyllyyn liittyviä toimintoja:
+
+![](/assets/files/docs/Varaukset/Valitse_noutohylly.png)
+
+* Oletuksena Koha tarjoaa käyttäjälle prioriteettijärjestyksessä ensimmäisenä, vapaana olevaa noutohyllyä. Pudotusvalikosta käyttäjä voi myös valita haluamansa noutohyllyn. Valikosta pystyy hakemaan kirjoittamalla.
+  * Huom! Käyttäjälle näytetään vain ne noutohyllyt, jotka on mahdollista valita kyseiselle varaukselle. Jos kirjastolle on esimerkiksi määritetty omat noutohyllyt työkorttien varauksia tai lautapelejä varten, ei näitä noutohyllyjä näytetä jos varaus on henkilöasiakkaan kirja-varaus.
+  * Koha ei myöskään anna sijoittaa saman tietueen toista nidettä samaan noutohyllyyn. Mikäli noutohyllyssä siis on jo yksi tietueen nide, tarjoaa Koha muita noutohyllyjä tietueen seuraavalle niteelle.
+* Pudotusvalikon vierestä löytyvästä vihreästä painikkeesta, jossa henkilö ja väkänen, käyttäjä voi halutessaan varata noutohyllyn omaan käyttöönsä. Koha muistaa tehdyn valinnan ja tarjoaa käyttäjän varaamaa noutohyllyä niin kauan, kunnes noutohylly täyttyy.
+  * Huom! Jos käyttäjä ei varaa itselleen noutohyllyä, tarjoaa Koha aina seuraavan varauksen kohdalla prioriteettijärjestyksessä ensimmäisenä, vapaana olevaa noutohyllyä.
+* Kun noutohyllyn on varannut itselleen, on painike harmaa ja siinä näkyy henkilö ja ruksi. Sitä uudelleen klikkaamalla noutohylly on mahdollista vapauttaa takaisin muiden käyttöön.
+* Keltaisesta stop-painikkeesta noutohyllyn voi tarvittaessa merkitä täydeksi. Toimintoa voi tarvita esimerkiksi tilanteessa, jossa noutohyllyyn on laitettu poikkeuksellisen monta isokokoista nidettä, eikä hyllyyn mahdukaan asetuksissa määriteltyä nidemäärää.
+
+## 4.3.2. Noutohyllyjen automaattinen lukittuminen ja vapautuminen
+
+Jos noutohylly on päivän päätteeksi jäänyt vajaaksi, lukittuu se automaattisesti seuraavana yönä. Tällä estetään se, ettei samassa noutohyllyssä voi olla eri päivinä tärppäytettyjä varauksia.
+
+Noutohylly vapautuu automaattisesti takaisin käyttöön, kun hyllyssä ei ole enää yhtään varausta.
+
+## 4.3.3. Noutohyllytiedon näkyminen Kohassa ja verkkokirjastossa
+
+Noutohyllytieto näkyy Kohassa seuraavilla näytöillä:
+
+* Palautus
+![](/assets/files/docs/Varaukset/Noutohylly_sarake.png)
+
+* Asiakastietojen Varaukset-välilehti
+![](/assets/files/docs/Varaukset/Asiakkaan_varaukset_noutohylly.png)
+
+* Asiakastietojen Odottavat varaukset -osio
+![](/assets/files/docs/Varaukset/Asiakkaan_odottavat_varaukset_noutohylly.png)
+
+* Tietueen varausjono
+![](/assets/files/docs/Varaukset/Tietueen_varausjono_noutohylly.png)
+
+* Verkkokirjastossa kirjautuneen asiakkaan Varaukset-sivu
+![](/assets/files/docs/Varaukset/Verkkokirjasto_noutohylly.png)
+
+Mikäli kimpassa on lisätty asiakkaan tietoihin kuittipohja, johon tulostuvat asiakkaan noudettavissa olevat varaukset, on kuitille mahdollista tulostaa tiedot varauksista ja niiden noutohyllyistä.
+
+![](/assets/files/docs/Varaukset/Räätälöity_kuitti_noutohylly.png)
