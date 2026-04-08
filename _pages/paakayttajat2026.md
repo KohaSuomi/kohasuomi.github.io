@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: Ti 7.4.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Tietuenäyttöjen mukautuksista](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) luotu samantyyppinen "kirjasto" kuin IntranetUserCSS:lle ja IntranetUserJS:lle. Linkki uuteen kirjastoon löytyy Koha-Suomen verkkosivuilta Ohjeet-osiosta [Järjestelmäasetukset-sivulta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/).
