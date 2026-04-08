@@ -19,13 +19,13 @@ Läsnä:
 * Vastuuttomat tiketit
   * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
-### Viikolla 15 tehty:
+### Viikolla 15 tehty
 
 ## Viikko 15
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
 
-### Viikolla 14 tehty:
+### Viikolla 14 tehty
 
 #### Kodo
 * [Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236);
