@@ -127,8 +127,12 @@ Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety te
   * [Yksityisoikeudellisten maksujen poistoajo ei päällä?](https://github.com/KohaSuomi/Koha/issues/2223) https://github.com/KohaSuomi/Koha/issues/2223
     [30.3.] Nämä ajot ovat olleet poikki kaikissa kimpoissa versionvaihdosta lähtien johtuen siitä, että ajastetun ajon $NEWTRIG-skripti puuttuu tuotannoista, eikä ajot siksi ole menneet läpi.
 
+    [30.3.] Nyt kaikkin tuotantoihin on korjattu ajastettu ajo. Ajautuu siis ensi yöstä taas päivittäin ja missatut maksutkin tulevat käsiteltyä.
+
   * [Hyllyvarausraportille näppäintoiminto pudotusvalikkoihin](https://github.com/KohaSuomi/Koha/issues/2210) https://github.com/KohaSuomi/Koha/issues/2210
-    [30.3.] Poistin holds-to-pull-skriptistä "zero-width space"-lisäykset jotta näppäinkomennot tarttuvat suodatusarvoihin ja tein mm. Hyllyssä- ja Noutopaikassa-sarakkeille kustomoidut filtterit. Testatkaa muutkin sarakkeet, että toimivat edelleen täsmällisellä valinnalla. Testattavana testeillä.
+    [30.3.] Poistin holds-to-pull-skriptistä "zero-width space"-lisäykset jotta näppäinkomennot tarttuvat suodatusarvoihin ja tein mm. Hyllyssä- ja Noutopaikassa-sarakkeille kustomoidut filtterit. Testattavana testeillä.
+
+    [30.3.] Lisäsin saman kustomoidun filtteröinnin käyttöön näille muillekin sarakkeille, millä on pudotusvalikko ja missä voi olla useampi arvo valittavana. Testattavana testeillä.
 
   * [Varauksen noutomuistutusilmoituksille sallittavat viestienvälitystavat](https://github.com/KohaSuomi/Koha/issues/2190) https://github.com/KohaSuomi/Koha/issues/2190
     [31.3.] Sovittiin kehittäjäpalsussa että siivotaan ei-halutut viestivalinnat pois asiakkailta tietokannasta ennemmin kuin muutetaan skriptin toimintaa (vipu tiettyjen toimitustapojen pakottamiseksi), jotta skripti toimii käyttöliittymässä näkyvien(/piilotettujen) valintojen mukaisesti. Ei maksa mittee.
@@ -140,10 +144,12 @@ Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety te
     [1.4.] Tutkimusteni mukaan accountlines-tauluun on tullut versionvaihdossa uusi sarake old_issue_id ja issues/old_issues-tauluun checkin_library joilla voi olla merkitystä. Reserves-taulussa uutena deleted_biblionumber.
 
   * [Vaskille käyttöön versiopäivityksen yhteydessä varauksen noutomuistutuksen muutokset](https://github.com/KohaSuomi/Koha/issues/2198) https://github.com/KohaSuomi/Koha/issues/2198
-    [1.4.] Ajettu Vaskiin days_in_advance NULL->1
+    [1.4.] Ajettu days_in_advance NULL -> 1.
 
   * [Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta](https://github.com/KohaSuomi/Koha/issues/2227) https://github.com/KohaSuomi/Koha/issues/2227
     [1.4.] Lisäsin testeille noutomuistutusten luontiskriptiin ehdon, että vain varaukset, joiden tila on W"odottaa" käsitellään. https://github.com/KohaSuomi/Koha-25x/commit/bb3d199fc06dfeb9aa293498546327d525c198e2  Muutos viety testeille.
+
+    [1.4.] Testaus:  Tee asiakkaalle kaksi varausta, jotka vanhenevat x päivän päästä ja tärppäytä toinen niistä. Varmista, että vanehenemispäivä on edelleen x päivän päästä. Tarkista, että noutomuistutus, joka muodostuu asiakkaalle valittuna ajankohtana sisältää vain tärpänneen varauksen.
 
   * [Self service-pluginin repositorion korvaaminen Koha-Suomen versiolla.](https://github.com/KohaSuomi/Koha/issues/1847) https://github.com/KohaSuomi/Koha/issues/1847
     [2.4.] Plugin on poistettu käytöstä.
@@ -159,12 +165,12 @@ Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety te
 
   Kommitit
 
-  KohaSuomi/Koha-25x
+  * KohaSuomi/Koha-25x
     * `6276f0d` [30.3.] KOHA-2210 Use custom filter plugin in template for filter typing and exact matches
     * `8c28b94` [30.3.] KOHA-2210 Use custom list filter for all dropdown columns
     * `bb3d199` [31.3.] Only deal with reserves with waiting status
 
-  KohaSuomi/koha-plugin-ceepos-integration
+  * KohaSuomi/koha-plugin-ceepos-integration
     * `fa7053e` [31.3.] KOHA-2208 hide paycollect button in circulation.pl that doesn't work with Ceepos
 
 #### Kodo
