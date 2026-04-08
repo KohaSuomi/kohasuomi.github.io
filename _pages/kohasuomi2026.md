@@ -133,9 +133,6 @@ Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety te
   * [Varauksen noutomuistutusilmoituksille sallittavat viestienvälitystavat](https://github.com/KohaSuomi/Koha/issues/2190) https://github.com/KohaSuomi/Koha/issues/2190
     [31.3.] Sovittiin kehittäjäpalsussa että siivotaan ei-halutut viestivalinnat pois asiakkailta tietokannasta ennemmin kuin muutetaan skriptin toimintaa (vipu tiettyjen toimitustapojen pakottamiseksi), jotta skripti toimii käyttöliittymässä näkyvien(/piilotettujen) valintojen mukaisesti. Ei maksa mittee.
 
-  * [Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin](https://github.com/KohaSuomi/Koha/issues/2231) https://github.com/KohaSuomi/Koha/issues/2231
-    [31.3.] Yhteisössä lisätty kokoelmakoodi: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41206, siinä mallia.
-
   * [OUTI: Maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration"](https://github.com/KohaSuomi/Koha/issues/2208) https://github.com/KohaSuomi/Koha/issues/2208
     [31.3.] Toimimaton nappi on piilotettu Lainausnäkymästä. Testattavana testeillä.
 
