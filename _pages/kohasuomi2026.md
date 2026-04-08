@@ -11,7 +11,7 @@ layout: single
 hidden: true
 ---
 
-Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkastetaan Koha-Suomen henkilökunnan toimesta.
+Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
