@@ -11,9 +11,16 @@ layout: single
 hidden: true
 ---
 
+## Viikko 15
+Aika: Ma 13.4.2026<br />
+Läsnä:
+
+Viikolla 14 tehdyt työt:
+
 ## Viikko 14
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
+
 * Kodo
   * [Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236)
     > testicronjobien perussetti listattu (OUTI-test), `update-holds-to-pull`-kuormariski huomioitu, syspref-ohjaus (**RunTestCronjobs**) toteutettu testiajojen määräaikaiseen päälle/pois-kytkentään.
