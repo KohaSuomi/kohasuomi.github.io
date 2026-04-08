@@ -15,9 +15,12 @@ hidden: true
 Aika: Ma 13.4.2026<br />
 Läsnä:
 
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muut asiat
+
 * Viikon 16 päivitys
-* Vastuuttomat tiketit
-  * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Viikolla 15 tehty
 
