@@ -11,6 +11,8 @@ layout: single
 hidden: true
 ---
 
+Muistioiden laadinnassa voidaan hyödyntään huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota.
+
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
 Läsnä:
