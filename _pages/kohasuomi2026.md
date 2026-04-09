@@ -29,6 +29,7 @@ Läsnä:
 #### Emmi
 * [Varausten vienti raportilta erämuokkaukseen epäonnistuu isoilla määrillä](https://github.com/KohaSuomi/Koha/issues/1980)
 Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappaletta varauksia varaustyökaluun. Korjaus tuotu testattavaksi testeille.
+-> Tätä testattiin testeillä ja lopputulema oli, että tilanne on palannut takaisin versionvaihtoa edeltäneeseen tilanteeseen. Eli varauksia voi viedä 200 kappaletta, isommat määrät aiheuttavat joko Bad Gateway tai Request-URI Too Long virheen. Isompien määrien viemisen toimimaan saaminen vaatisi luultavasti isompaa remonttia Kohan datatables-elementtien ja holds endpointin toimintaan.
 * [Vaski: IntranetUserJS päivitys](https://github.com/KohaSuomi/Koha/issues/2245); Päivitys tehty yhdessä Vaskin pääkäyttäjän kanssa.
 * [Lastu: Laskut jääneet lähtemättä](https://github.com/KohaSuomi/Koha/issues/2250); Selvitetty onko laskutusajossa tapahtunut meidän päässämme virhettä. Selvisi, että laskut ovat lähteneet meiltä onnistuneesti, mutta ne ovat jääneet lähtemättä vastaanottavalta palvelimelta eteenpäin. Kehotettu olemaan yhtydessä vastaanottajaan. 
 * [Tilauksen peruutus ei varoita että niteet poistetaan](https://github.com/KohaSuomi/Koha/issues/2050); Yhteisöön viety ehdotus, jossa tilauksen perumisen yhteydessä ilmoitetaan, että tilaukseen liittyvät niteet poistetaan. Tätä ei ole vielä tuotu meille testattavaksi, odotetaan yhteisön kommentteja asiasta.
