@@ -8,6 +8,7 @@ redirect_from:
   - /theme-setup/
 toc: true
 layout: single
+classes: wide
 hidden: true
 ---
 
