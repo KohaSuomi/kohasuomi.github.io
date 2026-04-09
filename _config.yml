@@ -66,6 +66,7 @@ defaults:
       path: '_pages'
       type: pages
     values:
+      classes: wide-content
       layout: splash
       hidden: true
       header:

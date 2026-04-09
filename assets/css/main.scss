@@ -7,8 +7,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom CSS to make content wider while keeping TOC on right - only for splash layout pages */
-.layout--splash {
+/* Custom CSS to make content wider while keeping TOC on right - only for pages with wide-content class */
+.wide-content {
   .page__content {
     max-width: 100%;
   }
