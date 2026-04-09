@@ -7,6 +7,7 @@ permalink: /kohasuomi2026
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
 layout: single
 classes: wide
 hidden: true
