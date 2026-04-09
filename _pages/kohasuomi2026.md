@@ -74,6 +74,61 @@ Seuraavana erot tuotanto ↔ next -konttipohja kartoitetaan ja konttipohja päiv
 kesken, Apachen `LimitRequestBody` ei rajoittava (apache “unlimited”). Myös HAProxyyn suunnitellut `tune.bufsize`/`tune.maxrewrite`-muutokset päätetty jättää tekemättä, koska ongelma muuttui Koha 3/2026 -versiossa ja epäonnistuu myös pienillä määrillä (vika ei todennäköisesti HAProxyssä).
 Seuraavana toisto pienellä aineistolla + lokien keruu (Koha + LB/HAProxy) ja rajaus, onko kyse request-koosta vai sovellus-/backend-ongelmasta.
 
+#### Johanna
+* [Fix subroutine warning](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/625fff6) (ks25)
+* [Merge branch 'ks25' of https://github.com/KohaSuomi/koha-plugin-broadcast-biblios into ks25](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/0b1ad54) (ks25)
+* [Rename script](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/3e8add5) (master)
+* [Fix subroutine warning](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/40ada99) (master)
+* [Revert "Limit 035z from search"](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/736cb20) (ks25)
+* [Revert "Find active record with 035z"](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/a962e9c) (ks25)
+* [Rename script](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/e1ebbf3) (ks25)
+* [Revert "Add system-control-number-cancelled to queryparser"](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/cc83c81) (ks25)
+* [KOHA-2232: Improve parameter input and error logging](https://github.com/KohaSuomi/koha-plugin-report-services/commit/3b36d8f) (ks25)
+* [Rollback for parameter push](https://github.com/KohaSuomi/koha-plugin-report-services/commit/bce6a84) (ks25)
+* [KOHA-2232: Improve parameter input and error logging](https://github.com/KohaSuomi/koha-plugin-report-services/commit/12e2d3b) (master)
+* [Fetch commits across all branches not just default](https://github.com/KohaSuomi/koha-suomi-utility/commit/1cb7d9d) (development, master)
+* [Create just-for-fun and add educational scripts](https://github.com/KohaSuomi/koha-suomi-utility/commit/d0833af) (development, master)
+* [Create github-weekly-summary.pl and README](https://github.com/KohaSuomi/koha-suomi-utility/commit/c6a2a35) (development, master)
+* [Rename format_markdown as format_standard and update README](https://github.com/KohaSuomi/koha-suomi-utility/commit/37ebc86) (development, master)
+* [Rename username variable example for weekly summary](https://github.com/KohaSuomi/koha-suomi-utility/commit/8766a65) (development, master)
+* [Update kohasuomi2026.md with recent changes](https://github.com/KohaSuomi/kohasuomi.github.io/commit/423bde7) (master)
+* [Change text in note](https://github.com/KohaSuomi/kohasuomi.github.io/commit/deac7eb) (master)
+* [Fix punctuation in issue responsibility note](https://github.com/KohaSuomi/kohasuomi.github.io/commit/57b1cea) (master)
+* [Document updates on Koha system issues and fixes](https://github.com/KohaSuomi/kohasuomi.github.io/commit/649c7b1) (master)
+* [Fix formatting](https://github.com/KohaSuomi/kohasuomi.github.io/commit/8f3402a) (master)
+* [Update kohasuomi2026.md with notes](https://github.com/KohaSuomi/kohasuomi.github.io/commit/d927a5d) (master)
+* [Tietueen Varaukset-välilehdellä englannikielisiä termejä ](https://github.com/KohaSuomi/Koha/issues/1492);
+Vastuutettu: johannaraisa.
+Kommentti: Tähän on tägit testeillä, mutta taitaa vaatia kielitiedostojen tekemisen.
+* [Tietuesiirtäjä lisäilee satunnaisesti ylimääräisiä 942c-kenttiä TäTissä](https://github.com/KohaSuomi/Koha/issues/2229);
+Vastuutettu: johannaraisa.
+* [Vaski: Raporttien ajaminen Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232);
+Vastuutettu: johannaraisa.
+Kommentti: Olen parannellut sitä muuttujien ja virheiden käsittelyä, saa ainakin lokittamaan paremmin. Testasin jo testillä, sitä ei oikein pysty muut testaamaan, joten laitan sen tuonne tuotantoon ja katsellaan mitä siellä näkyy.
+Kommentti: Toinen mitä mietin, että voisiko olla niin, että se raportti ei palauta mitään, ei siis ole dataa sille päivälle tarjolla ja antaa virheellisesti 500 virheen.
+* [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237);
+Tiketti avattu.
+* [Rinnakkaisvaraus - Bug 15516 - Allow to place a hold on first available item from a group of titles](https://github.com/KohaSuomi/Koha/issues/2241);
+Vastuutettu: johannaraisa.
+Kommentti: Siirsin tämän tiketin Koha-repoon, ei enää liity versiovaihtoon.
+* [Vaski: "Print slip and confirm" -painike ei toimi kun varauksen palauttaa ensimmäisen kerran](https://github.com/KohaSuomi/Koha-25x/issues/244);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt tuotannossa.
+* [Varauksen palautuksesta kaksi erilaista varausmodaalia](https://github.com/KohaSuomi/Koha-25x/issues/245);
+Vastuutettu: johannaraisa.
+Kommentti: Tässä ei taida olla muuta kuin tuo, että se modaali näkyy englanniksi. Käännösongelmasta taisi olla toinen tiketti, joten voisiko tämän sulkea ja käsitellä asiaa siellä?
+* [Tietuesiirtäjä: Muutokset -popparin kenttien tiedot yhdelle riville](https://github.com/KohaSuomi/Koha-25x/issues/247);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on tuotannossa.
+* [OAI-setin siivousskripti](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/19);
+Vastuutettu: johannaraisa, Anknite-cpu.
+Kommentti: Tämä on ajettu Tätissä, vaatii vielä tarkistamisen ettei uusia synny ennen kuin suljen tiketin.
+* [Oma lokitiedosto raportterirajapintaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/13);
+Tiketti suljettu.
+* [Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);
+Vastuutettu: johannaraisa.
+Kommentti: Käännösten lisääminen liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana.
+
 ## Viikko 14
 
 Aika: Ma 30.3.2026<br />
@@ -105,22 +160,55 @@ Läsnä: Ari, Lari, Johanna, Anneli, Emmi, Pasi, Kodo
 * Kyytissä ja OUTIssa on tullut käyttäjiltä ilmoituksia, että he ovat saaneet Virhe 500 -ilmoituksen, kun ovat lainanneet toiselle asiakkaalle jo lainassa olevia niteitä ja valinneet valinnan "Muista istunnolle", että lainaesto ohitetaan. Testasimme tätä Pirkko-Liisan kanssa sekä testeillä että tuotannossa superlibraian-oikeuksilla, perusvirkailijaoikeuksilla sekä minimioikeuksisilla tunnuksilla emmekä saaneet toistettua virheilmoitusta. Ehdotin ongelman johtuvan välimuistiongelmasta ja että käyttäjät voisivat tyhjentää selaimen välimuistinsa ja yrittää uudelleen. [Tiketti Koha-25x #254](https://github.com/KohaSuomi/Koha-25x/issues/254)
 
 #### Johanna
-* [Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);  
-Käännösten lisääminen Tarratulostus-liitännäiseen rikkoi muokkauksessa virheviestien näkymisen. Samalla parantelin virheviestejä, jotta niistä ymmärtäisi paremmin mikä on vikana.
-* [Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti](https://github.com/KohaSuomi/Koha/issues/2221) 
-Tähän viety korjaus testeille, vaatii vielä parantelua.
-* [Lappi: Testikantaan päälle kaukolainamoduuli](https://github.com/KohaSuomi/Koha/issues/2216);
-Lisätty testeille.
-* [Lappi: Suomi.fi -viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2214);
-Vastuutettu: johannaraisa
-* [Noutohyllyjen tuonti nextiltä testille](https://github.com/KohaSuomi/Koha-25x/issues/252); ja OUTI:lle tyhjennetty noutohyllytaulut.
-* [OAI-setin siivousskripti](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/19);
-Siivous on tehty Tätissä, ja varmistettu ettei uusia enää synny.
-* [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237);
-Tiketti avattu
-* [Vaski: Kulttuurikorttiasiakkaiden haku Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232);
+* [Bug 39140: Add missing pickup library check](https://github.com/KohaSuomi/Koha-25x/commit/3d24e77) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Bug 23269: Add missing translations](https://github.com/KohaSuomi/Koha-25x/commit/d8e8ae4) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-plugin-broadcast-biblios](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/9718c6f) (master)
+* [Fix col class](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/274f68a) (master)
+* [Remove file](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/4c67cde) (master)
+* [KOHA-2221: Fetch messages again when cancelling](https://github.com/KohaSuomi/koha-plugin-print-pdf-notices/commit/8a659dc) (master)
+* [Fix fetching itemnumber for dropdown](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/7975de9) (ks25, master)
+* [Remove console.log](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/a0dca1e) (master)
+* [KPVLT-11: Fix error handling and improve messages](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/1dbbddd) (master)
+* [KPVLT-11: Improve error message](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/6de3a2c) (master)
+* [Add entry for ksdev/ks-0306-bug-40739-transfersblockcirc](https://github.com/KohaSuomi/koha-suomi-utility/commit/1097b4e) (master)
+* [Siili: middle_name eli toinen nimi -kenttien tyhjennys](https://github.com/KohaSuomi/Koha/issues/2177);
+Vastuutettu: johannaraisa, Anknite-cpu.
+Kommentti: Nyt on tehty
+* [Tarratulostuksessa ei saa luokkaa kirjaimella alkavasta signumista](https://github.com/KohaSuomi/Koha/issues/2197);
+Vastuutettu: johannaraisa, Anknite-cpu.
+* [Palautuksessa ei voi palauttaa useita kuljetettavia niteitä peräkkäin](https://github.com/KohaSuomi/Koha/issues/2200);
 Vastuutettu: johannaraisa.
-Paranneltu muuttujien ja virheiden käsittelyä. Testattu testeillä ja viety testauksen jälkeen tuotantoon, jotta näkee mikä voisi kyselyn rikkoa.
+Kommentti: Tämä on nyt testeillä.
+* [OUTI: Maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration"](https://github.com/KohaSuomi/Koha/issues/2208);
+Kommentti: Minkätyyppistä maksua tässä ollaan maksamassa? Vaikuttaa siltä ettei se payment_type ole oikein.
+* [Lappi: Suomi.fi -viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2214);
+Vastuutettu: johannaraisa.
+* [Lappi: Testikantaan päälle kaukolainamoduuli](https://github.com/KohaSuomi/Koha/issues/2216);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on laitettu nämä testille.
+* [Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti](https://github.com/KohaSuomi/Koha/issues/2221);
+Vastuutettu: johannaraisa.
+Kommentti: Testeillä on tähän korjaus, lataa sivu ctrl+F5:llä.
+* [Vaski: "Print slip and confirm" -painike ei toimi kun varauksen palauttaa ensimmäisen kerran](https://github.com/KohaSuomi/Koha-25x/issues/244);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt testeillä testattavana.
+Kommentti: Tähän löysin jo syyn, napin if-lauseesta puuttui kirjastopisteen tarkistus.
+* [Varauksen palautuksesta kaksi erilaista varausmodaalia](https://github.com/KohaSuomi/Koha-25x/issues/245);
+Vastuutettu: johannaraisa.
+Kommentti: Tuolle hold-found-modal-modaalille käännökset tehdään sillä uudella tavalla mitä käytetään myös asiakashakusivulla.
+Kommentti: Vaskissa sekin näyttää olevan nyt englanniksi. Näyttävät laajentavan tuota tapaa tehdä käännöksiä, en tiedä auttaisiko tässä jos käynnistää plackin uudestaan.
+* [Tietuesiirtäjä: Muutokset -popparin kenttien tiedot yhdelle riville](https://github.com/KohaSuomi/Koha-25x/issues/247);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on testeillä, OUTIssa ei näyttänyt olevan tietueita listassa jossa tuo olisi näkynyt. Vaskilla kävin katsomassa ja näytti tälle,
+Kommentti: Olen näköjään tämän jo neljä kuukautta sitten korjannut, mutta enää ei päde edes tuollainen määritelmä.
+* [Noutohyllyjen tuonti nextiltä testille](https://github.com/KohaSuomi/Koha-25x/issues/252);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on Vaskille kopioitu hyllyt nextiltä.
+* [Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+* [Tätin SRU server (z3950_responder.pl) ei käynnistynyt](https://github.com/KohaSuomi/koha-suomi-utility/issues/100);
+Tiketti avattu.
 
 #### Emmi
 * Kirkesiin ajettu cn_sort-kenttien korjaus [Kirkes: tietokannassa virheellisiä cn_sort-kenttiä](https://github.com/KohaSuomi/Koha/issues/2024)
