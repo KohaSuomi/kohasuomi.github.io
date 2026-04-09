@@ -28,7 +28,11 @@ Läsnä:
 
 #### Emmi
 * [Varausten vienti raportilta erämuokkaukseen epäonnistuu isoilla määrillä](https://github.com/KohaSuomi/Koha/issues/1980)
-Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappaletta varauksia varaustyökaluun. Korjaus tuotu testattavaksi testeille. 
+Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappaletta varauksia varaustyökaluun. Korjaus tuotu testattavaksi testeille.
+* [Vaski: IntranetUserJS päivitys](https://github.com/KohaSuomi/Koha/issues/2245); Päivitys tehty yhdessä Vaskin pääkäyttäjän kanssa.
+* [Lastu: Laskut jääneet lähtemättä](https://github.com/KohaSuomi/Koha/issues/2250); Selvitetty onko laskutusajossa tapahtunut meidän päässämme virhettä. Selvisi, että laskut ovat lähteneet meiltä onnistuneesti, mutta ne ovat jääneet lähtemättä vastaanottavalta palvelimelta eteenpäin. Kehotettu olemaan yhtydessä vastaanottajaan. 
+* [Tilauksen peruutus ei varoita että niteet poistetaan](https://github.com/KohaSuomi/Koha/issues/2050); Yhteisöön viety ehdotus, jossa tilauksen perumisen yhteydessä ilmoitetaan, että tilaukseen liittyvät niteet poistetaan. Tätä ei ole vielä tuotu meille testattavaksi, odotetaan yhteisön kommentteja asiasta.
+* Edellisen yhteydessä huomattu, että tilauksen epäonnistunut poisto voi aiheuttaa tuplaid:n items- ja deleteditems-tauluhin. Havainto raportoitu yhteisöön tiketissä [Bug 42303](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42303) - Duplicate itemnumber in items and deleteditems table when order cancel fails
 
 ## Viikko 15
 
