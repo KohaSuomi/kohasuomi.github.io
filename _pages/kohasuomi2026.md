@@ -54,6 +54,9 @@ Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappal
   * [Bug 39142 - Add debug permission to allow user to toggle JS and CSS customizations on/off](https://github.com/KohaSuomi/Bugiton/issues/57) https://github.com/KohaSuomi/Bugiton/issues/57
     [10.4.] Lisätty tuotantoon versionvaihdossa. Yhteisötiketin tila: Pushed to main for 26.05 Needs documenting.
 
+  * AI-työkalujen opiskelua
+  * Vaarassa havaitun raporttiesimerkin toiminnan muutoksen tutkintaa. Pyydetty tekemään pääkäyttäjän kautta tiketti.
+
 #### Kodo
 
 * [Kuukausihuollossa tarvittavat päivitykset kaikille palvelinnodeille ja koha-kontainereihin.](https://github.com/KohaSuomi/Koha/discussions/2240) Huollon jälkeen havaittu DB2 muistikamman vioittuminen, josta syystä kaksi muistikampaa pois käytöstä tilasto/raporttipalvelimella.
