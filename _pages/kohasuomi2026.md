@@ -86,7 +86,7 @@ Seuraavaksi tiketti käytetään asiantuntijaryhmässä, jossa päätetään par
 * [Testien lokirotaation service-check](https://github.com/KohaSuomi/koha-suomi-utility/issues/112);
 poistettu käytöstä ja tiketti suljettu.
 * [Cronjobtriggerit](https://github.com/KohaSuomi/koha-suomi-utility/issues/113);
-Cronjobtriggerien yhdistämisen suunniteltu ja toimita triggerin kanssa jatkossa.
+Cronjobtriggerien yhdistämisen suunnittelu ja toimita triggerin kanssa jatkossa.
 Seuraavaksi triggerien yhdistäminen ja testien TRIGGER-muuttujien päivitys. Samalla korjataan myös utility#103.
 * [Hostkey sähköpostihälyjen poistaminen käytöstä](https://github.com/KohaSuomi/koha-suomi-utility/issues/114);
 hostkey-hälytykset poistettu käytöstä (valtaosin epäajantaisia ja tarpeettomia) ja vanhat hälyt siivottu admin-laatikosta; tiketti suljettu.
