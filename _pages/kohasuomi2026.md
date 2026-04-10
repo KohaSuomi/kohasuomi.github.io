@@ -78,8 +78,7 @@ Seuraavaksi vastuutus ja korjauksen suunnittelu Koha-tietovarannossa.
 * [Niteiden muokkauksessa muokattava rivi ei pysy enää keltaisena tallennuksen jälkeen](https://github.com/KohaSuomi/Koha/issues/2252); siirretty Koha-tietovarantoon (versiopäivitys tehty).
 Seuraavaksi vastuutus ja korjauksen suunnittelu Koha-tietovarannossa.
 * [Kaukolainapyynnöt - asiakkaan nimen piilotus](https://github.com/KohaSuomi/Koha/issues/2255);
-tiputettu “Tehtävä”-status pois ja sovittu käsittely ensi viikon viikkopalaverissa (toteutuksen vastuutus samalla).
-Seuraavaksi sovitaan toteutus ja vastuutus viikkopalaverissa.
+tiputettu “Tehtävä”-status pois. Seuraavaksi sovitaan toteutus ja vastuutus viikkopalaverissa.
 * [Tunnusten automaattihallinnan parannukset](https://github.com/KohaSuomi/koha-suomi-utility/issues/111);
 suunniteltu tietoturvaan liittyviä parannuksia käyttäjätunnusten automaattiseen käsittelyyyn.
 Seuraavaksi tiketti käytetään asiantuntijaryhmässä, jossa päätetään parametroinnista. Sen jälkeen muutoksen toteutus.
