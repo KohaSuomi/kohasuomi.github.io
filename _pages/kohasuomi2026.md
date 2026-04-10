@@ -94,6 +94,11 @@ Seuraavaksi vaihto nexteille ja varmistus ettei /home/koha/koha-dev -riippuvuuks
 * [/home/koha hakemistossa perl5 modulihakemisto](https://github.com/KohaSuomi/koha-suomi-utility/issues/109);
 OAI-testauksessa testeillä virhe `Can't call method "processing_instruction" ... HTTP/OAI/Response.pm line 115`.
 Seuraavaksi virheen syyn selvitys (HTTP::OAI / ympäristö / data) ja korjaus; OAI-uusintatesti.
+* [Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+TäTi-testille yhdistetään testi-Kohien kuvailutietueet yhteen tietokantaan ja jaetaan ne näkyminä kaikkiin testi-installaatioihin (valmistautuminen jaettuun kuvailutietovarantoon).
+Seuraavaksi tietueiden alustava yhdistely ja testaukset testi-kannoissa.
+* [Pseudonymisoinnissa huomioitavaksi etunimettömät asiakastyypit](https://github.com/KohaSuomi/Koha/issues/2157);
+siivottu testeiltä preferred_name -jäämät asiakastyypeiltä `API`, `AUTOM`, `KAUKOLAINA` ja `YHTEISO`.
 
 ## Viikko 15
 
