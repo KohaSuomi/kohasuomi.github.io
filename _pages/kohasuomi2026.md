@@ -65,6 +65,7 @@ ylipitkiä tunnuksia sisältävät niteet siirretty testeillä tauluun `items_ov
 * [Sotuteekin lukituksen poisto](https://github.com/KohaSuomi/Koha/issues/2244); lukitus purettu ja tiketti suljettu.
 * [Tilastoviiveen raportointi](https://github.com/KohaSuomi/Koha/issues/2148); todettu toimivaksi ja tiketti suljettu.
 * [Tietokantadumppien jakaminen](https://github.com/KohaSuomi/Koha/issues/2081); tarkennettu tason 0 dumpin järjestys (dumpataan viimeisenä, palautetaan ensimmäisenä) ja todettu tuotantoon viedyksi ja toimivaksi; tiketti suljettu.
+Seuraavaksi varmistusjärjestelmän ja palautusten dokumentointi, työn alla, mutta tiketöitävä.
 * [Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236); RunTestCronjobs-järjestelmäasetus + testeille mukautetut crontabit otettu käyttöön kaikkien kimppojen testeissä; ohjeistettu käyttö (Local Use → RunTestCronjobs). Järjestelmäasetus on voimassa asettamisesta seuraavaan aamuun klo 9.30 asti. Lisäksi ajokohtaiset aikarajat (mm. update-holds-to-pull ja runEditXimport 7–17, “puolenyön ajot” klo 1 testeillä).
 * [Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233);
 kuvattu syyhypoteesi (uudet joinit/sarakkeet + kuorma puoliltaöin) ja luvattu tuotantotietokantoihin uusi indeksi laskennan nopeuttamiseksi. Paikallisia koodimuutoksia ei tehdä ja verkkokirjaston maksukatkon pidentämistä suositeltu.
