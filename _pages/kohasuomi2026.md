@@ -54,6 +54,47 @@ Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappal
   * [Bug 39142 - Add debug permission to allow user to toggle JS and CSS customizations on/off](https://github.com/KohaSuomi/Bugiton/issues/57) https://github.com/KohaSuomi/Bugiton/issues/57
     [10.4.] Lisätty tuotantoon versionvaihdossa. Yhteisötiketin tila: Pushed to main for 26.05 Needs documenting.
 
+#### Kodo
+
+* [INNODB buffer pool muutos tietokantapalvelimella](https://github.com/KohaSuomi/Koha/issues/2249);
+DB2-tilasto/raporttipalvelimella viallinen muistikampa. INNODB buffer pool muutos tehty ja tiketti jätetty odottaa-tilaan muistikamman vaihtoa varten. Seuraavaksi muistikamman vaihto kuukausihuollossa ja asetuksen palautus.
+* [Muistioiden generointi ja muistioformaatti](https://github.com/KohaSuomi/Koha/issues/2246);
+uuteen muistioformaattiin pyydetty kommentteja pääkäyttäjiltä Matrixissa; lisätty muistio-linkki ja todettu että uusi formaatti käytössä viikosta 14 alkaen. Seuraavaksi kerätään palaute ja vakiinnutetaan formaatti sekä generointiskriptin-ajo.
+* [Yli 20 merkkiset viivakoodit testeillä.](https://github.com/KohaSuomi/Koha/issues/2243);
+ylipitkiä tunnuksia sisältävät niteet siirretty testeillä tauluun `items_overlong_barcodes` (määrät vaihtelevat, Vaskissa reilut 1000).
+* [Sotuteekin lukituksen poisto](https://github.com/KohaSuomi/Koha/issues/2244); lukitus purettu ja tiketti suljettu.
+* [Tilastoviiveen raportointi](https://github.com/KohaSuomi/Koha/issues/2148); todettu toimivaksi ja tiketti suljettu.
+* [Tietokantadumppien jakaminen](https://github.com/KohaSuomi/Koha/issues/2081); tarkennettu tason 0 dumpin järjestys (dumpataan viimeisenä, palautetaan ensimmäisenä) ja todettu tuotantoon viedyksi ja toimivaksi; tiketti suljettu.
+* [Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236); RunTestCronjobs-järjestelmäasetus + testeille mukautetut crontabit otettu käyttöön kaikkien kimppojen testeissä; ohjeistettu käyttö (Local Use → RunTestCronjobs). Järjestelmäasetus on voimassa asettamisesta seuraavaan aamuun klo 9.30 asti. Lisäksi ajokohtaiset aikarajat (mm. update-holds-to-pull ja runEditXimport 7–17, “puolenyön ajot” klo 1 testeillä).
+* [Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233);
+kuvattu syyhypoteesi (uudet joinit/sarakkeet + kuorma puoliltaöin) ja luvattu tuotantotietokantoihin uusi indeksi laskennan nopeuttamiseksi. Paikallisia koodimuutoksia ei tehdä ja verkkokirjaston maksukatkon pidentämistä suositeltu.
+Seuraavaksi indeksin lisäys tuotantoon ja vaikutuksen seuranta (maksujen laskennan kesto / kuorma). Lari avannut tiketin maksujen laskennan koodin tehostamisesta yhteisöön.
+* [Vaski: Raporttien ajaminen Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232);
+esitetty mahdolliseksi syyksi raporttipalvelimen muistiongelma tai muut yölliset “glitchit” (logrotaten jälkeinen starmanin uudelleenkäynnistys). INNODB buffer poolin muutos vakauttanee tilanteen kunnes palvelimen vioittunut muisti on korjattu.
+Seuraavaksi seuranta muistikamman vaihdon jälkeen ja virheiden toistumisen tarkkailu.
+* [Koha antoi virheen 500, kun asiakkaalle koitti lainata toiselle asiakkaalle varatun/laiantun kirjan](https://github.com/KohaSuomi/Koha/issues/2251); siirretty Koha-tietovarantoon.
+Seuraavaksi vastuutus ja korjauksen suunnittelu Koha-tietovarannossa.
+* [Niteiden muokkauksessa muokattava rivi ei pysy enää keltaisena tallennuksen jälkeen](https://github.com/KohaSuomi/Koha/issues/2252); siirretty Koha-tietovarantoon (versiopäivitys tehty).
+Seuraavaksi vastuutus ja korjauksen suunnittelu Koha-tietovarannossa.
+* [Kaukolainapyynnöt - asiakkaan nimen piilotus](https://github.com/KohaSuomi/Koha/issues/2255);
+tiputettu “Tehtävä”-status pois ja sovittu käsittely ensi viikon viikkopalaverissa (toteutuksen vastuutus samalla).
+Seuraavaksi sovitaan toteutus ja vastuutus viikkopalaverissa.
+* [Tunnusten automaattihallinnan parannukset](https://github.com/KohaSuomi/koha-suomi-utility/issues/111);
+suunniteltu tietoturvaan liittyviä parannuksia käyttäjätunnusten automaattiseen käsittelyyyn.
+Seuraavaksi tiketti käytetään asiantuntijaryhmässä, jossa päätetään parametroinnista. Sen jälkeen muutoksen toteutus.
+* [Testien lokirotaation service-check](https://github.com/KohaSuomi/koha-suomi-utility/issues/112);
+poistettu käytöstä ja tiketti suljettu.
+* [Cronjobtriggerit](https://github.com/KohaSuomi/koha-suomi-utility/issues/113);
+Cronjobtriggerien yhdistämisen suunniteltu ja toimita triggerin kanssa jatkossa.
+Seuraavaksi triggerien yhdistäminen ja testien TRIGGER-muuttujien päivitys. Samalla korjataan myös utility#103.
+* [Hostkey sähköpostihälyjen poistaminen käytöstä](https://github.com/KohaSuomi/koha-suomi-utility/issues/114);
+hostkey-hälytykset poistettu käytöstä (valtaosin epäajantaisia ja tarpeettomia) ja vanhat hälyt siivottu admin-laatikosta; tiketti suljettu.
+* [zebradb-konfigeissa roikkuu viittauksia jaettuun /home/koha/koha-dev:iin](https://github.com/KohaSuomi/koha-suomi-utility/issues/108); viittaukset vaihdettava vielä nexteille; linkitetty next-roolin päivitykseen.
+Seuraavaksi vaihto nexteille ja varmistus ettei /home/koha/koha-dev -riippuvuuksia jää.
+* [/home/koha hakemistossa perl5 modulihakemisto](https://github.com/KohaSuomi/koha-suomi-utility/issues/109);
+OAI-testauksessa testeillä virhe `Can't call method "processing_instruction" ... HTTP/OAI/Response.pm line 115`.
+Seuraavaksi virheen syyn selvitys (HTTP::OAI / ympäristö / data) ja korjaus; OAI-uusintatesti.
+
 ## Viikko 15
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
