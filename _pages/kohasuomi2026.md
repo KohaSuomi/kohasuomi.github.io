@@ -35,6 +35,25 @@ Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappal
 * [Tilauksen peruutus ei varoita että niteet poistetaan](https://github.com/KohaSuomi/Koha/issues/2050); Yhteisöön viety ehdotus, jossa tilauksen perumisen yhteydessä ilmoitetaan, että tilaukseen liittyvät niteet poistetaan. Tätä ei ole vielä tuotu meille testattavaksi, odotetaan yhteisön kommentteja asiasta.
 * Edellisen yhteydessä huomattu, että tilauksen epäonnistunut poisto voi aiheuttaa tuplaid:n items- ja deleteditems-tauluhin. Havainto raportoitu yhteisöön tiketissä [Bug 42303](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42303) - Duplicate itemnumber in items and deleteditems table when order cancel fails
 
+#### Lari
+
+  Tiketit
+
+  * [Lappi: Listaus sip-palvelimelle yhteyden saavista automaateista](https://github.com/KohaSuomi/Koha/issues/2234) https://github.com/KohaSuomi/Koha/issues/2234
+    [7.4.] Lähetin @LeenaKinnunen Matrixiin tämän päivän ja viime viikon ajalta lokeilta kerätyt tunnukset, joilta on tullut liikennettä.
+
+  * [99-sanomien käsittely SIP-palvelimen ohi](https://github.com/KohaSuomi/Koha-25x/issues/192) https://github.com/KohaSuomi/Koha-25x/issues/192
+    [8.4.] Rajapinnassa luotujen SIP-vastausten generoimisen jälkeen on nyt lisätty #remove carriage return/line feed from response ennen kuin muuttujat välitetään XML:n muodostajalle. Muutos testeillä testattavana.
+
+  * [Varaukset-sivulle sivutus](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/39) https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/39
+    [9.4.] Koha tukee sivutusta ja api-kyselyjä voi muutenkin optimoida.  esim: GET /api/v1/patrons/123/holds?page=1&per_page=20  vastauksessa Headerinä kokonaismäärä: X-Total-Count: 105 X-Base-Total-Count: 105  Dataa voi myös yhdistellä kyselyjen optimoimiseksi: GET /api/v1/patrons/123/holds?per_page=-1 x-koha-embed: biblio,item,pickup_library. Laitoin Finna-kehittäjälle nämä optimointiehdotukset varausten hakemiseen Kohasta. 
+
+  * [Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233) https://github.com/KohaSuomi/Koha/issues/2233
+    [9.4.] Tiketti yhteisössä: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42297
+
+  * [Bug 39142 - Add debug permission to allow user to toggle JS and CSS customizations on/off](https://github.com/KohaSuomi/Bugiton/issues/57) https://github.com/KohaSuomi/Bugiton/issues/57
+    [10.4.] Lisätty tuotantoon versionvaihdossa. Yhteisötiketin tila: Pushed to main for 26.05 Needs documenting.
+
 ## Viikko 15
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
