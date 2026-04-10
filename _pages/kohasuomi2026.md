@@ -100,6 +100,8 @@ TäTi-testille yhdistetään testi-Kohien kuvailutietueet yhteen tietokantaan ja
 Seuraavaksi tietueiden alustava yhdistely ja testaukset testi-kannoissa.
 * [Pseudonymisoinnissa huomioitavaksi etunimettömät asiakastyypit](https://github.com/KohaSuomi/Koha/issues/2157);
 siivottu testeiltä preferred_name -jäämät asiakastyypeiltä `API`, `AUTOM`, `KAUKOLAINA` ja `YHTEISO`.
+* [EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
+odotetaan edelleen Kirjastopalvelun avaintoimitusta: avain toimitettiin Google Drivessä (vaatii Google-kirjautumisen), pyydetty toimittamaan julkinen avain sähköpostilla.
 
 ## Viikko 15
 
