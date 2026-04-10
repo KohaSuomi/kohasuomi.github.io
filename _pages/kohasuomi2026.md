@@ -56,9 +56,9 @@ Yhteisöstä löytyi korjaus, jolla raporteilta on mahdollista viedä 400 kappal
 
 #### Kodo
 
-* [Kuukausihuollossa tarvittavat päivitykset kaikille palvelinnodeille ja koha-kontainereihin.](https://github.com/KohaSuomi/Koha/discussions/2240). Huollon jälkeen havaittu DB2 muistikamman vioittuminen, josta syystä kaksi muistikampaa pois käytöstä tilasto/raporttipalvelimella.
+* [Kuukausihuollossa tarvittavat päivitykset kaikille palvelinnodeille ja koha-kontainereihin.](https://github.com/KohaSuomi/Koha/discussions/2240) Huollon jälkeen havaittu DB2 muistikamman vioittuminen, josta syystä kaksi muistikampaa pois käytöstä tilasto/raporttipalvelimella.
 * [INNODB buffer pool muutos tietokantapalvelimella](https://github.com/KohaSuomi/Koha/issues/2249);
-INNODB buffer pool muutos DB2:lla vioittuneen muistikamman vuoksi. Tiketti jätetty odottaa-tilaan muistikamman vaihtoa varten ja asetuksen palauttamista. Seuraavaksi muistikamman vaihto kuukausihuollossa ja asetuksen palautus.
+INNODB buffer pool muutos DB2:lla vioittuneen muistikamman vuoksi. Tiketti jätetty odottaa-tilaan muistikamman vaihtoa ja asetuksen palauttamista varten. Seuraavaksi muistikamman vaihto kuukausihuollossa ja asetuksen palautus.
 * [Muistioiden generointi ja muistioformaatti](https://github.com/KohaSuomi/Koha/issues/2246);
 uuteen muistioformaattiin pyydetty kommentteja pääkäyttäjiltä Matrixissa; lisätty muistio-linkki ja todettu että uusi formaatti käytössä viikosta 14 alkaen. Lisätty muistiodokumentin alkuun huomautus että muistioiden laadinnassa voidaan jatkossa hyödyntää tekoälyä. Seuraavaksi kerätään palaute ja vakiinnutetaan formaatti sekä generointiskriptin-ajo.
 * [Yli 20 merkkiset viivakoodit testeillä.](https://github.com/KohaSuomi/Koha/issues/2243);
