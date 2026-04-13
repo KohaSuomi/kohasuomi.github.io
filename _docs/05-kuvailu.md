@@ -919,14 +919,6 @@ Palautetut niteet indeksoidaan eli lisätään hakukoneen muistiin automaattises
 
 ohje tehdään myöhemmin
 
-## 5.6. Kuvailuohjeet
-
-<a href="https://koha-community.org/manual/latest/en/html/cataloging.html" target="_blank">Yhteisön kuvailuohjeet</a>
-
-### 5.6.1. Niteiden tarrat ja niiden tulostaminen
-
-Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#1294-tarratulostusty%C3%B6kalu)
-
 ### 5.5.2. Niteiden tallennusohjeet
 
 <table>
@@ -1118,3 +1110,11 @@ järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset s
 </tr>
 </tbody>
 </table>
+
+## 5.6. Kuvailuohjeet
+
+<a href="https://koha-community.org/manual/latest/en/html/cataloging.html" target="_blank">Yhteisön kuvailuohjeet</a>
+
+### 5.6.1. Niteiden tarrat ja niiden tulostaminen
+
+Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#1294-tarratulostusty%C3%B6kalu)
