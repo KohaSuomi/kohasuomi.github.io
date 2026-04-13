@@ -106,6 +106,42 @@ siivottu testeiltä preferred_name -jäämät asiakastyypeiltä `API`, `AUTOM`, 
 * [EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
 odotetaan edelleen Kirjastopalvelun avaintoimitusta: avain toimitettiin Google Drivessä (vaatii Google-kirjautumisen), pyydetty toimittamaan julkinen avain sähköpostilla.
 
+#### Johanna
+
+* [KPODUE-22: Replace buyer_name with one on the database](https://github.com/KohaSuomi/koha-plugin-overdue-tool/commit/fb81af8) (koha-plugin-overdue-tool - master)
+* [Add week flag and improve the output](https://github.com/KohaSuomi/koha-suomi-utility/commit/8f6ec93) (koha-suomi-utility - development, master)
+* [Update kohasuomi2026.md](https://github.com/KohaSuomi/kohasuomi.github.io/commit/cc0451f) (kohasuomi.github.io - master)
+* [Add custom class to _pages files](https://github.com/KohaSuomi/kohasuomi.github.io/commit/fc7730f) (kohasuomi.github.io - master)
+* [Adjust the css for only _pages files](https://github.com/KohaSuomi/kohasuomi.github.io/commit/e58308e) (kohasuomi.github.io - master)
+* [Add sticky sidebar](https://github.com/KohaSuomi/kohasuomi.github.io/commit/14c42c0) (kohasuomi.github.io - master)
+* [Adjust the width of the page](https://github.com/KohaSuomi/kohasuomi.github.io/commit/54a616e) (kohasuomi.github.io - master)
+* [Add custom css for page width](https://github.com/KohaSuomi/kohasuomi.github.io/commit/c047cb7) (kohasuomi.github.io - master)
+* [Update kohasuomi2026.md](https://github.com/KohaSuomi/kohasuomi.github.io/commit/8de2f8f) (kohasuomi.github.io - master)
+* [Remove single from template](https://github.com/KohaSuomi/kohasuomi.github.io/commit/437d663) (kohasuomi.github.io - master)
+* [KohaSuomi/Koha - Vaski: Raporttien ajaminen Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232);
+Vastuutettu: johannaraisa.
+Kommentti: Kyllä ne Emailerin kutsut näkyy tulevan klo 2 yöllä. Ei tässä voi kuin seurata ja ehkä tuo muistikamman vaihto auttaa asiaa.
+Kommentti: Vaskissa plack on käynnistynyt 8.4. uudestaan klo 0.12, joten en usko sen tuohon vaikuttavan.
+* [KohaSuomi/Koha - Muistioiden generointi ja muistioformaatti](https://github.com/KohaSuomi/Koha/issues/2246);
+Kommentti: Parantelin "github-weekly-summary"-skriptiä, nyt sen pitäisi tehdä nuo oikeassa muodossa kun ajaa note-vivulla. Lisäksi kävin lisäämässä verkkosivulle tyylin joka leventää noiden muistioiden leveyttä. Aika kapea oli tällaisella isolla näytöllä katsella.
+* [KohaSuomi/Koha - Pelkillä place_holds + view_borrower_infos_from_any_libraries -käyttöoikeuksilla ei voi tehdä uusia varauksia](https://github.com/KohaSuomi/Koha/issues/2247);
+Vastuutettu: johannaraisa.
+Kommentti: Puuttuuko käyttäjältä list_borrowers, tuossa etsitään ja listataan asiakkaita, joten se pitäisi olla jos haluaa sellaista tehdä?
+* [KohaSuomi/Koha - Tietueiden siirto Melindaan takkuaa](https://github.com/KohaSuomi/Koha/issues/2256);
+Vastuutettu: johannaraisa.
+Kommentti: Tätä selvitellään Kansalliskirjaston kanssa, vaikuttaa siltä ettei heidän REST käsittele tietueita tarpeeksi nopeasti ja siksi tulee timeout-virhettä.
+* [KohaSuomi/koha-plugin-overdue-tool - Sukunimi erottumaan selvästi etunimistä](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/22);
+Vastuutettu: johannaraisa.
+Kommentti: Varmaan nexteillä yhdistelty sellainen versio mihin on jäänyt tuota koodia. Lisäsin nyt testeille version missä pitäis nuo sukunimet näkyä isolla.
+* [KohaSuomi/koha-plugin-record-manager - Tee käyttöliittymä](https://github.com/KohaSuomi/koha-plugin-record-manager/issues/1);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-record-manager - Käyttöliittymään sivutus](https://github.com/KohaSuomi/koha-plugin-record-manager/issues/2);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-record-manager - Käyttöliittymässä oleva haku toimimaan APIn kautta.](https://github.com/KohaSuomi/koha-plugin-record-manager/issues/3);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+
 ## Viikko 15
 
 Maanantain viikkopalaveria ei pidetty pääsiäisen vuoksi. Vastuuttomat tiketit vastuutetaan ensi viikon palaverissa.
