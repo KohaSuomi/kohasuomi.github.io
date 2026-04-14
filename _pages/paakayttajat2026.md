@@ -13,13 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
 * [Kohan ohje suomeksi päivitys versioon 25.05](https://github.com/KohaSuomi/Koha/issues/2037) - määräaika 29.5.2026
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Palvelupäällikkö Asko Autio siirtymässä muihin tehtäviin 1.5. alkaen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
