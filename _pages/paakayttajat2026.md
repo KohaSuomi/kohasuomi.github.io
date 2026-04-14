@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara),
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
@@ -27,7 +27,12 @@ Etelästä pohjoiseen
 **OUTI**
 * OUTIssa ja Lastussa on ilmennyt, että tietueiden siirto Tietuesiirtäjällä Melindaan ei aina ole onnistunut. Ilmeisesti Melindan REST ei käsittele tietueita tarpeeksi nopeasti ja siksi ehtii tulla timeout. Ongelmaa selvitetään Kansalliskirjaston kanssa. Tiketti: https://github.com/KohaSuomi/Koha/issues/2256
 * Kimpan kunnista on pyydetty listausta Lasten ja nuorten -hyllypaikalla olevien niteiden sijaintipaikkalyhenteistä, joita ovat käyttäneet signumeissa. Sijaintipaikkalyhenteiden perustella pystymme siirtämään suurimman osan niteistä joko Lasten tai Nuorten hyllypaikoille. Kirjastot, joiden niteiden signumeissa on pelkästään Kohan hyllypaikkatieto LN, siirrot ajetaan YKL-lisäluokan mukaan.
-* Pasi on tehnyt myös OUTIssa signum muutoksen testiajon ja tällä hetkellä muutokseen tarttuu 97,5 % OUTIn niteistä. 
+* Pasi on tehnyt myös OUTIssa signum muutoksen testiajon ja tällä hetkellä muutokseen tarttuu 97,5 % OUTIn niteistä.
+
+**Vaara**
+*  Kuvailun ohjeet päivitetty.
+*  Tehty valmisteluita Viinijärven kiinnioloon.
+*  Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
