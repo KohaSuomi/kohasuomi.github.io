@@ -10,10 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 16
+
+Aika: Ti 7.4.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 15
 
-Aika: Ti 7.4.2026 klo 9.15<br />
+Aika: Ti 14.4.2026 klo 9.15<br />
 Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Hanna Hyttinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
