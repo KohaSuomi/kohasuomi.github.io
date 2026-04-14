@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
+* [Kohan ohje suomeksi päivitys versioon 25.05](https://github.com/KohaSuomi/Koha/issues/2037) - määräaika 29.5.2026
 
 Etelästä pohjoiseen
 
