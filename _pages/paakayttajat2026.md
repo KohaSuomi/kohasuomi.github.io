@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 16
 
-Aika: Ti 7.4.2026 klo 9.15<br />
+Aika: Ti 14.4.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 
 ## Viikko 15
 
-Aika: Ti 14.4.2026 klo 9.15<br />
+Aika: Ti 7.4.2026 klo 9.15<br />
 Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Hanna Hyttinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
