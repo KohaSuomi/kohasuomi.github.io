@@ -15,7 +15,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
-Läsnä:
+Läsnä: Ari, Johanna, Anneli, Pasi, Kodo
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
@@ -141,6 +141,11 @@ Vastuutettu: johannaraisa.
 * [KohaSuomi/koha-plugin-record-manager - Käyttöliittymässä oleva haku toimimaan APIn kautta.](https://github.com/KohaSuomi/koha-plugin-record-manager/issues/3);
 Tiketti avattu.
 Vastuutettu: johannaraisa.
+
+#### Pasi
+* Signum-muutoksen valmistelua Outiin, testiajo
+* Tietuenäytön/hakunäytön muokkausasetusten parantelua
+
 
 ## Viikko 15
 
