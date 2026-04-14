@@ -15,6 +15,20 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 4/2026
+
+Aika: Torstai 23.4.2026 klo 13 <br />
+Läsnä:
+
+### 1. Ajankohtaiset
+### 2. Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
+
+Käsiteltäväksi asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
+
+### Käsiteltävät kehitysehdotukset
+### Muut asiat
+### Seuraava kokous
+
 ## Muistio 3/2026
 
 Aika: Torstai 19.3.2026 klo 13<br />
