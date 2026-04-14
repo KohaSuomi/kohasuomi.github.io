@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
 *  Kuvailun ohjeet päivitetty.
 *  Tehty valmisteluita Viinijärven kiinnioloon.
 *  Normaalia ylläpitoa.
+
+**Kirkes**
+* Ei ihmeitä, kaukolainamoduulin käyttöönottoa valmistellaan. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
