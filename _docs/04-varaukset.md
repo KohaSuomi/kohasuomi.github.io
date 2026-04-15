@@ -249,6 +249,8 @@ Jos valitaan _Peruuta odottava-tila_, siirtyy varaus takaisin jonon ensimmäisek
 
 Kohassa on mahdollista ottaa käyttöön noutohylly-toiminto. Toiminnon käyttöönottaminen vaatii pääkäyttäjäoikeudet, joten mikäli olet kiinnostunut toiminnon käytöstä omassa kirjastossasi, ota ensimmäiseksi yhteyttä kimppasi pääkäyttäjään.
 
+Pääkäyttäjille tarkoitettu ohje noutohyllyjen käyttöönotosta löytyy [täältä](https://koha-suomi.fi/dokumentaatio/noutohyllyt/).
+
 ## 4.3.1. Varausten käsitteleminen noudettavaksi
 
 Kun noutohyllyt ovat käytössä, valitaan varaukselle tärppäytyksen yhteydessä noutohylly, johon varaus sijoitetaan. Ideana siis on, että useita varauksia voidaan sijoittaa samaan noutohyllyyn sen sijaan, että niitä järjesteltäisiin asiakkaan varaustunnisteen mukaan.
