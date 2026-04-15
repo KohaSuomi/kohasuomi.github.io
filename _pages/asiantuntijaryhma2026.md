@@ -26,6 +26,15 @@ Läsnä:
 Käsiteltäväksi asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
 
 ### Käsiteltävät kehitysehdotukset
+
+* [Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin #2231](https://github.com/KohaSuomi/Koha/issues/2231)
+* [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille #2237](https://github.com/KohaSuomi/Koha/issues/2237)
+* [cancellation_reason-sarake mukaan varausten vanhenemisajoon #2238](https://github.com/KohaSuomi/Koha/issues/2238)
+* [Automaattisten tilinavausten auditointi + repeat lock -esto #111](https://github.com/KohaSuomi/koha-suomi-utility/issues/111)
+  * Tiketti on yksityisessä tietovarannossa, joten se ei avaudu kaikille.
+
+
+
 ### Muut asiat
 ### Seuraava kokous
 
