@@ -28,7 +28,7 @@ Pohjoisesta etelään
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
@@ -54,14 +54,18 @@ Etelästä pohjoiseen
 * Ei ihmeitä, kaukolainamoduulin käyttöönottoa valmistellaan.
 
 **Helle**
-* Porvoon kirjastojen kellutussäänöt poikkeuksineen määritelty floatrules-asetukseen. Aiemmin käytössä olleet Porvoon kellutusryhmät poistettu käytöstä. 
+* Porvoon kirjastojen kellutussäänöt poikkeuksineen määritelty floatrules-asetukseen. Aiemmin käytössä olleet Porvoon kellutusryhmät poistettu käytöstä.
+
+**Lastu**
+* Weasel Software pitänyt esittelyn Kelluttimesta myös Lahdelle, jäädään pohtimaan hyötyjä investointiin nähden
+* Ahtialan kirjasto menee toukokuun lopussa kiinni ja avaa uudessa Myllypohjan monitoimitalossa elokuussa, valmisteltu sulkua
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 15
 
 Aika: Ti 7.4.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Hanna Hyttinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Emmi Takkinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Hanna Hyttinen (Vaara), Erika Miettinen (Kirkes), Kati SIllgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Tietuenäyttöjen mukautuksista](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) luotu samantyyppinen "kirjasto" kuin IntranetUserCSS:lle ja IntranetUserJS:lle. Linkki uuteen kirjastoon löytyy Koha-Suomen verkkosivuilta Ohjeet-osiosta [Järjestelmäasetukset-sivulta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/).
@@ -85,6 +89,9 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Signum-muutos ja ylipitkien viivakoodien korjaus on tehty onnistuneesti. Myös versionvaihto sujui melkoisen hyvin.
 * Pääkirjasto siirtyy 1.9. alkaen säästösyistä yhteen vuoroon eli aukioloajat lyhenevät merkittävästi.
+
+**Lastu**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-15) - [Palaa sivun alkuun](/paakayttajat2026)
 
