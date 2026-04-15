@@ -18,7 +18,9 @@ Läsnä:
 **Yhteiset**
 * Olisiko jollain kiinnostusta tulla pääkäyttäjien edustajaksi kuvailuryhmään Päivin jäädessä eläkkeelle?
   * Vastuut:
- 
+* Ehdotus: Jos pyydetään laittamaan tiketti suoraan Bugzillaan, niin pitäisikö niistä tehdä tiketti myös Bugiton-tietovarantoon?
+  * Ei mielellään kuitenkaan Koha-tietovarantoon, koska siellä ne häiritsevät meidän omaa kehitystyön seuraamista.
+
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-17) - [Palaa sivun alkuun](/paakayttajat2026)
