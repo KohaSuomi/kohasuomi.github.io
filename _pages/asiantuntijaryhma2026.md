@@ -21,9 +21,16 @@ Aika: Torstai 23.4.2026 klo 13 <br />
 Läsnä:
 
 ### 1. Ajankohtaiset
+
+[KohaCon2026-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) on avautunut. KohaCon pidetään tänä vuonna Saksassa Karlsruhessa.
+
 ### 2. Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
 
 Käsiteltäväksi asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
+
+### 3. Koha-seminaarin ohjelma
+
+Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaa.
 
 ### Käsiteltävät kehitysehdotukset
 
