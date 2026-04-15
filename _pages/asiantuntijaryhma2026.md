@@ -30,9 +30,9 @@ Käsiteltäväksi asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaati
 
 ### 3. Koha-seminaarin ohjelma
 
-Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaa.
+Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaehdotuksia.
 
-### Käsiteltävät kehitysehdotukset
+### 4. Käsiteltävät kehitysehdotukset
 
 * [Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin #2231](https://github.com/KohaSuomi/Koha/issues/2231)
 * [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille #2237](https://github.com/KohaSuomi/Koha/issues/2237)
@@ -41,10 +41,9 @@ Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaa.
   * Tiketti on yksityisessä tietovarannossa, joten se ei avaudu kaikille.
   * Tiketin aihe: Automaattisen käyttäjätunnusten hallinnan tietoturvaparannukset
 
+### 5. Muut asiat
 
-
-### Muut asiat
-### Seuraava kokous
+### 6. Seuraava kokous
 
 ## Muistio 3/2026
 
