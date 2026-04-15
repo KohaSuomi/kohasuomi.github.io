@@ -18,6 +18,7 @@ Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauh
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
 * [Kohan ohje suomeksi päivitys versioon 25.05](https://github.com/KohaSuomi/Koha/issues/2037) - määräaika 29.5.2026
+* [Kuvailukoulutus 1/2026](https://github.com/KohaSuomi/Koha/discussions/2171) ensi viikolla ti 21.4.2026 klo 13
 
 Etelästä pohjoiseen
 
