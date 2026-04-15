@@ -56,6 +56,12 @@ Liitännäisen saa käyttöön Ylläpidossa MARC-kuvailupohjien ylläpidossa. Li
 
 [Kuvaus liitännäisen toiminnasta](https://koha-suomi.fi/dokumentaatio/kuvailu/#5212-nidetyypin-automaattinen-generointi) Kohan ohje suomeksi -ohjeessa.
 
+## Noutohyllyt
+
+Työryhmän tekemät ja miettimät ohjeet noutohylly-ominaisuuden käyttöönottoa varten.
+
+[Noutohyllyjen käyttöönotto-ohje](https://koha-suomi.fi/dokumentaatio/noutohyllyt/)
+
 ## Palautuskehotukset ensisijaisesti sähköpostina
 
 
