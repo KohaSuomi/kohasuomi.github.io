@@ -38,7 +38,7 @@ Etelästä pohjoiseen
 * Ei ihmeitä, kaukolainamoduulin käyttöönottoa valmistellaan.
 
 **Helle**
-* Porvoon kirjastojen kellutussäänöt poikkeuksineen määritelty floatrules-asetuksesen. Aiemmin käytössä olleet Porvoon kellutusryhmät poistettu käytöstä. 
+* Porvoon kirjastojen kellutussäänöt poikkeuksineen määritelty floatrules-asetukseen. Aiemmin käytössä olleet Porvoon kellutusryhmät poistettu käytöstä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
