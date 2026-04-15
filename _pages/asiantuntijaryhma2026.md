@@ -39,6 +39,7 @@ Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaa.
 * [cancellation_reason-sarake mukaan varausten vanhenemisajoon #2238](https://github.com/KohaSuomi/Koha/issues/2238)
 * [Automaattisten tilinavausten auditointi + repeat lock -esto #111](https://github.com/KohaSuomi/koha-suomi-utility/issues/111)
   * Tiketti on yksityisessä tietovarannossa, joten se ei avaudu kaikille.
+  * Tiketin aihe: Automaattisen käyttäjätunnusten hallinnan tietoturvaparannukset
 
 
 
