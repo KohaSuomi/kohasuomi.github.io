@@ -36,6 +36,36 @@ Läsnä:
   * Kokouksessa tuli esille, että TäTistä tietueita poimittaessa Z39.50-haulla "tippuu" toisinaan 942$c-kenttä ja kuvailija joutuu valitsemaan sen uudelleen. Testailin ongelmaa kokouksen jälkeen, enkä ensin saanut toistettua sitä. Lopulta se onnistui siten, että TäTissä olevalla tietueella oli 942$6-kentässä tietoja, mutta ei 942$c-kentässä. Meillä on Tietueiden yhdistämissäännöissä 942-kentälle sääntö "Suojaa poistamiselta", joka ei suojele kenttää tietojen päivittämiseltä toiseksi. Ongelmatapauksissa TäTissä olevat tiedot korvasivat paikalliset tiedot, jolloin se näytti siltä kuin 942$c-kenttä olisi pudonnut. Testailujen perusteella ehdotin Heikkisen Antille, että muuttaisimme yhdistämissäännöksi 942-kentälle ainakin toistaiseksi "Suojaa", jolloin paikalliskannassa oleva tieto säilyy aina, mutta ei synny tupla-942-kenttiä. Kirjasin ongelmasta [tiketin #2261](https://github.com/KohaSuomi/Koha/issues/2261) ja lisäsin sen pääkäyttäjien viikon 17 esityslistalle, koska käytännössä pääkäyttäjien pitää tämä muutos tehdä.
 * Lisäsin aktiivisten branchien listalle pallerot brancheille ksdev/ks-0234-bug-G984-overdue-fines-branchcode ja ksdev/ks-0250-G1642-undelete-records, koska ne on päässyt mukaan versioon 26.05 ja pystymme luopumaan omista versiostamme kyseisissä toiminnoissa.
 
+#### Johanna
+
+* Bug 42395: Fix missing translations on load_patron_holds_table (Bug-42395)
+* Bug 42343: Prevent holds JS error when no holds exist (Bug-42343)
+* squash this (Bug-41869)
+* Bug 41869: Change place_holds permission to /holds POST and PATCH
+* Bug 21004: (follow-up) remove unused modordernotes file (Bug-21004-community)
+* Bug 21004: Use modal to add and edit notes on receiving orders/shipments page
+* Bug 35722: (follow-up) fix parameters on catalogue detail page (Bug-35722)
+* Bug 35722: Create item transfer REST api
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/7c8f9519a8a7365ea50b92686ad0d3281134f8e4) (development)
+* [Add local git changes to the summary](https://github.com/KohaSuomi/koha-suomi-utility/commit/353b76f4215bd65f9e33c971a16f1ca1d848c894) (development)
+* Fix LocalHoldsPriotiyMaxHolds (ks25/ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds, ks25dev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Fix LocalHoldsPriotiyMaxHolds](https://github.com/KohaSuomi/Koha-25x/commit/65115d84b443baf8cef45fa09815367b71ff4ed6) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Remove console.log](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/0d5df12418ad16bc3e677a5314077a15808b5b79) (ks25)
+* [Update tests](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/b53e74a5a9dbbcf9e34158689e83ea5968cf6492) (master)
+* [KohaSuomi/Koha - Varausten priorisointi: LocalHoldsPriority-järjestelmäasetukseen lisäys, että priorisoidaan vain x ensimmäisen varauksen osalta](https://github.com/KohaSuomi/Koha/issues/2028);
+Vastuutettu: johannaraisa.
+Kommentti: Tähän on tuotu korjaus testeile. LocalHoldsPriorityMinItems ja LocalHoldsPriorityHoldsPerItemThreshold rikkoivat käsittelyn, neljä samaan paikkaan vaikuttavaa asetusta saattaa ylikirjoittaa toisensa.
+* [KohaSuomi/Koha - Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233);
+Kommentti: > Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
+Kommentti: Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
+* [KohaSuomi/Koha - Niteiden muokkauksessa muokattava rivi ei pysy enää keltaisena tallennuksen jälkeen](https://github.com/KohaSuomi/Koha/issues/2252);
+Vastuutettu: johannaraisa.
+Kommentti: Tähän on yhteisössä korjaus, https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41170
+Kommentti: Ei ole vielä tuotu 25.05 versioon, pitää kysyä saisiko 25.05 versioonkin.
+* [KohaSuomi/Koha - Luvitetut tekstiviestien lähettäjänimet palvelimelle](https://github.com/KohaSuomi/Koha/issues/2262);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
 Läsnä: Ari, Johanna, Anneli, Pasi, Kodo
