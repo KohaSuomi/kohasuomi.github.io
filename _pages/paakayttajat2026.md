@@ -21,6 +21,7 @@ Läsnä:
 * Ehdotus: Jos pyydetään laittamaan tiketti suoraan Bugzillaan, niin pitäisikö niistä tehdä tiketti myös Bugiton-tietovarantoon?
   * Ei mielellään kuitenkaan Koha-tietovarantoon, koska siellä ne häiritsevät meidän omaa kehitystyön seuraamista.
 * [Muutos 942-kentän yhdistämissääntöön](https://github.com/KohaSuomi/Koha/issues/2261)
+* Johannan tiketti [tekstiviestien lähettäjänimistä](https://github.com/KohaSuomi/Koha/issues/2262) - merkitkää tikettiin, minkälaisen nimen kimppanne on luvittanut.
 
 Pohjoisesta etelään
 
