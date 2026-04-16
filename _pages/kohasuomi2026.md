@@ -13,6 +13,28 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 17
+Aika: Ma 20.4.2026<br />
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muut asiat
+* [Viikon 17 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+
+### Viikolla 16 tehty
+
+#### Anneli
+* Maanantaina oli Kohan ruotsinkielisten tekstien käännöspalaveri, jossa käymme pienellä ryhmällä läpi puuttuvia ruotsinkielisiä käännöksiä.
+* Tiistaina kävimme Heikkisen Antin kanssa läpi 21.4.2026 pidettävän [kuvailukoulutuksen](https://github.com/KohaSuomi/Koha/discussions/2171) materiaalin ja teimme lisäyksiä ja mietimme esimerkkejä koulutusta varten.
+* Loin Vaskin Annille uuden sivupohjan Noutohylly-toiminnon käyttöönotto-ohjeita varten.
+* Hellestä Kati huomasi, että jos tiedonhaun tuloksissa vaihtaa yläreunasta kirjautumiskirjastoa, tehdään haku uudelleen virheellisellä merkistökoodauksella. Esim. Rämö haetaan muodossa 'rÃ¤mÃ¶', jolloin hakutulos on väärä. Testasin tätä sandboxissa versiossa 25.11 ja ongelma toistui myös siellä, joten pyysin Katia tekemään tiketin suoraan yhteisön Bugzillaan.
+* Katsoimme Pasin kanssa Tietuenäyttöjen mukautuksia varten tekoälyn avulla tekemiäni Template Toolkit -koodeja ja sovimme, että Pasi optimoi ne toimimaan paremmin. Sovimme, että testaan muutokset sen jälkeen.
+* Keräsin asiantuntijaryhmän ensi viikon kokousta varten aiheet ja lähetin [alustavan esityslistan](https://koha-suomi.fi/asiantuntijaryhma2026#esityslista-42026) kokouksen osallistujille.
+* Osallistuin keskiviikkona Koha-Suomen kuvailuryhmän kokoukseen, jonka muistio tulee jonkin ajan kuluttua luettavaksi myös Koha-Suomen verkkosivuille [Muistiot-osioon](https://koha-suomi.fi/kuvailuryhma2026).
+  * Kokouksessa tuli esille, että TäTistä tietueita poimittaessa Z39.50-haulla "tippuu" toisinaan 942$c-kenttä ja kuvailija joutuu valitsemaan sen uudelleen. Testailin ongelmaa kokouksen jälkeen, enkä ensin saanut toistettua sitä. Lopulta se onnistui siten, että TäTissä olevalla tietueella oli 942$6-kentässä tietoja, mutta ei 942$c-kentässä. Meillä on Tietueiden yhdistämissäännöissä 942-kentälle sääntö "Suojaa poistamiselta", joka ei suojele kenttää tietojen päivittämiseltä toiseksi. Ongelmatapauksissa TäTissä olevat tiedot korvasivat paikalliset tiedot, jolloin se näytti siltä kuin 942$c-kenttä olisi pudonnut. Testailujen perusteella ehdotin Heikkisen Antille, että muuttaisimme yhdistämissäännöksi 942-kentälle ainakin toistaiseksi "Suojaa", jolloin paikalliskannassa oleva tieto säilyy aina, mutta ei synny tupla-942-kenttiä. Kirjasin ongelmasta [tiketin #2261](https://github.com/KohaSuomi/Koha/issues/2261) ja lisäsin sen pääkäyttäjien viikon 17 esityslistalle, koska käytännössä pääkäyttäjien pitää tämä muutos tehdä.
+
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
 Läsnä: Ari, Johanna, Anneli, Pasi, Kodo
