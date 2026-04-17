@@ -74,6 +74,17 @@ Vastuutettu: johannaraisa.
 * Kirkes: kaukolainamoduulin asetukset koha-conffiin, sekä testille että tuotantoon. https://github.com/KohaSuomi/Koha/issues/2260
 * Perustiedot-näytön "Jatkaa julkaisua" (yms, kentät 78x) linkit. https://github.com/KohaSuomi/Koha/issues/532
 
+#### Kodo
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+Testikantojen bibliografinen data yhdistetty TäTi-testin biblio*\_k-tauluihin. Seuraavaksi temppisarakkeiden poisto, biblio-taulujen korvaus täti-testillä, kimppojen testien biblio-taulujen pudotus + näkymät testeille, testien niteiden, lainojen ja varausten päivittäminen mäppäystaulun perusteella, indeksointi.
+* [Koha#2265 Vaara: Seutukirjaston toimittaja-asiakkuuksien yhdistäminen: fundit/budjetointi ja asiakasnumerot](https://github.com/KohaSuomi/Koha/issues/2265). Joensuun seutukirjastossa halutaan keskittää vastaanotto pääkirjastolle säilyttäen kuitenkin niteiden kotikirjastot. Ajatuksena on vähentää aineistontoimittajakohtaisia asiakkuuksia, jotta tilaukset yhdistyvät samoihin lähetyksiin ja laskuille. Yhtenä vaihtoehtona on, että kuntakohtaisia fundeja hallitaan Joensuun budjetin alla. Kohassa keskeistä on fundnumberin täsmääminen. Aineiston sijoitus määräytyy DeliverToLocation ja DestinationLocation tagien perusteella, joten varmistettava että muutoksen jälkeen EDItX-sanomissa tagit tulevat halutusti. Odottaa jatkotoimenpiteiden selkiytymistä.
+* [Koha#2236 Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236); Huomio vaski-testin fines.pl -ajo kesti n. 10h. Linkitetty maksujen hidastumiseen (#2233) + tuotannon ajoaika tarkistettu, Vaski-tuotannon saman päivän maksuajo on kestänyt 25 minuuttia.
+* [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829); Muistutettu Kirjastopalvelua avaimen toimituksesta uudelleen. Tämä taitaa nyt olla viides kerta kun sieltä yritetään saada avainta.
+* [koha-suomi-utility#115 BSD-nodejen käyttispäivitykset](https://github.com/KohaSuomi/koha-suomi-utility/issues/115);
+Node-ongelma selvitetty; molemmille nodeille käyttispäivitykset, ja Tatu päivitetty FreeBSD 14.4:ään.
+* [koha-suomi-utility#116 Patun RAID-kontrollerin firmware](https://github.com/KohaSuomi/koha-suomi-utility/issues/116);
+Kartoitettu laitteisto/RAID-ohjain ja tarvittava firmware. Ohjeistettu operaattorille firmware-päivitys Lenovon UpdateXpressillä. Kysymyksessä voi myös olla laitevika, jolloin firmware-päivitys ei ratkaise ongelmaa. Siinä tapauksessa täytyy selvittää saadaanko varaosia ja onko korjaus järkevää.
+* [koha-suomi-utility#117 Backup health check on hidastunut tiered backuppeihin siirtymisen jälkeen](https://github.com/KohaSuomi/koha-suomi-utility/issues/117); Datan keräämisen hidastuminen on aiheuttanut nodeille kirjautumiseen huomattavan viiveen. Korjattu lisäämällä välimuistitus. Raportointi rajattu pelkkiin virheisiin. Seurataan ja suljetaan myöhemmin.
 
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
