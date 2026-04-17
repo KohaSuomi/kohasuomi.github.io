@@ -24,6 +24,11 @@ Läsnä:
 * Johannan tiketti [tekstiviestien lähettäjänimistä](https://github.com/KohaSuomi/Koha/issues/2262) - merkitkää tikettiin, minkälaisen nimen kimppanne on luvittanut.
 * [Tiketti #962](https://github.com/KohaSuomi/Koha/issues/962) - toteutuksesta puuttuu vielä toivottu Ikäraja-fasetti. Onko sille vielä tarvetta vai voiko tiketin sulkea?
 * Johanna tehnyt [Github-automaation](https://github.com/KohaSuomi/koha-suomi-utility/issues/118), joka sulkee tiketit, jotka ovat Ratkaisu ehdotettu -tilassa, eikä niissä ole kommenttia yli 30 päivään. Ajetaan maanantaisin.
+* Kirjastolaisia Koha-Suomen ständille kertomaan Kohasta Kirjastopäivien ammattimessuille?
+  * Yhden ihmisen ständivuoro maksimissaan tunti
+  * Ei tarvitse olla koko ajan kirjastolaisia ständillä
+  * Tarkoituksena olisi tarvittaessa kertoa Kohasta ja sen käytöstä käyttäjän kannalta
+  * Mukaan ständille voi ilmoittautua [tällä lomakkeella](https://forms.gle/yYuiJ4QAnkRtk95w6) joko kaikki yhdellä ilmoituksella tai henkilöt itse
 
 Pohjoisesta etelään
 
