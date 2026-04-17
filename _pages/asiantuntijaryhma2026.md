@@ -40,6 +40,8 @@ Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaeh
 * [Automaattisten tilinavausten auditointi + repeat lock -esto #111](https://github.com/KohaSuomi/koha-suomi-utility/issues/111)
   * Tiketti on yksityisessä tietovarannossa, joten se ei avaudu kaikille.
   * Tiketin aihe: Automaattisen käyttäjätunnusten hallinnan tietoturvaparannukset
+* [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä #2130](https://github.com/KohaSuomi/Koha/issues/2130)
+  * Testien perusteella rajotteiden lisäykset lokittuvat, joten yhteisön skriptiä voisi käyttää vanhentuneiden rajotteiden poistamiseen päivittäin. Vahvistetaan vielä päätös.
 
 ### 5. Muut asiat
 
