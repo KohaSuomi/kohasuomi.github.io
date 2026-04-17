@@ -276,13 +276,14 @@ Tämä on kaukolainan noutoilmoitus, jonka saa lähetettyä kaukolainapyynnön t
 
 Otsikko: Kaukolainan noutoilmoitus
 Viestityyppi: email ja suomifi
+Päivitetty 17.4.2026
 
 ```
 Hei [% borrower.firstname %],
 
 Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta.
 
-Kaukolainamaksu: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Kaukolainamaksu: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %] 
 Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
 
 Terveisin
