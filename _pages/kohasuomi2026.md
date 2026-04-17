@@ -66,6 +66,11 @@ Kommentti: Ei ole vielä tuotu 25.05 versioon, pitää kysyä saisiko 25.05 vers
 Tiketti avattu.
 Vastuutettu: johannaraisa.
 
+#### Pasi
+* Kirkes: kaukolainamoduulin asetukset koha-conffiin, sekä testille että tuotantoon. https://github.com/KohaSuomi/Koha/issues/2260
+* Perustiedot-näytön "Jatkaa julkaisua" (yms, kentät 78x) linkit. https://github.com/KohaSuomi/Koha/issues/532
+
+
 ## Viikko 16
 Aika: Ma 13.4.2026<br />
 Läsnä: Ari, Johanna, Anneli, Pasi, Kodo
