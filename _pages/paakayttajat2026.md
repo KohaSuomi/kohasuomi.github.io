@@ -31,7 +31,7 @@ Pohjoisesta etelään
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
@@ -62,6 +62,9 @@ Etelästä pohjoiseen
 **Lastu**
 * Weasel Software pitänyt esittelyn Kelluttimesta myös Lahdelle, jäädään pohtimaan hyötyjä investointiin nähden
 * Ahtialan kirjasto menee toukokuun lopussa kiinni ja avaa uudessa Myllypohjan monitoimitalossa elokuussa, valmisteltu sulkua
+
+**Kyyti**
+* Henkilökunnalta tuli ilmoitus, että kun teoksen niteeseen oleva aktiivinen nidevaraus on ensimmäisenä varausjonossa, näkyy hyllyvarauslistalla aina nidevarauksen noutokirjasto, vaikka nidevarattu nide olisi lainassa/kuljetuksessa/kadonnut jne. Tästä on tehty tiketti: https://github.com/KohaSuomi/Koha/issues/2259
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
