@@ -300,7 +300,7 @@ Otsikko: Kaukolainan noutoilmoitus
 Viestityyppi: sms
 
 ```
-Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta. Kaukolainamaksu: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
+Pyytämäsi kaukolaina [% ill_bib_title %] / [% ill_bib_author %] on noudettavissa [% branch.branchname %]sta. Kaukolainamaksu: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %]. Eräpäivä: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
 ```
 
 #### ILL_PARTNER_REQ
@@ -430,7 +430,7 @@ Hej [% borrower.firstname %]!
 
 Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %].  
 
-Avgift för fjärrlånet: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Avgift för fjärrlånet: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %]
 Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
 
 Med vänlig hälsning,
@@ -446,7 +446,7 @@ Med vänlig hälsning,
 Otsikko: Fjärrlån finns att hämta
 Viestityyppi: sms
 ```
-Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %]. Avgift: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %].Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Mvh [% branch.branchname %]
+Det fjärrlån du har beställt, [% ill_bib_title %] / [% ill_bib_author %], finns nu att hämta på [% branch.branchname %]. Avgift: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %].Förfallodag: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Mvh [% branch.branchname %]
 ```
 
 #### ILL_PARTNER_REQ
@@ -569,7 +569,7 @@ Viestityypppi: email ja suomifi
 Hello [% borrower.firstname %],
 Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is ready for pick-up at [% branch.branchname %]. 
 
-Interlibrary loan fee: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %] 
+Interlibrary loan fee: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %]
 Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]
 
 Best regards, 
@@ -586,7 +586,7 @@ Otsikko: Interlibrary loan ready for pick up
 Viestityyppi: SMS
 
 ```
-Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is ready for pick-up at [% branch.branchname %]. Interlibrary loan fee: [% IF illrequest.price_paid %][% illrequest.price_paid %][% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
+Your interlibrary loan [% ill_bib_title %] / [% ill_bib_author %] is ready for pick-up at [% branch.branchname %]. Interlibrary loan fee: [% IF illrequest.price_paid == 0 OR illrequest.price_paid %] [% illrequest.price_paid %] €[% ELSE %]8 €[% END %]. Due date: [% IF illrequest.notesstaff %][% illrequest.notesstaff %][% ELSE %]-[% END %]. Best regards, [% branch.branchname %]
 ```
 
 #### ILL_PARTNER_REQ
