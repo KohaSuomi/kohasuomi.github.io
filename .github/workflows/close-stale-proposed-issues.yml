@@ -42,6 +42,12 @@ jobs:
           if [ -z "$TOKEN" ]; then
             echo "has_token=false" >> "$GITHUB_OUTPUT"
             echo "::warning::Missing secret KOHASUOMI_PROJECT_TOKEN for this repository; skipping run."
+            {
+              echo "## Close stale proposed-solution issues"
+              echo
+              echo "- Result: skipped"
+              echo "- Reason: missing secret KOHASUOMI_PROJECT_TOKEN in this repository context"
+            } >> "$GITHUB_STEP_SUMMARY"
           else
             echo "has_token=true" >> "$GITHUB_OUTPUT"
           fi
@@ -302,3 +308,14 @@ jobs:
             }
 
             core.info(`Summary: closed=${closedCount}, skipped_inaccessible=${skippedInaccessibleCount}, skipped_conflict=${skippedConflictCount}`);
+
+            await core.summary
+              .addHeading("Close stale proposed-solution issues")
+              .addRaw(`- Dry run: ${dryRun}\n`)
+              .addRaw(`- Allowed repositories: ${allowedRepos.join(", ")}\n`)
+              .addRaw(`- Project items fetched: ${items.length}\n`)
+              .addRaw(`- Matched candidates: ${candidates.length}\n`)
+              .addRaw(`- Closed: ${closedCount}\n`)
+              .addRaw(`- Skipped inaccessible (403/404): ${skippedInaccessibleCount}\n`)
+              .addRaw(`- Skipped conflict (409/422): ${skippedConflictCount}\n`)
+              .write();
