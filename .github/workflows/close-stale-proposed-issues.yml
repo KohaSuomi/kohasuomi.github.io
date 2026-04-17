@@ -21,10 +21,6 @@ on:
         description: Minimum days since last comment
         required: false
         default: "30"
-      allowed_repos:
-        description: Comma-separated public repository names to process
-        required: false
-        default: "Koha,Koha-25x,Bugiton,Finna-kehitysehdotukset"
 
 permissions:
   contents: read
@@ -60,37 +56,19 @@ jobs:
         if: steps.token_check.outputs.has_token == 'true'
         uses: actions/github-script@v7
         env:
-          ALLOWED_REPOS: ${{ vars.KOHASUOMI_ALLOWED_PUBLIC_REPOS }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run || 'true' }}
+          INPUT_OPEN_DAYS: ${{ github.event.inputs.open_days || '30' }}
+          INPUT_COMMENT_IDLE_DAYS: ${{ github.event.inputs.comment_idle_days || '30' }}
         with:
           github-token: ${{ secrets.KOHASUOMI_PROJECT_TOKEN }}
           script: |
             const org = "KohaSuomi";
             const projectTitle = "Tikettien seuranta";
             const wantedStatus = "Ratkaisu ehdotettu";
-            const defaultAllowedRepos = [
-              "Koha",
-              "Koha-25x",
-              "Bugiton",
-              "Finna-kehitysehdotukset"
-            ];
 
-            const inputAllowedRepos = (core.getInput("allowed_repos") || "").trim();
-            const envAllowedRepos = (process.env.ALLOWED_REPOS || "").trim();
-
-            const parseRepoList = (value) => value
-              .split(/[\n,]/)
-              .map((s) => s.trim())
-              .filter(Boolean);
-
-            const allowedRepos = inputAllowedRepos
-              ? parseRepoList(inputAllowedRepos)
-              : (envAllowedRepos ? parseRepoList(envAllowedRepos) : defaultAllowedRepos);
-
-            const allowedRepoSet = new Set(allowedRepos);
-
-            const dryRun = (core.getInput("dry_run") || "false") === "true";
-            const openDays = parseInt(core.getInput("open_days") || "30", 10);
-            const commentIdleDays = parseInt(core.getInput("comment_idle_days") || "30", 10);
+            const dryRun = (process.env.INPUT_DRY_RUN || "true") === "true";
+            const openDays = parseInt(process.env.INPUT_OPEN_DAYS || "30", 10);
+            const commentIdleDays = parseInt(process.env.INPUT_COMMENT_IDLE_DAYS || "30", 10);
 
             if (!Number.isFinite(openDays) || !Number.isFinite(commentIdleDays)) {
               throw new Error("open_days and comment_idle_days must be numbers");
@@ -208,7 +186,6 @@ jobs:
 
             const projectId = await findProjectIdByTitle(org, projectTitle);
             core.info(`Using project ${projectTitle} (${projectId})`);
-            core.info(`Allowed repositories: ${allowedRepos.join(", ")}`);
 
             const items = await getAllProjectItems(projectId);
             core.info(`Fetched ${items.length} project items`);
@@ -226,10 +203,6 @@ jobs:
               }
 
               if (issue.repository.isPrivate) {
-                continue;
-              }
-
-              if (!allowedRepoSet.has(issue.repository.name)) {
                 continue;
               }
 
@@ -312,7 +285,6 @@ jobs:
             await core.summary
               .addHeading("Close stale proposed-solution issues")
               .addRaw(`- Dry run: ${dryRun}\n`)
-              .addRaw(`- Allowed repositories: ${allowedRepos.join(", ")}\n`)
               .addRaw(`- Project items fetched: ${items.length}\n`)
               .addRaw(`- Matched candidates: ${candidates.length}\n`)
               .addRaw(`- Closed: ${closedCount}\n`)
