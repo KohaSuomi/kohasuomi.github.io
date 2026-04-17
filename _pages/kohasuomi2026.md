@@ -28,6 +28,9 @@ Läsnä:
 
 #### Lari
 
+  * Raporttien laadintaa/korjailua Lappiin ja Vaaraan
+  * Lyngsoe-automaatin varauksen perumistoiminnon tutkimista.
+
   Tiketit
 
   * [Bug 39142 - Add debug permission to allow user to toggle JS and CSS customizations on/off](https://github.com/KohaSuomi/Bugiton/issues/57) https://github.com/KohaSuomi/Bugiton/issues/57
