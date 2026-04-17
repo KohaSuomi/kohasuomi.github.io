@@ -22,6 +22,7 @@ Läsnä:
 
 ### Muut asiat
 * [Viikon 17 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+* [KohaCon26-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) auennut
 
 ### Viikolla 16 tehty
 
