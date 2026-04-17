@@ -26,6 +26,39 @@ Läsnä:
 
 ### Viikolla 16 tehty
 
+#### Lari
+
+  Tiketit
+
+  * [Bug 39142 - Add debug permission to allow user to toggle JS and CSS customizations on/off](https://github.com/KohaSuomi/Bugiton/issues/57) https://github.com/KohaSuomi/Bugiton/issues/57
+    [10.4.] Lisätty tuotantoon versionvaihdossa. Yhteisötiketin tila: Pushed to main for 26.05 Needs documenting.
+
+  * [action_logs ja statistics taulujen pudotus seuraavien arkistointiajojen yhteydessä](https://github.com/KohaSuomi/koha-suomi-utility/issues/87) https://github.com/KohaSuomi/koha-suomi-utility/issues/87
+    [15.4.] Action_logs- ja statistics-taulut pudotetaan aina ajon yhteydessä. Käytössä tuotannoissa.
+
+  * [Itsepalvelulainaus: Asiakasnäkymään kirjautuminen ei pysy aktiivisena](https://github.com/KohaSuomi/Koha/issues/1764) https://github.com/KohaSuomi/Koha/issues/1764
+    [15.4.] Suljen tiketin, sillä lisäongelmista ei ole raportoitu. Viimeisin muutos: https://github.com/KohaSuomi/Koha-25x/commit/cbd8a7499cc1a5e58efddae04aa40db28c6783c3 ks-0000-KohaSuomi-global-branchissa.
+
+  * [Varauksen noutomuistutusilmoituksille sallittavat viestienvälitystavat](https://github.com/KohaSuomi/Koha/issues/2190) https://github.com/KohaSuomi/Koha/issues/2190
+    [15.4.]  > [@lmstrand](https://github.com/lmstrand) Kyyti: varauksen noutomuistutuksen tilan selvittelyä: Testille on ajettu "takes_days"-arvo ykköseksi message_attributes-tauluun ja siksi "päivää ennen"-valinta näkyy. Viestiasetusten muutospyynnöt eivät kuulemma ole mennet läpi Kohaan tuotannossa, ennenkuin elementit on piilotettu Finnassa.
+
+  * [Niteiden muokkaus eräajossa: Signum ei muodostu klikatessa kolmea pistettä.](https://github.com/KohaSuomi/Koha/issues/585) https://github.com/KohaSuomi/Koha/issues/585
+
+    [17.4.] Outissa testillä käytetään loc_084a_mainheading_signum_builder.pl-pluginia, eikä siihen ole tehty tiketin 1759 https://github.com/KohaSuomi/Koha/issues/1759 yhteisen uuden signum_builder_ks.pl muutoksia, jonka takia uudet signumbuilderin ominaisuudet eivät toimineet Outissa.
+
+  * [Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi](https://github.com/KohaSuomi/Koha/issues/750) https://github.com/KohaSuomi/Koha/issues/750
+    [16.4.] Sovittiin kehittäjäpalaverissa, että Lappi, Lumme ja Helle ajetaan tuotantoon korjausajot.
+
+    [17.4.] Kaikkiin kimppoihin on suoritettu aineistotyyppien korjausajot.
+    
+  * [SIP-sanoma 15 aiheuttaa AFError with transaction drop_hold: -virheen, kun varausta yrittää peruuttaa (sanomassa 15-)](https://github.com/KohaSuomi/Koha/issues/2264) https://github.com/KohaSuomi/Koha/issues/2264
+    [16.4.] Korjaus lisätty ksdev/ks-0043-K23-15-SIP2-branchiin ja viety testeille. OUTIn SIP-palvelin on käynnistetty uudelleen.
+
+  Kommitit
+
+  * KohaSuomi/Koha-25x
+    * `345bd4e` [16.4.] Bug 39204: Added ability to cancel item-level holds via SIP
+
 #### Anneli
 * Maanantaina oli Kohan ruotsinkielisten tekstien käännöspalaveri, jossa käymme pienellä ryhmällä läpi puuttuvia ruotsinkielisiä käännöksiä.
 * Tiistaina kävimme Heikkisen Antin kanssa läpi 21.4.2026 pidettävän [kuvailukoulutuksen](https://github.com/KohaSuomi/Koha/discussions/2171) materiaalin ja teimme lisäyksiä ja mietimme esimerkkejä koulutusta varten.
