@@ -111,7 +111,6 @@ Tiketti suljettu.
 Vastuutettu: johannaraisa.
 Kommentti: Tähän on tuotu korjaus testeile.  LocalHoldsPriorityMinItems ja LocalHoldsPriorityHoldsPerItemThreshold rikkoivat käsittelyn, neljä samaan paikkaan vaikuttavaa asetusta saattaa ylikirjoittaa toisensa.
 * [KohaSuomi/Koha - Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233);
-Kommentti: > Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
 Kommentti: Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
 * [KohaSuomi/Koha - Niteiden muokkauksessa muokattava rivi ei pysy enää keltaisena tallennuksen jälkeen](https://github.com/KohaSuomi/Koha/issues/2252);
 Vastuutettu: johannaraisa.
