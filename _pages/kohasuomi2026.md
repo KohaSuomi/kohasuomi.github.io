@@ -120,10 +120,6 @@ Kommentti: Ei ole vielä tuotu 25.05 versioon, pitää kysyä saisiko 25.05 vers
 * [KohaSuomi/Koha - Luvitetut tekstiviestien lähettäjänimet palvelimelle](https://github.com/KohaSuomi/Koha/issues/2262);
 Tiketti avattu.
 Vastuutettu: johannaraisa.
-Kommentti: > > > > Vaara: Joensuun kaupunki (Vaara-kirjastot)
-Kommentti: > > >
-Kommentti: > > Vaara: Joensuun kaupunki (Vaara-kirjastot)
-Kommentti: >
 * [KohaSuomi/Koha - Vaski: Varissuon noutohyllyjen siirto tuotantoon 21.4.2026](https://github.com/KohaSuomi/Koha/issues/2266);
 Vastuutettu: johannaraisa.
 * [KohaSuomi/Koha - Tietokannan tietojen siivousautomatiikkaa tietueille](https://github.com/KohaSuomi/Koha/issues/511);
