@@ -109,6 +109,7 @@ Vastuutettu: johannaraisa.
 #### Pasi
 * Kirkes: kaukolainamoduulin asetukset koha-conffiin, sekä testille että tuotantoon. https://github.com/KohaSuomi/Koha/issues/2260
 * Perustiedot-näytön "Jatkaa julkaisua" (yms, kentät 78x) linkit. https://github.com/KohaSuomi/Koha/issues/532
+* Signummuutos, Kirkes: lehtitilausten korjaus. https://github.com/KohaSuomi/Koha/issues/2043
 
 #### Kodo
 * [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
