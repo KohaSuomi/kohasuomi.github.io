@@ -24,6 +24,7 @@ Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
 * Päivystysvuorot viikosta 18 alkaen
 * [Viikon 17 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
 * [KohaCon26-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) auennut
+* Tietoturvaharjoitus 20.4.2026
 
 ### Viikolla 16 tehty
 
