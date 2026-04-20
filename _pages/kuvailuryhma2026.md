@@ -9,6 +9,77 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 4/2026 ##
+
+Aika: 15.4.2026 klo 13.15–14.40
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi)
+
+Poissa: Päivi Knuutinen (Vaara)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerivuorossa Tarja Mäkinen.
+
+#### 2.	Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa ####
+<ul>
+  <li><a href="https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa" target="_blank">Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa </a> </li>
+  <li>Hyvin tehdyt suositukset, ei herättänyt juurikaan keskustelua. </li>
+</ul>
+
+#### 3.	Versionpäivitys ####
+<ul>
+  <li>Meni pääsääntöisesti hyvin.</li>
+  <li>Havaittuja ongelmia: </li>
+  <ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2229" target="_blank">Tietuesiirtäjä lisäilee satunnaisesti ylimääräisiä 942c-kenttiä TäTissä </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2212" target="_blank">Perustiedot-näytöllä ja hakutuloksissa näkyy tuplapilkku e-osakenttien välissä </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2209" target="_blank">Järjestelmäasetus: AddbiblioHostFrameworkToComponentFramework </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2269" target="_blank">MARC-virheraporttien linkit antavat "Error 404" OUTIssa ja TäTissä </a> </li>
+  <li>Edelleen osa teksteistä näkyy Kohassa englanniksi, asia ei korjaantunut päivityksessä. </li>
+  </ul>
+</ul>
+
+#### 4.	Kuulumisia Koha-Suomi-Melinda-tilannepalaverista 11.3. ####
+<ul>
+  <li>TäTi-putki </li>
+  <ul>
+  <li>Katselmoinnit ovat taas alkaneet. Osakohteellisia tietueita ei oteta mukaan. </li>
+  <li>Arviolta noin 4000 uutta tietuetta, noin 700 tietuetta jää transformeriin virheellisinä ja 37 000 tietuetta saa updaten (lähinnä TATI-low-tag ja SID-kenttään TäTin tietuenumero ja BTJ:n kontrollinumero), vanhimmat tietueet vuodelta 2016. </li>
+  <li>Jos Melindassa on tuplatietue, ohjelma tekee valistuneen arvauksen siitä, kumpaan tietueeseen yhdistää. Tämä näyttäisi toimivan yllättävänkin hyvin. </li>
+  <li>Katselmoinnin huomioita tähän mennessä: </li>
+    <ul>
+  <li>Yhdistettäessä kuvailukieli vaihtuu swe-> fin (tieteellisten kirjastojen alun perin kuvailemia) </li>
+  <li>Osassa Melinda-tietueista Ruotsissa käytettävä kssb-luokitus mukana 084-kentässä (yleensä ensimmäinen toistuma) -> Kysytään Siskulta, voisiko sen poistaa. </li>
+   </ul>
+  </ul>
+  <li>Kati-tietokanta: Tietueiden yhdistämisessä olisi mahdollista käyttää apuna Melindan Match-toimintoa eli verrataan tietueita Melinda-tietueeseen ja jos täsmää, otetaan Melinda-tietue. Jos Melindassa on kaksi tietuetta, pitäisi osata yhdistää siihen parempaan tietueeseen. </li>
+</ul>
+
+#### 5.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2218" target="_blank">800-kenttä perustiedot-näytöllä </a> -> Tämä on Annelilla työn alla. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2253" target="_blank">Jaetun kuvailutietovarannon muodostaminen testeille </a> </li> 
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2030" target="_blank">942c-kenttä ei päivity, kun pohjaa vaihtaa </a> -> Kysytään vielä Lumpeesta, miten usein näitä tulee vastaan. Kannattaako tehdä kehitysehdotus tästä? Yksi samankaltainen tiketti jo hylättiin, koska kyseessä on sen verran satunnainen ongelma. </li>
+  <li>Edellä mainittuun kenttään liittyvä ongelma: kun TäTistä tekee Z39.50/SRU-haun, aineistotyyppi häviää 942c-kentästä paikalliskannassa. Melindasta tuotaessa ei ole tätä ongelmaa. Tehdään tiketti tästä: <a href="https://github.com/KohaSuomi/Koha/issues/2261" target="_blank">942$c-kentän tieto "putoaa" toisinaan tietueita tuotaessa Z39.50-haulla TäTistä </a> </li>
+</ul>
+
+#### 6.	Muita asioita ####
+<ul>
+  <li>Kuvailuryhmään tarvittaisiin Päivi Knuutisen tilalle pääkäyttäjä. Anneli lupasi ottaa asian puheeksi seuraavassa pääkäyttäjien kokouksessa. </li>
+  <li>Paikalliskantojen tietueet, joissa loppupiste- tai kaksoispistevirheitä 264-kentissä – onko kukaan ehtinyt tarkastella? -> Vaskissa, Kyytissä ja OUTIssa tutkittu asiaa – virheitä vähemmän kuin TäTissä. </li>
+  <li>Kuvailustandardiryhmän muistiosta 1.4.2026: Esineet: Kumea tekee MARC-pohjaisen minimiohjeen esineiden kirjastokuvailua varten ja konsultoi Siskua esineiden tyypittelyyn liittyen (genre-, aihe yms. sisällönkuvailuasiat). </li>
+  <li>Kuvailukoulutus 1/2026 tiistaina 21.4.2026 klo 13.00–14.30, aiheena Kuvailutietueiden muokkaus eräajona, muokkauspohjien teko. Linkki koulutukseen löytyy <a href="https://github.com/KohaSuomi/Koha/discussions/2171" target="_blank">tiedotesivulta</a>. </li>
+  <li>TäTi-postin siivous seuraavaan kokoukseen mennessä, poistetaan siis vanhat postit. </li>
+</ul>
+
+#### 7.	Seuraava kokous keskiviikkona 20.5. klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 3/2026 ##
 
 Aika: 10.3.2026 klo 13.15–13.47
