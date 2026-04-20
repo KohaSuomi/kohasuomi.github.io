@@ -21,6 +21,7 @@ Läsnä:
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muut asiat
+* Päivystysvuorot viikosta 18 alkaen
 * [Viikon 17 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
 * [KohaCon26-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) auennut
 
