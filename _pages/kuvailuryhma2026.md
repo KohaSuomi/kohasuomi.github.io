@@ -38,7 +38,7 @@ Sihteerivuorossa Tarja Mäkinen.
   <li><a href="https://github.com/KohaSuomi/Koha/issues/2212" target="_blank">Perustiedot-näytöllä ja hakutuloksissa näkyy tuplapilkku e-osakenttien välissä </a> </li>
   <li><a href="https://github.com/KohaSuomi/Koha/issues/2209" target="_blank">Järjestelmäasetus: AddbiblioHostFrameworkToComponentFramework </a> </li>
   <li><a href="https://github.com/KohaSuomi/Koha/issues/2269" target="_blank">MARC-virheraporttien linkit antavat "Error 404" OUTIssa ja TäTissä </a> </li>
-  <li>Edelleen osa teksteistä näkyy Kohassa englanniksi, asia ei korjaantunut päivityksessä. </li>
+  <li>Edelleen osa teksteistä näkyy Kohassa englanniksi. Asia ei korjaantunut päivityksessä. </li>
   </ul>
 </ul>
 
@@ -46,6 +46,7 @@ Sihteerivuorossa Tarja Mäkinen.
 <ul>
   <li>TäTi-putki </li>
   <ul>
+  <li>Toiminto, jossa Kirjastopalvelun tietueet siirretään/linkitetään automaattisesti erätuonnilla Melindaan.</li>
   <li>Katselmoinnit ovat taas alkaneet. Osakohteellisia tietueita ei oteta mukaan. </li>
   <li>Arviolta noin 4000 uutta tietuetta, noin 700 tietuetta jää transformeriin virheellisinä ja 37 000 tietuetta saa updaten (lähinnä TATI-low-tag ja SID-kenttään TäTin tietuenumero ja BTJ:n kontrollinumero), vanhimmat tietueet vuodelta 2016. </li>
   <li>Jos Melindassa on tuplatietue, ohjelma tekee valistuneen arvauksen siitä, kumpaan tietueeseen yhdistää. Tämä näyttäisi toimivan yllättävänkin hyvin. </li>
