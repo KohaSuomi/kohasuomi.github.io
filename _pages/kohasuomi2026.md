@@ -15,7 +15,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
-Läsnä:
+Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
