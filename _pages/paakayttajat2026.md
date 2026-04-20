@@ -15,6 +15,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 Aika: Ti 21.4.2026 klo 9.15<br />
 Läsnä:
 
+**Ihania eläkepäiviä Päiville!**
+<img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
+Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />kehityksen eteen! Nauti ansaituista eläkepäivistä mukavien asioiden äärellä!
+
 **Yhteiset**
 * Olisiko jollain kiinnostusta tulla pääkäyttäjien edustajaksi kuvailuryhmään Päivin jäädessä eläkkeelle?
   * Vastuut:
