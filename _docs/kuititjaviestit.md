@@ -996,7 +996,7 @@ Din reserveringskod: <<borrower-attribute:HOLDID>>. Du kommer väl ihåg att hä
 Jos osa kirjastoista käyttää noutohyllyjä, on yhteiseen kuittipohjaan mahdollista määritellä seuraavan Template Toolkit -koodin avulla, että ensisijaisesti tulostetaan noutohylly ja jos sitä ei ole, asiakkaan varaustunniste:
 
 ```
-[% IF hold.hold_pickup_shelf_id %]<<hold_pickup_shelf>>[% ELSE %]<<borrower-attribute:HOLDID>>[% END %]
+[% IF hold.hold_pickup_shelf_id %]Hylly [% hold.hold_pickup_shelf.shelf_name %][% ELSE %]Varaustunniste: <<borrower-attribute:HOLDID>>[% END %]
 ```
 
 ### Välilyönnin lisääminen numeromuotoisiin varaustunnuksiin 
