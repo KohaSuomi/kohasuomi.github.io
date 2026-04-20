@@ -2,13 +2,13 @@ name: Close stale proposed-solution issues
 
 on:
   schedule:
-    - cron: "17 4 * * 1"
+    - cron: "0 3 * * 1"
   workflow_dispatch:
     inputs:
       dry_run:
         description: Only report matching issues, do not close
         required: false
-        default: "true"
+        default: "false"
         type: choice
         options:
           - "false"
@@ -288,6 +288,6 @@ jobs:
               .addRaw(`- Project items fetched: ${items.length}\n`)
               .addRaw(`- Matched candidates: ${candidates.length}\n`)
               .addRaw(`- Closed: ${closedCount}\n`)
-              .addRaw(`- Skipped inaccessible (403/404): ${skippedInaccessibleCount}\n`)
-              .addRaw(`- Skipped conflict (409/422): ${skippedConflictCount}\n`)
+              .addRaw(`- Skipped inaccessible (403/404 status): ${skippedInaccessibleCount}\n`)
+              .addRaw(`- Skipped conflict (409/422 status): ${skippedConflictCount}\n`)
               .write();
