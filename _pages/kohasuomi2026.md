@@ -111,6 +111,7 @@ Vastuutettu: johannaraisa.
 * Perustiedot-näytön "Jatkaa julkaisua" (yms, kentät 78x) linkit. https://github.com/KohaSuomi/Koha/issues/532
 * Signummuutos, Kirkes: lehtitilausten korjaus. https://github.com/KohaSuomi/Koha/issues/2043
 * Signummuutos, Lumme: korjausajon kehittelyä. https://github.com/KohaSuomi/Koha/issues/2201
+* Välilehtien nimet englanniksi:  https://github.com/KohaSuomi/Koha/issues/1965
 
 #### Kodo
 * [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
