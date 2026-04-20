@@ -80,23 +80,36 @@ Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
 
 #### Johanna
 
+* [Merge branch 'master' of https://github.com/KohaSuomi/kohasuomi.github.io](https://github.com/KohaSuomi/kohasuomi.github.io/commit/66c676bc8c80bc30a5188e3dd6f6c133102f8438) (master)
+* [Merge branch 'master' of https://github.com/KohaSuomi/kohasuomi.github.io](https://github.com/KohaSuomi/kohasuomi.github.io/commit/b79c8134682a5a2f8a5e041667cb2548042e67e8) (master)
+* [Change cron schedule](https://github.com/KohaSuomi/kohasuomi.github.io/commit/d9da41e1432c05b1ec277615858b487615731660) (master)
+* [Fix dry run and remove allowed branches](https://github.com/KohaSuomi/kohasuomi.github.io/commit/944f820b49038207af8dbcf0015809bb8140e35b) (master)
+* [Add better logging](https://github.com/KohaSuomi/kohasuomi.github.io/commit/32f1028cf69578113e54ab26244155afd0a0a5c2) (master)
+* [Add gh workflow](https://github.com/KohaSuomi/kohasuomi.github.io/commit/94611b28ddd98701053466fc1b8d38a572dcd81d) (master)
+* [Fix missing token issue](https://github.com/KohaSuomi/koha-suomi-utility/commit/c9a62d8a91f7a06af5beccde6e82ac5625412522) (master)
+* [Add configurable repos to workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/89b0a184d026f6aa67ee9ea19613cfc5c7c78481) (master)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commit/f1a44d5d82ea1a7a6eded1ac759bcd1613f2fd3b) (master)
+* [Add Github Action workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/be5e73dd6561f4fefd5fd47f870e278c556875cc) (development, master)
 * Bug 42395: Fix missing translations on load_patron_holds_table (Bug-42395)
 * Bug 42343: Prevent holds JS error when no holds exist (Bug-42343)
+* [Update week 16 summary](https://github.com/KohaSuomi/kohasuomi.github.io/commit/e768f3b59ce5a17a6a6ae90a9936efd01b4068b1) (master)
 * squash this (Bug-41869)
 * Bug 41869: Change place_holds permission to /holds POST and PATCH
 * Bug 21004: (follow-up) remove unused modordernotes file (Bug-21004-community)
 * Bug 21004: Use modal to add and edit notes on receiving orders/shipments page
 * Bug 35722: (follow-up) fix parameters on catalogue detail page (Bug-35722)
 * Bug 35722: Create item transfer REST api
-* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/7c8f9519a8a7365ea50b92686ad0d3281134f8e4) (development)
-* [Add local git changes to the summary](https://github.com/KohaSuomi/koha-suomi-utility/commit/353b76f4215bd65f9e33c971a16f1ca1d848c894) (development)
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/7c8f9519a8a7365ea50b92686ad0d3281134f8e4) (development, master)
+* [Add local git changes to the summary](https://github.com/KohaSuomi/koha-suomi-utility/commit/353b76f4215bd65f9e33c971a16f1ca1d848c894) (development, master)
 * Fix LocalHoldsPriotiyMaxHolds (ks25/ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds, ks25dev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
 * [Fix LocalHoldsPriotiyMaxHolds](https://github.com/KohaSuomi/Koha-25x/commit/65115d84b443baf8cef45fa09815367b71ff4ed6) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
 * [Remove console.log](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/0d5df12418ad16bc3e677a5314077a15808b5b79) (ks25)
 * [Update tests](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/b53e74a5a9dbbcf9e34158689e83ea5968cf6492) (master)
+* [KohaSuomi/Koha - Uuden niteen tallennus antaa Internal server error](https://github.com/KohaSuomi/Koha/issues/1667);
+Tiketti suljettu.
 * [KohaSuomi/Koha - Varausten priorisointi: LocalHoldsPriority-järjestelmäasetukseen lisäys, että priorisoidaan vain x ensimmäisen varauksen osalta](https://github.com/KohaSuomi/Koha/issues/2028);
 Vastuutettu: johannaraisa.
-Kommentti: Tähän on tuotu korjaus testeile. LocalHoldsPriorityMinItems ja LocalHoldsPriorityHoldsPerItemThreshold rikkoivat käsittelyn, neljä samaan paikkaan vaikuttavaa asetusta saattaa ylikirjoittaa toisensa.
+Kommentti: Tähän on tuotu korjaus testeile.  LocalHoldsPriorityMinItems ja LocalHoldsPriorityHoldsPerItemThreshold rikkoivat käsittelyn, neljä samaan paikkaan vaikuttavaa asetusta saattaa ylikirjoittaa toisensa.
 * [KohaSuomi/Koha - Maksujen muodostus hidasta versionvaihdon jälkeen](https://github.com/KohaSuomi/Koha/issues/2233);
 Kommentti: > Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
 Kommentti: Tuossa fines.pl skriptissä on `-m --maxdays: how many days back of overdues to process` vipu. Mietin, että eikös se maksimimäärä maksuja (9€) tule vastaan n. 30 päivässä. Tarvitseeko edes katsella vanhempia myöhässä olevia kuin sen maksimimäärän? Tätä voisi ehkä kokeilla testillä tuolla vivulla. Siihen voi tietenkin laittaa isomman luvun kuin tuo 30, ehkä se mikä on määritelty laskutusrajaksi.
@@ -107,6 +120,20 @@ Kommentti: Ei ole vielä tuotu 25.05 versioon, pitää kysyä saisiko 25.05 vers
 * [KohaSuomi/Koha - Luvitetut tekstiviestien lähettäjänimet palvelimelle](https://github.com/KohaSuomi/Koha/issues/2262);
 Tiketti avattu.
 Vastuutettu: johannaraisa.
+Kommentti: > > > > Vaara: Joensuun kaupunki (Vaara-kirjastot)
+Kommentti: > > >
+Kommentti: > > Vaara: Joensuun kaupunki (Vaara-kirjastot)
+Kommentti: >
+* [KohaSuomi/Koha - Vaski: Varissuon noutohyllyjen siirto tuotantoon 21.4.2026](https://github.com/KohaSuomi/Koha/issues/2266);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Tietokannan tietojen siivousautomatiikkaa tietueille](https://github.com/KohaSuomi/Koha/issues/511);
+Vastuutettu: johannaraisa.
+Kommentti: Juuri katselin, että 26.3. tehdyt muutokset eivät ole tapahtuneet Vaskissa: https://www.kiwi.fi/spaces/Finto/pages/186484570/YSOn+muutokset
+* [KohaSuomi/koha-suomi-utility - Automaatio Githubin tikettien sulkemiseen](https://github.com/KohaSuomi/koha-suomi-utility/issues/118);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+Kommentti: kohasuomi.github.io reposta löytyy Github Action, joka käy läpi organisaation kaikki julkiset repot ja sulkee "Ratkaisu ehdotettu" tilaiset liian vanhat tiketit. https://github.com/KohaSuomi/kohasuomi.github.io/actions/workflows/close-stale-proposed-issues.yml
+
 
 #### Pasi
 * Kirkes: kaukolainamoduulin asetukset koha-conffiin, sekä testille että tuotantoon. https://github.com/KohaSuomi/Koha/issues/2260
