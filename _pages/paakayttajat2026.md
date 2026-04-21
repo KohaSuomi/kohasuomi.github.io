@@ -22,6 +22,7 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 **Yhteiset**
 * Olisiko jollain kiinnostusta tulla pääkäyttäjien edustajaksi kuvailuryhmään Päivin jäädessä eläkkeelle?
   * Vastuut:
+* [Viikon 17 päivitys](https://github.com/KohaSuomi/Koha/discussions/2272)
 * Ehdotus: Jos pyydetään laittamaan tiketti suoraan Bugzillaan, niin pitäisikö niistä tehdä tiketti myös Bugiton-tietovarantoon?
   * Ei mielellään kuitenkaan Koha-tietovarantoon, koska siellä ne häiritsevät meidän omaa kehitystyön seuraamista.
 * [Muutos 942-kentän yhdistämissääntöön](https://github.com/KohaSuomi/Koha/issues/2261)
