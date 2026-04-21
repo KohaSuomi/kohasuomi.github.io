@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
