@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -21,7 +21,8 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 
 **Yhteiset**
 * Olisiko jollain kiinnostusta tulla pääkäyttäjien edustajaksi kuvailuryhmään Päivin jäädessä eläkkeelle?
-  * Vastuut:
+  * Vastuut: kertoa asioista pääkäyttäjien kannalta, TäTissä raporttien tekoa ja pientä ylläpitoa
+  * Leena tiedustelee alustavasti, olisiko Mauri kiinnostunut
 * [Viikon 17 päivitys](https://github.com/KohaSuomi/Koha/discussions/2272)
 * Ehdotus: Jos pyydetään laittamaan tiketti suoraan Bugzillaan, niin pitäisikö niistä tehdä tiketti myös Bugiton-tietovarantoon?
   * Ei mielellään kuitenkaan Koha-tietovarantoon, koska siellä ne häiritsevät meidän omaa kehitystyön seuraamista.
