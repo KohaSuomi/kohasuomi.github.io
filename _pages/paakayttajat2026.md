@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari (OUTI)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -49,6 +49,11 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 * Uuden palautusautomaatin lajittelu näyttää tässävaiheessa menevän oikein viimeisimpien tehtyjen muutosten ansiosta.
 * Päivi jää nyt lomille ja sen jälkeen eläkkeelle pääkäyttäjän tehtävästä. Päiviltä vielä kiitokset kaikille!
 * Normaalia ylläpitoa.
+
+**OUTI**
+* Kempeleen kirjastossa on menossa peruskorjaus, jota tehdään vaiheittain. Kokoelmaa on muutettu Muuttolaatikossa-tilaan sitä mukaan kuin remontti on edistynyt.
+* Kimpan kunnille on laitettu ensi-infoa palautusautomaateille tarvittavista lajittelumuutoksista, kun signumeista poistuu hyllypaikkalyhenteet ja lajittelut pitää jatkossa tehdä sort_bin-määrityksillä.
+* Oulun kuvailusta tuli tieto, ettei MARC-virheraporttien linkit toimi, antavat virhettä ”Error 404”. Versiopäivityksessä hakemistoja ei ollut siirretty uuteen versioon. Asia korjattu.
 
 Pohjoisesta etelään
 
