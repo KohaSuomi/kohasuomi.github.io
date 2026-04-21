@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -45,6 +45,10 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 * Kaukolainamoduulin testailu aloitettu.
 * Kohan uutiskirjeen 1/2026 deadline on ensi viikon keskiviikkona 29.4. [Linkki Google docs -pohjaan](https://docs.google.com/document/d/1-W46CdTUVsuFPlVt6feS2z_POwyVq3_LF2ublqKSvTQ/edit?usp=sharing).
 
+**Vaara**
+* Uuden palautusautomaatin lajittelu näyttää tässävaiheessa menevän oikein viimeisimpien tehtyjen muutosten ansiosta.
+* Päivi jää nyt lomille ja sen jälkeen eläkkeelle pääkäyttäjän tehtävästä. Päiviltä vielä kiitokset kaikille!
+* Normaalia ylläpitoa.
 
 Pohjoisesta etelään
 
@@ -53,7 +57,7 @@ Pohjoisesta etelään
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
