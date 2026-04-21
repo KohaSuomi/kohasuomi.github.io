@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -40,6 +40,11 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 **Lappi**
 * Varaushyllystä poimittu vanhentuneita varauksia, ja näille tulostui palauttaessa viimeisen noutopäivän noutokuitti. Syynä oli mahdollisesti ko. kirjaston eräpäiväkalenterin muutos varausten noutoajan ajalta. Asiakkaalle lähtevissä kuiteissa on viimeiset noutopäivät ovat kuitenkin erit.
 * Muuten normaalia ylläpitoa
+
+**Kirkes**
+* Kaukolainamoduulin testailu aloitettu.
+* Kohan uutiskirjeen 1/2026 deadline on ensi viikon keskiviikkona 29.4. [Linkki Google docs -pohjaan](https://docs.google.com/document/d/1-W46CdTUVsuFPlVt6feS2z_POwyVq3_LF2ublqKSvTQ/edit?usp=sharing).
+
 
 Pohjoisesta etelään
 
