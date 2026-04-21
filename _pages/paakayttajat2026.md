@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -36,6 +36,10 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
   * Ei tarvitse olla koko ajan kirjastolaisia ständillä
   * Tarkoituksena olisi tarvittaessa kertoa Kohasta ja sen käytöstä käyttäjän kannalta
   * Mukaan ständille voi ilmoittautua [tällä lomakkeella](https://forms.gle/yYuiJ4QAnkRtk95w6) joko kaikki yhdellä ilmoituksella tai henkilöt itse
+ 
+**Lappi**
+* Varaushyllystä poimittu vanhentuneita varauksia, ja näille tulostui palauttaessa viimeisen noutopäivän noutokuitti. Syynä oli mahdollisesti ko. kirjaston eräpäiväkalenterin muutos varausten noutoajan ajalta. Asiakkaalle lähtevissä kuiteissa on viimeiset noutopäivät ovat kuitenkin erit.
+* Muuten normaalia ylläpitoa
 
 Pohjoisesta etelään
 
@@ -44,7 +48,7 @@ Pohjoisesta etelään
 ## Viikko 16
 
 Aika: Ti 14.4.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
+Läsnä: Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),Päivi Knuutinen, Auli Rantasalo, Hanna Hyttinen (Vaara), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 16 päivitys](https://github.com/KohaSuomi/Koha/discussions/2258)
@@ -78,6 +82,10 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Henkilökunnalta tuli ilmoitus, että kun teoksen niteeseen oleva aktiivinen nidevaraus on ensimmäisenä varausjonossa, näkyy hyllyvarauslistalla aina nidevarauksen noutokirjasto, vaikka nidevarattu nide olisi lainassa/kuljetuksessa/kadonnut jne. Tästä on tehty tiketti: https://github.com/KohaSuomi/Koha/issues/2259
+
+**Lappi**
+* Niteiden erämuokkausella oli muutettu yhden lehtitietueen niteiden kotikirjasto samaksi. Ratkaistiin muuttamalla jokaisen niteen kotikirjastot oikeiksi kussakin kirjastossa. 
+* Muuten normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-16) - [Palaa sivun alkuun](/paakayttajat2026)
 
