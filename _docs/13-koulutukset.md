@@ -15,6 +15,12 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ### Hankinta ja kuvailu
 
+#### Kuvailukoulutus 1/2026
+
+21.4.2026 pidetty koulutus, jossa Antti Heikkinen Oulun kaupunginkirjastosta ja Anneli Österman Koha-Suomesta esittelee Kuvailutietueiden muokkausta eräajona ja muokkauspohjien tekemistä.
+
+[Kuvailukoulutus 1/2026 tallenne Youtubessa](https://youtu.be/pJPKxIkxyOI)
+
 #### Kuvailukoulutus 2/2025
 
 18.9.2025 pidetty koulutus, jossa Anna Viitanen Turun kaupunginkirjastosta käy läpi TäTiin kuvailua
