@@ -21,6 +21,8 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 [Kuvailukoulutus 1/2026 tallenne Youtubessa](https://youtu.be/pJPKxIkxyOI)
 
+Kuvailukoulutuksen diasarja: [Kuvailutietueiden muokkaus eräajona.pdf](https://github.com/user-attachments/files/26958672/Kuvailutietueiden.muokkaus.eraajona.pdf)
+
 #### Kuvailukoulutus 2/2025
 
 18.9.2025 pidetty koulutus, jossa Anna Viitanen Turun kaupunginkirjastosta käy läpi TäTiin kuvailua
