@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 4/2026
+## Muistio 4/2026
 
 Aika: Torstai 23.4.2026 klo 13 <br />
-Läsnä: Anneli, Emmi, Ari, Leena, Susanna, Roosa, Noora, Elina, Janne, Irina
+Läsnä: Anneli Österman, Emmi Takkinen, Ari Mäkiranta ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Susanna Sandell (Vaski-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Noora Valkonen (OUTI-kirjastot), Elina Uotila (Kirkes-kirjastot), Janne Seppänen (Lastu-kirjastot), Irina Halminen (Vaara-kirjastot)
 
 ### 1. Ajankohtaiset
 
@@ -26,7 +26,7 @@ Läsnä: Anneli, Emmi, Ari, Leena, Susanna, Roosa, Noora, Elina, Janne, Irina
 
 Koha-yhteisö on perustanut säätiön, joka kerää rahaa ja koordinoi kehittämistä. Säätiön hallitukseen haetaan jäseniä ja Koha-Suomi asettaa ehdolle Ari Mäkirannan.
 
-Ma 20.4.2026 oli Koha-Suomen vuosittainen tietoturvaharjoitus, jossa käytiin läpi kolme erilaista skenaariota.
+Ma 20.4.2026 oli Koha-Suomen vuosittainen tietoturvaharjoitus, jossa käytiin läpi kolme erilaista tietoturvaan liittyvää uhkaskenaariota.
 
 ### 2. Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
 
@@ -39,14 +39,14 @@ Kuvailuryhmästä ja asiantuntijaryhmästä ei noussut kommentteja.
 Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaehdotuksia.
 
 * Sen kirjaston esittely, jossa seminaari pidetään. Paikallisella henkilökunnalla on tietämystä ja osaavat kertoa tiloista eri tavalla kuin, jos käy itsekseen kiertelemässä.
-  * Ensimmäisen päivän päätteeksi
+  * Ensimmäisen päivän päätteeksi?
 * Strategian ja tiekartan uudistus
-  * muoto uusiksi? Ehdotuksia voisi miettiä ennakkoon.
-* Työpajat hyviä, voisi mahdollisesti ajatella että työstettäisiin yhdessä jotakin kehitteille olevia toiminnallisuuksia.* 
+  * muoto uusiksi? Ehdotuksia toisenlaiselle muodolle voisi miettiä kimpoissa ennakkoon.
+* Työpajat hyviä, voisi mahdollisesti ajatella että työstettäisiin yhdessä jotakin kehitteille olevia toiminnallisuuksia.
 * Varausjonon priorisointi
 * Mitä uutta meneillään -esittelyjä
   * noutohyllyt
-  * kokoelma-välilehden js-muutokset Vaskissa
+  * kokoelmat-välilehden js-muutokset Vaskissa
   * tietoturva-asiat, turvallisemmat pin-koodit
   * kaukopalvelutoiminto
   * tilastot
