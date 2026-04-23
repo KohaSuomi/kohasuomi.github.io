@@ -45,6 +45,8 @@ Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaeh
 
 ### 5. Muut asiat
 
+Vaskin varajäsen vaihtuu Asko Aution siirtyessä muihin töihin. Jatkossa varajäsenenä toimii Anni Mäki-Mantila.
+
 ### 6. Seuraava kokous
 
 ## Muistio 3/2026
