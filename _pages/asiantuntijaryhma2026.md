@@ -18,36 +18,65 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 4/2026
 
 Aika: Torstai 23.4.2026 klo 13 <br />
-Läsnä:
+Läsnä: Anneli, Emmi, Ari, Leena, Susanna, Roosa, Noora, Elina, Janne, Irina
 
 ### 1. Ajankohtaiset
 
-[KohaCon2026-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) on avautunut. KohaCon pidetään tänä vuonna Saksassa Karlsruhessa.
+[KohaCon2026-ilmoittautuminen](https://kohacon26.bibliothek.kit.edu/registration/) on avautunut. KohaCon pidetään tänä vuonna Saksassa Karlsruhessa. Ilmoittautuminen päättyy 28.8.2026.
+
+Koha-yhteisö on perustanut säätiön, joka kerää rahaa ja koordinoi kehittämistä. Säätiön hallitukseen haetaan jäseniä ja Koha-Suomi asettaa ehdolle Ari Mäkirannan.
+
+Ma 20.4.2026 oli Koha-Suomen vuosittainen tietoturvaharjoitus, jossa käytiin läpi kolme erilaista skenaariota.
 
 ### 2. Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa
 
 Käsiteltäväksi asiantuntijakokouksessa: [Kansalliskirjaston suositukset vaatimusmäärittelyjen laatimiseen kirjastojärjestelmämuutoksissa julkaistu](https://www.kiwi.fi/spaces/kuvailuyhteistyo/pages/543064557/Kansalliskirjaston+suositukset+vaatimusm%C3%A4%C3%A4rittelyjen+laatimiseen+kirjastoj%C3%A4rjestelm%C3%A4muutoksissa)
 
+Kuvailuryhmästä ja asiantuntijaryhmästä ei noussut kommentteja.
+
 ### 3. Koha-seminaarin ohjelma
 
 Koha-seminaari pidetään Oulussa 17.-18.9.2026 ja sinne tarvittaisiin ohjelmaehdotuksia.
 
+* Sen kirjaston esittely, jossa seminaari pidetään. Paikallisella henkilökunnalla on tietämystä ja osaavat kertoa tiloista eri tavalla kuin, jos käy itsekseen kiertelemässä.
+  * Ensimmäisen päivän päätteeksi
+* Strategian ja tiekartan uudistus
+  * muoto uusiksi? Ehdotuksia voisi miettiä ennakkoon.
+* Työpajat hyviä, voisi mahdollisesti ajatella että työstettäisiin yhdessä jotakin kehitteille olevia toiminnallisuuksia.* 
+* Varausjonon priorisointi
+* Mitä uutta meneillään -esittelyjä
+  * noutohyllyt
+  * kokoelma-välilehden js-muutokset Vaskissa
+  * tietoturva-asiat, turvallisemmat pin-koodit
+  * kaukopalvelutoiminto
+  * tilastot
+* Tutustumisleikki, esittelykierros tms. Apuja akelaisilta?
+
+
 ### 4. Käsiteltävät kehitysehdotukset
 
 * [Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin #2231](https://github.com/KohaSuomi/Koha/issues/2231)
+  * Päätös: Toteutus yhteisön kautta, tarjotaan itse ratkaisu
 * [Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille #2237](https://github.com/KohaSuomi/Koha/issues/2237)
+  * Päätös: Toteutetaan samantien 
 * [cancellation_reason-sarake mukaan varausten vanhenemisajoon #2238](https://github.com/KohaSuomi/Koha/issues/2238)
+  * Yhteisön versiossa cancel expired holds -ajossa on mukana toiminto, jolla saa asetettua perumisen syyn. Tutkitaan, miten sen saa toimimaan meidän omassa versiossa ja otetaan se käyttöön. 
 * [Automaattisten tilinavausten auditointi + repeat lock -esto #111](https://github.com/KohaSuomi/koha-suomi-utility/issues/111)
   * Tiketti on yksityisessä tietovarannossa, joten se ei avaudu kaikille.
   * Tiketin aihe: Automaattisen käyttäjätunnusten hallinnan tietoturvaparannukset
 * [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä #2130](https://github.com/KohaSuomi/Koha/issues/2130)
   * Testien perusteella rajotteiden lisäykset lokittuvat, joten yhteisön skriptiä voisi käyttää vanhentuneiden rajotteiden poistamiseen päivittäin. Vahvistetaan vielä päätös.
+  * Päätös: Tehdään [tiketin #2271](https://github.com/KohaSuomi/Koha/issues/2271) yhteydessä lopullinen päätös.
 
 ### 5. Muut asiat
 
 Vaskin varajäsen vaihtuu Asko Aution siirtyessä muihin töihin. Jatkossa varajäsenenä toimii Anni Mäki-Mantila.
 
+Kimpoissa voisi alkaa selvittelemään elokuuhun mennessä, ketkä ovat seuraavan asiantuntijaryhmän jäsenet kimpassa.
+
 ### 6. Seuraava kokous
+
+To 21.5.2026 klo 13
 
 ## Muistio 3/2026
 
