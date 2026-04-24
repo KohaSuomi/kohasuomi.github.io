@@ -45,6 +45,49 @@ Osallistuttu Koha-Suomen henkilökunnalle järjestettyyn tietoturvaharjoitukseen
 Tieran kanssa pidetty DVV-liityntäpalvelinpalaveri. Liityntäpalvelin ei ole enää pakollinen VTJ-yhteyksissä 2026 alusta, joka yksinkertaistaa integraatiota. Tiera voi tarjota tarvittaessa vaihtoehtoista (yksinkertaisempaa) API:a. Seuraavaksi selvitettävä käytön (kimpan/kunta) luvitus ja käytännön hallinnointi, koska yli 100 erillisen luvan ylläpito ei ole realistista → DVV:n kanssa jatkoselvitys.
 * Läsnä asiantuntijaryhmän kokouksessa 23.4.2026.
 
+#### Johanna
+* [Add json and csv export](https://github.com/KohaSuomi/koha-suomi-utility/commit/3b64a80b38624345e0c92f070c81b27b97226e66) (master)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commit/44c813733e5fdc5ac6f64f301d114c7940e2d4da) (master)
+* [Add more information about spike user](https://github.com/KohaSuomi/koha-suomi-utility/commit/d9c72ba71895f18139f8ee21d37cf5961cdb5dac) (master)
+* [Modify file permissions](https://github.com/KohaSuomi/koha-suomi-utility/commit/92676cd65e9bbcb573a2db5a02247749b1923acc) (master)
+* [Create inspect_action_log_spike.pl](https://github.com/KohaSuomi/koha-suomi-utility/commit/c74eb16367fcc4456e6709ad6ba043bea66232a7) (master)
+* [Add information for summary](https://github.com/KohaSuomi/koha-suomi-utility/commit/d7f233e263c33baba11322cd65d72f4fd07de5a1) (master)
+* [Add limit to rows](https://github.com/KohaSuomi/koha-suomi-utility/commit/40dea643d88623a93d711f07ea4b4eddf03b70c5) (master)
+* [Filter user from results](https://github.com/KohaSuomi/koha-suomi-utility/commit/20d3cc3367fd4874e52807133b959f8bb70ec09d) (master)
+* [Fix output formatting](https://github.com/KohaSuomi/koha-suomi-utility/commit/999991c9789cdad90764275617060ce87fed0cf2) (master)
+* [Add fallback for data print](https://github.com/KohaSuomi/koha-suomi-utility/commit/5df5076e1a34f4e2c5770cb65d50fa6caede75c3) (master)
+* [Add fixes to audit script and Finnish readme](https://github.com/KohaSuomi/koha-suomi-utility/commit/5b1b053f7128859c317098a7072c4c89aecf87ea) (master)
+* [Create audit scripts and readme](https://github.com/KohaSuomi/koha-suomi-utility/commit/fdb41aaeef74744287e18c83bb903e9f03a2f78c) (master)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commit/fc5be60d491f2b25e9fbe77d57cbbb8dab2c6595) (master)
+* [Cleaner summary](https://github.com/KohaSuomi/kohasuomi.github.io/commit/3b8109cd2da1668656a7720aea0a610687c00bf2) (master)
+* [Merge branch 'master' of https://github.com/KohaSuomi/kohasuomi.github.io](https://github.com/KohaSuomi/kohasuomi.github.io/commit/8f64be6a58743da8ec6a1bcec0343903c010c483) (master)
+* [Fix summary](https://github.com/KohaSuomi/kohasuomi.github.io/commit/6af67f6888ccb45e60fa05fe2f1dc9a270864a73) (master)
+* [Update workflow schedule and remove dry run](https://github.com/KohaSuomi/kohasuomi.github.io/commit/4790307f91a585a49da2dbc10be7b1a55217411d) (master)
+* [Add final week 16 summary](https://github.com/KohaSuomi/kohasuomi.github.io/commit/e34df4bf8020a7e3c5598681dcd9f6b2a2043f18) (master)
+* [KohaSuomi/Koha - Luvitetut tekstiviestien lähettäjänimet palvelimelle](https://github.com/KohaSuomi/Koha/issues/2262);
+Vastuutettu: johannaraisa.
+Kommentti: Mites Kirkes ja Helle?
+* [KohaSuomi/Koha - Vaski: Varissuon noutohyllyjen siirto tuotantoon 21.4.2026](https://github.com/KohaSuomi/Koha/issues/2266);
+Vastuutettu: johannaraisa.
+Kommentti: Nämä on nyt kopioitu tuotantoon.
+* [KohaSuomi/Koha - MARC-virheraporttien linkit antavat "Error 404" OUTIssa ja TäTissä](https://github.com/KohaSuomi/Koha/issues/2269);
+* [KohaSuomi/Koha - Vaski: IntranetUserJS päivitys](https://github.com/KohaSuomi/Koha/issues/2278);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Varauksen kuljetustilan peruuttaminen jättää nidekuljetuksen voimaan](https://github.com/KohaSuomi/Koha/issues/672);
+Kommentti: Voisikohan tämän hoitaa tietokantatriggerillä? Esim.
+* [KohaSuomi/koha-suomi-utility - Automaatio Githubin tikettien sulkemiseen](https://github.com/KohaSuomi/koha-suomi-utility/issues/118);
+Vastuutettu: johannaraisa.
+Kommentti: Muutin cronin ajo aikaa, nyt se tehdään maanantaisin klo 6. Lisäksi dry_run on nyt vain valinnainen manuaalisessa ajossa, joten ensi maanantaina tiketit sulkeutuu, jos niitä löytyy.
+* [KohaSuomi/koha-suomi-utility - Tietoturvaharjoitus 20.4.2026](https://github.com/KohaSuomi/koha-suomi-utility/issues/120);
+Tiketti avattu.
+Vastuutettu: paxed, johannaraisa, CodoDerDritte, lmstrand, AnneliO, emta001.
+* [KohaSuomi/koha-suomi-utility - Elasticsearch tietokontanodeille](https://github.com/KohaSuomi/koha-suomi-utility/issues/124);
+Tiketti avattu.
+Vastuutettu: johannaraisa, CodoDerDritte.
+* [KohaSuomi/koha-suomi-utility - Toimitalokien seuranta](https://github.com/KohaSuomi/koha-suomi-utility/issues/88);
+Vastuutettu: johannaraisa, CodoDerDritte, emta001.
+Kommentti: Tämä pyörii nyt jokaisessa ympäristössä.
+
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
 Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
