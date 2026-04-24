@@ -137,6 +137,8 @@ Testeille on tehty mukautettu crontab, joka ajaa asetuksen ollessa päällä seu
 
 Ajoissa on ajallisia rajotteita, update-holds-to-pull ja runEditXimport ajetaan vain aikavälillä 7-17. Ne ajot, jotka tapahtuvat tuotannoissa puolelta öin, ajetaan testeillä kello yksi yöllä.
 
+Tuotannon ajastetut ajot on kuvattu Ohjeiden [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) -osiossa.
+
 Asetus lisätty [tiketissä #2236](https://github.com/KohaSuomi/Koha/issues/2236)
 
 ### SCOUserCSS
