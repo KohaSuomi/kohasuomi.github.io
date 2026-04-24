@@ -112,6 +112,33 @@ PrepareHostField-järjestelmäasetuksella voi määrittää, mistä emotietueen 
 300$ae: 773$h
 ```
 
+### RunTestCronjobs
+
+Paikalliset tiedot / Local use -osioon järjestelmäasetuksia on lisätty järjestelmäasetus nimeltään RunTestCronjobs, jolla saa testikannoissa päälle ajastetut ajot. Asetus pysyy päällä seuraavaan aamuun klo 9.30 asti. Jos testaustarve jatkuu pidempään, voi asetuksen käydä kytkemässä uudelleen päälle.
+
+Testeille on tehty mukautettu crontab, joka ajaa asetuksen ollessa päällä seuraavat ajastetut ajot:
+
+* advance_notices.pl
+* automatic_item_modification_by_age.pl
+* delete_expired_opac_registrations.pl
+* drop_borrower_ss_blocks.pl
+* expire_holds.sh
+* fines.pl
+* holds/auto_unsuspend_holds.pl
+* holds/hold_reminder_new.pl
+* holds/holds_reminder.pl
+* holds/set_expirationdate_for_holds.pl
+* holds/update-holds-to-pull.pl
+* membership_expiry.pl
+* overdue_notices.pl
+* runEditXimport.pl
+* update_patrons_category.pl
+* write_off_expired_debits.pl
+
+Ajoissa on ajallisia rajotteita, update-holds-to-pull ja runEditXimport ajetaan vain aikavälillä 7-17. Ne ajot, jotka tapahtuvat tuotannoissa puolelta öin, ajetaan testeillä kello yksi yöllä.
+
+Asetus lisätty [tiketissä #2236](https://github.com/KohaSuomi/Koha/issues/2236)
+
 ### SCOUserCSS
 
 SCOUserCSS-järjestelmäasetuksella voi säätää Kohan itsepalvelulainauksen ulkoasua.
