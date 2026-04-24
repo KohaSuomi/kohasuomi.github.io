@@ -88,6 +88,29 @@ Vastuutettu: johannaraisa, CodoDerDritte.
 Vastuutettu: johannaraisa, CodoDerDritte, emta001.
 Kommentti: Tämä pyörii nyt jokaisessa ympäristössä.
 
+#### Anneli
+* Jatkoin Saarenkylän kirjaston poistumattomien vanhentuneiden varausten tutkimista ja testasin, miten käy, jos poistan kirjaston eräpäiväkalenterista kesken noutoajan sille ajalle sijoittuvan kiinniolopäivän ja palautan niteen uudelleen. Varauksen viimeinen noutopäivä siirtyi päivää aiemmaksi. [Lappi: Vanhentuneet varaukset eivät vanhentuneet #2263](https://github.com/KohaSuomi/Koha/issues/2263)
+* Vaarassa ihmeteltiin, kun Kohan uutisiin lisätessä Finna-Koha-kirjanmerkin js-koodi katoaa. Kerroin, että se on tarkoituksella niin tietoturvasyistä.
+* Siivosin Githubista Koha-Suomen organisaation jäsenistä ulkopuolisiksi yhteistyökumppaneiksi sellaisia henkilöitä, jotka eivät enää toimineet missään kimpassa pääkäyttäjänä.
+* Tietoturvaharjoitus maanantaina.
+* Tein tiistaina viikon päivityksestä tiedotteen, kun se unohtui tehdä maanantaina.
+* Julkaisin kyselyn, jossa haettiin vapaaehtoisia Kirjastopäiville Koha-Suomen messuständille.
+* Matrixissa tuli kysely, jossa ihmeteltiin, miten nide voi olla yhtäaikaa noudettavana ja kuljetettavana. Koitin kyselyllä hakea sellaisia, mutta en vielä onnistunut.
+* Kyytin [hyllyvarausraportilla](https://github.com/KohaSuomi/Koha/issues/2276) olevan ääkkösongelman testailua. Suodatus ei toimi kokoelmissa, jos kokoelman tunnuksessa on ääkkösiä.
+* Hellestä kyseltiin, miten asiakkaan muokkausnäytöltä saa yläreunasta pois turhat Vaihtoehtoinen osoite ja Vaihtoehtoinen yhteystieto -linkit. Ne tulevat järjestelmäasetuksta CollapseFieldsPatronAddForm, joten neuvoin tyhjentämään kyseisen asetuksen.
+* Pidimme tiistaina Heikkisen Antin kanssa Kuvailukoulutus 1/2026:n, jossa käytiin läpi kuvailutietueiden muokkausta eräajona ja muokkauspohjia. Osallistujia oli 40 ympäri Suomen ja monelta eri kirjastosektorilta. Koulutuksen tallenne on katsottavissa Koha-Suomen Youtube-kanavalla.
+* Monenlaista tikettien ylläpitoa ja huoltoa.
+* Keskiviikkona oli taas ruotsin käännöksiin liittyvä palaveri. Saimme valmiiksi messages-js.po-tiedoston ja siirryimme messages.po-tiedostoon. Siellä oli kuitenkin vastassa paljon UNIMARCiin liittyviä käännöksiä, jotka pitänee hypätä jotenkin yli. Käännöksiä jatketaan taas viikolla 18.
+* Kävimme matrixissa keskustelua versionvaihdosta ja Emmi kirjaili ylös palautekyselyn ja omien pohdintojemme pohjalta, mitä jatkossa kannattaisi seuraavassa versionvaihdossa huomioida ja parantaa.
+* [Siili-testin ylimääräisistä tietuenäyttöjen mukautuksista tiketti](https://github.com/KohaSuomi/Koha/issues/2279)
+* Päivitin utility-tietovarantoon koulutustilastot ajantasalle
+* Torstaina oli asiantuntijaryhmän kokous. Julkaisin kokousmuistion perjantaina 24.4.42026.
+* Testailimme Larin kanssa ongelmaa, että [old_reserves-taulun cancellation_reason-sarakkeeseen ei enää kirjaudu tieto EXPIRED](https://github.com/KohaSuomi/Koha/issues/2238). Tieto on alkanut kirjautumaan 17.12.2024, kun vanhentumisajoon lisättiin ominaisuus, joka lisää niteelle notforloan-arvon. Se on lakannut kirjautumasta viimeisimmässä versionvaihdossa. Perimmäistä syytä, miksi se ei enää kirjaudu ei löytynyt, mutta löytyi tapa, jolla sen saa taas kirjautumaan. Muutos saadaan tuotantoon viikon 18 päivityksessä.
+* Taskulan Lari Hypernovasta viesti, että hän oli innoittunut meidän kuvailukoulutuksen katsottuaan tietueiden erämuokkaukseen tuen kiinteämittaisten kenttien yksittäisten [merkkipaikkojen muokkaamiselle](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=28915). Testasin muutosta sandboxissa ja se toimi hienosti muuten, mutta sillä pystyi muokkaamaan vain merkkipaikkoja, jotka olivat yhden merkin pituisia (0-9). Merkkipaikkoja voi olla ainakin 40 saakka. Viestittelin Larille ongelmasta ja kirjasin sen myös tikettiin, koska se oli jo ehditty sign offaamaan toisen henkilön toimesta.
+* Lisäsin Järjestelmäasetukset-ohjesivulle tiedon [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs)-paikallisesta järjestelmäasetuksesta.
+* [Tein tiketin Ajastetut ajot -sivun päivityksestä](https://github.com/KohaSuomi/Koha/issues/2283)
+
+
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
 Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
