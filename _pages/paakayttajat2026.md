@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: Ti 21.4.2026 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Johanna Räisä, Lari Starnd (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Elina Uotila (Kirkes), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Ihania eläkepäiviä Päiville!**
 <img width="500" height="800" alt="kortti" src="https://github.com/user-attachments/assets/d2674e8b-8ace-47c2-af1f-60358e97e707" />
@@ -58,6 +58,9 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 **Lastu**
 * Henkilökunnalta tullut palautetta, että [Niteet, jotka odottaa uudelleenpalautusta varauksen vuoksi](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteet-jotka-odottaa-uudelleenpalautusta-varauksen-vuoksi)-raportilta puuttuisi osa uudelleenpalautusta vaativista niteistä, ja niitä on löytynyt hyllystä. Vaikuttaisi siltä, että ongelma oli raportin viimeisellä rivillä `and itemnumber not in (select itemnumber from branchtransfers where datearrived is not null)`, sillä tämän poistamalla tuloksia saatiin raportille enemmän. Testaillaan poistaa tuo rivi raportilta.
 * Palautetta tullut myös siitä, että jos kuljetettavan varauksen peruu, jää niteen kuljetustila kuitenkin voimaan. Tästä on [vanha tiketti olemassa](https://github.com/KohaSuomi/Koha/issues/2261), käyty myös kommentoimassa tätä ongelmaa ratkovaa yhteisön tikettiä, että tähän saataisiin korjaus.
+
+**Siilinjärvi**
+* Ei raportoitavaa.
 
 Pohjoisesta etelään
 
