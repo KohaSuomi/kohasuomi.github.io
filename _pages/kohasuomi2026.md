@@ -21,6 +21,10 @@ Läsnä:
 
 ### Muut asiat
 
+* Versionvaihto:
+  * palautteet pääkäyttäjiltä, nämä voisi olla hyvä käydä porukalla läpi jossain vaiheessa ja katsoa miten prosessia voisi jatkossa parantaa/muuttaa
+  * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella 
+
 ### Viikolla 17 tehty
 
 #### Kodo
