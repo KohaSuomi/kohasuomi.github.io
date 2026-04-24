@@ -199,7 +199,7 @@ Käyttäjäoikeus|Tarvekuvaus
 ---|---
 ill | jotta käyttäjä pääsee kaukopalvelumoduuliin
 fast_cataloging  | jotta käyttäjä pystyy käsittelemään kaukolainamoduulin kautta luotuja tietueita/niteitä, joilla on FA-kuvailupohja käytössä
-override_renewals | jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0 (ks. laina- ja maksusäännöt)
+override_renewals | jotta käyttäjä pystyy tarvittaessa ohittamaan nidetyypille asetetun uusintojen määrän 0 (ks. laina- ja maksusäännöt). HUOM! Vaatii lisäksi, että AllowRenewalLimitOverride-järjestelmäasetukseen on valittuna "Salli", jotta ohitus onnistuisi.
 overdues_report | jotta käyttäjä voi avata Myöhässä-raportin Lainaus ja palautus -sivulla (ks. myöhässä olevien seuranta)
 
 ## Laina- ja maksusäännöt
