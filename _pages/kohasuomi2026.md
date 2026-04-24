@@ -124,6 +124,8 @@ Kommentti: Tämä pyörii nyt jokaisessa ympäristössä.
 * Lista Koha-Suomen kehityshaaroista on nyt siivottu. Listalta tiputettiin pois uudessa versiossa tarpeettomaksi todetut kehityshaarat. Vielä pitäisi käydä läpi nykyiset kehityshaarat ja tarkistaa onko ne jo lisätty yhteisön masteriin.
 * Käyty läpi versionvaihdosta saatua palautetta ja suunniteltu sen pohjalta muutoksia seuraavia versionvaihtoja ajatellen. Näitä voisi käydä läpi jossain kohtaa isommalla porukalla.
 * Uutiskirjeeseen on tarkoitus lisätä uutinen versionvaihdosta. Tämä on vielä työn alla.
+* Tietoturvaharjoitus 20.4.2026
+* Asiantuntijapalaveri 23.4.2026
 
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
