@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 4/2026
 
 Aika: Torstai 23.4.2026 klo 13 <br />
-Läsnä: Anneli Österman, Emmi Takkinen, Ari Mäkiranta ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Susanna Sandell (Vaski-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Noora Valkonen (OUTI-kirjastot), Elina Uotila (Kirkes-kirjastot), Janne Seppänen (Lastu-kirjastot), Irina Halminen (Vaara-kirjastot)
+Läsnä: Anneli Österman, Emmi Takkinen, Ari Mäkiranta ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen (Lapin kirjasto), Susanna Sandell (Vaski-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Noora Valkonen (OUTI-kirjastot), Elina Uotila (Kirkes-kirjastot), Janne Seppänen (Lastu-kirjastot), Irina Halminen (Vaara-kirjastot), Katja Valjakka (Lumme-kirjastot)
 
 ### 1. Ajankohtaiset
 
