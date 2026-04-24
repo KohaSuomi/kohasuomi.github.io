@@ -13,6 +13,44 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 18
+Aika: Ma 27.4.2026<br />
+Läsnä:
+
+### Vastuuttomat tiketit
+
+### Muut asiat
+
+### Viikolla 17 tehty
+
+#### Kodo
+
+* [Koha#2271 Cleanup-database tarvekartoitus](https://github.com/KohaSuomi/Koha/issues/2271);
+Tarvitaan kartoitus yhteisö-Kohan cleanup_database.pl-skriptin käyttöönotosta: mitä osia kannattaa ottaa käyttöön, ja voisiko sillä korvata joitakin Koha-Suomi-spesifejä siivousajoja. Liittyy mm. palautusilmoitusten automaattiseen siivoukseen [#2270](https://github.com/KohaSuomi/Koha/issues/2270) (CleanUpDatabaseReturnClaims → cleanup_database.pl-cron) sekä vanhentuneiden väliaikaisten rajoitteiden siivoukseen [#2130](https://github.com/KohaSuomi/Koha/issues/2130) (vanhat rajoiteviestit/expired restrictions).
+
+* [Koha#2270 CleanUpDatabaseReturnClaims-järjestelmäasetukseen liittyvä cleanup_database.pl-cron](https://github.com/KohaSuomi/Koha/issues/2270);
+Siivouscroni (cleanup_database.pl) tarvitaan resolved return claimien automaattiseen poistoon. Liitetty samaan kokonaisuuteen kuin vanhentuneiden rajoitteiden siivous (#2130).
+
+* [Koha#2130 Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä](https://github.com/KohaSuomi/Koha/issues/2130);
+Ennen lopullista päätöstä vanhentuneiden rajoitteiden siivouksesta katsotaan #2271:n (cleanup_database tarvekartoitus) yhteydessä mitä tehdään ja millä siivousajolla.
+
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+Siili-test ja Helle-test saatu jakamaan kuvailutietueet (TäTi-test jakavana kantana), mutta mäppäykset menivät sekaisin (biblionumber-id:t biblioitems/biblio_metadata) toistaiseksi tuntemattomasta syystä → otetaan yhdistely uusiksi. Osakohteiden emolinkit (MARC) pitää myös kirjoittaa uusiksi ennen vientiä kantaan, eli vaatii lisäkoodia eikä valmistu heti.
+
+* [Koha#1903 Helle, Porvoo: Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903);
+Interleaf ilmoitti olevansa valmis tuotantoon ja pyysi tunnuksia, mutta kimppojen tunnukset kuuluvat pääkäyttäjille. Varmistettu toimittajalta mitä rajapintaa (borrowers/status vs sipmessages) integraatio oikeasti käyttää, koska viestintä oli ristiriitaista ja tekninen yhteyshenkilö lomalla.
+
+* [koha-suomi-utility#111 Käyttäjätunnusten automaattihallinnan parannukset](https://github.com/KohaSuomi/koha-suomi-utility/issues/111);
+Asiantuntijaryhmässä tehtiin tarvittavat päätökset automaattihallinnan parametroinnista jatkossa.
+
+* [koha-suomi-utility#120 Tietoturvaharjoitus 20.4.2026](https://github.com/KohaSuomi/koha-suomi-utility/issues/120);
+Osallistuttu Koha-Suomen henkilökunnalle järjestettyyn tietoturvaharjoitukseen, jossa käsiteltiin neljää tietoturvaan ja tietosuojaan liittyvää pohdittavaa tapausta.
+
+* [koha-suomi-utility#121 Tieran DVV/liityntäpalvelin](https://github.com/KohaSuomi/koha-suomi-utility/issues/121);
+Tieran kanssa pidetty DVV-liityntäpalvelinpalaveri. Liityntäpalvelin ei ole enää pakollinen VTJ-yhteyksissä 2026 alusta, joka yksinkertaistaa integraatiota. Tiera voi tarjota tarvittaessa vaihtoehtoista (yksinkertaisempaa) API:a. Seuraavaksi selvitettävä käytön (kimpan/kunta) luvitus ja käytännön hallinnointi, koska yli 100 erillisen luvan ylläpito ei ole realistista → DVV:n kanssa jatkoselvitys.
+
+* Läsnä asiantuntijaryhmän kokouksessa 23.4.2026.
+
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
 Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
