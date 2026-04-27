@@ -23,6 +23,7 @@ Läsnä:
 
 ### Muut asiat
 
+* Viikon 18 päivitys
 * Versionvaihto:
   * palautteet pääkäyttäjiltä, nämä voisi olla hyvä käydä porukalla läpi jossain vaiheessa ja katsoa miten prosessia voisi jatkossa parantaa/muuttaa
   * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella
