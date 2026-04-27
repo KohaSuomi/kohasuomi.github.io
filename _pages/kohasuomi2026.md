@@ -130,6 +130,14 @@ Kommentti: Tämä pyörii nyt jokaisessa ympäristössä.
 * Tietoturvaharjoitus 20.4.2026
 * Asiantuntijapalaveri 23.4.2026
 
+#### Pasi
+* Koha-yhteisöversion testiympäristön asennus omalle koneelle
+* XSLT-bugi, yhteisöversiossakin, mutta liian hankala korjata: https://github.com/KohaSuomi/Koha/issues/2212
+* OUTIn signummuutoksen valmistelua, Kassun kanssa
+* Lumme signummuutoksen virheellisten signumien korjaamiseen ohjelmanpätkää: https://github.com/KohaSuomi/Koha/issues/2201
+* Englanninkieliset välilehtien otsikot yhteisöbugi: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42370
+
+
 ## Viikko 17
 Aika: Ma 20.4.2026<br />
 Läsnä: Pasi, Johanna, Anneli, Emmi, Ari, Kodo, Lari
