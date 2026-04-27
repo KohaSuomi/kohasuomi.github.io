@@ -19,11 +19,14 @@ Läsnä:
 
 ### Vastuuttomat tiketit
 
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
 ### Muut asiat
 
 * Versionvaihto:
   * palautteet pääkäyttäjiltä, nämä voisi olla hyvä käydä porukalla läpi jossain vaiheessa ja katsoa miten prosessia voisi jatkossa parantaa/muuttaa
-  * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella 
+  * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella
+  * [versionvaihto-projektissa](https://github.com/orgs/KohaSuomi/projects/6/views/1) vielä 23 tikettiä, mitä niille tehdään?
 * Testien uudelleenluonnin ajankohta?
   
 ### Viikolla 17 tehty
