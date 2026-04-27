@@ -28,6 +28,7 @@ Läsnä:
   * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella
   * [versionvaihto-projektissa](https://github.com/orgs/KohaSuomi/projects/6/views/1) vielä 23 tikettiä, mitä niille tehdään?
 * Testien uudelleenluonnin ajankohta?
+* Smartum-eduissa lyhyt käyttökatko 27.–29.4.2026. Siirtymä Epassiin.
   
 ### Viikolla 17 tehty
 
