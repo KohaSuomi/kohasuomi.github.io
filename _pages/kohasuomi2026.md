@@ -15,21 +15,25 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 
 ## Viikko 18
 Aika: Ma 27.4.2026<br />
-Läsnä:
+Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
 
 ### Vastuuttomat tiketit
 
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
-
 
 ### Muut asiat
 
 * [Viikon 18 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
 * Versionvaihto:
   * palautteet pääkäyttäjiltä, nämä voisi olla hyvä käydä porukalla läpi jossain vaiheessa ja katsoa miten prosessia voisi jatkossa parantaa/muuttaa
+    * jokainen voi tutustua palautteeseen omalla ajallaan, katsotaan yhdessä tarkemmin läpi, kun seuravaan versionvaihdon aikataulu tarkentuu
   * seuraavan versionvaihdon aikataulua voitasiin alkaa jo suunnitella
+    * asiantuntijaryhmälle annettu tehtäväksi kysyä toiveita ajankohdasta
   * [versionvaihto-projektissa](https://github.com/orgs/KohaSuomi/projects/6/views/1) vielä 23 tikettiä, mitä niille tehdään?
+    * jokainen käy omat tikettinsä läpi ja sulkee suljettavissa olevat
+    * katsotaan tilannetta uudestaan ensi viikolla
 * Testien uudelleenluonnin ajankohta?
+  * Testien redusointi ei tehdä nyt keväällä, koska testeillä on menossa KaTi-testejä.
 * Smartum-eduissa lyhyt käyttökatko 27.–29.4.2026. Siirtymä Epassiin.
   
 ### Viikolla 17 tehty
