@@ -16,7 +16,14 @@ Aika: Ti 28.4.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
 * [Kaukolainan "Maksettu hinta"-kenttä ei hyväksy pelkkää numeroa 0](https://github.com/KohaSuomi/Koha/issues/2138#issuecomment-4265833916) - mielipiteitä siitä, miten edetään?
+* Tikettien seuranta -projektiin uusia valittavia vaihtoehtoja
+  * Testattavat-välilehdelle lisätty mahdollisuus suodattaa vasemmasta reunasta testaajan mukaan. Tämä toivottavasti auttaa silloin, kun etsitte pääkäyttäjien testattavaksi merkittyjä tikettejä.
+    * <img width="676" height="388" alt="kuva" src="https://github.com/user-attachments/assets/9acec360-d191-4d11-a4b8-3df94046afde" />
+  * Tiketille valittaviin vaihtoehtoihin / ominaisuuksin on lisätty vaihtoehdot "Tarvittavien testausten määrä" ja "Koha-Suomen branch" (Koha-Suomen henkilökunta täyttää nämä). Vaihtoehtojen keskinäistä järjestystä myös hieman säädetty ja turhia vaihtoehtoja poistettu.
+    * <img width="372" height="645" alt="kuva" src="https://github.com/user-attachments/assets/3ee98b21-d422-49e0-9e63-0750c1960235" />
+
 
 Etelästä pohjoiseen
 
