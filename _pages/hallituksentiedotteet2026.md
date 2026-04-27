@@ -11,6 +11,26 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 4/2026 
+
+24.4.2026
+
+Huhtikuun hallituksen kokous keskittyi tilinpäätöksen ja yhtiökokouksen valmisteluun. Kävimme hallituksessa läpi tilinpäätöstä ja se näyttää plussaa n. 36 000 euroa. Yhtiön talousasiat ovat siis varsin vastuullisesti hoidettu. Yhtiö ei jaa osinkoja osakkailleen.
+
+Toimitusjohtajan raportti 4/26 on liitteenä ja se käytiin kokouksessa läpi keskustellen.
+
+Koha-kirjastokimppojen kirjastojohtajat kokoontuivat aamukahvien äärelle tänään perjantaina ja kävimme Koha-Suomen tiekarttaa läpi ja kerroimme tulevasta yhtiökokouksesta sekä syksyn Koha-seminaarista. Lisäksi tiedotimme yhtiön strategiatyöstä, mikä aloitellaan heti kesän jälkeen uuden hallituksen kanssa ja yhteistyöllä Koha-kirjastojen johtajien kanssa.
+
+Välittäkää tiedotetta kirjastoillenne ja kimpoillenne!
+
+Jos tulee mitä vain kysyttävää, niin laittakaa viestiä Arille ja minulle päin.
+
+Jouni Pääkkölä,<br /> 
+hallituksen pj.
+
+Toimitusjohtajan raportti 4/2026: [Toimitusjohtajan raportti 4_26.pdf](https://github.com/user-attachments/files/27112014/Toimitusjohtajan.raportti.4_26.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 3/2026
 
 20.3.2026
