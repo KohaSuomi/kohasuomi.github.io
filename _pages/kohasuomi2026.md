@@ -23,7 +23,7 @@ Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
 
 ### Muut asiat
 
-* [Viikon 18 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+* [Viikon 18 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11) ([Päivitystiedote](https://github.com/KohaSuomi/Koha/discussions/2291))
 * Versionvaihto:
   * palautteet pääkäyttäjiltä, nämä voisi olla hyvä käydä porukalla läpi jossain vaiheessa ja katsoa miten prosessia voisi jatkossa parantaa/muuttaa
     * jokainen voi tutustua palautteeseen omalla ajallaan, katsotaan yhdessä tarkemmin läpi, kun seuravaan versionvaihdon aikataulu tarkentuu
