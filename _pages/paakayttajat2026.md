@@ -23,7 +23,7 @@ Läsnä:
     * <img width="676" height="388" alt="kuva" src="https://github.com/user-attachments/assets/9acec360-d191-4d11-a4b8-3df94046afde" />
   * Tiketille valittaviin vaihtoehtoihin / ominaisuuksin on lisätty vaihtoehdot "Tarvittavien testausten määrä" ja "Koha-Suomen branch" (Koha-Suomen henkilökunta täyttää nämä). Vaihtoehtojen keskinäistä järjestystä myös hieman säädetty ja turhia vaihtoehtoja poistettu.
     * <img width="372" height="645" alt="kuva" src="https://github.com/user-attachments/assets/3ee98b21-d422-49e0-9e63-0750c1960235" />
-
+* Ottakaa seurantaan [jaetun kuvailutietovarannon tiketti](https://github.com/KohaSuomi/Koha/issues/2253), jotta pysytte perillä, miten asia etenee. Testit voivat mennä pois käytöstä lyhyelläkin varoitusajalla.
 
 Etelästä pohjoiseen
 
@@ -45,7 +45,9 @@ Kiitos kuluneista työvuosistasi ja uurastuksestasi Kohan ylläpidon ja <br />ke
 * [Viikon 17 päivitys](https://github.com/KohaSuomi/Koha/discussions/2272)
 * Ehdotus: Jos pyydetään laittamaan tiketti suoraan Bugzillaan, niin pitäisikö niistä tehdä tiketti myös Bugiton-tietovarantoon?
   * Ei mielellään kuitenkaan Koha-tietovarantoon, koska siellä ne häiritsevät meidän omaa kehitystyön seuraamista.
+  * Päätös: Lisätään Bugittomaan
 * [Muutos 942-kentän yhdistämissääntöön](https://github.com/KohaSuomi/Koha/issues/2261)
+  * Käykää kaikki kommentoimassa tikettiin, kun olette tehneet muutokset omassa kimpassanne.
 * Johannan tiketti [tekstiviestien lähettäjänimistä](https://github.com/KohaSuomi/Koha/issues/2262) - merkitkää tikettiin, minkälaisen nimen kimppanne on luvittanut.
 * [Tiketti #962](https://github.com/KohaSuomi/Koha/issues/962) - toteutuksesta puuttuu vielä toivottu Ikäraja-fasetti. Onko sille vielä tarvetta vai voiko tiketin sulkea?
 * Johanna tehnyt [Github-automaation](https://github.com/KohaSuomi/koha-suomi-utility/issues/118), joka sulkee tiketit, jotka ovat Ratkaisu ehdotettu -tilassa, eikä niissä ole kommenttia yli 30 päivään. Ajetaan maanantaisin.
