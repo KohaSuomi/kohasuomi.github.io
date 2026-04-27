@@ -33,7 +33,7 @@ Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
     * jokainen käy omat tikettinsä läpi ja sulkee suljettavissa olevat
     * katsotaan tilannetta uudestaan ensi viikolla
 * Testien uudelleenluonnin ajankohta?
-  * Testien redusointi ei tehdä nyt keväällä, koska testeillä on menossa KaTi-testejä.
+  * Testien uudelleenluontia ei tehdä nyt keväällä, koska testeillä on menossa KaTi-testejä.
 * Smartum-eduissa lyhyt käyttökatko 27.–29.4.2026. Siirtymä Epassiin.
   
 ### Viikolla 17 tehty
