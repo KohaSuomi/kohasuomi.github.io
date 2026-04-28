@@ -24,7 +24,7 @@ Läsnä:
   * Tiketille valittaviin vaihtoehtoihin / ominaisuuksin on lisätty vaihtoehdot "Tarvittavien testausten määrä" ja "Koha-Suomen branch" (Koha-Suomen henkilökunta täyttää nämä). Vaihtoehtojen keskinäistä järjestystä myös hieman säädetty ja turhia vaihtoehtoja poistettu.
     * <img width="372" height="645" alt="kuva" src="https://github.com/user-attachments/assets/3ee98b21-d422-49e0-9e63-0750c1960235" />
 * Ottakaa seurantaan [jaetun kuvailutietovarannon tiketti](https://github.com/KohaSuomi/Koha/issues/2253), jotta pysytte perillä, miten asia etenee. Testit voivat mennä pois käytöstä lyhyelläkin varoitusajalla.
-* [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192) kaipaisi kommentteja, kuinka asian kanssa edetään (vai tarvitseeko edetä mitenkään).
+* [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192) kaipaisi kommentteja, kuinka asian kanssa edetään (vai tarvitseeko edetä mitenkään). /Emmi
 
 Etelästä pohjoiseen
 
