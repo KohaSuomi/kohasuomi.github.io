@@ -24,6 +24,8 @@ Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Ö
     * <img width="676" height="388" alt="kuva" src="https://github.com/user-attachments/assets/9acec360-d191-4d11-a4b8-3df94046afde" />
   * Tiketille valittaviin vaihtoehtoihin / ominaisuuksin on lisätty vaihtoehdot "Tarvittavien testausten määrä" ja "Koha-Suomen branch" (Koha-Suomen henkilökunta täyttää nämä). Vaihtoehtojen keskinäistä järjestystä myös hieman säädetty ja turhia vaihtoehtoja poistettu.
     * <img width="372" height="645" alt="kuva" src="https://github.com/user-attachments/assets/3ee98b21-d422-49e0-9e63-0750c1960235" />
+  * Palaverin aikana ideoitiin myös uusi vaihtoehto "Testanneet kimpat", johon voi käydä kirjoittamassa oman kimpan nimen, kun joku omasta kimpasta on jo testannut.
+    * <img width="1625" height="941" alt="kuva" src="https://github.com/user-attachments/assets/f98a3bd1-eeaf-4099-a954-a252d89a519b" />
 * Ottakaa seurantaan [jaetun kuvailutietovarannon tiketti](https://github.com/KohaSuomi/Koha/issues/2253), jotta pysytte perillä, miten asia etenee. Testit voivat mennä pois käytöstä lyhyelläkin varoitusajalla.
 * [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192) kaipaisi kommentteja, kuinka asian kanssa edetään (vai tarvitseeko edetä mitenkään). /Emmi
 
