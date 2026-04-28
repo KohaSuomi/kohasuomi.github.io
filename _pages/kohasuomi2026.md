@@ -13,6 +13,40 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 19
+Aika: Ma 4.5.2026
+Läsnä:
+
+### Viikolla 18 tehty
+
+#### Johanna
+
+#### johannaraisa
+* [Improve error message](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/616dc881549668184cc72b54e1ee728ff8abfe55) (master)
+* Bug 34460: Add can_have_permissions to patron categories (ks25/ksdev/ks-0310-bug-34460-add-can_have_permissions_to_categories, ks25dev/ks-0310-bug-34460-add-can_have_permissions_to_categories)
+* Bug 34460: Add can_have_permissions to patron categories (Bug-34460)
+* Bug 34460: Add can_have_permissions to patron categories
+* [Add ks-0310](https://github.com/KohaSuomi/koha-suomi-utility/commit/e2962e3792faa7a40212154cc43720fda4c66efa) (master)
+* [KohaSuomi/Koha - Aikakatkaisu ei toimi oikein kaikilla näytöillä](https://github.com/KohaSuomi/Koha/issues/1946);
+Vastuutettu: johannaraisa.
+Kommentti: Saattaa mennä niin monimutkaiseksi yrittää erotella ne tuolta javascriptillä, en nyt tiedä voiko tuolle tehdä mitään järkevää.
+* [KohaSuomi/Koha - Kun tietue luodaan kaukolainamoduulin kautta, ei noudeta FA-kuvailupohjan oletusarvoja](https://github.com/KohaSuomi/Koha/issues/2011);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä näyttää olevan jo siellä, kun eihän noita muista poistaa ennen sitä kun kopioidaan se next. Siihen prosessiin ehkä tarvii jotain parannusta.
+* [KohaSuomi/Koha - Helle: Suomi.fi-viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2150);
+Vastuutettu: johannaraisa.
+Kommentti: Mikä tämä tilanne on? Testiviestit on lähetetty jo jonkin aikaa sitten Suomi.fin testille, onko tälle jotain aikataulua?
+* [KohaSuomi/Koha - Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on testeillä tämä testattavana.
+* [KohaSuomi/Koha - Luvitetut tekstiviestien lähettäjänimet palvelimelle](https://github.com/KohaSuomi/Koha/issues/2262);
+Vastuutettu: johannaraisa.
+Kommentti: Helleen lisätty uusi arvo 28.4.
+* [KohaSuomi/koha-plugin-visual-label-tool - Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);
+Vastuutettu: johannaraisa.
+Kommentti: Lisäsin tuon quoted-sanan siihen alkuun, jos auttaa. Ei noista virheilmoituksista pidä tehdä liian pitkiä, ohjeet on erikseen.
+
+
 ## Viikko 18
 Aika: Ma 27.4.2026<br />
 Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
