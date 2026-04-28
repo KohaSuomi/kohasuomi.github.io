@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
@@ -36,6 +36,9 @@ Etelästä pohjoiseen
 
 **Vaski**
 * Ei kummempaa raportoitavaa
+
+**Siilinjärvi**
+* Ei mainittavaa, paitsi Siili-testin kirjautumissivuksi oli salaperäisesti vaihtunut jotain outoa, se on jo korjattu ennalleen.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-17) - [Palaa sivun alkuun](/paakayttajat2026)
 
