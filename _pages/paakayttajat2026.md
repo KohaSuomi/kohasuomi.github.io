@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes),
 
 **Yhteiset**
 * [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
@@ -27,6 +27,11 @@ Läsnä:
 * [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192) kaipaisi kommentteja, kuinka asian kanssa edetään (vai tarvitseeko edetä mitenkään). /Emmi
 
 Etelästä pohjoiseen
+
+**Kirkes**
+ * Elina ollut IT-palveluihin yhteydessä tekstiviestin lähettäjän luvitus -asiasta, tarkoitus olisi rekisteröidä viestien lähettäjäksi "kirkes".
+ * Erika kopioinut Kohan ohjeesta noutoilmoituspohjan Kirkes-Kohaan, koska meillä ei ole ollut pohjassa ennen items.barcode-kenttää. Tarkoitus oli saada nidetunnus näkymään tekstareissa, jotta viestit yksilöityisivät. Se ei kuitenkaan ole onnistunut. Tutkitaan seuraavaksi Lastusta saatua viestipohjaa.
+ * Keskusteltiin tavoista saada lukukirjapaketti lainattavaksi yhdelle koodille, jolloin jokaista paketin nidettä ei tarvitsisi käsitellä erikseen lainatessa ja palautettaessa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-17) - [Palaa sivun alkuun](/paakayttajat2026)
 
