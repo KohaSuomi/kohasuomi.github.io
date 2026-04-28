@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
 * [Kaukolainan "Maksettu hinta"-kenttä ei hyväksy pelkkää numeroa 0](https://github.com/KohaSuomi/Koha/issues/2138#issuecomment-4265833916) - mielipiteitä siitä, miten edetään?
+  * Ei ole tarvetta tehdä mitään. Tiketti suljettiin.
 * Tikettien seuranta -projektiin uusia valittavia vaihtoehtoja
   * Testattavat-välilehdelle lisätty mahdollisuus suodattaa vasemmasta reunasta testaajan mukaan. Tämä toivottavasti auttaa silloin, kun etsitte pääkäyttäjien testattavaksi merkittyjä tikettejä.
     * <img width="676" height="388" alt="kuva" src="https://github.com/user-attachments/assets/9acec360-d191-4d11-a4b8-3df94046afde" />
