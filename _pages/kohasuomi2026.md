@@ -45,6 +45,9 @@ Kommentti: Helleen lisätty uusi arvo 28.4.
 * [KohaSuomi/koha-plugin-visual-label-tool - Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);
 Vastuutettu: johannaraisa.
 Kommentti: Lisäsin tuon quoted-sanan siihen alkuun, jos auttaa. Ei noista virheilmoituksista pidä tehdä liian pitkiä, ohjeet on erikseen.
+* [KohaSuomi/koha-suomi-utility - Kahden kloonin tuki prod/test-ympäristöille](https://github.com/KohaSuomi/koha-suomi-utility/issues/125);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
 
 
 ## Viikko 18
