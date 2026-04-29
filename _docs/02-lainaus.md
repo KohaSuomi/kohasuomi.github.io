@@ -619,7 +619,7 @@ _Aseta kirjasto_ -toiminnolla. Valitse kirjasto alasvetovalikosta ja klikkaa
 Tämä raportti näyttää kaikki varaukset, jotka kohdistuvat kirjastosi aineistoon. Raportti käyttää hyväksi kuljetusten painomatriisia, joka pitää olla määritelty kimppasi kirjastoille.
 
 Tämä ei ole Koha-Suomen ylläpitämä raportti hyllyvarausten
-käsittelyyn. Raportti ei välttämättä toimi kaikilta osin.
+käsittelyyn. Raportti ei välttämättä toimi kaikilta osin, ja siksi se voi myös olla piilotettu omassa kimpassasi. 
 {: .notice--warning}
 
 ![](/assets/files/docs/Lainaus/varausjono.PNG)
