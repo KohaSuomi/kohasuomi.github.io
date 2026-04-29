@@ -659,18 +659,17 @@ muutoksia käyttäjien toiveiden perusteella.
 
 Vinkkejä:
 
-- Voit valita *Sarakkeet*-valikosta, mitä sarakkeita raportissa näytetään.
+- Voit valita *Sarakkeet*-valikosta, mitä sarakkeita raportissa näytetään. Muista, että valitsemasi suodatukset ja rajaukset säilyvät samana koko istunnon ajan, mikäli kimppasi pääkäyttäjä on niin määritellyt. 
 - Valitse kirjasto-sarakkeista (Hyllyssä/Noutopaikka) oma kirjasto, jolloin pystyt helposti
   tarkistamaan omassa kirjastossa paikalla olevat varaukset ja joiden
   noutopiste on myös oma kirjastosi.
 - Kirjastolyhenne näkyy oranssin värisenä, jos nide löytyy varauksen noutokirjastosta.
 - Jos kimpassasi on käytössä poimintaryhmät, raportilla näkyy boldattuna ne kirjastot, jotka kuuluvat noutokirjaston kanssa samaan poimintaryhmään.
 - Sivulla näkyy pääkäyttäjäsi määrittämä oletusmäärä varauksia. Tarvittaessa voit valita *Näytä_Kaikki*, jolloin saat kaikki varaukset samalle sivulle.
-- Voit rajata listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
+- Voit rajata listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan. 
 - Voit järjestää hakutuloksia otsikkorivin kaksisuuntaisista nuolista nousevaan tai laskevaan järjestykseen.
 - Tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
-  aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
-  ylimmäiseksi tulee vanhimmat varaukset.
+  aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin ylimmäiseksi tulee vanhimmat varaukset.
 
 Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
 niteitä saatavana. Ensimmäisenä kannattaa tarkistaa ne varaukset, joissa
