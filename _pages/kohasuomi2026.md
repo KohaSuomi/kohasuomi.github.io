@@ -14,8 +14,15 @@ hidden: true
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
 ## Viikko 19
-Aika: Ma 4.5.2026
+Aika: Ma 4.5.2026<br />
 Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muut asiat
+* Tähän [tikettiin #1695](https://github.com/KohaSuomi/Koha/issues/1695) on yli vuosi sitten kommentoitu, että katsotaan, miten edistetään sen jälkeen, kun on tehty yhtesöön tiketti. Tikettiä ei ole sen jälkeen katsottu.
+* Viikon 19 päivitys
 
 ### Viikolla 18 tehty
 
