@@ -54,6 +54,11 @@ Etelästä pohjoiseen
 **Lumme**
 * Ei mainittavaa.
 
+**OUTI**
+* Oulun elokuvakeskuksen kirjaston aineistoa voi taas varata muutaman vuoden tauon jälkeen. Viime viikolla muokattiin sen aineisto varattavaksi.
+* lasten ja nuorten hyllypaikkamuutoksen ja signum-muutoksen valmistelua. Viikolla 21 tehdään OUTI-kirjastojen hyllypaikka-ajot ja toukokuun lopulla/kesäkuun alussa Pasi tekee signum-ajot.
+* Oulussa Webkake on saatu tyhjennettyä tilauksista ja suunnitelmissa on irtisanoa se toukokuun lopussa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-17) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 17
