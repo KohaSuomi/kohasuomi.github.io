@@ -28,7 +28,6 @@ Läsnä:
 
 #### Johanna
 
-#### johannaraisa
 * [Improve error message](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/616dc881549668184cc72b54e1ee728ff8abfe55) (master)
 * Bug 34460: Add can_have_permissions to patron categories (ks25/ksdev/ks-0310-bug-34460-add-can_have_permissions_to_categories, ks25dev/ks-0310-bug-34460-add-can_have_permissions_to_categories)
 * Bug 34460: Add can_have_permissions to patron categories (Bug-34460)
@@ -55,6 +54,31 @@ Kommentti: Lisäsin tuon quoted-sanan siihen alkuun, jos auttaa. Ei noista virhe
 * [KohaSuomi/koha-suomi-utility - Kahden kloonin tuki prod/test-ympäristöille](https://github.com/KohaSuomi/koha-suomi-utility/issues/125);
 Tiketti avattu.
 Vastuutettu: johannaraisa.
+
+#### Anneli
+
+* Julkaisin jo edellisen viikon perjantaina tulleen Hallituksen tiedotteen: [Koha-Suomen hallituksen tiedote 4/2026 julkaistu](https://github.com/KohaSuomi/Koha/discussions/2287)
+* Tutustuin Johannan tekemään [Toimintalokien muodostumisen dokumentaation](https://github.com/KohaSuomi/koha-suomi-utility/issues/88).
+* Tein [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291) -tiedotteen. Lisäsin tänne myöhemmin kommenttina tiedon, että [Tiketti 2011](https://github.com/KohaSuomi/Koha/issues/2011) on päätynyt versionvaihdossa vahingossa tuotantoon.
+* Testasin tikettiä [Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11)
+* Lisäsin Tikettien seuranta -projektiin uudet vaihtoehdot "Koha-Suomen branch" ja "Tarvittavien testien määrä". Lisäsin myöhemmin Tarvittavien testien määrä -tunnisteeseen vaihtoehdon "Kaikki" niitä tapauksia varten, jolloin kaikkien kimppojen pitää testata tiketti. Pääkäyttäjien viikkopalaverissa päätettiin lisätä myös vaihtoehto "Testanneet kimpat", johon pääkäyttäjät voivat kirjata, kun joku heidän kimpasta on testannut jo tiketin. Näin heidän ei tarvitse pitää erillistä kirjausta siitä, mitä heidän kimpassaan on jo testattu ja kimpan muut testaajat voivat keskittyä muihin tiketteihin.
+* Testasin [Varausten vienti raportilta erämuokkaukseen epäonnistuu isoilla määrillä #1980](https://github.com/KohaSuomi/Koha/issues/1980) -tikettiä.
+* Testasin [Varausten priorisointi: Uusi asetus, johon määritetään, kuinka monta kertaa varaus voidaan ohittaa #2029](https://github.com/KohaSuomi/Koha/issues/2029) -tikettiä.
+* Testailin [Tilauskorissa näytetään kaikki sarakkeet, vaikkei käyttäjä olisi valinnut niitä näkyville #2288](https://github.com/KohaSuomi/Koha/issues/2288) pariin kertaan viikon aikana meidän testeillä, tuotannoissa ja yhteisön sandboxeissa. Sain toistettua ongelman tuotannoissa, mutta en testeillä tai sandboxeissa.
+* Kävimme matrixissa keskustelua seuraavasta versionvaihdosta, sen aikatauluista ja hallinnoinnista.
+* Tiistaina oli pääkäyttäjien [viikkopalaveri](https://koha-suomi.fi/paakayttajat2026#viikko-18)
+* Järjestelin Tikettien seuranta -projektissa Testattavat-välilehteä uusiksi, jotta uudet lisätyt vaihtoehdot näkyvät siellä paremmin ja auttavat pääkäyttäjiä näkemään nopealla silmäyksellä, mitä heidän pitäisi vielä testata.
+* Tein [Vanhentuneet noutamattomat varaukset -raportti päivitettävä käyttämään old_reserves.cancellation_reason-saraketta #2290](https://github.com/KohaSuomi/Koha/issues/2290) -tiketin ja toteutin sen, kun old_reserves.cancellation_reason-kenttään oli alkanut viikkopäivityksen jälkeen kertymään tietoja. Laitoin raportin testattavaksi kaikille.
+* Kävin läpi Versionvaihto-projektin tikettejä ja siirsin sellaisia tikettejä muualle, jotka oli vastuutettu jollekin muulle kuin Koha-Suomen henkilökunnalle. Maanantain viikkopalaverissa sovittiin, että kaikki käyvät omat tiketit läpi ja siirtävät ne muualle pois Versionvaihdosta.
+* Testasimme Larin kanssa [Cancellation_reasonin poistaminen maksurivin description-tiedoista vanhentuneen varauksen maksun syntyessä #2293](https://github.com/KohaSuomi/Koha/issues/2293) -tiketin korjausta outi-testillä ja totesimme sen toimivan Merkitsimme tiketin vietäväksi tuotantoon viikolla 19.
+* Lisäsin vappu-tervehdyksen Koha-Suomen henkilökunnalta jokaisen kimpan uutisiin.
+* Valmistelin Kirjastopäivillä jaettavia pinssejä.
+* Lisäsin raporttikirjastoon [Raportti, joka hakee tietueet, joissa 008:ssa on kielikoodina swe ja 040b on tyhjä #2286](https://github.com/KohaSuomi/Koha/issues/2286) -tiketin raportin.
+* Etsin tikettiin [Koha antoi virheen 500, kun asiakkaalle koitti lainata toiselle asiakkaalle varatun/laiantun kirjan #2251](https://github.com/KohaSuomi/Koha/issues/2251) tietoja ja korjauksia Bugzillasta. Sieltä löytyi yksi bugitiketti, joka saattaisi liittyä ongelmaan.
+* Tutkin tiketin [Turha toisto pois popparista, joka tulee kun varataan toisen kirjaston asiakkaalle #86](https://github.com/KohaSuomi/Koha-translations/issues/86) toistumis-ongelmaa, mutta totesin, että kunnollinen korjaus vaatisi alkuperäisen käännettävän tekstin muuttamista erilaiseksi. Käytännössä pystyn lisäämään yhden pisteen väliin, joka ei juurikaan ongelmaan auta.
+* Tieteellisten kirjastojen Slackissa tuli pyyntö, voisiko joku Koha-Suomesta testata heidän korjaustaan tikettiin [SuspendHoldsIntranet have no effect](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41227). Testasin korjausta sandboxissa ja sign offasin sen.
+* Uutiskirjeen julkaisu
+
 
 
 ## Viikko 18
