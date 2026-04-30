@@ -28,7 +28,7 @@ Pohjoisesta etelään
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
@@ -71,7 +71,8 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Oulun elokuvakeskuksen kirjaston aineistoa voi taas varata muutaman vuoden tauon jälkeen. Viime viikolla muokattiin sen aineisto varattavaksi.
-* lasten ja nuorten hyllypaikkamuutoksen ja signum-muutoksen valmistelua. Viikolla 21 tehdään OUTI-kirjastojen hyllypaikka-ajot ja toukokuun lopulla/kesäkuun alussa Pasi tekee signum-ajot.
+* Lasten ja nuorten hyllypaikkamuutoksen ja signum-muutoksen valmistelua. Viikolla 21 tehdään OUTI-kirjastojen hyllypaikka-ajot ja toukokuun lopulla/kesäkuun alussa Pasi tekee signum-ajot.
+* Elokuvakeskuksella on käytössä eri luokitusjärjestelmä (Classification Scheme for Literature on Film & Television) jonka vuoksi itemcallnumber ja cn_sort-kentät poikkeavat muista OUTIn kokoelmista. Tämä huomioidaan signum-ajossa.
 * Oulussa Webkake on saatu tyhjennettyä tilauksista ja suunnitelmissa on irtisanoa se toukokuun lopussa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-18) - [Palaa sivun alkuun](/paakayttajat2026)
