@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 19
+
+Aika: Ti 5.5.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 19 päivitys
+* Uusia ja muokattuja raportteja:
+  *  [008=swe, 040b=tyhjä ja 336a=text](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-008ssa-on-kielikoodina-swe-ja-040b-on-tyhj%C3%A4-sek%C3%A4-336a-on-text)
+  *  Vanhentuneet noutamattomat varaukset -raportti muokattu hakemaan varaukset cancellation_reason-tiedon perusteella. Kaipaa vielä testailuja [tikettiin #2290](https://github.com/KohaSuomi/Koha/issues/2290).
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-19) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
@@ -59,7 +74,7 @@ Etelästä pohjoiseen
 * lasten ja nuorten hyllypaikkamuutoksen ja signum-muutoksen valmistelua. Viikolla 21 tehdään OUTI-kirjastojen hyllypaikka-ajot ja toukokuun lopulla/kesäkuun alussa Pasi tekee signum-ajot.
 * Oulussa Webkake on saatu tyhjennettyä tilauksista ja suunnitelmissa on irtisanoa se toukokuun lopussa.
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-17) - [Palaa sivun alkuun](/paakayttajat2026)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-18) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 17
 
