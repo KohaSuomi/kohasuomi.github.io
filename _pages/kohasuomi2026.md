@@ -79,7 +79,16 @@ Vastuutettu: johannaraisa.
 * Tieteellisten kirjastojen Slackissa tuli pyyntö, voisiko joku Koha-Suomesta testata heidän korjaustaan tikettiin [SuspendHoldsIntranet have no effect](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41227). Testasin korjausta sandboxissa ja sign offasin sen.
 * Uutiskirjeen julkaisu
 
-
+#### Emmi
+* [FloatRules-säännöt käyttäytyvät kummallisesti kun myös kellutusryhmä on käytössä ko. kirjastolla #2285](https://github.com/KohaSuomi/Koha/issues/2285): Kellutussääntöjen mukaan kellumattoman aineiston pyrkimistä sijaintikirjastoon yritettiin toisintaa kehittäjän omassa testiympäristössä siinä onnistumatta. OUTI:ssa tilanne saadaan kuitenkin toistumaan edelleen, luultavasti jokin asetus OUTI:ssa aiheuttaa nyt ongelmia. Testataan vielä lisää.
+* [Lastu: Hollolan Finvoice-laskutuksen käyttöönotto #2274](https://github.com/KohaSuomi/Koha/issues/2274): 30.4. pidetyssä palaverissa testattiin yhteyden muodostamista uudestaan, yhteys saatiin toimimaan nyt oikein. Ratkaistavaksi jäi vielä tekijätiedottomien tietueiden näkyminen laskulla. Tuotantoon siirtyminen tehdään 29.5.
+* [Tilauksen peruutus ei varoita että niteet poistetaan #2050](https://github.com/KohaSuomi/Koha/issues/2050): Yhteisöön tehty ehdotus, jossa tilauksen peruutuksen yhteydessä kerrotaan selvästi, että tilaukseen liityvät niteet poistetaan. Tätä ei kuitenkaan tuoda meille sellaisenaan, vaan käytetään korjauksena erilistä CSS-rimpsua siihen asti kunnes korjaus on julkaistu yhteisössä ja se tulee meille versionvaihdossa. Kyseessä on koodillisesti pieni korjaus ja tällaisten pienten korjausten kertyminen kasvattaa meilä käytössä olevien kehityshaarojen määrää yllättävän nopeasti. Yritetään siis välttää tätä tilanneta vaihtoehtoisilla korjauksilla.
+* FinnaMaterialTypes-ajot koskemaan myös jo poistettuja tietueita: Kimppoihin on aikoinaan jätetty ajamatta Finnan aineistolajit poistettuihin tietueisiin. Sekä finnamaterials.pl että finnamaterial-to-itemtype.pl ajoihin on lisätty deleted-vipu ja sen toimintaa on testataan Vaskissa. Jos ajot onnistuvat kuten pitääkin, tehdään ajot tuotantoihin.
+* Palvelinten siivous jatkui, vanhentuneita tiedostoja poistettiin kokonaan.
+* Kehityshaaralistan siivous; kehityshaarojen nimiä on vaihdettu vastaamaan niiden nykysiä nimiä, uudessa versiossa toiseen kehityshaaraan yhdistetyt haarat on siirretty listalta pois, yhteisöstä tulleiden ominaisuuksien tietoja päivitetty
+* Uutiskirjeeseen lisätty kuvaus tämän vuoden versionvaihdosta.
+* Pääkäyttäjien viikkopalaveri 28.9.2026
+* Yhteisöpalaveri 29.4.2026
 
 ## Viikko 18
 Aika: Ma 27.4.2026<br />
