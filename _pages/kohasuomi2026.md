@@ -77,7 +77,7 @@ Vastuutettu: johannaraisa.
 * Etsin tikettiin [Koha antoi virheen 500, kun asiakkaalle koitti lainata toiselle asiakkaalle varatun/laiantun kirjan #2251](https://github.com/KohaSuomi/Koha/issues/2251) tietoja ja korjauksia Bugzillasta. Sieltä löytyi yksi bugitiketti, joka saattaisi liittyä ongelmaan.
 * Tutkin tiketin [Turha toisto pois popparista, joka tulee kun varataan toisen kirjaston asiakkaalle #86](https://github.com/KohaSuomi/Koha-translations/issues/86) toistumis-ongelmaa, mutta totesin, että kunnollinen korjaus vaatisi alkuperäisen käännettävän tekstin muuttamista erilaiseksi. Käytännössä pystyn lisäämään yhden pisteen väliin, joka ei juurikaan ongelmaan auta.
 * Tieteellisten kirjastojen Slackissa tuli pyyntö, voisiko joku Koha-Suomesta testata heidän korjaustaan tikettiin [SuspendHoldsIntranet have no effect](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41227). Testasin korjausta sandboxissa ja sign offasin sen.
-* Uutiskirjeen julkaisu
+* Julkaisin [Uutiskirjeen 1/2026](https://github.com/KohaSuomi/Koha/discussions/2301)
 
 #### Emmi
 * [FloatRules-säännöt käyttäytyvät kummallisesti kun myös kellutusryhmä on käytössä ko. kirjastolla #2285](https://github.com/KohaSuomi/Koha/issues/2285): Kellutussääntöjen mukaan kellumattoman aineiston pyrkimistä sijaintikirjastoon yritettiin toisintaa kehittäjän omassa testiympäristössä siinä onnistumatta. OUTI:ssa tilanne saadaan kuitenkin toistumaan edelleen, luultavasti jokin asetus OUTI:ssa aiheuttaa nyt ongelmia. Testataan vielä lisää.
