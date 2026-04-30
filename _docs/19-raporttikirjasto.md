@@ -3353,6 +3353,22 @@ AND ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') NOT IN
 LIMIT 200
 ```
 
+### Tietueet, joissa 008:ssa on kielikoodina swe ja 040b on tyhjä sekä 336a on text
+
+Raportti hakee tietueet, joissa 008:ssa on kielikoodina swe ja 040b on tyhjä sekä 336a-kentässä on 'text'. Raportti on tehty kuvailun korjaustarpeen vuoksi, liittyy [tikettiin #2286](https://github.com/KohaSuomi/Koha/issues/2286).
+
+Lisätty: 30.4.2026<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT biblionumber,ExtractValue(bm.metadata,'//datafield[@tag="245"]/subfield[@code="a"]') AS 'Nimeke'
+FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata,'//datafield[@tag="040"]/subfield[@code="b"]') = ''
+AND SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),36,3) = 'swe'
+AND ExtractValue(bm.metadata,'//datafield[@tag="336"]/subfield[@code="a"]') = 'text'
+AND ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
+```
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
