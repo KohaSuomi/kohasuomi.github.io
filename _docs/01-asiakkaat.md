@@ -173,19 +173,8 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
-#### 1.2.1.1. Sotuteekki
 
-Kohaan on tehty Suomessa ominaisuus, **Sotuteekki**, jonne tallennetaan
-tietoturvallisesti asiakkaiden henkilötunnukset erilleen muista asiakastiedoista. Tiedot yhdistyvät kahden tietokannan välillä SOTU-avaimella. Kun asiakastiedot poistetaan Kohasta, henkilötunnus ja Sotu-avain säilyvät Sotuteekissä.  
-
-Sotuteekki on yhteinen kaikille Koha-Suomen Koha-kimpoille/kirjastoille. Käyttäjälle se näkyy siten, että uuden asiakkaan henkilötunnus löytyy sotuteekistä, jos se on jo aiemmin toisessa kimpassa sinne lisätty. 
-
-![Havainnollistaminen siitä, miten SOTU-siilo ja Kohan tietokanta yhdistyvät toisiinsa](/assets/files/docs/Asiakkaat/sotusiilo.png)
-
-Sotuteekissa on myös erillinen käyttöliittymä liitännäiset-osiossa, jossa esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
-sotu-avaimella, jos se on tarpeen. Heillä on erilliset tunnukset tarkistusta varten.
-
-Sotuteekistä tarkemmin Kohan ohje suomeksi -ohjeen
+Sotuteekistä ja sotu-avaimesta tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [12.13.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12133-sotuteekki)
 
 ### 1.2.2. Nimi, syntymäaika, muu nimi ja varaustunnus
