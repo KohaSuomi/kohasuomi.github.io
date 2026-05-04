@@ -95,7 +95,9 @@ Vastuutettu: johannaraisa.
 * Yhteisöversion asennus omalle koneelle, yhteisöbugien testausta
 * XSLT: yhtenäistetyn nimekkeen näkymiseen hakutuloslistalla https://github.com/KohaSuomi/Koha/issues/2289
 * 740-kenttä näkyviin Kuvaukset-välilehdelle https://github.com/KohaSuomi/Koha/issues/2284
-* Signumien korjaukseen ohjelmanpätkää, jatkuu https://github.com/KohaSuomi/Koha/issues/2201 
+* Signumien korjaukseen ohjelmanpätkää, jatkuu https://github.com/KohaSuomi/Koha/issues/2201
+* Sanasto kyseli Vaskin KIPAsta, ei lopulta aiheuttanut mitään koska sen tilastot menevät jo sanastolle
+
 
 ## Viikko 18
 Aika: Ma 27.4.2026<br />
