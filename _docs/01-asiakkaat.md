@@ -294,15 +294,11 @@ poista sitä näkyvistä. **Jos valitsit alussa väärän asiakastyypin, niin al
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png" alt="" style="width:90.0%" />
 
-\- _Tullut asiakkaaksi / Rekisteröintipvm_ -päivämäärä tulee automaattisesti kuluvan päivän
+\- Rekisteröintipvm_ -päivämäärä tulee automaattisesti kuluvan päivän
 mukaiseksi.
 
-\- _Vanhenee_ -kohtaan ei tarvitse merkitä mitään. Tieto tulee
+\- _Vanhenee_(jos tyhjä, lasketaan automaattisesti) -kohtaan ei tarvitse merkitä mitään. Tieto tulee
 automaattisesti asiakaslajille tehtyjen määritysten mukaan.
-
-\- _Huomautus (näkyy verkkokirjastossa)_ -kohtaan voi merkitä
-huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
-näkyy OPACissa ja Finnassa. Huom! kaikissa kimpoissa ei ole kuvassa näkyvää kenttää käytössä.
 
 \- _Huomautus_ -laatikkoon tallennettu huomautus
 näkyy virkailijoille Kohassa tiedot- ja lainausnäytöillä.
