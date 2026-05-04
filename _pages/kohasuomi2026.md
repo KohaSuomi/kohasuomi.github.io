@@ -91,6 +91,12 @@ Vastuutettu: johannaraisa.
 * Pääkäyttäjien viikkopalaveri 28.9.2026
 * Yhteisöpalaveri 29.4.2026
 
+#### Pasi
+* Yhteisöversion asennus omalle koneelle, yhteisöbugien testausta
+* XSLT: yhtenäistetyn nimekkeen näkymiseen hakutuloslistalla https://github.com/KohaSuomi/Koha/issues/2289
+* 740-kenttä näkyviin Kuvaukset-välilehdelle https://github.com/KohaSuomi/Koha/issues/2284
+* Signumien korjaukseen ohjelmanpätkää, jatkuu https://github.com/KohaSuomi/Koha/issues/2201 
+
 ## Viikko 18
 Aika: Ma 27.4.2026<br />
 Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
