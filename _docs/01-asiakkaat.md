@@ -73,7 +73,7 @@ tai käytä tyhjää merkkiä numeroiden jaksotteluun. Tämä hakuehto hakee Mat
 Anna asiakkaan osoite tai osoitteen osa ja valitse hakutyypiksi _sisältää_
 
 \- Syntymäaika:  
-Voit hakea muodoissa PP.KK.VVVV, PP/KK/VVVV tai VVVV-KK-PP
+Voit hakea muodoissa PP.KK.VVVV tai VVVV-KK-PP
 
 \- Etunimi:
 Tee asiakashaku etunimellä tai kaikilla etunimillä. Valitse hakutyypiksi _sisältää_
