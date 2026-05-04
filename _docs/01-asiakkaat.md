@@ -136,7 +136,7 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Vie sotu-siilo
 
 ![](/assets/files/docs/Asiakkaat/Sotusiilo_Ohita.png)
 
-Jos asiakkaalla ei ole sotu-avainta, ei asiakkaan tallennus onnistu ennen kuin on painettu Lisää hetu -kentän vieressä olevaa _Ohita_-nappia. Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai Ohita-napin painallusta, on sivun yläreunassa oleva _Tallenna_-nappi epäaktiivinen ja napin viereen ilmestyy ohjeteksti _Lisää tai ohita henkilötunnus ensin_. Ohjeteksti ilmestyy, kun hiiren vie Tallenna-napin päälle.
+Jos asiakkaalla ei ole henkilötunnusta eikä sitä sen vuoksi hänelle tallenneta, niin uuden asiakkaan tallennus onnistuu vasta, kun painat Lisää hetu -kentän vieressä olevaa _Ohita_-nappia. Jos asiakastiedot yrittää tallentaa ennen sotu-avaimen lisäystä tai ilman Ohita-napin painallusta, on sivun yläreunassa oleva _Tallenna_-nappi epäaktiivinen ja napin viereen ilmestyy ohjeteksti _Lisää tai ohita henkilötunnus ensin_. Ohjeteksti ilmestyy, kun hiiren vie Tallenna-napin päälle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaa_tai_ohita.png)
 
@@ -146,7 +146,7 @@ Jos asiakkaalla ei ole sotu-avainta, ei asiakkaan tallennus onnistu ennen kuin o
 {: .notice--warning}
 
 Kun henkilötunnus on viety Sotu-siiloon onnistuneesti, siirtyy Sotu-avain automaattisesti kirjoitussuojattuun kenttään nimeltä
-Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain (kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. 
+Sotu-avain tai Hetu-avain (kentän nimi voi vaihdella kimpan mukaan) ja asiakkaan syntymäaika muodostuu automaattisesti Syntymäaika-kenttään. 
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain3.png)
 
@@ -197,7 +197,7 @@ kohdassa [12.13.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1213
 - Muu nimi- kenttään voi tallentaa asiakkaan kutsumanimen, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään. 
 - Jos varaustunnus ei muodostu uudelle asiakkaalle automaattisesti kuten kuvassa, niin sen saa klikkaamalla Varaustunnus-kentän vieressä olevaa kolmea pistettä.
 
-Huomaathan, että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot tai kentät voivat olla eri nimisiä.
+Huomaathan, että kimpassasi ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot tai kentät voivat olla eri nimisiä.
 
 Asiakastyyppeille on määritetty ikärajoituksia. Ohjelma tarkistaa syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
 ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
@@ -215,33 +215,30 @@ Huom. kaikissa kimpoissa ei ole kuvassa näkyvää _Näytä takaajille lainat_-v
 
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
-Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse tarvittaessa
+Takaajaa voi hakea nimellä tai kirjastokortin numerolla. Valitse tarvittaessa
 alasvetovalikoista sopivat kirjasto- ja asiakastyyppi-vaihtoehdot.
 
 <img src="/assets/files/docs/Asiakkaat/Haehuoltaja.png" alt="" style="width:90.0%" />
 
-Saat listan hakuun sopivista asiakkaista. Klikkaa _Valitse_ tai _Select_-painiketta
+Saat tuloslistan hakuun sopivista asiakkaista. Klikkaa _Valitse_ tai _Select_-painiketta
 oikean henkilön kohdalla. 
 
 <img src="/assets/files/docs/Asiakkaat/Haetakaaja.png" alt="" style="width:90.0%" />
 
-Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi sekä kirjastokorttinumero. 
-
-Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
-vaihtoehdot voivat vaihdella kimpoissa.
+Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi, kirjastokorttinumero sekä takaajan suhde asiakkaaseen. Suhde voi olla joissain kirjastoissa valittavissa erikseen ja vaihtoehdot voivat vaihdella kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
 Voit tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. Lisää huoltajatiedot kimppasi/kirjastosi ohjeiden mukaan.
 
-Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
+Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja myöhästymishuomautukset.
 {: .notice--warning}
 
 ![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
 Jos takaajaa ei löydy asiakasrekisteristä, avaa selaimessa uusi välilehti ja
-tallenna takaajan tiedot rekisteriin. Palaa tallennuksen jälkeen lapsiasiakkaan
-tietoihin, jotka ovat edelleen auki toisella välilehdellä ja tee takaajahaku uudelleen.
+tallenna takaajan tiedot rekisteriin. Palaa takaajan tietojen tallennuksen jälkeen lapsiasiakkaan
+tietoihin, jotka ovat edelleen auki toisella välilehdellä. Tee takaajahaku uudelleen.
 
 Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
