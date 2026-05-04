@@ -759,6 +759,13 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 
 ### 12.13.3 Sotuteekki
 
+Kohaan on tehty Suomessa ominaisuus, **Sotuteekki**, jonne tallennetaan
+tietoturvallisesti asiakkaiden henkilötunnukset erilleen muista asiakastiedoista. Tiedot yhdistyvät kahden tietokannan välillä SOTU-avaimella. Kun asiakastiedot poistetaan Kohasta, henkilötunnus ja Sotu-avain säilyvät Sotuteekissä.  
+
+Sotuteekki on yhteinen kaikille Koha-Suomen Koha-kimpoille/kirjastoille. Koha-käyttäjälle se näkyy siten, että uuden asiakkaan henkilötunnus löytyy sotuteekistä, jos se on jo aiemmin toisessa kimpassa sinne lisätty. 
+
+![Havainnollistaminen siitä, miten SOTU-siilo ja Kohan tietokanta yhdistyvät toisiinsa](/assets/files/docs/Asiakkaat/sotusiilo.png)
+
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
