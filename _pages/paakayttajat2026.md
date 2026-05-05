@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
@@ -32,6 +32,10 @@ Pohjoisesta etelään
 
 **Kyyti**
 * Kyyti-Finnan viestiasetusten muuttaminen saatiin vihdoin korjattua 22.4. Versiopäivityksestä lähtien eli kuukauden verran oli poissa käytöstä. Tiketti [2277](https://github.com/KohaSuomi/Koha/issues/2277)
+
+**Lumme**
+* Uusiin pikalainoihin oli Kohassa jostain syystä tullut lainauksen yhteydessä ilmoitus lyhennetystä laina-ajasta ja 14pv laina-aika 10pv laina-ajan sijaan. Ongelma ei toistunut tällä viikolla.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-19) - [Palaa sivun alkuun](/paakayttajat2026)
 
