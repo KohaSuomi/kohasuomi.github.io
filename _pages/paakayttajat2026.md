@@ -10,6 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 20
+
+Aika: Ti 12.5.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**:
+* Testeille on lisätty uusi järjestelmäasetus [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs), jolla pitää pääkäyttäjien itse käydä laittamassa ajastetut ajot päälle tarvittaessa. Tarkemmat tiedot oheisessa dokumentaatiossa.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
