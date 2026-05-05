@@ -23,6 +23,9 @@ Läsnä:
 
 ### Muut asiat
 * Asiakasvarmenne vanhenee 7.9.2026. Uuden varmenteen jakeluaikataulu päätettävä.
+* [Kvartaalien seuranta](https://github.com/orgs/KohaSuomi/projects?query=is%3Aopen)
+  * onko tikettien toteutus alkanut päätetyssä aikataulussa?
+  * voiko valmistuneet kvartaalit sulkea?
 
 ### Viikolla 19 tehty
 
