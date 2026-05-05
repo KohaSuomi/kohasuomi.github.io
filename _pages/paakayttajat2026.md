@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
