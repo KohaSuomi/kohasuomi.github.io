@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
@@ -26,6 +26,9 @@ Pohjoisesta etelään
 
 **OUTI**
 * Oulun kaupungin Teamseihin tulee käyttöön 11.5.2026 kaksivaiheinen tunnistautuminen joko esim. Authenticator-sovelluksella tai sähköpostiin lähetettävällä koodilla.
+
+**Lappi**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-19) - [Palaa sivun alkuun](/paakayttajat2026)
 
