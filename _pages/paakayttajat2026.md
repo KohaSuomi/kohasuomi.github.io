@@ -16,7 +16,7 @@ Aika: Ti 5.5.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 19 päivitys
+* [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
 * Uusia ja muokattuja raportteja:
   *  [008=swe, 040b=tyhjä ja 336a=text](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-008ssa-on-kielikoodina-swe-ja-040b-on-tyhj%C3%A4-sek%C3%A4-336a-on-text)
   *  Vanhentuneet noutamattomat varaukset -raportti muokattu hakemaan varaukset cancellation_reason-tiedon perusteella. Kaipaa vielä testailuja [tikettiin #2290](https://github.com/KohaSuomi/Koha/issues/2290).
