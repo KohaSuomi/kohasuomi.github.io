@@ -20,6 +20,7 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 * Uusia ja muokattuja raportteja:
   *  [008=swe, 040b=tyhjä ja 336a=text](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#tietueet-joissa-008ssa-on-kielikoodina-swe-ja-040b-on-tyhj%C3%A4-sek%C3%A4-336a-on-text)
   *  Vanhentuneet noutamattomat varaukset -raportti muokattu hakemaan varaukset cancellation_reason-tiedon perusteella. Kaipaa vielä testailuja [tikettiin #2290](https://github.com/KohaSuomi/Koha/issues/2290).
+* Testejä ei tehdä toistaiseksi uusiksi, koska testeillä on työnalla [Jaetun kuvailutietovarannon muodostaminen](https://github.com/KohaSuomi/Koha/issues/2253)
 
 Pohjoisesta etelään
 
