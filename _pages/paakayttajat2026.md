@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
@@ -51,6 +51,11 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Eipä mainittavaa.
+
+**Vaski**
+* Mietitty mihin omiin liitännäisiin KaTi-tietokanta tulee vaikuttamaan ja oltiin jääty pohtimaan Pupen tilannetta. Anneli tarkisti, että työryhmällä on kuitenkin myös Puppe ylhäällä eli asia ok.
+* Sovittiin, että edit_public_list_contents-käyttöoikeuden lisäämisestä halutuille käyttäjille tehdään tiketti (Vaski tekee).
+* Saatu kysely PressReaderin rajapintaan liittyen (kyselyssä tiedustellaan yleisten kirjastojen kantaa kilpailutusta varten). Muille samanlaista kyselyä ei ollut tullut, joten jaettiin se vielä Matrixissa jos jollakulla tulisi siihen mieleen jotakin kommentoitavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-19) - [Palaa sivun alkuun](/paakayttajat2026)
 
