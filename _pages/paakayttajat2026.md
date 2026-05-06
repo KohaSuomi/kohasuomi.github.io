@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**:
 * Testeille on lisätty uusi järjestelmäasetus [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs), jolla pitää pääkäyttäjien itse käydä laittamassa ajastetut ajot päälle tarvittaessa. Tarkemmat tiedot oheisessa dokumentaatiossa.
+* [Toukokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2310)
 
 Etelästä pohjoiseen
 
