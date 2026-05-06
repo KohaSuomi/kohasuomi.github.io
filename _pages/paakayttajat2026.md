@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
@@ -60,6 +60,9 @@ Pohjoisesta etelään
 **Helle**
 * Versionvaihto toi mukanaan Kaukolaina-toimintoon uusia välilehtiä. Välilehtien nimissä mm. ruotsinnos-puutteita. 
 [Kaukolainatoimintoon ruotsinnoksia](https://github.com/KohaSuomi/Koha/issues/2307)
+
+**Kirkes**
+* Telia on tiedustellut, halutaanko tekstiviestien KIRKES-lähettäjätunnus luvittamisen lisäksi suojata. Suojaaminen voisi olla järkevää, koska se estäisi mahdolliset väärinkäytökset tai sen, että jokin muukin toimija luvittaisi saman lähettäjätunnuksen. Elina selvittelee asiaa.  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-19) - [Palaa sivun alkuun](/paakayttajat2026)
 
