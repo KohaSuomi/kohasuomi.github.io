@@ -25,6 +25,8 @@ Hakuindeksirajauksissa voi valita mihin kenttään haku kohdistuu. Kirjastorajau
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_rajaus.png)
 
+Versiossa 25.05 tuli uutena järjestelmäasetuksena *ElasticsearchBoostFieldMatch*. Asetuksella voidaan nostaa sellaisten hakutulosten sijaa hakutuloksissa, joiden title-cover-tieto täsmää hakutermiä. Esimerkiksi haettaessa termillä "Suomen laulu", nostetaan hakutuloksissa ylimmäksi ne nimekkeet, joissa title-cover-indeksistä (245a) löytyy täsmällinen vastaavuus. Asetuksen käyttöönotto ei vaadi uudelleen indeksointia. Asetuksen voivat ottaa käyttöön kimpan pääkäyttäjät.
+
 ### 10.1.1. Hakusanojen etuliitteet
 
 Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliitteitä:
@@ -188,9 +190,24 @@ Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä:
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
 
-Versiossa 24.05 nidehaun tuloksiin tuli uutena sarakkeena Lainauspvm, jossa näytetään niteen viimeisin lainauspäivä.
+Versiossa 24.05 nidehaun tuloksiin tuli uutena sarakkeena *Lainauspvm*, jossa näytetään niteen viimeisin lainauspäivä.
 
 ![](/assets/files/docs/Tiedonhaku/nidehaun_sarake_lainauspvm_25.png)
+
+Versiossa 25.05 nidehaun tuloksiin tuli uutena sarakkeena *Hankinnan käsittelypäivä*, jossa näytetään niteen hankintapäivämäärä.
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku36_nidehaku_taulukkoon_sarake_hankinnankasittelypvm.png)
+
+Versiossa 25.05 nidehakuun tuli mahdollisuus luoda jaettava linkki hakutulokseen.
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku34_nidehaku_jaettavalinkki.png)
+
+* Vasemmassa reunassa oleva painike *Kopioi jaettava linkki* kopioi nidehaun valinnat
+* Oikeassa reunassa oleva painike *Kopioi jaettava linkki* kopioi taulukon asettelun
+
+Kimpan pääkäyttäjät pystyvät määrittämään nidehaun tulostaulukossa näytettävät sarakkeet. Näytettävät sarakkeet määritetään taulujen asetukset -sivulla ylläpidossa. Okeassa reunassa olevasta painikkeesta *Määrittele* pääsee taulujen asetuksiin suoraan nidehaun taulun kohdalle.
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku35_nidehaku_taulukon_sarakkeet_konfiguroitavaksi.png)
 
 ### 10.5.1. Tulosten vienti CSV- tai -viivakooditiedostoksi
 
