@@ -19,6 +19,7 @@ Läsnä:
 * Testeille on lisätty uusi järjestelmäasetus [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs), jolla pitää pääkäyttäjien itse käydä laittamassa ajastetut ajot päälle tarvittaessa. Tarkemmat tiedot oheisessa dokumentaatiossa.
 * [Toukokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2310)
 * Uusi raportti [001+003-tuplat](https://github.com/KohaSuomi/Koha/issues/2306)
+  * raportin tarvitsema aputaulu luodaan tuotantoihin viikkopäivityksen yhteydessä. Sitä ennen raportti ei toimi (kuin vaski-testillä, johon aputaulu on luotu).
 
 Etelästä pohjoiseen
 
