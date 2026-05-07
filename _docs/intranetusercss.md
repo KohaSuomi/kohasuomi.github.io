@@ -279,7 +279,7 @@ form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
 
 ### Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen versiosta 25.05 lähtien<br />
 Versio: 24.05
 
 ```
@@ -474,7 +474,7 @@ li.blocker.account_locked { font-weight: 700; }
 
 Rimpsu lisää Tili on lukittu -huomauksen ja Tili on lukittu hallinnollisesti -huomautuksen perään virkailijalle muistutukseksi ohjeen vaihtaa PIN-koodi. Rimpsussa on kieliversio suomelle, ruotsille ja englannille.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeellinen versiosta 25.05 lähtien<br />
 Versio: 24.05
 
 ```
@@ -1014,7 +1014,7 @@ Versio: 24.05
 
 ### Piilota nidehaussa Inventaarionumero-sarake
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeellinen versiosta 25.05 lähtien, koska sarakkeen saa piiloon taulun asetuksista<br />
 Versio 24.05
 
 ```
@@ -1148,7 +1148,7 @@ body#circ_request.catalog div.browse { display: none; }
 
 ### Piilota Näytä aina varaukset -täppä varauksen teko -sivulla
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei enää tarpeen versiossa 25.05, koska täppä toimii<br />
 Versio: 24.05
 
 ```
@@ -1160,7 +1160,7 @@ body#circ_request.catalog a#show_holds_now.btn.btn-default { display:none; }
 
 ### Säädä, kuinka leveä näytön pitää olla, jotta taulukoista piilotetaan sivulta toiselle siirtyminen
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeellinen versiosta 25.05 lähtien<br />
 Versio: 24.05
 
 ```
@@ -1195,7 +1195,7 @@ Versio: 24.05
 
 Monivarauksen teossa valintaruudut eivät vaikuta siihen, tehdäänkö varaus teokseen vai ei, joten ne päätettiin piilottaa. Liittyy [tikettiin #780](https://github.com/KohaSuomi/Koha/issues/780).
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeellinen versiotsa 25.05 lähtien<br />
 Versio: 24.05
 
 ```
@@ -1216,7 +1216,7 @@ body#circ_waitingreserves.circ a#holdscancelled-tab { display: none; }
 
 ### Piilota varauksenteko-sivulta viimeinen Tulosta kuitti -sarake
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeellinen versiosta 25.05 lähtien, koska sarakkeen saa piiloon taulujen asetuksista<br />
 Versio: 24.05
 
 ```
@@ -1423,7 +1423,7 @@ body#rep_guided_reports_start.rep a.preview_sql { display: none; }
 
 ### Säädä tallennetuissa raporteissa Muokkaa-valikon asettelu nätimmäksi
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei enää tarpeen versiosta 25.05 lähtien<br />
 Versio: 24.05
 
 Huom! Tähän on tulossa yhteisössä uudemmassa versiossa korjaus, joten tästä voitaneen luopua seuraavassa versionpäivityksessä (ei tässä 24.05:een päivityksessä siis)
