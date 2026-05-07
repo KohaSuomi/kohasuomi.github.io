@@ -688,6 +688,16 @@ Versio: 24.05
 body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
 ```
 
+### Piilota Kerättävät käyttövaraukset-painike lainaus ja palautus-sivulta
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 25.05
+
+```
+/* Piilota Kerättävät käyttövaraukset-painike lainaus ja palautus-sivulta */
+body#circ_circulation-home .circ-button.bookings-to-collect { display: none; }
+```
+
 ### Lainaus
 
 ### Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa
@@ -906,9 +916,6 @@ body#pat_paycollect ul.nav-pills { display: none;}
 
 
 ## Tiedonhaku
-
-
-
 
 ### Piilota kentät 336-338
 
@@ -1129,6 +1136,18 @@ Versio: 24.05
 /* Kirjasto-fasetin piilotus */
 body#catalog_results.catalog li#homebranch_id { display: none; } /* Kotikirjasto-fasetin piilotus */
 body#catalog_results.catalog li#holdingbranch_id { display: none; } /* Sijaintikirjasto-fasetin piilotus */
+```
+
+### Piilota Perustiedot-näytöltä Kokoelmat-taulukosta Tila-valikosta vaihtoehtoja
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 25.05
+
+Tällä saa piilotettua Perustiedot-näytöltä Kokoelmat-taulukosta Tila-valikosta vaihtoehtoja.
+
+```
+/* Piilotetaan tarpeettomia vaihtoehtoja Tila-valikosta Perustiedot-näytöltä Kokoelmat-taulukosta */
+body#catalog_detail.catalog [class="dt-select-filter"] :is([value='^local_use$'], [value='^withdrawn$'], [value='^recalled$'], [value='^restricted$'],  [value='^in_bundle$']) { display:none; }
 ```
 
 ---
