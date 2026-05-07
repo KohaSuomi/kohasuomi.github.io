@@ -197,14 +197,11 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value
 ### Piilota noutomuistutus asiakaslomakkeelta ja viestiasetuksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
-/* Noutomuistutuksen piilotus asiakaslomakkeelta */
-body#pat_memberentrygen #memberentry_messaging_prefs table tbody tr:last-child { display:none; }
-
-/* Noutomuistutuksen piilotus tiedot-sivulta */
-body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:none; }
+/* Noutomuistutuksen piilotus asiakkaan viestiasetuksista muokkauksessa ja tiedot-sivulla */
+tr#hold_reminder_message { display:none; }
 ```
 
 ### Piilota Kooste-sarake asiakkaan viestiasetuksista
@@ -227,15 +224,12 @@ div#patron-messaging-prefs td:nth-child(5) {
 ### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto */ 
-body#pat_moremember.pat ul.dropdown-menu li:nth-child(1) a.printslip {display: none}
-body#circ_circulation.circ ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
-body#pat_pay.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
-body#pat_notices.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
-body#pat_statistics.pat ul.dropdown-menu li:nth-child(1) a.printslip { display: none; }
+body#pat_moremember.pat ul.dropdown-menu [data-code="printsummary"] { display: none }
+body#circ_circulation.circ ul.dropdown-menu [data-code="printsummary"] { display: none }
 ```
 
 ### Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet -valinnat
@@ -311,11 +305,11 @@ body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { displa
 ### Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi -vaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
-/* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi (piilotus toimii kaikilla Asiakassivuilla) */ 
-div#toolbar ul.dropdown-menu a#updatechild { display: none; }
+/* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi */ 
+a#updatechild.dropdown-item { display: none; }
 ```
 
 ### Piilota Verkkokirjasto-vaihtoehto Viestin lisäys -popupista
@@ -432,11 +426,12 @@ Asiakkaan muokkauksessa jotkin pitkät otsikoiden nimet menevät kentän taakse 
 Huom. Tästä on olemassa tässä kirjastossa myös versio, jolla levennetään kaikkialla otsikkokenttien käytettävissä olevaa tilaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Levennä otsikkokenttiä asiakkaan muokkauksessa */
 body#pat_memberentrygen fieldset.rows label { width: 13rem; }
+body#pat_memberentrygen div.hint { margin-left: 14rem; }
 ```
 
 ### Piilota Lajittelu 1/2 -laatikot Takaajan haku -modaalissa
@@ -556,11 +551,11 @@ Versio: 24.05
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Piilota asiakashaun "Kaikki"-vaihtoehto*/
-#memberresultst_length select option:last-child { display: none; }
+[name="memberresultst_length"] option[value="-1"] { display: none; }
 ```
 
 ### Piilota Asiakkaan pikalisäys -painike
@@ -651,36 +646,36 @@ body#circ_circulation-home.circ div.col-sm-5.col-md-4 h3:nth-of-type(2) { displa
 Myöhässä osion -piilotus, ensin otsikko, joka on määritelty järjestysnumerolla, eli jos otsikkojen järjestys muuttuu, niin saattaa joskus mennä sitten väärä otsikko piiloon.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Piilota Myöhässä-osio Lainaus ja palautus -sivuvalikosta */
-body.circ div#navmenulist h5:nth-of-type(4),
-body.circ div#navmenulist a[href="/cgi-bin/koha/circ/overdue.pl"],
-body.circ div#navmenulist a[href="/cgi-bin/koha/circ/branchoverdues.pl"] { display: none; }
+div.circ-nav-menu h5:nth-of-type(4),
+div.circ-nav-menu a[href="/cgi-bin/koha/circ/overdue.pl"],
+div.circ-nav-menu a[href="/cgi-bin/koha/circ/branchoverdues.pl"] { display: none; }
 ```
 
 ### Piilota Varausjono-linkki Lainaus ja palautus -sivulta ja vasemman reunan valikosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Piilota Varausjono-linkki Lainaus ja palautus -sivulla */
 a.circ-button[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] { display: none;}
 
 /* Piilota Varausjono-linkki Lainaus ja palautus -sivupalkista, jos valikko on käytössä */
-div#navmenulist a[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
+div.circ-nav-menu a[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
 ```
 
 ### Piilota Uusinta-linkki Lainaus ja palautus -sivun vasemman reunan valikosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Uusinta-linkin piilotus Lainaus ja palautus -osion vasemman reunan valikosta */
-div#navmenulist a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
+div.circ-nav-menu a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
 ```
 
 ### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpeutunut -välilehti
@@ -877,14 +872,13 @@ body#pat_maninvoice.pat option[value='LOST'] { display:none; }
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys, alennus, peruuta veloitus ja mitätöi maksutapahtuma -painikkeet
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
-/* Piilota alennus, peruuta veloitus, luo hyvitys ja mitätöi maksutapahtuma -napit asiakkaan tilitapahtumat sivulta */
-body#pat_borraccount button.discount-action { display: none; }
-body#pat_borraccount button.cancel-action { display: none; }
-body#pat_borraccount button.refund-action { display: none; }
-body#pat_borraccount button.void-action { display: none; }
+/* Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Tulostus- ja Maksu-nappi */
+body#pat_borraccount a.btn.btn-default.btn-xs.invoice-print-action { display: none; } /* Maksun tietojen tulostus-napin piilotus Tapahtumat-välilehdeltä */
+body#pat_borraccount button.btn.btn-default.btn-xs.pay-action { display: none; } /* Maksa-napin piilotus Tapahtumat-välilehdeltä */
+body#pat_borraccount button.btn.btn-xs.btn-default.dropdown-toggle { display: none; } /* Maksutapahtuman tai maksun poiston kuitin tulostuksen piilotus Tapahtumat-välilehdeltä */
 ```
 
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Tulostus- ja Maksu-nappi
@@ -929,12 +923,11 @@ body#catalog_detail #content_type.results_summary { display: none; }
 ### Otsikot boldattuna mustalla
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Rivien otsikot boldilla perustiedot-näytöllä. selkeyttää näkymää. */
 .results_summary .label { color: #333; font-weight: bold }
-body#catalog_detail.catalog h5.author { font-weight: bold }
 ```
 
 ### Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet/otsikot
@@ -942,12 +935,12 @@ body#catalog_detail.catalog h5.author { font-weight: bold }
 Liittyy tikettiin [#1395](https://github.com/KohaSuomi/Koha/issues/1395)
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
-/* Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet/otsikot */
-#catalog_results #searchresults a.nimeke { font-weight: bold }
-#bibliodetails #components a.nimeke { font-weight:bold; }
+/* Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet ja tekijä-otsikot */
+span.byAuthor { font-weight: bold }
+a.nimeke { font-weight:bold; }
 ```
 
 ### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
@@ -1000,12 +993,13 @@ body#catalog_detail.catalog img#custom-img { height: 90%; max-width: 180% }
 ### Piilota kansikuva-sarakkeen teksti hakutuloksista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 24.05
+Versio 25.05
 
 ```
-/* Piilota kansikuva-sarakkeen tekstit hakutuloksista */
+/* Piilota kansikuva-sarakkeen tekstit hakutuloksista ja perustiedot-näytöltä */
 body#catalog_results.catalog div.no-image {display: none;}
 body#catalog_results.catalog td.bookcoverimg div.hint {display:none;}
+body#catalog_detail.catalog div#custom-coverimg.cover-image div.hint { display: none; }
 ```
 
 ### Piilota tarkassa haussa Lisärajaukset-osio
@@ -1110,11 +1104,18 @@ body#catalog_detail.catalog td.status { min-width: 250px;}
 ### Lisää nidehakuun huomautus <>-operaattoreiden katkaisusta Viivakoodi-valikon alle
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
 
 ```
 /* Lisää nidehakuun huomautus <>-operaattoreiden katkaisusta Viivakoodi-valikon alle. */ 
+html[lang='fi-FI'] >
 body#catalog_itemsearch.catalog p.hint:nth-child(2):after { content: " \00a0 Vuosilukuja ei voi katkaista, jos käyttää <>-operaattoreita"; color:red; }
+
+html[lang='sv-SE'] >
+body#catalog_itemsearch.catalog p.hint:nth-child(2):after { content: " \00a0 Årtal kan inte avkortas om du använder <>-operatorer."; color:red; }
+
+html[lang='en'] >
+body#catalog_itemsearch.catalog p.hint:nth-child(2):after { content: " \00a0 Years cannot be truncated if you use <> operators"; color:red; }
 ```
 
 ### Kotikirjasto- ja/tai sijaintikirjasto -fasettien piilotus
@@ -1244,6 +1245,20 @@ Versio: 24.05
 div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillReserved"]) { display: none; }
 div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillWaiting"]) { display: none; }
 ```
+
+### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 25.05
+
+```
+/* Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus. */
+body#circ_request.catalog div#requestspecific_wrapper:before {
+content: " Valitse noutokirjasto niteen kohdalta, jos teet nidevarauksen.";
+color:red;
+}
+```
+
 
 ---
 
@@ -1378,11 +1393,21 @@ Monesti otsikkokentille on määritetty liian vähän tilaa, jolloin pitkät suo
 Huom! Tästä rimpsusta on olemassa tässä kirjastossa myös versio, jolla säädetään otsikkokenttien leveyttä vain asiakkaan muokkaussivulla.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 25.05
+
+Monesti otsikkokentille on määritetty liian vähän tilaa, jolloin pitkät suomalaiset sanat joko piilottuvat tekstikentän alle tai katkeavat oudosti. Tällä rimpsulla saa säädettyä otsikkokentille lisää tilaa leveyssuunnassa. Oletusarvo on 10rem, tässä se on säädetty 15rem. Voit myös valita jonkin muun sopivan arvon.
+
+Huom! Tästä rimpsusta on olemassa tässä kirjastossa myös versio, jolla säädetään otsikkokenttien leveyttä vain asiakkaan muokkaussivulla.
+
+Tämä sisältää myös kenttien "vihjeiden" siirron, mutta osalla sivuja siirtyy myös sellaisia vihjeitä, joiden ei ole tarpeen siirtyä. Niille on tehty palautus alkuperäiseen paikkaan. Toinen vaihtoehto on jättää div.hint-määritykset kokonaan pois, jolloin osassa sivuja vihjeet näkyvät eri tasolla kuin lomakkeen kenttä.
 
 ```
 /* Levennä otsikkokenttiä */
-fieldset.rows label { width: 15rem; }
+fieldset.rows label { width: 15rem; } /* Leventää otsikolle varattua aluetta */
+div.row div.hint { margin-left: 16rem; } /* Siirtää kenttien lisätieto-vinkit samaan kohtaan kuin mihin ylempänä kentät on siirretty. Huomaa, että isompi luku on tarpeen */
+body#catalog_advsearch.catalog div.row div.hint { margin-left: initial; } /* Palauttaa Tarkassa haussa Katso myös -vinkin vasempaan reunaan */
+body#admin_admin-home.admin div.hint { margin-left: initial; } /* Palauttaa Ylläpito-sivulla Määrittele nämä asetukset -vihjeen alkuperäiseen paikkaan */
+body#circ_request.catalog div.hint { margin-left: initial; } /* Palauttaa varauksen teossa Syötä kirjastokortin numero -vihjeen alkuperäiseen paikkaan */
 ```
 
 ### Piilota Esikatsele SQL -vaihtoehto valikosta Tallennetuissa raporteissa
