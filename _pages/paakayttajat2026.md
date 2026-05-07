@@ -20,6 +20,8 @@ Läsnä:
 * [Toukokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2310)
 * Uusi raportti [001+003-tuplat](https://github.com/KohaSuomi/Koha/issues/2306)
   * raportin tarvitsema aputaulu luodaan tuotantoihin viikkopäivityksen yhteydessä. Sitä ennen raportti ei toimi (kuin vaski-testillä, johon aputaulu on luotu).
+* [Tilauksen peruutus ei varoita että niteet poistetaan #2050](https://github.com/KohaSuomi/Koha/issues/2050)
+  * Uusi CSS-rimpsu, jonka voi lisätä, jos haluaa varoittaa käyttäjiä niteiden poistumisesta.
 
 Etelästä pohjoiseen
 
