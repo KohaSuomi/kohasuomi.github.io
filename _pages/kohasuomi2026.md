@@ -26,6 +26,8 @@ Läsnä:
 * [Kvartaalien seuranta](https://github.com/orgs/KohaSuomi/projects?query=is%3Aopen)
   * onko tikettien toteutus alkanut päätetyssä aikataulussa?
   * voiko valmistuneet kvartaalit sulkea?
+* [Viikon 20 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+  * Päivityksen yhteydessä tuotantoihin luodaan [tiketin #2306](https://github.com/KohaSuomi/Koha/issues/2306#issuecomment-4396243679) tarvitsemat aputaulut
 
 ### Viikolla 19 tehty
 
