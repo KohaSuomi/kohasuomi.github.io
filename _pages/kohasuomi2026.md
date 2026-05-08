@@ -33,8 +33,6 @@ Läsnä:
 
 #### Lari
 
-* Lari
-
   Tiketit
 
   * [Hyllyvarausraportin kaikki suodattimet eivät toimi](https://github.com/KohaSuomi/Koha/issues/2276) https://github.com/KohaSuomi/Koha/issues/2276
