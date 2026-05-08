@@ -59,7 +59,7 @@ Kuukausihuolto 13.5. klo 7–9: ajetaan käyttöjärjestelmäpäivitykset nodeil
 Konesalin verkkoyhteyksissä häiriö 5.–6.5. yönä noin 22.30–02.45: vaikutuksia mm. verkkokirjaston käyttöön ja mahdollisiin ajastettuihin siirtoihin Kohan ja muiden järjestelmien välillä kyseisellä aikavälillä. Muut ajastukset toimineet normaalisti. Vika paikantuu todennäköisesti konesalin ulkopuolelle ja lisätietoja tiedotetaan ketjussa.
 * [Koha#2236 Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236);
 Testeille toteutettu RunTestCronjobs-järjestelmäasetus (Local Use). Ratkaisu toimii ja on todettu riittäväksi. Tiketti suljettu.
-* [Koha#2234](https://github.com/KohaSuomi/Koha/issues/2234);
+* [Koha#2234 Lappi: Listaus sip-palvelimelle yhteyden saavista automaateista](https://github.com/KohaSuomi/Koha/issues/2234);
 Leenan kommentti: toimittaja on käynyt läpi Rovaniemen automaatit ja omatoimet, eikä niistä löytynyt “RO”-tunnusta. Kysyy voisiko kyseessä olla jonkin toisen kimpan automaatti. Vaatii lisätutkimuksia.
 * [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
 Meitan muutostyöt eivät ole vielä edenneet pyydetysti eikä Ceepos ole Vaarassa toimintakunnossa. 
