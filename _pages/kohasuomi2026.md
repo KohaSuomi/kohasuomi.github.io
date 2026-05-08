@@ -79,6 +79,33 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Ari, Kodo ja Anneli
 
 ### Viikolla 18 tehty
 
+#### Lari
+
+  Tiketit
+
+  * [cancellation_reason-sarake mukaan varausten vanhenemisajoon](https://github.com/KohaSuomi/Koha/issues/2238) https://github.com/KohaSuomi/Koha/issues/2238
+
+    [27.4.] Vipu ja selite EXPIRED lisätty kaikkiin tuotantoihin.
+
+    [28.4.] Tarkastettu Vaaran tuotannossa ja EXPIRED-tieto näkyy old_reserves.cancellation_reason-sarakkeessa taas.
+
+    [29.4.] Vipu ja EXPIRED-selite lisätty ajastettuihin ajoihin myös testeillä.
+
+  * [Hyllyvarausraportin sarakkeiden tekstikentät eivät toimi tabletilla](https://github.com/KohaSuomi/Koha/issues/2292) https://github.com/KohaSuomi/Koha/issues/2292
+    [28.4.] Testasin yhteisön versiota hyllyvarauslistasta ja siinä toistuu sama ilmiö (suoralla osoitteella https://vaara-test.koha-suomi.fi/cgi-bin/koha/circ/pendingreserves.pl).
+
+    [29.4.] Tehty tiketti yhteisöön: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42496
+
+  * [Cancellation_reasonin poistaminen maksurivin description-tiedoista vanhentuneen varauksen maksun syntyessä](https://github.com/KohaSuomi/Koha/issues/2293) https://github.com/KohaSuomi/Koha/issues/2293
+    [29.4.] Varauksen perumisen syyn lisääminen maksuriville varauksen vanhentuessa on nyt poistettu testeillä.
+
+  * [Varausten noutomuistutus noudattamaan asiakkaan viestiasetuksia ja 'Päivää ennen' valintaa](https://github.com/KohaSuomi/Koha/issues/2178) https://github.com/KohaSuomi/Koha/issues/2178
+    [29.4.] Varausten noutomuistutuksien vanha luontiskripti oli päässyt takaisin testeille ja ajettiin samaan aikaan uuden päivää ennen-skriptin kanssa. Otin kaikilta testeiltä vanhan skriptin ajastetun ajon pois.
+
+Kommitit
+
+    * `1975ea0` [29.4.] KOHA-2293 Remove passed cancellation reason from accountline description
+
 #### Johanna
 
 * [Improve error message](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/commit/616dc881549668184cc72b54e1ee728ff8abfe55) (master)
