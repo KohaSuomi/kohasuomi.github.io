@@ -31,6 +31,20 @@ Läsnä:
 
 ### Viikolla 19 tehty
 
+#### Anneli
+
+* Käännösten tekemistä sekä yhteisön Weblate-palveluun että meidän omiin, uusiin käännöstiedostoihin. Perjantaina oli myös ruotsin käännösten palaveri. Vein viimeisimmät muutokset myös Koha-translation-tietovarantoon.
+* Tiistaina oli pääkäyttäjien viikkopalaveri, jossa kävimme läpi mm. viikkopäivityksen sisällön.
+* Kommentoin tikettiä [koha-plugin-overdue-tool #36](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/36), että Template Toolkit riisuu MARC-välimerkit
+* Tein pyynnöstä tiketin [Osakohteiden 942c-kenttä ei päivittynyt Tietuesiirtäjän kautta tuoduille osakohteille #2303](https://github.com/KohaSuomi/Koha/issues/2303) ja ihmettelin ja tutkiskelin ongelmaa.
+* Matrix- ja pääkäyttäjien viikkopalaverikeskustelujen pohjalta testailin, poistuuko noudettavissa ja kuljetettavissa oleva varaus, kun lainataan ei-varattava nide asiakkaalle samasta tietueesta. Poistuu. Yhteisössä tähän liittyen tulossa uusi asetus laina- ja maksusääntöihin. Säännössä voi määrittää täyttääkö nidetyyppi saman tietueen toisen niteen varauksen.
+* Testasin ja sign offasin bugia, jossa muutettiin [MARC modification templatet tukemaan kiinteämittaisten kenttien muuttamista](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=28915)
+* Kyytissä oli osakohdetietue, joka oli haalinut itsellensä ison määrän muita tietueita osakohteekseen. Ongelma johtui siitä, että tietueen 001-kentässä oli iso määrä välilyöntejä tai muita tyhjiä kenttiä, jotka sitten ilmeisesti täsmäsi haalittujen osakohteiden arvoihin. Osakohteet näytetään emon yhteydessä 001+003-kenttien yhdistelmän perusteella. Ongelma korjattiin poistamalla haalineesta tietueesta välilyönnit ja lisäämällä tilalle tietueen biblionumber.
+* Tein tikettiä [001+003 kentissä päällekkäisyyksiä #2306](https://github.com/KohaSuomi/Koha/issues/2306) varten raportin ja keskustelin Oulun kuvailijan kanssa, miten tuplia kannattaisi siivota.
+* Osallistuin tieteellisten kirjastojen Koha-pääkäyttäjien ja Kansalliskirjaston Koha-kehittäjien yhteiseen kahden viikon välein tapahtuvaan tilannepalaveriin.
+* Päivitin [IntranetUserCSS-kirjaston](https://koha-suomi.fi/dokumentaatio/intranetusercss/) version 25.05 mukaiseksi.
+
+
 ## Viikko 19
 Aika: Ma 4.5.2026<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Ari, Kodo ja Anneli
