@@ -65,6 +65,8 @@ Leenan kommentti: toimittaja on käynyt läpi Rovaniemen automaatit ja omatoimet
 Meitan muutostyöt eivät ole vielä edenneet pyydetysti eikä Ceepos ole Vaarassa toimintakunnossa. 
 * [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
 KIPA ei ole vastannut.
+* [koha-suomi-utility#126 Test-ympäristöjen elasticsearch-mappings.yaml](https://github.com/KohaSuomi/koha-suomi-utility/issues/126);
+Testeillä koha-conf.xml viittaa utilityn elasticsearch-mappings-test.yaml -tiedostoon, joka oli vanhentunut ja rikkoi haun (local-number-ongelma). Tiedosto päivitetty vastaamaan next/prod-mappingsia. Indeksointi ja haku testattu ja toimii.
 
 ## Viikko 19
 Aika: Ma 4.5.2026<br />
