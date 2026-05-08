@@ -31,6 +31,40 @@ Läsnä:
 
 ### Viikolla 19 tehty
 
+#### Lari
+
+* Lari
+
+  Tiketit
+
+  * [Hyllyvarausraportin kaikki suodattimet eivät toimi](https://github.com/KohaSuomi/Koha/issues/2276) https://github.com/KohaSuomi/Koha/issues/2276
+    [4.5.] Lisäsin hyllyvarauslistaan koodiin aksenttimerkkien pudotuksen suodattaessa. Esim. JÄN käsitellään nyt JAN:ina suodatuksessa. Tästä voi teoriassa syntyä ongelma jos on useampia filtteröitäviä arvoja jotka eroavat vain aksenttimerkkien osalta, tällöin ne kaikki tarttuvat filtteröintituloksiin.  Testattavana testeillä.
+
+  * [Hyllyvarausraportin sarakkeiden tekstikentät eivät toimi tabletilla](https://github.com/KohaSuomi/Koha/issues/2292) https://github.com/KohaSuomi/Koha/issues/2292
+    [5.5.] Tein muutoksen testeille meidän hyllyvarauslistaan ja siirsin punastuksen ja varausryhmien näyttämisen mustalla tapahtuvaksi selaimen sijasta taustalla backendissä ennen selainsivun renderöintiä ja poistin niiden laskennan selaimen päästä. Tämä keventää hyllyvarauslistan toimintaa eikä korostuksia tarvitse laskea kuin kerran sivuston latauksessa. Omalla testilläni Android-puhelimella puhtaasti uudessa selainsessiossa Firefox-selaimella eivät tekstikenttäsuodatuskenttiin klikkaamiset enää aiheuta näppäimistön jatkuvaa välkyntää.
+
+    [6.5.] Testasin tätä vielä uudelleen Google Chromessa ja toisella Chrome-pohjaisella selaimella Samsung-puhelimella ja näyttäisi siltä, että ongelma toistuu Chrome-pohjaisissa selaimissa. Firefoxin uusimmalla Android-versiolla en saanut ongelmaa toistettua enää.
+
+  * [Cancellation_reasonin poistaminen maksurivin description-tiedoista vanhentuneen varauksen maksun syntyessä](https://github.com/KohaSuomi/Koha/issues/2293) https://github.com/KohaSuomi/Koha/issues/2293
+    [5.5.] Muutos tuotannossa.
+
+  * [Cleanup-database tarvekartoitus](https://github.com/KohaSuomi/Koha/issues/2271) https://github.com/KohaSuomi/Koha/issues/2271
+    [7.5.] Testeille on lisätty ajoon yhteisön siivousskriptin vivut, jotka korvaavat meidän yllämainittujen kolmen siivousskriptin ajot.
+
+  * [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä](https://github.com/KohaSuomi/Koha/issues/2130) https://github.com/KohaSuomi/Koha/issues/2130
+    [7.5.] Testeille on nyt lisätty joka yö ajettava cleanup_database.pl -skriptin vipu --all-restrictions  (purge all expired patrons restrictions) joka poistaa tietokannasta kaikki vanhentuneet rajoitteet.
+
+  * [Kaukolainamoduuli: Valmiiden kaukolainojen poistoajo](https://github.com/KohaSuomi/Koha/issues/2302) https://github.com/KohaSuomi/Koha/issues/2302
+    [8.5.] Yhteisötiketti: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=28740
+
+    [8.5.] Tällä hetkellä tietyllä statuksella olevat kaukolainat voi piilottaa virkailijaliittymästä järjestelmäasetuksella ILLHiddenRequestStatuses (). Tehdään yhteisön kautta siivous mahdolliseksi
+
+  Kommitit
+
+  * KohaSuomi/Koha-25x
+    * `460498c` [4.5.] KOHA-2276 Remove diacritics when filtering
+    * `e080523` [5.5.] KOHA-2292 Move highlight data to be generated in backend
+
 #### Anneli
 
 * Käännösten tekemistä sekä yhteisön Weblate-palveluun että meidän omiin, uusiin käännöstiedostoihin. Perjantaina oli myös ruotsin käännösten palaveri. Vein viimeisimmät muutokset myös Koha-translation-tietovarantoon.
