@@ -177,6 +177,42 @@ Läsnä: Anneli, Pasi, Johanna, Ari, Emmi, Lari, Kodo
   
 ### Viikolla 17 tehty
 
+#### Lari
+
+  Tiketit
+
+  * [Toimiiko tilin vanhentumisilmoitusten pakottaminen?](https://github.com/KohaSuomi/Koha/issues/2228) https://github.com/KohaSuomi/Koha/issues/2228
+
+    [22.4.] Eilisessä testissä todettiin, että jos kimpassa on pakotettuna vanhenemisilmoitukset tietyille asiakastyypeille, heille yritetään lähettää ilmoitus "Ensisijainen yhteydenottotapa"-asetuksen valinnan mukaisesti ja jos se ei onnistu, printtiviestinä (jonka voi estää jättämällä printtiviestipohjan tyhjäksi).  Päätettiin näin kehittäjäpalaverissa 22.4.: Kimppoihin, joissa asiakastilin vanhenemisilmoitus on pakotettu, otetaan asiakkaan lisäys/muokkauskaavakkeelle esiin "Ensisijainen yhteydenottotapa" -valinta. Pluginiin https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults (IntranetUserJS: Set defaults for Koha fields and checkboxes) lisätään Ensisijainen yhteydenottotapa-oletusarvon pakottaminen emailiksi.
+
+    [23.4.] Testeille on viety Ensisijaisen yhteydenottotapa-asetuksen oletusvalinta pluginiin IntranetUserJS: Set defaults for Koha fields and checkboxes.
+    
+    [23.4.] Lisäsin vielä elementin piilotuksen lisävaihtoehdoksi. Oman testini mukaan asiakkaan muokkauksessa/uuden asiakkaan luonnissa tuo pakotettu yhteydenottotapavalinta 'email' menee kantaan.
+
+  * [SIP-sanoma 15 aiheuttaa AFError with transaction drop_hold: -virheen, kun varausta yrittää peruuttaa (sanomassa 15-)](https://github.com/KohaSuomi/Koha/issues/2264) https://github.com/KohaSuomi/Koha/issues/2264
+
+    [22.4.] Tietuetason varausten perumiselle lisätty koodia ksdev/ks-0292-on-0043-bug-41672-use-search-instead-of-find -branchiin commitissa https://github.com/KohaSuomi/Koha-25x/commit/98cf8dfe9dfc350dd16537c1833181d89c51a1f6  Muutos on testattavissa testeillä. OUTIn testin SIP-palvelin on käynnistetty uusiksi.
+
+    [23.4.] Testattiin toteutusta outi-testillä ja useammat saman tietueen varaukset aiheuttivat ongelmia, kun kaikki peruuntuivat. Nyt koodia on muutettu niin, että käsitellään vain yksi nidevaraus per sanoma ja jos nidevarausta nidenumerolle ei löydy, kokeillaan perua yksi tietuetason varaus lähetetyn nidenumeron perusteella.  Muutos viety testeille ja outin sip-palvelin on käynnistetty uudelleen.
+
+  * [Kyyti-Finnassa asiakkaiden viestiasetuksia ei voi muuttaa](https://github.com/KohaSuomi/Koha/issues/2277) https://github.com/KohaSuomi/Koha/issues/2277
+    [22.4.] Lisään tuotantoon tuon email-vaihtoehdon, kuten muissa tuotantokimpoissa.
+
+    [22.4.] Ajettu:  MariaDB [kyytiprod]> insert into message_transports (message_attribute_id, message_transport_type, is_digest, letter_module, letter_code)     -> values (10, 'email', 0, 'circulation', 'HOLD_REMINDER'); Query OK, 1 row affected (0.004 sec) 
+
+  * [cancellation_reason-sarake mukaan varausten vanhenemisajoon](https://github.com/KohaSuomi/Koha/issues/2238) https://github.com/KohaSuomi/Koha/issues/2238
+    [23.4.] Liittyy tikettin https://github.com/KohaSuomi/Koha-25x/issues/132.
+
+    [23.4.] Koodin perusteella yhteisön cancel_expired_holds.pl:ää pitäisi ajaa vivun kanssa. ./cancel_expired_holds.pl --reason="EXPIRED" jotta tuo tieto välittyisi.  Voin muuttaa meidän omaan expire-holds.pl cron-ajoon tuon EXPIRED:in ja ajaa sen. Siinä on valmiiksi tuki tuon syyn välittämiseen. Voisiko joku laittaa varauksen vanhenemaan, niin voidaan testata testillä miten käy.
+
+    [24.4.] Tutkimuksissani ei paljastunut syytä sille, miksi EXPIRED-tietoa ei enää kirjaudu old_reserves-tauluun, mutta selvitimme miten sen saa taas kirjattua. Cron-ajastuksessa pitää käyttää syntaksia --reason EXPIRED (ilman quoteja), joka toimi testeillä crontabista ajettuna. Lisätään tämä vipu croneihin ensi viikon päivityksen yhteydessä. Huomiona sellainen, että maksuriviin kirjautuu cron-muutoksen jälkeen myös tämä EXPIRED-tieto niteen titlen lisäksi. Tämä koodimuutos pitää poistaa, sillä sitä pidettiin tarpeettomana ja on vain jäänyt koodiin roikkumaan (https://github.com/KohaSuomi/Koha-25x/commit/fc49229284460155b2b519952839adf4767c6947).
+
+Kommitit
+
+  * KohaSuomi/Koha-25x
+    * `98cf8df` [22.4.] KOHA-2264 Handle bib level hold cancellations with SIP
+    * `a8a252a` [23.4.] KOHA-2264 cancel one hold per command, check item level holds first SIP
+
 #### Kodo
 
 * [Koha#2271 Cleanup-database tarvekartoitus](https://github.com/KohaSuomi/Koha/issues/2271);
