@@ -43,6 +43,7 @@ Läsnä:
 * Tein tikettiä [001+003 kentissä päällekkäisyyksiä #2306](https://github.com/KohaSuomi/Koha/issues/2306) varten raportin ja keskustelin Oulun kuvailijan kanssa, miten tuplia kannattaisi siivota.
 * Osallistuin tieteellisten kirjastojen Koha-pääkäyttäjien ja Kansalliskirjaston Koha-kehittäjien yhteiseen kahden viikon välein tapahtuvaan tilannepalaveriin.
 * Päivitin [IntranetUserCSS-kirjaston](https://koha-suomi.fi/dokumentaatio/intranetusercss/) version 25.05 mukaiseksi.
+* Lisäsin yhteisöön bugin [Bug 42562 - Permission name “Display the debug interface” is unclear and inconsistent with other permission wording](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42562)
 
 
 ## Viikko 19
