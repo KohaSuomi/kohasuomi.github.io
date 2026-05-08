@@ -45,6 +45,26 @@ Läsnä:
 * Päivitin [IntranetUserCSS-kirjaston](https://koha-suomi.fi/dokumentaatio/intranetusercss/) version 25.05 mukaiseksi.
 * Lisäsin yhteisöön bugin [Bug 42562 - Permission name “Display the debug interface” is unclear and inconsistent with other permission wording](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42562)
 
+#### Kodo
+
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+TäTi-testillä yhdistelty kimppojen kuvailutietueita (Vaski vielä ulkona, koska kanta on tässä vaiheessa liian iso). Suunniteltu ja toteutettu deduplikointi 001+003:n perusteella. Osakohteet vaativat 3-vaiheisen tuonnin (aputaulu 001/003/773w, emotietueet deduplikoiden + k_biblionumber_map, sitten osakohteet per tuontierä). Deduplikointi toimii emojen osalta, mutta osakohteiden osalta tarvitaan vielä viilausta.
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+TäTi-testille luotu joukko Kati-raportteja (tuloksia ei vielä tässä vaiheessa kannata tulkita liian pitkälle): biblio_control_fields-raportti (001/003/773w), deduplikointi tietuetuonnin aikana (mitkä bibliot yhdistyivät mihin Kati-tietueeseen), uniikit tietueet, deduplikointitilastot (lähde vs kohde + deduplikaatioprosentti), merge size -tilastot sekä kimppa/kimppa record overlap matrix (tietuepäällekkäisyydet).
+* [Koha#2306 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306);
+Kati-yhdistelyn yhteydessä havaittu kimpan sisäisiä 001+003-duplikaatteja. Annelilla oli tähän raportti, joka etsi duplikaatit MARCXML:stä parsimalla, mutta KaTia varten tehtyjä aputauluja pystyi helposti hyödyntämään raportin nopeutukseen. Aputaulun (biblio_control_fields) luonnin jälkeen raportointi voidaan tehdä kevyemmin ilman MARCXML-parsintaa, eikä tulosjoukon rajoittaminen ole enää tarpeen. Testattu Vaski-testillä ja tarkoitus viedä aputaulu tuotantoihin tiistaipäivityksessä. Build-ongelman vuoksi aputaulun kentät nimetty uudelleen f001/f003.
+* [Koha tiedote #2310 Toukokuun kuukausihuolto 13.5. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2310);
+Kuukausihuolto 13.5. klo 7–9: ajetaan käyttöjärjestelmäpäivitykset nodeille ja Koha-kontteihin (noin 20 min katko/kimppa vuorollaan. Päivitetään *.koha-suomi.fi https-selainvarmenne (voimassaolo jatkossa 200 vrk → tiheämpi uusinta, mutta ei toimenpiteitä kimpoille/kirjastoille), sekä vaihdetaan tilastointi/raportointi-palvelimen vikaantunut muistikampa (katko tilastoihin/raportteihin huoltoikkunassa). Etenemisestä tiedotetaan ketjussa.
+* [Koha tiedote #2311 Konesalin verkkoyhteysongelma 5.-6.5. välisenä yönä](https://github.com/KohaSuomi/Koha/discussions/2311);
+Konesalin verkkoyhteyksissä häiriö 5.–6.5. yönä noin 22.30–02.45: vaikutuksia mm. verkkokirjaston käyttöön ja mahdollisiin ajastettuihin siirtoihin Kohan ja muiden järjestelmien välillä kyseisellä aikavälillä. Muut ajastukset toimineet normaalisti. Vika paikantuu todennäköisesti konesalin ulkopuolelle ja lisätietoja tiedotetaan ketjussa.
+* [Koha#2236 Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236);
+Testeille toteutettu RunTestCronjobs-järjestelmäasetus (Local Use). Ratkaisu toimii ja on todettu riittäväksi. Tiketti suljettu.
+* [Koha#2234](https://github.com/KohaSuomi/Koha/issues/2234);
+Leenan kommentti: toimittaja on käynyt läpi Rovaniemen automaatit ja omatoimet, eikä niistä löytynyt “RO”-tunnusta. Kysyy voisiko kyseessä olla jonkin toisen kimpan automaatti. Vaatii lisätutkimuksia.
+* [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
+Meitan muutostyöt eivät ole vielä edenneet pyydetysti eikä Ceepos ole Vaarassa toimintakunnossa. 
+* [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
+KIPA ei ole vastannut.
 
 ## Viikko 19
 Aika: Ma 4.5.2026<br />
