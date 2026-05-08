@@ -16,12 +16,15 @@ Aika: Ti 12.5.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**:
+* Viikon 20 päivitys
 * Testeille on lisätty uusi järjestelmäasetus [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs), jolla pitää pääkäyttäjien itse käydä laittamassa ajastetut ajot päälle tarvittaessa. Tarkemmat tiedot oheisessa dokumentaatiossa.
 * [Toukokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2310)
 * Uusi raportti [001+003-tuplat](https://github.com/KohaSuomi/Koha/issues/2306)
   * raportin tarvitsema aputaulu luodaan tuotantoihin viikkopäivityksen yhteydessä. Sitä ennen raportti ei toimi (kuin vaski-testillä, johon aputaulu on luotu).
 * [Tilauksen peruutus ei varoita että niteet poistetaan #2050](https://github.com/KohaSuomi/Koha/issues/2050)
   * Uusi CSS-rimpsu, jonka voi lisätä, jos haluaa varoittaa käyttäjiä niteiden poistumisesta.
+* Muistutus: Kohan ohje suomeksi -ohjeen päivityksen versioon 25.05 on sovittu deadlineksi toukokuun 2026 loppu.
+* [IntranetUserCSS-kirjasto](https://koha-suomi.fi/dokumentaatio/intranetusercss/) päivitetty versioon 25.05
 
 Etelästä pohjoiseen
 
