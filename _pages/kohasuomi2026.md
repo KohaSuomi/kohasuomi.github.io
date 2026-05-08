@@ -53,18 +53,21 @@ TäTi-testillä yhdistelty kimppojen kuvailutietueita (Vaski vielä ulkona, kosk
 TäTi-testille luotu joukko Kati-raportteja (tuloksia ei vielä tässä vaiheessa kannata tulkita liian pitkälle): biblio_control_fields-raportti (001/003/773w), deduplikointi tietuetuonnin aikana (mitkä bibliot yhdistyivät mihin Kati-tietueeseen), uniikit tietueet, deduplikointitilastot (lähde vs kohde + deduplikaatioprosentti), merge size -tilastot sekä kimppa/kimppa record overlap matrix (tietuepäällekkäisyydet).
 * [Koha#2306 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306);
 Kati-yhdistelyn yhteydessä havaittu kimpan sisäisiä 001+003-duplikaatteja. Annelilla oli tähän raportti, joka etsi duplikaatit MARCXML:stä parsimalla, mutta KaTia varten tehtyjä aputauluja pystyi helposti hyödyntämään raportin nopeutukseen. Aputaulun (biblio_control_fields) luonnin jälkeen raportointi voidaan tehdä kevyemmin ilman MARCXML-parsintaa, eikä tulosjoukon rajoittaminen ole enää tarpeen. Testattu Vaski-testillä ja tarkoitus viedä aputaulu tuotantoihin tiistaipäivityksessä. Build-ongelman vuoksi aputaulun kentät nimetty uudelleen f001/f003.
-* [Koha tiedote #2310 Toukokuun kuukausihuolto 13.5. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2310);
-Kuukausihuolto 13.5. klo 7–9: ajetaan käyttöjärjestelmäpäivitykset nodeille ja Koha-kontteihin (noin 20 min katko/kimppa vuorollaan. Päivitetään *.koha-suomi.fi https-selainvarmenne (voimassaolo jatkossa 200 vrk → tiheämpi uusinta, mutta ei toimenpiteitä kimpoille/kirjastoille), sekä vaihdetaan tilastointi/raportointi-palvelimen vikaantunut muistikampa (katko tilastoihin/raportteihin huoltoikkunassa). Etenemisestä tiedotetaan ketjussa.
-* [Koha tiedote #2311 Konesalin verkkoyhteysongelma 5.-6.5. välisenä yönä](https://github.com/KohaSuomi/Koha/discussions/2311);
-Konesalin verkkoyhteyksissä häiriö 5.–6.5. yönä noin 22.30–02.45: vaikutuksia mm. verkkokirjaston käyttöön ja mahdollisiin ajastettuihin siirtoihin Kohan ja muiden järjestelmien välillä kyseisellä aikavälillä. Muut ajastukset toimineet normaalisti. Vika paikantuu todennäköisesti konesalin ulkopuolelle ja lisätietoja tiedotetaan ketjussa.
+
 * [Koha#2236 Ajastetut ajot testeillä](https://github.com/KohaSuomi/Koha/issues/2236);
 Testeille toteutettu RunTestCronjobs-järjestelmäasetus (Local Use). Ratkaisu toimii ja on todettu riittäväksi. Tiketti suljettu.
 * [Koha#2234 Lappi: Listaus sip-palvelimelle yhteyden saavista automaateista](https://github.com/KohaSuomi/Koha/issues/2234);
 Leenan kommentti: toimittaja on käynyt läpi Rovaniemen automaatit ja omatoimet, eikä niistä löytynyt “RO”-tunnusta. Kysyy voisiko kyseessä olla jonkin toisen kimpan automaatti. Vaatii lisätutkimuksia.
+* [Koha#1903 Helle, Porvoo: Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903);
+Tarkennus: kyseessä on borrowers/status-integraatio, joten ei vaadi Koha-Suomen eikä kirjaston päässä sen kummempia toimenpiteitä.
 * [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
 Meitan muutostyöt eivät ole vielä edenneet pyydetysti eikä Ceepos ole Vaarassa toimintakunnossa. 
 * [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
 KIPA ei ole vastannut.
+* [Koha tiedote #2310 Toukokuun kuukausihuolto 13.5. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2310);
+Kuukausihuolto 13.5. klo 7–9: ajetaan käyttöjärjestelmäpäivitykset nodeille ja Koha-kontteihin (noin 20 min katko/kimppa vuorollaan. Päivitetään *.koha-suomi.fi https-selainvarmenne (voimassaolo jatkossa 200 vrk → tiheämpi uusinta, mutta ei toimenpiteitä kimpoille/kirjastoille), sekä vaihdetaan tilastointi/raportointi-palvelimen vikaantunut muistikampa (katko tilastoihin/raportteihin huoltoikkunassa). Etenemisestä tiedotetaan ketjussa.
+* [Koha tiedote #2311 Konesalin verkkoyhteysongelma 5.-6.5. välisenä yönä](https://github.com/KohaSuomi/Koha/discussions/2311);
+Konesalin verkkoyhteyksissä häiriö 5.–6.5. yönä noin 22.30–02.45: vaikutuksia mm. verkkokirjaston käyttöön ja mahdollisiin ajastettuihin siirtoihin Kohan ja muiden järjestelmien välillä kyseisellä aikavälillä. Muut ajastukset toimineet normaalisti. Vika paikantuu todennäköisesti konesalin ulkopuolelle ja lisätietoja tiedotetaan ketjussa.
 * [koha-suomi-utility#126 Test-ympäristöjen elasticsearch-mappings.yaml](https://github.com/KohaSuomi/koha-suomi-utility/issues/126);
 Testeillä koha-conf.xml viittaa utilityn elasticsearch-mappings-test.yaml -tiedostoon, joka oli vanhentunut ja rikkoi haun (local-number-ongelma). Tiedosto päivitetty vastaamaan next/prod-mappingsia. Indeksointi ja haku testattu ja toimii.
 
