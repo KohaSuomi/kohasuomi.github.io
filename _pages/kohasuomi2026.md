@@ -68,6 +68,44 @@ KIPA ei ole vastannut.
 * [koha-suomi-utility#126 Test-ympäristöjen elasticsearch-mappings.yaml](https://github.com/KohaSuomi/koha-suomi-utility/issues/126);
 Testeillä koha-conf.xml viittaa utilityn elasticsearch-mappings-test.yaml -tiedostoon, joka oli vanhentunut ja rikkoi haun (local-number-ongelma). Tiedosto päivitetty vastaamaan next/prod-mappingsia. Indeksointi ja haku testattu ja toimii.
 
+#### Johanna
+* [Add biblio controller tests](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/693889fd5075cf5ab4f1f8091bd9d6902891c73c) (master)
+* [Add overlay context for categorycode and userid](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/ac3bab48991aca5e41ca5ffa19ee84c371c1d2c8) (master)
+* [Create method to find user with current user id](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/d96aa7bfbff735ef549d731c57ba3f3e1ab8a734) (master)
+* [Fix user syntax](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/42d42296ae1f03947e9b93ac9fc427c659a500be) (master)
+* [Fix finding user id](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/0278e0d7c0e1667770e201cd0654da63f1293d34) (master)
+* [Change to 200 response to get body message](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/ce295f046243f54434965e914abb98fdea9ac0ab) (master)
+* [Match API user with linked_borrowernumber](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/c91f93ed6a02f15fac2c762dba0b2e558e2ebcf3) (master)
+* [Match API user to linked_borrowernumber](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/846e93d416f8f4ec8ad133722dffc9be79567180) (master)
+* [Fix mispell](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/1c0ce89ebeb5fe88d3ab9b6cbb7b9b43acdbbadb) (master)
+* [Add package](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/64c0c726349ce18d166c268e4728798d15a0ef13) (master)
+* [Add missing semicolon](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/cb217abe9d4726ec6fccbcb30a64f62220dd809f) (master)
+* [Fix syntax error](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/ed47810478babe4b967d5dc3812fa90889d4e7ef) (master)
+* [Fix syntax](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/3208ce320642d6b4142fd3b0dcd54087825b6eff) (master)
+* [Update po files](https://github.com/KohaSuomi/Koha-translations/commit/6f6eb4fe58767257dd2c0bd1986afec893253bf8) (ks25-v2)
+* [Normalize paths for pot](https://github.com/KohaSuomi/Koha-translations/commit/102528ef7b7b15db38b9e308e44b4f017ec7d669) (ks25-v2)
+* [Adjust finding files](https://github.com/KohaSuomi/Koha-translations/commit/7cedcea6263b013ad14b2a47767b97ce98e4b613) (ks25-v2)
+* [Fix case sensitive paths](https://github.com/KohaSuomi/Koha-translations/commit/c92c8975fce9e2721ffa90d93e5f0eb228589c29) (ks25-v2)
+* [Separate xslt files](https://github.com/KohaSuomi/Koha-translations/commit/418a4e473d933b411a1c58263e4416aeb2dd61fd) (ks25-v2)
+* [KOHA-2303: Add linked patron to overlay context](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/e27e34284d9028494aba3ce90592051c9ff0eab9) (master)
+* [Recreate translator](https://github.com/KohaSuomi/Koha-translations/commit/654be42dbbd6883a934cc26497157ebbd436371a) (ks25-v2)
+* [Change license reference](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/e588736445a2eb29eddfaa74e86d630728df5a53) (master)
+* [Update README](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/ee3c3c76025f0665fb9a90ce6d6b8e2f33de8eae) (master)
+* [Bug 34460: Add can_have_permissions to patron categories](https://github.com/KohaSuomi/Koha-25x/commit/94df4d3a876604784eaf2b591610db62e99de02b) (ksdev/ks-0310-bug-34460-add-can_have_permissions_to_categories)
+* [KohaSuomi/Koha - Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on päivitetty versio testeillä. Tein tuon ensin yhteisöön ja siellä oli koodia mitä meillä ei vielä ole käytössä.
+* [KohaSuomi/Koha - Osakohteiden 942c-kenttä ei päivittynyt Tietuesiirtäjän kautta tuoduille osakohteille](https://github.com/KohaSuomi/Koha/issues/2303);
+Vastuutettu: johannaraisa.
+Kommentti: Lisäsin Tietuesiirtäjään mahdollisuuden käyttää yhdistelysäännössä z39.50 lisäksi asiakastyyppiä tai käyttäjätunnusta.
+Kommentti: Tätin testi ei ole kunnossa, joten kokeilin vaihtaa tuon arvon tuotannossa ja toin tuon tietueen uudestaan. Nyt niille osakohteille tuli se CD-arvo ja emollakin on vain yksi 942-kenttä. Tuon toisen tiketin ongelma voi liittyä johonkin muuhun, ehkä siihen miten noita 942-kenttiä Tätissä lisätään. Ehkä se Tätissä voi olla tuo suojattu, mutta paikalliskantaan valuessa pitäisi sallia lisääminen.
+* [KohaSuomi/koha-plugin-editx - EditX-sanomien lähetys REST-rajapinnan kautta](https://github.com/KohaSuomi/koha-plugin-editx/issues/6);
+Vastuutettu: johannaraisa.
+Kommentti: Parannettu käyttöliittymää, kirjoitettu testejä ja testiaineiston luontiskripti.
+* [KohaSuomi/koha-suomi-utility - Ympäristöjen symlinkit ajantasalle cronjobs-hakemistossa.](https://github.com/KohaSuomi/koha-suomi-utility/issues/127);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+
 ## Viikko 19
 Aika: Ma 4.5.2026<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Ari, Kodo ja Anneli
