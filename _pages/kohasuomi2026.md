@@ -106,6 +106,17 @@ Kommentti: Parannettu käyttöliittymää, kirjoitettu testejä ja testiaineisto
 Tiketti avattu.
 Vastuutettu: johannaraisa.
 
+#### Emmi
+
+* FinnaMaterialTypes-ajot koskemaan myös jo poistettuja tietueita #68: Ajot testattiin Vaskin testillä, ajojen kestot olivat 11 ja 9 tuntia. Mutta tämän jälkeen huomasin että esim. OUTIssa ja Lumpeessa poistettuja tietueita on huomattavasti enemmän kuin Vaskissa ja ajoissa kestäisi näissä kimpoissa paljon pidempään. Molempiin ajoihin tarvitaan muutos, jossa aineistolajia muutetaan vain niiltä tietueilta joille muutos on tarpeen.
+* [FloatRules-säännöt käyttäytyvät kummallisesti kun myös kellutusryhmä on käytössä ko. kirjastolla #2285](https://github.com/KohaSuomi/Koha/issues/2285): OUTIssa ja Hellessä huomattiin, että jos sekä kellutusryhmät että kellutusäännöt ovat käytössä, kellumaton nide pyrkii sijaintikirjastoon eikä kotikirjastoon. Vika paikallistui Palautus-sivuun, josta puuttui koodi kellutussääntöjen tarkistukselle. Jostain syystä tämä yhdessä pois päältä olevan AutomaticItemReturn-asetuksen kanssa sai niteet pyrkimään sijaintikirjastoon. Korjaus on viety testeille testattavaksi.   
+* [Laskutustyökalu: Tekijätiedottoman tietueen nimekkeen eteen jää laskulla väliviiva ja välilyöntejä #36](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/36): Jos tietueella ei ole tekijää, nykyisessä Finvoice-laskutuspohjassa tietueen nimekkeen etten jää merkit " - ". Yritetty korjata tekemällä pohjaan ehto, jossa merkit jäisivät pois kun biblio.author on tyhjä. Jostain syystä ratkaisu ei toiminut, kokeillaan muuttaa pohjan asettelua niin, ettei ylimääräisiä välilyöntejä synny ainakaan kentän alkuun.
+* [Varaustyökalu: Varauksen noutokirjastoksi voi asettaa kirjaston josta varauksen noutaminen ei ole sallittua #79](https://github.com/KohaSuomi/Bugiton/issues/79): Yhteisöstä tuotu korjaus.
+* [Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta #1979](https://github.com/KohaSuomi/Koha/issues/1979): Jos tietueen luo kopiona toisesta tietueesta, eikä uudesta tietueesta tyhjennetä kenttiä 001, 003 ja 035, voivat tietueen tiedot päivittyä väärään tietueeseen. Tähän on nyt tehty pop-up, joka hoksauttaa käyttäjää etteivät kentät ole tyhjiä. Vaatii vielä jatkotyöstämistä kentän 003 osalta.
+* [Bug 34671 - Collapsing fields in patron form allows saving without mandatory fields](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34671): Muutostiedostot korjattu, jotta ne sopivat yhteen myös yhteisön mainin koodin kanssa.  
+* [Tiketin 1606 toteutuksen vienti yhteisötikettin #1624](https://github.com/KohaSuomi/Koha/issues/1624): Yhteisöstä tuodun lastseen-sarakkeen päivityksen mahdollistavan ominaisuuden yhtydessä meille on tehty muutos, jossa sarake päivitetään myös asiakasta muokatessa. Tämä muutos on nyt viety myös yhteisöön.
+
+
 ## Viikko 19
 Aika: Ma 4.5.2026<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Ari, Kodo ja Anneli
