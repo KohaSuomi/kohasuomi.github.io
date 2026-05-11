@@ -121,7 +121,7 @@ _HTML-viesti_, jolloin viesti osataan käsitellä oikein.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:90.0%" />
 
-Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä [Koha-wikissä](https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips) ja Koha-Suomen teknisen dokumentaation [Kuitit ja viestipohjat -osiossa](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/).
+Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä [Koha-wikissä](https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips) ja Koha-Suomen teknisen dokumentaation [Kuitit ja viestipohjat -osiossa](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/). Viesteissä voidaan hyödyntää myös [Template Toolkit -sääntöjä](https://wiki.koha-community.org/wiki/Notices_with_Template_Toolkit).
 
 ### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
 
