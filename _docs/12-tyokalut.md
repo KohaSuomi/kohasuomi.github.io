@@ -8,14 +8,14 @@ toc: true
 
 # 12. Työkalut
 
-_Työkalut_-osiossa on monenlaisia toimintoja, joilla voi esim. määritellä ilmoitusten ja kuittien tekstejä, käyttää siirtokokoelmia tai määritellä kalenteriin kirjaston kiinniolopäivät. Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
+_Työkalut_-osiossa on monenlaisia toimintoja, joilla voi esim. määritellä ilmoitusten ja kuittien tekstejä, hallinnoida siirtokokoelmia tai määritellä kalenteriin kirjaston kiinniolopäivät. Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
 
-Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Koha-Suomen toimintaympäristössä. Nämä työkalut on merkitty kuvaan punaisella rastilla.
+Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Koha-Suomen toimintaympäristössä, joten niitä ei käsitellä tässä ohjeessa.
 
 Koha-Suomen omiin tarpeisiin kehitetyt työkalut (varausten noutoilmoitusten ja myöhästymisilmoitusten tulostus, sotuteekki, tarratulostus)
 löytyvät _Työkaluliitännäiset_-otsikon alta.
 
-<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalun nimen perässä on punainen rasti, jos se ei ole käyttökelpoinen Koha-Suomessa." alt="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalun nimen perässä on punainen rasti, jos se ei ole käyttökelpoinen Koha-Suomessa." style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta." alt="Kuvakaappaus Työkalut-osion aloitussivusta." style="width:90.0%" />
 
 Osa aiemmin _Työkalut_-osiossa sijainneista toiminnoista, esim. niteiden ja tietuiden poisto tai muokkaus eräajona, on siirretty versiosta 22.11 alkaen _Kuvailu_-osioon.
   
