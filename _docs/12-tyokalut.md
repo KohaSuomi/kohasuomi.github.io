@@ -95,7 +95,7 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 Uutta ilmoitusta luodessasi
 - Valitse kirjasto, jota ilmoitus koskee
 - Valitse Kohan osio, johon ilmoitus liittyy
-- Määrittele ilmoitukselle aakkosnumeerinen koodi(nimi), enintään 20 merkkiä
+- Määrittele ilmoitukselle aakkosnumeerinen koodi(nimi), enintään 20 merkkiä, ilman ääkkösiä
 - Anna ilmoitukselle nimi, joka kuvailee sisältöä tarkasti
 
 ### 12.2.1 Ilmoituksen muokkaaminen
