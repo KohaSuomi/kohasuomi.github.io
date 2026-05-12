@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset**:
 * Viikon 20 päivitys
@@ -34,6 +34,10 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Ei mainittavaa
+
+**Lumme**
+* Tuli ilmi tapaus, jossa Varkauden automaatti oli laittanut tyhjiä PIN-koodikyselyjä. Tämän johdosta asiakkaille oli tullut virheellisiä kirjautumisyrityksiä ja tilejä mennyt lukkoon. Automaattitoimittajaa on informoitu korjaamaan asia.
+* Ke 13.5. Lumme-kirjastojen yhteinen koulutuspäivä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
