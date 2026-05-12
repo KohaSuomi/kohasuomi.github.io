@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**:
 * Viikon 20 päivitys
@@ -27,6 +27,10 @@ Läsnä: Johanna Räisä (Koha-Suomi)
 * [IntranetUserCSS-kirjasto](https://koha-suomi.fi/dokumentaatio/intranetusercss/) päivitetty versioon 25.05
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Vuoden 2025 lehtitilaukset suljettu
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
