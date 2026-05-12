@@ -859,6 +859,10 @@ _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle
 
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
 
+Koha-Suomen Tietueiden erämuokkaus -koulutuksen tallenne / Anneli Österman 21.4.2026
+[Koulutuksen tallenne]( https://www.youtube.com/watch?v=pJPKxIkxyOI)
+
+
 ## 5.4 Työkalut
 
 Kuvailuun liittyy myös työkaluja. Ne löytyvät Kuvailu-osiosta Työkalut-otsikon alapuolelta.
