@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**:
 * Viikon 20 päivitys
