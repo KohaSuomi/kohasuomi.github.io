@@ -39,6 +39,11 @@ Etelästä pohjoiseen
 * Tuli ilmi tapaus, jossa Varkauden automaatti oli laittanut tyhjiä PIN-koodikyselyjä. Tämän johdosta asiakkaille oli tullut virheellisiä kirjautumisyrityksiä ja tilejä mennyt lukkoon. Automaattitoimittajaa on informoitu korjaamaan asia.
 * Ke 13.5. Lumme-kirjastojen yhteinen koulutuspäivä.
 
+**OUTI**
+* Verkkokirjasto-Finnassa on käytetään hyllypaikkojen fasetissa sanaa Osasto. OUTI selvittää voiko halutessaan fasetin termin muuttaa kimppakohtaisesti.
+* OUTIssa maksut eivät siirtyneet Kohasta Ceeposiin eivätkä toisin päin. CPU ja Digi selvittivät ongelmaa ja yhteys saatiin palautettua palomuurin avauksella. Emme tiedä mistä ongelma johtui.
+* OUTIn Koha-tuki virkistyspäivällä ke 13.5., joten silloin ei olla koneen äärellä. Koha-tuki seuraavan kerran normaalisti linjoilla pe 15.5.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 19
