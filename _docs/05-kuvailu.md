@@ -859,8 +859,11 @@ _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle
 
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
 
+
 Koha-Suomen Tietueiden erämuokkaus -koulutus 21.4.2026 / Anneli Österman
+
 [Koulutuksen tallenne]( https://www.youtube.com/watch?v=pJPKxIkxyOI)
+
 [Koulutuksen diasarja](https://github.com/user-attachments/files/26958672/Kuvailutietueiden.muokkaus.eraajona.pdf)
 
 ## 5.4 Työkalut
