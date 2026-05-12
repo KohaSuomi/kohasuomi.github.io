@@ -860,7 +860,7 @@ _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
 
 
-Koha-Suomen Tietueiden erämuokkaus -koulutus 21.4.2026 / Anneli Österman
+Tietueiden erämuokkaus -koulutus 21.4.2026 / Anneli Österman
 
 [Koulutuksen tallenne]( https://www.youtube.com/watch?v=pJPKxIkxyOI)
 
