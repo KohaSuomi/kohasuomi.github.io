@@ -205,7 +205,7 @@ Versiossa 25.05 nidehakuun tuli mahdollisuus luoda jaettava linkki hakutulokseen
 * Vasemmassa reunassa olevalla painikkeella *Kopioi jaettava linkki* voit kopioida nidehaun valinnat
 * Oikeassa reunassa olevalla painikkeella *Kopioi jaettava linkki* voit kopioida taulukon asettelun
 
-Kimpan pääkäyttäjät pystyvät määrittämään nidehaun tulostaulukossa näytettävät sarakkeet. Näytettävät sarakkeet määritetään *taulujen asetukset* -sivulla ylläpidossa. Okeassa reunassa olevasta painikkeesta *Määrittele* pääset taulujen asetuksiin suoraan nidehaun taulun kohdalle.
+Kimpan pääkäyttäjät pystyvät määrittämään nidehaun tulostaulukossa näytettävät sarakkeet. Näytettävät sarakkeet määritetään *taulujen asetukset* -sivulla ylläpidossa. Oikeassa reunassa olevasta painikkeesta *Määrittele* pääset taulujen asetuksiin suoraan nidehaun taulun kohdalle.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku35_nidehaku_taulukon_sarakkeet_konfiguroitavaksi.png)
 
