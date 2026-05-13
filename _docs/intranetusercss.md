@@ -1500,3 +1500,33 @@ body {
 background-color: #fff2dd;
 }
 ```
+
+### Varoitus niteiden poistamisesta tilauskorin poistamisen yhteydessä
+
+Versio: 25.05
+
+```
+html[lang='en'] > body#acq_cancelorder div.alert-warning h1:after { 
+  content: "Items attached to this order will be deleted."; 
+  display: block; 
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px; 
+}
+
+html[lang='fi-FI'] > body#acq_cancelorder div.alert-warning h1:after { 
+  content: "Tähän tilaukseen liittyvät niteet poistetaan."; 
+  display: block; 
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px; 
+}
+
+html[lang='sv-SE'] > body#acq_cancelorder div.alert-warning h1:after { 
+  content: "De exemplar som hör till denna beställning tas bort."; 
+  display: block; 
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px; 
+}
+```
