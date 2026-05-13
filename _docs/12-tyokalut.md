@@ -125,6 +125,7 @@ Joihinkin ilmoituksiin ja kuitteihin on lisätty esikatselumahdollisuus. Esikats
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset03.png" alt="Kuvakaappaus esikatselumahdollisuudesta, esimerkkinä varauskuitti" style="width:90.0%" />
 
+
 Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä [Koha-wikissä](https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips) ja Koha-Suomen teknisen dokumentaation [Kuitit ja viestipohjat -osiossa](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/). Useimmissa viesteissä voidaan hyödyntää myös [Template Toolkit -sääntöjä](https://wiki.koha-community.org/wiki/Notices_with_Template_Toolkit).
 
 ### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
