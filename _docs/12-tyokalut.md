@@ -121,7 +121,7 @@ _HTML-viesti_, jolloin viesti osataan käsitellä oikein.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:90.0%" />
 
-Joihinkin kuitteihin on lisätty esikatselumahdollisuus. Esikatseluun pääsee lisäämällä olemassa olevan asiakkaan ja varauksen id- ja tietuenumerot _Tietojen esikatselu_ -laatikkoon.
+Joihinkin ilmoituksiin ja kuitteihin on lisätty esikatselumahdollisuus. Esikatseluun pääsee lisäämällä olemassa olevan asiakkaan ja tietueen id- ja tietuenumerot _Tietojen esikatselu_ -laatikkoon.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset03.png" alt="Kuvakaappaus esikatselumahdollisuudesta, esimerkkinä varauskuitti" style="width:90.0%" />
 
