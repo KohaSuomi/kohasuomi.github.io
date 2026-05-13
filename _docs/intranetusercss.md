@@ -1503,6 +1503,7 @@ background-color: #fff2dd;
 
 ### Varoitus niteiden poistamisesta tilauskorin poistamisen yhteydessä
 
+Kehitysehdotus bugzillassa: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41169. Kun tuo menee läpi ja saadaan meille versionvaihdossa, tämän rimpsun voi poistaa.<br />
 Versio: 25.05
 
 ```
