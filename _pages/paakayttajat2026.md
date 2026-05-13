@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**:
 * Viikon 20 päivitys
@@ -43,6 +43,9 @@ Etelästä pohjoiseen
 * Verkkokirjasto-Finnassa on käytetään hyllypaikkojen fasetissa sanaa Osasto. OUTI selvittää voiko halutessaan fasetin termin muuttaa kimppakohtaisesti.
 * OUTIssa maksut eivät siirtyneet Kohasta Ceeposiin eivätkä toisin päin. CPU ja Digi selvittivät ongelmaa ja yhteys saatiin palautettua palomuurin avauksella. Emme tiedä mistä ongelma johtui.
 * OUTIn Koha-tuki virkistyspäivällä ke 13.5., joten silloin ei olla koneen äärellä. Koha-tuki seuraavan kerran normaalisti linjoilla pe 15.5.
+
+**Siilinjärvi**
+* Ei mainittavaa. Koha-ohje työn alla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
