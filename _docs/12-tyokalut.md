@@ -162,6 +162,7 @@ ollenkaan.
 - _Sähköposti_, _Tuloste_, _Tekstiviesti_ jne -kohdista valitaan
   halutut vaihtoehdot kimpan viestien lähetystapojen mukaan.
 - Määrittelyt tallennetaan _Tallenna muutokset_ -painikkeella.
+- Palautuskehotukset muodostuvat määrittelyjen mukaan viestijonoon ajastetulla overdue_notices.pl-ajolla (Koha-Suomen kehittäjät).
 
 ---
 
