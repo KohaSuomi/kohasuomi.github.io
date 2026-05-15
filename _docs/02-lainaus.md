@@ -770,7 +770,7 @@ Raportti antaa kaikki kirjastosi myöhässä olevat lainat. Voit hakea lainat hy
 
 ---
 
-## 2.19 Yhteydettämän tilan lainaus
+## 2.19 Yhteydettömän tilan lainaus
 
 Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilanteissa lainaamiseen seuraavia ohjelmia:
 
@@ -778,9 +778,6 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
     yksittäiselle Windows-koneelle.
 
 2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen lisäosa. 
-
-KOCT-lisäosa ei toistaiseksi toimi version 24.05 kanssa.
-{: .notice--warning}
 
 Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.  
 
@@ -939,30 +936,31 @@ Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun kä
 
 ### 2.19.2 Koha Offline Circulation Tool (KOCT)
 
-KOCT-lisäosa ei toistaiseksi toimi version 24.05 kanssa.
-{: .notice--warning}
-
-Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen.
+Firefox-selaimen laajennusta voi käyttä myös tilanteissa, kun Koha ei toimi. Laajennus on englanninkielinen.
 
 Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 {: .notice--warning}
 
-#### 2.19.2.1 Selaimen lisäosan asennus
+#### 2.19.2.1 Selaimen laajennuksen asennus
 
-Kirjaudu Kohaan ja lataa Firefoxin lisäosa Lainaus ja Palautus -sivulta linkistä *Lataa Firefox-selaimen lisäosa*. 
+Kirjaudu Kohaan ja lataa Firefoxin laajennus Lainaus ja Palautus -sivulta linkistä *Lataa Firefox-selaimen lisäosa*. 
 
 ![](/assets/files/docs/Lainaus/KOCTlisäosa.PNG)
 
-Linkki vie nettisivulle, josta lisäosan voi ladata. <br/>
-Lataa lisäosa toiminnolla *Lisää Firefoxiin*.
+Linkki vie nettisivulle, josta laajennuksen voi ladata. <br/>
+Lataa laajennus toiminnolla *Lisää Firefoxiin*.
 
 ![](/assets/files/docs/Lainaus/KOCTlataus.PNG)
 
-Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Valitse *Lisää*.
+Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Mikäli käytät yksityisiä ikkunoita, muista valita myös valinnainen asetus. Valitse lopuksi *Lisää*.
 
 ![](/assets/files/docs/Lainaus/KOCTlataus2.PNG)
 
-Lisäosan kuvake tulee näkyviin selaimen oikeaan yläkulmaan.
+Voit halutessasi valita "Kiinnitä laajennus työkalupalkkiin".
+
+![](/assets/files/docs/Lainaus/KOCTlataus3.PNG)
+
+Laajennus tulee valintasi mukaan näkyviin joko työkalupalkkiin (merkitty sinisellä) tai laajennusten valikkoon (merkitty vihreällä)
 
 ![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
 
