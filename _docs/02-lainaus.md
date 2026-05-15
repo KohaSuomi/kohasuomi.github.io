@@ -35,7 +35,7 @@ Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
 
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
-Lue lainattavan niteen viivakoodi Lainaus-kenttään.
+Mene asiakkaan tiedoissa Lainaus-sivulle. Lue lainattavan niteen viivakoodi Lainaus-kenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
