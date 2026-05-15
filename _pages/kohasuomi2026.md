@@ -13,7 +13,7 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 ## Viikko 21
-Aika: Ma 18.5.2026
+Aika: Ma 18.5.2026<br/>
 Läsnä:
 
 ### Viikolla 20 tehty
