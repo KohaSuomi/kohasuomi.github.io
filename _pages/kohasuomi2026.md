@@ -12,6 +12,28 @@ hidden: true
 ---
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
+## Viikko 21
+Aika: Ma 18.5.2026
+Läsnä:
+
+### Viikolla 20 tehty
+
+#### Kodo
+
+* [Koha#2314 Puppe avainrotaatio + pääsy Vaaraan.](https://github.com/KohaSuomi/Koha/issues/2314);
+Oikea Broomworks-avain on jo paikallaan pyydetyissä kimpoissa eikä muita Broomworks-avaimia ole, eli ei vaadi toimenpiteitä. Se mitä oikeasti tarvittiin oli uudet API-avaimet, jotka ovat pääkäyttäjien hoidettava asia, joten pyydetty Broomworksia olemaan yhteydessä suoraan kimppojen pääkäyttäjiin.
+* [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
+Vaihdettu Vaaran Koha-konfiguraatiossa maksujen tunneliin viitannut maksujen yhteysosoite ja Ceepos asetettu valmiiksi testattavaksi. Testauksessa raportoitu vielä virhe/ongelma CPU-kassan yhteyden kanssa. Johtuu ilmeisesti siitä ettei uusi yhteysosoite käytä CPU:n myöntämää sertifikaattia, joten sertifikaatti poistettu kokeeksi käytöstä. Testaajia ei kuitenkaan löytynyt, joten sertifikaatti palautettu viikonlopuksi takaisin käyttöön. Uusi yritys maanantaina.
+* [Koha#2265 Vaara: Seutukirjaston toimittaja-asiakkuuksien yhdistäminen: fundit/budjetointi ja asiakasnumerot](https://github.com/KohaSuomi/Koha/issues/2265);
+12.5. sovittu tästä kokous 19.5. klo 15–16.
+* [Koha#2306 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306);
+Aputaulut lisätty tuotantokantoihin ja raportti päivitetty vastaamaan aputaulun uusia kenttänimiä (001/003 → f001/f003); raportin voi nyt lisätä Kohaan.
+* [Koha tiedote #2310 Toukokuun kuukausihuolto 13.5. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2310);
+  * Päivitettiin palvelinnodet ja Koha-kontit. Tästä aiheutui lyhyitä ja hallittuja käyttökatkoja. Samassa yhteydessä vaihdettiin *.koha-suomi.fi -palvelinvarmenne (uudet varmenteet 200 vrk voimassa) sekä tehtiin tietokantapalvelinkaluston huoltotoimia (vikaantuneen muistikamman vaihto), joiden vuoksi tilastoihin/raportteihin tuli katko ja hetkellisesti myös laajempi lyhyt katko (tietokantamainin bootti).
+  * Vaskissa havaittiin indeksin palautumisviiveestä johtuva tilapäinen hakuhäiriö, joka on normaalia ja korjaantuu itsekseen kunhan elma saa indeksin palautuksen valmiiksi.
+  * Huollon työjärjestys poikkesi tavanomaisesta muistikorjauksen vuoksi, minkä takia tietokantamainin päivitys ja bootti jäi tällä kertaa poikkeuksellisesti viimeiseksi. Yleensä se on heti toisena, kun on varmistuttu, että tietokantareplica toimii ja meillä on käytettävissä vähintään yksi toimiva tietokantapalvelin. Mainin bootti Koha-konttien käynnistyksen jälkeen aiheutti satunnaisia ongelmia joissain kimpoissa. mm. Hellessä näkyi hetken aikaa “Internal Server Error”. Kirkes-kimpasta raportoitiin huollon jälkeen toimintaoireita (hyllyvarauslistan/raportin tila, palautusautomaatin verkkaisuus Tuusulassa, sekä saapumisvalvonnan ongelmia). Myöhemmin tilanne kuittautui normaaliksi. Hyllyvarausraportin ajo käynnistyy huoltopäivinä vasta aamulla (ajo 9.10 → käytännössä toiminta ~9.15), joten hyllyvarausraportin toimimattomuus heti yhdeksältä oli odotettua. Muut satunnaiset “kummittelut” johtuivat tietokantamainin uudelleenkäynnistyksestä, jonka yhteydessä osa Kirkeksen workereistä menetti tietokantayhteyden. Ongelma korjaantui starmanin uudelleenkäynnistyksellä, joka ilmeisesti on hyvä käytäntö aina jos joudutaan käyttämään tietokantamain alhaalla kun Koha-kontit ovat käynnissä.
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+Työt kuvailutietovarannon tietue- ja osakohdeyhdistelyn kanssa jatkuvat.
 
 ## Viikko 20
 
