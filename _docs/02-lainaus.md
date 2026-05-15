@@ -955,11 +955,11 @@ Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Mikäli käytät
 
 Voit halutessasi valita "Kiinnitä laajennus työkalupalkkiin".
 
-![](/assets/files/docs/Lainaus/KOCTlataus3.PNG)
+![](/assets/files/docs/Lainaus/KOCTlataus3.png)
 
 Laajennus tulee valintasi mukaan näkyviin joko työkalupalkkiin (merkitty sinisellä) tai laajennusten valikkoon (merkitty vihreällä)
 
-![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
+![](/assets/files/docs/Lainaus/KOCTkuvake.png)
 
 
 #### 2.19.2.2 KOCT-laajennuksen käytön aloitus
@@ -970,7 +970,7 @@ Mene asetuksiin "settings page"-linkistä.
 
 ![](/assets/files/docs/Lainaus/KOCTasetukset.PNG)
 
-![](/assets/files/docs/Lainaus/KOCTasetukset2.PNG)
+![](/assets/files/docs/Lainaus/KOCTasetukset2.png)
 
 Anna parametrit seuraavasti:
 1. Kohtaan *Server*: anna kimppasi Koha-osoite.
