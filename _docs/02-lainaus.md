@@ -53,6 +53,7 @@ Mene asiakkaan tiedoissa Lainaus-sivulle. Lue lainattavan niteen viivakoodi Lain
   ![](/assets/files/docs/Lainaus/lainausviesti6.PNG.
 
  - Tarkista niteen viivakoodi, onko se oikein.
+ - Jos teostietoja ei oltu tallennettu tietokantaan ja sinulla on pikakuvailuoikeudet, pääset lisäämään tietueen suoraan ilmoituksesta.
 
 **Lainausasetukset**
 
