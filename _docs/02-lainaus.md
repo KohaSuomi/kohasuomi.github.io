@@ -777,9 +777,9 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 1.  **Koha Offline Circulation -lainausohjelma** (KOC). Erillinen työpöytäsovellus
     yksittäiselle Windows-koneelle.
 
-2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen lisäosa. 
+2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen laajennus. 
 
-Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.  
+Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.
 
 Lainojen palautukset kannattaa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 {: .notice--warning}
@@ -816,7 +816,7 @@ Hyväksy ohjelman ehdottama tallennustiedosto valitsemalla *Next*.
    
 ![](/assets/files/docs/Lainaus/OfflineKOC6.PNG)
 
-Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Ciruclation".
+Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Circulation".
    
 ![](/assets/files/docs/Lainaus/OfflineKOC8.PNG)
 
@@ -862,17 +862,15 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
    - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon. Eri käyttäjien tallennetut tiedostot tallentuvat kukin omina tiedostoina valittuun kansioon.
    - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella, muuten lainat tallentuvat aina edelliselle asiakkaalle.
      
-Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedoston nimen ja sijainnin vaikka paperille ylös.
+Pidä mielessä tai ota ylös mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti.
 {: .notice--warning}
 
 #### 2.19.1.2 Lainatietojen lataaminen ja lähettäminen tietokantaan
 
-**Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
+**Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimeisenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
-Hyvä on huomioida, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijolle yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn.
-{: .notice--warning}  
-Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää kaikki lainat Kohaan. Jos samat lainat siirretään Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväksi kuluvan päivän, jolloin lainat on siirretty Kohaan.
-{: .notice--warning}   
+On suositeltavaa, että yksi virkailija siirtää kaikki samalla koneella lainatut offline-lainat Kohaan. Tämä edellyttää, että edellisessä kohdassa tiedosto on tallennettu kansioon, johon muillakin on pääsy. Jos joku virkailijoista on tallentanut tiedoston kansioon johon vain hänellä on pääsy, täytyy hänen käydä siirtämässä kyseinen tiedosto itse.
+{: .notice--warning}
 
 - Kun yhteydet taas toimivat, kirjaudu Kohaan.
 - Lainaus ja palautus -sivulta valitse *Lähetä yhteydettömän tilan lainaustiedosto (*.koc)*.
@@ -887,7 +885,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
-- Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
+- Jos lähetettäviä tiedostoja on useampia, valitse ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
@@ -909,6 +907,9 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOCkäsittelyäodottavat.PNG)
 
+Huomioi, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijoille yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn.
+{: .notice--warning}  
+
 - Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää. *Valitse kaikki* -toiminnolla saat valittua siirrettävät lainat. Klikkaa lopuksi *Käsittele*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
@@ -922,14 +923,14 @@ Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun 
 
 #### 2.19.1.3 Lähetettyjen tiedostojen poistaminen
 
-Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta lopullisesti.
+Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta.
 1. Hae tiedosto(t), johon tallensit lainat.
 2. Valitse poistettava KOC-tiedosto aktiiviseksi ja paina sen jälkeen näppäimistöltä yhtä aikaa *Shift+Del* -näppäimiä. Ohjelma kysyy, "Haluatko varmasti poistaa tämän tiedoston lopullisesti?"
 3. Valitse *Kyllä*.
    
 ![](/assets/files/docs/Lainaus/OfflineKOCtiedostonpoisto.PNG)
 
-Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.
+Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahingossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.
 {: .notice--warning}
 
 
