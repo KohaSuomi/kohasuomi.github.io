@@ -50,7 +50,7 @@ Mene asiakkaan tiedoissa Lainaus-sivulle. Lue lainattavan niteen viivakoodi Lain
   joten *Lainaus*-painiketta ei tarvitse välttämättä klikata sen jälkeen, kun olet lukenut lainattavan niteen viivakoodin Lainaus-kenttään.
 - Jos niteen viivakoodia ei löydy, saat ilmoituksen:
 
-  ![](/assets/files/docs/Lainaus/lainausviesti6.PNG)
+  ![](/assets/files/docs/Lainaus/lainausviesti6.PNG.
 
  - Tarkista niteen viivakoodi, onko se oikein.
 
