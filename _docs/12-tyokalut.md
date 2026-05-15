@@ -24,7 +24,7 @@ Osa aiemmin _Työkalut_-osiossa sijainneista toiminnoista, esim. niteiden ja tie
 ## 12.1 Asiakaslistat
 
 _Asiakaslistat_-työkalulla voi luoda asiakkaista listoja, joita voi sitten
-hyödyntää esim. asiakastietojen erämuokkauksessa (kts. 12.5).
+hyödyntää esim. asiakastietojen erämuokkauksessa (ks. 12.5).
 
 Etusivulla listataan olemassa olevat asiakaslistat. Uuden asiakaslistan
 voi tehdä _Uusi asiakaslista_ -painikkeesta.
