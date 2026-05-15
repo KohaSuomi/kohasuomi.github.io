@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**:
 * Viikon 20 päivitys
@@ -46,6 +46,10 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Ei mainittavaa. Koha-ohje työn alla.
+
+**Helle**
+* YKL-luokitus ei toimi tiedonhaun Hakuapurissa. Tiketti [Tiedonhaun Hakuapuri: YKL-luokituksen käyttö hakuapurina tarvinnee säätöä](https://github.com/KohaSuomi/Koha/issues/2317)
+* Saisiko käyttöön ominaisuuden [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan](https://github.com/KohaSuomi/Koha/issues/2318)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
