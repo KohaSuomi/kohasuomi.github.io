@@ -339,6 +339,7 @@ HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuis
 HomeOrHoldingBranch | the item’s holding library (holdingbranch) | Asetuksella määritetään, onko CircControlissa määritetty kirjastotieto niteen koti- vai sijaintikirjasto.
 LockExpiredDelay | Jätä tyhjäksi | Jos tässä asetuksessa on arvo, cleanup_database-cronajo asettaa vanhentuneille asiakkaille borrowers-tauluun login_attempts-sarakkeeseen arvon -1 eli "Tili on lukittu hallinnollisesti". Cronajo ei ole normaalisti käytössä, mutta sitä saatetaan joutua käyttämään välillä, joten asetuksen arvo kannattaa jättää tyhjäksi, jolloin toiminto ei ole käytössä.
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
+QueryRegexEscapeOptions | Ohita escape-komento (Unescape escaped) | Tiedonhaussa ei toiminut haut, joissa nimekkeessä on /-merkki ilman tätä asetusta.
 SearchEngine| ElasticSearch |
 StoreLastBorrower | Säilytä | Säilytetään erillisessä taulussa niteen viimeisin lainaaja, vaikka lainat anonymisoidaan. Auttaa löytämään oikean asiakkaan ongelmatilanteissa.
 StripWhitespaceChars | Poista | Asetuksella voi määrittää poistetaanko kuvailutietueen MARC-kentistä ylimääräiset välilyönnit, sarkaimet ja rivivaihdot. Asetus ei vaikuta kiinteämittaisiin kenttiin. [StripWhitespaceChars](https://koha-community.org/manual/23.05/en/html/catalogingpreferences.html#stripwhitespacechars)
