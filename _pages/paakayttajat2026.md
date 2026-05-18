@@ -21,6 +21,7 @@ Läsnä:
 * [Varoitus liian pitkistä viivakoodeista](https://github.com/KohaSuomi/Koha/issues/2324)
 * [Testattaviin](https://github.com/orgs/KohaSuomi/projects/4/views/8) voisi aina merkitä Testanneet kimpat -kohtaan oman kimpan nimen, kun olette testanneet. Tämä helpottaa Koha-Suomea seuraamaan, kuinka monta testausta on tullut.
   * Toiminnossa on ollut jotain omituisuutta ja tuntuu kuin osa merkinnöistä katoaisi "itsekseen". Tarkistattehan, että ette ainakaan vahingossa poista toisten merkintöjä ja kirjoitatte oman merkintänne muiden merkintöjen perään.
+* Onko muokattuun [Vanhentuneet hyllyvaraukset -raporttiin](https://github.com/KohaSuomi/Koha/issues/2290) tullut kommentteja käyttäjiltä?
 
 Pohjoisesta etelään
 
