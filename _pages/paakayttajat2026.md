@@ -10,13 +10,27 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 21
+
+Aika: Ti 19.5.2026 klo 9.15<br />
+Läsnä: 
+
+**Yhteiset**:
+* [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
+* [Varoitus liian pitkistä viivakoodeista](https://github.com/KohaSuomi/Koha/issues/2324)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
 Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**:
-* Viikon 20 päivitys
+* [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/2315)
 * Testeille on lisätty uusi järjestelmäasetus [RunTestCronjobs](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#runtestcronjobs), jolla pitää pääkäyttäjien itse käydä laittamassa ajastetut ajot päälle tarvittaessa. Tarkemmat tiedot oheisessa dokumentaatiossa.
 * [Toukokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2310)
 * Uusi raportti [001+003-tuplat](https://github.com/KohaSuomi/Koha/issues/2306)
