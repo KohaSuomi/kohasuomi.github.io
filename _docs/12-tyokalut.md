@@ -568,7 +568,7 @@ välillä:
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
-Linkit _HTML muokkaukset_, *OPACUserJS* ja *OPACUserCSS* liittyvät Kohan omaan verkkokirjastoon, joka ei käytössä Koha-Suomen kirjastoissa.
+Linkit *OPACUserJS* ja *OPACUserCSS* liittyvät Kohan omaan verkkokirjastoon, joka ei käytössä Koha-Suomen kirjastoissa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset.png" title="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" alt="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" style="width:95.0%" />
 
