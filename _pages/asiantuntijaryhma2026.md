@@ -15,6 +15,32 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+
+## Esityslista 5/2026
+
+Aika: Torstai 21.5.2026 klo 13 <br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Seuraavan versionvaihdon ajankohta
+
+Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionvaihdolle ja kuinka pitkä valmisteluaika (omien ominaisuuksien vienti uudempaan versioon ja niiden sekä yleisemmin version testaaminen) tarvitaan.
+
+* Lapista toivotaan, että versionvaihto ei sijoittuisi toukokuun loppuun eikä syyskuulle.
+* OUTI-kirjastoissa / Oulussa ehdotetaan, että vältettäisiin ajankohtia:
+  * 8.-12.3.2027 (koulujen talvilomaviikko Oulun alueella kokoaa jonkin verran henkilökunnan lomia tähän, mutta en pitäisi täydellisenä esteenä)
+  * 15.-16.4.2027 (AKE-tapahtuma Oulussa)
+  * 20.-27.4.2027 (kansallinen Veteraaniviikko, pääjuhla ilmeisesti Oulussa ja aiheuttaa hässäkkää kirjastollakin)
+
+### 3. Käsiteltävät kehitysehdotukset
+
+* [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
+
+### 4. Muut asiat
+
+### 5. Seuraava kokous
+
 ## Muistio 4/2026
 
 Aika: Torstai 23.4.2026 klo 13 <br />
