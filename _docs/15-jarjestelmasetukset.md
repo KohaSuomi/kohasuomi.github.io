@@ -347,6 +347,7 @@ TrackLastPatronActivityTriggers | Kaikki muut paitsi Artikkelipyyntöä tehdess�
 TransfersBlockCirc | Estä | Kuljetukseen on reagoitava
 TrapHoldsOnOrder | Ota kiinni | Saapunut/tilattu-tilaiset jäävät palautuksessa varauksiin kiinni
 UpdateNotForLoanStatusOnCheckin | 6 : ONLYMESSAGE | Laskutetusta niteestä tulee ilmoitus palautettaessa
+UseICUStyleQuotes | Älä käytä | Ei käytetä ICU-tyylistä merkintää ({}) asiasanojen jäljityksessä. Oletuksena lainausmerkit (""). 
 
 
 ## Työkalujen asetuksia
