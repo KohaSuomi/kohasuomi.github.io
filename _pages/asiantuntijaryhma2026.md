@@ -39,6 +39,9 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
 
 ### 4. Muut asiat
 
+Seuraavan asiantuntijaryhmän kokoonpano: Hallitus vahvistaa uuden ensimmäisessä kokouksessa kesän jälkeen.
+* osa on jo ilmoittanut jäsenet, mutta muistattehan muutkin ilmoittaa.
+
 ### 5. Seuraava kokous
 
 ## Muistio 4/2026
