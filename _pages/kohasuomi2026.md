@@ -16,6 +16,12 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 Aika: Ma 18.5.2026<br/>
 Läsnä:
 
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muut asiat
+* [Viikon 20 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+
 ### Viikolla 20 tehty
 
 #### Kodo
@@ -34,6 +40,14 @@ Aputaulut lisätty tuotantokantoihin ja raportti päivitetty vastaamaan aputaulu
   * Huollon työjärjestys poikkesi tavanomaisesta muistikorjauksen vuoksi, minkä takia tietokantamainin päivitys ja bootti jäi tällä kertaa poikkeuksellisesti viimeiseksi. Yleensä se on heti toisena, kun on varmistuttu, että tietokantareplica toimii ja meillä on käytettävissä vähintään yksi toimiva tietokantapalvelin. Mainin bootti Koha-konttien käynnistyksen jälkeen aiheutti satunnaisia ongelmia joissain kimpoissa. mm. Hellessä näkyi hetken aikaa “Internal Server Error”. Kirkes-kimpasta raportoitiin huollon jälkeen toimintaoireita (hyllyvarauslistan/raportin tila, palautusautomaatin verkkaisuus Tuusulassa, sekä saapumisvalvonnan ongelmia). Myöhemmin tilanne kuittautui normaaliksi. Hyllyvarausraportin ajo käynnistyy huoltopäivinä vasta aamulla (ajo 9.10 → käytännössä toiminta ~9.15), joten hyllyvarausraportin toimimattomuus heti yhdeksältä oli odotettua. Muut satunnaiset “kummittelut” johtuivat tietokantamainin uudelleenkäynnistyksestä, jonka yhteydessä osa Kirkeksen workereistä menetti tietokantayhteyden. Ongelma korjaantui starmanin uudelleenkäynnistyksellä, joka ilmeisesti on hyvä käytäntö aina jos joudutaan käyttämään tietokantamain alhaalla kun Koha-kontit ovat käynnissä.
 * [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
 Työt kuvailutietovarannon tietue- ja osakohdeyhdistelyn kanssa jatkuvat.
+
+#### Emmi
+* [Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta](https://github.com/KohaSuomi/Koha/issues/1979): Jatkotyöstetty 003-kentän osalta, nyt pop-upissa huomautetaan väärästä arvosta, jos kenttä ei vastaa MARCOrgCode-asetuksen arvoa. Testattu valmiiksi, viedään tuotantoon.
+* [Siirto-toiminnossa puutteita kun siirrettävään teokseen kohdistuu varaus](https://github.com/KohaSuomi/Koha/issues/1564): Varauksen tärpäyttäminen kuljetus-työkalulla ei toimi oikein. Yhteisössä sama ongelma. Aloitettu korjauksen tekeminen yhteisön mainiin.  
+* [Laskutustyökalu: Tekijätiedottoman tietueen nimekkeen eteen jää laskulla väliviiva ja välilyöntejä](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/36): Ehdotettu tekijän ja nimekkeen vaihtamista päikseeen laskutuspohjalla ja näiden erottamista kauttaviivalla. Ratkaisua testattu laskustuspalvelussa.
+* [Edit_public_list_contents käyttöoikeuden lisääminen käyttäjille](https://github.com/KohaSuomi/Koha/issues/2308): Käyttäjäoikeus lisätty kaikille sitä pyytäneille kimpoille.
+* [Bug 22322 - Self-checkin module should provide for automatic logins (like self-checkout)](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=22322): Koodi viety uudestaan yhteisön mainiin.
+* Yhteisöpalaveri 13.5.2026
 
 ## Viikko 20
 
