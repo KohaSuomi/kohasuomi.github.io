@@ -11,6 +11,32 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 5/2026
+
+12.5.2026
+
+Hei,
+
+Hallituksen toukokuun kokouksessa käytiin läpi perinteisesti kesäkuun yhtiökokousjärjestelyjä ja -tiedotusta. Yhtiökokous pidetään Mikkelissä 15.6.2026. Käytännöt ovat samat kuin viime vuonna ja Koha-Suomi lähettää kokousohjeet ja -materiaalit omistajakuntiin toukokuussa. Kokoukseen on etämahdollisuus kaikille.
+
+Nykyinen Koha-Suomen hallitus piti kautensa viimeisen kokouksen ja uusi hallitus päätetään yhtiökokouksessa nimeämistoimikunnan esityksestä. Toimitusjohtaja ja uuden hallituksen puheenjohtaja tiedottavat syksyn aikatauluista ja jokaisen kokouksen tiedote lähtee samalla tavoin jakeluun tällä jakelulistalla. Jos teillä on tullut jotain henkilövaihdoksia kirjastoissanne tai kimpoissanne, niin ilmoittakaa siitä toimitusjohtajalle tai minulle. Koha-Suomen hallitus kiittää kaikkia aktiivisesta osallistumisesta ja hienoa, että tiedotus järjestyy teidän kauttanne jokaiseen kirjastoon.
+
+Osa teistä tuleekin kesäkuussa Oulun kirjastopäiville. Hienoa nähdä teitä ennen kesälomia.
+
+Liitteenä myös toimitusjohtajan raportti 5/2026.
+
+Mukavaa kesän odotusta kaikille, välitäthän tiedotetta eteenpäin kirjastoillenne ja kimpoille. 
+
+Jos tulee kysyttävää, niin olkaa yhteydessä Ariin ja minuun.
+
+Koha-Suomen hallituksen puolesta,
+
+Jouni Pääkkölä<br />
+hallituksen pj.
+
+Toimitusjohtajan raportti 5/2026: [Toimitusjohtajan raportti 5_26.pdf](https://github.com/user-attachments/files/27948769/Toimitusjohtajan.raportti.5_26.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 4/2026 
 
 24.4.2026
