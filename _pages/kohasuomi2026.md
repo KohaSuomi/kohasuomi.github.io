@@ -14,7 +14,7 @@ hidden: true
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
-Läsnä:
+Läsnä: Anneli, Ari, Kodo, Emmi, Johanna, Lari, Pasi
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
