@@ -66,7 +66,7 @@ jobs:
             const projectTitle = "Tikettien seuranta";
             const wantedStatus = "Ratkaisu ehdotettu";
 
-            const dryRun = (process.env.INPUT_DRY_RUN || "true") === "true";
+            const dryRun = (process.env.INPUT_DRY_RUN || "false") === "true";
             const openDays = parseInt(process.env.INPUT_OPEN_DAYS || "30", 10);
             const commentIdleDays = parseInt(process.env.INPUT_COMMENT_IDLE_DAYS || "30", 10);
 
