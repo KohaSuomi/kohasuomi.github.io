@@ -14,11 +14,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: 
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
 * [Varoitus liian pitkistä viivakoodeista](https://github.com/KohaSuomi/Koha/issues/2324)
+  * voiko skeeman muuttaa 20 merkkiin?
+  * miten käy kaukolainojen viivakoodeille, jotka saattavat olla yli 20 merkkiä pitkiä?
+  * voisko yhteisössä muuttaa API niin, että se tarkastaisi käytössä olevasta skeemasta kentän pituuden, eikä noudattaisi yhteisön merkkirajoitusta?
 * [Testattaviin](https://github.com/orgs/KohaSuomi/projects/4/views/8) voisi aina merkitä Testanneet kimpat -kohtaan oman kimpan nimen, kun olette testanneet. Tämä helpottaa Koha-Suomea seuraamaan, kuinka monta testausta on tullut.
   * Toiminnossa on ollut jotain omituisuutta ja tuntuu kuin osa merkinnöistä katoaisi "itsekseen". Tarkistattehan, että ette ainakaan vahingossa poista toisten merkintöjä ja kirjoitatte oman merkintänne muiden merkintöjen perään.
 * Onko muokattuun [Vanhentuneet hyllyvaraukset -raporttiin](https://github.com/KohaSuomi/Koha/issues/2290) tullut kommentteja käyttäjiltä?
