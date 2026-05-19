@@ -36,7 +36,7 @@ Pohjoisesta etelään
 * Kohan ohje pyritään saamaan meidän osalta valmiiksi deadlineen mennessä.
 
 **Kirkes**
-* Kerava ottaa käyttöön Toshiba MyPC asiakaskoneiden hallintaohjelman kesäkuun alusta. Integraatio on toteutettu ja henkilökuntaa koulutetaan parhaillaan. 
+* Kerava ottaa käyttöön Toshiba MyPC asiakaskoneiden varausohjelman kesäkuun alusta. Integraatio on toteutettu ja henkilökuntaa koulutetaan parhaillaan. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
 
