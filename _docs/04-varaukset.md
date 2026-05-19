@@ -141,7 +141,7 @@ Ota asiakkaan tiedoista auki _Varaukset_-välilehti ja klikkaa _Keskeytä varaus
 
 ![](/assets/files/docs/Lainaus/Varaus_asiakastietokeskeytys01.png)
 
-Valitse päivämäärä, jolloin haluat, että varaus aktivoituu.
+Valitse päivämäärä, jolloin haluat, että varaus aktivoituu ja paina _Keskeytä varaus_ -nappia.
 
 ![](/assets/files/docs/Lainaus/Varaus_asiakastietokeskeytys02.png)
 
