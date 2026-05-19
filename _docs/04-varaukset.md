@@ -167,9 +167,9 @@ Useita varauksia kerralla voit poistaa merkitsemällä kunkin varauksen alasveto
 
 ![](/assets/files/docs/Lainaus/Varaus_19_peru_monta_varausta.PNG)
 
-Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä valitsemalla Poista?-sarakkeeseen _“Kyllä”_ ja klikkaamalla _Peruuta valitut varaukset_ -nappia.
+Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä valitsemalla Poista?-sarakkeeseen _“Kyllä”_ ja klikkaamalla _Peruuta valitut varaukset_ -nappia. Useamman varauksen peruutus toimii samalla lailla - kaikkiin varauksiin, jotka halutaan peruuttaa, täytyy laittaa _Kyllä_.
 
-![](/assets/files/docs/Lainaus/Varaus_17a_peru_asiakastiedoista_monta.PNG)
+![](/assets/files/docs/Lainaus/Varaus_poista_asiakastiedoista01.png)
 
 ### 4.1.5.6. Varauksen noutopaikan vaihtaminen
 
