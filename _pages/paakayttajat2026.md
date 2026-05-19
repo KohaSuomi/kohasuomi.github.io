@@ -39,7 +39,7 @@ Pohjoisesta etelään
 * Kerava ottaa käyttöön Toshiba MyPC asiakaskoneiden varausohjelman kesäkuun alusta. Integraatio on toteutettu ja henkilökuntaa koulutetaan parhaillaan.
 
 **OUTI**
-* Aloitettu lasten ja nuorten aineistojen hyllypaikkasiirrot omille hyllypaikoille. Niteet siirretään joko signumissa olevan sijaintipaikkalyhenteen mukaan Lapset tai Nuoret hyllypaikalle tai jos signumissa ei ole hyllypaikkatietoa, siirrot tehdään YKL-lisäluokan asiasanan mukaan. Elokuvissa ja konsolipeleissä käytetään myös ikärajoja. Kirjastoilla on tosi monenlaisia tietoja signumeissa. Työ on erittäin hidasta. Osa Oulun ulkopuolisista kirjastoista pähkäilevät lajittelevien palautusautomaattien sort_bin-määritysten kanssa.
+* Aloitettu lasten ja nuorten aineistojen hyllypaikkasiirrot omille hyllypaikoille. Niteet siirretään joko signumissa olevan sijaintipaikkalyhenteen mukaan Lapset tai Nuoret hyllypaikoille tai jos signumissa ei ole hyllypaikkatietoa, siirrot tehdään YKL-lisäluokan asiasanan mukaan. Elokuvissa ja konsolipeleissä käytetään myös ikärajoja. Kirjastoilla on tosi monenlaisia tietoja signumeissa. Työ on erittäin hidasta. Osa Oulun ulkopuolisista kirjastoista pähkäilevät lajittelevien palautusautomaattien sort_bin-määritysten kanssa.
 * Kesällä kiinni menevien kirjastojen sulkutoimenpiteet ovat taas alkaneet. Kiinni olevilta kirjastoilta on Oulussa ylitetty kalentereista kaksi ensimmäistä viikkoa. Kirjastoille tehdään omat noutoilmoitukset, joissa kerrotaan missä kirjastossa varaukset on noudettavissa kiinniolon aikana.
 * Pari Oulun kirjasota meni yllättäen kiinni viime viikolla päiväksi, joka aiheutti lisätyötä.
 * Kaikkea muuta normaalia tukityötä.
