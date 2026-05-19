@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
@@ -30,6 +30,10 @@ Pohjoisesta etelään
 
 **Kyyti**
 * Kouvola päättänyt ottaa Kohan kaukolainaosion käyttöön ensi vuodenvaihteessa.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Kohan ohje pyritään saamaan meidän osalta valmiiksi deadlineen mennessä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
 
