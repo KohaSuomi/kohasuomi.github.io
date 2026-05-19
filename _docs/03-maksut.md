@@ -19,12 +19,12 @@ Asiakkaalla voi olla julkisoikeudellisia ja yksityisoikeudellisia maksuja.
 - Kaikki muut asiakkaan maksuissa olevat maksut, esim. kaukopalvelumaksu, aineiston korvausmaksut, uuden kirjastokortin maksu.
 - Maksut eivät vaikuta lainauskieltorajaan.
 - Maksut vanhenevat 3 vuoden kuluttua.
-- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä. Huom! Ajot otetaan käyttöön vuoden 2024 alusta alkaen.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä. Huom! Ajot otettiin käyttöön vuoden 2024 alusta alkaen.
 
 Maksut näkyvät eriteltynä asiakkaan tiedoissa:
 ![](/assets/files/docs/Maksut/Maksuerittely.PNG)
 
-Esimerkissä asiakkaalla on 19,50 € julkisoikeudellisia maksuja, jotka vaikuttavat lainauskieltorajaan. Asiakkaalla on maksuja yhteensä 31,50 €. Yhteissumma sisältää myös maksut, jotka eivät vaikuta lainauskieltoon. Esimerkkitapauksessa asiakkaalla on yksityisoikeudellisia maksu 12,00 €.
+Esimerkissä asiakkaalla on 19,50 € julkisoikeudellisia maksuja, jotka vaikuttavat lainauskieltorajaan. Asiakkaalla on maksuja yhteensä 31,50 €. Yhteissumma sisältää myös maksut, jotka eivät vaikuta lainauskieltoon. Esimerkkitapauksessa asiakkaalla on yksityisoikeudellisia maksuja 12,00 €.
 
 <br>
 
@@ -61,6 +61,8 @@ Tällä näytöllä on seuraavat sarakkeet:
 niteen eräpäivä sekä linkki nidetietoon
 
 \- _Viivakoodi:_ Niteen viivakoodi -linkki
+
+\- _Luokka:_ Niteen luokka
 
 \- _Eräpäivä:_ Lainan eräpäivä
 
@@ -122,17 +124,17 @@ osittain. Maksukäytännöissä voi olla kirjastokohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/maksurivi.png)
 
-Maksun maksaminen riviltä kokonaan
+Maksun maksaminen riviltä kokonaan:
 
-\- Valitse _Maksa_ sen maksun kohdalla, mikä maksetaan
+\- Valitse _Maksa_ sen maksun kohdalla, mikä maksetaan.
 
-- Maksun summa tulee Maksettava summa -laatikkoon
+- Maksun summa tulee Maksettava summa -laatikkoon.
 
 \- Klikkaa _Hyväksy_.
 
 - Maksu poistuu maksamattomista maksuista ja näkyy kokonaan maksettuna.
 
-Maksun maksaminen riviltä osittain
+Maksun maksaminen riviltä osittain:
 
 ![](/assets/files/docs/Asiakkaat/osamaksu2.png)
 
@@ -155,7 +157,7 @@ valitsemalla Poista tämä maksu.
 
 ![](/assets/files/docs/Asiakkaat/poistamaksu2.png)
 
-Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
+Maksu siirtyy Maksa maksuja-välilehdeltä Tapahtumat-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/poistettu2.png)
 
