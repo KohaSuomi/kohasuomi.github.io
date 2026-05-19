@@ -26,11 +26,11 @@ Kun teet varauksen, täytyy asiakkaan tiedot hakea näytölle joko kortin viivak
 
 Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_ -nappia…
 
-![](/assets/files/docs/Lainaus/Varaus_4_asiakastiedoista.PNG)
+![](/assets/files/docs/Lainaus/Varaus_4_asiakastiedoista.png)
 
 …hae tarvittava nimeke ja tee varaus.
 
-![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.PNG)
+![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.png)
 
 Kun olet valinnut asiakkaan, jolle varaus tehdään, voit valita teetkö normaalin varauksen vai nidevarauksen. Tässä vaiheessa varauksen tietoja voidaan tarkentaa:
 
@@ -121,13 +121,35 @@ Kun varauksen kohdalla näkyy vihreä nuoli, jonka alla on viiva, se tarkoittaa,
 
 ### 4.1.5.3. Yksittäisen varauksen keskeyttäminen
 
-Jos asiakas haluaa keskeyttää yksittäisen varauksensa tietyksi ajaksi, sen voi tehdä valitsemalla kalenterikuvakkeesta päivämäärän, mihin asti varaus on keskeytettynä ja klikkaamalla _Keskeytä_-nappia.
+Jos asiakas haluaa keskeyttää yksittäisen varauksensa tietyksi ajaksi, sen voi tehdä valitsemalla kalenterikuvakkeesta päivämäärän, mihin asti varaus on keskeytettynä ja klikkaamalla _Keskeytä_-nappia. Tämän toiminnon voi tehdä tietueen varauslistassa tai asiakastietojen varauslistassa.
+
+
+Varauslistassa:
+
+Etsi asiakkaan tiedot tietueen varauslistassa.
 
 ![](/assets/files/docs/Lainaus/Varaus_14_keskeytä.PNG)
 
 Kun varaus on keskeytetty, varauksen kohdalle tulee _Jatka_-nappi ja näkyy päivämäärä, mihin saakka keskeytys on voimassa. Voit palauttaa varauksen voimaan myös (tyhjentämällä päivämäärän ja) klikkaamalla _Jatka_.
 
 ![](/assets/files/docs/Lainaus/Varaus_15_keskeytetty_varaus.PNG)
+
+
+Asiakastietojen varauslistassa:
+
+Ota asiakkaan tiedoista auki _Varaukset_-välilehti ja klikkaa _Keskeytä varaus_ -nappia tarvittavan niteen kohdalla.
+
+![](/assets/files/docs/Lainaus/Varaus_asiakastietokeskeytys01.png)
+
+Valitse päivämäärä, jolloin haluat, että varaus aktivoituu.
+
+![](/assets/files/docs/Lainaus/Varaus_asiakastietokeskeytys02.png)
+
+Keskeytetty varaus ja sen aktivoitumispäivämäärä näkyy asiakkaan tiedoissa. Jos varauksen haluaa aktivoida aikaisemmin, klikkaa _Aktivoi_-painiketta.
+
+![](/assets/files/docs/Lainaus/Varaus_asiakastietokeskeytys03.png)
+
+
 
 ### 4.1.5.4. Asiakkaan kaikkien varauksien keskeyttäminen
 
