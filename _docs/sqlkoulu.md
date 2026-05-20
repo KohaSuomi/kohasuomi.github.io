@@ -117,7 +117,7 @@ SELECT * FROM items WHERE itype = '14VRK' OR itype = '28VRK';
 ```
 
 Mallissa AND-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 28VRK ja hyllypaikkana aikuiset.
-Mallissa OR-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 14VRK tai nidetyyppi 28VRK. Eli tulosjoukko muodostuu kummastakin nidetyypistä.
+Mallissa OR-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 14VRK tai nidetyyppi on 28VRK. Eli tulosjoukko muodostuu kummastakin nidetyypistä.
 
 Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti. Siihen käytetään määritystä !=
 
@@ -125,7 +125,7 @@ Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti. Siihen käyte
 SELECT * FROM items WHERE itype != '28VRK' AND homebranch = 'MLI_PK';
 ```
 
-Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista niteistä paitsi 28 vuorokauden lainajalla olevista niteistä.
+Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista niteistä paitsi 28 vuorokauden laina-ajalla olevista niteistä.
 
 Jos Kohassa halutaan valita kirjastopiste ennen raportin käynnistystä niin silloin raporttin laitetaan ohjelmoitu valintatyökalu.
 
@@ -135,7 +135,7 @@ SELECT * FROM items WHERE itype != '28VRK' AND homebranch=<<Kotikirjasto|branche
 
 Käyttääksesi WHERE-rajauksia sinun tulee tietää tunnusarvot. Tietokannassa käytetään lyhyitä tunnuksia, joilla on nopeampi hakea. Kuvaukset ovat yleensä ihmisiä varten ja ne näytetään vain käyttöliittymässä.
 
-### LIKE
+### LIKE ja NOT LIKE
 
 SELECT-lauseissa voidaan käyttää vertailussa myös LIKE-sanaa. Esim, jos halutaan jonkun tietyn kunnan kirjastopisteet samaan tulosjoukkoon.
 
@@ -150,6 +150,7 @@ LIKE-komennossakin on mahdollisuus negatiiviseen rakenteeseen. Tällöin käytet
 ```
 SELECT * FROM items WHERE homebranch NOT LIKE 'MLI%';
 ```
+#### :all-lisämääre
 
 LIKE-komennon yhteydessä voi käyttää :all-lisämäärettä parametrissä, jolloin kyselyä ajaessa käyttäjä voi valita Kaikki-vaihtoehdon. Esim.
 
@@ -161,7 +162,7 @@ näyttää ajettaessa tältä:
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu17.png)
 
-### IN
+### IN ja :in-lisämääre
 
 IN-komennolla voidaan määrittää, että haetaan esimerkiksi tiettyjä biblionumbereita:
 
@@ -176,6 +177,8 @@ SELECT * FROM items WHERE homebranch IN <<Valitse kirjasto|branches:in>>;
 ```
 
 ![](/assets/files/docs/Ohjeet/sqlkoulu16.png)
+
+#### list-ajonaikainen parametri
 
 Voit myös luoda lista-ajonaikaisella parametrilla kyselyn, jossa käyttäjä voi syöttää useamman hakuehdon, yhden per rivi. Esim.
 
@@ -202,7 +205,7 @@ Lauseessa voi olla ääretön määrä join-komentoja, jos vain tauluilla on jok
 
 JOIN-komentoja on erilaisia. [Katso visuaalinen esittely JOINien eroista](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins).
 
-### Taulujen aliakset
+### Taulujen aliakset eli lyhenteet
 
 Kyselyssä voi määrittää tauluille aliaksen, jolla voi viitata muualla kyselyssä tauluun. Tämä on helppo ja nopea tapa kertoa, mistä taulusta tieto halutaan hakea, jos useassa taulussa on sama sarake käytössä. Jos taulua ei määrittele, ilmoittaa Koha tiedon olevan "ambiguous" eli epämääräinen eikä aja raporttia.
 
@@ -214,10 +217,11 @@ FROM biblio b
 JOIN items i USING (biblionumber)
 WHERE i.holdingbranch='OUPK'
 ```
+Kannattaa johdonmukaisuuden vuoksi käyttää aina samoja lyhenteitä/aliaksia samojen taulujen yhteydessä, niin olemassa olevien raporttien hyödyntäminen toisten pohjalta on helpompaa.
 
 ### Ajalla rajaaminen
 
-Tulosjoukkon rajaaminen ajan mukaan voidaan määritellä monella eri tavalla, mutta yksin kertaisin on opetella BETWEEN-lause.
+Tulosjoukon rajaaminen ajan mukaan voidaan määritellä monella eri tavalla, mutta yksin kertaisin on opetella BETWEEN-lause.
 
 ```
 SELECT *
@@ -227,12 +231,12 @@ WHERE date(dateaccessioned) BETWEEN '2022-01-01' AND '2022-12-31';
 
 Tietokannassa päivämäärät ovat yleensä muodossa 2016-01-01 12:00:00, mallin lauseessa halutaan vain päiväys eikä kellonaikaa. Siksi päivämäärä-kenttä on ympyröity date:lla.
 
-Kohassa päivämäärä valinnan saa raporttiin kun vaihtaa nuo luvut sisäänrakennettuun valintatyökaluun.
+Kohassa päivämäärävalinnan saa raporttiin kun vaihtaa nuo luvut sisäänrakennettuun date-valintatyökaluun.
 
 ```
 SELECT *
 FROM items
-WHERE date(dateaccessioned) BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>;
+WHERE date(dateaccessioned) BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>>;
 ```
 
 Aloitus- ja lopetuspäivämäärien kuvaus eli yllä esim. AloitusPvm, kannattaa olla eri nimiset, muuten Koha yhdistelee ne samaksi kentäksi.
@@ -357,7 +361,7 @@ Ilman GROUP_CONCATia tulokset ryhmittyisivät näin:
 
 Hyvä tietää:
 * GROUP_CONCATin kanssa pitää käyttää GROUP BY -toimintoa
-* Voit järjestää GROUP_CONCATin sisällä tietoja
+* Voit järjestää myös GROUP_CONCATin sisällä tietoja
   * ```GROUP_CONCAT(title ORDER BY title SEPARATOR ', ')```
 * Voit poistaa duplikaatit
   * ```GROUP_CONCAT(DISTINCT title SEPARATOR ', ')``` 
