@@ -462,7 +462,7 @@ CONCAT('<pre>', REPLACE(REPLACE(metadata, '<', '&lt;'), '>', '&gt;'), '</pre>') 
 
 ### NULL ja tyhjä
 
-Tietokannassa voi olla kahden tyyppisiä "tyhjiä"-kenttiä. NULL tarkoittaa, että kenttään ei ole määritelty mitään. Toinen vaihtoehto on, että kentässä on tyhjä merkkijono. NULL-määreen kanssa käytetään IS-sanaa =-merkin tilalla. Negatiivisia hakuja tehdessä käytetään 'IS NOT NULL'.
+Tietokannassa voi olla kahden tyyppisiä "tyhjiä" kenttiä. NULL tarkoittaa, että kenttään ei ole määritelty mitään. Toinen vaihtoehto on, että kentässä on tyhjä merkkijono. NULL-määreen kanssa käytetään IS-sanaa =-merkin tilalla. Negatiivisia hakuja tehdessä käytetään 'IS NOT NULL'.
 
 ```
 SELECT * FROM items WHERE barcode IS NULL AND homebranch = 'MLI_PK';
@@ -480,9 +480,10 @@ Mallin tulosjoukko muodostuu niteistä, joilla ei ole viivakoodia. *Huomaa sulut
 Huomioi myös, että IS NOT -kyselyjä tehdessä NULL-arvo pitää määrittää erikseen mukaan. Muuten kysely huomioi vain ne rivit, joissa on jokin arvo. Esim. jos halutaan hakea niteet, joissa ei ole kokoelmakoodia "JANNITYS", pitää NULL-arvot huomioida seuraavasti:
 
 ```
-SELECT * FROM items WHERE ccode !='JANNITYS'
-AND ccode IS NULL
+SELECT * FROM items WHERE (ccode !='JANNITYS' OR ccode IS NULL)
+LIMIT 100
 ```
+
 ### Relaatiot
 
 Relaatioilla tarkoitetaan tauluja yhdistäviä tekijöitä, kuten asiakkaiden relaatiota lainoihin.
@@ -603,7 +604,7 @@ Jos kuitenkin haluat linkkiin esim. kirjastokortin numeron tai teoksen nimekkeen
 Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokortin numero ja osoitteeseen lisätään asiakkaan borrowernumber. Linkki avautuu uuteen välilehteen.
 
 ```
-SELECT CONCAT('<a href=\"/cgi-bin/koha/members/mORemember.pl?borrowernumber=',b.bORrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
+SELECT CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',b.borrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
 FROM borrowers b
 WHERE zipcode=<<Postinumero>>
 ```
@@ -689,6 +690,8 @@ Eri parametrit tarjoajavat erilaisia vaihtoehtoja
 ## Pölkyillä vai ei?
 
 Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin, jolloin ne on helpompi erottaa tekstin seasta. Kohan kannalta ei ole merkitystä, kirjoitetaanko pölkyillä vai ei.
+
+Taulujen nimiä ei saa kirjoittaa pölkyillä.
 
 ## Ei toimi?
 
