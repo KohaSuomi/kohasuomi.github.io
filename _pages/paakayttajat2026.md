@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
@@ -43,6 +43,9 @@ Pohjoisesta etelään
 * Kesällä kiinni menevien kirjastojen sulkutoimenpiteet ovat taas alkaneet. Kiinni olevilta kirjastoilta on Oulussa ylitetty kalentereista kaksi ensimmäistä viikkoa. Kirjastoille tehdään omat noutoilmoitukset, joissa kerrotaan missä kirjastossa varaukset on noudettavissa kiinniolon aikana.
 * Pari Oulun kirjasota meni yllättäen kiinni viime viikolla päiväksi, joka aiheutti lisätyötä.
 * Kaikkea muuta normaalia tukityötä.
+
+**Lappi**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
 
