@@ -70,7 +70,7 @@ Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä _List
 
 <img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" style="width:90.0%" />
 
-_Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
+_Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää nimekkeitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
 
 <img src="/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty viivakoodi- ja tietuenumerokentät" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty viivakoodi- ja tietuenumerokentät" style="width:90.0%" />
 
