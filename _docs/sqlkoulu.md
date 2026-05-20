@@ -7,7 +7,7 @@ toc: true
 ---
 
 Ohjeen tekijä: Johanna Räisä<br />
-Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025 / 11.2.2026
+Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025 / 11.2.2026 / 20.5.2026
 
 
 [Kohan tietokantaskeema](https://schema.koha-community.org/)
@@ -373,7 +373,7 @@ GROUP_CONCATia voi käyttää esim. kun haluat
 
 ### ExtractValue
 
-ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Tätä käytetään usein, kun halutaan hakea kuvailutietueista tietystä kentästä tietoja. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
+ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Tätä käytetään usein, kun halutaan hakea kuvailutietueista tietystä MARC-kentästä tietoja. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
 
 
 ```
@@ -386,15 +386,15 @@ Mallikyselyssä haetaan biblio_metadata-taulusta kaikki rivit, joilla on MARC-ke
 Jos MARC-kentän tiedot halutaan hakea vain taulukon sarakkeeseen, sen voi tehdä näin:
 
 ```
-SELECT title, ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]')
+SELECT title, ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') AS '264c'
 FROM biblio_metadata bm
 JOIN biblio b USING (biblionumber)
 WHERE biblionumber=1234
 ```
 
-Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. Tuloksena on
+Mallissa mennään metadata-kentän sisälle ja tarkastellaan xml-rakennetta. Tuloksena on
 
-| title | ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') |
+| title | 264c |
 | -------------- | ------- |
 | Matkani maailmalla | 1995 |
 
