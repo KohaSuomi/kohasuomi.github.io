@@ -39,8 +39,11 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
 
 ### 4. Muut asiat
 
-Seuraavan asiantuntijaryhmän kokoonpano: Hallitus vahvistaa uuden ensimmäisessä kokouksessa kesän jälkeen.
-* osa on jo ilmoittanut jäsenet, mutta muistattehan muutkin ilmoittaa.
+* Seuraavan asiantuntijaryhmän kokoonpano: Hallitus vahvistaa uuden ensimmäisessä kokouksessa kesän jälkeen.
+  * osa on jo ilmoittanut jäsenet, mutta muistattehan muutkin ilmoittaa.
+
+* [Digi- ja väestötietovirasto mahdollistaa viranomaispostin lukemisen myös yksityisistä digipostipalveluista – Mitä tämä tarkoittaa organisaatioille?](https://asiakastiedotteet.dvv.fi/a/s/100896060-b5aca7fe9c247d3ccc3b35a46f7e1aad/2683299)
+
 
 ### 5. Seuraava kokous
 
