@@ -16,7 +16,7 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023 / 18.6.2024 / 3.1.2025 / 
 
 [Tutkimusmatka Kohan tietokantaan](https://youtu.be/lH7Z8OetO3c) -koulutuksen tallenne.
 
-[Koha Report Assistant](https://chatgpt.com/g/g-Uy73aJR6R-koha-report-assistant) - ChatGPT, jolle on opetettu Kohan skeema. Siltä pystyy kyselemään luonnollisella kielellä (englanniksi) apuja raporttien luomiseen tai muokkaamiseen. Se myös selittää raporttien rakenteita ja taulujen sisältöjä.
+[Koha Report Assistant](https://chatgpt.com/g/g-Uy73aJR6R-koha-report-assistant) - ChatGPT, jolle on opetettu Kohan skeema. Siltä pystyy kyselemään luonnollisella kielellä apuja raporttien luomiseen tai muokkaamiseen. Se myös selittää raporttien rakenteita ja taulujen sisältöjä. Kannattaa kuitenkin huomioida, että se saattaa joskus ehdottaa käyttämään sellaisia tietokannan tauluja tai taulujen sarakkeita, jota ei (enää) ole olemassa.
 
 ## SQL-lauseiden rakentaminen
 
