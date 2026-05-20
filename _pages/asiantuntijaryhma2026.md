@@ -32,6 +32,10 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
   * 8.-12.3.2027 (koulujen talvilomaviikko Oulun alueella kokoaa jonkin verran henkilökunnan lomia tähän, mutta en pitäisi täydellisenä esteenä)
   * 15.-16.4.2027 (AKE-tapahtuma Oulussa)
   * 20.-27.4.2027 (kansallinen Veteraaniviikko, pääjuhla ilmeisesti Oulussa ja aiheuttaa hässäkkää kirjastollakin)
+* Hellen toiveet versionvaihdon ajankohdalle:
+  * 12.-13.4.2027
+  * 19.-20.4.2027
+  * 10.-11.5.2027
 
 ### 3. Käsiteltävät kehitysehdotukset
 
@@ -41,6 +45,10 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
 
 * Seuraavan asiantuntijaryhmän kokoonpano: Hallitus vahvistaa uuden ensimmäisessä kokouksessa kesän jälkeen.
   * osa on jo ilmoittanut jäsenet, mutta muistattehan muutkin ilmoittaa.
+   * Helle-kirjastot: Kati Sillgren ja varalla Tove Selkälä
+   * Lumme-kirjastot: Hanna Ikonen ja varalla Katja Valjakka
+   * Lapin kirjasto: Leena Kinnunen ja varalla Pia Kusmin
+   * OUTI-kirjastot: Noora Valkonen ja varalla Piia Semenoff
 
 * [Digi- ja väestötietovirasto mahdollistaa viranomaispostin lukemisen myös yksityisistä digipostipalveluista – Mitä tämä tarkoittaa organisaatioille?](https://asiakastiedotteet.dvv.fi/a/s/100896060-b5aca7fe9c247d3ccc3b35a46f7e1aad/2683299)
 
