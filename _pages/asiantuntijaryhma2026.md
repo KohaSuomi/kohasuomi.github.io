@@ -23,6 +23,10 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Yhtiökokous lähestyy ja siellä valitaan uusi hallitus. Uusi hallitus valitsee sitten uuden asiantuntijaryhmän.
+
+Kansalliskirjaston kanssa palaveerattu BIBFRAMEsta. Aletaan edistämään aktiivisemmin sen käyttöönottoa Kohassa.
+
 ### 2. Seuraavan versionvaihdon ajankohta
 
 Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionvaihdolle ja kuinka pitkä valmisteluaika (omien ominaisuuksien vienti uudempaan versioon ja niiden sekä yleisemmin version testaaminen) tarvitaan.
@@ -36,6 +40,12 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
   * 12.-13.4.2027
   * 19.-20.4.2027
   * 10.-11.5.2027
+* Kirkes
+  * toiveena, ettei 7.4.-13.4. koska ennakkoäänestys
+
+Ennakkopäätös: 14.3.-16.3.2027
+
+29.5.2026 mennessä tieto, jos ehdotettu ajankohta ei käy.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
@@ -49,11 +59,19 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
    * Lumme-kirjastot: Hanna Ikonen ja varalla Katja Valjakka
    * Lapin kirjasto: Leena Kinnunen ja varalla Pia Kusmin
    * OUTI-kirjastot: Noora Valkonen ja varalla Piia Semenoff
+   * Kirkes-kirjasto: Elina Uotila ja varalla Erika Miettinen
+   * Vaara-kirjastot: Hanna Hyttinen ja varalla Irina Halminen
+   * Lastu-kirjastot: Janne Seppänen ja varalla Lauri Hänninen
+   * Vaski-kirjastot: ilmoittaa myöhemmin
+   * Kyyti-kirjastot: ilmoittaa myöhemmin
 
-* [Digi- ja väestötietovirasto mahdollistaa viranomaispostin lukemisen myös yksityisistä digipostipalveluista – Mitä tämä tarkoittaa organisaatioille?](https://asiakastiedotteet.dvv.fi/a/s/100896060-b5aca7fe9c247d3ccc3b35a46f7e1aad/2683299)
+* Tiedoksi: [Digi- ja väestötietovirasto mahdollistaa viranomaispostin lukemisen myös yksityisistä digipostipalveluista – Mitä tämä tarkoittaa organisaatioille?](https://asiakastiedotteet.dvv.fi/a/s/100896060-b5aca7fe9c247d3ccc3b35a46f7e1aad/2683299)
+  * Ei aiheuta meillä teknisiä muutoksia, koska viestit kulkevat jo RESTin kautta Suomi.fi Viesteihin. 
 
 
 ### 5. Seuraava kokous
+
+Ke 10.6.2026 klo 13-14
 
 ## Muistio 4/2026
 
