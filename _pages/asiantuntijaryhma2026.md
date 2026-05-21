@@ -19,13 +19,13 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 5/2026
 
 Aika: Torstai 21.5.2026 klo 13 <br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Irina Halminen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot) sekä Elina Uotila (Kirkes-kirjastot). Koha-Suomesta mukana Ari Mäkiranta, Anneli Österman ja Emmi Takkinen.
 
 ### 1. Ajankohtaiset
 
-Yhtiökokous lähestyy ja siellä valitaan uusi hallitus. Uusi hallitus valitsee sitten uuden asiantuntijaryhmän.
+Koha-Suomen yhtiökokous lähestyy ja siellä valitaan uusi hallitus. Uusi hallitus valitsee sitten uuden asiantuntijaryhmän.
 
-Kansalliskirjaston kanssa palaveerattu BIBFRAMEsta. Aletaan edistämään aktiivisemmin sen käyttöönottoa Kohassa.
+Kansalliskirjaston kanssa on pidetty palaveri BIBFRAMEsta ja kuinka se saataisiin Kohaan. Aletaan edistämään aktiivisemmin sen käyttöönottoa Kohassa.
 
 ### 2. Seuraavan versionvaihdon ajankohta
 
@@ -43,13 +43,16 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
 * Kirkes
   * toiveena, ettei 7.4.-13.4. koska ennakkoäänestys
 
-Ennakkopäätös: 14.3.-16.3.2027
+Asiantuntijaryhmä pohti versiovaihdon valmisteluajan pituutta ja suurin osa oli sitä mieltä, että pidempi valmisteluaika oli hyvä, koska rajalliset pääkäyttäjäresurssit eivät salli lyhkäistä valmisteluaikaa. Todettiin kuitenkin, että pitkä valmisteluaika tuo myös omat haasteensa, kuten miten muistaa, mitkä asiat on jo hoidettu/testattu. Nämä ongelmat koitetaan kuitenkin jatkossa selättää paremmalla dokumentaatiolla.
 
-29.5.2026 mennessä tieto, jos ehdotettu ajankohta ei käy.
+Ennakkopäätös seuraavan versionvaihdon ajankohdasta: 14.3.-16.3.2027
+
+Ilmoittakaa 29.5.2026 mennessä, jos ehdotettu ajankohta ei ehdottomasti käy.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
+  * Pyydettiin Katia tekemään yhteisöön tiketti ja Emmi lisäksi tutkii, löytyykö yhteisön Bugzillasta aiheeseen liittyvää. Tehdään varsinainen päätös seuraavassa asiantuntijakokouksessa.
 
 ### 4. Muut asiat
 
@@ -66,8 +69,8 @@ Ennakkopäätös: 14.3.-16.3.2027
    * Kyyti-kirjastot: ilmoittaa myöhemmin
 
 * Tiedoksi: [Digi- ja väestötietovirasto mahdollistaa viranomaispostin lukemisen myös yksityisistä digipostipalveluista – Mitä tämä tarkoittaa organisaatioille?](https://asiakastiedotteet.dvv.fi/a/s/100896060-b5aca7fe9c247d3ccc3b35a46f7e1aad/2683299)
-  * Ei aiheuta meillä teknisiä muutoksia, koska viestit kulkevat jo RESTin kautta Suomi.fi Viesteihin. 
-
+  * Ei aiheuta meillä teknisiä muutoksia, koska viestit kulkevat jo RESTin kautta Suomi.fi Viesteihin.
+  * Hyvä kuitenkin olla kirjastoissakin tietoinen tulevasta muutoksesta. 
 
 ### 5. Seuraava kokous
 
