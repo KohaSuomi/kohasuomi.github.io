@@ -16,7 +16,7 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 
-## Esityslista 5/2026
+## Muistio 5/2026
 
 Aika: Torstai 21.5.2026 klo 13 <br />
 Läsnä: Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Irina Halminen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot) sekä Elina Uotila (Kirkes-kirjastot). Koha-Suomesta mukana Ari Mäkiranta, Anneli Österman ja Emmi Takkinen.
@@ -43,9 +43,9 @@ Kimppoja on pyydetty pohtimaan, mikä olisi hyvä ajankohta seuraavalle versionv
 * Kirkes
   * toiveena, ettei 7.4.-13.4. koska ennakkoäänestys
 
-Asiantuntijaryhmä pohti versiovaihdon valmisteluajan pituutta ja suurin osa oli sitä mieltä, että pidempi valmisteluaika oli hyvä, koska rajalliset pääkäyttäjäresurssit eivät salli lyhkäistä valmisteluaikaa. Todettiin kuitenkin, että pitkä valmisteluaika tuo myös omat haasteensa, kuten miten muistaa, mitkä asiat on jo hoidettu/testattu. Nämä ongelmat koitetaan kuitenkin jatkossa selättää paremmalla dokumentaatiolla.
+Asiantuntijaryhmä pohti versiovaihdon valmisteluajan pituutta ja suurin osa oli sitä mieltä, että pidempi valmisteluaika oli hyvä, koska rajalliset pääkäyttäjäresurssit eivät salli lyhyttä valmisteluaikaa. Todettiin kuitenkin, että pitkä valmisteluaika tuo myös omat haasteensa, kuten miten muistaa, mitkä asiat on jo hoidettu/testattu. Nämä ongelmat koitetaan kuitenkin jatkossa selättää paremmalla dokumentaatiolla.
 
-Ennakkopäätös seuraavan versionvaihdon ajankohdasta: 14.3.-16.3.2027
+Ennakkopäätös seuraavan versionvaihdon ajankohdasta: su 14.3.2027 - ti 16.3.2027
 
 Ilmoittakaa 29.5.2026 mennessä, jos ehdotettu ajankohta ei ehdottomasti käy.
 
