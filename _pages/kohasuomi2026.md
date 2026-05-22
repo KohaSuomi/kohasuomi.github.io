@@ -132,6 +132,52 @@ Työt kuvailutietovarannon tietue- ja osakohdeyhdistelyn kanssa jatkuvat.
 * [Bug 22322 - Self-checkin module should provide for automatic logins (like self-checkout)](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=22322): Koodi viety uudestaan yhteisön mainiin.
 * Yhteisöpalaveri 13.5.2026
 
+#### Johanna
+* [Add vendor and edi account to test](https://github.com/KohaSuomi/koha-plugin-editx/commit/6a362a9f74f64732f993839f0e42d7e68d6ffbc5) (ks25-v2)
+* [Change logging method to error](https://github.com/KohaSuomi/koha-plugin-editx/commit/91528af0a3a0f9b07a746b1afbf8a7410ed48eaf) (ks25-v2)
+* [Add Koha head to file](https://github.com/KohaSuomi/koha-plugin-editx/commit/1bca9057b5821a0436265d397a8abe016d861451) (ks25-v2)
+* [Fix README](https://github.com/KohaSuomi/koha-plugin-editx/commit/ea5c71ed343e68005432828bd48cda0c62c3b75d) (ks25-v2)
+* [Change to inline xml data](https://github.com/KohaSuomi/koha-plugin-editx/commit/26a6ab89ccc619f078bf6bed92ca165a75841032) (ks25-v2)
+* [Delete obsolete files](https://github.com/KohaSuomi/koha-plugin-editx/commit/569fca8539a394a78ad55d3c36933f6949b56e4b) (ks25-v2)
+* [Remove file paths from expected UI configurations](https://github.com/KohaSuomi/koha-plugin-editx/commit/46febfa42206dede4563f3631d69c2799846e465) (ks25-v2)
+* [Add fallback to config fetching](https://github.com/KohaSuomi/koha-plugin-editx/commit/4522479e3c1a1439bed5c4e22b9a0e065ba8bff8) (ks25-v2)
+* [Add proper config checking](https://github.com/KohaSuomi/koha-plugin-editx/commit/de11295a961e7284bf615ae0417a76dfc1b1f50d) (ks25-v2)
+* [Add logger to Order.pm](https://github.com/KohaSuomi/koha-plugin-editx/commit/5caa151b3eed1085f5a6bd8d1db23afab2566145) (ks25-v2)
+* [Add config.t](https://github.com/KohaSuomi/koha-plugin-editx/commit/35cdfc126ef4426aaf85fd982c099066080b2251) (ks25-v2)
+* [Improve orderprocessor tests](https://github.com/KohaSuomi/koha-plugin-editx/commit/b42d9ad1846a35b42160ffb18e464349b1c13f3d) (ks25-v2)
+* [Remove unnecessary row](https://github.com/KohaSuomi/koha-plugin-editx/commit/65c7062cf1885f605bbbb9168a84862ee4983cc4) (ks25-v2)
+* [Add orderprocessor.t](https://github.com/KohaSuomi/koha-plugin-editx/commit/4618fcd062bbd15899595522fadc43fc2003bf7a) (ks25-v2)
+* [Fix obsolete parameter](https://github.com/KohaSuomi/koha-plugin-editx/commit/2a25116a3eb15c5992e8a3a1f4f93cdc472facf7) (ks25-v2)
+* [Add attendance](https://github.com/KohaSuomi/kohasuomi.github.io/commit/ce322fbd7aedeb69eb18846fc1da438cdbc53851) (master)
+* [Remove unnecessary rows](https://github.com/KohaSuomi/koha-plugin-editx/commit/d7a1268d869f9f0015434f697a7efd3604b52305) (ks25-v2)
+* [Remove unnecessary rows](https://github.com/KohaSuomi/koha-plugin-editx/commit/44bf4a4db6b80e62a2983ee283ed3d9cb4a4fbb8) (ks25-v2)
+* [Change version](https://github.com/KohaSuomi/koha-plugin-editx/commit/4ce363cdef69157c6552e0a785fdecf8e3f35752) (ks25)
+* [Add creation for aqbudgets_spend_log table](https://github.com/KohaSuomi/koha-plugin-editx/commit/07cf2fb9d6a9f3f91e7962c09683de94296f6def) (ks25-v2)
+* [Check branch and location](https://github.com/KohaSuomi/koha-plugin-editx/commit/998733b7fd3ea8cd0b4f3e4f3007dada0c420787) (ks25-v2)
+* [KPODUE-22: Replace buyer_name with one on the database](https://github.com/KohaSuomi/koha-plugin-overdue-tool/commit/29228264250ecc2de9b96115a4531be6ebe45e6c) (ks25)
+* [KPODUE-22: Fix surname on Finvoice copy](https://github.com/KohaSuomi/koha-plugin-overdue-tool/commit/7a30011407a03ccd5c41629eae2b3afd634b8e2a) (ks25)
+* [KohaSuomi/Koha - Service-check raportit näkymään Kohaan](https://github.com/KohaSuomi/Koha/issues/1720);
+Kommentti: Mikä on tämän tilanne, onko edennyt?
+* [KohaSuomi/Koha - Käyttöoikeuksia voi asettaa vain tietyille asiakastyypeille](https://github.com/KohaSuomi/Koha/issues/2237);
+Vastuutettu: johannaraisa.
+Kommentti: Tähän liitttyen, käykää huomenna lisäämässä tarvittaville asiakastyypeille tämä asetus. Se lisätään automaattisesti asiakastyypeille joilla on tyyppinä "Henkilökunta", mutta jos on muita niin säätäkää ne kuntoon. `ClearPermissionsAutomatically`-asetusta ei kannata ainakaan laittaa ennen päälle.
+* [KohaSuomi/Koha - LAPPI: Vanhojen lehtitilausten sulkeminen](https://github.com/KohaSuomi/Koha/issues/2305);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt tehty.
+* [KohaSuomi/Koha - 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306);
+Kommentti: Korjattu raportti:
+* [KohaSuomi/Koha - Kaukolainatoimintoon ruotsinnoksia](https://github.com/KohaSuomi/Koha/issues/2307);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Edit_public_list_contents käyttöoikeuden lisääminen käyttäjille](https://github.com/KohaSuomi/Koha/issues/2308);
+* [KohaSuomi/Koha - Vaara: Vanhojen lehtitilausten sulkeminen](https://github.com/KohaSuomi/Koha/issues/2313);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on tämä tehty.
+* [KohaSuomi/Koha - Tiedonhaun Hakuapuri: YKL-luokituksen käyttö hakuapurina tarvinnee säätöä](https://github.com/KohaSuomi/Koha/issues/2317);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Lappi: Kaukolainamoduuli päälle tuotantokantaan](https://github.com/KohaSuomi/Koha/issues/2323);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt tehty
+
 ## Viikko 20
 
 Aika: Ma 11.5.2026<br />
