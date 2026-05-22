@@ -12,6 +12,21 @@ hidden: true
 ---
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
+
+## Viikko 22
+Aika: Ma 25.5.2026<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muut asiat
+* [Viikon 22 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+
+### Viikolla 21 tehty
+
+
+
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
 Läsnä: Anneli, Ari, Kodo, Emmi, Johanna, Lari, Pasi
@@ -20,7 +35,7 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Johanna, Lari, Pasi
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muut asiat
-* [Viikon 20 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+* [Viikon 21 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
 
 ### Viikolla 20 tehty
 
