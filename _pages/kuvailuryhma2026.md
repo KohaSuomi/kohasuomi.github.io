@@ -30,10 +30,10 @@ Mauri Aittaniemi on tästä lähtien pääkäyttäjien edustaja kuvailuryhmäss�
 <a href="https://www.kiwi.fi/spaces/kumea/pages/554598623/2026-04-01+ja+2026-04-29" target="_blank">Kumean muistio 1.4. & 29.4.2026 </a>
 <ul>
   <li>Päänimeke ja muu nimeke RDA:ssa (Muistion kohta 3.1.) </li>
- - Kumea ilmaissut asian epäselvästi, koskee moniosaisia monografioita, kuten esim. oppikirjoja <br>
+<p> - Kumea ilmaissut asian epäselvästi, koskee moniosaisia monografioita, kuten esim. oppikirjoja </p>
 
   <li>341-kentässä käytettävät Schema.org Accessibility Vocabularyn arvot: Pitäisikö tehdä oma valikko kuvailupohjiin?  </li>
-- Ei kiirehditä asian kanssa, koskee e-aineistoa <br>
+<p>- Ei kiirehditä asian kanssa, koskee e-aineistoa </p>
 
   <li>AV-aineiston muutokset: </li>
 <ul>
@@ -72,7 +72,7 @@ Roikkumaan jääneitä viestejä poistettu. Loputkin voi poistaa, kun Helle on k
   <li>Alkupään tietueet voi korjata eräajona </li>
   </ul>
   <li>Tietueet, joissa loppupiste- tai kaksoispistevirheitä 264-kentissä </li>
--> Poistetaan TäTistä, jotta tietueet eivät valu paikalliskantoihin. <br>
+<p> -> Poistetaan TäTistä, jotta tietueet eivät valu paikalliskantoihin. </p>
   <li>001+003-tuplatietueet </li>
   <ul>
   <li>Näiden joukossa on paljon Melindan ja Kirjastopalvelun tuplatietueita, jotka pitäisi vain poistaa. </li>
@@ -110,8 +110,7 @@ Roikkumaan jääneitä viestejä poistettu. Loputkin voi poistaa, kun Helle on k
   </ul>
   <li>MARC21-formaatti on päivittynyt: <a href="https://www.kiwi.fi/spaces/Marc21/pages/564166660/Update+41+December+2025+k%C3%A4%C3%A4nn%C3%B6kset" target="_blank">Update 41 (December 2025) käännökset </a>Muutosten pitäisi näkyä ehkä kesäkuun alussa. -> Tarkistettava päivittyykö 007-kentän editoriin uusi arvo t - 4K Ultra HD Blu-ray-levy </li>
   <li>Onko kukaan perehtynyt tai käyttänyt tekoälysovelluksia apuna kuvailussa Kohassa? </li>
-- Ei ole käytetty tekoälyä apuna kuvailussa, pitäisi olla kirjastojärjestelmään integroitu työkalu.
-  
+<p>- Ei ole käytetty tekoälyä apuna kuvailussa, pitäisi olla kirjastojärjestelmään integroitu työkalu. </p>
   <li>Koha-seminaari Oulussa 17.–18.9. </li>
 </ul>
 
