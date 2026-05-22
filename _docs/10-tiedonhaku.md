@@ -217,7 +217,6 @@ Versiossa 24.05 tuli mukaan uutena ominaisuutena nidenumeron eli itemnumberin vi
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku25_nidehaku_tulosten_painikkeet.png)
 
-Hakua pääset muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
 ## 10.6. Teostiedot
 
