@@ -162,6 +162,7 @@ Kommentti: Nyt tätä voi testata testeillä, vaihtuuko käännökset Liitännä
   * Vaara-Hannan kysely Pupen lisäoikeuksista ja API-avaimesta; asian eteenpäin ohjaus Johannalle ja Urholle.
   * Heikkisen Antillle pyyntö tehdä ohje 001+003-kenttien tuplien korjaamisesta.
   * Koha-Suomen hallituksen tiedotteen 5/2026 julkaisu.
+  * Lapissa oli tullut EDItX-hankinnan kautta triplatietueita. Pikaisella katselmoinnilla vaikutti siltä, että Hankintaportaalista on tullut EDItX-sanomassa vääriä tietoja EAN13- ja ISBN-tägeissä ja se on aiheuttanut deduplikoinnin epäonnistumisen. Pyydetty olla yhteydessä Hankintaportaaliin.
 
 * Bugiraportointi ja testaus
   * [Bugin #42661](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42661) luonti yhteisöön (meidän GitHub-tiketti #86).
