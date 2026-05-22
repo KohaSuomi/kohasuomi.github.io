@@ -9,6 +9,116 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 5/2026 ##
+
+Aika: 20.5.2026 klo 13.15-14.37
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Johanna Ranta.
+
+#### 2.	Pääkäyttäjien edustaja kuvailuryhmässä ####
+
+Mauri Aittaniemi on tästä lähtien pääkäyttäjien edustaja kuvailuryhmässä.
+
+#### 3.	Kuvailumuutoksia ja -uutisia ####
+
+<a href="https://www.kiwi.fi/spaces/kumea/pages/554598623/2026-04-01+ja+2026-04-29" target="_blank">Kumean muistio 1.4. & 29.4.2026 </a>
+<ul>
+  <li>Päänimeke ja muu nimeke RDA:ssa (Muistion kohta 3.1.) </li>
+ - Kumea ilmaissut asian epäselvästi, koskee moniosaisia monografioita, kuten esim. oppikirjoja
+
+  <li>341-kentässä käytettävät Schema.org Accessibility Vocabularyn arvot: Pitäisikö tehdä oma valikko kuvailupohjiin?  </li>
+- Ei kiirehditä asian kanssa, koskee e-aineistoa
+
+  <li>AV-aineiston muutokset: </li>
+<ul>
+  <li>”Kielimerkinnöt levyltä” vaihtuu muotoon ”kielimerkinnöt tallenteelta” </li>
+  <ul>
+  <li>Melindassa ei ole tulossa ainakaan toistaiseksi massakorjausta </li>
+  <li>Korjattu TäTissä DVD- ja Konsolipelipohjien valikoihin 546 7 -kentissä </li>
+  </ul>
+  <li>853-kentän linkki vaihtunut: Tunnisteet ovat aikaisemmin olleet muotoa https://gamemetadata.soe.ucsc.edu/platform/1071, nyt ne ovat muotoa https://gamemetadata.engineering.ucsc.edu/platform/1071/ </li>
+  -> Saisiko korjattua massamuutoksena TäTiin ja paikalliskantoihin, kun Melindassa tehty ensin massakorjaus? Anneli tutkii mahdollista erämuokkausta.
+</ul>
+</ul>
+
+#### 4.	TäTi-sähköpostilaatikon siivous ####
+
+Roikkumaan jääneitä viestejä poistettu. Loputkin voi poistaa, kun Helle on katsonut ne läpi. Jos viestejä jatkossa jää roikkumaan (3 kk), voi kysyä Teamsissa, onko niitä enää tarpeellista säilyttää.
+
+#### 5.	Yhteinen tietokanta ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2253" target="_blank">Jaetun kuvailutietovarannon muodostaminen testeille </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2306" target="_blank">001+003 kentissä päällekkäisyyksiä </a> -> Tietueet korjattava paikalliskannoissa </li>
+<ul>
+  <li>Johtuu siitä, että on monistettu yhden tietueen pohjalta uusia tietueita tyhjentämättä 001/003-kenttää </li>
+  <li>Osakohteilla muistettava säilyttää yhteys emoon </li>
+  <li>Tietueet voi korjata tietueiden erämuokkauksella. Antti tekee ja lähettää ohjeen muille. </li>
+</ul>
+</ul>
+
+#### 6.	TäTin massakorjauksia ####
+<ul>
+  <li>Virheelliset 006- ja 007-kentät kirjatietueissa </li>
+	<ul>
+  <li>Näitä ei saisi enää tulla lisää!  </li>
+  <li>006- ja 007-kenttiä ei tarvitse täyttää ollenkaan kirjoissa. </li>
+  <li>Jos tietue on viety Melindaan, kentät pitää poistaa myös sieltä. TäTin raporteilla 349 ja 350 voi hakea virheellisiä tietueita. </li>
+  <li>Alkupään tietueet voi korjata eräajona </li>
+  </ul>
+  <li>Tietueet, joissa loppupiste- tai kaksoispistevirheitä 264-kentissä </li>
+-> Poistetaan TäTistä, jotta tietueet eivät valu paikalliskantoihin.
+  <li>001+003-tuplatietueet </li>
+  <ul>
+  <li>Näiden joukossa on paljon Melindan ja Kirjastopalvelun tuplatietueita, jotka pitäisi vain poistaa. </li>
+  <li>Jokainen kimppa korjaa omat virheelliset 001+003-tietueet, joissa on monistettu yhden tietueen pohjalta uusia tietueita tyhjentämättä 001/003-kenttää. </li>
+  </ul>
+</ul>
+
+#### 7.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1979" target="_blank">Kenttien tyhjentäminen luotaessa uusi tietue vanhan pohjalta </a> -> Tuotannossa jo. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2218" target="_blank">800-kenttä perustiedot-näytöllä </a> -> Ei ole vielä edistynyt </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/511" target="_blank">Tietokannan tietojen siivousautomatiikkaa tietueille </a> -> Toukokuun päivitys toimi vain osittain. Annetaan tiketin olla vielä auki. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2030" target="_blank">942c-kenttä ei päivity, kun pohjaa vaihtaa </a> -> Lumme voi tehdä tästä kehitysehdotuksen. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2303" target="_blank">Osakohteiden 942c-kenttä ei päivittynyt Tietuesiirtäjän kautta tuoduille osakohteille </a> -> Seurataan, tuleeko tapauksia lisää.  </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2284" target="_blank">740-kenttä näkyviin Kuvaukset-välilehdelle </a> -> Testattavana. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/373" target="_blank">Finto-liitännäinen Metatietosanastosta </a> -> Odottaa-tilaan. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2317" target="_blank">Tiedonhaun Hakuapuri: YKL-luokituksen käyttö hakuapurina tarvinnee säätöä </a>  </li>
+</ul>
+
+#### 8.	Kuvailukoulutus 1/2026 ####
+<ul>
+  <li>Aiheena oli kuvailutietueiden muokkaus eräajona ja muokkauspohjien teko. </li>
+  <li>Yhteisötiketissä kehitystä koulutuksen jälkeen: <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=28915" target="_blank">MARC modification templatet tukemaan kiinteämittaisten kenttien muuttamista </a> </li>
+  <li>Siirrä-komento siirtää myös indikaattorit, esim. 110->710 </li>
+</ul>
+
+#### 9.	Muita asioita ####
+<ul>
+  <li>Kaksivaiheinen tunnistautuminen käyttöön Oulun Microsoft-palveluihin 11.5. Onko aiheuttanut ongelmia Oulun Koha Teamsiin kirjautumisessa? </li>
+  <ul>
+  <li>Kyytissä tunnistauduttu puhelimeen tulevalla koodilla </li>
+  <li>Vaarassa ei tarvitse tunnistautua </li>
+  <li>Helle ja Lastu: Kaikilla ei työpuhelinta, jota voisi käyttää tunnistautumiseen </li>
+  <li>[Lisätty 22.5.] Kokouksen jälkeen lisätietoa asiasta: Toistaiseksi puhelimeen tuleva koodi ainoa mahdollinen tapa kirjautua, jos ei pääse muuten läpi, mutta tulossa on todennäköisesti tilapäinen ratkaisu joksikin aikaa. </li>
+  </ul>
+  <li>MARC21-formaatti on päivittynyt: <a href="https://www.kiwi.fi/spaces/Marc21/pages/564166660/Update+41+December+2025+k%C3%A4%C3%A4nn%C3%B6kset" target="_blank">Update 41 (December 2025) käännökset </a>Muutosten pitäisi näkyä ehkä kesäkuun alussa. -> Tarkistettava päivittyykö 007-kentän editoriin uusi arvo t - 4K Ultra HD Blu-ray-levy </li>
+  <li>Onko kukaan perehtynyt tai käyttänyt tekoälysovelluksia apuna kuvailussa Kohassa? </li>
+- Ei ole käytetty tekoälyä apuna kuvailussa, pitäisi olla kirjastojärjestelmään integroitu työkalu.
+  
+  <li>Koha-seminaari Oulussa 17.–18.9. </li>
+</ul>
+
+#### 10.	Seuraava kokous keskiviikkona 26.8. klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 4/2026 ##
 
 Aika: 15.4.2026 klo 13.15–14.40
