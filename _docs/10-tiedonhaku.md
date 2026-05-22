@@ -357,7 +357,11 @@ _Hankintatiedot_-välilehdeltä näet mm. miltä toimittajilta teosta on tilattu
 
 ### 10.7.3. Teoksen ja niteen lainahistoria
 
-Teoksen kaikkien niteiden lainahistoriaan pääset vasemman reunan _Lainahistoria_-linkistä. Yksittäisen niteen lainahistoriaa pystyt tarkastelemaan _Niteet_-välilehdeltä _Näytä niteen lainahistoria_ -linkistä.
+Teoksen kaikkien niteiden lainahistoriaan pääset vasemman reunan _Lainahistoria_-linkistä.
+
+Yksittäisen niteen lainahistoriaa pystyt tarkastelemaan _Perustiedot_-sivun _Lainatilasto: Raportti_ -linkistä.
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku37_lainatilastoRaportti.png)
 
 _Lainahistoria_-sivulla näkee:
 - teoksen kaikkien niteiden lainakerrat yhteensä
@@ -365,12 +369,9 @@ _Lainahistoria_-sivulla näkee:
 
 ![](/assets/files/docs/Tiedonhaku/tietue9.png)
 
-Yksittäisen niteen lainahistorianäytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
+_Perustiedot_-sivun _Lainatilasto: Raportti_ -linkistä avautuvassa näkymässä pystyy tarkastelemaan montako lainaa (ensilainat, uusinnat, lainat yhteensä) kullakin tietueen nniteellä on.
 
-![](/assets/files/docs/Tiedonhaku/tietue11.png)  
-
-**Huomioi**: Jos nide palautetaan eri kirjastoon kuin mistä se on lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
-{: .notice--warning}
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku38_lainatilastoRaporttiSisalto.png)
 
 ## 10.8 Hakukone Elasticsearch ja sen indeksit
 
