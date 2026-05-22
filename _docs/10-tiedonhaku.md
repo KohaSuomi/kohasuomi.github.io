@@ -357,7 +357,9 @@ _Hankintatiedot_-välilehdeltä näet mm. miltä toimittajilta teosta on tilattu
 
 ### 10.7.3. Teoksen ja niteen lainahistoria
 
-Teoksen kaikkien niteiden lainahistoriaan pääset vasemman reunan _Lainahistoria_-linkistä.
+Teoksen kaikkien niteiden lainahistoriaan pääset valitsemalla vasemman reunan valikosta osion _Lainahistoria_.
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku39_lainahistoria.png)
 
 Yksittäisen niteen lainahistoriaa pystyt tarkastelemaan _Perustiedot_-sivun _Lainatilasto: Raportti_ -linkistä.
 
@@ -369,7 +371,7 @@ _Lainahistoria_-sivulla näkee:
 
 ![](/assets/files/docs/Tiedonhaku/tietue9.png)
 
-_Perustiedot_-sivun _Lainatilasto: Raportti_ -linkistä avautuvassa näkymässä pystyy tarkastelemaan montako lainaa (ensilainat, uusinnat, lainat yhteensä) kullakin tietueen nniteellä on.
+_Perustiedot_-sivun _Lainatilasto: Raportti_ -linkistä avautuvassa näkymässä pystyy tarkastelemaan montako lainaa (ensilainat, uusinnat, lainat yhteensä) kullakin tietueen niteellä on.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku38_lainatilastoRaporttiSisalto.png)
 
