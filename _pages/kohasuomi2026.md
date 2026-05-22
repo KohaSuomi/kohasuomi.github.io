@@ -34,6 +34,67 @@ Läsnä:
 * Luotu tiketit liitännäisten käännöksille.
 * Asiantuntijaryhmän palaveri 21.5.2026
 
+#### Johanna
+* Bug 42647: Fix search by patron attribute using "starts with" and space in attribute value (Bug-42647)
+* [Drop separate plugin table](https://github.com/KohaSuomi/koha-plugin-editx/commit/9793a7010c8d12c6d14a6d94f9493e86dbecf836) (ks25-v2)
+* [Add file handling fixes](https://github.com/KohaSuomi/koha-plugin-editx/commit/48607788f46d194140fdaf1105dd6dfc2e561f56) (ks25-v2)
+* [Add cross-cron hardening](https://github.com/KohaSuomi/koha-plugin-editx/commit/d7e65bb7480424f5b57523fa5bb3bbe1331e1918) (ks25-v2)
+* [Refactor to use edifact_messages table](https://github.com/KohaSuomi/koha-plugin-editx/commit/9a369cd90563cbc755e8f89e162aeb510e982ec4) (ks25-v2)
+* Cache pollution fix (Bug-language-cache)
+* [Run tests with v flag](https://github.com/KohaSuomi/koha-plugin-editx/commit/b4e7fc890947e1d750a77842941ee542af56a690) (ks25-v2)
+* [Change finding the borrower](https://github.com/KohaSuomi/koha-plugin-editx/commit/0764ee4f5a6820a6dca8a12cf2ebb1991aa4a653) (ks25-v2)
+* [Fix etc path](https://github.com/KohaSuomi/koha-plugin-editx/commit/08573ef901e2c35fcf5ccf644430c257c7806967) (ks25-v2)
+* [Replace log dir from log4perl.conf](https://github.com/KohaSuomi/koha-plugin-editx/commit/3b8fa308f40920188c8225699150ac3d67dea195) (ks25-v2)
+* [Replace paths in config file](https://github.com/KohaSuomi/koha-plugin-editx/commit/7bfbec84d346c8f6ccb18baf2cd3bb1012698792) (ks25-v2)
+* [Add memcache and directory permissions](https://github.com/KohaSuomi/koha-plugin-editx/commit/1269601072d9e3eca66faf5dd3574a8c50ab4dd4) (ks25-v2)
+* [Add cache for perl dependencies](https://github.com/KohaSuomi/koha-plugin-editx/commit/0aee089c136e59cd783715f49bcfd2c88853d611) (ks25-v2)
+* [Fix healtcheck](https://github.com/KohaSuomi/koha-plugin-editx/commit/ca6e615166fb8f6998f8d69711c6e8584eaa5911) (ks25-v2)
+* [Create perl test workflow](https://github.com/KohaSuomi/koha-plugin-editx/commit/d9c4a51e3fb0da51badc4fbaf86d3d88f01a3e04) (ks25-v2)
+* [Add server-side pagination](https://github.com/KohaSuomi/koha-plugin-editx/commit/1807601d8dd6f8cff4c7f7c9a6cf6a9a00f9f904) (ks25-v2)
+* [Remove unused file](https://github.com/KohaSuomi/koha-plugin-editx/commit/fba979f3ab18d2fe1d15a2a479202fe51ba6bbcd) (ks25-v2)
+* [Add validation to REST endpoint](https://github.com/KohaSuomi/koha-plugin-editx/commit/b31ee71040cd321aced39287eb5b8579742251b2) (ks25-v2)
+* [Fetch language on every init](https://github.com/KohaSuomi/koha-plugin-report-services/commit/a689b8bd118c97dcdccfa0eec2a6baa0e0b0b36a) (master)
+* [Add validator tests](https://github.com/KohaSuomi/koha-plugin-editx/commit/1b1673478678b92aef35e92c3f01a630644b2431) (ks25-v2)
+* [Refactor validator](https://github.com/KohaSuomi/koha-plugin-editx/commit/3045fc37314d8b10479a88c56fbad894aac32261) (ks25-v2)
+* [Add css path](https://github.com/KohaSuomi/koha-plugin-editx/commit/540828696c87c6a32931ff4e2158a8705d68c6fc) (ks25-v2)
+* [Change fallback default value](https://github.com/KohaSuomi/kohasuomi.github.io/commit/10bd75565fc8050cde8d477287c94f96c620a362) (master)
+* [KohaSuomi/Koha - 942c-kenttä ei päivity, kun pohjaa vaihtaa](https://github.com/KohaSuomi/Koha/issues/2030);
+Tiketti suljettu.
+* [KohaSuomi/Koha - [Bugi]  Itsepalvelulainauksessa väärän pin-koodin virheilmoitus puuttuu](https://github.com/KohaSuomi/Koha/issues/211);
+Tiketti suljettu.
+* [KohaSuomi/Koha - Varoitus liian pitkän viivakoodin tallentamisesta.](https://github.com/KohaSuomi/Koha/issues/2324);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Helle: Raportterin käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2329);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Varaushyllyominaisuus: iso määrä lehtivarauksia samaan tietueeseen kuluttaa liikaa noutohyllyjä](https://github.com/KohaSuomi/Koha/issues/2331);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-ceepos-integration - OUTI: Maksu ei siirtynyt Ceeposiin ja Koha antoi virheilmoituksen "Missing from configuration"](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/7);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-editx - Editx REST - Piilota nappi kun tila on pending.](https://github.com/KohaSuomi/koha-plugin-editx/issues/12);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-editx - Editx REST - Lisää tt-tiedostolle utf8-merkistökoodaus](https://github.com/KohaSuomi/koha-plugin-editx/issues/13);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-editx - EditX REST - Lisää sivulle breadcrumb-polku](https://github.com/KohaSuomi/koha-plugin-editx/issues/14);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-editx - Kokeillaan, saako Kansalliskirjaston EDItX-liitännäisen mergettyä meidän liitännäisen kanssa](https://github.com/KohaSuomi/koha-plugin-editx/issues/15);
+Vastuutettu: johannaraisa.
+Kommentti: Nämä on testeillä testattavana.
+* [KohaSuomi/koha-plugin-editx - Editx: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-editx/issues/16);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-editx - EditX-sanomien lähetys REST-rajapinnan kautta](https://github.com/KohaSuomi/koha-plugin-editx/issues/6);
+Vastuutettu: johannaraisa.
+Kommentti: Testaaminen pitääkin hoitaa nextillä KaTin takia.
+Kommentti: Tämä on testeillä testattavana ja olen pyytänyt Broomworksia testaamaan vientiä RESTin kautta. Vaatii API-käyttäjälle edi_manage-oikeuden.
+* [KohaSuomi/koha-plugin-editx - Koha versio 25.05: Editx-sanomien virheilmoitukset lokittumaan uuteen edifact_errors-tauluun](https://github.com/KohaSuomi/koha-plugin-editx/issues/7);
+Vastuutettu: johannaraisa.
+Kommentti: Olen lisännyt tämän mukaan, kun kehitin REST-toteutusta.
+* [KohaSuomi/koha-plugin-report-services - Liitännäisen käännökset eivät vaihdu](https://github.com/KohaSuomi/koha-plugin-report-services/issues/15);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+Kommentti: Tämä korjaus on tehty liitännäiseen Report Service, muut saattavat olla vielä sekaisin.
+Kommentti: Nyt tätä voi testata testeillä, vaihtuuko käännökset Liitännäiset-sivulla.
+
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
 Läsnä: Anneli, Ari, Kodo, Emmi, Johanna, Lari, Pasi
