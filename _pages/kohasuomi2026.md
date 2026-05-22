@@ -138,6 +138,46 @@ Vastuutettu: johannaraisa.
 Kommentti: Tämä korjaus on tehty liitännäiseen Report Service, muut saattavat olla vielä sekaisin.
 Kommentti: Nyt tätä voi testata testeillä, vaihtuuko käännökset Liitännäiset-sivulla.
 
+#### Anneli
+
+* Ylläpito ja dokumentaatio
+  * Ajantasalle räpistelyä loman jälkeen.
+  * QueryRegexEscapeOptions-suositusten lisääminen [Järjestelmäasetukset-sivulle](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#yksitt%C3%A4isiin-asetuksiin-suosituksia).
+  * UseICUStyleQuotes-suositusten lisääminen [Järjestelmäasetukset-sivulle](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#yksitt%C3%A4isiin-asetuksiin-suosituksia).
+  * Heikkisen Antti pyysi kaksi raporttia TäTi-tietokantaan 006- ja 007-kenttien siivouksia varten. Liittyy [tikettiin #2327](https://github.com/KohaSuomi/Koha/issues/2327)
+  * Noutomuistutuksen 0-vaihtoehdon piilottamisen pohdintaa Matrixissa.
+  * [SQL-koulun](https://koha-suomi.fi/dokumentaatio/sqlkoulu/) ja Koha-Suomen skeematiedoston päivitys verkkosivuilla.
+  * Weblate-käännösten läpikäynti ja uusien ominaisuuksien testaus sandboxissa, jotta ymmärtäisin, mitä uudet ominaisuudet tekevät ja pystyisin kääntämään ne suomeksi.
+
+* Kokoukset
+  * Koha-Suomen viikkopalaveri.
+  * Pääkäyttäjien esityslistan täydennys ja viikkopalaveri.
+  * Asiantuntijaryhmän esityslistan valmistelu, lähetys, varsinainen palaveri ja sen jälkeen muistion teko ja julkaisu.
+  * Palaveri Joensuun hankintaa tekevien kanssa siirtymisestä useammasta asiakasnumerosta yhteen Hankintaportaalissa ja toimittajien verkkokaupassa.
+  * Kuvailuryhmän kokoukseen osallistuminen.
+
+* Viestintä ja tukipyynnöt
+  * Broomworksiltä Urho viestitteli Oulun liian pitkistä viivakoodeista, jotka estivät Puppe-ohjelman toiminnan APIssa olevan 20 merkin rajoituksen vuoksi.
+  * Viikkopäivityksen tiedotteen kirjoitus ja julkaisu.
+  * Vaara-Hannan kysely Pupen lisäoikeuksista ja API-avaimesta; asian eteenpäin ohjaus Johannalle ja Urholle.
+  * Heikkisen Antillle pyyntö tehdä ohje 001+003-kenttien tuplien korjaamisesta.
+  * Koha-Suomen hallituksen tiedotteen 5/2026 julkaisu.
+
+* Bugiraportointi ja testaus
+  * [Bugin #42661](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42661) luonti yhteisöön (meidän GitHub-tiketti #86).
+  * [Tiketin #85](https://github.com/KohaSuomi/Koha-translations/issues/85) käsittely: “Varaus tehty niteeseen” → “Varaus tehty”. Tulee seuraavaan viikkopäivitykseen.
+  * [Bugin #40255](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=40255) testaus (debit-maksun kuvauksen lisäys).
+  * [Bugin #42670](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42670) luonti (terminologia: “Are you sure you want to cancel all holds in this hold's group?”).
+  * Pasin 740f-kentän TT-rimpsun testaus ja käännökset eri kielille. Liittyy [tikettiin #2284](https://github.com/KohaSuomi/Koha/issues/2284).
+  * Kysely [tiketissä #1484](https://github.com/KohaSuomi/Koha/issues/1484) sen kriittisyydestä ja tarviiko tuoda ennen seuraavaa versionvaihtoa meille.
+
+* Itsensä kehittäminen, suunnittelu ja katselmointi
+  * Kansalliskirjaston kuvailun tiedotuspäivän tekoälyvideoiden ja muun materiaalin katselua.
+  * Koha-US-videoiden ja Monday Minutes -materiaalien katselua.
+
+
+
+
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
 Läsnä: Anneli, Ari, Kodo, Emmi, Johanna, Lari, Pasi
