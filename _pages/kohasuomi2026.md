@@ -25,7 +25,14 @@ Läsnä:
 
 ### Viikolla 21 tehty
 
+#### Emmi
 
+* [Siirto-toiminnossa puutteita kun siirrettävään teokseen kohdistuu varaus](https://github.com/KohaSuomi/Koha/issues/1564): Tehty kaksi korjausta, varatun tietueen niteen kuljetuksesta ei syntynyt kuljetusta eikä varausta voinut ohittaa ja kuljettaa nidettä toiseen kirjastoon. Molemmat korjaukset on viety sekä yhteisöön että meille testattavaksi. Meidän testeissä ilmeni puutteita jälkimmäisessä korjauksessa, jotka vielä korjaamatta.
+* [Varausten käsittelyssä muodostuu ylimääräisiä kuljetuksia](https://github.com/KohaSuomi/Koha/issues/2319): Tähän löytyi korjaus yhteisöstä, joka tuotiin meille testattavaksi. Korjaus todettiin toimivaksi ja se viedään seuraavassa viikkopäivityksessä tuotantoon.
+* [Asiakasmääreillä haku toimii vain asiakkaat-sivulla](https://github.com/KohaSuomi/Koha/issues/2018): Korjaus viety yhteisöön testattavaksi. Koska muutos on koodillisesti hyvin pieni ja määreillä haku toimii Asiakkaat-sivulla, odotellaan että tämä tulee meille uudessa versiossa.
+* [Varaus vanhenee ajossa patron_expiration_daten mukaan, vaikka expiration_datea päivitetään](https://github.com/KohaSuomi/Koha/issues/2280): Työ aloitettu. Ratkaistaan ongelma niin, että mahdollistetaan asiakkaan asettaman varauksen vanhenemispäivän muokkaus virkailijaliittymästä ja lisätään arvolle oma sarake varaustaulukoihin. 
+* Luotu tiketit liitännäisten käännöksille.
+* Asiantuntijaryhmän palaveri 21.5.2026
 
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
