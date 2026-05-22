@@ -25,6 +25,49 @@ Läsnä:
 
 ### Viikolla 21 tehty
 
+#### Lari
+
+ Tiketit
+
+  * [Tietueen perusnäytöllä HASH sidosasussa](https://github.com/KohaSuomi/Koha/issues/2321) https://github.com/KohaSuomi/Koha/issues/2321
+    [18.5.] Tämä on jo korjattu custom XSLT:n .TT-rimpsun uusimpaan versioon. Vaski-testillä oli vain vanha versio rimpsusta.
+
+  * [Genre/muoto-asiasanassa olevat sulkumerkit rikkovat hakulausekkeen](https://github.com/KohaSuomi/Koha/issues/2316) https://github.com/KohaSuomi/Koha/issues/2316
+    [18.5.] Ongelmaan löytyi ratkaisu sysprefeistä.
+
+    [18.5.] Testeiltä on poistettu XSLT-muutos, jolla poistettiin nuo sulkeet.
+
+  * [Siivousajon muokkaaminen estämään huoltajien tietueiden siivoutuminen](https://github.com/KohaSuomi/Koha/issues/2187) https://github.com/KohaSuomi/Koha/issues/2187
+    [18.5.] Ratkaisuvaihtoehtojen pohtimista.
+
+    [19.5.] Kehittäjäpalaverissa tuli ehdotus, että suojattu-täpän lisääminen laskutettavalle voitaisiin lisätä laskutustyökalu-pluginiin, jolloin asiakastilin suojaamisen voisi tehdä sitä kautta muutkin kuin pääkäyttäjät/superlibrarianit.
+
+    [19.5.] <img width="980" height="366" alt="Image" src="https://github.com/user-attachments/assets/409d6e4a-3b3a-4fb5-b34d-00aa6d7cce09" />  Jotain tämäntapaista, mutta suojattu-tilan kanssa.  Ongelmana on vain sitten suojattu-tilojen poistaminen, miten ja kuka tekee kun suojaus ei ole enää aiheellista..
+
+  * [Vaara: Varausten noutomuistutus käyttöön 18.5. alkaen](https://github.com/KohaSuomi/Koha/issues/2257) https://github.com/KohaSuomi/Koha/issues/2257
+    [18.5.] Tuotantoon ajettu: ``` MariaDB [vaaraprod]> UPDATE message_attributes     ->             SET takes_days = 1     ->             WHERE message_name = 'Hold_Reminder'; Query OK, 1 row affected (0.002 sec) Rows matched: 1  Changed: 1  Warnings: 0 ``` 
+
+    [18.5.] Ajastettu ajo lisätty:    15 09 * * *        $TRIGGER cronjobs/holds/hold_reminder_new.pl -v -c -d 1  Jos asiakkaalla ei siis ole jostain syystä valittuna "päivää ennen"-arvoa, mutta viestitäppä löytyy (vanhan noutomuistutustoteutuksen jäljiltä), lähtee noutomuistutus oletuksena 1 päivää ennen eräpäivää.
+
+    [18.5.] Noutomuistutusviestien generointi ajautuu siis ensimmäisen kerran huomisaamuna.
+
+  * [Hyllyvarausraportin kaikki suodattimet eivät toimi](https://github.com/KohaSuomi/Koha/issues/2276) https://github.com/KohaSuomi/Koha/issues/2276
+    [19.5.] Lisäsin testeille koodia, jossa noiden tekstipohjaisten suodattimien toiminta ottaa huomioon ääkköset eikä esim. "yo" täsmää enää "yö":n sisältäviin kenttiin ja signumsuodatuksella "kyö" täsmää vain "KYÖ".
+
+  * [Vaara: Viinijärveltä Kiihtelysvaaraan siirtyneen lainausautomaatin SIP-tunnukset](https://github.com/KohaSuomi/Koha/issues/2330) https://github.com/KohaSuomi/Koha/issues/2330
+    [21.5.] Uusi toimipiste ja uusi automaattitunnus lisätty sip-palvelinkonfiguraatioon, käytettävissä huomisesta alkaen.
+
+  * [Vaara: Varauksen noutomuistutuksia lähtee tarpeettomasti, raporttitarve](https://github.com/KohaSuomi/Koha/issues/2332) https://github.com/KohaSuomi/Koha/issues/2332
+    [22.5.] Poistin noutomuistutusajosta vivun, jolla muistutukset luodaan myös asiakkaille, joilla ei ole "päivää ennen"-valintaa tallennettuna tietokantaan. Tästä päivästä eteenpäin ei muistutuksia enää muodostu, vaikka asiakkaalla olisi täppä noutomuistutusten lähettämiselle ilman "päivää ennen"-arvoa.
+
+  * [Hyllyvarauslistalla näkyy väärä noutokirjasto kun ensimmäisenä oleva nidevaraus ei ole poimittavissa](https://github.com/KohaSuomi/Koha/issues/2259) https://github.com/KohaSuomi/Koha/issues/2259
+    [22.5.] merkitty kadonneeksi vaurioitunut-tilassa  saadaan tietokannasta items.itemlost ja items.damaged
+
+  Kommitit
+
+  * KohaSuomi/Koha-25x
+    * `eb29378` [19.5.] KOHA-2276 Use diacritic aware matching for text filters
+
 #### Emmi
 
 * [Siirto-toiminnossa puutteita kun siirrettävään teokseen kohdistuu varaus](https://github.com/KohaSuomi/Koha/issues/1564): Tehty kaksi korjausta, varatun tietueen niteen kuljetuksesta ei syntynyt kuljetusta eikä varausta voinut ohittaa ja kuljettaa nidettä toiseen kirjastoon. Molemmat korjaukset on viety sekä yhteisöön että meille testattavaksi. Meidän testeissä ilmeni puutteita jälkimmäisessä korjauksessa, jotka vielä korjaamatta.
