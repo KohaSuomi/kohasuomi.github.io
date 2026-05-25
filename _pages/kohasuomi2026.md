@@ -176,7 +176,11 @@ Kommentti: Nyt tätä voi testata testeillä, vaihtuuko käännökset Liitännä
   * Kansalliskirjaston kuvailun tiedotuspäivän tekoälyvideoiden ja muun materiaalin katselua.
   * Koha-US-videoiden ja Monday Minutes -materiaalien katselua.
 
-
+#### Pasi
+* 740-kentän näkyminen tietuenäytöllä: #2248
+* Signum-muutokseen liittyvien raporttien korjauksia
+* Outin tulevan signum-muutoksen tarkistus 
+* Tietuenäytön mukauttamiseen kehitysehdotus yhteisöön, koodimuutos ja plugarin luonti
 
 
 ## Viikko 21
