@@ -20,7 +20,7 @@ Läsnä:
 * [Asiantuntijaryhmän muistio 5/2026](https://github.com/KohaSuomi/Koha/discussions/2333)
 * Kirjastopäivät:
   * Koha-Suomen henkilökuntaa osallistuu kirjastopäivien ammattimessuille 3.-4.6.2026, oma messuosasto numero 4
-  * Lari ja Pasi päivystää
+  * Lari ja Pasi päivystää Koha-hommissa, muut messuilla
 
 Etelästä pohjoiseen
 
