@@ -49,7 +49,7 @@ Pohjoisesta etelään
 
 **Vaara**
 * Varauksen noutomuistutus otettu käyttöön
-* Kassan toimintaa testattu, ongelma ei vielä ratkennut.
+* Kassan toimintaa testattu, ongelma ei vielä ratkennut. Selvittely jatkuu.
 * Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
