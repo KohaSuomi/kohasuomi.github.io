@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen (Vaara)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
@@ -47,12 +47,17 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa
 
+**Vaara**
+* Varauksen noutomuistutus otettu käyttöön
+* Kassan toimintaa testattu, ongelma ei vielä ratkennut.
+* Normaalia ylläpitoa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara)
 
 **Yhteiset**:
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/2315)
@@ -89,6 +94,9 @@ Etelästä pohjoiseen
 **Helle**
 * YKL-luokitus ei toimi tiedonhaun Hakuapurissa. Tiketti [Tiedonhaun Hakuapuri: YKL-luokituksen käyttö hakuapurina tarvinnee säätöä](https://github.com/KohaSuomi/Koha/issues/2317)
 * Saisiko käyttöön ominaisuuden [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan](https://github.com/KohaSuomi/Koha/issues/2318)
+
+**Vaara**
+*Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-20) - [Palaa sivun alkuun](/paakayttajat2026)
 
