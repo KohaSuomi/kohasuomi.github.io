@@ -22,6 +22,7 @@ Läsnä:
 
 ### Muut asiat
 * [Viikon 22 päivitys](https://github.com/orgs/KohaSuomi/projects/4/views/11)
+* Päivystysvuorot vko 23 lähtien
 * Kirjastopäivät, messuvuorot, tarviiko varata jotain kokoustilaa, ym. tarvittavaa tietoa?
 
 ### Viikolla 21 tehty
