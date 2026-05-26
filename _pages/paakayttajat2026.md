@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -30,7 +30,11 @@ Etelästä pohjoiseen
 
 **Lappi**
 * EditX-sanomissa vääriä koodeja EAN- ja ISBN-kentissä, aiheuttaa tuplia. Virheelliset koodit vaikuttivat siihen, että tilaukset eivät menneet toimittajalle. 
-* Lapin kirjaston valmiussuunnitelma hyväksytty, sisältää myös lyhyesti varautumisen pidempiin Koha-katkoihin. 
+* Lapin kirjaston valmiussuunnitelma hyväksytty, sisältää myös lyhyesti varautumisen pidempiin Koha-katkoihin.
+
+**Kirkes**
+ * Kohan ohje suomeksi -osuudet Kirkesin osalta läpikäyty, Elina ei ole vielä kommentoinut tikettiä.
+ * Erikalle tullut kirjastoauton henkilökunnalta kysymys asetuksesta, jolla saa näkyviin viimeistä edelliset, muutamat asiakkaat. Asiakaslista ei ole autolaisten palautteen mukaan Koha-versionvaihdon jälkeen toiminut toivotusti, ja etenkin viime viikolla on ilmennyt ongelmaa, jossa virkailijan istunnon ensimmäinen asiakas jää asiakaslistalle, eikä asiakaslista päivity sitä mukaa, kun asiakkaita tulee. Erika varmistaa, ilmeneekö ongelma yhdellä vai useammalla välilehdellä Kohaa käytettäessä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
