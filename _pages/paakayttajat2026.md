@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -41,6 +41,9 @@ Etelästä pohjoiseen
 * Oulun kuvailusta tuli ihmettelyä, että yhden musiikkiaineiston osakohdetietueen aineistotyyppi on Celia ja sillä on nide. Muuta järjellistä selitystä tapaukselle ei löydetty kuin, että kirjastossa oli muokattu osakohteen tietuetta ja muutettu aineistotyypiksi Celia-äänikirja ja tietueelle oli tallennettu nide.
 * Oulun kolme laskutettua ja palautettua lainaa eivät tule raportille ”Palautetut, laskutetut niteet”, syytä ei ole vielä saatu selvitettyä.
 * Oulun hankinnasta vastaava kirjastopalvelupäällikkö välitti Koha-tukeen Helmet-kirjastoista tuleen viestin liittyen EditX-rajapintaan. Heitä kiinnostaisi Kohan EditX:n tilaus- ja vastaanottoviestit, kun siirtyvä uuteen CiCero-kirjastojärjestelmän, jolloin heillä on hankintapuolella edessä tilaus- ja vastaanottosanomien viestintämuodon vaihtaminen editfactista EditX:ään. Sovittiin, että kehittäjät ottavat suoraan tietokannasta kopiot vataanottosanomista. Tilaussanomista ei jää kopioita Kohaan.
+
+**Siilinjärvi**
+* Kuntasovellus ei ole näyttänyt asiakkaan lainoja ja varauksia viikkoon. Hion Digital paikallisti ongelman Finnan rajapinnan uuteen Cloudflare-suojaukseen, mutta ensimmäinen korjausyritys ei vielä tuottanut tulosta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
