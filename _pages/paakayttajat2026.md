@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -44,6 +44,10 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Kuntasovellus ei ole näyttänyt asiakkaan lainoja ja varauksia viikkoon. Hion Digital paikallisti ongelman Finnan rajapinnan uuteen Cloudflare-suojaukseen, mutta ensimmäinen korjausyritys ei vielä tuottanut tulosta.
+
+**Lumme**
+* Kohan ohje päivitetty meidän osalta Ceeposta lukuunottamatta.
+* Tyhjiä AD-kenttiä lähettäneiden ja siten asiakkaiden tilien lukkiutumisia aiheuttaneiden automaattien ongelma selvisi. Kyseessä oli kaksi palautusautomaattia, joissa oli mahdollisuus saada palautuskuitti sähköpostiin. Tähän käytettiin patron information request-sanomaa, jotta asiakkaan sähköpostiosoite saadaan selville. Laite lähetti requestin ilman pin-koodia, minkä vuoksi tästä on aiheutunut kirjautumisyritysten kasvamista ja tilien lukkiutumisia. Tiketti #2336.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
