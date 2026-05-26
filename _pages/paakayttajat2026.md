@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -53,6 +53,12 @@ Etelästä pohjoiseen
 * Otettu käyttöön uusi Hyllypaikka T - Teinit/Tonåringar.
 * Otettu käyttöön Tarkka haku -toimintoon Hakuapuri.
 * Raportterin käyttöönotto käynnistetty Porvoon IT-tuen kanssa. Aloituspalaverissa oli kehittäjistä mukana Johanna Räisä.
+
+**Kyyti**
+* Roosa jäänyt lomalle. Pääkäyttäjät lomat ovat peräkkäin, joten päivystys toimii läpi kesän.
+* Kohan ohjeet päivitetty Kyytin osalta
+* Kouvolan kirjasto on otettu mukaan kierrätysteemaiseen EU-hankkeeseen, jossa mukana mm. XAMK ja paikallinen kierrätyskeskusta pyörittävä säätiö. Kirjaston rooli on pyörittää tavaralainausta. Tämä edellyttää tavaroiden kuvailua Kohaan. Mietinnässä miten tämä toteutetaan. Tavaralainaus ja niiden huolto tapahtuu kierrätyskeskuksen tiloissa.
+* Kyyti ottaa syksyllä käyttöön Broomworks oy:n hankintaportaalin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
