@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä:
+Läsnä:Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -23,6 +23,10 @@ Läsnä:
   * Lari ja Pasi päivystää Koha-hommissa, muut messuilla
 
 Etelästä pohjoiseen
+
+**Lappi**
+* EditX-sanomissa vääriä koodeja EAN- ja ISBN-kentissä, aiheuttaa tuplia. Virheelliset koodit vaikuttivat siihen, että tilaukset eivät menneet toimittajalle. 
+* Lapin kirjaston valmiussuunnitelma hyväksytty, sisältää myös lyhyesti varautumisen pidempiin Koha-katkoihin. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
