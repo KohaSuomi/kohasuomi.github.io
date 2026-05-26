@@ -184,6 +184,17 @@ Kommentti: Nyt tätä voi testata testeillä, vaihtuuko käännökset Liitännä
 * Outin tulevan signum-muutoksen tarkistus 
 * Tietuenäytön mukauttamiseen kehitysehdotus yhteisöön, koodimuutos ja plugarin luonti
 
+#### Kodo
+
+* [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
+18.5. pidetty palaveri; selvitetty Confirmalle maksutapahtuman tiivisteen laskenta, jonka Confirma korjasi omaan päähänsä. Lisäksi ongelmana yhteyspalvelimen + kassapalvelimen timeout, jossa ongelmana oli Meitan palomuuri. Ongelmana nyt ilmeisesti Confirman laskema paluuviestin virheellinen tiiviste. Finna-verkkomaksu todettu toimivaksi ilman CPU-sertifikaattia.
+* [Koha#2306 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306); lisätty aputaulu myös TäTi-tuotantoon.
+* [koha-plugin-SIPoHTTP#1 99-sanomien käsittely SIP-palvelimen ohi](https://github.com/KohaSuomi/koha-plugin-SIPoHTTP/issues/1);
+19.5. sovittu Bibliotheca-testaus (aika tarkentuu).
+* [koha-suomi-utility#128 Logrotaten konfiguraatio on virheellinen tuotannoissa](https://github.com/KohaSuomi/koha-suomi-utility/issues/128);
+Versiopäivityksessä tuotantoihin on livahtanut testien lokirotaatio, joka poikkeaa tuotannoista. Korjattu tuotantojen rotaatio.
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+TäTi-testille saatiin deduplikoituna ja osakohteet "filtteröitynä" lähes kaikkien testi-Kohien kuvailutietueet (Vaski-testi vielä pois tietokannan suuren koon vuoksi). Tunnistettiin osakohteiden määrät (8205 emotietuetta, 16675 osakohdetta) ja korjattiin TäTi-testillä bugi, jossa hakutuloksesta avautui väärä tietue: syynä puuttuvat/päivittämättömät 999-kentät.
 
 ## Viikko 21
 Aika: Ma 18.5.2026<br/>
