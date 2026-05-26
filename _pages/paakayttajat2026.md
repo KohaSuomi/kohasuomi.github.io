@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -21,6 +21,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 * Kirjastopäivät:
   * Koha-Suomen henkilökuntaa osallistuu kirjastopäivien ammattimessuille 3.-4.6.2026, oma messuosasto numero 4
   * Lari ja Pasi päivystää Koha-hommissa, muut messuilla
+* Luovutaan käytännöstä merkitä Koha-tietovarannon wikiin kesälomat ja laitetaan vain Matrixissa/Elementissä nimen yhteyteen tieto lomallaolosta.
+* Kun seuraavan kerran luodaan testit uudelleen, otetaan redusoinnissa mukaan 20 000 - 50 000 tietuetta entisen muutaman tuhannen sijaan. Tämä toivottavasti helpottaa versionvaihdon testailuja. Seuraavaa testien uusinta-ajankohtaa ei ole vielä päätetty, koska testeillä on menossa yhteisen kuvailutietovarannon luonti.
+* Yhteisön versio 26.05 pitäisi ilmestyä tänään 26.5.2026.
+
 
 Etelästä pohjoiseen
 
