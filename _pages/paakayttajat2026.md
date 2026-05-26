@@ -51,7 +51,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Otettu käyttöön uusi Hyllypaikka T - Teinit/Tonåringar.
-* Otettu käyttöön Hakuapurin.
+* Otettu käyttöön Tarkka haku -toimintoon Hakuapuri.
 * Raportterin käyttöönotto käynnistetty Porvoon IT-tuen kanssa. Aloituspalaverissa oli kehittäjistä mukana Johanna Räisä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
