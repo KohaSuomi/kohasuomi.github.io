@@ -127,10 +127,10 @@ lainaamisen jatkamista.
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
-Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.
+Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.<br>
 Jos haluat säilyttää valitun valinnan tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle tällä istunnolla.
 
-Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
+Huom! Lainojen uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.{: .notice--warning}
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
