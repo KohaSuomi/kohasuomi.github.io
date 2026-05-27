@@ -148,10 +148,10 @@ Klikkaa linkkiä *+Lisää rajoitus*.
 
 ![](/assets/files/docs/Lainaus/rajoituksen_tyyppi.PNG)
 - *Tyyppi*-kenttään valitse rajoituksen tyyppi.
-- *Kommentti/Viesti*-kenttään laita rajoituksen syy.  
+- *Kommentti/Viesti-kenttään laita rajoituksen syy.  
 - *Vanhenee*-kenttään aseta rajoituksen viimeinen voimassaolopäivä, jos rajoitus on voimassa vain tietyn ajan. 
 
-Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissa välilehdellä *Rajoitukset*:
+Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissaan välilehdellä *Rajoitukset*:
 
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
 
