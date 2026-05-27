@@ -159,7 +159,7 @@ Asiakkaan Muokkaa-sivulla rajoitus tallentuu asiakkaalle, kun tallennat asiakkaa
   
 Asiakkaan Lainaus- ja Tiedot-näytöllä rajoitus näkyy näin:
 
-![](/assets/files/docs/Lainaus/rajoite1.PNG)
+![](/assets/files/docs/Lainaus/rajoite1.PNG).
 
 ### 2.2.2.1 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#143-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
 
