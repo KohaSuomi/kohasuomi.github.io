@@ -39,21 +39,19 @@ Mene asiakkaan tiedoissa Lainaus-sivulle. Lue lainattavan niteen viivakoodi Lain
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
+- Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
+  joten *Lainaus*-painiketta ei tarvitse välttämättä klikata sen jälkeen, kun olet lukenut lainattavan niteen viivakoodin Lainaus-kenttään.
 - Viimeksi lainatun niteen tiedot näet *Lainassa*-kentässä.
 - Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 ![](/assets/files/docs/Lainaus/Näytä_lainat_reaaliaikaisesti.PNG)
 
-**Tärkeää:**
-
-- Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
-  joten *Lainaus*-painiketta ei tarvitse välttämättä klikata sen jälkeen, kun olet lukenut lainattavan niteen viivakoodin Lainaus-kenttään.
 - Jos niteen viivakoodia ei löydy, saat ilmoituksen:
 
   ![](/assets/files/docs/Lainaus/lainausviesti6.PNG)
 
  - Tarkista niteen viivakoodi, onko se oikein.
- - Jos teostietoja ei oltu tallennettu tietokantaan ja sinulla on pikakuvailuoikeudet, pääset lisäämään tietueen suoraan ilmoituksesta.
+ - Jos teostietoja ei oltu tallennettu tietokantaan ja sinulla on pikakuvailuoikeudet, pääset tallentamaan tietueen ja niteen suoraan ilmoituksesta.
 
 **Lainausasetukset**
 
