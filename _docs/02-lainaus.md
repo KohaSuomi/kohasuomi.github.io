@@ -131,8 +131,7 @@ Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja mak
 Jos haluat säilyttää valitun valinnan tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle tällä istunnolla.
 
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
-raja on ylittynyt.
-{: .notice--warning}
+raja on ylittynyt.{: .notice--warning}
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
