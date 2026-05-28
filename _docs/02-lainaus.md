@@ -128,8 +128,9 @@ lainaamisen jatkamista.
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
-Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.<br>
-Jos haluat säilyttää valitun valinnan tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
+Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.
+<br>
+Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
 
 Huom! Lainojen uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
@@ -156,17 +157,15 @@ Rajoituksen voit asettaa asiakkaalle myös hänen tiedoissaan välilehdellä *Ra
 
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
 
-Asiakkaan Muokkaa-sivulla rajoitus tallentuu asiakkaalle, kun tallennat asiakkaan tiedot. Rajoitukset-välilehdellä tallenna rajoitus *Lisää rajoitus* -toiminnolla.  
+Asiakkaan Muokkaa-sivulla rajoitus tallentuu asiakkaalle, kun tallennat asiakkaan Muokkaa-sivun tiedot. Rajoitukset-välilehdellä tallenna rajoitus *Lisää rajoitus* -toiminnolla.  
   
 Asiakkaan Lainaus- ja Tiedot-näytöllä rajoitus näkyy näin:
 
 ![](/assets/files/docs/Lainaus/rajoite1.PNG).
 
-### 2.2.2.1 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#143-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
-
 ### 2.2.2.2 Rajoitteen poistaminen
 
-Rajoitteen voit poistaa asiakkaan Muokkaa-sivulla laittamalla ruksin kohtaan *Poista* ja tallentamalla asiakkaan tiedot:
+Rajoitteen voit poistaa asiakkaan Muokkaa-sivulla laittamalla ruksin kohtaan *Poista* ja tallentamalla asiakkaan Muokkaus-sivun tiedot:
 
 ![](/assets/files/docs/Lainaus/rajoitteenpoisto2.PNG)
 
@@ -190,7 +189,7 @@ Lainaustilanteessa tulee huomautus:
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
 Päivitä osoitetiedot asiakkaan Muokkaa-sivulla.<br>
-Aseta tämän jälkeen täppä kohtaan *Tarkista osoite:* "Ei" ja tallenna sivu.
+Aseta tämän jälkeen täppä kohtaan *Tarkista osoite:* "Ei" ja tallenna asiakastiedot.
 
 Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. Tiedon virheellisistä osoitetiedoista voi tallentaa esim. asiakkaan viestihuomautuksiin *Lisää viesti* -toiminnolla. Tällöin asiakas ei mene lainauskieltoon virheellisten osoitetietojen vuoksi.
 
@@ -207,7 +206,7 @@ Lainaustilanteessa tulee huomautus:
 Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassasi sovittujen
 käytäntöjen mukaan.  
 
-Lainauskielto ja huomautus poistuu, kun asiakastietojen Muokkaa-sivulla osiossa 
+Lainauskielto ja huomautus poistuvat, kun asiakastietojen Muokkaa-sivun osiossa 
 *Käyttäjätilin huomautukset* vaihdat *Kadonnut kortti* -kohtaan vaihtoehdon
 “Ei” ja tallennat asiakastiedot.
 
@@ -228,6 +227,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 ### 2.3.2 Aineisto on varattu toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
 ![](/assets/files/docs/Lainaus/lainhuom1.PNG)
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
 
 ### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
 
