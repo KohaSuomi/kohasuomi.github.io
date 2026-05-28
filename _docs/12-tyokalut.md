@@ -180,7 +180,7 @@ mukaisesti:
   kirjastoa
 - jotka eivät ole lainanneet määritetyn päivämäärän jälkeen
 - joiden tili on vanhentunut ennen määritettyä päivämäärää
-- jotka eivät ole olleet yhteydessä (kirjautuneet verkkokirjastoon)
+- jotka eivät ole olleet aktiivisia (kirjautuneet verkkokirjastoon)
   määritetyn päivämäärän jälkeen
 - joiden asiakastyyppi on alasvetovalikosta valitun mukainen
 - jotka ovat asiakaslistalla, jonka voi valita alasvetovalikosta
