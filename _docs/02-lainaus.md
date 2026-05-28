@@ -257,30 +257,24 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
-![](/assets/files/docs/Lainaus/lainhuom6.png)
+![](/assets/files/docs/Lainaus/lainhuom11.png)
 
-- Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tiettyä aineistoa, ohjelma ilmoittaa, kun raja on ylitetty.
+- Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tietyn nidetyypin, asiakastyypin ja kirjaston mukaan, ohjelma ilmoittaa, kun raja on ylitetty.
 - Jos maksimimäärän ohitus on sallittu kimpassasi, se määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
-### 2.3.8 Viivakoodia ei löytynyt.
-
-![](/assets/files/docs/Lainaus/lainhuom7.PNG)
-
-- Tarkista niteen viivakoodi, onko se oikein.
-
-### 2.3.9 Lainattavan niteen tila on Kadonnut.
+### 2.3.8 Lainattavan niteen tila on Kadonnut.
 
 ![](/assets/files/docs/Lainaus/lainhuom8.PNG)
 
 - Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautus, joka pitää vahvistaa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
-### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
+### 2.3.9 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
 ![](/assets/files/docs/Lainaus/lainhuom9.PNG)
 
 - Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
-### 2.3.11 Lainattavalla teoksella on paljon varauksia, jonka takia lyhennetään laina-aikaa.
+### 2.3.10 Lainattavalla teoksella on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom10.PNG)
 
