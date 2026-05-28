@@ -20,11 +20,13 @@ Kaukolainapyynnön voi tehdä Kaukolainamoduulin etusivulla kohdasta _Uusi kauko
 
 * Valitse kaukolainapyynnön tyyppi: Kirja, Luku, Lehti, Lehtiartikkeli, Opinnäytetyö, Kokous, DVD, Muu, Yleinen resurssi.
   * Kirja-tyyppinen pyyntö lisää tietokantaan tietueen syötetyillä tiedoilla käyttäen FA-kuvailupohjaa.
+  * Kimpassasi on voitu piilottaa osa kaukolainpyynnön tyypeistä. 
 * Eri tyypit tuovat näkyville erilaisia kenttiä. Täytä tarpeelliset kentät.
 
 ![Kaukolainapyynnön teostiedot](/assets/files/docs/Kaukolainaus/kaukolainat2.png)
 
 * Lisää tarvittaessa myös _Lisäkentät_ -kohtaan vapaamuotoisia tietoja
+  * Kimpassasi on voi olla valmiiksi asetettuja Lisäkenttiä. 
 * Lisää lopuksi _Kirjastokortti, käyttäjätunnus tai sukunimi_ -kohtaan asiakkaan kirjastokortin numero ja _Noutokirjasto_ -kohtaan mistä kirjastosta hän noutaa kaukolainan.
   * Pyri käyttämään asiakkaan hakemiseen aina kirjastokortin numeroa, jotta pyyntö tallentuu oikealle asiakkaalle.
 
