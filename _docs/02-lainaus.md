@@ -100,7 +100,8 @@ Kuitin voit tulostaa:
 - *Tulosta palautuskuitti*: tulostaa kuitin asiakkaan kuluvana päivänä palautetuista lainoista.<br>
 - *Tulosta Kaukolainan infokuitti*: jos kimpassasi on käytössä kaukolainamoduuli, voit tulostaa kaukolainan infokuitin, johon tulostuu automaattisesti asiakkaan varaustunnus. Muut kaukolainan teos- ja lainatedot voi kaukolainan käsittelijä itse kirjoittaa tulostetulle kuitille. Infokuitille tulevat tiedot voidaan räätälöidä kimppakohtaisesti.   
 
-  **Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Tällöin asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.**
+Huom! Jos asiakkaan lainahistoria anonymisoidaan eli asiakas haluaa, ettei hänen lainahistoriaa tallenneta, asiakkaalle ei pysty tulostamaan palautuskuittia. Tällöin asiakkaan tiedoissa Tulosta-valikkoon ei tule näkyville toimintoa *Tulosta palautuskuitti*.
+{: .notice--warning}
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -128,7 +129,7 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
 Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.<br>
-Jos haluat säilyttää valitun valinnan tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle tällä istunnolla.
+Jos haluat säilyttää valitun valinnan tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
 
 Huom! Lainojen uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
