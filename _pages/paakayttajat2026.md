@@ -65,7 +65,7 @@ Etelästä pohjoiseen
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
