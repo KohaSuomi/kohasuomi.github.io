@@ -60,6 +60,9 @@ Etelästä pohjoiseen
 * Kouvolan kirjasto on otettu mukaan kierrätysteemaiseen EU-hankkeeseen, jossa mukana mm. XAMK ja paikallinen kierrätyskeskusta pyörittävä säätiö. Kirjaston rooli on pyörittää tavaralainausta. Tämä edellyttää tavaroiden kuvailua Kohaan. Mietinnässä miten tämä toteutetaan. Tavaralainaus ja niiden huolto tapahtuu kierrätyskeskuksen tiloissa.
 * Kyyti ottaa syksyllä käyttöön Broomworks oy:n hankintaportaalin.
 
+**Lastu**
+* Ahtialan kirjaston muuton valmistelua, muuten normaalia ylläpitoa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 21
