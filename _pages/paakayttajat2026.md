@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -65,7 +65,7 @@ Etelästä pohjoiseen
 ## Viikko 21
 
 Aika: Ti 19.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen (Vaara), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen (Vaara), Kati Sillgren (Helle), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**:
 * [Viikon 21 päivitys](https://github.com/KohaSuomi/Koha/discussions/2325)
@@ -108,7 +108,7 @@ Pohjoisesta etelään
 ## Viikko 20
 
 Aika: Ti 12.5.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara)
+Läsnä: Johanna Räisä (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen (Helle), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**:
 * [Viikon 20 päivitys](https://github.com/KohaSuomi/Koha/discussions/2315)
@@ -154,7 +154,7 @@ Etelästä pohjoiseen
 ## Viikko 19
 
 Aika: Ti 5.5.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Hyttinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Hyttinen ja Auli Rantasalo (Vaara), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 19 päivitys](https://github.com/KohaSuomi/Koha/discussions/2304)
@@ -202,7 +202,7 @@ Pohjoisesta etelään
 ## Viikko 18
 
 Aika: Ti 28.4.2026 klo 9.15<br />
-Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Elina Uotila ja Erika Miettinen (Kirkes), Iina Niemi (Vaski), Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Lotta Juvonen (Helle), Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 18 päivitys](https://github.com/KohaSuomi/Koha/discussions/2291)
