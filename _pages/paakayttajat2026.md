@@ -106,6 +106,10 @@ Pohjoisesta etelään
 * Kassan toimintaa testattu, ongelma ei vielä ratkennut. Selvittely jatkuu.
 * Normaalia ylläpitoa
 
+**Lastu**
+* [Genre/muoto-asiasanassa olevat sulkumerkit rikkovat hakulausekkeen](https://github.com/KohaSuomi/Koha/issues/2316), tämä korjaantui muutoksella `QueryRegexEscapeOptions` ja `UseICUStyleQuotes` järjestelmäasetuksiin
+* Ahtialan kirjaston muuton valmistelua, muuten normaalia ylläpitoa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-21) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 20
