@@ -219,7 +219,7 @@ Poista asiakkaita -toiminnon alapuolella on lainahistorian anonymisointi -toimin
 
 Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2022.PNG" title="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2026.jpg" title="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" style="width:90.0%" />
 
 - Valitse _Valmis_
 
