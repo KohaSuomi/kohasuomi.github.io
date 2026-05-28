@@ -173,7 +173,7 @@ ollenkaan.
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2026.jpg" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:90.0%" />
 
 - ylimmäisenä, otsikon yläpuolella, on _Valitse kirjasto_ -vaihtoehto,
   eli voit määrittää koskeeko ajo kaikkia kirjastoja vai vain tiettyä
@@ -195,7 +195,7 @@ _Vahvista: Haluat varmasti poistaa asiakkaita_-ruutuun. Klikkaa sitten _Seuraava
 
 Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä niille halutaan tehdä.  
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2V2026.jpg" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:90.0%" />
 
 - Poistetaanko näiden asiakkaiden tiedot pysyvästi
   - **Huom!** Tämä vaihtoehto poistaa asiakastiedot täysin järjestelmästä, eikä niitä viedä deletedborrower-tauluun. Käytä vain, jos haluat poistaa asiakastiedot täysin järjestelmästä ja tilastoista.
@@ -207,7 +207,7 @@ Valitse haluamasi vaihtoehto ja klikkaa _Valmis_-nappulaa.
 
 Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin, siirrettiin roskakoriin (deletedborrowers-tauluun) tai montako asiakastietoa olisi siirretty roskakoriin ja anonymisoitu, jos kyseessä ei olisi ollut testiajo. 
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.jpg" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
 ### 12.4.2 Lainahistorian anonymisointi
 
