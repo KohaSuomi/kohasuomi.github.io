@@ -388,7 +388,7 @@ Järjestelmä ilmoittaa, jos jotain tarvittavaa tietoa puuttuu. Täydennä tiedo
 
 Asiakastietojen yläreunassa olevat painikkeet 
 - _Muokkaa_: Muokkaa asiakastietoja.
-- _Lisää huollettava_ tai _Lisää taattava_: Lisää asiakkaalle huollettava tai taattava.
+- _Lisää huollettava_: Lisää asiakkaalle huollettava/taattava.
 - _Vaihda salasana_: Tästä pääset vaihtamaan salasanan.
 - _Kopioi_: Tästä klikkaamalla asiakkaan tiedot kopioituvat ja ohjelma ohjaa automaattisesti tallentamaan uutta asiakastietoa.
 - _Tulosta_: Alasvetovalikosta voit tulostaa asiakkaan haluamia kuitteja. Huom. jos asiakkaan lainahistoria on anonymisoitu, ei asiakkaalle  pysty tulostamaan palautuskuittia, sillä ko. vaihtoehto ei tuolloin tule näkyville.
@@ -396,7 +396,7 @@ Asiakastietojen yläreunassa olevat painikkeet
 - _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin ja lähettämään asiakkaan sähköpostiosoitteeseen viestin.
 
 Harvemmin tarvittavia muokkaustoimintoja löytyy _Muita toimintoja_ -alasvetovalikosta, joista tarkemmin 
-kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#137-muita-toimintoja--alasvetovalikko)
+kohdassa [1.3.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#137-muita-toimintoja--alasvetovalikko)
 
 ### 1.3.1. Lisää huollettava/taattava
 
@@ -404,18 +404,18 @@ Tämän napin kautta pääset tallentamaan henkilöasiakkaalle huollettavan. _Li
 
 ![](/assets/files/docs/Asiakkaat/Lisaataattava.png)
 
-### 1.3.2. Salasanan vaihtaminen
+### 1.3.2. Salasanan/PIN-koodin vaihtaminen
 
-Asiakkaan salasanan pääsee muokkaamaan _Vaihda salasana_-painikkeen kautta. 
+Asiakkaan PIN-koodin ja henkilökunnan salasanana pääsee muokkaamaan _Vaihda salasana_-painikkeen kautta. 
 
-Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle tallennetaan uusi salasana.
+Tallennettua PIN-koodia eikä salasanaa voi nähdä. Jos asiakas unohtaa PIN-koodin, hänelle tallennetaan uusi salasana.
 
 <img src="/assets/files/docs/Asiakkaat/salasana.png" alt="" style="width:90.0%" />
 
-\- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse _Peruuta_,
+\- Koha ei näytä entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse _Peruuta_,
 jos et halua vaihtaa salasanaa.
 
-\- Jos haluat automaattisesti luodun salasanan, klikkaa _Valitse tästä
+\- Jos haluat automaattisesti luodun PIN-koodin/salasanan, klikkaa _Valitse tästä
 luodaksesi satunnaisesti luodun salasanaehdotuksen. Salasanat näytetään
 tekstinä._
 
