@@ -429,11 +429,10 @@ toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
 tietueissa.
 
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
-_Kopioi_-nappia tietueen yläreunassa. Siirryt tuolloin uuden asiakkaan tietojen tallennukseen. Uudelle asiakkaalle kopioituu automaattisesti mm. sukunimi ja osoite. Huom. kopioituvat tiedot voivat vaihdella kimpoittain.
+_Kopioi_-nappia sivun yläreunassa. Siirryt tuolloin uuden asiakkaan tietojen tallennukseen. Uudelle asiakkaalle kopioituu automaattisesti mm. sukunimi ja osoite.
+Huom. kopioituvat tiedot voivat vaihdella kimpoittain.
 
-Tarkista, että kaikki tiedot ovat oikein ja täydennä puuttuvat tiedot.
-
-Tallennuksen jälkeen siirryt automaattisesti uuden asiakkaan tietoihin.
+Tarkista, että kaikki tiedot ovat oikein, täydennä puuttuvat tiedot ja tallenna. Tallennuksen jälkeen siirryt automaattisesti uuden asiakkaan tietoihin.
 
 ### 1.3.4. Tulosta
 
