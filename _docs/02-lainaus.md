@@ -25,7 +25,8 @@ Ohjelmassa toimivat pikanäppäimet:
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
 - Ilmoitusikkunoissa olevat kirjainvihjeet esim. Y, P ja X, aktivoivat kyseisen painikkeen näppäinyhdistelmällä *Alt+Shift+kirjain*. Esim. jos painikkeessa on *OK (Y)*, saa painikkeen valittua painamalla näppäimistöltä Alt+Shift+Y.
-Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikapikanäppäimet, jotka toimivat painamalla näppäimistöltä painikkeessa olevaa kirjain.
+<br>
+Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikanäppäimet, jotka toimivat painamalla näppäimistöltä painikkeessa olevaa kirjain.
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
@@ -259,10 +260,15 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
-![](/assets/files/docs/Lainaus/lainhuom11.PNG)
+-  Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tietyn nidetyypin, asiakastyypin ja kirjaston mukaan, ohjelma ilmoittaa, kun raja on ylitetty. Järjestelmäastuksissa määritellään, onko lainarajan ylitys sallittu vai ei.
 
-- Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tietyn nidetyypin, asiakastyypin ja kirjaston mukaan, ohjelma ilmoittaa, kun raja on ylitetty.
-- Jos maksimimäärän ohitus on sallittu kimpassasi, se määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Jos lainarajan ylitys on sallittu, tulee ilmoitus:
+
+![](/assets/files/docs/Lainaus/liianmontalainaa.png)
+
+- Jos lainarajan ylitys ei ole sallittu, tulee ilmoitus:
+
+![](/assets/files/docs/Lainaus/lainhuom11.PNG)
 
 ### 2.3.8 Lainattavan niteen tila on Kadonnut.
 
