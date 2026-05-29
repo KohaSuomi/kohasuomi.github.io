@@ -84,6 +84,15 @@ Tiketti suljettu.
 * [KohaSuomi/koha-plugin-visual-label-tool - Tarratulostustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/13);
 Tiketti suljettu.
 
+#### Kodo
+
+* [koha-suomi-utility#129 Varmuuskopioiden eheystarkistuksen raportointi hidasta](https://github.com/KohaSuomi/koha-suomi-utility/issues/129);
+Raportin cache päivitettäväksi integriteettitarkistuksen jälkeen. Korjattu myös tilanne jossa raportin näyttäminen liipaisi päivityksen kesken loginin (päivitys ja näyttäminen erotettu). Todettu toimivaksi ja tiketti suljettu.
+* [Koha#2235 Vaara: Ceepos kassajärjestelmän muutostyöt](https://github.com/KohaSuomi/Koha/issues/2235);
+Selvitetty Confirmalle tiivisteen laskentatapa + toimitettu linkki koodiin. Confirma korjannut tiivisteen laskennan. Vaara-pääkäyttäjät varmistaneet toiminnan. Tuotannon lokitustaso tipautettu DEBUG-tasolta. Tämä kunnossa eikä tarvitse enää lisätoimenpiteitä.
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+Jaettujen kuvailutietueiden käyttöönottoa laajennettu testeissä. Mukana nyt kaikkien muiden kimppojen testit lukuunottamatta OUTIa ja Vaskia. OUTI jätetty pois kirjastopäivien (3.-5.5.) demoympäristönä toimimisen vuoksi ja Vaski koska tietokanta on testikäyttöön liian iso (vaatii redusoinnin). Jaettujen taulujen käyttö tällä menetelmällä vaikuttaa hitaalta ja asiaa tutkitaan.
+
 ## Viikko 22
 Aika: Ma 25.5.2026<br/>
 Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
