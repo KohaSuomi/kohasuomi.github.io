@@ -24,7 +24,8 @@ Ohjelmassa toimivat pikanäppäimet:
 - Lainaus: *Alt+U*
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
-- Ilmoitusikkunoissa olevat kirjainvihjeet: *Alt+Shift+kirjain* aktivoi kyseisen painikkeen. Esim. jos painikkeessa lukee _Kyllä (Y)_, saa Kyllä-painikkeen valittua painamalla näppäimistöltä Alt+Shift+Y.
+- Ilmoitusikkunoissa olevat kirjainvihjeet esim. Y, P ja X, aktivoivat kyseisen painikkeen näppäinyhdistelmällä *Alt+Shift+kirjain*. Esim. jos painikkeessa on *OK (Y)*, saa painikkeen valittua painamalla näppäimistöltä Alt+Shift+Y.
+Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikapikanäppäimet, jotka toimivat painamalla näppäimistöltä painikkeessa olevaa kirjain.
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
@@ -130,7 +131,8 @@ lainaamisen jatkamista.
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
 Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.
 <br>
-Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
+
+Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää, kun lainaat tälle asiakkaalle, tällä samalla istunnolla.
 
 Huom! Lainojen uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
@@ -227,7 +229,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 ### 2.3.2 Aineisto on varattu toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
 ![](/assets/files/docs/Lainaus/lainhuom1.PNG)
-- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tälle asiakkaalle lainatessa tällä istunnolla.
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää, kun lainaat tälle asiakkaalle, tällä samalla istunnolla.
 
 ### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
 
@@ -257,7 +259,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
-![](/assets/files/docs/Lainaus/lainhuom11.png)
+![](/assets/files/docs/Lainaus/lainhuom11.PNG)
 
 - Jos kimpassasi on määritelty lainoille maksimimäärä, kuinka monta lainaa asiakkalala voi olla yhtäaikaa lainassa tietyn nidetyypin, asiakastyypin ja kirjaston mukaan, ohjelma ilmoittaa, kun raja on ylitetty.
 - Jos maksimimäärän ohitus on sallittu kimpassasi, se määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
