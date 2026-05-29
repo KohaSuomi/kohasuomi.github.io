@@ -388,12 +388,12 @@ Järjestelmä ilmoittaa, jos jotain tarvittavaa tietoa puuttuu. Täydennä tiedo
 
 Asiakastietojen yläreunassa olevat painikkeet 
 - _Muokkaa_: Muokkaa asiakastietoja.
-- _Lisää huollettava_: Lisää asiakkaalle huollettava.
+- _Lisää huollettava_ tai _Lisää taattava_: Lisää asiakkaalle huollettava tai taattava.
 - _Vaihda salasana_: Tästä pääset vaihtamaan salasanan.
 - _Kopioi_: Tästä klikkaamalla asiakkaan tiedot kopioituvat ja ohjelma ohjaa automaattisesti tallentamaan uutta asiakastietoa.
-- _Tulosta_: Alasvetovalikosta voit valita ja tulostaa asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin. Huom.  jos asiakkaan lainahistoria on anonymisoitu, ei asiakkaalle  pysty tulostamaan palautuskuittia, sillä ko. vaihtoehto ei tuolloin tule näkyville.
-- _Hae ja varaa_: Tätä kautta pääset tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa.
-- _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin.
+- _Tulosta_: Alasvetovalikosta voit tulostaa asiakkaan haluamia kuitteja. Huom. jos asiakkaan lainahistoria on anonymisoitu, ei asiakkaalle  pysty tulostamaan palautuskuittia, sillä ko. vaihtoehto ei tuolloin tule näkyville.
+- _Hae ja varaa_: Tätä kautta pääset tiedonhaun kautta tekemään asiakkaalle varauksen siten, että asiakastieto säilyy muistissa.
+- _Lisää viesti_: Tästä pääset lisäämään asiakastietoihin viestin ja lähettämään asiakkaan sähköpostiosoitteeseen viestin.
 
 Harvemmin tarvittavia muokkaustoimintoja löytyy _Muita toimintoja_ -alasvetovalikosta, joista tarkemmin 
 kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#137-muita-toimintoja--alasvetovalikko)
