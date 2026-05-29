@@ -305,7 +305,7 @@ Lainat-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohtais
 
 ![](/assets/files/docs/Lainaus/vie.PNG)
 
-Linkin takaa *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
+Lainat-välilehdellä olevasta linkistä *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
 Lainat-välilehdellä ensimmäisenä näkyvät tänään lainatut lainat.
 Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
