@@ -132,7 +132,7 @@ lainaamisen jatkamista.
 Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 16,50 € ja maksuja, jotka eivät vaikuta lainauskieltoon on 2,00 €.
 <br>
 
-Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää, kun lainaat tälle asiakkaalle, tällä samalla istunnolla.
+Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 Huom! Lainojen uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
@@ -229,7 +229,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 ### 2.3.2 Aineisto on varattu toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
 ![](/assets/files/docs/Lainaus/lainhuom1.PNG)
-- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää, kun lainaat tälle asiakkaalle, tällä samalla istunnolla.
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
 
