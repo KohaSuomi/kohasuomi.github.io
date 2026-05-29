@@ -13,6 +13,77 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 23
+Aika: Ma 1.6.2026<br/>
+Läsnä: 
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Viikolla 22 tehty
+
+#### Johanna
+
+* [Add strict permissions for listing and modification](https://github.com/KohaSuomi/koha-plugin-editx/commit/6394c9fcb0e20bf758cea94675dbf4ee501c28eb) (ks25-v2)
+* [KPREP-17: Add hardened value validation](https://github.com/KohaSuomi/koha-plugin-report-services/commit/b3b44e411a9c7d24a1a9de27d2fdb069937511b8) (master)
+* [KPREP-17: Add pagination to endpoint](https://github.com/KohaSuomi/koha-plugin-report-services/commit/d22ce6ed28711632c0e4b71ba3cb9e5c8b3c0309) (master)
+* [Optimize endpoint handling and tests](https://github.com/KohaSuomi/koha-plugin-report-services/commit/960c7472054866ea45afc178e7f8689dc0afc6d2) (master)
+* Add cache clearing script (ks25/ksdev/ks-0314-KOHA-2339-fix-cache-pollution, ks25dev/ks-0314-KOHA-2339-fix-cache-pollution)
+* Add memcache version check to I18N.pm
+* [Try to find text on its own row](https://github.com/KohaSuomi/koha-plugin-editx/commit/f9b2c773eb08dbb67b9632decf97e7070cd56dd6) (ks25-v2)
+* [Add cache clearing script](https://github.com/KohaSuomi/Koha-25x/commit/6fb7dcb3117c4bc0e7503a035fa794b1cbebef47) (ksdev/ks-0314-KOHA-2339-fix-cache-pollution)
+* [Add memcache version check to I18N.pm](https://github.com/KohaSuomi/Koha-25x/commit/232083e594c3eb33f117b8f361bf55fd4eedc8cd) (ksdev/ks-0314-KOHA-2339-fix-cache-pollution)
+* [Add new branch information for cache pollution fix](https://github.com/KohaSuomi/koha-suomi-utility/commit/58d920746ef36ac677033e1276d4326986d637ed) (master)
+* [Skip html entities](https://github.com/KohaSuomi/koha-plugin-editx/commit/0cd229b614381330b4ba599c4591a9512069d264) (ks25-v2)
+* [Add translations](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/7b3443642fa529072573489bb1a55bdb35db6d69) (master)
+* [Skip script and style tags](https://github.com/KohaSuomi/koha-plugin-editx/commit/693264298c33f123b882740c261403b3e5d7e3e1) (ks25-v2)
+* [Translate the strings](https://github.com/KohaSuomi/koha-plugin-editx/commit/0a148a9c505e042c26da70bff4f1ac4c035649ed) (ks25-v2)
+* [Silence the dumper](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/commit/0abf21633e352cf70b91a34957412bf365b069f9) (master)
+* [Run tests only manually](https://github.com/KohaSuomi/koha-plugin-editx/commit/a5a2f70783b843ab4d952c8f1fec14a66e32036e) (ks25-v2)
+* [Add translations to plugin name and description](https://github.com/KohaSuomi/koha-plugin-editx/commit/14e3db6babaf8d8b17f31387305d160a3401b261) (ks25-v2)
+* [Add create-translations.pl script and i18n files for Editx plugin](https://github.com/KohaSuomi/koha-plugin-editx/commit/db5a7eae6f20b5a1d45e8e94c06f9c6d705f440b) (ks25-v2)
+* [Update tests](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/6bb2c8fa1787871c1bae9ee724a09ec891f4794f) (master)
+* [KohaSuomi/Koha - Perustiedot-näytöllä ja hakutuloksissa näkyy tuplapilkku e-osakenttien välissä](https://github.com/KohaSuomi/Koha/issues/2212);
+Tiketti suljettu.
+* [KohaSuomi/Koha - Helle, asiakkaalle muodostunut Varauksen noutomuistutus voimassa olevasta lähiaikoina vanhenevasta varauksesta](https://github.com/KohaSuomi/Koha/issues/2227);
+Tiketti suljettu.
+* [KohaSuomi/Koha - Vaski: Raporttien ajaminen Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232);
+Vastuutettu: johannaraisa.
+Kommentti: Optimoitu rajapinta on testeillä, mutta tätä ei oikein pysty testaamaan kuin me. @lmstrand testaa meiltä tätä toisena.
+Kommentti: Minulla on suunnitelmia miten tuota rajapintaa voisi optimoida, katsotaan saako niistä apuja tähän ongelmaan.
+* [KohaSuomi/Koha - Varaushyllyominaisuus: iso määrä lehtivarauksia samaan tietueeseen kuluttaa liikaa noutohyllyjä](https://github.com/KohaSuomi/Koha/issues/2331);
+Vastuutettu: johannaraisa.
+Kommentti: Kaikki hyllyt menevät tuohon tarkistukseen, että löytyykö sieltä jo kiinni jäänyt varaus. Piti tarkistaa tämä, kun en enää muistanut. Ei siis pysty pelkällä parametroinnilla toteuttamaan.
+* [KohaSuomi/Koha - Käännöksien välimuistin erottelu omiksi parametreiksi](https://github.com/KohaSuomi/Koha/issues/2339);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+Kommentti: Ei vaikuttanut toimivan, en jättänyt muutosta tuotantoon.
+Kommentti: Seuraavassa päivityksessä kokeillaan nimetä ongelmallisten käännösten parametrit kielen mukaan. Tätä joudutaan kokeilemaan tuotannossa, koska testeillä ongelman toistaminen on haastavaa.
+* [KohaSuomi/Koha - TUPK:n noutohyllyjen tuonti .csv-tiedostosta](https://github.com/KohaSuomi/Koha/issues/2345);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Lappi: Listaus varauksista, joihin on tehty massamuutos tiettynä päivänä](https://github.com/KohaSuomi/Koha/issues/2346);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on lisätty, jotkut reserve_id:t oli tuolla useampaan kertaan. Tämä osui 57 varaukselle.
+Kommentti: Okei, lisään sen noille mitkä laitoit.
+* [KohaSuomi/koha-plugin-broadcast-biblios - OAI-setin siivousskripti](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/19);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-broadcast-biblios - Broadcast biblios: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/20);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-ceepos-integration - Ceepos: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/8);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-intranetjs-hold-statistics - IntranetUserJS: Holds statistics: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-hold-statistics/issues/1);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-intranetjs-search-helpers - IntranetUserJS: Hakuapuri: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-search-helpers/issues/2);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-report-services - Sivutus raporttirajapintaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/17);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt testillä testattavana.
+* [KohaSuomi/koha-plugin-visual-label-tool - Virhekäsittelyt eivät toimi oikein](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/11);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-visual-label-tool - Tarratulostustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/13);
+Tiketti suljettu.
+
 ## Viikko 22
 Aika: Ma 25.5.2026<br/>
 Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
