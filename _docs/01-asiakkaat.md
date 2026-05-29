@@ -578,7 +578,7 @@ näkyy sen jälkeen ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi
 
 ![](/assets/files/docs/Asiakkaat/korttikadonnut.png)
 
-Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu kirjastokortti löytyneeksi tai tarvittaessa vaihdettu kirjastokortin numero toiseksi. Huomautuksen saa pois, kun valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
+Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu kirjastokortti löytyneeksi tai tarvittaessa vaihdettu asiakkaalta kirjastokortti kokonaan uudeksi. Huomautuksen saa pois, kun valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
 ### 1.4.2. Tili lukittu
 
@@ -642,15 +642,15 @@ linkki _Tietojensa muokkaamista haluavat asiakkaat_.
 <img src="/assets/files/docs/Asiakkaat/Etusivunlinkki.png" alt="" style="width:90.0%" />
 
 Kun klikkaat linkkiä, saat listan kaikista odottavista muutospyynnöistä ja klikkaamalla asiakkaan
-nimen kohdalta saat hänen tekemänsä muutokset näkyviin. Voit hyväksyä muutokset _Hyväksy_, kieltää _Kiellä_ ne tai jättää
-ne kokonaan huomioimatta _Älä huomioi_.
+nimen kohdalta saat hänen tekemänsä muutokset näkyviin. Voit hyväksyä muutokset valitsemalla _Hyväksy_-vaihtoehdon, kieltää 
+valitsemalla _Kiellä_-vaihtoehdon tai jättää pyynnön kokonaan huomioimatta valitsemalla _Älä huomioi_-vaihtoehdon.
 
 ![](/assets/files/docs/Asiakkaat/tietojenmuutos.png)
 
 _Asiakkaan tiedot_ -linkistä pääset asiakkaan tietoihin katsomaan onko asiakkaalla
-esim. rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
+esim. rajoitteita, jotka päivityksen yhteydessä on syytä huomioida.
 
-Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy lainaussivulla kohdassa Huomio: _Odottavat muutokset: Tarkista odottavat muutospyynnöt_
+Asiakkaan tiedoissa muutospyyntö näkyy lainaussivulla kohdassa Huomio: _Odottavat muutokset: Tarkista odottavat muutospyynnöt_
 
 ![](/assets/files/docs/Asiakkaat/Odottavatmuutokset.png)
 
