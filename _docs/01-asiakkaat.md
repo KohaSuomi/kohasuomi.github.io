@@ -798,10 +798,10 @@ Jos valitset ennen yhdistämistä _Pidä asiakkaat valittuna uutta toimintoa var
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat4.png)
 
-Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa on säilytetyn kortin tieto. Pääset säilytetyn kortin tietoihin klikkaamalla _Näytä asiakastietue_ tai klikkaamalla nimeä ja korttinumeroa, joka on samalla linkki asiakkaan tietoihin.
+Saat yhteenvedon yhdistetyistä asiakastietueista. Ensimmäisenä tuloksessa on säilytetyn kortin tieto (alleviivattuna punaisella). Pääset säilytetyn kortin tietoihin klikkaamalla _Näytä asiakastietue_ tai klikkaamalla nimeä ja korttinumeroa, joka on samalla linkki asiakkaan tietoihin.
 
 ![](/assets/files/docs/Asiakkaat/Yhdistavalitutasiakkaat3.png)
 
-Korttitiedot, joita ei säilytetty, poistuvat automaattisesti Kohasta.
+Korttitiedot, joita ei säilytetty, poistuvat automaattisesti Kohasta. Kortin linkki antaa ilmoituksen "Asiakasta ei löytynyt. Palaa asiakashakuun."
 
 
