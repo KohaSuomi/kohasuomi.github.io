@@ -93,6 +93,21 @@ Selvitetty Confirmalle tällä kertaa paluuviestin tiivisteen tarkistustapa + to
 * [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
 Jaettujen kuvailutietueiden käyttöönottoa laajennettu testeissä. Mukana nyt kaikkien muiden kimppojen testit lukuunottamatta OUTIa ja Vaskia. OUTI jätetty pois kirjastopäivien (3.-5.5.) demoympäristönä toimimisen vuoksi ja Vaski koska tietokanta on testikäyttöön liian iso (vaatii redusoinnin). Jaettujen taulujen käyttö tällä menetelmällä vaikuttaa hitaalta ja asiaa tutkitaan.
 
+#### Emmi
+
+* [Varaus vanhenee ajossa patron_expiration_daten mukaan, vaikka expiration_datea päivitetään](https://github.com/KohaSuomi/Koha/issues/2280): Työtä jatkettu. Ongelmana vielä, että yksikkötestit palauttavat API-kutsussa virhe 500.
+* [OKM-raportointityökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/24): Käännösten tekeminen aloitettu. 
+* [Siirto-toiminnossa puutteita kun siirrettävään teokseen kohdistuu varaus](https://github.com/KohaSuomi/Koha/issues/1564): KOrjattu korjauksessa ilmennyt vika.
+* [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan](https://github.com/KohaSuomi/Koha/issues/2318): Tästä löytyi yhteisöstä kaksikin tikettiä, joista toiseen oli jo tehty patchi. Sitä voisi testata jossain vaiheessa.
+* [Kyytin testikantaan kirjastokoodit kaukolainamoduulia varten](https://github.com/KohaSuomi/Koha/issues/2340): Kaukolainamoduulin asetukset lisätty Kyytin testille.
+* [Esimerkkejä OUTIn erityyppisistä EditX-sanomista](https://github.com/KohaSuomi/Koha/issues/2344): Helmet-kirjastot ovat pyytäneet Kohan EditX:n tilaus- ja vastaanottosanomista esimerkkejä Helmetin sisäiseen käyttöön. Tiedostot toimitettu OUTI:n pääkäyttäjälle Matrixissa. 
+* [Lastu: Hollolan Finvoice-laskutuksen käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2274): Käyttöönottopalaveri pidettiin 29.5.2026 ja se sujui ilman mainittavia ongelmia.
+* Kifi-aineistossa selvinneiden ongelmien selvittelyä
+* Version 26.05 uusien ominaisuuksien ja korjausten läpikäyminen
+* Tietovarannon luominen versiolle 26.05
+* Pääkäyttäjäpalaveri 26.5.2026
+* Yhteisöpalaveri 27.5.2026
+
 ## Viikko 22
 Aika: Ma 25.5.2026<br/>
 Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
