@@ -22,6 +22,23 @@ Läsnä:
 
 ### Viikolla 22 tehty
 
+#### Lari
+
+  Tiketit
+
+  * [Toimiiko tilin vanhentumisilmoitusten pakottaminen?](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3) https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3
+    [26.5.] Kehittäjät: Ajetaan kimppoihin, joilla asiakastyypeille on pakotettu vanhentumisilmoitus, tietokantaan "email"-oletusyhteydenottotapa, jotta saadaan asiakkaille (joilla määritetty email-osoite) lähtemään vanhentumisiloitukset. Kimpat, jotka käyttävät vanhentumisilmoituksen pakotusta varmistavat, että asiakkaan muokkauslomakkeella on ensisijainen yhteydenottotapa-kenttä käytössä. Valintaboksi pitää pakottaa emailiksi ja piilottaa halutessa käyttämällä IntranetUserJS: Set defaults for Koha fields and checkboxes -pluginia, jotta uudet asiakkaat saavat email-arvon oletuksena tietoihinsa asiakakkaan tallennuksen yhteydessä.  Viedään tämä asia vielä asiantuntijaryhmään ja pohditaan, miten muidenkin kimppojen kanssa toimitaan, joilla ei ole vanhentumisilmoituksen pakottamista tällä hetkellä käytössä (kaikilla tai osalla asiakastyypeistä) ja yritetään edistää yhteisössä jotain järkevämpää tapaa hoitaa vanhentumisilmoitusten lähteminen.
+
+  * ["email"-oletusyhteydenottotapa-ajo kimppoihin, joilla asiakkaan vanhentumisilmoitusviestit pakotettuna](https://github.com/KohaSuomi/Koha/issues/2342) https://github.com/KohaSuomi/Koha/issues/2342
+    [26.5.] #Seuranta kimpoista, joilla on oletusyhteydenottotapa-valinta konfiguroituna pluginiin ja ajo tehty:  - [ ] Lappi (Ei pakotettu, ei ajettu) - [x] OUTI - [x] Siili - [ ] Vaara - [ ] Lumme (Ei pakotettu, ei ajettu) - [x] Kyyti - [x] Helle - [x] Kirkes (API, AUTOM ei pakotettu, ei ajettu näille) - [x] Lastu - [x] Vaski
+
+  * [Hyllyvarauslistalla näkyy väärä noutokirjasto kun ensimmäisenä oleva nidevaraus ei ole poimittavissa](https://github.com/KohaSuomi/Koha/issues/2259) https://github.com/KohaSuomi/Koha/issues/2259
+    [27.5.] Löysin ongelman tuon datan keräävästä SQL-lausekkeesta, alikyselyihin ei ollut käytetty samoja ehtoja kuin pääkyselyssä, jolloin nuo tiedot saatoivat heittää juuri noiden nidevarausten kanssa. Kyselyskripti on korjattu testeille (update_holds_to_pull.pl).
+
+  * [Sivutus raporttirajapintaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/17) https://github.com/KohaSuomi/koha-plugin-report-services/issues/17
+    [28.5.] Testattu toimivaksi Vaski-testillä.
+  * SIP-sanomien kanssa havaittujen ongelmien selvittämistä/raportointia
+    
 #### Johanna
 
 * [Add strict permissions for listing and modification](https://github.com/KohaSuomi/koha-plugin-editx/commit/6394c9fcb0e20bf758cea94675dbf4ee501c28eb) (ks25-v2)
