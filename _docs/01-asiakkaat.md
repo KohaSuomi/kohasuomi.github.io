@@ -527,7 +527,7 @@ Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat _Kyllä,
 
 ![](/assets/files/docs/Asiakkaat/Poista1.png)
 
-Jos asiakkaan positaminen ei onnistu, niin Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä. 
+Jos asiakkaan poistaminen ei onnistu, niin Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä. 
 Poistaessasi asiakasta toimi kirjastosi ohjeiden mukaan.
 
 ![](/assets/files/docs/Asiakkaat/Poistonesto1.png)
