@@ -375,10 +375,10 @@ Jos viivakoodia ei löydy, saat ilmoituksen:
 
 **Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. 
 
-Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
-ovat sallittu järjestelmäasetuksissa. 
+Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, keskeyttää varauksen tai jatkaa keskeytetyn varauksen tilan, mikäli toiminnnot
+ovat sallittu kimpassasi. 
 
-Voit poistaa varauksen valitsemalla Poista-sarakkeen alasvetovalikosta *Kyllä*.
+Voit poistaa varauksen valitsemalla Poista-sarakkeen alasvetovalikosta *Kyllä* ja valitsemalla *Peruuta valitut varaukset*.
 
 ![](/assets/files/docs/Lainaus/varaukset2.PNG)
 
@@ -409,8 +409,7 @@ Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus 
 
 ### 2.6.4 Vanhentunut asiakastieto
 
-Jos asiakastiedot vaativat määräaikaistarkistuksen (kimppasi järjestelmäasetuksissa
-määritelty), näyttöön tulee ilmoitus:
+Jos asiakastiedot vaativat määräaikaistarkistuksen (määritelty kimppasi järjestelmäasetuksissa), näyttöön tulee ilmoitus:
 
 ![](/assets/files/docs/Lainaus/vanhentunut.png)
 
