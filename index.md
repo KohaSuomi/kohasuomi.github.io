@@ -8,7 +8,14 @@ header:
 title: ''
 ---
 
-# Yleistä yrityksestä
+## Uutisia
+
+Koha-Suomi on mukana Kirjastopäivien ammattimessuilla 3.-4.6.2026 Oulussa. Messuosastomme sijaitsee teatterin ensimmäisessä kerroksessa osastolla numero 4.
+
+Osastollamme pääsee tutustumaan Koha-kirjastojärjestelmään ja juttelemaan henkilökuntamme kanssa. Tervetuloa käymään osastollamme!
+
+
+## Yleistä yrityksestä
 
 Koha-Suomi Oy on täysin kuntien omistama yhtiö, jonka kautta kunnat ylläpitävät ja kehittävät Koha-kirjastojärjestelmää yhteistyössä. Yritys on perustettu loppukesällä 2016 Kohti Kohaa –hankkeen tuloksena. Yritys toimii non-profit-periaatteella; sen tavoitteena ei ole tuottaa taloudellista voittoa. Yritys toimii tiiviissä yhteistyössä omistajakuntien kirjastojen kanssa ja on aktiivinen toimija kansainvälisessä Koha-yhteisössä.
 
@@ -18,7 +25,7 @@ Koha-Suomi Oy:n kotipaikka on Mikkeli, mutta omistajakunnat ympäri Suomen tarjo
 
 Koha-Suomi Oy palkittiin lokakuussa 2025 [COSS ry:n vuoden 2025 Open World Hero -tunnustuksella](https://coss.fi/uutiset/koha-suomi-palkittiin-vuoden-2025-open-world-hero-tunnustuksella/).
 
-# Toiminta-ajatus
+## Toiminta-ajatus
 
 Koha-Suomi Oy tuottaa omistajakunnilleen Koha-kirjastojärjestelmän ylläpito- ja kehittämispalvelut. Koha-kirjastojärjestelmä on avointa lähdekoodia ja  Koha-Suomi Oy edistää toimintakulttuurillaan avoimuutta ja yhteisöllisyyttä. Sen tärkein tavoite on turvata ajanmukainen ja kehittyvä kirjastojärjestelmä kohtuullisilla kustannuksilla kirjastojen käyttöön. Lisäksi Koha-Suomi Oy pyrkii edistämään kirjastojen välistä yhteistyötä ja osaamisen kehittämistä.
 
