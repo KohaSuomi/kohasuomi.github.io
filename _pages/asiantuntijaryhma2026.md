@@ -21,18 +21,20 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Keskiviikko 10.6.2026 klo 13 <br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
-### Seuraavan versionvaihdon ajankohta
+### 2. Seuraavan versionvaihdon ajankohta
+
+Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alustavasti su 14.3.2027 - ti 16.3.2027. Onko tullut kommentteja tai vastalauseita ajankohdalle?
 
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
 * [Ajetaanko kaikille kimpoille email ensisijaiseksi yhteydenottotavaksi?](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3#issuecomment-4542261929)
 
-### Muut asiat
+### 4. Muut asiat
 
-### Seuraava kokous
+### 5. Seuraava kokous
 
 
 ## Muistio 5/2026
