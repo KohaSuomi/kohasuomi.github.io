@@ -23,6 +23,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Yhteisen kuvailuvarannon tilannekatsaus / Kodo
+
 ### 2. Seuraavan versionvaihdon ajankohta
 
 Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alustavasti su 14.3.2027 - ti 16.3.2027. Onko tullut kommentteja tai vastalauseita ajankohdalle?
