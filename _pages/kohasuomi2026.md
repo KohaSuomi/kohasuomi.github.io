@@ -128,6 +128,38 @@ Jaettujen kuvailutietueiden käyttöönottoa laajennettu testeissä. Mukana nyt 
 * Pääkäyttäjäpalaveri 26.5.2026
 * Yhteisöpalaveri 27.5.2026
 
+### Anneli
+
+#### Tekninen selvitys ja kehitystyö**
+- Työstin **001+003‑kenttien** aikataulua ja selvitin, voidaanko korjatut arvot saada päivittymään aputauluun.
+- Testasin sandboxissa **Bug 42666** (Next‑painike Asiakastyypeissä ja Nidetyypeissä).  
+  - Ongelmaa ei voitu toistaa Asiakastyypeissä.  
+  - Nidetyypeissä alkuperäinen ongelma toistui, mutta korjaus ei toiminut.
+- Tein yhteisöön bugin **Bug 42690** koskien kaukolainamoduulin terminologiaa (“Not held”).
+- Jatkoin **returndate‑virheen** selvitystä Oulun automaateilla.  
+  - Kolmelle niteelle oli kirjautunut väärä returndate (12.1.2026).  
+  - Syynä todennäköisesti virkailijasyötön “takauttamistoiminnon” väärä päivämäärä. Ilmeisesti joku on sen sinne vahingossa valinnut ja se on jäänyt päälle pidemmäksi aikaa.
+  - Ongelma näyttää poistuneen testauksen jälkeen 26.5., jolloin takauttamistoimintoon valittiin toinen päivä ja se myös otettiin pois.
+- Yritin tunnistaa, mitkä automaatit lähettävät väärää returndatea, mutta SQL‑kysely oli liian hidas ja anonymisoidut lainat vaikeuttivat yhdistämistä. Jokin myös näytäisi päivittävän old_issues-taulun timestamp-kenttää palautuksen jälkeen, joten returndaten ja timestampin vertailu ei tuntuisi olevan luotettava tapa.
+- Vastasin kommenttiin tiketissä **#2292 – Hyllyvarausraportin suodattimet tabletilla** ja selitin alasvetovalikoiden toimintalogiikkaa. Valikot eivät reagoi siihen, että taulukon toiseen suodatusvalikkoon on valittu jotain.
+- Koostin EDItX‑liitännäisen käännökset Exceliin ja tarkistin suomenkieliset versiot.  
+
+#### Bugzilla ja yhteisön työ
+- Kävin läpi Bugzillan uudet tiketit neljältä päivältä ja otin seurantaan **Bug 42676 – ILL‑tyyppien konfigurointi**.
+- Tein suomenkielisiä käännöksiä **Weblatessa**.
+
+#### Dokumentointi, viestintä ja materiaalit
+- [Laadin tiedotteen viikon 22 päivityksestä](https://github.com/KohaSuomi/Koha/discussions/2341)
+- Päivitin ja käänsin suomeksi **Koha‑Suomi in a nutshell** ‑diasarjan.
+- [Kopioin Koha 26.05 ‑version kiinnostavat muutokset wikiin](https://github.com/KohaSuomi/Koha-26x/wiki/Uutta-versiossa-26.xx)
+
+#### Koulutus, tuki ja sisäinen viestintä
+- Osallistuin Turun esittelyyn uudesta **Noutohylly‑toiminnosta**.
+
+#### Kokoukset
+- Koha‑Suomen viikkopalaveri 25.5.2026
+- Pääkäyttäjäpalaveri 26.5.2026
+
 ## Viikko 22
 Aika: Ma 25.5.2026<br/>
 Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
