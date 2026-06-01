@@ -286,7 +286,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/lainhuom10.PNG)
 
-- Laina-ajan lyhennys määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Laina-ajan lyhentäminen varausmäärän perusteella määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ---
 
@@ -307,7 +307,7 @@ Lainat-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohtais
 
 Lainat-välilehdellä olevasta linkistä *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
-Lainat-välilehdellä ensimmäisenä näkyvät tänään lainatut lainat.
+Välilehdellä ensimmäisenä näkyvät tänään lainatut lainat.
 Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 
 ![](/assets/files/docs/Lainaus/lainat_naytto.PNG)
@@ -327,8 +327,8 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 ![](/assets/files/docs/Lainaus/uusinta.PNG)
 
 - Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu.
-- Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo oletuksena valittuna.
-- Muiden uusittavien lainojen kohdalta (jotka voi uusia) ruksaa uusinnan valintaruutu ja klikkaa näytön alareunasta painiketta *Uusi valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi kaikki*.
+- Myöhässä olevien lainojen eräpäivät näkyvät punaissella ja kuluvana päivänä erääntyvät lainat näkyvät boldattuna. Molempien lainojen uusinnan valintaruutu on jo oletuksena valittuna, jos lainan uusinta on mahdollista.
+- Muiden uusittavien lainojen kohdalta (jotka voi uusia) ruksaa uusinnan valintaruutu ja valitse näytön alareunasta toiminto *Uusi valitut niteet* tai jos uusit kaikki lainat, valitse *Uusi kaikki*.
   
 - Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”,
   voit valita uusittavaksi kaikki lainat, jotka on mahdollista uusia.
@@ -344,7 +344,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
     
 #### 2.4.1.2 Uusinta-toiminto Lainaus ja palautus -sivulla
 
-- Huomio kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
+- Huomioi kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
   uusintatilanteessa, tätä toimintoa ei tule silloin 
   käyttää. Toiminto voi olla myös piilotettuna kimpassasi.
 
