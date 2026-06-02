@@ -26,13 +26,14 @@ Ohjelmassa toimivat pikanäppäimet:
 - Lainakuitti: *Alt+P*
 - Ilmoitusikkunoissa olevat kirjainvihjeet esim. Y, P ja X, aktivoivat kyseisen painikkeen näppäinyhdistelmällä *Alt+Shift+kirjain*. Esim. jos painikkeessa on *OK (Y)*, saa painikkeen valittua painamalla näppäimistöltä Alt+Shift+Y.
 <br>
-Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikanäppäimet, jotka toimivat painamalla näppäimistöltä painikkeessa olevaa kirjain.
+
+Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikanäppäimet, jotka toimivat suoraan painamalla näppäimistöltä painikkeessa näkyvää kirjainta.
   
   ![](/assets/files/docs/Lainaus/kirjainvihje.PNG)
 
 ## 2.1 Lainaus
 
-Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi jompaankumpaan
+Hae asiakas lukemalla asiakkaan kirjastokortin viivakoodi jompaankumpaan
 *Lainaus*-kenttään. 
 
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
@@ -44,7 +45,7 @@ Tarkista, että olet asiakkaan tiedoissa Lainaus-sivulla. Lue lainattavan niteen
 - Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
   joten *Lainaus*-painiketta ei tarvitse välttämättä klikata sen jälkeen, kun olet lukenut lainattavan niteen viivakoodin Lainaus-kenttään.
 - Viimeksi lainatun niteen tiedot näet *Lainassa*-kentässä.
-- Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
+- Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät heti näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 ![](/assets/files/docs/Lainaus/Näytä_lainat_reaaliaikaisesti.PNG)
 
@@ -114,7 +115,7 @@ Näytön voit tyhjentää kahdella tavalla:
 
 - Painamalla *Enter*. (Huom! Kimpan asetuksista riippuen, Enter voi tulostaa myös
   asiakkaan lainakuitin).
-- Klikkaamalla *X-merkkiä* lainauskentän oikeasta yläkulmasta.
+- Klikkaamalla *X-kuvaketta* lainauskentän oikeasta yläkulmasta.
 
 ![](/assets/files/docs/Lainaus/tyhjennys.PNG)
 
@@ -168,7 +169,7 @@ Asiakkaan Lainaus- ja Tiedot-näytöllä rajoitus näkyy näin:
 
 ### 2.2.2.2 Rajoitteen poistaminen
 
-Rajoitteen voit poistaa asiakkaan Muokkaa-sivulla laittamalla ruksin kohtaan *Poista* ja tallentamalla asiakkaan Muokkaus-sivun tiedot:
+Rajoitteen voit poistaa asiakkaan Muokkaa-sivulla laittamalla ruksin kohtaan *Poista* ja tallentamalla asiakkaan Muokkaus-sivun tiedot.
 
 ![](/assets/files/docs/Lainaus/rajoitteenpoisto2.PNG)
 
@@ -195,10 +196,11 @@ Päivitä osoitetiedot asiakkaan Muokkaa-sivulla.<br>
 Aseta tämän jälkeen täppä kohtaan *Tarkista osoite:* "Ei" ja tallenna asiakastiedot.
 
 Toiminnon käyttäminen ei ole suositeltavaa, koska asiakas menee lainauskieltoon toiminnon ollessa päällä. Tiedon virheellisistä osoitetiedoista voi tallentaa esim. asiakkaan viestihuomautuksiin *Lisää viesti* -toiminnolla. Tällöin asiakas ei mene lainauskieltoon virheellisten osoitetietojen vuoksi.
+{: .notice--warning}
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen Muokkaa-sivun osioon *Käyttäjätilin huomautukset* kohtaan *Kadonnut kortti:* "Kyllä". Asiakas menee lainauskieltoon.
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen Muokkaa-sivun osioon *Käyttäjätilin huomautukset* kohtaan *Kadonnut kortti:* "Kyllä", jolloin asiakas menee lainauskieltoon.
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
@@ -241,6 +243,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
   (Y)*. Varaus poistuu alkuperäiseltä varaajalta.
 - Jos valitset vaihtoehdon *Peruuta odottava-tila* ja klikkaat *Kyllä, lainaa
   (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi.
+- - Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
   
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
@@ -250,10 +253,14 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/lainhuom3.PNG)
 
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
+
+
 ### 2.3.6 Nidettä ei voi lainata (niteen tila on “Ei lainattavissa”).
 
 ![](/assets/files/docs/Lainaus/lainhuom5.PNG)
 
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 - Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastoissa. Jos eston ohitus ei ole sallittu, saat ilmoituksen:
   
  ![](/assets/files/docs/Lainaus/nide_ei_lainattavissa.PNG) 
@@ -266,27 +273,34 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/liianmontalainaa.png)
 
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
+
 - Jos lainarajan ylitys ei ole sallittu, tulee ilmoitus:
 
 ![](/assets/files/docs/Lainaus/lainhuom11.PNG)
 
 ### 2.3.8 Lainattavan niteen tila on Kadonnut.
 
+- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautus, joka pitää vahvistaa lainaus tilanteessa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+
 ![](/assets/files/docs/Lainaus/lainhuom8.PNG)
 
-- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautus, joka pitää vahvistaa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ### 2.3.9 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
 ![](/assets/files/docs/Lainaus/lainhuom9.PNG)
 
 - Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ### 2.3.10 Lainattavalla teoksella on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
+- Laina-ajan lyhentäminen varausmäärän perusteella määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+
 ![](/assets/files/docs/Lainaus/lainhuom10.PNG)
 
-- Laina-ajan lyhentäminen varausmäärän perusteella määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ---
 
