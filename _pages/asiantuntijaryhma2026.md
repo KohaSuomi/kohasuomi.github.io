@@ -37,6 +37,9 @@ Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alust
 
 ### 4. Muut asiat
 
+* [Tiketin #2187](https://github.com/KohaSuomi/Koha/issues/2187) ehdotus uudesta asiakasmääreestä ja kysymys vastuun siirtymisestä lapsiasiakkaalle, kun huoltajasuhde päättyy.
+
+
 ### 5. Seuraava kokous
 
 
