@@ -223,7 +223,7 @@ Lainauskielto ja huomautus poistuvat, kun asiakastietojen Muokkaa-sivun osiossa
 
 ### 2.3.1 Huomautus liitteistä
 
-Jos lainaat asiakkaalle niteen, joka sisältää useita osia ja tieto osista on
+Jos lainaat asiakkaalle niteen, joka sisältää useita osia, ja tieto osista on
 tallennettu niteen muokkaussivulla kenttään *3 - Liitteiden määrä*, saat
 ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
@@ -232,18 +232,20 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 ### 2.3.2 Aineisto on varattu toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
 ![](/assets/files/docs/Lainaus/lainhuom1.PNG)
+
 - Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
-
-![](/assets/files/docs/Lainaus/lainhuom2.PNG)
 
 - Jos esimerkiksi toinen perheenjäsen haluaa lainata varatun
   aineiston, valitse *Peruuta varaus* ja klikkaa *Kyllä, lainaa
   (Y)*. Varaus poistuu alkuperäiseltä varaajalta.
 - Jos valitset vaihtoehdon *Peruuta odottava-tila* ja klikkaat *Kyllä, lainaa
   (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi.
-- - Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
+
+![](/assets/files/docs/Lainaus/lainhuom2.PNG)
+
+- Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
   
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
@@ -289,9 +291,10 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ### 2.3.9 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
+- Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+
 ![](/assets/files/docs/Lainaus/lainhuom9.PNG)
 
-- Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 - Jos haluat säilyttää valitun toiminnon tälle asiakkaalle, laita ruksi kohtaan "Muista istunnolle tälle asiakkaalle". Tällöin sama huomautus ei tule enää tällä samalla istunnolla, kun lainaat tälle asiakkaalle.
 
 ### 2.3.10 Lainattavalla teoksella on paljon varauksia, jonka takia lyhennetään laina-aikaa.
@@ -413,6 +416,8 @@ Rajoituksen voit lisätä asiakkaan tiedoissa Muokkaa-sivulla tai Rajoitukset-v�
 Voit tallentaa asiakastietojen Muokkaa-sivulla asiakkaalle huomautuksia, jotka näkyvät verkkokirjastossa asiakkaan Omat tiedot -sivulla tai Kohassa asiakkaan Lainaus ja Tiedot -sivulla. Molemmat Huomautus-kentät eivät välttämättä ole käytössä kimpassasi.
 
 ![](/assets/files/docs/Lainaus/huomautukset1.PNG)
+
+![](/assets/files/docs/Lainaus/huomautukset2.PNG)
 
 ### 2.6.3 Viestit asiakastiedoissa
 
