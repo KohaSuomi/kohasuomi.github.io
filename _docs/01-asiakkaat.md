@@ -776,7 +776,7 @@ _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
 Välilehteä ei näy, kun taattavilla ei ole maksuja. 
 
-Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huollettavien listan yläpuolella, jos yhdelläkin taattavalla on maksuja. Pääset Taattavien maksut-välilehdelle klikkaamalla linkkiä _Näytä kaikki maksut_.
+Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huollettavien listan yläpuolella, jos yhdelläkin taattavalla on maksuja. Pääset Taattavien maksut-välilehdelle klikkaamalla linkkiä _Näytä kaikki maksut_ (Huom. Linkki ei toimi versiossa 25.05).
 
 ![](/assets/files/docs/Asiakkaat/Taattavienmaksut.png)
 
