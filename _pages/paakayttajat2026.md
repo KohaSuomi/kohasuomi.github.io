@@ -13,12 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
 
 Pohjoisesta etelään
+
+**OUTI**
+* Signumien siivousajo on päätetty tehtäväksi 8.-9.6. välisenä yönä. Kimpassa on nyt testattu päivitettyjä tarrapohjia ja ne näyttäisivät ainakin testillä olevan halutun näköisiltä.
+* Tukipostia on tullut paljon. Kesällä kokonaan kiinni olevien kirjastojen toimenpiteet Kohassa työllistävät. Kimpassa on useampi kirjasto, jotka ovat remontin vuoksi kiinni tai menevät kiinni, ja nämä ovat vaatineet Kohaan toimenpiteitä.
+* Oulussa Koskelan ja Myllyojan kirjastot suljetaan kuluvan vuoden aikana. Myllyojan kirjaston korvaajaksi 2027 alkupuolella avataan uusi Jääkärinkankaan kirjasto. Tuessa olemme miettineet ja  listanneet toimenpiteitä, mitä kirjastojen lakkautukset ja uuden kirjaston perustaminen vaativat Kohassa. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-23) - [Palaa sivun alkuun](/paakayttajat2026)
 
