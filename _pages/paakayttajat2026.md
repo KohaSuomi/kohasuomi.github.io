@@ -24,6 +24,7 @@ Pohjoisesta etelään
 * Signumien siivousajo on päätetty tehtäväksi 8.-9.6. välisenä yönä. Kimpassa on nyt testattu päivitettyjä tarrapohjia ja ne näyttäisivät ainakin testillä olevan halutun näköisiltä.
 * Tukipostia on tullut paljon. Kesällä kokonaan kiinni olevien kirjastojen toimenpiteet Kohassa työllistävät. Kimpassa on useampi kirjasto, jotka ovat remontin vuoksi kiinni tai menevät kiinni, ja nämä ovat vaatineet Kohaan toimenpiteitä.
 * Oulussa Koskelan ja Myllyojan kirjastot suljetaan kuluvan vuoden aikana. Myllyojan kirjaston korvaajaksi 2027 alkupuolella avataan uusi Jääkärinkankaan kirjasto. Tuessa olemme miettineet ja  listanneet toimenpiteitä, mitä kirjastojen lakkautukset ja uuden kirjaston perustaminen vaativat Kohassa.
+* Keskustakirjasto Saaren Lyngsoen automaatilla oli vahingossa täpätty virkailijaluukun näytöllä olevasta kalenterista päivämääräksi 12.1.2026, jolloin lainassa olleille niteille muodostui palautuspäiväksi 12.1.2026 vaikka oikeasti ne oli palautettu 24.3. versionvaihdon jälkeen. Tämä tuli ilmi, kun palautettuja laskutettuja niteitä ei löytynyt kuluvalta viikolta "Palautetut laskutetut niteet"-raportilta vaan niiden palautuspäivämääräksi olikin muodostunut 12.1. kun sen olisi pitänyt olla 24.5.2026.
 
 **Vaski**
 * Kiirettä pitelee tukipostin ja muutosprojektien kanssa. Turun pääkirjasto kiinni 6.6.-8.6. varaushyllymuutoksen takia. 
