@@ -624,6 +624,23 @@ WHERE ill.branchcode LIKE <<Kirjasto/kuntakoodi ja %>>
   AND ill.status_alias = <<Auktorisoitu arvo|ILL_STATUS_ALIAS>>
 ```
 
+### Valmiit kaukolainat, joiden tietueet voi poistaa 
+
+Listaa kaukolainat, jotka on merkitty valmiiksi, mutta joiden tietue ja nide ovat edelleen tietokannassa. 
+
+Pvm: 2.6.2026<br />
+Raportin tekijä: Janne Seppänen
+Lisääjä: Piia Semenoff
+
+```
+SELECT
+	CONCAT('<a href="/cgi-bin/koha/ill/ill-requests.pl?op=illview&illrequest_id=',i.illrequest_id,'">',i.illrequest_id,'</a>') as Kaukolainapyyntö,
+	i.biblio_id AS biblionumber
+FROM illrequests i
+WHERE i.completed IS NOT NULL
+AND EXISTS (SELECT 1 from biblio b WHERE b.biblionumber = i.biblio_id)
+```
+
 ## Asiakkaat ja tunnukset
 
 
