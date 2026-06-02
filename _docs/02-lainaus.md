@@ -419,6 +419,8 @@ Voit tallentaa asiakastietojen Muokkaa-sivulla asiakkaalle huomautuksia, jotka n
 
 ![](/assets/files/docs/Lainaus/huomautukset2.PNG)
 
+![](/assets/files/docs/Lainaus/huomautukset3.PNG)
+
 ### 2.6.3 Viestit asiakastiedoissa
 
 Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla tai viestin, joka näkyy myös asiakkaalle verkkokirjastossa. Viestin voi lähettää asiakkaalle myös sähköpostina. Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
