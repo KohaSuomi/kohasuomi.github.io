@@ -606,6 +606,24 @@ SELECT b.zipcode AS 'Postinumero', s.itemtype AS 'Nidetyyppi', count(*) AS 'Kauk
  GROUP BY zipcode, s.itemtype
 ```
 
+### Kaukolainojen tilat
+
+Listaa kaukolainat tilan mukaan. Parametreiksi annetaan kaukolainan tila ja kirjasto/kunta.
+
+Pvm: 2.6.2026<br />
+Raportin tekijä: Katariina Pohto
+Lisääjä: Piia Semenoff
+
+```
+SELECT CONCAT('<a href=\"/cgi-bin/koha/ill/ill-requests.pl?op=illview&illrequest_id=',ill.illrequest_id,'">',ill.illrequest_id,'</a>') AS 'Laina-ID', ill.borrowernumber, ill.biblio_id, ill.branchcode, ill.due_date AS 'Eräpäivä', ill.placed, ill.updated, ill.completed, ill.notesstaff AS Viesti, av.lib AS Tila
+
+FROM illrequests ill
+LEFT JOIN authorised_values av ON ill.status_alias = av.authorised_value AND av.category = 'ILL_STATUS_ALIAS'
+
+WHERE ill.branchcode LIKE <<Kirjasto/kuntakoodi ja %>>
+  AND ill.status_alias = <<Auktorisoitu arvo|ILL_STATUS_ALIAS>>
+```
+
 ## Asiakkaat ja tunnukset
 
 
