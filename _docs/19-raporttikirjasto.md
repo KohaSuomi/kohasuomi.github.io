@@ -611,7 +611,7 @@ SELECT b.zipcode AS 'Postinumero', s.itemtype AS 'Nidetyyppi', count(*) AS 'Kauk
 Listaa kaukolainat tilan mukaan. Parametreiksi annetaan kaukolainan tila ja kirjasto/kunta.
 
 Pvm: 2.6.2026<br />
-Raportin tekijä: Katariina Pohto
+Raportin tekijä: Katariina Pohto<br />
 Lisääjä: Piia Semenoff
 
 ```
@@ -629,7 +629,7 @@ WHERE ill.branchcode LIKE <<Kirjasto/kuntakoodi ja %>>
 Listaa kaukolainat, jotka on merkitty valmiiksi, mutta joiden tietue ja nide ovat edelleen tietokannassa. 
 
 Pvm: 2.6.2026<br />
-Raportin tekijä: Janne Seppänen
+Raportin tekijä: Janne Seppänen<br />
 Lisääjä: Piia Semenoff
 
 ```
