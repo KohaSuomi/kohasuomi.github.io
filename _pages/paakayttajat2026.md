@@ -17,7 +17,7 @@ Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Ann
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
-* Keskusteltiin [tiketistä #2187](https://github.com/KohaSuomi/Koha/issues/2187) ja ehdotuksesta, että henkilöasiakkaille, joiden huollettavaa on laskutettu, mutta huoltajasuhde poistuu lapsen täyttäessä tietyn iän lisättäisiin tietty asiakasmääre. Sen avulla sitten määritettäisiin, että nämä henkilöasiakkaat eivät poistu vuosittaisessa epäaktiivisten asiakkaiden poistoajoissa.
+* Keskusteltiin [tiketistä #2187](https://github.com/KohaSuomi/Koha/issues/2187) ja ehdotuksesta, että henkilöasiakkaille, joiden huollettavaa on laskutettu, mutta huoltajasuhde poistuu lapsen täyttäessä tietyn iän lisättäisiin tietty asiakasmääre. Sen avulla sitten määritettäisiin, että nämä henkilöasiakkaat eivät poistu vuosittaisessa epäaktiivisten asiakkaiden poistoajoissa. Päätettiin, että varataan hetki aikaa kimpoissa pohtia asiaa ja palataan asiaan viikon 25 palaverissa.
 
 Pohjoisesta etelään
 
