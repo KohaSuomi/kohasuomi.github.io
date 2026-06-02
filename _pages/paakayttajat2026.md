@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
@@ -30,6 +30,11 @@ Pohjoisesta etelään
 **Vaski**
 * Kiirettä pitelee tukipostin ja muutosprojektien kanssa. Turun pääkirjasto kiinni 6.6.-8.6. varaushyllymuutoksen takia. 
 
+**Lappi**
+* Sinetän kirjasto remontissa. Aineistojen varastoinnissa tehtiin inventaario ja n. 10% aineistosta hukassa.
+* Lappi selvittää, onko Koha-Suomen ohje Omatoimilaitteet ja sähkökatkot ajantasalla
+* Kohan dokumentaatioon toivotaan ohjeita järjestelmäasetusten suosituksiin niissä asetuksissa, joissa on esim. mahdollista jumittaa Koha, kuten niteiden massamuutos ja -poisto.
+* Puolivuosittainen käyttäjätunnusten tarkistus (vain voimassaolo, ei oikeuksia)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-23) - [Palaa sivun alkuun](/paakayttajat2026)
 
