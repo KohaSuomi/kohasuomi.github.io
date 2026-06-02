@@ -13,10 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
+* Keskusteltiin [tiketistä #2187](https://github.com/KohaSuomi/Koha/issues/2187) ja ehdotuksesta, että henkilöasiakkaille, joiden huollettavaa on laskutettu, mutta huoltajasuhde poistuu lapsen täyttäessä tietyn iän lisättäisiin tietty asiakasmääre. Sen avulla sitten määritettäisiin, että nämä henkilöasiakkaat eivät poistu vuosittaisessa epäaktiivisten asiakkaiden poistoajoissa.
 
 Pohjoisesta etelään
 
