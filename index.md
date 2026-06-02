@@ -14,6 +14,8 @@ Koha-Suomi on mukana Kirjastopäivien ammattimessuilla 3.-4.6.2026 Oulussa. Mess
 
 Osastollamme pääsee tutustumaan Koha-kirjastojärjestelmään ja juttelemaan henkilökuntamme kanssa. Tervetuloa käymään osastollamme!
 
+Tästä pääset myös tutustumaan Koha-Suomen keskeisiin lukuihin: [Koha-Suomi pähkinänkuoressa.pdf](https://github.com/user-attachments/files/28501827/Koha-Suomi.pahkinankuoressa.pdf)
+
 
 ## Yleistä yrityksestä
 
