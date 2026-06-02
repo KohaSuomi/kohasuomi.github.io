@@ -32,6 +32,7 @@ Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alust
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
+  * jatketaan käsittelyä edellisestä kokouksesta
 * [Ajetaanko kaikille kimpoille email ensisijaiseksi yhteydenottotavaksi?](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3#issuecomment-4542261929)
 
 ### 4. Muut asiat
