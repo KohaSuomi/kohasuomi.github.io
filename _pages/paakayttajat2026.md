@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
@@ -35,6 +35,10 @@ Pohjoisesta etelään
 * Lappi selvittää, onko Koha-Suomen ohje Omatoimilaitteet ja sähkökatkot ajantasalla
 * Kohan dokumentaatioon toivotaan ohjeita järjestelmäasetusten suosituksiin niissä asetuksissa, joissa on esim. mahdollista jumittaa Koha, kuten niteiden massamuutos ja -poisto.
 * Puolivuosittainen käyttäjätunnusten tarkistus (vain voimassaolo, ei oikeuksia)
+
+**Kirkes**
+* Kaukolainamoduulin käyttö on alkanut, ja muissa kimpoissa tehdyt raportit kiinnostavat. Lisäksi tehdään omia tarpeen mukaan.
+* Ei muuta mainittavaa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-23) - [Palaa sivun alkuun](/paakayttajat2026)
 
