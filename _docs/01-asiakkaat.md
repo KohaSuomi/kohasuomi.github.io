@@ -578,20 +578,31 @@ näkyy sen jälkeen ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi
 
 ![](/assets/files/docs/Asiakkaat/korttikadonnut.png)
 
-Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu kirjastokortti löytyneeksi tai tarvittaessa vaihdettu asiakkaalta kirjastokortti kokonaan uudeksi. Huomautuksen saa pois, kun valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
+Merkinnän voi poistaa, kun asiakkaan henkilöllisyys on tarkastettu ja todettu kirjastokortti löytyneeksi tai tarvittaessa vaihdettu asiakkaalta kirjastokortti kokonaan uudeksi. 
+Huomautuksen saa pois, kun valitsee _Kadonnut kortti_ -kohtaan vaihtoehdon “Ei” ja tallentaa asiakastiedot.
 
 ### 1.4.2. Tili lukittu
 
 Asiakkaan tili lukitaan, jos hän yrittää kirjautua verkkopalveluun liian monta kertaa väärällä PIN-koodilla. 
 Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
-Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu: Vaihda PIN-koodi_.
+Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
+
+![](/assets/files/docs/Asiakkaat/Tilionlukittu.png)
+
+Tieto lukituksesta näkyy myös Huom!-kohdassa:
+
+![](/assets/files/docs/Asiakkaat/Tilionlukittu_12yritysta.png)
+
+Pienestä i-kuvakkeesta avautuu lisätietona: Salasanan vaihtaminen vapauttaa tilin
+
+![](/assets/files/docs/Asiakkaat/Tilionlukittu_infoteksti.png)
+
+Tieto tilin lukkiutumisesta näkyy sekä Lainaus- että Tiedot-sivuilla.
 
 Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua 
 vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
 
-![](/assets/files/docs/Asiakkaat/Tilionlukittu.png)
-
-### 1.4.4. Asiakkaan rajoitukset
+### 1.4.3. Asiakkaan rajoitukset
 
 Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
 Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. Rajoitus voi olla voimassa toistaiseksi tai määräajan.
@@ -628,7 +639,7 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus6.png)
 
-### 1.4.5. Asiakkaan rajoitusten poistaminen
+### 1.4.4. Asiakkaan rajoitusten poistaminen
 
 Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston ohjeiden mukaan.
 
