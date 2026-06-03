@@ -641,7 +641,15 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ### 1.4.4. Asiakkaan rajoitusten poistaminen
 
-Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla. Tässä toimitaan kirjaston ohjeiden mukaan.
+Rajoitteen voi poistaa asiakkaalta Poista-toiminnolla.
+
+Lainaus- tai Tiedot -välilehdellä:
+![](/assets/files/docs/Asiakkaat/Rajoitus_pois1.png)
+
+Asiakkaan muokkaussivulla ruksitaan vaihtoehto _Pois_ ja tallennetaan sivun ylälaiden _Tallennus_ napilla.
+![](/assets/files/docs/Asiakkaat/Rajoitus_pois2.png)
+
+Rajoituksen saa poistaa kirjaston ohjeiden mukaan.
 
 ## 1.5. Asiakkaiden muutospyyntöjen käsittely
 
