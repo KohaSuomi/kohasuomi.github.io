@@ -195,7 +195,7 @@ ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:
 Virheilmoituksen saatuasi kaikista helpointa on aloittaa asiakkaan tietojen tallennus uudelleen alusta, sillä asiakastyypeillä on erilaiset lomakepohjat.
 {: .notice--warning}
 
-### 1.2.3. Takaaja-tiedon tallentaminen ja poistaminen
+### 1.2.3. Takaaja-tiedon tallentaminen
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa _Lisää takaaja_ -nappia, niin pääset hakemaan rekisteristä lapselle
 takaajan.
@@ -231,9 +231,9 @@ tietoihin, jotka ovat edelleen auki toisella välilehdellä. Tee takaajahaku uud
 
 Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
-### 1.2.4. Lapsiasiakkaan takaajan poistaminen
+### 1.2.4. Takaaja-tiedon poistaminen
 
-Takaajatiedot pääsee muokkaamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
+Takaajatiedot pääsee poistamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
 Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna_. 
 
