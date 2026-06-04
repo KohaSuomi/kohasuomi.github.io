@@ -741,7 +741,7 @@ Tällä näytöllä näkyy asiakkaalle lähteneet tai lähtemässä olevat
 ilmoitukset. Ilmoittamistapa valitaan asiakastiedoissa asiakkaan
 viestiasetuksissa.
 
-<img src="/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png" alt="" style="width:90.0%" />
+![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png)
 
 \- _Ilmoitus_-sarakkeessa näkyy viestin otsikko. Klikkaamalla viestin
 nimeä pääset näkemään koko viestin.
