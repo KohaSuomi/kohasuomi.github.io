@@ -485,6 +485,8 @@ saat tuolloin muokkausikkunan, jossa voit tehdä tarvitut muutokset joko tekstii
 Sähköpostiviestille voi valita esimääritellyn pohjan tai viestin voi kirjoitettaa tyhjään kenttään. Viesti kirjoitetaan kirjaston antaman ohjeistuksen mukaan. 
 Asiakkaan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on tiedoissaan sähköpostiosoite, sillä "Lisää viesti"- toiminto ei tarkista asiakkaan yhteystietoja ja ilmoita erikseen, jos asiakkaalta se puuttuu.
 
+**Sähköpostiviestiin ei tallennu mitään tietoja, joten mm. kirjastotieto tulee lisätä manuaalisesti viestiin.**
+
 ![](/assets/files/docs/Asiakkaat/Jataviesti4.png)
 
 ### 1.3.7. Muita toimintoja -alasvetovalikko
