@@ -212,11 +212,13 @@ alasvetovalikoista sopivat kirjasto- ja asiakastyyppi-vaihtoehdot.
 Saat tuloslistan hakuun sopivista asiakkaista. Klikkaa _Valitse_ tai _Select_-painiketta
 oikean henkilön kohdalla. 
 
-<img src="/assets/files/docs/Asiakkaat/Haetakaaja.png" alt="" style="width:90.0%" />
+![](/assets/files/docs/Asiakkaat/Haetakaaja.png)
 
-Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi, kirjastokorttinumero sekä takaajan suhde asiakkaaseen. Suhde voi olla joissain kirjastoissa valittavissa erikseen ja vaihtoehdot voivat vaihdella kimpoissa.
+Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi ja kirjastokorttinumero. 
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
+
+Joissain kirjastoissa voi olla valittavissa erikseen myös huoltajan ja huollettavan välinen suhde. Alasvetovalikon vaihtoehdot voivat vaihdella kimpoissa.
 
 Voit tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. Lisää huoltajatiedot kimppasi/kirjastosi ohjeiden mukaan.
 
@@ -229,13 +231,12 @@ Jos takaajaa ei löydy asiakasrekisteristä, avaa selaimessa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa takaajan tietojen tallennuksen jälkeen lapsiasiakkaan
 tietoihin, jotka ovat edelleen auki toisella välilehdellä. Tee takaajahaku uudelleen.
 
-Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
-
 ### 1.2.4. Takaaja-tiedon poistaminen
 
 Takaajatiedot pääsee poistamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
-Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna_. 
+Poistaminen tapahtuu valitsemalla/ruksaamalla poistettava takaaja ja sen jälkeen klikkaamalla sivun ylälaidassa olevaa _Tallenna_-painiketta.
+**Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
 
