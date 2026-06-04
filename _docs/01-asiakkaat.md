@@ -373,7 +373,7 @@ Asiakkaalle tallennetut viestiasetukset kumoavat asiakaslajeille tehdyt oletusva
 {: .notice--warning}
 
 
-### 1.2.10. Tallennus
+### 1.2.10. Asiakastietojen tallennus
 
 Lopuksi tallenna tiedot.
 
