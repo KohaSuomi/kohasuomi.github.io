@@ -791,6 +791,14 @@ Taulukossa näkyvät myös kuluvan päivän palautukset.
 
 _Toiminto ei ole käytössä_
 
+### 1.6.9. Kaukolainapyyntöhistoria
+
+Asiakkaalle tallennetut kaukolainatilaukset löytyvät kohdasta kaukolainapyyntöhistoria. Historiasta löytyvät myös perutut kaukolainat.
+
+![](/assets/files/docs/Asiakkaat/Kaukolainapyyntohistoria.png)
+
+Huom. Asiakastiedoissa oleva Kaukolainapyyntöhistoria-kohta näkyy vain henkilökunnalle, jolla on tunnuksellaan kaukolainausoikeudet.
+
 ### 1.6.9. Lainat
 
 Asiakkaan tietojen alapuolella olevasta taulukosta löytyvät eri välilehdiltä asiakkaan lainat,
