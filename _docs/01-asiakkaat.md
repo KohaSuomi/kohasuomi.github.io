@@ -744,12 +744,13 @@ viestiasetuksissa.
 ![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png)
 
 \- _Ilmoitus_-sarakkeessa näkyy viestin otsikko. Klikkaamalla viestin
-nimeä pääset näkemään koko viestin.
+nimeä pääset näkemään koko viestin. Avatusta viestistä voit myös lähettää sen asiakkaalle uudelleen.
 
 \- _Tyyppi_-sarakkeessa näkyy, missä muodossa viesti on lähetetty.
 Koha-Suomessa käytössä: printti, sms (tekstiviesti), sposti, suomi.fi, finvoice
 
-\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan esim. Lähetetty. Jos sarakkeessa lukee _Odottaa_, niin silloin viestiä ei ole vielä lähetetty eteenpäin lähettävään järjestelmään.
+\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan esim. Lähetetty. Jos sarakkeessa lukee _Odottaa_, niin
+silloin viestiä ei ole vielä lähetetty eteenpäin lähettävään järjestelmään.
 
 \- _Päivitetty_-sarakkeessa näkyy milloin viesti on päivitetty. Tieto päivittyy aina,
 kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin luontiajankohdasta.
@@ -757,9 +758,10 @@ kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin luontiaja
 _luontiaika_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
 lähettävään järjestelmään.
 
-\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn ja virheilmoitusten teksti voi vaihdella eri operaattoreilla. 
+\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon.
+Lähinnä tekstiviestioperaattorit palauttavat virheen syyn ja virheilmoitusten teksti voi vaihdella eri operaattoreilla. 
 
-![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset_unknownerror.png).png)
+![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset_unknownerror.png)
 
 Mahdollisia virheilmoituksia:
   
