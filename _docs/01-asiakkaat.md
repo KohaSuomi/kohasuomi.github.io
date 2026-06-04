@@ -462,23 +462,28 @@ kohdassa [4.1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dok
 Tällä toiminnolla lisätään asiakastietoihin viestejä. Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
 Voit lisätä ns. Sisäinen huomautus-viestin, Verkkokirjasto-viestin tai sähköpostiviestin.
 
+**Viestiin tallentuu automaattisesti päivämäärä, kirjasto sekä viestin tallentaja, joten niitä ei tarvitse manuaalisesti lisätä viestiin.**
+
+Huom! Viestin tallentajan tiedot eivät näy asiakkaalle verkkokirjastossa.
+{: .notice--warning}
+
 Sisäinen huomautus näkyy vain virkailijaliittymässä.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti1.png)
 
-Verkkokirjasto-viesti näkyy asiakkaalle verkkokirjastossa.  
+Verkkokirjasto-viesti näkyy asiakkaalle verkkokirjastossa ja henkilökunnalle virkailijaliittymässä.  
 ![](/assets/files/docs/Asiakkaat/Jataviesti2.png)
 
-Sekä sisäiset huomautukset että verkkokirjasto-viestit näkyvät Kohassa asiakkaan Lainaus- ja Tiedot-sivuilla. Viestit voi poistaa klikkaamalla roskakorikuvaketta.  
+Sekä sisäiset huomautukset että verkkokirjasto-viestit näkyvät Kohassa asiakkaan Lainaus- ja Tiedot-sivuilla.
 
 <img src="/assets/files/docs/Asiakkaat/Jataviesti3.png" alt="" style="width:90.0%" />
 
-**Viestiin tallentuu automaattisesti päivämäärä, kirjasto sekä viestin tallentaja, joten niitä ei tarvitse manuaalisesti lisätä viestiin.**
+Viestit voi poistaa klikkaamalla roskakorikuvaketta. Viestejä voi muokata klikkaamalla vaihtoehtoa "Muokkaa", 
+saat tuolloin muokkausikkunan, jossa voit tehdä tarvitut muutokset joko tekstiin tai viestintäkanavaan.
 
-Viestin tallentajan tiedot eivät näy asiakkaalle verkkokirjastossa.
-{: .notice--warning}
+<img src="/assets/files/docs/Asiakkaat/Muokkaaviestia.png" alt="" style="width:90.0%" />
 
 Sähköpostiviestille voi valita esimääritellyn pohjan tai viestin voi kirjoitettaa tyhjään kenttään. Viesti kirjoitetaan kirjaston antaman ohjeistuksen mukaan. 
-Asiakkan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on tiedoissaan sähköpostiosoite, sillä "Lisää viesti"- toiminto ei tarkista asiakkaan yhteystietoja ja ilmoita erikseen, jos asiakkaalta puuttuu sähköpostiosoite.
+Asiakkaan tiedoista tulee tarkistaa ennen viestin lähetystä, että hänellä on tiedoissaan sähköpostiosoite, sillä "Lisää viesti"- toiminto ei tarkista asiakkaan yhteystietoja ja ilmoita erikseen, jos asiakkaalta se puuttuu.
 
 ![](/assets/files/docs/Asiakkaat/Jataviesti4.png)
 
