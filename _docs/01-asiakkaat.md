@@ -759,6 +759,8 @@ lähettävään järjestelmään.
 
 \- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä tekstiviestioperaattorit palauttavat virheen syyn ja virheilmoitusten teksti voi vaihdella eri operaattoreilla. 
 
+![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset_unknownerror.png).png)
+
 Mahdollisia virheilmoituksia:
   
 **undeliverable (Teleservice Not Provisioned)** tarkoittaa mahdollisesti sitä, että liittymä ei voimassa ja viestiä ei voi siksi toimittaa.
