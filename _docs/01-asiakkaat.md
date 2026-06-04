@@ -348,29 +348,39 @@ Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset4.png)
+![](/assets/files/docs/Asiakkaat/asiakkaanviestiasetukset.png)
 
-\- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä kuluvana päivänä. 
+\- _Saapumisilmoitus_: Ilmoitus asiakkaalle noudettavissa olevasta
+varauksesta.
+
+\- _Varauksen noutomuistutus_: Muistutusviesti asiakkaalle noudettavissa olevasta
+varauksesta ennen varauksen vanhenemista. Asiakas voi itse määrittää kuinka monta päivää ennen muistutus lähetetään.
+
+\- _Kaukolainan saapumisilmoitus_: ilmoitus asiakkaalle noudettavissa olevasta
+kaukolainasta.
+
+\- _Kaukolaina ei saatavilla_: Ilmoitus asiakkaalle, jos hänen tilaamaansa kaukolainaa
+ei ole saatavana ja tilaus sen vuoksi perutaan.
+
+\- _Lainauskuitti_: Lista asiakkaan juuri lainaamista niteistä. Tämä on
+  sähköinen versio lainauskuitista.
 
 \- _Ennakkoilmoitus_: Etukäteisilmoitus lähestyvästä eräpäivästä. Asiakas
 voi valita, montako päivää etukäteen ilmoitus tulee. 
 **Huom! Jos tähän valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.**
 
-\- _Saapumisilmoitus_: Ilmoitus asiakkaalle noudettavissa olevasta
-varauksesta.
+\- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä kuluvana päivänä. 
 
 \- _Palautuskuitti_: Lista asiakkaan juuri palauttamasta aineistosta. Tämä on
   sähköinen versio palautuskuitista.
 
-\- _Lainauskuitti_: Lista asiakkaan juuri lainaamista niteistä. Tämä on
-  sähköinen versio lainauskuitista.
   
 \- _“Tekstiviesti numeroon”_ -kenttään kopioituu automaattisesti Matkapuhelin-kenttään
 lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstiviesti-vaihtoehtoon ei 
 laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
-
-Asiakkaalle tallennetut viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
+Asiakkaalle tallennetut viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat. 
+Kaikissa kimpoissa ei ole käytössä oletusvalintoja, joten toimi kirjastosi ohjeiden mukaan muokatessasi asiakkaan yhteystietoja ja viestiasetuksia.
 {: .notice--warning}
 
 
