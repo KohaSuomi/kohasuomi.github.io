@@ -236,6 +236,7 @@ tietoihin, jotka ovat edelleen auki toisella välilehdellä. Tee takaajahaku uud
 Takaajatiedot pääsee poistamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
 Poistaminen tapahtuu valitsemalla/ruksaamalla poistettava takaaja ja sen jälkeen klikkaamalla sivun ylälaidassa olevaa _Tallenna_-painiketta.
+
 **Huom. alaikäisellä asiakkaalla tulee aina olla vähintään yksi takaaja**, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
