@@ -441,7 +441,11 @@ toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
 tietueissa.
 
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
-_Kopioi_-nappia sivun yläreunassa. Siirryt tuolloin uuden asiakkaan tietojen tallennukseen. Uudelle asiakkaalle kopioituu automaattisesti mm. sukunimi ja osoite.
+_Kopioi_-nappia sivun yläreunassa. 
+
+![](/assets/files/docs/Asiakkaat/Kopioi.png)
+
+Siirryt tuolloin uuden asiakkaan tietojen tallennukseen. Uudelle asiakkaalle kopioituu automaattisesti mm. sukunimi ja osoite.
 Huom. kopioituvat tiedot voivat vaihdella kimpoittain.
 
 Tarkista, että kaikki tiedot ovat oikein, täydennä puuttuvat tiedot ja tallenna. Tallennuksen jälkeen siirryt automaattisesti uuden asiakkaan tietoihin.
