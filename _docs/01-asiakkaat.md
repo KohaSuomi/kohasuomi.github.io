@@ -820,7 +820,7 @@ Lainoihin pääsee klikkaamalla _Lainassa_-painiketta. Maksut välilehteä ei n�
 Lainoista on tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
-#### 1.6.9.1 Perheenjäsenten lainat ja Taattavien maksut -välilehdet
+#### 1.6.9.1. Perheenjäsenten lainat ja Taattavien maksut -välilehdet
 
 _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
