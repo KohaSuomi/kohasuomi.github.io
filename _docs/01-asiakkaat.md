@@ -844,7 +844,7 @@ Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huolle
 
 #### 1.6.10.4. Rajoitukset -välilehti
 
-Rajoituksista tarkemmin kohdassa: https://koha-suomi.fi/dokumentaatio/asiakkaat/#14-rajoitukset
+Asiakkaan rajoituksista tarkemmin Kohan ohje Suomeksi -ohjeen kohdassa [1.4 Rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#14-rajoitukset) 
 
 
 ## 1.7. Asiakastietojen yhdistäminen
