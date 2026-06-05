@@ -292,7 +292,7 @@ poista sitä näkyvistä. **Jos valitsit alussa väärän asiakastyypin, niin al
 
 \- Valitse asiakasviestien kieli kohdassa _Ilmoitusten kieli_.
 
-#### 1.2.8.2 Kirjaston asetukset
+#### 1.2.8.2. Kirjaston asetukset
 
 <img src="/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png" alt="" style="width:90.0%" />
 
@@ -808,19 +808,25 @@ Asiakkaalle tallennetut kaukolainatilaukset löytyvät kohdasta kaukolainapyynt�
 
 Huom. Asiakastiedoissa oleva Kaukolainapyyntöhistoria-kohta näkyy vain henkilökunnalle, jolla on tunnuksellaan kaukolainausoikeudet.
 
-### 1.6.9. Lainat
+### 1.6.10. Lainat, maksut, varaukset ja rajoitukset
 
 Asiakkaan tietojen alapuolella olevasta taulukosta löytyvät eri välilehdiltä asiakkaan lainat,
 maksut, varaukset ja rajoitukset. Taulukossa voivat näkyä myös mahdolliset taattavien maksut sekä perheen lainat.
 
-Lainoihin pääsee klikkaamalla _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
-
 ![](/assets/files/docs/Asiakkaat/lainat.png)
+
+#### 1.6.10.1. Lainat-välilehti
+
+Lainoihin pääsee klikkaamalla _Lainassa_-painiketta. 
 
 Lainoista on tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
-#### 1.6.9.1. Perheenjäsenten lainat ja Taattavien maksut -välilehdet
+#### 1.6.10.2. Maksut-välilehti
+
+Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja. Maksut-välilehdellä kerrotaan kertyneiden maksujen yhteissumma.
+
+#### 1.6.10.3. Perheenjäsenten lainat ja Taattavien maksut -välilehdet
 
 _Huom. Välilehtien näkymisessä voi olla kimppakohtaisia eroja_
 
@@ -835,6 +841,11 @@ Välilehteä ei näy, kun taattavilla ei ole maksuja.
 Huom. Taattavien maksut näkyvät myös asiakkaan Yhteystiedot-laatikossa huollettavien listan yläpuolella, jos yhdelläkin taattavalla on maksuja. Pääset Taattavien maksut-välilehdelle klikkaamalla linkkiä _Näytä kaikki maksut_ (Huom. Linkki ei toimi versiossa 25.05).
 
 ![](/assets/files/docs/Asiakkaat/Taattavienmaksut.png)
+
+#### 1.6.10.4. Rajoitukset -välilehti
+
+Rajoituksista tarkemmin kohdassa: https://koha-suomi.fi/dokumentaatio/asiakkaat/#14-rajoitukset
+
 
 ## 1.7. Asiakastietojen yhdistäminen
 
