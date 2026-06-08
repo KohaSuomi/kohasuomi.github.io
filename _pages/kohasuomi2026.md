@@ -22,6 +22,7 @@ Läsnä:
 
 ### Muuta
 * Viikon 24 päivitys
+* Keskiviikon huoltokatko
 
 ## Viikko 23
 Aika: Ma 1.6.2026<br/>
