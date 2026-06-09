@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
-Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/2357)
@@ -35,6 +35,11 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * En saanut Kyytin testillä kaukolainoihin muodostumaan nimeketietueita. Voisiko johtuja jaetun kuvailutietovarannon kokeiluista? Tiketti [2361](https://github.com/KohaSuomi/Koha/issues/2361)
+
+**Lappi**
+* Vaidettu hakutulosnäkymä takaisin laajaan tehdyn kyselyn perusteella.
+* 21.5. tilaustietojen virheellisten EAN/ISBN-koodien vuoksi tulleet tupla-triplatietueet korjattu
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-24) - [Palaa sivun alkuun](/paakayttajat2026)
 
