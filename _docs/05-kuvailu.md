@@ -78,11 +78,7 @@ mikäli kuvailet musiikkiaineistoa.
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi540.jpg)
 
-Kuvaile osakohde. Pakollisia kenttiä ovat 245a (päänimeke), 300a
-(laajuus tai kesto), 942c (aineistolaji, valitaan valikosta) sekä
-tallennuksen jälkeen muodostuva 008-kenttä. Jos et halua tarkemmin
-määritellä osakohteiden ominaisuuksia, riittää kun tallennat toiseen
-kertaan tietueen. Emotietueesta täyttyy linkkikenttä 773
+Kuvaile osakohde kuvailusääntöjen mukaisesti. Emotietueesta täyttyy linkkikenttä 773
 tarvittavilla emon tiedoilla automaattisesti, kuten kuvassa alla:
 
 ![](/assets/files/docs/Luettelointi/kuvailu7.png)
