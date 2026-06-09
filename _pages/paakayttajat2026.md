@@ -13,13 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/2357)
 * [Kesäkuun huoltokatko](https://github.com/KohaSuomi/Koha/discussions/2356) ke 10.6.2026
 
 Etelästä pohjoiseen
+
+**Lumme**
+* Varausten noutomuistutukset otetaan käyttöön pe 12.6.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-24) - [Palaa sivun alkuun](/paakayttajat2026)
 
