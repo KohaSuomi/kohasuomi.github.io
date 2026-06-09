@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
@@ -57,6 +57,9 @@ Pohjoisesta etelään
 
 * Hollola siirtynyt tuotantoon Raindance-integraation kanssa ilman ongelmia
 * Muutettu ReservesMaxPickUpDelay-asetukseen 5 päivää, varaukset saavat tämän myötä jatkossa pääsääntöisesti 5-7 päivää noutoaikaa.
+
+**Lumme**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-23) - [Palaa sivun alkuun](/paakayttajat2026)
 
