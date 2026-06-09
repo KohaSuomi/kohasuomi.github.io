@@ -24,6 +24,61 @@ Läsnä: Pasi, Ari, Lari, Emmi, Anneli, Johanna, Kodo, Olli
 * Viikon 24 päivitys
 * Keskiviikon huoltokatko
 
+### Viikolla 23 tehty
+
+#### Johanna
+* Kirjastopäivillä 3.-5.6.
+* [Add more utf8 fixes](https://github.com/KohaSuomi/koha-plugin-editx/commit/ab6b1b438daa97984897946b38987b6d606335d5) (ks25-v2)
+* [Add utf8 to a file](https://github.com/KohaSuomi/koha-plugin-editx/commit/1c5844f3db96f718e5c6c06098be8a8b308c4afe) (ks25-v2)
+* [Add fix to encoding problem](https://github.com/KohaSuomi/koha-plugin-editx/commit/ee80e2c419d87e82b1d927aa97f8aab0cd977637) (ks25-v2)
+* [Fix typo](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/commit/c6818cfaed6f704c7d6904c9c684e4854765cb3f) (master)
+* [Add translations](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/commit/e4cfeef004f58e8ee392e2a326ec9432fb0b2c47) (master)
+* [Add translations](https://github.com/KohaSuomi/koha-plugin-import-remote-biblios/commit/49a77003705175c78ac708d13c014eb66216b4e5) (master)
+* [Add info text](https://github.com/KohaSuomi/Koha-translations/commit/7e4155ec98ff2c7b91bfbe07b47383d9d7ce56a1) (master)
+* [Add default language filters](https://github.com/KohaSuomi/Koha-translations/commit/fefe868b03dbb997071f068f1bb17ba14442e4e9) (master)
+* [Fix merge](https://github.com/KohaSuomi/Koha-translations/commit/ee080e77be7de33b8877f47967cfd03f2b5d7f60) (master)
+* [Merge branch 'ks25-v2'](https://github.com/KohaSuomi/Koha-translations/commit/a94ae3b8526f42652d5a262a3162f5c7b4135c65) (master)
+* [Merge branch 'ks25-v2' of https://github.com/KohaSuomi/Koha-translations into ks25-v2](https://github.com/KohaSuomi/Koha-translations/commit/0b8aad7482e0a93a7c69c7c783f320bd9cf5b8b4) (ks25-v2, master)
+* [Add copy and install script](https://github.com/KohaSuomi/Koha-translations/commit/8c88b9326b5ef339c0be111922e7d22d2167431d) (ks25-v2, master)
+* [Add translations](https://github.com/KohaSuomi/koha-plugin-report-services/commit/b2efaa94efa23352d7bb145393734293eca4540d) (master)
+* [KohaSuomi/Koha - Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista](https://github.com/KohaSuomi/Koha/issues/2075);
+Vastuutettu: johannaraisa, Olmih02.
+* [KohaSuomi/Koha - Kaukopalvelu:  ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja](https://github.com/KohaSuomi/Koha/issues/2152);
+Vastuutettu: johannaraisa, Olmih02.
+* [KohaSuomi/Koha - Laina- ja maksusäännöille kopiointimahdollisuus](https://github.com/KohaSuomi/Koha/issues/2155);
+Vastuutettu: johannaraisa, Olmih02.
+* [KohaSuomi/Koha - Vastaanotettavien kuljetusten listaukseen hyllypaikka näkyviin](https://github.com/KohaSuomi/Koha/issues/2231);
+Vastuutettu: johannaraisa, Olmih02.
+* [KohaSuomi/Koha - cancellation_reason-sarake mukaan varausten vanhenemisajoon](https://github.com/KohaSuomi/Koha/issues/2238);
+Tiketti suljettu.
+* [KohaSuomi/Koha - TUPK:n noutohyllyjen tuonti .csv-tiedostosta](https://github.com/KohaSuomi/Koha/issues/2345);
+Vastuutettu: johannaraisa.
+Kommentti: Tämä on nyt tehty.
+* [KohaSuomi/Koha-translations - Käännöstiedostojen luonti](https://github.com/KohaSuomi/Koha-translations/issues/87);
+Kommentti: Oliko tää kunnossa, ruotsinnoksetkin taitaa olla jo paikallaan?
+* [KohaSuomi/koha-plugin-borrowersstatus - Borrowersstatus: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/issues/5);
+Vastuutettu: johannaraisa.
+Kommentti: Testeillä
+* [KohaSuomi/koha-plugin-import-remote-biblios - Import remote biblios: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-import-remote-biblios/issues/3);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-intranetjs-cart-link-to-record-in-finna - IntranetUserJS: Add links to record in Finna: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-cart-link-to-record-in-finna/issues/3);
+* [KohaSuomi/koha-plugin-intranetjs-changes-to-search-page - IntranetUserJS: Changes to search page: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-changes-to-search-page/issues/2);
+* [KohaSuomi/koha-plugin-intranetjs-generate-pin - IntranetUserJS: Generate PIN codes: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-generate-pin/issues/2);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/koha-plugin-intranetjs-holdid - IntranetUserJS: HoldID: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-holdid/issues/2);
+* [KohaSuomi/koha-plugin-intranetjs-moremember-borrower-barcode - IntranetUserJS: Show borrower barcode: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-moremember-borrower-barcode/issues/1);
+* [KohaSuomi/koha-plugin-intranetjs-qslip-key-shortcut - IntranetUserJS: Qslip keyboard shortcut: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-qslip-key-shortcut/issues/4);
+* [KohaSuomi/koha-plugin-intranetjs-restrict-patron-modification - IntranetUserJS: Restrict patron modification by category: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-restrict-patron-modification/issues/2);
+* [KohaSuomi/koha-plugin-intranetjs-search-helpers - IntranetUserJS: Hakuapuri: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-search-helpers/issues/2);
+Vastuutettu: johannaraisa, Olmih02.
+Kommentti: Nimen ja kuvauksen kääntämiseen voi ottaa mallia tästä tiedostosta. Siihen on lisätty `get_localized_metadata` metodi.
+Kommentti: koha-suomi-utility-repossa on skripti jolla saa tehtyä tt-tiedostojen käännösten tägitykset kuntoon. Siihen pitää vain lukea parametrina liitännäisen polku esim. `perl create-plugin-translations.pl /path/to/koha-plugin`
+* [KohaSuomi/koha-plugin-intranetjs-transferstoreceive-patron-info-checkmark - IntranetUserJS: Transfers to receive patron info to checkmark: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-transferstoreceive-patron-info-checkmark/issues/4);
+* [KohaSuomi/koha-plugin-ssn-provider - Sotuteekki: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-ssn-provider/issues/8);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Ollille pääsy palvelimella test-ympäristöihin.](https://github.com/KohaSuomi/koha-suomi-utility/issues/131);
+Tiketti avattu.
+
 ## Viikko 23
 Aika: Ma 1.6.2026<br/>
 Läsnä: Ari, Anneli, Kodo, Emmi, Lari, Johanna, Olli, Pasi
