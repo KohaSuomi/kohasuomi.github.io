@@ -79,6 +79,25 @@ Tiketti suljettu.
 * [KohaSuomi/koha-suomi-utility - Ollille pääsy palvelimella test-ympäristöihin.](https://github.com/KohaSuomi/koha-suomi-utility/issues/131);
 Tiketti avattu.
 
+#### olli
+* Add notice to loan page (ksdev/ks-0316-KOHA-add-notice-to-loan-page)
+* Add translations to plugin (master, origin/master)
+* Add translation to plugin (master, origin/master)
+* Add translations to plugin
+* Add translations to plugin (ks25)
+* Add translations to plugin (master, origin/master)
+* Add translation to plugin (master, origin/master)
+* fix typo (master, origin/master)
+* Add translation to plugin
+* Remove .bak file (main, origin/main)
+* Add translation to plugin
+* Fix typo (master, origin/master)
+* Add translations (master, origin/master)
+* Fix issue with localized metadata
+* Fix syntax error
+* Fix syntax errors
+* Add translations
+
 ## Viikko 23
 Aika: Ma 1.6.2026<br/>
 Läsnä: Ari, Anneli, Kodo, Emmi, Lari, Johanna, Olli, Pasi
