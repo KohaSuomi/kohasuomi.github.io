@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
-Läsnä: Hanna Ikonen (Lumme)
+Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/2357)
@@ -24,6 +24,10 @@ Etelästä pohjoiseen
 **Lumme**
 * Varausten noutomuistutukset otetaan käyttöön pe 12.6.
 * Normaalia ylläpitoa.
+
+**Vaski**
+* Finvoice-lähetystiedostossa kenttien merkkimäärät on rajoitettu, esim kirjaston nimessä 35 merkkiin. Tähän ratkaisuna voisi olla katkaisu. Voisi katkaista esim ensimmäisestä sulkumerkistä, tämä poistaisi myös sen hassuuden että sulkutieto näkyy laskulla. Toissijaisena katkaisutapana tuo merkkimäärä. Vaski tekee kehitysehdotuksen.
+* Uusi varaustennoutosysteemi otettu tänään käyttöön Turun pääkirjastolla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-24) - [Palaa sivun alkuun](/paakayttajat2026)
 
