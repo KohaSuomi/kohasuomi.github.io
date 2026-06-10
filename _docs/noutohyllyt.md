@@ -27,7 +27,7 @@ Noutohyllylle on aina määriteltävä kirjasto, nimi sekä noutohyllyyn mahtuva
 
 Noutohyllyn voi halutessaan sitoa tiettyyn viikonpäivään, aineistotyyppiin ja asiakastyyppiin.
 
-Noutohyllyn voi myös lukita pois käytöstä tai määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä.
+Noutohyllyn voi myös lukita pois käytöstä tai määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä. Pääkäyttäjä pystyy myös poistamaan lukituksen, jos jokin hylly on esimerkiksi vahingossa merkattu täydeksi ja se haluttaisiin takaisin saataville.
 
 Noutohyllyn nimen ei tarvitse olla uniikki, mutta tismalleen kahta samanlaista noutohyllyä ei voi luoda.
 
