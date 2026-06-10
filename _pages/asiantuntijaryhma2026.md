@@ -19,30 +19,39 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 6/2026
 
 Aika: Keskiviikko 10.6.2026 klo 13 <br />
-Läsnä:
+Läsnä: Tuomas, Kati, Hanna, Ari, Janne, Elina, Irina, Anni, Leena, Anneli, Kodo
 
 ### 1. Ajankohtaiset
 
 Yhteisen kuvailuvarannon tilannekatsaus / Kodo
 
+Bibframen tuonti Kohaan
+
+Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
+
 ### 2. Seuraavan versionvaihdon ajankohta
 
 Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alustavasti su 14.3.2027 - ti 16.3.2027. Onko tullut kommentteja tai vastalauseita ajankohdalle?
 
+Päätös: Pidetään aiemmin ehdotettu ajankohta ja pyritään siihen, että kaikki olisi testattavissa viikkoon 6/2027 mennessä.
+
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
-  * jatketaan käsittelyä edellisestä kokouksesta
+  * Testataan ensin Emmin löytämät tiketit ja jos niistä ei ole apua, niin tuodaan uudelleen käsiteltäväksi.
 * [Ajetaanko kaikille kimpoille email ensisijaiseksi yhteydenottotavaksi?](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3#issuecomment-4542261929)
 
 ### 4. Muut asiat
 
 * [Tiketin #2187](https://github.com/KohaSuomi/Koha/issues/2187) ehdotus uudesta asiakasmääreestä ja kysymys vastuun siirtymisestä lapsiasiakkaalle, kun huoltajasuhde päättyy.
 * Seuraavan asiantuntijaryhmän jäsenehdotukset puuttuvat vielä: Vaski, Kyyti
+  * Kyyti: Roosa varsinainen, Tuomas varalla
+  * Vaski: Susanna varsinainen, Anni varalla
 
 
 ### 5. Seuraava kokous
 
+To 20.8.2026 klo 9
 
 ## Muistio 5/2026
 
