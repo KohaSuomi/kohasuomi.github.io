@@ -98,6 +98,10 @@ Tiketti avattu.
 * Fix syntax errors
 * Add translations
 
+#### Emmi
+* Kifi-aineiston keräämisessä kellutuksen määrittely ei toiminut oikein. Määrittelyä muokattu.
+* [Bug 42699 - Editing an already received serial with a duplicate barcode leads to Error 500](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42699): Yhteisöön ehdotettu korjausta.
+
 ## Viikko 23
 Aika: Ma 1.6.2026<br/>
 Läsnä: Ari, Anneli, Kodo, Emmi, Lari, Johanna, Olli, Pasi
