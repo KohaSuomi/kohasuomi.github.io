@@ -23,30 +23,39 @@ Läsnä: Tuomas, Kati, Hanna, Ari, Janne, Elina, Irina, Anni, Leena, Anneli, Kod
 
 ### 1. Ajankohtaiset
 
-Yhteisen kuvailuvarannon tilannekatsaus / Kodo
+* Yhteisen kuvailuvarannon tilannekatsaus / Kodo
+  * Tietueet viety tati-testille muista kimpoista paitsi outi-testiltä ja vaski-testiltä. Tuplien yhdistelyä tehty 001/003-kenttien perusteella.
+  * Seuraava Kati-työryhmän kokous torstaina 11.6.2026.
 
-Bibframen tuonti Kohaan
+* BIBFRAME-tuki Kohaan
+  * Kansalliskirjaston kanssa tutkitaan yhdessä, miten Kohaan saisi toimivan BIBFRAME-tuen.
+  * Johanna on tehnyt alustavan toteutuksen ja käy Kansalliskirjastossa keskustelemasta siitä ja muutenkin toteutuksesta.
+  * Kunhan on toimiva konsepti, tarjotaan sitä Koha-yhteisöön.
 
-Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
+* Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
+  * Finnaan ei kuulostaisi tulevan lähiaikoina tukea vahvalla tunnistautumisella asiakkaaksi rekisteröitymiseen, joten jatketaan alkuperäisen suunnitelman mukaan erillisellä lomakkeella, joka jo tukee vahvaa tunnistautumista. Rakennetaan lomakkeen ja Kohan käville tarvittavat yhteydet, jotta tiedot saadaan vietyä lomakkeelta suoraan Kohaan.
+  * Tavoitteena saada rekisteröityminen käyttöön syksyllä.
 
 ### 2. Seuraavan versionvaihdon ajankohta
 
 Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alustavasti su 14.3.2027 - ti 16.3.2027. Onko tullut kommentteja tai vastalauseita ajankohdalle?
 
-Päätös: Pidetään aiemmin ehdotettu ajankohta ja pyritään siihen, että kaikki olisi testattavissa viikkoon 6/2027 mennessä.
+**Päätös**: Pidetään aiemmin ehdotettu ajankohta voimassa ja pyritään siihen, että kaikki ominaisuudet olisi testattavissa viikkoon 6/2027 mennessä.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
   * Testataan ensin Emmin löytämät tiketit ja jos niistä ei ole apua, niin tuodaan uudelleen käsiteltäväksi.
 * [Ajetaanko kaikille kimpoille email ensisijaiseksi yhteydenottotavaksi?](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3#issuecomment-4542261929)
+  * Päätös: Ajetaan yhteneväisyyden vuoksi ja myös siksi, että jos pakotus päätetään jossain kimpassa ottaa käyttöön, on asiakastiedoissa valmiiksi tarvittavat tiedot. Kimpat ilmoittavat [tiketissä #2342](https://github.com/KohaSuomi/Koha/issues/2342), kun heillä on tarvittavat asetukset tehty liitännäiseen ja ajon voi tehdä.
 
 ### 4. Muut asiat
 
 * [Tiketin #2187](https://github.com/KohaSuomi/Koha/issues/2187) ehdotus uudesta asiakasmääreestä ja kysymys vastuun siirtymisestä lapsiasiakkaalle, kun huoltajasuhde päättyy.
+  * Vaski-kirjastoista kysytään Turun lakimieheltä tulkinta entisen huoltajan vastuusta ja tietojen säilytystarpeesta. Myös muista kimpoista voisi kysyä lakimiehien tulkintoja.
 * Seuraavan asiantuntijaryhmän jäsenehdotukset puuttuvat vielä: Vaski, Kyyti
-  * Kyyti: Roosa varsinainen, Tuomas varalla
-  * Vaski: Susanna varsinainen, Anni varalla
+  * Kyyti: Roosa Väisänen varsinainen, Tuomas Kunttu varalla
+  * Vaski: Susanna Sandell varsinainen, Anni Mäki-Mantila varalla
 
 
 ### 5. Seuraava kokous
