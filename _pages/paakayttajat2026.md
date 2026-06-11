@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
-Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/2357)
@@ -46,6 +46,10 @@ Etelästä pohjoiseen
 * Oulun laskuttajalta tuli tieto, että kun laskutusliitännäisen avaa selainistunnolla ensimmäisen kerran ja lataa työkalun sivun, tulee koko näytön laajuinen värikäs virheilmoitus, jossa ilmoitetaan, että tapahtui virhe ja luonti onnistui. Liittynee välimuistiin, joka OUTIssa on ohjeistettu tyhjentämään aina kun selain suljetaan tai Firefoxin versioon. Tiketti: https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/38
 * Asiakkaalta oli tullut toive, että verkkokirjaston kirjautumissivulle ja asiakkaan omissa tiedoissa olevalle Vaihda PIN-koodi -sivulle saisi valittavaksi toiminnon, jolla hetkellisesti saisi näkyville, minkä PIN-koodin käyttäjä on kirjoittanut kenttään. Tästä on OUTIn oma Finna-tuki laittanut kehitysehdotuspyynnön Kansalliskirjastolle.
 * OUTIssa on säännöllisesti tarkistettu Koha-käyttäjätunnusten oikeudet. Työ on manuaalisesti tehtynä erittäin hidasta ja työlästä. Pyritään saamaan käyttäjäkohtaiset oikeudet jollain raportilla suoraan tietokannasta ymmärrettävään muotoon. Tämäkin helpottaisi työtä jo merkittävästi.
+
+**Kirkes**
+
+* Yhdessä kirjastossa on ollut halukkuutta muuttaa omatoimikirjaston käyttö sallituksi vain erillisen lomakkeen allekirjoittaneille. Tämä vaatisi erilliset asiakastyypit ja aika lailla työtä, koska muutos koskisi jatkossa kaikkia kimpan omatoimikirjastoja. Keskustellaan vielä kimpan sisällä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-24) - [Palaa sivun alkuun](/paakayttajat2026)
 
