@@ -16,10 +16,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 
-## Esityslista 6/2026
+## Muistio 6/2026
 
 Aika: Keskiviikko 10.6.2026 klo 13 <br />
-Läsnä: Tuomas, Kati, Hanna, Ari, Janne, Elina, Irina, Anni, Leena, Anneli, Kodo
+Läsnä: Tuomas Kunttu (Kyyti-kirjastot), Kati Sillgren (Helle-kirjastot), Hanna Ikonen (Lumme-kirjastot), Janne Seppänen (Lastu-kirjastot), Elina Uotila (Kirkes-kirjastot), Irina Halminen (Vaara-kirjastot), Anni Mäki-Mantila (Vaski-kirjastot), Leena Kinnunen (Lapin kirjasto), Ari Mäkiranta, Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
@@ -54,8 +54,8 @@ Seuraavan versionvaihdon ajakohdaksi päätettiin edellisessä kokouksessa alust
 * [Tiketin #2187](https://github.com/KohaSuomi/Koha/issues/2187) ehdotus uudesta asiakasmääreestä ja kysymys vastuun siirtymisestä lapsiasiakkaalle, kun huoltajasuhde päättyy.
   * Vaski-kirjastoista kysytään Turun lakimieheltä tulkinta entisen huoltajan vastuusta ja tietojen säilytystarpeesta. Myös muista kimpoista voisi kysyä lakimiehien tulkintoja.
 * Seuraavan asiantuntijaryhmän jäsenehdotukset puuttuvat vielä: Vaski, Kyyti
-  * Kyyti: Roosa Väisänen varsinainen, Tuomas Kunttu varalla
-  * Vaski: Susanna Sandell varsinainen, Anni Mäki-Mantila varalla
+  * Kyyti-kirjastot: Roosa Väisänen varsinainen, Tuomas Kunttu varalla
+  * Vaski-kirjastot: Susanna Sandell varsinainen, Anni Mäki-Mantila varalla
 
 
 ### 5. Seuraava kokous
