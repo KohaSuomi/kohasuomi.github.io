@@ -18,6 +18,8 @@ Läsnä:
 
 **Yhteiset**
 * Kaukolainamoduulia käyttävät tai käyttöönottoa suunnittelevat: [003-kentän lisääminen FA-kuvailupohjaan](https://github.com/KohaSuomi/Koha/issues/2375)
+* [Bug 40426 - Custom patron messages should have access to interlibrary loans information #2125](https://github.com/KohaSuomi/Koha/issues/2125)
+  * ILL_SLIPille saisi osan kaukolainan tiedoista automaattisesti, tiketissä yhdenlainen ehdotus. Onko se yhtään käyttökelpoinen?
 
 Pohjoisesta etelään
 
