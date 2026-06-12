@@ -13,6 +13,26 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 25
+Aika: Ma 15.6.2026<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 25 päivitys
+
+### Viikolla 24 tehty
+
+#### Emmi
+* [Tulosta ilmoituksia: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-print-pdf-notices/issues/5): Käännökset tehty ja viety testeille.
+* [Laskutustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/37): Käännösten tekeminen aloitettu.
+* [Bug 41883 - Modifications using batch hold modification tool aren't logged](https://github.com/KohaSuomi/Bugiton/issues/80): Varaustyökalu ei tällä hetkellä lokita muutoksia. Tähän tuotu yhteisöstä korjaus.
+* [Vaski: Laskujen lähetys epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2371): Turun laskujen lähetys ei ollut onnistunut, ilmeisesti vastaanottavan palvelimen virheen vuoksi. Laskut laitettu uudelleen jonoon ja tarkistettu, että ajo toimii kuten pitääkin. Seurataan tilannetta ja jos ongelma jatkuu, ollaan yhteydessä vastaanottajaan.
+* Kifi-aineistojen keräämisen optiomointia
+* Yhteisöpalaveri 10.6.2026
+
 ## Viikko 24
 Aika: Ma 8.6.2026<br/>
 Läsnä: Pasi, Ari, Lari, Emmi, Anneli, Johanna, Kodo, Olli
