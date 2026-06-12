@@ -33,6 +33,31 @@ Läsnä:
 * Kifi-aineistojen keräämisen optiomointia
 * Yhteisöpalaveri 10.6.2026
 
+#### Kodo
+* [Koha#2358 SIP-sanomista puuttuvat AO-kentät](https://github.com/KohaSuomi/Koha/issues/2358);
+Tarkistuslistojen pohjalta todettu puutteellisia sanomia Helle-, Lappi-, Lumme-, Outi-, Vaara- ja Vaski-kimpoissa. Listat toimitettu kimppoihin ja pyydetty korjauksia.
+* [koha-suomi-utility#102 Taustatyöt: Asetuksen elasticsearch_indexer_batch_size käyttöönotto](https://github.com/KohaSuomi/koha-suomi-utility/issues/102); Batch-size-asetus lisätty next-ympäristöihin.
+* [Koha#2253 Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253);
+KaTi-ryhmän kokous pidetty 11.6. Siellä käyty läpi projektin nykytilanne ja jatkotoimenpiteet. 
+* [Koha#2361 Kyyti: testillä ei synny kaukolainoihin nimeketietuetta](https://github.com/KohaSuomi/Koha/issues/2361);
+Kyyti-next nostettu ja branches-asetukset lisätty sen koha-confiin. Kaukolainatilauksen nimeketietueen muodostuminen todettu toimivaksi ja tiketti suljettu. Ongelma kaukolainojen lisäämisessä kuitenkin selvitettävä test-ympäristöissä.
+* [Koha#2364 OUTIn EditX-liitännäiseen uudet hyllypaikat Lapset ja Nuoret](https://github.com/KohaSuomi/Koha/issues/2364). Uudet hankintahyllypaikat lisätty procurement-config:iin ja tiketti suljettu.
+* [Koha#2366 Lappi: Liian isojen OVERDUE-maksujen korjaaminen](https://github.com/KohaSuomi/Koha/issues/2366);
+Selvitetty korjaustapa ja hahmoteltu rajauksia ja korjausvaihtoehtoja. Ajettu korjaus, minkä jälkeen maksujen todettiin korjautuneen ja tiketti suljettiin.
+* [Koha#2343 Lumme: varausten noutomuistutuksen käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2343);
+Muistutusten generointi lisätty crontabiin, mutta huomautettu tuotantomuutosten ajoituksesta. Seuraavana Lari ajaa oletusasetustäpät.
+* [Koha#2372 Tietueet, joissa on tyhjä 003-kenttä](https://github.com/KohaSuomi/Koha/issues/2372);
+Ajastettu biblio_control_fields-taulujen päivittyminen tuotannoissa 5 min välein. Lisäksi lisätty tauluun uusi indeksi ja rajattu päivitys muuttuneisiin/uusiin tietueisiin, jolloin ajoaika putosi noin 1,5 minuutista alle 10 sekuntiin. Otetaan vielä pois käytöstä viikonlopun ajaksi ja palautetaan takaisin maanantaina aamulla.
+* [Koha#2367 Lappi: IntranetUserJS:n päivittäminen 12.6. noin klo 8-9](https://github.com/KohaSuomi/Koha/issues/2367);
+Sovittu päivitysajankohta, valmius varmistettu, muutokset tehty ja testattu ja tiketti suljettu. Lapin IntranetuserJS-asetuksessa kuitenkin vielä ilmeisesti snippet-duplikaatteja yms epäjohdonmukaisuuksia. Lapin pääkäyttäjät tarkistavat ja tiketöivät korjauksesta aiheutuvan checksum-päivityksen.
+* [koha-suomi-utility#134 Hold reminder cronjobi väärässä paikkaa crontabeissa](https://github.com/KohaSuomi/koha-suomi-utility/issues/134); Hold-reminder-cronjobin sijainti tiketöity. Lari korjasi.
+* [Kesäkuun huolto 10.6. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2356);
+Viety läpi kesäkuun huolto vaiheittain: replica-, edustanodi- ja tietokantamain-booteista aiheutuneet katkot tiedotettu kimpoittain, palvelut palautettu vaiheittain ja huolto päätetty onnistuneesti. Testit sekä Kirkeksen ja Vaskin nextit nostettu lopuksi takaisin. Toimintaongelmia API:n kassa huollon jälkeen muutamassa kimpassa. Korjaantuivat apachen/starmanin uudelleenkäynnistyksellä. Pasi oli kisällinä ja teki huollosta pääkohdittaiset muistiinpanot, joiden pohjalta voidaan työstää huolto-ohje.
+* Asiantuntijaryhmän kokous 10.6. Kokouksessa käyty mm. läpi KaTin tilanne.
+* BIBFRAME-kokous Kansalliskirjaston kanssa 10.6.
+* Support-sähköposti Vaarasta Ceepos-kassaongelmasta; tarkistettu lokit, ei virheitä havaittu. Pyydetty tiketöimään muutamassa kirjastoyksikössä havaitut ongelmat, joskin on melko epätodennäköistä, että ongelma on Kohassa, koska muiden kirjastoyksiköiden maksut Vaarassa siirtyvät Ceepokseen oikein ja kaikki yksiköt käyttävät samaa Ceepos-yhteyttä ja konfiguraatiota.
+
+
 ## Viikko 24
 Aika: Ma 8.6.2026<br/>
 Läsnä: Pasi, Ari, Lari, Emmi, Anneli, Johanna, Kodo, Olli
