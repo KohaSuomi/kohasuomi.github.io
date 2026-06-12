@@ -33,7 +33,7 @@ Läsnä: Tuomas Kunttu (Kyyti-kirjastot), Kati Sillgren (Helle-kirjastot), Hanna
   * Kunhan on toimiva konsepti, tarjotaan sitä Koha-yhteisöön.
 
 * Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
-  * Finnaan ei kuulostaisi tulevan lähiaikoina tukea vahvalla tunnistautumisella asiakkaaksi rekisteröitymiseen, joten jatketaan alkuperäisen suunnitelman mukaan erillisellä lomakkeella, joka jo tukee vahvaa tunnistautumista. Rakennetaan lomakkeen ja Kohan käville tarvittavat yhteydet, jotta tiedot saadaan vietyä lomakkeelta suoraan Kohaan.
+  * Finnaan ei kuulostaisi tulevan lähiaikoina tukea vahvalla tunnistautumisella asiakkaaksi rekisteröitymiseen, joten jatketaan alkuperäisen suunnitelman mukaan erillisellä lomakkeella, joka jo tukee vahvaa tunnistautumista. Rakennetaan lomakkeen ja Kohan välille tarvittavat yhteydet, jotta tiedot saadaan vietyä lomakkeelta suoraan Kohaan.
   * Tavoitteena saada rekisteröityminen käyttöön syksyllä.
 
 ### 2. Seuraavan versionvaihdon ajankohta
