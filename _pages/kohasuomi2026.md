@@ -57,13 +57,13 @@ Viety läpi kesäkuun huolto vaiheittain: replica-, edustanodi- ja tietokantamai
 * BIBFRAME-kokous Kansalliskirjaston kanssa 10.6.
 * Support-sähköposti Vaarasta Ceepos-kassaongelmasta; tarkistettu lokit, ei virheitä havaittu. Pyydetty tiketöimään muutamassa kirjastoyksikössä havaitut ongelmat, joskin on melko epätodennäköistä, että ongelma on Kohassa, koska muiden kirjastoyksiköiden maksut Vaarassa siirtyvät Ceepokseen oikein ja kaikki yksiköt käyttävät samaa Ceepos-yhteyttä ja konfiguraatiota.
 
-## Anneli
+### Anneli
 
-### Käännökset
+#### Käännökset
 - Lähetin liitännäisten käännökset ruotsin käännösryhmälle ennakkoon ja kävimme niitä läpi keskiviikon palaverissa. Osa jäi vielä kesken, mutta sovimme seuraavan palaverin ensi viikolle. Kävin loput käännökset vielä läpi niiltä, osin mitä pystyin kopioimaan käännöksen jo olemassa olevista vastaavista, jotta ensi viikolla ei tarvitse käydä samoja asioita läpi uudelleen.
 - Latasin Johannan tekemät uudet käännöstiedostot, mutta en vielä ehtinyt kääntämään niitä.  
 
-### Bugit, tiketit ja tekniset selvitykset
+#### Bugit, tiketit ja tekniset selvitykset
 - Kävin läpi kaikki minulle assignatut tiketit.  
 - Yritit lisätä kentät 490 ja 830 Sarja-tiedon Template Toolkit -rimpsuun, mutta muutos rikkoi toiminnallisuuden. [800-kenttä perustiedot-näytöllä #2218](https://github.com/KohaSuomi/Koha/issues/2218)
 - Kommentoin tikettiä [#2368](https://github.com/KohaSuomi/Koha/issues/2368), että MARC21-formaattiin lisätyt 007- ja 008-kenttien tiedot pitäisi päivittää marc21_field_007.pl- ja marc21_field_008.pl-liitännäisiin.
@@ -74,16 +74,16 @@ Viety läpi kesäkuun huolto vaiheittain: replica-, edustanodi- ja tietokantamai
 - Huomasin myös, että 001- ja 003-kenttien alussa/lopussa ylimääräisiä välilyöntejä ja tein niille oman raportin.  
 - Laitoin Broomworksille tiedoksi, että meillä on työn alla muutos, että rajapinnan kautta sallitaan jatkossa yli 20-merkkiset viivakoodit. Nyt ne aiheuttavat virhetilanteita ulkoisissa järjestelmissä.
 
-### Kuvailu ja tietueet
+#### Kuvailu ja tietueet
 - Selvitin, miten 775t-kentän puuttuminen vaikuttaa *Julkaistu myös* -tietojen näkymiseen. Ilman t-kenttää Perustiedot-näytölle ei muodostu hakulinkkiä.  
 - Tein ohjeen 003-kentän lisäämisestä FA-kuvailupohjaan. Tiketti [#2375](https://github.com/KohaSuomi/Koha/issues/2375)
 
-### Raportointi ja tiedotus
+#### Raportointi ja tiedotus
 - Tein [viikon 24 päivitystiedotteen](https://github.com/KohaSuomi/Koha/discussions/2357)
 - Tein tiedotteen asiantuntijaryhmän [muistion 6/2026 julkaisemista](https://github.com/KohaSuomi/Koha/discussions/2376)
 - Laadin OUTI-kirjastoille raportin virkailijoista ja heidän käyttäjäoikeuksistaan. He pystyvät säätämään sitä edelleen omien käyttäjäryhmien mukaiseksi.
 
-### Testaus ja selvitystyö
+#### Testaus ja selvitystyö
 - Testasin saisinko aikaiseksi laskutustyökalun virheilmoitusta – en saanut toistettua ongelmaa omalla koneella. [Laskutusliitännäisen virheilmoitus #38](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/38)
 - Tutkin Matrixissa raportoidun Listat-toiminnon järjestysongelmaa, jossa listaa muokatessa järjestäytyminen tallentui aina julkaisuvuoden mukaiseksi valinnoista huolimatta. Ongelmaan on tulossa korjaus seuraavassa versionvaihdossa.  
 - Tarkastelin sandboxissa tulevaa *Supplied ILL* -toimintoa. Se vaikutti olevan kovin "insinöörin tekemä" ja käyttöliittymä pohjautui hyvin vahvasti kaukolainauksen ISO-standardin termistöön.
@@ -92,13 +92,13 @@ Viety läpi kesäkuun huolto vaiheittain: replica-, edustanodi- ja tietokantamai
 - Lapista kyseltiin, pitäisikö kaukolainoista lähteä eräpäivämuistutukset ja kerroin, että pitäisi, jos ne ovat lainassa.
 - Hellessä ei onnistu Kirja-kuvailupohjalla toistuvien kenttien poistaminen, asia nousi uudelleen esille. Alunperin raportoitu maaliskuussa. Tiketti [#2217](https://github.com/KohaSuomi/Koha/issues/2217)
 
-### Kokoukset ja yhteistyö
+#### Kokoukset ja yhteistyö
 - Koha-Suomen viikkopalaveri maanantaina
 - Pääkäyttäjäpalaveri tiistaina.  
 - Asiantuntijaryhmän kokous keskiviikkona ja muistion täydennys.  
 - Käännöspalaveri ruotsin käännösryhmän kanssa torstaina.  
 
-### Muut tehtävät
+#### Muut tehtävät
 - Liityin Kansalliskirjaston Kiwiin ja uusille Koha-Suomi-yhteistyön Slack-kanaville.  
 - Katsoin Finna-versiopäivityksen demon.  
 - Lisäsin kalenteriin muistutuksen Finna-toimiston informoimisesta seuraavan versionvaihdon aikataulusta.
