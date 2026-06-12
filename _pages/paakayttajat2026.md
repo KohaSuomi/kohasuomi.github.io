@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 25
+
+Aika: Ti 16.6.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Kaukolainamoduulia käyttävät tai käyttöönottoa suunnittelevat: [003-kentän lisääminen FA-kuvailupohjaan](https://github.com/KohaSuomi/Koha/issues/2375)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
