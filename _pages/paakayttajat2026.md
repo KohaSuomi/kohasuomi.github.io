@@ -34,7 +34,7 @@ Pohjoisesta etelään
 ## Viikko 24
 
 Aika: Ti 9.6.2026 klo 9.15<br />
-Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Hanna Ikonen (Lumme), Iina Niemi (Vaski), Janne Seppänen ja Lauri Hänninen (Lastu), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 24 päivitys](https://github.com/KohaSuomi/Koha/discussions/2357)
@@ -70,14 +70,18 @@ Etelästä pohjoiseen
 
 **Kirkes**
 
-* Yhdessä kirjastossa on ollut halukkuutta muuttaa omatoimikirjaston käyttö sallituksi vain erillisen lomakkeen allekirjoittaneille. Tämä vaatisi erilliset asiakastyypit ja aika lailla työtä, koska muutos koskisi jatkossa kaikkia kimpan omatoimikirjastoja. Keskustellaan vielä kimpan sisällä. 
+* Yhdessä kirjastossa on ollut halukkuutta muuttaa omatoimikirjaston käyttö sallituksi vain erillisen lomakkeen allekirjoittaneille. Tämä vaatisi erilliset asiakastyypit ja aika lailla työtä, koska muutos koskisi jatkossa kaikkia kimpan omatoimikirjastoja. Keskustellaan vielä kimpan sisällä.
+
+**Vaara**
+* Verkkokirjaston yöllistä maksukatkoa pidennetty, sillä huomattiin että nykyinen käytössä ollut aika oli liian lyhyt nykyiselle Kohan maksuajolle.
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-24) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 23
 
 Aika: Ti 2.6.2026 klo 9.15<br />
-Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 23 päivitys](https://github.com/KohaSuomi/Koha/discussions/2347)
@@ -112,12 +116,15 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa.
 
+**Vaara**
+* Normaalia ylläpitopa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-23) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 22
 
 Aika: Ti 26.5.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Elina Uotila ja Erika Miettinen (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Lotta Juvonen, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/2341)
@@ -166,6 +173,9 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Ahtialan kirjaston muuton valmistelua, muuten normaalia ylläpitoa
+
+** Kassan yhteys saatu toimimaan ja maksut siirtyvät nyt normaalisti Kohan ja kassan välillä.
+** Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-22) - [Palaa sivun alkuun](/paakayttajat2026)
 
