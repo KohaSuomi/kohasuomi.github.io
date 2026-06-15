@@ -17,7 +17,7 @@ Aika: Ti 16.6.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 25 päivitys
+* [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
 * Kaukolainamoduulia käyttävät tai käyttöönottoa suunnittelevat: [003-kentän lisääminen FA-kuvailupohjaan](https://github.com/KohaSuomi/Koha/issues/2375)
 * [Bug 40426 - Custom patron messages should have access to interlibrary loans information #2125](https://github.com/KohaSuomi/Koha/issues/2125)
   * ILL_SLIPille saisi osan kaukolainan tiedoista automaattisesti, tiketissä yhdenlainen ehdotus. Onko se yhtään käyttökelpoinen?
@@ -25,6 +25,7 @@ Läsnä:
   * [Tietueet, joissa on tyhjä 003-kenttä](https://github.com/KohaSuomi/Koha/issues/2372)
   * [Tietueet, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä](https://github.com/KohaSuomi/Koha/issues/2373)
   * biblio_control_fields -aputaulu päivittyy tuotannoissa 5 minuutin välein, eli 001+003-kenttien korjaukset pitäisi näkyä raporteilla viimeistään 5 minuutin kuluttua korjauksesta.
+  * [BTJ:n osakohdetuplat](https://github.com/KohaSuomi/Koha/issues/2380)
 
 Pohjoisesta etelään
 
