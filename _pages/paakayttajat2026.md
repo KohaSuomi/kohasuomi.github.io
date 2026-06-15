@@ -24,6 +24,7 @@ Läsnä:
 * Raportteja:
   * [Tietueet, joissa on tyhjä 003-kenttä](https://github.com/KohaSuomi/Koha/issues/2372)
   * [Tietueet, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä](https://github.com/KohaSuomi/Koha/issues/2373)
+  * biblio_control_fields -aputaulu päivittyy tuotannoissa 5 minuutin välein, eli 001+003-kenttien korjaukset pitäisi näkyä raporteilla viimeistään 5 minuutin kuluttua korjauksesta.
 
 Pohjoisesta etelään
 
