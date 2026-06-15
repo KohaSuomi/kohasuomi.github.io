@@ -103,6 +103,50 @@ Viety läpi kesäkuun huolto vaiheittain: replica-, edustanodi- ja tietokantamai
 - Katsoin Finna-versiopäivityksen demon.  
 - Lisäsin kalenteriin muistutuksen Finna-toimiston informoimisesta seuraavan versionvaihdon aikataulusta.
 
+### Johanna
+* Kansalliskirjastolla 11.6. keskustelemassa Bibframesta.
+* Bug 39140:  Remove block from condition (ks25/ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds, ks25dev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Add info about endpoint](https://github.com/KohaSuomi/koha-suomi-messaging/commit/027c5b42555060a4335b4da75fb811e70c67846b) (master)
+* [Bug 39140:  Remove block from condition](https://github.com/KohaSuomi/Koha-25x/commit/2d732a0c00e31da26d24d7a2612d8fdc37fdff8e) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Add logging to file response](https://github.com/KohaSuomi/koha-suomi-messaging/commit/29c045c6f87ca6eb848c02c50e1f6f0162986b5d) (master)
+* Bug 39140: Fix modal block issue and add tests
+* [Add update-swagger-maxlength.pl](https://github.com/KohaSuomi/koha-suomi-utility/commit/2c1cdadfc3a372b2d1b12a6337ba981bad3414ff) (development)
+* [Update hold_pickup_shelves.js](https://github.com/KohaSuomi/koha-suomi-utility/commit/7dfb90c996081ca51b38c663089a19048daf630a) (development)
+* [Bug 39140: Fix modal block issue and add tests](https://github.com/KohaSuomi/Koha-25x/commit/fa5cc99fb80529b7d8997cd9949841b88f66c349) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Update hold_pickup_shelves.js](https://github.com/KohaSuomi/koha-suomi-utility/commit/04b106f2f292a7da47d4cc59fe23151895ef3317) (development)
+* Bug 39140: Fix dropdown scrolling
+* [Generate translations](https://github.com/KohaSuomi/Koha-translations/commit/d9fdbd190ab770d471c4ec85366c2ffe63934a2a) (ks25-v2)
+* [Merge master](https://github.com/KohaSuomi/Koha-translations/commit/ae88573d1826b999841625d247603fa6c72c5182) (ks25-v2)
+* [Add new hold_pickup_shelves.js](https://github.com/KohaSuomi/koha-suomi-utility/commit/e2a5e824e0e1f6319ac28f407d536e64931b8ef9) (development)
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/e6ede04dbc212d7e91117d0915ec29d10ab221b2) (development)
+* [Improve adding new translations](https://github.com/KohaSuomi/koha-suomi-utility/commit/929ab23b8f4eb750a475dcbc41ef8bacad33d6a6) (development)
+* [Add summary week 23](https://github.com/KohaSuomi/kohasuomi.github.io/commit/20d877dfa4c5143eb805246f9e067e5bd74e410f) (master)
+* [Bug 39140: Fix dropdown scrolling](https://github.com/KohaSuomi/Koha-25x/commit/f9ced92a03616382215b010afb8052402a348e13) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* Bug 39140: Add natural sorting
+* Bug 39140: Optimize availability search
+* Fix syntax error (ks25/ksdev/ks-0000-KohaSuomi-global, ks25dev/ks-0000-KohaSuomi-global)
+* [Add new translations](https://github.com/KohaSuomi/Koha-translations/commit/89e848b47cd5445c9e85e1bf1900888f5a92a1e1) (master)
+* [Merge branch 'ks25'](https://github.com/KohaSuomi/Koha-translations/commit/666e02335caa87cc63606551664cf0abf0888f78) (master)
+* [Bug 39140: Add natural sorting](https://github.com/KohaSuomi/Koha-25x/commit/f2e83e59d81d5c43da464ae7ac55c28da69e4e44) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Bug 39140: Optimize availability search](https://github.com/KohaSuomi/Koha-25x/commit/179909b8ac92a1523d7b73200a84f3152f53ad43) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Fix syntax error](https://github.com/KohaSuomi/Koha-25x/commit/b9b0a309812c125d659487d3eed51f5178608521) (ksdev/ks-0000-KohaSuomi-global)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-suomi-messaging](https://github.com/KohaSuomi/koha-suomi-messaging/commit/a4d7317d0b127bed2d0604d65192e168ced66239) (master)
+* [Add verbose response](https://github.com/KohaSuomi/koha-suomi-messaging/commit/2deeab146f9e3e6ca4700b64f145e93722d7322c) (master)
+* [KohaSuomi/Koha - Varausten noutohyllyt: Hitaus varausten käsittelyssä kun varaushyllyjä on runsaasti](https://github.com/KohaSuomi/Koha/issues/2359);
+Vastuutettu: johannaraisa.
+Kommentti: Tämän voi kai tuoda seuraavassa päivityksessä?
+Kommentti: Minulla nuo hyllyt näkyivät, ctrl+f5 voi auttaa. Sen ainakin huomasin, että jos liikkuu hyllyissä näppäimistön nuolilla niin hyllyt ei scrollaa, vaan jäävät piiloon popupin alle. Hiirellä sai vieritettyä hyllyjä alaspäin.
+* [KohaSuomi/Koha - Varausten noutohyllyt: valikosta ei saa kaikkia hyllyjä haettua](https://github.com/KohaSuomi/Koha/issues/2360);
+Vastuutettu: johannaraisa.
+Kommentti: En tiedä vaatiiko meiltä mitään, mutta vaihdoin tilaa.
+Kommentti: Tein tähän korjausta, nyt alasvetovalikko ei mene enää footerin alle ja sitä voi scrollata. Sivu kannattaa ladata ctrl+f5:llä. Testailin myös vähän enemmän tuleeko kaikki hyllyt näkyviin, itsellä kävi ainakin sillein että olin määritellyt max_items arvoksi 0 ja ne ei näy listalla. 😅
+* [KohaSuomi/Koha - Varausten noutohyllyt: Kotikirjastoon kuljetuksen aikana tehty varaus estää valitsemasta noutohyllyä](https://github.com/KohaSuomi/Koha/issues/2362);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on testeillä uusi versio testattavana.
+Kommentti: Siellä on if-lause, joka säätää noita, katson asiaa.
+* [KohaSuomi/Koha - Muuta item.yaml määrityksessä external_id vastaamaan tietokannan barcode-arvoa.](https://github.com/KohaSuomi/Koha/issues/2369);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
 
 
 ## Viikko 24
