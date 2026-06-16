@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
