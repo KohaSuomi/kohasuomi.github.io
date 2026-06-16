@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), 
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -33,6 +33,10 @@ Pohjoisesta etelään
 * Käyttöoikeuksien mallipohjat otettu käyttöön
 * Vuoden alussa Rovaniemen myöhästymismaksujen katto muuttui. Tieto korjattiin tuotantoon, mutta ei nextille, joten versionvaihdossa palautui vanha maksukatto. Kehittäjä korjasi virheelliset maksut (maksullinen tiketti). 
 * Muuten normaalia ylläpitoa
+
+**Vaski**
+* Noutohyllyt otettu viime viikolla Turun pääkirjastossa käyttöön ja palaute enimmäkseen positiivista. Tärppäytystauon ja kiinniolon vuoksi käsittelyä odottavia varauksia kuitenkin edelleen paljon, ruuhkan purkamiseen menee aikaa.
+* Kysyttiin tiketin https://github.com/KohaSuomi/Koha/issues/2040 edistämisen perään. Anneli lupasi ottaa esille KS palaverissa ja kannusti myös muita kimppoja tutustumaan tikettiin, jos tulee mieleen jotain huomioitavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
