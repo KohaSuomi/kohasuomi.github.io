@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), 
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -28,6 +28,11 @@ Läsnä:
   * [BTJ:n osakohdetuplat](https://github.com/KohaSuomi/Koha/issues/2380)
 
 Pohjoisesta etelään
+
+**Lappi**
+* Käyttöoikeuksien mallipohjat otettu käyttöön
+* Vuoden alussa Rovaniemen myöhästymismaksujen katto muuttui. Tieto korjattiin tuotantoon, mutta ei nextille, joten versionvaihdossa palautui vanha maksukatto. Kehittäjä korjasi virheelliset maksut (maksullinen tiketti). 
+* Muuten normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
