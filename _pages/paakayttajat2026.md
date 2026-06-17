@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -49,6 +49,10 @@ Pohjoisesta etelään
 * Varausten noutomuistutukset otettu käyttöön.
 * Automaattien AO-kenttien korjailut jatkuvat.
 * Normaalia ylläpitoa.
+
+**Lastu**
+* Normaalia ylläpitoa mm. kesätyöntekijöiden tunnuksia
+* Valmistellaan varauksien noutomuistutuksen käyttöönottoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
