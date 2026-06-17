@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -53,6 +53,9 @@ Pohjoisesta etelään
 **Lastu**
 * Normaalia ylläpitoa mm. kesätyöntekijöiden tunnuksia
 * Valmistellaan varauksien noutomuistutuksen käyttöönottoa
+
+**Kirkes**
+* Kirkes-Finnaan otetaan tällä viikolla käyttöön verkkomaksujen esto klo 23:55-00:30. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
