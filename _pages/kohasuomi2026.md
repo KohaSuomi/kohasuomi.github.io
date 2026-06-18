@@ -109,7 +109,7 @@ API:lle lisätty service-check. `responses-api` lisätty ja viety tuotantoon. Ti
 * [koha-suomi-utility#138 Toimintaohje tietokantapalvelimen (tai Kohien) oikutellessa](https://github.com/KohaSuomi/koha-suomi-utility/issues/138);
 Kirjattu toimintaohje mahdollisia tietokantapalvelimen/Koha-ympäristöjen häiriöitä varten loman ajaksi, sisältäen testien KaTi-viewien pudottamisen ja nextien nostamisen ohjeet.
 * [Koha#2388 Lumme: Internal server error orders API:ssa](https://github.com/KohaSuomi/Koha/issues/2388);
-Tarkistettu lokit. Ongelma näyttää liittyvän mahdollisiin biblio consistency -epäjohdonmukaisuuksiin; Lumpeissa löytyi biblioita joilta puuttui biblioitem/biblio_metadata, ja päivystäjää pyydettiin korjaamaan epäjohdonmukaisuudet. Ongelma poistui korjauksilla.
+Tarkistettu lokit. Ongelma näyttää liittyvän mahdollisiin biblio consistency -epäjohdonmukaisuuksiin. Lumpeissa löytyi biblioita joilta puuttui biblioitem/biblio_metadata, ja päivystäjää pyydettiin korjaamaan epäjohdonmukaisuudet. Ongelma poistui korjauksilla.
 * [Koha#2389 OUTI: Puppe tarvitsee Holds- ja raporttioikeuksia](https://github.com/KohaSuomi/Koha/issues/2389);
 Tarkistettu ja testattu pyydetyt raportit sekä oikeustarve. Todettu, ettei raporttien käytölle ja pyydettyjen oikeuksien lisäämiselle näytä olevan teknisiä esteitä. Kommentoitu raporttien ja Holds-oikeuden käyttötarkoitukset hankinnan priorisoinnissa ja virheellisesti käsitellyn aineiston takaisinkutsussa.
 * [Koha-keskustelu #2384 Käyttöhäiriö 16.6. noin 13.25-13.45](https://github.com/KohaSuomi/Koha/discussions/2384);
