@@ -13,6 +13,93 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 26
+Aika: Ma 22.6.2026<br/>
+Läsnä: 
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 26 päivitys
+
+### Viikolla 25 tehty
+
+#### Johanna
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/9b8d75978bb254c49a40fc1d503e44e7f336fee6) (development)
+* [Update admin/hold_pickup_shelves.js](https://github.com/KohaSuomi/koha-suomi-utility/commit/a3a3320ae2f5b00ba45204d11cc66d635965e51a) (development)
+* [Bug 39140: Add allow multiple holds feature](https://github.com/KohaSuomi/Koha-25x/commit/1dd72d1f711a4890ee5a3ed2d4f90328abdf389a) (ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* [Add filename to order_object](https://github.com/KohaSuomi/koha-plugin-editx/commit/705b88fae896be97ccafb98e039c0e581c4f3a58) (ks25-v2)
+* Remove revert_found method, it is not implemented yet (ks25/ksdev/ks-0317-KOHA-2320-Bug-41267-prevent-itemtype-from-filling-other-biblio-level-holds, ks25dev/ks-0317-KOHA-2320-Bug-41267-prevent-itemtype-from-filling-other-biblio-level-holds)
+* [Add button reload and change color](https://github.com/KohaSuomi/koha-plugin-editx/commit/d47fba6197d7e60cb66320f30d2967eee001e115) (ks25-v2)
+* [Remove revert_found method, it is not implemented yet](https://github.com/KohaSuomi/Koha-25x/commit/3ccf626576c0d7b933adc989fe1644348fe60ce7) (ksdev/ks-0317-KOHA-2320-Bug-41267-prevent-itemtype-from-filling-other-biblio-level-holds)
+* [Add translations and UI fixes](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/3bfe5ebb87a13e1abc7b5d8f646c03f777d4c3ea) (master)
+* [Improve runEditXImport.pl](https://github.com/KohaSuomi/koha-plugin-editx/commit/68b412fc8a3a998401d8657130cbabf1e3e59609) (ks25-v2)
+* [Add information about processing file](https://github.com/KohaSuomi/koha-plugin-editx/commit/e255af074290ef3d7359303fbb647f6c467f1d4f) (ks25-v2)
+* [Change button location](https://github.com/KohaSuomi/koha-plugin-editx/commit/44bdc90ff12802ca29f98334ded59e93e879b72d) (ks25-v2)
+* [Add translations to editxButton.js](https://github.com/KohaSuomi/koha-plugin-editx/commit/604eb109c512fcb3a9ccc8d4859681ed9a5baa12) (ks25-v2)
+* [Remove app.js file](https://github.com/KohaSuomi/koha-plugin-editx/commit/6ce6547b6b45de64d2cea368501780f1ce603b6a) (ks25-v2)
+* [Remove deprecated EdiMessage methods](https://github.com/KohaSuomi/koha-plugin-editx/commit/6468468ed820c5cdbca1e9bf36e6050974eaea9a) (ks25-v2)
+* [Remove unused translations](https://github.com/KohaSuomi/koha-plugin-editx/commit/de5c0c0e4a285bdd6aa5d49e3ddecb926958345b) (ks25-v2)
+* [Remove unused code](https://github.com/KohaSuomi/koha-plugin-editx/commit/51b7aa68b0f4b73b40a182bdf16d80bc583e7f1e) (ks25-v2)
+* [Add editxButton.js](https://github.com/KohaSuomi/koha-plugin-editx/commit/b0f3654051e9bb2cd234d2bb3cce1fbacf54110b) (ks25-v2)
+* [Modify runEditXImport to match REST process](https://github.com/KohaSuomi/koha-plugin-editx/commit/8249af53046cdcd10687bae5cc9b8b42f242cc0a) (ks25-v2)
+* [Reset objectName when no vendor candidate matches](https://github.com/KohaSuomi/koha-plugin-editx/commit/3e7b2176221162b46de4fec25e62815bcb04377b) (ks25-v2)
+* [Delete unused file](https://github.com/KohaSuomi/koha-plugin-editx/commit/cfcfd2d1cd0cbd05e7213535b6ff2113be704a36) (ks25-v2)
+* [Improve error messages for edifact_errors](https://github.com/KohaSuomi/koha-plugin-editx/commit/7cee958b106ffbf1875f62ce0d5f8ed96b921c65) (ks25-v2)
+* [KohaSuomi/Koha - Hyllyvarauslistalla näkyy väärä noutokirjasto kun ensimmäisenä oleva nidevaraus ei ole poimittavissa](https://github.com/KohaSuomi/Koha/issues/2259);
+Kommentti: Tämä hidasti ajoa liikaa, esim. Vaskissa meni 37 min. Otettu pois tuotannosta ja vaatii uudelleen miettimistä.
+* [KohaSuomi/Koha - Ylläpito/Asiakastyypit -taulukkoon käyttöön uusi sarake: Asiakastyypille voi lisätä käyttäjäoikeuksia](https://github.com/KohaSuomi/Koha/issues/2353);
+Kommentti: Tämän voi tehdä tähän branchiin, ksdev/ks-0310-bug-34460-add-can_have_permissions_to_categories
+Kommentti: Tarvitsee tuon siihen alle kuitenkin.
+* [KohaSuomi/Koha - Uusi popup asiakastiedon Virkailija-asiakastyyppimuutoksen tallennukseen](https://github.com/KohaSuomi/Koha/issues/2354);
+Kommentti: Tämän voi tehdä tähän branchiin, ksdev/ks-0310-bug-34460-add-can_have_permissions_to_categories
+Kommentti: Tarvitsee sen kuitenkin siihen alle.
+* [KohaSuomi/Koha - Varausten noutohyllyt: Kotikirjastoon kuljetuksen aikana tehty varaus estää valitsemasta noutohyllyä](https://github.com/KohaSuomi/Koha/issues/2362);
+Tiketti suljettu.
+* [KohaSuomi/Koha - Vaara: Ceepos-kassa ei poista asiakkaan maksuja](https://github.com/KohaSuomi/Koha/issues/2379);
+Kommentti: Voisitko antaa borrowernumberin tällaisesta asiakkaasta?
+* [KohaSuomi/Koha - Varausten noutohyllyt: noutohyllyvalikosta etsiminen kirjoittamalla ja modaaliin käyttöön otetut pikanäppäimet](https://github.com/KohaSuomi/Koha/issues/2382);
+Vastuutettu: johannaraisa.
+* [KohaSuomi/Koha - Vaski: Hyllyvarausraportissa viivettä](https://github.com/KohaSuomi/Koha/issues/2383);
+* [KohaSuomi/Koha - Jos nide on odottamassa jo jollekin muulle ja lainauksessa valitsee "Revert waiting status", tulee 500-virhe.](https://github.com/KohaSuomi/Koha/issues/2385);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on tähän korjaus testillä.
+* [KohaSuomi/koha-plugin-ceepos-integration - Ceepos: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/8);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt on testeillä käännökset ja parantelin asetussivua.
+* [KohaSuomi/koha-plugin-editx - Kokeillaan, saako Kansalliskirjaston EDItX-liitännäisen mergettyä meidän liitännäisen kanssa](https://github.com/KohaSuomi/koha-plugin-editx/issues/15);
+Vastuutettu: johannaraisa.
+Kommentti: Tuo sivu liittyi tähän tikettiin, https://github.com/KohaSuomi/koha-plugin-editx/issues/6. Uusin koodi on nyt testilläkin.
+Kommentti: Olen muuttanut tuota jo niin, ettei erillistä sivua ole vaan ne asiat hoituu siellä Editfact message sivulle Kohassa. Testillä ei taida olla viimeisintä versiota, se on nextillä. Kun ei noiden vientiä voi testata testillä.
+* [KohaSuomi/koha-plugin-editx - EditX-sanomien lähetys REST-rajapinnan kautta](https://github.com/KohaSuomi/koha-plugin-editx/issues/6);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt se lisää huomatukseen tuon tiedon, kun tilaus käsitellään.
+Kommentti: Voisihan tuon lisätä myös sinne.
+* [KohaSuomi/koha-plugin-ssn-provider - Testivastaukset kun on kytketty testiympäristöön.](https://github.com/KohaSuomi/koha-plugin-ssn-provider/issues/9);
+Tiketti avattu.
+* [KohaSuomi/koha-suomi-utility - Test-ympäristöjen elasticsearch-mappings.yaml](https://github.com/KohaSuomi/koha-suomi-utility/issues/126);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Ollille pääsy palvelimella test-ympäristöihin.](https://github.com/KohaSuomi/koha-suomi-utility/issues/131);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Voiko start transactionia käyttää tietokannan päivityksissä?](https://github.com/KohaSuomi/koha-suomi-utility/issues/73);
+Kommentti: Olen kyllä käyttänyt tätä jo monesti, enkä ole huomannut ongelmia.
+* [KohaSuomi/koha-suomi-utility - Tarkitetaan ja lisätään get_patron_data.pl skriptiin tarvittavat tiedot](https://github.com/KohaSuomi/koha-suomi-utility/issues/86);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Toimitalokien seuranta](https://github.com/KohaSuomi/koha-suomi-utility/issues/88);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Maksun muokkaus](https://github.com/KohaSuomi/koha-suomi-utility/issues/89);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Asiakastietojen käsittely](https://github.com/KohaSuomi/koha-suomi-utility/issues/90);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Asiakastietojen katselu](https://github.com/KohaSuomi/koha-suomi-utility/issues/91);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Järjestelmäasetusten käsittely](https://github.com/KohaSuomi/koha-suomi-utility/issues/92);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Kirjautumisten onnistuminen ja epäonnistuminen](https://github.com/KohaSuomi/koha-suomi-utility/issues/93);
+Tiketti suljettu.
+
 ## Viikko 25
 Aika: Ma 15.6.2026<br/>
 Läsnä: Anneli, Johanna, Lari, Kodo, Olli, Pasi
