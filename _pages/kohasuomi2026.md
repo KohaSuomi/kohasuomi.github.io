@@ -100,6 +100,21 @@ Tiketti suljettu.
 * [KohaSuomi/koha-suomi-utility - Kirjautumisten onnistuminen ja epäonnistuminen](https://github.com/KohaSuomi/koha-suomi-utility/issues/93);
 Tiketti suljettu.
 
+#### Kodo
+
+* [koha-suomi-utility#135 Service-check elasticsearch haulle](https://github.com/KohaSuomi/koha-suomi-utility/issues/135);
+Elasticsearch-haun service-check toteutettu. `responses-elasticsearch` lisätty ja viety tuotantoon. Tiketti suljettu.
+* [koha-suomi-utility#136 Service check API:lle](https://github.com/KohaSuomi/koha-suomi-utility/issues/136);
+API:lle lisätty service-check. `responses-api` lisätty ja viety tuotantoon. Tiketti suljettu.
+* [koha-suomi-utility#138 Toimintaohje tietokantapalvelimen (tai Kohien) oikutellessa](https://github.com/KohaSuomi/koha-suomi-utility/issues/138);
+Kirjattu toimintaohje mahdollisia tietokantapalvelimen/Koha-ympäristöjen häiriöitä varten loman ajaksi, sisältäen testien KaTi-viewien pudottamisen ja nextien nostamisen ohjeet.
+* [Koha#2388 Lumme: Internal server error orders API:ssa](https://github.com/KohaSuomi/Koha/issues/2388);
+Tarkistettu lokit. Ongelma näyttää liittyvän mahdollisiin biblio consistency -epäjohdonmukaisuuksiin; Lumpeissa löytyi biblioita joilta puuttui biblioitem/biblio_metadata, ja päivystäjää pyydettiin korjaamaan epäjohdonmukaisuudet. Ongelma poistui korjauksilla.
+* [Koha#2389 OUTI: Puppe tarvitsee Holds- ja raporttioikeuksia](https://github.com/KohaSuomi/Koha/issues/2389);
+Tarkistettu ja testattu pyydetyt raportit sekä oikeustarve. Todettu, ettei raporttien käytölle ja pyydettyjen oikeuksien lisäämiselle näytä olevan teknisiä esteitä. Kommentoitu raporttien ja Holds-oikeuden käyttötarkoitukset hankinnan priorisoinnissa ja virheellisesti käsitellyn aineiston takaisinkutsussa.
+* [Koha-keskustelu #2384 Käyttöhäiriö 16.6. noin 13.25-13.45](https://github.com/KohaSuomi/Koha/discussions/2384);
+Laadittu ja julkaistu häiriötiedote Lastun, Vaaran ja Vaskin hitaushäiriöstä 16.6. Syytä selvitettiin lokien, versioiden, muistin ja laitteiston osalta ilman yksiselitteistä löydöstä. Palvelut palautuivat uudelleenkäynnistyksillä ja tilannetta jäätiin seuraamaan.
+
 ## Viikko 25
 Aika: Ma 15.6.2026<br/>
 Läsnä: Anneli, Johanna, Lari, Kodo, Olli, Pasi
