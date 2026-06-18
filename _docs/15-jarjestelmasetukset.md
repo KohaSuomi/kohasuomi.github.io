@@ -52,23 +52,31 @@ Kuvan pystyy muuttamaan base64-muotoon verkosta löytyvillä konverttereilla. Va
 
 ### IntranetNav
 
-IntranetNav-järjestelmäasetuksella saa lisättyä Kohan yläpalkkiin linkkejä. Alla viimeisin versio, jolla saa lisättyä Koha-Suomi-alasvetovalikon:
+Päivitetty 18.6.2026 versiossa 25.05 toimivaksi.
+
+IntranetNav-järjestelmäasetuksella saa lisättyä Kohan yläpalkkiin linkkejä. Alla viimeisin versio, jolla saa lisättyä Koha-Suomi-alasvetovalikon ja linkin Finnaan:
 
 ```
-<li class="dropdown pull-right"><li class="nav navbar-nav pull-right"><a href="
-<li id="kohasuomi-navlinkit" class="dropdown pull-right">
-  <a href="/cgi-bin/koha/mainpage.pl" class="dropdown-toggle" data-toggle="dropdown">Koha-Suomi <b class="caret"></b></a>
-  <ul class="dropdown-menu dropdown-menu-left">
-    <li><a href="https://koha-suomi.fi/dokumentaatio/ohjeet/
-" target="_ohjeet">Koha-ohje</a></li>
-<li><a href="https://github.com/KohaSuomi/Koha/discussions
-" target="_tiedotteet">Tiedotteet</a></li>
-<li><a href="https://koha-suomi.fi/muistiot
-" target="_muistiot">Muistiot</a></li>
-<li><a href="https://github.com/orgs/KohaSuomi/projects/4
-" target="_tiketit">Tiketit</a></li>
- </ul>
-</li>
+<li class="nav-item"><a class="nav-link" href="https://siilinjarvenkirjasto.finna.fi" target="_finna">Siili-Finna</a></li>
+
+<div class="dropdown">
+  <button
+    class="btn btn-dark dropdown-toggle"
+    type="button"
+    id="sivuDropdown"
+    data-bs-toggle="dropdown"
+    aria-expanded="false">
+    Koha-Suomi
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="sivuDropdown">
+    <li><a class="dropdown-item" href="https://koha-suomi.fi/dokumentaatio/ohjeet/" target="_ohjeet">Ohjeet</a></li>
+    <li><a class="dropdown-item" href="https://github.com/KohaSuomi/Koha/discussions" target="_tiedotteet">Tiedotteet</a></li>
+    <li><a class="dropdown-item" href="https://koha-suomi.fi/muistiot" target="_muistiot">Muistiot</a></li>
+    <li><a class="dropdown-item" href="https://github.com/orgs/KohaSuomi/projects/4" target="_tiketit">Tiketit</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="https://www.youtube.com/@koha-suomi" target="_youtube">Koha-Suomen Youtube-kanava</a></li>
+  </ul>
+</div>
 ```
 
 ### IntranetReportsHomeHTML
