@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 26
+
+Aika: Ti 16.6.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+[Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 25
 
