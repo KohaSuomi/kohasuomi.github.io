@@ -14,7 +14,7 @@ hidden: true
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
 ## Viikko 26
-Aika: Ma 22.6.2026<br/>
+Aika: Ma 22.6.2026 klo 9<br/>
 Läsnä: 
 
 ### Vastuuttomat tiketit
@@ -22,6 +22,7 @@ Läsnä:
 
 ### Muuta
 * Viikon 26 päivitys
+* [Tiketin 2259](https://github.com/KohaSuomi/Koha/issues/2259) korjaus jouduttiin ottamaan pois tuotannosta, koska se hidasti hyllyvarausraportin toimintaa huomattavasti.
 
 ### Viikolla 25 tehty
 
