@@ -16,7 +16,8 @@ Aika: Ti 16.6.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-[Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
+* [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
+* Huom: Fill other holds on record - sarakkeen arvona näkyy oletuksena Ei olemassa oleville säännöille, vaikka sitä ei ole niille määritetty laina- ja maksusääntöihin. Tämä on käyttöliittymäharha ja tieto ei ole tallennettuna tietokantaan. Kannattaa poistaa sääntö ja luoda se uudelleen, jolloin myös sääntö tallentuu tietokantaan.
 
 Etelästä pohjoiseen
 
