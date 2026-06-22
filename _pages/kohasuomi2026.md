@@ -115,6 +115,44 @@ Tarkistettu ja testattu pyydetyt raportit sekä oikeustarve. Todettu, ettei rapo
 * [Koha-keskustelu #2384 Käyttöhäiriö 16.6. noin 13.25-13.45](https://github.com/KohaSuomi/Koha/discussions/2384);
 Laadittu ja julkaistu häiriötiedote Lastun, Vaaran ja Vaskin hitaushäiriöstä 16.6. Syytä selvitettiin lokien, versioiden, muistin ja laitteiston osalta ilman yksiselitteistä löydöstä. Palvelut palautuivat uudelleenkäynnistyksillä ja tilannetta jäätiin seuraamaan.
 
+#### Anneli
+
+##### Dokumentaatio, ohjeet ja wiki‑päivitykset
+- Täydensin [versionvaihdon uudet ominaisuudet ‑wikiä](https://github.com/KohaSuomi/Koha-26x/wiki/Uutta-versiossa-26.xx).  
+- Laadin [viikon 25 päivitystiedotteen](https://github.com/KohaSuomi/Koha/discussions/2378).  
+- Päivitin Kaukolaina-moduulin käyttöönotto-ohjeeseen uudemman version FA‑kuvailupohjasta.  
+- Päivitin Järjestelmäasetukset-sivulle IntranetNav‑asetuksen HTML‑sisällön vastaamaan versiota 25.05.  
+- Päivitin [IntranetUserJS‑kirjaston](https://koha-suomi.fi/dokumentaatio/intranetuserjs/) version 25.05 mukaiseksi.
+##### Bugien ja virheiden selvitys
+- Selvitin Kodin kuvalehden vastaanoton 500‑virhettä (sarjajulkaisun numerointiongelma).  
+- Kävin läpi viimeisen viikon aikana lisätyt bugit ([bugilista](https://bugs.koha-community.org/bugzilla3/buglist.cgi?chfield=%5BBug%20creation%5D&chfieldfrom=7d&list_id=624995)).  
+- Poistimme tuotannosta tiketin [#2259](https://github.com/KohaSuomi/Koha/issues/2259), koska se hidasti hyllyvarausraportin luontia. Lisäsin päivitystiedotteeseen tiedon poistosta.
+- Keskustelin tieteellisen kirjaston pääkäyttäjän kanssa kaukolainapyyntöjen 500‑virheestä ja ohjasin tarkistamaan palvelinlokit.  
+- Tutkin, miksi *Fill other holds on record* ‑asetus ei toiminut ja löysin puuttuvan merkinnän *circulation_rules*‑taulusta. Käyttöliittymä näytti valinnan, mutta *circulation_rules*‑taulussa ei ollut vastaavaa merkintää. Ehdotin säännön poistamista ja uudelleenluontia.
+- OUTIssa selvitimme monistuneita uusintoja, jotka olivat syntyneet APIn (Finnan) kautta parin sekunnin sisällä toisistaan. Näitä ei ollut monia, mutta hyvä tietää, että tällaisiakin voi tapahtua.
+- Testasin tiketin [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista](https://github.com/KohaSuomi/Koha/issues/2075) — ei toiminut.  
+- Testasin tiketin [Revert waiting status aiheuttaa 500‑virheen](https://github.com/KohaSuomi/Koha/issues/2385) — korjaus toimi.  
+- Testasin siili-testillä osakohteiden hakua ja kommentoin tikettiin [Jaetun kuvailutietovarannon muodostaminen testeille](https://github.com/KohaSuomi/Koha/issues/2253), ettei osakohteiden haku toimi.
+- Testasin EditX‑toimintoja tiketeissä  
+  - [#15](https://github.com/KohaSuomi/koha-plugin-editx/issues/15)  
+  - [#6](https://github.com/KohaSuomi/koha-plugin-editx/issues/6)  
+- Tein [tiketin](https://github.com/KohaSuomi/koha-suomi-utility/issues/137) Lastun toimimattomasta redirectistä http→https.  
+##### Raportit
+- Tein raportin BTJ:n tuplaosakohteista ([#2380](https://github.com/KohaSuomi/Koha/issues/2380)).  
+- Päivitin 001+003‑tuplaraportin versiota lisäämällä ISBN:n ja EAN:n ([kommentti](https://github.com/KohaSuomi/Koha/issues/2306#issuecomment-4706709605)).
+##### Käännökset
+- Osallistuin Ruotsin käännöspalaveriin.  
+- Lisäsin käännökset tiketteihin  
+  - [intranetjs-cart-link-to-record-in-finna #3](https://github.com/KohaSuomi/koha-plugin-intranetjs-cart-link-to-record-in-finna/issues/3)  
+  - [intranetjs-search-helpers #2](https://github.com/KohaSuomi/koha-plugin-intranetjs-search-helpers/issues/2)  
+- Tarkistin käännösmuutokset yllä mainittuihin tiketteihin.  
+- Tein käännöksiä Weblatessa (useina päivinä).  
+- Tein uuden tiketin väärästä ruotsinkielisestä termistä: [IntranetUserJS: Muutokset hakusivulla](https://github.com/KohaSuomi/Koha/issues/2386#top).
+##### Palaverit ja yhteistyö
+- Osallistuin Koha-Suomen viikkopalaveriin.  
+- Osallistuin pääkäyttäjien viikkopalaveriin.
+- Osallistuin tieteellisten kirjastojen palaveriin.
+
 ## Viikko 25
 Aika: Ma 15.6.2026<br/>
 Läsnä: Anneli, Johanna, Lari, Kodo, Olli, Pasi
