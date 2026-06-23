@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: Ti 23.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
@@ -35,6 +35,9 @@ Etelästä pohjoiseen
 * Verkkokirjastossa otettu käyttöön Sarjan osat -välilehti.
 * Käytössä olevat API-avaimen vaihdettu uusiin (valutus, Finna, Puppe).
 * Varausten noutomuistutukset otettu käyttöön 22.6.2026.
+
+**Kirkes**
+ * Elina lomalla 21.7. asti, Erika toimii Kirkes-pääkäyttäjänä sen aikaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
