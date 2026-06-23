@@ -13,13 +13,19 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi) 
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
 * Huom: Fill other holds on record - sarakkeen arvona näkyy oletuksena Ei olemassa oleville säännöille, vaikka sitä ei ole niille määritetty laina- ja maksusääntöihin. Tämä on käyttöliittymäharha ja tieto ei ole tallennettuna tietokantaan. Kannattaa tarvittaessa (jos haluaa sen toimivan) poistaa sääntö ja luoda se uudelleen, jolloin myös sääntö tallentuu tietokantaan.
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Epäonnistuneita taustatöitä (Niteiden poisto eräajona) alkanut ilmestyä 12.6. lähtien normaalia enemmän. Tehdään tiketti
+* 003-kentän siivousta tehty. ESINE-pohjassa kenttä ei ole pakollinen, lisätään pakollisuus
+* Muutetaan Saamelaismuseon peruskokoelman tunnus SMPE -> SAMI (Sámi). Vanhalla tunnuksella olevien muutos tarvittaessa massana. 
+* Kaikkiin automaatteihin on lisätty puuttunut instituutiotieto AO
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
