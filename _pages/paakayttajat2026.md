@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
