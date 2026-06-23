@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 26
 
 Aika: Ti 23.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
@@ -38,6 +38,10 @@ Etelästä pohjoiseen
 
 **Kirkes**
  * Elina lomalla 21.7. asti, Erika toimii Kirkes-pääkäyttäjänä sen aikaa
+
+**Lumme**
+* Epäonnistuneita taustatöitä niteiden poistosta eräajona alkanut ilmestyä myös Lumpeisiin 12.6. lähtien.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
