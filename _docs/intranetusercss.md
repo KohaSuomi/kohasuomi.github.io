@@ -803,6 +803,12 @@ body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palaut
 body#circ_returns.circ div.modal-content li.notification_method { display: inline-block !important; } /* Palautetaan näkyville Ilmoitus asiakkaalle, jos kaksi ensimmäistä piilotusta piilottavat sen puhelinnumeron ja/tai sähköpostin puuttumisen takia */
 ```
 
+Jos käytössä on noutohyllyt, ylläolevat piilotukset piilottavat noutohyllyjen valinnasta vaihtoehtoja. Kannattaa lisätä tämä rivi ylläolevien jälkeen valintojen palauttamisesksi näkyviin.
+```
+body#circ_returns.circ div.modal-content div#hold-pickup-shelves-view ul li { display: block !important; } /* noutohyllyvalikon palautus */
+```
+
+
 ### Laskutettu-merkintä palautuksessa isommaksi
 
 Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevalla css-säädöllä Laskutettu-ohjeistuksen kokoa saa säädettyä isommaksi.
