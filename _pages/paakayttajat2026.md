@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 * Epäonnistuneita taustatöitä (Niteiden poisto eräajona) alkanut ilmestyä 12.6. lähtien normaalia enemmän. Tehdään tiketti
 * 003-kentän siivousta tehty. ESINE-pohjassa kenttä ei ole pakollinen, lisätään pakollisuus
 * Muutetaan Saamelaismuseon peruskokoelman tunnus SMPE -> SAMI (Sámi). Vanhalla tunnuksella olevien muutos tarvittaessa massana. 
-* Kaikkiin automaatteihin on lisätty puuttunut instituutiotieto AO
+* Kaikkiin automaatteihin, josta vielä puuttunut, on lisätty instituutiotieto AO
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
