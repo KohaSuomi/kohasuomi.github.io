@@ -34,7 +34,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Verkkokirjastossa otettu käyttöön Sarjan osat -välilehti.
 * Käytössä olevat API-avaimen vaihdettu uusiin (valutus, Finna, Puppe).
-* Varausten noutomuistutukset otettu käyttöön 22.6.2026.
+* Varausten noutomuistutukset otettu käyttöön 22.6.2026. Otetaan toistaiseksi käyttöön omat käännökset verkkokirjaston viestiasetuksissa.
 
 **Kirkes**
  * Elina lomalla 21.7. asti, Erika toimii Kirkes-pääkäyttäjänä sen aikaa
