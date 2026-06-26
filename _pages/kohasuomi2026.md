@@ -25,6 +25,45 @@ Läsnä:
 
 ### Viikolla 26 tehty
 
+#### Lari
+
+  Tiketit
+
+  * [OUTI: Varauksen noutomuistutus käyttöön 22.6.2026](https://github.com/KohaSuomi/Koha/issues/2387) https://github.com/KohaSuomi/Koha/issues/2387
+    [22.6.] Lisätty "päivää ennen"-täppä tuotantoon:  UPDATE message_attributes SET takes_days = 1 WHERE message_name = 'Hold_Reminder' 
+
+    [22.6.] Lisätty noutomuistutusten muodostus:    13 09 * * *        $TRIGGER cronjobs/holds/hold_reminder_new.pl -v -c  Käytössä ei ole päivää ennen-oletusvipua joten asiakkaalle lähtee noutomuistutus vain, jos hänelle on tallennettu myös päivää ennen -arvo tietokantaan.
+
+  * [Kirjautumisten lokittuminen](https://github.com/KohaSuomi/Koha/issues/1926) https://github.com/KohaSuomi/Koha/issues/1926
+    [22.6.] Tämä odottelee vielä muutoksen 99-sanomien käsittely SIP-palvelimen ohi https://github.com/KohaSuomi/koha-plugin-SIPoHTTP/issues/1 testausta Bibliothecan kanssa. Kunhan on testattu, että on OK ja muutos saatu tuotantoon, voidaan pitää jossain tuotantokannassa testijakso AuthSuccess-lokituksen kanssa. Jos lokit eivät tarkasteluvälillä kasva aivan tolkuttomasti, voidaan toiminto ottaa sitten kimpoissa käyttöön.
+
+  * [SIP2:n CR-kenttä](https://github.com/KohaSuomi/Koha/issues/2391) https://github.com/KohaSuomi/Koha/issues/2391
+    [22.6.] Mitä sip-lokeilta löytyi, niin 09/10-sanomissa (palautus) kenttä välittyy ja arvot ovat kokoelmakoodeja. En löytänyt Kohan ohjeesta kyseisen kentän muokkausohjetta, mutta konfiguraatiotiedostoon määritys asetetaan tunnuskohtaisesti näin: https://github.com/Koha-Community/Koha/blob/51bdab13ee648fafc2412859debea4c44f68d760/etc/SIPconfig.xml#L70
+
+    [26.6.] Jos nyt siis haluaisi automaatin sanomaan kulkemaan hyllypaikan, pitäsi sipconfig.xml:ään määrittää jokaiselle tunnukselle cr_item_field="shelving_location".  Seuraavassa versionvaihdossa tämän voi valita virkailijaliittymästä käsin, mutta jos tälle muutokselle on tarvetta jo nyt, voidaan SIP-palvelinkonfiguraatiot muuttaa nytkin. Versionvaihdossa arvo tulisi sitten kopioitumaan tietokantaan valmiiksi.  
+
+    [26.6.] CR-kentän datan muutamiselle ei näytä olevan tarvetta (lajittelut hoidettu sip2sortbinmapping-asetuksella), korkeintaan yksittäisille tunnuksille voisi harkita muutosta erikoistapauksissa. Tämä nyt vain tiedoksi, että on mahdollista.
+
+  * [Hyllyvarauslistalla näkyy väärä noutokirjasto kun ensimmäisenä oleva nidevaraus ei ole poimittavissa](https://github.com/KohaSuomi/Koha/issues/2259) https://github.com/KohaSuomi/Koha/issues/2259
+    [25.6.] Tämä bugi on korjattu uudessa hylyvarauslistan generointiskriptissä, joka perustuu yhteisön tapaan kerätä hyllyvaraukset. Tämä pitäisi testata nyt uudelleen testeillä.
+
+  * [Vaski: Hyllyvarausraportissa viivettä](https://github.com/KohaSuomi/Koha/issues/2383) https://github.com/KohaSuomi/Koha/issues/2383
+    [25.6.] Testeille on viety uusi versio hyllyvarauslistan datan generointiskriptistä ja se noudattaa yhteisön logiikkaa tietojen keruussa. Alustavien ajokokeilujen mukaan skripti ajautuu n. 4 kertaa nopeammin, kuin vanha skripti. Vaara-testillä kerätty data on muuten yhteneväinen uuden ja vanhan skriptin kanssa, paitsi verrattuna vanhaan skriptiin löytyi pari uutta listalle päätynyttä varausta, jotka eivät jääneet vanhaan skriptiin kiinni, mutta kuuluisivat näkyville hyllyvarauslistalle.  Vanhalta listalta puuttui Alec: https://vaara-test.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=4811 ja Lumienkeleitä Rantakylässä: https://vaara-test.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=653.  Syytä, miksi ne puuttuivat vanhan skriptin keräämästä datasta, ei ole vielä saatu selville.  Uusi versio update-holds-to-pull-new.pl on lisätty ajastettuihin ajoihin testeillä (vanha korvattu tällä, samat ajastukset kuin ennenkin). Tätä voisi nyt testata testeillä ja katsoa, ettei listalta puutu mitään, mikä sinne kuuluisi ja että data on muutenkin oikein muodostunut ja paikkaansapitävää. Yhteisötoteutuksesta poiketen tietuetta kohden lasketut varaukset lasketaan yksittäisistä varauksista kuten ennenkin meidän versiossa (yhteisössä yhden asiakkaan useammat varaukset samaan tietueeseen laskettin yhdeksi varaukseksi, eli uniikkien varaavien asiakkaiden lukumäärä ilmoitettiin). Myös järjestelmäasetus item-level_itypes on ohitettu ja materiaalitiedot haetaan biblioitems.itemtype:sta.  Skriptissä on mukana korjaus tiketin https://github.com/KohaSuomi/Koha/issues/2259 ongelmaan.  
+
+  * [Myös asiakkaan yksityisoikeudelliset maksut estävät varaamisen verkkokirjastossa](https://github.com/KohaSuomi/Koha/issues/2365) https://github.com/KohaSuomi/Koha/issues/2365
+    [26.6.] Testeille on muutettu metodia, joka tarkastaa maksujen määrän varausta tehdessä. Nyt ei yksityisoikeudelliset maksut pitäisi aiheuttaa debt_limit-herjaa. Testatkaa kimppojenne Finna-Pre-osoitteessa. Huom. Vaaran testi-Finna toimii väärin ja on näköjään kytköksissä tuotanto-Kohaan. Siitä voisi pistää palautetta Finna-toimistoon.  Korjaus branchissa ksdev/ks-0320-KOHA-2365-non-issue-charges-for-opac-api-reserves.
+
+  * ["email"-oletusyhteydenottotapa-ajo kimppoihin, joilla asiakkaan vanhentumisilmoitusviestit pakotettuna](https://github.com/KohaSuomi/Koha/issues/2342) https://github.com/KohaSuomi/Koha/issues/2342
+    [26.6.] Ajettu myös Lumpeisiin.
+
+  Kommitit
+
+  * KohaSuomi/Koha-25x
+    * `040bd16` [25.6.] Revert "KOHA-2259 Select first pickable hold for pull list pickup branch, check items"
+    * `fb96212` [25.6.] KOHA-2259 revamped holds to pull with community logic + 2259 bugfix
+    * `118410d` [25.6.] new script show total reserves count instead of distinct borrowercount, chmod
+    * `0ad8380` [26.6.] KOHA-2365 pass only non_issues_charges with debt_check for API/OPAC
+
 #### Anneli
 
 ##### Käännöstyö
