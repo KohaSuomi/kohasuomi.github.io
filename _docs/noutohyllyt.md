@@ -29,6 +29,9 @@ Noutohyllyn voi halutessaan sitoa tiettyyn viikonpäivään, aineistotyyppiin ja
 
 Noutohyllyn voi myös lukita pois käytöstä tai määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä. Pääkäyttäjä pystyy myös poistamaan lukituksen, jos jokin hylly on esimerkiksi vahingossa merkattu täydeksi ja se haluttaisiin takaisin saataville.
 
+**Huom!** Tyhjentynyt, 0 nidettä sisältävä noutohylly voi näkyä ylläpidon puolella lukittuna, vaikka se ei todellisuudessa sitä ole. Tämä johtuu siitä, että lukitus-rasti poistuu noutohyllyn tiedoista vasta kun toimipisteessä tärppäytetään ensimmäinen varaus tyhjentymisen jälkeen. Koha osaa siis tarjota tyhjentyneitä noutohyllyjä välittömästi vaikka ylläpidossa vielä lukitus-rasti olisikin. Tyhjän hyllyn lukitusta *ei* kannata mennä sörkkimään, sillä ainakin Turussa saatiin tällä tavoin aikaan tilanne jossa hyllyt eivät vapautuneetkaan käytettäväksi ilman kehittäjän tekemää tietokanta-ajoa.
+{: .notice--warning}
+
 Noutohyllyn nimen ei tarvitse olla uniikki, mutta tismalleen kahta samanlaista noutohyllyä ei voi luoda.
 
 Noutohyllyjen prioriteettijärjestystä voi säätää nuolipainikkeilla ja pudotusvalikosta arvon valitsemalla. Jotta säätämistä olisi mahdollisimman vähän, kannattaa perustamisvaiheessa miettiä jo valmiiksi missä järjestyksessä noutohyllyt perustaa.
@@ -36,8 +39,6 @@ Noutohyllyjen prioriteettijärjestystä voi säätää nuolipainikkeilla ja pudo
 - Huom! Suodata näkyville haluamasi kirjaston noutohyllyt, kun alat muokata prioriteettijärjestystä. Mikäli prioriteettinä näkyy aluksia kaikille '1', päivittyvät prioriteettiarvot ajan tasalle, kun muokkaat jonkin noutohyllyn prioriteettiä.
 
 ## Esimerkki noutohyllylogiikasta ja järjestyksestä Turussa
-
-(Tähän lisätään esimerkki myöhemmin, kun noutohyllyt on saatu kunnolla Turussa käyttöön)
 
 Prioriteetti|Kirjaston nimi|Hyllyn nimi|Niteitä enintään|Viikonpäivä|Asiakastyyppi|Aineistotyyppi|Ylivuotohylly|Lukittu
 ---|---|---|---|---|---|---|---|---
