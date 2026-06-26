@@ -25,6 +25,40 @@ Läsnä:
 
 ### Viikolla 26 tehty
 
+#### Anneli
+
+##### Käännöstyö
+- Tein käännöksiä Weblatessa useana päivänä ja vein uusimmat Koha‑Suomi‑käännökset koha‑translations‑repoon.
+- Keräsin liitännäisten käännöksiä suoraan koodista ja tarkistin suomen- ja englanninkieliset tekstit.
+- Kommentoin käännöstiketteihin, että suomi ja englanti on tarkistettu ja ruotsi tulossa myöhemmin.
+- Tarkistin ruotsinkieliset termit tikettiin [#2386](https://github.com/KohaSuomi/Koha/issues/2386).
+- Ihmettelin Finna-käännöksiä outilaisten kanssa.
+
+
+##### Bugit, tiketit ja testaus
+- Tein tiketin SIP2:n CR‑kentästä: [#2391](https://github.com/KohaSuomi/Koha/issues/2391).
+- Kommentoin bugia, jossa pohdittiin hankintaehdotuksen käyttöä wishlist‑toiminnon sijaan:
+[bugi 42887](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42887)
+- Testasin lehtivarausten aiheuttamaa noutohyllyjen kuormitusta: [#2331](https://github.com/KohaSuomi/Koha/issues/2331).
+- Tein tiketin noutohyllyjen ylläpidossa olevien valikoiden aakkostusongelmasta: [#2394](https://github.com/KohaSuomi/Koha/issues/2394).
+- Tutkin kimpoissa esiintyneitä tietueita, jotka olivat sekä biblio‑ että deletedbiblio‑tauluissa: [#2395](https://github.com/KohaSuomi/Koha/issues/2395).
+- Testasin tietueiden poistoa samaa tikettiä varten.
+- Tarkistin, mitkä teokset nousivat uudelle hyllyvarauslistalle (liittyy tikettiin [#2259](https://github.com/KohaSuomi/Koha/issues/2259)).
+- Selvitin ongelmaa, jossa takaajatiedot piiloutuivat CSS‑piilotuksen vuoksi. Ongelman syyksi paljastui se, että kimpassa ei oltu vielä tehty ajoa, jossa kaikille asiakkaille lisätään primary_contact_method-kenttään arvo 'email' (liittyy tikettiin
+[https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3](https://github.com/KohaSuomi/koha-plugin-intranetjs-set-defaults/issues/3)).
+
+
+##### Noutohyllyt ja varaukset
+- Kyselin noutohyllyt‑huoneessa aineistotyyppikohtaisen noutohyllyn logiikasta ja varmistin, että nykyinen toiminta on tarkoituksenmukaista.
+- Selvitin lukkiutuneisiin noutohyllyihin liittyviä ongelmia ja ohjasin asian eteenpäin korjattavksi viikon päivystävälle kehittäjälle.
+
+##### Palaverit, tiedotus ja yhteistyö 
+- Osallistuin Koha‑Suomen viikkopalaveriin.
+- Julkaisin **viikon 26 päivitystiedotteen** ([linkki](https://github.com/KohaSuomi/Koha/discussions/2390))
+- Osallistuin pääkäyttäjien viikkopalaveriin.
+- Kävin keskusteluja Matrixissa ja Mattermostissa eri ongelmista ja ratkaisuista.
+
+
 ## Viikko 26
 Aika: Ma 22.6.2026 klo 9<br/>
 Läsnä: Ari, Anneli, Pasi, Emmi, Lari, Olli
