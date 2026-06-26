@@ -84,6 +84,10 @@ Varauskuitti (HOLD_SLIP), saapumisilmoitus (HOLD) ja noutomuistutus (HOLD_REMIND
 
 Halutessasi voit myös lisätä uuden räätälöidyn kuittipohjan, jolla asiakkaan tiedoista saa tulostettua kuitin noudettavissa olevista varauksista. [Mallipohja löytyy viesti- ja kuittipohjakirjastosta.](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/#r%C3%A4%C3%A4t%C3%A4l%C3%B6ity-kuitti-asiakkaan-noudettavat-varaukset)
 
+## IntranetUserCSS
+
+Varaus-popupista on piilotettu kaikissa kimpoissa CSS:llä asiakkaan tiedot. Nämä piilotukset piilottavat noutohyllyjen valinnasta vaihtoehtoja, minkä vuoksi olemassaolevan CSS-rimpsun jatkeeksi on lisättävä uusi koodinpätkä. [Pätkä löytyy tämän linkin takaa IntranetUserCSS-kirjastosta.](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-asiakkaan-tiedot-varaus-popupeista)
+
 ## Raportit
 
 Noutamattomien erääntyneiden varausten raportille on lisättävä noutohyllytieto. [Esimerkki Turun raportista, johon noutohyllytieto on lisätty, löytyy raporttikirjastosta.](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#vanhentuneet-noutamattomat-varaukset-raportilla-noutohylly-tieto)
