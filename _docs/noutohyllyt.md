@@ -29,8 +29,7 @@ Noutohyllyn voi halutessaan sitoa tiettyyn viikonpäivään, aineistotyyppiin ja
 
 Noutohyllyn voi myös lukita pois käytöstä tai määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä. Pääkäyttäjä pystyy myös poistamaan lukituksen, jos jokin hylly on esimerkiksi vahingossa merkattu täydeksi ja se haluttaisiin takaisin saataville.
 
-**Huom!** Tyhjentynyt, 0 nidettä sisältävä noutohylly voi näkyä ylläpidon puolella lukittuna, vaikka se ei todellisuudessa sitä ole. Tämä johtuu siitä, että lukitus-rasti poistuu noutohyllyn tiedoista vasta kun toimipisteessä tärppäytetään ensimmäinen varaus tyhjentymisen jälkeen. Koha osaa siis tarjota tyhjentyneitä noutohyllyjä välittömästi vaikka ylläpidossa vielä lukitus-rasti olisikin. Tyhjän hyllyn lukitusta *ei* kannata mennä sörkkimään, sillä ainakin Turussa saatiin tällä tavoin aikaan tilanne jossa hyllyt eivät vapautuneetkaan käytettäväksi ilman kehittäjän tekemää tietokanta-ajoa.
-{: .notice--warning}
+- **Huom!** Tyhjentynyt, 0 nidettä sisältävä noutohylly voi näkyä ylläpidon puolella lukittuna, vaikka se ei todellisuudessa sitä ole. Tämä johtuu siitä, että lukitus-rasti poistuu noutohyllyn tiedoista vasta kun toimipisteessä tärppäytetään ensimmäinen varaus tyhjentymisen jälkeen. Koha osaa siis tarjota tyhjentyneitä noutohyllyjä välittömästi vaikka ylläpidossa vielä lukitus-rasti olisikin. Tyhjän hyllyn lukitusta *ei* kannata mennä sörkkimään, sillä ainakin Turussa saatiin tällä tavoin aikaan tilanne jossa hyllyt eivät vapautuneetkaan käytettäväksi ilman kehittäjän tekemää tietokanta-ajoa.
 
 Noutohyllyn nimen ei tarvitse olla uniikki, mutta tismalleen kahta samanlaista noutohyllyä ei voi luoda.
 
