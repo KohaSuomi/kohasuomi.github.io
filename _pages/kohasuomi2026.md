@@ -98,6 +98,17 @@ Läsnä: Lari, Anneli, Pasi, Olli, Emmi ja Ari
 - Osallistuin pääkäyttäjien viikkopalaveriin.
 - Kävin keskusteluja Matrixissa ja Mattermostissa eri ongelmista ja ratkaisuista.
 
+#### Emmi
+
+* [Tietueiden poistossa ongelmia useissa kimpoissa](https://github.com/KohaSuomi/Koha/issues/2395): Joissakin kimpoissa tietueiden poistaminen epäonnistuu, kun poistettavan tietueen metadataa yritetään siirtää deletedbiblio_metadata-tauluun. Syy tähän ei ole vielä selvillä, koska virheilmoituksen tulostaminen epäonnistuu koodivirheeseen. Koska epäonnistuneita poistoja syntyy nyt koko ajan ja ne aiheuttavat kantaan tuplatietueen biblio- ja deletedbiblio-tauluihin, virheilmoituksen korjaukseen on tehty pikainen korjaus jota ei ole vielä ehdotettu yhteisöön. Samaan ongelmaan liittyy myös seuraava tiketti:
+  * [Indekseissä aukkoja joissakin kimpoissa](https://github.com/KohaSuomi/Koha/issues/2393): Tietueen epäonnistunut poisto aiheuttaa aukkoja indeksointiin. Näitä on korjailtu kimpoille aina kun niitä havaitaan. 
+* Kifin tilastointiaineisto on saatuu lähetettyä onnistuneesti eteenpäin. Ensimmäinen lähetysyritys keskeytyi jostain syystä, toinen meni onnistuneesti perille. Aineiston keräämiseen tehtiin seuraavat muutokset: 
+  * [Raportteri: Kellutuksen määrittelyssä ongelmia](https://github.com/KohaSuomi/koha-plugin-report-services/issues/18): Kellutuksen määrittely ei ottanut riittävän tarkasti huomioon kellutussääntöjen vaikutusta niteen kellumiseen. Tämä korjattiin, jolloin ajoon menevä aika kasvoi huomattavasti ja määrittelyä oli vielä optiomoitava.       
+  * [Raportteri: Nidepaketit tulisi hakea määrän, ei itemnumberin mukaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/10): Aiemmin niteet haettiin käsiteltäväksi nidenumeron (itemnumber) mukaan. Tällöin niteitä käsiteltiin niin, että yhteen nide pakettiin otettiin mukaan niteet joiden nidenumero on välillä 0-10000, 10001-20000 jne. ja kussakin paketissa oli vaihteleva määrä niteitä. Tämä johtaa ennen pitkään tilanteeseen, jossa käsittelyaika kasvaa suhteettoman suureksi nidenumeroiden arvojen kasvaessa. Nyt käsittelyä on muutettu siten, että kukin paketti sisältää aina 10000 nidettä ja käsittelyajan pitäisi teoriassa pysyä maltillisena. 
+* [Laskutustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/37): Käännösten tekemistä jatkettu.
+* Yhteisöpalaveri 24.6.
+* Palaveri vahvantunnistautumisen luomisesta 25.6.
+* Siilinjärven uuden kuntasovelluksen aloituspalaveri 25.6.
 
 ## Viikko 26
 Aika: Ma 22.6.2026 klo 9<br/>
