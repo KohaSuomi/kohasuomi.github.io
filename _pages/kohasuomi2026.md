@@ -15,13 +15,14 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 
 ## Viikko 27
 Aika: Ma 29.6.2026 klo 9<br/>
-Läsnä:
+Läsnä: Lari, Anneli, Pasi, Olli, Emmi ja Ari
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muuta
 * Viikon 27 päivitys
+* Päivystysvuorot viikosta 28 alkaen
 
 ### Viikolla 26 tehty
 
