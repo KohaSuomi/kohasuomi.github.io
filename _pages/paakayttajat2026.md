@@ -33,6 +33,10 @@ Pohjoisesta etelään
 * Kuntasovelluksen toimittaja vaihtuu, uusi toimittaja lupaili nopeaa käyttöönottoa jo elokuulle.
 * Eipä muuta erikoista.
 
+**Vaski**
+* Havaittu ongelma palautussivun kuljetusmodaalin pikanäppäimissä. Jos nide on ensin laitettu kuljetukseen ja sitten siihen tärppää varaus, Kohan palautuksessa aukeaa kaksi päällekkäistä modaalia (päällimmäisenä varausmodaali, jonka alla kuljetusmodaali). Pikanäppäinten käyttö kohdistui piilossa olevaan kuljetusmodaaliin. [Mikko sääti koodia ja Vaskille laitettiin aamulla uusi koodi IntranetUserJS-asetukseen.](https://github.com/KohaSuomi/Koha/issues/1741#issuecomment-4831614270)
+* Keskusteltiin, että ylipäätään hölmö toiminnallisuus avata kaksi modaalia päällekkäin. Vaski voisi tehdä tästä tiketin. Vaski tiketöimässä myös sen, että kuljetus merkitään nyt perille saapuneeksi, kun varauksen vahvistaa (varauksen vahvistus kuittaa siis kuljetuksen "valmiiksi" mutta ei merkitse sitä peruutetuksi vaan näyttää tietokannassa siltä, kuin olisi saapunut perille kohdekirjastoonsa).
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 26
