@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
@@ -37,12 +37,17 @@ Pohjoisesta etelään
 * Havaittu ongelma palautussivun kuljetusmodaalin pikanäppäimissä. Jos nide on ensin laitettu kuljetukseen ja sitten siihen tärppää varaus, Kohan palautuksessa aukeaa kaksi päällekkäistä modaalia (päällimmäisenä varausmodaali, jonka alla kuljetusmodaali). Pikanäppäinten käyttö kohdistui piilossa olevaan kuljetusmodaaliin. [Mikko sääti koodia ja Vaskille laitettiin aamulla uusi koodi IntranetUserJS-asetukseen.](https://github.com/KohaSuomi/Koha/issues/1741#issuecomment-4831614270)
 * Keskusteltiin, että ylipäätään hölmö toiminnallisuus avata kaksi modaalia päällekkäin. Vaski voisi tehdä tästä tiketin. Vaski tiketöimässä myös sen, että kuljetus merkitään nyt perille saapuneeksi, kun varauksen vahvistaa (varauksen vahvistus kuittaa siis kuljetuksen "valmiiksi" mutta ei merkitse sitä peruutetuksi vaan näyttää tietokannassa siltä, kuin olisi saapunut perille kohdekirjastoonsa).
 
+**Vaara**
+* Normaalia ylläpitoa, tunnuksia tehty kesätyöntekijöille.
+* Asiakkuuksien yhdistämiseen liittyviä testitilauksia portaalista on saatu onnistuneesti vastaanotettua. Jatketaan testausta.
+* Kaupunkisovellusta varten on aktivoitu aikaisemmat testi asiakaan tunnukset, jotta sovelluksentoimittaja voi testata lainojen ja varausten näkymistä.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 26
 
 Aika: Ti 23.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
@@ -75,12 +80,18 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Kuntasovellus ei ole toiminut nyt yli kuukauteen. Sovellustoimittaja on luultavasti vaihtumassa.
 
+**Vaara**
+*Normaalia ylläpitoa
+*Asiakkuuksien yhdistämisen testaamisen liittyvä ensimmäinen testitilaus on vastaanotettu onnistuneesti, testaamista jatketaan.
+*Pikalainan liittyvän säännön poistamista ja uudelleen tekemistä. Asetuksen laittaminen uudelleen sai toiminnon toimimaan.
+* Kaupunkisovelluksen kirjasto osuuden toimimattomuutta on alettu selvittää sovellustoimittajan puolelta.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -121,7 +132,11 @@ Pohjoisesta etelään
 * Valmistellaan varauksien noutomuistutuksen käyttöönottoa
 
 **Kirkes**
-* Kirkes-Finnaan otetaan tällä viikolla käyttöön verkkomaksujen esto klo 23:55-00:30. 
+* Kirkes-Finnaan otetaan tällä viikolla käyttöön verkkomaksujen esto klo 23:55-00:30.
+
+**Vaara**
+* Normaalia ylläpitoa
+* Muutamissa toimipisteissä on ollut ongelmaa maksujen siirtymisessä Kohan ja kassan välillä, yhteys on toiminut osan päivästä aina normaalisti. Seuraamme tilannetta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
