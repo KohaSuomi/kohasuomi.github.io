@@ -81,9 +81,9 @@ Etelästä pohjoiseen
 * Kuntasovellus ei ole toiminut nyt yli kuukauteen. Sovellustoimittaja on luultavasti vaihtumassa.
 
 **Vaara**
-*Normaalia ylläpitoa
-*Asiakkuuksien yhdistämisen testaamisen liittyvä ensimmäinen testitilaus on vastaanotettu onnistuneesti, testaamista jatketaan.
-*Pikalainan liittyvän säännön poistamista ja uudelleen tekemistä. Asetuksen laittaminen uudelleen sai toiminnon toimimaan.
+* Normaalia ylläpitoa
+* Asiakkuuksien yhdistämisen testaamisen liittyvä ensimmäinen testitilaus on vastaanotettu onnistuneesti, testaamista jatketaan.
+* Pikalainan liittyvän säännön poistamista ja uudelleen tekemistä. Asetuksen laittaminen uudelleen sai toiminnon toimimaan.
 * Kaupunkisovelluksen kirjasto osuuden toimimattomuutta on alettu selvittää sovellustoimittajan puolelta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
