@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
@@ -28,6 +28,10 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**Siilinjärvi**
+* Kuntasovelluksen toimittaja vaihtuu, uusi toimittaja lupaili nopeaa käyttöönottoa jo elokuulle.
+* Eipä muuta erikoista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
