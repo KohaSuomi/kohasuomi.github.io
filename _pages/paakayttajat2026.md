@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
@@ -22,6 +22,9 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
   * Poisto-ongelmaiset tietueet on palautettu aina takaisin aktiiviseen kokoelmaan, joten ne kannattaa poistaa tarvittaessa uudelleen.
 
 Pohjoisesta etelään
+
+**Lastu**
+* Enimmäkseen normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
