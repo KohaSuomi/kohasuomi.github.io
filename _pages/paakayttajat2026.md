@@ -17,6 +17,9 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
+* [Tietueiden poisto-ongelma](https://github.com/KohaSuomi/Koha/issues/2395) johtunee (tämän hetkisen teorian mukaan) biblio_control_fields -aputaulun päivittämisestä 5 minuutin välein.
+  * [Niteettömät nimekkeet](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteett%C3%B6m%C3%A4t-nimekkeet-versio-2) -raportti, jolla voi hakea tietueet, joilla ei ole niteitä. Mukaan ei tule osakohteet.
+  * Poisto-ongelmaiset tietueet on palautettu aina takaisin aktiiviseen kokoelmaan, joten ne kannattaa poistaa tarvittaessa uudelleen.
 
 Pohjoisesta etelään
 
