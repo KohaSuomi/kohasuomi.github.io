@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen ja Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
