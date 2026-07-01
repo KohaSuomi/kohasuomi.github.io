@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen ja Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen ja Kati Sillgren (Helle), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
@@ -44,7 +44,10 @@ Pohjoisesta etelään
 
 **OUTI**
 * Kesäsulkutiedot kirjastojen nimissä aiheuttaa päänvaivaa esim. infotarroissa, jos tarroihin halutaan tulostuvan kotikirjastotieto. Sulkutieto tarroille ei pitäisi tulostua. OUTIssa vaihdoimme tarroille tulostumaan kotikirjaston Koha-tunnisteen.
-* Muutamissa itsepalvelulainauksen käyttöpaikoissa ei toimi Valmis-painike, kun asiakas haluaa lopettaa lainaustoiminnon. Tiketti: https://github.com/KohaSuomi/Koha/issues/2405 
+* Muutamissa itsepalvelulainauksen käyttöpaikoissa ei toimi Valmis-painike, kun asiakas haluaa lopettaa lainaustoiminnon. Tiketti: https://github.com/KohaSuomi/Koha/issues/2405
+
+**Kirkes**
+ * Tänä aamuna Tuusulassa ihmetelty varattujen niteiden palautuksen päätymistä "Virhe 500" -ilmoitukseen, mikä oli ilmeisesti seurausta Kohan viikkopäivityksen muutoksista Vaskin varaushyllyihin. Tilanne on nyt kehittäjien toimien myötä korjaantunut.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
