@@ -23,21 +23,25 @@ Mene Ylläpito -> Varausten noutohyllyt
 
 Noutohylly-toiminnallisuus edellyttää, että kirjastolle on määritelty noutohyllyjä. Jos noutohyllyjä ei ole, toimii kyseisen kirjaston varausten osalta käsittely ”vanhaan tapaan” eli tärppäyttäessä ei valita noutohyllyä vaan ainoastaan vahvistetaan varaus noudettavaksi/kuljetettavaksi.
 
-Noutohyllylle on aina määriteltävä kirjasto, nimi sekä noutohyllyyn mahtuva nidemäärä.
+Noutohyllylle on aina määriteltävä kirjasto, nimi sekä noutohyllyyn mahtuva nidemäärä. Noutohyllyn nimen ei tarvitse olla uniikki, mutta tismalleen kahta samanlaista noutohyllyä ei voi luoda.
 
 Noutohyllyn voi halutessaan sitoa tiettyyn viikonpäivään, aineistotyyppiin ja asiakastyyppiin.
 
-Noutohyllyn voi määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä. Noutohyllyn voi asetuksista lukita, jos jostain syystä olisi tarve merkitä täytettävänä oleva hylly pääkäyttäjien toimesta lukituksi. Pääkäyttäjä pystyy myös poistamaan lukituksen, jos jokin hylly on esimerkiksi vahingossa merkattu täydeksi ja se haluttaisiin takaisin saataville.
+Noutohyllyn voi määrittää ylivuotohyllyksi, jolloin Koha ei tarjoa noutohyllyä elleivät kaikki muut noutohyllyt ole jo käytössä.
+
+Noutohyllyn voi asetuksista lukita, jos jostain syystä olisi tarve merkitä täytettävänä oleva hylly pääkäyttäjien toimesta lukituksi. Pääkäyttäjä pystyy myös poistamaan lukituksen, jos jokin hylly on esimerkiksi vahingossa merkattu täydeksi ja se haluttaisiin takaisin saataville.
 
 - **Huom!** Tyhjentynyt, 0 nidettä sisältävä noutohylly voi näkyä ylläpidon puolella lukittuna, vaikka se ei todellisuudessa sitä ole. Tämä johtuu siitä, että lukitus-rasti poistuu noutohyllyn tiedoista vasta kun toimipisteessä tärppäytetään ensimmäinen varaus tyhjentymisen jälkeen. Koha osaa siis tarjota tyhjentyneitä noutohyllyjä välittömästi vaikka ylläpidossa vielä lukitus-rasti olisikin. Tyhjentyneen hyllyn lukitusta **ei kannata mennä sörkkimään,** sillä ainakin Turussa saatiin tällä tavoin aikaan tilanne jossa hyllyt eivät vapautuneetkaan käytettäväksi ilman kehittäjän tekemää tietokanta-ajoa.
 
-Noutohyllyn nimen ei tarvitse olla uniikki, mutta tismalleen kahta samanlaista noutohyllyä ei voi luoda.
+Noutohyllykohtaisesti on myös mahdollista määritellä, sallitaanko useamman saman tietueen varauksen sijoittaminen samaan noutohyllyyn. Salliminen voi olla järkevää esimerkiksi työkortti-hyllyjen tai aikakauslehti-hyllyjen osalta, koska näissä tapauksissa samana päivänä voi tulla paljonkin saman tietueen varauksia.
+
+## Noutohyllyjen prioriteettijärjestys
 
 Noutohyllyjen prioriteettijärjestystä voi säätää nuolipainikkeilla ja pudotusvalikosta arvon valitsemalla. Jotta säätämistä olisi mahdollisimman vähän, kannattaa perustamisvaiheessa miettiä jo valmiiksi missä järjestyksessä noutohyllyt perustaa.
 
 - Huom! Suodata näkyville haluamasi kirjaston noutohyllyt, kun alat muokata prioriteettijärjestystä. Mikäli prioriteettinä näkyy aluksia kaikille '1', päivittyvät prioriteettiarvot ajan tasalle, kun muokkaat jonkin noutohyllyn prioriteettiä.
 
-## Esimerkki noutohyllylogiikasta ja järjestyksestä Turussa
+### Esimerkki noutohyllylogiikasta ja järjestyksestä Turussa
 
 Prioriteetti|Kirjaston nimi|Hyllyn nimi|Niteitä enintään|Viikonpäivä|Asiakastyyppi|Aineistotyyppi|Ylivuotohylly|Lukittu
 ---|---|---|---|---|---|---|---|---
