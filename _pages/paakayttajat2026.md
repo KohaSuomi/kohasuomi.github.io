@@ -45,6 +45,7 @@ Pohjoisesta etelään
 **OUTI**
 * Kesäsulkutiedot kirjastojen nimissä aiheuttaa päänvaivaa esim. infotarroissa, jos tarroihin halutaan tulostuvan kotikirjastotieto. Sulkutieto tarroille ei pitäisi tulostua. OUTIssa vaihdoimme tarroille tulostumaan kotikirjaston Koha-tunnisteen.
 * Muutamissa itsepalvelulainauksen käyttöpaikoissa ei toimi Valmis-painike, kun asiakas haluaa lopettaa lainaustoiminnon. Tiketti: https://github.com/KohaSuomi/Koha/issues/2405
+* Varausjonon priorisointia testataan OUTI:n tuotannossa heinäkuun puolestavälistä kuun loppuun ilman erityisiä rajoituksia. Priorisointi tapahtuu kirjaston ja kirjastoryhmän mukaan. Ensimmäisen testijakson jälkeen teemme toisen testin seuraavilla rajoituksilla: LocalHoldsPriorityMaxHolds: 20, LocalHoldsPriorityFulfillmentSkips: 3. https://github.com/KohaSuomi/Koha/issues/1563
 
 **Kirkes**
  * Tänä aamuna Tuusulassa ihmetelty varattujen niteiden palautuksen päätymistä "Virhe 500" -ilmoitukseen, mikä oli ilmeisesti seurausta Kohan viikkopäivityksen muutoksista Vaskin varaushyllyihin. Tilanne on nyt kehittäjien toimien myötä korjaantunut.
