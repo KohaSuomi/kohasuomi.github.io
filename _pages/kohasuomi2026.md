@@ -23,6 +23,45 @@ Läsnä:
 
 ### Viikolla 27 tehty
 
+#### Anneli
+
+##### **Wiki‑työ, dokumentointi ja käännökset**
+- Uutta versiossa 26 ‑wikiin version 25.11 muutokset.  
+- Pääkäyttäjien muistilista 26‑wikiin.  
+- Järjestelmäasetusten dokumentointi 26‑wikiin.  
+- Uutta‑wikiin suomennoksia ja kuvakaappauksia.  
+- Käännöstiedostojen tarkistus ja uudesta Allow multiple holds -fraasista tiketti: [https://github.com/KohaSuomi/Koha-translations/issues/88](https://github.com/KohaSuomi/Koha-translations/issues/88)  
+- Käännösongelman Laskun poiston vahvistusviesti englanniksi -tiketin testaus ja kommentointi. Ongelma johtunee samasta "lennossa kääntämisen" ongelmasta, mitä on muuallakin ollut jo pari vuotta: [https://github.com/KohaSuomi/Koha-translations/issues/68](https://github.com/KohaSuomi/Koha-translations/issues/68)  
+
+##### **Tikettien käsittely ja bugiselvitykset**
+- Selvitin tikettiin Sotusiilon syntymäajan muodostamiseen kaikki käytössä olevat välimerkit, mitä halutaan ja mistä syntymäaika poimitaan: [https://github.com/KohaSuomi/Koha/issues/2115](https://github.com/KohaSuomi/Koha/issues/2115)  
+- Viikon 27 päivitystiedote: [https://github.com/KohaSuomi/Koha/discussions/2400](https://github.com/KohaSuomi/Koha/discussions/2400)  
+- Varausten noutomuistutuksen ristiriitainen näkymä Finnassa: Kohassa oli viestitäppä ja päivää ennen -valintana 0. Finnassa se näytti siltä että toiminto on päällä ja viesti lähtee päivää ennen, koska 0-vaihtoehto oli piilotettu.  
+- Testasin yhteisössä bugia 42483, joka liittyi järjestelmäasetuksen HoldsQueuePrioritizeBranch kuvaukseen, joka väitti että asiakkaan kotikirjastoa verrataan niteen koti/sijaintikirjastoon, kun oikeasti verrataan varauksen noutokirjastoa. Sain todennettua, että niin tosiaan tehdään, mutta huomasin samalla toiminnossa omituisuutta. Vaikka valittuna oli sijaintikirjasto, tuntui toiminto vertaavan aina ensisijaisesti kotikirjastoon ja vasta sitten, kun kotikirjastossa ei ole nidettä paikalla, verrattiin sitten vasta sijaintikirjastoon: [https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42483](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42483)  
+- Vinkkaus uudesta bugitiketistä: [When a waiting hold is filled by another item it should have a status that can be seen in the interface](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42945)  
+- Varausjonon prioriteettivirheen selvitys Vaarassa. Kaksi varausta oli noussut varausta tehtäessä jonon kärkeen ilman syytä. Lokeilta näkyi, että varaukset olivat saaneet prioriteetiksi 1, mutta en keksinyt mistä se voisi johtua. Käyttäjä tai Vaaran pääkäyttäjät eivät saaneet toistettua ongelmaa. [Varaukset ilmestyivät varausjonon kärkeen ilman nostoa](https://github.com/KohaSuomi/Koha/issues/2410)
+- Kyytissä käyttäjä oli saanut Muutosloki‑sivulle mennessä virhe 500 ‑ilmoituksen. Todennäköisesti ilmoitus johtui siitä, että joku muu poisti tietueen samaan aikaan.
+
+##### **Tietokannat, taustatyöt ja tekninen selvitys**
+- Poisto‑ongelmien mahdollinen syy: biblio_control_fields‑aputaulun ajastus → ajastus pois päältä. Selvittelyssä auttoi Lastusta saatu virheilmoitus, jossa tietueiden yhdistely oli epäonnistunut ja käyttäjä oli saanut virheilmoituksen, jossa viitattiin tiettyyn kohtaan Kohan koodissa.
+- Indeksipuutteiden läpikäynti kaikista tietokannoista ja raportointi.  
+- TäTi: feilanneiden taustatöiden tarkistus ja puuttuvan tietueen ilmoittaminen.  
+- Tarkistus: löytyykö outi‑nextiltä runtestcronjobs‑asetus (ei löytynyt).  
+- Annoin pääkäyttäjien kanavalla vinkkejä, miten tarkistaa feilanneiden taustatöiden niteet raportilla. Lastussa jalostettiin ohjeistusta eteenpäin paremmaksi raportiksi.  
+- Kyytissä oli käyttäjä vahingossa muokannut tietuetta, kun hänen oli tarkoitus tehdä siitä kopio. He halusivat perua muutokset tai palauttaa vanhat tiedot, mutta se ei onnistu millään työkalulla tällä hetkellä. Neuvoin katsomaan muutoslokilta, mitä tiedot olivat ennen tallennusta ja muuttamaan ne sen perusteella takaisin kuvailutietueeseen.  
+
+##### **Käyttäjätuki ja kysymykset**
+- Hellestä kysyttiin, mitä vaatimuksia on Kohan puolelta lajittelevalle palautusautomaatille: tuki SIP2-formaatille ja Koha-Suomen SIPoHTTP-rajapinnalle.
+- Kansalliskirjastosta kyseltiin, löytyisikö meiltä hyvä kuvailupohjia vankilakirjastoille. Laitoin heille Tätistä Kirja‑pohjan, hankinnan oletuspohjan ja kausijulkaisupohjan sillä varoituksella, että ne voivat sisältää linkityksiä meidän omiin auktorisoituihin arvoihin (RDA-termistöä) ja linkitykset kannattaa purkaa.  
+- Lumpeissa käyttäjä ei päässyt laskutustyökaluun vaan sai virhe 403 ‑ilmoituksen. Ongelma johtui siitä, että käyttäjä ei sallittujen listalla työkalun asetuksissa.  
+
+##### **Yhteisö, viestintä ja ylläpito**
+- Yhtiökokousmateriaalien lisääminen nettisivuille.  
+- Tiedote: ensi viikolla ei ole huoltokatkoa.  
+- Pääkäyttäjäpalaveri.  
+- Linkkaus: yhteisön uutiskirje Matrixiin.  
+- Koha‑US‑videon [Reviewing Item Renewal Workflows | 620 ](https://www.youtube.com/watch?v=qZa8OsMDYxw) katsominen ja kommentointi, että lainojen uusiminen onnistuu myös lainaamalla nide asiakkaalle uudelleen, jolloin Koha kysyy, uusitaanko laina.  
+
 ## Viikko 27
 Aika: Ma 29.6.2026 klo 9<br/>
 Läsnä: Lari, Anneli, Pasi, Olli, Emmi ja Ari
