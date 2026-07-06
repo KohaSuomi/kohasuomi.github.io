@@ -10,10 +10,16 @@ Versiossa 25.05 tuli käyttöön uusi työkalu _Tietuenäyttöjen mukautukset_, 
 
 Määritykset tehdään Template Toolkit -kielellä. Työkalulla voi määrittää eri kieliversioihin näkymään eri tekstit, joka mahdollistaa otsikoiden kääntämisen eri kielille. Kenttiin lisätyt tiedot näkyvät siinä muodossa kuin ne ovat kentässä kielivalinnasta huolimatta.
 
+## Muutosloki
+
+Pvm | Muutos
+---|---
+6.7.2026 | Lisätty Perustiedot-näytön tietoihin tiketin [740-kenttä näkyviin Kuvaukset-välilehdelle #2284](https://github.com/KohaSuomi/Koha/issues/2284) lisäys
 
 ## Perustiedot-näyttö
 
 Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffDetailPage alasvetovalikosta -> muista valita Publication date -kohtaan se päivä, mistä lähtien haluat määritysten näkyvän (valitse tämä päivä)
+
 
 ### Englanniksi
 
@@ -191,6 +197,18 @@ Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffDe
     [% values.join(', ') %]
   </span>
 [% END %]
+
+<!-- Liittyvä nimeke -->
+[% SET temp = [];
+FOREACH f IN record.field('740');
+  temp.push(f.subfield('a'));
+END;
+IF temp.size %]
+  <span class="results_summary related_title">
+      <span class="label">Related title: </span>
+      [% temp.join('; ') %]
+  </span>
+[% END %]
 ```
 
 ### Suomeksi
@@ -364,6 +382,18 @@ Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffDe
   <span class="results_summary creation_time">
     <span class="label">Luomisaika: </span>
     [% values.join(', ') %]
+  </span>
+[% END %]
+
+<!-- Liittyvä nimeke -->
+[% SET temp = [];
+FOREACH f IN record.field('740');
+  temp.push(f.subfield('a'));
+END;
+IF temp.size %]
+  <span class="results_summary related_title">
+      <span class="label">Liittyvä nimeke: </span>
+      [% temp.join('; ') %]
   </span>
 [% END %]
 ```
@@ -543,6 +573,18 @@ Lisää näin: Työkalut -> Tietuenäyttöjen mukautukset -> Luo uusi -> StaffDe
   <span class="results_summary creation_time">
     <span class="label">Tidsperiod under vilken verket/uttrycket ursprungligen skapades: </span>
     [% values.join(', ') %]
+  </span>
+[% END %]
+
+<!-- Liittyvä nimeke -->
+[% SET temp = [];
+FOREACH f IN record.field('740');
+  temp.push(f.subfield('a'));
+END;
+IF temp.size %]
+  <span class="results_summary related_title">
+      <span class="label">Relaterad titel: </span>
+      [% temp.join('; ') %]
   </span>
 [% END %]
 ```
