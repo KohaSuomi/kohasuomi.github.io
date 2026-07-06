@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
+* Tiketin [740-kenttä näkyviin Kuvaukset-välilehdelle #2284](https://github.com/KohaSuomi/Koha/issues/2284) lisäykset voi tehdä tuotantoon
+  * rimpsut dokumentoitu [Tietuenäyttöjen mukautukset](https://koha-suomi.fi/dokumentaatio/tietuenaytot/) -sivulle
 
 Etelästä pohjoiseen
 
