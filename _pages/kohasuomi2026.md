@@ -65,6 +65,21 @@ Läsnä: Emmi, Pasi, Olli, Lari, Anneli
 - Linkkaus: yhteisön uutiskirje Matrixiin.  
 - Koha‑US‑videon [Reviewing Item Renewal Workflows](https://www.youtube.com/watch?v=qZa8OsMDYxw) katsominen ja kommentointi, että lainojen uusiminen onnistuu myös lainaamalla nide asiakkaalle uudelleen, jolloin Koha kysyy, uusitaanko laina.  
 
+#### Emmi
+
+* [Lappi: IntranetUserJSn päivitys tuotantoon 3.7.](https://github.com/KohaSuomi/Koha/issues/2409): IntranetUserJS päivitetty.
+* [Vaski: IntranetUserJS päivitys pikänäppäinten mappaukseen](https://github.com/KohaSuomi/Koha/issues/2401): IntranetUserJS päivitetty.
+* [Helle: uuden automaatin tunnustiedot SIP-palvelimelle](https://github.com/KohaSuomi/Koha/issues/2406): Uudet tunnukset lisätty palvelimelle.
+* [Tietueiden poistossa ongelmia useissa kimpoissa](https://github.com/KohaSuomi/Koha/issues/2395): Ongelman syyksi paljastui biblio_control_fields-aputaulun päivitys, jota ajettiin cronista 5 minuutin välein. Päivitys sekä tietueiden poisto käsittelevät molemmat biblio_metadata-taulua ja kun tämä tapahtuu yhtäaikaa, seuraa siitä tauluun deadlock. Tämän vuoksi aputaulun päivitys on otettu pois käytöstä tuotannoista ja sitä käyttävät raportit eivät tällä hetkellä toimi. Liittyvät tiketit:
+  * [Indekseissä aukkoja joissakin kimpoissa](https://github.com/KohaSuomi/Koha/issues/2393): Indeksejä korjailtu pitkin viikkoa.
+  * [Epäonnistuneita taustatöitä 12.6. alkaen](https://github.com/KohaSuomi/Koha/issues/2392): Myös taustatyöt epäonnistuivat deadlockin takia.
+  * [Epäonnistuneet niteiden eräpoistot](https://github.com/KohaSuomi/Koha/issues/2403): 12.6. alkaen epäonnistuineita taustatöitä on käyty laittamassa uudestaan käsittelyyn muutamassa kimpassa. Tämän yhteydessä nousi esille tarve siivota taustatöistä pois myös epäonnistuneet työt, mihin meillä ei vielä ole automaatiikkaa. Pyydetty pääkäyttäjää tekemään asiasta oma tikettinsä.
+* [Nextien nosto ja päivitys](https://github.com/KohaSuomi/Koha/issues/2402): Yhteistietokantatyön myötä ominaisuuksien testaaminen testeillä on koettu hankalaksi. Tämän vuoksi palvelimelle on nostettu next-ympäristöt testaamista varten. Ympäristöt on päivitetty ja pyritty samaan toimimaan kuten testit. Testit pidetään vielä ylhäällä. 
+* [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192): Oikeuksia poistettu poistoa toivoneista kimpoista, osa on siivonnut oikeudet käsin. Tikettiin odotellaan vielä hetki vastauksia niiltä kimpoilta, joille ajoa ei ole vielä tehty. Jos vastauksia ei tule, suljetaan tiketti.
+* [Kalenterissa kiinniolojen muokkaus aikavälillä mahdolliseksi](https://github.com/KohaSuomi/Koha/issues/340): Parannusehdotus viety yhteisöön ja tuotu meille testattavaksi.
+* [Varaus vanhenee ajossa patron_expiration_daten mukaan, vaikka expiration_datea päivitetään](https://github.com/KohaSuomi/Koha/issues/2280): Parannusehdotus viety yhteisöön. Tätä ei voida tuoda meille vielä, sillä muutoksen koodi ei ole yhteensopiva meillä vielä kehitteillä olevan hyllyvaraus ominaisuuden kanssa. Kunhan hyllyvarauksien aktiivinen kehitystyö saadaan päätökseen, yritetään tuoda tämä korjaus myös meille. Muuten odotetaan seuraavaa versionvaihtoa.
+* Pääkäyttäjäpalaveri 30.6.2026
+
 ## Viikko 27
 Aika: Ma 29.6.2026 klo 9<br/>
 Läsnä: Lari, Anneli, Pasi, Olli, Emmi ja Ari
