@@ -63,7 +63,7 @@ Läsnä: Emmi, Pasi, Olli, Lari, Anneli
 - Tiedote: ensi viikolla ei ole huoltokatkoa.  
 - Pääkäyttäjäpalaveri.  
 - Linkkaus: yhteisön uutiskirje Matrixiin.  
-- Koha‑US‑videon [Reviewing Item Renewal Workflows | 620 ](https://www.youtube.com/watch?v=qZa8OsMDYxw) katsominen ja kommentointi, että lainojen uusiminen onnistuu myös lainaamalla nide asiakkaalle uudelleen, jolloin Koha kysyy, uusitaanko laina.  
+- Koha‑US‑videon [Reviewing Item Renewal Workflows](https://www.youtube.com/watch?v=qZa8OsMDYxw) katsominen ja kommentointi, että lainojen uusiminen onnistuu myös lainaamalla nide asiakkaalle uudelleen, jolloin Koha kysyy, uusitaanko laina.  
 
 ## Viikko 27
 Aika: Ma 29.6.2026 klo 9<br/>
