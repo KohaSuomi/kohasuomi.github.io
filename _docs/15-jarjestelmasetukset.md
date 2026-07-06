@@ -345,6 +345,7 @@ ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
 HomeOrHoldingBranch | the item’s holding library (holdingbranch) | Asetuksella määritetään, onko CircControlissa määritetty kirjastotieto niteen koti- vai sijaintikirjasto.
+JobsNotificationMethod | polling/kyselyä | Valitse kyselyä/polling, jolloin saadaan Kohan logeilta pois turhat RabbitMQ:n tekemät valitukset. Meillä ei ole käytössä RabbitMQ. STOMP-vaihtoehto aiheuttaa lisäksi Tietoa Kohasta / About -sivulle Järjestelmätiedot-välilehdelle varoituksen "Viestin välittäjään (RabbitMQ) yhdistämisessä on virhe, tarkista Kohan lokitiedot."
 LockExpiredDelay | Jätä tyhjäksi | Jos tässä asetuksessa on arvo, cleanup_database-cronajo asettaa vanhentuneille asiakkaille borrowers-tauluun login_attempts-sarakkeeseen arvon -1 eli "Tili on lukittu hallinnollisesti". Cronajo ei ole normaalisti käytössä, mutta sitä saatetaan joutua käyttämään välillä, joten asetuksen arvo kannattaa jättää tyhjäksi, jolloin toiminto ei ole käytössä.
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
 QueryRegexEscapeOptions | Ohita escape-komento (Unescape escaped) | Tiedonhaussa ei toiminut haut, joissa nimekkeessä on /-merkki ilman tätä asetusta.
