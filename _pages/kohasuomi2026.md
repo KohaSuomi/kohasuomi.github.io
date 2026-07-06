@@ -15,11 +15,10 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 
 ## Viikko 28
 Aika: Ma 6.7.2026 klo 9<br/>
-Läsnä:
+Läsnä: Emmi, Pasi, Olli, Lari, Anneli
 
 ### Muuta
 * Viikon 28 päivitys
-* 
 
 ### Viikolla 27 tehty
 
