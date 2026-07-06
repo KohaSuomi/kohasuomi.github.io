@@ -13,6 +13,16 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 28
+Aika: Ma 6.7.2026 klo 9<br/>
+Läsnä:
+
+### Muuta
+* Viikon 28 päivitys
+* 
+
+### Viikolla 27 tehty
+
 ## Viikko 27
 Aika: Ma 29.6.2026 klo 9<br/>
 Läsnä: Lari, Anneli, Pasi, Olli, Emmi ja Ari
