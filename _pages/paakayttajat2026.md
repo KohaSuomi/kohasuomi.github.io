@@ -30,6 +30,11 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa
 * Finnan viestintään toivottu tarkennusta, kun Finna itse laittaa tiedon käyttäjätilin vanhenemisesta. Nykyisessä viestissä ei käy ilmi, että mitä tiliä vanhenemisviesti koskee. Tästä laitettu postia Kansalliskirjastolle.
 
+**OUTI**
+* Koskelan kirjasto on suljettu 1.7. ja sen osalta on tehty toimenpiteitä Kohassa ja Finnassa.
+* OUTIn noutomuistutuksen 0-viestiasetuksiin tarvitaan ajo, jossa poistetaan email-täpät asiakkailta, joilla ei ole days_in_advance-arvoa. Palaverissa selvisi, että ajon valmistelu on hyvällä mallilla.
+* Varausjonon priorisointi on tarkoitus laittaa päälle keskiviikkona 15.7.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 27
