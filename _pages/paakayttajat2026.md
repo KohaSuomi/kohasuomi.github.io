@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -24,7 +24,11 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Siirtokokoelmat ja oikeudet siirtokokoelmiin käyttäjiltä poistettu
-* IntranetUserJS-säännöt siivottu kaksoiskappaleista tuotanto ja testi, korjataan myös next. 
+* IntranetUserJS-säännöt siivottu kaksoiskappaleista tuotanto ja testi, korjataan myös next.
+
+**Lumme**
+* Normaalia ylläpitoa
+* Finnan viestintään toivottu tarkennusta, kun Finna itse laittaa tiedon käyttäjätilin vanhenemisesta. Nykyisessä viestissä ei käy ilmi, että mitä tiliä vanhenemisviesti koskee. Tästä laitettu postia Kansalliskirjastolle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
