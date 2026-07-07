@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), 
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -22,6 +22,9 @@ Läsnä:
 
 Etelästä pohjoiseen
 
+**Lappi**
+* Siirtokokoelmat ja oikeudet siirtokokoelmiin käyttäjiltä poistettu
+* IntranetUserJS-säännöt siivottu kaksoiskappaleista tuotanto ja testi, korjataan myös next. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
