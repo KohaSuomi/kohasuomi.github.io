@@ -134,6 +134,7 @@ $(document).ready(function() {
 
       if (currentCount >= targetCount) {
         // Set the values once we have enough fields
+        if ($('input[name="custom_key"]').eq(0).val().trim() == "")
         $('input[name="custom_key"]').eq(0).val('Lähettävä kirjasto');
         $('input[name="custom_key"]').eq(1).val('Tarvitaan viimeistään');
         $('input[name="custom_key"]').eq(2).val('Aineistotyyppi');
