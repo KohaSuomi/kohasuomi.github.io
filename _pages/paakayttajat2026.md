@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -37,6 +37,12 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Ei mainittavaa, kesähommia vain.
+
+**Lastu**
+* Kyseltiin onko tiketissä https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/28 mahdollisesti tapahtunut mitään edistystä Finnan puolella, mutta ei ollut.
+* Varauksen noutomuistutus otetaan käyttöön Lastussa keskiviikkona 8.7.
+* Noutomuistutusta valmistellessa huomattu, että vaikka Lastun Finnasta on toimimattomia asioita piilotettu, kaikki näkyvät Finna.fin puolella ja asiakkaat saattavat niitä valita.
+* Saatu palaute, että käsin kirjoitettu eräpäivä aiheuttaa sen, että laina eräytyy eräpäivänä klo 00:00 eikä 23:59. Vanha bugi on siis tehnyt paluun, tästä tiketti: https://github.com/KohaSuomi/Koha/issues/2415
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
