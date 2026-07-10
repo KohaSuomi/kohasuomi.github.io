@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -44,12 +44,15 @@ Etelästä pohjoiseen
 * Noutomuistutusta valmistellessa huomattu, että vaikka Lastun Finnasta on toimimattomia asioita piilotettu, kaikki näkyvät Finna.fin puolella ja asiakkaat saattavat niitä valita.
 * Saatu palaute, että käsin kirjoitettu eräpäivä aiheuttaa sen, että laina eräytyy eräpäivänä klo 00:00 eikä 23:59. Vanha bugi on siis tehnyt paluun, tästä tiketti: https://github.com/KohaSuomi/Koha/issues/2415
 
+**Kyyti**
+* Kyytissä oli tullut kysymys hyllyvarausraportilla  näkyvistä tiedoista. Varauksen noutopaikkana oli näkynyt Haminan pääkirjasto, mutta varauksen palautuksessa nide olikin lähtenyt kuljetukseen Kotkan pääkirjastoon. Huomattiin, että Haminaan lähtevä varaus astuu voimaan vasta tulevaisuudessa,joten nide nappasi kiinni varausjonossa toisena olevaan varaukseen. Hyllyvarausraportilla näkyy kuitenkin ensimmäisellä sijalla olevan varauksen noutopaikkatieto, vaikka varaus ei ole vielä voimassa. Seuraava varaus -sarakkeessa näkyy oikein seuraavana poimittavissa olevan varauksen tieto. Tästä kommentoitu tikettiin: https://github.com/KohaSuomi/Koha/issues/2259
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 27
 
 Aika: Ti 30.6.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen ja Kati Sillgren (Helle), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen ja Auli Rantasalo (Vaara), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen ja Kati Sillgren (Helle), Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 27 päivitys](https://github.com/KohaSuomi/Koha/discussions/2400)
@@ -86,12 +89,15 @@ Pohjoisesta etelään
 **Kirkes**
  * Tänä aamuna Tuusulassa ihmetelty varattujen niteiden palautuksen päätymistä "Virhe 500" -ilmoitukseen, mikä oli ilmeisesti seurausta Kohan viikkopäivityksen muutoksista Vaskin varaushyllyihin. Tilanne on nyt kehittäjien toimien myötä korjaantunut.
 
+**Kyyti**
+* Kotkassa tutkittu RFID-haravan toimimattomuutta. Kaksi käytössä olevaa RFID-haravaa toimivat toisen haravaläppärin kanssa, mutta toiseen haravaläppäriin ei saanut yhdistettyä kumpaakaan haravaa. Ongelma löytyi Windowsin/langattoman verkon adapterin asetuksista. IP-osoite määritykset olivat jostain syystä nollautuneet. ICT asetti ne uudelleen ja nyt molemmat RFID-haravat toimivat taas kummankin haravaläppärin kanssa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-27) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 26
 
 Aika: Ti 23.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Hanna Hyttinen ja Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Janne Seppänen (Lastu), Anneli Österman (Koha-Suomi), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Hanna Hyttinen ja Auli Rantasalo (Vaara), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 26 päivitys](https://github.com/KohaSuomi/Koha/discussions/2390)
@@ -130,12 +136,15 @@ Etelästä pohjoiseen
 * Pikalainan liittyvän säännön poistamista ja uudelleen tekemistä. Asetuksen laittaminen uudelleen sai toiminnon toimimaan.
 * Kaupunkisovelluksen kirjasto osuuden toimimattomuutta on alettu selvittää sovellustoimittajan puolelta.
 
+**Kyyti**
+* Myös Kyytiin alkanut ilmestyä epäonnistuneita taustatöitä niteiden eräpoistosta 16.6. lähtien.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-26) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 25
 
 Aika: Ti 16.6.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Hanna Hyttinen ja Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Mäki-Mantila (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Lauri Hänninen (Lastu), Elina Uotila (Kirkes), Hanna Hyttinen ja Auli Rantasalo (Vaara), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 25 päivitys](https://github.com/KohaSuomi/Koha/discussions/2378)
@@ -181,6 +190,9 @@ Pohjoisesta etelään
 **Vaara**
 * Normaalia ylläpitoa
 * Muutamissa toimipisteissä on ollut ongelmaa maksujen siirtymisessä Kohan ja kassan välillä, yhteys on toiminut osan päivästä aina normaalisti. Seuraamme tilannetta.
+
+**Kyyti**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-25) - [Palaa sivun alkuun](/paakayttajat2026)
 
