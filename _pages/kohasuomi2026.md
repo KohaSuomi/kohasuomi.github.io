@@ -13,6 +13,74 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 29
+
+Aika: Ma 13.7.2026 klo 9<br/>
+Läsnä: 
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 29 päivitys
+
+### Viikolla 28 tehtyä
+
+#### Anneli
+
+##### Yleiset viikkotyöt ja dokumentointi
+- Viikkotyömuistio viikon 27 osalta sekä pääkäyttäjien muistiopohja viikolle 28.  
+- [Päivitystiedote viikolle 28](https://github.com/KohaSuomi/Koha/discussions/2412)  
+- [Tiedote huijausviesteistä](https://github.com/KohaSuomi/Koha/discussions/2413)  
+- 740-kentän (Liittyvä paikka) mukautuksen dokumentointi ja esityslistalle vienti: [Tietuenäytöt/](https://koha-suomi.fi/dokumentaatio/tietuenaytot/)  
+- Työkoneen Ladatut tiedostot -kansion siivous (satojen tiedostojen läpikäynti).  
+- Kirjaus vahvalla tunnistautumisella asiakkaaksi -tikettiin: [Koha #2418](https://github.com/KohaSuomi/Koha/issues/2418#issuecomment-4933799628)  
+- Selitys redusoidun varausjonon käyttäytymisestä tikettiin: [Koha #2259](https://github.com/KohaSuomi/Koha/issues/2259#issuecomment-4934120981)  
+
+##### Bugitestaukset ja tiketit
+- Holdings-taulukon tilan tallennus:  
+  - Toiminto ei toiminut, kuten piti eli ei säilyttänyt käyttäjän valitsemia valintoja.
+  Linkki: [bug 42910](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42910)  
+
+- Sotuteekki-liitännäisen virheilmoitus (catcode is not defined):  
+  - Tiketti luotu ja korjaus testattu toimivaksi.  
+  Linkki: [Koha #2417](https://github.com/KohaSuomi/Koha/issues/2417)  
+
+- Patron-nimen toisto HidePatronName-tilassa (Bug 42661):  
+  - Testaus ja signoff.  
+  Linkki: [https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42661](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42661)  
+  Liittyvä Koha-Suomi-tiketti: [Koha-translations #86](https://github.com/KohaSuomi/Koha-translations/issues/86)  
+
+- Lainaukseen ilmoitus, kun lainattu nide täyttää toisella niteellä noudettavana olevan tai kuljetettavan varauksen (Bug 41282):  
+  - Sininen alertbox ilmestyi turhaan; ehdotettu lisäparannuksia.  
+  Linkki: [bug 41282](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41282)  
+
+- Modification history & restore (Bug 42610):  
+  - Kolme ongelmaa: taulukon ylivuoto, focus jää taustaan, muutosten tarkastelu ja palautus estyy.  
+  Linkki: [bug 42610](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=42610)  
+
+- Custom patron messages & ILL-informaatio (Bug 40426):  
+  - Keskustelua ideasta ja sen soveltamisesta Hellen ja OUTIn kanssa.  
+
+##### Käännökset ja lokalisointi
+- Käännösten poiminta Raportteri-liitännäiseen: [koha-plugin-report-services #16](https://github.com/KohaSuomi/koha-plugin-report-services/issues/16)  
+- Pääkäyttäjäpalaverissa sovitut käännösmuutokset: [Koha-translations #89](https://github.com/KohaSuomi/Koha-translations/issues/89)  
+- Ceepos-käännösten tarkistus: [koha-plugin-ceepos-integration #9](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/9)  
+- Käännösmuutos Allow multiple holds -ominaisuuteen: [Koha-translations #88](https://github.com/KohaSuomi/Koha-translations/issues/88)
+
+##### Käyttöliittymä, asetukset ja ohjeistus
+- Regex-ohjeistus ulkomaisille puhelinnumeroille Lapille.  
+- Asiakastietojen tallennusvirheen selvitys (puuttuva kelvollinen numero → regex-vaihto).  
+- CSS-rimpsun etsiminen Peruuta varaus -napin piilottamiseen Lapille.  
+- Hakulinkin lisäämisohje Tietuenäyttöjen mukautuksissa (Mattermost).  
+- Tikettien seurannan termin päivitys: “Testanneet kimpat” → “Toimivaksi testanneet kimpat”.
+
+##### Hankinta, integraatiot ja muut selvitykset
+- Hankintaportaalista siirtymättömät tilaukset:  
+  - Pari tilausta siirtyi viiveellä Lapissa, mutta lopulta saavuttuaan sisälsivät ne virheellisen fundnumber.  
+- Kansalliskirjastolle toimitettu TäTin kuvailupohjia Vankilakirjastoja varten ja selvittelyä, onko meillä ollut joskus puhetta YKL-integraation tekemisestä kuvailuun:  
+  - Integraatio ollut suunnitteilla, mutta luovuttu hakutarkkuuden vaatimusten vuoksi.  
+
 ## Viikko 28
 
 Aika: Ma 6.7.2026 klo 9<br/>
