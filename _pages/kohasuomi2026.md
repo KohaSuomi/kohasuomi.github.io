@@ -81,6 +81,17 @@ Läsnä: Pasi, Olli, Emmi, Lari
 - Kansalliskirjastolle toimitettu TäTin kuvailupohjia Vankilakirjastoja varten ja selvittelyä, onko meillä ollut joskus puhetta YKL-integraation tekemisestä kuvailuun:  
   - Integraatio ollut suunnitteilla, mutta luovuttu hakutarkkuuden vaatimusten vuoksi.  
 
+#### Emmi
+
+* [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418): Testiaineisto vastaanotettu ja työ aloitettu.
+* [Kalenterissa kiinniolojen muokkaus aikavälillä mahdolliseksi](https://github.com/KohaSuomi/Koha/issues/340): Kalenteri-työkalussa ei tällä hetkellä ole mahdollista muokata kiinniolopäivä tietyllä aikavälillä. Tähän on tehty yhteisöön korjausehdotus, joka tuotiin myös meille testattavaksi. Tällä hetkellä vaikuttaa kuitenkin sille, ettei korjaus toimi täysin toivotulla tavalla.
+* [Kalenteri: Muokkaa kiinniolopäivää-toiminto](https://github.com/KohaSuomi/Koha/issues/564): Kiinniolopäivän muokkauksessa on mahdollista valita menneitä päiviä Päivään-kenttään. Koodista puuttuu kyseisen kentän kohdalta kokonaan tarkistus Päivästä-kentän arvon tarkistamiseen, millä estettäsiin menneiden päiviä valitseminen toiseen kenttään. Tähän tehty korjausehdotus yhteisöön ja tuotu se meille testattavaksi.
+* [Raportteri: Tarvittavien ominaisuuksien vienti masterista ks25 kehityshaaraan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/19): Raportteri-liitännäisen päivityksessä ilmeni epäselvyyttä siinä mitä muutoksia kehityshaarasta on tuotava tuotantohaaraan. Tämän vuoksi tuotannoissa oli hetken käytössä kehityshaara. Muutokset tuotiin tuotantohaaraan ja tuontaihin vahdettiin käyttöön oikea haara. Tuonnissa jäi kuitenkin tuomatta yksi oleellinen muutos, mikä rikkoi esim. RFID-haravoiden käytön. Ongelma korjattiin ja nyt Raportteri-liitännäisen tulisi toimia kuten pitääkin tuotannoissa.
+* [Epäonnistuneet niteiden eräpoistot](https://github.com/KohaSuomi/Koha/issues/2403): Lapissa ja Kyytissä ajettiin uudelleen 12.6.-29.6. epäonnistuneita taustatöitä. Liittyy tikettiin [Tietueiden poistossa ongelmia useissa kimpoissa](https://github.com/KohaSuomi/Koha/issues/2395). 
+* [Versionvaihdossa automaattisesti tulleen list_borrowers-oikeuden poistaminen tietyiltä käyttäjiltä](https://github.com/KohaSuomi/Koha/issues/2192): Käyttäjäoikeus siivottiin pois Lapin ja Kyytin automaateilta.
+* Lapissa indeksistä puuttui 20 tietuetta. Tarkemman tutkimisen jälkeen selvisi, että kaikki tietueet olivat emottomia osakohteita. Näiden poistoajo on kirjattu onnistuneeksi ja tietueet olivat poistuneet indeksistä, mutta jostain syystä ne eivät poistuneet tietokannasta. Lokeilta ei löytynyt virheilmoitusta asiaan liittyen, joten tämä ei luultavasti liity aiemmin ilmenneeseen ongelmaan tietueiden poisto-ongelmaan. Pyydetty Lapin pääkäyttäjää tekemään tiketti dokumentointia varten. 
+* Yhteisöpalaveri 8.7.2026
+
 ## Viikko 28
 
 Aika: Ma 6.7.2026 klo 9<br/>
