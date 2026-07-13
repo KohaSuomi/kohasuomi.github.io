@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara)
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -46,6 +46,10 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Kyytissä oli tullut kysymys hyllyvarausraportilla  näkyvistä tiedoista. Varauksen noutopaikkana oli näkynyt Haminan pääkirjasto, mutta varauksen palautuksessa nide olikin lähtenyt kuljetukseen Kotkan pääkirjastoon. Huomattiin, että Haminaan lähtevä varaus astuu voimaan vasta tulevaisuudessa,joten nide nappasi kiinni varausjonossa toisena olevaan varaukseen. Hyllyvarausraportilla näkyy kuitenkin ensimmäisellä sijalla olevan varauksen noutopaikkatieto, vaikka varaus ei ole vielä voimassa. Seuraava varaus -sarakkeessa näkyy oikein seuraavana poimittavissa olevan varauksen tieto. Tästä kommentoitu tikettiin: https://github.com/KohaSuomi/Koha/issues/2259
+
+**Vaara**
+* Laina- ja maksusääntöjen tarkennuksia tehty asiakastyypin perusteella, sillä lehtien nidevarus ei onnistunut tällä asiakastyypillä verkkokirjastossa. Tämä tarkennus tehty tuotantoon ja testille, nextin osalta vielä kesken.
+* Viikolla ilmeni ongelma varausjonossa, sillä 2 uutta varausta eivät menneetkään jonon loppuun vaan ilmestyivät jonon kärkeen ilman nostoja. Teimme tästä tiketin: https://github.com/KohaSuomi/Koha/issues/2410
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
