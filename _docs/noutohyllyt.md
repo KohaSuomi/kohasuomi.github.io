@@ -43,37 +43,43 @@ Noutohyllyjen prioriteettijärjestystä voi säätää nuolipainikkeilla ja pudo
 
 ### Esimerkki noutohyllylogiikasta ja järjestyksestä Turussa
 
-Prioriteetti|Kirjaston nimi|Hyllyn nimi|Niteitä enintään|Viikonpäivä|Asiakastyyppi|Aineistotyyppi|Ylivuotohylly|Lukittu
----|---|---|---|---|---|---|---|---
-1 |Turku, Varissuon kirjasto |Kaukolaina-01 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei
-2 |Turku, Varissuon kirjasto |Kaukolaina-02 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei
-3 |Turku, Varissuon kirjasto |Kaukolaina-03 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei
-4 |Turku, Varissuon kirjasto |Työkortti-01 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-5 |Turku, Varissuon kirjasto |Työkortti-02 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-6 |Turku, Varissuon kirjasto |Työkortti-03 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-7 |Turku, Varissuon kirjasto |Työkortti-04 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-8 |Turku, Varissuon kirjasto |Työkortti-05 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-9 |Turku, Varissuon kirjasto |Työkortti-06 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-10 |Turku, Varissuon kirjasto |Työkortti-07 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei
-11 |Turku, Varissuon kirjasto |Kotipalvelu-01 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-12 |Turku, Varissuon kirjasto |Kotipalvelu-02 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-13 |Turku, Varissuon kirjasto |Kotipalvelu-03 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-14 |Turku, Varissuon kirjasto |Kotipalvelu-04 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-15 |Turku, Varissuon kirjasto |Kotipalvelu-05 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-16 |Turku, Varissuon kirjasto |Kotipalvelu-06 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-17 |Turku, Varissuon kirjasto |Kotipalvelu-07 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei
-18 |Turku, Varissuon kirjasto |A16 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-19 |Turku, Varissuon kirjasto |B16 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-20 |Turku, Varissuon kirjasto |C16 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-21 |Turku, Varissuon kirjasto |D16 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-22 |Turku, Varissuon kirjasto |A19 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-23 |Turku, Varissuon kirjasto |B19 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei
-24 |Turku, Varissuon kirjasto |A1 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
-25 |Turku, Varissuon kirjasto |A2 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
-26 |Turku, Varissuon kirjasto |A6 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
-27 |Turku, Varissuon kirjasto |A7 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
-28 |Turku, Varissuon kirjasto |B1 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
-29 |Turku, Varissuon kirjasto |B2 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei
+Prioriteetti|Kirjaston nimi|Hyllyn nimi|Niteitä enintään|Viikonpäivä|Asiakastyyppi|Aineistotyyppi|Ylivuotohylly|Lukittu|Salli useamman varauksen lisääminen hyllyyn tietuetta kohti
+---|---|---|---|---|---|---|---|---|---
+1 |Turku, Varissuon kirjasto |Kaukolaina-01 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei |Kyllä
+2 |Turku, Varissuon kirjasto |Kaukolaina-02 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei |Kyllä
+3 |Turku, Varissuon kirjasto |Kaukolaina-03 |99 | |Kaukolainakirjasto |Mikä tahansa |Ei |Ei |Kyllä
+4 |Turku, Varissuon kirjasto |Työkortti-01 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+5 |Turku, Varissuon kirjasto |Työkortti-02 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+6 |Turku, Varissuon kirjasto |Työkortti-03 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+7 |Turku, Varissuon kirjasto |Työkortti-04 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+8 |Turku, Varissuon kirjasto |Työkortti-05 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+9 |Turku, Varissuon kirjasto |Työkortti-06 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+10 |Turku, Varissuon kirjasto |Työkortti-07 |99 | |Ei-tilastoitavat lainat |Mikä tahansa |Ei |Ei |Kyllä
+11 |Turku, Varissuon kirjasto |Kotipalvelu-01 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+12 |Turku, Varissuon kirjasto |Kotipalvelu-02 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+13 |Turku, Varissuon kirjasto |Kotipalvelu-03 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+14 |Turku, Varissuon kirjasto |Kotipalvelu-04 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+15 |Turku, Varissuon kirjasto |Kotipalvelu-05 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+16 |Turku, Varissuon kirjasto |Kotipalvelu-06 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+17 |Turku, Varissuon kirjasto |Kotipalvelu-07 |99 | |Kotipalveluasiakas |Mikä tahansa |Ei |Ei |Kyllä
+18 |Turku, Varissuon kirjasto |A16 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+19 |Turku, Varissuon kirjasto |A17 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+20 |Turku, Varissuon kirjasto |B16 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+21 |Turku, Varissuon kirjasto |B17 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+22 |Turku, Varissuon kirjasto |C16 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+23 |Turku, Varissuon kirjasto |C17 |20 | |Mikä tahansa |ALEHTI |Ei |Ei |Kyllä
+24 |Turku, Varissuon kirjasto |A18 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+25 |Turku, Varissuon kirjasto |B18 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+26 |Turku, Varissuon kirjasto |C18 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+27 |Turku, Varissuon kirjasto |D18 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+28 |Turku, Varissuon kirjasto |A19 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+29 |Turku, Varissuon kirjasto |B19 |5 | |Mikä tahansa |LAUTAPELI |Ei |Ei |Ei
+30 |Turku, Varissuon kirjasto |A1 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
+31 |Turku, Varissuon kirjasto |A2 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
+32 |Turku, Varissuon kirjasto |A6 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
+33 |Turku, Varissuon kirjasto |A7 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
+34 |Turku, Varissuon kirjasto |B1 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
+35 |Turku, Varissuon kirjasto |B2 |15 | |Mikä tahansa |Mikä tahansa |Ei |Ei |Ei
 
 (Jne, kaikki loput hyllyt siis tavallisia noutohyllyjä, joissa ei ole mitään asiakas- tai aineistotyyppirajausta.)
 
