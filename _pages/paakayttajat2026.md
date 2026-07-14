@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi),
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
@@ -25,6 +25,9 @@ Pohjoisesta etelään
 * Failed-tilaiset taustatyöt loppuneet, viimeisimmässä 20 osakohdetta kadotti yhteyden emoon.
 * Tehty kirjastoille vuoden 2027 hankintatilit
 * Kohan kaukolainapalikan viimeistely
+
+**Vaski**
+* Ei mitään erityistä.
 
 ## Viikko 28
 
