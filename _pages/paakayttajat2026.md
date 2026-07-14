@@ -37,7 +37,7 @@ Pohjoisesta etelään
 **Helle**
 * Porvoon pääkirjaston lajitteleva palautusautomaatti poistettu käytöstä.
 * Lisötty 740-kentän näkyvyys [740-kenttä näkyviin Kuvaukset-välilehdelle](https://github.com/KohaSuomi/Koha/issues/2284)
-* Asiakaspäätteiden varausjärjestelmä Cloud 9 otetaan käyttöön 12.-13.8.2026 [Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903)
+* Asiakaskoneiden varausjärjestelmä Cloud 9 otetaan käyttöön 12.-13.8.2026 [Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-29) - [Palaa sivun alkuun](/paakayttajat2026)
 
