@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski)
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
@@ -28,6 +28,13 @@ Pohjoisesta etelään
 
 **Vaski**
 * Ei mitään erityistä.
+
+**OUTI**
+* Viikkopäivityksessä ollutta korjausta itsepalvelutoimintoon päästään kokeilemaan käytännössä vasta kesälomien jälkeen.
+* Noutomuistutukseen liittyvät ongelmat on korjattu. OUTI otti käyttöön myös 0-vaihtoehdon days_in_advance-asetukseen. Joillekin asiakkaille on todennäköisesti tallentunut noutomuistutus päälle vahingossa asiakastietojen muokkausten yhteydessä.
+* Varausjonon priorisointi käynnistyy. Asiakastiedotteita on lähtenyt, ja monipuolista palautetta tullut.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-29) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 28
 
