@@ -13,17 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
 
 Pohjoisesta etelään
 
+
 ## Viikko 28
 
 Aika: Ti 7.7.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen (Kyyti), Hanna Hyttinen ja Auli Rantsalo (Vaara), Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * [Viikon 28 päivitys](https://github.com/KohaSuomi/Koha/discussions/2412)
@@ -60,6 +61,9 @@ Etelästä pohjoiseen
 **Vaara**
 * Laina- ja maksusääntöjen tarkennuksia tehty asiakastyypin perusteella, sillä lehtien nidevarus ei onnistunut tällä asiakastyypillä verkkokirjastossa. Tämä tarkennus tehty tuotantoon ja testille, nextin osalta vielä kesken.
 * Viikolla ilmeni ongelma varausjonossa, sillä 2 uutta varausta eivät menneetkään jonon loppuun vaan ilmestyivät jonon kärkeen ilman nostoja. Teimme tästä tiketin: https://github.com/KohaSuomi/Koha/issues/2410
+
+**Kirkes**
+ * Ei erityistä huomioitavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-28) - [Palaa sivun alkuun](/paakayttajat2026)
 
