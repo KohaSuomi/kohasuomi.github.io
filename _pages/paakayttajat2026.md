@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
@@ -34,6 +34,9 @@ Pohjoisesta etelään
 * Noutomuistutukseen liittyvät ongelmat on korjattu. OUTI otti käyttöön myös 0-vaihtoehdon days_in_advance-asetukseen. Joillekin asiakkaille on todennäköisesti tallentunut noutomuistutus päälle vahingossa asiakastietojen muokkausten yhteydessä.
 * Varausjonon priorisointi käynnistyy. Asiakastiedotteita on lähtenyt, ja monipuolista palautetta tullut.
 
+**Lastu**
+* Normaalia ylläpitoa.
+  
 **Helle**
 * Porvoon pääkirjaston lajitteleva palautusautomaatti poistettu käytöstä.
 * Lisötty 740-kentän näkyvyys [740-kenttä näkyviin Kuvaukset-välilehdelle](https://github.com/KohaSuomi/Koha/issues/2284)
