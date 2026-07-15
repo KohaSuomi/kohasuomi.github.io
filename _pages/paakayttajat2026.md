@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu)
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
@@ -41,6 +41,9 @@ Pohjoisesta etelään
 * Porvoon pääkirjaston lajitteleva palautusautomaatti poistettu käytöstä.
 * Lisötty 740-kentän näkyvyys [740-kenttä näkyviin Kuvaukset-välilehdelle](https://github.com/KohaSuomi/Koha/issues/2284)
 * Asiakaskoneiden varausjärjestelmä Cloud 9 otetaan Porvoossa käyttöön 12.-13.8.2026 [Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903)
+
+**Siilinjärvi**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-29) - [Palaa sivun alkuun](/paakayttajat2026)
 
