@@ -43,7 +43,10 @@ Pohjoisesta etelään
 * Viikkopäivityksessä ollutta korjausta itsepalvelutoimintoon päästään kokeilemaan käytännössä vasta kesälomien jälkeen.
 * Noutomuistutukseen liittyvät ongelmat on korjattu. OUTI otti käyttöön myös 0-vaihtoehdon days_in_advance-asetukseen. Joillekin asiakkaille on todennäköisesti tallentunut noutomuistutus päälle vahingossa asiakastietojen muokkausten yhteydessä.
 * Varausjonon priorisointi käynnistyy. Asiakastiedotteita on lähtenyt, ja monipuolista palautetta tullut.
-
+* OUTI-kirjastoille laitetaan ma 20.7.2026 päälle muokattu kaukolainan infokuitti. Kuitille tulostuu automaattisesti eräpäivä, nimeke, tekijä, kaukolainan hinta sekä noutokirjaston lyhenne. Tähän asti nämä tiedot on kirjoitettu kuitille käsin, mutta käsin täydennettäväksi tiedoksi jää muokkauksen jälkeen vain kaukolainanumero sekä ilmoitustapa. https://github.com/KohaSuomi/Koha/issues/2125
+* Jos asiakkaalle ei ole valittu kaukolainan noutoilmoituksen lähetystapaa, niin asiakkaalle ei lähde kaukolainasta noutoilmoitusta. Koha antaa tuollin keltaisella pohjalla olevan testin: "Pyydettyä ilmoitusta ei laitettu viestijonoon email, SMS". OUTIssa on tiettävästi ainakin yhden kaukolainan noutoilmoituksen lähetys epäonnistunut eikä asiakas siitä syystä hakenut kaukolainaan. Voisiko tekstin muuttaa kuvaavammaksi esim. "tarkista asiakkaan viestiasetukset, viestiä ei voitu lähettää".
+  * Piia tekee kehitysehdotuksen 
+  
 **Lastu**
 * Normaalia ylläpitoa.
   
