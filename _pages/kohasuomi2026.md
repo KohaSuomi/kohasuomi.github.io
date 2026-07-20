@@ -27,6 +27,18 @@ Läsnä: Kodo, Olli, Emmi
 
 ### Viikolla 29 tehtyä
 
+#### Emmi
+
+* [Vaski: IntranetUserJS päivitys. Palautuksen pikanäppäimet](https://github.com/KohaSuomi/Koha/issues/2424): Autettu Vaskin pääkäyttäjää asetuksen päivittämisessä.
+* [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418): Rajapinta tehty ja testattu periaatteessa toimivaksi. Vaatii vielä ratkaisuja taattavien lisäämiseen, uuden asiakastyypin määrittelyyn sekä kimpan määrittelyyn.
+* [Epäonnistuneet niteiden eräpoistot](https://github.com/KohaSuomi/Koha/issues/2403): Vaarassa ajettiin uudelleen 12.6.-29.6. epäonnistuneita taustatöitä. Liittyy tikettiin [Tietueiden poistossa ongelmia useissa kimpoissa](https://github.com/KohaSuomi/Koha/issues/2395).
+* [OUTI: Itsepalvelutoiminnon Valmis-painikkeessa toimimattomuutta](https://github.com/KohaSuomi/Koha/issues/2405): Ongelmaa yritettiin korjata siivoamalla selaimen evästeet lainaustapahtuman päättymisen jälkeen, mutta tällä ei ollut vaikutusta. Vika näyttäisi nyt paikallistuneen käyttäjävarmenteen puuttumiseen.
+* [Vaara: Lehtien vastaanotossa error 500](https://github.com/KohaSuomi/Koha/issues/2426): Vaarassa käytetään muista kimpoista poiketen liitännäistä koodatun paikkamääreen määrittelyyn. Liitännäinen on kuitenkin tällä hetkellä rikki ja sen käyttö aiheutti sen, että kenttä menee lukkoon jolloin sen arvoa ei lähetetä lomakkeelta eteenpäin. Tästä johtuen lomakkeen arvot "hyppäävät" niiden käsittelyssä yhden kentän ylöspäin ja niteen nidetyyppi-kenttä jää tyhjäksi. Virheellisiä nidetyyppejä ei anneta tallentaa Kohaan, sillä ne aiheuttavat mm. ongelmia tietueen niteiden avaamisessa. Liitännäinen on nyt korjattu ja korjaus viety testattavaksi. 
+  * Yllä oleva liittyy myös tikettiin [Uuden niteen tallennus antaa Internal server error](https://github.com/KohaSuomi/Koha/issues/1667): Aiemmin on epäilty, että nidetyypin katoaminen voisi liittyä kenttien lukittumiseen, mihin saatiin nyt ainakin kausijulkaisuiden osalta varmuus. Niteiden lisäyksessä samaa tilannetta ei pääse syntymään ellei nidetyyppi-kenttä itsessään mene lukkoon.
+* [Ceepos-maksutoiminto ilmoittaa lähettäneensä maksun kassaan, vaikka oikeaa kassaa (maksutyyppiä) ei ole valittuna](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/10): Jos maksuja maksaa Ceepos-maksuna, Maksutyyppi-alasvetovalikosta tulee valita oikea kassa. Valinnan voi kuitenkin jättää tekemättä ja yrittää tehdä maksua, jolloin ilmoitetaan että maksu on lähetetty. Kun tämän ilmoituksen kuittaa, näkyykin heti sen jälkeen ilmoitus "Office is missing!" eikä maksua ole oikeasti lähetetty. Koodia on korjattu niin, että edellinen ilmoitus näytetään heti kun kassaa ei löydetä.
+* OUTIssa ilmeni hitautta Kohassa ja automaattien tippumisia 16.7. Lokien perusteella hidastelun ja tippumisien aikaan starman ei ole saanut yhteyttä workereihin, mutta ongelma on oiennut itsestään jossain vaiheessa. Loppuviikosta vastaavaa ei enää tapahtunut
+* Laadin viikon 29 päivitystiedotteen
+* Pääkäyttäjäpalaveri 14.7.
 
 ## Viikko 29
 
