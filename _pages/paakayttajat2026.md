@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -22,6 +22,20 @@ Etelästä pohjoiseen
 
 **Kirkes**
  * Järvenpään kirjasto suljetaan 24.7.-3.8. väliseksi ajaksi, mietitty Kohaan tarvittavia muutoksia.
+
+**OUTI**
+* Itsepalvelutoiminnossa ollut ongelma ei korjaantunut ja liittyikin varmenteen puuttumiseen. OUTIssa varmenne ei ole käytössä itsepalvelulaitteilla, mutta jostain syystä ongelmaa oli raportoitu kuitenkin vain muutamasta paikasta.
+* Verkkokirjastossa varaamisen estyminen yksityisoikeudellisten maksujen vuoksi ei ehkä olisi tarvinutkaan korjausta, vaan toimii niin kuin pitääkin. [Myös asiakkaan yksityisoikeudelliset maksut estävät varaamisen verkkokirjastossa #2365](https://github.com/KohaSuomi/Koha/issues/2365)
+* Varausjonon priorisointi -projekti: [Varausten priorisointi #1563](https://github.com/KohaSuomi/Koha/issues/1563)
+  * Käynnistyi ke 15.7.2026 klo 8:30.
+  * Käynnistimme LocalHoldsPriorityFulfillmentSkip-asetuksen ohituslaskentaa varten, mutta huomasimme pian, että ohituksia syntyi aivan liikaa, ja poistimme asetuksen.
+  * Jouduimme asettamaan rajoituksen LocalHoldsPriorityItemControl=20 pe 17.7.2026 klo 14:30.
+    * Kohassa jumitusta 16.7. -- syy ei ole varmistunut.
+    * Verkkokirjastossa varatuimpien teosten saatavuustiedot eivät latautuneet, rajoituksen lisääminen priorisointiin auttoi.
+* Tutkimme Finnan StatusRankings-asetuksia, josko saisimme sieltäkin apua verkkokirjaston hitauteen.
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-30) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 29
 
