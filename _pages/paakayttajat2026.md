@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -33,6 +33,9 @@ Etelästä pohjoiseen
     * Kohassa jumitusta 16.7. -- syy ei ole varmistunut.
     * Verkkokirjastossa varatuimpien teosten saatavuustiedot eivät latautuneet, rajoituksen lisääminen priorisointiin auttoi.
 * Tutkimme Finnan StatusRankings-asetuksia, josko saisimme sieltäkin apua verkkokirjaston hitauteen.
+
+**Siilinjärvi**
+* Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-30) - [Palaa sivun alkuun](/paakayttajat2026)
