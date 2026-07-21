@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
