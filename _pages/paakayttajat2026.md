@@ -35,7 +35,7 @@ Etelästä pohjoiseen
 * Tutkimme Finnan StatusRankings-asetuksia, josko saisimme sieltäkin apua verkkokirjaston hitauteen.
 
 **Siilinjärvi**
-* Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
+* Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Diagnoosi: kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-30) - [Palaa sivun alkuun](/paakayttajat2026)
