@@ -13,12 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: 
+Läsnä: Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
 
 Etelästä pohjoiseen
+
+**Kirkes**
+ * Järvenpään kirjasto suljetaan 24.7.-3.8. väliseksi ajaksi, mietitty Kohaan tarvittavia muutoksia.
 
 ## Viikko 29
 
