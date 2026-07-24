@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -22,6 +22,9 @@ Etelästä pohjoiseen
 
 **Kirkes**
  * Järvenpään kirjasto suljetaan 24.7.-3.8. väliseksi ajaksi, mietitty Kohaan tarvittavia muutoksia.
+
+**Lastu**
+* Virkailija onnistunut maksun poistossa tuplana.
 
 **OUTI**
 * Itsepalvelutoiminnossa ollut ongelma ei korjaantunut ja liittyikin varmenteen puuttumiseen. OUTIssa varmenne ei ole käytössä itsepalvelulaitteilla, mutta jostain syystä ongelmaa oli raportoitu kuitenkin vain muutamasta paikasta.
