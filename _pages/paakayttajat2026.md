@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Lauri Hänninen (Lastu)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Lauri Hänninen (Lastu), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -40,13 +40,17 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Diagnoosi: kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
 
+**Vaara**
+* Viinijärvelle on tulossa uusia automaatteja joille tarvitaan tunnukset. Tiketti tehdään tämän viikon aikana
+* Vaarassa huomattu, että olisi tarve uudelle asiakastyypille kotipalveluasiakas omatoimi, joka otettaisiin silloin käyttöön, kun tilanteesta johtuen muutetaan henkilöasiakas omatoimi -asiakas kotipalveluasiakkaaksi. Asiakastyyppi lisätään kesän aikana ja sille tehdään omat laina ja maksusäännöt. Kokouksen aikana puhuttiin yhteisestä lyhenteestä ja että asiasta tehdään tiketti, jotta ollaan selvillä onko uusi asiakastyyppi huomioitava myös joissakin ajoissa.
+* Vaarassa on myös mietitty mahdollisuutta muuttaa kirjautumissivun tekstin paikkaa nykyistä alemmas, jossa muistutetaan oikean toimipisteen määrittämisestä kirjauduttaessa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-30) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 29
 
 Aika: Ti 14.7.2026 klo 9.15<br />
-Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Emmi Takkinen ja Pasi Kallinen (Koha-Suomi), Erika Miettinen (Kirkes), Leena Kinnunen ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Katariina Pohto ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu), Reetta Pihlaja (Siilinjärvi), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 29 päivitys](https://github.com/KohaSuomi/Koha/discussions/2422)
@@ -80,6 +84,9 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Vaara**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-29) - [Palaa sivun alkuun](/paakayttajat2026)
 
