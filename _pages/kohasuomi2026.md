@@ -26,6 +26,18 @@ Läsnä:
 
 ### Viikolla 30 tehtyä
 
+#### Emmi
+
+* [Vaara: SIP2-tunnukset Viinijärven automaateille](https://github.com/KohaSuomi/Koha/issues/2434): Tunnukset lisätty automaattiasetuksiin.
+* [OUTI: Koskelan kirjaston automaattien SIP-tunnusten poisto](https://github.com/KohaSuomi/Koha/issues/2433): Tunnukset poistettu automaattiasetuksista.
+* [LAPPI, VAARA, LUMME: Varausten voimassaoloaika tippunut 3 vuoteen](https://github.com/KohaSuomi/Koha/issues/2429): Lapissa huomattiin, että DefaultHoldExpirationdate-asetuksen arvo on tippunut 5 vuodesta 3 vuoteen ja varauksille on muodostunut väärä vanhenemispäivämäärä. Lapille tehtiin ajo näiden korjaamiseksi ja samalla tarkistettiin muutkin kimpat sekä test- ja next-ympäristöt. Arvo on ilmeisesti kopioitunut tuotantoon ja testeille nexteiltä. Kehotettu Lappia muuttamaan asetukset sekä otettu yhteyttä Vaaran ja Lumpeen pääkäyttäjiin ja kehotettu heitäkin muuttamaan asetukset. Vaaraan tehty korjausajo, Lumpeesta odotellaan vielä vastausta.
+* [Laskutustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/37): Käännökset tehty ja viety testeille ja nexteille odottamaan tarkistuksia.
+* [Maksun maksu tai poisto onnistuu useampaan kertaan usealla välilehdellä](https://github.com/KohaSuomi/Koha/issues/2427): Lastussa oli saatu poistettua maksu kahteen kertaan, jolloin asiakkaalle muodostui kaksi hyvitystä. Ilmeisesti Maksa maksuja-sivu on ollut auki kahdella välilehdellä. Testattu kaikki 3 tapaa tehdä poisto/maksu ja 2 niistä johti vastaavaan tilanteeseen, jos Maksa maksuja-sivu on auki kahdella välilehdellä.
+* [Kalenterissa kiinniolojen muokkaus aikavälillä mahdolliseksi](https://github.com/KohaSuomi/Koha/issues/340): Korjattu toiminnallisuudesta kaksi virhettä. Toinen aiheutti sen, ettei sunnuntaista kiinniolopäivää voinut muokata aikavälillä, toinen taas sen että kiinniolopäivien muokkaukset ja poistot tehtiin liian moneen paikkaan. Tutkitaan vielä voiko toiminnallisuutta parantaa, jos samalla päivällä sattuu olemaan kaksi eri tyyppistä kiinniolopäivää.
+* [Kalenteri: kaikkiin kirjastoihin lisättyä sulkujaksoa ei voi muokata tai osittain poistaa kaikilta kirjastoilta ongelmitta](https://github.com/KohaSuomi/Koha/issues/2399): Tutkittu tiketissä mainitut skenaariot ja todettu, että kohta kaksi korjautuu jo toisen tiketin korjauksella ja kohta kolme ei ole korjattavissa. Kohtaa yksi en saanut toistumaan.
+* [Kalenterin korjaukset ](https://github.com/KohaSuomi/Koha/issues/2411): Testattu tiketissä mainitut yhteisötiketit ja todettu, että molemmat ongelmat näyttäisivät poistuneen jossain vaiheessa.
+* Pääkäyttäjäpalaveri
+* Yhteisöpalaveri
 
 ## Viikko 30
 
