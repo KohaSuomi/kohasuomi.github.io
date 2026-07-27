@@ -36,6 +36,9 @@ Etelästä pohjoiseen
     * Kohassa jumitusta 16.7. -- syy ei ole varmistunut.
     * Verkkokirjastossa varatuimpien teosten saatavuustiedot eivät latautuneet, rajoituksen lisääminen priorisointiin auttoi.
 * Tutkimme Finnan StatusRankings-asetuksia, josko saisimme sieltäkin apua verkkokirjaston hitauteen.
+* Kaukolainan infokuitin muokkaukset on otettu käyttöön OUTIssa ja nyt kuitille tulostuu automaattisesti teoksen nimi, tekijä, noutokirjasto-lyhenne sekä kaukolainan hinta.
+* Haukiputaan kirjastossa oli Kohaan kirjautumisongelmia tietyllä koneella. Ongelmaan auttoi Firefoxin palauttaminen oletusarvoille.
+* Vaalan kirjastosa oli kiinnitetty huomiota siihen, että tilausten vastaanotossa oli niteille tallentunut erilaisia veroprosentteja. Ei ole saatu selville onko kyse kriittisestä tiedosta vai onko kyseessä kosminen tieto. Palaverissa kallistuimme kosmiseen häiriöön, mutta varmistamme vielä asian Oulun hankinnasta, kunhan palailevat lomalta.
 
 **Siilinjärvi**
 * Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Diagnoosi: kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
