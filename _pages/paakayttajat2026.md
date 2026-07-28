@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: Ti 28.7.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu)
+Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -23,6 +23,9 @@ Pohjoisesta etelään.
 
 **Lastu**
 * Normaalia ylläpitoa
+
+**Kirkes**
+ * Elina kirjoittanut Matrixiin lainaustauluissa satunnaisesti näkyvistä sarakkeista, joiden pitäisi olla piilotettuna. Samaa ilmennyt versionvaihdon jälkeen myös Lastussa.
 
 ## Viikko 30
 
