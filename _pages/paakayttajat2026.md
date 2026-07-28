@@ -14,12 +14,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: Ti 28.7.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi)
+Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
 
 Pohjoisesta etelään.
+
+**Lastu**
+* Normaalia ylläpitoa
 
 ## Viikko 30
 
