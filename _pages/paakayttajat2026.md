@@ -24,7 +24,7 @@ Pohjoisesta etelään.
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Lauri Hänninen (Lastu), Hanna Hyttinen (Vaara)
+Läsnä: Erika Miettinen (Kirkes), Emmi Takkinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Lauri Hänninen (Lastu), Hanna Hyttinen (Vaara), Lotta Juvonen (Helle)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
