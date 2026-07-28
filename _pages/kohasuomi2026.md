@@ -23,7 +23,9 @@ Läsnä:
 
 ### Muuta
 * Viikon 32 päivitys
-* Asiakasvarmenteiden tekeminen ja jakaminen kimppoihin. 
+* Asiakasvarmenteiden tekeminen ja jakaminen kimppoihin.
+
+### Viikolla 31 tehtyä
 
 ## Viikko 31
 
