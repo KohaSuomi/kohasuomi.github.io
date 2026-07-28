@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 31
+
+Aika: Ti 28.7.2026 klo 9.15<br />
+Läsnä: Johanna Räisä (Koha-Suomi)
+
+**Yhteiset**
+* Tällä viikolla ei tehty päivitystä.
+
+Pohjoisesta etelään.
+
 ## Viikko 30
 
 Aika: Ti 21.7.2026 klo 9.15<br />
