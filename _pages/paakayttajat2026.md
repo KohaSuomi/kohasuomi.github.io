@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31
 
 Aika: Ti 28.7.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Lotta Juvonen ja Vilgot Strömsholm (Helle)
+Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Lotta Juvonen ja Vilgot Strömsholm (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
