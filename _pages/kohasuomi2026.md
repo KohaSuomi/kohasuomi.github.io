@@ -27,6 +27,21 @@ Läsnä:
 
 ### Viikolla 31 tehtyä
 
+#### Kodo
+* [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829);
+Keskusteltu kirjastopäivillä KiPan edustajien kanssa RSA-avaimista. He lupasivat hoitaa asian, mutta uutta avainta ei edelleenkään ole saatu 31.7. mennessä.
+* [Koha#2306 001+003 kentissä päällekkäisyyksiä](https://github.com/KohaSuomi/Koha/issues/2306); Raportti tarkistettu, ei vaadi muutoksia uudistuneen biblio_control_fieldsin vuoksi.
+* [Koha#2372 Tietueet, joissa on tyhjä 003-kenttä](https://github.com/KohaSuomi/Koha/issues/2372); Raportti tarkistettu, ei vaadi muutoksia muuttuneen biblio_control_fieldsin vuoksi.
+* [Koha#2373 Raportti tietueista, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä](https://github.com/KohaSuomi/Koha/issues/2373);
+Koska biblio_control_fields -taulun kenttiin menevä data on osakohde- ja tietueyhdistelyn vuoksi nyt normalisoitu, ei tätä kyselyä enää voi tehdä biblio_control_fieldsistä. Raportti muutettu kyselemään suoraan biblio_metadatasta kahdella erilaisella ratkaisulla, ExtractValue ja Regexp, joista Regexp -tapa on nopeampi. Raportin ajamiseen meni testissä noin kaksi minuuttia, joka ei ole nopea, mutta on siedettävä. Kyselyä voi vielä olla mahdollista hieman nopeuttaa.
+* [Koha#2380 Raportti tuplaosakohdetietueista, joissa on sama 001+003-yhdistelmä](https://github.com/KohaSuomi/Koha/issues/2380);
+Osakohteiden linkkitiedot lisätty biblio_control_fields-tauluun, joten raportti muutettiin kyselemään siitä biblio_metadatan parsimisen sijaan. Tämä tapa on nopeampi ja aiheuttaa vähemmän kuormaa tietokantapalvelimelle.
+* [Koha#2405: OUTI: Itsepalvelutoiminnon Valmis-painikkeessa toimimattomuutta](https://github.com/KohaSuomi/Koha/issues/2405); Osa SCO:n tarvitsemista resursseista oli asiakasvarmenteen takana. SCO:ta varten on lisätty poikkeukset palomuurille ja tarvittavat resurssit ovat nyt käytettävissä myös ilman asiakasvarmennetta. Testattu OUTIssa ja vaikuttaisi nyt toimivan oikein.
+* [Koha#2431 Biblio_control_fields -taulun päivitys lukitsee biblio_metadata taulun](https://github.com/KohaSuomi/Koha/issues/2431);
+Entinen päivitysskripti aiheutti deadlock-tilanteita ja hidasti/jumitteli Kohaa. Skripti on kirjoitettu kokonaan uudelleen (SQL -> Perl). Data käsitellään erissä eikä taululukkoja enää pitäisi syntyä. Ainoastaan uudet ja muuttuneet tietueet käsitellään kullakin ajokerralla, joka nipistää päivitysajon keston muutamaan sekuntiin. Testattu vaski-testillä ja commitoitu utilityyn (development & master). Otettu käyttöön kaikissa tuotannoissa tunnin päivitysvälillä. Seurataan toimintaa ja mahdollisesti tihennetään tarvittaessa päivitysväliä.
+* [Koha#2435 TäTi-testin biblio* tauluista puuttuu indeksit](https://github.com/KohaSuomi/Koha/issues/2435);
+Tätin biblio* -tauluista oli tietokantayhdistelyn seurauksena pudonnut taulujen indeksit, joka hidasti tauluihin tehtäviä hakuja merkittävästi. Lisätty puuttuvat indeksit + poistettu tällä välin kantaan syntyneet biblionumber 0 duplikaatit.
+
 ## Viikko 31
 
 Aika: Ma 27.7.2026 klo 9<br/>
