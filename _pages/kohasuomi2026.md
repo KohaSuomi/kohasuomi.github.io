@@ -23,8 +23,12 @@ Läsnä:
 
 ### Muuta
 * Viikon 32 päivitys
+  * OKM tilastotaulun (biblio_data_elements korjauksia)
+  * biblio_control_fields parannuksia
 * Asiakasvarmenteiden tekeminen ja jakaminen kimppoihin.
-
+  * Sovittava pääkäyttäjäpalaverissa kennelle varmenteet toimitetaan
+  * Lari tekee varmenteet
+  
 ### Viikolla 31 tehtyä
 
 #### Kodo
