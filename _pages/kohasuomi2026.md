@@ -99,6 +99,18 @@ Tiketti suljettu.
 Tiketti avattu.
 Vastuutettu: johannaraisa.
 
+#### Emmi
+
+* [LAPPI, VAARA, LUMME: Varausten voimassaoloaika tippunut 3 vuoteen](https://github.com/KohaSuomi/Koha/issues/2429): Varaukset korjattu myös Lumpeille.
+* [OKM-liitännäinen: Sarakkeet piilottuvat väärin](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/23): Sarakkeiden piilotus oli taas mennyt rikki, kun tilastointiin lisättiin uusia kenttiä. Piilotusta on nyt parannettu niin, että se perustuu sarakkeiden avain-arvoihin eikä niiden indekseihin. Näin uusi sarakkeita lisätessä ei tarvitse ruveta laskemaan niiden indeksejä ja käydä muuttamassa muiden sarakkeiden piilotukseen käytettyjä indeksejä.
+* [OKM-liitännäinen: bde-taulun rivien päivittymisessä ongelmia](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/22): Ainakin deleted, deleted_on ja host_record sarakkeiden päivittymisessä on ollut jossain vaiheessa ongelmia ja sarakkeissa on nyt väärää dataa. Poistettujen tietueiden korjaukseen on tehty skripti, joka on vielä ajettava tuotantoihin. Tämän jälkeen tarkastellaan toistuuko ongelma uudestaan ja tutkitaan mahdollista syytä. Sarakkeen host_record päivittymiseen ei luotu uutta skriptiä, vaan se tehdään yksittäisen sarakkeen päivityksenä joka nyt lokittaa virheelliset rivit lokeille. Ennen kuin tämä ajetaan, yritetään parantaa ajoa tiketin [OKM-liitännäinen: Tietuepakettien hakeminen määrän mukaan biblionumberin sijasta](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/20) mukaan.
+* [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26): Uuden asetuksen tekeminen aloitettu, pitää vielä varmistaa koskihan tämä kaikkia tilastoja vai vain osaa.
+* [Plugari signum_builder_ks.pl:stä varoitus "Unrecognized escape.."](https://github.com/KohaSuomi/Koha/issues/2441): Huomattu tutkiessa nidetyyppien häviämistä. Plugarissa ei ole escapetettu regexiä oikein, jolloin lokeille syntyy runsaasti varoituksia. Muuten plugari toimii kuten pitääkin. Korjaus työn alla.
+* [Nidetyypin generointi ei virheen sattuessa vapauta nidetyyppi-kenttää](https://github.com/KohaSuomi/Koha/issues/2444): Nidetyypin generoinnin value builderista on jäänyt puuttumaan nidetyyppi-kentän vapautus virheen sattuessa. Tällä on voinut olla jotain tekemistä puuttuvien nidetyyppien kanssa. Korjaus työn alla. 
+* [Useamman lehden vastaanotossa mahdollista aiheuttaa virhe 500](https://github.com/KohaSuomi/Koha/issues/2443): Jos asetus makePreviousSerialAvailable on käytössä ja kausijulkaisuiden vastaanotossa unohtaa täyttää jonkin pakollisen kentän, voi nidetyyppi kadota kokonaan. Näin tapahtuu kuitenkin vain, jos lisättäviä niteitä on 3. Korjaus työn alla.
+* [Viivakoodin generointi ei osaa aina käsitellä useamman niteen lisäystä oikein](https://github.com/KohaSuomi/Koha/issues/2440): Huomattu tutkiessa nidetyyppien häviämistä. Jos viivakoodissa on käytetty prefixissä merkkijonoja, Koha ei osaa käsitellä viivakoodeja useamman kausijulkaisun lisäyksessä, vaan yhden niteen viivakoodiin lisätään kaksi viivakoodia. Tiketöity.
+* [Tietokantaan roikkumaan jäävät kuljetukset](https://github.com/KohaSuomi/Koha/issues/2442): OUTIssa huomattu kummallisuuksia niteiden kuljetusten kirjaamisessa perutuiksi/valmiiksi. Selvitelty asiaa hieman pääkäyttäjän kanssa, kehotettu tekemään tiketti.
+
 ## Viikko 31
 
 Aika: Ma 27.7.2026 klo 9<br/>
