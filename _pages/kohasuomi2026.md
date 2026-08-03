@@ -46,6 +46,59 @@ Entinen päivitysskripti aiheutti deadlock-tilanteita ja hidasti/jumitteli Kohaa
 * [Koha#2435 TäTi-testin biblio* tauluista puuttuu indeksit](https://github.com/KohaSuomi/Koha/issues/2435);
 Tätin biblio* -tauluista oli tietokantayhdistelyn seurauksena pudonnut taulujen indeksit, joka hidasti tauluihin tehtäviä hakuja merkittävästi. Lisätty puuttuvat indeksit + poistettu tällä välin kantaan syntyneet biblionumber 0 duplikaatit.
 
+#### Johanna
+* [FIx syntax error on workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/af0e8fdf520c568939b43b733f505b05c7ea64e3) (master)
+* [FIx syntax error on workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/83fd817471b77ed3fcc5ac9f48b4f2365e240663) (development)
+* [KOHA-2369: Add schema check to build workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/9d4006bd2142af5c913966077296934b19f83c9e) (master)
+* [KOHA-2369: Add schema check to build workflow](https://github.com/KohaSuomi/koha-suomi-utility/commit/c2028498c6a6b940362d498f5da7e2803304438a) (development)
+* [Update workflow to newer node version](https://github.com/KohaSuomi/koha-suomi-utility/commit/2a77b4e11ab31f39d670d7e3ed5ba42449d9e32d) (master)
+* [Update workflow to newer node version](https://github.com/KohaSuomi/koha-suomi-utility/commit/8f950137bce3ed9e6674f7dd2989ea259dfc1315) (development)
+* [Add swagger bundle and css to be force created](https://github.com/KohaSuomi/koha-suomi-utility/commit/2933441c4aae8916f67dc2f382984d69f1b6184f) (master)
+* [Add swagger bundle and css to be force created](https://github.com/KohaSuomi/koha-suomi-utility/commit/c7bcf26c73b3687753c12e04f051471f5cf58f71) (development)
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/070f38d6f5e70410db26e3e4a717200250f2da6a) (development)
+* [Allow user to define more env variables](https://github.com/KohaSuomi/koha-suomi-utility/commit/2d6fcb1a572f8fabcc36b7201d374a44b2a6b61e) (master)
+* [Allow user to define more env variables](https://github.com/KohaSuomi/koha-suomi-utility/commit/55c71c2aec48d38a0b66cccb2bbe0fb004effcf1) (development)
+* [Delete the existing branch](https://github.com/KohaSuomi/koha-suomi-utility/commit/b5a8d8acd1c1eb4496afdff572250b46a2cab68d) (master)
+* [Delete the existing branch](https://github.com/KohaSuomi/koha-suomi-utility/commit/c475ba5c525e6a147afb0ae9e37ffc5fb5aa3d73) (development)
+* [Change to remote_branch](https://github.com/KohaSuomi/koha-suomi-utility/commit/dbc5758260237104b0060c5494428c4f07828b05) (development)
+* [Change to remote_branch](https://github.com/KohaSuomi/koha-suomi-utility/commit/000cc17c6d7ca230168505740fe20d832f030a46) (master)
+* [Delete old branch and format message](https://github.com/KohaSuomi/koha-suomi-utility/commit/9f441c0231567ff1b226f715ee711f0dcef596fa) (master)
+* [Delete old branch and format message](https://github.com/KohaSuomi/koha-suomi-utility/commit/62e614252fcf909e2439fc0c409e793869d324e5) (development)
+* [Build Koha resouces with yarn](https://github.com/KohaSuomi/koha-suomi-utility/commit/80c34134e48412deee29ba58ba3453770e556be0) (development)
+* [Build Koha resouces with yarn](https://github.com/KohaSuomi/koha-suomi-utility/commit/0feedcec36d070c436fdeb64d88135ac98e946ff) (master)
+* [Add default commiter](https://github.com/KohaSuomi/koha-suomi-utility/commit/791df25fc535ca422b681473cbb3c2dd26c2896f) (master)
+* [Add default commiter](https://github.com/KohaSuomi/koha-suomi-utility/commit/065a2b604cd70f422c9406131fbe164ea2f602dc) (development)
+* [Merge branch 'master' of https://github.com/KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commit/04392ee3b93eea8ad784ed9fc3f57705230cc1fb) (master)
+* [Add more logging to build and better mapping](https://github.com/KohaSuomi/koha-suomi-utility/commit/45088536316735699d11653bdf1a61d1c80176ac) (master)
+* [Add more logging to build and better mapping](https://github.com/KohaSuomi/koha-suomi-utility/commit/bc32f056767c49bf4570cfa82aa8025ea405f213) (development)
+* [Merge branch 'development' of https://github.com/KohaSuomi/koha-suomi-utility into development](https://github.com/KohaSuomi/koha-suomi-utility/commit/cf19877eb453e717c6b55121abf1dce962b95871) (development)
+* [Create build CI](https://github.com/KohaSuomi/koha-suomi-utility/commit/196e781c9ea457c97601be609fcbf991e4dadcb5) (development)
+* [Create build CI](https://github.com/KohaSuomi/koha-suomi-utility/commit/24b91bf267d856e5a2ba95c53b8bdbbd961b42e6) (master)
+* Bug 39140: Add natural sorting to settings lists (ks25dev/ks-0274-on-0243-KOHA-1563-prioritize-holds)
+* Bug 39140: Add natural sorting to hold pickup shelf selector
+* Bug 39140: Filter search results
+* Bug 39140: Order shelves with priority and shelf_name
+* [Fix formatting and add week 31 updates](https://github.com/KohaSuomi/kohasuomi.github.io/commit/fbd980b037c4902ca0b856a9a9ffb60da3f3fe79) (master)
+* [Add week 32 notes and updates](https://github.com/KohaSuomi/kohasuomi.github.io/commit/fcf1ca428a45508875a5f515e3c8809ed418704c) (master)
+* [Update paakayttajat2026](https://github.com/KohaSuomi/kohasuomi.github.io/commit/9c4430aa83897bbad5a14671d9896f58d3f2fa80) (master)
+* [KPCPU-9: Add exception translations](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/commit/b54e65e91b4c6f2f5416d46a0ddb6e1764ad42b3) (master)
+* [KohaSuomi/Koha - Hyllyvarausraportin kaikki suodattimet eivät toimi](https://github.com/KohaSuomi/Koha/issues/2276);
+Tiketti suljettu.
+* [KohaSuomi/Koha - Hyllyvarausraportin sarakkeiden tekstikentät eivät toimi tabletilla](https://github.com/KohaSuomi/Koha/issues/2292);
+Tiketti suljettu.
+* [KohaSuomi/koha-plugin-ceepos-integration - Ceepos-maksutoiminto ilmoittaa lähettäneensä maksun kassaan, vaikka oikeaa kassaa (maksutyyppiä) ei ole valittuna](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/10);
+Kommentti: Tänään pohdin tätä kuviota, se kassan rajapinta on synkrooninen, joten kun maksu lähetetään, Koha jää odottamaan kassalta maksun käsittelyn valmistumista. Tuo alert ilmestyy ennen kuin yhteys tehdään, jotta käyttäjä ymmärtää katsella sitä kassan puolella. Luulen, että nyt tuossa käy niin, että käyttäjä saa alertin vasta sitten kun on käsitellyt maksun kassassa, eli vasta kun kaikki on jo valmista.
+Kommentti: Alertin pitäisi näkyä ennen uudelleenohjausta, se tapahtuu vasta kun painaa nappia.
+* [KohaSuomi/koha-plugin-ceepos-integration - Ceepos-liitännäinen: Onko käännettävissä?](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/9);
+Vastuutettu: johannaraisa.
+Kommentti: Nyt pitäisi näkyä testeillä ja nexteillä nuokin käännettyinä, ctrl+f5.
+Kommentti: Puhuin höpöjä, kyllä nuo backendin virheet saa sellaiseen muotoon, että javascriptin päässä voi laittaa käännökset.
+* [KohaSuomi/koha-suomi-utility - Automaatio Githubin tikettien sulkemiseen](https://github.com/KohaSuomi/koha-suomi-utility/issues/118);
+Tiketti suljettu.
+* [KohaSuomi/koha-suomi-utility - Full CI Build + Server Pull Deploy](https://github.com/KohaSuomi/koha-suomi-utility/issues/140);
+Tiketti avattu.
+Vastuutettu: johannaraisa.
+
 ## Viikko 31
 
 Aika: Ma 27.7.2026 klo 9<br/>
