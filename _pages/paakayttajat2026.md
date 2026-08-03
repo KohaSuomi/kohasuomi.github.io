@@ -16,7 +16,7 @@ Aika: Ti 4.8.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/2445)
+* [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/2445)
 
 
 ## Viikko 31
