@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32
 
 Aika: Ti 4.8.2026 klo 9.15<br />
-Läsnä: Kodo Korkalo (Koha-Suomi), Janne Seppänen (Lastu), Lari Strand (Koha-Suomi), Piia Semenoff (OUTI), Pirkko-Liisa Lauhikari (Outi), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes), Erika Miettinen (Kirkes), Hanna Hyttinen (Vaara), Maria Joona (Lappi), Roosa Kyllönen (Vaski), Vilgot Strömsholm (Helle)
+Läsnä: Kodo Korkalo (Koha-Suomi), Janne Seppänen (Lastu), Lari Strand (Koha-Suomi), Piia Semenoff (OUTI), Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Elina Uotila (Kirkes), Erika Miettinen (Kirkes), Hanna Hyttinen (Vaara), Maria Joona (Lappi), Roosa Kyllönen (Vaski), Vilgot Strömsholm (Helle)
 
 **Yhteiset**
 * [Viikon 32 päivitys](https://github.com/KohaSuomi/Koha/discussions/2445)
