@@ -31,6 +31,7 @@ Etelästä pohjoiseen
 **Kyyti**
 
 **Lastu**
+* Havaittu että joiltakin raporteilta jää pois niteitä joiden pitäisi niihin kuitenkin tulla. Paikallistettu ongelma todennäköisesti branchtransfers-tauluun, jossa kuljetettavan varauksen saapuessa noudettavaksi sellaiseen pisteeseen jossa nide voi kellua, kuljetusta ei merkitä saapuneeksi vaan perutuksi. Lisätty havainnot [viime kuussa viikkopäivityksessä tuotantoon tulleeseen tikettiin](https://github.com/KohaSuomi/Koha/issues/2285), jossa ongelma on mahdollisesti syntynyt.
 
 **Vaara**
 
