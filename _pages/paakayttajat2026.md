@@ -22,6 +22,21 @@ Läsnä: Kodo Korkalo (Koha-Suomi), Janne Seppänen (Lastu), Lari Strand (Koha-S
 
 Etelästä pohjoiseen
 
+**Helle**
+
+**Vaski**
+
+**Kirkes**
+
+**Kyyti**
+
+**Lastu**
+
+**Vaara**
+
+**OUTI**
+
+**Lappi**
 
 ## Viikko 31
 
