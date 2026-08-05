@@ -30,7 +30,11 @@ Etelästä pohjoiseen
 * Ei mainittavaa. 
 
 **Kyyti**
-
+* Kaukopalveluosion käyttöönotossa pari asiaa:
+	* Kaukolainaksi tulleiden kirjojen yli 20-merkkiset viivakoodit ovat ongelma, Koha ei niitä hyväksy. Miten ratkaistaan? Kodon mukaan muutetaan Kohaa hyväksymään ne.
+	* Voisiko kaukolainan saapumisilmoitus ja ei saatavilla -ilmoitus noudattaa varausten saapumisilmoitusta? Ideaa ei vastustettu, joten teen tiketin, jossa asiaa voi vielä kommentoida
+* Saako varausten saapumisilmoitustekstiviestiin määritettyä esim. nimekkeelle maksimipituuden? Saa, ainakin Lastussa toteutettu. Janne lähetti koodin.
+  
 **Lastu**
 * Havaittu että joiltakin raporteilta jää pois niteitä joiden pitäisi niihin kuitenkin tulla. Paikallistettu ongelma todennäköisesti branchtransfers-tauluun, jossa kuljetettavan varauksen saapuessa noudettavaksi sellaiseen pisteeseen jossa nide voi kellua, kuljetusta ei merkitä saapuneeksi vaan perutuksi. Lisätty havainnot [viime kuussa viikkopäivityksessä tuotantoon tulleeseen tikettiin](https://github.com/KohaSuomi/Koha/issues/2285), jossa ongelma on mahdollisesti syntynyt.
 
