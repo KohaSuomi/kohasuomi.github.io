@@ -38,6 +38,7 @@ Etelästä pohjoiseen
 **OUTI**
 
 **Lappi**
+* Normaalia ylläpitoa
 
 ## Viikko 31
 
