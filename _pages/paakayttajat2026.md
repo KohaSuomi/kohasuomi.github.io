@@ -27,6 +27,7 @@ Etelästä pohjoiseen
 **Vaski**
 
 **Kirkes**
+* Ei mainittavaa. 
 
 **Kyyti**
 
@@ -54,7 +55,7 @@ Pohjoisesta etelään.
 * Normaalia ylläpitoa
 
 **Kirkes**
- * Elina kirjoittanut Matrixiin lainaustauluissa satunnaisesti näkyvistä sarakkeista, joiden pitäisi olla piilotettuna. Samaa ilmennyt versionvaihdon jälkeen myös Lastussa.
+ * Elina kirjoittanut Matrixiin lainaustauluissa satunnaisesti näkyvistä sarakkeista, joiden pitäisi olla piilotettuna. Samaa ilmennyt versionvaihdon jälkeen myös Lastussa, ja asiasta on olemassa tiketti: [#2288](https://github.com/KohaSuomi/Koha/issues/2288).
 
 **OUTI**
  * Varausjonon priorisointikokeilu on työllistänyt.
