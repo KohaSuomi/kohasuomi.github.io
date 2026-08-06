@@ -41,6 +41,9 @@ Etelästä pohjoiseen
 **Vaara**
 
 **OUTI**
+* Finnan Uutuudet-haun tulokseen on huomattu tulevan myös vanhaa aineistoa. Kansalliskirjaston mukaan aineisto tulee hakutulokseen first-indexed -kentän tiedon mukaan. First_indexed -kenttä sisältää tiedon siitä, milloin tietue on ensimmäistä kertaa tullut Finnaan. OUTIn Uutuudet-haun tulokseen tulee tällä hetkellä myös vanhat, juuri muokatut tietueet, joiden first_indexed-kentän pvm on päivittynyt muokkauksen mukaisesti. Ehkä first_indexed -kentässä on bugi, jatkamme selvittelyä Finna-tuen kanssa.
+* Puolivälinkankaan kirjasto avautuu näillä näkymin elokuussa. Meille ei ole vielä tullut pyyntöä tehdä avaamistoimenpiteitä, joten niitä odotellaan.
+* Normaalia ylläpitoa ja kirjastojen kesäsulkujen purkamista. 
 
 **Lappi**
 * Normaalia ylläpitoa
