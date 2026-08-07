@@ -36,6 +36,16 @@ Läsnä:
 - [koha-suomi-utility#142 Mistral AI käyttöönotto](https://github.com/KohaSuomi/koha-suomi-utility/issues/142); Github Co-pilotin käyttöehtojen ja kustannusten muuttuessa testataan niiden korvaajaksi vaihtoehtoista eurooppalaisia Mistral AI kielimalleja. Tutkitaan myös mallien integroitumista Koha-Suomen kehitysympäristöihin sekä yleistä suorituskykyä Kohan koodimuokkauksissa ja ylläpidossa. Seuraavaksi: Testataan ja arvioidaan mallien sopivuutta tarkemmin.
 - [Koha#2415 Eräpäivän kellonajaksi muodostuu 00:00 mikäli eräpäivän kirjoittaa käsin](https://github.com/KohaSuomi/Koha/issues/2415); Järkevää ratkaista yhteisön kautta, mutta purkkarautalankaratkaisuna yhteisön toimintaa odotellessa voitaisiin lisätä issues-tauluun triggeri, joka muuttaa date_due kellonajan aina 23:59:00:ksi. Seuraavaksi: Larilla on korjaus datepickeriin, mutta tehdään mahdollinen triggeri, odotetaan yhteisön korjausta ja poistetaan triggeri myöhemmin.
 
+#### Emmi
+
+* [Plugari signum_builder_ks.pl:stä varoitus "Unrecognized escape.."](https://github.com/KohaSuomi/Koha/issues/2441): Huomattu tutkiessa nidetyyppien häviämistä. Plugarissa ei ole escapetettu regexiä oikein, jolloin lokeille syntyy runsaasti varoituksia. Muuten plugari toimii kuten pitääkin. Korjaus viety testiympäristöihin testattavaksi.
+* [Nidetyypin generointi ei virheen sattuessa vapauta nidetyyppi-kenttää](https://github.com/KohaSuomi/Koha/issues/2444): Nidetyypin generoinnin value builderista on jäänyt puuttumaan nidetyyppi-kentän vapautus virheen sattuessa. Tällä on voinut olla jotain tekemistä puuttuvien nidetyyppien kanssa. Korjaus viety testiympäristöihin testattavaksi. 
+* [Useamman lehden vastaanotossa mahdollista aiheuttaa virhe 500](https://github.com/KohaSuomi/Koha/issues/2443): Jos asetus makePreviousSerialAvailable on käytössä ja kausijulkaisuiden vastaanotossa unohtaa täyttää jonkin pakollisen kentän, voi nidetyyppi kadota kokonaan. Näin tapahtuu kuitenkin vain, jos lisättäviä niteitä on 3. Korjaus viety yhteisöön ja testiympäristöihin testattavaksi.
+* [Bug 41500 - Expired hold charge value containing decimal with fraction dropped when editing a rule](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41500): Korjauksessa ilmennyt ongelmia, kun asetuksessa CurrencyFormat on käytössä arvo FR. Pilkut ja pisteet eivät toimi tällöin oikein. Tämä johtui tarpeettomasta koodinpätkästä, joka on nyt poistettu patchista. Liittyy tikettiin [Laina- ja maksusääntöjen muokkaus: sääntöön tallennettu 'Vanhentuneen varauksen maksu' -arvo ei aina näy säännön muokkauksessa](https://github.com/KohaSuomi/Koha-25x/issues/187). Ei vaadi muutoksia meidän päässä, koodi toimii meillä sellaisenaan. Ei aiheuta myöskään muutoksia kentän toiminnallisuuteen tulevassa versionvaihdossa.
+* [OKM-liitännäinen: bde-taulun rivien päivittymisessä ongelmia](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/22): Kaikille kimpoille on ajettu korjaukset bde-taulun deleted- ja deleted_on-sarakkeisiin.
+* Paranneltu kehittäjien ohjeistusta
+* Yhteisöpalaveri 5.8.
+
 ## Viikko 32
 
 Aika: Ma 3.8.2026 klo 9<br/>
