@@ -13,13 +13,34 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 33
+
+Aika: Ma 10.8.2026 klo 9<br/>
+Läsnä: 
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Manuaalisesti asetettujen eräpäivien aikakorjaus
+
+### Viikolla 32 tehtyä
+
+#### Kodo
+
+- [Koha#2449 Vanhojen Koha-koodivarantojen arkistointi](https://github.com/KohaSuomi/Koha/issues/2449); Vanhojen Koha-versioiden (Koha-22x, Koha-23x ja Koha-24.05) koodivarannot täytyy arkistoida. Arkistoitu. Tiketti suljettu.
+- [Koha#2448 Porlammin lainausautomaatin lainauspaikka on Pohjan kirjasto](https://github.com/KohaSuomi/Koha/issues/2448); Asiakas näkee Porlammin automaatilla lainatessaan väärän lainauspaikan (Pohjan kirjasto). Korjattu virheellinen konfiguraatio SIP-palvelimella. Tiketti suljettu.
+- [Koha#2446 Koha-tietovarannon siivous](https://github.com/KohaSuomi/Koha/issues/2446); Koha-tietovarannossa roikkuu vanha Koha-versio, jota täytyy siivota. Tietovarannosta on siivottu pois vanhan Kohan branchit sekä koodikanta. Brancheista on paikalliset kopiot, joita säilytän hetken aikaa siltä varalta, että jotain tulee ikävä. Vanhan Kohan koodi löytyy edelleen repositorion git-historiasta. Tiketti suljettu.
+- [Koha#2442 Tietokantaan roikkumaan jäävät kuljetukset](https://github.com/KohaSuomi/Koha/issues/2442); OUTIssa havaittu tapaus, jossa vanha kuljetus jäi roikkumaan tietokantaan uuden kuljetuksen luomisen jälkeen. Ratkaisisin tämän ehkä branchtransfersissa suoraan. Siellä voitaisiin uutta kuljetusta luotaessa perua lähtökohtaisesti pois kaikki aiemmat niteeseen kohdistuvat kuljetukset ja merkitä cancellation_reasoniin "New transfer". Ainakin yksi tapauksista näyttää liittyvän siihen että joitain niteitä on siirrelty toimipisteestä toiseen palauttamatta niitä Kohassa. Seuraavaksi: Implementoidaan suunnitellut muutokset branchtransfersiin.
+- [Koha#2431 Biblio_control_fields -taulun päivitys lukitsee biblio_metadata taulun](https://github.com/KohaSuomi/Koha/issues/2431); Nykyinen päivitys aiheuttaa deadlock-tilanteita. Ei enää vaikuta aiheuttavan ongelmia. Tiketti suljettu.
+- [koha-suomi-utility#142 Mistral AI käyttöönotto](https://github.com/KohaSuomi/koha-suomi-utility/issues/142); Github Co-pilotin käyttöehtojen ja kustannusten muuttuessa testataan niiden korvaajaksi vaihtoehtoista eurooppalaisia Mistral AI kielimalleja. Tutkitaan myös mallien integroitumista Koha-Suomen kehitysympäristöihin sekä yleistä suorituskykyä Kohan koodimuokkauksissa ja ylläpidossa. Seuraavaksi: Testataan ja arvioidaan mallien sopivuutta tarkemmin.
+
 ## Viikko 32
 
 Aika: Ma 3.8.2026 klo 9<br/>
 Läsnä: Johanna, Emmi, Kodo, Ari ja Lari
 
 ### Vastuuttomat tiketit
-* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muuta
 * Viikon 32 päivitys
