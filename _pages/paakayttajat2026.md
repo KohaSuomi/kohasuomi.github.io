@@ -52,6 +52,8 @@ Etelästä pohjoiseen
 * Havaittu että joiltakin raporteilta jää pois niteitä joiden pitäisi niihin kuitenkin tulla. Paikallistettu ongelma todennäköisesti branchtransfers-tauluun, jossa kuljetettavan varauksen saapuessa noudettavaksi sellaiseen pisteeseen jossa nide voi kellua, kuljetusta ei merkitä saapuneeksi vaan perutuksi. Lisätty havainnot [viime kuussa viikkopäivityksessä tuotantoon tulleeseen tikettiin](https://github.com/KohaSuomi/Koha/issues/2285), jossa ongelma on mahdollisesti syntynyt.
 
 **Vaara**
+*Normaalia ylläpitoa, tunnusten tekemistä
+*Valmistaudutaan Viinijärven kirjaston avaamiseen
 
 **OUTI**
 * Finnan Uutuudet-haun tulokseen on huomattu tulevan myös vanhaa aineistoa. Kansalliskirjaston mukaan aineisto tulee hakutulokseen first-indexed -kentän tiedon mukaan. First_indexed -kenttä sisältää tiedon siitä, milloin tietue on ensimmäistä kertaa tullut Finnaan. OUTIn Uutuudet-haun tulokseen tulee tällä hetkellä myös vanhat, juuri muokatut tietueet, joiden first_indexed-kentän pvm on päivittynyt muokkauksen mukaisesti. Ehkä first_indexed -kentässä on bugi, jatkamme selvittelyä Finna-tuen kanssa.
@@ -66,7 +68,7 @@ Etelästä pohjoiseen
 ## Viikko 31
 
 Aika: Ti 28.7.2026 klo 9.15<br />
-Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Lotta Juvonen ja Vilgot Strömsholm (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Johanna Räisä (Koha-Suomi), Janne Seppänen (Lastu), Elina Uotila ja Erika Miettinen (Kirkes), Lotta Juvonen ja Vilgot Strömsholm (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto ja Piia Semenoff (OUTI), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * Tällä viikolla ei tehty päivitystä.
@@ -82,6 +84,9 @@ Pohjoisesta etelään.
 **OUTI**
  * Varausjonon priorisointikokeilu on työllistänyt.
  * Muutoin rauhallista
+
+**Vaara**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-31) - [Palaa sivun alkuun](/paakayttajat2026)
 
