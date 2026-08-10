@@ -16,13 +16,15 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 33
 
 Aika: Ma 10.8.2026 klo 9<br/>
-Läsnä: 
+Läsnä: Johanna, Lari, Anneli, Kodo
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muuta
-* Manuaalisesti asetettujen eräpäivien aikakorjaus
+* [Manuaalisesti asetettujen eräpäivien aikakorjaus](https://github.com/KohaSuomi/Koha/issues/2415)
+  * Pohditaan pääkäyttäjien palaverissa ti 11.8.2026, otetaanko triggeri käyttöön.
+* Viikon 33 päivitys
 
 ### Viikolla 32 tehtyä
 
