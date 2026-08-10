@@ -49,6 +49,16 @@ Läsnä: Johanna, Lari, Anneli, Kodo
 * Paranneltu kehittäjien ohjeistusta
 * Yhteisöpalaveri 5.8.
 
+#### Johanna
+
+* [Koha#2369 Muuta item.yaml määrityksessä external_id vastaamaan tietokannan barcode-arvoa](https://github.com/KohaSuomi/Koha/issues/2369): Vastuutettu. Pidempiä viivakoodeja voi kokeilla testi- ja next-ympäristöissä. Uutta ympäristöjen rakennustapaa kehitetään; siinä tarkistetaan tietokannasta merkkimäärä ja tehdään muutos swagger-kuvaukseen.
+* [Koha#2386 IntranetUserJS: Muutokset hakusivulla - väärä ruotsinkielinen termi](https://github.com/KohaSuomi/Koha/issues/2386): Tiketti suljettu.
+* [Koha#2394 Varausten noutohyllyt: Hyllyä lisätessä valikkojen sisältö ei järjesty kuvauksen/nimen mukaan](https://github.com/KohaSuomi/Koha/issues/2394): Vastuutettu. Myös aineistotyypit järjestetään nyt luonnollisesti. Korjaus viety testeille ja nexteille.
+* [Koha#2396 Varausten noutohyllyt: Prioritettijärjestys lakkasi toimimasta](https://github.com/KohaSuomi/Koha/issues/2396): Vastuutettu. Korjaus viety testeille ja nexteille. Alasvetovalikon sisältö järjestyy prioriteettijärjestykseen, mutta haussa luonnolliseen järjestykseen.
+* [koha-plugin-ceepos-integration#10 Ceepos-maksutoiminto ilmoittaa lähettäneensä maksun kassaan, vaikka oikeaa kassaa (maksutyyppiä) ei ole valittuna](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/10): Vastuutettu. Toimipistetarkistus siirretty ennen kassakutsua ja käsittelyilmoitus palautettu entiseen paikkaansa. Korjaus testeillä (KPCPU-10).
+* [koha-suomi-utility#140 Full CI Build + Server Pull Deploy](https://github.com/KohaSuomi/koha-suomi-utility/issues/140): Vastuutettu. Kokonaisuus testattu testi- ja next-ympäristöissä ja toimii paria verkkohäiriötä lukuunottamatta. Buildia ja deployta kehitetty edelleen: fetch-build-and-deploy.sh, cache ja uusintayritykset, container-rooli, swap, ympäristömuuttujat ja token-parannukset, vanhojen ympäristöbranchien poisto sekä käyttökatkosyhteenveto.
+* Koha-25x: Bug 39140 -korjaus biblio_level_itemtypes-kentän luonnolliseen lajitteluun osana priorisointihaaraa (KOHA-1563).
+
 ## Viikko 32
 
 Aika: Ma 3.8.2026 klo 9<br/>
