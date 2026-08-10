@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 33
+
+Aika: Ti 11.8.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
+* Kuinka edetään [tiketin 2415](https://github.com/KohaSuomi/Koha/issues/2415) kanssa? Käykö kellonajan korjaava triggeri toistaiseksi, kunnes saadaan yhteisön kautta korjaus varsinaiseen virheeseen?
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 32
 
 Aika: Ti 4.8.2026 klo 9.15<br />
@@ -48,6 +61,8 @@ Etelästä pohjoiseen
 **Lappi**
 * Normaalia ylläpitoa
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-32) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 31
 
 Aika: Ti 28.7.2026 klo 9.15<br />
@@ -67,6 +82,8 @@ Pohjoisesta etelään.
 **OUTI**
  * Varausjonon priorisointikokeilu on työllistänyt.
  * Muutoin rauhallista
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-31) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 30
 
