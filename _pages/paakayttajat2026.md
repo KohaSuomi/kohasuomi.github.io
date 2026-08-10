@@ -52,8 +52,9 @@ Etelästä pohjoiseen
 * Havaittu että joiltakin raporteilta jää pois niteitä joiden pitäisi niihin kuitenkin tulla. Paikallistettu ongelma todennäköisesti branchtransfers-tauluun, jossa kuljetettavan varauksen saapuessa noudettavaksi sellaiseen pisteeseen jossa nide voi kellua, kuljetusta ei merkitä saapuneeksi vaan perutuksi. Lisätty havainnot [viime kuussa viikkopäivityksessä tuotantoon tulleeseen tikettiin](https://github.com/KohaSuomi/Koha/issues/2285), jossa ongelma on mahdollisesti syntynyt.
 
 **Vaara**
-*Normaalia ylläpitoa, tunnusten tekemistä
-*Valmistaudutaan Viinijärven kirjaston avaamiseen
+* Normaalia ylläpitoa, tunnusten tekemistä
+* Valmistaudutaan Viinijärven kirjaston avaamiseen
+
 
 **OUTI**
 * Finnan Uutuudet-haun tulokseen on huomattu tulevan myös vanhaa aineistoa. Kansalliskirjaston mukaan aineisto tulee hakutulokseen first-indexed -kentän tiedon mukaan. First_indexed -kenttä sisältää tiedon siitä, milloin tietue on ensimmäistä kertaa tullut Finnaan. OUTIn Uutuudet-haun tulokseen tulee tällä hetkellä myös vanhat, juuri muokatut tietueet, joiden first_indexed-kentän pvm on päivittynyt muokkauksen mukaisesti. Ehkä first_indexed -kentässä on bugi, jatkamme selvittelyä Finna-tuen kanssa.
