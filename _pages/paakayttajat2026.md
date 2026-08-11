@@ -123,6 +123,7 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Virkailija ihmetellyt oudon näköistä taulukkoa asiakkaan lainat -sivulla, sisältö ja toiminnot olleet kuitenkin ok. Diagnoosi: kenties tilapäinen bitti poikittain -tapaus, uudelleen kirjautuminen Kohaan auttoi.
+* Lisäys 11.8.: [Tiketti #2288](https://github.com/KohaSuomi/Koha/issues/2288)
 
 **Vaara**
 * Viinijärvelle on tulossa uusia automaatteja joille tarvitaan tunnukset. Tiketti tehdään tämän viikon aikana
