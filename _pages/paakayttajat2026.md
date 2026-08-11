@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: Ti 11.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
@@ -22,6 +22,9 @@ Läsnä: Anneli Österman (Koha-Suomi)
   * Triggeri voidaan ottaa käyttöön.
 
 Pohjoisesta etelään
+
+**Lappi**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
 
