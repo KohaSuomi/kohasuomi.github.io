@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: Ti 11.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
@@ -25,6 +25,10 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**Kirkes**
+* Järvenpään kirjaston sulkuaika meni hyvin. 
+* Varmennetta laitettu jakoon. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
 
