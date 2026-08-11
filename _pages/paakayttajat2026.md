@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 33
 
 Aika: Ti 11.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
@@ -28,7 +28,13 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Järvenpään kirjaston sulkuaika meni hyvin. 
-* Varmennetta laitettu jakoon. 
+* Varmennetta laitettu jakoon.
+
+**OUTI**
+* Uusi asiakasvarmenne laitettu käyttäjille asennettavaksi.
+  * Tullut tiedoksi yksi ongelmatilanne, kun käyttäjä oli asentanut uuden varmenteen ja yrittänyt kirjautua Kohaan, käyttäjä oli saanut ilmoituksen ”Pääsy tähän palveluun on rajattu. Tarvitset Koha-Suomen asiakasvarmenteen…”. Koneen buutti oli auttanut.
+* Finna-tuesta tuli tiedoksi, että Finnoissa on havaittu poikkeuksellisen isoja käyntimääriä heinäkuussa ja jatkunut myös elokuun puolella.
+  * OUTIssa oli viime vuoden heinäkuuhun verrattuna yli satatuhatta käyntiä enempi. Suurin osa ulkomailta tulleita käyntejä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
 
