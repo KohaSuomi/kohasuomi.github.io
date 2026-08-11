@@ -17,6 +17,7 @@ Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
+* [Kuukausihuolto 12.8.2026](https://github.com/KohaSuomi/Koha/discussions/2447)
 * Kuinka edetään [tiketin 2415](https://github.com/KohaSuomi/Koha/issues/2415) kanssa? Käykö kellonajan korjaava triggeri toistaiseksi, kunnes saadaan yhteisön kautta korjaus varsinaiseen virheeseen?
   * Triggeri voidaan ottaa käyttöön.
 
