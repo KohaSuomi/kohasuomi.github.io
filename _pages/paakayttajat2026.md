@@ -40,6 +40,10 @@ Pohjoisesta etelään
 * Kesä on sujunut hyvin, ei mitään erityistä mainittavaa.
 * Varmenne lähtee jakoon.
 
+**Lastu**
+* Varmenne laitettu viime viikolla jakoon.
+* Kaukolainoja tekeviltä tullut kehitystoive kaukolainapyynnön muokkausmahdollisuudesta pyynnön lähettämisen jälkeen, tehty tästä tiketit [yhteisöön](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43276) ja [Bugiton-repoon](https://github.com/KohaSuomi/Bugiton/issues/95)
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 32
