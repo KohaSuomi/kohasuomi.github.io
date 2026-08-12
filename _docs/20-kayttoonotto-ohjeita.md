@@ -87,11 +87,11 @@ Lihavointi perustuu kirjastoryhmiin, joiden nimi alkaa termillä "VARAUSRYHMA". 
 ### Poimintaryhmän lisääminen
 
 1. Mene Ylläpito -> Kirjastoryhmät
-2. Valitse _Uusi kirjastoryhmä_
-3. Kirjoita nimeke-kohtaan "VARAUSRYHMA nimi" esim. "VARAUSRYHMA Kempele"
-4. Kuvaus-kohtaan voi lisätä esim. "Kempeleen poimintaryhmä"
+2. Valitse _Uusi kirjastoryhmä_.
+3. Kirjoita nimeke-kohtaan "VARAUSRYHMA nimi" esim. "VARAUSRYHMA Kempele".
+4. Kuvaus-kohtaan voi lisätä esim. "Kempeleen poimintaryhmä".
 5. Laita valinta kohtaan _Paikallinen varausryhmä_. Halutessasi voit valita myös _Käytä virkailijaliittymän hakuryhmille_, jos hakuryhmän kirjastot ovat samat kuin varausryhmällä.
-6. Valitse _Tallenna_
+6. Valitse _Tallenna_.
 7. Lisää kirjastoryhmään tarvittavat kirjastot _+ Lisää kirjasto_ -napista.
 
 Kirjastoryhmän lisääminen:
