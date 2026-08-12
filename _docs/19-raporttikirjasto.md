@@ -3404,6 +3404,64 @@ AND ExtractValue(bm.metadata,'//datafield[@tag="336"]/subfield[@code="a"]') = 't
 AND ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
 ```
 
+### Tietueet, joissa on MARC-kentässä 007 tietty merkkijono - tietoja valittavissa
+
+Lisätty: 12.8.2026<br />
+Lisääjä: Anneli Österman
+
+Raportilla voi hakea esim. tietuiden erämuokkausta varten tietueet, joissa on tietty merkkijono MARC-kentässä 007. Tulokset on rajattu 7000 riviin. Raportin ajaja voi määritellä, mikä arvo pitää olla kentissä 003, 040a ja 040d. Jos kenttiin ei määrittele arvoa, pitää hakuvaiheessa sen tilalle laittaa %-merkki. 040d-kenttä on toistettava, joten se kannattaa katkaista sekä alusta että lopusta, esim. %Fi-Helle%. Tuloksissa näytetään sarakkeina biblionumber, nimeke, 007, 003, 040a ja 040d. 
+
+```
+SELECT biblionumber, title AS 'Nimeke', ctrl007 AS '007', ctrl003 AS '003', f040a AS '040a', f040d AS '040d'
+FROM (
+  SELECT
+    biblionumber,
+    ExtractValue(metadata, '//controlfield[@tag="007"]') AS 'ctrl007',
+    ExtractValue(metadata, '//controlfield[@tag="003"]') AS 'ctrl003',
+    ExtractValue(metadata, '//datafield[@tag="245"]/subfield[@code="a"]') AS 'title',
+    ExtractValue(metadata, '//datafield[@tag="040"]/subfield[@code="a"]') AS 'f040a',
+    ExtractValue(metadata, '//datafield[@tag="040"]/subfield[@code="d"]') AS 'f040d'
+  FROM biblio_metadata
+) tiedot
+WHERE ctrl007 = <<Kentän 007 merkkijono>>
+AND ctrl003 LIKE <<Kentän 003 sisältö tai %>>
+AND f040a LIKE <<Kentän 040a sisältö tai %>>
+AND f040d LIKE <<Kentän 040d sisältö tai %>>
+LIMIT 7000
+```
+
+### Kentän 006 siivousta varten - tiedot valittavissa
+
+Lisätty: 12.8.2026<br />
+Lisääjä: Anneli Österman
+
+Raportti hakee tietueet, joissa 000/7 ei saa olla 'o' 008/24 ei saa olla 'o' 008/30 ei saa olla 'o' 006/1 ei saa olla 'm' Raportin ajaja voi määritellä, mikä arvo pitää olla kentissä 003, 040a ja 040d. Jos kenttiin ei määrittele arvoa, pitää hakuvaiheessa sen tilalle laittaa %-merkki. 040d-kenttä on toistettava, joten se kannattaa katkaista sekä alusta että lopusta, esim. %Fi-Helle%. Tuloksissa näytetään sarakkeina biblionumber, nimeke, 003, 040a ja 040d. 
+
+```
+SELECT biblionumber, title AS 'Nimeke', ctrl003 AS '003', f040a AS '040a', f040d AS '040d'
+FROM (
+  SELECT
+    biblionumber,
+    SUBSTR(ExtractValue(metadata, '//leader'),7,1) AS 'leader7',
+    ExtractValue(metadata, '//controlfield[@tag="006"]') AS 'ctrl006',
+    ExtractValue(metadata, '//controlfield[@tag="003"]') AS 'ctrl003',
+    SUBSTR(ExtractValue(metadata, '//controlfield[@tag="008"]'),24,1) AS 'ctrl00824',
+    SUBSTR(ExtractValue(metadata, '//controlfield[@tag="008"]'),30,1) AS 'ctrl00830',
+    SUBSTR(ExtractValue(metadata, '//controlfield[@tag="006"]'),1,1) AS 'ctrl0061',
+    ExtractValue(metadata, '//datafield[@tag="245"]/subfield[@code="a"]') AS 'title',
+    ExtractValue(metadata, '//datafield[@tag="040"]/subfield[@code="a"]') AS 'f040a',
+    ExtractValue(metadata, '//datafield[@tag="040"]/subfield[@code="d"]') AS 'f040d'
+  FROM biblio_metadata
+) tiedot
+WHERE  leader7 != 'o'
+AND ctrl006 !=""
+AND ctrl00824 !='o'
+AND ctrl00830 !='o'
+AND ctrl0061 !='m'
+AND ctrl003 LIKE <<Kentän 003 sisältö tai %>>
+AND f040a LIKE <<Kentän 040a sisältö tai %>>
+AND f040d LIKE <<Kentän 040d sisältö tai %>>
+```
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
