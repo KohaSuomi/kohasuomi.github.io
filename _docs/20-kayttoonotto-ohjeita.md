@@ -74,6 +74,35 @@ Mene myöhästymisilmoitusten määrittelyyn ja laita täpät kohtiin _Sähköpo
 
 Lisäksi cron-ajoon pitää laittaa "vipu" _prefer email_. Tämän tekee kehittäjät.
 
+## Poimintaryhmät hyllyvarausraportille
+
+Hyllyvarausraportille on mahdollista saada lihavoitua kirjastoyksiköt, jotka kuuluvat samaan varausryhmään eli poimintaryhmään kuin mistä varaus halutaan noutaa.
+
+<img width="757" height="434" alt="Hyllyvarausraportti" src="https://github.com/user-attachments/assets/00e01a56-4675-4501-b037-9777089f3570" />
+
+Tämä helpottaa varausten läpikäymistä silloin, kun halutaan ensisijaisesti palauttaa nide esimerkiksi sen kunnan kirjastoissa, mistä varaus noudetaan.
+
+Lihavointi perustuu kirjastoryhmiin, joiden nimi alkaa termillä "VARAUSRYHMA". Lisäksi kirjastoryhmällä pitää olla valittuna "Paikallinen varausryhmä" -määritys.
+
+### Poimintaryhmän lisääminen
+
+1. Mene Ylläpito -> Kirjastoryhmät
+2. Valitse _Uusi kirjastoryhmä_
+3. Kirjoita nimeke-kohtaan "VARAUSRYHMA nimi" esim. "VARAUSRYHMA Kempele"
+4. Kuvaus-kohtaan voi lisätä esim. "Kempeleen poimintaryhmä"
+5. Laita valinta kohtaan _Paikallinen varausryhmä_. Halutessasi voit valita myös _Käytä virkailijaliittymän hakuryhmille_, jos hakuryhmän kirjastot ovat samat kuin varausryhmällä.
+6. Valitse _Tallenna_
+7. Lisää kirjastoryhmään tarvittavat kirjastot _+ Lisää kirjasto_ -napista.
+
+Kirjastoryhmän lisääminen:
+
+<img width="544" height="535" alt="Kirjastoryhmän lisääminen" src="https://github.com/user-attachments/assets/c4f4eee5-4d96-42f9-88aa-b825f3ec21b2" />
+
+Valmis kirjastoryhmä listalla:
+
+<img width="935" height="206" alt="Kirjastoryhmä" src="https://github.com/user-attachments/assets/79530c02-a5d7-4188-9d85-d7504dd3bf05" />
+
+
 ## RDA ja poikkeava pääsana
 
 Jos on tarve poiketa kuvailusääntöjen mukaisista pääsanoista, voi käyttää 942him-kenttiä ohittamaan normaalikäytännöt. Alla linkki ohjeeseen.
