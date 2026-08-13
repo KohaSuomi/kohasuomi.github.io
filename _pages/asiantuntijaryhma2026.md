@@ -20,7 +20,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Torstai 20.8.2026 klo 9 <br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
 Koha-seminaarin ohjelma ja ilmoittauminen
 
@@ -28,7 +28,7 @@ Koha-seminaarin ohjelma ja ilmoittauminen
 
 Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 
-### Käsiteltävät kehitysehdotukset
+### 2. Käsiteltävät kehitysehdotukset
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
   * Uudelleen käsiteltäväksi nyt, kun testit on tehty
 * [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa #39](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39)
@@ -36,9 +36,9 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 * [Nidepakettiin liitetyille niteille kertymään lainaustilastot #2416](https://github.com/KohaSuomi/Koha/issues/2416)
 
 
-### Muut asiat
+### 3. Muut asiat
 
-### Seuraava kokous
+### 4. Seuraava kokous
 
 ## Muistio 6/2026
 
