@@ -15,6 +15,26 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 7/2026
+
+Aika: Torstai 20.8.2026 klo 9 <br />
+Läsnä:
+
+### Ajankohtaiset
+
+Koha-seminaarin ohjelma ja ilmoittauminen
+
+### Käsiteltävät kehitysehdotukset
+* [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
+  * Uudelleen käsiteltäväksi nyt, kun testit on tehty
+* [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa #39](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39)
+* [Epäonnistuneiden taustatöiden säilytysaika ja lisäys siivousajoon päätöksen mukaisesti #2408](https://github.com/KohaSuomi/Koha/issues/2408)
+* [Nidepakettiin liitetyille niteille kertymään lainaustilastot #2416](https://github.com/KohaSuomi/Koha/issues/2416)
+
+
+### Muut asiat
+
+### Seuraava kokous
 
 ## Muistio 6/2026
 
