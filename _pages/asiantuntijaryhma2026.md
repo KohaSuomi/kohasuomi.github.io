@@ -28,6 +28,10 @@ Koha-seminaarin ohjelma ja ilmoittauminen
 
 Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 
+[Uuden ajojärjestyksen vaatimat muutokset #145](https://github.com/KohaSuomi/koha-suomi-utility/issues/145)
+* Tiketti on suljetussa tietovarannossa, joten se ei avaudu. Näytetään kokouksessa.
+* Tiketin ajatuksena on saada huoltokatkot minimaalisen lyhyiksi.
+
 ### 2. Käsiteltävät kehitysehdotukset
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
   * Uudelleen käsiteltäväksi nyt, kun testit on tehty
