@@ -35,6 +35,7 @@ Pohjoisesta etelään
   * Tullut tiedoksi yksi ongelmatilanne, kun käyttäjä oli asentanut uuden varmenteen ja yrittänyt kirjautua Kohaan, käyttäjä oli saanut ilmoituksen ”Pääsy tähän palveluun on rajattu. Tarvitset Koha-Suomen asiakasvarmenteen…”. Koneen buutti oli auttanut.
 * Finna-tuesta tuli tiedoksi, että Finnoissa on havaittu poikkeuksellisen isoja käyntimääriä heinäkuussa ja jatkunut myös elokuun puolella.
   * OUTIssa oli viime vuoden heinäkuuhun verrattuna yli satatuhatta käyntiä enempi. Suurin osa ulkomailta tulleita käyntejä.
+* Kansalliskirjasto tutkii miksi Finnan Uutuudet -hakutulokseen tulee myös vanhoja teoksia. Jostain syystä first_indexed -kentän tieto päivittyy, kun nidettä muokataan (esim. OUTIssa löysin Uutuudet -listalta tietueita, joilla niteiden joko Kadonnut-tila oli purkautunut tai Huomautus virkailijalle -kenttään oli lisätty tekstiä). First_indexed -kentän ei tulisi päivittyä, sillä se muodostuu silloin, kun tietue tulee ensimmäisen kerran Finnaan.
  
 **Siilinjärvi**
 * Kesä on sujunut hyvin, ei mitään erityistä mainittavaa.
