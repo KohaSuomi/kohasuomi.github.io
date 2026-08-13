@@ -24,6 +24,10 @@ Läsnä:
 
 Koha-seminaarin ohjelma ja ilmoittauminen
 
+[KohaConin 2026 ilmoittautuminen](https://indico.kit.edu/event/5444/overview) on meneillään ja se sulkeutuu 28.8.2026. KohaCon pidetään Saksassa Karlsruhessa 5.-9.10.2026.
+
+Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
+
 ### Käsiteltävät kehitysehdotukset
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
   * Uudelleen käsiteltäväksi nyt, kun testit on tehty
