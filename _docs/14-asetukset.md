@@ -382,6 +382,10 @@ Henkilöasikkaiden (aikuiset ja lapset) oletusvoimassaoloajaksi on sovittu Koha-
 
 Muilla asiakastyypeillä voi olla tarvittaessa kimpan päätöksen mukaan lyhyempi voimassaoloaika.
 
+**Salasana vanhenee**
+
+Salasanalle voi määrittää voimassaoloajan päivissä, minkä jälkeen se vanhenee ja asiakkaan pitää vaihtaa toinen salasana.
+
 **Vaadittu ikä ja Ikäraja**
 
 Näillä asetuksilla määritetään asiakkaan minimi- ja maksimi-ikä. Lapsiasiakkaat muutetaan aikuiseksi tämän asetuksen perusteella, eli kun asiakas saavuttaa maksimi-iän, vaihdetaan hänen asiakastyyppi aikuisasiakkaaksi (henkilöasiakas).
@@ -418,7 +422,7 @@ Huom! Tilastoyksikkö-valinta aiheuttaa sen, että lainatessa lainat eivät mene
 
 Asetuksella määritetään, onko asiakastyyppi taattava vai ei. Jos tähän valitsee _Kyllä_, näytetään asiakkaan lisäys/muokkauslomakkeella takaajatieto-osio. Jos taas valitaan _Ei_, asiakastiedoissa ei näytetä takaajatieto-osiota.
 
-Kyllä kannattaa laittaa lapsiasiakas ja Huollettava, muu kuin lapsi -asiakastyypeille.
+_Kyllä_ kannattaa laittaa lapsiasiakas ja Huollettava, muu kuin lapsi -asiakastyypeille.
 
 **Kirjastorajoitukset**
 
@@ -426,43 +430,45 @@ Asiakastyypin voi tarvittaessa rajoittaa myös tietyn kirjaston käyttöön, mut
 
 **Salasanan palautus verkkokirjastossa**
 
-Jos tämä halutaan sallia, valitse järjestelmäasetuksessa OpacResetPassword, että käyttäjät saavat palauttaa unohtuneen salasanansa verkkokirjastossa ja valitse tähän kohtaan, että Noudata järjestelmäasetusta OpacResetPassword. Monella kimpalla toiminto on käytössä.
+Jos tämä halutaan sallia, valitse järjestelmäasetuksessa _OpacResetPassword_, että käyttäjät saavat palauttaa unohtuneen salasanansa verkkokirjastossa ja valitse tähän kohtaan, että _Noudata järjestelmäasetusta OpacResetPassword_. Monella kimpalla toiminto on käytössä.
 
 **Salasanan vaihto verkkokirjastossa**
 
-Valitse järjestelmäasetuksessa OpacPasswordChange, että sallitaan salasanan vaihto verkkokirjastossa ja valitse tähän kohtaan "Noudata järjestelmäasetusta OpacPasswordChange".
+Valitse järjestelmäasetuksessa _OpacPasswordChange_, että sallitaan salasanan vaihto verkkokirjastossa ja valitse tähän kohtaan _Noudata järjestelmäasetusta OpacPasswordChange_.
 
 **Salasanan minimipituus**
 
-Asiakkaiden asiakastyypeille tähän laitetaan numero 4, koska omatoimikirjautumisessa ei voi käyttää kuin neljänumeroista pin-koodia.
+Asiakkaiden asiakastyypeille tähän laitetaan sellainen arvo, joka vastaa omatoimikirjautumisessa sallittua pin-koodin pituutta.
 
-VIRKAILIJA/AUTOM/API-asiakastyypeille määritetään joko 15 (Kyberturvallisuuskeskuksen suositus) tai jätetään tyhjäksi, jolloin noudatetaan järjestelmäasetusta  minPasswordLength. Muista käydä määrittämässä kyseiseen järjestelmäasetukseen silloin tuo 15.
+VIRKAILIJA/AUTOM/API-asiakastyypeille määritetään joko 15 (Kyberturvallisuuskeskuksen suositus) tai jätetään tyhjäksi, jolloin noudatetaan järjestelmäasetusta _minPasswordLength_. Muista käydä määrittämässä kyseiseen järjestelmäasetukseen silloin  arvoksi 15.
 
 Huom! Käytännössä Koha ei ehdota alle kahdeksan merkkisiä salasanoja, vaikka tähän asetukseen tai minPasswordLength-järjestelmäasetukseen laittaisikin 4. Meillä on erikseen JS-liitännäinen, jolla huolehditaan, että asiakkaille generoituu nelinumeroisia PIN-koodeja. Liitännäisen määrittelyssä määritetään, mille asiakastyypeille generoidaan nelinumeroinen PIN-koodi. [IntranetUserJS: Generate PIN codes -liitännäisen ohjeistus](https://github.com/KohaSuomi/koha-plugin-intranetjs-generate-pin/blob/master/README.md).
 
 **Vaadi vahva salasana**
 
-Asiakas-asiakastyypeille valitaan vaihtoehto "Ei". Asiakkailta ei voi vaatia vahvaa salasanaa, koska omatoimikirjautumisessa voi käyttää vain nelinumeroista pin-koodia.
+Asiakas-asiakastyypeille valitaan vaihtoehto "Ei". Asiakkailta ei voi vaatia vahvaa salasanaa, koska omatoimikirjautumisessa voi käyttää numeroista koostuvaa pin-koodia.
 
 VIRKAILIJA/AUTOM/API-asiakastyypeille määritetään "Kyllä". Tietoturvasyistä käyttäjätunnuksilta vaaditaan vahva salasana.
 
-**Estä vanhentuneet asiakkaat**
+**Estä vanhentuneet asiakkaat verkkokirjastossa**
 
-Valitse vaihtoehto "Järjestelmäasetus BlockExpiredPatronOpacActions määrittää".
+Valitse vaihtoehto _Järjestelmäasetus BlockExpiredPatronOpacActions määrittää_.
+
+Asetuksella voi myös estää tietyt toiminnot: niteen varaaminen, kaukopalvelupyynnön tekeminen ja niteen uusinta
 
 **Tarkasta edelliset lainat**
 
-Tämä vaihtoehto on näkyvillä vain, jos  CheckPrevCheckout-järjestelmäasetuksessa on valittuna jokin muu kuin _Älä tarkista_. Kotipalvelu-asiakastyypille voi valita "Kyllä ja yritä ohittaa järjestelmäasetukset". Muille asiakastyypeille kannattaa valita "Ei ja yritä ohittaa järjestelmäasetukset.
+Tämä vaihtoehto on näkyvillä vain, jos _CheckPrevCheckout_-järjestelmäasetuksessa on valittuna jokin muu kuin _Älä tarkista_. Kotipalvelu-asiakastyypille voi valita "Kyllä ja yritä ohittaa järjestelmäasetukset". Muille asiakastyypeille kannattaa valita "Ei ja yritä ohittaa järjestelmäasetukset.
 
-Käytännössä järjestelmä tarkistaa lainatessa ja varatessa, onko saman tietueen nide ollut asiakkaalla jo lainassa. Jos asetus on päällä, pitää virkailijan kuitata huomautus. Lainaaminen ei onnistu automaateilla, jos teos on ollut jo asiakkaalla lainassa.
+Käytännössä järjestelmä tarkistaa lainatessa ja varatessa, onko saman tietueen nide ollut asiakkaalla jo lainassa tai lainassa hänellä sillä hetkellä. Jos asetus on päällä, pitää virkailijan kuitata huomautus. Lainaaminen ei onnistu automaateilla, jos teos on ollut jo asiakkaalla lainassa.
 
 **Oletusarvo yksityisyydelle**
 
 Tämä tarkoittaa lainahistorian säilytysaikaa. 
 
-- Oletus tarkoittaa kirjaston määrittämän ajan. Koha-Suomen asiantuntijaryhmä on ehdottanut oletussäilytysajaksi kolme vuotta.
-- Ei koskaan tarkoittaa, että lainahistoriaa ei tallenneta ja laina anonymisoidaan heti, kun nide palautetaan.
-- Aina tarkoittaa, että lainahistoria säilyy aina, eikä sitä poisteta säännöllisissä poisto/anonymisointiajoissa.
+- **Oletus** tarkoittaa kirjaston määrittämän ajan. Koha-Suomen asiantuntijaryhmä on ehdottanut oletussäilytysajaksi kolme vuotta.
+- **Ei koskaan** tarkoittaa, että lainahistoriaa ei tallenneta ja laina anonymisoidaan heti, kun nide palautetaan.
+- **Toistaiseksi** tarkoittaa, että lainahistoria säilyy aina, eikä sitä poisteta säännöllisissä poisto/anonymisointiajoissa.
 
 **Jätä pois paikallisten varausten jonosta**
 
