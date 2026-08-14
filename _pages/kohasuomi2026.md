@@ -13,6 +13,61 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 34
+
+Aika: Ma 17.8.2026 klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 34 päivitys
+
+### Viikolla 33 tehtyä
+
+#### Anneli
+##### Järjestelmäasetukset, dokumentointi ja ohjeistukset
+- **Asetus‑päivitykset** — Asetukset-sivun asiakastyyppi‑osion päivitys tiketin [#2237](https://github.com/KohaSuomi/Koha/issues/2237) mukaisesti sekä yleinen ajantasaistus.  
+- **ClearPermissionsAutomatically‑dokumentointi** — Lisäys järjestelmäasetuksiin.  
+- **Asiakastyyppioikeuksien dokumentointi** — Huomio, että oikeus sallia käyttäjäoikeudet puuttui dokumentaatiosta; tiketin avaus dokumentointia varten.  
+- **Poimintaryhmien dokumentointi** — Lisäys Käyttöönotto-ohjeisiin: [https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/#poimintaryhm%C3%A4t-hyllyvarausraportille](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/#poimintaryhm%C3%A4t-hyllyvarausraportille)  
+
+##### Testaus, tiketit ja tekniset selvitykset
+- **Nidetyyppien varattavuusongelman selvitys** — Tiketti [#2453](https://github.com/KohaSuomi/Koha/issues/2453): varattavuus estetty oletussäännöissä (LaNu 63 vrk).  
+- **Raporttikirjaston päivitys** — Tiketin [#2327](https://github.com/KohaSuomi/Koha/issues/2327) raporttien lisäys raporttikirjastoon ja tiketin sulkeminen.  
+- **Bugzilla‑tikettien läpikäynti** — Sähköpostitse tulleiden tikettien heräteviestien läpikäynti.  
+- **Käännösten tarkistus ja lisäys** — Useiden tikettien käännösten lisääminen ja tarkistaminen.  
+- **Raporttien päivitykset ja testaus**  
+  - Tiketti [#2373](https://github.com/KohaSuomi/Koha/issues/2373): ylimääräiset välilyönnit 001/003-kentissä.  
+  - Tiketti [#2306](https://github.com/KohaSuomi/Koha/issues/2306): raportin lisäys Tätiin ja testaus.  
+  - Tiketti [#2380](https://github.com/KohaSuomi/Koha/issues/2380): kyselyn korjaus puuttuvan 773w-sarakkeen vuoksi.  
+  - Tiketti [#2218](https://github.com/KohaSuomi/Koha/issues/2218): tiketin vapautus seuraavalle yrittäjälle.  
+- Tiketin [#2455](https://github.com/KohaSuomi/Koha/issues/2455) toteutuksen pohdintaa.  
+- **Asiakasvarmenteen testaus** — Uuden varmenteen asennus ja toimivuuden testaus.
+
+##### Viestintä, tiedotus ja koordinointi
+- **Viikkopäivityksen tiedote** — Viikon tilannekatsaus.  
+- **Lihavointi-ohjeen näkyvyystiedotus** — Ohje näkyy nyt suomeksi ja ruotsiksi.  
+- **Bugzilla‑viestien käsittely** — Saapuneiden viestien läpikäynti.  
+- **Pääkäyttäjien muistuttaminen** — FA-pohjan 003-kentän lisäämisen kuittaukset sekä tiketin #2375 kuittauspuutteet.  
+
+#####  Koha-seminaari ja asiantuntijaryhmät
+- **Seminaariohjelman kehittely ja alustava tiedotus** — Ohjelman suunnittelu ja viestintä esittelijöille.  
+- **Asiantuntijaryhmän esityslista** — koonti ja lähetys.  
+- **Tieteellisten Koha-kirjastojen palaveriin** osallistuminen
+- **Pääkäyttäjien viikkopalaveri**
+
+##### Selvitykset ja ongelmatilanteet
+- **Koha-hitauspalautteen selvitys Lastussa** — Palvelimilla ei näkynyt ongelmia; järjestelmä toimi normaalisti. Kyseessä ehkä paikallinen verkon hidastelu
+- **Viestiasetusten järjestys** — Käyttäjien tarpeiden kartoitus.
+
+##### Viikkotyöt
+- **[Viikkopäivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/2451)**  
+- **Ajantasalle pyrkiminen loman jälkeen** — Sähköpostin, Matrixin ja moninaisten keskustelukanavien läpikäyntiä.
+
+
+
 ## Viikko 33
 
 Aika: Ma 10.8.2026 klo 9<br/>
