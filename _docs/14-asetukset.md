@@ -474,13 +474,49 @@ Tämä tarkoittaa lainahistorian säilytysaikaa.
 
 Valitse ei.
 
+**Lainauskiellon raja**
+
+Anna olla 0.00.
+
+Jos määritetty, tämä ylikirjoittaa yleisen määrityksen järjestelmäasetuksessa _noissuescharge_.
+
+**Taattavien lainauskiellon raja**
+
+Anna olla 0.00.
+
+Jos määritetty, tämä ylikirjoittaa yleisen määrityksen järjestelmäasetuksessa _NoIssuesChargeGuarantees_.
+
+**Takaajien, joilla on taattavia, lainauskiellon raja**
+
+Anna olla 0.00
+
+Jos määritetty, tämä ylikirjoittaa yleisen määrityksen järjestelmäasetuksessa _NoIssuesChargeGuarantorsWithGuarantees_.
+
+**Pakota tilin vanhentumisilmoituksen lähettäminen**
+
+Tee tilin voimassaolon vanhenemisilmoituksesta pakollinen kaikille tämän asiakastyypin asiakkaille ja estä asiakkaita poistamasta viestityypin valinta viestiasetuksista.
+
+Valitse Kyllä, jos halutaan viestien lähtevän kaikille asiakkaille.
+
+Valitse Ei, jos halutaan sallia asiakkaiden itse valita, lähteekö viesti vai ei.
+
+**Asiakastyypille voi lisätä käyttäjäoikeuksia**
+
+Asetuksella määritellään, voiko asiakastyypin asiakkaille lisätä käyttäjäoikeuksia.
+
+Valitse _Kyllä_ näille asiakastyypeille: VIRKAILIJA, AUTOM, API
+
+Muille asiakastyypeille valitaan _Ei_.
+
+Toimintoon liittyy myös järjestelmäasetus _ClearPermissionsAutomatically_, joka poistaa automaattisesti käyttäjäoikeudet sellaisilta asiakkailta/käyttäjiltä, joiden asiakastyyppi vaihdetaan sellaiseksi, jolle ei ole käyttäjäoikeudet sallittu.
+
 **Viestien oletusasetukset tälle asiakastyypille**
 
-Asiakastyypille voi määritellä oletusasetukset viesteille. Nämä valinnat tulevat siis automaattisesti, kun luodaan kyseisen asiakastyypin asiakasta.
+Asiakastyypille voi määritellä oletusasetukset viesteille. Nämä valinnat tulevat käyttäjälle automaattisesti, kun luodaan kyseisen asiakastyypin asiakasta.
 
 Koha-Suomen suositus on, että oletusarvoja ei lisättäisi, jotta viestiasetusten tarkistukseen liittyvät JavaScript-liitännäiset toimisivat oikein.
 
-Ainoa poikkeus on Ennakkoilmoitus-kohta, johon kannattaa laittaa muu arvo kuin 0. Jos asiakkaalle tallentuu tähän arvo 0, hänelle ei käytännössä lähde ennakkoilmoitusta.
+Ainoa poikkeus on _Ennakkoilmoitus_-kohta, johon kannattaa laittaa muu arvo kuin 0. Jos asiakkaalle tallentuu tähän arvo 0, hänelle ei käytännössä lähde ennakkoilmoitusta.
 
 ## 6. Laina- ja maksusäännöt
 
