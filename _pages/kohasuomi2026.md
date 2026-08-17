@@ -67,7 +67,6 @@ Läsnä: Anneli, Johanna, Ari, Olli, Kodo, Lari
 - **[Viikkopäivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/2451)**  
 - **Ajantasalle pyrkiminen loman jälkeen** — Sähköpostin, Matrixin ja moninaisten keskustelukanavien läpikäyntiä.
  
-
 #### Johanna
 
 * [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563): Vastuutettu. Kommentti: Tuohon suorituskykyyn ollaan mietitty, että voisikohan kokeilla RealTimeHoldsQueue-järjestelmäasetusta. Luulen, että testeillä ei anna oikeaa kuvaa, koska siellä ei ole oikeasti liikennettä. Kommentti: Kirjastoryhmän hassu priorisointi jäljittyi sitten kuitenkin tähän pääominaisuuteen. Se olisi tärkeä korjata, jotta koko ominaisuus olisi edes käyttökelpoinen.
@@ -82,6 +81,14 @@ Läsnä: Anneli, Johanna, Ari, Olli, Kodo, Lari
 * koha-plugin-broadcast-biblios: Muutoksia termien ja nappien tyyleihin sekä palautettujen tietueiden käsittelyyn toimintolokista.
 * koha-suomi-utility: Käännösten asennus swapin jälkeen.
 * kohasuomi.github.io: Viikon 32 yhteenvedon lisääminen.
+
+#### Kodo
+- [Elokuun kuukausihuolto](https://github.com/KohaSuomi/Koha/discussions/2447); Kuukausihuolto tehtiin normaalisti keskiviikkoaamuna. Huollon yhteydessä tuotantokohien ajoa front-end nodeilla muutettiin hieman huoltokatkoaikojen minimoimiseksi.
+- [koha-suomi-utility#145 Uuden ajojärjestyksen vaatimat muutokset](https://github.com/KohaSuomi/koha-suomi-utility/issues/145); Uusi ajotapa vaatii muutoksia plan:iin. Toteutettu koplaniin -c (cycle) optio nodejen kierrättämiseen + mahdollisuus tallentaa ja paluttaa useampia planeja sekä pika-avuste. Seuraavaksi: Tiedotetaan meillä sisäisesti.
+- [koha-suomi-utility#144 Kuukausihuollon dokumentaatio](https://github.com/KohaSuomi/koha-suomi-utility/issues/144); Dokumentaation ensimmäinen versio on githubissa, mutta se on ajotavan muuttuessa jo valmiiksi vanhentunut. Seuraavaksi: Päivitetään dokumentaatio.
+- [koha-suomi-utility#143 Update holds to pull service-checkin päivitys](https://github.com/KohaSuomi/koha-suomi-utility/issues/143); Uuden update-skriptin tarvitsema muutos service-checskkiin tehty prod, test, next ja pushattu githubiin development/master. Tiketti suljettu.
+- [Koha#2370 Task scheduler -toiminnon käyttö raporteissa](https://github.com/KohaSuomi/Koha/issues/2370); Raporttien ajastamista suoraan käyttöliittymästä ei voida toteuttaa turvallisesti ja luotettavasti. Vaihtoehdoksi jää tehdä tarvittaessa palvelinpäähän cron-skriptejä, jotka toimittavat sähköpostitse tai muuta soveltuvaa tiedonsiirtoväylää pitkin tiedot haluttuun paikkaan.
+- [Koha#1858 About-sivu herjaa puuttuvasta Weasyprint-työkalusta](https://github.com/KohaSuomi/Koha/issues/1858); Tämä natkutus on jossain kohtaa kadonnut, vaikka weasyprinttiä ei ole asennettu. Tiketti suljettu.
 
 ## Viikko 33
 
