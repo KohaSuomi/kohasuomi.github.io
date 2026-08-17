@@ -46,6 +46,8 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 * [Vahvalla tunnistautumisella asiakkaaksi rekisteröityvien asiakastyyppi](https://github.com/KohaSuomi/Koha/issues/2418)
   * Rekisteröityneille tarvitaan kaikille yhteinen uusi asiakastyppi.
 
+* [Vahvalla tunnistautumisella asiakkaaksi rekisteröityjen säilytysaika](https://github.com/KohaSuomi/Koha/issues/2418)
+  * Kuinka kauan säilytetään rekisteröityneitä asiakkaita, jos he eivät tule hakemaan kirjastokorttia ja täydentämään tietojaan?
 
 ### 4. Seuraava kokous
 
