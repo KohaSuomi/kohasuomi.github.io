@@ -39,9 +39,12 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 
 ### 3. Muut asiat
 
-[Uuden ajojärjestyksen vaatimat muutokset #145](https://github.com/KohaSuomi/koha-suomi-utility/issues/145)
-* Tiketti on suljetussa tietovarannossa, joten se ei avaudu. Näytetään kokouksessa.
-* Tiketin ajatuksena on saada huoltokatkot minimaalisen lyhyiksi.
+* [Uuden ajojärjestyksen vaatimat muutokset #145](https://github.com/KohaSuomi/koha-suomi-utility/issues/145)
+  * Tiketti on suljetussa tietovarannossa, joten se ei avaudu. Näytetään kokouksessa.
+  * Tiketin ajatuksena on saada huoltokatkot minimaalisen lyhyiksi.
+ 
+* [Vahvalla tunnistautumisella asiakkaaksi rekisteröityvien asiakastyyppi](https://github.com/KohaSuomi/Koha/issues/2418)
+  * Rekisteröityneille tarvitaan kaikille yhteinen uusi asiakastyppi.
 
 
 ### 4. Seuraava kokous
