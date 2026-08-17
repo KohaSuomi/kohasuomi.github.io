@@ -66,8 +66,22 @@ Läsnä:
 ##### Viikkotyöt
 - **[Viikkopäivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/2451)**  
 - **Ajantasalle pyrkiminen loman jälkeen** — Sähköpostin, Matrixin ja moninaisten keskustelukanavien läpikäyntiä.
+ 
 
+#### Johanna
 
+* [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563): Vastuutettu. Kommentti: Tuohon suorituskykyyn ollaan mietitty, että voisikohan kokeilla RealTimeHoldsQueue-järjestelmäasetusta. Luulen, että testeillä ei anna oikeaa kuvaa, koska siellä ei ole oikeasti liikennettä. Kommentti: Kirjastoryhmän hassu priorisointi jäljittyi sitten kuitenkin tähän pääominaisuuteen. Se olisi tärkeä korjata, jotta koko ominaisuus olisi edes käyttökelpoinen.
+* [Siirto-toiminnossa puutteita kun siirrettävään teokseen kohdistuu varaus](https://github.com/KohaSuomi/Koha/issues/1564): Tiketti suljettu.
+* [Lokien katselu -toiminnossa palautettujen tietueiden toistettuja osakenttiä katoaa](https://github.com/KohaSuomi/Koha/issues/1913): Vastuutettu. Kommentti: Tähän on tuotu korjaus nexteille.
+* [Vaski: Raporttien ajaminen Raportterin kautta epäonnistunut](https://github.com/KohaSuomi/Koha/issues/2232): Tiketti suljettu.
+* [IntranetUserJS: Muutokset hakusivulla - väärä ruotsinkielinen termi](https://github.com/KohaSuomi/Koha/issues/2386): Kommentti: Master-haaran muutoksia ei ole viety ks25-haaraan, se pitäisi tehdä niin saadaan kommitit ajan tasalle ja voidaan päivittää tuotannossa.
+* [Palauta-nappi melkein kadonnut tietueen muutoslokilta](https://github.com/KohaSuomi/Koha/issues/2450): Vastuutettu. Kommentti: Tämä on nexteillä. Kommentti: Nappi on nyt korjattu, ongelma oli suomenkielisessä versiossa. Lisäsin sille myös Kohan nappivärin.
+* [View reports ja View saved -käännösten korjaus](https://github.com/KohaSuomi/Koha-translations/issues/89): Tiketti suljettu.
+* [IntranetUserJS: Add links to record in Finna: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-cart-link-to-record-in-finna/issues/3): Tiketti suljettu.
+* [Sivutus raporttirajapintaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/17): Tiketti suljettu.
+* koha-plugin-broadcast-biblios: Muutoksia termien ja nappien tyyleihin sekä palautettujen tietueiden käsittelyyn toimintolokista.
+* koha-suomi-utility: Käännösten asennus swapin jälkeen.
+* kohasuomi.github.io: Viikon 32 yhteenvedon lisääminen.
 
 ## Viikko 33
 
