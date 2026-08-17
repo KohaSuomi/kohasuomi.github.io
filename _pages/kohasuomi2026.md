@@ -23,6 +23,7 @@ Läsnä:
 
 ### Muuta
 * Viikon 34 päivitys
+* Päivystysvuorot viikosta 34 lähtien
 
 ### Viikolla 33 tehtyä
 
