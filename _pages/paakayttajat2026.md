@@ -32,6 +32,10 @@ Etelästä pohjoiseen
 * Uusi varmenne laitettu jakoon viime viikolla.
 * Normaalia ylläpitoa.
 
+**Kirkes**
+ * Varmenteen asentaminen keskitetysti on onnistunut Järvenpäässä.
+ * Normaalia ylläpitoa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 33
