@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 **Kirkes**
  * Varmenteen asentaminen keskitetysti on onnistunut Järvenpäässä.
  * Normaalia ylläpitoa
+
+**Siilinjärvi**
+* Varmenteen jakelu sujunut hyvin.
+* Uusi kuntasovellusversio saatu testaukseen kommentoitavaksi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
 
