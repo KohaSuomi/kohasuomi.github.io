@@ -13,11 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
-* 
+* Olisiko seuraavia vapaaehtoisia ottamaan käyttöön uuden hyllyvarausskriptin? [Tiketti #2259](https://github.com/KohaSuomi/Koha/issues/2259#issuecomment-5316285339)
 
 Etelästä pohjoiseen
 
