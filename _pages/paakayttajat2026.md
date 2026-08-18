@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
