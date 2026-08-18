@@ -25,7 +25,7 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa
 
 **OUTI**
-* Viime viikon Oulun Finvoice-laskutusajosta oli laskuttajille tullut ilmoitus, että laskujen siirtoajo oli päättynyt virheeseen. Laskut olivat lähteneet Kohasta, mutta Oukan sftp-palvelimella oli ollut joku häiriö, eikä siirrot olleet menneet läpi. Oulun Digiltä siirto tehtiin manuaalisesti ja vastasen varalle siirtomääritykseen lisättiin asetus, että virhetilanteissa ajo ajetaan uudellaan viiden minuutin kuluttua.
+* Viime viikolla Oulun Finvoice-laskutusajosta oli laskuttajille tullut ilmoitus, että laskujen siirtoajo oli päättynyt virheeseen. Laskut olivat lähteneet Kohasta, mutta Oukan sftp-palvelimella oli ollut joku häiriö, eikä siirrot olleet menneet läpi. Oulun Digiltä siirto tehtiin manuaalisesti ja vastasen varalle siirtomääritykseen lisättiin asetus, että virhetilanteissa ajo ajetaan uudellaan viiden minuutin kuluttua.
 * Koha-seminaarin Finna-työpajaan osallistuvat myös Serafia Kari ja Erkki Tolonen Kansalliskirjastosta. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
