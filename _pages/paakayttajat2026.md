@@ -13,11 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
 * Olisiko seuraavia vapaaehtoisia ottamaan käyttöön uuden hyllyvarausskriptin? [Tiketti #2259](https://github.com/KohaSuomi/Koha/issues/2259#issuecomment-5316285339)
+  * Skripti otettiin käyttöön Vaskissa ja Kyytissä.
 
 Etelästä pohjoiseen
 
