@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli, Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
@@ -23,6 +23,10 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Normaalia ylläpitoa
+
+** OUTI**
+* Viime viikon Oulun Finvoice-laskutusajosta oli laskuttajille tullut ilmoitus, että laskujen siirtoajo oli päättynyt virheeseen. Laskut olivat lähteneet Kohasta, mutta Oukan sftp-palvelimella oli ollut joku häiriö, eikä siirrot olleet menneet läpi. Oulun Digiltä siirto tehtiin manuaalisesti ja vastasen varalle siirtomääritykseen lisättiin asetus, että virhetilanteissa ajo ajetaan uudellaan viiden minuutin kuluttua.
+* Koha-seminaarin Finna-työpajaan osallistuvat myös Serafia Kari ja Erkki Tolonen Kansalliskirjastosta. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
 
