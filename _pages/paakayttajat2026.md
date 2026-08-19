@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle), Roosa Väisänen ja Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
@@ -40,6 +40,10 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Varmenteen jakelu sujunut hyvin.
 * Uusi kuntasovellusversio saatu testaukseen kommentoitavaksi.
+
+**Kyyti**
+* Kyytissä tullut henkilökunnalta toive, että asiakkaalle lähtisi Kohasta automaattisesti viesti, jossa kehotettaisiin tarkistamaan omat yhteystiedot siinä vaiheessa, kun lapsiasiakas päivitetään henkilöasiakkaaksi lapsen täyttäessä 15-vuotta. Ominaisuus koettiin tarpeelliseksi myös muutamassa muussa kimpassa. Kävi ilmi, että asiasta oli tehty aikaisemmin kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/1573. Asiantuntijaryhmän kokouksessa 12.2.2025 tehty päätös, ettei toteuteta Kohaan vaan tehdään Finna-kehitysehdotus: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/44. Finna-kehitysehdotuksen mukaan sisäänkirjautuneelle asiakkaalle näytettäisiin kerran vuodessa ilmoitus, joka kehottaa asiakasta tarkistamaan yhteystietonsa. Ilmoituksessa näytettäisiin nykyiset yhteystiedot, jotka asiakas joko muuttaa ja tallentaa tai vaihtoehtoisesti kuittaa tietojen olevan ok. Tulevassa Koha-seminaarissa 17.-18.9.2026 tarkoitus järjestää Finna-työpaja, jossa kyseistä Finna-kehitysehdotusta mahdollisesti edistetään.
+* Varmenteen vaihto sujunut hyvin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
 
