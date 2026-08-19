@@ -54,7 +54,7 @@ Etelästä pohjoiseen
 ## Viikko 33
 
 Aika: Ti 11.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen (Lastu), Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman (Koha-Suomi), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen (Lastu), Hanna Hyttinen (Vaara), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 33 päivitys](https://github.com/KohaSuomi/Koha/discussions/2451)
@@ -91,6 +91,11 @@ Pohjoisesta etelään
 * Viinijärven kirjaston avaamisen osalta tehdään vielä tarvittavat asiat Kohaan keskiviikkona 12.8 (aineisto takaisin saatavaksi, varausten aktivointi, kirjasto takaisin noutopaikaksi)
 * Suunnitelmissa saada kirjaston raportit osaksi kaupungin tietovarantoa, jotta niiden päivittyminen tapahtuisi automaattisesti. Käsin päivitettäviä raportteja päivitetään kuitenkin niin pitkään kun siirtymä uuteen raporttiin on varma ja valmis. Selvitämme vielä muilta hyviä käytänteitä asiaan liittyen.
 * Vaarassa on keskusteltu myös kirjastokorttihakemuksesta.
+
+**Kyyti**
+* Varmenteet laitettu jakoon viime viikolla
+* Kyyti-alueen henkilökunnan Koha-tunnukset tarkistettu
+* Viime viikolla mainitut asiat ovat työn alla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-33) - [Palaa sivun alkuun](/paakayttajat2026)
 
