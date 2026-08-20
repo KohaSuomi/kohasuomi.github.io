@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 35
+
+Aika: Ti 25.8.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Asiantuntijaryhmän kokous 7/2026
+  * Uudet yhteiset asiakastyypit
+    * [Asiakastyypit-dokumentaatio](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)
+    * KPOMATOIMI : Kotipalvelu, omatoimi sallittu
+      * Jos tämän ottaa käyttöön, niin kannattanee lisätä saman laina- ja maksusäännöt kuin KOTIPALVEL-asiakastyypille
+    * HAKEMUS : Vahva tunnistautuja
+      * Tälle kannattanee lisätä laina- ja maksusääntöihin sellaiset säännöt, että tällä asiakastyypillä ei voi lainata tai tehdä varauksia. Tämä on väliaikainen asiakastyyppi, joka vaihdetaan "oikeaan", kun asiakas käy hakemassa kirjastokortin.
+
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
