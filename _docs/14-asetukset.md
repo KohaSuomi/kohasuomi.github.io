@@ -362,6 +362,8 @@ Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 |LAOMATOIMI|Lapsi, omatoimi sallittu|Huollettava|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 5/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille) |
 |HEOMATOIMI| Henkilöasiakas, omatoimi sallittu |Aikuinen| Tarvitaan henkilöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Henkilö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
 |YHOMATOIMI| Yhteisöasiakas, omatoimi sallittu|Yhteisö| Tarvitaan yhteisöasiakkaille, jotka ovat Vaarassa hyväksyneet omatoimen käyttösäännöt. Yhteisö-asiakkaiden pääsy estetään. Päätetty ottaa mukaan yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 12/24](https://koha-suomi.fi/asiantuntijaryhma2024#4-vaarassa-k%C3%A4ytt%C3%B6%C3%B6n-uudet-heomatoimi-ja-yhomatoimi--asiakastyypit)|
+|KPOMATOIMI|Kotipalveluasiakas, omatoimi sallittu|Päätetty lisätä yhteisiin asiakastyypeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 7/2026](https://koha-suomi.fi/asiantuntijaryhma2026#muistio-72026)
+|HAKEMUS|Vahva tunnistautuja|Asiakastyyppiä tarvitaan vahvalla tunnistautumisella rekisteröityneitä asiakkaita varten. Päätetty lisätä yhteisiin asiakastyyppeihin [Koha-Suomen asiantuntijaryhmän kokouksessa 7/2026](https://koha-suomi.fi/asiantuntijaryhma2026#muistio-72026)
 
 ### 5.1 Asiakastyyppien määritykset
 
