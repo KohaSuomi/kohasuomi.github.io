@@ -15,15 +15,15 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 7/2026
+## Muistio 7/2026
 
 Aika: Torstai 20.8.2026 klo 9 <br />
-Läsnä: Hanna, Elina, Janne, Irina, Roosa, Anni, Kodo, Kati, Noora, Ari, Anneli
+Läsnä: Hanna Ikonen (Lumme-kirjastot), Elina Uotila (Kirkes-kirjastot), Janne Seppänen (Lastu-kirjastot), Irina Halminen (Vaara-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Anni Mäki-Mantila (Vaski-kirjastot), Kati Sillgren (Helle-kirjastot), Noora Valkonen (OUTI-kirjastot, saapui n. klo 9.40), Kodo Korkalo, Ari Mäkiranta (saapui n. klo 10) ja Anneli Österman (Koha-Suomi)
 
 ### 1. Ajankohtaiset
 
 [Koha-seminaarin ohjelma ja ilmoittauminen](https://github.com/KohaSuomi/Koha/discussions/2454)
-* ohjelma on julkaistu ja ilmoittautuminen avattu.
+* Ohjelma on julkaistu ja ilmoittautuminen avattu.
 * Ilmoittautuminen tehtävä viimeistään 6.9.2026.
 
 [KohaConin 2026 ilmoittautuminen](https://indico.kit.edu/event/5444/overview) on meneillään ja se sulkeutuu 28.8.2026. KohaCon pidetään Saksassa Karlsruhessa 5.-9.10.2026.
@@ -36,9 +36,9 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
   * Uudelleen käsiteltäväksi nyt, kun testit on tehty
   * Päätös: Jäädään vielä odottelemaan, josko yhteisön kautta tulisi korjaus bugiin 13870. Tarkistetaan joulukuun palaverissa, mikä tiketin tilanne on.
 * [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa #39](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39)
-  * Katkaistaan sulkumerkkiin ja tarkistetaan vielä sen jälkeen, onko nimi pidempi kuin 35 merkkiä ja tarvittaessa katkaistaan 35 merkkiin.
+  * Päätös: Katkaistaan sulkumerkkiin ja tarkistetaan vielä sen jälkeen, onko nimi pidempi kuin 35 merkkiä ja tarvittaessa katkaistaan 35 merkkiin.
 * [Epäonnistuneiden taustatöiden säilytysaika ja lisäys siivousajoon päätöksen mukaisesti #2408](https://github.com/KohaSuomi/Koha/issues/2408)
-  * Säilytetään epäonnistuneita taustatöitä 30 päivää.
+  * Päätös: Säilytetään epäonnistuneita taustatöitä 30 päivää.
 * [Nidepakettiin liitetyille niteille kertymään lainaustilastot #2416](https://github.com/KohaSuomi/Koha/issues/2416)
   * Kehittäjät selvittävät, onko tämä teknisesti mahdollista. 
 
@@ -58,7 +58,7 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
   * Päätös: 2 viikkoa
 
 * Uusi asiakastyyppi omatoimea käyttäville kotipalveluasiakkaille
-  * Päätös: Tunnus: KPOMATOIMI - Kotipalveluasiakas, omatoimi sallittu
+  * Päätös: Tunnus: KPOMATOIMI - Kuvaus: Kotipalveluasiakas, omatoimi sallittu
 
 ### 4. Seuraava kokous
 
