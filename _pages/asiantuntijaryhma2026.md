@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 7/2026
 
 Aika: Torstai 20.8.2026 klo 9 <br />
-Läsnä:
+Läsnä: Hanna, Elina, Janne, Irina, Roosa, Anni, Kodo, Kati, Noora, Ari, Anneli
 
 ### 1. Ajankohtaiset
 
@@ -34,24 +34,35 @@ Ari ja Anneli esittelee Kohaa Satakirjastoille syyskuussa.
 ### 2. Käsiteltävät kehitysehdotukset
 * [Koha muistuttamaan tilauksen poistotarpeesta, kun tietueen hankinnassa oleva nide poistetaan #2318](https://github.com/KohaSuomi/Koha/issues/2318)
   * Uudelleen käsiteltäväksi nyt, kun testit on tehty
+  * Päätös: Jäädään vielä odottelemaan, josko yhteisön kautta tulisi korjaus bugiin 13870. Tarkistetaan joulukuun palaverissa, mikä tiketin tilanne on.
 * [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa #39](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39)
+  * Katkaistaan sulkumerkkiin ja tarkistetaan vielä sen jälkeen, onko nimi pidempi kuin 35 merkkiä ja tarvittaessa katkaistaan 35 merkkiin.
 * [Epäonnistuneiden taustatöiden säilytysaika ja lisäys siivousajoon päätöksen mukaisesti #2408](https://github.com/KohaSuomi/Koha/issues/2408)
+  * Säilytetään epäonnistuneita taustatöitä 30 päivää.
 * [Nidepakettiin liitetyille niteille kertymään lainaustilastot #2416](https://github.com/KohaSuomi/Koha/issues/2416)
+  * Kehittäjät selvittävät, onko tämä teknisesti mahdollista. 
 
 
 ### 3. Muut asiat
 
 * [Uuden ajojärjestyksen vaatimat muutokset #145](https://github.com/KohaSuomi/koha-suomi-utility/issues/145)
   * Tiketti on suljetussa tietovarannossa, joten se ei avaudu. Näytetään kokouksessa.
-  * Tiketin ajatuksena on saada huoltokatkot minimaalisen lyhyiksi.
+  * Tiketin ajatuksena on saada huoltokatkot minimaalisen lyhyiksi. Huoltoikkunan pituus pysyy silti ennallaan klo 7-9 eli esim. hyllyvarauslistat alkavat päivittymään edelleen klo 9 jälkeen.
  
 * [Vahvalla tunnistautumisella asiakkaaksi rekisteröityvien asiakastyyppi](https://github.com/KohaSuomi/Koha/issues/2418)
   * Rekisteröityneille tarvitaan kaikille yhteinen uusi asiakastyppi.
+  * Päätös: Tunnus: HAKEMUS - Kuvaus: Vahva tunnistautuja
 
 * [Vahvalla tunnistautumisella asiakkaaksi rekisteröityjen säilytysaika](https://github.com/KohaSuomi/Koha/issues/2418)
   * Kuinka kauan säilytetään rekisteröityneitä asiakkaita, jos he eivät tule hakemaan kirjastokorttia ja täydentämään tietojaan?
+  * Päätös: 2 viikkoa
+
+* Uusi asiakastyyppi omatoimea käyttäville kotipalveluasiakkaille
+  * Päätös: Tunnus: KPOMATOIMI - Kotipalveluasiakas, omatoimi sallittu
 
 ### 4. Seuraava kokous
+
+Ma 21.9.2026 klo 13
 
 ## Muistio 6/2026
 
