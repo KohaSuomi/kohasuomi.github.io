@@ -27,7 +27,7 @@ Läsnä:
 ## Viikko 34
 
 Aika: Ti 18.8.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Janne Seppänen ja Lauri Hänninen (Lastu), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Maria Joona ja Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Vilgot Strömsholm, Kati Sillgren (Helle), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/2456)
@@ -62,6 +62,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Varmenne laitettu jakoon henkilökunnalle.
 * Ei muuta mainittavaa.
+
+**Vaara**
+* Ei mitään mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-34) - [Palaa sivun alkuun](/paakayttajat2026)
 
