@@ -13,6 +13,28 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 35
+
+Aika: Ma 24.8.2026 klo 9<br/>
+Läsnä:
+
+### Viikolla 34 tehtyä
+
+#### Johanna
+
+* [Emottomien osakohteiden listaus käyttöliittymään](https://github.com/KohaSuomi/Koha/issues/2055): Tiketti suljettu.
+* [Tulosta ilmoituksia -liitännäisessä peruuta-painiketta painaessa sivu ei päivity automaattisesti](https://github.com/KohaSuomi/Koha/issues/2221): Vastuutettu. Peruuta- ja uudelleenlähetys-toimintojen kilpailutilanne (race condition) korjattu ja korjaus viety master-haaraan; uusi versio toimitettu testi- ja next-ympäristöihin. Tikettiin kommentoitu, että korjaus voidaan sisällyttää seuraavaan päivitykseen, sillä liitännäinen poistuu käytöstä Suomi.fi-siirtymän myötä.
+* ["email"-oletusyhteydenottotapa-ajo kimppoihin, joilla asiakkaan vanhentumisilmoitusviestit pakotettuna](https://github.com/KohaSuomi/Koha/issues/2342): Tiketti suljettu.
+* [Varausten noutohyllyt: Hyllyä lisätessä valikkojen sisältö ei järjesty kuvauksen/nimen mukaan](https://github.com/KohaSuomi/Koha/issues/2394): Vastuutettu. Korjaus saatettu nexteille: järjestysvertailu tehdään nyt kirjaimet isoiksi muuntaen, jolloin valikoiden sisältö järjestyy kuvauksen/nimen mukaan odotetusti.
+* [Varauksen noutomuistutukset eivät lähde määrittelyiden mukaisesti](https://github.com/KohaSuomi/Koha/issues/990): Vastuutettu. Tikettiin jätetty kommentti toimivuuden varmistamiseksi ja tiketin sulkemisen arvioimiseksi.
+* [Kokeillaan, saako Kansalliskirjaston EDItX-liitännäisen mergettyä meidän liitännäisen kanssa](https://github.com/KohaSuomi/koha-plugin-editx/issues/15): Vastuutettu. Havaittu, että lähderepossa oli vaihdettu versiohaaraa; haara aiotaan palauttaa ja tavoitteena on saada uusi versio tuotantoon.
+* [Laskutukseen liittyvän rajoituksen automaattinen poistuminen](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/40): Vastuutettu. Korjaus (KPODUE-40: lainauskiellon automaattinen poisto laskutetun aineiston palautuksen yhteydessä) saatettu testi- ja next-versioille sekä laadittu testaussuunnitelma.
+* [Korjaa pdf.css:n polku oikeaan liitännäiseen](https://github.com/KohaSuomi/koha-plugin-print-pdf-notices/issues/4): Tiketti suljettu.
+* [Full CI Build + Server Pull Deploy](https://github.com/KohaSuomi/koha-suomi-utility/issues/140): Tiketti suljettu.
+* [TLS 1.3 protokolla lähettäminen palvelimelta.](https://github.com/KohaSuomi/koha-suomi-utility/issues/147): Uusi tiketti avattu.
+* koha-plugin-bibframe-manager: Bibframe-tallennusta koskevia suunnitelmia lisätty ja toteutuksen suunnitelma siirretty docs-kansioon, suunnitelma on laitettu Kansalliskirjastolle arvioitavaksi; lisäksi korjattu strukturoitua JSON-tulostusta (UTF-8-käsittely ja sisäkkäisten elementtien poiminta).
+* Suomi.fi:n infotilaisuus kehittäjille torstaina 20.8.2026 klo 13-14.30. Poiminnat: Vanhat rajapinnat lopettavat toimintansa 31.12.2026, käytetään vain RESTiä. DDV:n TKJ-sopimus on kilpailutettu uudestaan, voi joutua tekemään jotain muutoksia PDF-asetteluihin ja rajapintaan lähetettävään datarakenteeseen. REST-kutsut tulee lähettää TLS 1.3 muodossa, jossain vaiheessa hyväksytään vain se.
+
 ## Viikko 34
 
 Aika: Ma 17.8.2026 klo 9<br/>
