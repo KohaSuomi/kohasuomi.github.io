@@ -23,6 +23,14 @@ Läsnä:
       * Jos tämän ottaa käyttöön, niin kannattanee lisätä saman laina- ja maksusäännöt kuin KOTIPALVEL-asiakastyypille
     * HAKEMUS : Vahva tunnistautuja
       * Tälle kannattanee lisätä laina- ja maksusääntöihin sellaiset säännöt, että tällä asiakastyypillä ei voi lainata tai tehdä varauksia. Tämä on väliaikainen asiakastyyppi, joka vaihdetaan "oikeaan", kun asiakas käy hakemassa kirjastokortin.
+  * Epäonnistuneille taustatöille päätettiin säilytysaika ja se on jatkossa sama kuin taustatöillä muutenkin eli 30 päivää.
+    * Kannattaa muistuttaa käyttäjiä, että on tärkeää käydä katsomassa esimerkiksi niteiden poiston jälkeen, että taustatyö valmistuu, jotta niteitä ei jää roikkumaan tietokantaan sen vuoksi, että taustatyö epäonnistuu ja niteet eivät poistukaan.
+    * Jos käyttäjät muistavat käydä tarkistamassa työn onnistumisen, kiirii myös tieto mahdollisista ongelmista nopeammin pääkäyttäjille.
+* [Koha-seminaarin ohjelma julkaistu ja ilmoittautuminen aukaistu](https://github.com/KohaSuomi/Koha/discussions/2454). Viimeinen ilmoittautumispäivä 6.9.2026. Tervetuloa Ouluun! :)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 34
 
