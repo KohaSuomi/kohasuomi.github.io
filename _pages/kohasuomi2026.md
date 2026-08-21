@@ -39,6 +39,52 @@ Läsnä:
 * Koha-25x: KOHA-1563-siirtohaaralla peruutettu aiempi paikallisten varausten priorisointikorjaus (GiveLibraryAndGroup) revertillä.
 * Suomi.fi:n infotilaisuus kehittäjille torstaina 20.8.2026 klo 13-14.30. Poiminnat: Vanhat rajapinnat lopettavat toimintansa 31.12.2026, käytetään vain RESTiä. DDV:n TKJ-sopimus on kilpailutettu uudestaan, voi joutua tekemään jotain muutoksia PDF-asetteluihin ja rajapintaan lähetettävään datarakenteeseen. REST-kutsut tulee lähettää TLS 1.3 muodossa, jossain vaiheessa hyväksytään vain se.
 
+#### Anneli
+
+##### Seminaari- ja tapahtumatoimet
+
+* Koha-seminaarin ohjelman viimeistely, julkistus ja ilmoittautumisen avaaminen
+* Seminaarikutsujen lähettäminen
+* Seminaarin striimauskyselyiden käsittely (monipuolinen tiedontarve eri puolilta)
+* Uutta ja tulossa -esityksen suunnittelua
+* Tutustumisleikin täydennystä
+* Ideointipajan suunnittelua
+
+
+##### Kehitystyö ja tekninen toteutus
+
+* Emottomat osakohteet -raportin testausta, tulosten säätöä (hakulinkki emoon) ja Tätiin lisäämistä. [Tiketti 1739](https://github.com/KohaSuomi/Koha/issues/1739)
+* Kehitysehdotuksen kommentointia kaukolainojen viestiasetuksista. [Tiketti 2459](https://github.com/KohaSuomi/Koha/issues/2459)
+* Editx-liitännäisen testaaminen kahden kimpan next-kannassa. [Tiketti #15](https://github.com/KohaSuomi/koha-plugin-editx/issues/15)
+* Bugzilla-bugin  sign-off: [Prevent reserves of items the users have already on their possession](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=39977)
+* Ongelmanratkaisua ja tukipyyntöjen käsittely
+* Raportterin ongelman selvittelyä: [Tiketti #2458](https://github.com/KohaSuomi/Koha/issues/2458)
+* Laskutusliitännäisen ongelma, jossa käyttäjälle näkyi edelleen edellisen toimipisteen laskutettavat. Ehdotettu sivun lataamista ctrl+F5.
+* OUTIn varausvirheen analyysi: OUTIssa oli Kellossa palautettu yksi vanhentunut varaus, mutta se ei ollutkaan ollut vanhentunut. Lokeilta näkyi, että virkailija oli muuttanut varauksen viimeiseksi noutopäiväksi 21.8., joten varaus ei ole ollut ajon mielestä vanhentunut ajohetkellä. Viimeiseksi noutopäiväksi päivittyi nidettä palautettaessa 19.8., mikä aiheutti sen, että se näytti päivämäärän mukaan olevan vanhentunut.
+* Z39.50-haun käyttämättömien hakukohteiden piilottamisen neuvominen
+* Keskustelua 15 vuotta täyttäneet yhteystietojen tarkistustarpeesta Kirkesissä
+
+##### Kokoukset ja yhteistyö
+
+* Maanantainen viikkopalaveri
+* Asiantuntijaryhmän kokouskutsu, kokous, muistio ja muistion julkistus
+* Pääkäyttäjäpalaveri
+* Ruotsin kielen käännöspalaveriin valmistautuminen (palaveriajan etsintä)
+* Tieteellisten kirjastojen kanssa keskustelua Kaukopalvelu-toiminnoista
+
+##### Käännökset ja lokalisaatio
+
+* Laskutustyökalun käännösten keräys ja tarkistus
+* Liitännäisten käännöstikettien tilan muutos odottaa-tilaan
+* Weblate-käännösongelman korjaus ([Renew-termien](https://translate.koha-community.org/translate/koha/main/messages/fi/?checksum=bf8d2dfff6bae21c) epätoivottu muutos kertautuneena muutoksena)
+
+
+##### Dokumentaatio ja hallinto
+
+* [Asiakastyypit-dokumentaation](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit) päivitys asiantuntijaryhmässä päätettyjen muutosten mukaisesti
+* Testattavien tikettien läpikäynti ja testaaja-tietojen päivittäminen
+* Kyytiläisille pohja uutiskirjettä varten
+
 ## Viikko 34
 
 Aika: Ma 17.8.2026 klo 9<br/>
