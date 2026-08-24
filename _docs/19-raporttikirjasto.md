@@ -3463,13 +3463,15 @@ AND f040a LIKE <<Kentän 040a sisältö tai %>>
 AND f040d LIKE <<Kentän 040d sisältö tai %>>
 ```
 
-## Siivousraportteja yhteistä kuvailutietokantaa valmistellessa
+## Siivousraportteja yhteistä kuvailutietovarantoa valmistellessa
 
 ### Tietueet, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä
 
 Jos tietueen 001 tai 003 kenttiä muutettiin datan normalisoinnissa, viedään notes-kenttään lisäksi 001 ja 003 kentät täsmälleen alkuperäisessä muodossaan (välilyönteineen ja muine merkkeineen).
 
 Jos tietue tulee tälle raportille, on 001- ja/tai 003-kentässä ylimääräisiä merkkejä, jotka pitää korjata pois.
+
+Raportin toiminta perustuu Koha-Suomen omaan aputauluun biblio_control_fields.
 
 Lisätty: 24.8.2026<br />
 Tekijä: Kodo Korkalo<br />
@@ -3482,6 +3484,24 @@ SELECT biblionumber, f001, f003, title, bcf.notes
  WHERE bcf.notes LIKE '%001:%' OR bcf.notes LIKE '%003:%'
  ```
 
+### Tietueet, joissa on tyhjä 003-kenttä
+
+Raportilla voi hakea tietueet, joissa on tyhjä 003-kenttä ja kuvailupohja ei ole pikakuvailun FA-kuvailupohja.
+
+Raportin toiminta perustuu Koha-Suomen omaan aputauluun biblio_control_fields.
+
+Lisätty: 24.8.2026<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT 
+h.biblionumber,
+b.title AS 'Nimeke'
+FROM biblio_control_fields h
+JOIN biblio b ON h.biblionumber = b.biblionumber
+WHERE h.f003 = ''
+AND b.frameworkcode !='FA'
+```
 
 ## Kuljetukset
 
