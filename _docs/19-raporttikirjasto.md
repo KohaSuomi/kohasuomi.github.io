@@ -3462,6 +3462,27 @@ AND ctrl003 LIKE <<Kentän 003 sisältö tai %>>
 AND f040a LIKE <<Kentän 040a sisältö tai %>>
 AND f040d LIKE <<Kentän 040d sisältö tai %>>
 ```
+
+## Siivousraportteja yhteistä kuvailutietokantaa valmistellessa
+
+### Tietueet, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä
+
+Jos tietueen 001 tai 003 kenttiä muutettiin datan normalisoinnissa, viedään notes-kenttään lisäksi 001 ja 003 kentät täsmälleen alkuperäisessä muodossaan (välilyönteineen ja muine merkkeineen).
+
+Jos tietue tulee tälle raportille, on 001- ja/tai 003-kentässä ylimääräisiä merkkejä, jotka pitää korjata pois.
+
+Lisätty: 24.8.2026<br />
+Tekijä: Kodo Korkalo<br />
+Lisääjä: Anneli Österman
+
+´´´
+SELECT biblionumber, f001, f003, title, bcf.notes
+  FROM biblio_control_fields bcf
+  JOIN biblio USING(biblionumber)
+ WHERE bcf.notes LIKE '%001:%' OR bcf.notes LIKE '%003:%'
+ ```
+
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
