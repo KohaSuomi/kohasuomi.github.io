@@ -16,7 +16,7 @@ Aika: Ti 25.8.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 35 päivitys
+* [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
 * [Asiantuntijaryhmän kokous 7/2026](https://github.com/KohaSuomi/Koha/discussions/2460)
   * Uudet yhteiset asiakastyypit
     * [Asiakastyypit-dokumentaatio](https://koha-suomi.fi/dokumentaatio/asetukset/#5-asiakastyypit)
