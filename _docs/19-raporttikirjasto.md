@@ -3475,7 +3475,7 @@ Lisätty: 24.8.2026<br />
 Tekijä: Kodo Korkalo<br />
 Lisääjä: Anneli Österman
 
-´´´
+```
 SELECT biblionumber, f001, f003, title, bcf.notes
   FROM biblio_control_fields bcf
   JOIN biblio USING(biblionumber)
