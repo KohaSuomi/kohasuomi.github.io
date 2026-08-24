@@ -3503,6 +3503,33 @@ WHERE h.f003 = ''
 AND b.frameworkcode !='FA'
 ```
 
+### Lista tietueista, joiden 001+003-yhdistelmä löytyy tietokannasta useammin kuin kerran
+
+Raportti listaa tietueet, joiden 001+003-yhdistelmällä löytyy tietokannasta useampi kuin yksi tietue. 
+
+Raportti vaatii toimiakseen Koha-Suomen oman aputaulun biblio_control_fields.
+
+Lisätty 24.8.2026<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT 
+  CONCAT_WS(' ', h.`f001`, h.`f003`) AS 'Kontrollikentät',
+  COUNT(*) AS 'Tietueiden määrä',
+  GROUP_CONCAT(b.biblionumber SEPARATOR ', ') AS 'Tietueet',
+  GROUP_CONCAT(CONCAT_WS(' / ', b.title, b.author) SEPARATOR ' --- ') AS 'Nimekkeet',
+  GROUP_CONCAT(bi.isbn SEPARATOR ', ') AS 'ISBN',
+  GROUP_CONCAT(bi.ean SEPARATOR ', ') AS 'EAN',
+  CONCAT('<a href="/cgi-bin/koha/catalogue/search.pl?q=',
+    REPLACE(GROUP_CONCAT(CONCAT('biblionumber:', b.biblionumber) SEPARATOR ' OR '), ' ', '+'),
+    '" target="_blank">Hae tietueet</a>') AS 'Hae tietueet'
+FROM biblio_control_fields h
+JOIN biblio b ON h.biblionumber = b.biblionumber
+LEFT JOIN biblioitems bi ON h.biblionumber = bi.biblionumber
+WHERE h.`f001` <> '' AND h.`f003` <> ''
+GROUP BY h.`f001`, h.`f003`
+HAVING COUNT(*) > 1
+```
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
