@@ -40,7 +40,8 @@ Pohjoisesta etelään
 
 **Helle**
 * Ehdotus Vahva tunnistautuja -asiakastyypin asiakastiedon Kohassa käsittelyyn:
-Koha ilmoittamaan asiakastietoa tallentaessa asiakastyypin muutostarpeen, kun asiakastyyppinä on Vahva tunnistautuja. Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418)
+Koha ilmoittamaan asiakastietoa tallentaessa asiakastyypin muutostarpeen, kun asiakastyyppinä on Vahva tunnistautuja. 
+Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
