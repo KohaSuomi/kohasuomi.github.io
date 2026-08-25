@@ -144,28 +144,28 @@ Ryhmää voi kuvailla halutessaan, esim. mihin tarkoitukseen se on.
   - Toiminnossa on ongelmana, että nimekkeen perustiedot-näkymässä katoaa kokoelmat-taulukossa niteiden valinta-mahdollisuus, jolloin ei pysty viemään niteitä esim. erämuokkaukseen tai tarratulostukseen. Ei siis suositella käyttöön vielä.
 - Käytä verkkokirjaston hakuryhmille -> koskee Kohan omaa verkkokirjastoa, ei tarpeellinen
 - Käytä virkailijaliittymän hakuryhmille -> tällä ryhmän saa näkymään tiedonhaussa kirjasto-rajausten osiossa ja hakua voi tällöin rajata ryhmän kirjastoihin.
-- Paikallinen varausryhmä -> tätä toimintoa hyödynnetään mm. hyllyvarausraportilla määrittelemään ns. _poimintaryhmät_.
+- Paikallinen varausryhmä -> tätä toimintoa hyödynnetään mm. hyllyvarausraportilla määrittelemään ns. _poimintaryhmät_. [Ohje, kuinka poimintaryhmät saadaan käyttöön hyllyvarausraportille](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/#poimintaryhm%C3%A4t-hyllyvarausraportille).
 - Paikallinen kellutusryhmä -> tällä voi määrittää ryhmään kuuluvien kirjastojen kaiken aineiston kellumaan ryhmään kuuluvissa kirjastoissa.
 
 ## 3. Nidetyypit
 
-Jotta mitään voisi lainata, pitää määritellä nidetyypit, koska laina- ja maksusäännöt perustuvat niihin. Nidetypit kuvaavat teoksen laina-aikaa ja myöhästymismaksuja, jotka perustuvat kimpan/kirjaston käyttösääntöihin, joten jokaisella Koha-kimpalla on hieman erilaiset nidetyypit. Toki yhteneväisyyttäkin on. Yleisiä nidetyyppejä on mm. "28 vrk" tai "28 vrk lastenaineisto".
+Jotta mitään voisi lainata, pitää määritellä nidetyypit, koska laina- ja maksusäännöt perustuvat niihin. Nidetypit kuvaavat teoksen laina-aikaa ja myöhästymismaksuja, jotka perustuvat kimpan/kirjaston käyttösääntöihin, joten jokaisella Koha-kimpalla on hieman erilaiset nidetyypit. Toki yhteneväisyyttäkin on. Tyypillisiä nidetyyppejä ovat mm. "28 vrk" tai "28 vrk lastenaineisto".
 
-Laina- ja maksusääntöjä voi tehdä kirjaston, asiakastyypin ja nidetyypin mukaan. Nidetyyppejä luodessa kannattaa siis miettiä, minkälaisia laina-aikoja ja myöhästymismaksuja tarvitsee olla, kuinka monta lainaa saa olla kerralla, tarviiko automaatilla tehdä lajitteluja nidetyypin (joka mäpätään sip-materiaalityypiksi), tarvitseeko pystyä tekemään nidevarauksia.
+Laina- ja maksusääntöjä voi tehdä kirjaston, asiakastyypin ja nidetyypin mukaan. Nidetyyppejä luodessa kannattaa siis miettiä mm., minkälaisia laina-aikoja ja myöhästymismaksuja tarvitsee olla, kuinka monta lainaa saa olla kerralla, tarviiko automaatilla tehdä lajitteluja nidetyypin (joka mäpätään sip-materiaalityypiksi), tarvitseeko pystyä tekemään nidevarauksia.
 
 **Alla esimerkkinä OUTI-kirjastojen nidetyypit:**
 Nidetyypin kuvaus | Nidetyypin tunnus | Selite
 ---|---|---
-14 vrk - AV	| 14VRK |AV-aineistolle, joissa laina-aika on 14 vrk
+14 vrk - AV	| 14VRK |AV-aineistolle, joissa laina-aika on 14 vrk.
 14 vrk - 2 lainaa |	14VRK2LA | Konsolipeleille, joissa laina-aika on sama kuin muulla AV-aineistolla, mutta lainamäärä on rajoitettu kahteen
 14 vrk - 40 snt/pv |	14VRK40SNT | Lyhytlainoille, joilla laina-aika on 14 vrk, mutta päivittäinen myöhästymismaksu on korkeampi kuin AV-aineistolla
 14 vrk - LN - AV	| 14VRKLN | Lasten AV-aineisto, jolla laina-aika 14 vrk. Lastenaineistosta ei mene päiväkohtaista myöhästymismaksua, joten sitä varten tarvitaan oma nidetyyppi
-14 vrk - LN - 2 lainaa |	14VRKLN2LA | Lasten konsolipeleille. Muuten sama kuin yllä oleva vastaava, mutta ei mene päiväkohtaista myöhästymismaksua
+14 vrk - LN - 2 lainaa |	14VRKLN2LA | Lasten konsolipeleille. Muuten sama kuin yllä oleva vastaava "aikuisten" nidetyyppi, mutta ei mene päiväkohtaista myöhästymismaksua
 28 vrk | 28VRK | Yleisin nidetyyppi, jolle on määritetty laina-ajaksi 28 vrk ja myöhästymismaksuksi 15 snt/pv. Nidevaraukset eivät sallittuja verkkokirjastossa.
 28 vrk - AV |	28VRKAV  | AV-aineistolle, joissa laina-aika on 28 vrk. Nämä pitää saada palautusautomaatilla lajiteltua muusta 28 vrk-materiaalista erilleen, minkä vuoksi oma nidetyyppi
 28 vrk - Lehti	|  28VRKLEHTI | Aikuisten lehdille. Näille pitää pystyä tekemään nidevarauksia verkkokirjastossa, minkä vuoksi oma nidetyyppi
 28 vrk - LN	| 28VRKLN | Lasten aineisto yleislaina-aika. Näistä ei saa mennä päiväkohtaista myöhästymismaksua, minkä vuoksi erillinen nidetyyppi 28 vrk:sta
-28 vrk - LN - AV	| 28VRKLNAV | Lasten aineiston 28 vrk:n AV-aineiston nidetyyppi, joista ei saa mennä päiväkohtaista myöhästymismaksua
+28 vrk - LN - AV	| 28VRKLNAV | Lasten aineiston 28 vrk:n AV-aineiston nidetyyppi, joista ei saa mennä päiväkohtaista myöhästymismaksua ja aineisto pitää saada lajiteltua automaateilla erikseen yleisestä 28 vrk:n materiaalista.
 28 vrk - LN - Lehti	| 28VRKLNLEH | Lasten lehtiaineistolle oma nidetyyppi, koska ei saa mennä päiväkohtaista myöhästymismaksua ja pitää pystyä tekemään nidevarauksia verkkokirjastossa
 7 vrk - 1 laina	| 7VRK1LA | Pikalainat/Sarjakortit, joilla laina-aika 7 vrk, lainamäärä 1 kpl ja myöhästymismaksu 40 snt/pv
 Ei lainata	| EILAINATA | Ei lainattavan materiaalin nidetyyppi, joille määritetty lainamääräksi 0
@@ -173,11 +173,11 @@ Oppimateriaalipalvelut | OPPIMATER | Oulun koulukirjaston Oppimateriaalipalveluj
 
 ### 3.1 Uusi nidetyyppi
 
-<img src="/assets/files/docs/Asetukset/nidetyyppi1.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
-<img src="/assets/files/docs/Asetukset/nidetyyppi2.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
-<img src="/assets/files/docs/Asetukset/nidetyyppi3.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/nidetyyppi1.png" title="Nidetyypin lisäyslomake" alt="Kuvakaappaus nidetyypin lisäyslomakkeesta jatkuu" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/nidetyyppi2.png" title="Nidetyypin lisäyslomake" alt="Kuvakaappaus nidetyypin lisäyslomakkeesta jatkuu" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/nidetyyppi3.png" title="Nidetyypin lisäyslomake" alt="Kuvakaappaus nidetyypin lisäyslomakkeesta jatkuu" style="width:90.0%" />
 
-* **Nidetyyppi**: Nidetyypin tunniste, esim. 28VRK.
+* **Nidetyyppi**: Nidetyypin tunniste, esim. 28VRK. Käytä vain kirjaimia A-Z ja numeroita 0-9. Älä käytä ääkkösiä tai erikoismerkkejä kuten - tai _ tai /.
 * **Emonidetyyppi**: Emonidetyypin määrittäminen ottaa käyttöön myös tälle nidetyypille emonidetyypille määritetyt laina- ja maksusäännöt.
 * **Kuvaus**: Selkokielinen selite nidetyypille.
 * **Hakutyyppi**: Asetuksella voi ryhmitellä nidetyyppejä. Vaihtoehdot on määritelty auktorisoidun arvon mukaan ITEMTYPECAT.
