@@ -154,6 +154,7 @@ Jotta mitään voisi lainata, pitää määritellä nidetyypit, koska laina- ja 
 Laina- ja maksusääntöjä voi tehdä kirjaston, asiakastyypin ja nidetyypin mukaan. Nidetyyppejä luodessa kannattaa siis miettiä mm., minkälaisia laina-aikoja ja myöhästymismaksuja tarvitsee olla, kuinka monta lainaa saa olla kerralla, tarviiko automaatilla tehdä lajitteluja nidetyypin (joka mäpätään sip-materiaalityypiksi), tarvitseeko pystyä tekemään nidevarauksia.
 
 **Alla esimerkkinä OUTI-kirjastojen nidetyypit:**
+
 Nidetyypin kuvaus | Nidetyypin tunnus | Selite
 ---|---|---
 14 vrk - AV	| 14VRK |AV-aineistolle, joissa laina-aika on 14 vrk.
