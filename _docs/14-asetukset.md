@@ -510,7 +510,7 @@ Valitse _Kyllä_ näille asiakastyypeille: VIRKAILIJA, AUTOM, API
 
 Muille asiakastyypeille valitaan _Ei_.
 
-Toimintoon liittyy myös järjestelmäasetus _ClearPermissionsAutomatically_, joka poistaa automaattisesti käyttäjäoikeudet sellaisilta asiakkailta/käyttäjiltä, joiden asiakastyyppi vaihdetaan sellaiseksi, jolle ei ole käyttäjäoikeudet sallittu.
+Toimintoon liittyy myös järjestelmäasetus _ClearPermissionsAutomatically_, joka poistaa automaattisesti käyttäjäoikeudet sellaisilta asiakkailta/käyttäjiltä, joiden asiakastyyppi vaihdetaan sellaiseksi, jolle ei ole käyttäjäoikeudet sallittu. Jos tämä asetus laitetaan päälle ja käyttäjä vaihtaa asiakkaan asiakastyyppiä, saa käyttäjä asiakasta tallennettaessa ilmoituksen, että asiakastyyppiä ollaan vaihtamassa sellaiseen, jolla käyttäjäoikeudet eivät ole sallittuja ja käyttäjäoikeudet poistetaan.
 
 **Viestien oletusasetukset tälle asiakastyypille**
 
