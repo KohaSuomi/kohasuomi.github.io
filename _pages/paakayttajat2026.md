@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
@@ -33,6 +33,10 @@ Pohjoisesta etelään
 
 **Vaski**
 * Ei mitään mainittavaa
+
+**Lumme**
+* AO-kentän tyhjänä lähtemisen syy on saatu selvitettyä ja korjattua.
+* Ei muuta mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
