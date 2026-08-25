@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
@@ -30,6 +30,9 @@ Läsnä:
 * [Koha-seminaarin ohjelma julkaistu ja ilmoittautuminen aukaistu](https://github.com/KohaSuomi/Koha/discussions/2454). Viimeinen ilmoittautumispäivä 6.9.2026. Tervetuloa Ouluun! :)
 
 Pohjoisesta etelään
+
+**Vaski**
+* Ei mitään mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
