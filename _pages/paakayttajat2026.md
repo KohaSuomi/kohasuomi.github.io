@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
@@ -42,6 +42,9 @@ Pohjoisesta etelään
 * Ehdotus Vahva tunnistautuja -asiakastyypin asiakastiedon Kohassa käsittelyyn:
 Koha ilmoittamaan asiakastietoa tallentaessa asiakastyypin muutostarpeen, kun asiakastyyppinä on Vahva tunnistautuja. 
 Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418)
+
+**Kirkes**
+* Mäntsälässä pohdittu lukudiplomisovelluksen tekemistä. Suunnitteilla json-muotoinen raportti nidetunnuksista ja biblionumbereista, jota sovellus käyttäisi toimiakseen. Todettiin että mitään estettä tällaisen toteuttamiselle ei ole, jos tekijä haluaa sovellusta ja raporttia itse ylläpitää. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
