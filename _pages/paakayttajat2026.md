@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
