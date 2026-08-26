@@ -10,10 +10,23 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 36
+
+Aika: Ti 1.9.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [biblio_control_fields-taulun päivitysväliksi](https://github.com/KohaSuomi/Koha/issues/2431) on muutettu 15 minuuttia Kuvailuryhmän kokouksessa tulleen ehdotuksen mukaisesti
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
+
+
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
