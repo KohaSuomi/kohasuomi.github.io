@@ -49,6 +49,10 @@ Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröitymin
 **Lastu**
 * Kaukolainamoduuliin kaivattu mahdollisuutta hakea tilauksia lähettävän kirjaston mukaan, pohdittiin tarvetta tehdä tiketti yhteisöön. Lopulta päädyttiin kokeilemaan tämän toteuttamista raportin avulla.
 
+**OUTI**
+* Oulun kaupunginkirjastolle kaukolainan uusintapyynnöille ja tilauksille tehtiin automaattiset kuittausviestit.Määrittelimme Power Automatessa mihin tietoihin kaukolainapyynnössä ja -uusintapyynnössä automatio nappaa kiinni, minkä tiedon perusteella kuittausviesti lähtee asiakkkaalle ja minkälaisen viestin asiakas saa.Muille OUTI-kunnille olen lupautunut tekemään tarvittaessa ohjee, jos kirjastoissa kiinnostaa laittaa samanlainen kuittausviestiautomaatio päälle.
+* Muutoin normaalia ylläpitoa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 34
