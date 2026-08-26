@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
@@ -45,6 +45,9 @@ Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröitymin
 
 **Kirkes**
 * Mäntsälässä pohdittu lukudiplomisovelluksen tekemistä. Suunnitteilla json-muotoinen raportti nidetunnuksista ja biblionumbereista, jota sovellus käyttäisi toimiakseen. Todettiin että mitään estettä tällaisen toteuttamiselle ei ole, jos tekijä haluaa sovellusta ja raporttia itse ylläpitää. 
+
+**Lastu**
+* Kaukolainamoduuliin kaivattu mahdollisuutta hakea tilauksia lähettävän kirjaston mukaan, pohdittiin tarvetta tehdä tiketti yhteisöön. Lopulta päädyttiin kokeilemaan tämän toteuttamista raportin avulla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
