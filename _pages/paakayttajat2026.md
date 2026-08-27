@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 35
 
 Aika: Ti 25.8.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Iina Niemi (Vaski), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/2462)
@@ -65,6 +65,9 @@ Ehdotus nyt tiketissä [Vahvalla tunnistautumisella asiakkaaksi rekisteröitymin
 **OUTI**
 * Oulun kaupunginkirjastolle kaukolainan uusintapyynnöille ja tilauksille tehtiin automaattiset kuittausviestit.Määrittelimme Power Automatessa mihin tietoihin kaukolainapyynnössä ja -uusintapyynnössä automatio nappaa kiinni, minkä tiedon perusteella kuittausviesti lähtee asiakkkaalle ja minkälaisen viestin asiakas saa.Muille OUTI-kunnille olen lupautunut tekemään tarvittaessa ohjee, jos kirjastoissa kiinnostaa laittaa samanlainen kuittausviestiautomaatio päälle.
 * Muutoin normaalia ylläpitoa.
+
+**Vaara**
+* Ei mitään mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
