@@ -132,6 +132,8 @@ $(document).ready(function() {
       const maxAttempts = 20; // Prevent infinite loops
       const currentCount = $('input[name="custom_key"]').length;
 
+      $('button.delete-new-field').attr('type', 'button');
+      
       if (currentCount >= targetCount) {
         // Set the values once we have enough fields
         if ($('input[name="custom_key"]').eq(0).val().trim() == "")
