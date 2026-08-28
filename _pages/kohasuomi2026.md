@@ -13,6 +13,67 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 36
+
+Aika: Ma 31.8.2026 klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 36 päivitys
+
+### Viikolla 35 tehtyä
+
+#### Anneli
+
+##### Vikojen selvittely ja testaus
+
+- Tutkittu Vaskin raportoima ongelma: uudella hyllyvarausraportin skriptillä hyllyvarauslistalla näkyy vain ensimmäinen nidevaraus ([Tiketti #2259](https://github.com/KohaSuomi/Koha/issues/2259#issuecomment-5369856455))
+- Tutkittu kaukolainan lisäyslomakkeen lisäkenttien katoamisongelmaa, kun kirjastokortin lukee viivakoodilukijalla ([Tiketti #2466](https://github.com/KohaSuomi/Koha/issues/2466))
+- Testattu emottomat osakohteet -raportin nimekehakuun tehtyä muutosta ([Tiketti #1739](https://github.com/KohaSuomi/Koha/issues/1739))
+- Tutkittu tieteellisten järjestelmässä ilmennyttä Koha-Suomen käytössä ollutta vanhaa items.paidfor-sarakkeen ilmestymistä heille. Sarake esti tietueiden haravoitumisen Finnaan. Kenttä oli tullut mukaan jostain heidän käyttämästään kuvailupohjasta, Koha-Suomella sitä ei ollut enää useampaan vuoteen ja se on poistettu tietokannasta ja kuvailupohjista.
+
+##### Muutosten toteutus
+
+- Lisätty Tätin tietuenäyttöjen mukautuksiin Liittyvä nimeke -rimpsut pyynnön mukaisesti ([Tiketti #2284](https://github.com/KohaSuomi/Koha/issues/2284#issuecomment-5369884052))
+- Lisätty Raporttikirjastoon Jaetun kuvailutietokannan siivouksiin liittyviä raportteja
+- Viety Kohan ruotsinkieliset käännökset Githubiin ja lisätty mukaan seuraavaan päivitykseen
+- Kerätty liitännäisten käännöksiä suljetuista käännöstiketeistä ja avattu tikettejä uudelleen
+
+##### Päivitykset ja julkaisut
+
+- Tehty ja julkaistu viikon 35 päivitystiedote ([Tiedote](https://github.com/KohaSuomi/Koha/discussions/2462))
+- Muutettu päivityksessä mukana olleiden tikettien tilaksi "Ratkaisu ehdotettu"
+- Asetukset-dokumentaation päivitystyötä
+
+##### Kyselyt ja palautekeruu
+
+- Kysytty pääkäyttäjiltä mielipiteitä kaukopalvelun tekstimuutosehdotuksesta ([Tiketti #2437](https://github.com/KohaSuomi/Koha/issues/2437))
+- Kysytty tiketissä, onko tarvetta päivittää Kohan ohjetta suomeksi tiketissä tehtyjen muutosten vuoksi ([Tiketti #2075](https://github.com/KohaSuomi/Koha/issues/2075))
+- Kysytty Koha-seminaarin esittelijöiltä, voiko heidän osuutensa striimata ja tallentaa, jos striimaus päätetään järjestää.
+
+##### Palaverit ja yhteistyö
+
+- Osallistuttu pääkäyttäjäpalaveriin
+- Osallistuttu kuvailuryhmän kokoukseen
+- Osallistuttu tieteellisten palaveriin
+- Osallistuttu ruotsin käännösryhmän palaveriin, jossa käyty läpi uudet käännökset ja liitännäisten käännökset
+
+
+##### Hallinnolliset tehtävät
+
+- Tehty tilavarauksia Keskustakirjasto Saareen Koha-Suomelle 16.9.2026
+- Luettu ja ajantasaistettu Mattermostin ja Slackin keskusteluja
+- Päivitetty ja lähetetty Elementin/Matrixin liittymisohjeita kuvailuryhmälle
+
+
+##### Tikettien hallinta
+
+- Käyty läpi avoimia tikettejä ja päivitetty niiden tiloja
+
+
 ## Viikko 35
 
 Aika: Ma 24.8.2026 klo 9<br/>
