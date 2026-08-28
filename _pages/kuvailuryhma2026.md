@@ -11,7 +11,7 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 
 ## Kuvailuryhmän muistio 6/2026 ##
 
-Aika: 20.5.2026 klo 13.15-14.37
+Aika: 26.8.2026 klo 13.15–14.30
 
 Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi), Raisa Laitala (OUTI, kohta 2)
 
@@ -56,7 +56,7 @@ Raportit päivittyvät tällä hetkellä tunnin välein. Keskusteltiin raporttie
 
 #### 4.	Kirjastopalvelun tietueiden automaattinen siirtäminen TäTistä Melindaan ####
 
-Kesän aikana ajettiin muutama testikierros, ongelmana on vielä 546- ja 588-kenttien tuplaantuminen mm. elokuvissa ja peleissä. Seuraava Koha-Suomi-Melinda-tilannepalaveri on 10.9. Toiminto voidaan toivottavasti sen jälkeen ottaa jo käyttöön.
+Kesän aikana ajettiin muutama testikierros. Ongelmana on vielä 546- ja 588-kenttien tuplaantuminen mm. elokuvissa ja peleissä. Seuraava Koha-Suomi-Melinda-tilannepalaveri on 10.9. Toiminto voidaan toivottavasti sen jälkeen ottaa jo käyttöön.
 
 Kun automaattinen siirtäminen on käytössä, Kirjastopalvelun korjaukset eivät välttämättä enää siirry tietueisiin. Ero 338-kentässä, nimeketiedoissa ym. estää Kirjastopalvelun tietueen siirtymisen Melindaan. Täytyy suunnitella uusi toimintamalli sen varmistamiseksi, että korjaukset saadaan TäTiin, paikalliskantoihin ja Melindaan. Joudumme ehkä ottamaan käyttöön kiertävän vuoron Kirjastopalvelun korjausten tarkistamisessa. Antti palaa tähän 10.9. tilannepalaverin jälkeen.
 
@@ -87,7 +87,7 @@ Keskusteltiin uudesta fasetista. Fasetti perustuu 490-kenttään, joten varsinki
 
 #### 8.	Seuraavat kokoukset ####
 
-Keskiviikot 23.9., 11.11  ja 9.12. klo 13.15-14.45
+Keskiviikot 23.9., 11.11. ja 9.12. klo 13.15-14.45
 
 
 ---
