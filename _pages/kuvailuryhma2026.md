@@ -9,6 +9,88 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 6/2026 ##
+
+Aika: 20.5.2026 klo 13.15-14.37
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi), Raisa Laitala (OUTI, kohta 2)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Valittiin sihteeriksi Anna Viitanen.
+
+#### 2.	Kohti yhteistä metatietoa -hanke ####
+
+Oulun kaupunginkirjaston vetämä ”Kohti yhteistä metatietoa – kuvailun tulevaisuus rakennetaan yhdessä” -hanke on alkanut. Raisa Laitala esitteli hanketta.
+Hankkeen tavoitteena on kehittää yleisten kirjastojen kuvailutyön organisointia valtakunnallisesti siten, että päällekkäinen työ vähenee ja resurssien käyttö tehostuu. Tavoitteena on luoda malli, jossa kuvailutyötä keskitetään tarkoituksenmukaisesti, ottaen huomioon eri kirjastokimppojen nykyiset käytännöt, kuvailun laatuvaatimukset sekä erikokoisten kirjastojen tarpeet. Hankkeessa mukana konsultoivina kumppaneina ovat seitsemän eri kirjastokimppaa - Helle, Vaski, Lumme, Lastu, Vaara, OUTI ja Lappi.
+
+Hankkeessa työskentelee Oulun kaupunginkirjaston pitkäaikainen työntekijä Raisa Laitala. Raisa on toteuttanut useita kirjastoalan hankkeita, joissa on mm. kehitetty kirjaston digitaalisia palveluita ja rakennettu kimppojen välisiä yhteistyömalleja. Oulun kaupunginkirjaston alueellinen kirjastopalvelupäällikkö Minna Männikkö toimii hankkeen ohjausryhmän puheenjohtajana. Lisäksi hankkeen ohjausryhmässä ovat mukana Jouni Pääkkölä (Oulu), Antti Heikkinen (Oulu), Rebekka Pilppula (Turku) ja Niina Salmenkangas (Tampere/YKN). Hanke kestää 31.8.2027 asti.
+
+<p>Hankkeelle tarvitaan pieni työryhmä, joka edistää yhdessä projektikoordinaattorin kanssa hankkeen tavoitteiden saavuttamista. Tarvitaan muutama aktiivinen jäsen, jotka voivat akuuteissa vaiheissa käyttää hankkeeseen työaikaa jopa viikoittain. He osallistuvat erityisesti verkkokyselyn suunnitteluun, työpajojen suunnitteluun sekä niiden tulosten analysointiin ja toimintamallin suunnitteluun.</p>
+<ul>
+  <li>Työryhmän jäseniksi ilmoittautuivat Antti Heikkinen ja Anna Viitanen. Vähintään yhtä jäsentä kaivattaisiin vielä mukaan. Halukkaat voivat ilmoittautua ensi viikon aikana Raisalle. </li>
+</ul>
+<p>Lisäksi tarvitaan isompi työryhmä, jonka kautta kuullaan kuvailun asiantuntijoiden näkemyksiä ja vahvistetaan kohderyhmille viestintää. Ryhmään tarvitaan kuvailua työkseen tekevä jäsen jokaisesta Koha-Suomi-kirjastosta tai -kimpasta. Jäsenet toimivat viestinviejinä omille alueilleen, kommentoivat materiaaliluonnoksia ja toimivat hankkeen laajempana asiantuntijaryhmänä.</p>
+<ul>
+  <li>Todettiin, että Koha-Suomen kuvailuryhmä voi toimia työryhmänä. Lisäksi tarvitaan edustaja Siilinjärveltä. Mukaan on tulossa myös Saijamari Pakkala PIKI-kirjastoista. </li>
+</ul>
+
+#### 3.	Koha-Suomen yhteinen tietokanta ####
+
+Testitietokannat on yhdistetty (Vaskia ja OUTIa lukuun ottamatta) yhteen tietokantaan. Paikalliskannoissa ja TäTissä on korjattava tietueet, joissa on 001+003-kenttien päällekkäisyyksiä. Antti on lähettänyt aikaisemmin ohjeita korjausten tekemiseen. 
+
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2253" target="_blank">Jaetun kuvailutietovarannon muodostaminen testeille </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2306" target="_blank">001+003 kentissä päällekkäisyyksiä </a> -> Tietueet korjattava paikalliskannoissa </li>
+  <li>Muita raportteja: </li>
+	<ul>
+    <li><a href="https://github.com/KohaSuomi/Koha/issues/2372" target="_blank">Tietueet, joissa on tyhjä 003-kenttä </a> </li>
+    <li><a href="https://github.com/KohaSuomi/Koha/issues/2373" target="_blank">Tietueet, joissa on 001- tai 003-kentissä alussa tai lopussa ylimääräisiä välilyöntejä </a> </li>
+    <li><a href="https://github.com/KohaSuomi/Koha/issues/2380" target="_blank">Raportti tuplaosakohdetietueista, joissa on sama 001+003-yhdistelmä </a> </li>
+	</ul>
+</ul>
+
+Raportit päivittyvät tällä hetkellä tunnin välein. Keskusteltiin raporttien päivittymisnopeudesta. Toivottiin, että päivittyminen tapahtuisi 15 minuutin välein. Anneli vie asiaa eteenpäin. [Lisäys 28.8.: Päivitys tapahtuu nyt 15 minuutin välein.]
+
+#### 4.	Kirjastopalvelun tietueiden automaattinen siirtäminen TäTistä Melindaan ####
+
+Kesän aikana ajettiin muutama testikierros, ongelmana on vielä 546- ja 588-kenttien tuplaantuminen mm. elokuvissa ja peleissä. Seuraava Koha-Suomi-Melinda-tilannepalaveri on 10.9. Toiminto voidaan toivottavasti sen jälkeen ottaa jo käyttöön.
+
+Kun automaattinen siirtäminen on käytössä, Kirjastopalvelun korjaukset eivät välttämättä enää siirry tietueisiin. Ero 338-kentässä, nimeketiedoissa ym. estää Kirjastopalvelun tietueen siirtymisen Melindaan. Täytyy suunnitella uusi toimintamalli sen varmistamiseksi, että korjaukset saadaan TäTiin, paikalliskantoihin ja Melindaan. Joudumme ehkä ottamaan käyttöön kiertävän vuoron Kirjastopalvelun korjausten tarkistamisessa. Antti palaa tähän 10.9. tilannepalaverin jälkeen.
+
+#### 5.	Finnan uusi Sarjan osat -välilehti ####
+
+Keskusteltiin uudesta fasetista. Fasetti perustuu 490-kenttään, joten varsinkin vanhoissa tietueissa se toimii epäluotettavasti. Lisätietoa täällä: <a href="https://www.kiwi.fi/spaces/Finna/pages/564166961/Sarjan+osat+-v%C3%A4lilehti+ja+sarja-avain" target="_blank">Finna: Sarjan osat -välilehti ja sarja-avain </a>
+<ul>
+  <li><b>Helle:</b> Asiakaspalautetta ei ole saatu, mutta ongelmia luultavasti on. </li>
+  <li><b>Lappi:</b> On käytössä, muttei toistaiseksi erityisiä havaintoja/palautetta. </li>
+  <li><b>OUTI:</b> Huomattu numerointiin (arabialaiset vs. roomalaiset) liittyviä ongelmia, kaikki sarjojen osat eivät mukana fasetissa. </li>
+  <li><b>Vaski:</b> Toistaiseksi tutkittu vasta testinäkymässä. Käyttöönotto vielä harkinnassa, asiakkaan kannalta eniten ongelmia tulisivat aiheuttamaan muut kuin suomenkieliset sarjat. </li>
+</ul>
+
+#### 6.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta </a> -> Nalkutin toimii nyt oikein. Sitä voi testata paikalliskantojen ja TäTin nexteillä. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1739" target="_blank">Säännöllisesti kimpoille toimitettava raportti emottomista osakohteista </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2218" target="_blank">800-kenttä perustiedot-näytöllä </a> -> Kallisen Pasi yrittää vuorostaan ratkaista ongelmaa. </li>
+</ul>
+
+#### 7.	Muita asioita ####
+<ul>
+  <li>Koha-seminaari Oulussa 17.–18.9. (perjantaina ohjelmassa mm. BIBFRAME ja KaTi). Etäosallistumismahdollisuudesta näihin ei ole vielä tietoa. </li>
+  <li>BIBFRAME Kohassa -> Koha-Suomi ja Kansalliskirjasto työstävät yhdessä eteenpäin: <a href="https://github.com/KohaSuomi/koha-plugin-bibframe-manager/blob/main/README.md" target="_blank">Koha-Suomi Plugin: Bibframe Manager </a> </li>
+  <li>Oulun Teamsin kaksivaiheinen tunnistautuminen aiheuttaa ongelmia. Osa kuvailijoista ei nyt pääse seuraamaan viestintää. Vaikuttaa siltä, että tarvitaan uusi vaihtoehto tietuekorjauksia koskevia yms. viestejä varten. Selvitetään sopisiko Matrix tähän tarkoitukseen. </li>
+  <li>Kumea kaipaa kommentteja RDA-sovellusohjeiden käyttöön liittyvistä ongelmista. Jos mieleenne tulee esim. tapauksia, jossa etsimänne ohjeen löytämisessä on ollut vaikeuksia, kertokaa niistä Annalle (mielellään viimeistään 1.9.).</li>
+</ul>
+
+#### 8.	Seuraavat kokoukset ####
+
+Keskiviikot 23.9., 11.11  ja 9.12. klo 13.15-14.45
+
+
+---
 ## Kuvailuryhmän muistio 5/2026 ##
 
 Aika: 20.5.2026 klo 13.15-14.37
