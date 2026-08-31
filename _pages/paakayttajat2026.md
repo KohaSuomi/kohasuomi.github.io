@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [biblio_control_fields-taulun päivitysväliksi](https://github.com/KohaSuomi/Koha/issues/2431) on muutettu 15 minuuttia Kuvailuryhmän kokouksessa tulleen ehdotuksen mukaisesti
+* Aikaisempi asiakasvarmenne vanhenee ensi viikolla. Kannattanee muistutella viimeisiäkin vaihtamaan käyttöön uusi varmenne.
 
 Etelästä pohjoiseen
 
