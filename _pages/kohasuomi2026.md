@@ -74,6 +74,19 @@ Läsnä:
 - Käyty läpi avoimia tikettejä ja päivitetty niiden tiloja
 
 
+#### Kodo
+
+- [Koha#2469 Nide ja tietue poistettu Kohasta, silti näkyy Finnassa](https://github.com/KohaSuomi/Koha/issues/2469); Korjataan olemalla yhteydessä Finna-toimistoon, Finna-indeksit ovat kansalliskirjaston hallinnassa eikä meillä ole keinoja auditoida ja korjata Finna-indeksejä. OAIn toiminta tarkistettu ja se toimii oikein. Tiketti suljettu.
+- [Koha#2465 Vaaran tietopyyntö: PIN-koodin pituus](https://github.com/KohaSuomi/Koha/issues/2465); Vaaraan tullut tietopyyntö PIN-koodin maksimipituudesta. PIN-koodit tallennetaan vakiomittaisina suolattuina tiivisteinä, varsinainen salasana ei ole tallennettuna. PIN-koodin tai salasanan pituudelle ei ole järjestelmän pakottamaa teknistä ylärajaa. Tiketti suljettu.
+- [Koha#2464 Ovikoneet "spämmäävät" Item Information Requesteja](https://github.com/KohaSuomi/Koha/issues/2464);  Lähtevien pyyntöjen määrää ei ole nykyiseessä ohjelmistossa mahdollista rajoittaa, mutta laitevalmistaja lupaa ohjelmistokorjauksen, aikataulu selvinnee ensi viikolla. 
+- [koha-suomi-utility#148 SIPoHTTP integraatio-ohje](https://github.com/KohaSuomi/koha-suomi-utility/issues/148); SIPoHTTP tarvitsee ulospäin jaeltavan integraatio-ohjeen. Ohje luotu, yhdistetty vanhemman ohjeen kanssa ja siirretty julkiseen wikiin. Ohjeistusta täydennetty. Seuraavaksi täydennetään vielä OAI:n osalta.
+- [koha-suomi-utility#147 TLS 1.3 protokolla lähettäminen palvelimelta](https://github.com/KohaSuomi/koha-suomi-utility/issues/147); Suomi.fi-viestit alkaa hyväksymään vain TLS 1.3 protokollan requesteja. Molemmat suunnat käyttävät TLSv1.3, ei vaadi muutoksia.
+- [Koha#2431 Biblio\_control\_fields -taulun päivitys](https://github.com/KohaSuomi/Koha/issues/2431); Taulun päivitysväliä tihennetty kuvailuryhmän toivomuksen mukaisesti 15 minuuttiin. Tiketti suljettu.
+- [Koha#2370 Task scheduler -toiminnon käyttö raporteissa](https://github.com/KohaSuomi/Koha/issues/2370); Ei voida toteuttaa turvallisesti ja luotettavasti. Task Schedulerissä on suhteellisen hiljattain ollut mm. Remote Code Execution-haavoittuvuus ja siinä on ilmeinen SQL-injektioriski. Seuraavaksi: Keskustelua pääkäyttäjäpalaverissa tarpeesta cronin kautta ajettavalle raportille.
+- [Koha#2358 SIP-sanomista puuttuvat AO-kentät](https://github.com/KohaSuomi/Koha/issues/2358); Useasta kimpasta tulee SIP-sanomia, joista puuttuu AO-kenttä. Suurin osa kimpoista kunnossa. Vaaraan ja Vaskiin AO:ttomia vielä tulee.
+- [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829); RSA1 disabloitu uusissa OpenSSH-versioissa jo yli vuosi sitten, koska se käyttää haavoittuvaa SHA1-algoritmia. Meillä RSA1 on vielä EDItX:lle sallittu, koska on annettu aineistontoimittajille aikaa uusia avaimensa. Storia, Woima ja Puppe kunnossa. Kirjastopalvelua odotetaan edelleen. RSA1-tuki poistetaan syyskuun loppuun mennessä, josta varoitettu Kirjastopalvelua.
+- [Koha#746 Nideryhmät-toiminnon kehittäminen ja käyttöönotto](https://github.com/KohaSuomi/Koha/issues/746); Vaskissa testattu EnableItemGroupHolds. Asia on Finna-työpajassa käsiteltävien listalla. Nostetaan asia esille kansalliskirjaston Koha-tiimin kanssa Koha-Seminaarissa Oulussa.
+
 ## Viikko 35
 
 Aika: Ma 24.8.2026 klo 9<br/>
