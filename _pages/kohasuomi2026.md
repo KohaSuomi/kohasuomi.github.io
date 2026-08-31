@@ -26,6 +26,23 @@ Läsnä:
 
 ### Viikolla 35 tehtyä
 
+#### Johanna
+
+* [Lainaus-välilehdelle huomautus ettei tyhjä asiakashaku ole mahdollista](https://github.com/KohaSuomi/Koha/issues/2075): Kommentoitu: selaimen valkoinen varoitus tulee automaattisesti, kun kenttä on määritelty pakolliseksi html-tasolla, ja se käyttää selaimen kieltä Kohan kielen sijaan. Mustat varoitukset on tehty JavaScriptillä. Ratkaisu katsottu toimivaksi; jos yhteisöstä tulee muutoksia, ne otetaan käyttöön.
+* [Epäonnistuneiden taustatöiden säilytysaika ja lisäys siivousajoon päätöksen mukaisesti](https://github.com/KohaSuomi/Koha/issues/2408): Tiketti vastuutettu eteenpäin ja asian käsittely jatkuu.
+* [Nidepakettiin liitetyille niteille kertymään lainaustilastot](https://github.com/KohaSuomi/Koha/issues/2416): Tiketti vastuutettu eteenpäin ja asian käsittely jatkuu.
+* [Palauta-nappi melkein kadonnut tietueen muutoslokilta](https://github.com/KohaSuomi/Koha/issues/2450): Vastuutettu. Selvitetty, että lastun next-ympäristössä Tietuesiirtäjä on disabled-tilassa, minkä takia nappi ei näy.
+* [Kokeillaan, saako Kansalliskirjaston EDItX-liitännäisen mergettyä meidän liitännäisen kanssa](https://github.com/KohaSuomi/koha-plugin-editx/issues/15): Vastuutettu. Kommentoitu testaushuomioita outi-nextiltä.
+* [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39): Vastuutettu Johanna ja Olmih02.
+* [Salasanan automaattinen uusiminen](https://github.com/KohaSuomi/koha-suomi-messaging/issues/5): Vastuutettu. Toimintoa koottu; loput on tarkoitus laittaa maanantaina.
+* [Kahden kloonin tuki prod/test-ympäristöille](https://github.com/KohaSuomi/koha-suomi-utility/issues/125): Tiketti suljettu.
+* [TLS 1.3 protokolla lähettäminen palvelimelta.](https://github.com/KohaSuomi/koha-suomi-utility/issues/147): Tiketti vastuutettu eteenpäin ja asia käsitelty.
+* koha-plugin-editx: ks25-v2-haaraan lisätty päivityssuunnitelma, epäonnistuneet edifact_messages -viestit mukaan notify-skriptiin sekä breadcrumbs- ja tyylimuutoksia.
+* koha-plugin-print-pdf-notices: ks25-haaraan korjattu peruutus-/uudelleenlähetys-toimintojen kilpailutilanne; peruutettaessa viestit haetaan uudelleen (KOHA-2221).
+* Koha-25x: ksdev/ks-0310-haaralla (bug 34460) korjattu henkilöstökategorian tarkistus käyttämään data-typename-attribuuttia sekä tt-tiedoston käännöslauseiden syntaksi.
+* Koha-translations: ks25- ja ks25-v2-haaroihin korjattu po-tiedostojen sekainen järjestys, päivitetty default-flag ja yhdistelty haaroja.
+* Tehty Koha-seminaarin BIBFRAME-esitystä.
+
 #### Anneli
 
 ##### Vikojen selvittely ja testaus
