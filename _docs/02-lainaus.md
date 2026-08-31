@@ -34,7 +34,7 @@ Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikanäppäimet, jotka
 ## 2.1 Lainaus
 
 Hae asiakas lukemalla asiakkaan kirjastokortin viivakoodi jompaankumpaan
-*Lainaus*-kenttään. 
+*Lainaus*-kenttään.
 
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
