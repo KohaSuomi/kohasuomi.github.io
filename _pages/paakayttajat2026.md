@@ -16,6 +16,7 @@ Aika: Ti 1.9.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
 * [biblio_control_fields-taulun päivitysväliksi](https://github.com/KohaSuomi/Koha/issues/2431) on muutettu 15 minuuttia Kuvailuryhmän kokouksessa tulleen ehdotuksen mukaisesti
 * Aikaisempi asiakasvarmenne vanhenee ensi viikolla. Kannattanee muistutella viimeisiäkin vaihtamaan käyttöön uusi varmenne.
 
