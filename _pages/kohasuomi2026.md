@@ -16,13 +16,13 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 36
 
 Aika: Ma 31.8.2026 klo 9<br/>
-Läsnä:
+Läsnä: Ari, Anneli, Pasi, Emmi, Johanna, Lari, Olli, Kodo
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
 
 ### Muuta
-* Viikon 36 päivitys
+* [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
 
 ### Viikolla 35 tehtyä
 
