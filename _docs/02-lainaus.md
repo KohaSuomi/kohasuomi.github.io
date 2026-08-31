@@ -36,6 +36,8 @@ Joissakin kimpoissa on voitu ottaa käyttöön kirjainten pikanäppäimet, jotka
 Hae asiakas lukemalla asiakkaan kirjastokortin viivakoodi jompaankumpaan
 *Lainaus*-kenttään.
 
+Jos yrität tehdä haun ilman hakuehtoa eli yrität tehdä tyhjän asiakashaun, saat huomautuksen "Täytä tämä kenttä". Huomautuksen kieli perustuu selaimen kieleen, ei Kohan käyttöliittymässä valittuun kieleen. Joten jos selaimen kieli on suomi, näkyy huomautus myös suomeksi esim. englanninkielissessä Kohan käyttöliittymässä.
+
 ![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
 Tarkista, että olet asiakkaan tiedoissa Lainaus-sivulla. Lue lainattavan niteen viivakoodi Lainaus-kenttään.
