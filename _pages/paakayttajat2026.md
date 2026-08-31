@@ -19,6 +19,7 @@ Läsnä:
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
 * [biblio_control_fields-taulun päivitysväliksi](https://github.com/KohaSuomi/Koha/issues/2431) on muutettu 15 minuuttia Kuvailuryhmän kokouksessa tulleen ehdotuksen mukaisesti
 * Aikaisempi asiakasvarmenne vanhenee ensi viikolla. Kannattanee muistutella viimeisiäkin vaihtamaan käyttöön uusi varmenne.
+* [Tämä viikko aikaa ilmoittautua mukaan Koha-seminaariin](https://github.com/KohaSuomi/Koha/discussions/2454)
 
 Etelästä pohjoiseen
 
