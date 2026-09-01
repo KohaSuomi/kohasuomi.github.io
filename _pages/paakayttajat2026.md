@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
