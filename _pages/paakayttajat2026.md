@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -33,6 +33,8 @@ Etelästä pohjoiseen
 * Suomi.fi-viestit pyritään ottamaan käyttöön syksyn aikana, testailua aloitellaan.
 * Normaalia ylläpitoa.
 
+**Kirkes**
+* Kimpassa kiinnostusta myös ulkotiloihin tuleviin varausten noutoautomaatteihin, joita suunnitellaan ainakin Kotkaan ja Lappiin. Elina ilmoittautunut mukaan mahdolliseen työryhmään, joka miettii vaatimuksia aineistojen säilyttämiselle ulkotiloissa. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
