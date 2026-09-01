@@ -318,7 +318,7 @@ Pohjoisesta etelään
   
 **Helle**
 * Porvoon pääkirjaston lajitteleva palautusautomaatti poistettu käytöstä.
-* Lisötty 740-kentän näkyvyys [740-kenttä näkyviin Kuvaukset-välilehdelle](https://github.com/KohaSuomi/Koha/issues/2284)
+* Lisätty 740-kentän näkyvyys [740-kenttä näkyviin Kuvaukset-välilehdelle](https://github.com/KohaSuomi/Koha/issues/2284)
 * Asiakaskoneiden varausjärjestelmä Cloud 9 otetaan Porvoossa käyttöön 12.-13.8.2026 [Envisionwaren varausjärjestelmän Cloud 9 käyttöönotto](https://github.com/KohaSuomi/Koha/issues/1903)
 
 **Siilinjärvi**
