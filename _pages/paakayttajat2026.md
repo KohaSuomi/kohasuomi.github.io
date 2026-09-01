@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -22,6 +22,9 @@ Läsnä:
 * [Tämä viikko aikaa ilmoittautua mukaan Koha-seminaariin](https://github.com/KohaSuomi/Koha/discussions/2454)
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Kysyttiin olisiko kiinnostusta kehitysehdotukselle siitä, että sähköpostiin tulisi heräte kun tekstiviesti epäonnistuu (tietyin speksein). Kodo visioinut mahdollista cron-toteutusta tiketissä https://github.com/KohaSuomi/Koha/issues/2370. Kiinnostusta oli, joten Vaski tekee kehitysehdotustiketin asianatuntijaryhmän käsiteltäväksi.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
