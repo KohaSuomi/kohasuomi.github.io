@@ -24,11 +24,8 @@ Läsnä:
 
 ### Vahvasti asiakkaaksi rekisteröityminen
 
-Emmi kysynyt [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen #2418](https://github.com/KohaSuomi/Koha/issues/2418) -tiketissä:
 
-* Kuinka estetään tupla-asiakkuus?
-* FormBoxista voi vain hakea lomakkeiden tietoja, kuinka usein nämä haetaan?
-* Kuinka ilmaistaan asiakkaalle, että jotain meni pieleen, esim. hänellä on jo asiakkuus kirjastossa.
+
 
 ### Käsiteltävät kehitysehdotukset
 
