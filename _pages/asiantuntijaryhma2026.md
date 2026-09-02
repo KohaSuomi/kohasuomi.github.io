@@ -15,6 +15,28 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 8/2026
+
+Aika: Maanantai 21.9.2026 klo 9 <br />
+Läsnä:
+
+### Ajankohtaiset
+
+### Vahvasti asiakkaaksi rekisteröityminen
+
+Emmi kysynyt [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen #2418](https://github.com/KohaSuomi/Koha/issues/2418) -tiketissä:
+
+* Kuinka estetään tupla-asiakkuus?
+* FormBoxista voi vain hakea lomakkeiden tietoja, kuinka usein nämä haetaan?
+* Kuinka ilmaistaan asiakkaalle, että jotain meni pieleen, esim. hänellä on jo asiakkuus kirjastossa.
+
+### Käsiteltävät kehitysehdotukset
+
+### Muut asiat
+
+### Seuraava kokous
+
+
 ## Muistio 7/2026
 
 Aika: Torstai 20.8.2026 klo 9 <br />
