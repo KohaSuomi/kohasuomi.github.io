@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -34,7 +34,11 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa.
 
 **Kirkes**
-* Kimpassa kiinnostusta myös ulkotiloihin tuleviin varausten noutoautomaatteihin, joita suunnitellaan ainakin Kotkaan ja Lappiin. Elina ilmoittautunut mukaan mahdolliseen työryhmään, joka miettii vaatimuksia aineistojen säilyttämiselle ulkotiloissa. 
+* Kimpassa kiinnostusta myös ulkotiloihin tuleviin varausten noutoautomaatteihin, joita suunnitellaan ainakin Kotkaan ja Lappiin. Elina ilmoittautunut mukaan mahdolliseen työryhmään, joka miettii vaatimuksia aineistojen säilyttämiselle ulkotiloissa.
+
+**Siilinjärvi**
+* Uusi Peanuts Groupin kuntasovellus tullut sovelluskauppoihin ladattavaksi 21.8.
+* Muuten tavallista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
