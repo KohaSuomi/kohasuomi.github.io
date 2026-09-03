@@ -27,7 +27,7 @@ Pohjoisesta etelään
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -53,6 +53,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Uusi Peanuts Groupin kuntasovellus tullut sovelluskauppoihin ladattavaksi 21.8.
 * Muuten tavallista.
+
+**OUTI**
+* Normaalia ylläpitoa ja tukitöitä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
