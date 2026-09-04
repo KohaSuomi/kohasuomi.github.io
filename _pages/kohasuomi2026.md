@@ -40,6 +40,7 @@ Läsnä:
 - [Koha#2358 SIP-sanomista puuttuvat AO-kentät](https://github.com/KohaSuomi/Koha/issues/2358); Useasta kimpasta tulee SIP-sanomia, joista puuttuu AO-kenttä. Tarkistuslistat toimitettu kimppojen pääkäyttäjille. Tietyissä kimpoissa edelleen puutteita, selvittely ja korjaus jatkuu.
 - [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829); Kirjastopalvelun avain vaihdettu ja testattu. RSA1 voidaan poistaa käytöstä (avaan erillisen tiketin). Tiketti suljettu.
 - [Koha#2475 Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475); Syyskuun kuukausihuollossa asennetaan tietoturva- ja muut päivitykset kaikille palvelimille alkaen tietokantapalvelimista. Lisäksi optimoidaan starman workerien ja SIP2-palvelinforkkien määrää.
+- [Koha#2461 Kyyti/Kotkan pääkirjasto: Uuden toimittajan varaustennoutoautomaatin integroiminen Kohaan](https://github.com/KohaSuomi/Koha/issues/2461); Kotkaan tulossa syksyllä uuden toimittajan ulkoautomaatti varausten noutoa varten. Seuraavaksi: Aloituspalaveri laitevalmistajan kanssa 7.9. klo 12.00.
 
 ## Viikko 36
 
