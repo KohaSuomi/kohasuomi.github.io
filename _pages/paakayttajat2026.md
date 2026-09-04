@@ -22,6 +22,8 @@ Läsnä:
   * [Aineistotyypittömät tietueet, jotka eivät ole kaukolainoja](https://github.com/KohaSuomi/Koha/issues/2483#issuecomment-5540127154)
   * Voisiko kaikissa kimpoissa tarkistaa pikaisesti, ettei teillä ole aineistotyypittömiä tietueita ja korjata tyypittömät ensitilassa?
   * Tämä auttaa saamaan kannoista oikeampia tietoja [hankintadata-raporttia](https://github.com/KohaSuomi/Koha/issues/2483) / hanketta varten.
+* Uusi raportti: [Emottomat osakohteet](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#emottomat-osakohteet)
+  * Liittyy [tikettiin #1739](https://github.com/KohaSuomi/Koha/issues/1739)
 
 Pohjoisesta etelään
 
