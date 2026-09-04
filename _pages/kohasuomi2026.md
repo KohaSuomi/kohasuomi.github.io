@@ -13,6 +13,34 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 37
+
+Aika: Ma 7.9.2026 klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+
+### Viikolla 36 tehtyä
+
+#### Kodo
+
+- [koha-suomi-utility#156 Plack workermäärien ja SIP2 forkkien optimointi](https://github.com/KohaSuomi/koha-suomi-utility/issues/156); Plack workerien ja SIP2 palvelinforkkien määrät optimoidaan. Muutoksia testataan 3.-7.9. ja otetaan käyttöön syyskuun huollossa. Seuraavaksi: Toteutetaan suunnitellut konfiguraatiomuutokseti huollossa. Tiedotettu githubin discussionsissa.
+- [koha-suomi-utility#155 Vaski: SIP-palvelimen forkkien määrän kasvatus](https://github.com/KohaSuomi/koha-suomi-utility/issues/155); SIP-palvelimen sanomien kulun hitauden vuoksi Vaskin Plack workermäärää kasvatettiin. Workermäärät määritettiin sittemmin uusiksi kaikille kimpoille (ks #156). SIP-hitailun todennäköiseksi syyksi paljastui kuitenkin tiettyihin nimekkeisiin (esimerkiksi Satu Rämön Tinna) liittyvät pitkät varausjonot. Suositellaan että Vaski ottaa käyttöön real time holds queuen varausten täyttämisen nopeuttamiseksi.
+- [koha-suomi-utility#154 Starman kaatuilut](https://github.com/KohaSuomi/koha-suomi-utility/issues/154); Starman kaatuu satunnaisesti (hyvin harvoin, mutta joskus), jolloin Koha lakkaa vastaamasta. Korjataan muuttamalla starman systemd-unittia pakottamaan uudelleenkäynnistyksen kaatumistapauksissa. Muutos tehty ja testattavana.
+- [koha-suomi-utility#153 Satunnaiset starman jumit](https://github.com/KohaSuomi/koha-suomi-utility/issues/153); Starman jumittelee satunnaisesti 1-2 kertaa kuussa. Ratkaisuna kehitetään watchdog, joka valvoo workereiden käytettävyyttä ja tarvittaessa lisää workereitä sekä tyhjentää Apache-request-jonon. Watchdog on kehitetty ja on testikäytössä.
+- [koha-suomi-utility#152 Uusi service-check apache/plack read-erroreiden seuraamiseen](https://github.com/KohaSuomi/koha-suomi-utility/issues/152); Luotu service-check, joka raportoi plack-error.logissa havaituista read-erroreista. Testattavana.
+- [koha-suomi-utility#151 Harkkatunnuksen poistaminen käytöstä](https://github.com/KohaSuomi/koha-suomi-utility/issues/151); Kesä-Ollin tunnukset poistettu käytöstä. Tiketti suljettu.
+- [koha-suomi-utility#150 Apache konfiguraatiomuutos (workerimäärän lisäys)](https://github.com/KohaSuomi/koha-suomi-utility/issues/150); Apachen scoreboardilta loppuu tila käyttötilanteissa, joten kasvatetaan kokeeksi serverimäärää ja worker-threadien määrää tuotannoissa. Todennäköisempi ongelma on kuitenkin starman workereihin eikä apacheen liittyvä, joten emme odota tältä liikoja.
+- [Koha#2474 Integraatiot ylläpidettäväksi vain Wikissä](https://github.com/KohaSuomi/Koha/issues/2474); Integraatiot siirretään ylläpidettäväksi vain Wikissä, jossa niiden ylläpito on tarpeellista. Seuraavaksi: Siirto Wikiin käynnistetty. Täydennettävä vielä OAI:n ja EDItX REST:in osalta.
+- [Koha#2464 Ovikoneet "spämmäävät" Item Information Requesteja](https://github.com/KohaSuomi/Koha/issues/2464); RFID-ovikoneet lähettävät samasta niteestä useita Item Information Request -sanomia sekunnin sisällä. Asiasta on neuvoteltu ovikonevalmistajan kanssa ja korjaus on lupeissa. Aikataulusta ei kuitenkaan tällä hetkellä varmaa tietoa.
+- [Koha#2370 Task scheduler -toiminnon käyttö raporteissa](https://github.com/KohaSuomi/Koha/issues/2370); Task scheduler -toiminto otettu käyttöön raporteissa. Ei toteuteta. Tiketti suljettu.
+- [Koha#2358 SIP-sanomista puuttuvat AO-kentät](https://github.com/KohaSuomi/Koha/issues/2358); Useasta kimpasta tulee SIP-sanomia, joista puuttuu AO-kenttä. Tarkistuslistat toimitettu kimppojen pääkäyttäjille. Tietyissä kimpoissa edelleen puutteita, selvittely ja korjaus jatkuu.
+- [Koha#1829 EDItX RSA1 avainten vaihto](https://github.com/KohaSuomi/Koha/issues/1829); Kirjastopalvelun avain vaihdettu ja testattu. RSA1 voidaan poistaa käytöstä (avaan erillisen tiketin). Tiketti suljettu.
+- [Koha#2475 Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475); Syyskuun kuukausihuollossa asennetaan tietoturva- ja muut päivitykset kaikille palvelimille alkaen tietokantapalvelimista. Lisäksi optimoidaan starman workerien ja SIP2-palvelinforkkien määrää.
+
 ## Viikko 36
 
 Aika: Ma 31.8.2026 klo 9<br/>
