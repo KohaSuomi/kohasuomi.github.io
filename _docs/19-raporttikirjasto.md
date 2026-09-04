@@ -2512,6 +2512,26 @@ HAVING COUNT(biblionumber) > 1
 ORDER BY i.cn_sort
 ```
 
+### Emottomat osakohteet
+
+Raportilla voi hakea osakohteet, jotka eivät ole kytköksissä mihinkään emotietueeseen. Kun listaa käy läpi, pitää vähän tapauskohtaisesti katsoa, ovatko osakohteet oikeasti emottomia ja tarpeettomia, vai ovatko ne vain jostain syystä karanneet emoltaan. Tarvittava toimenpide riippuu siis tilanteesta.
+
+Lisätty: 4.9.42026<br />
+Tekijä: Kodo Korkalo ja Anneli Österman<br />
+Lisääjä: Anneli Österman
+
+
+```
+SELECT R.biblionumber,CONCAT_WS(' ', R.host_f001, R.f003) AS 'Emon tunnisteet', CONCAT_WS(' ', R.f001, R.f003) AS 'Osakohteen tunnisteet',R.notes AS 'Huomautukset', CONCAT_WS(' ', b.title, b.author, b.unititle) AS 'Osakohteen tiedot', CONCAT('<a href=\"/cgi-bin/koha/catalogue/search.pl?q=',R.host_f001,'" target="_blank">Hae emon tunnisteella</a>') AS 'Hae emon tunnisteella', CONCAT('<a href="/cgi-bin/koha/catalogue/search.pl?q=bib-level:m AND title:',REGEXP_REPLACE(ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="t"]'), 'amp;|[&]|[ - ]|[-]$', ' '),'" target="_blank">',ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="t"]'),'</a>') AS 'Hae emon nimekkeellä (773t)'
+FROM biblio_control_fields R
+LEFT JOIN biblio_control_fields S
+    ON S.f001 = R.host_f001
+    AND S.f003 = R.host_f003
+LEFT JOIN biblio b ON R.biblionumber = b.biblionumber
+LEFT JOIN biblio_metadata bm ON bm.biblionumber=R.biblionumber
+WHERE R.host_f001 IS NOT NULL
+AND S.biblionumber IS NULL
+```
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
