@@ -2516,7 +2516,7 @@ ORDER BY i.cn_sort
 
 Raportilla voi hakea osakohteet, jotka eivät ole kytköksissä mihinkään emotietueeseen. Kun listaa käy läpi, pitää vähän tapauskohtaisesti katsoa, ovatko osakohteet oikeasti emottomia ja tarpeettomia, vai ovatko ne vain jostain syystä karanneet emoltaan. Tarvittava toimenpide riippuu siis tilanteesta.
 
-Lisätty: 4.9.42026<br />
+Lisätty: 4.9.2026<br />
 Tekijä: Kodo Korkalo ja Anneli Österman<br />
 Lisääjä: Anneli Österman
 
