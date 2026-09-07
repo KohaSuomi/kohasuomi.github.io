@@ -45,6 +45,16 @@ Läsnä:
 - [Koha#2475 Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475); Syyskuun kuukausihuollossa asennetaan tietoturva- ja muut päivitykset kaikille palvelimille alkaen tietokantapalvelimista. Lisäksi optimoidaan starman workerien ja SIP2-palvelinforkkien määrää.
 - [Koha#2461 Kyyti/Kotkan pääkirjasto: Uuden toimittajan varaustennoutoautomaatin integroiminen Kohaan](https://github.com/KohaSuomi/Koha/issues/2461); Kotkaan tulossa syksyllä uuden toimittajan ulkoautomaatti varausten noutoa varten. Seuraavaksi: Aloituspalaveri laitevalmistajan kanssa 7.9. klo 12.00.
 
+#### Johanna
+
+* [Editx: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-editx/issues/16): Vastuutettu. Käännökset on viety next- ja testiympäristöihin.
+* [Laskutukseen liittyvän rajoituksen automaattinen poistuminen](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/40): Vastuutettu. Rajoituksen automaattista poistumista testattu OUTin nextillä.
+* [Salasanan automaattinen uusiminen](https://github.com/KohaSuomi/koha-suomi-messaging/issues/5): Vastuutettu. Automaattiset ajot on lisätty kaikkiin mainittuihin tuotantoihin.
+* koha-suomi-utility: kehityshaaralla fetch-build-and-deploy.sh-skriptiin lisätty GitHub-token-tuki ja pakotettu token-pohjainen haku.
+* koha-plugin-editx: master- ja ks25-v2-haaroilla korjattu process_edi_messages-tiedostonimi, poistettu käyttämättömiä metodikutsuja, lisätty REST-rajapinnan kuvaus README:hen sekä päivitetty käännökset (KPEDX-16).
+* koha-plugin-bibframe-manager: Viety hybridisuunnitelmaa käytäntöön usealla osalla: lisätty hierarkkinen tietokantakaavio tietomallille (Work→Expression→Manifestation→Item), otettu LoC:n BIBFRAME 3-tasoinen malli kanoniseksi tallennusmuodoksi (Option A) ja johdettu siitä nelitasoinen WEMI, lisätty LoC BIBFRAME 2.0 -kaksoisstandardin tuki editointinäkymässä, semanttinen normalisoija (nide linkitetään Kohan items-tauluun), kielen tunnistus Work-klusteroinnille, summary-rakentaja, komponenttiosien synkronointi (Phase 9), MARC- ja BIBFRAME-tallennusgeneraattorit (Phases 10–11), Elasticsearch-hakemistosynkronointi konfiguroitavilla dokumenttimalleilla (Phase 12) sekä summary-pohjaiset API-lukemat (Phase 13). Suunnitelmaa täydennetty myös työklusteroinnilla ja ihmistarkistuksella.
+* koha-suomi-messaging: salasanasta rajattu pois kenoviivat (ks25, master).
+
 ## Viikko 36
 
 Aika: Ma 31.8.2026 klo 9<br/>
