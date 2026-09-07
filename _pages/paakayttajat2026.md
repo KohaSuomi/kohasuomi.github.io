@@ -17,7 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
-* Viikon 37 päivitys
+* [Viikon 37 päivitys](https://github.com/KohaSuomi/Koha/discussions/2485)
 * Uusi raportti Kohti yhteistä metatietoa – kuvailun tulevaisuus rakennetaan yhdessä -hankkeen pyytämän hankintadata-raportin sivutuotoksena:
   * [Aineistotyypittömät tietueet, jotka eivät ole kaukolainoja](https://github.com/KohaSuomi/Koha/issues/2483#issuecomment-5540127154)
   * Voisiko kaikissa kimpoissa tarkistaa pikaisesti, ettei teillä ole aineistotyypittömiä tietueita ja korjata tyypittömät ensitilassa?
