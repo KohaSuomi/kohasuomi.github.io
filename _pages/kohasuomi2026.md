@@ -45,6 +45,24 @@ Läsnä:
 - [Koha#2475 Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475); Syyskuun kuukausihuollossa asennetaan tietoturva- ja muut päivitykset kaikille palvelimille alkaen tietokantapalvelimista. Lisäksi optimoidaan starman workerien ja SIP2-palvelinforkkien määrää.
 - [Koha#2461 Kyyti/Kotkan pääkirjasto: Uuden toimittajan varaustennoutoautomaatin integroiminen Kohaan](https://github.com/KohaSuomi/Koha/issues/2461); Kotkaan tulossa syksyllä uuden toimittajan ulkoautomaatti varausten noutoa varten. Seuraavaksi: Aloituspalaveri laitevalmistajan kanssa 7.9. klo 12.00.
 
+#### Emmi
+
+- [OKM-liitännäinen: Sarakkeet piilottuvat väärin](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/23): Osa sarakkeiden piilotuksista esti sarakkeen lukuja näkymästä käyttöliittymässä. Korjattu, testattu ja viedään tällä viikolla tuotantoon.
+- [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26): Yritetty selvittää mistä kaikista tilastoista KAUKOLAINA-nidetyyppi tulisi ottaa pois. 
+- [Useamman lehden vastaanotossa mahdollista aiheuttaa virhe 500](https://github.com/KohaSuomi/Koha/issues/2443): Yhteisöstä tuotu muutos "Item type for older issues" kentän vihjetekstiin.  
+- [Tietopyyntö asiakkaalta](https://github.com/KohaSuomi/Koha/issues/2479): Asiakkaan tiedot toimitettu kimpan pääkäyttäjälle.
+- [Kirkes: IntranetUserJS-päivitys](https://github.com/KohaSuomi/Koha/issues/2476): Päivitys tehty yhdessä kimpan pääkäyttäjän kanssa.
+- [SIP2-tunnukset Keravan uuden palautusautomaatin toiselle koneelle](https://github.com/KohaSuomi/Koha/issues/2481): Tunnukset lisätty palvelimelle.
+- [Bug 43469 - Duplicate records in biblio and deletedbiblio tables if deleting records metadata fails](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43469): Kesällä meillä ilmeni ongelmia tietueiden metadatan poistamisessa, joka aiheutti kantaan tupla-tietueita biblio- ja deletedbiblio-tauluhin, reikiä indeksiin yms. Tehty yhteisöön tiketti, jossa ehdotetaan poiston "perumista" virhetilanteen ilmetessä. Korjaus työn alla.
+- [Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen](https://github.com/KohaSuomi/Koha/issues/2418): Ajatuksesta hyödyntää Joensuun FormBox-palvelua luovuttu, toteutetaan todennäköisesti itse. Palautetaan tiketti asiantuntijaryhmään, joka päättää jatkosta.
+- Vaskin hidastelut ja kaatumiset:
+  - Hidastelua 31.8.2026, palvelut käynnistetty uusiksi.
+  - Koko Kohan kaatuminen 1.9.2026, palavelut käynnistetty uusiksi.
+  - SIP-automaattejen hidastelun selvittelyä, hidastelun syynä todennäköisesti joidenkin tietueiden pitkät varasujonot.
+- Seuraavan versionvaihdon suunnittelua, seuraavaksi versioksi valittu versio 26.05.04
+- Pääkäyttäjäpalaveri 1.9.2026
+- Yhteisöpalaveri 2.9.2026
+
 ## Viikko 36
 
 Aika: Ma 31.8.2026 klo 9<br/>
