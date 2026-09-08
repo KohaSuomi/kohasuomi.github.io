@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
