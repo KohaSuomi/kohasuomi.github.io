@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), 
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
@@ -31,6 +31,9 @@ Pohjoisesta etelään
 * Aineistotyypittömät tietueet (ei kaukolainoja) korjattu 
 * Tarkistettu ja suljettu tikettejä
 * Muuten rauhallista
+
+**Vaski**
+* Havaittu, että noudettavissa oleva varaus täyttyy toisella niteellä automaattisesti lainauksessa ja noutohyllyssä oleva nide muuttuu saatavana-tilaan. Muissa kimpoissa huomattu tätä jo aiemmin. Lastu yrittänyt taklata vanhentuneiden erääntyneiden varausten raportilla, mutta ei ole saatu toimimaan. Todettiin ongelman olevan suht satunnainen ja pienempi paha kuin se, että varaus jäisi voimaan ja asiakkaalle tulisi noutamattoman varauksen maksu.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
