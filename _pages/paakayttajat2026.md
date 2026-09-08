@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), 
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
@@ -26,6 +26,11 @@ Läsnä:
   * Liittyy [tikettiin #1739](https://github.com/KohaSuomi/Koha/issues/1739)
 
 Pohjoisesta etelään
+
+**Lappi**
+* Aineistotyypittömät tietueet (ei kaukolainoja) korjattu 
+* Tarkistettu ja suljettu tikettejä
+* Muuten rauhallista
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
