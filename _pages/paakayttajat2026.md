@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
@@ -42,12 +42,15 @@ Pohjoisesta etelään
 * Suomi.fi-viestien lähtemistä testattu, testaus jatkuu vielä.
 * Normaalia ylläpitoa.
 
+**Lastu**
+* Normaalia ylläpitoa ja raporttien tekoa
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -76,6 +79,9 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Normaalia ylläpitoa ja tukitöitä.
+
+**Lastu**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
