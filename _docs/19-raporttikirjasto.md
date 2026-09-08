@@ -3550,6 +3550,35 @@ WHERE h.`f001` <> '' AND h.`f003` <> ''
 GROUP BY h.`f001`, h.`f003`
 HAVING COUNT(*) > 1
 ```
+
+### Lista osakohteista, joissa on sama 001+003-yhdistelmä
+
+Raportti listaa osakohteet, joissa on sama 001+003-yhdistelmä.
+
+Lisätty: 8.9.2026
+Tekijä: Kodo Korkalo
+Lisääjä: Anneli Österman
+
+```
+SELECT 
+  MIN(h.biblionumber) AS 'biblionumber',
+  CONCAT_WS(' ', h.f001, h.f003) AS 'Kontrollikentät',
+  COUNT(*) AS 'Tietueiden määrä',
+  GROUP_CONCAT(b.biblionumber SEPARATOR ', ') AS 'Tietueet',
+  GROUP_CONCAT(CONCAT_WS(' / ', b.title, b.author) SEPARATOR ' --- ') AS 'Nimekkeet',
+  GROUP_CONCAT(b.datecreated SEPARATOR ' - ') AS 'Luontipäivät',
+  CONCAT('<a href="/cgi-bin/koha/catalogue/search.pl?q=',
+      REPLACE(GROUP_CONCAT(CONCAT('biblionumber:', b.biblionumber) SEPARATOR ' OR '), ' ', '+'),
+    '" target="_blank">Hae tietueet</a>') AS 'Hae tietueet'
+FROM biblio_control_fields h
+JOIN biblio b ON h.biblionumber = b.biblionumber
+WHERE h.f001 != ''
+AND h.f003 = 'FI-BTJ'
+AND h.host_f001 IS NOT NULL
+GROUP BY h.f001, h.f003
+HAVING COUNT(*) > 1
+```
+
 ## Kuljetukset
 
 ### Lähtökirjastossa kuljetuksessa olevat
