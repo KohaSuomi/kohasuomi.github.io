@@ -35,6 +35,9 @@ Pohjoisesta etelään
 **Vaski**
 * Havaittu, että noudettavissa oleva varaus täyttyy toisella niteellä automaattisesti lainauksessa ja noutohyllyssä oleva nide muuttuu saatavana-tilaan. Muissa kimpoissa huomattu tätä jo aiemmin. Lastu yrittänyt taklata vanhentuneiden erääntyneiden varausten raportilla, mutta ei ole saatu toimimaan. Todettiin ongelman olevan suht satunnainen ja pienempi paha kuin se, että varaus jäisi voimaan ja asiakkaalle tulisi noutamattoman varauksen maksu.
 
+**Helle**
+* Aineistotyypittömät tietueet korjattu (unohdin mainita tämän palaverissa).
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 36
