@@ -32,6 +32,9 @@ Pohjoisesta etelään
 * Tarkistettu ja suljettu tikettejä
 * Muuten rauhallista
 
+**OUTI**
+* Tiketti https://github.com/KohaSuomi/Koha/issues/2302 Kehitysehdotus: Valmiiden kaukolainojen poistoajo on ajoa vaille valmis. Koska kaukolainoista on hyvä ottaa tilastoja talteen, niin voitteko kommentoida tikettiin milloin ajo olis kimppanne osalta hyvä tehdä, jotta mahdollinen tilastotieto ei katoa ajossa. Ja onko kimpoissa tarvetta saada kaukolainoista tilastoja kirjaston käyttöön ja, jos on niin minkälaisia. Ajoa ei ole vielä testattu nextillä.
+
 **Vaski**
 * Havaittu, että noudettavissa oleva varaus täyttyy toisella niteellä automaattisesti lainauksessa ja noutohyllyssä oleva nide muuttuu saatavana-tilaan. Muissa kimpoissa huomattu tätä jo aiemmin. Lastu yrittänyt taklata vanhentuneiden erääntyneiden varausten raportilla, mutta ei ole saatu toimimaan. Todettiin ongelman olevan suht satunnainen ja pienempi paha kuin se, että varaus jäisi voimaan ja asiakkaalle tulisi noutamattoman varauksen maksu.
 
