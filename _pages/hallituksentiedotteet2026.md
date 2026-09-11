@@ -11,6 +11,54 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 6/2026
+
+11.9.2026
+
+Hei,
+
+Koha-Suomen hallituksen syksyn ensimmäiseen kokoukseen kokoonnuttiin hieman uudistetulla kokoonpanolla kesäkuun yhtiökokouksen jälkeen. Hallituksen jäseniä ovat:
+
+Nina Sipola (pj)<br />
+Kirsi Kurtti<br />
+Rebekka Pilppula<br />
+Karoliina Kanerva<br />
+Jarkko Nevalainen<br />
+Pekka Penttinen<br />
+Jouni Pääkkölä<br />
+Maarit Tuomisto<br />
+
+Yhtiön toimitusjohtajana on tutusti Ari Mäkiranta.
+
+Hallitus nimesi kirjastokimppojen asiantuntijaryhmien edustajat. Asiantuntijaryhmä tekee esitykset hallitukselle ja toimitusjohtajalle ohjelmistoon liittyvästä kehittämisestä ja priorisoi kehittämistarpeet. Asiantuntijaryhmän jäsenet ovat:
+
+Helle: Kati Sillgren, Tove Selkälä (vara)<br />
+Kirkes: Elina Uotila, Erika Miettinen (vara)<br />
+Kyyti: Roosa Väisänen, Tuomas Kunttu (vara)<br />
+Lappi: Leena Kinnunen, Pia Kusmin (vara)<br />
+Lastu: Janne Seppänen, Lauri Hänninen (vara)<br />
+Lumme: Hanna Ikonen, Katja Valjakka (vara)<br />
+Outi: Noora Valkonen, Piia Semenoff (vara)<br />
+Vaara: Hanna Hyttinen, Irina Halminen (vara)<br />
+Vaski: Susanna Sandell, Anni Mäki-Mantila (vara)
+
+Koha-Suomen taloustilanne on hyvä. Yhtiö on toiminut kustannustehokkaasti eikä korotuspainetta ole osakasmaksuihin vuodelle 2027. Liitteenä toimitusjohtajan raportti 6/2026.
+
+Jokaisen kokouksen tiedote lähtee jakeluun tällä jakelulistalla. Jos teillä on tullut jotain henkilövaihdoksia kirjastoissanne tai kimpoissanne, niin ilmoittakaa siitä toimitusjohtajalle tai minulle niin korjaamme spostilistaa.
+
+
+Kiitos että välität tiedotetta edelleen kirjastoillenne ja kimpoille. Hyvää syksyn alkua kaikille!
+
+
+Olethan yhteydessä toimitusjohtajaan tai allekirjoittaneeseen jos mieleesi tulee jotakin kysyttävää.
+ 
+
+Koha-Suomen hallituksen puolesta,<br />
+
+Nina Sipola
+
+Toimitusjohtajan raportti: [Toimitusjohtajan raportti 6_26.pdf](https://github.com/user-attachments/files/32095794/Toimitusjohtajan.raportti.6_26.pdf)
+
 ## Koha-Suomen hallituksen tiedote 5/2026
 
 12.5.2026
