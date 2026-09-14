@@ -23,6 +23,7 @@ Läsnä:
 
 ### Muuta
 * Viikon 38 päivitys
+* Päivystysvuorot viikosta 39 alkaen
 
 ### Viikolla 37 tehtyä
 
