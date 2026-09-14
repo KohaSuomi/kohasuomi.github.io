@@ -37,6 +37,17 @@ Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
 - [Bug 43469 - Duplicate records in biblio and deletedbiblio tables if deleting records metadata fails](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43469): Korjaus viety yhteisöön testattavaksi.
 - Melindapalaveri 10.9.2026
 
+#### Johanna
+
+- [Nide tarttui palautuksessa kiinni varaukseen, joka ei ollut jonon ensimmäinen](https://github.com/KohaSuomi/Koha/issues/1550): vastuutettu. Analysoitu palautuksen täsmäytysprosessia. Todennäköiseksi syyksi arvioitu, että niteen tai varauksen tila ehtii muuttua ennen palautusta, eikä täsmäytys tee enää uutta laskentaa.
+- [Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563): vastuutettu. Kirjastoryhmän omituinen priorisointi jäljitettiin tähän ominaisuuteen, ja siitä tehty tiketti Kansalliskirjaston koha-plugin-rest-di -projektiin (issue #46). Ryhmätäsmäytyksen korjausta työstetty oksalla ks-0274-on-0243-KOHA-1563-prioritize-holds: GiveLibraryAndGroup täytti aiemmin viimeisen ryhmäosuman ensimmäisen sijaan (KOHA-1563).
+- [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39): vastuutettu. Lisätty yksikkötestit Finvoice-osion process_xml- ja finvoice_to_html-funktioille. Muutos on testattavissa nexteilla ja testeillä, mutta lopullinen testaus on Koha-Suomen vastuulla, koska tarkistus tehdään siirron yhteydessä.
+- [Laskutukseen liittyvän rajoituksen automaattinen poistuminen](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/40): vastuutettu. Uusi versio viety nexteille ja testeille: laskutusrajoitus poistuu automaattisesti, kun laskutettu nide palautetaan, vaikka muita myöhässä olevia lainoja olisi (KPODUE-40).
+- koha-plugin-editx: korjattu fi-FI-käännösvirhe, lisätty REST API:n POST-päätepisteen käyttöoikeustiedot, korjattu ilmoituksen vastaanottajan käsittely ja lisätty konfigurointiapuskriptit. Päivityssuunnitelmaa täydennetty SQL-skriptillä, ja ks25-haara yhdistelty masteriin.
+- koha-suomi-utility: kehitetty viikkokooste-skriptiä, muun muassa paikallisten git-repojen rekursiivinen haku. fetch-build-and-deploy.sh:ssä paikalliset muutokset stasataan ennen checkoutia ja epäonnistuneesta checkoutista näytetään oikea git-virhe.
+- Melindapalaveri 10.9.
+- Koha-seminaariesityksen tekemistä ja hiomista.
+
 ## Viikko 37
 
 Aika: Ma 7.9.2026 klo 9<br/>
