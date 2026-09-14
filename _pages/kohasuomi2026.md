@@ -13,10 +13,33 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 38
+
+Aika: Ma 14.9.2026 klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 38 päivitys
+
+### Viikolla 37 tehtyä
+
+#### Emmi
+
+- [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26): Todettu, että KAUKOLAINA-nidetyyppi on otettava pois kaikista tilastoista. Asetus tehty ja viety testattavaksi.
+- [OKM-raportointityökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/24): Käännökset tehty ja viety testattavaksi. Ruotsinkäännösryhmä käy läpi ruotsinnokset, niitä korjattava tarvittaessa.
+- [OKM-raportointiliitännäinen: Ylimääräisten koodien siivous](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/27): Liitännäisestä on siivottava pois muihin kuin OKM:n raportteihin liittyvä koodi. Tiketöity, työn alla.
+- [Lappi : EditX-virheistä ei ole tullut sähköposteja 11/2025 jälkeen](https://github.com/KohaSuomi/Koha/issues/2487): EditX-virheilmoituksista huomattiin ettei uusia ilmoituksia ole tullut 5.3.2026 jälkeen (Lapissa 2025 marraskuuta jälkeen). Virheilmoitusten lähettämiseen tarkoitettua cron-skriptiä ei ollut enää symlinkattuna palvelimelle, jolloin crontab ei enää löytänyt sitä. Symlinkkaus on korjattu.
+- [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39): Testattu muutosta ja todettu toimivaksi.
+- [Bug 43469 - Duplicate records in biblio and deletedbiblio tables if deleting records metadata fails](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43469): Korjaus viety yhteisöön testattavaksi.
+- Melindapalaveri 10.9.2026
+
 ## Viikko 37
 
 Aika: Ma 7.9.2026 klo 9<br/>
-Läsnä:
+Läsnä: Ari, Anneli, Lari, Pasi, Emmi, Johanna, Kodo
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
