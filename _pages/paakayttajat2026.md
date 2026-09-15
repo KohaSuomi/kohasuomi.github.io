@@ -13,12 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
 * [Hankintadata-raportista](https://github.com/KohaSuomi/Koha/issues/2483) rajataan pois koulu- ja erikoiskirjastot. Käyttekö kommentoimassa tikettiin, minkälaisilla ehdoilla nämä kirjastot saadaan rajattua pois teidän kimpassa.
-* 
+* [Hallituksen tiedotteessa 6/2026](https://koha-suomi.fi/hallituksentiedotteet2026#koha-suomen-hallituksen-tiedote-62026) vahvistettu asiantuntijaryhmän kokoonpano
 
 Etelästä pohjoiseen
 
