@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), 
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes),
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
@@ -30,6 +30,9 @@ Etelästä pohjoiseen
 * Koha-käyttäjätunnusten oikeuksien tarkistusprosessia aloiteltu. Käytämme siihen Annelin tekemää rapsaa, johon on määritelty OUTIn käyttäjäoikeusryhmiin sisältyvät oikeudet. Tiketti: https://github.com/KohaSuomi/Koha/issues/2467. Raportti nopeuttaa työtä huomattavasti.
 * Oulussa ollaan selvitetty keskitettyä asiakasvarmenteen asennusta Oulun käyttäjille. Käytännössä asennus tapahtuisi siten, että asennusskripti pyörähtäisi koneella silloin, kun käyttäjä kirjautuu koneelle. Varmenne asennetaan aina kullekin koneelle kirjatuvalle käyttäjälle hänen omaan profiiliinsa. Asennusskripti myös poistaisi vanhan varmenteen käyttäjän varmennesäilöstä. Keskitetty asennus on ollut käytössä jo useamman vuoden Oulun koulukirjastojen opettajien koneille.
 * Finna-työpajan osallistumislinkki lähetetään etäosallistujille tänään.
+
+**Kirkes**
+ * Elina osallistuu Koha-seminaariin paikan päällä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
 
