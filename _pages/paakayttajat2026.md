@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
@@ -21,6 +21,9 @@ Läsnä: Anneli Österman (Koha-Suomi)
 * [Hallituksen tiedotteessa 6/2026](https://koha-suomi.fi/hallituksentiedotteet2026#koha-suomen-hallituksen-tiedote-62026) vahvistettu asiantuntijaryhmän kokoonpano
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
 
