@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
@@ -46,7 +46,7 @@ Etelästä pohjoiseen
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
@@ -90,7 +90,7 @@ Pohjoisesta etelään
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
