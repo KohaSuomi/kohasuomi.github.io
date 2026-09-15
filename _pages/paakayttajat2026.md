@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes),
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
@@ -32,7 +32,11 @@ Etelästä pohjoiseen
 * Finna-työpajan osallistumislinkki lähetetään etäosallistujille tänään.
 
 **Kirkes**
- * Elina osallistuu Koha-seminaariin paikan päällä. 
+ * Elina osallistuu Koha-seminaariin paikan päällä.
+
+**Lumme**
+* Suomi.fi-viestien käyttöönotto testattu ja viestit on tarkoitus ottaa käyttöön lokakuun alussa.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
 
