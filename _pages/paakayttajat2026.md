@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 38
+
+Aika: Ti 15.9.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
+* [Hankintadata-raportista](https://github.com/KohaSuomi/Koha/issues/2483) rajataan pois koulu- ja erikoiskirjastot. Käyttekö kommentoimassa tikettiin, minkälaisilla ehdoilla nämä kirjastot saadaan rajattua pois teidän kimpassa.
+* 
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
@@ -52,7 +66,7 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa.
 * Keravalle tehty uudet automaattitunnukset. 
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-37) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 36
 
@@ -90,7 +104,7 @@ Etelästä pohjoiseen
 **Lastu**
 * Normaalia ylläpitoa
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-35) - [Palaa sivun alkuun](/paakayttajat2026)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-36) - [Palaa sivun alkuun](/paakayttajat2026)
 
 
 ## Viikko 35
