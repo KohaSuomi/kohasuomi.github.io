@@ -20,18 +20,27 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Maanantai 21.9.2026 klo 9 <br />
 Läsnä:
 
-### Ajankohtaiset
+### 1. Ajankohtaiset
 
-### Vahvasti asiakkaaksi rekisteröityminen
+### 2. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
+[Tiketistä 2418](https://github.com/KohaSuomi/Koha/issues/2418#issuecomment-5507658035):
 
+Koha-Suomen palaveri 2.9.2026: Otetaan tämän kanssa aikalisä ja palautetaan asiantuntijaryhmän pohdittavaksi. FormBox-lomake, jota tässä ajateltiin hyödyntää, osoittautui meidän kannaltamme riittämättömäksi ratkaisuksi. Lomakkeen tiedot tulisi poimia FormBoxin tietokannasta API:n kautta, mikä tarkoittaisi sitä, että asiakastiedot päätyisivät kyseiseen tietokantaan. Koska tarkoituksena oli, että samaa palvelua hyödynnettäisiin kaikissa kimpoissa, myös muiden kimppojen asiakastiedot päätyisivät kyseiseen tietokantaan. Lisäksi ainakaan esimerkkiaineistossa asiakkaan hetua ei ollut välittynyt lomakkeelle, jolloin hetu olisi tallennattava erikseen. Ja vaikka tämä tieto välittyisikin aineistoon suoraan, myös se tallentuisi FormBoxin tietokantaan.
 
+Ehdotamme, että valmiin lomakkeen sijasta olisi järkevämpää toteuttaa rekisteröintilomake Koha-Suomen toimesta, johon voidaan Mahdollisesti liittää vahva tunnistautuminen Suomi.fi:n rajapinnan kautta. Tällöin asiakastietoja ei tallennettaisi muualle kuin Kohaan ja lomakkeelle voitaisiin rakentaa myös muuta toiminnallisuutta, esim. jo olemassa olevan asiakkuuden tarkistaminen hetun avulla, mahdollisuus ilmoittaa tästä käyttäjälle suoraan, takaajan asiakkuuden varmentaminen suoraan Kohasta.
 
-### Käsiteltävät kehitysehdotukset
+Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian toteutukselle. Tästä kannattaa perustaa oma työryhmä, joka voi pohtia eri toteutusvaihtoehtoja ja määritellä tarkemmin mitä toiminnallisuuksia tunnistautumisessa toivotaan olevan.
 
-### Muut asiat
+### 3. Käsiteltävät kehitysehdotukset
 
-### Seuraava kokous
+* [Kaukolainojen viestiasetusten kopiointi varauksen saapumisilmoituksesta #2459](https://github.com/KohaSuomi/Koha/issues/2459)
+* [Sähköpostiin automaattinen heräte epäonnistuneista tekstiviesteistä #2472](https://github.com/KohaSuomi/Koha/issues/2472)
+* [Takaajan muutos ei lokitu #2491](https://github.com/KohaSuomi/Koha/issues/2491)
+
+### 4. Muut asiat
+
+### 5. Seuraava kokous
 
 
 ## Muistio 7/2026
