@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
