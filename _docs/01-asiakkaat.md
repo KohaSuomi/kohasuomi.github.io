@@ -41,7 +41,7 @@ Kehoitus tulee myös Lainauksen asiakashaussa:
 
 <img src="/assets/files/docs/Asiakkaat/Taytatamakentta3.png" alt="" style="width:90.0%" />
 
-Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
+Hakuehtoja käyttämällä voit hakea asiakasta eri tavoin.
 - Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_- tai _sisältää_-vaihtoehdon. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
 - Saat tarkennettua hakua rajaamalla hakua asiakastyypin mukaan,  jos valitset sen _Tyyppi_-alasvetovalikossa.
 - Saat tarkennettua hakua valitsemalla asiakkaan kirjaston _Kirjasto_-alasvetovalikosta.
