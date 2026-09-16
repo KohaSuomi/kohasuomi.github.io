@@ -30,6 +30,12 @@ Etelästä pohjoiseen
 * Koha-käyttäjätunnusten oikeuksien tarkistusprosessia aloiteltu. Käytämme siihen Annelin tekemää rapsaa, johon on määritelty OUTIn käyttäjäoikeusryhmiin sisältyvät oikeudet. Tiketti: https://github.com/KohaSuomi/Koha/issues/2467. Raportti nopeuttaa työtä huomattavasti.
 * Oulussa ollaan selvitetty keskitettyä asiakasvarmenteen asennusta Oulun käyttäjille. Käytännössä asennus tapahtuisi siten, että asennusskripti pyörähtäisi koneella silloin, kun käyttäjä kirjautuu koneelle. Varmenne asennetaan aina kullekin koneelle kirjatuvalle käyttäjälle hänen omaan profiiliinsa. Asennusskripti myös poistaisi vanhan varmenteen käyttäjän varmennesäilöstä. Keskitetty asennus on ollut käytössä jo useamman vuoden Oulun koulukirjastojen opettajien koneille.
 * Finna-työpajan osallistumislinkki lähetetään etäosallistujille tänään.
+* Työn alla lisätä kaukolainaniteille Korvaushinta-kenttä laskutustilanteita varten.
+* Tiketti: https://github.com/KohaSuomi/Koha/issues/2302. Kaukolainojen poistoajo testatusta vaille valmis. Tikettiin voisi merkitä mikä olisi hyvä ajankohta ajaa valmiiden kaukolainojen poisto. Samassa tiketissä myös kysymys tilastoista.
+  * Tehdään kaukolainojen tilastoista oma tiketti (Kokouksen jälkeen tehty tiketti: https://github.com/KohaSuomi/Koha/issues/2497)
+* Finnan etusivulla Uutuudet toiminto: Voiko tehdä Githupiin tästä bugi-tiketin?
+  * Piia pyytää Finna-toimistoa tekemään asiasta oman tiketin, ei tehdä Githubiin, koska sinne kerätään vain Finna-kehitysehdotuksia
+  * Testataan tuleeko vanha tietue Uutuus-listalle vain silloin, kun tietueen ainoalta niteeltä on lähtenyt Kadonnut -merkintä pois. Uutuus-listalle ei tullut sellaista vanhaa tietuetta, jonka yhtä nidettä oli muokattu ja sillä oli useampi nide. 
 
 **Kirkes**
  * Elina osallistuu Koha-seminaariin paikan päällä.
