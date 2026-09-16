@@ -29,7 +29,8 @@ Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaim
 
 <img src="/assets/files/docs/Asiakkaat/Selaasukunimenperusteella.png" alt="" style="width:90.0%" />
 
-Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin. 
+Kirjoita hakutermi hakulomakkeessa kohtaan _Haku_ tai hakukentässä kohtaan _Syötä kirjastokortin numero tai osa nimestä_. 
+Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin. 
 
 <img src="/assets/files/docs/Asiakkaat/Taytatamakentta5.png" alt="" style="width:90.0%" />
 
