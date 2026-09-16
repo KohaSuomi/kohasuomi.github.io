@@ -34,7 +34,7 @@ Etelästä pohjoiseen
 * Tiketti: https://github.com/KohaSuomi/Koha/issues/2302. Kaukolainojen poistoajo testatusta vaille valmis. Tikettiin voisi merkitä mikä olisi hyvä ajankohta ajaa valmiiden kaukolainojen poisto. Samassa tiketissä myös kysymys tilastoista.
   * Tehdään kaukolainojen tilastoista oma tiketti (Kokouksen jälkeen tehty tiketti: https://github.com/KohaSuomi/Koha/issues/2497)
 * Finnan etusivulla Uutuudet toiminto: Voiko tehdä Githupiin tästä bugi-tiketin?
-  * Piia pyytää Finna-toimistoa tekemään asiasta oman tiketin, ei tehdä Githubiin, koska sinne kerätään vain Finna-kehitysehdotuksia
+  * Ei tehdä Githubiin, koska sinne kerätään vain Finna-kehitysehdotuksia. Piia pyytää Finna-toimistoa tekemään asiasta oman tiketin.
   * Testataan tuleeko vanha tietue Uutuus-listalle vain silloin, kun tietueen ainoalta niteeltä on lähtenyt Kadonnut -merkintä pois. Uutuus-listalle ei tullut sellaista vanhaa tietuetta, jonka yhtä nidettä oli muokattu ja sillä oli useampi nide. 
 
 **Kirkes**
