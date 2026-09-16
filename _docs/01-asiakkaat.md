@@ -21,15 +21,13 @@ Kun valitset hakuvaihtoehdoksi "Hae asiakkaita", löytyy pienen valikkokuvakkeen
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat3.png" alt="" style="width:90.0%" />
 
-Samat hakuehdot löytyvät myös Hae asiakkaita-hakulaatikon alasvetovalikosta. Hae asiakkaita-hakulaatikko löytyy Asiakkaat-sivun vasemmasta laidasta.
+Samat hakuehdot löytyvät myös Hae asiakkaita-hakulomakkeen alasvetovalikoista. Hae asiakkaita-hakulomake löytyy Asiakkaat-sivun vasemmasta laidasta.
 
 <img src="/assets/files/docs/Asiakkaat/Asiakkaat4.png" alt="" style="width:90.0%" />
 
-Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella. 
+Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaimen perusteella, mutta sukunimihakua helpommin ja nopeammin asiakastieto löytyy käyttämällä hakukenttiä tai hakulomaketta ja rajaamalla hakua hakuehdoilla.
 
 <img src="/assets/files/docs/Asiakkaat/Selaasukunimenperusteella.png" alt="" style="width:90.0%" />
-
-Sukunimihakua helpommin asiakastieto löytyy käyttämällä hakulaatikoita ja rajaamalla hakuja hakuehdoilla.
 
 Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin. 
 
