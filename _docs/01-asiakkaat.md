@@ -31,12 +31,16 @@ Asiakasta on mahdollista hakea myös selaamalla asiakkaita sukunimen alkukirjaim
 
 Sukunimihakua helpommin asiakastieto löytyy käyttämällä hakulaatikoita ja rajaamalla hakuja hakuehdoilla.
 
-Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
-
+Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin. 
 
 <img src="/assets/files/docs/Asiakkaat/Taytatamakentta5.png" alt="" style="width:90.0%" />
 
 <img src="/assets/files/docs/Asiakkaat/Taytatamakentta2.png" alt="" style="width:90.0%" />
+
+Kehoitus tulee myös Lainauksen asiakashaussa:
+<img src="/assets/files/docs/Asiakkaat/Taytatamakentta1.png" alt="" style="width:90.0%" />
+
+<img src="/assets/files/docs/Asiakkaat/Taytatamakentta3.png" alt="" style="width:90.0%" />
 
 Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 - Voit valita jokaisessa haussa _Hakutyyppi_-alasvetovalikosta joko _alkaa_- tai _sisältää_-vaihtoehdon. Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono voi olla missä tahansa kohdassa hakukentässä.
@@ -109,7 +113,7 @@ _sisältää_
 \- Y-tunnus:  
 Anna Y-tunnus ja valitse hakutyypiksi _sisältää_
 
-Huom. Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
+Laajan asiakashaun voit tehdä myös muillakin sivuilla kuin vain Asiakkaat-sivulla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.  Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
 
 ![](/assets/files/docs/Asiakkaat/Tarkka_asiakashaku1.png)
 
