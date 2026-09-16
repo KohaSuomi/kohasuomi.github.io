@@ -33,6 +33,8 @@ Sukunimihakua helpommin asiakastieto löytyy käyttämällä hakulaatikoita ja r
 
 Kirjoita hakutermi kohtaan _Haku_. Huom. Asiakashaku ei toimi ilman hakutermiä. Jos teet haun ilman, että Haku-kentässä on tekstiä, niin ohjelma pyytää kirjoittamaan kenttään hakutermin.
 
+![](/assets/files/docs/Asiakkaat/Taytatamakentta5.png)
+
 ![](/assets/files/docs/Asiakkaat/Taytatamakentta2.png)
 
 Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
