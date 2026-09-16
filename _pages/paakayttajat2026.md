@@ -41,6 +41,9 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Ei mainittavaa
 
+**Lastu**
+* Laskuttajilta tullut toive kolmannen palautuskehotuksen ottamisesta käyttöön, eli yksi lisää ennen laskutusta. Tästä kuultu hyviä kokemuksia muualta Suomesta ja laskutukseen päätyvä aineisto on vähentynyt kun kolmas palautuskehotus muotoillaan laskun näköiseksi. Todettiin että kolmas palautuskehotus vaatisi muutoksia Kohan laskutustyökaluun, ja keskustelun pohjalta koitamme ensin muokata kahta olemassa olevaa palautuskehotusta niin, että esim. laskutettavan aineiston korvaushinnat olisivat mukana jo toisessa palautuskehotuksessa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 37
