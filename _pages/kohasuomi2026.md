@@ -16,7 +16,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 39
 
 Aika: Ma 21.9.2026 klo 9<br/>
-Läsnä:
+Läsnä: Ari, Anneli, Pasi, Lari, Kodo, Johanna, Emmi
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
