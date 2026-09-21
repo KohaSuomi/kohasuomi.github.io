@@ -36,6 +36,8 @@ Ehdotamme, että valmiin lomakkeen sijasta olisi järkevämpää toteuttaa rekis
 
 Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian toteutukselle. Tästä kannattaa perustaa oma työryhmä, joka voi pohtia eri toteutusvaihtoehtoja ja määritellä tarkemmin mitä toiminnallisuuksia tunnistautumisessa toivotaan olevan.
 
+Päätös: Perustetaan työryhmä. Mukaan työryhmään Kirkes, Lastu, Vaski, OUTI, Vaara, Kyyti. Koha-Suomelta mukaan Emmi ja Anneli.
+
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Kaukolainojen viestiasetusten kopiointi varauksen saapumisilmoituksesta #2459](https://github.com/KohaSuomi/Koha/issues/2459)
@@ -51,6 +53,7 @@ Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian tote
 
 ### 5. Seuraava kokous
 
+Ma 26.10.2026 klo 13
 
 ## Muistio 7/2026
 
