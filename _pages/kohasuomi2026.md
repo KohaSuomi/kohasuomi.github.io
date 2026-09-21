@@ -13,6 +13,20 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 39
+
+Aika: Ma 21.9.2026 klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 39 päivitys
+
+### Viikolla 38 tehtyä
+
+
 ## Viikko 38
 
 Aika: Ma 14.9.2026 klo 9<br/>
