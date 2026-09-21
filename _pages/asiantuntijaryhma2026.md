@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Palvelunestohyökkäyksen yhteenveto / Kodo
+
 ### 2. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
 [Tiketistä 2418](https://github.com/KohaSuomi/Koha/issues/2418#issuecomment-5507658035):
@@ -39,6 +41,11 @@ Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian tote
 * [Takaajan muutos ei lokitu #2491](https://github.com/KohaSuomi/Koha/issues/2491)
 
 ### 4. Muut asiat
+
+[Vanhojen vanhentuneiden asiakasrajotteiden poistoajon ajastus ja säilytysajan päätös](https://github.com/KohaSuomi/Koha/issues/2130).
+* Asiakastiedoissa näkyvät kaikki asiakkaan vanhat rajoitteet, kunnes ne poistetaan cleanup_database-siivousajolla.
+* Voiko vanhat vanhentuneet rajoitteet poistaa?
+* Minkälaisella ajastuksella vanhentuneet rajoitteet poistetaan? Tiketissä ehdotuksena joka yö.
 
 ### 5. Seuraava kokous
 
