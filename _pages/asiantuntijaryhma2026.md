@@ -24,6 +24,8 @@ Läsnä:
 
 Palvelunestohyökkäyksen yhteenveto / Kodo
 
+[Palautekysely Koha-seminaarista](https://forms.gle/a7abJ3dqp9jA3JEr7)
+
 ### 2. Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
 
 [Tiketistä 2418](https://github.com/KohaSuomi/Koha/issues/2418#issuecomment-5507658035):
