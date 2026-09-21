@@ -26,6 +26,12 @@ Läsnä: Ari, Anneli, Pasi, Lari, Kodo, Johanna, Emmi
 
 ### Viikolla 38 tehtyä
 
+#### Emmi
+
+- [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26): Asetuksessa ilmeni virhe, jonka vuoksi asetuksen puuttuminen esti raporttien ajamisen palvelimelle. Virhe korjattu ja ominaisuus on jälleen testattavissa.
+- [OKM-raportointiliitännäinen: Ylimääräisten koodien siivous](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/27): Ylimääräiset koodit siivottu ja testattu, ettei siivouksella ollut vaikutusta liitännäisen toimintaan. Viedään tuotantoon.
+- [IntranetUserJS: HoldID: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-holdid/issues/2): Ruotsinkäännösryhmässä tarkistetut käännökset tehty liitännäiseen. Tämän yhteydessä huomattu, että liitännäisessä on edelleen asetuksiin liittyvää koodia, jota ei tarvita JS-liitännäisissä. Turha koodi siivottu pois ja käännöksien korjaus testattu, viedään käännökset seuraavaksi tuotantoon.
+- [IntranetUserJS: Changes to search page: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-changes-to-search-page/issues/2): Ruotsinkäännösryhmässä tarkistetut käännökset tehty liitännäiseen. Myös tästä liitännäisestä löytyi turhaa koodia, joka on nyt siivottu pois ja käännöksien korjaus testattu, viedään käännökset seuraavaksi tuotantoon.
 
 ## Viikko 38
 
