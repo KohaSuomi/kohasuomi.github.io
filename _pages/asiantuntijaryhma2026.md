@@ -36,13 +36,16 @@ Ehdotamme, että valmiin lomakkeen sijasta olisi järkevämpää toteuttaa rekis
 
 Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian toteutukselle. Tästä kannattaa perustaa oma työryhmä, joka voi pohtia eri toteutusvaihtoehtoja ja määritellä tarkemmin mitä toiminnallisuuksia tunnistautumisessa toivotaan olevan.
 
-Päätös: Perustetaan työryhmä. Mukaan työryhmään Kirkes, Lastu, Vaski, OUTI, Vaara, Kyyti. Koha-Suomelta mukaan Emmi ja Anneli.
+Päätös: Perustetaan työryhmä pohtimaan, miten toteutetaan asiakkaaksi rekisteröityminen itse. Mukaan työryhmään edustajat ainakin seuraavista kimpoista: Kirkes, Lastu, Vaski, OUTI, Vaara, Kyyti. Koha-Suomelta mukaan Emmi ja Anneli. Kimppojen edustajat voi ilmoittaa Annelille. Emmi toimii kokoonkutsujana.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Kaukolainojen viestiasetusten kopiointi varauksen saapumisilmoituksesta #2459](https://github.com/KohaSuomi/Koha/issues/2459)
+  * Päätös: Ei toteuteta, koska toiminnolle ei ollut tarvetta.
 * [Sähköpostiin automaattinen heräte epäonnistuneista tekstiviesteistä #2472](https://github.com/KohaSuomi/Koha/issues/2472)
+  * Päätös: Toteutetaan. Tikettiin kirjataan tarkemmat parametrit, milloin ja mistä virheistä heräteviestejä lähetetään.
 * [Takaajan muutos ei lokitu #2491](https://github.com/KohaSuomi/Koha/issues/2491)
+  * Päätös: Toteutetaan itse ja tarjotaan yhteisöön, koska kyse on asiakastietoihin tehtävistä muutoksista, jotka on hyvä lokittaa.
 
 ### 4. Muut asiat
 
@@ -50,6 +53,7 @@ Päätös: Perustetaan työryhmä. Mukaan työryhmään Kirkes, Lastu, Vaski, OU
 * Asiakastiedoissa näkyvät kaikki asiakkaan vanhat rajoitteet, kunnes ne poistetaan cleanup_database-siivousajolla.
 * Voiko vanhat vanhentuneet rajoitteet poistaa?
 * Minkälaisella ajastuksella vanhentuneet rajoitteet poistetaan? Tiketissä ehdotuksena joka yö.
+* Päätös: Vanhentuneet rajoitteet voi poistaa heti, kun ne vanhenevat. Ajon voi ajastaa toimimaan päivittäin (joka yö) joka kimpassa.
 
 ### 5. Seuraava kokous
 
