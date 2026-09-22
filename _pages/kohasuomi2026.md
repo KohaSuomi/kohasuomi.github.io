@@ -26,6 +26,12 @@ Läsnä: Ari, Anneli, Pasi, Lari, Kodo, Johanna, Emmi
 
 ### Viikolla 38 tehtyä
 
+#### Johanna
+
+- [EditX-sanomien lähetys REST-rajapinnan kautta](https://github.com/KohaSuomi/koha-plugin-editx/issues/6): tiketti suljettu. EditX-sanomien lähetys REST-rajapinnan kautta on valmistunut (koha-plugin-editx).
+- Kehittäjien tapaaminen ja Koha-seminaariin Oulussa.
+- "Varastolokerotieto niteille"-palaveri Turun kanssa.
+
 #### Emmi
 
 - [OKM-raportointityökaluun mahdollisuus määritellä tietty nidetyyppi tilastoinnista pois](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26): Asetuksessa ilmeni virhe, jonka vuoksi asetuksen puuttuminen esti raporttien ajamisen palvelimelle. Virhe korjattu ja ominaisuus on jälleen testattavissa.
