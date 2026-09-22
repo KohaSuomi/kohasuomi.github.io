@@ -13,8 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 22.9.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
-
+Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
 * [Palautekysely Koha-seminaarista](https://github.com/KohaSuomi/Koha/discussions/2501)
