@@ -19,6 +19,7 @@ Läsnä:
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
 * [Palautekysely Koha-seminaarista](https://github.com/KohaSuomi/Koha/discussions/2501)
 * [Tiedote palvelunestohyökkäyksestä](https://github.com/KohaSuomi/Koha/discussions/2502)
+* [Asiantuntijaryhmän muistio 8/2026](https://koha-suomi.fi/asiantuntijaryhma2026#muistio-82026)
 
 Pohjoisesta etelään
 
