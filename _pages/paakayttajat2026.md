@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 22.9.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes),
+Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi),
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
@@ -25,6 +25,9 @@ Pohjoisesta etelään
 
 **Kirkes**
  * Esitetty toivomus sessiokohtaisesta lainauskuitista, eli että "Tänään lainatut" - ja "Kaikki lainat" -kuittien sijasta asiakkaalle saisi tulostettua kuitin, jossa on kyseisen lainauskerran lainat. Tällainen olisi kätevä esimerkiksi useamman kerran päivässä asioiville ryhmille ja asiakkaille, jotka ovat saattaneet uusia lainojaan aiemmin samana päivänä. Tähän liittyen löytyi tiketti Bugzillasta: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34210
+
+**Lappi**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
