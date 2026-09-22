@@ -15,7 +15,7 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 8/2026
+## Muistio 8/2026
 
 Aika: Maanantai 21.9.2026 klo 9 <br />
 Läsnä:
