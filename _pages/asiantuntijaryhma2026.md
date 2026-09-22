@@ -18,11 +18,11 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Muistio 8/2026
 
 Aika: Maanantai 21.9.2026 klo 9 <br />
-Läsnä:
+Läsnä: Ari Mäkiranta, Emmi Takkinen ja Anneli Österman sekä Kodo Korkalo (kohta 1) (Koha-Suomi), Pia Kusmin (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Hanna Hyttinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot) Roosa Väisänen (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot) Susanna Sandell (Vaski-kirjastot), Janne Seppänen (Lastu-kirjastot)
 
 ### 1. Ajankohtaiset
 
-Palvelunestohyökkäyksen yhteenveto / Kodo
+[Palvelunestohyökkäyksen yhteenveto](https://github.com/KohaSuomi/Koha/discussions/2502) / Kodo
 
 [Palautekysely Koha-seminaarista](https://forms.gle/a7abJ3dqp9jA3JEr7)
 
@@ -41,11 +41,11 @@ Päätös: Perustetaan työryhmä pohtimaan, miten toteutetaan asiakkaaksi rekis
 ### 3. Käsiteltävät kehitysehdotukset
 
 * [Kaukolainojen viestiasetusten kopiointi varauksen saapumisilmoituksesta #2459](https://github.com/KohaSuomi/Koha/issues/2459)
-  * Päätös: Ei toteuteta, koska toiminnolle ei ollut tarvetta.
+  * **Päätös**: Ei toteuteta, koska toiminnolle ei ollut tarvetta.
 * [Sähköpostiin automaattinen heräte epäonnistuneista tekstiviesteistä #2472](https://github.com/KohaSuomi/Koha/issues/2472)
-  * Päätös: Toteutetaan. Tikettiin kirjataan tarkemmat parametrit, milloin ja mistä virheistä heräteviestejä lähetetään.
+  * **Päätös**: Toteutetaan. Tikettiin kirjataan tarkemmat parametrit, milloin ja mistä virheistä heräteviestejä lähetetään.
 * [Takaajan muutos ei lokitu #2491](https://github.com/KohaSuomi/Koha/issues/2491)
-  * Päätös: Toteutetaan itse ja tarjotaan yhteisöön, koska kyse on asiakastietoihin tehtävistä muutoksista, jotka on hyvä lokittaa.
+  * **Päätös**: Toteutetaan itse ja tarjotaan yhteisöön, koska kyse on asiakastietoihin tehtävistä muutoksista, jotka on hyvä lokittaa.
 
 ### 4. Muut asiat
 
@@ -53,11 +53,11 @@ Päätös: Perustetaan työryhmä pohtimaan, miten toteutetaan asiakkaaksi rekis
 * Asiakastiedoissa näkyvät kaikki asiakkaan vanhat rajoitteet, kunnes ne poistetaan cleanup_database-siivousajolla.
 * Voiko vanhat vanhentuneet rajoitteet poistaa?
 * Minkälaisella ajastuksella vanhentuneet rajoitteet poistetaan? Tiketissä ehdotuksena joka yö.
-* Päätös: Vanhentuneet rajoitteet voi poistaa heti, kun ne vanhenevat. Ajon voi ajastaa toimimaan päivittäin (joka yö) joka kimpassa.
+* **Päätös**: Vanhentuneet rajoitteet voi poistaa heti, kun ne vanhenevat. Ajon voi ajastaa toimimaan päivittäin (joka yö) joka kimpassa.
 
 ### 5. Seuraava kokous
 
-Ma 26.10.2026 klo 13
+Maanantai 26.10.2026 klo 13
 
 ## Muistio 7/2026
 
