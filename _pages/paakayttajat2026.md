@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 22.9.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI)
+Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
@@ -28,6 +28,9 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**Lastu**
+* Tehtiin kehitysehdotus, että Kohassa voitaisiin määrittää verkkokirjastoon välitettävät asiakkaan viestiasetukset. Tämä helpottaisi tilannetta varsinkin Finna.fi-näkymän kanssa, mutta myös kimppojen omissa verkkokirjastoissa. Tiketti: https://github.com/KohaSuomi/Koha/issues/2504
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
