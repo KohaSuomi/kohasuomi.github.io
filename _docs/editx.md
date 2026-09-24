@@ -119,7 +119,9 @@ Lisätty EDI-tili tulee näkyviin EDI-tilien listalle. Olemassaolevia tilejä vo
 
 Kohaan täytyy luoda EditX-tilauksille _Authoriser_. Tämä on Kohan käyttäjätunnus, joka näkyy EditX tilauksissa tilauksen luojana. Tunnus ei tarvitse mitään oikeuksia. Käytä esimerkiksi API-asiakastyyppiä, jotta vanhentuneiden asiakkaiden poistoajo ei siivoa authoriseria pois kannasta. Katso Asiakkaan lisäys.
 
-Authoriserin borrowernumber määritetään EditX-rajapinnan konfiguraatiossa. Tämän tekee pyynnöstä järjestelmänkehittäjä.
+Authoriserin borrowernumber määritetään EditX-liitännäisen konfiguraatiossa. Liitännäinen ja tarvittava asetus löytyy Ylläpito -> Liitännäiset -> EDItX -> Toiminnot -> Määrittely -> Tilauksen valtuuttajan borrowernumber -kohta
+
+![](/assets/files/docs/Ohjeet/editx9.png)
 
 ### 1.4 Kohan MARC-määritykset
 
@@ -145,26 +147,37 @@ Aina kun kenttäliitoksia muutetaan, pitää vanhojen tietueiden tiedot päivitt
 
 ### 1.5 ONIX-aineistolajien määritys
 
-Kohan tietokannassa on _map_productform_-taulu, jossa liitetään tilaussanoman [ONIX-aineistotyypit](https://ns.editeur.org/onix36/en/7) Kohan nidetyyppeihin. Liitokset tekee järjestelmänkehittäjä heille toimitetun vastaavuuslistan perusteella.
+EDItX-liitännäisessä on _Product form -mäppäykset_ -kohta, jossa liitetään tilaussanoman [ONIX-aineistotyypit](https://ns.editeur.org/onix36/en/7) Kohan nidetyyppeihin. Liitännäinen ja tarvittava asetus löytyy Ylläpito -> Liitännäiset -> EDItX -> Toiminnot -> Määrittely -> Product form -mäppäykset -kohta
 
-Vastaavuslistan esimerkkitiedosto: [map_productform_uusi.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12107611/map_productform_uusi.xlsx)
+![](/assets/files/docs/Ohjeet/editx10.png)
+
+Vastaavuslistasta esimerkkitiedosto: [map_productform_uusi.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12107611/map_productform_uusi.xlsx)
 
 
 ### 1.5.1 Vaihtoehtoiset hyllypaikkamääritykset (ONIX-aineistolajien vaihtoehtoiset määritykset)
 
-Tietokannassa map_productfrom-taulussa on kaksi nidetyyppi-saraketta (productform ja productform_alternative).
+Liitännäisessä on Product form -mäppäyksissä kaksi nidetyyppi-määrittelyä: productform ja productform_alternative
 
-Ensisijaisesti käytetään productform-sarakkeen arvoa. Jos halutaan käyttää productform_alternative arvoa, niin procurement-config.xml tiedostoon määritellään asetus <productform_alternative_triggers></productform_alternative_triggers> ja sen sisään hyllypaikat pilkulla eroteltuna, joille halutaan productform_alternative-sarakkeen arvon nidetyyppi.
-Esim.
-```
-<productform_alternative_triggers>LAP,NUO</productform_alternative_triggers>
-```
+Ensisijaisesti tilausten käsittelyssä käytetään productform-sarakkeen arvoa. Jos halutaan käyttää productform_alternative arvoa, niin EDItX-liitännäisen määrityksiin määritellään _Vaihtoehtoiset ProductForm-määritykset_ -kohtaan pilkulla eroteltuna hyllypaikat, joille halutaan productform_alternative-sarakkeen arvon nidetyyppi.
+
+![](/assets/files/docs/Ohjeet/editx11.png)
 
 ### 1.6 Tietueiden täsmäytys eli tuplakontrolli
 
 EDItX-sanomista luodaan tilauksen luonnin yhteydessä minitietue kaikista niistä teoksista, joita ei löydy ennestään tietokannasta. EDItX-sanomassa on jokaiselle teokselle kuvailutieto MARCXML-muodossa. Ennen kuin uusi tietue luodaan, tarkistetaan, löytyykö tietokannasta jo kyseinen teos. Vertailuun/täsmäytykseen käytetään biblioitems-taulun ISBN (020$a), EAN (024$a), ja publishercodea (julkaisijan tunnus 028$a) yhdessä editionresponsibilityn (julkaisijan nimen 028$b) kanssa (kumpikin pitää täsmätä). Jos millään standarditunnisteella ei löydy tietuetta Kohan biblioitems-taulusta, niin luodaan uusi tietue. Jos löytyy vastaavuus, käytetään tilauksen luonnissa kyseistä tietuetta ja niteet luodaan olemassa olevaan tietueeseen.
 
-Tietueiden täsmäytyksessä on tällä hetkellä puute, joka voi aiheuttaa tuplatietueita tietokantaan. Jos tietueella on useampi standarditunniste, tallennetaan tietokannan tauluun vain kuvailutietueen ensimmäinen esiintymä. Jos tulevassa tietueessa onkin tunnisteet eri järjestyksessä kuin aiemmin lisätyssä tietueessa, eivät tunnisteet täsmää ja luodaan uusi tietue. Tämä ei ole kovin yleistä, mutta se on mahdollista varsinkin jos tilataan täydennyksenä vanhempaa aineistoa.
+EDItX-liitännäisen määrityksissä määritetään, onko tuplakontrolli päällä vai _Automaattinen tietueiden yhdistäminen_ -kohdassa:
+![](/assets/files/docs/Ohjeet/editx12.png)
+
+### 1.7 Sallitut hyllypaikat
+
+EDItX-liitännäisessä voi määrittää, mitkä hyllypaikat ovat sallittuja tilikoodeissa, kun niistä poimitaan tieto kirjastosta, hyllypaikasta ja vuodesta:
+![](/assets/files/docs/Ohjeet/editx14.png)
+
+### 1.8 Finna-materiaalityyppi käyttöön
+
+EDItX-liitännäisessä voi määrittää, käytetäänkö Finna-materiaalityyppejä eli Koha-Suomen aineistotyyppejä, kun luodaan tietue EDItX-tilauksen pohjalta. Tämä asetus kannattaa olla päällä.
+![](/assets/files/docs/Ohjeet/editx13.png)
 
 ## 2. Käyttöönotto aineistontoimittajan verkkokaupassa
 
@@ -224,13 +237,26 @@ Kenttien selitteet:
   * _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
   * _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia. Tiedosto säilyy myös palvelimella.
 
-### 3.2 Virheraportointi sähköpostitse
+### 3.2 Virheraportointi sähköpostitse ja EDIFACT-sivulla sekä sanomien käsittelyn ajaminen uudelleen
 
-Virheisiin päättyneiden sanomien käsittelystä on mahdollista saada valittuihin sähköpostiosoitteisiin ilmoitus. Järjestelmänkehittäjä lisää osoitteet osoitelistalle pyydettäessä.
+Virheisiin päättyneiden sanomien käsittelystä on mahdollista lähettää valittuihin sähköpostiosoitteisiin ilmoitus. Vastaanottajien sähköpostiosoitteet voi määrittää pilkulla eroteltuna EDItX-liitännäisen _Virheilmoitukset_-kohtaan. Myös viestin lähettäjän sähköpostiosoitteen voi määrittää.
+
+![](/assets/files/docs/Ohjeet/editx15.png)
 
 Esimerkkiviesti:
 
 ![](/assets/files/docs/Ohjeet/editx4.png)
+
+Virheilmoitukset näkyvät myös EDIFACT-sivulla Kohassa. Tila-sarakkeessa näkyy _virheet_-linkki, jota klikkaamalla näkee viestin käsittelyn epäonnistumisen syyt:
+
+![](/assets/files/docs/Ohjeet/editx16.png)
+(Esimerkissä ongelma on jo korjattu, minkä vuoksi tilana on OK)
+
+![](/assets/files/docs/Ohjeet/editx17.png)
+
+Jos virhe on sellainen, että esim. pääkäyttäjä voi sen itse korjata (esim. Kohasta puuttuva tilikoodi), voi sanoman käsittelyn ajaa uudelleen korjauksen jälkeen valitsemalla Toiminnot-sarakkeesta _Aja uudelleen_.
+![](/assets/files/docs/Ohjeet/editx18.png)
+
 
 ### 3.3 Erilaisia virhetilanteita
 
@@ -345,11 +371,9 @@ Koskee: KEPKLN2020
 * pääkäyttäjä voi tarkistaa EDIFACT-sivulla avaamalla viestin, puuttuuko sieltä jotain oleellista, kuten FundNumber, DestinationLocation, DeliverToLocation. Sanomaa voi verrata sellaiseen, jonka käsittely on onnistunut.
 * pääkäyttäjä tai kimpan vastaava ilmoittaa aineistontoimittajalle, että sanoma on virheellinen ja pyytää korjaamaan tiedot.
 
-#### Tietueella/niteellä on väärä aineistolaji
+#### Tietueella tai niteellä on väärä aineistotyyppi tai nidetyyppi
 
-Tietueen aineistotyyppi tallennetaan MARC-tietueessa 942c-kenttään. Niteen nidetyyppi tallennetaan 952y-kenttään. Nidetyyppi määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. [Lista product form -tyyppisistä ONIX-koodeista](https://ns.editeur.org/onix36/en/7). Tietokannassa taas on map_productform-taulu, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan nidetyyppiä. Oman kimpan määritykset voi tarkistaa SQL-kyselyllä 
-
-```select * from map_productform```
+Tietueen aineistotyyppi tallennetaan MARC-tietueessa 942c-kenttään. Niteen nidetyyppi tallennetaan 952y-kenttään. Nidetyyppi määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. [Lista product form -tyyppisistä ONIX-koodeista](https://ns.editeur.org/onix36/en/7). EDItX-liitännäisessä taas on map_productform-määäritys, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan nidetyyppiä. Oman kimpan määritykset voi tarkistaa liitännäisen määrityksistä.
 
 Jos nide on mielestäsi saanut väärän nidetyypin, käy ensin tarkistamassa EDItX-sanomasta teoksen ONIX-koodi. Jos se on väärä, kannattaa siitä laittaa palautetta sanoman toimittajalle.
 
