@@ -224,7 +224,7 @@ Kenttien selitteet:
 * **Tila** kertoo sanoman käsittelyn tilan. Tilakoodit ovat:
   * PROCESSING: käsittely on käynnissä
   * POSTPONED: sanoma on joko virheellinen tai ei ole tullut palvelimelle vielä kokonaan
-  * FAILED: käsittely on epäonnistunut
+  * FAILED: käsittely on epäonnistunut. Sulkeissa tilan perässä on virheet-linkki, jolla saa aukaistua tarkemmat tiedot epäonnistumisen syistä. Tämä linkki näkyy, vaikka virhetilanne olisi jo korjattu.
   * OK: käsitelty onnistuneesti
 
 * **Toimittaja**-kenttään tulee aineistontoimittajan toimittajatieto, jos sellainen sanomasta löytyy ja se on liitetty Koha-toimittajaan.
@@ -234,6 +234,7 @@ Kenttien selitteet:
 * **Tiedostonimi** on sanoman tiedostonimi.
 
 * **Toiminnot**
+  * _Aja uudelleen_ -napilla voi laittaa sanoman uudelleen käsiteltäväksi, jos sanoman käsittely on epäonnistunut ja epäonnistumisen syy on korjattu.
   * _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
   * _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia. Tiedosto säilyy myös palvelimella.
 
@@ -250,11 +251,13 @@ Esimerkkiviesti:
 Virheilmoitukset näkyvät myös EDIFACT-sivulla Kohassa. Tila-sarakkeessa näkyy _virheet_-linkki, jota klikkaamalla näkee viestin käsittelyn epäonnistumisen syyt:
 
 ![](/assets/files/docs/Ohjeet/editx16.png)
+
 (Esimerkissä ongelma on jo korjattu, minkä vuoksi tilana on OK)
 
 ![](/assets/files/docs/Ohjeet/editx17.png)
 
 Jos virhe on sellainen, että esim. pääkäyttäjä voi sen itse korjata (esim. Kohasta puuttuva tilikoodi), voi sanoman käsittelyn ajaa uudelleen korjauksen jälkeen valitsemalla Toiminnot-sarakkeesta _Aja uudelleen_.
+
 ![](/assets/files/docs/Ohjeet/editx18.png)
 
 
