@@ -36,7 +36,7 @@ Ehdotamme, että valmiin lomakkeen sijasta olisi järkevämpää toteuttaa rekis
 
 Yllä kuvattu ehdotus on siis kuitenkin vasta yksi vaihtoehto tämän asian toteutukselle. Tästä kannattaa perustaa oma työryhmä, joka voi pohtia eri toteutusvaihtoehtoja ja määritellä tarkemmin mitä toiminnallisuuksia tunnistautumisessa toivotaan olevan.
 
-Päätös: Perustetaan työryhmä pohtimaan, miten toteutetaan asiakkaaksi rekisteröityminen itse. Mukaan työryhmään edustajat ainakin seuraavista kimpoista: Kirkes, Lastu, Vaski, OUTI, Vaara, Kyyti. Koha-Suomelta mukaan Emmi ja Anneli. Kimppojen edustajat voi ilmoittaa Annelille. Emmi toimii kokoonkutsujana.
+**Päätös**: Perustetaan työryhmä pohtimaan, miten toteutetaan asiakkaaksi rekisteröityminen itse. Mukaan työryhmään edustajat ainakin seuraavista kimpoista: Kirkes, Lastu, Vaski, OUTI, Vaara, Kyyti. Koha-Suomelta mukaan Emmi ja Anneli. Kimppojen edustajat voi ilmoittaa Annelille. Emmi toimii kokoonkutsujana.
 
 ### 3. Käsiteltävät kehitysehdotukset
 
