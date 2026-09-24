@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 22.9.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Hanna Hyttinen ja Auli Rantasalo (Vaara)
+Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Hanna Hyttinen ja Auli Rantasalo (Vaara), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
@@ -39,6 +39,10 @@ Pohjoisesta etelään
 **Vaara**
 * Vaarassa huomattiin, että verkkokirjaston uutuuslistalle on noussut vanhoja niteitä jotka on hankittu pitkä aika sitten. Tämä ongelma koski vain tietueita joilla yksi nide ja kyseisten niteiden tilassa oli tapahtunut joku muutos.
 * Pääkirjastolla huomattiin, että joiltakin uudemmilta asiakaspalvelupisteen koneilta puuttui varalainausjärjestelmä, mutta nyt ohjelmat on asennettu myös puuttuville koneille.
+
+**Siilinjärvi**
+* Edellisviikon palvelunestohyökkäykestä selvittiin ilmeisesti vähällä ja asiakaspalautetta on tullut tuskin lainkaan.
+* Muuten tavallista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
