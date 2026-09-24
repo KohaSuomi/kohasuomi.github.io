@@ -1062,6 +1062,346 @@ WHERE dateenrolled BETWEEN <<Added BETWEEN (yyyy-mm-dd)|date>>
 GROUP BY Agegroup
 ```
 
+### Käyttäjätunnusten käyttäjäoikeusryhmät
+
+Raportti listaa käyttäjätunnukset ja mitä "oikeusryhmiä" käyttäjillä on. Raporttiin on määritetty erilaisia oikeusryhmiä ja mitkä käyttäjäoikeudet tunnuksella pitää olla, jotta sillä katsotaan olevan jokin tietty oikeusryhmä. Käyttäjäoikeusryhmiä ovat esim. Asiakaspalvelu ja kokoelmatyö, Kuvailu, Hankinta jne. Raportti on luotu OUTI-kirjastojen käyttäjäoikeuksryhmittelyjen perusteella, mutta ryhmien nimiä ja sisältöjä pystyy tarvittaessa muokkaamaan. Oikeusryhmät luetellaan tuloksissa omassa sarakkeessaan ja niiden välissä on erotin, joka rivittää ne omille riveilleen samassa solussa, kun tiedot viedään OpenDocument-taulukkolaskenta-muotoon. Raportin perimmäisenä tarkoituksena tässä muodossaan on luoda taulukkolaskenta-muodossa olevia tiedostoja, joiden avulla esihenkilöt voivat tarkistaa omien alaistensa käyttäjäoikeudet ja ilmoittaa muutoksista Koha-pääkäyttäjille.
+
+Lisätty: 24.9.2026<br />
+Lisääjä: Anneli Österman
+
+```
+SELECT
+    b.borrowernumber,
+    CONCAT_WS(' ', b.surname, b.firstname) AS Nimi,
+    b.branchcode AS 'Kirjasto',
+    DATE_FORMAT(b.dateexpiry, "%d.%m.%Y") AS 'Viimeinen voimassaolopvm',
+
+    /* ============================================================
+       KOKONAAN TÄYTTYVÄT OIKEUSRYHMÄT
+       ============================================================ */
+
+    fg.oikeusryhmat AS 'Oikeusryhmät',
+
+    /* ============================================================
+       OIKEUDET, JOTKA EIVÄT KUULU MIHINKÄÄN KOKONAAN
+       TÄYTTYNEESEEN RYHMÄÄN
+       ============================================================ */
+
+    GROUP_CONCAT(
+        DISTINCT
+        CASE
+            WHEN fg.ryhman_oikeudet IS NULL
+                 OR FIND_IN_SET(u.oikeus, fg.ryhman_oikeudet) = 0
+            THEN u.oikeus
+        END
+        ORDER BY u.oikeus
+        SEPARATOR 0x0A
+    ) AS muut_oikeudet
+
+FROM borrowers b
+
+/* ================================================================
+   KÄYTTÄJÄN KAIKKI OIKEUDET
+   ================================================================ */
+
+LEFT JOIN
+(
+    /* Pääoikeudet */
+    SELECT
+        b1.borrowernumber,
+        CONCAT('flag-', uf.bit) AS oikeus
+    FROM borrowers b1
+    JOIN userflags uf
+        ON (COALESCE(b1.flags,0) & POW(2, uf.bit)) > 0
+
+    UNION
+
+    /* Alioikeudet */
+    SELECT
+        up.borrowernumber,
+        p.code AS oikeus
+    FROM user_permissions up
+    JOIN permissions p
+        ON p.module_bit = up.module_bit
+       AND p.code = up.code
+) u
+    ON u.borrowernumber = b.borrowernumber
+
+
+/* ================================================================
+   KOKONAAN TÄYTTYNEET RYHMÄT
+   ================================================================ */
+
+LEFT JOIN
+(
+    SELECT
+        x.borrowernumber,
+
+        GROUP_CONCAT(
+            DISTINCT x.ryhma
+            ORDER BY x.jarjestys
+            SEPARATOR 0x0A
+        ) AS oikeusryhmat,
+
+        GROUP_CONCAT(
+            DISTINCT x.oikeus
+            ORDER BY x.oikeus
+            SEPARATOR ','
+        ) AS ryhman_oikeudet
+
+    FROM
+    (
+        SELECT
+            y.borrowernumber,
+            y.ryhma,
+            y.jarjestys,
+            y.oikeus
+
+        FROM
+        (
+            SELECT
+                u2.borrowernumber,
+                g.ryhma,
+                g.jarjestys,
+                g.oikeus,
+                g.oikeuksia_yhteensa,
+
+                COUNT(*) OVER
+                (
+                    PARTITION BY
+                        u2.borrowernumber,
+                        g.ryhma
+                ) AS loytyneita_oikeuksia
+
+            FROM
+            (
+                /* =================================================
+                   KÄYTTÄJIEN OIKEUDET
+                   ================================================= */
+
+                SELECT
+                    b2.borrowernumber,
+                    CONCAT('flag-', uf2.bit) AS oikeus
+                FROM borrowers b2
+                JOIN userflags uf2
+                    ON (COALESCE(b2.flags,0) & POW(2, uf2.bit)) > 0
+
+                UNION
+
+                SELECT
+                    up2.borrowernumber,
+                    p2.code AS oikeus
+                FROM user_permissions up2
+                JOIN permissions p2
+                    ON p2.module_bit = up2.module_bit
+                   AND p2.code = up2.code
+
+            ) u2
+
+            JOIN
+            (
+                /* =================================================
+                   RYHMÄT JA NIIDEN OIKEUDET
+
+                   oikeuksia_yhteensa = ryhmän oikeuksien lukumäärä
+                   ================================================= */
+
+                /* Asiakaspalvelu ja kokoelmatyö = 21 oikeutta */
+
+                SELECT 1 AS jarjestys,
+                       'Asiakaspalvelu ja kokoelmatyö' AS ryhma,
+                       21 AS oikeuksia_yhteensa,
+                       'flag-2' AS oikeus
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'flag-4'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'flag-29'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'circulate_remaining_permissions'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'force_checkout'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'manage_restrictions'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'place_holds'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'edit_items'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'edit_any_item'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'delete_bibliographic_records'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'manual_invoice'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'remaining_permissions'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'writeoff'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'execute_reports'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'tool'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'report'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'items_batchdel'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'items_batchmod'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'create_public_lists'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'edit_public_list_contents'
+                UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö',21,'use_public_lists'
+
+                /* Asiakaspalvelu ja kokoelmatyö 2 = 19 oikeutta */
+               	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'flag-2'				
+               	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'flag-4'
+				UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'flag-10'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'flag-29'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'circulate_remaining_permissions'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'force_checkout'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'manage_restrictions'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'place_holds'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'edit_items'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'edit_any_item'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'delete_bibliographic_records'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'execute_reports'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'tool'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'report'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'items_batchdel'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'items_batchmod'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'create_public_lists'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'edit_public_list_contents'
+            	UNION ALL SELECT 1,'Asiakaspalvelu ja kokoelmatyö 2',19,'use_public_lists'
+               
+               /* Laskutus = 2 */
+                UNION ALL SELECT 2,'Laskutus',2,'flag-10'
+                UNION ALL SELECT 2,'Laskutus',2,'edit_catalogue'
+
+                /* Kuvailu = 4 */
+                UNION ALL SELECT 3,'Kuvailu',4,'flag-14'
+                UNION ALL SELECT 3,'Kuvailu',4,'advanced_editor'
+                UNION ALL SELECT 3,'Kuvailu',4,'edit_catalogue'
+                UNION ALL SELECT 3,'Kuvailu',4,'records_batchmod'
+
+                /* Hankinta = 29 */
+                UNION ALL SELECT 4,'Hankinta',29,'flag-14'
+                UNION ALL SELECT 4,'Hankinta',29,'advanced_editor'
+                UNION ALL SELECT 4,'Hankinta',29,'edit_catalogue'
+                UNION ALL SELECT 4,'Hankinta',29,'budget_add_del'
+                UNION ALL SELECT 4,'Hankinta',29,'budget_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'budget_manage_all'
+                UNION ALL SELECT 4,'Hankinta',29,'budget_modify'
+                UNION ALL SELECT 4,'Hankinta',29,'contracts_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'delete_baskets'
+                UNION ALL SELECT 4,'Hankinta',29,'delete_invoices'
+                UNION ALL SELECT 4,'Hankinta',29,'edi_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'edit_invoices'
+                UNION ALL SELECT 4,'Hankinta',29,'group_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'merge_invoices'
+                UNION ALL SELECT 4,'Hankinta',29,'order_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'order_manage_all'
+                UNION ALL SELECT 4,'Hankinta',29,'order_receive'
+                UNION ALL SELECT 4,'Hankinta',29,'period_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'planning_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'reopen_closed_invoices'
+                UNION ALL SELECT 4,'Hankinta',29,'vendors_manage'
+                UNION ALL SELECT 4,'Hankinta',29,'records_batchmod'
+                UNION ALL SELECT 4,'Hankinta',29,'check_expiration'
+                UNION ALL SELECT 4,'Hankinta',29,'claim_serials'
+                UNION ALL SELECT 4,'Hankinta',29,'create_subscription'
+                UNION ALL SELECT 4,'Hankinta',29,'delete_subscription'
+                UNION ALL SELECT 4,'Hankinta',29,'edit_subscription'
+                UNION ALL SELECT 4,'Hankinta',29,'receive_serials'
+                UNION ALL SELECT 4,'Hankinta',29,'renew_subscription'
+
+                /* Aineiston valinta = 2 */
+                UNION ALL SELECT 5,'Aineiston valinta',2,'order_manage'
+                UNION ALL SELECT 5,'Aineiston valinta',2,'order_manage_all'
+
+                /* Kausijulkaisujen vastaanotto = 3 */
+                UNION ALL SELECT 6,'Kausijulkaisujen vastaanotto',3,'claim_serials'
+                UNION ALL SELECT 6,'Kausijulkaisujen vastaanotto',3,'edit_subscription'
+                UNION ALL SELECT 6,'Kausijulkaisujen vastaanotto',3,'receive_serials'
+
+                /* Esihenkilö = 1 */
+                UNION ALL SELECT 7,'Esihenkilö',1,'flag-17'
+
+                /* Eräpäiväkalenteri = 1 */
+                UNION ALL SELECT 8,'Eräpäiväkalenteri',1,'edit_calendar'
+
+                /* Kaukolaina = 4 */
+                UNION ALL SELECT 9,'Kaukolaina',4,'flag-22'
+                UNION ALL SELECT 9,'Kaukolaina',4,'overdues_report'
+                UNION ALL SELECT 9,'Kaukolaina',4,'override_renewals'
+                UNION ALL SELECT 9,'Kaukolaina',4,'fast_cataloging'
+
+                /* Koulukirjasto-opettaja = 13 */
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'flag-2'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'circulate_remaining_permissions'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'force_checkout'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'manage_restrictions'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'edit_borrowers'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'list_borrowers'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'send_messages_to_borrowers'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'view_borrower_infos_from_any_libraries'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'edit_items'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'edit_any_item'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'items_batchdel'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'items_batchmod'
+                UNION ALL SELECT 10,'Koulukirjasto-opettaja',13,'execute_reports'
+
+                /* Oulu10-palvelupiste = 8 */
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'flag-2'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'flag-29'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'edit_borrowers'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'list_borrowers'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'send_messages_to_borrowers'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'view_borrower_infos_from_any_libraries'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'remaining_permissions'
+                UNION ALL SELECT 11,'Oulu10-palvelupiste',8,'writeoff'
+
+                /* Z Automaatti Z = 1 */
+                UNION ALL SELECT 12,'Z Automaatti Z',1,'flag-1'
+
+                /* Z API Z = 19 */
+                UNION ALL SELECT 13,'Z API Z',19,'flag-1'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-2'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-4'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-6'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-9'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-10'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-11'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-12'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-13'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-14'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-15'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-16'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-17'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-18'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-19'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-20'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-22'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-29'
+                UNION ALL SELECT 13,'Z API Z',19,'flag-30'
+
+            ) g
+                ON g.oikeus = u2.oikeus
+        ) y
+
+        /* Vain kokonaan täyttyneet ryhmät */
+        WHERE y.loytyneita_oikeuksia = y.oikeuksia_yhteensa
+
+    ) x
+
+    GROUP BY
+        x.borrowernumber
+
+) fg
+    ON fg.borrowernumber = b.borrowernumber
+
+
+WHERE
+    (
+        COALESCE(b.flags,0) > 0
+        OR u.borrowernumber IS NOT NULL
+    )
+
+    AND b.categorycode IN <<Asiakastyyppi|categorycode:in>>
+    AND b.branchcode IN <<Valitse kirjastot|branches:in>>
+
+GROUP BY
+    b.borrowernumber,
+    b.surname,
+    b.firstname,
+    b.branchcode,
+    fg.oikeusryhmat,
+    fg.ryhman_oikeudet
+
+ORDER BY
+    b.branchcode,
+    Nimi
+```
 ## Varaukset
 
 ### Tietueen varaushistoria
