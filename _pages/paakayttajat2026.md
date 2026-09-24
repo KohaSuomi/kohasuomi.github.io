@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39
 
 Aika: Ti 22.9.2026 klo 9.15<br />
-Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Katariina Pohto ja Piia Semenoff (OUTI), Janne Seppänen (Lastu), Lotta Juvonen, Kati Sillgren (Helle), Hanna Ikonen (Lumme), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/2500)
@@ -36,12 +36,16 @@ Pohjoisesta etelään
 * Viime viikolla käytetyn varalainauksen jäljiltä oli todennäköisesti Kohaan mennyt lainaan vanhoja lainoja, joissa eräpäivä oli mennyt neljä vuotta taaksepäin.
 * Kaukolainamoduuli olisi tarkoitus ottaa käyttöön syksyn aikana ja tätä aletaan pikkuhiljaa valmistelemaan.
 
+**Vaara**
+*Vaarassa huomattiin, että verkkokirjaston uutuuslistalle on noussut vanhoja niteitä jotka on hankittu pitkä aika sitten. Tämä ongelma koski vain tietueita joilla yksi nide ja kyseisten niteiden tilassa oli tapahtunut joku muutos.
+*Pääkirjastolla huomattiin, että joiltakin uudemmilta asiakaspalvelupisteen koneilta puuttui varalainausjärjestelmä, mutta nyt ohjelmat on asennettu myös puuttuville koneille.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 38
 
 Aika: Ti 15.9.2026 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Janne Seppänen (Lastu)
+Läsnä: Anneli Österman (Koha-Suomi), Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Lotta Juvonen, Kati Sillgren (Helle), Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Janne Seppänen (Lastu), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/2493)
@@ -78,12 +82,18 @@ Etelästä pohjoiseen
 **Lastu**
 * Laskuttajilta tullut toive kolmannen palautuskehotuksen ottamisesta käyttöön, eli yksi lisää ennen laskutusta. Tästä kuultu hyviä kokemuksia muualta Suomesta ja laskutukseen päätyvä aineisto on vähentynyt kun kolmas palautuskehotus muotoillaan laskun näköiseksi. Todettiin että kolmas palautuskehotus vaatisi muutoksia Kohan laskutustyökaluun, ja keskustelun pohjalta koitamme ensin muokata kahta olemassa olevaa palautuskehotusta niin, että esim. laskutettavan aineiston korvaushinnat olisivat mukana jo toisessa palautuskehotuksessa.
 
+**Vaara**
+* Normaalia ylläpitoa
+* Kassa toimii nyt normaalisti, kassan toiminta korjautui kun palveluntarjoaja lisäsi puuttuvat koodit järjestelmään 
+* Vaarassa on ollut viime viikolla hidastelua ja lyhyitä katkoja Kohassa.
+* Hanna osallistuu Koha-seminaariin paikan päällä.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-38) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 37
 
 Aika: Ti 8.9.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Anni Mäki-Mantila (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Janne Seppänen (Lastu), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Katariina Pohto ja Piia Semenoff (OUTI), Elina Uotila (Kirkes), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Syyskuun kuukausihuolto 9.9. klo 7-9](https://github.com/KohaSuomi/Koha/discussions/2475)
@@ -120,14 +130,18 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Normaalia ylläpitoa.
-* Keravalle tehty uudet automaattitunnukset. 
+* Keravalle tehty uudet automaattitunnukset.
+
+**Vaara**
+* Kassan maksujen siirtymisessä ollut ongelmaa, asiasta tehty tiketti https://github.com/KohaSuomi/Koha/issues/2478
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-37) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 36
 
 Aika: Ti 1.9.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti)
+Läsnä: Anni Mäki-Mantila (Vaski), Lotta Juvonen, Kati Sillgren (Helle), Maria Joona (Lappi), Hanna Ikonen (Lumme), Elina Uotila (Kirkes), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kassu Pohto ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Tuomas Kunttu (Kyyti), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 36 päivitys](https://github.com/KohaSuomi/Koha/discussions/2471)
@@ -159,6 +173,10 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Normaalia ylläpitoa
+
+**Vaara**
+*Vaarassa on tullut palautetta asiakkaan viestiasetusten järjestyksestä ja totesimme että jos laatikoiden järjestystä ei ole mahdollista muuttaa, meille riittäisi se että tärkeät viestiasetuksen vaihtoehdot korostettaisiin joko lihavoimalla tai erilaisella taustavärillä. Tein asiasta tiketin https://github.com/KohaSuomi/Koha/issues/2473
+*Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-36) - [Palaa sivun alkuun](/paakayttajat2026)
 
