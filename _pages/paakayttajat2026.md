@@ -37,8 +37,8 @@ Pohjoisesta etelään
 * Kaukolainamoduuli olisi tarkoitus ottaa käyttöön syksyn aikana ja tätä aletaan pikkuhiljaa valmistelemaan.
 
 **Vaara**
-*Vaarassa huomattiin, että verkkokirjaston uutuuslistalle on noussut vanhoja niteitä jotka on hankittu pitkä aika sitten. Tämä ongelma koski vain tietueita joilla yksi nide ja kyseisten niteiden tilassa oli tapahtunut joku muutos.
-*Pääkirjastolla huomattiin, että joiltakin uudemmilta asiakaspalvelupisteen koneilta puuttui varalainausjärjestelmä, mutta nyt ohjelmat on asennettu myös puuttuville koneille.
+* Vaarassa huomattiin, että verkkokirjaston uutuuslistalle on noussut vanhoja niteitä jotka on hankittu pitkä aika sitten. Tämä ongelma koski vain tietueita joilla yksi nide ja kyseisten niteiden tilassa oli tapahtunut joku muutos.
+* Pääkirjastolla huomattiin, että joiltakin uudemmilta asiakaspalvelupisteen koneilta puuttui varalainausjärjestelmä, mutta nyt ohjelmat on asennettu myös puuttuville koneille.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
@@ -175,8 +175,8 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa
 
 **Vaara**
-*Vaarassa on tullut palautetta asiakkaan viestiasetusten järjestyksestä ja totesimme että jos laatikoiden järjestystä ei ole mahdollista muuttaa, meille riittäisi se että tärkeät viestiasetuksen vaihtoehdot korostettaisiin joko lihavoimalla tai erilaisella taustavärillä. Tein asiasta tiketin https://github.com/KohaSuomi/Koha/issues/2473
-*Normaalia ylläpitoa
+* Vaarassa on tullut palautetta asiakkaan viestiasetusten järjestyksestä ja totesimme että jos laatikoiden järjestystä ei ole mahdollista muuttaa, meille riittäisi se että tärkeät viestiasetuksen vaihtoehdot korostettaisiin joko lihavoimalla tai erilaisella taustavärillä. Tein asiasta tiketin https://github.com/KohaSuomi/Koha/issues/2473
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-36) - [Palaa sivun alkuun](/paakayttajat2026)
 
