@@ -13,6 +13,31 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 40
+
+Aika: Ma 28.9. klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 40 päivitys
+
+### Viikolla 39 tehtyä
+
+# Kodo
+
+- [koha-suomi-utility#158 Timeout muutos Apachen proxy-passeihin](https://github.com/KohaSuomi/koha-suomi-utility/issues/158); Lisätty timeout kaikkiin rooleihin Kohan apache-konfiguraation ProxyPass-riveille, jotta Apache ei jää odottamaan hyytyneitä Starman-workereita. Tiketti suljettu.
+- [koha-suomi-utility#154 Starman kaatuilut](https://github.com/KohaSuomi/koha-suomi-utility/issues/154); Starmanin systemd-unitin muutettu pakottamaan uudelleenkäynnistys kaatumistapauksissa. Muutos viety tuotantoihin ja testiympäristöihin. Tiketti suljettu.
+- [koha-suomi-utility#153 Satunnaiset starman jumit](https://github.com/KohaSuomi/koha-suomi-utility/issues/153); Kirjoitettu watchdog, joka valvoo Starman- ja Apache2-prosesseja ja käynnistää Plack/Apache-sekvenssin uudelleen, jos etusivu ei vastaa määritelyn ajan sisällä. Toimii oikein ja Plack-jumien automaattinen toipuminen on käytössä. Tiketti suljettu.
+- [Koha#2509 Vaskin kirjastokorttitulostuksen toteutus](https://github.com/KohaSuomi/Koha/issues/2509); Toteutus käytiin läpi palaverissa: käytetään borrowers/statusta, integraatio-ohjeistus toimitettu Pusatecille. Seuraavaksi testaukset vaski-nextillä.
+- [Koha#2461 Kyyti/ Kotkan pääkirjasto: Uuden toimittajan varaustennoutoautomaatin integroiminen Kohaan](https://github.com/KohaSuomi/Koha/issues/2461); Laitevalmistajan suunnittelema lokerikon täyttötapa voi olla teknisesti ongelmallinen, koska SIP2-palautuksissa varaukset siirtyvät processing-tilaan holds-need-processing-asetuksen mukaisesti eivät noudettavana-tilaan. Asia on mahdollisesti ratkaistavissa automaatin konfiguraatiolla ja SIP-tunnusta viilaamalla. Seuraavaksi: selvitetään processing-tilan SIP-tunnuskohtaisuus.
+- [Koha#2358 SIP-sanomista puuttuvat AO-kentät](https://github.com/KohaSuomi/Koha/issues/2358); Vaskissa kaikki paitsi MY-alkuiset tunnukset pitäisi olla nyt kunnossa toimittajan korjausten jälkeen. Ongelmien juurisyy oli pääosin 17/18-viestiparin Item Information -sanomissa lähettävien hälytinporttien ohjelmistopuute. Seuraavaksi: Varmistetaan Vaskin AO-puuttumislistan lyhentyminen ja seurataan MY-alkuisia tunnuksia.
+- [Koha#2502 Tiedote palvelunestohyökkäyksestä 16.-17.9.2026](https://github.com/KohaSuomi/Koha/discussions/2502); 16.-17.9. palvelunestohyökkäykseen liittyvät selvitykset ja jälkihoito. Hyökkäys saatiin hallintaan torstai-aamuna, verkkoliikennettä priorisoitiin pyynnön alkuperän perusteella. Tietojen vaarantumisesta ei ole näyttöä eikä tietojen ole syytä epäillä vaarantuneen.
+- [Koha Wiki: Integration Guides](https://github.com/KohaSuomi/Koha/wiki/Integration-Guides); Integraatio-ohjeistusta täydennetty OAI-PMH:n ja verkkoliikenteen priorisoinnin osalta.
+
+
 ## Viikko 39
 
 Aika: Ma 21.9.2026 klo 9<br/>
