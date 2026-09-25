@@ -44,6 +44,12 @@ Pohjoisesta etelään
 * Edellisviikon palvelunestohyökkäykestä selvittiin ilmeisesti vähällä ja asiakaspalautetta on tullut tuskin lainkaan.
 * Muuten tavallista.
 
+**OUTI**
+* OUTI kartoittaa kaikkien kimppojen damaged-arvot. Yritämme edistää damaged-tilassa olevien niteiden näkymistä saatavana verkkokirjastossa. [Damaged-tilojen näkyminen verkkokirjastossa
+ #36](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/36)
+* Asiakas oli ottanut yhteyttä oudon varauksen noutoilmoituksen vuoksi. Ko. asiakas oli saanut päälle noutoilmoitusten koosteviestin. Tutkimme asiaa, ja löytyi 3 muuta asiakasta, joilla se oli myös päällä. Koosteet oli laitettu päälle APIn kautta, oletamme että Finna.fi:n puolella verkkokirjaston sijaan. Toivoimme näiden asetusten piilottamista Finnasta, mutta Lastun kehitysehdotus hoitaisi ongelman myös.
+
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-39) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 38
