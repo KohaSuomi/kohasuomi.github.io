@@ -27,7 +27,7 @@ Läsnä: Ari, Anneli, Kodo, Emmi, Johanna, Lari, Pasi
 
 ### Viikolla 39 tehtyä
 
-# Kodo
+#### Kodo
 
 - [koha-suomi-utility#158 Timeout muutos Apachen proxy-passeihin](https://github.com/KohaSuomi/koha-suomi-utility/issues/158); Lisätty timeout kaikkiin rooleihin Kohan apache-konfiguraation ProxyPass-riveille, jotta Apache ei jää odottamaan hyytyneitä Starman-workereita. Tiketti suljettu.
 - [koha-suomi-utility#154 Starman kaatuilut](https://github.com/KohaSuomi/koha-suomi-utility/issues/154); Starmanin systemd-unitin muutettu pakottamaan uudelleenkäynnistys kaatumistapauksissa. Muutos viety tuotantoihin ja testiympäristöihin. Tiketti suljettu.
@@ -55,6 +55,17 @@ Läsnä: Ari, Anneli, Kodo, Emmi, Johanna, Lari, Pasi
 - koha-plugin-bibframe-manager: Lisäsin vaiheen 25, jossa XSLT-muunnoksen tulos tallennetaan semanttiseen storeen. Lisäksi poistin vanhan biblio_metadata-rakenteen ja siihen liittyvät käyttämättömät toiminnot sekä nimesin muunnoksen standardiarvon arvoksi bibframe2.
 - koha-plugin-broadcast-biblios: Lisäsin README-ohjeistukseen kohdan SRU-hausta.
 - koha-suomi-utility: Lisäsin SIP2-itsepalveluliikenteen päivittäisen seurantatyökalun, joka raportoi halutun päivän tapahtumat, tulostaa raporttiin välimerkit ja soveltaa pyyntömäärän raja-arvoja asiakaskohtaisesti. Kirjautumistunnuksia verrataan case-insensitive-muassa sekä analyysissä että päivittäisessä raportissa, ja työkalu lukee myös lokien kierrätysarkistot uusimmasta vanimpaan numerojärjestyksessä. Lisäksi seuraan /var/log/koha-hakemiston virhelokeja kierrätysarkistoineen sekä SIP2-päätteiden ja salasanojen käyttöä tapahtuma-analyysin kanssa, ja vaihdoin lokien oletuspolun. Kehitys-haaraan tuli lisäksi työkalu, joka raportoi seuraavaan Koha-versioon puuttuvat ksdev-haarat, sekä prepare-upgrade hyväksyy nyt sekä GH_TOKEN- että GITHUB_TOKEN-muuttujan.
+
+#### Emmi
+
+- Versionvaihdon tiketöinti: 26x-tietovarantoon luotu tiketit tuotavista ominaisuuksista ja Koha-Suomen liitännäisistä.
+- [Bug 34671 - Collapsing fields in patron form allows saving without mandatory fields](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34671): Asiakastyyppiä vaihtaessa pakollisen asiakasmääreen tarkistus menee rikki. Korjataan yhteisön tikettiin ja tuodaan korjaus meillekin versionvaihdon yhteydessä.
+- Yhteisöön on tehty remonttia Kalenteri-työkaluun, jolla on vaikutusta myös meillä työkaluun tehtyihin korjauksiin. Tutkittu työkalujn toimivuutta.
+- [IntranetUserJS: Checkout report link: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-checkout-report-link/issues/3): Käännökset päivitetty ja viety nexteille testattavaksi. 
+- [OUTI: Muhoksen kirjaston palautusautomaatille uusi SIP-tunnus](https://github.com/KohaSuomi/Koha/issues/2503): Tunnukset lisätty palvelimelle.
+- [Kyytin testikantaan kirjastokoodit kaukolainamoduulia varten](https://github.com/KohaSuomi/Koha/issues/2340): Kyyti-nextille lisätty vielä pari kirjastokoodia.
+- Asiantuntijapalaveri 21.9.2026
+- Pääkäyttäjäpalaveri 22.9.2026
 
 ## Viikko 39
 
