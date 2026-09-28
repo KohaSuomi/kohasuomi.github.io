@@ -23,7 +23,7 @@ Läsnä: Ari, Anneli, Kodo, Emmi, Johanna, Lari, Pasi
 
 ### Muuta
 * Viikon 40 päivitys
-* Mitä tehdään keskeneräisten testattavien kanssa? Muistutellaanko tekemään testauksia?
+* String Freeze 30.10., viimeinen päivitys vk 45 / 3.11.
 
 ### Viikolla 39 tehtyä
 
