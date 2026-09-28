@@ -16,7 +16,7 @@ Aika: Ti 29.9.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 40 päivitys
+* [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2510)
 * String freeze eli tuotannon jäädytys aloitetaan marraskuussa.
   * Viimeinen tuotannon päivitys ennen versionvaihtoa tehdään viikolla 45 eli 3.11.2026.
   * Jos testattavissa on korjauksia/ominaisuuksia, jotka halutaan tuotantoon ennen versionvaihtoa, pitää ne testata ennen jäädytyksen alkua. Eli kannattaa nyt katsella testattavia sillä silmällä ja käyttää aikaa tarvittavien korjausten/muutosten testaamiseen.
