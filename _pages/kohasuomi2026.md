@@ -23,6 +23,7 @@ Läsnä:
 
 ### Muuta
 * Viikon 40 päivitys
+* Mitä tehdään keskeneräisten testattavien kanssa? Muistutellaanko tekemään testauksia?
 
 ### Viikolla 39 tehtyä
 
