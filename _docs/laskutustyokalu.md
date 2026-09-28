@@ -72,6 +72,15 @@ Korvaushinta: <<items.replacementprice>> €
 </item>
 ```
 
+#### 2.1.3 Laskuttajan nimi Finvoice-sanomassa
+
+Finvoice-sanoman kenttään *SellerOrganisationName* tulee laskuttavan kirjaston nimi. Sen voi täyttää kahdella tavalla: `<<grouplibrary>>`-tägi käyttää laskutusryhmän asetuksissa olevaa *Laskuttajan nimi* -kenttää ja `<<branches.branchname>>`-tägi puolestaan kirjaston nimeä tietokannasta.
+
+Laskutusjärjestelmissä tälle kentälle on 35 merkin kestorajoitus, joten liitännäinen lyhentää nimeä automaattisesti Finvoice-sanomaa luotaessa. Lyhennys tehdään aina samalla tavalla:
+
+1. kaikki ensimmäisestä avaus sulkumerkistä alkaen poistetaan, vaikka nimi jäisi sen jälkeen lyhyeksi,
+2. jos jäljelle jäävä nimi on yli 35 merkkiä, se katkaistaan 35 merkkiin.
+
 ### 2.2 Määritys myöhästymisilmoituksiin
 
 Myöhästymisilmoituksiin tulee määritellä sarake laskuille. Tästä asetuksesta käytetään vain viivettä, jolla haetaan laskutettava materiaali. Jos kaikilla kirjastoilla on sama viive, voi tehdä vain oletussäännön. Viestipohjakin pitää valita, koska ilman sitä tallennus ei onnistu.
