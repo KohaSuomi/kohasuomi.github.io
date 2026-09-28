@@ -40,6 +40,22 @@ Läsnä:
 - [Koha Wiki: Integration Guides](https://github.com/KohaSuomi/Koha/wiki/Integration-Guides); Integraatio-ohjeistusta täydennetty OAI-PMH:n ja verkkoliikenteen priorisoinnin osalta.
 
 
+#### Johanna
+
+- [Niteen siirtäminen kuljetettavaksi mahdolliseksi rajapinnan kautta](https://github.com/KohaSuomi/Koha/issues/1732): Tiketti minulle osoitettu. Selvitin, että siirto-rajapinta ei anna määritellä lähettäjäkirjastoa, vaan Koha ottaa sen niteen holdingbranch-kentästä.
+- [Varausten priorisointi: Uusi asetus, johon määritetään, kuinka monta kertaa varaus voidaan ohittaa](https://github.com/KohaSuomi/Koha/issues/2029): Tiketti minulle osoitettu. Tein aiheeseen liittyvän parannuksen nexteille, jonka jälkeen ohitusten määrä ei kasva enää samalla tavalla kuin aiemmin. Koha-25x-haarassa ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds kirjataan toteutuneet ohitukset ja huomioidaan uudet asetusarvot.
+- [SIP2-rajapinnan kautta palautetun niteen notforloan-tilan päivitys ennen palautusviestin muodostamista](https://github.com/KohaSuomi/Koha/issues/2040): Tiketti suljettu.
+- [Tee koha-suomi-messaging liitännäinen](https://github.com/KohaSuomi/koha-suomi-messaging/issues/9): Avasin itselleni osoitetun tiketin ja aloitin liitännäisen toteutuksen. Paikallisessa koha-plugin-KSMessaging-repossa on Pate-kirjaston tiedostot siirretty liitännäiseen, SOAP-komennot poistettu ja koodia mukautettu liitännäiseen, testit ja testisuunnitelma kirjoitettu sekä käännökset lisätty. Työ on kesken eikä sitä ole vielä julkaistu GitHubissa.
+- [Authorised values: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-authorised-values/issues/1): Tiketti minulle osoitettu ja tarkistetut käännökset sovellettu liitännäiseen. Käännökset ovat testattavana nexteillä.
+- [Borrowersstatus: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/issues/5): Tiketti minulle osoitettu ja tarkistetut käännökset sovellettu liitännäiseen. Käännökset ovat testattavana nexteillä.
+- [IntranetUserJS: ItemHistoryReportLink: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-item-history-report-link/issues/3): Tiketti minulle osoitettu, tarkistetut käännökset sovellettu ja duplikaattiset käännösavaimet yhdistetty. Käännökset ovat testattavana nexteillä.
+- [IntranetUserJS: Qslip keyboard shortcut: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-qslip-key-shortcut/issues/4): Tiketti minulle osoitettu, käännökset sovellettu ja asennussivulta poistettiin käyttämätön koodi. Käännökset asennettiin nexteille uudelleen, koska niitä ei ollut asennettu aiemmin tehdyn asennussivumuutoksen jälkeen, ja ovat nyt testattavana nexteillä.
+- [IntranetUserJS: SessionExpiryNotice: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-session-expiry-notice/issues/1): Tiketti minulle osoitettu ja tarkistetut käännökset sovellettu liitännäiseen. Käännökset ovat testattavana nexteillä.
+- [IntranetUserJS: Transfers to receive patron info to checkmark: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-transferstoreceive-patron-info-checkmark/issues/4): Tiketti minulle osoitettu. Korjasin liitännäisen nimet ja kuvaukset, poistin käyttämättömät asennusmäärittelyt ja korjasin asennussivun otsikkoerottimen. Käännökset asennettiin nexteille.
+- koha-plugin-bibframe-manager: Lisäsin vaiheen 25, jossa XSLT-muunnoksen tulos tallennetaan semanttiseen storeen. Lisäksi poistin vanhan biblio_metadata-rakenteen ja siihen liittyvät käyttämättömät toiminnot sekä nimesin muunnoksen standardiarvon arvoksi bibframe2.
+- koha-plugin-broadcast-biblios: Lisäsin README-ohjeistukseen kohdan SRU-hausta.
+- koha-suomi-utility: Lisäsin SIP2-itsepalveluliikenteen päivittäisen seurantatyökalun, joka raportoi halutun päivän tapahtumat, tulostaa raporttiin välimerkit ja soveltaa pyyntömäärän raja-arvoja asiakaskohtaisesti. Kirjautumistunnuksia verrataan case-insensitive-muassa sekä analyysissä että päivittäisessä raportissa, ja työkalu lukee myös lokien kierrätysarkistot uusimmasta vanimpaan numerojärjestyksessä. Lisäksi seuraan /var/log/koha-hakemiston virhelokeja kierrätysarkistoineen sekä SIP2-päätteiden ja salasanojen käyttöä tapahtuma-analyysin kanssa, ja vaihdoin lokien oletuspolun. Kehitys-haaraan tuli lisäksi työkalu, joka raportoi seuraavaan Koha-versioon puuttuvat ksdev-haarat, sekä prepare-upgrade hyväksyy nyt sekä GH_TOKEN- että GITHUB_TOKEN-muuttujan.
+
 ## Viikko 39
 
 Aika: Ma 21.9.2026 klo 9<br/>
