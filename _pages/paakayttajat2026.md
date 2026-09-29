@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 29.9.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski),
 
 **Yhteiset**
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2510)
@@ -22,6 +22,9 @@ Läsnä:
   * Jos testattavissa on korjauksia/ominaisuuksia, jotka halutaan tuotantoon ennen versionvaihtoa, pitää ne testata ennen jäädytyksen alkua. Eli kannattaa nyt katsella testattavia sillä silmällä ja käyttää aikaa tarvittavien korjausten/muutosten testaamiseen.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-40) - [Palaa sivun alkuun](/paakayttajat2026)
 
