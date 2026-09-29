@@ -528,7 +528,19 @@ Versio: 24.05
 li.patronattribute:nth-child(1) { font-weight: bold; }
 ```
 
+### Lihavoi asiakkaan muokkauksessa tärkeimmät viestiasetukset
 
+Tarpeellisuus: Vapaaehtoinen <br />
+Versio: 25.05
+
+```
+/* Tärkeimpien viestiasetusten lihavointi */
+body#pat_memberentrygen.pat tr#hold_filled_message { font-weight: bold; }
+body#pat_memberentrygen.pat tr#item_checkout_message { font-weight: bold; }
+body#pat_memberentrygen.pat tr#item_check_in_message { font-weight: bold; }
+body#pat_memberentrygen.pat tr#advance_notice_message { font-weight: bold; }
+body#pat_memberentrygen.pat tr#item_due_message { font-weight: bold; }
+```
 
 ## Asiakkaat-sivu
 
