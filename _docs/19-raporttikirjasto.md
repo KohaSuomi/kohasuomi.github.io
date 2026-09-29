@@ -1826,31 +1826,32 @@ join reserves using (itemnumber) where itemnumber in (select itemnumber from res
 
 ### Vanhentuneet noutamattomat varaukset
 
-Valitse kirjastoyksikkö ja päivämääräväliin viimeistä noutopäivää seuraava päivä (esim. tiistain päivämäärä, kun etsitään varauksia, joissa on ollut maanantaina viimeinen noutopäivä), koska varaukset vanhennetaan seuraavana päivänä (yöllä). Jos haluat katsoa vain yhden päivän vanhentuneet, valitse kumpaankin päivämäärään sama päivä.
+Valitse kirjastoyksikkö ja päivämääräväliin ne päivät, joiden noutamattomia varauksia haluat tarkastella.
 
-Raportti hakee ne varaukset, joissa on viimeinen noutopäivä yksi päivä aiemmin kuin vanhentumispäivä, eli mukaan tulee vain ne varaukset, joissa on vanhentumispäivää edeltävä päivä. Lista tyhjenee (kun raportti ajetaan uudelleen) sitä mukaa, kun niteet palautetaan. Varaustunnus näytetään myös anonymisoiduille varauksille.
+Raportti hakee ne varaukset, joille on merkitty poistamisen syyksi _EXPIRED_. Lista tyhjenee (kun raportti ajetaan uudelleen/päivittää) sitä mukaa, kun niteet palautetaan. Varaustunnus näytetään myös anonymisoiduille varauksille.
 
 HUOM! Raportista pitää vaihtaa _o.borrowernumber=10_ -kohtaan kimpan AnonymousPatron-järjestelmäasetuksesta löytyvä borrowernumber, jotta raportti osaa noutaa varaustunnuksen myös anonymisoiduille varauksille.
 
-Pvm: 10.6.2022 / muokattu 1.7.2022 / muokattu 22.5.2023 / muokattu 5.8.2024 / muokattu 10.11.2025 (rajataan pois kadonneet niteet) <br />
+Pvm: 10.6.2022 / muokattu 1.7.2022 / muokattu 22.5.2023 / muokattu 5.8.2024 / muokattu 10.11.2025 (rajataan pois kadonneet niteet) / uudistettu 29.9.2026 <br />
 Lisääjä: Anneli Österman
 
 
 ```
-SELECT ba.attribute as 'Varaustunnus', b.title as 'Teos', i.barcode as 'Viivakoodi', bi.itemtype as 'Aineistotyyppi', olr.cancellationdate as 'Varauksen vanhentumispäivä'
+SELECT ba.attribute AS 'Varaustunnus', CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name, b.author) AS 'Teos', i.barcode AS 'Viivakoodi', LOWER(bi.itemtype) AS 'Aineistotyyppi', DATE_FORMAT(olr.expirationdate, '%d.%m.%Y') AS 'Viimeinen noutopäivä', DATE_FORMAT(olr.cancellationdate, '%d.%m.%Y') AS 'Varauksen poistopäivä'
 FROM (SELECT IF(o.borrowernumber=10, 
-REGEXP_SUBSTR(SUBSTRING(al.info,(LOCATE("'borrowernumber' =>", al.info)+20), 8), '^[0-9]+'), o.borrowernumber) as borrowernumber, o.reserve_id, o.biblionumber, o.itemnumber, o.cancellationdate, o.expirationdate, o.found, o.branchcode FROM old_reserves o LEFT JOIN (SELECT * FROM action_logs WHERE module='HOLDS' AND action='CANCEL') al ON al.object = o.reserve_id) olr  
+REGEXP_SUBSTR(SUBSTRING(al.info,(LOCATE("'borrowernumber' =>", al.info)+20), 8), '^[0-9]+'), o.borrowernumber) as borrowernumber, o.reserve_id, o.biblionumber, o.itemnumber, o.cancellationdate, o.expirationdate, o.found, o.branchcode, o.cancellation_reason FROM old_reserves o LEFT JOIN (SELECT * FROM action_logs WHERE module='HOLDS' AND action='CANCEL') al ON al.object = o.reserve_id) olr  
 LEFT JOIN borrower_attributes ba ON (olr.borrowernumber=ba.borrowernumber)
-JOIN biblio b using (biblionumber)
-JOIN biblioitems bi using (biblionumber)
-JOIN items i using (itemnumber)
-WHERE olr.branchcode=<<Valitse kirjasto|branches>>
-AND olr.cancellationdate between <<Vanhentumispvm alkaen|date>> AND <<Vanhentumispvm päättyen|date>>
+JOIN biblio b USING (biblionumber)
+JOIN biblioitems bi USING (biblionumber)
+JOIN items i USING (itemnumber)
+WHERE olr.branchcode = <<Valitse kirjasto|branches>>
+AND olr.expirationdate BETWEEN <<Viimeinen noutopäivä alkaen|date>> AND <<Viimeinen noutopäivä päättyen|date>>
 AND olr.found='W'
-AND olr.expirationdate = (olr.cancellationdate - INTERVAL 1 DAY)
+AND olr.cancellation_reason='EXPIRED'
 AND ba.code='HOLDID'
 AND olr.cancellationdate > i.datelastseen
 AND IF(i.itemlost=1 AND i.itemlost_on IS NOT NULL AND olr.cancellationdate <= i.itemlost_on, 1=0,1=1)
+AND IF(i.datelastborrowed IS NOT NULL, olr.cancellationdate > i.datelastborrowed, 1=1)
 ORDER BY 1,2
 ```
 
