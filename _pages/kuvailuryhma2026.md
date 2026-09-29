@@ -35,7 +35,7 @@ Sihteerivuorossa Timo Väisänen.
      <li>Seuraava tilannepalaveri 17.2.2027. </li>
 	</ul>
   <li>Keskusteltiin elokuvien ja pelien 546- ja 588-kentistä. Olisiko mahdollista tehdä niin, että jätetään Kirjastopalvelun vanhemmat tietueet viemättä / yhdistämättä Melindaan kokonaan ja aloitetaan vain uusista tietueista? Nykyään Melindan elokuva- ja pelitietueet on tehty tarkemmin kuin Kirjastopalvelun, joten niissä ei haittaisi, että mahdollisissa yhdistelytapauksissa Kirjastopalvelun tietueiden 546- ja 588-kenttien tietoja ei huomioitaisi, vaan ne pudotettaisiin pois. </li>
-  <li>Ideoita Kirjastopalvelun tietueiden korjausten käsittelyyn?
+  <li>Ideoita Kirjastopalvelun tietueiden korjausten käsittelyyn? <br>
 -> Keskustelua mahdollisesta kiertävästä korjausvastuusta Koha-kimpoille: Kirjastopalvelun lähettämän viikkotiedotteen perusteella tarkistettaisiin TäTin tietueet. Jos Kirjastopalvelun korjaukset eivät ole menneet läpi, korjattaisiin itse TäTiin ja tarvittaessa Melindaan. OUTI ja Vaski voisivat aloittaa ja testata millainen työmäärä ja -tehtävä siitä tulisi. Antti selvittelee, mitä kenttiä ja tietoja Melinda erityisesti suojelee päivittämiseltä. </li>
 </ul>
 
@@ -60,7 +60,8 @@ Kysytään, olisiko Nalkutinta mahdollista saada olemaan tarttumatta 8-tason tie
 #### 5.	Koha-Suomen yhteinen tietokanta ####
 <ul>
   <li>Testausvaiheessa </li>
-  <li>Miten 001+003-kenttien korjaukset etenevät? -> Korjauksia on tehty paikalliskannoissa Kimpoissa, mutta korjattavaa vielä riittää. Antti on tehnyt TäTin korjaukset. Jonkin verran virheellisiä tuplia on vielä jäljellä. </li>
+  <li>Miten 001+003-kenttien korjaukset etenevät? <br> 
+  -> Korjauksia on tehty kimppojen paikalliskannoissa, mutta korjattavaa vielä riittää. Antti on tehnyt TäTin korjaukset. Jonkin verran virheellisiä tuplia on vielä jäljellä. </li>
 </ul>
 
 #### 6.	Kohti yhteistä metatietoa -hanke ####
