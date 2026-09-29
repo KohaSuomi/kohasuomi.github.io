@@ -9,6 +9,80 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 7/2026 ##
+
+Aika: 23.9.2026 klo 13.15–14.45
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Eeva Hulkkonen (Lastu), Pasi Hynninen (Helle), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Anna Viitanen (Vaski), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerivuorossa Timo Väisänen.
+
+#### 2.	Kirjastopalvelun tietueiden automaattinen siirtäminen Melindaan
+<ul>
+  <li>Koha-Suomi-Melinda-tilannepalaveri 10.9. </li>
+	<ul>
+ 	 <li>TäTi-putken seuraavat askeleet: </li>
+		<ul>
+           <li>Ongelmia sekakielisyyden kanssa: kuvailukieli saattaa vaihtua suomesta ruotsiksi tai toisinpäin. </li>
+           <li>Mitä tehdään tietueille, joissa 546- ja 588-kentät tuplaantuvat? Näissä ongelmana kenttien toistumisen lisäksi se, että kuvailutiedon ja tiedon kyseisen kuvailutiedon lähteestä pitäisi pysyä yhdessä. Pudotetaanko ongelmakentät vai väliaikaisesti filtteröidään tietueet? </li>
+          <li>Pitää ratkaista BTJ:n päivitystietueiden toiminta </li>
+          <li>Toinen katselmointi </li>
+		</ul>	
+     <li>Seuraava tilannepalaveri 17.2.2027. </li>
+	</ul>
+  <li>Keskusteltiin elokuvien ja pelien 546- ja 588-kentistä. Olisiko mahdollista tehdä niin, että jätetään Kirjastopalvelun vanhemmat tietueet viemättä / yhdistämättä Melindaan kokonaan ja aloitetaan vain uusista tietueista? Nykyään Melindan elokuva- ja pelitietueet on tehty tarkemmin kuin Kirjastopalvelun, joten niissä ei haittaisi, että mahdollisissa yhdistelytapauksissa Kirjastopalvelun tietueiden 546- ja 588-kenttien tietoja ei huomioitaisi, vaan ne pudotettaisiin pois. </li>
+  <li>Ideoita Kirjastopalvelun tietueiden korjausten käsittelyyn?
+-> Keskustelua mahdollisesta kiertävästä korjausvastuusta Koha-kimpoille: Kirjastopalvelun lähettämän viikkotiedotteen perusteella tarkistettaisiin TäTin tietueet. Jos Kirjastopalvelun korjaukset eivät ole menneet läpi, korjattaisiin itse TäTiin ja tarvittaessa Melindaan. OUTI ja Vaski voisivat aloittaa ja testata millainen työmäärä ja -tehtävä siitä tulisi. Antti selvittelee, mitä kenttiä ja tietoja Melinda erityisesti suojelee päivittämiseltä. </li>
+</ul>
+
+#### 3.	Nalkutin ja ennakkotietueet ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2488" target="_blank">OUTI: 008-kenttä jää liian lyhyeksi osassa Hankintaportaalista tulevista ennakkotietueista </a> </li>
+  <li>Nalkutin tarttuu kiinni ennakkotietueisiin, joissa on Marc-virheitä etenkin kiinteissä kentissä </li>
+  <li>Kehitetäänkö Nalkutinta vai pyydetäänkö / tehdäänkö parempia ennakkotietueita? </li>
+</ul>
+Kysytään, olisiko Nalkutinta mahdollista saada olemaan tarttumatta 8-tason tietueisiin. [Lisäys 24.9.: Nalkuttimessa on jo nyt asetus, jossa voi määrittää ohituksen kuvailutason mukaan, joten ongelma ratkeaa sillä toistaiseksi.]
+
+#### 4.	Kokemuksia Matrixin käytöstä kuvailijoiden välisessä viestinnässä ####
+<ul>
+  <li>Anneli esitteli Matrixin keskustelualustaa. </li>
+  <li>Oulun Teamsiin kirjautumisissa on ollut haasteita ja ongelmia, minkä vuoksi siirretään kuvailijoiden keskustelu Matrixiin. </li>
+  <ul>
+    <li>Kuvailuryhmän jäsenet lähettävät liittymisohjeet kimppansa kuvailijoille. </li>
+    <li>Kuvailijoiden keskustelualueella uudelle asialle aloitetaan uusi otsikoitu keskusteluketju. Myöhemmin tarvittaessa voidaan eri asioille perustaa omia keskustelualueita eli huoneita. </li>
+  </ul>
+</ul>
+
+#### 5.	Koha-Suomen yhteinen tietokanta ####
+<ul>
+  <li>Testausvaiheessa </li>
+  <li>Miten 001+003-kenttien korjaukset etenevät? -> Korjauksia on tehty paikalliskannoissa Kimpoissa, mutta korjattavaa vielä riittää. Antti on tehnyt TäTin korjaukset. Jonkin verran virheellisiä tuplia on vielä jäljellä. </li>
+</ul>
+
+#### 6.	Kohti yhteistä metatietoa -hanke ####
+<ul>
+  <li>Hankintadata saatu kaikista kimpoista </li>
+  <li>Kysely tulossa Koha-kirjastojen kuvailijoille ja esimiehille heti lokakuun alussa. </li>
+</ul>
+
+#### 7.	Muita asioita ####
+<ul>
+  <li>Kuulumisia Koha-seminaarista </li>
+  <ul>
+    <li><a href="https://www.youtube.com/@koha-suomi/streams" target="_blank">Koha-Suomen YouTube-kanavan live-puolelta</a> löytyvät tallenteet seminaarista. </li>
+    <li>Broomworks-esittely tulossa kimppoihin nähtäväksi. </li>
+  </ul>
+  <li>Kirjastopalvelun asiakasohjausryhmän kokous tiistaina 13.10. </li>
+</ul>
+
+#### 8. Seuraava kokous keskiviikkona 11.11. Klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 6/2026 ##
 
 Aika: 26.8.2026 klo 13.15–14.30
