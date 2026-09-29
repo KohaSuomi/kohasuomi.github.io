@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 29.9.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi),
+Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2510)
@@ -32,6 +32,10 @@ Etelästä pohjoiseen
 **Lumme**
 * Uusille harjoittelijoille tehty tunnuksia.
 * Palvelunestohyökkäyksen jälkimainingeissa oli tullut tapaus, jossa asiakkaalle oli palautuksen jälkeen mennyt sama kirja uudelleen lainaan ja hänen maksukertymänsä ei täsmännyt yhdessä Kohan ja hänen saamansa palautusmuistutuksen kanssa. Asiaa tutkitaan ja tehdään asiasta tarvittaessa tiketti.
+
+**OUTI**
+* Asiakkailta tullut Haukiputaan kirjastoon palautetta, etteivät ole saaneet varausten noutoilmoituksia tekstiviestinä. Ainakin 16.9. illalla on tullut palautetta, että tekstiviesti ei ole mennyt perille, vaikka Kohassa näkyi, että viesti on lähetenyt Kohasta. Viikolla 39 Haukiputaan kirjastossa on ainakin 3 asiakasta sanonut, ettei ole saanut tekstiviestiä. Yksi asiakas, jolle ei viesti ole mennyt, on borrowernumber=73999. Kohassa oleva epäonnistuneiden tekstiviestien raportti ei näyttänyt tavallista enempää tuloksia. Muista kirjastoista ei ole tullut palautetta viestiongelmista. 
+* Puolivälinkankaan kirjasto avattu ma 28.9.2026. Ei vaatinut Koha-tuelta suuria työponnistuksia.
 
 **Lappi**
 * Ei mitään erityistä, normaalia ylläpitoa.
