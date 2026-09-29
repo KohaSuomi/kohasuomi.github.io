@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40
 
 Aika: Ti 29.9.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
+Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2510)
@@ -32,6 +32,9 @@ Etelästä pohjoiseen
 **Lumme**
 * Uusille harjoittelijoille tehty tunnuksia.
 * Palvelunestohyökkäyksen jälkimainingeissa oli tullut tapaus, jossa asiakkaalle oli palautuksen jälkeen mennyt sama kirja uudelleen lainaan ja hänen maksukertymänsä ei täsmännyt yhdessä Kohan ja hänen saamansa palautusmuistutuksen kanssa. Asiaa tutkitaan ja tehdään asiasta tarvittaessa tiketti.
+
+**Lappi**
+* Ei mitään erityistä, normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-40) - [Palaa sivun alkuun](/paakayttajat2026)
 
