@@ -36,6 +36,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Asiakkailta tullut Haukiputaan kirjastoon palautetta, etteivät ole saaneet varausten noutoilmoituksia tekstiviestinä. Ainakin 16.9. illalla on tullut palautetta, että tekstiviesti ei ole mennyt perille, vaikka Kohassa näkyi, että viesti on lähetenyt Kohasta. Viikolla 39 Haukiputaan kirjastossa on ainakin 3 asiakasta sanonut, ettei ole saanut tekstiviestiä. Yksi asiakas, jolle ei viesti ole mennyt, on borrowernumber=73999. Kohassa oleva epäonnistuneiden tekstiviestien raportti ei näyttänyt tavallista enempää tuloksia. Muista kirjastoista ei ole tullut palautetta viestiongelmista. 
 * Puolivälinkankaan kirjasto avattu ma 28.9.2026. Ei vaatinut Koha-tuelta suuria työponnistuksia.
+* OUTIssa oltaisiin kiinnostuneita ottamaan käyttöön PIN-koodin muodostamiseen liittyvä JS-rimpsu, joka estää helposti arvattavat PIN-koodit ja määrityksistä, joka mahdollistaisi pidemmän kuin neljä numeroa pitkän olevan PIN-koodin. Kysytään määrityksiä suoraan Vaskista.
 
 **Lappi**
 * Ei mitään erityistä, normaalia ylläpitoa.
