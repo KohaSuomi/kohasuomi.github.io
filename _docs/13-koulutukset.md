@@ -62,6 +62,29 @@ Lisätty sivulle 25.8.2025
 
 ### Seminaarit ja klinikat
 
+#### Koha-seminaari 18.9.2026
+
+Koha-seminaari pidettiin Oulun keskustakirjasto Saaressa  17.-18.9.2026.
+
+* OUTI-kirjastojen kokemuksia varausjonon priorisoinnin kokeilusta / Noora Valkonen ja Katariina Pohto, Oulun kaupunginkirjasto: [Varausjonojen priorisointikokeilu.pdf](https://github.com/user-attachments/files/32898525/Varausjonojen.priorisointikokeilu.pdf)
+* Kokoelmat-välilehden muutokset Vaskissa / Mikko Liimatainen, Turun kaupunginkirjasto:
+* BIBFRAME-tilannekatsaus / Matias Frosterus, Kansalliskirjasto ja Johanna Räisä, Koha-Suomi Oy: [BIBFRAME- Matias Frosterus.pdf](https://github.com/user-attachments/files/32901345/BIBFRAME-.Matias.Frosterus.pdf) ja [BIBFRAME ja Koha - Johanna Räisä.pdf](https://github.com/user-attachments/files/32901378/BIBFRAME.ja.Koha.-.Johanna.Raisa.pdf)
+* Yhteisen kuvailutietokannan tilannekatsaus / Kodo Korkalo, Koha-Suomi Oy: [katitilanne.pdf](https://github.com/user-attachments/files/32901510/katitilanne.pdf)
+* Liittymässä mukaan Kohaan: Satakirjastot, kimpan esittely / Till Paala, Porin kaupunginkirjasto: [Satakirjastot Till Paala.pdf](https://github.com/user-attachments/files/32901594/Satakirjastot.Till.Paala.pdf)
+* Varausten noutohyllyt - Turun kokemuksia / Anni Mäki-Mantila ja Susanna Sandell, Turun kaupunginkirjasto: [Noutohyllyjen käyttöönotto Turussa.pdf](https://github.com/user-attachments/files/32901755/Noutohyllyjen.kayttoonotto.Turussa.pdf)
+* Kaukopalvelu-moduuli - Lastu-kirjastojen kokemuksia / Janne Seppänen, Lahden kaupunginkirjasto: [Kohan kaukolainamoduuli.pdf](https://github.com/user-attachments/files/32901848/Kohan.kaukolainamoduuli.pdf)
+* Tietoturvakatsaus / Kodo Korkalo, Koha-Suomi Oy: [tietoturvajuttuja.pdf](https://github.com/user-attachments/files/32901909/tietoturvajuttuja.pdf)
+* Mitä uutta tulossa ja tullut / Anneli Österman ja Ari Mäkiranta, Koha-Suomi Oy: [Uutta ja tulossa.pdf](https://github.com/user-attachments/files/32901954/Uutta.ja.tulossa.pdf)
+
+
+
+
+
+
+
+
+
+
 #### Koha-seminaari 28.11.2023
 
 Koha-seminaari pidettiin 28.11.2023 Keravan kirjastolla.
