@@ -64,7 +64,11 @@ Lisätty sivulle 25.8.2025
 
 #### Koha-seminaari 18.9.2026
 
-Koha-seminaari pidettiin Oulun keskustakirjasto Saaressa  17.-18.9.2026.
+Koha-seminaari pidettiin Oulun keskustakirjasto Saaressa  17.-18.9.2026. Alla on perjantain 18.9.2026 esitysten diasarjat. Itse esitykset löytyvät Koha-Suomen Youtube-kanavalta.
+
+[Linkki päivän ensimmäisen osion videotallenteeseen](https://youtube.com/live/00K_8lL6JL8?feature=share)
+
+[Linkki päivän toisen osion videotallenteeseen](https://youtube.com/live/ALE5QzXHpOA?feature=share)
 
 * OUTI-kirjastojen kokemuksia varausjonon priorisoinnin kokeilusta / Noora Valkonen ja Katariina Pohto, Oulun kaupunginkirjasto: [Varausjonojen priorisointikokeilu.pdf](https://github.com/user-attachments/files/32898525/Varausjonojen.priorisointikokeilu.pdf)
 * Kokoelmat-välilehden muutokset Vaskissa / Mikko Liimatainen, Turun kaupunginkirjasto:
