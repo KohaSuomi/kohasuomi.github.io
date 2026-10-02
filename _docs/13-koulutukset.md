@@ -64,14 +64,14 @@ Lisätty sivulle 25.8.2025
 
 #### Koha-seminaari 18.9.2026
 
-Koha-seminaari pidettiin Oulun keskustakirjasto Saaressa  17.-18.9.2026. Alla on perjantain 18.9.2026 esitysten diasarjat. Itse esitykset löytyvät Koha-Suomen Youtube-kanavalta.
+Koha-seminaari pidettiin Oulun keskustakirjasto Saaressa  17.-18.9.2026. Alla on perjantain 18.9.2026 esitysten diasarjat. Itse esitykset löytyvät tallenteena Koha-Suomen Youtube-kanavalta. Torstailta ei ole julkista tallennetta.
 
 [Linkki päivän ensimmäisen osion videotallenteeseen](https://youtube.com/live/00K_8lL6JL8?feature=share)
 
 [Linkki päivän toisen osion videotallenteeseen](https://youtube.com/live/ALE5QzXHpOA?feature=share)
 
 * OUTI-kirjastojen kokemuksia varausjonon priorisoinnin kokeilusta / Noora Valkonen ja Katariina Pohto, Oulun kaupunginkirjasto: [Varausjonojen priorisointikokeilu.pdf](https://github.com/user-attachments/files/32898525/Varausjonojen.priorisointikokeilu.pdf)
-* Kokoelmat-välilehden muutokset Vaskissa / Mikko Liimatainen, Turun kaupunginkirjasto:
+* Kokoelmat-välilehden muutokset Vaskissa / Mikko Liimatainen, Turun kaupunginkirjasto: [Kokoelmat-välilehden muutokset Vaskissa.pdf](https://github.com/user-attachments/files/32944097/Kokoelmat-valilehden.muutokset.Vaskissa.pdf)
 * BIBFRAME-tilannekatsaus / Matias Frosterus, Kansalliskirjasto ja Johanna Räisä, Koha-Suomi Oy: [BIBFRAME- Matias Frosterus.pdf](https://github.com/user-attachments/files/32901345/BIBFRAME-.Matias.Frosterus.pdf) ja [BIBFRAME ja Koha - Johanna Räisä.pdf](https://github.com/user-attachments/files/32901378/BIBFRAME.ja.Koha.-.Johanna.Raisa.pdf)
 * Yhteisen kuvailutietokannan tilannekatsaus / Kodo Korkalo, Koha-Suomi Oy: [katitilanne.pdf](https://github.com/user-attachments/files/32901510/katitilanne.pdf)
 * Liittymässä mukaan Kohaan: Satakirjastot, kimpan esittely / Till Paala, Porin kaupunginkirjasto: [Satakirjastot Till Paala.pdf](https://github.com/user-attachments/files/32901594/Satakirjastot.Till.Paala.pdf)
