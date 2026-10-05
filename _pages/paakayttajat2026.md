@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
 * [Yhteiset testitietokannat työn alla](https://github.com/KohaSuomi/Koha/issues/2505)
+* Koha-seminaarin pe 18.9.2026 diasarjat ja linkit tallenteisiin on nyt lisätty Koha-Suomen verkkosivuille: Ohjeita -> Koulutukset -> Seminaarit ja klinikat -> Koha-seminaari 18.9.2026. [Tässä myös suora linkki](https://koha-suomi.fi/dokumentaatio/koulutukset/#koha-seminaari-1892026). 
 
 Pohjoisesta etelään
 
