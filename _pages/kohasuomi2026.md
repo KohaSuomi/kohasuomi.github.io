@@ -29,7 +29,6 @@ Läsnä: Emmi, Johanna, Pasi, Lari, Anneli
 
 ### Viikolla 40 tehtyä
 
-
 #### Johanna
 
 - [KohaSuomi/Koha - Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563): RTHQ ja cron käyttävät samaa funktiota, joten myös ne huomioivat priorisoinnin. Tein listan huomioitavista asetuksista RTHQ:n osalta. Korjattu myös kadonneiden nimikkeiden puuttuminen (KOHA-2090) nexteillä.
@@ -41,6 +40,16 @@ Läsnä: Emmi, Johanna, Pasi, Lari, Anneli
 - [KohaSuomi/koha-suomi-utility - Palvelimen auditointi skriptit](https://github.com/KohaSuomi/koha-suomi-utility/issues/159): Lisätty palvelimen auditointiskriptit ja audit-analysoija. Tiketti suljettu.
 - [KohaSuomi/koha-plugin-KSMessaging](https://github.com/KohaSuomi/koha-plugin-KSMessaging/commits/main): Työstetty viestiliitännäistä (Suomi.fi-integraatio, asetukset, käännökset, testit, dokumentointi). Useita commiteja.
 - [KohaSuomi/kohasuomi.github.io - Bug 0039: Dokumentoi laskuttajan nimi Finvoice-sanomassa](https://github.com/KohaSuomi/kohasuomi.github.io/commit/6691205d3a63cc9576c136eaba091f864138c001): Dokumentointikorjaus.
+
+#### Emmi
+
+- [Bug 34671 - Collapsing fields in patron form allows saving without mandatory fields](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34671): Lomakkeen validoinnissa edelleen ongelmia, jos asiakastyypin vaihtaa kesken asiakkaan luonnin.
+- [Takaajan muutos ei lokitu #2491](https://github.com/KohaSuomi/Koha/issues/2491): Työ aloitettu ja uusi lokitus viety yhteisöön testattavaksi. Odotellaan hetki sieltä palautetta ja katsotaan sitten missä vaiheessa tuodaan meillekin.
+- [Kaukopalvelu: ILLRequestsTabs-asetus ei ota huomioon ILL_STATUS_ALIAS-auktorisoituja arvoja #2152](https://github.com/KohaSuomi/Koha/issues/2152): Tutkittu ja havaittu kaksi ongelmaa:
+  - Alkuperäinen ongelma testattu yhteisössä, auktorisoiduilla arvoilla ei pysty suodattamaan. Tästä on tehty tiketti [Bug 41854 - Could ILLRequestsTabs take authorized values from ILL_STATUS_ALIAS-settings into account?](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41854).
+  - Edellisen lisäksi todettu ettei suodatus toimi muillakaan arvoilla oikein, [Bug 40892 - ILL tab with no requests shows all instead](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=40892). Tikettiin avattu ongelman juurisyy ja ehdotettu yhteisölle, että sivussa olevassa suodatus valikossa tulisi näkyä kaikki tilat kerralla. Odotellaan hetki tuleeko tähän kommentteja. 
+- [Tilit-näkymän Avaa kaikki / Supista kaikki -painikkeet eivät toimi #2425](https://github.com/KohaSuomi/Koha/issues/2425): Tutkittu ongelmaa. Todettu, että painikkeet toimivat kyllä oikein, mutta ne piilottavat vain alitilit (joiden käyttö meillä taitaa olla vähäistä). Anneli teki yhteisöön tiketin, jossa ehdotettiin painikkeiden nimien muuttamista ja tein siihen patchin. Meidän tikettiin ehdotettu, että jos kaikki tilit halutaan piilottumaan, tulisi tehdä kehitysehdotus.
+- [IntranetUserJS: Checkout report link: Käännökset tarvitaan #3](https://github.com/KohaSuomi/koha-plugin-intranetjs-checkout-report-link/issues/3): Käännökset päivitetty vielä kerran ja viety nexteille testattavaksi.
 
 ## Viikko 40
 
