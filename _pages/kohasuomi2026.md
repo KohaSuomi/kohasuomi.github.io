@@ -16,7 +16,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 41
 
 Aika: Ma 5.10. klo 9<br/>
-Läsnä:
+Läsnä: Emmi, Johanna, Pasi, Lari, Anneli
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
@@ -25,7 +25,7 @@ Läsnä:
 * Viikon 41 päivitys
 * Päivystysvuorot viikosta 42 alkaen
 * Versionvaihdon tikettien vastuutus
-  * Toimitaanko kuten edellisinä vuosina, jokainen käy ottamassa omansa tietyn ajan kuluessa ja katsotaan jäljelle jääneet yhdessä. 
+  * Jokainen käy ottamassa omansa vko 42 loppuun mennessä ja katsotaan jäljelle jääneet yhdessä vkon 43 viikkopalaverissa. 
 
 ### Viikolla 40 tehtyä
 
