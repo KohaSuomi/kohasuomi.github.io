@@ -36,13 +36,12 @@ Läsnä:
 - [KohaSuomi/Koha - Tietueiden siirto Melindaan takkuaa](https://github.com/KohaSuomi/Koha/issues/2256): Lisätty ohjeistus virheilmoituksista Broadcast-biblios-liitännäisen wikiin.
 - [KohaSuomi/Koha - Uusi kaukolainapyyntö lomakkeelta katoaa Lisäkentät, jos asiakkaan kortin lukee tassulla](https://github.com/KohaSuomi/Koha/issues/2466): Tiketti suljettu.
 - [KohaSuomi/Koha - Palautus-kenttä jää varausikkunan alle aktiiviseksi silloin, kun käytössä on noutohyllyt](https://github.com/KohaSuomi/Koha/issues/2489): Korjaus nexteillä.
-- [KohaSuomi/koha-plugin-broadcast-biblios - Broadcast biblios: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/20): Liitännäisen nimi lisätty ruotsinkäännökseen.
 - [KohaSuomi/koha-plugin-intranetjs-search-helpers - Haku-apurin dokumentointi](https://github.com/KohaSuomi/koha-plugin-intranetjs-search-helpers/issues/1): Ohjeistus lisätty liitännäisen README-tiedostoon.
 - [KohaSuomi/koha-plugin-overdue-tool - Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39): Ohjeistus lisätty laskutustyökalun dokumentaatioon.
 - [KohaSuomi/koha-suomi-utility - Palvelimen auditointi skriptit](https://github.com/KohaSuomi/koha-suomi-utility/issues/159): Lisätty palvelimen auditointiskriptit ja audit-analysoija. Tiketti suljettu.
 - [KohaSuomi/koha-plugin-KSMessaging](https://github.com/KohaSuomi/koha-plugin-KSMessaging/commits/main): Työstetty viestiliitännäistä (Suomi.fi-integraatio, asetukset, käännökset, testit, dokumentointi). Useita commiteja.
-- [KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commits/master): Kehitetty auditointityökaluja ja parannettu fetch-build-and-deploy.sh-tiedostoa (GitHub token -tuki, virheiden näyttö, token-only fetch, stashing ennen checkoutia).
 - [KohaSuomi/kohasuomi.github.io - Bug 0039: Dokumentoi laskuttajan nimi Finvoice-sanomassa](https://github.com/KohaSuomi/kohasuomi.github.io/commit/6691205d3a63cc9576c136eaba091f864138c001): Dokumentointikorjaus.
+
 ## Viikko 40
 
 Aika: Ma 28.9. klo 9<br/>
