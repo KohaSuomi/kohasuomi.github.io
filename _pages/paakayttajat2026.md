@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), 
 
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
@@ -21,6 +21,12 @@ Läsnä:
 * Koha-seminaarin pe 18.9.2026 diasarjat ja linkit tallenteisiin on nyt lisätty Koha-Suomen verkkosivuille: Ohjeita -> Koulutukset -> Seminaarit ja klinikat -> Koha-seminaari 18.9.2026. [Tässä myös suora linkki](https://koha-suomi.fi/dokumentaatio/koulutukset/#koha-seminaari-1892026). 
 
 Pohjoisesta etelään
+
+**Lappi** 
+* Lapin kirjaston yhteisrekisterinpitäjyyssopimus työn alla, työtä vetää Rovaniemen tietohallinto ja tietosuojavastaava. 
+* Paytrailin maksu ei ole siirtynyt Kohaan, selvitettävä miten Rovaniemellä toimitaan maksun suhteen. 
+* Muuten normaalia ylläpitoa
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-41) - [Palaa sivun alkuun](/paakayttajat2026)
 
