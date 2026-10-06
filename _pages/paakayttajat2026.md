@@ -27,7 +27,7 @@ Pohjoisesta etelään
 ## Viikko 40
 
 Aika: Ti 29.9.2026 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Lauri Hänninen (Lastu)
+Läsnä: Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Maria Joona, Leena Kinnunen ja Pia Kusmin (Lappi), Lotta Juvonen, Kati Sillgren (Helle), Erika Miettinen ja Elina Uotila (Kirkes), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Lauri Hänninen (Lastu), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 40 päivitys](https://github.com/KohaSuomi/Koha/discussions/2510)
@@ -63,6 +63,10 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Nidehaun jaettavan linkin ongelmat, esim. tilat ja räätälöidyt hakuehdot rikkoutuvat. Testataan tulevassa testiversiossa ja tiketöidään viimeistään sitten mikäli edelleen rikki.
+
+**Vaara**
+* Tuotantoon lisätty asiakasviestin ilmoitusasetukset taulukkoon boldaukset riveille, jotka haluttiin helpommin huomattaviksi.
+* Normaalia ylläpitoa
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-40) - [Palaa sivun alkuun](/paakayttajat2026)
