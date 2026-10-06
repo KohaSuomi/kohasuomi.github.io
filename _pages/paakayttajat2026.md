@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), 
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
@@ -26,6 +26,11 @@ Pohjoisesta etelään
 * Lapin kirjaston yhteisrekisterinpitäjyyssopimus työn alla, työtä vetää Rovaniemen tietohallinto ja tietosuojavastaava. 
 * Paytrailin maksu ei ole siirtynyt Kohaan, selvitettävä miten Rovaniemellä toimitaan maksun suhteen. 
 * Muuten normaalia ylläpitoa
+
+**OUTI**
+* Käyttäjältä tuli ihmettelyä, kun saksalaisesta s-kirjainmerkistä ß:stä signum-liitännäinen muodostaa kaksi tavallista s:ää, jolloin pääsanaan tulee neljä kirjainta pääsanasta, esim. tekijästä Neßhöver, Nanna. Tiketti: https://github.com/KohaSuomi/Koha/issues/2519 
+
+
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-41) - [Palaa sivun alkuun](/paakayttajat2026)
