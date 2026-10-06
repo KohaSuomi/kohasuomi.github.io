@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
@@ -28,7 +28,11 @@ Pohjoisesta etelään
 * Muuten normaalia ylläpitoa
 
 **OUTI**
-* Käyttäjältä tuli ihmettelyä, kun saksalaisesta s-kirjainmerkistä ß:stä signum-liitännäinen muodostaa kaksi tavallista s:ää, jolloin pääsanaan tulee neljä kirjainta pääsanasta, esim. tekijästä Neßhöver, Nanna. Tiketti: https://github.com/KohaSuomi/Koha/issues/2519 
+* Käyttäjältä tuli ihmettelyä, kun saksalaisesta s-kirjainmerkistä ß:stä signum-liitännäinen muodostaa kaksi tavallista s:ää, jolloin pääsanaan tulee neljä kirjainta pääsanasta, esim. tekijästä Neßhöver, Nanna. Tiketti: https://github.com/KohaSuomi/Koha/issues/2519
+
+**Siilinjärvi**
+* Ei mainittavaa
+* Odotetaan kiinnostuneena Kyytin kokemuksia Hankintakanavasta
 
 
 
