@@ -2140,10 +2140,12 @@ ORDER BY r.borrowernumber
 Tällä työkalulla voi tarkastella mitä lokitietoja varauksesta on syntynyt. Päivämäärärajaus on pakollinen, ja yksilöivistä tiedoista täytyy syöttää vähintään yksi, muuten raportti ei anna mitään tietoja. Raportilla siistitään myös tuota action_logsin datan esitysmuotoa hieman luettavampaan muotoon.
 
 Raportin toimintaa varten täytyy luoda uusi auktorisoitu arvo REPORT_RESERVE_TABLES näillä arvoilla:
-|Arvo|Kuvaus|
-|---|---|
-|old_reserves|vanhentuneita, poistettuja tai noudettuja|
-|reserves|voimassa|
+
+Arvo: old_reserves
+Kuvaus: vanhentuneita, poistettuja tai noudettuja
+
+Arvo: reserves
+Kuvaus: voimassa
 
 Lisääjä: Janne Seppänen<br/>
 Pvm: 7.10.2026
