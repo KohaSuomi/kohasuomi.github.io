@@ -2135,6 +2135,80 @@ HAVING COUNT(r.biblionumber) >1
 ORDER BY r.borrowernumber
 ```
 
+### Varausten lokitietojen tarkastelutyökalu
+
+Tällä työkalulla voi tarkastella mitä lokitietoja varauksesta on syntynyt. Päivämäärärajaus on pakollinen, ja yksilöivistä tiedoista täytyy syöttää vähintään yksi, muuten raportti ei anna mitään tietoja. Raportilla siistitään myös tuota action_logsin datan esitysmuotoa hieman luettavampaan muotoon.
+
+Raportin toimintaa varten täytyy luoda uusi auktorisoitu arvo REPORT_RESERVE_TABLES näillä arvoilla:
+|Arvo|Kuvaus|
+|---|---|
+|old_reserves|vanhentuneita, poistettuja tai noudettuja|
+|reserves|voimassa|
+
+Lisääjä: Janne Seppänen<br/>
+Pvm: 7.10.2026
+
+```
+SELECT
+    al.timestamp AS 'Aikaleima',
+    CONCAT_WS(" ", b.firstname, b.surname) AS 'Varauksen vaiheen tekijä',
+    al.action AS 'Tapahtuma',
+	REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(al.info, "{ ", ""), "}", ""), ",", "<br>" ), "' => ", ": "), "$VAR1 = {", ""), "'", ""),"          ", "")," ", "&nbsp;"),";", "") AS 'Varauksen tiedot',
+    CASE 
+        WHEN al.interface = 'intranet' THEN 'Virkailijaliittymä'
+        WHEN al.interface = 'sip' THEN 'Automaatti'
+        WHEN al.interface = 'api' THEN 'Finna'
+        WHEN al.interface = 'opac' THEN 'Itsepalvelu'
+        ELSE 'Ei tietoa'
+    END AS 'Tapahtuman lähde',
+    REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(al.diff, ":{", "</b><br>"), '"', ""), "D</b><br>", "<b>"), "},", "<br><b>"), "{", ""), "}", ""), "O:", "Vanha arvo: "), "N:", "Uusi arvo: "), ",", "<br>"), " ", "&nbsp;") AS 'Muutokset',
+    COALESCE(r.reserve_id, orr.reserve_id) AS 'Varauksen id',
+	COALESCE(r.itemnumber, orr.itemnumber) AS itemnumber,
+    COALESCE(r.borrowernumber, orr.borrowernumber) AS borrowernumber,
+    COALESCE(r.biblionumber, orr.biblionumber) AS biblionumber
+FROM
+	action_logs al
+LEFT JOIN 
+	reserves r ON al.object = r.reserve_id AND <<Haetaan varauksia, jotka ovat|REPORT_RESERVE_TABLES>> = 'reserves'
+LEFT JOIN 
+	old_reserves orr ON al.object = orr.reserve_id AND <<Haetaan varauksia, jotka ovat|REPORT_RESERVE_TABLES>> = 'old_reserves'
+LEFT JOIN 
+	borrowers b	ON b.borrowernumber = al.user
+WHERE 	
+	al.module = 'HOLDS'
+AND		
+	(b.categorycode IN ('VIRKAILIJA', 'AUTOM', 'API') OR al.user = 0)
+AND 	
+	(r.reserve_id IS NOT NULL OR orr.reserve_id IS NOT NULL)
+AND 	
+	al.timestamp BETWEEN <<Alkupäivä|date>> AND <<Loppupäivä|date>>    
+AND 
+	(<<Haetaan varauksia, jotka ovat|REPORT_RESERVE_TABLES>> != 'reserves'
+    OR (
+    	(<<Asiakkaan ID>> = '' OR r.borrowernumber = <<Asiakkaan ID>>)
+    	AND (<<Tietuenumero>> = '' OR r.biblionumber = <<Tietuenumero>>)
+        AND (<<Varauksen ID>> = '' OR r.reserve_id = <<Varauksen ID>>)
+        AND (<<Nidenumero>> = '' OR r.itemnumber = <<Nidenumero>>)
+	)
+)
+AND 
+	(<<Haetaan varauksia, jotka ovat|REPORT_RESERVE_TABLES>> != 'old_reserves'
+    OR (
+        (<<Asiakkaan ID>> = '' OR orr.borrowernumber = <<Asiakkaan ID>>)
+        AND (<<Tietuenumero>> = '' OR orr.biblionumber = <<Tietuenumero>>)
+        AND (<<Varauksen ID>> = '' OR orr.reserve_id = <<Varauksen ID>>)
+        AND (<<Nidenumero>> = '' OR orr.itemnumber = <<Nidenumero>>)
+	)
+)
+AND (
+    <<Asiakkaan ID>> != ''
+    OR <<Tietuenumero>> != ''
+    OR <<Varauksen ID>> != ''
+    OR <<Nidenumero>> != ''
+)
+
+ORDER BY al.timestamp
+```
 
 ## Kokoelma
 
