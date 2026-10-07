@@ -641,6 +641,71 @@ WHERE i.completed IS NOT NULL
 AND EXISTS (SELECT 1 from biblio b WHERE b.biblionumber = i.biblio_id)
 ```
 
+### Kaukolainojen tarkastusraportti
+
+Listaa kaukolainat lähettävän kirjaston perusteella esim. laskujen tarkastamista varten.
+
+Pvm: 7.10.2026<br />
+Lisääjä: Janne Seppänen
+
+```
+SELECT
+	CONCAT('<a href=\"/cgi-bin/koha/ill/ill-requests.pl?op=illview&illrequest_id=',i.illrequest_id,'">', i.illrequest_id ,'</a>') AS Kaukolainatilaus, 
+	b.title AS 'Nimeke',
+	b.author AS 'Tekijä',
+    i.updated AS 'Viimeksi päivitetty',
+    ia.value AS 'Lähettävä kirjasto',
+    CASE 
+    	WHEN i.status = 'REQ' THEN 'Pyydetty'
+        WHEN i.status = 'NEW' THEN 'Uusi pyyntö'
+        WHEN i.status = 'COMP' THEN 'Suljettu'
+        END AS 'Tila',
+    av.lib AS 'Tilan tarkennus'
+FROM 
+	illrequests i
+JOIN 
+	illrequestattributes ia ON ia.type = 'Lähettävä kirjasto' AND ia.illrequest_id = i.illrequest_id
+JOIN 
+	biblio b ON b.biblionumber = i.biblio_id
+LEFT JOIN
+	(select * from authorised_values where category='ILL_STATUS_ALIAS') av on (i.status_alias = av.authorised_value)
+WHERE
+	i.placed >= NOW() - INTERVAL 12 MONTH
+AND
+	ia.value = <<Lähettävä kirjasto>> 
+
+
+UNION ALL
+
+SELECT
+	CONCAT('<a href=\"/cgi-bin/koha/ill/ill-requests.pl?op=illview&illrequest_id=',i.illrequest_id,'">', i.illrequest_id ,'</a>') AS Kaukolainatilaus, 
+	b.title AS 'Nimeke',
+	b.author AS 'Tekijä',
+    i.updated AS 'Viimeksi päivitetty',
+    ia.value AS 'Lähettävä kirjasto',
+    CASE 
+    	WHEN i.status = 'REQ' THEN 'Pyydetty'
+        WHEN i.status = 'NEW' THEN 'Uusi pyyntö'
+        WHEN i.status = 'COMP' THEN 'Suljettu'
+        END AS 'Tila',
+    av.lib AS 'Tilan tarkennus'
+FROM 
+	illrequests i
+JOIN 
+	illrequestattributes ia ON ia.type = 'Lähettävä kirjasto' AND ia.illrequest_id = i.illrequest_id
+JOIN 
+	deletedbiblio b ON b.biblionumber = i.deleted_biblio_id
+LEFT JOIN
+	(select * from authorised_values where category='ILL_STATUS_ALIAS') av on (i.status_alias = av.authorised_value)
+WHERE 
+	i.placed >= NOW() - INTERVAL 12 MONTH
+AND
+	ia.value = <<Lähettävä kirjasto>> 
+ORDER BY 
+	4 DESC
+```
+
+
 ## Asiakkaat ja tunnukset
 
 
