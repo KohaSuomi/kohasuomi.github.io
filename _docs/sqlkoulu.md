@@ -65,10 +65,14 @@ Lausetta rakentaessa kannattaa ensin miettiä mikä on päätaulu, eli mitä tie
 Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2022-10.06.2022, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
 
 ```
-SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus'
+SELECT b.surname AS 'Sukunimi', 
+b.firstname AS 'Etunimi', 
+a.amountoutstanding AS 'Maksun määrä',
+a.description AS 'Kuvaus'
 FROM borrowers b
 JOIN accountlines a on b.borrowernumber = a.borrowernumber
-WHERE a.amountoutstanding != 0 AND date(a.date) BETWEEN '2022-06-01' AND '2022-06-10' ORDER BY date DESC;
+WHERE a.amountoutstanding != 0 AND date(a.date) BETWEEN '2022-06-01' AND '2022-06-10' 
+ORDER BY date DESC;
 ```
 
 Kannattaa myös katsoa ensin [Koha-yhteisön raporttikirjastosta](https://wiki.koha-community.org/wiki/SQL_Reports_Library) onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
