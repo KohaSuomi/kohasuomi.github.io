@@ -2938,6 +2938,53 @@ LEFT JOIN biblio_metadata bm ON bm.biblionumber=R.biblionumber
 WHERE R.host_f001 IS NOT NULL
 AND S.biblionumber IS NULL
 ```
+
+### Listan paikalla olevat niteet sijaintikirjaston mukaan
+
+Raportilla voi hakea kaikki tietyssä pisteessä olevat jonkin Kohan listan niteet, eli esim. tietyn luokka-asteen diplomiin kuuluvat kirjat jotka ovat hyllyssä, tasapainotuksen avuksi. Listan numero lukee osoiterivillä viimeisenä kohdassa ”shelfnumber=XXX” kun katsot listaa Kohassa.
+
+Lisätty: 7.10.2026<br />
+Lisääjä: Janne Seppänen
+
+
+```
+SELECT 		i.itemcallnumber AS 'Signum', 
+			b.author AS 'Tekijä',
+            CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'">',CONCAT_WS(' ',b.title, b.subtitle, b.part_name, b.part_number,'</a>')) AS Nimeke, 
+            b.copyrightdate AS 'Julkaisuvuosi',
+            i.ccode AS 'Kokoelma',
+            i.sub_location AS 'Hyllytarkenne',
+            i.itemnumber, 
+            i.barcode AS 'Viivakoodi', 
+            i.datelastseen AS 'Viimeksi nähty', 
+            i.datelastborrowed AS 'Viimeksi lainattu',
+            COUNT(DISTINCT s1.datetime) AS 'Lainoja tässä pisteessä 12kk aikana',
+            COUNT(DISTINCT s2.datetime) AS 'Kokonaislainaus 12kk aikana',
+            (IFNULL(issues,0)+IFNULL(renewals,0)) AS 'Niteen kokonaislainaus'
+FROM 		items i
+LEFT JOIN 	biblio b USING (biblionumber)
+INNER JOIN	virtualshelfcontents vsc USING (biblionumber)
+LEFT JOIN	biblioitems bi USING (biblionumber)
+LEFT JOIN	statistics s1 
+            ON i.itemnumber = s1.itemnumber 
+            AND s1.type IN ('issue', 'renew') 
+            AND s1.datetime >= DATE_SUB(CURDATE(), INTERVAL 12 MONTH)
+            AND s1.branch = i.holdingbranch
+LEFT JOIN   statistics s2 
+            ON i.itemnumber = s2.itemnumber 
+            AND s2.type IN ('issue', 'renew') 
+            AND s2.datetime >= DATE_SUB(CURDATE(), INTERVAL 12 MONTH)
+WHERE 		i.holdingbranch = <<Valitse sijaintikirjasto|branches>>
+AND 		vsc.shelfnumber = <<Listan numero (shelfnumber)>> 
+AND 		i.onloan IS NULL
+AND			i.notforloan = 0
+AND			i.itemlost = 0
+AND			NOT EXISTS (SELECT 1 FROM branchtransfers bt WHERE bt.itemnumber = i.itemnumber AND bt.datearrived IS NULL AND bt.datecancelled IS NULL)
+AND 		NOT EXISTS (SELECT 1 FROM reserves r WHERE r.itemnumber = i.itemnumber AND r.found = 'W')
+GROUP BY	i.itemnumber
+ORDER BY	i.itemcallnumber, b.author, b.title, b.subtitle, i.enumchron
+```
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
