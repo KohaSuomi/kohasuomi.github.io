@@ -26,6 +26,16 @@ Läsnä:
 * Versionvaihdon tikettien vastuutus
   * Jokainen käy ottamassa omansa vko 42 loppuun mennessä ja katsotaan jäljelle jääneet yhdessä vkon 43 viikkopalaverissa. 
 
+### Viikolla 41 tehtyä
+
+#### Emmi
+
+- [Bug 34671 - Collapsing fields in patron form allows saving without mandatory fields](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34671): Tiketissä havaittu ongelma asiakastyypin vaihtuessa kesken asiakkaan luonnin korjattu. Samalla yksinkertaisettu korjauksen koodia.
+- [Bug 34142 - Add column sub_location to items table ](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34142): Tiketissä mainittuja QA-ongelmia korjattu. Havaittu, että osassa Kokoelmat-taulun sarakkeissa ongelmia filtteröinnin kanssa yhteisön main-kehityshaaraassa. Todettu myös, että hyllypaikalla suodatus ei toimi next-kannoissa. Harkittava onko hyllypaikka erotettava omaksi sarakkeekseen.
+- [Bug 43753 - Filtering Shelving location and Collection in Holdings table uses authorized value code instead of description](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43753): Ongelmaa tutkittu, todettu ettei ole helppo korjata. Odotellaan tarttuuko joku yhteisössä tähän.
+- [Bug 43653 - Show or hide collapse/show controls on funds page based on state ](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43653): Tiketti testattu ja sign offattu.
+- KohaCon 2026 esitysten seuraaminen
+
 ## Viikko 41
 
 Aika: Ma 5.10. klo 9<br/>
