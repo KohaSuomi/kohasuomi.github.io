@@ -18,6 +18,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
+* [Lokakuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/2524)
 * Hyllytarkenne
   * Voidaanko hyllytarkenne eriyttää omaksi sarakkeekseen Kokoelmat-taulussa?
 
