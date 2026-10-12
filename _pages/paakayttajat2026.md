@@ -21,6 +21,7 @@ Läsnä:
 * [Lokakuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/2524)
 * Hyllytarkenne
   * Voidaanko hyllytarkenne eriyttää omaksi sarakkeekseen Kokoelmat-taulussa?
+* Vahvalla tunnistautumisella asiakkaaksi rekisteröitymisen työryhmä. Onko kaikki halukkaat ilmoittautuneet?
 
 Etelästä pohjoiseen
 
