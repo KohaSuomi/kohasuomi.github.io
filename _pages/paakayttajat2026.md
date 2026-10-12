@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Anneli Österman ja Johanna Räisä (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Anneli Österman ja Johanna Räisä (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
@@ -52,7 +52,10 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa.
 
 **Kirkes**
-* Normaalia ylläpitoa. 
+* Normaalia ylläpitoa.
+
+**Vaara**
+*Normaalia ylläpitoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-41) - [Palaa sivun alkuun](/paakayttajat2026)
