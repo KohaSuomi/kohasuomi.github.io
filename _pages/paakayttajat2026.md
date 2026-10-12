@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+
+## Viikko 42
+
+Aika: Ti 13.10.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 42 päivitys
+* Hyllytarkenne
+  * Voidaanko hyllytarkenne eriyttää omaksi sarakkeekseen Kokoelmat-taulussa?
+
+Etelästä pohjoiseen
+
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
