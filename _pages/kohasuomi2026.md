@@ -41,7 +41,7 @@ Läsnä:
 - [KohaSuomi/Koha - Varausten priorisointi](https://github.com/KohaSuomi/Koha/issues/1563): Kommentoitu, että asia kannattaa nostaa erilliseksi tiketiksi, jossa priorisointia havainnollistetaan tarkemmin. Todettu lisäksi, että nykyisessä toteutuksessa on selvästi häikkää. Kiitokset testituloksista, jotka auttoivat paljon.
 - [KohaSuomi/Koha - Lumme: Suomi.fi-viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2160): Tiketti suljettu, Suomi.fi-viestit on otettu tuotantokäyttöön.
 - [KohaSuomi/Koha - Palauta-nappi melkein kadonnut tietueen muutoslokilta](https://github.com/KohaSuomi/Koha/issues/2450): Tiketti suljettu.
-- [KohaSuomi/Koha - Palautus-kenttä jää varausikkunan alle aktiiviseksi silloin, kun käytössä on noutohyllyt](https://github.com/KohaSuomi/Koha/issues/2489): Korjaus viety nexteille, jossa Palautus-kenttä lukitaan varaus löydetty -ikkunan ollessa auki. Selvitettiin, että aiemman korjauksen ([#2362](https://github.com/KohaSuomi/Koha/issues/2362)) yhteydessä palautuskenttä oli revennyt, ja pyydettiin testaamaan molemmat tapaukset sekä käymään muutkin modaalit läpi.
+- [KohaSuomi/Koha - Palautus-kenttä jää varausikkunan alle aktiiviseksi silloin, kun käytössä on noutohyllyt](https://github.com/KohaSuomi/Koha/issues/2489): Korjaus viety nexteille, jossa Palautus-kenttä lukitaan varaus löydetty -ikkunan ollessa auki. Selvitettiin, että aiemman korjauksen ([#2362](https://github.com/KohaSuomi/Koha/issues/2362)) yhteydessä palautuskenttä oli mennyt rikki, ja pyydettiin testaamaan molemmat tapaukset sekä käymään muutkin modaalit läpi.
 - [KohaSuomi/Koha - RTHQ ei jaa niteitä noutokirjaston varaukselle, vaikka nide on siellä vapaana](https://github.com/KohaSuomi/Koha/issues/2521): Tiketti avattu ja otettu vastuulle.
 - [KohaSuomi/Koha - RTHQ ei huomioi LocalHoldsPriority-rajoituksia](https://github.com/KohaSuomi/Koha/issues/2523): Analysointia varten tehty skriptit, joilla seurattiin miten prioriteettirajoitukset ohjautuvat. Epäilty ongelma välimuistissa; pyydettiin testaamaan tilannetta uudestaan LocalHoldsPriority asetuksen ollessa päällä.
 - [KohaSuomi/koha-plugin-KSMessaging - Tallenna Suomi.fi-sähköpostilaatikon tila asiakaskohtaisesti (SUOMIFIMB)](https://github.com/KohaSuomi/koha-plugin-KSMessaging/issues/1): Tiketti avattu ja otettu vastuulle.
@@ -49,6 +49,7 @@ Läsnä:
 - [KohaSuomi/rfid-harava - Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti avattu ja otettu vastuulle.
 - [KohaSuomi/koha-plugin-bibframe-manager](https://github.com/KohaSuomi/koha-plugin-bibframe-manager/commits/main): Viikon aikana kehitettiin BIBFRAME Manageria: XSLT-muunnokset tallennetaan semanttiseen varastoon, MARC 240 -alkuperäinen otsikko säilytetään, semanttiseen yhteenvetoon lisättiin toimijat ja standarditunnukset, korjattiin JSON-serialisoinnin päättymätön rekursio sekä API-vastaus karsittiin määrittelemättömistä kentistä. Lisäksi lisättiin esimerkkiset API-pyynnöt.
 - [KohaSuomi/koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commits/development): Lisättiin holdsqueue-aiheisille testiskriptit ja korjattiin niiden toimintaa.
+- KohaCon 2026 esityksien seuraamista.
 
 ## Viikko 41
 
