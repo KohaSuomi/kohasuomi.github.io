@@ -17,11 +17,13 @@ Aika: Ti 13.10.2026 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 42 päivitys
+* [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
 * Hyllytarkenne
   * Voidaanko hyllytarkenne eriyttää omaksi sarakkeekseen Kokoelmat-taulussa?
 
 Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 41
 
