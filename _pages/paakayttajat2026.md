@@ -36,7 +36,7 @@ Etelästä pohjoiseen
 ## Viikko 41
 
 Aika: Ti 6.10.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Anneli Österman ja Johanna Räisä (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Hanna Hyttinen (Vaara)
+Läsnä: Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Kassu Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Anneli Österman ja Johanna Räisä (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Hanna Hyttinen (Vaara), Janne Seppänen (Lastu)
 
 **Yhteiset**
 * [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/2518)
@@ -65,7 +65,11 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa.
 
 **Vaara**
-*Normaalia ylläpitoa.
+* Normaalia ylläpitoa.
+
+**Lastu**
+* Pohdittu uuden kirjastoyksikön perustamista Lahteen kirjastoauton varastolle ja tiedusteltiin käytäntöjä muualta, jotta nähtäisiin reaaliajassa mitkä niteet ovat oikeasti kirjastoauton kyydissä
+* Muuten normaalia ylläpitoa
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-41) - [Palaa sivun alkuun](/paakayttajat2026)
