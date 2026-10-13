@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), 
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
@@ -24,6 +24,10 @@ Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miet
 * Vahvalla tunnistautumisella asiakkaaksi rekisteröitymisen työryhmä. Onko kaikki halukkaat ilmoittautuneet?
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Satakirjastoista Pertti Karjalainen työvaihdossa Turussa tämän viikon, tutustuu Kohaan ja pääkäyttäjien työskentelyyn.
+* Kyseltiin, onko kannatusta kehitysehdotukselle, jossa tietue-sivulle lisättäisiin tieto aktiviisten varausten määrästä. Muut kimpat kannattivat, Mikko teki tiketin https://github.com/KohaSuomi/Koha/issues/2527.
 
 **Lastu**
 * Viety kolme uutta raporttia raporttikirjastoon:
