@@ -14,13 +14,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
 * [Lokakuun huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/2524)
 * Hyllytarkenne
   * Voidaanko hyllytarkenne eriyttää omaksi sarakkeekseen Kokoelmat-taulussa?
+  * Päätös: voidaan eriyttää
 * Vahvalla tunnistautumisella asiakkaaksi rekisteröitymisen työryhmä. Onko kaikki halukkaat ilmoittautuneet?
 
 Etelästä pohjoiseen
