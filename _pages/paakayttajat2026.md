@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
@@ -30,6 +30,11 @@ Etelästä pohjoiseen
   * [Kaukolainojen tarkastusraportti](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#kaukolainojen-tarkastusraportti)
   * [Varausten lokitietojen tarkastelutyökalu](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#varausten-lokitietojen-tarkasteluty%C3%B6kalu)
   * [Listan paikalla olevat niteet sijaintikirjaston mukaan](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#listan-paikalla-olevat-niteet-sijaintikirjaston-mukaan)
+ 
+**Lappi**
+* Tieto- ja kaunoluokka fasetit lisätty vihdoin.
+* Damaged-arvojen siivousta.
+* Muutoin normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
 
