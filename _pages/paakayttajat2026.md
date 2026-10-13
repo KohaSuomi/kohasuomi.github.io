@@ -50,6 +50,7 @@ Etelästä pohjoiseen
 
 **Siilinjärvi**
 * Saatu tarjous verkkokirjaston tekoälyavustajan käyttöönotosta, neuvottelut ensi viikolla.
+* Ei muuta mainittavaa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
