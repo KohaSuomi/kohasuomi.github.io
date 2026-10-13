@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), 
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 * Tieto- ja kaunoluokka fasetit lisätty vihdoin.
 * Damaged-arvojen siivousta.
 * Muutoin normaalia ylläpitoa.
+
+  **Kirkes**
+   * Aikakauslehtien parissa työskentelevältä tullut kysymys lehtinumeroiden näkymisestä tiedonhaussa. Kirkes-Kohassa esim. Vauhdin maailma -lehtitietueella lehdet ovat järjestyneet niin, että ylimpänä ovat Keravan kaikki vuonna 2026 saapuneet numerot ja sen jälkeen Tuusulan kaikki numerot. Lehtinumeroiden pitäisi järjestyä niin, että ylimpänä olisivat kaikkien kirjastojen numerot hankinnan käsittelypäivän mukaan numerojärjestyksessä. Lehdet järjestyvät niteen "Julkaistu" -sarakkeen päivämäärän mukaan, joka kuitenkin esimerkiksi Vauhdin maailman niteillä Erikan tutkimusten perusteella vaikutti oikealta. Jos lehden numeroa muuttaa sen sijaan, että lisäisi numeron "Ohita numeroita"-toiminnolla, voi tällä olla vaikutusta myös tulevien lehtien numerointiin. Tutkitaan vielä asiaa.
+   * Virkailija kysynyt, voisiko Koha hyllyvarausta palautettaessa huomauttaa, jos nide on jo noutokirjastossaan hyllyssä. Asia on ollut keskustelun aiheena jo aiemmin ja on todettu, että sitä ei lähdetä edistämään. Varausten priorisointi voisi olla tärkeämpi kehittämisen kohde. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
 
