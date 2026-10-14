@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
@@ -52,6 +52,9 @@ Etelästä pohjoiseen
 * Saatu tarjous verkkokirjaston tekoälyavustajan käyttöönotosta, neuvottelut ensi viikolla.
 * Ei muuta mainittavaa.
 
+**Kyyti**
+* Mistä näkee edellisen lainaajan, kun old_issues-taulussa oli Anonyymi Tilastoasiakas? - Statistics-taulusta.
+* Kyselin OKM-pluginin [tiketistä 26](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/26). Ehtiikö se valmiiksi ennen tuotannon jäädytystä? Se kuitenkin vaikuttaa jo kuluvan vuoden tilastoihin niissä kimpoissa, joissa kaukolainaosio on ollut tämän vuoden jo käytössä. Tarvittaisi toinen testaaja. Kirkes ilmoittautui.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
 
