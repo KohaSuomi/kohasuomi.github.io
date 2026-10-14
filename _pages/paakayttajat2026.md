@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
@@ -59,6 +59,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Kuntiin on annettu tehtäväksi korjata Kassun tekemän raportin avulla virheelliset signumit, jotka eivät tarttuneet signumien muutosajoon, joka tehtiin OUTIssa kesäkuun alussa.
 * Onkohan nykyisen asiakasvarmenteen voimassaoloaika vielä selvinnyt? Oulussa suunnitellaan varmenteen automaattista asennusta käyttäjille Istekin toimesta.
+
+**Vaara**
+*Normaalia ylläpitoa
+*Vaarassa oli tullut kysymystä hyllyvarauslistan tarkemmasta suodatuksesta koskien tiettyjä toimipisteitä ja hyllypaikkoja, tämän hetkinen suodatus ei kerro suoraan niteen tarkkaa hyllypaikkaa jos nidettä on saatavissa useissa kirjastoissa eri hyllypaikoilla. Vaarassa mietittiin nide huomautuksen mahdollista käyttöä koskien pääkirjaston varaston niteitä, jotta ne olisi helpompi suodattaa näkyviin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-42) - [Palaa sivun alkuun](/paakayttajat2026)
 
