@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
