@@ -59,6 +59,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Kuntiin on annettu tehtäväksi korjata Kassun tekemän raportin avulla virheelliset signumit, jotka eivät tarttuneet signumien muutosajoon, joka tehtiin OUTIssa kesäkuun alussa.
 * Onkohan nykyisen asiakasvarmenteen voimassaoloaika vielä selvinnyt? Oulussa suunnitellaan varmenteen automaattista asennusta käyttäjille Istekin toimesta.
+* Uusi varausten priorisoinnin testijakso 27.10. alkaen. Jakson kesto 4 viikkoa, mutta voidaan keskeyttää aikaisemmin jos vaikuttaa vielä liikaa verkkokirjaston toimintaan.
 
 **Vaara**
 *Normaalia ylläpitoa
