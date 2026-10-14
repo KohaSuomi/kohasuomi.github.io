@@ -645,7 +645,7 @@ AND EXISTS (SELECT 1 from biblio b WHERE b.biblionumber = i.biblio_id)
 
 Listaa kaukolainat lähettävän kirjaston perusteella esim. laskujen tarkastamista varten.
 
-Pvm: 7.10.2026<br />
+Pvm: 14.10.2026<br />
 Lisääjä: Janne Seppänen
 
 ```
@@ -672,7 +672,7 @@ LEFT JOIN
 WHERE
 	i.placed >= NOW() - INTERVAL 12 MONTH
 AND
-	ia.value = <<Lähettävä kirjasto>> 
+	ia.value LIKE <<Lähettävä kirjasto>>
 
 
 UNION ALL
@@ -700,7 +700,7 @@ LEFT JOIN
 WHERE 
 	i.placed >= NOW() - INTERVAL 12 MONTH
 AND
-	ia.value = <<Lähettävä kirjasto>> 
+	ia.value LIKE <<Lähettävä kirjasto>> 
 ORDER BY 
 	4 DESC
 ```
