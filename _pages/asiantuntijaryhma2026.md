@@ -28,6 +28,43 @@ Finnaan on lisätty uusi aineistotyyppi Palapeli. Onko tarvetta lisätä se myö
 
 Palapelien aineistotyypin päättely Finnassa: 000/06 arvo r (=esine) ja/tai 008/33 arvo g (=peli) + 655 ‡a palapelit
 
+### 3. Tiekartan uudistus
+
+Koha-seminaarissa syyskuussa pohdittiin tiekartan uudistamista nykyisestä excel-muodosta helpommin seurattavaan ja päivitettävämpään muotoon. Myös tiekartan sisältöä halutaan samalla päivittää.
+
+Vaski-kirjastolaiset ehdottivat korvaavaksi muodoksi Githubin projekti-toimintoa, johon liitetään seurattavien asioiden tiketit. Tiketeille annetaan projektissa erilaisia tiloja sen mukaan, miten asia on edistynyt. Ehdotus koettiin kokeilemisen arvoiseksi ja selkeäksi.
+
+Koha-seminaarissa käytiin ryhmissä läpi nykyiset tiekartalla olevat kehityskohteet ja jatkoon ehdotettiin seuraavia:
+
+* Vahvalla tunnistautumisella asiakkaaksi rekisteröityminen
+* Asiakastietojen haku ja automaattinen päivitys VTJ:n muutosrajapinnasta
+* Asiakkaille helppo tapa tehdä kaukolainapyyntöjä muista Koha-kirjastoista tai "mistä tahansa" (esim. Varastokirjasto)
+* Kokoelmien tasapainottaminen
+* Varausjonon optimointi
+* Hyllyvarausraporttien optimointi
+* Kausijulkaisu-moduulin uudistaminen vastaamaan Suomen tarvetta
+* Yhteinen bibliografinen tietokanta, ei paikallisia tietokantoja
+* Toimintalokien auditoinnit
+* Tilastojen automaattinen siirto OKM:n järjestelmään
+* Yhteinen kuvailutietueiden tietovaranto
+
+
+Uusiksi ehdotettin ainakin seuraavia:
+
+* Tietoturva-auditointi ulkopuolisen toimesta
+* BIBFRAME
+* Hyllyssä/Saatavuus-rajaus
+* Osakohde/emokohde-haku niin että haku tuottaa tulokseksi emokohteen, kun haetaan osakohteita
+* Jos on keksitty erilaisia robotiikka/automatiikkaa toiminnoissa, aktiivisesti jakoon muille. PowerAutomate yms.
+* Kielimallien hyödyntäminen
+* Harava ja RFID jatkokehitys
+* Aineiston massakäsittely
+* Virtuaalinen kirjastokortti
+* Sähköisen viestinnän lisääminen, esim Suomi.fi-viestien käytön lisääminen, kunta-applikaatiot, verkkokirjasto viestintäkanavana
+* Käyttäjän salasanan ja PIN-koodin erottaminen toisistaan
+
+
+
 
 ### Käsiteltävät kehitysehdotukset
 
