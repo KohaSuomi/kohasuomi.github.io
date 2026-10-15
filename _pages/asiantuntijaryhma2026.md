@@ -66,6 +66,13 @@ Uusiksi ehdotettin ainakin seuraavia:
 
 [Alustava versio uudesta Tiekartta-projektista](https://github.com/orgs/KohaSuomi/projects/23)
 
+Mietittävä:
+* mitä tavotteita / otsikkotasoja tarvitaan
+* mitä statuksia / tiloja
+* tarvitaanko muita määritteitä
+* minkälaisia näkymiä tarvitaan
+* mitkä nykyisistä tiketeistä kytketään uuteen projektiin
+
 ### Käsiteltävät kehitysehdotukset
 
 * [Järjestelmäasetus verkkokirjastoon välitettävien asiakkaan viestiasetusten määrittämiseen #2504](https://github.com/KohaSuomi/Koha/issues/2504)
