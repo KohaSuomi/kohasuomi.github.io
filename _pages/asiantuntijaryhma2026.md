@@ -64,7 +64,7 @@ Uusiksi ehdotettin ainakin seuraavia:
 * Käyttäjän salasanan ja PIN-koodin erottaminen toisistaan
 
 
-
+[Alustava versio uudesta Tiekartta-projektista](https://github.com/orgs/KohaSuomi/projects/23)
 
 ### Käsiteltävät kehitysehdotukset
 
