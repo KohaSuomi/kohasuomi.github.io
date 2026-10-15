@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Ajankohtaiset
 
+Kuulumiset KohaConista
+
 ### 2. Finnan lisätty uusi aineistotyyppi Palapeli
 
 Finnaan on lisätty uusi aineistotyyppi Palapeli. Onko tarvetta lisätä se myös meidän yhteisiin aineistotyyppeihin (MTYPE)?
