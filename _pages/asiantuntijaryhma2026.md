@@ -15,6 +15,32 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2025 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 9/2026
+
+Aika: Maanantai 26.10.2026 klo 13<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Finnan lisätty uusi aineistotyyppi Palapeli
+
+Finnaan on lisätty uusi aineistotyyppi Palapeli. Onko tarvetta lisätä se myös meidän yhteisiin aineistotyyppeihin (MTYPE)?
+
+Palapelien aineistotyypin päättely Finnassa: 000/06 arvo r (=esine) ja/tai 008/33 arvo g (=peli) + 655 ‡a palapelit
+
+
+### Käsiteltävät kehitysehdotukset
+
+* [Järjestelmäasetus verkkokirjastoon välitettävien asiakkaan viestiasetusten määrittämiseen #2504](https://github.com/KohaSuomi/Koha/issues/2504)
+* [Arkistoitujen taulujen säilytysaika #2506](https://github.com/KohaSuomi/Koha/issues/2506)
+* [Asiakkaan tiedoista Varaukset-välilehdeltä puuttuu tieto tila-sarakkeesta, jos varaus on käsiteltävänä #2508](https://github.com/KohaSuomi/Koha/issues/2508)
+* [Aktiivisten varausten näyttäminen tietuesivulla #2527](https://github.com/KohaSuomi/Koha/issues/2527)
+
+
+### Muut asiat
+
+### Seuraava kokous
+
 ## Muistio 8/2026
 
 Aika: Maanantai 21.9.2026 klo 9 <br />
