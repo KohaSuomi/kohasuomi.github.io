@@ -83,9 +83,13 @@ Mietittävä:
 * [Aktiivisten varausten näyttäminen tietuesivulla #2527](https://github.com/KohaSuomi/Koha/issues/2527)
 
 
-### 5. Muut asiat
+### 5. Koha-Suomen palvelukuvaus
 
-### 6. Seuraava kokous
+Koha-Suomen palvelukuvaus: [Koha-Suomi Oy palvelukuvaus.pdf](https://github.com/user-attachments/files/33537621/Koha-Suomi.Oy.palvelukuvaus.pdf)
+
+### 6. Muut asiat
+
+### 7. Seuraava kokous
 
 ## Muistio 8/2026
 
