@@ -69,6 +69,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Johanna, Pasi
 - [koha-suomi-utility#166 /mnt/onsite/\[kontti\] konew:ssä tarvitsee elasticsearchin](https://github.com/KohaSuomi/koha-suomi-utility/issues/166); elasticsearchin varmuuskopiorepositorion luonti lisätty konew:hön uusien kontien luonnissa ja bin-hakemistoja siivottu. Tiketti suljettu.
 - [koha-suomi-utility#167 Skelin tarkastus var/svar-hakemistojen osalta](https://github.com/KohaSuomi/koha-suomi-utility/issues/167); veljenpoikien koha-conf.xml:n pluginipolut vaihdettu osoittamaan /svar/lib/plugins.
 - [koha-suomi-utility#169 Huoltoyhteydet epävakaiden nettiyhteyksien läpi](https://github.com/KohaSuomi/koha-suomi-utility/issues/169); moshin korvikkeeksi vibe-koodattu piss (Poor Internet Secure Shell), joka kaiuttaa näppäimet paikallisesti "confidence-gatedetusti" ja sietää paremmin pitkiä latensseja ja hidasta tiedonsiirtoa; yhteyksien katkeiluun ja IP-muutoksiin varaudutaan screenillä/tmuxilla. Seuraavaksi: kokeilu käytännön huoltoyhteyksissä.
+- [koha-suomi-utility#168 Palvelinten kellojen viisarit vinksottaa](https://github.com/KohaSuomi/koha-suomi-utility/issues/168); Kelloissa on 5–22 sekunnin heittoja kimpoittain, koska UDP:n sulkemisen vuoksi kellot eivät synkronoidu NTP-palvelimilta. Ratkaisuvaihtoehtoja operaattorin NTP, UDP:n avaaminen tietyille palvelimille, udp2raw-tunnelointi, HTTPS-synkkaus. Tutkitaan lisää.
 
 ## Viikko 42
 
