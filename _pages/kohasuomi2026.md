@@ -25,6 +25,32 @@ Läsnä:
 * Viikon 43 päivitys
 * Versionvaihdon tikettien vastuutus
 
+### Viikolla 42 tehtyä
+
+#### Johanna
+
+- [KohaSuomi/Koha-26x - Sotuteekki - koha-plugin-ssn-provider](https://github.com/KohaSuomi/Koha-26x/issues/112): Kommentoitu, että liitännäisen siirtäessä voitaisiin käyttää koha-plugin-ssn-providerin tikettiä [#9](https://github.com/KohaSuomi/koha-plugin-ssn-provider/issues/9) koskevia testivastauksia.
+- [KohaSuomi/Koha-26x - Tietuesiirtäjä - koha-plugin-broadcast-biblios](https://github.com/KohaSuomi/Koha-26x/issues/114): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Send messages to Suomi.fi and iPost - koha-plugin-KSMessaging Public](https://github.com/KohaSuomi/Koha-26x/issues/116): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - CSP käyttöön palvelimilla koha-conf.xml-asetuksiin](https://github.com/KohaSuomi/Koha-26x/issues/117): Tiketti avattu ja vastuutettu.
+- [KohaSuomi/Koha-26x - Do not allow script tags in Koha news - ksdev/ks-0037-K25-202-no-scripts-in-additional-contents](https://github.com/KohaSuomi/Koha-26x/issues/15): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - GetSuomiFiMessages - ksdev/ks-0054-K25-suomifi-messages](https://github.com/KohaSuomi/Koha-26x/issues/19): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Taululukon vaihtaminen proccessing-tilaan viestiä luodessa - ksdev/ks-0134-bug-35734-message-queue-table-lock](https://github.com/KohaSuomi/Koha-26x/issues/28): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Sivutus tietueen Varaukset-sivulle - ksdev/ks-0015-bug-23269-holds-page-REST](https://github.com/KohaSuomi/Koha-26x/issues/3): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Kuljetusten hallinta RESTin kautta - ksdev/ks-0254-bug-35722-create-item-transfer-rest-api](https://github.com/KohaSuomi/Koha-26x/issues/49): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Varausten priorisointi - ksdev/ks-0274-on-0243-KOHA-1563-prioritize-holds](https://github.com/KohaSuomi/Koha-26x/issues/57): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - EDItX-plugin - koha-plugin-editx](https://github.com/KohaSuomi/Koha-26x/issues/81): Tiketti vastuutettu.
+- [KohaSuomi/Koha-26x - Import remote biblios - koha-plugin-import-remote-biblios](https://github.com/KohaSuomi/Koha-26x/issues/82): Tiketti vastuutettu.
+- [koha-plugin-editx - Editx: Toistetut tilaukset eivät yhdisty, koska ISBN-täsmätyksessä haetaan vain ensimmäinen tunniste](https://github.com/KohaSuomi/koha-plugin-editx/issues/17): Tiketti avattu ja vastuutettu. Korjaus tehty ja testattu; liittyy tikettiin [#18](https://github.com/KohaSuomi/koha-plugin-editx/issues/18), jossa päätettiin täsmätä myös vanhat 10-merkkiset ISBN-tunnukset.
+- [koha-plugin-editx - Vanhojen 10-merkkiä pitkien ja uusien 13-merkkiä pitkien isbn-tunnusten täsmäyttäminen](https://github.com/KohaSuomi/koha-plugin-editx/issues/18): Tiketti vastuutettu. Korjaus tehty ja testattu.
+- [koha-plugin-editx - Vaihda XML::Simple moduuli toiseen.](https://github.com/KohaSuomi/koha-plugin-editx/issues/19): Tiketti avattu ja vastuutettu. XML::Simple korvattu XML::LibXML:llä hankinta-asetusten käsittelyssä (KPEDX-19).
+- [koha-plugin-editx](https://github.com/KohaSuomi/koha-plugin-editx/commits/master): ISBN-täsmäystä laajennettu kattamaan kaikki tunnisteet ja molemmat ISBN-muodot (KPEDX-17, KPEDX-18). Lisätty palvelinpuolen fixture-skripti ja testit ISBN-automatch-skenaarioille, seedatuille tietueille lisätty MARC-tietue ja ks25-haara yhdistetty.
+- [koha-plugin-KSMessaging - Vaihda XML::Simple moduuli toiseen.](https://github.com/KohaSuomi/koha-plugin-KSMessaging/issues/3): Tiketti avattu ja vastuutettu. XML::Simple korvattu toisella moduulilla liitännäisessä.
+- [koha-plugin-ssn-provider - Testivastaukset kun on kytketty testiympäristöön.](https://github.com/KohaSuomi/koha-plugin-ssn-provider/issues/9): Kommentoitu, että testivastaukset voitaisiin tehdä versionvaihdon yhteydessä.
+- [koha-suomi-utility - Selainturvallisuus: selainlaajennusten rajoittaminen](https://github.com/KohaSuomi/koha-suomi-utility/issues/163): Tiketti avattu ja saman viikon aikana suljettu.
+- [koha-suomi-utility - Skelin tarkastus var/svar-hakemistojen osalta](https://github.com/KohaSuomi/koha-suomi-utility/issues/167): Kommentoitu, että Tupun, Hupun ja Lupun polut vaihdettu osoittamaan oikeaan.
+- [rfid-harava - Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Asiaa tutkittu tarkemmin ja julkaistu [versio 1.1](https://github.com/KohaSuomi/rfid-harava/releases/tag/v1.1).
+- [rfid-harava](https://github.com/KohaSuomi/rfid-harava/commits/main): Korjattu RFID-tunnisteiden purkuvirheet palaamalla None-arvolla virheen sijaan, lisätty purkujen ja viestijaon testistö sekä estetty viivakoodien uudelleenpyyntöjen kautta raporttirajapinnan liian usein kutsuminen. Julkaisuprosessia kehitetty: versio nostettu 1.1:een, changelog ja julkaisumuistiinpannot, Windows-käännös GitHub Actionsissa sekä julkaisuskriptin korjaukset. Dokumentaatioon lisätty v1.0:n käyttöohjeet.
 
 ## Viikko 42
 
