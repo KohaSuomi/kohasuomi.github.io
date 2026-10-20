@@ -24,7 +24,7 @@ Pohjoisesta etelään
 **Vaara**
 * normaalia ylläpitoa
 
-* **Vaski**
+**Vaski**
 * normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-43) - [Palaa sivun alkuun](/paakayttajat2026)
