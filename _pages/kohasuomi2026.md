@@ -24,6 +24,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Johanna, Pasi
 ### Muuta
 * Viikon 43 päivitys
 * Versionvaihdon tikettien vastuutus
+  * Käydään läpi myöhemmin kun kaikki ovat paikalla. 
 
 ### Viikolla 42 tehtyä
 
@@ -70,6 +71,15 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Johanna, Pasi
 - [koha-suomi-utility#167 Skelin tarkastus var/svar-hakemistojen osalta](https://github.com/KohaSuomi/koha-suomi-utility/issues/167); veljenpoikien koha-conf.xml:n pluginipolut vaihdettu osoittamaan /svar/lib/plugins.
 - [koha-suomi-utility#169 Huoltoyhteydet epävakaiden nettiyhteyksien läpi](https://github.com/KohaSuomi/koha-suomi-utility/issues/169); moshin korvikkeeksi vibe-koodattu piss (Poor Internet Secure Shell), joka kaiuttaa näppäimet paikallisesti "confidence-gatedetusti" ja sietää paremmin pitkiä latensseja ja hidasta tiedonsiirtoa; yhteyksien katkeiluun ja IP-muutoksiin varaudutaan screenillä/tmuxilla. Seuraavaksi: kokeilu käytännön huoltoyhteyksissä.
 - [koha-suomi-utility#168 Palvelinten kellojen viisarit vinksottaa](https://github.com/KohaSuomi/koha-suomi-utility/issues/168); Kelloissa on 5–22 sekunnin heittoja kimpoittain, koska UDP:n sulkemisen vuoksi kellot eivät synkronoidu NTP-palvelimilta. Ratkaisuvaihtoehtoja operaattorin NTP, UDP:n avaaminen tietyille palvelimille, udp2raw-tunnelointi, HTTPS-synkkaus. Tutkitaan lisää.
+
+#### Emmi
+
+- [Bug 34142 - Add column sub_location to items table](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34142): Sovittu pääkäyttäjien kanssa, että hylllytarkenne eriytetään omaksi sarakkeekseen. Tehdään muutos yhteisöön ja tuodaan meille versionvaihdon yhteydessä.
+- [Kirkes: kaukolainamoduuli toimimaan myös nextillä](https://github.com/KohaSuomi/Koha/issues/2528): Tunnukset lisätty palvelimelle.
+- Versionvaihdon tikettien tekemistä valmiiksi paikallisesti, jotta ne voidaan viedä nexteille testattavaksi.
+- Uusien testikantojen ongelmien selvittelyä.
+- Pääkäyttäjäpalaveri 13.10.2026
+- Yhteisöpalaveri 14.10.2026
 
 ## Viikko 42
 
