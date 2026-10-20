@@ -13,11 +13,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 20.10.2026 klo 9.15<br />
-Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi)
+Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/2534)
-* next-kantojen siirto versioon 26.05 on aloitettu
+* next-kantojen siirto versioon 26.05 on aloitettu. Kaikkia kantoja ei voida tehdä kerralla, vaan tietokannat jaetaan kahteen erään.
 
 Pohjoisesta etelään
 
