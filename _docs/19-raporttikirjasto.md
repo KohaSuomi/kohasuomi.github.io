@@ -4410,7 +4410,7 @@ OKM-liitännäisen käyttämä kysely muuttettu sellaiseen muotoon, että sen vo
 
 fiction-, musical-, ja celia-sarakkeita pitää lukea niin, että jos sarakkeen arvo on 1, niin tietue on kaunoa jne.
 
-Tekijä: Emmi Takkinen
+Tekijä: Emmi Takkinen<br />
 Pvm: 13.1.2025
 
 ```
@@ -4422,6 +4422,30 @@ AND bde.itemtype NOT IN ("ALEHTI", "KAUSIJULK", "SLEHTI")
 AND i.notforloan not in ("-1")
 AND i.homebranch = <<Kotikirjasto|branches>>
 GROUP BY itemnumber
+```
+
+### Vastaanotettujen niteiden käsittelyaika
+
+Raportti hakee niteille hankintapäivän ja ensimmäisen käsittelyn, joista voi laskea kauanko lainauskuntoon laittaminen on kestänyt.
+
+Tekijä: Mikko Liimatainen<br />
+Pvm: 20.10.2026
+
+```
+SELECT i.itemnumber
+, i.biblionumber
+, i.dateaccessioned AS saapumispäivä
+, (SELECT MIN(s.datetime) FROM statistics s WHERE s.itemnumber = i.itemnumber) AS 'ensimmäinen_havainto'
+, (SELECT bi.itemtype FROM biblioitems bi WHERE bi.biblionumber = i.biblionumber) AS aineistolaji
+, (SELECT bde.primary_language FROM koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde WHERE bde.biblionumber = i.biblionumber) AS kieli
+, i.cn_sort
+, i.location AS hyllypaikka
+, aqo.datereceived AS 'hankinnan_saapumispäivä'
+FROM items i
+LEFT JOIN aqorders_items aqi ON aqi.itemnumber = i.itemnumber
+LEFT JOIN aqorders aqo ON aqo.ordernumber = aqi.ordernumber
+WHERE i.homebranch = 'TUPK'
+  AND i.dateaccessioned >= '2025-01-01'
 ```
 
 ## Lehtitilaukset
