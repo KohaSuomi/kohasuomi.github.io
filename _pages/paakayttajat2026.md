@@ -13,13 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 20.10.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/2534)
 * next-kantojen siirto versioon 26.05 on aloitettu
 
 Pohjoisesta etelään
+
+**Vaara**
+* normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-43) - [Palaa sivun alkuun](/paakayttajat2026)
 
