@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43
 
 Aika: Ti 20.10.2026 klo 9.15<br />
-Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski)
+Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/2534)
@@ -26,6 +26,9 @@ Pohjoisesta etelään
 
 **Vaski**
 * normaalia ylläpitoa
+
+**OUTI**
+* OUTIsta tehdään kehitysehdotustiketti Kohan itsepalvelutoimintoon, että ohjelma antaisi huomautuksen palautustilanteessa, jos nide ei saa jäädä palautuskirjastoon, vaan se pitää laittaa kuljetukseen esim. kotikirjastoon tai teoksesta on varaus toisessa kirjastossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-43) - [Palaa sivun alkuun](/paakayttajat2026)
 
