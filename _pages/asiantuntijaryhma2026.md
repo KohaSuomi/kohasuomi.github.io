@@ -18,17 +18,26 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 9/2026
 
 Aika: Maanantai 26.10.2026 klo 13<br />
-Läsnä:
+Läsnä: Ari, Kati, Hanna I, Roosa, Noora, Leena, Susanna, Elina, Kodo, Janne, Anneli, Hanna H
 
 ### 1. Ajankohtaiset
 
 Kuulumiset KohaConista
+* seuraava Istanbulissa, toivottavasti meiltäkin saadaan sinne esityksiä ensi vuonna, pääsisikö esim. Vaskista tai OUTIsta osallistujia/esittelijöitä? Matka-apurahat kohta taas haettavissa.
+* Ensimmäinen säätiön kokous, hakemus liittyä Open foundationiin kehitteillä
+
+Vastattu Eepos-kirjastojen markkinakartoitukseen.
+
 
 ### 2. Finnan lisätty uusi aineistotyyppi Palapeli
 
 Finnaan on lisätty uusi aineistotyyppi Palapeli. Onko tarvetta lisätä se myös meidän yhteisiin aineistotyyppeihin (MTYPE)?
 
 Palapelien aineistotyypin päättely Finnassa: 000/06 arvo r (=esine) ja/tai 008/33 arvo g (=peli) + 655 ‡a palapelit
+
+Päätös: Lisätään uusi aineistotyyppi PALAPELI ja kuvaukseksi Palapeli.
+
+Kati tekee tiketin.
 
 ### 3. Tiekartan uudistus
 
@@ -61,7 +70,7 @@ Uusiksi ehdotettin ainakin seuraavia:
 * Kielimallien hyödyntäminen
 * Harava ja RFID jatkokehitys
 * Aineiston massakäsittely
-* Virtuaalinen kirjastokortti
+* Virtuaalinen kirjastokortti eli asiakas ei halua fyysistä kirjastokorttia
 * Sähköisen viestinnän lisääminen, esim Suomi.fi-viestien käytön lisääminen, kunta-applikaatiot, verkkokirjasto viestintäkanavana
 * Käyttäjän salasanan ja PIN-koodin erottaminen toisistaan
 
@@ -74,6 +83,8 @@ Mietittävä:
 * tarvitaanko muita määritteitä
 * minkälaisia näkymiä tarvitaan
 * mitkä nykyisistä tiketeistä kytketään uuteen projektiin
+
+**Aikataulu**: Kimpoissa mietitään seuraavaan kokoukseen yllä listattuja asioita. Ari ja Anneli syöttää nykyiset tiedot Tiekartta-projektiin seuraavaa kokousta varten. Hallituksella on seminaari joulukuussa, johon mennessä tiekartan olisi hyvä olla "valmis".
 
 ### 4. Käsiteltävät kehitysehdotukset
 
@@ -89,7 +100,16 @@ Koha-Suomen palvelukuvaus: [Koha-Suomi Oy palvelukuvaus.pdf](https://github.com/
 
 ### 6. Muut asiat
 
+Selainturvallisuusohje hankalasti toteutettavissa sellaisenaan kunnissa
+* mahdollisena ratkaisuna erillinen selainprofiili Kohaa varten
+
+Perustetaan Varausjono-raportin testaustyöryhmä versionvaihdon jälkeen.
+
 ### 7. Seuraava kokous
+
+Ma 16.11.2026 klo 14
+
+Ti 8.12.2026 klo 13
 
 ## Muistio 8/2026
 
