@@ -24,8 +24,8 @@ Läsnä: Lari, Pasi, Ari, Emmi, Johanna, Kodo, Anneli
 ### Muuta
 * Viikon 44 päivitys
 * Nextien tilanne
-  * noutohyllyihin liittyvät muutokset olisi hyvä saada nexteille mahdollisimman pian, koska niiden puute aiheuttaa virheilmoituksia siellä täällä ja vaikeuttaa testaamista
-  * priorisoinnin skip-jotain aiheuttaa myös virheilmoituksia
+  * noutohyllyihin liittyvät muutokset (hold_pickup_shelf_id) olisi hyvä saada nexteille mahdollisimman pian, koska niiden puute aiheuttaa virheilmoituksia siellä täällä ja vaikeuttaa testaamista
+  * priorisoinnin fulfillment_skips aiheuttaa myös virheilmoituksia
 
 ### Viikolla 43 tehtyä
 
