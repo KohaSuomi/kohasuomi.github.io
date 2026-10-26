@@ -25,6 +25,7 @@ Läsnä:
 * Viikon 44 päivitys
 * Nextien tilanne
   * noutohyllyihin liittyvät muutokset olisi hyvä saada nexteille mahdollisimman pian, koska niiden puute aiheuttaa virheilmoituksia siellä täällä ja vaikeuttaa testaamista
+  * priorisoinnin skip-jotain aiheuttaa myös virheilmoituksia
 
 ### Viikolla 43 tehtyä
 
