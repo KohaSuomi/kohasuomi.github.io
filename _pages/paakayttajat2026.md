@@ -10,6 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 44
+
+Aika: Ti 27.10.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
+  * Viimeinen viikkopäivitys tuotantoon tehdään ensi viikolla, joten jos vielä on jotain testattavia, jotka haluatte tuotantoon ennen sen jäädytystä, niin nyt on viimeiset hetket testailla niitä.
+* Nextit ovat nyt käytettävissä, kannattaa huomioida, että kaikkia Koha-Suomen toimintoja ei ole vielä tuotu eli kaikki ei vielä toimi
+  * liitännäiset on asennettu, mutta ne eivät välttämättä toimi oikein, koska niitäkään ei ole vielä tuoto versioon 26
+  * Varausten prioriteetit ovat priorisoinnin jäljiltä tietokannassa muuta kuin mitä käyttöliittymä väittää niiden olevan. Eli uusi tehty varaus voi mennä varausjonon kärkeen, koska olemassa olevan varauksen prioritetti saattaa olla oikeasti esim. 127, eikä 1 kuten käyttöliittymä väittää sen olevan. Tämä on tuttu "ongelma" vuosien varrelta testeiltä ja nexteiltä.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 43
 
 Aika: Ti 20.10.2026 klo 9.15<br />
