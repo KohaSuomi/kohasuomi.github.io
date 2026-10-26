@@ -26,6 +26,15 @@ Läsnä:
 * Nextien tilanne
   * noutohyllyihin liittyvät muutokset olisi hyvä saada nexteille mahdollisimman pian, koska niiden puute aiheuttaa virheilmoituksia siellä täällä ja vaikeuttaa testaamista
 
+### Viikolla 43 tehtyä
+
+#### Johanna
+
+- [koha-plugin-editx - Epäonnistunutta EditX-sanoman käsittelyä ei voi ajaa uudelleen ilman duplikaatteja](https://github.com/KohaSuomi/koha-plugin-editx/issues/23): Tiketti avattiin ja vastuutettiin. Uudelleenajosta tehtiin turvallinen: jo kirjoitetut rivit ohitetaan ja sanoma validoidaan ennen käsittelyä (KPEDX-23), ja uudelleenajolle lisättiin fixture-tuki (luokkien lataus, lähetyksen vastaanotto, otsikkolista ja --clear-siivouksen järjestys). Tupulle ajettiin testisanomat.
+- [koha-suomi-utility - Uusi build-skripti siivoamaan vanhat build-branchit pois palvelimelta](https://github.com/KohaSuomi/koha-suomi-utility/issues/170): Tiketti vastuutettu. fetch-build-and-deploy.sh siivoaa nyt deployn jälkeen vanhentuneet build-branchit, toistaiseksi vain paikalliset; testiympäristön next-haarat poistetaan käsin.
+- [koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commits/development): Dokumentoitiin trigger-build-workflow.sh:n tarvitsemat GitHub-oikeudet.
+- [rfid-harava - Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti vastuutettu. Viivakoodijono puretaan nyt joka tikillä, ja hakukriteerien muutos vaikuttaa myös uudelleen luettuihin niteisiin; muutokselle lisättiin TTL-testiajurin regressiotesti. Uusi versio sisältää myös listan tyhjennysnapin, ja versiot 1.1.1 ja 1.1.2 julkaistiin. Dokumentaation kuvakaappaus todettiin vanhentuneeksi ja testaaja toimitti uuden kuvan.
+
 ## Viikko 43
 
 Aika: Ma 19.10. klo 9<br/>
