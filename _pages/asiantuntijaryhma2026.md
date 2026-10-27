@@ -15,16 +15,16 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2026 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 9/2026
+## Muistio 9/2026
 
 Aika: Maanantai 26.10.2026 klo 13<br />
-Läsnä: Ari, Kati, Hanna I, Roosa, Noora, Leena, Susanna, Elina, Kodo, Janne, Anneli, Hanna H
+Läsnä: Kati Sillgren (Helle-kirjastot), Hanna Ikonen (Lumme-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Noora Valkonen (OUTI-kirjastot), Leena Kinnunen (Lapin kirjasto), Susanna Sandell (Vaski-kirjastot), Elina Uotila (Kirkes-kirjastot), Hanna Hyttinen (Vaara-kirjastot), Janne Seppänen (Lastu-kirjastot), Ari Mäkiranta, Anneli Österman ja Kodo Korkalo (Koha-Suomi Oy)
 
 ### 1. Ajankohtaiset
 
 Kuulumiset KohaConista
-* seuraava Istanbulissa, toivottavasti meiltäkin saadaan sinne esityksiä ensi vuonna, pääsisikö esim. Vaskista tai OUTIsta osallistujia/esittelijöitä? Matka-apurahat kohta taas haettavissa.
-* Ensimmäinen säätiön kokous, hakemus liittyä Open foundationiin kehitteillä
+* seuraava KohaCon pidetään Istanbulissa syksyllä 2027. Toivottavasti meiltäkin saadaan sinne esityksiä ensi vuonna, pääsisikö esim. Vaskista tai OUTIsta osallistujia/esittelijöitä? Matka-apurahat kohta taas haettavissa.
+* Ensimmäinen Koha Charitable Foundationin kokous pidettiin KohaConissa, hallituksella työn alla hakea Open Library Foundationiin jäseneksi.
 
 Vastattu Eepos-kirjastojen markkinakartoitukseen.
 
@@ -35,7 +35,7 @@ Finnaan on lisätty uusi aineistotyyppi Palapeli. Onko tarvetta lisätä se myö
 
 Palapelien aineistotyypin päättely Finnassa: 000/06 arvo r (=esine) ja/tai 008/33 arvo g (=peli) + 655 ‡a palapelit
 
-Päätös: Lisätään uusi aineistotyyppi PALAPELI ja kuvaukseksi Palapeli.
+**Päätös:** Lisätään uusi aineistotyyppi PALAPELI ja kuvaukseksi Palapeli.
 
 Kati tekee tiketin.
 
@@ -84,28 +84,33 @@ Mietittävä:
 * minkälaisia näkymiä tarvitaan
 * mitkä nykyisistä tiketeistä kytketään uuteen projektiin
 
-**Aikataulu**: Kimpoissa mietitään seuraavaan kokoukseen yllä listattuja asioita. Ari ja Anneli syöttää nykyiset tiedot Tiekartta-projektiin seuraavaa kokousta varten. Hallituksella on seminaari joulukuussa, johon mennessä tiekartan olisi hyvä olla "valmis".
+**Aikataulu**: Kimpoissa mietitään seuraavaan kokoukseen yllä listattuja asioita. Ari ja Anneli syöttävät nykyiset tiedot Tiekartta-projektiin seuraavaa kokousta varten. Hallituksella on seminaari joulukuussa, johon mennessä tiekartan olisi hyvä olla melko "valmis" esiteltäväksi heille.
 
 ### 4. Käsiteltävät kehitysehdotukset
 
 * [Järjestelmäasetus verkkokirjastoon välitettävien asiakkaan viestiasetusten määrittämiseen #2504](https://github.com/KohaSuomi/Koha/issues/2504)
+  * Päätös: Ei toteuteta sellaisenaan meillä, mutta edetään Larin ehdottaman vaihtoehdon mukaisesti, että tarvittaessa pääkäyttäjät voivat pyytää kehittäjiä poistamaan message_transports-taulusta tiettyjen viestien tai niiden viestityyppien poistamista, jolloin ne poistuvat näkyviltä sekä Kohan käyttöliittymässä että Finnassa (myös Finna.fi).
 * [Arkistoitujen taulujen säilytysaika #2506](https://github.com/KohaSuomi/Koha/issues/2506)
+  * Koha-Suomen palvelimille tarvitaan lisää tilaa, joten pohditaan, voisiko vanhemmat arkistotaulut (action_logs, statistics, message_queue) poistaa tai siirtää muualle. Sitä ennen kunnissa/kimpoissa selvitetään seuraavaan kokoukseen, kuinka kauan heidän kuuluisi säilyttää mm. lokitietoja. Esim. Turussa on käytössä 10 vuoden säilytysaika, joka perustunee Valtioneuvoston ohjeeseen [Suositus tietoaineistojen säilytysajasta ja toimenpiteistä säilytysajan päätyttyä](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/405f7d99-3863-426e-aad6-d854e62fbb5f/content). Asiantuntijaryhmän jäsenet arvelivat, että aktiivisia arkistotauluja (SQL-raporteilla haettavissa olevat) tarvittaisiin viiden vuoden ajalta ja sitä vanhemmat taulut/tiedot voivat olla jonkinlaisessa pitkäaikaissäilytyksessä, josta ne on hankalammin saatavissa, mutta kuitenkin olemassa. Koha-Suomessa tutkitaan, onnistuisiko vanhempien arkistotaulujen siirto konesalitoimittajan varmistusjärjestelmään, jolloin ne olisi tallessa, mutta eivät veisi tilaa Koha-palvelimilta. Tietojen siirto esim. kuntien palvelimille ei saanut kannatusta. 
 * [Asiakkaan tiedoista Varaukset-välilehdeltä puuttuu tieto tila-sarakkeesta, jos varaus on käsiteltävänä #2508](https://github.com/KohaSuomi/Koha/issues/2508)
+  * Päätös: Odotetaan ensin, että joku yhteisössä tarttuisi ehdotukseen/tikettiin. Jos ei tartu, pohditaan uudestaan, teemmekö itse.
 * [Aktiivisten varausten näyttäminen tietuesivulla #2527](https://github.com/KohaSuomi/Koha/issues/2527)
-
+  * Päätös: Lisätään osaksi holdstatistics-liitännäistä. Toteutus ennen nykyisen version jäädytystä.
 
 ### 5. Koha-Suomen palvelukuvaus
 
 Koha-Suomen palvelukuvaus: [Koha-Suomi Oy palvelukuvaus.pdf](https://github.com/user-attachments/files/33537621/Koha-Suomi.Oy.palvelukuvaus.pdf)
 
+Käytiin läpi ja ehdotettiin pieniä muutoksia tekstiin. Ari tekee tarvittavat muutokset.
+
 ### 6. Muut asiat
 
-Selainturvallisuusohje hankalasti toteutettavissa sellaisenaan kunnissa
-* mahdollisena ratkaisuna erillinen selainprofiili Kohaa varten
+Vaski: [Selainturvallisuusohje](https://github.com/KohaSuomi/Koha/wiki/Selainturvallisuus) on hankalasti toteutettavissa sellaisenaan kunnissa ja toivottiin vinkkejä sen toteuttamiseen
+* Kodo ehdotti mahdollisena ratkaisuna erillisen selainprofiilin luontia Firefoxiin Kohaa varten
 
-Perustetaan Varausjono-raportin testaustyöryhmä versionvaihdon jälkeen.
+**Päätös:** Perustetaan Varausjono-raportin testaustyöryhmä versionvaihdon jälkeen. Vaskissa on yritetty testata Varausjono-raporttia, mutta se on hankalaa, koska ei ole tietoa, mikä kaikki vaikuttaa sen toimintaan.
 
-### 7. Seuraava kokous
+### 7. Seuraavat kokoukset
 
 Ma 16.11.2026 klo 14
 
