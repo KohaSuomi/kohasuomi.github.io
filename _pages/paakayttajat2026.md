@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -30,6 +30,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja virheeseen päätyneitä tilauksia lähetetty uudestaan Kohaan. Nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
 * Asiakaspalvelusta tuli ihmettelyä, kun Kohan tai selaimen välilehden jumitilanteessa tallentuneet varaukset olivat tallentuneet varausjonon ensimmäiseksi. Tiketti: https://github.com/KohaSuomi/Koha/issues/2544
+
+**Vaara**
+* Asiakkaille lähtevissä varausten noutoilmoitus tekstiviesteissä oli häiriötä muutamana päivänä. 16 ja 17.10 asiakkaille ei lähtenyt varausten noutoilmoituksia tekstiviestitse ollenkaan, kun taas 20.10 asiakkaille lähtevästä yhdestä noudettavasta varauksesta tuli pahimmillaan 5 samaa viestiä. Vika johtui Link Mobilitystä.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
