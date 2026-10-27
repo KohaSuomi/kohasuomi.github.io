@@ -51,7 +51,7 @@ Pohjoisesta etelään
 * normaalia ylläpitoa
 
 **OUTI**
-* OUTIsta tehdään kehitysehdotustiketti Kohan itsepalvelutoimintoon, että ohjelma antaisi huomautuksen palautustilanteessa, jos nide ei saa jäädä palautuskirjastoon, vaan se pitää laittaa kuljetukseen esim. kotikirjastoon tai teoksesta on varaus toisessa kirjastossa.
+* OUTIsta tehdään kehitysehdotustiketti Kohan itsepalvelutoimintoon, että ohjelma antaisi huomautuksen palautustilanteessa, jos nide ei saa jäädä palautuskirjastoon, vaan se pitää laittaa kuljetukseen esim. kotikirjastoon tai teoksesta on varaus toisessa kirjastossa. https://github.com/KohaSuomi/Koha/issues/2536
 
 **Kirkes**
  * Ei erityistä huomioitavaa.
