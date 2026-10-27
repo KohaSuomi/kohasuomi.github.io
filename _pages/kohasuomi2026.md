@@ -36,6 +36,14 @@ Läsnä: Lari, Pasi, Ari, Emmi, Johanna, Kodo, Anneli
 - [koha-suomi-utility](https://github.com/KohaSuomi/koha-suomi-utility/commits/development): Dokumentoitiin trigger-build-workflow.sh:n tarvitsemat GitHub-oikeudet.
 - [rfid-harava - Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti vastuutettu. Viivakoodijono puretaan nyt joka tikillä, ja hakukriteerien muutos vaikuttaa myös uudelleen luettuihin niteisiin; muutokselle lisättiin TTL-testiajurin regressiotesti. Uusi versio sisältää myös listan tyhjennysnapin, ja versiot 1.1.1 ja 1.1.2 julkaistiin. Dokumentaation kuvakaappaus todettiin vanhentuneeksi ja testaaja toimitti uuden kuvan.
 
+#### Emmi
+
+- [Bug 34142 - Add column sublocation to items table](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=34142): Uudistukset tehty ja viety yhteisöön sekä tuotu meille testattavaksi nexteillä.
+  - tähän liittyvien nexteille tehty muutosajoja ja korjauksia 
+- Next-kantojen päivitykset uuteen versioon ja uudelleenindeksoinnit
+- Versionvaihdon tikettien viemistä nexteille
+- [Bug 43771 - Override ability for "no renewal before" part of AllowRenewalLimitOverride is not working from patron accounts unless another block exists](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=43771): Johtuen tiketistä [Bug 23415 - Notify patron fines when renewing](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=23415), Kohassa ei pystynyt ohittamaan lainojen uusimisrajoituksia kuin vain harvoissa tapauksissa ja ristiriitaisesti järjestelmäasetuksiin nähden. Yhteisöön viety korjaus tähän.
+
 ## Viikko 43
 
 Aika: Ma 19.10. klo 9<br/>
