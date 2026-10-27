@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -26,6 +26,10 @@ Läsnä:
 * Jitsin kokoushuoneiden maksimiaika nykyään 1 tunti 35 minuuttia. Sen jälkeen osallistuja heitetään muutamien sekuntien jälkeen ulos, eikä samaan huoneeseen pääse liittymään samantien uudelleen. Jos näin käy, niin lisätkää huoneen nimen perään numero 2, jolloin syntyy uusi huone.
 
 Etelästä pohjoiseen
+
+**OUTI**
+* Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
+* Asiakaspalvelusta tuli ihmettelyä, kun Kohan tai selaimen välilehden jumitilanteessa tallentuneet varaukset olivat tallentuneet varausjonon ensimmäiseksi. Tiketti: https://github.com/KohaSuomi/Koha/issues/2544
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
