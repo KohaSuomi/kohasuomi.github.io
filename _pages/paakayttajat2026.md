@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -37,6 +37,9 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Normaalia ylläpitoa
+
+**Lumme**
+* Ei mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
