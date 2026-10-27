@@ -28,7 +28,7 @@ Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 Etelästä pohjoiseen
 
 **OUTI**
-* Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
+* Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja virheeseen päätyneitä tilauksia lähetetty uudestaan Kohaan. Nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
 * Asiakaspalvelusta tuli ihmettelyä, kun Kohan tai selaimen välilehden jumitilanteessa tallentuneet varaukset olivat tallentuneet varausjonon ensimmäiseksi. Tiketti: https://github.com/KohaSuomi/Koha/issues/2544
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
