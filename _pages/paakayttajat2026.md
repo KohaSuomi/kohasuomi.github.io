@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -34,6 +34,9 @@ Etelästä pohjoiseen
 **Vaara**
 * Asiakkaille lähtevissä varausten noutoilmoitus tekstiviesteissä oli häiriötä muutamana päivänä. 16 ja 17.10 asiakkaille ei lähtenyt varausten noutoilmoituksia tekstiviestitse ollenkaan, kun taas 20.10 asiakkaille lähtevästä yhdestä noudettavasta varauksesta tuli pahimmillaan 5 samaa viestiä. Vika johtui Link Mobilitystä.
 * Normaalia ylläpitoa.
+
+**Lappi**
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
