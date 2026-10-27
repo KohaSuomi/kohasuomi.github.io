@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -44,6 +44,10 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Tekoälyavustajan hankinta etenee.
 * Jälkikäteen tarkistettu LinkMobilityltä, että epäonnistuneet tekstiviestit 20.10. on lähetetty uudelleen, vaikka Koha näyttää ne edelleen failed-tilassa.
+
+**Kyyti**
+* Kyyti-Nextin Finnan saatavuustiedot eivät toimi. - Lari katsoo jossain vaiheessa.
+* Ensi vuonna Kouvolaan tuleva Tavarakirjasto ei toimi kaupungin tiloissa eikä verkossa. Rajaako tämä lainaustapavaihtoehtoja: Kohan itsepalvelulainaus tai lainausautomaatti? - Ei pitäisi rajata, ei ole ip-vaatimuksia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
