@@ -23,6 +23,7 @@ Läsnä:
   * Varausten prioriteetit ovat priorisoinnin jäljiltä tietokannassa muuta kuin mitä käyttöliittymä väittää niiden olevan. Eli uusi tehty varaus voi mennä varausjonon kärkeen, koska olemassa olevan varauksen prioritetti saattaa olla oikeasti esim. 127, eikä 1 kuten käyttöliittymä väittää sen olevan. Tämä on tuttu "ongelma" vuosien varrelta testeiltä ja nexteiltä.
 * [Asiantuntijaryhmän muistio 9/2026](https://koha-suomi.fi/asiantuntijaryhma2026#muistio-92026) (kokouksen aikaan vielä julkaisematon)
   * [Uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Koha/issues/2543)
+* Jitsin kokoushuoneiden maksimiaika nykyään 1 tunti 35 minuuttia. Sen jälkeen osallistuja heitetään muutamien sekuntien jälkeen ulos, eikä samaan huoneeseen pääse liittymään samantien uudelleen. Jos näin käy, niin lisätkää huoneen nimen perään numero 2, jolloin syntyy uusi huone.
 
 Etelästä pohjoiseen
 
