@@ -21,6 +21,8 @@ Läsnä:
 * Nextit ovat nyt käytettävissä, kannattaa huomioida, että kaikkia Koha-Suomen toimintoja ei ole vielä tuotu eli kaikki ei vielä toimi
   * liitännäiset on asennettu, mutta ne eivät välttämättä toimi oikein, koska niitäkään ei ole vielä tuoto versioon 26
   * Varausten prioriteetit ovat priorisoinnin jäljiltä tietokannassa muuta kuin mitä käyttöliittymä väittää niiden olevan. Eli uusi tehty varaus voi mennä varausjonon kärkeen, koska olemassa olevan varauksen prioritetti saattaa olla oikeasti esim. 127, eikä 1 kuten käyttöliittymä väittää sen olevan. Tämä on tuttu "ongelma" vuosien varrelta testeiltä ja nexteiltä.
+* [Asiantuntijaryhmän muistio 9/2026](https://koha-suomi.fi/asiantuntijaryhma2026#muistio-92026) (kokouksen aikaan vielä julkaisematon)
+  * [Uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Koha/issues/2543)
 
 Etelästä pohjoiseen
 
