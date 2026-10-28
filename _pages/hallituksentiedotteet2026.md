@@ -11,6 +11,30 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 7/2026
+
+27.10.2026
+
+Koha-Suomen hallitus kokoontui viime perjantaina käsittelemään mm. seuraavia asioita:
+
+* Taloustilanne on hyvä. Yhtiö on toiminut kustannustehokkaasti eikä korotuspainetta edelleenkään ole osakasmaksuihin vuodelle 2027.
+* Palvelunestohyökkäys. Koha-Suomen palvelimiin kohdistui erittäin voimakas palvelunestohyökkäys, joka alkoi keskiviikkona 16.9. noin klo 14.20. Hyökkäys tuli ympäri maailmaa ja esti pääsyn Kohaan valtaosalta kirjastoja. Hyökkäys saatiin torjuttua yhdessä konesalioperaattorin ja heidän käyttämänsä verkko-operaattorin kanssa.
+
+Liitteenä toimitusjohtajan raportti 7/2026.
+
+Koha-kirjastokimppojen johtajille on lähtenyt kutsu pe 30.10. Klo 8.00 teams-palaveriin. Keskustellaan ajankohtaisista asioista, tarkemmin palvelunestohyökkäyksestä sekä siitä mitä olisi hyvä ottaa kehittämisen kohteeksi tuleville vuosille.
+
+Jokaisen kokouksen tiedote lähtee jakeluun tällä jakelulistalla. Jos teillä on tullut jotain henkilövaihdoksia kirjastoissanne tai kimpoissanne, niin ilmoittakaa siitä toimitusjohtajalle (Ari Mäkiranta) tai minulle niin korjaamme spostilistaa.
+
+Kiitos että välität tiedotetta edelleen kirjastoillenne ja kimpoille. Hyvää syksyä kaikille!
+
+Olethan yhteydessä jos mieleesi tulee jotakin kysyttävää koha-asioihin liittyen.
+
+Koha-Suomen hallituksen puolesta,
+Nina Sipola
+
+Toimitusjohtajan raportti: [Toimitusjohtajan raportti 7_26.pdf](https://github.com/user-attachments/files/34071845/Toimitusjohtajan.raportti.7_26.pdf)
+
 ## Koha-Suomen hallituksen tiedote 6/2026
 
 11.9.2026
