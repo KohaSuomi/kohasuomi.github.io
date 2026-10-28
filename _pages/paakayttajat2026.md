@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -48,6 +48,12 @@ Etelästä pohjoiseen
 **Kyyti**
 * Kyyti-Nextin Finnan saatavuustiedot eivät toimi. - Lari katsoo jossain vaiheessa.
 * Ensi vuonna Kouvolaan tuleva Tavarakirjasto ei toimi kaupungin tiloissa eikä verkossa. Rajaako tämä lainaustapavaihtoehtoja: Kohan itsepalvelulainaus tai lainausautomaatti? - Ei pitäisi rajata, ei ole ip-vaatimuksia.
+
+**Kirkes**
+* Keravalta kysytty mahdollisuutta pilotoida [Sanaston käyttötilastoja](https://github.com/KohaSuomi/Koha/issues/2083). Lähdetään viemään asiaa eteenpäin Sanaston kanssa.
+* Kirkes-johtoryhmä kiinnostunut selvittämään, kuinka paljon niteitä palautuu eri kirjastoihin kuin mistä ne on lainattu. Elinalla raportti työlistalla, mutta jos vastaavaa on tutkittu muualla, muidenkin raportit kiinnostavat.
+* Lastun mainitsema toisen muistutuksen muokkaaminen laskumaiseksi herättänyt kiinnostusta, ja mielellämme kuulemme käyttökokemuksia.
+* Konversiossa on muodostunut asiakkaille paljon rajoitteita, joissa ei ole muuta selitettä kuin "lainaus estetty". Tutkitaan asiaa tarkemmin.   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-44) - [Palaa sivun alkuun](/paakayttajat2026)
 
