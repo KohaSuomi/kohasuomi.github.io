@@ -18,6 +18,8 @@ Läsnä:
 **Yhteiset**
 * Viikon 45 päivitys
 * [Kohan ohje suomeksi päivitys versioon 26.05](https://github.com/KohaSuomi/Koha-26x/issues/130)
+  * sovitaan päivitysvastuut ja -aikataulu
+* Uutiskirje 2/2026
 
 Pohjoisesta etelään
 
