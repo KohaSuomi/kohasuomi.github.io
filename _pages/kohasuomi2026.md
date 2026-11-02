@@ -24,6 +24,8 @@ Läsnä:
 ### Muuta
 * Viikon 45 päivitys
 
+### Viikolla 44 tehtyä
+
 ## Viikko 44
 
 Aika: Ma 26.10. klo 9<br/>
