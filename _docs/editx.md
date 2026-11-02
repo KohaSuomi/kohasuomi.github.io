@@ -222,8 +222,8 @@ Kenttien selitteet:
 * **Siirretty** kertoo päivän, jolloin sanoma on tullut palvelimelle.
 
 * **Tila** kertoo sanoman käsittelyn tilan. Tilakoodit ovat:
-  * PROCESSING: käsittely on käynnissä
-  * POSTPONED: sanoma on joko virheellinen tai ei ole tullut palvelimelle vielä kokonaan
+  * NEW: odottaa käsittelyä
+  * PROCESSING: käsittely on varattu (käsittelijä on lukenut sanoman itselleen)
   * FAILED: käsittely on epäonnistunut. Sulkeissa tilan perässä on virheet-linkki, jolla saa aukaistua tarkemmat tiedot epäonnistumisen syistä. Tämä linkki näkyy, vaikka virhetilanne olisi jo korjattu.
   * OK: käsitelty onnistuneesti
 
@@ -238,9 +238,13 @@ Kenttien selitteet:
   * _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
   * _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia. Tiedosto säilyy myös palvelimella.
 
+*Huomioitavaa:* Epäonnistuneen sanoman toimittaja voi korjata ja lähettää uudelleen samalla `ShipNoticeNumber`- ja `IssueDateTime`-arvolla. Korjattu sanoma tallentuu uutena `NEW`-rivinä, joten käsittely käynnistyy tavallisesti. Vanha `FAILED`-rivi säilyy taulussa virheineen.
+
 ### 3.2 Virheraportointi sähköpostitse ja EDIFACT-sivulla sekä sanomien käsittelyn ajaminen uudelleen
 
 Virheisiin päättyneiden sanomien käsittelystä on mahdollista lähettää valittuihin sähköpostiosoitteisiin ilmoitus. Vastaanottajien sähköpostiosoitteet voi määrittää pilkulla eroteltuna EDItX-liitännäisen _Virheilmoitukset_-kohtaan. Myös viestin lähettäjän sähköpostiosoitteen voi määrittää.
+
+Virheilmoitussähköposti kokoaa `fail`-hakemiston tiedostot, päivän aikana epäonnistuneet sanomat `edifact_messages`-taulusta sekä tiedostoittain otteet `error.log`-tiedostosta. Duplikaatit kirjoitetaan `error.log`:iin, jotta ne näkyvät sähköpostissa perusteluineen.
 
 ![](/assets/files/docs/Ohjeet/editx15.png)
 
@@ -268,16 +272,20 @@ Aina virheviestiin ei saada poimittua järkeviä syitä käsittelyn epäonnistum
 #### Sanoma odottaa käsittelyä
 
 Toisinaan sanomien käsittelijä ei saa käsiteltyä sanomia ja sanoma jää odottamaan. Tällöin lähetetään seuraavanlainen viesti:
+
 ```
 Seuraavat EDItX sanomat odottavat edelleen käsittelyä:
 
-/home/koha/koha-dev/var/spool/editx/tmp/EditxShipNotice_id_2353578_20200722062915.xml
+Sanomien muodostamisessa aineistontoimittajan järjestelmässä tai niiden siirrossa Koha-palvelimelle
+on tapahtunut virhe, tai siirto palvelimelle on edelleen kesken.
 
-Sanomien siirrossa aineistontoimittajalta Koha-palvelimelle on tapahtunut virhe
-ja sanomat ovat puutteellisia.
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+<timestamp> -- <tiedosto>.xml: <yksi rivi lokista tai "Virhelokista ei löytynyt tätä tiedostoa koskevaa riviä.">
 
-Puutteelliset sanomat on jätetty hakemistoon /home/koha/koha-dev/var/spool/editx/tmp.
+Sanoma <tiedosto>.xml on jätetty käsittelyjonoon (<tmp_path>) odottamaan täydennystä.
 ```
+
+Jos tiedosto on yli seitsemän vuorokautta vanha, se arkistoidaan `import_failed_archived_path`-hakemistoon.
 
 Käsittely voi epäonnistua koska
 * tilaussanoma on tullut palvelimelle sellaiseen aikaan, jolloin sanomia ei käsitellä. Esim. myöhään illalla tai aikaisin aamulla.
@@ -286,16 +294,40 @@ Käsittely voi epäonnistua koska
  * käy tarkistamassa EDIFACT-sanomat-sivulla hakemalla sanoman tiedostonimellä, onko sanoman käsittely edelleen kesken. Jos sanoman tila on ok, ei tarvitse tehdä korjausliikkeitä.
  * jos sanoman käsittely on epäonnistunut uudelleen, siitä tulee toinen viesti eri syyllä.
 
+#### Duplikaattitiedosto
+
+Jos `import_tmp_path`-hakemistoon saapuu sanoma, jonka `ShipNoticeNumber` ja `IssueDateTime` vastaavat jo tietokannassa olevaa sanomaa (status `NEW`, `PROCESSING` tai `OK`), tiedosto siirretään `import_failed_path`-hakemistoon eikä sitä tallenneta tauluun. Epäonnistunut (`FAILED`) sanoma ei estä korjatun uudelleenlähetyksen.
+
+```
+=== Sanoma: <alkuperäinen>.xml ===
+
+Sanoman nimi Kohassa: <ShipNoticeNumber>_<IssueDateTime>
+
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+<timestamp> -- <alkuperäinen>.xml: Tiedosto <alkuperäinen>.xml on jo tietokannassa käsiteltynä tai jonossa olevana sanomana (<rakennettu nimi>), siirretään epäonnistuneisiin.
+
+Sanoma koskee sijainteja/tilejä: ...
+```
+
+Tätä vaihetta varten ei synny `edifact_errors`-riviä, koska virhe liitetään sanomaan tiedoston alkuperäisellä nimellä. Virheilmoitus näyttää sekä `fail`-hakemiston tiedostonimen että Kohassa näkyvän nimen (`ShipNoticeNumber_IssueDateTime`).
+
 #### Virheellinen tai puuttuva FundNumber
 
-Sanomassa voi olla virheellinen FundNumber eli tilikoodi tai sitten tilikoodi puuttuu Kohasta.
+Sanomassa voi olla virheellinen FundNumber eli tilikoodi tai sitten tilikoodi puuttuu Kohasta. FundNumber tarkistetaan käsittelyvaiheessa (`process_edi_messages.pl`), joten virhe päätyy sekä `error.log`-tiedostoon että `edifact_errors`-tauluun.
 
 ```
 Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
 2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: No matching FundNumber found: TUPKTIE2024
 2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: LibraryShipNotice required values errors: 1
 2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: Validation failed
-2023-02-14 21:00:04 -- Order processing failed for file /var/spool/koha/editx/load/portaali_order_20230214091202.xml.
+
+Seuraavat EDItX sanomat ovat epäonnistuneet käsittelyssä (edifact_messages, status FAILED):
+
+=== Sanoma: portaali_order_20230214091202.xml (id ...) ===
+Tiedonsiirtopäivä: ...
+Virhepäivä: ...
+Virhe:
+Editx content validation failed: No matching FundNumber found: TUPKTIE2024
 
 Sanoma koskee sijainteja/tilejä: TUPKTAI2023 TUPKTIE2023 TUPKTIE2024
 ```
@@ -308,25 +340,23 @@ Sanoma koskee sijainteja/tilejä: TUPKTAI2023 TUPKTIE2023 TUPKTIE2024
 Jos sanomassa tulee mukana VendorAssignedID tai BuyerAssignedID, jota ei ole lisätty EDI-tilit sivulle Kohassa, niin tulee seuraava sanoma:
 
 ```
-=== Sanoma: portaali_order_20230113142204.xml ===
-
 Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
-2023-01-18 06:00:03 --
--- Validating file portaali_order_20230113142204.xml:
 2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: No vendor for SAN 79611b (qualifier 91) in vendor_edi_accounts.
 2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: LibraryShipNotice required values errors: 1
 2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: Validation failed
-2023-01-18 06:00:03 -- Error was: Died at /var/lib/koha/plugins/Koha/Plugin/Fi/KohaSuomi/Editx/Procurement/Validator.pm line 600.
---
-2023-01-18 21:00:03 --
--- Validating file portaali_order_20230113142204.xml:
-2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: No vendor for SAN 79611b (qualifier 91) in vendor_edi_accounts.
-2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: LibraryShipNotice required values errors: 1
-2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: Validation failed
-2023-01-18 21:00:04 -- Error was: Died at /var/lib/koha/plugins/Koha/Plugin/Fi/KohaSuomi/Editx/Procurement/Validator.pm line 600.
+
+Seuraavat EDItX sanomat ovat epäonnistuneet käsittelyssä (edifact_messages, status FAILED):
+
+=== Sanoma: portaali_order_20230113142204.xml (id ...) ===
+Tiedonsiirtopäivä: ...
+Virhepäivä: ...
+Virhe:
+Editx content validation failed: No vendor for SAN 79611b (qualifier 91) in vendor_edi_accounts.
 
 Sanoma koskee sijainteja/tilejä: PYHA2018
 ```
+
+Jos sanoma ei päädy tauluun asti (esim. SFTP-tuonnissa), `runEditXImport.pl` kirjaa virheen `error.log`-tiedostoon muodossa `Failed to process file <tiedosto>: Could not find matching vendor for file <tiedosto>` ja siirtää tiedoston `import_failed_path`-hakemistoon. Voi esiintyä myös viesti `No vendor in shipment notice.` / `No vendor identifier (SAN) found in shipment notice.`, jos sanomasta puuttuu toimittajan tunniste kokonaan.
 
 * Tarkista, onko tunnus (viestissä SAN xxxx) oikein ja lisää (pääkäyttäjä) tarvittava mäppäys EDI-tilit -sivulle
 * jos tunnus on väärin, pyydä (pääkäyttäjä tai muu kimpan vastaava) aineistontoimittajaa korjaamaan VendorAssignedID tai BuyerAssignedID-tieto
@@ -337,10 +367,18 @@ Sanoma koskee sijainteja/tilejä: PYHA2018
 Rajapinta tunnistaa aineistontoimittajan sanoman sisällön perusteella. Tämän perusteella valitaan sanomalle kutakin toimittajaa vastaava oikea sanomankäsittelijä. Joskus esimerkiksi portaalisanomissa voi olla virheellisiä toimittajatietoja. Silloin tuloksena on tällainen virheraportti:
 
 ```
-=== Sanoma: portaali_order_20201016132634.xml ===
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+2020-10-16 13.30.05 -- portaali_order_20201016132634.xml: SellerParty PartyName Nameline 'KV' is unknown.
+2020-10-16 13.30.05 -- portaali_order_20201016132634.xml: LibraryShipNotice required values errors: 1
+2020-10-16 13.30.05 -- portaali_order_20201016132634.xml: Validation failed
 
-2020-10-16 13.30.05 -- Required parameter: '$notes' was not set or it was empty.
-2020-10-16 13.30.05 -- Error was: Required params not set. at /home/koha/Koha/Koha/Procurement/OrderProcessor.pm line 293.
+Seuraavat EDItX sanomat ovat epäonnistuneet käsittelyssä (edifact_messages, status FAILED):
+
+=== Sanoma: portaali_order_20201016132634.xml (id ...) ===
+Tiedonsiirtopäivä: ...
+Virhepäivä: ...
+Virhe:
+Editx content validation failed: SellerParty PartyName Nameline 'KV' is unknown.
 
 Koskee: VAR_PKA2999
 ```
@@ -354,9 +392,8 @@ Joskus saapuva sanoma on viallinen, eikä ole XML-formaatin mukainen. Sieltä vo
 ```
 === Sanoma: portaali_order_20200423143002.xml ===
 
-2020-04-23 14.30.05 -- Error was: :2: parser error : Start tag expected, '<' not found
-
-Koskee: <DeliverToLocation/>
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+2020-04-23 14.30.05 -- portaali_order_20200423143002.xml: XML parser cannot parse the file. ...
 
 ```
 
@@ -365,11 +402,14 @@ Seuraavien EDItX sanomien käsittelyssä oli ongelmia:
 
 === Sanoma: portaali_order_20200217145002.xml ===
 
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
 2020-01-02 15.50.04 -- File: /home/koha/koha-dev/var/spool/editx/tmp/portaali_order_20200102155003.xml is not valid XML, processing postponed.
-2020-02-17 14.50.07 -- Error was: :2: parser error : Start tag expected, '<' not found
+2020-02-17 14.50.07 -- portaali_order_20200217145002.xml: Not a LibraryShipNotice XML file
 
 Koskee: KEPKLN2020
 ```
+
+Puuttuvista pakollisista kentistä tulee viesti `<kentän nimi> not present` (esim. `FundNumber not present`, `DeliverToLocation not present`). Käsittelyvaiheessa virhe päätyy `edifact_errors`-tauluun muodossa `Editx content validation failed: ...`.
 
 * pääkäyttäjä voi tarkistaa EDIFACT-sivulla avaamalla viestin, puuttuuko sieltä jotain oleellista, kuten FundNumber, DestinationLocation, DeliverToLocation. Sanomaa voi verrata sellaiseen, jonka käsittely on onnistunut.
 * pääkäyttäjä tai kimpan vastaava ilmoittaa aineistontoimittajalle, että sanoma on virheellinen ja pyytää korjaamaan tiedot.
