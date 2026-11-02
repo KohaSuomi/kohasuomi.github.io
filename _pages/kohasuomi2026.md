@@ -48,6 +48,12 @@ Läsnä: Anneli, Pasi, Ari, Lari, Johanna, Emmi
 - [Tarratulostustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/13): Vastuutettu; käännökset päivitettiin issue #13 mukaan ja ovat testattavana testeillä.
 - [Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti suljettu; README:n kuvakaappaus päivitettiin.
 
+#### Emmi
+
+- Versionvaihdon tikettien viemistä nexteille
+- Vahvan tunnistautumisen tyhöryhmä kutsuttu koolle
+- Yhteisöpalaveri 28.10.
+
 ## Viikko 44
 
 Aika: Ma 26.10. klo 9<br/>
