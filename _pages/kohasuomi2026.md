@@ -26,6 +26,28 @@ Läsnä: Anneli, Pasi, Ari, Lari, Johanna, Emmi
 
 ### Viikolla 44 tehtyä
 
+#### Johanna
+
+- [Vanhat väliaikaisten rajoitteiden viestit tulevat näkyviin uuden rajoitteen yhteydessä](https://github.com/KohaSuomi/Koha/issues/2130): Tiketti suljettu.
+- [OUTI: 008-kenttä jää liian lyhyeksi osassa Hankintaportaalista tulevista ennakkotietueista](https://github.com/KohaSuomi/Koha/issues/2488): Tiketti suljettu.
+- [EDitX sanomien portaali_order-numerot eivät enää näy EDIFACT-viestit sivulla](https://github.com/KohaSuomi/Koha/issues/2538): Vastuutettu; todettiin, että "Tiedoston nimi" muodostetaan sanoman ShipNoticeNumberista ja IssueDateTimesta, ja tiedostot nimetään esim. portaali_order_20261015154043.xml (viimeinen luku on aikaleima).
+- [Uuden ovikoneen tunnuksen lisääminen SIP-palvelimelle](https://github.com/KohaSuomi/Koha/issues/2540): Vastuutettu; tunnus lisätty asetuksiin.
+- [Sivutus tietueen Varaukset-sivulle - ksdev/ks-0015-bug-23269-holds-page-REST](https://github.com/KohaSuomi/Koha-26x/issues/3): Tiketti suljettu.
+- [Broadcast biblios: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/20): Vastuutettu; käännökset päivitettiin tarkistetun issue #20 mukaan ja ovat testattavana testeillä.
+- [Ceepos: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/8): Vastuutettu; käännökset päivitettiin tarkistetun issue #8 mukaan ja ovat testattavana testeillä.
+- [Vaihda XML::Simple moduuli toiseen.](https://github.com/KohaSuomi/koha-plugin-editx/issues/19): Tiketti suljettu.
+- [Virheellisistä EditX-sanomista ei tule sähköposti-ilmoitusta](https://github.com/KohaSuomi/koha-plugin-editx/issues/21): Kommentoitu; muutetaan viestin sisältöä niin, että siinä näkyvät tiedoston nimi ja `<ShipNoticeNumber>_<IssueDateTime>`.
+- [OUTI: Taivalkosken kirjaston tilaukset eivät näy Kohassa vaikka EditX-sanomat on lähetetty onnistuneesti](https://github.com/KohaSuomi/koha-plugin-editx/issues/22): Vastuutettu; todettiin, että palvelimella olevat sanomat ja tietokannan virheet käsitellään vain siltä päivältä, ja sanomat siirretään toiseen hakemistoon.
+- [Epäonnistunutta EditX-sanoman käsittelyä ei voi ajaa uudelleen ilman duplikaatteja](https://github.com/KohaSuomi/koha-plugin-editx/issues/23): Vastuutettu; uudelleenajosta tehtiin turvallinen (jo kirjoitetut rivit ohitetaan, sanoma validoidaan ennen käsittelyä), lisättiin fixture-tuki (luokkien lataus, vastaanotto, otsikkolista, --clear-siivousjärjestys). Testattu Tupulla.
+- [Epäonnistuneiden EDItX-tilaussanomien virheilmoitusten ongelmat](https://github.com/KohaSuomi/koha-plugin-editx/issues/24): Vastuutettu; korjattiin viestin sisältö (tiedoston nimi näkyviin), lisättiin --verbose-vaihtoehto notify_failed_editx.sh:hen ja suomennettiin duplikaattitiedoston lokiviesti. Testattu Tupulla erilaisilla virhetilanteilla.
+- [Import remote biblios: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-import-remote-biblios/issues/3): Vastuutettu; käännökset päivitettiin tarkistetun issue #3 mukaan ja ovat testattavana testeillä.
+- [IntranetUserJS: Holds statistics: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-intranetjs-hold-statistics/issues/1): Vastuutettu; lisättiin pluginin käyttöliittymän käännökset (issue #1) ja ne ovat testattavana testeillä.
+- [Aktiivisten varausten näyttäminen tietuesivulla](https://github.com/KohaSuomi/koha-plugin-intranetjs-hold-statistics/issues/2): Vastuutettu; lisättiin aktiivisten varausten määrän näyttö tietuesivulle, testattavana veljenpojilla; intranetuserjs:stä poistettiin päällekäinen koodi.
+- [Raportteri: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-report-services/issues/16): Vastuutettu; käännökset päivitettiin issue #16 mukaan ja ovat testattavana testeillä; merge remote-tracking branch origin/ks25.
+- [Availability-ratkaisu on hidas: CheckReserves-kutsu ei hyödynnä RealTimeHolds-jonoa](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/14): Tiketti avattu ja vastuutettu; optimoitiin availability held()-tarkistus hyödyntämään RealTimeHolds-jonoa, lisättiin eräajo (batch) transfer- ja checkout-hauille, benchmark-skripti, populate_holds-testiapuskripti sekä syspref RESTDIDisableHeldOptimization ja ympäristömuuttuja REST_DI_DISABLE_HELD_OPTIMIZATION optimoinnin poiskytkentään. Testattu tupu-test-palvelimella.
+- [Tarratulostustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/13): Vastuutettu; käännökset päivitettiin issue #13 mukaan ja ovat testattavana testeillä.
+- [Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti suljettu; README:n kuvakaappaus päivitettiin.
+
 ## Viikko 44
 
 Aika: Ma 26.10. klo 9<br/>
