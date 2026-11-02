@@ -19,7 +19,7 @@ Läsnä:
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
   * [Uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Koha/issues/2543). Lisätty seuranta, johon lisätty rasti niille kimpoille, joiden arveltu tehneen kaikki tarvittavat määritykset, myös jälkikäteen mainitun OKM-liitännäiseen tarvittavan määrityksen. Tarkistetaan loput kokouksen aikana.
     * Sovitaan myös muutosajojen ajankohdat.
-    * Onko tarvetta tietueiden korjauksille ennen muutosajoja?
+    * Onko tarvetta tietueiden (manuaalisille) korjauksille ennen muutosajoja?
 * [Kohan ohje suomeksi päivitys versioon 26.05](https://github.com/KohaSuomi/Koha-26x/issues/130)
   * sovitaan päivitysvastuut ja -aikataulu
 * [Uutiskirje 2/2026](https://github.com/KohaSuomi/Koha/discussions/2568)
