@@ -49,7 +49,7 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 
 ### Säädä Viesti asiakkaalle -viestin väriä
 
-Tarpeellisuus: Ei tarpeellinen<br />
+Tarpeellisuus: Ei tarpeellinen versiossa 26.05<br />
 Versio 24.05
 
 ```
@@ -72,19 +72,18 @@ Versio: 24.05
 ### Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio */
-#patron-alternate-address,
-#patron-alternate-address + div { display:none; }
+/* Piilota Asiakkaat->Tiedot-sivulla vaihtoehtoinen yhteys ja osoite-osiot */
+#patron-alternative-contact, #patron-alternate-address { display:none; }
 ```
 
 
 ### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista Näkyy kuljetuskuitissa -vihjeet näkyvistä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista Näkyy kuljetuskuitissa -vihjeet näkyvistä */ 
@@ -94,7 +93,7 @@ fieldset#memberentry_contact.rows div.hint { display: none; }
 ### Piilota maksujen mitätöintitäppä Asiakkaan tiedot- ja Lainaus-sivuilta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Asiakkaan tiedot -sivulla lainat-taulu */
@@ -111,7 +110,7 @@ Versio: 24.05
 ### Piilota asiakkaan tiedot -näytöltä muokkaa-napit
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan tiedot -näytöltä muokkaa-napit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
@@ -123,7 +122,7 @@ body#pat_moremember a[href*="&step="] { display: none; }
 Liittyy [tikettiin #128](https://github.com/KohaSuomi/Koha-24.05/issues/128).
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan Lainaus-sivulla Muokkaa-nappi Kortti kadonnut -ilmoituksen perästä, koska tietoja ei voi sitä kautta tallentaa sotu-avaimen tarkistuksen vuoksi */
@@ -133,7 +132,7 @@ body#circ_circulation.circ a[href*="&step="] { display: none; }
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
@@ -142,8 +141,10 @@ body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
 
 ### Piilota Bookings/Ennakkovaraukset -välilehti lainauksessa/tiedot-sivulla
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeen versiossa 26.05<br />
 Versio: 24.05
+
+Tämä on tarpeeton, mikäli uuteen EnableBooking-järjestelmäasetukseen valitaan Älä salli. Asetus laittaa koko käyttövaraustoiminnon pois päältä ja piilottaa lainauksesta Käyttövaraukset-välilehden.
 
 ```
 /* Piilota Bookings/Ennakkovaraukset -välilehti lainauksessa/tiedot-sivulla */
@@ -715,8 +716,10 @@ body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
 
 ### Piilota Kerättävät käyttövaraukset-painike lainaus ja palautus-sivulta
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Tarpeeton versiossa 26.05<br />
 Versio: 25.05
+
+Tarpeeton versiossa 26.05, mikäli EnableBooking-järjestelmäasetus on Älä salli.
 
 ```
 /* Piilota Kerättävät käyttövaraukset-painike lainaus ja palautus-sivulta */
@@ -1075,7 +1078,7 @@ Versio: 24.05
 ### Piilota Niteet-sivulta Piilota sija jonossa -kohta tai Ennakkovarattavissa-rivi
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 Tämä piilottaa Niteet-sivulta koko Piilota Sija jonossa -kohdan eli piiloon menee Jätä pois paikallistan varausten jonosta ja Ennakkovarattavissa -kohdat. Alla vaihtoehto.
 ```
@@ -1083,7 +1086,7 @@ Tämä piilottaa Niteet-sivulta koko Piilota Sija jonossa -kohdan eli piiloon me
 body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-child(3) { display: none; }
 ```
 
-Tai jos haluaa piilottaa vain Ennakkovarattavissa-kohdan, niin voi käyttää tätä:
+Tämä ei ole tarpeen versiossa 26.05, mikäli EnableBooking-järjestelmäasetuksessa on Älä salli. Tai jos haluaa piilottaa vain Ennakkovarattavissa-kohdan, niin voi käyttää tätä:
 ```
 /* Piilota Ennakkovarattavissa -kohta Niteet-sivulla */
 body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-child(3) li:nth-child(2) { display: none; }
