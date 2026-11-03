@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 3.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi; kokouksen alkuosa), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi; kokouksen alkuosa), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
@@ -41,6 +41,9 @@ Pohjoisesta etelään
  
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Kyyti**
+* Eilen on otettu käyttöön Broomworkin Hankintakanava. Ensimmäiset tilaukset on tehty ja ovat tulleet onnistuneesti Kohaan.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
