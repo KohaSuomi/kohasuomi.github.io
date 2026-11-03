@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 3.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
@@ -32,6 +32,10 @@ Pohjoisesta etelään
 
 **Vaski**
 * Normaalia ylläpitoa
+
+**OUTI**
+* Varausten priorisoinnin toinen kokeilujakso katkaistaan viikon jälkeen, koska ongelmat verkkokirjastossa jatkuvat. Pudotimme LocalHoldsPriorityMaxHolds-asetuksen 20 --> 10 jo aloituspäivänä, mutta ajan kuluessa latausajat vielä kasvoivat niin, että suosituin varaus antoi vain aikakatkaisua. Testaamme parannuksia saatavuuslaskentaan.
+* Keskustelua Finnan kirjastokortti-osiosta.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
@@ -55,6 +59,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja virheeseen päätyneitä tilauksia lähetetty uudestaan Kohaan. Nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
 * Asiakaspalvelusta tuli ihmettelyä, kun Kohan tai selaimen välilehden jumitilanteessa tallentuneet varaukset olivat tallentuneet varausjonon ensimmäiseksi. Tiketti: https://github.com/KohaSuomi/Koha/issues/2544
+* Varausten priorisoinnin toinen kokeilujakso aloitetaan tänään.
 
 **Vaara**
 * Asiakkaille lähtevissä varausten noutoilmoitus tekstiviesteissä oli häiriötä muutamana päivänä. 16 ja 17.10 asiakkaille ei lähtenyt varausten noutoilmoituksia tekstiviestitse ollenkaan, kun taas 20.10 asiakkaille lähtevästä yhdestä noudettavasta varauksesta tuli pahimmillaan 5 samaa viestiä. Vika johtui Link Mobilitystä.
