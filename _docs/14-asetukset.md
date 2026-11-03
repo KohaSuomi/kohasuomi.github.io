@@ -246,6 +246,7 @@ MTYPE-luokassa on tietueiden aineistotyypit, jotka vastaavat Finnan materiaality
 Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineistotyyppien tunnisteet
 * 1.11.2021 lisätty VIDEOPELI ja LAUTAPELI korvaamaan KONSOLIP
 * 16.10.2025 lisätty CELIA/Celia-äänikirja ja muutettu PUHECD, PUHETAL, PUHEKAS ja PUHELEVY kuvauksia asiantuntijaryhmän 23.9.2025 päätöksen mukaiseksi
+* 3.11.2026 lisätty PALAPELI/Palapeli asiantuntijaryhmän 26.10.2026 päätöksen mukaisesti
 
 |Finna-materiaalityyppi|MTYPE|Selite|
 |---|---|---|
@@ -310,6 +311,7 @@ Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineisto
 |Other|MUU|Muu aineisto|
 |VideoGame|VIDEOPELI|Videopeli|
 |BoardGame|LAUTAPELI|Lautapeli|
+|JigsawPuzzle|PALAPELI|Palapeli|
 
 
 **NOT_LOAN**
