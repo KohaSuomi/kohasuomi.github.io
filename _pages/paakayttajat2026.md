@@ -36,6 +36,8 @@ Pohjoisesta etelään
 **OUTI**
 * Varausten priorisoinnin toinen kokeilujakso katkaistaan viikon jälkeen, koska ongelmat verkkokirjastossa jatkuvat. Pudotimme LocalHoldsPriorityMaxHolds-asetuksen 20 --> 10 jo aloituspäivänä, mutta ajan kuluessa latausajat vielä kasvoivat niin, että suosituin varaus antoi vain aikakatkaisua. Testaamme parannuksia saatavuuslaskentaan.
 * Keskustelua Finnan kirjastokortti-osiosta.
+* OUTIssa toivottiin uutta auktorisoitua arvoa kaukolainolle, jolla voi määritellä perutun kaukolainapyynnön, jota ei tilata asiakkaalle siitä syystä, että esim. tietuetta ei ole olemassa tai nidettä ei saa mistään. Muokataanko CANCELLED-arvoa vai tehdäänkö uusi?
+  * tehdään uusi arvo UNAVAILABLE: Ei saatavilla ja lisätään se kaukolainauksen käyttöönotto-ohjeeseen
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
