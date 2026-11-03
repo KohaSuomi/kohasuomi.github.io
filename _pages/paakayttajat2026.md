@@ -12,8 +12,8 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 45
 
-Aika: Ti 2.11.2026 klo 9.15<br />
-Läsnä:
+Aika: Ti 3.11.2026 klo 9.15<br />
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
@@ -27,6 +27,9 @@ Läsnä:
 
 Pohjoisesta etelään
 
+**Lappi**
+* Normaalia ylläpitoa
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 44
