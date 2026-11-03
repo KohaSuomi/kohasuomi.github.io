@@ -183,6 +183,7 @@ CANCELLED|Asiakas perunut pyynnön
 CHECKEDOUT|Lainattu asiakkaalle (Lisätieto, jota ei lisätä kuvaukseen: jos nide lisätään itse ja lainataan Kohan normaalin lainauksen kautta, ei tieto päivity Kaukolainamoduulin puolelle)
 CLAIMED|Karhuttu
 PATCHECKIN|Asiakas palauttanut
+UNAVAILABLE|Ei saatavilla
 
 
 ## Nidetyyppi
