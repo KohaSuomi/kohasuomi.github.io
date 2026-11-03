@@ -23,6 +23,7 @@ Läsnä:
 * [Kohan ohje suomeksi päivitys versioon 26.05](https://github.com/KohaSuomi/Koha-26x/issues/130)
   * sovitaan päivitysvastuut ja -aikataulu
 * [Uutiskirje 2/2026](https://github.com/KohaSuomi/Koha/discussions/2568)
+* Sovittiin uusi ILL_STATUS_ALIAS-arvo UNAVAILABLE / Ei saatavilla
 
 Pohjoisesta etelään
 
