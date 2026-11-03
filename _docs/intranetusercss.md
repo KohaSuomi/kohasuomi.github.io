@@ -16,7 +16,7 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 ### Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto */
@@ -27,7 +27,7 @@ body#pat_member.pat .searchfieldstype_filter option[value='full_address'] { disp
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan ikä tiedot-näytöllä */
@@ -37,7 +37,7 @@ body#pat_moremember.pat span.age_years { display: none; }
 ### Piilota Näytä aina lainat reaaliaikaisesti -valinta
 
 Tarpeellisuus: Suositeltava, parantaa suorituskykyä.<br />
-Versio 24.05
+Versio 26.05
 
 ```
 /* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä. Piilottaa sekä lainaus- että tiedot-näytöltä. */
@@ -49,7 +49,7 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 
 ### Säädä Viesti asiakkaalle -viestin väriä
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeellinen<br />
 Versio 24.05
 
 ```
