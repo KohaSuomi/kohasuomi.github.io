@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45
 
 Aika: Ti 3.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi; kokouksen alkuosa)
 
 **Yhteiset**
 * [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
@@ -38,6 +38,9 @@ Pohjoisesta etelään
 * Keskustelua Finnan kirjastokortti-osiosta.
 * OUTIssa toivottiin uutta auktorisoitua arvoa kaukolainolle, jolla voi määritellä perutun kaukolainapyynnön, jota ei tilata asiakkaalle siitä syystä, että esim. tietuetta ei ole olemassa tai nidettä ei saa mistään. Muokataanko CANCELLED-arvoa vai tehdäänkö uusi?
   * tehdään uusi arvo UNAVAILABLE: Ei saatavilla ja lisätään se kaukolainauksen käyttöönotto-ohjeeseen
+ 
+**Siilinjärvi**
+* Ei mainittavaa
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
