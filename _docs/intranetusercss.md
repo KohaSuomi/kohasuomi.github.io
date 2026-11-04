@@ -154,7 +154,7 @@ Tämä on tarpeeton, mikäli uuteen EnableBooking-järjestelmäasetukseen valita
 ### Piilota Tarkasta edelliset lainat -kohta asiakkaan muokkauksesta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Tarkasta edelliset lainat -kohta asiakkaan muokkauksesta */
@@ -165,7 +165,7 @@ body#pat_memberentrygen.pat select#checkprevcheckout { display:none; }
 ### Piilota Tarkasta edelliset lainat -kohta asiakkaan tiedot-sivulla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan tiedot -sivulta "Tarkasta edelliset lainat" -kohta */
@@ -176,22 +176,24 @@ body#pat_moremember.pat li#patron-checkprev { display:none; }
 
 Jos ennakkoilmoitukseen valitsee päiväksi 0, viesti ei lähde ollenkaan.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeen versiossa 26.05<br />
 Versio: 24.05
+
+Tämä ei ole enää tarpeellinen versiossa 26.05, koska 0-vaihtoehto on poistettu valikosta kokonaan.
 
 ```
 /* Piilota ennakkoilmoituksen valinnasta 0 päivän keston. Käy lisäksi valitsemassa asiakastyyppien ylläpidossa asiakastyyppien viestiasetuksiin jotain muuta kuin 0 oletukseksi. Valinta tehtävä kaikille asiakastyypeille erikseen. */
 body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[value='0'] { display:none; }
 ```
 
-### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista 0 ja 8-30
+### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista arvot 8-30
 
 Tarpeellisuus: Vapaaehtoinen tai vaihtoehtoinen tätä edeltävälle<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Asiakkaan viestiasetukset, ennakkoilmoituksen viive-vaihtoehdoista arvot 0 ja 8-30 piiloon */
-body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value='9'], [value='10'],
+/* Asiakkaan viestiasetukset, ennakkoilmoituksen viive-vaihtoehdoista arvot 8-30 piiloon */
+body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='8'], [value='9'], [value='10'],
  [value='11'], [value='12'], [value='13'], [value='14'], [value='15'], [value='16'], [value='17'], [value='18'], [value='19'], [value='20'],
  [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
 ```
