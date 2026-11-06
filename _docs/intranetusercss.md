@@ -309,7 +309,7 @@ body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none;
 Tällä piilotetaan asiakkaan muokkausnäytöltä Muut määreet ja tunnukset -osio. Tämä voi olla tarpeen, jos osion kaikki määreet on siirretty JS-rimpsuilla toiseen kohtaan lomaketta ja osio jää tyhjäksi. Huomioi, että kimpassa voi olla asiakasmääreitä, jotka näkyvät vain tietyille asiakastyypeille, jolloin osiota ei voi piilottaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta. Tämä voi olla tarpeen, jos kaikki määreet on siirretty toiseen kohtaan lomaketta. Huomioi, että jotkin määreet saatetaan näyttää vain tietyillä asiakastyypeillä, jolloin piilotusta ei voi tehdä. */
@@ -321,7 +321,7 @@ body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { displa
 ### Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi -vaihtoehto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Piilota asiakastietojen Muita toimintoja -valikosta Päivitä lapsi aikuiseksi */ 
@@ -341,7 +341,7 @@ div#add_message_form #message_type option[value='B'] { display:none; }
 ### Piilota Sähköposti-vaihtoehto Viestin lisäys -popupista
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Sähköposti-vaihtoehto Viestin lisäys-popupista */
@@ -351,7 +351,7 @@ div#add_message_form #message_type option[value='E'] { display:none; }
 ### Piilota tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Tekstiviesti numeroon -kenttä Asiakkaan viestiasetuksista asiakkaan muokkauksessa */
@@ -361,7 +361,7 @@ body#pat_memberentrygen.pat #memberentry_messaging_prefs p { display:none; }
 ### Varaustunniste- ja Sotuavain-kenttien korkeus yhdeksi riviksi
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Varaustunnisteen ja sotuavaimen kenttien korkeus yhdeksi riviksi. Tarkista, että attribuuttien arvot vastaavat oman kimpan arvoja. */
@@ -372,7 +372,7 @@ Versio: 24.05
 ### Piilota Perheen lainat -välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 Tämä oli aiemmin JS-rimpsu, mutta muutettiin CSS:ksi versiossa 23.11.
 
@@ -384,7 +384,7 @@ Tämä oli aiemmin JS-rimpsu, mutta muutettiin CSS:ksi versiossa 23.11.
 ### Piilota Taattavien maksut -välilehti Tiedot-osiosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Taattavien maksut -välilehti Tiedot-osiosta */
@@ -394,7 +394,7 @@ Versio: 24.05
 ### Piilota taattavien maksut Tiedot-sivun Taattavat-listasta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota taattavien maksut Tiedot-sivun Taattavat-listasta */
@@ -404,7 +404,7 @@ Versio: 24.05
 ### Piilota Reklamaatiot-välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 Kun nidepakettiasetukset laittaa päälle, tulee Nextillä näkyviin turhaan kaikille asiakkaille reklamaatiot-välilehdehti. Liittyy [tikettiin 142](https://github.com/KohaSuomi/Koha-23x/issues/142).
 
@@ -415,8 +415,8 @@ a#return-claims-tab { display:none; }
 
 ### Piilota Palauta valitut niteet -nappula asiakkaan lainat-taulussa
 
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Tarpeellisuus: Suositeltava<br />
+Versio: 26.05
 
 Jos Palauta-sarake on piilossa, kannattaa myös Palauta valitut niteet -nappula piilottaa.
 ```
@@ -428,7 +428,7 @@ body#pat_moremember.pat button#CheckinChecked.btn.btn-default { display: none; }
 ### Piilota asiakaslistat-välilehti Lainaus- ja Tiedot -osioista asiakkaan tiedoissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Asiakaslistat välilehden piilotus Lainaus- ja Tiedot-välilehdillä. */
