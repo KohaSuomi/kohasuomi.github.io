@@ -442,7 +442,7 @@ Asiakkaan muokkauksessa jotkin pitkät otsikoiden nimet menevät kentän taakse 
 Huom. Tästä on olemassa tässä kirjastossa myös versio, jolla levennetään kaikkialla otsikkokenttien käytettävissä olevaa tilaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Levennä otsikkokenttiä asiakkaan muokkauksessa */
@@ -455,7 +455,7 @@ body#pat_memberentrygen div.hint { margin-left: 14rem; }
 Liittyy [tikettiin #1330](https://github.com/KohaSuomi/Koha/issues/1330).
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Lajittelu 1/2 -laatikot Takaajan haku -modaalissa. */
@@ -468,7 +468,7 @@ body#pat_memberentrygen.modal-open form fieldset.brief ol li:nth-child(5) { disp
 Liittyy [tikettiin #138](https://github.com/KohaSuomi/Koha-24.05/issues/138).
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Väärä osoite ja Kortti kadonnut -rivit asiakkaan Tiedot-sivulta oikealta Kirjastotiedot-laatikosta */
@@ -479,7 +479,7 @@ body#pat_moremember.pat li#patron-flags-lostcard { display:none; }
 ### Lihavoi 'Tili on lukittu' huomautus asiakkaan Tiedot-sivulla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Lihavoi 'Tili on lukittu' huomautus asiakkaan tiedoissa */
@@ -524,7 +524,7 @@ body li.blocker.account_admin_locked:after {
 Tällä saa lihavoitua asiakkaan tiedoissa vasemman reunan infolaatikossa / yhteenveto-osiossa ensimmäisen asiakasmääreen, joka ainakin henkilöasiakkailla (aikuiset ja lapset) todennäköisesti on kaikilla varaustunnus, eli perimmäisenä tarpeena oli lihavoida asiakkaan varaustunnus. Muilla asiakastyypeillä lihavoiduksi voi tulla jokin muukin asiakasmääre.
 
 Tarpeellisuus: Vapaaehtoinen <br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Asiakasmääre lihavoiduksi asiakkaan yhteenveto-osioon */
@@ -534,7 +534,7 @@ li.patronattribute:nth-child(1) { font-weight: bold; }
 ### Lihavoi asiakkaan muokkauksessa tärkeimmät viestiasetukset
 
 Tarpeellisuus: Vapaaehtoinen <br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Tärkeimpien viestiasetusten lihavointi */
@@ -550,7 +550,7 @@ body#pat_memberentrygen.pat tr#item_due_message { font-weight: bold; }
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi */
@@ -564,7 +564,7 @@ body#pat_member.pat div.browse a {
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle */
@@ -574,7 +574,7 @@ Versio: 24.05
 }
 ```
 
-### Piilota asiakashaun "Kaikki"-vaihtoehto
+### Piilota asiakashaun tuloksista "Kaikki"-vaihtoehto
 
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
@@ -582,8 +582,8 @@ Tarpeellisuus: Suositeltava<br />
 Versio: 25.05
 
 ```
-/* Piilota asiakashaun "Kaikki"-vaihtoehto*/
-[name="memberresultst_length"] option[value="-1"] { display: none; }
+/* Piilota asiakashaun tuloksista "Kaikki"-vaihtoehto*/
+[id="dt-length-0"] option[value="-1"] { display: none; }
 ```
 
 ### Piilota Asiakkaan pikalisäys -painike
