@@ -198,13 +198,13 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='8'], [value='9'], [value
  [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
 ```
 
-### Piilota asiakkaan viestiasetuksista noutomuistutuksen viive -vaihtoehdoista 0 ja 6-30
+### Piilota asiakkaan viestiasetuksista noutomuistutuksen viive -vaihtoehdoista arvot 6-30
 
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Asiakkaan viestiasetukset, varauksen noutomuistuksen viive-vaihtoehdoista arvot 0 ja 6-30 piiloon */
-body#pat_memberentrygen.pat [name="10-DAYS"] :is([value='0'], [value='6'], [value='7'], [value='8'], [value='9'], [value='10'],
+body#pat_memberentrygen.pat [name="10-DAYS"] :is([value='6'], [value='7'], [value='8'], [value='9'], [value='10'],
  [value='11'], [value='12'], [value='13'], [value='14'], [value='15'], [value='16'], [value='17'], [value='18'], [value='19'], [value='20'],
  [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
 ```
@@ -213,7 +213,7 @@ body#pat_memberentrygen.pat [name="10-DAYS"] :is([value='0'], [value='6'], [valu
 
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Noutomuistutuksen piilotus asiakkaan viestiasetuksista muokkauksessa ja tiedot-sivulla */
@@ -223,7 +223,7 @@ tr#hold_reminder_message { display:none; }
 ### Piilota Kooste-sarake asiakkaan viestiasetuksista
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 Liittyy [tikettiin 126](https://github.com/KohaSuomi/Koha-23x/issues/126). Jos on käytössä muita sarakkeita (esim. suomi.fi), niin muuta sulkeissa olevaa lukua sen mukaan. Tämä piilottaa 5. sarakkeen.
 
@@ -240,7 +240,7 @@ div#patron-messaging-prefs td:nth-child(5) {
 ### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto */ 
@@ -251,18 +251,18 @@ body#circ_circulation.circ ul.dropdown-menu [data-code="printsummary"] { display
 ### Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet -valinnat
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota asiakastietojen tulosta-valikosta Tulosta erääntyneet */ 
-body#pat_moremember.pat ul.dropdown-menu li:nth-child(4) a#print_overdues { display: none; }
-body#circ_circulation.circ ul.dropdown-menu li:nth-child(4) a#print_overdues { display: none; }
+body#pat_moremember.pat ul.dropdown-menu a#print_overdues { display: none; }
+body#circ_circulation.circ ul.dropdown-menu a#print_overdues { display: none; }
 ```
 
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot asiakkaan Tiedot-sivulta */
@@ -283,7 +283,7 @@ body#pat_memberentrygen.pat #memberentry_userid.rows { display:none; }
 ### Piilota käyttäjänimi-kenttä salasananvaihto-sivulta
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /*Käyttäjänimi-kentän piilotus salasananvaihto-sivulla*/
