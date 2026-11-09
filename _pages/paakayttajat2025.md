@@ -138,7 +138,7 @@ Pohjoisesta etelään
 ## Viikko 50
 
 Aika: Ti 9.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Versionvaihto
@@ -180,12 +180,15 @@ Etelästä pohjoiseen
 **Kyyti**
 * Kyytissä halutaan lapset pois poistoajosta. Sovittiin, että kommentoidaan tikettiin [1877](https://github.com/KohaSuomi/Koha/issues/1877)
 
+**Vaski**
+* Hyllyvarausraportilla näkyy välillä väärä noutokirjasto -tiketin tilanne?
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2025#viikko-50) - [Palaa sivun alkuun](/paakayttajat2025)
 
 ## Viikko 49
 
 Aika: Ti 2.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Maria Joona ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Elina Uotila ja Erika Miettinen (Kirkes), Katariina Pohto ja Pirkko-Liisa Lauhikari (OUTI), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Uusi ohje: [Miten toimia, jos asiakaspalvelutietokone varastetaan.](https://koha-suomi.fi/dokumentaatio/ty%C3%B6asemavarkaus/)
