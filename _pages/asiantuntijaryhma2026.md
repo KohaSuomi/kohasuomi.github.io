@@ -15,6 +15,43 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2026 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Esityslista 10/2026
+
+Aika: Maanantai 16.11.2026 klo 14<br />
+Läsnä:
+
+### 1. Ajankohtaiset
+
+### 2. Tiekartan uudistus
+
+Kimpat saivat edellisessä kokouksessa tehtäväksi käydä läpi tiekartalle ehdotetut asiat ja miettiä, onko muita aiheita tiekarttaan lisättäväksi.
+
+[Alustava versio uudesta Tiekartta-projektista](https://github.com/orgs/KohaSuomi/projects/23)
+
+Mietittävä:
+* mitä tavotteita / otsikkotasoja tarvitaan
+* mitä statuksia / tiloja
+* tarvitaanko muita määritteitä
+* minkälaisia näkymiä tarvitaan
+* mitkä nykyisistä tiketeistä kytketään uuteen projektiin
+
+### 3. Asiakastietojen siirto kolmannen osapuolen järjestelmiin
+
+Koha-Suomelle on tullut pyyntö luoda rajapintayhteys, jolla siirretään kaikki asiakastiedot kolmannen osapuolen tulostusjärjestelmään. Tämä on Koha-Suomen tulkinnan mukaan vastoin tietosuojasäädöksiä, ei siihen ole suostuttu. Järjestelmän toimittajalle on ehdotettu mahdollisuutta tunnistaa asiakas kirjastokirtin ja pin-koodin yhdistelmällä ns. lennossa.
+
+Koha-Suomi suosittelee, että erilaisissa kilpailutuksissa olisi hyvä vaatia, että tiedot siirretään vain asiakkaan pyynnöstä tai kirjastokortti+pin-koodi -yhdistelmällä asiakas itse.
+
+### 4. Käsiteltävät kehitysehdotukset
+* [Arkistoitujen taulujen säilytysaika #2506](https://github.com/KohaSuomi/Koha/issues/2506)
+  * Koha-Suomen palvelimille tarvitaan lisää tilaa, joten pohditaan, voisiko vanhemmat arkistotaulut (action_logs, statistics, message_queue) poistaa tai siirtää muualle. Sitä ennen kunnissa/kimpoissa selvitetään seuraavaan kokoukseen, kuinka kauan heidän kuuluisi säilyttää mm. lokitietoja. Esim. Turussa on käytössä 10 vuoden säilytysaika, joka perustunee Valtioneuvoston ohjeeseen [Suositus tietoaineistojen säilytysajasta ja toimenpiteistä säilytysajan päätyttyä](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/405f7d99-3863-426e-aad6-d854e62fbb5f/content). Asiantuntijaryhmän jäsenet arvelivat, että aktiivisia arkistotauluja (SQL-raporteilla haettavissa olevat) tarvittaisiin viiden vuoden ajalta ja sitä vanhemmat taulut/tiedot voivat olla jonkinlaisessa pitkäaikaissäilytyksessä, josta ne on hankalammin saatavissa, mutta kuitenkin olemassa. Koha-Suomessa tutkitaan, onnistuisiko vanhempien arkistotaulujen siirto konesalitoimittajan varmistusjärjestelmään, jolloin ne olisi tallessa, mutta eivät veisi tilaa Koha-palvelimilta. Tietojen siirto esim. kuntien palvelimille ei saanut kannatusta. 
+* [Kohan itsepalvelutoimintoon huomautus uudelleen käsiteltävästä niteestä #2536](https://github.com/KohaSuomi/Koha/issues/2536)
+
+### 5. Muut asiat
+
+### 6. Seuraava kokous
+
+Tiistai 8.12.2026 klo 13
+
 ## Muistio 9/2026
 
 Aika: Maanantai 26.10.2026 klo 13<br />

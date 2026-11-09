@@ -12,23 +12,49 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 45
 
-Aika: Ti 2.11.2026 klo 9.15<br />
-Läsnä:
+Aika: Ti 3.11.2026 klo 9.15<br />
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anni Mäki-Mantila (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi; kokouksen alkuosa), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes)
 
 **Yhteiset**
-* Viikon 45 päivitys
+* [Viikon 45 päivitys](https://github.com/KohaSuomi/Koha/discussions/2567)
+  * [Uusi aineistotyyppi Palapeli](https://github.com/KohaSuomi/Koha/issues/2543). Lisätty seuranta, johon lisätty rasti niille kimpoille, joiden arveltu tehneen kaikki tarvittavat määritykset, myös jälkikäteen mainitun OKM-liitännäiseen tarvittavan määrityksen. Tarkistetaan loput kokouksen aikana.
+    * Sovitaan myös muutosajojen ajankohdat.
+    * Onko tarvetta tietueiden (manuaalisille) korjauksille ennen muutosajoja?
 * [Kohan ohje suomeksi päivitys versioon 26.05](https://github.com/KohaSuomi/Koha-26x/issues/130)
   * sovitaan päivitysvastuut ja -aikataulu
-* Uutiskirje 2/2026
+* [Uutiskirje 2/2026](https://github.com/KohaSuomi/Koha/discussions/2568)
+* Sovittiin uusi ILL_STATUS_ALIAS-arvo UNAVAILABLE / Ei saatavilla
 
 Pohjoisesta etelään
 
+**Lappi**
+* Normaalia ylläpitoa
+
+**Vaski**
+* Normaalia ylläpitoa
+
+**OUTI**
+* Varausten priorisoinnin toinen kokeilujakso katkaistaan viikon jälkeen, koska ongelmat verkkokirjastossa jatkuvat. Pudotimme LocalHoldsPriorityMaxHolds-asetuksen 20 --> 10 jo aloituspäivänä, mutta ajan kuluessa latausajat vielä kasvoivat niin, että suosituin varaus antoi vain aikakatkaisua. Testaamme parannuksia saatavuuslaskentaan.
+* Keskustelua Finnan kirjastokortti-osiosta.
+* OUTIssa toivottiin uutta auktorisoitua arvoa kaukolainolle, jolla voi määritellä perutun kaukolainapyynnön, jota ei tilata asiakkaalle siitä syystä, että esim. tietuetta ei ole olemassa tai nidettä ei saa mistään. Muokataanko CANCELLED-arvoa vai tehdäänkö uusi?
+  * tehdään uusi arvo UNAVAILABLE: Ei saatavilla ja lisätään se kaukolainauksen käyttöönotto-ohjeeseen
+ 
+**Siilinjärvi**
+* Ei mainittavaa
+
+**Kyyti**
+* Eilen on otettu käyttöön Broomworkin Hankintakanava. Ensimmäiset tilaukset on tehty ja ovat tulleet onnistuneesti Kohaan.
+
+**Kirkes**
+* Sähköpostilla oli tullut viesti EditX-tilaussanoman käsittelyn ongelmista, mutta aamulla tarkastaessa kaikki viestit olivat OK-tilassa, eli käsittely oli saatu suoritettua loppuun ennen kuin pääkäyttäjät ehtivät tutkia asiaa.  
+* Muuten normaalia ylläpitoa. 
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-45) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 44
 
 Aika: Ti 27.10.2026 klo 9.15<br />
-Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen (Vaara), Maria Joona ja Pia Kusmin (Lappi), Lotta Juvonen ja Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Erika Miettinen ja Elina Uotila (Kirkes), Janne Seppänen ja Lauri Hänninen (Lastu), Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/2541)
@@ -45,6 +71,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Oulun ulkopuolisilla kimpan kunnilla on ollut kompastuskivenä ensi vuoden lasten ja nuorten ostoskorien määritykset hankintaportaaliin ja aineistotoimittajien verkkokauppoihin nyt kun OUTIssa on lapsilla ja nuorilla omat hyllypaikat. Etukäteisohjeistuksista huolimatta korien määritykset ovat olleet monien kuntien ostoskoreissa väärin. Määrityksiä on korjattu ja virheeseen päätyneitä tilauksia lähetetty uudestaan Kohaan. Nyt näyttää, että virheeseen päätyneitä sanomia ei ole enää tullut.
 * Asiakaspalvelusta tuli ihmettelyä, kun Kohan tai selaimen välilehden jumitilanteessa tallentuneet varaukset olivat tallentuneet varausjonon ensimmäiseksi. Tiketti: https://github.com/KohaSuomi/Koha/issues/2544
+* Varausten priorisoinnin toinen kokeilujakso aloitetaan tänään.
 
 **Vaara**
 * Asiakkaille lähtevissä varausten noutoilmoitus tekstiviesteissä oli häiriötä muutamana päivänä. 16 ja 17.10 asiakkaille ei lähtenyt varausten noutoilmoituksia tekstiviestitse ollenkaan, kun taas 20.10 asiakkaille lähtevästä yhdestä noudettavasta varauksesta tuli pahimmillaan 5 samaa viestiä. Vika johtui Link Mobilitystä.

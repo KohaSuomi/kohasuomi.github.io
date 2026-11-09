@@ -13,6 +13,18 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 46
+
+Aika: Ma 9.11. klo 9<br/>
+Läsnä:
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* Viikon 46 päivitys
+* Päivystysvuorot
+
 ## Viikko 45
 
 Aika: Ma 2.11. klo 9<br/>
@@ -47,6 +59,12 @@ Läsnä: Anneli, Pasi, Ari, Lari, Johanna, Emmi
 - [Availability-ratkaisu on hidas: CheckReserves-kutsu ei hyödynnä RealTimeHolds-jonoa](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/14): Tiketti avattu ja vastuutettu; optimoitiin availability held()-tarkistus hyödyntämään RealTimeHolds-jonoa, lisättiin eräajo (batch) transfer- ja checkout-hauille, benchmark-skripti, populate_holds-testiapuskripti sekä syspref RESTDIDisableHeldOptimization ja ympäristömuuttuja REST_DI_DISABLE_HELD_OPTIMIZATION optimoinnin poiskytkentään. Testattu tupu-test-palvelimella.
 - [Tarratulostustyökalu: Käännökset tarvitaan](https://github.com/KohaSuomi/koha-plugin-visual-label-tool/issues/13): Vastuutettu; käännökset päivitettiin issue #13 mukaan ja ovat testattavana testeillä.
 - [Kohan raporttirajapintaa kutsutaan liian usein: viivakoodien duplikaatteja ei estetä](https://github.com/KohaSuomi/rfid-harava/issues/1): Tiketti suljettu; README:n kuvakaappaus päivitettiin.
+
+#### Emmi
+
+- Versionvaihdon tikettien viemistä nexteille
+- Vahvan tunnistautumisen tyhöryhmä kutsuttu koolle
+- Yhteisöpalaveri 28.10.
 
 ## Viikko 44
 
