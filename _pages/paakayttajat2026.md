@@ -1625,7 +1625,7 @@ Pohjoisesta etelään
 ## Viikko 8
 
 Aika: Ti 17.2.2026 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Hanna Hyttinen (Vaara), Lotta Juvonen, Kati Sillgren (Helle), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen (Kyyti), Janne Seppänen ja Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Versionvaihto: [Testattavien tilannekatsaus](https://github.com/orgs/KohaSuomi/projects/6/views/3)
@@ -1659,6 +1659,10 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Tekstiviesteissä havaittu ongelmaa, jos asiakkaalle saapuu noudettavaksi lyhyen ajan sisään useampi saman päänimekkeen nide. Koha tulkitsee nämä noutoilmoitukset kaksoiskappaleiksi, eikä lähetä niistä kuin yhden. Tämä ratkaistu lisäämällä viestiin niteen viivakoodi ja typistämällä pitkät nimekkeet ja varaustunnukset, jotta viestin sisältö mahtuu yhteen tekstiviestiin.
+
+**Vaski**
+* Kohan tehty toiminto jää sivulle talteen ja voidaan suorittaa vahingossa uudelleen. Kirjastoautossa palautettu nide, joka tärppäsi kuljetettavaksi varaukseen. Varauksen kuljetustila peruttiin. Nide palautettiin uudelleen, jolloin tärppäsi varaukseen uudelleen. Varaussivu ladattiin päivittämällä sivu joko selaimen napista tai F5:llä, jolloin varauksen kuljetustila peruttiin uudelleen. Myös lainauksessa voidaan lähettää lainaus uudelleen, mutta se ei mene läpi, koska lainaa ei voi uusia samana päivänä kun se on lainattu.
+* Asiakkaan lainat-taulussa ei näy varaukset, jos uusintakerrat täynnä. Tähän voisi rakentaa skriptin, joka lisää tietueen varaustilanteen näkyviin, jotta aktiivisia varauksia sisältäviä lainoja ei uusittaisi ohittamalla uusintarajoitukset.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-8) - [Palaa sivun alkuun](/paakayttajat2026)
 
