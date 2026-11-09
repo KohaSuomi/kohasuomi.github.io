@@ -91,7 +91,7 @@ Läsnä: Päivi Knuutinen (Vaara), Roosa Väisänen (Kyyti), Susanna Sandell (Va
 ## Viikko 51
 
 Aika: Ti 16.12.2025 klo 9.15<br />
-Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu)
+Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Elina Uotila ja Erika Miettinen (Kirkes), Reetta Pihlaja (Siilinjärvi), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lauri Hänninen (Lastu), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [API-avainten säännöllinen uusiminen #2098](https://github.com/KohaSuomi/Koha/issues/2098)
@@ -126,6 +126,10 @@ Läsnä: Anneli Österman, Johanna Räisä ja Kodo Korkalo (Koha-Suomi), Leena K
 **Helle**
 * Kohaan kirjautuneelle tulee päivittäin virheilmoitus Error 403. Palaverissa saatu tieto: selaimen asetuksista on hyvä poistaa Kohaan liittyvät todennuspäätökset.
 * Mm. kirjojen alv-prosentti muuttuu 1.1.2026 alkaen 14 -> 13,5
+
+**Vaski**
+* Hetuissa + merkkejä, joista tulee asiakkaalle väärä syntymäaika. Lisäksi pitäisi huomioida muutkin nykyään käytössä olevat välimerkit. Vaski tekee tiketin.
+* Vuodenvaihteessa otetaan käyttöön Aineistohotelli toimipiste, johon sijoitetaan varastoaineistoa, joka tulee myöhemmin siirtymään aineistohotelliin.
   
 Pohjoisesta etelään
 
