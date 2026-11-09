@@ -16,7 +16,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 46
 
 Aika: Ma 9.11. klo 9<br/>
-Läsnä:
+Läsnä: Johanna, Anneli, Lari, Pasi ja Ari
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
@@ -24,6 +24,18 @@ Läsnä:
 ### Muuta
 * Viikon 46 päivitys
 * Päivystysvuorot
+
+### Viikolla 45 tehtyä
+
+#### Johanna
+
+- [Hyllyvarauslistalla näkyy väärä noutokirjasto kun ensimmäisenä oleva nidevaraus ei ole poimittavissa](https://github.com/KohaSuomi/Koha/issues/2259): Tiketti suljettu.
+- [Kyytin nextille RunTestCronjobs](https://github.com/KohaSuomi/Koha/issues/2511): Tiketti suljettu.
+- [Kyytin nextin testiautomaattitunnukselle järjestelmäasetuksen HoldsNeedProcessing ohitus](https://github.com/KohaSuomi/Koha/issues/2512): Tiketti suljettu.
+- [Suomi.fi-kirjeiden seuranta ja linkitys määrityssivulla](https://github.com/KohaSuomi/koha-plugin-KSMessaging/issues/4): Tiketti avattu ja vastuutettu; configure-sivulle lisättiin Suomi.fi-kirjeiden seuranta ja linkitys, kirjekieliversioiden tilan näyttö, kielivalikosta johdettu kielilista, puuttuvan oletuskieliversion näyttö, Font Awesome -ikonit ja värikoodaus sekä wiki-ohjeet.
+- [Laskutustyökalu: Finvoice-lähetystiedostossa kenttien merkkimäärien rajoitukset tuottavat ongelmia laskujen luonnissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/39): Tiketti suljettu.
+- [Availability-ratkaisu on hidas: CheckReserves-kutsu ei hyödynnä RealTimeHolds-jonoa](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/14): Vastuutettu; optimointi tuodaan tuotantoon ensi viikolla.
+- [EDItX-pluginin lokihakemisto /var/log/koha/editx ei ole kirjoitettavissa REST-prosessille](https://github.com/KohaSuomi/koha-suomi-utility/issues/177): Tiketti avattu ja suljettu.
 
 ## Viikko 45
 
