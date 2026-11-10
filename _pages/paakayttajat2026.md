@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
 * [Uutta versiossa 26.xx](https://github.com/KohaSuomi/Koha-26x/wiki/Uutta-versiossa-26.xx) -wiki suunnilleen "valmis"
+  * sovitaan uusien ominaisuuksien, järjestelmäasetusten, käyttäjäoikeuksien yms läpikäynti myöhemmin.
 
 Etelästä pohjoiseen
 
