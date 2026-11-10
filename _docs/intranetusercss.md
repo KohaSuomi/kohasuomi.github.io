@@ -743,13 +743,13 @@ body#circ_circulation-home .circ-button.bookings-to-collect { display: none; }
 
 ### Lainaus
 
-### Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa
+### Piilota "Älä lainaa, vahvista varaus ja tulosta infokuitti" -nappula lainauksessa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 24.05
+Versio 26.05
 
 ```
-/* Piilota Älä lainaa ja tulosta kuitti -nappula, jos yritetään lainata noudettava varaus toiselle asiakkaalle kuin varaajalle */
+/* Piilota Älä lainaa, vahvista varaus ja tulosta infokuitti -nappula, jos yritetään lainata noudettava varaus toiselle asiakkaalle kuin varaajalle */
 body#circ_circulation.circ button.print { display: none !important; }
 ```
 
@@ -763,7 +763,7 @@ Liittyy tikettiin [Koha #1681](https://github.com/KohaSuomi/Koha/issues/1681).
 
 Lisätty: 23.7.2025<br />
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 24.05
+Versio 26.05
 
 ```
 /* Lainauksessa tulevaan varoitukseen hyllyvaratusta niteestä liittyvät muutokset:
@@ -793,10 +793,10 @@ body#circ_circulation.circ div.col-sm-10.col-sm-push-2:has(h1+div:not(.audio-ale
 ### Piilota palautus-näytön asetukset
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Piilota Palautukset-sivulla palautusasetukset - varmista, ettei piilota muita vastaavia asetussäätöjä. */
+/* Piilota Palautukset-sivulla palautusasetukset */
 body#circ_returns.circ i.fa-solid.fa-sliders { display: none; }
 body#circ_returns.circ div#forgive-overdue-fines.circ-setting { display: none; }
 body#circ_returns.circ div#book-drop-mode.circ-setting { display: none; }
@@ -808,16 +808,17 @@ body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none
 Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palautuksessa asiakkaan yhteystiedot varausten popupeista. Rimpsuista on kaksi eri versiota ja niitä käytetään riippuen siitä, onko käytössä varausten automaattinen kiinni jääminen vai ei.
 
 Tarpeellisuus: Pakollinen<br />
-Versio: 24.05
+Versio: 26.05
 
 Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
 
 ```
 /* Piilota varausruudusta asiakkaan yhteystiedot, kun käytössä automaattinen varauksen kiinni jääminen */ 
-body#circ_returns.circ div.dialog.message.hold-auto-filled ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
-body#circ_returns.circ li.patronaddress1 { display: none; } 
-body#circ_returns.circ li.patroncity { display: none; } 
-body#circ_returns.circ a#boremail { display: none; }
+body#circ_returns.circ li.patron-phone { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
+body#circ_returns.circ a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
+body#circ_returns.circ li.patron-email { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
+body#circ_returns.circ li.patronaddress1 { display: none; } /* Osoite piiloon */
+body#circ_returns.circ li.patroncity { display: none; } /* Osoite piiloon */
 ```
 
 
@@ -826,10 +827,10 @@ Varausten automaattinen kiinnijääminen ei ole päällä
 ```
 /* Piilota varauksen popparista asiakkaan yhteystiedot, kun varausten automaattinen kiinni jääminen ei ole päällä. */
 body#circ_returns.circ.modal-open ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
+body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
 body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
 body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
-body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
 body#circ_returns.circ div.modal-content li.notification_method { display: inline-block !important; } /* Palautetaan näkyville Ilmoitus asiakkaalle, jos kaksi ensimmäistä piilotusta piilottavat sen puhelinnumeron ja/tai sähköpostin puuttumisen takia */
 ```
 
