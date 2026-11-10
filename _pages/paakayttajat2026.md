@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
@@ -35,6 +35,10 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Öster
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Lastu**
+* Selvitelty tapausta jossa asiakkaalla oli ollut lainassa neljä nidettä jo kahden vuoden ajan ilman, että ne olivat näkyneet laskutustyökalussa. Tehty tiketti: https://github.com/KohaSuomi/Koha/issues/2573
+* Testailtu uuden SIP-rajapinnan ja hallintapaneelin toimivuutta, pyydettiin olisiko mahdollista pyöräyttää tuotannossa olevat automaatit myös nextille, jotta voidaan tutustua ennakkoon miten niiden asetukset konvertoituvat tuonne hallintapaneeliin. Tiketti tästä: https://github.com/KohaSuomi/Koha-26x/issues/133
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-46) - [Palaa sivun alkuun](/paakayttajat2026)
