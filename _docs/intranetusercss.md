@@ -591,7 +591,7 @@ Versio: 25.05
 Rimpsu piilottaa Asiakkaan pikalisäys -painikkeen. Kyseisellä lomakkeella ei ole kaikkia tarvittavia kenttiä näkyvissä, joten se on ainakin osalle kimpoista turha.
 
 Tarpeellisuus: Suositeltava<br />
-Versio 24.05
+Versio 26.05
 
 ```
 /* Piilota Asiakkaan pikalisäys -nappi */
@@ -601,14 +601,14 @@ body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
 ### Piilota asiakashausta valikosta Lajittelu-vaihtoehdot
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio 24.05
+Versio 26.05
 
 ```
-/* Piilota asiakashausta valikosta Lajittelu-vaihtoehdot */
+/* Piilota asiakashausta Hakukenttä-valikosta Lajittelu-vaihtoehdot */
 body#pat_member.pat select.searchfieldstype_filter option[value='sort1'] { display:none; }
 body#pat_member.pat select.searchfieldstype_filter option[value='sort2'] { display:none; }
 
-/* Piilota yläpalkin asiakashausta valikosta Lajittelu-vaihtoehdot */
+/* Piilota yläpalkin asiakashausta Hakukenttä-valikosta Lajittelu-vaihtoehdot */
 div#header_search div#patron_search_panel div.form-extra-content select#searchfieldstype option[value='sort1'] { display:none; }
 div#header_search div#patron_search_panel div.form-extra-content select#searchfieldstype option[value='sort2'] { display:none; }
 ```
@@ -623,7 +623,7 @@ div#header_search div#patron_search_panel div.form-extra-content select#searchfi
 
 Piilota Lainaus ja palautus -osion etusivulta Uusinta-nappi. Toiminto ei noudata laina- ja maksusääntöjä, eikä ota huomioon varauksia, joten sitä ei kannata käyttää.
 
-Versio: 24.05<br />
+Versio: 26.05<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -633,10 +633,33 @@ display: none;
 }
 ```
 
+
+### Piilota Uusinta-linkki Lainaus ja palautus -sivun vasemman reunan valikosta
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 26.05
+
+```
+/* Uusinta-linkin piilotus Lainaus ja palautus -osion vasemman reunan valikosta */
+div.circ-nav-menu a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
+```
+
+### Piilota Overdues/Myöhässä-osio Lainaus ja palautus -sivulta
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 26.05
+
+Versio 26.05: Tämä piilottaa myös itse raportit eli kokonaan Myöhässä olevat -osion. Jos halutaan piilottaa vain yksittäisiä raportteja, käytä alempana olevia CSS-piilotuksia.
+
+```
+/* Piilota Overdues/Myöhässä-otsikko Lainaus ja palautus -sivulta */
+body#circ_circulation-home.circ div.overdues { display: none; }
+```
+
 ### Piilota Myöhässä-raportti Lainaus ja palautus -sivulta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Myöhässä -raportti Lainaus ja palautus -sivulta */
@@ -648,7 +671,7 @@ display: none;
 ### Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Myöhässä ja maksuja -raportti Lainaus ja palautus -sivulta */
@@ -657,24 +680,14 @@ display: none;
 }
 ```
 
-### Piilota Overdues/Myöhässä-otsikko  Lainaus ja palautus -sivulta
 
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
-
-Jos ylemmät raportit piilotetaan, kannattaa myös otsikkorivi piilottaa.
-
-```
-/* Piilota Overdues/Myöhässä-otsikko Lainaus ja palautus -sivulta */
-body#circ_circulation-home.circ div.col-sm-5.col-md-4 h3:nth-of-type(2) { display: none; }
-```
 
 ### Piilota Overdues/Myöhässä- linkit ja -otsikko  Lainaus ja palautus -sivulta vasemman reunan valikosta
 
 Myöhässä osion -piilotus, ensin otsikko, joka on määritelty järjestysnumerolla, eli jos otsikkojen järjestys muuttuu, niin saattaa joskus mennä sitten väärä otsikko piiloon.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Piilota Myöhässä-osio Lainaus ja palautus -sivuvalikosta */
@@ -686,34 +699,34 @@ div.circ-nav-menu a[href="/cgi-bin/koha/circ/branchoverdues.pl"] { display: none
 ### Piilota Varausjono-linkki Lainaus ja palautus -sivulta ja vasemman reunan valikosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Piilota Varausjono-linkki Lainaus ja palautus -sivulla */
-a.circ-button[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] { display: none;}
+a.circ-button.holds-queue { display: none;}
 
 /* Piilota Varausjono-linkki Lainaus ja palautus -sivupalkista, jos valikko on käytössä */
-div.circ-nav-menu a[href="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
-```
-
-### Piilota Uusinta-linkki Lainaus ja palautus -sivun vasemman reunan valikosta
-
-Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
-
-```
-/* Uusinta-linkin piilotus Lainaus ja palautus -osion vasemman reunan valikosta */
-div.circ-nav-menu a[href*="/cgi-bin/koha/circ/renew.pl"] { display: none; }
+div.circ-nav-menu a[href*="/cgi-bin/koha/circ/view_holdsqueue.pl"] {display: none;}
 ```
 
 ### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpeutunut -välilehti
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joiden noutoaika on umpeutunut -välilehti */
+/* Piilota Noudettavissa olevat varaukset -raportilta "Varaukset, joiden noutoaika on umpeutunut" -välilehti */
 body#circ_waitingreserves.circ a#holdsover-tab { display: none; }
+```
+
+### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joista on peruutuspyyntö -välilehti
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 26.05
+
+```
+/* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joista asiakas on tehnyt poistopyynnön */
+body#circ_waitingreserves.circ a#holdscancelled-tab { display: none; }
 ```
 
 ### Piilota Kerättävät käyttövaraukset-painike lainaus ja palautus-sivulta
