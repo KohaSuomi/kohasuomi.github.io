@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), 
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
@@ -25,6 +25,8 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Öster
 **Vaski**
 * Normaalia ylläpitoa
 
+**OUTI**
+* Normaalia ylläpitoa ja versiovaihtotestailua
   
 **Lappi**
 * Suomi.fi-viestien kuittipohjat työn alla
