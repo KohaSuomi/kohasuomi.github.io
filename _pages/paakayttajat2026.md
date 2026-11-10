@@ -13,18 +13,24 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), 
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
 * [Uutta versiossa 26.xx](https://github.com/KohaSuomi/Koha-26x/wiki/Uutta-versiossa-26.xx) -wiki suunnilleen "valmis"
   * sovitaan uusien ominaisuuksien, järjestelmäasetusten, käyttäjäoikeuksien yms läpikäynti myöhemmin.
+    
+ Etelästä pohjoiseen
 
+**Vaski**
+* Normaalia ylläpitoa
+
+  
 **Lappi**
 * Suomi.fi-viestien kuittipohjat työn alla
 * Lapinkirjasto.finna.fi:n uudistus alkamassa (Leena ja Pia myös Finnan pääkäyttäjiä)
 * Normaalia ylläpitoa
-Etelästä pohjoiseen
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-46) - [Palaa sivun alkuun](/paakayttajat2026)
 
