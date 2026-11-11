@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes) Hanna Hyttinen ja Auli Rantsalo (Vaara)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
@@ -46,6 +46,11 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Öster
 **Kirkes**
 * Sanaston käyttötilastoraportin työstöä. Raportin yksityiskohdat ovat vielä työn alla, mutta ainakin siihen pitää saada kaikki kirjoittajat ja kääntäjät näkyville eikä vain päätekijää.
 * Ei muuta mainittavaa. 
+
+**Vaara**
+* Outokummun kirjasto meni kiinni hyllyremontin takia ja siirsimme Kohassa aineistot ei lainattavaan tilaan sekä kaikki varaukset keskeytettiin. Kuljetustilaan ehtineet varaukset peruttiin ja varmistettiin kyseisten varausten paikka jonon kärjessä.
+* Kotipalvelu omatoimiasiakas asiakastyypille on tehty tuotanoon omat laina- ja maksusäännöt.
+* Hanna jää lomalle ja on poissa 12.11-8.12. Vaaran pääkäyttäjistä Auli ja Irina päivystävät.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-46) - [Palaa sivun alkuun](/paakayttajat2026)
