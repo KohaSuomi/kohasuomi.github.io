@@ -1470,6 +1470,27 @@ Ohje:
 
 ## 28. Hakukoneen asetukset (Elasticsearch)
 
+Kun Elasticsearch-hakukone on laitettu päälle SearchEngine-järjestelmäasetuksessa, tulee Ylläpitoon Hakukoneen asetukset (Elasticsearch) -osio näkyville. Osiossa voi määritellä indeksejä, fasetteja ja niiden kytköksiä MARC-kenttiin.
+
+Jotta Hakukoneen asetuksiin pääsee, pitää käyttäjällä olla joko manage_search_engine_config- tai superlibrarian-käyttäjäoikeus.
+
+Asetussivu on jaettu kolmeen välilehteen: Hakukentät, Nimeketietueet ja Auktoriteetit
+
+Huomioi: Jos sivuilla tehdään muutoksia, pitää tehdä täydellinen uudelleenindeksointi, jotta tiedot päivittyvät olemassa oleviin tietueisiin.
+
+Huomioi: Sivuilla tehdyt muutokset katoavat, jos valitset sivun alareunasta _Nollaa määritykset_ tai uudelleenindeksointi tehdään --reset tai -r -parametrejä käyttäen. Nämä vaihtoehdot resetoivat määritykset oletusarvoihin.
+
+### 28.1 Hakukentät
+
+Hakukentät-välilehdellä näytetään kaikki hakukentät eli indeksit, joita Elasticsearch käyttää Kohassa.
+
+![](/assets/files/docs/Asetukset/hakukoneenasetukset.png)
+
+* _Nimi_: Hakukentän eli indeksin nimi
+* _Aliakset_: Joillain hakukentillä on aliakset, esimerkiksi _author_ voi olla myös _au_. Nämä on kovakoodattuja eikä niitä voi muuttaa.
+* _Otsikko_: Joillan hakukentillä on nimestä poikkeava otsikko. Näitä käytetään fasettien niminä tai otsikoina.
+* _Tyyppi_:
+
 ## 29. Rahayksiköt ja vaihtokurssit
 
 ## 30. Budjetit
