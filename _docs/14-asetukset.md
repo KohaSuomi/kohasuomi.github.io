@@ -1350,6 +1350,41 @@ _Poistettu_ (deleted): Jos alkuperäisessä tietueessa on kenttiä, joita tuleva
 
 ## 25. OAI-joukkojen asetukset
 
+OAI-joukkojen asetukset -sivulla voi lisätä, muokata ja poistaa OAI-PMH-joukkoja.
+
+Osioon pääsee vain, jos käyttäjällä on manage_oai_sets_permission tai superlibrarian -käyttäjäoikeus.
+
+### 25.1 Uuden joukon lisääminen
+
+* Valitse _Uusi joukko_
+* Täytä pakolliset kentät Määritys ja Nimi
+* Voit myös lisätä kuvauksen valitsemalla _+ Lisää kuvaus_ ja kirjoittamalla avautuvaan kenttää joukolle kuvauksen. Voit lisätä useampia kuvauksia.
+* Valitse _Tallenna_ 
+
+### 25.2 Joukon muokkaaminen tai poistaminen
+
+Joukkoa voi muokata valitsemalla _Muokkaa_ _Toiminnot_-napin alta.
+
+Joukon voi poistaa _Toiminnot_-napin takaa valitsemalla _Poista_.
+
+### 25.3 Vastaavuuksien määrittely
+
+Vastaavuuksien määrittelyssä määrittelet, minkä ehtojen mukaan tietueet valitaan mukaan joukkoon. Vastaavuudet ovat lista ehtoja tietueiden sisällöistä.
+
+![](/assets/files/docs/Asetukset/oaijoukot.png)
+
+* Täytä _Kenttä, Osakenttä_ ja _Arvo_ -kentät. Esimerkiksi, jos haluat sisällyttää joukkoon kaikki tietueet, joilla on 655$a-kentässä arvo 'videopelit', niin lisää Kenttä-kenttään _655_, Osakenttä-kenttään _a_ ja Arvo-kenttään _videopelit_.
+* Jos haluat lisätä toisen ehdon, valitse _Lisää_ ja täytä kentät kuten aiemmassa kohdassa neuvotaan. Voit käyttää Boolean operaattoreita ehtojen välillä.
+* Valitse _Tallenna
+
+Ehdon saa poistettua _Poista_-napilla.
+
+Huomioi: Ehto täyttyy vain, jos kentän sisältö täsmää tismalleen Arvo-kenttään kirjoitettua tietoa. Jos 655$a-kentässä lukee _videopeli_, tietue ei tule mukaan joukkoon. Ehto on myös kirjainkoosta riippuvainen eli esim. jos 655$a=videopelit, mutta ehdossa lukee _Videopelit_, niin tietue ei tule mukaan joukkoon.
+
+### 25.4 Joukkojen koostaminen
+
+Kun määritykset on tehty, voidaan joukot koostaa _misc/migration_tools/build_oai_sets.pl_-ajolla.
+
 ## 26. Nidehakukentät
 
 ## 27. Haun rajaukset
