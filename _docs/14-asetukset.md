@@ -1352,7 +1352,7 @@ _Poistettu_ (deleted): Jos alkuperäisessä tietueessa on kenttiä, joita tuleva
 
 OAI-joukkojen asetukset -sivulla voi lisätä, muokata ja poistaa OAI-PMH-joukkoja.
 
-Osioon pääsee vain, jos käyttäjällä on manage_oai_sets_permission tai superlibrarian -käyttäjäoikeus.
+Osioon pääsee vain, jos käyttäjällä on manage_oai_sets- tai superlibrarian-käyttäjäoikeus.
 
 ### 25.1 Uuden joukon lisääminen
 
@@ -1386,6 +1386,48 @@ Huomioi: Ehto täyttyy vain, jos kentän sisältö täsmää tismalleen Arvo-ken
 Kun määritykset on tehty, voidaan joukot koostaa _misc/migration_tools/build_oai_sets.pl_-ajolla.
 
 ## 26. Nidehakukentät
+
+Asetus löytyy Ylläpito -> Nidehakukentät
+
+Nidehakukentillä voi lisätä Nidehakuun omia räätälöityjä hakukenttiä Viivakoodi-valikkoon.
+
+Jotta määrityksiä voisi tehdä, täytyy käyttäjällä olla joko manage_item_search_fields- tai superlibrarian-käyttäjäoikeus.
+
+### 26.1. Nidehakukentän lisääminen
+
+Valitse _Uusi hakukenttä_.
+
+![](/assets/files/docs/Asetukset/hakukentat.png)
+
+* _Nimi_: Anna hakukentälle nimi
+* _Otsikko_: Otsikkoon määritetty tieto näytetään nidehaussa Viivakoodi-valikossa, joten tämä kannattaa olla selkeä ja kuvaava.
+* _MARC-kenttä_: Anna haettavan MARC-kentän numero. Myös tämä näkyy Viivakoodi-valikossa otsikon yhteydessä.
+* _MARC-osakenttä_: Anna haettavan osakentän tunnus.
+* _Auktorisoidun arvon luokka_: Jos haettavassa kentässä käytetään jotain auktorisoitua arvoa, voi sen valita tähän valmiiksi, jolloin nidehaussa käyttäjälle tarjotaan alasvetovalikossa valitun auktorisoidun arvon vaihtoehtoja.
+
+Valitse _Tallenna_.
+
+Tallennuksen jälkeen lisätty hakukenttä näkyy nidehaussa _Viivakoodi_-valikossa _Räätälöidyt hakukentät_ -osiossa.
+
+![](/assets/files/docs/Asetukset/hakukentat1.png)
+
+### 26.2 Hakukentän muokkaaminen
+
+Hakukenttää voi muokata valitsemalla sen kohdalta _Toiminnot_-sarakkeesta _Muokkaa_.
+
+![](/assets/files/docs/Asetukset/hakukentat2.png)
+
+Tee tarvittavat muutokset ja valitse _OK_.
+
+### 26.3 Hakukentän poistaminen
+
+Hakukentän voi poistaa valitsemalla sen kohdalta _Toiminnot_-sarakkeesta _Poista_.
+
+![](/assets/files/docs/Asetukset/hakukentat3.png)
+
+Vahvista tai peru poisto
+
+![](/assets/files/docs/Asetukset/hakukentat4.png)
 
 ## 27. Haun rajaukset
 
