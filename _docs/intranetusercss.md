@@ -826,12 +826,11 @@ Varausten automaattinen kiinnijääminen ei ole päällä
 
 ```
 /* Piilota varauksen popparista asiakkaan yhteystiedot, kun varausten automaattinen kiinni jääminen ei ole päällä. */
-body#circ_returns.circ.modal-open ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
-body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
-body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
+body#circ_returns.circ.modal-open li.patron-phone { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
+body#circ_returns.circ.modal-open li.patron-email { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
+body#circ_returns.circ.modal-open ul li:nth-child(6) { display: none; }  /* Varaus palautuskirjastossa, sms-numero piiloon */
 body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
-body#circ_returns.circ div.modal-content li.notification_method { display: inline-block !important; } /* Palautetaan näkyville Ilmoitus asiakkaalle, jos kaksi ensimmäistä piilotusta piilottavat sen puhelinnumeron ja/tai sähköpostin puuttumisen takia */
 ```
 
 Jos käytössä on noutohyllyt, ylläolevat piilotukset piilottavat noutohyllyjen valinnasta vaihtoehtoja. Kannattaa lisätä tämä rivi ylläolevien jälkeen valintojen palauttamisesksi näkyviin.
