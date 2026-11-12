@@ -1373,8 +1373,8 @@ Vastaavuuksien määrittelyssä määrittelet, minkä ehtojen mukaan tietueet va
 
 ![](/assets/files/docs/Asetukset/oaijoukot.png)
 
-* Täytä _Kenttä, Osakenttä_ ja _Arvo_ -kentät. Esimerkiksi, jos haluat sisällyttää joukkoon kaikki tietueet, joilla on 655$a-kentässä arvo 'videopelit', niin lisää Kenttä-kenttään _655_, Osakenttä-kenttään _a_ ja Arvo-kenttään _videopelit_.
-* Jos haluat lisätä toisen ehdon, valitse _Lisää_ ja täytä kentät kuten aiemmassa kohdassa neuvotaan. Voit käyttää Boolean operaattoreita ehtojen välillä.
+* Täytä _Kenttä, Osakenttä_ ja _Arvo_ -kentät. Esimerkiksi, jos haluat sisällyttää joukkoon kaikki tietueet, joilla on 655$a-kentässä arvo 'videopelit', niin lisää Kenttä-kenttään _655_, Osakenttä-kenttään _a_ ja Arvo-kenttään _videopelit_. Voit myös valita _Operaattori_-valikosta joko arvon _on yhtä kuin_ tai _ei yhtä kuin_.
+* Jos haluat lisätä toisen ehdon, valitse _Lisää_ ja täytä kentät kuten aiemmassa kohdassa neuvotaan. Voit käyttää Boolean operaattoreita ehtojen välillä _Säännön operaattori_-sarakkeessa.
 * Valitse _Tallenna
 
 Ehdon saa poistettua _Poista_-napilla.
