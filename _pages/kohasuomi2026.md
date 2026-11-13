@@ -27,6 +27,15 @@ Läsnä:
 
 ### Viikolla 46 tehtyä
 
+#### Anneli
+* 26-version erilaisten wikien päivitystä
+* 26-version testailua
+* asetukset-sivun päivitystä
+* käännösten tekemistä ja liitännäisten käännöstikettien kytkemistä 26-version tiketteihin
+* Koha-Suomen palaveri, pääkäyttäjien palaveri, kuvailijoiden palaveri
+* palapeli- ja videopeli-aineistotyyppien testailua ja raporttien luontia
+* vastaanotettavan aineiston käsittelyaika- ja mediaani-raportin ajamista kimpoissa projektin pyynnöstä
+
 ## Viikko 46
 
 Aika: Ma 9.11. klo 9<br/>
