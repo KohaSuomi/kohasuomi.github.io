@@ -1488,8 +1488,20 @@ Hakukentät-välilehdellä näytetään kaikki hakukentät eli indeksit, joita E
 
 * _Nimi_: Hakukentän eli indeksin nimi
 * _Aliakset_: Joillain hakukentillä on aliakset, esimerkiksi _author_ voi olla myös _au_. Nämä on kovakoodattuja eikä niitä voi muuttaa.
-* _Otsikko_: Joillan hakukentillä on nimestä poikkeava otsikko. Näitä käytetään fasettien niminä tai otsikoina.
-* _Tyyppi_:
+* _Otsikko_: Joillain hakukentillä on nimestä poikkeava otsikko. Näitä käytetään fasettien niminä tai otsikoina.
+* _Tyyppi_: Tyyppi vaikuttaa siihen, miten tieto tallennetaan ja miten sitä haetaan.
+  * Merkkijono: yksinkertainen merkkijono
+  * Pvm: ISO-muodossa tallennettava päivämäärä
+  * Vuosi: nelimerkkinen vuosiluku
+  * Numero: numero
+  * Boolean: 0/1 (ei/kyllä) -arvo
+  * Summa: arvojen summa
+  * ISBN: ISBN-standarditunnus
+  * Tunniste: numero
+  * Luokka: numero, johon vaikuttaa luokituslähde
+  * Maantieteellinen piste: maantieteellinen leveysaste- ja pituusastearvo
+* _Painotus_: Positiivinen numeerinen arvo, jolla voidaan painottaa hakukentän "tärkeyttä" yksinkertaisissa hauissa. Mitä korkeampi arvo, sen "tärkeämpi" hakukenttä on relevanssin mukaan hakutuloksia järjestettäessä. Huomioi: Painotettu haku toimii vain bibliografisten tietueiden haussa, ei auktoriteettihaussa. Se toimii myös ainoastaan ​​yksinkertaisessa haussa / pikahaussa, ellei tarkennetussa haussa ole valittu ”Käytä kenttäpainotuksia haussa”.
+* _Haettavissa_: Asetuksessa määritetään, onko hakukenttä käytettävissä virkailijaliittymässä ja/tai Kohan verkkokirjastossa OPACissa.
 
 ## 29. Rahayksiköt ja vaihtokurssit
 
