@@ -10,6 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 47
+
+Aika: Ti 17.11.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Versionvaihto
+  * [Uudet käyttäjäoikeudet](https://github.com/KohaSuomi/Koha-26x/issues/137): Miten toimitaan uusien view_checkout_history ja view_holds_history -käyttäjäoikeuksian kanssa, kun ne asetetaan päivityksessä automaattisesti kaikille, joilla on edit_borrowers-oikeus?
+    * Jotta laina- ja varaushistoria näkyisi, pitää päällä olla intranetreadinghistory ja IntranetReadingHistoryHolds-asetukset. Pelkät käyttäjäoikeudet eivät tuo historiatietoja näkyville.
+    * Onko jollain kimpalla aikomus laittaa lainahistorian näkyminen päälle ja sallia sen näyttäminen käyttäjäoikeudella esim. kotipalvelua tekeville? (Ennen Koha-aikaa osalla tämä oli mahdollista)
+    * Olisiko turvallisinta, jos kenellekään ei aseteta noita kahta käyttäjäoikeutta?
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
