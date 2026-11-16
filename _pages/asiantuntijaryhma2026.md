@@ -37,7 +37,7 @@ Mietittävä:
 
 ### 3. Asiakastietojen siirto kolmannen osapuolen järjestelmiin
 
-Koha-Suomelle on tullut pyyntö luoda rajapintayhteys, jolla siirretään kaikki asiakastiedot kolmannen osapuolen tulostusjärjestelmään. Tämä on Koha-Suomen tulkinnan mukaan vastoin tietosuojasäädöksiä, ei siihen ole suostuttu. Järjestelmän toimittajalle on ehdotettu mahdollisuutta tunnistaa asiakas kirjastokirtin ja pin-koodin yhdistelmällä ns. lennossa.
+Koha-Suomelle on tullut pyyntö luoda rajapintayhteys, jolla siirretään kaikki asiakastiedot kolmannen osapuolen tulostusjärjestelmään. Tämä on Koha-Suomen tulkinnan mukaan vastoin tietosuojasäädöksiä, eli siihen ei ole suostuttu. Järjestelmän toimittajalle on ehdotettu mahdollisuutta tunnistaa asiakas kirjastokortin ja pin-koodin yhdistelmällä ns. lennossa.
 
 Koha-Suomi suosittelee, että erilaisissa kilpailutuksissa olisi hyvä vaatia, että tiedot siirretään vain asiakkaan pyynnöstä tai kirjastokortti+pin-koodi -yhdistelmällä asiakas itse.
 
