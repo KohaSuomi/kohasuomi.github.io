@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Esityslista 10/2026
 
 Aika: Maanantai 16.11.2026 klo 14<br />
-Läsnä:
+Läsnä: Noora, Lumme-Hanna, Janne, Irina, Elina, Roosa, Kati, Leena, Emmi, Anneli, Susanna
 
 ### 1. Ajankohtaiset
 
@@ -45,6 +45,7 @@ Koha-Suomi suosittelee, että erilaisissa kilpailutuksissa olisi hyvä vaatia, e
 * [Arkistoitujen taulujen säilytysaika #2506](https://github.com/KohaSuomi/Koha/issues/2506)
   * Koha-Suomen palvelimille tarvitaan lisää tilaa, joten pohditaan, voisiko vanhemmat arkistotaulut (action_logs, statistics, message_queue) poistaa tai siirtää muualle. Sitä ennen kunnissa/kimpoissa selvitetään seuraavaan kokoukseen, kuinka kauan heidän kuuluisi säilyttää mm. lokitietoja. Esim. Turussa on käytössä 10 vuoden säilytysaika, joka perustunee Valtioneuvoston ohjeeseen [Suositus tietoaineistojen säilytysajasta ja toimenpiteistä säilytysajan päätyttyä](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/405f7d99-3863-426e-aad6-d854e62fbb5f/content). Asiantuntijaryhmän jäsenet arvelivat, että aktiivisia arkistotauluja (SQL-raporteilla haettavissa olevat) tarvittaisiin viiden vuoden ajalta ja sitä vanhemmat taulut/tiedot voivat olla jonkinlaisessa pitkäaikaissäilytyksessä, josta ne on hankalammin saatavissa, mutta kuitenkin olemassa. Koha-Suomessa tutkitaan, onnistuisiko vanhempien arkistotaulujen siirto konesalitoimittajan varmistusjärjestelmään, jolloin ne olisi tallessa, mutta eivät veisi tilaa Koha-palvelimilta. Tietojen siirto esim. kuntien palvelimille ei saanut kannatusta. 
 * [Kohan itsepalvelutoimintoon huomautus uudelleen käsiteltävästä niteestä #2536](https://github.com/KohaSuomi/Koha/issues/2536)
+  * siirretään seuraavaan kokoukseen
 
 ### 5. Muut asiat
 
