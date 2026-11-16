@@ -27,6 +27,18 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Johanna, Kodo
 
 ### Viikolla 46 tehtyä
 
+#### Johanna
+
+- [Lumme: Suomi.fi-viestien käyttöönotto](https://github.com/KohaSuomi/Koha/issues/2160): Tiketti suljettu.
+- [Vaara: Lehtien vastaanotossa error 500](https://github.com/KohaSuomi/Koha/issues/2426): Tiketti suljettu.
+- [Varaushyllyominaisuus - ksdev/ks-0243-on-0015-bug-39140-add-feature-to-define-hold-pickup-shelves](https://github.com/KohaSuomi/Koha-26x/issues/45): Tiketti vastuutettu ja laadittu testaussuunnitelma Bug 39140 (noutohyllyt).
+- [Lisätään audit-lokitus borrowers/status-rajapintaan (BORROWERS_STATUS)](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/issues/8): Tiketti avattu ja vastuutettu.
+- [Procurement::Logger kaataa REST-rajapinnan ja cronjobin lokitiedoston kirjoitusvirheeseen](https://github.com/KohaSuomi/koha-plugin-editx/issues/25): Tiketti avattu ja suljettu.
+- koha-suomi-utility: rebase- ja build-skriptien parannuksia (commitien ja haarojen ohitus, vanhojen build-haarojen siivous, updatedatabase.pl:n päivitysten haku, tuotettujen OPAC-CSS- ja Vue-dist-tiedostojen sisällyttäminen release-haaroihin).
+- koha-plugin-hold-prioritizer: hyllytyspriorisoinnin toteutus plugin-koukkujen kautta, vanhojen fulfillment-skip-tietokantamuutosten poisto asennuksessa/päivityksessä, SQL-siivousskripti, dokumentaatio ja suomen/ruotsin käännökset.
+- koha-plugin-bibframe-manager: työklusterointimoottorin ja hakuehdokkaiden tarkastelun käyttöliittymän lisäys.
+- kohasuomi.github.io: viikkoyhteenvedon ja osallistujien lisäys.
+
 #### Anneli
 * 26-version erilaisten wikien päivitystä
 * 26-version testailua
