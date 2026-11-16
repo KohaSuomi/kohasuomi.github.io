@@ -60,6 +60,15 @@ Läsnä: Johanna, Anneli, Lari, Pasi ja Ari
 - [Availability-ratkaisu on hidas: CheckReserves-kutsu ei hyödynnä RealTimeHolds-jonoa](https://github.com/KohaSuomi/koha-plugin-rest-di/issues/14): Vastuutettu; optimointi tuodaan tuotantoon ensi viikolla.
 - [EDItX-pluginin lokihakemisto /var/log/koha/editx ei ole kirjoitettavissa REST-prosessille](https://github.com/KohaSuomi/koha-suomi-utility/issues/177): Tiketti avattu ja suljettu.
 
+#### Emmi
+
+- [Asiakkaalle lähetettyjen viestien sisältö näyttää Ilmoitukset-näkymässä tyhjää](https://github.com/KohaSuomi/Koha/issues/2569): Viikkopäivityksessä viety ominaisuus tarvitsikin yllättäen toisen muutoksen koodia, jotta viestien sisältö pystyttiin näyttämään käyttöliittymässä oikein. Ongelma korjattiin tuotannoissa aluksi palauttamalla koodikanta muutosta edeltäneeseen tilaan ja tuomalla sitten seuraavassa viikkopäivityksessä korjaus.
+- [Taustatyöt eivät toimi nexteillä](https://github.com/KohaSuomi/Koha-26x/issues/131): Syyksi paljastui taustatyö-skriptien daemon, joka käynnistyessään hakee sen hetkisen tietokantaskeeman ja käyttää sitä kunnes palvelu käynnistetään uudestaan. Tämän vuoksi hyllytarkenne-sarakkeeseen tehty muutos aiheutti taustatöiden epäonnitumiset.
+- Väärät nidetyypit aiheuttavat edelleen hälytyksiä joissakin kimpoissa, vaikka tilannetta on paikottu useamman muutoksen avulla jo parempaan suuntaan.
+- Versionvaihdon tikettien viemistä nexteille
+- Vahvan tunnistautumisen työryhmän aloitustuspalaveri 5.11.2026
+- Pääkäyttäjäpalaveri 3.11.2026
+
 ## Viikko 45
 
 Aika: Ma 2.11. klo 9<br/>
