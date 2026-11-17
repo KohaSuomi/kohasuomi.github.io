@@ -9,6 +9,76 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2026'
 ---
 
 
+## Kuvailuryhmän muistio 8/2026 ##
+
+Aika: 11.11.2026 klo 13.15–14.10
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Marjukka Laapotti (Lastu), Marja Leskinen (Vaara), Tarja Mäkinen (Kyyti), Laura Pikkarainen (Vaski), Johanna Ranta (Kyyti), Timo Väisänen (Kirkes), Anneli Österman (Koha-Suomi), Raisa Laitala (OUTI, kohdat 4 ja 5)
+
+Poissa: Mauri Aittaniemi (Lappi), Pasi Hynninen (Helle)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Merja Hakulinen. Mauri Aittaniemen vuoro siirtyy seuraavalle kerralle.
+
+#### 2.	Kuulumisia Kirjastopalvelun asiakasohjausryhmän kokouksesta 13.10. ####
+
+<ul>
+  <li>Käytiin läpi kokouksen esitysdioja. Kirjastopalvelu tiedottaa esitysdioissa kirjastoille tarjoamistaan palveluista ja selostaa niiden perustelut ja pohdinnat. Kokouksessa toivottiin jatkossa sekä nopeammin tietoja siitä, jos kuvailua ei tule, että enemmän skannauspyyntöjä. Viivastatusta pidettiin parempana kuin sitä, että Ei kuvailua -tieto muuttuisi Kuvailu tulossa -tilaan. Kolmen kimpan/kirjaston sääntö pätee edelleen, poikkeuksena ruotsin- ja englanninkieliset kirjat, joissa joskus riittää kaksikin tapausta. Extranetissä voi lähettää viestiä useammin, jos kuvailut ovat myöhässä. </li>
+  <li>Kuvailuohjeiden mukaan on sallittua jättää ISBN-tunnuksen väliviivat pois, jos niitä ei löydy helposti itse aineistosta. Varsinkaan vieraskielisessä aineistossa niitä ei usein ole. Kuvailun nopeuttamiseksi näillä näkymin vuodenvaihteesta lähtien osassa Kirjastopalvelun kuvailutietueista väliviivoja ei enää merkitä. </li>
+  <li>Kokouksessa puhuttiin myös 130- tai 240-kenttään laitettavien tietoejn lisäämisestä tietueisiin. Etenkin Quriassa ja muissa linkitetyn datan järjestelmissä nämä ovat oleellisia tietoja. Kirjastopalvelu ei lisää 240-kenttää, jos sitä ei voi varmuudella muodostaa. Fennica-aineistossa Kansalliskirjaston pyyntö on ollut, että jos 240-kenttään laitettavassa nimessä on vähänkin tulkinnallista epävarmuutta, niin sitä ei tallenneta. Kansalliskirjasto tekee nämä sitten itse. Vieraskielisissä käännöksissä sama juttu. Jos alkuperäinen teos on venäjänkielinen, niin 240-kenttää ei tallenneta. Lisäksi aggregaatit ovat usein hankalia, etenkin sarjakuvat, joten näistäkin voi joskus 240-kentät puuttua. </li>
+</ul>
+ 
+#### 3.	600§v-kentän siivous tietokannoissa ####
+<ul>
+  <li>600§v-kentän tieto näkyy Finnan Genre-fasetissa </li>
+  <li>Kentässä käytettiin muinoin termiä fiktio fiktiivisissä henkilöissä </li>
+  <li>Siivotaanko nyt vai joskus myöhemmin? </li>
+  <li>TäTissä ja Vaskissa yli 4000 tietuetta, OUTIssa n. 1800 </li>
+</ul>
+Keskusteltuamme asiasta päätimme, että ensin siivotaan TäTi. Sen jälkeen kukin kimppa voi siivota omat paikalliskantansa. Vanhentunut fiktio-termi ei ole kuitenkaan aiheuttanut ongelmia. Kaikilla kimpoilla ei ole ollenkaan näkyvissä Genre-fasettia Finnassa.
+
+#### 4.	Kohti yhteistä metatietoa -hanke ####
+<ul>
+  <li>Raisa Laitala esitteli hankintadatasta tehtyä monipuolista PowerBI-raporttia. Raportti ei ainakaan vielä toimi Oulun ulkopuolisissa organisaatioissa, mutta toiveena olisi, että jokainen kimppa voisi tarkastella raporteista saatavia tietoja. Hankkeeseen liittyvät työpajat järjestetään tammi-helmikuussa 2027. Tuleviin työpajoihin voidaan valita rajoitetusti osallistujia (enintään 10): jokaisesta kimpasta yksi kuvailija ja yksi johtaja. </li>
+  <li>Vaskissa ja OUTissa on kehitelty Kohasta saatava raportti vastaanotettujen niteiden käsittelyajasta. Raportteja on kaksi ja niistä on mahdollista nähdä, kuinka kauan kimpassa tai kirjastossa kestää aineiston saapumisesta siihen, että niteet lähtevät asiakkaille. Toinen raportti ilmoittaa eri aineistotyyppien mediaanin ja toisessa on nähtävissä keskiarvo sekä käsiteltyjen niteiden määrä tarkemmin tietyiltä aikaväleiltä aineistotyypeittäin. Toiveena on saada raportit vuosilta 2024 ja 2025 jokaisen Koha-Suomi-kimpan isoimmalta kunnalta (9), Siilinjärveltä ja 2–3 satunnaisesti valitulta pienemmältä kunnalta kimpoista, joissa kuvailua ei ole keskitetty, eli yhteensä 12–13 kunnalta. Kimpat, joissa kuvailua ei ole keskitetty, ovat Lumme ja Kyyti, mahdollisesti Helle. </li>
+</ul>
+
+#### 5.	Uusien tietueiden muokkaaminen TäTissä ####
+
+Mitkä ovat yleisimpiä muokkauksia, joita tehdään?
+<ul>
+  <li>Lisäykset/täydennykset </li>
+  <ul>
+   <li>Suomenkielisten asiasanojen lisäys ruotsinkielisessä kaunokirjallisuudessa (jotkut kimpat/kirjastot) </li>
+   <li>Lisäpainos-merkinnät </li>
+   <li>YKL-luokitus ja asiasanojen lisäys Melinda-tietueissa, jos puuttuvat </li>
+  </ul>
+  <li>Korjaukset </li>
+  <ul>
+  <li>Mahdolliset kirjoitusvirheet </li>
+  <li>Tietueiden eri kentissä voi olla monenlaisia korjattavia merkintöjä, joita on vaikea luetella täsmällisesti</li>
+</ul>
+</ul>
+	
+#### 6.	Tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2543" target="_blank">Käyttöön uusi aineistotyyppi Palapeli </a> -> Ovatko kaikki aineistot välttämättä palapelejä, jos 655a-kentässä on käytetty asiasanaa palapelit, mutta pelipakkauksessa on muutakin oleellista aineistoa mukana? Palapeli-pakettia kuvailtaessa joutuu miettimään, mikä paketin sisällöstä on tärkein ja ovatko muut osat liitteitä. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2517" target="_blank">Bug 43073 - Update MARC21 default framework to Update 42 (May 2026) - päivitykset meillekin </a> -> 006-kentän editorista puuttuu aikaisempiakin päivityksiä. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/2519" target="_blank">Signum-liitännäinen muodostaa saksalaisesta ß:stä kaksi s:ää </a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/335" target="_blank">Työkalut, MARC-muokkauksen pohjat: kentän indikaattorien käsittelymahdollisuus </a> -> Yhteisössä ratkaistu. Tulee meille hitaasti, ehkä vasta vuoden kuluttua.</li>
+</ul>
+
+#### 7.	Muita asioita ####
+
+Matrixin kuvailuryhmän keskustelukanavalta puuttuu edelleenkin kuvailijoita.
+
+#### 8.	Seuraava kokous keskiviikkona 9.12. Klo 13.15. ####
+
+
+---
 ## Kuvailuryhmän muistio 7/2026 ##
 
 Aika: 23.9.2026 klo 13.15–14.45
