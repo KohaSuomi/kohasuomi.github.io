@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * Versionvaihto
@@ -21,6 +21,7 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgr
     * Jotta laina- ja varaushistoria näkyisi, pitää päällä olla intranetreadinghistory ja IntranetReadingHistoryHolds-asetukset. Pelkät käyttäjäoikeudet eivät tuo historiatietoja näkyville.
     * Onko jollain kimpalla aikomus laittaa lainahistorian näkyminen päälle ja sallia sen näyttäminen käyttäjäoikeudella esim. kotipalvelua tekeville? (Ennen Koha-aikaa osalla tämä oli mahdollista)
     * Olisiko turvallisinta, jos kenellekään ei aseteta noita kahta käyttäjäoikeutta?
+    * Päätökset kirjattiin tiketiin.
 * [Asiantuntijaryhmän kokous 10/2026](https://koha-suomi.fi/asiantuntijaryhma2026#esityslista-102026) - muistio vielä kesken tämän kokouksen aikaan
 
 Pohjoisesta etelään
