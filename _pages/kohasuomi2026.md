@@ -48,6 +48,15 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Johanna, Kodo
 * palapeli- ja videopeli-aineistotyyppien testailua ja raporttien luontia
 * vastaanotettavan aineiston käsittelyaika- ja mediaani-raportin ajamista kimpoissa projektin pyynnöstä
 
+#### Emmi
+
+- [Kohan itsepalvelun palautus-toiminto - ksdev/ks-0020-bug-22322-SCOreturns](https://github.com/KohaSuomi/Koha-26x/issues/5): Yhteisöön vietyjä patcheja paranneltu yhteisöltä tulleen palautteen mukaan sekä korjattu eri viestien näkyminen näytöllä. Tuotu samat korjaukset next-testiympäristöihin.
+- [Uudet ja muuttuneet käyttäjäoikeudet versiossa 26.05](https://github.com/KohaSuomi/Koha-26x/issues/137): Käyty läpi Annelin keräämät uudet ja muuttuneet käyttöoikeudet ja tarkistettu millä ehdoilla ne lisätään. Parista keskusteltava pääkäyttäjien kanssa.
+- [Tietueiden poistossa ongelmia useissa kimpoissa - ksdev/ks-0319-KOHA-2395-biblio-delete-problems](https://github.com/KohaSuomi/Koha-26x/issues/71): Jätetty odottamaan lähemmäksi versionvaihtoa tuleeko yhteisöön tehtyyn tikettiin kommentteja ja testejä. Jos ei, otetaan vanha lokituksen korjaus käyttöön. 
+- [Uuden niteen tallennus antaa Internal server error - ksdev/ks-0266-KOHA-1667-invalid-itypes](https://github.com/KohaSuomi/Koha-26x/issues/55): Jätetty odottamaan kunnes versionvaihto on lähempänä. Sillä välin tutkitaan, jos aikaa on, tuotannoissa  löytyisikö tähän ongelmaan lisää ratkaisuja. Jos mitään ratkaisevaa ei selviä ja ongelmaa ei saada poistettua ennen versionvaihtoa, otetaan tämä korjaus jälleen matkaan.
+- Finna-toimistolta kysytty, kuinka uusi sublocation-sarake saadaan näkymään Finnassa hakutuloksissa.
+- Next-testiympäristöjen korjauksia.
+
 ## Viikko 46
 
 Aika: Ma 9.11. klo 9<br/>
