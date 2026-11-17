@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Versionvaihto
@@ -31,6 +31,9 @@ Pohjoisesta etelään
 * Normaalia ylläpitoa
 
 **Lumme**
+* Normaalia ylläpitoa.
+
+**OUTI**
 * Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
