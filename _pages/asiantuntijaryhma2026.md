@@ -15,12 +15,14 @@ Koha-Suomen asiantuntijaryhmään kuuluvat kokouksesta 8/2026 lähtien Leena Kin
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Esityslista 10/2026
+## Muistio 10/2026
 
 Aika: Maanantai 16.11.2026 klo 14<br />
-Läsnä: Noora, Lumme-Hanna, Janne, Irina, Elina, Roosa, Kati, Leena, Emmi, Anneli, Susanna
+Läsnä: Noora Valkonen (OUTI-kirjastot), Hanna Ikonen (Lumme-kirjastot), Janne Seppänen (Lastu-kirjastot), Irina Halminen (Vaara-kirjastot), Elina Uotinen (Kirkes-kirjastot), Roosa Väisänen (Kyyti-kirjastot), Kati Sillgren (Helle-kirjastot), Leena Kinnunen (Lapin kirjasto), Susanna Sandell (Vaski-kirjastot) sekä Emmi Takkinen ja Anneli Österman (Koha-Suomi)
 
 ### 1. Ajankohtaiset
+
+Microsoftin käyttökatkos viikolla 46 ei juurikaan vaikuttanut Kohan toimintaan. Sähköpostiviestit lähtivät asiakkaille normaalisti, mutta ne eivät välttämättä menneet heti perille heille Outlookin ongelmien vuoksi.
 
 ### 2. Tiekartan uudistus
 
@@ -35,19 +37,26 @@ Mietittävä:
 * minkälaisia näkymiä tarvitaan
 * mitkä nykyisistä tiketeistä kytketään uuteen projektiin
 
+**Päätös**: Käytiin läpi tavoitteiden otsikkotasot ja statukset ja säädettiin niitä hieman lisäämällä mm. kuvauksia. Lisättiin Prioriteetti-määrite. Säädettiin eri näkymissä näkyviä tietoja. Itse tavotteiden eli tikettien kuvauksiin ei vielä puututtu vaan niitä jatketaan seuraavassa kokouksessa. Kimpat myös arvioivat siihen mennessä, ovatko kaikki nykyisellään kirjatut tarpeen ja puuttuuko jotain.
+
 ### 3. Asiakastietojen siirto kolmannen osapuolen järjestelmiin
 
 Koha-Suomelle on tullut pyyntö luoda rajapintayhteys, jolla siirretään kaikki asiakastiedot kolmannen osapuolen tulostusjärjestelmään. Tämä on Koha-Suomen tulkinnan mukaan vastoin tietosuojasäädöksiä, eli siihen ei ole suostuttu. Järjestelmän toimittajalle on ehdotettu mahdollisuutta tunnistaa asiakas kirjastokortin ja pin-koodin yhdistelmällä ns. lennossa.
 
 Koha-Suomi suosittelee, että erilaisissa kilpailutuksissa olisi hyvä vaatia, että tiedot siirretään vain asiakkaan pyynnöstä tai kirjastokortti+pin-koodi -yhdistelmällä asiakas itse.
 
+**Kokouksessa**: Keskusteltiin aiheesta
+
 ### 4. Käsiteltävät kehitysehdotukset
 * [Arkistoitujen taulujen säilytysaika #2506](https://github.com/KohaSuomi/Koha/issues/2506)
-  * Koha-Suomen palvelimille tarvitaan lisää tilaa, joten pohditaan, voisiko vanhemmat arkistotaulut (action_logs, statistics, message_queue) poistaa tai siirtää muualle. Sitä ennen kunnissa/kimpoissa selvitetään seuraavaan kokoukseen, kuinka kauan heidän kuuluisi säilyttää mm. lokitietoja. Esim. Turussa on käytössä 10 vuoden säilytysaika, joka perustunee Valtioneuvoston ohjeeseen [Suositus tietoaineistojen säilytysajasta ja toimenpiteistä säilytysajan päätyttyä](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/405f7d99-3863-426e-aad6-d854e62fbb5f/content). Asiantuntijaryhmän jäsenet arvelivat, että aktiivisia arkistotauluja (SQL-raporteilla haettavissa olevat) tarvittaisiin viiden vuoden ajalta ja sitä vanhemmat taulut/tiedot voivat olla jonkinlaisessa pitkäaikaissäilytyksessä, josta ne on hankalammin saatavissa, mutta kuitenkin olemassa. Koha-Suomessa tutkitaan, onnistuisiko vanhempien arkistotaulujen siirto konesalitoimittajan varmistusjärjestelmään, jolloin ne olisi tallessa, mutta eivät veisi tilaa Koha-palvelimilta. Tietojen siirto esim. kuntien palvelimille ei saanut kannatusta. 
+  * Koha-Suomen palvelimille tarvitaan lisää tilaa, joten pohditaan, voisiko vanhemmat arkistotaulut (action_logs, statistics, message_queue) poistaa tai siirtää muualle. Sitä ennen kunnissa/kimpoissa selvitetään seuraavaan kokoukseen, kuinka kauan heidän kuuluisi säilyttää mm. lokitietoja. Esim. Turussa on käytössä 10 vuoden säilytysaika, joka perustunee Valtioneuvoston ohjeeseen [Suositus tietoaineistojen säilytysajasta ja toimenpiteistä säilytysajan päätyttyä](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/405f7d99-3863-426e-aad6-d854e62fbb5f/content). Asiantuntijaryhmän jäsenet arvelivat, että aktiivisia arkistotauluja (SQL-raporteilla haettavissa olevat) tarvittaisiin viiden vuoden ajalta ja sitä vanhemmat taulut/tiedot voivat olla jonkinlaisessa pitkäaikaissäilytyksessä, josta ne on hankalammin saatavissa, mutta kuitenkin olemassa. Koha-Suomessa tutkitaan, onnistuisiko vanhempien arkistotaulujen siirto konesalitoimittajan varmistusjärjestelmään, jolloin ne olisi tallessa, mutta eivät veisi tilaa Koha-palvelimilta. Tietojen siirto esim. kuntien palvelimille ei saanut kannatusta.
+  * **Kokouksesta**: Kimpat olivat selvittäneet kuntien tietosuojavastaavilta heidän näkemystään lokien säilytysajoista ja yleinen käsitys oli, että viisi vuotta aktiivisessa taulussa olisi tarpeeksi ja sallittava aikamäärä. Parista kunnasta tuli lisäksi kommentti, että tiedot olisi hyvä olla tarkasteltavissa törkeiden virka- ja viestintärikosten selvittämistarpeiden vuoksi. Siihen ehkä riittäisi kuitenkin, että tiedot on haettavissa pitkäaikaissäilytyksestä tarvittaessa. Lastu-kirjastoista luvattiin selvittää vielä Tietosuojavaltuutetun toimistosta, olisiko heillä linjausta säilytysajasta.
 * [Kohan itsepalvelutoimintoon huomautus uudelleen käsiteltävästä niteestä #2536](https://github.com/KohaSuomi/Koha/issues/2536)
   * siirretään seuraavaan kokoukseen
 
 ### 5. Muut asiat
+
+Ei muita asioita.
 
 ### 6. Seuraava kokous
 
