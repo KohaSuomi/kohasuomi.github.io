@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), 
 
 **Yhteiset**
 * Versionvaihto
@@ -24,6 +24,10 @@ Läsnä:
 * [Asiantuntijaryhmän kokous 10/2026](https://koha-suomi.fi/asiantuntijaryhma2026#esityslista-102026) - muistio vielä kesken tämän kokouksen aikaan
 
 Pohjoisesta etelään
+
+**Lappi**
+* Siivottu pois vanhoja viestipohjia
+* Normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
 
