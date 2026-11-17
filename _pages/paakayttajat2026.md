@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu)
 
 **Yhteiset**
 * Versionvaihto
@@ -35,6 +35,10 @@ Pohjoisesta etelään
 
 **OUTI**
 * Normaalia ylläpitoa.
+
+**Lastu**
+* Tullut toive, että aktiivisten varausten näyttäminen koskisi perustiedot-sivun lisäksi myös muita tietueen alasivuja, erityisesti niteet-sivua. Puhuttiin, että voisi tehdä versionvaihdon yhteydessä mikäli ehtii. Tehty tiketti: https://github.com/KohaSuomi/Koha-26x/issues/143
+* Muuten normaalia ylläpitoa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
 
