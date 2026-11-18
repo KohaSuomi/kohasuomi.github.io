@@ -46,6 +46,7 @@ Pohjoisesta etelään
 
 **Kirkes**
  * Lanuilta tullut toive satukasseista, jossa voisi hyödyntää nidepaketteja. Tutkitaan siis nidepakettien käyttöönottomahdollisuutta Kirkes-kimpassa.
+ * [Yhteisön tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41660) järjestelmäasetusten UpdateNotForLoanStatusOnCheckin/UpdateNotForLoanStatusOnCheckout tekemien tilamuutosten lokittamisesta on edennyt needs signoff -tilaan. Elina testaa jossain vaiheessa. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
