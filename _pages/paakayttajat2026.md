@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
 
 **Yhteiset**
 * Versionvaihto
@@ -43,6 +43,9 @@ Pohjoisesta etelään
 **Vaara**
 * On ollut asiakkaan vanhan varauksen selvittelyä
 * Normaalia ylläpitoa
+
+**Kirkes**
+ * Lanuilta tullut toive satukasseista, jossa voisi hyödyntää nidepaketteja. Tutkitaan siis nidepakettien käyttöönottomahdollisuutta Kirkes-kimpassa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
