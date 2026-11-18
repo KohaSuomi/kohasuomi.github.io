@@ -10,6 +10,21 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 48
+
+Aika: Ti 24.11.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Versionvaihto
+  * [Paperisia noutoilmoituksia ei muodostu enää entiseen tapaan](https://github.com/KohaSuomi/Koha-26x/issues/142)
+    * Muutos johtuu yhteisössä tehdystä muutoksesta, jossa asiakkaalle ei enää muodostu fallbackinä kirjettä, jos noutoilmoitukselle ei ole valittuna viestitystapaa (sms, email)
+    * Koha-Suomi ehdottaa tilanteen korjaukseksi Suomi.fi Viestien käyttöönottoa kaikissa kimpoissa
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-48) - [Palaa sivun alkuun](/paakayttajat2026)
+
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
