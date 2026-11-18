@@ -73,7 +73,7 @@ Mitkä ovat yleisimpiä muokkauksia, joita tehdään?
 
 #### 7.	Muita asioita ####
 
-Matrixin kuvailuryhmän keskustelukanavalta puuttuu edelleenkin kuvailijoita.
+Matrixin kuvailuryhmän keskustelukanavalta puuttuu edelleenkin kuvailijoita. Sinne kannattaa liittyä, jotta pysyy ajan tasalla Koha-Suomen kuvailuasioista. Oulun Teams ei ole enää käytössä.
 
 #### 8.	Seuraava kokous keskiviikkona 9.12. Klo 13.15. ####
 
