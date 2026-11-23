@@ -44,6 +44,18 @@ Läsnä: Emmi, Pasi, Ari, Kodo, Anneli, Johanna
 - koha-suomi-utility: lisätty Kohan tietoturva-skannauksen työnkulku, asetukset ja dokumentaatio sekä korjattu Perl::Critic-asennusvaihe.
 - kohasuomi.github.io: lisätty viikko 46:n yhteenveto.
 
+#### Emmi
+
+- [Ongelmat-taulu: Konsoliin virheilmoituksia perustiedot-näytöllä](https://github.com/KohaSuomi/Koha-26x/issues/141): Selaimen konsoliin tulostui Uncaught TypeError-virhettä. Virhe johtuu Ongelmat-taulun asetuksien virheellisestä hakemisesta. Koska ominaisuus ei ole käytössä kimpoissa korjausta ei tässä vaiheessa tuoda. Kehotettu paria kimppaa laittamaan CatalogConcerns-asetus pois päältä.
+- [Konsoliin virheilmoitus cookiesta](https://github.com/KohaSuomi/Koha-26x/issues/140): Eväste "KVSESSION" estetään Kohassa, koska se tulee kolmannen osapuolen palavelusta (Storia). Todettu, että evästeen asetuksia tulisi muuttaa lähettäjän päässä.
+- [Uudet ja muuttuneet käyttäjäoikeudet versiossa 26.05](https://github.com/KohaSuomi/Koha-26x/issues/137): Tarkistettu oikeudet vielä kerran ja todettu, ettei view_checkout_history ja view_holds_history oikeuksia sittenkään lisätä tarpeettomasti, koska kimpoissa ei ole käytössä asetuksia IntranetReadingHistoryHolds tai intranetreadinghistory. Oikeuden send_messages_to_borrowers_sms lisäämisestä käyttäjille tehtävä erillinen tiketti.
+- [Kohan itsepalvelun palautus-toiminto - ksdev/ks-0020-bug-22322-SCOreturns](https://github.com/KohaSuomi/Koha-26x/issues/5): Tuotu next-ympäristöihin.
+- [Hyllytarkenne - ksdev/ks-0040-bug-34142-items_sublocation](https://github.com/KohaSuomi/Koha-26x/issues/16): Hyllytarkenne-sarake lisätty nide haun hakuehtoihin sekä -tuloksiin. Muutettu myös yhteisön tikettiin, joka odottaa nyt testauksia.
+- Liitännäisten korjattujen käännöksien läpikäyminen ja vieminen next-ympäristöihin
+- Vaskin kifi-tilastoaineiston viemistä pyydetty sähköpostitse, aineiston koostaminen tehdään maanantai-iltana. Kehotettu jatkossa lähettämään pyyntö myös Koha-Suomen contact-sähköpostiosoitteeseen.
+- Uuden työaikapohjan luominen ja lisäys GitHubiin.
+- Asiantuntijapalaveri 16.11.2026
+
 ## Viikko 47
 
 Aika: Ma 16.11. klo 9<br/>
