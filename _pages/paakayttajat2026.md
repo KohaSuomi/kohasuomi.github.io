@@ -19,7 +19,8 @@ Läsnä:
 * Versionvaihto
   * [Paperisia noutoilmoituksia ei muodostu enää entiseen tapaan](https://github.com/KohaSuomi/Koha-26x/issues/142)
     * Muutos johtuu yhteisössä tehdystä muutoksesta, jossa asiakkaalle ei enää muodostu fallbackinä kirjettä, jos noutoilmoitukselle ei ole valittuna viestitystapaa (sms, email)
-    * Koha-Suomi ehdottaa tilanteen korjaukseksi Suomi.fi Viestien käyttöönottoa kaikissa kimpoissa
+    * Muutos vaikuttaa myös Tulosta ilmoituksia -liitännäiseen, eli silläkään ei saa tulostettua varausten noutoilmoituksia, koska ilmoitukset eivät enää muodostu.
+    * Koha-Suomi ehdottaa tilanteen korjaukseksi Suomi.fi Viestien käyttöönottoa kaikissa kimpoissa ennen versionvaihtoa.
 
 Etelästä pohjoiseen
 
