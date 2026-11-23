@@ -13,6 +13,20 @@ hidden: true
 
 Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimalleihin ja GitHub APIin perustuvaa automaatiota. Muistiot kuitenkin tarkistetaan Koha-Suomen henkilökunnan toimesta.
 
+## Viikko 48
+
+Aika: Ma 23.11. klo 9<br/>
+Läsnä: 
+
+### Vastuuttomat tiketit
+* [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
+
+### Muuta
+* *.koha-suomi.fi-sertifikaatti vanhenee 28.11. Tehtävä tällä viikolla!
+* Scrummin aloituksen siirtäminen klo 10?
+
+### Viikolla 47 tehtyä
+
 ## Viikko 47
 
 Aika: Ma 16.11. klo 9<br/>
