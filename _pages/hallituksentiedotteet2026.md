@@ -12,7 +12,7 @@ title: 'Hallituksen tiedotteet 2026'
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
 
-## Koha-Suomen hallituksen kokous 8/2026
+## Koha-Suomen hallituksen tiedote 8/2026
 
 20.11.2026
 
