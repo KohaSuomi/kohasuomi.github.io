@@ -21,6 +21,10 @@ Läsnä:
     * Muutos johtuu yhteisössä tehdystä muutoksesta, jossa asiakkaalle ei enää muodostu fallbackinä kirjettä, jos noutoilmoitukselle ei ole valittuna viestitystapaa (sms, email)
     * Muutos vaikuttaa myös Tulosta ilmoituksia -liitännäiseen, eli silläkään ei saa tulostettua varausten noutoilmoituksia, koska ilmoitukset eivät enää muodostu.
     * Koha-Suomi ehdottaa tilanteen korjaukseksi Suomi.fi Viestien käyttöönottoa kaikissa kimpoissa ennen versionvaihtoa.
+  * [Kaikkien asiakastietojen haun esto](https://github.com/KohaSuomi/Koha-26x/issues/32)
+    * Meidän toimesta tehty yhteisön tiketti on suljettu duplikaattina. Sen sijaan yhteisöstä löytyy tiketti [Bug 41048](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41048) - Add ability to disallow empty patron searches via staff interface. Kuljetetaanko tässä versiossa vielä meidän korjausta vai testaanko yhteisön korjausta?
+    * Yhteisön toiminto ei täysin estä tyhjää hakua, vaan haku onnistuu myös silloin, jos valitsee tyypin (asiakastyypin) tai kirjaston ja tekee haun.
+
 
 Etelästä pohjoiseen
 
