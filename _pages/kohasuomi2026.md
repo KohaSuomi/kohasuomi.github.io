@@ -27,6 +27,22 @@ Läsnä:
 
 ### Viikolla 47 tehtyä
 
+#### Johanna
+- [Rinnakkaisvaraus](https://github.com/KohaSuomi/Koha/issues/1604): vastuutettu ja kommentoitu napin näkyvyydestä.
+- [Kiireettömän varauksen -tilan lisäys](https://github.com/KohaSuomi/Koha/issues/2215): vastuutettu yhdessä Annelin kanssa; kommentoitu toimivuudesta.
+- [Useamman lehden vastaanotossa mahdollista aiheuttaa virhe 500](https://github.com/KohaSuomi/Koha/issues/2443): tiketti suljettu.
+- [Kyytin tuotannon automaattitunnukselle järjestelmäasetuksen HoldsNeedProcessing ohitus](https://github.com/KohaSuomi/Koha/issues/2522): tiketti suljettu.
+- [Suomi.fi-viestien osoitesivun luontitapa konfiguroitavaksi (createAddressPage)](https://github.com/KohaSuomi/koha-plugin-KSMessaging/issues/5): tiketti avattu ja vastuutettu.
+- [Suomi.fi-viestien TKJ-toimittajan vaihtuminen Edita Primaan: tuki v3-rajapinnoille ja osoitesivun päivitys](https://github.com/KohaSuomi/koha-plugin-KSMessaging/issues/6): tiketti avattu ja vastuutettu.
+- [Account locked aiheuttaa rajapinnasta HTTP 500 Internal Server Error -virheen](https://github.com/KohaSuomi/koha-plugin-borrowersstatus/issues/7): tiketti suljettu.
+- [Estä export/import-jonopainikkeiden toistuvat klikkaukset](https://github.com/KohaSuomi/koha-plugin-broadcast-biblios/issues/22): tiketti avattu ja vastuutettu.
+- [DNS palvelimen siirto Bittigurulle.](https://github.com/KohaSuomi/koha-suomi-utility/issues/179): tiketti avattu.
+- [*.koha-suomi.fi sertifikaatin uusiminen ennen 28.11.](https://github.com/KohaSuomi/koha-suomi-utility/issues/180): tiketti avattu; kommentoitu tilanteesta.
+- [Kohan tietoturva-skannaus: suunnitelma (SAST + SCA), ksdev/ks26 + ks25 (tuotanto)](https://github.com/KohaSuomi/koha-suomi-utility/issues/181): tiketti avattu ja vastuutettu; kommentoitu kohinatasosta ja ensimmäisestä askeleesta.
+- [Haaranimeämiskäytännön automaattinen valvonta GitHubissa (ruleset/Action)](https://github.com/KohaSuomi/koha-suomi-utility/issues/182): tiketti avattu ja vastuutettu yhdessä emta001:n kanssa.
+- koha-suomi-utility: lisätty Kohan tietoturva-skannauksen työnkulku, asetukset ja dokumentaatio sekä korjattu Perl::Critic-asennusvaihe.
+- kohasuomi.github.io: lisätty viikko 46:n yhteenveto.
+
 ## Viikko 47
 
 Aika: Ma 16.11. klo 9<br/>
