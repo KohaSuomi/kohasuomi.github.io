@@ -16,7 +16,7 @@ Muistioiden laadinnassa voidaan hyödyntää huhtikuusta 2026 alkaen kielimallei
 ## Viikko 48
 
 Aika: Ma 23.11. klo 9<br/>
-Läsnä: 
+Läsnä: Emmi, Pasi, Ari, Kodo, Anneli, Johanna
 
 ### Vastuuttomat tiketit
 * [kaikki tiketit](https://github.com/issues?q=is%3Aopen+is%3Aissue+owner%3AKohaSuomi+archived%3Afalse+sort%3Aupdated-desc+no%3Aassignee+-repo%3AKohaSuomi%2FBugiton+-repo%3AKohaSuomi%2FFinna-kehitysehdotukset)
@@ -24,6 +24,7 @@ Läsnä:
 ### Muuta
 * *.koha-suomi.fi-sertifikaatti vanhenee 28.11. Tehtävä tällä viikolla!
 * Scrummin aloituksen siirtäminen klo 10?
+  * Klo 10 ei onnistu pääkäyttäjäpalaverin vuoksi. Kokeillaan klo 10.30.
 
 ### Viikolla 47 tehtyä
 
