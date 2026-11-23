@@ -33,7 +33,7 @@ Etelästä pohjoiseen
 ## Viikko 47
 
 Aika: Ti 17.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Lari Strand (Koha-Suomi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Janne Seppänen ja Lauri Hänninen (Lastu), Auli Rantasalo (Vaara), Elina Uotila ja Erika Miettinen (Kirkes), Roosa Väisänen ja Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Versionvaihto
@@ -66,7 +66,10 @@ Pohjoisesta etelään
 
 **Kirkes**
  * Lanuilta tullut toive satukasseista, jossa voisi hyödyntää nidepaketteja. Tutkitaan siis nidepakettien käyttöönottomahdollisuutta Kirkes-kimpassa.
- * [Yhteisön tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41660) järjestelmäasetusten UpdateNotForLoanStatusOnCheckin/UpdateNotForLoanStatusOnCheckout tekemien tilamuutosten lokittamisesta on edennyt needs signoff -tilaan. Elina testaa jossain vaiheessa. 
+ * [Yhteisön tiketti](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41660) järjestelmäasetusten UpdateNotForLoanStatusOnCheckin/UpdateNotForLoanStatusOnCheckout tekemien tilamuutosten lokittamisesta on edennyt needs signoff -tilaan. Elina testaa jossain vaiheessa.
+
+ **Kyyti**
+ * Normaalia ylläpitoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-47) - [Palaa sivun alkuun](/paakayttajat2026)
@@ -74,7 +77,7 @@ Pohjoisesta etelään
 ## Viikko 46
 
 Aika: Ti 10.11.2026 klo 9.15<br />
-Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes) Hanna Hyttinen ja Auli Rantsalo (Vaara)
+Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Lotta Juvonen ja Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Janne Seppänen ja Lauri Hänninen (Lastu), Hanna Ikonen (Lumme), Erika Miettinen ja Elina Uotila (Kirkes) Hanna Hyttinen ja Auli Rantsalo (Vaara), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/2571)
@@ -112,6 +115,9 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Iina Niemi (Vaski), Anneli Öster
 * Outokummun kirjasto meni kiinni hyllyremontin takia ja siirsimme Kohassa aineistot ei lainattavaan tilaan sekä kaikki varaukset keskeytettiin. Kuljetustilaan ehtineet varaukset peruttiin ja varmistettiin kyseisten varausten paikka jonon kärjessä.
 * Kotipalvelu omatoimiasiakas asiakastyypille on tehty tuotanoon omat laina- ja maksusäännöt.
 * Hanna jää lomalle ja on poissa 12.11-8.12. Vaaran pääkäyttäjistä Auli ja Irina päivystävät.
+
+**Kyyti**
+* Normaalia ylläpitoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-46) - [Palaa sivun alkuun](/paakayttajat2026)
@@ -218,7 +224,7 @@ Etelästä pohjoiseen
 ## Viikko 43
 
 Aika: Ti 20.10.2026 klo 9.15<br />
-Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen (Kirkes), Maria Joona ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Kati Sillgren (Helle), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/2534)
@@ -241,12 +247,15 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa, hiljaista on ollut.
 
+**Kyyti**
+* Normaalia ylläpitoa.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-43) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 42
 
 Aika: Ti 13.10.2026 klo 9.15<br />
-Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen ja Auli Rantasalo (Vaara)
+Läsnä: Janne Seppänen (Lastu), Pia Kusmin (Lappi), Elina Uotila ja Erika Miettinen (Kirkes), Anni Mäki-Mantila (Vaski), Hanna Ikonen (Lumme), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa Väisänen (Kyyti), Katariina Pohto, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Hyttinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/2526)
