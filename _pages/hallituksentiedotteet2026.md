@@ -11,6 +11,30 @@ title: 'Hallituksen tiedotteet 2026'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2026. Ylimmäisenä on aina uusin tiedote.
 
+
+## Koha-Suomen hallituksen kokous 8/2026
+
+20.11.2026
+
+Koha-Suomen hallitus kokoontui tänään perjantaina 20.11. käsittelemään mm. seuraavia asioita:
+
+* Talouskatsaus: yhtiön taloustilanne on hyvä. 
+* Ensi vuoden talousarvion valmistelu etenee, ja antaa nähtävästi mahdollisuuden lisäresurssointiin kehittämistyöhön ensi vuodelle. Asiasta päätetään joulukuun hallituksen kokouksessa
+* Joulukuun kokouksen yhteydessä on hallituksen seminaari jonka aiheita ovat mm. yhtiön strategia, tiekartta ja palvelukuvaus. Kimppojen johtajilta on pyydetty kannanottoa asiantuntijaryhmän esitykseen tiekarttaan liittyen. Nämä huomioidaan hallituksen kokouksessa. 
+
+Liitteenä toimitusjohtajan raportti 8/2026.
+
+Jokaisen kokouksen tiedote lähtee jakeluun tällä jakelulistalla. Jos teillä on tullut jotain henkilövaihdoksia kirjastoissanne tai kimpoissanne, niin ilmoittakaa siitä toimitusjohtajalle (Ari Mäkiranta) tai minulle niin korjaamme spostilistaa.
+
+Kiitos että välität tiedotetta edelleen kirjastoillenne ja kimpoille. Hyvää viikonloppua ja loppusyksyä kaikille!
+
+Olethan yhteydessä jos mieleesi tulee jotakin kysyttävää koha-asioihin liittyen.
+ 
+Koha-Suomen hallituksen puolesta,
+Nina Sipola
+
+Toimitusjohtajan raportti 8/2026: [Toimitusjohtajan raportti 8.pdf](https://github.com/user-attachments/files/35264464/Toimitusjohtajan.raportti.8.pdf)
+
 ## Koha-Suomen hallituksen tiedote 7/2026
 
 27.10.2026
