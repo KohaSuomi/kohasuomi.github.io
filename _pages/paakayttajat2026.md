@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: Ti 24.11.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Versionvaihto
@@ -38,7 +38,10 @@ Etelästä pohjoiseen
 
 **Kirkes**
 * Koulukirjastoista kyselty mahdollisuutta käyttää itsepalvelulainausta tabletilla. Suomessa ei ole käytetty, Elina voi tutkia asiaa. 
-* Muuten normaalia ylläpitoa.     
+* Muuten normaalia ylläpitoa.
+
+**Lumme**
+* Laskuttaja toivonut, että noutomuistutusmaksussa asiakkaan Maksut-välilehdellä kävisi ilmi, että mitä niteitä maksu koskee. Jonkinlaista muistikuvaa oli, että asiasta olisi keskusteltu joskus. Yritetään etsiä asiaan liittyvää mahdollista tikettiä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-48) - [Palaa sivun alkuun](/paakayttajat2026)
 
