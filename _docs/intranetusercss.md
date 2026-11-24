@@ -966,7 +966,7 @@ body#pat_paycollect ul.nav-pills { display: none;}
 ### Piilota kentät 336-338
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota perustiedot-näytöltä kentät 336-338 */
