@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: Ti 24.11.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Versionvaihto
@@ -30,6 +30,11 @@ Etelästä pohjoiseen
 
 **Vaski**
 * Joulukuun alkupuolella otetaan vielä kolmannessa Turun kirjastossa käyttöön uusi varaustennoutosysteemin. Kyseessä ensimmäinen omatoimikirjasto.
+
+**Lappi**
+* Lapin oma Kohan käyttäjäryhmä kokoontui viime viikolla ja siellä tehtyjä päätöksiä aletaan toteuttamaan.
+* Versionvaihtoon valmistautumista.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-48) - [Palaa sivun alkuun](/paakayttajat2026)
 
