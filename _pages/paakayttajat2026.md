@@ -24,7 +24,7 @@ Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suo
   * [Kaikkien asiakastietojen haun esto](https://github.com/KohaSuomi/Koha-26x/issues/32)
     * Meidän toimesta tehty yhteisön tiketti on suljettu duplikaattina. Sen sijaan yhteisöstä löytyy tiketti [Bug 41048](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=41048) - Add ability to disallow empty patron searches via staff interface. Kuljetetaanko tässä versiossa vielä meidän korjausta vai testaanko yhteisön korjausta?
     * Yhteisön toiminto ei täysin estä tyhjää hakua, vaan haku onnistuu myös silloin, jos valitsee tyypin (asiakastyypin) tai kirjaston ja tekee haun.
-* Uusien ominaisuuksien läpikäynti yhdessä 8.12.2026 viikkopalaverissa. Loput wikin osiot läpi 15.12.2026 viikkopalaverissa. Tallennetaan.
+  * Uusien ominaisuuksien -wikin läpikäynti 8.12.2026 viikkopalaverissa. Loput wikin osiot käydään läpi 15.12.2026 viikkopalaverissa. Esittelyt tallennetaan, joten ne pystyy katsomaan jälkikäteenkin, jos ei pääse mukaan.
 
 Etelästä pohjoiseen
 
