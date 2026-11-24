@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 48
 
 Aika: Ti 24.11.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen ja Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Versionvaihto
@@ -45,6 +45,12 @@ Etelästä pohjoiseen
 
 **Lastu**
 * Normaalia ylläpitoa ja nextin läpikäymistä.
+
+**Kyyti**
+* laskutuslistan järjestys: ei näytä olevan eräpäivä, asiakkaan nimi eikä borrowernumber. Kouvolan laskuttaja toivoi, että olisi eräpäiväjärjestyksessä. Muista kimpoista ei tullut kannatusta, joten ei etene kehitysehdotukseksi.
+* Tiedustelin, onkohan Oulun tai Hellen koulujen itsepalvelulainauksessa kosketusnäyttö vai tavallinen näyttö+hiiri. Oulussa on kosketusnäyttöjä.
+* Suomi.fi-viestien aikataulu tuntuu kireältä, jos pitää saada ennen versiovaihtoa tehtyä. Kouvolan tietohallinto kysyi mahdollisuutta pitää palaveria jonkun toisen kunnan kanssa joka on jo viestit hoitanut. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-48) - [Palaa sivun alkuun](/paakayttajat2026)
 
