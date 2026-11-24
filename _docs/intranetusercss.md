@@ -916,7 +916,7 @@ li.nav-item.manualcredit { display: none; }
 
 Maksutyyppien näkyvyyttä voi muokata myös Ylläpidossa Maksutyypit-osiossa. Jos maksutyypiltä ottaa pois rastin Voidaan lisätä maksu käsin? -kohdasta, niin se katoaa Lisää maksu -välilehdeltä.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeen<br />
 Versio: 24.05
 
 ```
@@ -928,7 +928,7 @@ body#pat_maninvoice.pat option[value='LOST'] { display:none; }
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys, alennus, peruuta veloitus ja mitätöi maksutapahtuma -painikkeet
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Tulostus- ja Maksu-nappi */
@@ -946,14 +946,14 @@ Versio: 24.05
 
 ```
 body#pat_borraccount a.btn.btn-default.btn-xs.invoice-print-action { display: none; } /* Maksun tietojen tulostus-napin piilotus Tapahtumat-välilehdeltä */
-body#pat_borraccount button.btn.btn-default.btn-xs.pay-action { display: none; } { display: none; } /* Maksa-napin piilotus Tapahtumat-välilehdeltä */
+body#pat_borraccount button.btn.btn-default.btn-xs.pay-action { display: none; } /* Maksa-napin piilotus Tapahtumat-välilehdeltä */
 body#pat_borraccount a.btn.btn-default.btn-xs.receipt-print-action { display: none; } /* Maksutapahtuman tai maksun poiston kuitin tulostuksen piilotus Tapahtumat-välilehdeltä */
 ```
 
 ### Piilota Poista-välilehden linkki Maksu-sivulta kun maksetaan valittuja maksuja
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Poista-välilehden linkki Maksu-sivulta kun maksetaan valittuja maksuja. */
