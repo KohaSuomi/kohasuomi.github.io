@@ -810,7 +810,7 @@ Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palau
 Tarpeellisuus: Pakollinen<br />
 Versio: 26.05
 
-Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
+Varausten automaattinen kiinnijääminen **päällä**. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
 
 ```
 /* Piilota varausruudusta asiakkaan yhteystiedot, kun käytössä automaattinen varauksen kiinni jääminen */ 
@@ -822,13 +822,13 @@ body#circ_returns.circ li.patroncity { display: none; } /* Osoite piiloon */
 ```
 
 
-Varausten automaattinen kiinnijääminen ei ole päällä
+Varausten automaattinen kiinnijääminen **ei ole päällä**
 
 ```
 /* Piilota varauksen popparista asiakkaan yhteystiedot, kun varausten automaattinen kiinni jääminen ei ole päällä. */
 body#circ_returns.circ.modal-open li.patron-phone { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
 body#circ_returns.circ.modal-open li.patron-email { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
-body#circ_returns.circ.modal-open ul li:nth-child(6) { display: none; }  /* Varaus palautuskirjastossa, sms-numero piiloon */
+body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Varaus palautuskirjastossa, sms-numero piiloon */
 body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
 ```
@@ -846,7 +846,7 @@ Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevall
 Lisätty: 28.12.2022<br />
 Tekijä: Anni Rajala<br />
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Säädä Laskutettu-merkintä palautuksessa huomautuksessa isommaksi */
@@ -902,17 +902,14 @@ body#circ_returns.circ.modal-open div#item-transfer-modal.modal.fade.audio-alert
 ## Maksut
 
 
-### Piilota Luo hyvitys -välilehti asiakkaan maksuista 
+### Piilota Luo credit-maksu -välilehti asiakkaan maksuista 
 
 Tarpeellisuus: Hyvin suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
-li.manualcredit { display: none; }
-body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
-  display: none;
-}
+/* Piilota Luo credit-maksu -välilehti asiakkaan maksuista */
+li.nav-item.manualcredit { display: none; }
 ```
 
 ### Piilota oletusmaksuja asiakkaan lisää maksu -toiminnosta
