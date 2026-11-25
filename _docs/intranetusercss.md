@@ -1058,10 +1058,10 @@ body#catalog_detail.catalog div#custom-coverimg.cover-image div.hint { display: 
 ### Piilota tarkassa haussa Lisärajaukset-osio
 
 Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
-/* Tarkan haun Lisärajuslaatikon piilotus. Jos tämän laittaa päälle, menettää valikoihin lisätyt hakuehdot */
+/* Tarkan haun Lisärajauslaatikon piilotus. Jos tämän laittaa päälle, menettää valikoihin lisätyt hakuehdot */
 #catalog_advsearch #subtype { display:none; }
 ```
 
@@ -1079,7 +1079,7 @@ body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
 ### Piilota Nidetyyppi-sarake korissa
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Nidetyyppi-sarake korissa */
@@ -1107,7 +1107,7 @@ body#catalog_moredetail div.page-section:not(:first-child) div.listgroup:nth-chi
 ### Muuta MARC21-kenttien otsikot näkymään isoilla kirjaimilla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 Tällä rimpsulla voi muuttaa Tietueen MARC21-näkymässä ja tietueen muokkauksessa MARC21-kenttien otsikot näkymään isoilla kirjaimilla (ei siis varsinaisesti muuta, näyttää vain). Voi selkeyttää näkymää jonkin verran.
 
