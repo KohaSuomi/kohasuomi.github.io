@@ -976,7 +976,7 @@ body#catalog_detail #content_type.results_summary { display: none; }
 ### Otsikot boldattuna mustalla
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Rivien otsikot boldilla perustiedot-näytöllä. selkeyttää näkymää. */
@@ -988,7 +988,7 @@ Versio: 25.05
 Liittyy tikettiin [#1395](https://github.com/KohaSuomi/Koha/issues/1395)
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Boldaa hakutuloslistan ja Osakohteet-välilehden nimekkeet ja tekijä-otsikot */
@@ -999,7 +999,7 @@ a.nimeke { font-weight:bold; }
 ### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 
 ```
@@ -1012,7 +1012,7 @@ body#catalog_detail span.results_summary.analytics.analytic_undefined { display:
 
 Piilota perustiedot-näytöltä huomautus toimenpiteestä eli MARC-kentän 583-tieto.
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Ei tarpeen versiossa 26.05<br />
 Versio: 24.05
 
 ```
@@ -1026,26 +1026,26 @@ span.results_summary.actionnote { display: none; }
 Alla on kolme versiota, joilla voi säätää kansikuvien kokoa. Ensimmäinen versio vaikuttaa sekä hakutuloslista-sivulle että perustiedot-sivulle. Toinen vaikuttaa vain hakutulostilsta-sivulle ja kolmas perustiedot-näytölle. 
 
 Tarpeellisuus: Suositeltava<br />
-Versio 24.05
+Versio 26.05
 
 
 Hakutuloslistalle:
 ```
-/* Säädä hakutuloslistan kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */ 
-body#catalog_results.catalog img { max-width: 200px; }
+/* Säädä hakutuloslistan kansikuva tietyn kokoiseksi ja piilota kansikuvateksti. Muuta leveysprosentti tarvittaessa toiseksi. */ 
+body#catalog_results.catalog img { max-width: 90%; }
+body#catalog_results.catalog div.no-image {display: none;}
+body#catalog_results.catalog td.bookcoverimg div.hint {display:none;}
 ```
 
 Perustiedot-näytölle:
-```
-/* Säädä perustiedot-näytön kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */ 
-body#catalog_detail.catalog div#custom-coverimg.cover-image { height: 380px; width: 300px; }
-body#catalog_detail.catalog div#biblio-cover-slider.cover-slider.cover-slides { height: 380px; width: 300px; }
-body#catalog_detail.catalog img#custom-img { height: 90%; max-width: 180% }
+/* Säädä perustiedot-sivulla kansikuva tietyn kokoiseksi ja piilota kansikuvateksti. Muuta leveysprosentti tarvittaessa toiseksi */
+body#catalog_detail.catalog .bookcoverimg img { max-width: 90%; width: 80%;}
+body#catalog_detail.catalog .bookcoverimg div.hint {display:none;}
 ```
 
 ### Piilota kansikuva-sarakkeen teksti hakutuloksista
 
-Tarpeellisuus: Vapaaehtoinen<br />
+Tarpeellisuus: Yhdistetty kansikuvan piilotukseen versiossa 26.05<br />
 Versio 25.05
 
 ```
