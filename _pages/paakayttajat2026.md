@@ -24,7 +24,7 @@ Pohjoisesta etelään
 ## Viikko 48
 
 Aika: Ti 24.11.2026 klo 9.15<br />
-Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Auli Rantasalo (Vaara)
+Läsnä: Anni Mäki-Mantila (Vaski), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Maria Joona ja Pia Kusmin (Lappi), Erika Miettinen ja Elina Uotila (Kirkes), Hanna Ikonen (Lumme), Janne Seppänen ja Lauri Hänninen (Lastu), Roosa Väisänen ja Tuomas Kunttu (Kyyti), Auli Rantasalo (Vaara), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Versionvaihto
@@ -65,6 +65,11 @@ Etelästä pohjoiseen
 **Vaara**
 * kahden asiakkaan maksut eivät olleet siirtyneet Kohaan, Paytrailissa näkyivät, onneksi tapauksia ei enempää
 * muuten normaalia ylläpitoa
+
+**Siilinjärvi**
+* Suomi.fi-käyttöönotto ei ole edennyt kunnassa, yritetään taas kysellä sen perään
+* Paperisten noutoilmoitusten lakkaaminen ei kuitenkaan ole ylitsepääsemätön este, niitä on ollut vain vähän, ja henkilökuntaa ja asiakkaita tiedottomalla ne vähätkin saadaan aika hyvin loppumaan. Henkilökuntaa on jo muistuteltu asiasta.
+* Muuten ei mitään erikoista.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-48) - [Palaa sivun alkuun](/paakayttajat2026)
