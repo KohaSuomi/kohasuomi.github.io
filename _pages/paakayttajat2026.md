@@ -253,6 +253,9 @@ Läsnä: Auli Rantasalo (Vaara) Iina Niemi (Vaski), Katariina Pohto, Piia Semeno
 **Yhteiset**
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/2534)
 * next-kantojen siirto versioon 26.05 on aloitettu. Kaikkia kantoja ei voida tehdä kerralla, vaan tietokannat jaetaan kahteen erään.
+* Keskusteltiin, että kimpoissa voi halutessa ottaa käyttöön uuden kadonnut/LOST-arvon noutamattomille varauksille, jos ne on kadonnut varausten noutohyllystä. Nämä haluttiin erottaa avohyllyistä kadonneista niteistä.
+  * Arvon kuvaukseksi voi laittaa esim. "Kadonnut noutamaton varaus".
+  * Arvon tunnus riippuu siitä, mitä LOST-arvoja kimpassa on jo ennestään käytössä ja mikä on seuraava vapaa arvo.
 
 Pohjoisesta etelään
 
