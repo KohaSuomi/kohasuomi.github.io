@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2026'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 49
+
+Aika: Ti 1.12.2026 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Konsoliin virheilmoitus cookiesta](https://github.com/KohaSuomi/Koha-26x/issues/140)
+  * Tästä pitäisi jonkun kirjastolaisen olla yhteydessä Storiaan, ongelman kuvaus löytyy tiketistä. Viestin voi laittaa cc:llä Koha-Suomen tukisähköpostiin, jolloin joku kehittäjistä voi tarvittaessa olla vielä teknisenä tukena.  
+
+Pohjoisesta etelään
+
 ## Viikko 48
 
 Aika: Ti 24.11.2026 klo 9.15<br />
