@@ -1134,7 +1134,7 @@ body#catalog_detail.catalog select.dt-select-filter { max-width: 200px; }
 Liittyy [tikettiin #139](https://github.com/KohaSuomi/Koha-24.05/issues/139) ja voi laittaa yllä olevan alasvetovalikoiden säädön lisäksi, jos haluaa säätää Kokoelmat-taulukon nidetyyppi-saraketta kapeammaksi kuin muita sarakkeita.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Säädä Nidetyyppi-sarakkeen maksimileveys lisäksi kapeammaksi kuin muilla sarakkeilla "Säädä Kokoelmat-taulukossa alasvetovalikoiden leveys kapeammaksi" -rimpsussa. */
@@ -1147,7 +1147,7 @@ body#catalog_detail.catalog th#holdings_itype select.dt-select-filter { max-widt
 Liittyy [tikettiin #139](https://github.com/KohaSuomi/Koha-24.05/issues/139).
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Säädä Kokoelmat-taulukossa Tila-sarakkeelle miminileveys, jotta taulukko ei veny kovin pitkäksi. */
@@ -1157,7 +1157,7 @@ body#catalog_detail.catalog td.status { min-width: 250px;}
 ### Lisää nidehakuun huomautus <>-operaattoreiden katkaisusta Viivakoodi-valikon alle
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Lisää nidehakuun huomautus <>-operaattoreiden katkaisusta Viivakoodi-valikon alle. */ 
@@ -1176,7 +1176,7 @@ body#catalog_itemsearch.catalog p.hint:nth-child(2):after { content: " \00a0 Yea
 Näillä pystyy piilottamaan halutessaan hakutulos-sivulla faseteista kotikirjaston ja/tai sijaintikirjaston fasetin. Niitä ei pysty enää poistamaan näkyvistä Elasticsearchin asetuksissa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Kirjasto-fasetin piilotus */
@@ -1187,7 +1187,7 @@ body#catalog_results.catalog li#holdingbranch_id { display: none; } /* Sijaintik
 ### Piilota Perustiedot-näytöltä Kokoelmat-taulukosta Tila-valikosta vaihtoehtoja
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 25.05
+Versio: 26.05
 
 Tällä saa piilotettua Perustiedot-näytöltä Kokoelmat-taulukosta Tila-valikosta vaihtoehtoja.
 
@@ -1204,11 +1204,11 @@ body#catalog_detail.catalog [class="dt-select-filter"] :is([value='^local_use$']
 ### Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan
 
 Tarpeellisuus: Suositeltava<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan */
-body#circ_request.catalog div.browse { display: none; }
+body#circ_request.reserve div.browse { display: none; }
 ```
 
 ### Piilota Näytä aina varaukset -täppä varauksen teko -sivulla
