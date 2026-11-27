@@ -18,8 +18,12 @@ Läsnä:
 **Yhteiset**
 * [Konsoliin virheilmoitus cookiesta](https://github.com/KohaSuomi/Koha-26x/issues/140)
   * Tästä pitäisi jonkun kirjastolaisen olla yhteydessä Storiaan, ongelman kuvaus löytyy tiketistä. Viestin voi laittaa cc:llä Koha-Suomen tukisähköpostiin, jolloin joku kehittäjistä voi tarvittaessa olla vielä teknisenä tukena.  
+* Versionvaihto
+  * Onko ongelma vai ei: [Käsittele varausryhmänä -valinta näkyy myös nidevarausta tehdessä](https://github.com/KohaSuomi/Koha-26x/issues/148)
 
 Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2026#viikko-49) - [Palaa sivun alkuun](/paakayttajat2026)
 
 ## Viikko 48
 
