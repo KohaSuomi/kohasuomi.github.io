@@ -1249,11 +1249,11 @@ Versio: 24.05
 Kun varaus on keskeytetty, muuttuu tällä säädöllä teksti keskeytetty-teksti punaiseksi ja keskeytys on helpompi havaita.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Varausten keskeytyksen korostus punaikseksi tietueen varaukset-sivulla */ 
-#circ_request.catalog button[data-suspended="true"] + label { color:red; font-weight:bold !important;}
+#circ_request.reserve button[data-suspended="true"] + label { color:red; font-weight:bold !important;}
 ```
 
 ### Piilota monivarauksen teossa ensimmäinen sarake eli valintatäpät
@@ -1269,10 +1269,10 @@ Versio: 24.05
 #requesttitles td:first-child { display: none; }
 ```
 
-### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joista asiakas on tehnyt poistopyynnön
+### Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joista asiakas on tehnyt poistopyynnön -välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota Noudettavissa olevat varaukset -raportilta Varaukset, joista asiakas on tehnyt poistopyynnön */
@@ -1290,9 +1290,10 @@ body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer th:n
 body#circ_request.catalog table#holds-queue.holds_table.dataTable.no-footer td:nth-child(13) { display: none; }
 ```
 
-### Piilota varaajan asiakastiedot varausvaroituksesta Kuljetus- ja siirrot -sivulla 
+### Piilota varaajan asiakastiedot varausvaroituksesta Kuljetukset ja siirrot -sivulla 
 
-Versio: 24.05
+Tarpeellisuus: Suositeltava<br />
+Versio: 26.05
 
 ```
 /* Piilota varaajan asiakastiedot varausvaroituksesta Kuljetus- ja siirrot -sivulla */
@@ -1300,10 +1301,10 @@ Versio: 24.05
 #circ_branchtransfers div#transfer_confirm.modal div.modal-body h5 { display: none; }
 ```
 
-### Piilota 'Peruuta varaus' nappi varausvaroituksesta Kuljetus- ja siirrot -sivulla
+### Piilota 'Peruuta varaus' nappi varausvaroituksesta Kuljetukset ja siirrot -sivulla
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 24.05
+Versio: 26.05
 
 ```
 /* Piilota 'Peruuta varaus' nappi varausvaroituksesta Kuljetus- ja siirrot -sivulla */
@@ -1314,11 +1315,11 @@ div#transfer_confirm.modal div.modal-footer div:has(input[value="cud-KillWaiting
 ### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 25.05
+Versio: 26.05
 
 ```
 /* Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus. */
-body#circ_request.catalog div#requestspecific_wrapper:before {
+body#circ_request.reserve fieldset.enable_request_specific:before {
 content: " Valitse noutokirjasto niteen kohdalta, jos teet nidevarauksen.";
 color:red;
 }
